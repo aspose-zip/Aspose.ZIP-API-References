@@ -12,35 +12,34 @@ The Saving namespace contains classes which are needed for operations entailing 
 
 | Class | Description |
 | --- | --- |
-| class [AesEcryptionSettings](./aesecryptionsettings) | Settings for AES encryption or decryption algorithm. |
-| class [ArchiveEntrySettings](./archiveentrysettings) | Settings used to compress or decompress entries. |
-| class [ArchiveSaveOptions](./archivesaveoptions) | Options for saving an archive. |
-| class [Bzip2CompressionSettings](./bzip2compressionsettings) | Settings for Bzip2 compression method. |
-| abstract class [CompressionSettings](./compressionsettings) | Settings needed for compressor or decompressor to work. |
-| class [DeflateCompressionSettings](./deflatecompressionsettings) | Settings for Deflate compression method. |
-| abstract class [EncryptionSettings](./encryptionsettings) | Base class for settings for several zip encryption methods. |
-| class [EventsBag](./eventsbag) | Events container used on [`Archive`](aspose.zip/archive) saving. |
-| class [LzmaCompressionSettings](./lzmacompressionsettings) | Settings for LZMA compression method. |
-| class [ParallelOptions](./paralleloptions) | Options for parallel compression. |
-| class [PPMdCompressionSettings](./ppmdcompressionsettings) | Settings for PPMd compression method. |
-| class [SelfExtractorOptions](./selfextractoroptions) | Options for creation of self-extracted executable archive. |
-| class [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings) | Settings for AES encryption or decryption algorithm. |
-| class [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings) | Settings for BZip2 compression method within 7z archive. |
-| abstract class [SevenZipCompressionSettings](./sevenzipcompressionsettings) | Settings needed for 7z compressor or decompressor to work. |
-| abstract class [SevenZipEncryptionSettings](./sevenzipencryptionsettings) | Base class for settings for several 7z encryption methods. |
-| class [SevenZipEntrySettings](./sevenzipentrysettings) | Settings used to compress or decompress 7Z entries. |
-| class [SevenZipLZMA2CompressionSettings](./sevenziplzma2compressionsettings) | Settings for LZMA2 compression method within 7z archive. |
-| class [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
-| class [SevenZipPPMdCompressionSettings](./sevenzipppmdcompressionsettings) |  |
-| class [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
-| class [StoreCompressionSettings](./storecompressionsettings) | Settings for Store compression method. |
-| class [TraditionalEncryptionSettings](./traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
+| [AesEcryptionSettings](./aesecryptionsettings) | Settings for AES encryption or decryption algorithm. |
+| [ArchiveEntrySettings](./archiveentrysettings) | Settings used to compress or decompress entries. |
+| [ArchiveSaveOptions](./archivesaveoptions) | Options for saving an archive. |
+| [Bzip2CompressionSettings](./bzip2compressionsettings) | Settings for Bzip2 compression method. |
+| [CompressionSettings](./compressionsettings) | Settings needed for compressor or decompressor to work. |
+| [DeflateCompressionSettings](./deflatecompressionsettings) | Settings for Deflate compression method. |
+| [EncryptionSettings](./encryptionsettings) | Base class for settings for several zip encryption methods. |
+| [EventsBag](./eventsbag) | Events container used on [`Archive`](../aspose.zip/archive) saving. |
+| [LzmaCompressionSettings](./lzmacompressionsettings) | Settings for LZMA compression method. |
+| [ParallelOptions](./paralleloptions) | Options for parallel compression. |
+| [PPMdCompressionSettings](./ppmdcompressionsettings) | Settings for PPMd compression method. |
+| [SelfExtractorOptions](./selfextractoroptions) | Options for creation of self-extracted executable archive. |
+| [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings) | Settings for AES encryption or decryption algorithm. |
+| [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings) | Settings for BZip2 compression method within 7z archive. |
+| [SevenZipCompressionSettings](./sevenzipcompressionsettings) | Settings needed for 7z compressor or decompressor to work. |
+| [SevenZipEncryptionSettings](./sevenzipencryptionsettings) | Base class for settings for several 7z encryption methods. |
+| [SevenZipEntrySettings](./sevenzipentrysettings) | Settings used to compress or decompress 7Z entries. |
+| [SevenZipLZMA2CompressionSettings](./sevenziplzma2compressionsettings) | Settings for LZMA2 compression method within 7z archive. |
+| [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
+| [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
+| [StoreCompressionSettings](./storecompressionsettings) | Settings for Store compression method. |
+| [TraditionalEncryptionSettings](./traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [EncryptionMethod](./encryptionmethod) | Encryption/decryption methods can be used with zip archive. |
-| enum [ParallelCompressionMode](./parallelcompressionmode) | Options of usage parallel compression facility. |
-| enum [SevenZipCompressionMethod](./sevenzipcompressionmethod) | Methods of compression that 7Z format support. |
+| [EncryptionMethod](./encryptionmethod) | Encryption/decryption methods can be used with zip archive. |
+| [ParallelCompressionMode](./parallelcompressionmode) | Options of usage parallel compression facility. |
+| [SevenZipCompressionMethod](./sevenzipcompressionmethod) | Methods of compression that 7Z format support. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.ZIP.dll -->
