@@ -14,7 +14,7 @@ Enumeration with supported formats of [`TarArchive`](../tararchive).
 public enum TarFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

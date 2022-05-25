@@ -14,7 +14,7 @@ Methods of compression that 7Z format support.
 public enum SevenZipCompressionMethod : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

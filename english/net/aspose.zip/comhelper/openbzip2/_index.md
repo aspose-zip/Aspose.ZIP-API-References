@@ -18,7 +18,7 @@ public Bzip2Archive OpenBzip2(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A .NET stream object that contains the archive to load. |
 
-## Return Value
+### Return Value
 
 A [`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive) object that represents the archive.
 
@@ -43,7 +43,7 @@ public Bzip2Archive OpenBzip2(string fileName)
 | --- | --- | --- |
 | fileName | String | Filename of the archive to load. |
 
-## Return Value
+### Return Value
 
 A [`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive) object that represents the archive.
 

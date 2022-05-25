@@ -18,7 +18,7 @@ public Archive OpenZip(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A .NET stream object that contains the archive to load. |
 
-## Return Value
+### Return Value
 
 A [`Archive`](../../archive) object that represents the archive.
 
@@ -43,7 +43,7 @@ public Archive OpenZip(string fileName)
 | --- | --- | --- |
 | fileName | String | Filename of the archive to load. |
 
-## Return Value
+### Return Value
 
 A [`Archive`](../../archive) object that represents the archive.
 

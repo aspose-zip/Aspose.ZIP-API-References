@@ -19,7 +19,7 @@ public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDi
 | directory | DirectoryInfo | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 The archive with entries composed.
 
@@ -62,7 +62,7 @@ public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDir
 | sourceDirectory | String | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 The archive with entries composed.
 

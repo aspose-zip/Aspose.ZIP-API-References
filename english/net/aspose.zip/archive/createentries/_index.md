@@ -19,7 +19,7 @@ public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory 
 | directory | DirectoryInfo | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 The archive with entries composed.
 
@@ -62,7 +62,7 @@ public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory =
 | sourceDirectory | String | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 The archive with entries composed.
 

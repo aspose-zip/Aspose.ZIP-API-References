@@ -18,7 +18,7 @@ public GzipArchive OpenGzip(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A .NET stream object that contains the archive to load. |
 
-## Return Value
+### Return Value
 
 A [`GzipArchive`](../../../aspose.zip.gzip/gziparchive) object that represents the archive.
 
@@ -43,7 +43,7 @@ public GzipArchive OpenGzip(string fileName)
 | --- | --- | --- |
 | fileName | String | Filename of the archive to load. |
 
-## Return Value
+### Return Value
 
 A [`GzipArchive`](../../../aspose.zip.gzip/gziparchive) object that represents the archive.
 

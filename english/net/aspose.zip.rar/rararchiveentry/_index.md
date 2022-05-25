@@ -34,12 +34,6 @@ public abstract class RarArchiveEntry
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract)(string, string) | Extracts the entry to the filesystem by the path provided. |
 | [Open](../../aspose.zip.rar/rararchiveentry/open)(string) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [ExtractionProgressed](extractionprogressed) | Raises when a portion of raw stream extracted. |
-
 ### Remarks
 
 Cast a [`RarArchiveEntry`](../rararchiveentry) instance to [`RarArchiveEntryEncrypted`](../rararchiveentryencrypted) to determine whether the entry encrypted or not.

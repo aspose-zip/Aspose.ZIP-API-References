@@ -19,7 +19,7 @@ public TarArchive CreateEntries(DirectoryInfo directory, bool includeRootDirecto
 | directory | DirectoryInfo | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 The archive with entries composed.
 
@@ -57,7 +57,7 @@ public TarArchive CreateEntries(string sourceDirectory, bool includeRootDirector
 | sourceDirectory | String | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 The archive with entries composed.
 

@@ -14,7 +14,7 @@ The enumeration defines checksum calculation approach for xz archive.
 public enum XzCheckType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

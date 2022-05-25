@@ -22,7 +22,7 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 
-## Return Value
+### Return Value
 
 Seven Zip entry instance.
 
@@ -86,7 +86,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 | fileInfo | FileSystemInfo | The metadata of file or folder to be compressed. |
 
-## Return Value
+### Return Value
 
 SevenZip entry instance.
 
@@ -142,7 +142,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | source | Stream | The input stream for the entry. |
 | newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 
-## Return Value
+### Return Value
 
 Zip entry instance.
 
@@ -184,7 +184,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 
-## Return Value
+### Return Value
 
 Zip entry instance.
 

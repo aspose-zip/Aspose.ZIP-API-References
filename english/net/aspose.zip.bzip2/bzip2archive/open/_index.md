@@ -14,7 +14,7 @@ Opens the archive for extraction and provides a stream with archive content.
 public Stream Open()
 ```
 
-## Return Value
+### Return Value
 
 The stream that represents the contents of the archive.
 

@@ -18,7 +18,7 @@ public Archive DeleteEntry(ArchiveEntry entry)
 | --- | --- | --- |
 | entry | ArchiveEntry | The entry to remove from the entries list. |
 
-## Return Value
+### Return Value
 
 The archive with the entry deleted.
 
@@ -56,7 +56,7 @@ public Archive DeleteEntry(int entryIndex)
 | --- | --- | --- |
 | entryIndex | Int32 | The zero-based index of the entry to remove. |
 
-## Return Value
+### Return Value
 
 The archive with the entry deleted.
 

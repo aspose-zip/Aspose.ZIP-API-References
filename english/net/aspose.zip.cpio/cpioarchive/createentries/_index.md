@@ -19,7 +19,7 @@ public CpioArchive CreateEntries(string sourceDirectory, bool includeRootDirecto
 | sourceDirectory | String | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 Cpio entry instance.
 
@@ -67,7 +67,7 @@ public CpioArchive CreateEntries(DirectoryInfo directory, bool includeRootDirect
 | directory | DirectoryInfo | Directory to compress. |
 | includeRootDirectory | Boolean | Indicates whether to include the root directory itself or not. |
 
-## Return Value
+### Return Value
 
 Cpio entry instance.
 

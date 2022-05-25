@@ -19,7 +19,7 @@ public FileInfo Extract(string path, string password = null)
 | path | String | The path to destination file. If the file already exists, it will be overwritten. |
 | password | String | Optional password for decryption. |
 
-## Return Value
+### Return Value
 
 The file info of composed file.
 

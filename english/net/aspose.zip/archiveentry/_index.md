@@ -33,13 +33,6 @@ public abstract class ArchiveEntry
 | [Extract](../../aspose.zip/archiveentry/extract)(string, string) | Extracts the entry to the filesystem by the path provided. |
 | [Open](../../aspose.zip/archiveentry/open)(string) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [CompressionProgressed](compressionprogressed) | Raises when a portion of raw stream compressed. |
-| event [ExtractionProgressed](extractionprogressed) | Raises when a portion of raw stream extracted. |
-
 ### Remarks
 
 Cast an [`ArchiveEntry`](../archiveentry) instance to [`ArchiveEntryEncrypted`](../archiveentryencrypted) to determine whether the entry encrypted or not.

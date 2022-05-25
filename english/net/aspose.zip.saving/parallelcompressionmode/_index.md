@@ -14,7 +14,7 @@ Options of usage parallel compression facility.
 public enum ParallelCompressionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

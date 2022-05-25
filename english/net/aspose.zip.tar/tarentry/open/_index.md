@@ -14,7 +14,7 @@ Opens the entry for extraction and provides a stream with entry content.
 public Stream Open()
 ```
 
-## Return Value
+### Return Value
 
 The stream that represents the contents of the entry.
 

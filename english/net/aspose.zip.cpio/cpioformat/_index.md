@@ -14,7 +14,7 @@ Enumeration with supported formats of cpio.
 public enum CpioFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Encryption/decryption methods can be used with zip archive.
 public enum EncryptionMethod : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
