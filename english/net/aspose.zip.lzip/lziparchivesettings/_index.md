@@ -3,7 +3,7 @@ title: LzipArchiveSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.zip.lzip/lziparchivesettings/
 ---
 ## LzipArchiveSettings class

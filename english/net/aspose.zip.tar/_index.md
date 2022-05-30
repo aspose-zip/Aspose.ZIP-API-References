@@ -3,7 +3,7 @@ title: Aspose.Zip.Tar
 second_title: Aspose.ZIP for .NET API Reference
 description: The Tar namespace contains classes which represent tar archive related entities.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.zip.tar/
 ---
 The Tar namespace contains classes which represent tar archive related entities.

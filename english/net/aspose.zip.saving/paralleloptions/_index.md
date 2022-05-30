@@ -3,7 +3,7 @@ title: ParallelOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 400
 url: /net/aspose.zip.saving/paralleloptions/
 ---
 ## ParallelOptions class
