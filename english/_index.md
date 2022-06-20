@@ -3,6 +3,7 @@ title: Aspose.ZIP Product Family
 additionalTitle: Aspose API References
 type: docs
 weight: 10
+description: "Aspose.Zip is an easy-to-use API to compress, extract, and process compressed files in Zip, RAR, or 7Zip formats. Applies encryption using ZipCrypto or AES128, 192, and AES256."
 url: /
 ---
 
