@@ -3,7 +3,7 @@ title: EventsBag
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.zip.saving/eventsbag/
 ---
 ## EventsBag class

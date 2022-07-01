@@ -3,7 +3,7 @@ title: SevenZipLZMACompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.zip.saving/sevenziplzmacompressionsettings/
 ---
 ## SevenZipLZMACompressionSettings class

@@ -12,7 +12,7 @@ The Wim namespace contains classes which represent WIM archive related entities.
 
 | Class | Description |
 | --- | --- |
-| [WimArchive](./wimarchive) | This class represents wim archive file |
+| [WimArchive](./wimarchive) | This class represents wim archive file. |
 | [WimDirectoryEntry](./wimdirectoryentry) | Represents single directory within wim archive. |
 | [WimEntry](./wimentry) | Represents single file or directory within wim image. |
 | [WimFileEntry](./wimfileentry) | Represents single file within wim archive. |

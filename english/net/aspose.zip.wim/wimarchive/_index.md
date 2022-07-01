@@ -3,12 +3,12 @@ title: WimArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.zip.wim/wimarchive/
 ---
 ## WimArchive class
 
-This class represents wim archive file
+This class represents wim archive file.
 
 ```csharp
 public class WimArchive : IDisposable

@@ -3,7 +3,7 @@ title: SevenZipArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.zip.sevenzip/sevenziparchiveentryencrypted/
 ---
 ## SevenZipArchiveEntryEncrypted class
@@ -23,6 +23,13 @@ public class SevenZipArchiveEntryEncrypted : SevenZipArchiveEntry
 | [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory) { get; } | Gets a value indicating whether the entry represents directory. |
 | [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name) { get; } | Gets name of the entry within archive. |
 | [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize) { get; } | Gets size of original file. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Extract](../../aspose.zip.sevenzip/sevenziparchiveentry/extract)(string, string) | Extracts the entry to the filesystem by the path provided. |
+| [Open](../../aspose.zip.sevenzip/sevenziparchiveentry/open)(string) | Opens the entry for extraction and provides a stream with entry content. |
 
 ### See Also
 
