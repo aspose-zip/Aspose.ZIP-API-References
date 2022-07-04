@@ -3,7 +3,7 @@ title: ParallelCompressionMode
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 400
 url: /net/aspose.zip.saving/parallelcompressionmode/
 ---
 ## ParallelCompressionMode enumeration
@@ -14,7 +14,7 @@ Options of usage parallel compression facility.
 public enum ParallelCompressionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

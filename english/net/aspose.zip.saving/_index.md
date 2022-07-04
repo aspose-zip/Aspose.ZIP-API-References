@@ -3,7 +3,7 @@ title: Aspose.Zip.Saving
 second_title: Aspose.ZIP for .NET API Reference
 description: The Saving namespace contains classes which are needed for operations entailing saving the archive.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip.saving/
 ---
 The Saving namespace contains classes which are needed for operations entailing saving the archive.
@@ -19,6 +19,7 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [CompressionSettings](./compressionsettings) | Settings needed for compressor or decompressor to work. |
 | [DeflateCompressionSettings](./deflatecompressionsettings) | Settings for Deflate compression method. |
 | [EncryptionSettings](./encryptionsettings) | Base class for settings for several zip encryption methods. |
+| [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings) | Settings for Enhanced Deflate compression method. |
 | [EventsBag](./eventsbag) | Events container used on [`Archive`](../aspose.zip/archive) saving. |
 | [LzmaCompressionSettings](./lzmacompressionsettings) | Settings for LZMA compression method. |
 | [ParallelOptions](./paralleloptions) | Options for parallel compression. |

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the event should be canceled.
 public bool Cancel { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 True if the event should be canceled; otherwise, false.
 

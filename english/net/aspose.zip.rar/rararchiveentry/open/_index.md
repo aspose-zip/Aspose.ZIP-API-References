@@ -18,7 +18,7 @@ public Stream Open(string password = null)
 | --- | --- | --- |
 | password | String | Optional password for decryption. It can also be set within [`DecryptionPassword`](../../rararchiveloadoptions/decryptionpassword). |
 
-## Return Value
+### Return Value
 
 The stream that represents the contents of the entry.
 

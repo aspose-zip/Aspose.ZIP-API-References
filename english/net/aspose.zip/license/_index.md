@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.zip/license/
 ---
 ## License class

@@ -3,7 +3,7 @@ title: Aspose.Zip.Xz
 second_title: Aspose.ZIP for .NET API Reference
 description: The Xz namespace contains classes which represent xz archive related entities.
 type: docs
-weight: 110
+weight: 140
 url: /net/aspose.zip.xz/
 ---
 The Xz namespace contains classes which represent xz archive related entities.

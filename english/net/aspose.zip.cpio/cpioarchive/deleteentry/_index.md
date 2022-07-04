@@ -18,7 +18,7 @@ public CpioArchive DeleteEntry(CpioEntry entry)
 | --- | --- | --- |
 | entry | CpioEntry | The entry to remove from the entries list. |
 
-## Return Value
+### Return Value
 
 Cpio entry instance.
 
@@ -62,7 +62,7 @@ public CpioArchive DeleteEntry(int entryIndex)
 | --- | --- | --- |
 | entryIndex | Int32 | The zero-based index of the entry to remove. |
 
-## Return Value
+### Return Value
 
 The archive with the entry deleted.
 

@@ -3,7 +3,7 @@ title: DeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 330
 url: /net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class

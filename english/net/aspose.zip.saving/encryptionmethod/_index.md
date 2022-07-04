@@ -3,7 +3,7 @@ title: EncryptionMethod
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 340
 url: /net/aspose.zip.saving/encryptionmethod/
 ---
 ## EncryptionMethod enumeration
@@ -14,7 +14,7 @@ Encryption/decryption methods can be used with zip archive.
 public enum EncryptionMethod : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

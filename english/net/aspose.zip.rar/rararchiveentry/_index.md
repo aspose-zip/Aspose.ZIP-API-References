@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.zip.rar/rararchiveentry/
 ---
 ## RarArchiveEntry class
@@ -33,12 +33,6 @@ public abstract class RarArchiveEntry
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract)(Stream, string) | Extracts the entry to the stream provided. |
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract)(string, string) | Extracts the entry to the filesystem by the path provided. |
 | [Open](../../aspose.zip.rar/rararchiveentry/open)(string) | Opens the entry for extraction and provides a stream with decompressed entry content. |
-
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [ExtractionProgressed](extractionprogressed) | Raises when a portion of raw stream extracted. |
 
 ### Remarks
 

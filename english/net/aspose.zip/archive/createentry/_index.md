@@ -22,7 +22,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for added [`ArchiveEntry`](../../archiveentry) item. |
 
-## Return Value
+### Return Value
 
 Zip entry instance.
 
@@ -81,7 +81,7 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | source | Stream | The input stream for the entry. |
 | newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for added [`ArchiveEntry`](../../archiveentry) item. |
 
-## Return Value
+### Return Value
 
 Zip entry instance.
 
@@ -121,7 +121,7 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for added [`ArchiveEntry`](../../archiveentry) item. |
 
-## Return Value
+### Return Value
 
 Zip entry instance.
 
@@ -185,7 +185,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for added [`ArchiveEntry`](../../archiveentry) item. |
 | fileInfo | FileSystemInfo | The metadata of file or folder to be compressed. |
 
-## Return Value
+### Return Value
 
 Zip entry instance.
 

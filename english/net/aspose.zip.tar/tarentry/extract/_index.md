@@ -18,7 +18,7 @@ public FileSystemInfo Extract(string path)
 | --- | --- | --- |
 | path | String | The path to destination file. If the file already exists, it will be overwritten. |
 
-## Return Value
+### Return Value
 
 The file info of composed file.
 

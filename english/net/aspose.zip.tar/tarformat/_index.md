@@ -3,7 +3,7 @@ title: TarFormat
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 600
 url: /net/aspose.zip.tar/tarformat/
 ---
 ## TarFormat enumeration
@@ -14,7 +14,7 @@ Enumeration with supported formats of [`TarArchive`](../tararchive).
 public enum TarFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

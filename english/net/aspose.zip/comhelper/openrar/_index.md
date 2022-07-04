@@ -18,7 +18,7 @@ public RarArchive OpenRar(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A .NET stream object that contains the archive to load. |
 
-## Return Value
+### Return Value
 
 A RarArchive object that represents the archive.
 
@@ -42,7 +42,7 @@ public RarArchive OpenRar(string fileName)
 | --- | --- | --- |
 | fileName | String | Filename of the archive to load. |
 
-## Return Value
+### Return Value
 
 A RarArchive object that represents the archive.
 

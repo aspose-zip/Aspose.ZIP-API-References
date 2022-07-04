@@ -20,7 +20,7 @@ public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo 
 | source | Stream | The input stream for the entry. |
 | fileInfo | FileSystemInfo | The metadata of file or folder to be compressed. |
 
-## Return Value
+### Return Value
 
 Tar entry instance.
 
@@ -70,7 +70,7 @@ public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately
 | fileInfo | FileInfo | The metadata of file or folder to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 
-## Return Value
+### Return Value
 
 Tar entry instance.
 
@@ -123,7 +123,7 @@ public TarEntry CreateEntry(string name, string path, bool openImmediately = fal
 | path | String | Path to file to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 
-## Return Value
+### Return Value
 
 Tar entry instance.
 

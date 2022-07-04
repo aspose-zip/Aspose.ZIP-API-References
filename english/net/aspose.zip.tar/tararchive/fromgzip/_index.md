@@ -20,7 +20,7 @@ public static TarArchive FromGZip(Stream source)
 | --- | --- | --- |
 | source | Stream | The source of the archive. |
 
-## Return Value
+### Return Value
 
 An instance of [`TarArchive`](../../tararchive)
 
@@ -50,7 +50,7 @@ public static TarArchive FromGZip(string path)
 | --- | --- | --- |
 | path | String | The path to the archive file. |
 
-## Return Value
+### Return Value
 
 An instance of [`TarArchive`](../../tararchive)
 

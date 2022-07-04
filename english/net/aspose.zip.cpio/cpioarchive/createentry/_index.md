@@ -20,7 +20,7 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 | fileInfo | FileInfo | The metadata of file or folder to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 
-## Return Value
+### Return Value
 
 Cpio entry instance.
 
@@ -70,7 +70,7 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 | sourcePath | String | Path to file to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
 
-## Return Value
+### Return Value
 
 Cpio entry instance.
 
@@ -123,7 +123,7 @@ public CpioEntry CreateEntry(string name, Stream source)
 | name | String | The name of the entry. |
 | source | Stream | The input stream for the entry. |
 
-## Return Value
+### Return Value
 
 Cpio entry instance.
 
