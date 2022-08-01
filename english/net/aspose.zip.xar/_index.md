@@ -3,7 +3,7 @@ title: Aspose.Zip.Xar
 second_title: Aspose.ZIP for .NET API Reference
 description: The Xar namespace contains classes which represent Xar archive related entities.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.zip.xar/
 ---
 The Xar namespace contains classes which represent Xar archive related entities.

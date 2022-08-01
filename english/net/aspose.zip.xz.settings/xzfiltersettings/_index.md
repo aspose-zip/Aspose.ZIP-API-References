@@ -3,7 +3,7 @@ title: XzFilterSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.zip.xz.settings/xzfiltersettings/
 ---
 ## XzFilterSettings class

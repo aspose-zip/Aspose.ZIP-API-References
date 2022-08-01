@@ -3,7 +3,7 @@ title: XzLZMA2FilterSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.zip.xz.settings/xzlzma2filtersettings/
 ---
 ## XzLZMA2FilterSettings class
