@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/aspose.zip.bzip2/bzip2archive/setsource/
 ---
-## Bzip2Archive.SetSource method (1 of 4)
+## Bzip2Archive.SetSource method (1 of 5)
 
 Sets the content to be compressed within the archive.
 
@@ -36,7 +36,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## Bzip2Archive.SetSource method (2 of 4)
+## Bzip2Archive.SetSource method (2 of 5)
 
 Sets the content to be compressed within the archive.
 
@@ -66,7 +66,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## Bzip2Archive.SetSource method (3 of 4)
+## Bzip2Archive.SetSource method (3 of 5)
 
 Sets the content to be compressed within the archive.
 
@@ -107,21 +107,22 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## Bzip2Archive.SetSource method (4 of 4)
+## Bzip2Archive.SetSource method (4 of 5)
 
 Sets the content to be compressed within the archive.
 
 ```csharp
-public void SetSource(TarArchive tarArchive)
+public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tarArchive | TarArchive | Tar archive to be compressed. |
+| format | TarFormat | Defines tar header format. |
 
 ### Remarks
 
-Use this method to compose joint tar.gz archive.
+Use this method to compose joint tar.bz2 archive.
 
 ### Examples
 
@@ -132,8 +133,8 @@ using (var tarArchive = new TarArchive())
     tarArchive.CreateEntry("second.bin", "data2.bin");
     using (var bzippedArchive = new Bzip2Archive())
     {
-           bzippedArchive.SetSource(tarArchive);
-           bzippedArchive.Save("archive.tar.bz2");
+        bzippedArchive.SetSource(tarArchive);
+        bzippedArchive.Save("archive.tar.bz2");
     }
 }
 ```
@@ -141,6 +142,49 @@ using (var tarArchive = new TarArchive())
 ### See Also
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive)
+* enum [TarFormat](../../../aspose.zip.tar/tarformat)
+* class [Bzip2Archive](../../bzip2archive)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## Bzip2Archive.SetSource method (5 of 5)
+
+Sets the content to be compressed within the archive.
+
+```csharp
+public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.OldAscii)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cpioArchive | CpioArchive | Cpio archive to be compressed. |
+| format | CpioFormat | Defines cpio header format. |
+
+### Remarks
+
+Use this method to compose joint cpio.bz2 archive.
+
+### Examples
+
+```csharp
+using (var cpioArchive = new CpioArchive())
+{
+    cpioArchive.CreateEntry("first.bin", "data1.bin");
+    cpioArchive.CreateEntry("second.bin", "data2.bin");
+    using (var bzippedArchive = new Bzip2Archive())
+    {
+        bzippedArchive.SetSource(cpioArchive);
+        bzippedArchive.Save("archive.cpio.bz2");
+    }
+}
+```
+
+### See Also
+
+* class [CpioArchive](../../../aspose.zip.cpio/cpioarchive)
+* enum [CpioFormat](../../../aspose.zip.cpio/cpioformat)
 * class [Bzip2Archive](../../bzip2archive)
 * namespace [Aspose.Zip.Bzip2](../../bzip2archive)
 * assembly [Aspose.Zip](../../../)

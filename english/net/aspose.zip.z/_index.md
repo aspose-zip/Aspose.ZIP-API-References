@@ -3,7 +3,7 @@ title: Aspose.Zip.Z
 second_title: Aspose.ZIP for .NET API Reference
 description: The Z namespace contains classes which represent Z archive related entities.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.zip.z/
 ---
 The Z namespace contains classes which represent Z archive related entities.

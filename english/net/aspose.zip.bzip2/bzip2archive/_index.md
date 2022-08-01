@@ -34,7 +34,8 @@ public class Bzip2Archive : IDisposable
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(Stream) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(string) | Sets the content to be compressed within the archive. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(TarArchive) | Sets the content to be compressed within the archive. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(CpioArchive, CpioFormat) | Sets the content to be compressed within the archive. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(TarArchive, TarFormat) | Sets the content to be compressed within the archive. |
 
 ### Remarks
 

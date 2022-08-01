@@ -43,6 +43,10 @@ public class CpioArchive : IDisposable
 | [ExtractToDirectory](../../aspose.zip.cpio/cpioarchive/extracttodirectory)(string) | Extracts all the files in the archive to the directory provided. |
 | [Save](../../aspose.zip.cpio/cpioarchive/save)(Stream, CpioFormat) | Saves archive to the stream provided. |
 | [Save](../../aspose.zip.cpio/cpioarchive/save)(string, CpioFormat) | Saves archive to destination file provided. |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped)(Stream, CpioFormat) | Saves archive to the stream with gzip compression. |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped)(string, CpioFormat) | Saves archive to the file by path with gzip compression. |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed)(Stream, CpioFormat, XzArchiveSettings) | Saves archive to the stream with xz compression. |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed)(string, CpioFormat, XzArchiveSettings) | Saves archive to the path by path with xz compression. |
 
 ### See Also
 
