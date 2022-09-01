@@ -3,7 +3,7 @@ title: RarArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.zip.rar/rararchiveentryencrypted/
 ---
 ## RarArchiveEntryEncrypted class

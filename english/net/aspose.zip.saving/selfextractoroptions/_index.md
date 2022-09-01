@@ -3,12 +3,12 @@ title: SelfExtractorOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.zip.saving/selfextractoroptions/
 ---
 ## SelfExtractorOptions class
 
-Options for creation of self-extracted executable archive.
+Options for creation of self-extracting executable archive.
 
 ```csharp
 public class SelfExtractorOptions
@@ -28,6 +28,10 @@ public class SelfExtractorOptions
 | [ExtractorTitle](../../aspose.zip.saving/selfextractoroptions/extractortitle) { get; set; } | Gets or sets the title of extractor's window. |
 | [RunAfterExtraction](../../aspose.zip.saving/selfextractoroptions/runafterextraction) { get; set; } | Gets or sets a program to be executed after the archive extraction is completed. |
 | [TitleIcon](../../aspose.zip.saving/selfextractoroptions/titleicon) { get; set; } | Gets or sets path to title icon for main windows of extractor application. |
+
+### Remarks
+
+Self-extracting archive can not be composed with metered license: [`MeteredLicense`](../../aspose.zip/meteredlicense).
 
 ### Examples
 

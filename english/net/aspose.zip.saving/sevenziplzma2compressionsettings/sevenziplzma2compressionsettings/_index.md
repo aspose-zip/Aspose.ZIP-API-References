@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.zip.saving/sevenziplzma2compressionsettings/sevenziplzma2compressionsettings/
 ---
-## SevenZipLZMA2CompressionSettings constructor
+## SevenZipLZMA2CompressionSettings constructor (1 of 2)
 
 Instantiates settings for LZMA2 compression method within 7z archive.
 
@@ -23,6 +23,37 @@ public SevenZipLZMA2CompressionSettings(int dictionarySize = 16777216)
 | exception | condition |
 | --- | --- |
 | ArgumentOutOfRangeException | *dictionarySize* is too big or too small. |
+
+### Remarks
+
+The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+
+### See Also
+
+* class [SevenZipLZMA2CompressionSettings](../../sevenziplzma2compressionsettings)
+* namespace [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## SevenZipLZMA2CompressionSettings constructor (2 of 2)
+
+Instantiates settings for LZMA2 compression method within 7z archive.
+
+```csharp
+public SevenZipLZMA2CompressionSettings(int dictionarySize, int fastBytes = 32)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dictionarySize | Int32 | Size of history buffer, must be between 4096 and 1073741824. |
+| fastBytes | Int32 | Controls number of fast bytes used by the LZMA2 compressors. A larger number of fast bytes can provide a better compression ratio at the expense of compression speed. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | *dictionarySize* is too big or too small, or *fastBytes* is too big or too small. |
 
 ### Remarks
 

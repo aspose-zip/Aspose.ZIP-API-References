@@ -3,7 +3,7 @@ title: AesEcryptionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.zip.saving/aesecryptionsettings/
 ---
 ## AesEcryptionSettings class
