@@ -24,7 +24,7 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [LzmaCompressionSettings](./lzmacompressionsettings) | Settings for LZMA compression method. |
 | [ParallelOptions](./paralleloptions) | Options for parallel compression. |
 | [PPMdCompressionSettings](./ppmdcompressionsettings) | Settings for PPMd compression method. |
-| [SelfExtractorOptions](./selfextractoroptions) | Options for creation of self-extracted executable archive. |
+| [SelfExtractorOptions](./selfextractoroptions) | Options for creation of self-extracting executable archive. |
 | [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings) | Settings for AES encryption or decryption algorithm. |
 | [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings) | Settings for BZip2 compression method within 7z archive. |
 | [SevenZipCompressionSettings](./sevenzipcompressionsettings) | Settings needed for 7z compressor or decompressor to work. |

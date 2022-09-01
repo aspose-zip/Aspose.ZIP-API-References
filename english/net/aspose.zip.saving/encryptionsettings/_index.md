@@ -3,7 +3,7 @@ title: EncryptionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.zip.saving/encryptionsettings/
 ---
 ## EncryptionSettings class

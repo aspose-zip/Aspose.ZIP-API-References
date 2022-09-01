@@ -3,7 +3,7 @@ title: ArchiveEntrySettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.zip.saving/archiveentrysettings/
 ---
 ## ArchiveEntrySettings class

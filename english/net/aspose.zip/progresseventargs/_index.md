@@ -3,7 +3,7 @@ title: ProgressEventArgs
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class

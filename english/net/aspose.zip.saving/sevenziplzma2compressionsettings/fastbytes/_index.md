@@ -1,22 +1,21 @@
 ---
-title: Method
+title: FastBytes
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 40
-url: /net/aspose.zip.saving/sevenziplzma2compressionsettings/method/
+weight: 30
+url: /net/aspose.zip.saving/sevenziplzma2compressionsettings/fastbytes/
 ---
-## SevenZipLZMA2CompressionSettings.Method property
+## SevenZipLZMA2CompressionSettings.FastBytes property
 
-Gets compression or decompression method.
+Gets the controls number of fast bytes used by the LZMA2 compressor.
 
 ```csharp
-public override SevenZipCompressionMethod Method { get; }
+public int FastBytes { get; }
 ```
 
 ### See Also
 
-* enum [SevenZipCompressionMethod](../../sevenzipcompressionmethod)
 * class [SevenZipLZMA2CompressionSettings](../../sevenziplzma2compressionsettings)
 * namespace [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings)
 * assembly [Aspose.Zip](../../../)

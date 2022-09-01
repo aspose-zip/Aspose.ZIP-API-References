@@ -3,7 +3,7 @@ title: SevenZipLZMA2CompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.zip.saving/sevenziplzma2compressionsettings/
 ---
 ## SevenZipLZMA2CompressionSettings class
@@ -19,12 +19,14 @@ public class SevenZipLZMA2CompressionSettings : SevenZipCompressionSettings
 | Name | Description |
 | --- | --- |
 | [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings)(int) | Instantiates settings for LZMA2 compression method within 7z archive. |
+| [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings)(int, int) | Instantiates settings for LZMA2 compression method within 7z archive. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [DictionarySize](../../aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize) { get; } | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. |
+| [FastBytes](../../aspose.zip.saving/sevenziplzma2compressionsettings/fastbytes) { get; } | Gets the controls number of fast bytes used by the LZMA2 compressor. |
 | override [Method](../../aspose.zip.saving/sevenziplzma2compressionsettings/method) { get; } | Gets compression or decompression method. |
 
 ### Remarks

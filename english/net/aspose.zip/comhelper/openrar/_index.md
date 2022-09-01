@@ -20,10 +20,11 @@ public RarArchive OpenRar(Stream stream)
 
 ### Return Value
 
-A RarArchive object that represents the archive.
+A [`RarArchive`](../../../aspose.zip.rar/rararchive) object that represents the archive.
 
 ### See Also
 
+* class [RarArchive](../../../aspose.zip.rar/rararchive)
 * class [ComHelper](../../comhelper)
 * namespace [Aspose.Zip](../../comhelper)
 * assembly [Aspose.Zip](../../../)
@@ -44,10 +45,11 @@ public RarArchive OpenRar(string fileName)
 
 ### Return Value
 
-A RarArchive object that represents the archive.
+A [`RarArchive`](../../../aspose.zip.rar/rararchive) object that represents the archive.
 
 ### See Also
 
+* class [RarArchive](../../../aspose.zip.rar/rararchive)
 * class [ComHelper](../../comhelper)
 * namespace [Aspose.Zip](../../comhelper)
 * assembly [Aspose.Zip](../../../)
