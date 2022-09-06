@@ -3,7 +3,7 @@ title: SevenZipAESEncryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки алгоритма шифрования или дешифрования AES.
 type: docs
-weight: 430
+weight: 440
 url: /ru/net/aspose.zip.saving/sevenzipaesencryptionsettings/
 ---
 ## SevenZipAESEncryptionSettings class
@@ -18,7 +18,7 @@ public class SevenZipAESEncryptionSettings : SevenZipEncryptionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings)(string) | Инициализирует новый экземпляр класса[`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings). |
+| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings)(string) | Инициализирует новый экземпляр[`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings) класс. |
 
 ## Характеристики
 

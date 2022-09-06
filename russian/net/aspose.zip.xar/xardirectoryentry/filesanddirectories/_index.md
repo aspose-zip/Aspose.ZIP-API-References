@@ -1,14 +1,14 @@
 ---
 title: FilesAndDirectories
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает записи типаXarEntryaspose.zip.xar/xarentry составляющие каталог.
+description: Получает записиXarEntryaspose.zip.xar/xarentry тип составляющий каталог.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.xar/xardirectoryentry/filesanddirectories/
 ---
 ## XarDirectoryEntry.FilesAndDirectories property
 
-Получает записи типа[`XarEntry`](../../xarentry), составляющие каталог.
+Получает записи[`XarEntry`](../../xarentry) тип, составляющий каталог.
 
 ```csharp
 public IEnumerable<XarEntry> FilesAndDirectories { get; }

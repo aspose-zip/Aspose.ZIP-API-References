@@ -1,14 +1,14 @@
 ---
 title: LzipArchiveSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземплярLzipArchiveSettingsaspose.zip.lzip/lziparchivesettingsс определенным размером словаря.
+description: Инициализирует новый экземплярLzipArchiveSettingsaspose.zip.lzip/lziparchivesettings с определенным размером словаря.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.lzip/lziparchivesettings/lziparchivesettings/
 ---
 ## LzipArchiveSettings constructor
 
-Инициализирует новый экземпляр[`LzipArchiveSettings`](../../lziparchivesettings)с определенным размером словаря.
+Инициализирует новый экземпляр[`LzipArchiveSettings`](../../lziparchivesettings) с определенным размером словаря.
 
 ```csharp
 public LzipArchiveSettings(int dictionarySize, int maxMemberSize = 62914560)
@@ -17,7 +17,7 @@ public LzipArchiveSettings(int dictionarySize, int maxMemberSize = 62914560)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dictionarySize | Int32 | Размер словаря для сжатия LZMA в байтах. |
-| maxMemberSize | Int32 | Максимальный размер одного члена в архиве lzip, представленный в байтах. Значение по умолчанию — 60 МБ. |
+| maxMemberSize | Int32 | Максимальный размер одного члена в архиве lzip в байтах. Значение по умолчанию — 60 МБ. |
 
 ### Смотрите также
 

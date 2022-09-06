@@ -1,14 +1,14 @@
 ---
 title: RarArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 此类表示 RAR 存档文件使用它来提取 RAR 档案
+description: 这个类代表 RAR 归档文件用它来提取 RAR 档案
 type: docs
-weight: 230
+weight: 240
 url: /zh/net/aspose.zip.rar/rararchive/
 ---
 ## RarArchive class
 
-此类表示 RAR 存档文件。使用它来提取 RAR 档案。
+这个类代表 RAR 归档文件。用它来提取 RAR 档案。
 
 ```csharp
 public class RarArchive : IDisposable
@@ -18,14 +18,14 @@ public class RarArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RarArchive](rararchive#constructor)(Stream, RarArchiveLoadOptions) | 初始化[`RarArchive`](../rararchive)类的新实例并组成条目列表，可以从存档中提取。 |
-| [RarArchive](rararchive#constructor_1)(string, RarArchiveLoadOptions) | 初始化[`RarArchive`](../rararchive)类的新实例并组成条目列表，可以从存档中提取。 |
+| [RarArchive](rararchive#constructor)(Stream, RarArchiveLoadOptions) | 初始化[`RarArchive`](../rararchive)可以从存档中提取类和组成条目列表。 |
+| [RarArchive](rararchive#constructor_1)(string, RarArchiveLoadOptions) | 初始化[`RarArchive`](../rararchive)可以从存档中提取类和组成条目列表。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Entries](../../aspose.zip.rar/rararchive/entries) { get; } | 获取构成 rar 存档的[`RarArchiveEntry`](../rararchiveentry)类型的条目。 |
+| [Entries](../../aspose.zip.rar/rararchive/entries) { get; } | 获取条目[`RarArchiveEntry`](../rararchiveentry)构成 rar 存档的类型。 |
 
 ## 方法
 

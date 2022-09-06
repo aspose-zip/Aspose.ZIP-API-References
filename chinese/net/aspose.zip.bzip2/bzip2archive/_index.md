@@ -18,9 +18,9 @@ public class Bzip2Archive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bzip2Archive](bzip2archive#constructor)() | 初始化准备压缩的[`Bzip2Archive`](../bzip2archive)类的新实例。 |
-| [Bzip2Archive](bzip2archive#constructor_1)(Stream) | 初始化准备解压缩的[`Bzip2Archive`](../bzip2archive)类的新实例。 |
-| [Bzip2Archive](bzip2archive#constructor_2)(string) | 初始化准备解压缩的[`Bzip2Archive`](../bzip2archive)类的新实例。 |
+| [Bzip2Archive](bzip2archive#constructor)() | 初始化[`Bzip2Archive`](../bzip2archive)准备压缩的类。 |
+| [Bzip2Archive](bzip2archive#constructor_1)(Stream) | 初始化[`Bzip2Archive`](../bzip2archive)准备解压的类。 |
+| [Bzip2Archive](bzip2archive#constructor_2)(string) | 初始化[`Bzip2Archive`](../bzip2archive)准备解压的类。 |
 
 ## 方法
 
@@ -31,10 +31,11 @@ public class Bzip2Archive : IDisposable
 | [Open](../../aspose.zip.bzip2/bzip2archive/open)() | 打开存档进行提取并提供包含存档内容的流。 |
 | [Save](../../aspose.zip.bzip2/bzip2archive/save#save_1)(string) | 将存档保存到提供的目标文件。 |
 | [Save](../../aspose.zip.bzip2/bzip2archive/save#save)(Stream, Bzip2SaveOptions) | 将存档保存到提供的流中。 |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_1)(FileInfo) | 设置要在存档中压缩的内容。 |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_2)(Stream) | 设置要在存档中压缩的内容。 |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_3)(string) | 设置要在存档中压缩的内容。 |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource)(TarArchive) | 设置要在存档中压缩的内容。 |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_2)(FileInfo) | 设置要在存档中压缩的内容。 |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_3)(Stream) | 设置要在存档中压缩的内容。 |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_4)(string) | 设置要在存档中压缩的内容。 |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource)(CpioArchive, CpioFormat) | 设置要在存档中压缩的内容。 |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_1)(TarArchive, TarFormat) | 设置要在存档中压缩的内容。 |
 
 ### 评论
 

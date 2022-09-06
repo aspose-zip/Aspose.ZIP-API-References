@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.ZIP для справочника API .NET
-description: Сохраняет архив в указанный целевой файл.
+description: Сохраняет архив в указанный файл назначения.
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.cpio/cpioarchive/save/
 ---
 ## Save(string, CpioFormat) {#save_1}
 
-Сохраняет архив в указанный целевой файл.
+Сохраняет архив в указанный файл назначения.
 
 ```csharp
 public void Save(string destinationFileName, CpioFormat cpioFormat = CpioFormat.OldAscii)
@@ -23,17 +23,17 @@ public void Save(string destinationFileName, CpioFormat cpioFormat = CpioFormat.
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *destinationFileName*— это строка нулевой длины, содержащая только пробелы или один или несколько недопустимых символов, как определено в System.IO.Path.InvalidPathChars. |
-| ArgumentNullException | *destinationFileName*имеет значение null. |
+| ArgumentException | *destinationFileName* представляет собой строку нулевой длины, содержащую только пробелы или один или несколько недопустимых символов, как определено в System.IO.Path.InvalidPathChars. |
+| ArgumentNullException | *destinationFileName* нулевой. |
 | PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
 | DirectoryNotFoundException | Указанный*destinationFileName*недействителен (например, он находится на несопоставленном диске). |
 | IOException | Ошибка ввода-вывода при открытии файла. |
-| UnauthorizedAccessException | *destinationFileName*указан файл, доступный только для чтения, и доступ не указан для чтения. каталог.-или- У вызывающего абонента нет необходимого разрешения. |
-| NotSupportedException | *destinationFileName*имеет недопустимый формат. |
+| UnauthorizedAccessException | *destinationFileName* указан файл, доступный только для чтения, и доступ не для чтения.-или- путь указан к каталогу.-или- у вызывающего абонента нет необходимых разрешений. |
+| NotSupportedException | *destinationFileName* имеет недопустимый формат. |
 
 ### Примечания
 
-Архив можно сохранить по тому же пути, по которому он был загружен. Однако это не рекомендуется, так как этот подход использует копирование во временный файл.
+Архив можно сохранить по тому же пути, по которому он был загружен из . Однако делать это не рекомендуется, поскольку при таком подходе используется копирование во временный файл.
 
 ### Примеры
 
@@ -71,12 +71,12 @@ public void Save(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output*равно нулю. |
-| ArgumentException | *output*недоступен для записи. - или -*output*тот же поток, из которого мы извлекаем. - ИЛИ - Невозможно сохранить архив в*cpioFormat*из-за ограничений формата. |
+| ArgumentNullException | *output* нулевой. |
+| ArgumentException | *output* не доступен для записи. - или же -*output* это тот же поток, из которого мы извлекаем. - ИЛИ - Невозможно сохранить архив в*cpioFormat* из-за ограничений формата. |
 
 ### Примечания
 
-*output*должен быть доступен для записи.
+*output* должен быть доступен для записи.
 
 ### Примеры
 

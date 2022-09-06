@@ -1,14 +1,14 @@
 ---
 title: XzLZMA2FilterSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземплярXzLZMA2FilterSettingsaspose.zip.xz.settings/xzlzma2filtersettings.
+description: Инициализирует новый экземплярXzLZMA2FilterSettingsaspose.zip.xz.settings/xzlzma2filtersettings .
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xz.settings/xzlzma2filtersettings/xzlzma2filtersettings/
 ---
 ## XzLZMA2FilterSettings constructor
 
-Инициализирует новый экземпляр[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings).
+Инициализирует новый экземпляр[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) .
 
 ```csharp
 public XzLZMA2FilterSettings(uint dictionarySize = 16777216)

@@ -1,14 +1,14 @@
 ---
 title: TarFormat
 second_title: Aspose.ZIP для справочника API .NET
-description: Перечисление с поддерживаемыми форматамиTarArchive./tararchive.
+description: Перечисление с поддерживаемыми форматамиTarArchive./tararchive .
 type: docs
-weight: 600
+weight: 620
 url: /ru/net/aspose.zip.tar/tarformat/
 ---
 ## TarFormat enumeration
 
-Перечисление с поддерживаемыми форматами[`TarArchive`](../tararchive).
+Перечисление с поддерживаемыми форматами[`TarArchive`](../tararchive) .
 
 ```csharp
 public enum TarFormat
@@ -20,7 +20,7 @@ public enum TarFormat
 | --- | --- | --- |
 | UsTar | `0` | Формат расширяет блок заголовка из формата v7. Широко распространен и поддерживается во многих утилитах для Windows. |
 | Gnu | `1` | GNU tar основан на ранней версии POSIX.1. Этот формат реализован как формат tar по умолчанию во многих системах Linux. |
-| Pax | `2` | Формат определен в стандарте POSIX.1-2001. |
+| Pax | `2` | Формат, определенный в стандарте POSIX.1-2001. |
 
 ### Смотрите также
 

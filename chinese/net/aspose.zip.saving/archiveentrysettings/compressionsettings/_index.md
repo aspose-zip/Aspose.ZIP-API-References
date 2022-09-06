@@ -18,11 +18,11 @@ public CompressionSettings CompressionSettings { get; }
 
 可以是以下之一：
 
-* &lt;term&gt;[`DeflateCompressionSettings`](../../deflatecompressionsettings)&lt;/term&gt;
-* &lt;term&gt;[`StoreCompressionSettings`](../../storecompressionsettings)&lt; /term&gt;
-* &lt;term&gt;[`Bzip2CompressionSettings`](../../bzip2compressionsettings)&lt;/term&gt;
-* &lt; term&gt;[`LzmaCompressionSettings`](../../lzmacompressionsettings)&lt;/term&gt;
-* &lt;term&gt;[`PPMdCompressionSettings`](../../ppmdcompressionsettings)&lt;/term&gt;
+* **[`DeflateCompressionSettings`](../../deflatecompressionsettings)**
+* **[`StoreCompressionSettings`](../../storecompressionsettings)**
+* **[`Bzip2CompressionSettings`](../../bzip2compressionsettings)**
+* **[`LzmaCompressionSettings`](../../lzmacompressionsettings)**
+* **[`PPMdCompressionSettings`](../../ppmdcompressionsettings)**
 
 ### 也可以看看
 

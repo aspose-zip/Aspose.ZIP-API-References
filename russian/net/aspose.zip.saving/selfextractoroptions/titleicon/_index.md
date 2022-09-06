@@ -1,14 +1,14 @@
 ---
 title: TitleIcon
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает или задает путь к значку заголовка для основных окон приложения-распаковщика.
+description: Получает или задает путь к значку заголовка для главных окон приложения экстрактора.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.saving/selfextractoroptions/titleicon/
 ---
 ## SelfExtractorOptions.TitleIcon property
 
-Получает или задает путь к значку заголовка для основных окон приложения-распаковщика.
+Получает или задает путь к значку заголовка для главных окон приложения экстрактора.
 
 ```csharp
 public string TitleIcon { get; set; }

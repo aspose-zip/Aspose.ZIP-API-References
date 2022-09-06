@@ -1,14 +1,14 @@
 ---
 title: GetEntry
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取给定路径的WimEntryaspose.zip.wim/wimentry类型的条目
+description: 获取条目WimEntryaspose.zip.wim/wimentry给定路径的类型
 type: docs
 weight: 50
 url: /zh/net/aspose.zip.wim/wimimage/getentry/
 ---
 ## WimImage.GetEntry method
 
-获取给定路径的[`WimEntry`](../../wimentry)类型的条目。
+获取条目[`WimEntry`](../../wimentry)给定路径的类型。
 
 ```csharp
 public WimEntry GetEntry(string path)
@@ -20,7 +20,7 @@ public WimEntry GetEntry(string path)
 
 ### 返回值
 
-[`WimEntry`](../../wimentry)类型的条目。
+的进入[`WimEntry`](../../wimentry)类型。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CpioFormat
 second_title: Aspose.ZIP для справочника API .NET
-description: Перечисление поддерживаемых форматов cpio.
+description: Перечисление с поддерживаемыми форматами cpio.
 type: docs
 weight: 140
 url: /ru/net/aspose.zip.cpio/cpioformat/
 ---
 ## CpioFormat enumeration
 
-Перечисление поддерживаемых форматов cpio.
+Перечисление с поддерживаемыми форматами cpio.
 
 ```csharp
 public enum CpioFormat
@@ -19,7 +19,7 @@ public enum CpioFormat
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | OldBinary | `0` | Старый двоичный формат. |
-| OldAscii | `1` | Портативный формат ASCII. |
+| OldAscii | `1` | Переносимый формат ASCII. |
 | NewAscii | `2` | Новый формат ASCII. |
 | NewAsciiCrc | `3` | Новый формат ASCII CRC. |
 

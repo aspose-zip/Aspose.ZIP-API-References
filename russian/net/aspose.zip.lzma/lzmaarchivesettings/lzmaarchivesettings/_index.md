@@ -1,14 +1,14 @@
 ---
 title: LzmaArchiveSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаLzmaArchiveSettingsaspose.zip.lzma/lzmaarchivesettingsс размером словаря по умолчанию равным 16 мегабайтам.
+description: Инициализирует новый экземплярLzmaArchiveSettingsaspose.zip.lzma/lzmaarchivesettings class с размером словаря по умолчанию равным 16 мегабайтам.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.lzma/lzmaarchivesettings/lzmaarchivesettings/
 ---
 ## LzmaArchiveSettings constructor
 
-Инициализирует новый экземпляр класса[`LzmaArchiveSettings`](../../lzmaarchivesettings)с размером словаря по умолчанию, равным 16 мегабайтам.
+Инициализирует новый экземпляр[`LzmaArchiveSettings`](../../lzmaarchivesettings) class с размером словаря по умолчанию, равным 16 мегабайтам.
 
 ```csharp
 public LzmaArchiveSettings()

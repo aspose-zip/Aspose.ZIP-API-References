@@ -1,14 +1,14 @@
 ---
 title: EntryEventArgs
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаEntryEventArgsaspose.zip/entryeventargs.
+description: Инициализирует новый экземплярEntryEventArgsaspose.zip/entryeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/entryeventargs/entryeventargs/
 ---
 ## EntryEventArgs constructor
 
-Инициализирует новый экземпляр класса[`EntryEventArgs`](../../entryeventargs).
+Инициализирует новый экземпляр[`EntryEventArgs`](../../entryeventargs) класс.
 
 ```csharp
 public EntryEventArgs(ArchiveEntry entry)

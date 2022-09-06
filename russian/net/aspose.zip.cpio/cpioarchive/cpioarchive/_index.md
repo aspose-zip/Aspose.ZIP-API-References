@@ -1,14 +1,14 @@
 ---
 title: CpioArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаCpioArchiveaspose.zip.cpio/cpioarchive.
+description: Инициализирует новый экземплярCpioArchiveaspose.zip.cpio/cpioarchive класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.cpio/cpioarchive/cpioarchive/
 ---
 ## CpioArchive() {#constructor}
 
-Инициализирует новый экземпляр класса[`CpioArchive`](../../cpioarchive).
+Инициализирует новый экземпляр[`CpioArchive`](../../cpioarchive) класс.
 
 ```csharp
 public CpioArchive()
@@ -36,7 +36,7 @@ using (var archive = new CpioArchive())
 
 ## CpioArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CpioArchive`](../../cpioarchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`CpioArchive`](../../cpioarchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public CpioArchive(Stream sourceStream)
@@ -50,13 +50,13 @@ public CpioArchive(Stream sourceStream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceStream*равно нулю. |
-| ArgumentException | *sourceStream*не доступен для поиска. |
-| InvalidDataException | *sourceStream*недействительный архив cpio. |
+| ArgumentNullException | *sourceStream* нулевой. |
+| ArgumentException | *sourceStream* не доступен для поиска. |
+| InvalidDataException | *sourceStream* недействительный архив cpio. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См. метод[`Open`](../../cpioentry/open)для распаковки.
+Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../cpioentry/open) способ распаковки.
 
 ### Примеры
 
@@ -79,7 +79,7 @@ using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
 
 ## CpioArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`CpioArchive`](../../cpioarchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`CpioArchive`](../../cpioarchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public CpioArchive(string path)
@@ -93,16 +93,16 @@ public CpioArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См. метод[`Open`](../../cpioentry/open)для распаковки.
+Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../cpioentry/open) способ распаковки.
 
 ### Примеры
 

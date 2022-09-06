@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成存档的WimImageaspose.zip.wim/wimimage类型的条目
+description: 获取条目WimImageaspose.zip.wim/wimimage构成档案的类型
 type: docs
 weight: 50
 url: /zh/net/aspose.zip.wim/wimarchive/images/
 ---
 ## WimArchive.Images property
 
-获取构成存档的[`WimImage`](../../wimimage)类型的条目。
+获取条目[`WimImage`](../../wimimage)构成档案的类型。
 
 ```csharp
 public ReadOnlyCollection<WimImage> Images { get; }

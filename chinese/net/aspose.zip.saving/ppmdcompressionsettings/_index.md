@@ -3,7 +3,7 @@ title: PPMdCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: PPMd 压缩方法的设置
 type: docs
-weight: 390
+weight: 400
 url: /zh/net/aspose.zip.saving/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings class
@@ -18,8 +18,8 @@ public class PPMdCompressionSettings : CompressionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PPMdCompressionSettings](ppmdcompressionsettings#constructor)() | 使用默认模型顺序和子分配器大小初始化[`PPMdCompressionSettings`](../ppmdcompressionsettings)类的新实例。 |
-| [PPMdCompressionSettings](ppmdcompressionsettings#constructor_1)(int, int) | 初始化[`PPMdCompressionSettings`](../ppmdcompressionsettings)类的新实例。 |
+| [PPMdCompressionSettings](ppmdcompressionsettings#constructor)() | 初始化[`PPMdCompressionSettings`](../ppmdcompressionsettings)具有默认模型顺序和子分配器大小的类。 |
+| [PPMdCompressionSettings](ppmdcompressionsettings#constructor_1)(int, int) | 初始化[`PPMdCompressionSettings`](../ppmdcompressionsettings)类. |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public class PPMdCompressionSettings : CompressionSettings
 
 ### 评论
 
-PPMd 是由 Dmitry Shkarin 开发的数据压缩算法。 该算法基于多个订单上下文的预测短语匹配。
+PPMd 是由 Dmitry Shkarin 开发的数据压缩算法。 该算法基于多顺序上下文的预测短语匹配。
 
 ### 也可以看看
 

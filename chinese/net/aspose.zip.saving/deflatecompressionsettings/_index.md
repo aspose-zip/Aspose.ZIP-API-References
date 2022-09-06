@@ -3,7 +3,7 @@ title: DeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: Deflate 压缩方法的设置
 type: docs
-weight: 330
+weight: 340
 url: /zh/net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class
@@ -18,11 +18,11 @@ public class DeflateCompressionSettings : CompressionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeflateCompressionSettings](deflatecompressionsettings)() | 初始化[`DeflateCompressionSettings`](../deflatecompressionsettings)类的新实例。 |
+| [DeflateCompressionSettings](deflatecompressionsettings)() | 初始化[`DeflateCompressionSettings`](../deflatecompressionsettings)类. |
 
 ### 评论
 
-Deflate是一种结合了LZ77算法和霍夫曼编码的无损数据压缩算法。
+Deflate是一种无损数据压缩算法，结合了LZ77算法和霍夫曼编码。
 
 在此处查看标准：https://tools.ietf.org/html/rfc1951
 

@@ -18,8 +18,8 @@ public class Bzip2SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bzip2SaveOptions](bzip2saveoptions#constructor)() | 使用默认块大小初始化[`Bzip2SaveOptions`](../bzip2saveoptions)类的新实例，等于 900 KB。 |
-| [Bzip2SaveOptions](bzip2saveoptions#constructor_1)(int) | 初始化[`Bzip2SaveOptions`](../bzip2saveoptions)类的新实例。 |
+| [Bzip2SaveOptions](bzip2saveoptions#constructor)() | 初始化[`Bzip2SaveOptions`](../bzip2saveoptions)具有默认块大小的类，等于 900 千字节。 |
+| [Bzip2SaveOptions](bzip2saveoptions#constructor_1)(int) | 初始化[`Bzip2SaveOptions`](../bzip2saveoptions)类. |
 
 ## 特性
 

@@ -16,7 +16,7 @@ public ParallelOptions ParallelOptions { get; set; }
 
 ### 评论
 
-如果您想在压缩多个存档条目的同时使用多个 CPU 内核，请分配它。
+如果您想在压缩多个存档条目时使用多个 CPU 内核，请分配它。
 
 ### 也可以看看
 

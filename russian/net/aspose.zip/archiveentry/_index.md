@@ -19,7 +19,7 @@ public abstract class ArchiveEntry
 | Имя | Описание |
 | --- | --- |
 | [CompressedSize](../../aspose.zip/archiveentry/compressedsize) { get; } | Получает размер сжатого файла. |
-| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | Получает настройки для сжатия или распаковки. |
+| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | Получает параметры сжатия или распаковки. |
 | [IsDirectory](../../aspose.zip/archiveentry/isdirectory) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
 | [ModificationTime](../../aspose.zip/archiveentry/modificationtime) { get; set; } | Получает или устанавливает дату и время последнего изменения. |
 | [Name](../../aspose.zip/archiveentry/name) { get; } | Получает имя записи в архиве. |
@@ -29,13 +29,13 @@ public abstract class ArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip/archiveentry/extract#extract_1)(Stream, string) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip/archiveentry/extract#extract_1)(Stream, string) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip/archiveentry/extract#extract)(string, string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip/archiveentry/open)(string) | Открывает запись для извлечения и предоставляет поток с распакованным содержимым записи. |
 
 ### Примечания
 
-Приведите экземпляр[`ArchiveEntry`](../archiveentry)к[`ArchiveEntryEncrypted`](../archiveentryencrypted)чтобы определить, зашифрована запись или нет.
+Разыграть[`ArchiveEntry`](../archiveentry) пример для[`ArchiveEntryEncrypted`](../archiveentryencrypted) чтобы определить, зашифрована ли запись или нет.
 
 ### Смотрите также
 

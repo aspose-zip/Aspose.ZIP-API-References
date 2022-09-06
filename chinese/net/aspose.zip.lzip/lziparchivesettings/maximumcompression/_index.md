@@ -1,14 +1,14 @@
 ---
 title: MaximumCompression
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings类 的实例字典大小在 LZMA 过滤器中等于 64 兆字节
+description: 获取实例LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings字典大小等于 LZMA 过滤器中的 64 兆字节的 class 
 type: docs
 weight: 50
 url: /zh/net/aspose.zip.lzip/lziparchivesettings/maximumcompression/
 ---
 ## LzipArchiveSettings.MaximumCompression property
 
-获取[`LzipArchiveSettings`](../../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 64 兆字节。
+获取实例[`LzipArchiveSettings`](../../lziparchivesettings)字典大小等于 LZMA 过滤器中的 64 兆字节的 class 。
 
 ```csharp
 public static LzipArchiveSettings MaximumCompression { get; }

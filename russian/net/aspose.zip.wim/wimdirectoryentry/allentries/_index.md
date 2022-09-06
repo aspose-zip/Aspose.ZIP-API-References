@@ -1,14 +1,14 @@
 ---
 title: AllEntries
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает все записи типаWimEntryaspose.zip.wim/wimentry рекурсивно составляющие каталог.
+description: Получает все записиWimEntryaspose.zip.wim/wimentry тип составляющий каталог рекурсивно.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.wim/wimdirectoryentry/allentries/
 ---
 ## WimDirectoryEntry.AllEntries property
 
-Получает все записи типа[`WimEntry`](../../wimentry), рекурсивно составляющие каталог.
+Получает все записи[`WimEntry`](../../wimentry) тип, составляющий каталог рекурсивно.
 
 ```csharp
 public IEnumerable<WimEntry> AllEntries { get; }

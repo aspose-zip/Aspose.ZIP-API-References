@@ -3,7 +3,7 @@ title: EncryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Базовый класс для настроек нескольких методов шифрования zip.
 type: docs
-weight: 350
+weight: 360
 url: /ru/net/aspose.zip.saving/encryptionsettings/
 ---
 ## EncryptionSettings class

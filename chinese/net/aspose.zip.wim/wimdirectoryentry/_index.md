@@ -3,7 +3,7 @@ title: WimDirectoryEntry
 second_title: Aspose.ZIP for .NET API 参考
 description: 表示 wim 存档中的单个目录
 type: docs
-weight: 620
+weight: 640
 url: /zh/net/aspose.zip.wim/wimdirectoryentry/
 ---
 ## WimDirectoryEntry class
@@ -18,20 +18,20 @@ public sealed class WimDirectoryEntry : WimEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllEntries](../../aspose.zip.wim/wimdirectoryentry/allentries) { get; } | 递归获取构成目录的所有[`WimEntry`](../wimentry)类型的条目。 |
+| [AllEntries](../../aspose.zip.wim/wimdirectoryentry/allentries) { get; } | 获取所有条目[`WimEntry`](../wimentry)递归构成目录的类型。 |
 | [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams) { get; } | 获取文件或目录的备用数据流的名称。 |
 | [Archive](../../aspose.zip.wim/wimentry/archive) { get; } | 获取条目所属的存档。 |
 | [ChangeTime](../../aspose.zip.wim/wimentry/changetime) { get; } | 获取上次更改文件或目录的时间。 |
 | [CreationTime](../../aspose.zip.wim/wimentry/creationtime) { get; } | 获取文件或目录的创建时间。 |
-| [Directories](../../aspose.zip.wim/wimdirectoryentry/directories) { get; } | 获取构成目录的[`WimDirectoryEntry`](../wimdirectoryentry)类型的条目。 |
+| [Directories](../../aspose.zip.wim/wimdirectoryentry/directories) { get; } | 获取条目[`WimDirectoryEntry`](../wimdirectoryentry)构成目录的类型。 |
 | [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes) { get; } | 获取文件或目录属性。 |
-| [Files](../../aspose.zip.wim/wimdirectoryentry/files) { get; } | 获取构成目录的[`WimFileEntry`](../wimfileentry)类型的条目。 |
-| [FilesAndDirectories](../../aspose.zip.wim/wimdirectoryentry/filesanddirectories) { get; } | 获取构成目录的[`WimEntry`](../wimentry)类型的条目。 |
+| [Files](../../aspose.zip.wim/wimdirectoryentry/files) { get; } | 获取条目[`WimFileEntry`](../wimfileentry)构成目录的类型。 |
+| [FilesAndDirectories](../../aspose.zip.wim/wimdirectoryentry/filesanddirectories) { get; } | 获取条目[`WimEntry`](../wimentry)构成目录的类型。 |
 | [FullPath](../../aspose.zip.wim/wimentry/fullpath) { get; } | 获取图像中条目的完整路径。 |
-| [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | 获取文件或目录的硬链接 ID。 |
-| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | 获取文件或目录是否以其他名称已知。 |
+| [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | 获取文件或目录的硬链接id。 |
+| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | 获取文件或目录是否为其他名称。 |
 | [Image](../../aspose.zip.wim/wimentry/image) { get; } | 获取条目所属的图像。 |
-| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime) { get; } | 获取文件或目录的最后访问时间。 |
 | [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime) { get; } | 获取文件或目录的修改时间。 |
 | [Name](../../aspose.zip.wim/wimentry/name) { get; } | 获取图像中条目的名称。 |
@@ -42,7 +42,7 @@ public sealed class WimDirectoryEntry : WimEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExtractToDirectory](../../aspose.zip.wim/wimdirectoryentry/extracttodirectory)(string) | 将当前目录中的所有文件提取到提供的目录中。 |
+| [ExtractToDirectory](../../aspose.zip.wim/wimdirectoryentry/extracttodirectory)(string) | 将当前目录下的所有文件解压到提供的目录下。 |
 | override [ToString](../../aspose.zip.wim/wimentry/tostring)() |  |
 
 ### 也可以看看

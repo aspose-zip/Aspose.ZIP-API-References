@@ -27,11 +27,11 @@ public CpioArchive CreateEntries(string sourceDirectory, bool includeRootDirecto
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceDirectory*равно null. |
-| SecurityException | Вызывающий объект не имеет необходимого разрешения на доступ к*sourceDirectory*. |
-| ArgumentException | *sourceDirectory*содержит недопустимые символы, такие как ", &lt;, &gt; или &#x7C;. |
-| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой.Например, на платформах Windows пути должны быть менее 248 символов, а имена файлов должны быть менее 260 символов.Указанный путь, имя файла или оба слишком длинные. |
-| IOException | *sourceDirectory*обозначает файл, а не каталог. |
+| ArgumentNullException | *sourceDirectory* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*sourceDirectory*. |
+| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt; или &#x7C;. |
+| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. Указанный путь, имя файла или оба слишком длинные. |
+| IOException | *sourceDirectory* означает файл, а не каталог. |
 
 ### Примеры
 
@@ -75,9 +75,9 @@ public CpioArchive CreateEntries(DirectoryInfo directory, bool includeRootDirect
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *directory*равно null. |
-| SecurityException | Вызывающий объект не имеет необходимого разрешения на доступ к*directory*. |
-| IOException | *directory*обозначает файл, а не каталог. |
+| ArgumentNullException | *directory* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*directory*. |
+| IOException | *directory* означает файл, а не каталог. |
 
 ### Примеры
 

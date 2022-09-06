@@ -1,14 +1,14 @@
 ---
 title: CompressionProgressed
 second_title: Aspose.ZIP for .NET API 参考
-description: 当原始流的一部分被压缩时引发
+description: 在压缩原始流的一部分时引发
 type: docs
 weight: 70
 url: /zh/net/aspose.zip/archiveentry/compressionprogressed/
 ---
 ## ArchiveEntry.CompressionProgressed event
 
-当原始流的一部分被压缩时引发。
+在压缩原始流的一部分时引发。
 
 ```csharp
 public event EventHandler<ProgressEventArgs> CompressionProgressed;

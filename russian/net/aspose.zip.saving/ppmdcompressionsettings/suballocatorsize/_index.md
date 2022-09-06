@@ -1,14 +1,14 @@
 ---
 title: SuballocatorSize
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает размер подраспределителя в МБ.
+description: Получает размер вспомогательного распределителя в МБ.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/
 ---
 ## PPMdCompressionSettings.SuballocatorSize property
 
-Получает размер подраспределителя в МБ.
+Получает размер вспомогательного распределителя в МБ.
 
 ```csharp
 public int SuballocatorSize { get; }

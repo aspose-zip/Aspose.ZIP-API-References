@@ -22,12 +22,12 @@ public void Save(Stream output)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *output*не поддерживает поиск. |
-| ArgumentNullException | *output*равно null. |
+| ArgumentException | *output* не поддерживает поиск. |
+| ArgumentNullException | *output* нулевой. |
 
 ### Примечания
 
-*output*должен быть доступен для поиска.
+*output* должен быть доступен для поиска.
 
 ### Примеры
 
@@ -52,7 +52,7 @@ using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
 
 ## Save(string) {#save_1}
 
-Сохраняет архив xz в указанный целевой файл.
+Сохраняет архив xz в указанный файл назначения.
 
 ```csharp
 public void Save(string destinationFileName)
@@ -66,12 +66,12 @@ public void Save(string destinationFileName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*имеет значение null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *destinationFileName*пусто, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName*запрещен. |
+| ArgumentNullException | *destinationFileName* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
 | PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*destinationFileName*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 

@@ -20,7 +20,7 @@ public abstract class ArchiveEntry
 | --- | --- |
 | [CompressedSize](../../aspose.zip/archiveentry/compressedsize) { get; } | 获取压缩文件的大小。 |
 | [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | 获取压缩或解压缩设置。 |
-| [IsDirectory](../../aspose.zip/archiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip/archiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [ModificationTime](../../aspose.zip/archiveentry/modificationtime) { get; set; } | 获取或设置上次修改的日期和时间。 |
 | [Name](../../aspose.zip/archiveentry/name) { get; } | 获取存档中条目的名称。 |
 | [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize) { get; } | 获取原始文件的大小。 |
@@ -31,11 +31,11 @@ public abstract class ArchiveEntry
 | --- | --- |
 | [Extract](../../aspose.zip/archiveentry/extract#extract_1)(Stream, string) | 将条目提取到提供的流中。 |
 | [Extract](../../aspose.zip/archiveentry/extract#extract)(string, string) | 通过提供的路径将条目提取到文件系统。 |
-| [Open](../../aspose.zip/archiveentry/open)(string) | 打开条目以进行提取并提供具有解压缩条目内容的流。 |
+| [Open](../../aspose.zip/archiveentry/open)(string) | 打开条目以进行提取，并提供具有解压缩条目内容的流。 |
 
 ### 评论
 
-将[`ArchiveEntry`](../archiveentry)实例投射到[`ArchiveEntryEncrypted`](../archiveentryencrypted)判断条目是否加密。
+施放一个[`ArchiveEntry`](../archiveentry)实例到[`ArchiveEntryEncrypted`](../archiveentryencrypted)确定条目是否加密。
 
 ### 也可以看看
 

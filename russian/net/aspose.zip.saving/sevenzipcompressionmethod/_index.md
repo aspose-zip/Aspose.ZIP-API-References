@@ -3,7 +3,7 @@ title: SevenZipCompressionMethod
 second_title: Aspose.ZIP для справочника API .NET
 description: Методы сжатия поддерживаемые форматом 7Z.
 type: docs
-weight: 450
+weight: 460
 url: /ru/net/aspose.zip.saving/sevenzipcompressionmethod/
 ---
 ## SevenZipCompressionMethod enumeration
@@ -19,10 +19,10 @@ public enum SevenZipCompressionMethod : ushort
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Store | `0` | Файл сохранен (без сжатия). |
-| LZMA | `1` | Файл сжат с использованием LZMA. |
-| LZMA2 | `2` | Файл сжат с использованием LZMA2. |
+| LZMA | `1` | Файл сжат с помощью LZMA. |
+| LZMA2 | `2` | Файл сжат с помощью LZMA2. |
 | PPMd | `3` | Файл сжат с использованием PPMd. |
-| BZip2 | `4` | Файл сжат с использованием Bzip2. |
+| BZip2 | `4` | Файл сжат с помощью Bzip2. |
 | BCJ | `5` | Техника, улучшающая сжатие машинного кода. |
 | AES | `6` | Файл зашифрован. |
 

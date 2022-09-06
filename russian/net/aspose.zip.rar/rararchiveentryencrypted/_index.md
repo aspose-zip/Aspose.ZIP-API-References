@@ -1,9 +1,9 @@
 ---
 title: RarArchiveEntryEncrypted
 second_title: Aspose.ZIP для справочника API .NET
-description: Zip-запись которую необходимо распаковать с расшифровкой.
+description: Zipзапись которую необходимо распаковать с расшифровкой.
 type: docs
-weight: 250
+weight: 260
 url: /ru/net/aspose.zip.rar/rararchiveentryencrypted/
 ---
 ## RarArchiveEntryEncrypted class
@@ -30,7 +30,7 @@ public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract)(Stream, string) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract)(Stream, string) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract)(string, string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip.rar/rararchiveentry/open)(string) | Открывает запись для извлечения и предоставляет поток с распакованным содержимым записи. |
 

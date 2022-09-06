@@ -1,14 +1,14 @@
 ---
 title: SevenZipArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 使用其条目的可选设置初始化SevenZipArchiveaspose.zip.sevenzip/sevenziparchive类的新实例
+description: 初始化SevenZipArchiveaspose.zip.sevenzip/sevenziparchive类及其条目的可选设置
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.sevenzip/sevenziparchive/sevenziparchive/
 ---
 ## SevenZipArchive(SevenZipEntrySettings) {#constructor}
 
-使用其条目的可选设置初始化[`SevenZipArchive`](../../sevenziparchive)类的新实例。
+初始化[`SevenZipArchive`](../../sevenziparchive)类及其条目的可选设置。
 
 ```csharp
 public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
@@ -16,11 +16,11 @@ public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newEntrySettings | SevenZipEntrySettings | 用于新添加的[`SevenZipArchiveEntry`](../../sevenziparchiveentry)项目的压缩和加密设置。 如果未指定，将使用不加密的 LZMA 压缩。 |
+| newEntrySettings | SevenZipEntrySettings | 用于新添加的压缩和加密设置[`SevenZipArchiveEntry`](../../sevenziparchiveentry)items. 如果未指定，将使用不加密的 LZMA 压缩。 |
 
 ### 例子
 
-以下示例显示了如何使用默认设置压缩单个文件：LZMA 压缩而不加密。
+以下示例显示如何使用默认设置压缩单个文件： LZMA 压缩不加密。
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -44,7 +44,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ## SevenZipArchive(Stream) {#constructor_1}
 
-初始化[`SevenZipArchive`](../../sevenziparchive)类的新实例，并且可以从存档中提取条目列表。
+初始化[`SevenZipArchive`](../../sevenziparchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public SevenZipArchive(Stream sourceStream)
@@ -58,13 +58,13 @@ public SevenZipArchive(Stream sourceStream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *sourceStream*不可搜索。 |
-| ArgumentNullException | *sourceStream*为空。 |
+| ArgumentException | *sourceStream*是不可搜索的。 |
+| ArgumentNullException | *sourceStream*一片空白。 |
 | NotImplementedException | 存档包含多个编码器。现在只支持 LZMA 压缩。 |
 
 ### 评论
 
-此构造函数不解压缩任何条目。参见[`ExtractToDirectory`](../extracttodirectory)方法解压。
+此构造函数不解压缩任何条目。看[`ExtractToDirectory`](../extracttodirectory)解压方法.
 
 ### 例子
 
@@ -85,7 +85,7 @@ using (SevenZipArchive archive = new SevenZipArchive(File.OpenRead("archive.7z")
 
 ## SevenZipArchive(string) {#constructor_2}
 
-初始化[`SevenZipArchive`](../../sevenziparchive)类的新实例，并且可以从存档中提取条目列表。
+初始化[`SevenZipArchive`](../../sevenziparchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public SevenZipArchive(string path)
@@ -99,16 +99,16 @@ public SevenZipArchive(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不解压缩任何条目。参见[`ExtractToDirectory`](../extracttodirectory)方法解压。
+此构造函数不解压缩任何条目。看[`ExtractToDirectory`](../extracttodirectory)解压方法.
 
 ### 例子
 

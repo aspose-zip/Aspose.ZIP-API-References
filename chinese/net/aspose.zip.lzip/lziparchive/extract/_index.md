@@ -67,13 +67,13 @@ public void Extract(FileInfo fileInfo)
 | 例外 | （健康）状况 |
 | --- | --- |
 | InvalidOperationException | 未读取存档标头和服务信息。 |
-| SecurityException | 调用者没有打开*fileInfo*所需的权限。 |
+| SecurityException | 调用者没有打开所需的权限*fileInfo*. |
 | ArgumentException | 文件路径为空或仅包含空格。 |
-| FileNotFoundException | 找不到文件。 |
+| FileNotFoundException | 未找到该文件。 |
 | UnauthorizedAccessException | 文件路径是只读的或者是目录。 |
-| ArgumentNullException | *fileInfo*为空。 |
+| ArgumentNullException | *fileInfo*一片空白。 |
 | DirectoryNotFoundException | 指定的路径无效，例如位于未映射的驱动器上。 |
-| IOException | 文件已打开。 |
+| IOException | 该文件已打开。 |
 
 ### 例子
 
@@ -105,19 +105,19 @@ public void Extract(string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 将存储解压缩数据的文件路径。 |
+| path | String | 将存储解压缩数据的文件的路径。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | InvalidOperationException | 未读取存档标头和服务信息。 |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: FastestSpeed
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings类 的实例字典大小在 LZMA 过滤器中等于 65536 字节
+description: 获取实例LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings在 LZMA 过滤器中字典大小等于 65536 字节的 class 
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.lzip/lziparchivesettings/fastestspeed/
 ---
 ## LzipArchiveSettings.FastestSpeed property
 
-获取[`LzipArchiveSettings`](../../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 65536 字节。
+获取实例[`LzipArchiveSettings`](../../lziparchivesettings)在 LZMA 过滤器中，字典大小等于 65536 字节的 class 。
 
 ```csharp
 public static LzipArchiveSettings FastestSpeed { get; }

@@ -1,14 +1,14 @@
 ---
 title: Deflate
 second_title: Aspose.ZIP for .NET API 参考
-description:  DeflateCompressionSettings 的实例带有默认参数
+description: 的一个实例放气压缩设置使用默认参数
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.saving/compressionsettings/deflate/
 ---
 ## CompressionSettings.Deflate property
 
-` DeflateCompressionSettings` 的实例，带有默认参数。
+的一个实例`放气压缩设置`使用默认参数。
 
 ```csharp
 public static DeflateCompressionSettings Deflate { get; }

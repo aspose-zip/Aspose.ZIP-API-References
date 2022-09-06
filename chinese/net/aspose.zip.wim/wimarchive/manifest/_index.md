@@ -1,14 +1,14 @@
 ---
 title: Manifest
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取描述文件和包含图像的嵌入清单
+description: 获取描述文件和包含的图像的嵌入清单
 type: docs
 weight: 60
 url: /zh/net/aspose.zip.wim/wimarchive/manifest/
 ---
 ## WimArchive.Manifest property
 
-获取描述文件和包含图像的嵌入清单。
+获取描述文件和包含的图像的嵌入清单。
 
 ```csharp
 public string Manifest { get; }

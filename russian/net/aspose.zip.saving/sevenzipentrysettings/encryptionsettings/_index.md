@@ -16,7 +16,7 @@ public SevenZipEncryptionSettings EncryptionSettings { get; }
 
 ### Примечания
 
-[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings)только вариант архивов 7Z.
+[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings) это единственный вариант архивов 7Z.
 
 ### Смотрите также
 

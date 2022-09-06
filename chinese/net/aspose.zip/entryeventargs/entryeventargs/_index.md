@@ -1,14 +1,14 @@
 ---
 title: EntryEventArgs
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化EntryEventArgsaspose.zip/entryeventargs类的新实例
+description: 初始化EntryEventArgsaspose.zip/entryeventargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip/entryeventargs/entryeventargs/
 ---
 ## EntryEventArgs constructor
 
-初始化[`EntryEventArgs`](../../entryeventargs)类的新实例。
+初始化[`EntryEventArgs`](../../entryeventargs)类.
 
 ```csharp
 public EntryEventArgs(ArchiveEntry entry)

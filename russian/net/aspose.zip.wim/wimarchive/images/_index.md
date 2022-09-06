@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает записи типаWimImageaspose.zip.wim/wimimage составляющие архив.
+description: Получает записиWimImageaspose.zip.wim/wimimage тип составляющий архив.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.wim/wimarchive/images/
 ---
 ## WimArchive.Images property
 
-Получает записи типа[`WimImage`](../../wimimage), составляющие архив.
+Получает записи[`WimImage`](../../wimimage) тип составляющий архив.
 
 ```csharp
 public ReadOnlyCollection<WimImage> Images { get; }

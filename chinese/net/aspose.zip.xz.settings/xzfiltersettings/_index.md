@@ -1,14 +1,14 @@
 ---
 title: XzFilterSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 特定 xz 格式过滤器的设置集的基类
+description: 特定 xz 格式过滤器设置的基类
 type: docs
-weight: 730
+weight: 750
 url: /zh/net/aspose.zip.xz.settings/xzfiltersettings/
 ---
 ## XzFilterSettings class
 
-特定 xz 格式过滤器的设置集的基类。
+特定 xz 格式过滤器设置的基类。
 
 ```csharp
 public abstract class XzFilterSettings

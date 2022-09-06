@@ -3,7 +3,7 @@ title: ArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API 参考
 description: 用于保存存档的选项
 type: docs
-weight: 300
+weight: 310
 url: /zh/net/aspose.zip.saving/archivesaveoptions/
 ---
 ## ArchiveSaveOptions class

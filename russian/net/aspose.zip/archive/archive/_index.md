@@ -1,14 +1,14 @@
 ---
 title: Archive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаArchiveaspose.zip/archiveс дополнительными настройками для его записей.
+description: Инициализирует новый экземплярArchiveaspose.zip/archiveкласс с необязательными настройками для его записей.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-Инициализирует новый экземпляр класса[`Archive`](../../archive)с дополнительными настройками для его записей.
+Инициализирует новый экземпляр[`Archive`](../../archive)класс с необязательными настройками для его записей.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,7 +16,7 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных элементов[`ArchiveEntry`](../../archiveentry). Если не указано, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry)items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
 
 ### Примеры
 
@@ -44,7 +44,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Archive`](../../archive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`Archive`](../../archive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -55,22 +55,22 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | sourceStream | Stream | Источник архива. |
 | loadOptions | ArchiveLoadOptions | Опции для загрузки существующего архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных элементов[`ArchiveEntry`](../../archiveentry). Если не указано, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry)items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *sourceStream*не доступен для поиска. |
+| ArgumentException | *sourceStream* не доступен для поиска. |
 | InvalidDataException | Заголовок шифрования для AES противоречит методу сжатия WinZip. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См.[`Open`](../../archiveentry/open)метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open) метод распаковки.
 
 ### Примеры
 
-Следующий пример извлекает зашифрованный архив, затем распаковывает первую запись в` MemoryStream` .
+В следующем примере извлекается зашифрованный архив, затем распаковывается первая запись в`ПамятьПоток`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.zip");
@@ -99,7 +99,7 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Archive`](../../archive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`Archive`](../../archive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -108,28 +108,28 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Полный или относительный путь к архивному файлу. |
+| path | String | Полный или относительный путь к файлу архива. |
 | loadOptions | ArchiveLoadOptions | Опции для загрузки существующего архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных элементов[`ArchiveEntry`](../../archiveentry). Если не указано, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry)items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См.[`Open`](../../archiveentry/open)метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open) метод распаковки.
 
 ### Примеры
 
-Следующий пример извлекает зашифрованный архив, затем распаковывает первую запись в` MemoryStream` .
+В следующем примере извлекается зашифрованный архив, затем распаковывается первая запись в`ПамятьПоток`.
 
 ```csharp
 var extracted = new MemoryStream();

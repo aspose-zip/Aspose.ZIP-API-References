@@ -3,7 +3,7 @@ title: WimArchive
 second_title: Aspose.ZIP для справочника API .NET
 description: Этот класс представляет файл архива wim.
 type: docs
-weight: 610
+weight: 630
 url: /ru/net/aspose.zip.wim/wimarchive/
 ---
 ## WimArchive class
@@ -18,8 +18,8 @@ public class WimArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [WimArchive](wimarchive#constructor)(Stream) | Инициализирует новый экземпляр класса[`WimArchive`](../wimarchive)и составляет список записей, которые можно извлечь из архива. |
-| [WimArchive](wimarchive#constructor_1)(string) | Инициализирует новый экземпляр класса[`WimArchive`](../wimarchive)и составляет список записей, которые можно извлечь из архива. |
+| [WimArchive](wimarchive#constructor)(Stream) | Инициализирует новый экземпляр[`WimArchive`](../wimarchive) список записей классов и композиций можно извлечь из архива. |
+| [WimArchive](wimarchive#constructor_1)(string) | Инициализирует новый экземпляр[`WimArchive`](../wimarchive) список записей классов и композиций можно извлечь из архива. |
 
 ## Характеристики
 
@@ -28,14 +28,14 @@ public class WimArchive : IDisposable
 | [BootImageIndex](../../aspose.zip.wim/wimarchive/bootimageindex) { get; } | Получает (отсчитываемый от нуля) индекс загрузочного образа. |
 | [FileFormatVersion](../../aspose.zip.wim/wimarchive/fileformatversion) { get; } | Получает версию формата файла. |
 | [Guid](../../aspose.zip.wim/wimarchive/guid) { get; } | Получает идентификатор GUID для архива. |
-| [Images](../../aspose.zip.wim/wimarchive/images) { get; } | Получает записи типа[`WimImage`](../wimimage), составляющие архив. |
+| [Images](../../aspose.zip.wim/wimarchive/images) { get; } | Получает записи[`WimImage`](../wimimage) тип составляющий архив. |
 | [Manifest](../../aspose.zip.wim/wimarchive/manifest) { get; } | Получает встроенный манифест, описывающий файл и содержащиеся в нем изображения. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.wim/wimarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.zip.wim/wimarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RootDirectory
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取图片的根目录项
+description: 获取图片的根目录入口
 type: docs
 weight: 30
 url: /zh/net/aspose.zip.wim/wimimage/rootdirectory/
 ---
 ## WimImage.RootDirectory property
 
-获取图片的根目录项。
+获取图片的根目录入口。
 
 ```csharp
 public WimDirectoryEntry RootDirectory { get; }

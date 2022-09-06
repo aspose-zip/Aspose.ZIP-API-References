@@ -1,14 +1,14 @@
 ---
 title: NewEntrySettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Настройки сжатия и шифрования используемые для вновь добавленных элементовSevenZipArchiveEntryaspose.zip.sevenzip/sevenziparchiveentry.
+description: Параметры сжатия и шифрования используемые для вновь добавленныхSevenZipArchiveEntryaspose.zip.sevenzip/sevenziparchiveentry предметы.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/newentrysettings/
 ---
 ## SevenZipArchive.NewEntrySettings property
 
-Настройки сжатия и шифрования, используемые для вновь добавленных элементов[`SevenZipArchiveEntry`](../../sevenziparchiveentry).
+Параметры сжатия и шифрования, используемые для вновь добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) предметы.
 
 ```csharp
 public SevenZipEntrySettings NewEntrySettings { get; }

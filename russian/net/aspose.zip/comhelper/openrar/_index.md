@@ -1,14 +1,14 @@
 ---
 title: OpenRar
 second_title: Aspose.ZIP для справочника API .NET
-description: Позволяет приложению COM загружать архив rar из потока.
+description: Позволяет COMприложению загружать RARархив из потока.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip/comhelper/openrar/
 ---
 ## OpenRar(Stream) {#openrar}
 
-Позволяет приложению COM загружать архив rar из потока.
+Позволяет COM-приложению загружать RAR-архив из потока.
 
 ```csharp
 public RarArchive OpenRar(Stream stream)
@@ -16,14 +16,15 @@ public RarArchive OpenRar(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Потоковый объект .NET, содержащий загружаемый архив. |
+| stream | Stream | Объект потока .NET, содержащий загружаемый архив. |
 
 ### Возвращаемое значение
 
-ARarArchiveобъект, представляющий архив.
+А[`RarArchive`](../../../aspose.zip.rar/rararchive) объект, представляющий архив.
 
 ### Смотрите также
 
+* class [RarArchive](../../../aspose.zip.rar/rararchive)
 * class [ComHelper](../../comhelper)
 * пространство имен [Aspose.Zip](../../comhelper)
 * сборка [Aspose.Zip](../../../)
@@ -40,14 +41,15 @@ public RarArchive OpenRar(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла загружаемого архива. |
+| fileName | String | Имя файла архива для загрузки. |
 
 ### Возвращаемое значение
 
-ARarArchiveобъект, представляющий архив.
+А[`RarArchive`](../../../aspose.zip.rar/rararchive) объект, представляющий архив.
 
 ### Смотрите также
 
+* class [RarArchive](../../../aspose.zip.rar/rararchive)
 * class [ComHelper](../../comhelper)
 * пространство имен [Aspose.Zip](../../comhelper)
 * сборка [Aspose.Zip](../../../)

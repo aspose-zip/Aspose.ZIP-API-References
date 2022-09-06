@@ -1,14 +1,14 @@
 ---
 title: CabArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Этот класс представляет файл архива CAB.
+description: Этот класс представляет файл архива кабины.
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.cab/cabarchive/
 ---
 ## CabArchive class
 
-Этот класс представляет файл архива CAB.
+Этот класс представляет файл архива кабины.
 
 ```csharp
 public class CabArchive : IDisposable
@@ -18,20 +18,20 @@ public class CabArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [CabArchive](cabarchive#constructor)(Stream) | Инициализирует новый экземпляр класса[`CabArchive`](../cabarchive)и составляет список записей, которые можно извлечь из архива. |
-| [CabArchive](cabarchive#constructor_1)(string) | Инициализирует новый экземпляр класса[`CabArchive`](../cabarchive)и составляет список записей, которые можно извлечь из архива. |
+| [CabArchive](cabarchive#constructor)(Stream) | Инициализирует новый экземпляр[`CabArchive`](../cabarchive) список записей классов и композиций можно извлечь из архива. |
+| [CabArchive](cabarchive#constructor_1)(string) | Инициализирует новый экземпляр[`CabArchive`](../cabarchive) список записей классов и композиций можно извлечь из архива. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Entries](../../aspose.zip.cab/cabarchive/entries) { get; } | Получает записи типа[`CabEntry`](../cabentry), составляющие архив. |
+| [Entries](../../aspose.zip.cab/cabarchive/entries) { get; } | Получает записи[`CabEntry`](../cabentry) тип составляющий архив. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.cab/cabarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.zip.cab/cabarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [ExtractToDirectory](../../aspose.zip.cab/cabarchive/extracttodirectory)(string) | Извлекает все файлы из архива в указанный каталог. |
 
 ### Смотрите также

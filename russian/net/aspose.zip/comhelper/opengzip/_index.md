@@ -1,14 +1,14 @@
 ---
 title: OpenGzip
 second_title: Aspose.ZIP для справочника API .NET
-description: Позволяет приложению COM загружать архив gzip из потока.
+description: Позволяет приложению COM загружать gzipархив из потока.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip/comhelper/opengzip/
 ---
 ## OpenGzip(Stream) {#opengzip}
 
-Позволяет приложению COM загружать архив gzip из потока.
+Позволяет приложению COM загружать gzip-архив из потока.
 
 ```csharp
 public GzipArchive OpenGzip(Stream stream)
@@ -16,11 +16,11 @@ public GzipArchive OpenGzip(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Потоковый объект .NET, содержащий загружаемый архив. |
+| stream | Stream | Объект потока .NET, содержащий загружаемый архив. |
 
 ### Возвращаемое значение
 
-A[`GzipArchive`](../../../aspose.zip.gzip/gziparchive)объект, представляющий архив.
+А[`GzipArchive`](../../../aspose.zip.gzip/gziparchive) объект, представляющий архив.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ A[`GzipArchive`](../../../aspose.zip.gzip/gziparchive)объект, предст
 
 ## OpenGzip(string) {#opengzip_1}
 
-Позволяет приложению COM загружать gzip-архив из файла.
+Позволяет приложению COM загружать архив gzip из файла.
 
 ```csharp
 public GzipArchive OpenGzip(string fileName)
@@ -41,11 +41,11 @@ public GzipArchive OpenGzip(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла загружаемого архива. |
+| fileName | String | Имя файла архива для загрузки. |
 
 ### Возвращаемое значение
 
-A[`GzipArchive`](../../../aspose.zip.gzip/gziparchive)объект, представляющий архив.
+А[`GzipArchive`](../../../aspose.zip.gzip/gziparchive) объект, представляющий архив.
 
 ### Смотрите также
 

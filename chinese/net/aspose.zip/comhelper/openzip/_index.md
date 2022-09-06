@@ -20,7 +20,7 @@ public Archive OpenZip(Stream stream)
 
 ### 返回值
 
-一个[`Archive`](../../archive)对象，代表存档。
+一个[`Archive`](../../archive)代表档案的对象。
 
 ### 也可以看看
 
@@ -41,11 +41,11 @@ public Archive OpenZip(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 要加载的存档文件名。 |
+| fileName | String | 要加载的存档的文件名。 |
 
 ### 返回值
 
-一个[`Archive`](../../archive)对象，代表存档。
+一个[`Archive`](../../archive)代表档案的对象。
 
 ### 也可以看看
 

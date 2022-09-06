@@ -1,14 +1,14 @@
 ---
 title: CabArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化CabArchiveaspose.zip.cab/cabarchive类的新实例并组成条目列表可以从存档中提取
+description: 初始化CabArchiveaspose.zip.cab/cabarchive可以从存档中提取类和组成条目列表
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.cab/cabarchive/cabarchive/
 ---
 ## CabArchive(Stream) {#constructor}
 
-初始化[`CabArchive`](../../cabarchive)类的新实例并组成条目列表可以从存档中提取。
+初始化[`CabArchive`](../../cabarchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public CabArchive(Stream sourceStream)
@@ -22,13 +22,13 @@ public CabArchive(Stream sourceStream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceStream*为空。 |
-| ArgumentException | *sourceStream*不可搜索。 |
+| ArgumentNullException | *sourceStream*一片空白。 |
+| ArgumentException | *sourceStream*是不可搜索的。 |
 | InvalidDataException | *sourceStream*不是有效的 cab 存档。 |
 
 ### 评论
 
-此构造函数不会解压缩任何条目。请参阅[`Open`](../../cabentry/open)方法进行解包。
+此构造函数不解压缩任何条目。看[`Open`](../../cabentry/open)解包方法.
 
 ### 例子
 
@@ -51,7 +51,7 @@ using (var archive = new CabArchive(File.OpenRead("archive.cab")))
 
 ## CabArchive(string) {#constructor_1}
 
-初始化[`CabArchive`](../../cabarchive)类的新实例并组成条目列表可以从存档中提取。
+初始化[`CabArchive`](../../cabarchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public CabArchive(string path)
@@ -65,16 +65,16 @@ public CabArchive(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不会解压缩任何条目。请参阅[`Open`](../../cabentry/open)方法进行解包。
+此构造函数不解压缩任何条目。看[`Open`](../../cabentry/open)解包方法.
 
 ### 例子
 

@@ -16,7 +16,7 @@ public SelfExtractorOptions SelfExtractorOptions { get; set; }
 
 ### 评论
 
-如果您需要编写可执行程序以在目标计算机上未安装任何软件的情况下提取存档，请分配它。
+如果您需要编写可执行程序以在目标计算机上未安装任何软件的情况下提取档案，请分配它。
 
 ### 也可以看看
 

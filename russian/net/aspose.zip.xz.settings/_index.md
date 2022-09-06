@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Xz.Settings
 second_title: Aspose.ZIP для справочника API .NET
-description: Пространство именSettingsсодержит классы которые представляют настройки архива xz.
+description: Settings пространство имен содержит классы которые представляют настройки архива xz.
 type: docs
-weight: 150
+weight: 160
 url: /ru/net/aspose.zip.xz.settings/
 ---
-Пространство именSettingsсодержит классы, которые представляют настройки архива xz.
+Settings пространство имен содержит классы, которые представляют настройки архива xz.
 
 ## Классы
 

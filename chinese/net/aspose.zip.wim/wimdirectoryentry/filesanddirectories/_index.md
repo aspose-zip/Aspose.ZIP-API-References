@@ -1,14 +1,14 @@
 ---
 title: FilesAndDirectories
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成目录的WimEntryaspose.zip.wim/wimentry类型的条目
+description: 获取条目WimEntryaspose.zip.wim/wimentry构成目录的类型
 type: docs
 weight: 40
 url: /zh/net/aspose.zip.wim/wimdirectoryentry/filesanddirectories/
 ---
 ## WimDirectoryEntry.FilesAndDirectories property
 
-获取构成目录的[`WimEntry`](../../wimentry)类型的条目。
+获取条目[`WimEntry`](../../wimentry)构成目录的类型。
 
 ```csharp
 public IEnumerable<WimEntry> FilesAndDirectories { get; }

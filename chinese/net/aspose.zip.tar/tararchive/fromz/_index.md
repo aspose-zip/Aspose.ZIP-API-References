@@ -1,14 +1,14 @@
 ---
 title: FromZ
 second_title: Aspose.ZIP for .NET API 参考
-description: 提取提供的 Z 格式存档并从提取的数据中组成TarArchiveaspose.zip.tar/tararchive
+description: 提取提供的 Z 格式存档并组成TarArchiveaspose.zip.tar/tararchive从提取的数据中
 type: docs
 weight: 50
 url: /zh/net/aspose.zip.tar/tararchive/fromz/
 ---
 ## FromZ(Stream) {#fromz}
 
-提取提供的 Z 格式存档并从提取的数据中组成[`TarArchive`](../../tararchive)。
+提取提供的 Z 格式存档并组成[`TarArchive`](../../tararchive)从提取的数据中。
 
 重要提示：Z 存档在此方法中完全提取，其内容保存在内部。小心内存消耗。
 
@@ -22,11 +22,11 @@ public static TarArchive FromZ(Stream source)
 
 ### 返回值
 
-[`TarArchive`](../../tararchive)
+一个实例[`TarArchive`](../../tararchive)
 
 ### 评论
 
-Tar 存档提供的实例提取任意记录的工具，因此它必须在引擎盖下操作可搜索的流。
+Tar 存档提供了提取任意记录的工具，因此它必须在后台操作可搜索的流。
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ Tar 存档提供的实例提取任意记录的工具，因此它必须在引擎�
 
 ## FromZ(string) {#fromz_1}
 
-提取提供的 Z 格式存档并从提取的数据中组成[`TarArchive`](../../tararchive)。
+提取提供的 Z 格式存档并组成[`TarArchive`](../../tararchive)从提取的数据中。
 
 重要提示：Z 存档在此方法中完全提取，其内容保存在内部。小心内存消耗。
 
@@ -52,11 +52,11 @@ public static TarArchive FromZ(string path)
 
 ### 返回值
 
-[`TarArchive`](../../tararchive)
+一个实例[`TarArchive`](../../tararchive)
 
 ### 评论
 
-Tar 存档提供的实例提取任意记录的工具，因此它必须在引擎盖下操作可搜索的流。
+Tar 存档提供了提取任意记录的工具，因此它必须在后台操作可搜索的流。
 
 ### 也可以看看
 

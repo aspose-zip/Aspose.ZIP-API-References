@@ -1,14 +1,14 @@
 ---
 title: DeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化DeflateCompressionSettingsaspose.zip.saving/deflatecompressionsettings类的新实例
+description: 初始化DeflateCompressionSettingsaspose.zip.saving/deflatecompressionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/deflatecompressionsettings/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings constructor
 
-初始化[`DeflateCompressionSettings`](../../deflatecompressionsettings)类的新实例。
+初始化[`DeflateCompressionSettings`](../../deflatecompressionsettings)类.
 
 ```csharp
 public DeflateCompressionSettings()

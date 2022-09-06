@@ -3,7 +3,7 @@ title: XzLZMA2FilterSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Набор настроек фильтра xz LZMA2.
 type: docs
-weight: 740
+weight: 760
 url: /ru/net/aspose.zip.xz.settings/xzlzma2filtersettings/
 ---
 ## XzLZMA2FilterSettings class
@@ -18,7 +18,7 @@ public sealed class XzLZMA2FilterSettings : XzFilterSettings
 
 | Имя | Описание |
 | --- | --- |
-| [XzLZMA2FilterSettings](xzlzma2filtersettings)(uint) | Инициализирует новый экземпляр[`XzLZMA2FilterSettings`](../xzlzma2filtersettings). |
+| [XzLZMA2FilterSettings](xzlzma2filtersettings)(uint) | Инициализирует новый экземпляр[`XzLZMA2FilterSettings`](../xzlzma2filtersettings) . |
 
 ## Характеристики
 

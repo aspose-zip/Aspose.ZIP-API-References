@@ -1,7 +1,7 @@
 ---
 title: OpenZip
 second_title: Aspose.ZIP для справочника API .NET
-description: Позволяет приложению COM загружать zip-архив из потока.
+description: Позволяет приложению COM загружать zipархив из потока.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip/comhelper/openzip/
@@ -16,11 +16,11 @@ public Archive OpenZip(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Потоковый объект .NET, содержащий загружаемый архив. |
+| stream | Stream | Объект потока .NET, содержащий загружаемый архив. |
 
 ### Возвращаемое значение
 
-A[`Archive`](../../archive)объект, представляющий архив.
+А[`Archive`](../../archive) объект, представляющий архив.
 
 ### Смотрите также
 
@@ -41,11 +41,11 @@ public Archive OpenZip(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла загружаемого архива. |
+| fileName | String | Имя файла архива для загрузки. |
 
 ### Возвращаемое значение
 
-A[`Archive`](../../archive)объект, представляющий архив.
+А[`Archive`](../../archive) объект, представляющий архив.
 
 ### Смотрите также
 

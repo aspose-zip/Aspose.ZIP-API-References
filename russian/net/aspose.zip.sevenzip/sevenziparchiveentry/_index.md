@@ -3,7 +3,7 @@ title: SevenZipArchiveEntry
 second_title: Aspose.ZIP для справочника API .NET
 description: Представляет один файл в архиве 7z.
 type: docs
-weight: 550
+weight: 560
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/
 ---
 ## SevenZipArchiveEntry class
@@ -19,7 +19,7 @@ public abstract class SevenZipArchiveEntry
 | Имя | Описание |
 | --- | --- |
 | [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize) { get; } | Получает размер сжатого файла. |
-| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings) { get; } | Получает настройки для сжатия или распаковки. |
+| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings) { get; } | Получает параметры сжатия или распаковки. |
 | [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
 | [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name) { get; } | Получает имя записи в архиве. |
 | [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize) { get; } | Получает размер исходного файла. |
@@ -33,7 +33,7 @@ public abstract class SevenZipArchiveEntry
 
 ### Примечания
 
-Приведение[`SevenZipArchiveEntry`](../sevenziparchiveentry)instance to[`SevenZipArchiveEntryEncrypted`](../sevenziparchiveentryencrypted)чтобы определить, зашифрована запись или нет.
+Разыграть[`SevenZipArchiveEntry`](../sevenziparchiveentry) пример для[`SevenZipArchiveEntryEncrypted`](../sevenziparchiveentryencrypted) чтобы определить, зашифрована ли запись или нет.
 
 ### Смотрите также
 

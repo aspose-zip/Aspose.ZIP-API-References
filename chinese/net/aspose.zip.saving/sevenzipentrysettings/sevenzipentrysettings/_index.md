@@ -1,14 +1,14 @@
 ---
 title: SevenZipEntrySettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化SevenZipEntrySettingsaspose.zip.saving/sevenzipentrysettings类的新实例
+description: 初始化SevenZipEntrySettingsaspose.zip.saving/sevenzipentrysettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/sevenzipentrysettings/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings constructor
 
-初始化[`SevenZipEntrySettings`](../../sevenzipentrysettings)类的新实例。
+初始化[`SevenZipEntrySettings`](../../sevenzipentrysettings)类.
 
 ```csharp
 public SevenZipEntrySettings(SevenZipCompressionSettings compressionSettings = null, 
@@ -18,7 +18,7 @@ public SevenZipEntrySettings(SevenZipCompressionSettings compressionSettings = n
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | compressionSettings | SevenZipCompressionSettings | 压缩设置。为默认 LZMA 设置传递 null。 |
-| encryptionSettings | SevenZipEncryptionSettings | 加密设置.如果不需要加密或解密，则传递 null。 |
+| encryptionSettings | SevenZipEncryptionSettings | 加密设置。如果不需要加密或解密，则传递 null。 |
 
 ### 也可以看看
 

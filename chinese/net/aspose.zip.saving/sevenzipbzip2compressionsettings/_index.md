@@ -3,7 +3,7 @@ title: SevenZipBZip2CompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 7z 存档中 BZip2 压缩方法的设置
 type: docs
-weight: 440
+weight: 450
 url: /zh/net/aspose.zip.saving/sevenzipbzip2compressionsettings/
 ---
 ## SevenZipBZip2CompressionSettings class
@@ -18,8 +18,8 @@ public class SevenZipBZip2CompressionSettings : SevenZipCompressionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor)() | 使用默认块大小初始化[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings)类的新实例，等于 900 KB。 |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor_1)(int) | 初始化[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings)类的新实例。 |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor)() | 初始化[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings)具有默认块大小的类，等于 900 千字节。 |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor_1)(int) | 初始化[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings)类. |
 
 ## 特性
 

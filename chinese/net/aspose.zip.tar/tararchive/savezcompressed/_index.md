@@ -23,7 +23,7 @@ public void SaveZCompressed(Stream output, TarFormat? format = default)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *output*为空。 |
+| ArgumentNullException | *output*一片空白。 |
 | ArgumentException | *output*不可写。 |
 
 ### 评论

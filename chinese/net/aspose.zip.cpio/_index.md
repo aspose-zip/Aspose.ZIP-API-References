@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Cpio
 second_title: Aspose.ZIP for .NET API 参考
-description: Cpio命名空间包含代表 cpio 存档相关实体的类
+description: 的Cpio命名空间包含代表 cpio 归档相关实体的类
 type: docs
 weight: 40
 url: /zh/net/aspose.zip.cpio/
 ---
-Cpio命名空间包含代表 cpio 存档相关实体的类。
+的Cpio命名空间包含代表 cpio 归档相关实体的类。
 
 ## 课程
 

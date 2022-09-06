@@ -16,8 +16,8 @@ public EncryptionSettings EncryptionSettings { get; }
 
 ### Примечания
 
-* &lt;term&gt;[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)&lt;/term&gt;
-* &lt;term&gt;[`AesEcryptionSettings`](../../aesecryptionsettings)&lt;/term&gt;
+* **[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)**
+* **[`AesEcryptionSettings`](../../aesecryptionsettings)**
 
 ### Смотрите также
 

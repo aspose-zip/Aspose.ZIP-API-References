@@ -1,14 +1,14 @@
 ---
 title: ComHelper
 second_title: Aspose.ZIP for .NET API 参考
-description: 为 COM 客户端提供将档案加载到 Aspose.Zip 的方法
+description: 为 COM 客户端提供将档案加载到 Aspose.Zip 中的方法
 type: docs
 weight: 110
 url: /zh/net/aspose.zip/comhelper/
 ---
 ## ComHelper class
 
-为 COM 客户端提供将档案加载到 Aspose.Zip 的方法。
+为 COM 客户端提供将档案加载到 Aspose.Zip 中的方法。
 
 ```csharp
 public class ComHelper
@@ -18,7 +18,7 @@ public class ComHelper
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComHelper](comhelper)() | 初始化此类的新实例。 |
+| [ComHelper](comhelper)() | 初始化这个类的一个新实例。 |
 
 ## 方法
 
@@ -35,7 +35,7 @@ public class ComHelper
 
 ### 评论
 
-使用 ComHelper 类从文件或流中加载存档。 特定类提供默认构造函数来创建新存档 并且还提供重载构造函数以从文件或流中加载存档。 如果您在 .NET 应用程序中使用 Aspose.Zip，则可以直接使用所有存档 构造函数，但如果您在 COM 应用程序中使用 Aspose.Zip， 只有默认的归档构造函数可用。
+使用 ComHelper 类从文件或流中加载存档。 特定类提供默认构造函数来创建新的存档 ，还提供重载构造函数以从文件或流中加载存档。 如果您使用的是 Aspose.Zip从 .NET 应用程序中，您可以直接使用所有 archives 构造函数，但如果您在 COM 应用程序中使用 Aspose.Zip， 只有默认存档构造函数可用。
 
 ### 也可以看看
 

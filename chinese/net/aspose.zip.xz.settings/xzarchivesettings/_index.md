@@ -3,7 +3,7 @@ title: XzArchiveSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 该类包含一组设置特定的 xz 存档
 type: docs
-weight: 700
+weight: 720
 url: /zh/net/aspose.zip.xz.settings/xzarchivesettings/
 ---
 ## XzArchiveSettings class
@@ -18,18 +18,18 @@ public class XzArchiveSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XzArchiveSettings](xzarchivesettings#constructor)() | 使用单个 LZMA2 压缩初始化[`XzArchiveSettings`](../xzarchivesettings)类的新实例。 |
-| [XzArchiveSettings](xzarchivesettings#constructor_1)(XzFilterSettings[], long, XzCheckType) | 使用自定义参数初始化[`XzArchiveSettings`](../xzarchivesettings)类的新实例。 |
+| [XzArchiveSettings](xzarchivesettings#constructor)() | 初始化[`XzArchiveSettings`](../xzarchivesettings)使用单个 LZMA2 压缩的类。 |
+| [XzArchiveSettings](xzarchivesettings#constructor_1)(XzFilterSettings[], long, XzCheckType) | 初始化[`XzArchiveSettings`](../xzarchivesettings)具有自定义参数的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FastestSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastestspeed) { get; } | 获取[`XzArchiveSettings`](../xzarchivesettings)类 的实例，字典大小在 LZMA2 过滤器中等于 65536 字节，块大小等于 1 兆字节和 CRC32 校验和。 |
-| static [FastSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastspeed) { get; } | 获取[`XzArchiveSettings`](../xzarchivesettings)类的实例 字典大小等于 LZMA2 过滤器中的 1 兆字节，块大小等于 4 兆字节和 CRC32 校验和。 |
-| static [HighCompression](../../aspose.zip.xz.settings/xzarchivesettings/highcompression) { get; } | 获取[`XzArchiveSettings`](../xzarchivesettings)类的实例 LZMA2 过滤器中字典大小等于 32 兆字节，块大小等于 128 兆字节和 CRC32 校验和。 |
-| static [MaximumCompression](../../aspose.zip.xz.settings/xzarchivesettings/maximumcompression) { get; } | 获取[`XzArchiveSettings`](../xzarchivesettings)类的实例 字典大小在 LZMA2 过滤器中等于 64 兆字节，块大小等于 256 兆字节和 CRC32 校验和。 |
-| static [Normal](../../aspose.zip.xz.settings/xzarchivesettings/normal) { get; } | 获取[`XzArchiveSettings`](../xzarchivesettings)类 的实例，字典大小在 LZMA2 过滤器中等于 16 兆字节，块大小等于 64 兆字节和 CRC32 校验和。 |
+| static [FastestSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastestspeed) { get; } | 获取实例[`XzArchiveSettings`](../xzarchivesettings)class ，字典大小等于 LZMA2 过滤器中的 65536 字节，块大小等于 1 兆字节和 CRC32 校验和。 |
+| static [FastSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastspeed) { get; } | 获取实例[`XzArchiveSettings`](../xzarchivesettings) class ，字典大小等于 LZMA2 过滤器中的 1 兆字节，块大小等于 4 兆字节和 CRC32 校验和。 |
+| static [HighCompression](../../aspose.zip.xz.settings/xzarchivesettings/highcompression) { get; } | 获取实例[`XzArchiveSettings`](../xzarchivesettings)class ，字典大小等于 LZMA2 过滤器中的 32 兆字节，块大小等于 128 兆字节和 CRC32 校验和。 |
+| static [MaximumCompression](../../aspose.zip.xz.settings/xzarchivesettings/maximumcompression) { get; } | 获取实例[`XzArchiveSettings`](../xzarchivesettings) class ，字典大小等于 LZMA2 过滤器中的 64 兆字节，块大小等于 256 兆字节和 CRC32 校验和。 |
+| static [Normal](../../aspose.zip.xz.settings/xzarchivesettings/normal) { get; } | 获取实例[`XzArchiveSettings`](../xzarchivesettings) class ，字典大小等于 LZMA2 过滤器中的 16 兆字节，块大小等于 64 兆字节和 CRC32 校验和。 |
 
 ### 也可以看看
 

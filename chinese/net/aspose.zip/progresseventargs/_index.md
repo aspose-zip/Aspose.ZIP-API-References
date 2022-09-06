@@ -1,14 +1,14 @@
 ---
 title: ProgressEventArgs
 second_title: Aspose.ZIP for .NET API 参考
-description: 包含进行的字节数的事件数据类
+description: 包含已处理字节数的事件数据类
 type: docs
-weight: 220
+weight: 230
 url: /zh/net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class
 
-包含进行的字节数的事件数据类。
+包含已处理字节数的事件数据类。
 
 ```csharp
 public class ProgressEventArgs : EventArgs
@@ -18,7 +18,7 @@ public class ProgressEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ProgressEventArgs](progresseventargs)(ulong) | 初始化[`ProgressEventArgs`](../progresseventargs)类的新实例。 |
+| [ProgressEventArgs](progresseventargs)(ulong) | 初始化[`ProgressEventArgs`](../progresseventargs)类. |
 
 ## 特性
 

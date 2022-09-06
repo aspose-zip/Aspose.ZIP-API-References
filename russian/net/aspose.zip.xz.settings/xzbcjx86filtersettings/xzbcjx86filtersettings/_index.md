@@ -1,14 +1,14 @@
 ---
 title: XzBcjX86FilterSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземплярXzBcjX86FilterSettingsaspose.zip.xz.settings/xzbcjx86filtersettings. Используйте его для сжатия исполняемых файлов и библиотек вXzArchiveaspose.zip.xz/xzarchive.
+description: Инициализирует новый экземплярXzBcjX86FilterSettingsaspose.zip.xz.settings/xzbcjx86filtersettings . Используйте его для сжатия исполняемых файлов и библиотек внутриXzArchiveaspose.zip.xz/xzarchive .
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xz.settings/xzbcjx86filtersettings/xzbcjx86filtersettings/
 ---
 ## XzBcjX86FilterSettings constructor
 
-Инициализирует новый экземпляр[`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings). Используйте его для сжатия исполняемых файлов и библиотек в[`XzArchive`](../../../aspose.zip.xz/xzarchive).
+Инициализирует новый экземпляр[`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings) . Используйте его для сжатия исполняемых файлов и библиотек внутри[`XzArchive`](../../../aspose.zip.xz/xzarchive) .
 
 ```csharp
 public XzBcjX86FilterSettings()

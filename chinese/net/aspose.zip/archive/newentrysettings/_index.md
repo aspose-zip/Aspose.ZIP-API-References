@@ -1,14 +1,14 @@
 ---
 title: NewEntrySettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 用于新添加的ArchiveEntryaspose.zip/archiveentry项目的压缩和加密设置
+description: 用于新添加的压缩和加密设置ArchiveEntryaspose.zip/archiveentry项目.
 type: docs
 weight: 30
 url: /zh/net/aspose.zip/archive/newentrysettings/
 ---
 ## Archive.NewEntrySettings property
 
-用于新添加的[`ArchiveEntry`](../../archiveentry)项目的压缩和加密设置。
+用于新添加的压缩和加密设置[`ArchiveEntry`](../../archiveentry)项目.
 
 ```csharp
 public ArchiveEntrySettings NewEntrySettings { get; }

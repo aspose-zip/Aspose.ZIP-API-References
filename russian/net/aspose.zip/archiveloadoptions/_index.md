@@ -1,14 +1,14 @@
 ---
 title: ArchiveLoadOptions
 second_title: Aspose.ZIP для справочника API .NET
-description: Опции с которыми загружается архив из сжатого файла.
+description: Параметры загрузки архива из сжатого файла.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip/archiveloadoptions/
 ---
 ## ArchiveLoadOptions class
 
-Опции, с которыми загружается архив из сжатого файла.
+Параметры загрузки архива из сжатого файла.
 
 ```csharp
 public class ArchiveLoadOptions
@@ -25,8 +25,8 @@ public class ArchiveLoadOptions
 | Имя | Описание |
 | --- | --- |
 | [DecryptionPassword](../../aspose.zip/archiveloadoptions/decryptionpassword) { get; set; } | Получает или задает пароль для расшифровки записей. |
-| [EntryExtractionProgressed](../../aspose.zip/archiveloadoptions/entryextractionprogressed) { get; set; } | Получает или задает делегат, вызываемый при извлечении нескольких байтов. |
-| [EntryListed](../../aspose.zip/archiveloadoptions/entrylisted) { get; set; } | Получает или задает делегата, вызываемого, когда запись указана в таблице содержимого. |
+| [EntryExtractionProgressed](../../aspose.zip/archiveloadoptions/entryextractionprogressed) { get; set; } | Получает или задает делегат, вызываемый после извлечения нескольких байтов. |
+| [EntryListed](../../aspose.zip/archiveloadoptions/entrylisted) { get; set; } | Получает или задает делегата, который вызывается, когда запись указана в таблице содержания. |
 
 ### Смотрите также
 

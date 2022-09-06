@@ -3,7 +3,7 @@ title: TraditionalEncryptionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 传统 ZipCrypto 算法的设置
 type: docs
-weight: 530
+weight: 540
 url: /zh/net/aspose.zip.saving/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings class
@@ -18,9 +18,9 @@ public class TraditionalEncryptionSettings : EncryptionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor)() | 在没有密码的情况下初始化[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)类的新实例。 |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_1)(string) | 初始化[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)类的新实例。 |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_2)(string, Encoding) | 使用用户定义的编码初始化[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)类的新实例。 |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor)() | 初始化[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)没有密码的课程。 |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_1)(string) | 初始化[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)类. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_2)(string, Encoding) | 初始化[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)具有用户定义编码的类。 |
 
 ## 特性
 

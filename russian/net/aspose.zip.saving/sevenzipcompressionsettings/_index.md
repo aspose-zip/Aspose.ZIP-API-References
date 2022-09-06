@@ -3,7 +3,7 @@ title: SevenZipCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки необходимые для работы компрессора или декомпрессора 7z.
 type: docs
-weight: 460
+weight: 470
 url: /ru/net/aspose.zip.saving/sevenzipcompressionsettings/
 ---
 ## SevenZipCompressionSettings class

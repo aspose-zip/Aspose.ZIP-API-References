@@ -1,14 +1,14 @@
 ---
 title: SevenZipBZip2CompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化SevenZipBZip2CompressionSettingsaspose.zip.saving/sevenzipbzip2compressionsettings类的新实例
+description: 初始化SevenZipBZip2CompressionSettingsaspose.zip.saving/sevenzipbzip2compressionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/sevenzipbzip2compressionsettings/sevenzipbzip2compressionsettings/
 ---
 ## SevenZipBZip2CompressionSettings(int) {#constructor_1}
 
-初始化[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings)类的新实例。
+初始化[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings)类.
 
 ```csharp
 public SevenZipBZip2CompressionSettings(int blockSize)
@@ -16,7 +16,7 @@ public SevenZipBZip2CompressionSettings(int blockSize)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| blockSize | Int32 | 块大小以数百千字节为单位。 |
+| blockSize | Int32 | 块大小以数百 KB 为单位。 |
 
 ### 例外
 
@@ -34,7 +34,7 @@ public SevenZipBZip2CompressionSettings(int blockSize)
 
 ## SevenZipBZip2CompressionSettings() {#constructor}
 
-使用默认块大小初始化[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings)类的新实例，等于 900 KB。
+初始化[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings)具有默认块大小的类，等于 900 千字节。
 
 ```csharp
 public SevenZipBZip2CompressionSettings()

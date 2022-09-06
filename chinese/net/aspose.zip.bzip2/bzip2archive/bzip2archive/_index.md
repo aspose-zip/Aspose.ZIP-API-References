@@ -1,14 +1,14 @@
 ---
 title: Bzip2Archive
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化准备压缩的Bzip2Archiveaspose.zip.bzip2/bzip2archive类的新实例
+description: 初始化Bzip2Archiveaspose.zip.bzip2/bzip2archive准备压缩的类
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.bzip2/bzip2archive/bzip2archive/
 ---
 ## Bzip2Archive() {#constructor}
 
-初始化准备压缩的[`Bzip2Archive`](../../bzip2archive)类的新实例。
+初始化[`Bzip2Archive`](../../bzip2archive)准备压缩的类。
 
 ```csharp
 public Bzip2Archive()
@@ -36,7 +36,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ## Bzip2Archive(Stream) {#constructor_1}
 
-初始化准备解压缩的[`Bzip2Archive`](../../bzip2archive)类的新实例。
+初始化[`Bzip2Archive`](../../bzip2archive)准备解压的类。
 
 ```csharp
 public Bzip2Archive(Stream sourceStream)
@@ -48,11 +48,11 @@ public Bzip2Archive(Stream sourceStream)
 
 ### 评论
 
-此构造函数不解压缩。参见[`Open`](../open)方法解压。
+此构造函数不解压缩。看[`Open`](../open)解压方法.
 
 ### 例子
 
-从流中打开存档并将其解压缩到` MemoryStream`
+从流中打开存档并将其解压缩到`记忆流`
 
 ```csharp
 var ms = new MemoryStream();
@@ -70,7 +70,7 @@ using (Bzip2Archive archive = new Bzip2Archive(File.OpenRead("archive.bz2")))
 
 ## Bzip2Archive(string) {#constructor_2}
 
-初始化准备解压缩的[`Bzip2Archive`](../../bzip2archive)类的新实例。
+初始化[`Bzip2Archive`](../../bzip2archive)准备解压的类。
 
 ```csharp
 public Bzip2Archive(string path)
@@ -84,20 +84,20 @@ public Bzip2Archive(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不解压缩。参见[`Open`](../open)方法解压。
+此构造函数不解压缩。看[`Open`](../open)解压方法.
 
 ### 例子
 
-按路径从文件中打开存档并将其解压缩到` MemoryStream`
+按路径从文件中打开存档并将其解压缩到`记忆流`
 
 ```csharp
 var ms = new MemoryStream();

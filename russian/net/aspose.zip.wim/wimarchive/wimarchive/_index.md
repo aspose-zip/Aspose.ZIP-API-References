@@ -1,14 +1,14 @@
 ---
 title: WimArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаWimArchiveaspose.zip.wim/wimarchiveи составляет список записей которые можно извлечь из архива.
+description: Инициализирует новый экземплярWimArchiveaspose.zip.wim/wimarchive список записей классов и композиций можно извлечь из архива.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.wim/wimarchive/wimarchive/
 ---
 ## WimArchive(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`WimArchive`](../../wimarchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`WimArchive`](../../wimarchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public WimArchive(Stream sourceStream)
@@ -22,13 +22,13 @@ public WimArchive(Stream sourceStream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceStream*равно нулю. |
-| ArgumentException | *sourceStream*не доступен для поиска. |
-| InvalidDataException | *sourceStream*недопустимый wim-архив. |
+| ArgumentNullException | *sourceStream* нулевой. |
+| ArgumentException | *sourceStream* не доступен для поиска. |
+| InvalidDataException | *sourceStream* недействительный wim-архив. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См. метод[`Open`](../../wimfileentry/open)для распаковки.
+Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../wimfileentry/open) способ распаковки.
 
 ### Примеры
 
@@ -51,7 +51,7 @@ using (var archive = new WimArchive(File.OpenRead("archive.wim")))
 
 ## WimArchive(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WimArchive`](../../wimarchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`WimArchive`](../../wimarchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public WimArchive(string path)
@@ -65,16 +65,16 @@ public WimArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См. метод[`Open`](../../wimfileentry/open)для распаковки.
+Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../wimfileentry/open) способ распаковки.
 
 ### Примеры
 

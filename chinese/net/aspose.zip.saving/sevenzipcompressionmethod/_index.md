@@ -3,7 +3,7 @@ title: SevenZipCompressionMethod
 second_title: Aspose.ZIP for .NET API 参考
 description: 7Z 格式支持的压缩方法
 type: docs
-weight: 450
+weight: 460
 url: /zh/net/aspose.zip.saving/sevenzipcompressionmethod/
 ---
 ## SevenZipCompressionMethod enumeration
@@ -18,10 +18,10 @@ public enum SevenZipCompressionMethod : ushort
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Store | `0` | 文件已存储（无压缩）。 |
-| LZMA | `1` | 文件使用 LZMA 压缩。 |
-| LZMA2 | `2` | 文件使用 LZMA2 压缩。 |
-| PPMd | `3` | 文件使用 PPMd 压缩。 |
+| Store | `0` | 文件被存储（不压缩）。 |
+| LZMA | `1` | 使用 LZMA 压缩文件。 |
+| LZMA2 | `2` | 使用 LZMA2 压缩文件。 |
+| PPMd | `3` | 使用 PPMd 压缩文件。 |
 | BZip2 | `4` | 文件使用 Bzip2 压缩。 |
 | BCJ | `5` | 改进机器代码压缩的技术。 |
 | AES | `6` | 文件已加密。 |

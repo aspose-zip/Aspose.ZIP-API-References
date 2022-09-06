@@ -3,7 +3,7 @@ title: XarDirectoryEntry
 second_title: Aspose.ZIP для справочника API .NET
 description: Представляет запись каталога в архиве xar.
 type: docs
-weight: 670
+weight: 690
 url: /ru/net/aspose.zip.xar/xardirectoryentry/
 ---
 ## XarDirectoryEntry class
@@ -18,11 +18,11 @@ public sealed class XarDirectoryEntry : XarEntry
 
 | Имя | Описание |
 | --- | --- |
-| [AllEntries](../../aspose.zip.xar/xardirectoryentry/allentries) { get; } | Получает все записи типа[`XarEntry`](../xarentry), рекурсивно составляющие каталог. |
+| [AllEntries](../../aspose.zip.xar/xardirectoryentry/allentries) { get; } | Получает все записи[`XarEntry`](../xarentry) тип, составляющий каталог рекурсивно. |
 | [CreationTime](../../aspose.zip.xar/xarentry/creationtime) { get; } | Получает время создания файла или каталога. |
-| [Directories](../../aspose.zip.xar/xardirectoryentry/directories) { get; } | Получает записи типа[`XarDirectoryEntry`](../xardirectoryentry), составляющие каталог. |
-| [Files](../../aspose.zip.xar/xardirectoryentry/files) { get; } | Получает записи типа[`XarFileEntry`](../xarfileentry), составляющие каталог. |
-| [FilesAndDirectories](../../aspose.zip.xar/xardirectoryentry/filesanddirectories) { get; } | Получает записи типа[`XarEntry`](../xarentry), составляющие каталог. |
+| [Directories](../../aspose.zip.xar/xardirectoryentry/directories) { get; } | Получает записи[`XarDirectoryEntry`](../xardirectoryentry) тип, составляющий каталог. |
+| [Files](../../aspose.zip.xar/xardirectoryentry/files) { get; } | Получает записи[`XarFileEntry`](../xarfileentry) тип, составляющий каталог. |
+| [FilesAndDirectories](../../aspose.zip.xar/xardirectoryentry/filesanddirectories) { get; } | Получает записи[`XarEntry`](../xarentry) тип, составляющий каталог. |
 | [FullPath](../../aspose.zip.xar/xarentry/fullpath) { get; } | Получает полный путь записи в архиве. |
 | [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
 | [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime) { get; } | Получает время последнего доступа к файлу или каталогу. |

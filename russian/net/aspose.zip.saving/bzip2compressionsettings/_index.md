@@ -3,7 +3,7 @@ title: Bzip2CompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия Bzip2.
 type: docs
-weight: 310
+weight: 320
 url: /ru/net/aspose.zip.saving/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings class
@@ -18,8 +18,8 @@ public class Bzip2CompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [Bzip2CompressionSettings](bzip2compressionsettings#constructor)() | Инициализирует новый экземпляр класса[`Bzip2CompressionSettings`](../bzip2compressionsettings)с размером блока по умолчанию, равным 9 сотням килобайт . |
-| [Bzip2CompressionSettings](bzip2compressionsettings#constructor_1)(int) | Инициализирует новый экземпляр класса[`Bzip2CompressionSettings`](../bzip2compressionsettings). |
+| [Bzip2CompressionSettings](bzip2compressionsettings#constructor)() | Инициализирует новый экземпляр[`Bzip2CompressionSettings`](../bzip2compressionsettings)класс с размером блока по умолчанию, равным 9 сотням килобайт. |
+| [Bzip2CompressionSettings](bzip2compressionsettings#constructor_1)(int) | Инициализирует новый экземпляр[`Bzip2CompressionSettings`](../bzip2compressionsettings) класс. |
 
 ## Характеристики
 
@@ -29,7 +29,7 @@ public class Bzip2CompressionSettings : CompressionSettings
 
 ### Примечания
 
-bzip2 сжимает файлы, используя алгоритм сжатия текста с блочной сортировкой Берроуза-Уилера и кодирование Хаффмана. Подробнее:https://en.wikipedia.org/wiki/Bzip2
+bzip2 сжимает файлы, используя алгоритм сжатия текста с блочной сортировкой Берроуза-Уилера и кодирование Хаффмана. Подробнее: https://en.wikipedia.org/wiki/Bzip2
 
 ### Смотрите также
 

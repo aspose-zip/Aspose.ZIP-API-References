@@ -3,7 +3,7 @@ title: SevenZipBZip2CompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия BZip2 в архиве 7z.
 type: docs
-weight: 440
+weight: 450
 url: /ru/net/aspose.zip.saving/sevenzipbzip2compressionsettings/
 ---
 ## SevenZipBZip2CompressionSettings class
@@ -18,8 +18,8 @@ public class SevenZipBZip2CompressionSettings : SevenZipCompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor)() | Инициализирует новый экземпляр класса[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings)с размером блока по умолчанию, равным 9 сотням килобайт . |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor_1)(int) | Инициализирует новый экземпляр класса[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings). |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor)() | Инициализирует новый экземпляр[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings)класс с размером блока по умолчанию, равным 9 сотням килобайт. |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings#constructor_1)(int) | Инициализирует новый экземпляр[`SevenZipBZip2CompressionSettings`](../sevenzipbzip2compressionsettings) класс. |
 
 ## Характеристики
 
@@ -30,9 +30,9 @@ public class SevenZipBZip2CompressionSettings : SevenZipCompressionSettings
 
 ### Примечания
 
-Bzip2 сжимает файлы, используя сжатие текста с блочной сортировкой Берроуза-Уилера алгоритм и кодирование Хаффмана.
+Bzip2 сжимает файлы, используя алгоритм сжатия текста с блочной сортировкой Берроуза-Уилера и кодирование Хаффмана.
 
-Подробнее:https://en.wikipedia.org/wiki/Bzip2
+Подробнее: https://en.wikipedia.org/wiki/Bzip2
 
 ### Смотрите также
 

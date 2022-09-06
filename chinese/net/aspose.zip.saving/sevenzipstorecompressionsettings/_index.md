@@ -1,14 +1,14 @@
 ---
 title: SevenZipStoreCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 在 7z 存档中存储压缩方法的设置
+description: 7z 存档中存储压缩方法的设置
 type: docs
-weight: 510
+weight: 520
 url: /zh/net/aspose.zip.saving/sevenzipstorecompressionsettings/
 ---
 ## SevenZipStoreCompressionSettings class
 
-在 7z 存档中存储压缩方法的设置。
+7z 存档中存储压缩方法的设置。
 
 ```csharp
 public class SevenZipStoreCompressionSettings : SevenZipCompressionSettings

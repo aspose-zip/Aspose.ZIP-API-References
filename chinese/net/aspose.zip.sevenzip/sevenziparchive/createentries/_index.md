@@ -17,7 +17,7 @@ public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDi
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | directory | DirectoryInfo | 要压缩的目录。 |
-| includeRootDirectory | Boolean | 表示是否包含根目录本身。 |
+| includeRootDirectory | Boolean | 指示是否包含根目录本身。 |
 
 ### 返回值
 
@@ -27,8 +27,8 @@ public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDi
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| DirectoryNotFoundException | *directory*的路径无效，例如位于未映射的驱动器上。 |
-| SecurityException | 调用者没有访问所需的权限*directory*。 |
+| DirectoryNotFoundException | 通往的道路*directory*无效，例如位于未映射的驱动器上。 |
+| SecurityException | 调用者没有所需的访问权限*directory*. |
 
 ### 例子
 
@@ -60,7 +60,7 @@ public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDir
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceDirectory | String | 要压缩的目录。 |
-| includeRootDirectory | Boolean | 表示是否包含根目录本身。 |
+| includeRootDirectory | Boolean | 指示是否包含根目录本身。 |
 
 ### 返回值
 

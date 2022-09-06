@@ -3,7 +3,7 @@ title: ZArchive
 second_title: Aspose.ZIP for .NET API 参考
 description: 此类表示 Z压缩存档文件使用它来编写或提取 Z 档案
 type: docs
-weight: 760
+weight: 780
 url: /zh/net/aspose.zip.z/zarchive/
 ---
 ## ZArchive class
@@ -18,9 +18,9 @@ public class ZArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ZArchive](zarchive#constructor)() | 初始化准备压缩的[`ZArchive`](../zarchive)类的新实例。 |
-| [ZArchive](zarchive#constructor_1)(Stream) | 初始化准备解压缩的[`ZArchive`](../zarchive)类的新实例。 |
-| [ZArchive](zarchive#constructor_2)(string) | 初始化准备解压缩的[`ZArchive`](../zarchive)类的新实例。 |
+| [ZArchive](zarchive#constructor)() | 初始化[`ZArchive`](../zarchive)准备压缩的类。 |
+| [ZArchive](zarchive#constructor_1)(Stream) | 初始化[`ZArchive`](../zarchive)准备解压的类。 |
+| [ZArchive](zarchive#constructor_2)(string) | 初始化[`ZArchive`](../zarchive)准备解压的类。 |
 
 ## 方法
 

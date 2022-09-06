@@ -3,7 +3,7 @@ title: EnhancedDeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 增强 Deflate 压缩方法的设置
 type: docs
-weight: 360
+weight: 370
 url: /zh/net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings class
@@ -18,7 +18,7 @@ public class EnhancedDeflateCompressionSettings : CompressionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings)() | 初始化[`EnhancedDeflateCompressionSettings`](../enhanceddeflatecompressionsettings)类的新实例。 |
+| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings)() | 初始化[`EnhancedDeflateCompressionSettings`](../enhanceddeflatecompressionsettings)类. |
 
 ### 也可以看看
 

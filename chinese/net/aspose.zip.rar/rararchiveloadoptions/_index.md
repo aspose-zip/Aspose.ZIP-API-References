@@ -1,14 +1,14 @@
 ---
 title: RarArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API 参考
-description: 从压缩文件加载RarArchive./rararchive的选项
+description: 选项RarArchive./rararchive从压缩文件中加载
 type: docs
-weight: 270
+weight: 280
 url: /zh/net/aspose.zip.rar/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions class
 
-从压缩文件加载[`RarArchive`](../rararchive)的选项。
+选项[`RarArchive`](../rararchive)从压缩文件中加载。
 
 ```csharp
 public class RarArchiveLoadOptions

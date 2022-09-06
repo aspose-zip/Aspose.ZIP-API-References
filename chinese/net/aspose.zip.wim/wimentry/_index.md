@@ -3,7 +3,7 @@ title: WimEntry
 second_title: Aspose.ZIP for .NET API 参考
 description: 表示 wim 映像中的单个文件或目录
 type: docs
-weight: 630
+weight: 650
 url: /zh/net/aspose.zip.wim/wimentry/
 ---
 ## WimEntry class
@@ -24,10 +24,10 @@ public abstract class WimEntry
 | [CreationTime](../../aspose.zip.wim/wimentry/creationtime) { get; } | 获取文件或目录的创建时间。 |
 | [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes) { get; } | 获取文件或目录属性。 |
 | [FullPath](../../aspose.zip.wim/wimentry/fullpath) { get; } | 获取图像中条目的完整路径。 |
-| [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | 获取文件或目录的硬链接 ID。 |
-| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | 获取文件或目录是否以其他名称已知。 |
+| [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | 获取文件或目录的硬链接id。 |
+| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | 获取文件或目录是否为其他名称。 |
 | [Image](../../aspose.zip.wim/wimentry/image) { get; } | 获取条目所属的图像。 |
-| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime) { get; } | 获取文件或目录的最后访问时间。 |
 | [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime) { get; } | 获取文件或目录的修改时间。 |
 | [Name](../../aspose.zip.wim/wimentry/name) { get; } | 获取图像中条目的名称。 |

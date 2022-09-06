@@ -3,7 +3,7 @@ title: SevenZipLZMA2CompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 7z 存档中 LZMA2 压缩方法的设置
 type: docs
-weight: 490
+weight: 500
 url: /zh/net/aspose.zip.saving/sevenziplzma2compressionsettings/
 ---
 ## SevenZipLZMA2CompressionSettings class
@@ -18,18 +18,20 @@ public class SevenZipLZMA2CompressionSettings : SevenZipCompressionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings)(int) | 在 7z 存档中实例化 LZMA2 压缩方法的设置。 |
+| [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings#constructor)(int) | 在 7z 存档中实例化 LZMA2 压缩方法的设置。 |
+| [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings#constructor_1)(int, int) | 在 7z 存档中实例化 LZMA2 压缩方法的设置。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [DictionarySize](../../aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize) { get; } | 字典（历史缓冲区）大小表示最近处理的未压缩数据的多少字节保留在内存中。 |
+| [FastBytes](../../aspose.zip.saving/sevenziplzma2compressionsettings/fastbytes) { get; } | 获取 LZMA2 压缩器使用的控制快速字节数。 |
 | override [Method](../../aspose.zip.saving/sevenziplzma2compressionsettings/method) { get; } | 获取压缩或解压方法。 |
 
 ### 评论
 
-LZMA2 支持压缩 LZMA 数据和未压缩数据的多次运行。
+LZMA2 支持多次运行压缩的 LZMA 数据和未压缩的数据。
 
 查看更多：https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
 

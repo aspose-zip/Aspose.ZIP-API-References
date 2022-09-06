@@ -1,14 +1,14 @@
 ---
 title: Store
 second_title: Aspose.ZIP для справочника API .NET
-description: Экземпляр StoreCompressionSettings с параметрами по умолчанию.
+description: ЭкземплярStoreCompressionSettings с параметрами по умолчанию.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.saving/compressionsettings/store/
 ---
 ## CompressionSettings.Store property
 
-Экземпляр` StoreCompressionSettings` с параметрами по умолчанию.
+Экземпляр`StoreCompressionSettings` с параметрами по умолчанию.
 
 ```csharp
 public static StoreCompressionSettings Store { get; }

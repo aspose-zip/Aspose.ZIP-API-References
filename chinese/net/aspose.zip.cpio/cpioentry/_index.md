@@ -18,7 +18,7 @@ public sealed class CpioEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsDirectory](../../aspose.zip.cpio/cpioentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.cpio/cpioentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [LastWriteTimeUtc](../../aspose.zip.cpio/cpioentry/lastwritetimeutc) { get; } | 获取最后写入时间。 |
 | [Length](../../aspose.zip.cpio/cpioentry/length) { get; } | 获取条目的长度（以字节为单位）。 |
 | [Name](../../aspose.zip.cpio/cpioentry/name) { get; } | 获取存档中条目的名称。 |

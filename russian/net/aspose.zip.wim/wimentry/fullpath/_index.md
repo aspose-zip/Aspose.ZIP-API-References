@@ -1,14 +1,14 @@
 ---
 title: FullPath
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает полный путь записи в изображении.
+description: Получает полный путь записи в образе.
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.wim/wimentry/fullpath/
 ---
 ## WimEntry.FullPath property
 
-Получает полный путь записи в изображении.
+Получает полный путь записи в образе.
 
 ```csharp
 public string FullPath { get; }

@@ -3,7 +3,7 @@ title: SevenZipArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API 参考
 description: SevenZip 存档条目需要加密压缩或解密解压缩
 type: docs
-weight: 560
+weight: 570
 url: /zh/net/aspose.zip.sevenzip/sevenziparchiveentryencrypted/
 ---
 ## SevenZipArchiveEntryEncrypted class
@@ -20,7 +20,7 @@ public class SevenZipArchiveEntryEncrypted : SevenZipArchiveEntry
 | --- | --- |
 | [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize) { get; } | 获取压缩文件的大小。 |
 | [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings) { get; } | 获取压缩或解压缩设置。 |
-| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name) { get; } | 获取存档中条目的名称。 |
 | [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize) { get; } | 获取原始文件的大小。 |
 

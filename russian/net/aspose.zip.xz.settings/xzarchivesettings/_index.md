@@ -3,7 +3,7 @@ title: XzArchiveSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Класс содержит набор настроек конкретного архива xz.
 type: docs
-weight: 700
+weight: 720
 url: /ru/net/aspose.zip.xz.settings/xzarchivesettings/
 ---
 ## XzArchiveSettings class
@@ -18,18 +18,18 @@ public class XzArchiveSettings
 
 | Имя | Описание |
 | --- | --- |
-| [XzArchiveSettings](xzarchivesettings#constructor)() | Инициализирует новый экземпляр класса[`XzArchiveSettings`](../xzarchivesettings), используя однократное сжатие LZMA2. |
-| [XzArchiveSettings](xzarchivesettings#constructor_1)(XzFilterSettings[], long, XzCheckType) | Инициализирует новый экземпляр класса[`XzArchiveSettings`](../xzarchivesettings)с пользовательскими параметрами. |
+| [XzArchiveSettings](xzarchivesettings#constructor)() | Инициализирует новый экземпляр[`XzArchiveSettings`](../xzarchivesettings) класс, использующий однократное сжатие LZMA2. |
+| [XzArchiveSettings](xzarchivesettings#constructor_1)(XzFilterSettings[], long, XzCheckType) | Инициализирует новый экземпляр[`XzArchiveSettings`](../xzarchivesettings) класс с пользовательскими параметрами. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [FastestSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastestspeed) { get; } | Получает экземпляр класса[`XzArchiveSettings`](../xzarchivesettings) с размером словаря равен 65536 байт в фильтре LZMA2, размер блока равен 1 мегабайту и контрольной сумме CRC32. |
-| static [FastSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastspeed) { get; } | Получает экземпляр класса[`XzArchiveSettings`](../xzarchivesettings) с размером словаря равен 1 мегабайту в фильтре LZMA2, размер блока равен 4 мегабайтам и контрольной сумме CRC32. |
-| static [HighCompression](../../aspose.zip.xz.settings/xzarchivesettings/highcompression) { get; } | Получает экземпляр класса[`XzArchiveSettings`](../xzarchivesettings) с размером словаря равен 32 мегабайтам в фильтре LZMA2, размер блока равен 128 мегабайтам и контрольной сумме CRC32. |
-| static [MaximumCompression](../../aspose.zip.xz.settings/xzarchivesettings/maximumcompression) { get; } | Получает экземпляр класса[`XzArchiveSettings`](../xzarchivesettings) с размером словаря равен 64 мегабайтам в фильтре LZMA2, размер блока равен 256 мегабайтам и контрольной сумме CRC32. |
-| static [Normal](../../aspose.zip.xz.settings/xzarchivesettings/normal) { get; } | Получает экземпляр класса[`XzArchiveSettings`](../xzarchivesettings) с размером словаря равен 16 мегабайтам в фильтре LZMA2, размер блока равен 64 мегабайтам и контрольной сумме CRC32. |
+| static [FastestSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastestspeed) { get; } | Получает экземпляр[`XzArchiveSettings`](../xzarchivesettings) class с размером словаря 65536 байт в фильтре LZMA2, размером блока 1 мегабайт и контрольной суммой CRC32. |
+| static [FastSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastspeed) { get; } | Получает экземпляр[`XzArchiveSettings`](../xzarchivesettings) class с размером словаря 1 мегабайт в фильтре LZMA2, размером блока 4 мегабайта и контрольной суммой CRC32. |
+| static [HighCompression](../../aspose.zip.xz.settings/xzarchivesettings/highcompression) { get; } | Получает экземпляр[`XzArchiveSettings`](../xzarchivesettings)class с размером словаря 32 мегабайта в фильтре LZMA2, размером блока 128 мегабайт и контрольной суммой CRC32. |
+| static [MaximumCompression](../../aspose.zip.xz.settings/xzarchivesettings/maximumcompression) { get; } | Получает экземпляр[`XzArchiveSettings`](../xzarchivesettings) class с размером словаря 64 мегабайта в фильтре LZMA2, размером блока 256 мегабайт и контрольной суммой CRC32. |
+| static [Normal](../../aspose.zip.xz.settings/xzarchivesettings/normal) { get; } | Получает экземпляр[`XzArchiveSettings`](../xzarchivesettings) class с размером словаря 16 мегабайт в фильтре LZMA2, размером блока 64 мегабайта и контрольной суммой CRC32. |
 
 ### Смотрите также
 

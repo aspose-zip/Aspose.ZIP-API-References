@@ -22,7 +22,7 @@ public void SetSource(Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Поток*source*недоступен для поиска. |
+| ArgumentException | *source* поток недоступен. |
 
 ### Примеры
 
@@ -58,12 +58,12 @@ public void SetSource(FileInfo fileInfo)
 
 | исключение | условие |
 | --- | --- |
-| SecurityException | У вызывающего абонента нет необходимых прав для открытия*fileInfo*. |
+| SecurityException | У вызывающего абонента нет необходимых разрешений для открытия*fileInfo*. |
 | ArgumentException | Путь к файлу пуст или содержит только пробелы. |
 | FileNotFoundException | Файл не найден. |
 | UnauthorizedAccessException | Путь к файлу доступен только для чтения или является каталогом. |
-| ArgumentNullException | *fileInfo*равно нулю. |
-| DirectoryNotFoundException | Указан недопустимый путь, например, на несопоставленном диске. |
+| ArgumentNullException | *fileInfo* нулевой. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
 | IOException | Файл уже открыт. |
 
 ### Примеры
@@ -100,12 +100,12 @@ public void SetSource(string sourcePath)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourcePath*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *sourcePath*пуст, содержит только пробелы или недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*sourcePath*запрещен. |
+| ArgumentNullException | *sourcePath* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *sourcePath* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*sourcePath* отказано. |
 | PathTooLongException | Указанный*sourcePath*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*sourcePath*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*sourcePath* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 

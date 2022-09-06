@@ -1,14 +1,14 @@
 ---
 title: EncryptionMethod
 second_title: Aspose.ZIP for .NET API 参考
-description: 加密/解密方法可用于 zip 存档
+description: 加密/解密方法可以与 zip 存档一起使用
 type: docs
-weight: 340
+weight: 350
 url: /zh/net/aspose.zip.saving/encryptionmethod/
 ---
 ## EncryptionMethod enumeration
 
-加密/解密方法可用于 zip 存档。
+加密/解密方法可以与 zip 存档一起使用。
 
 ```csharp
 public enum EncryptionMethod : ushort

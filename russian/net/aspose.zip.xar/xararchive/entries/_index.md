@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает записи типаXarEntryaspose.zip.xar/xarentry составляющие архив.
+description: Получает записиXarEntryaspose.zip.xar/xarentry тип составляющий архив.
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.xar/xararchive/entries/
 ---
 ## XarArchive.Entries property
 
-Получает записи типа[`XarEntry`](../../xarentry), составляющие архив.
+Получает записи[`XarEntry`](../../xarentry) тип составляющий архив.
 
 ```csharp
 public IEnumerable<XarEntry> Entries { get; }

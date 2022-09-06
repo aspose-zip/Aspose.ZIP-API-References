@@ -20,11 +20,11 @@ public TarArchive DeleteEntry(TarEntry entry)
 
 ### Возвращаемое значение
 
-Архив с удаленной записью.
+Архив с записью удален.
 
 ### Примеры
 
-Вот как можно удалить все записи, кроме последней:
+Вот как вы можете удалить все записи, кроме последней:
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -58,13 +58,13 @@ public TarArchive DeleteEntry(int entryIndex)
 
 ### Возвращаемое значение
 
-Архив с удаленной записью.
+Архив с записью удален.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*меньше 0.-или-*entryIndex*равно до или больше` Записей` количество. |
+| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или-*entryIndex* равно или больше, чем`Записи` считать. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: Lzma
 second_title: Aspose.ZIP for .NET API 参考
-description:  LzmaCompressionSettings 的实例带有默认参数
+description: 的一个实例Lzma压缩设置使用默认参数
 type: docs
 weight: 30
 url: /zh/net/aspose.zip.saving/compressionsettings/lzma/
 ---
 ## CompressionSettings.Lzma property
 
-` LzmaCompressionSettings` 的实例，带有默认参数。
+的一个实例`Lzma压缩设置`使用默认参数。
 
 ```csharp
 public static LzmaCompressionSettings Lzma { get; }

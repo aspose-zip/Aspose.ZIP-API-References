@@ -1,14 +1,14 @@
 ---
 title: CabArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 此类表示 cab 存档文件
+description: 这个类代表 cab 归档文件
 type: docs
 weight: 80
 url: /zh/net/aspose.zip.cab/cabarchive/
 ---
 ## CabArchive class
 
-此类表示 cab 存档文件。
+这个类代表 cab 归档文件。
 
 ```csharp
 public class CabArchive : IDisposable
@@ -18,14 +18,14 @@ public class CabArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CabArchive](cabarchive#constructor)(Stream) | 初始化[`CabArchive`](../cabarchive)类的新实例并组成条目列表可以从存档中提取。 |
-| [CabArchive](cabarchive#constructor_1)(string) | 初始化[`CabArchive`](../cabarchive)类的新实例并组成条目列表可以从存档中提取。 |
+| [CabArchive](cabarchive#constructor)(Stream) | 初始化[`CabArchive`](../cabarchive)可以从存档中提取类和组成条目列表。 |
+| [CabArchive](cabarchive#constructor_1)(string) | 初始化[`CabArchive`](../cabarchive)可以从存档中提取类和组成条目列表。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Entries](../../aspose.zip.cab/cabarchive/entries) { get; } | 获取构成存档的[`CabEntry`](../cabentry)类型的条目。 |
+| [Entries](../../aspose.zip.cab/cabarchive/entries) { get; } | 获取条目[`CabEntry`](../cabentry)构成档案的类型。 |
 
 ## 方法
 

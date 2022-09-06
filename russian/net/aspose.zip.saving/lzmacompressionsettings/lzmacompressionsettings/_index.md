@@ -1,14 +1,14 @@
 ---
 title: LzmaCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаLzmaCompressionSettingsaspose.zip.saving/lzmacompressionsettingsс размером словаря по умолчанию равным 16 мегабайтам.
+description: Инициализирует новый экземплярLzmaCompressionSettingsaspose.zip.saving/lzmacompressionsettings class с размером словаря по умолчанию равным 16 мегабайтам.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/lzmacompressionsettings/lzmacompressionsettings/
 ---
 ## LzmaCompressionSettings constructor
 
-Инициализирует новый экземпляр класса[`LzmaCompressionSettings`](../../lzmacompressionsettings)с размером словаря по умолчанию, равным 16 мегабайтам.
+Инициализирует новый экземпляр[`LzmaCompressionSettings`](../../lzmacompressionsettings) class с размером словаря по умолчанию, равным 16 мегабайтам.
 
 ```csharp
 public LzmaCompressionSettings()

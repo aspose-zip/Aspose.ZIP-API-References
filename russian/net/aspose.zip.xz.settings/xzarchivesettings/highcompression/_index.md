@@ -1,14 +1,14 @@
 ---
 title: HighCompression
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает экземпляр классаXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings с размером словаря равен 32 мегабайтам в фильтре LZMA2 размер блока равен 128 мегабайтам и контрольной сумме CRC32.
+description: Получает экземплярXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettingsclass с размером словаря 32 мегабайта в фильтре LZMA2 размером блока 128 мегабайт и контрольной суммой CRC32.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.xz.settings/xzarchivesettings/highcompression/
 ---
 ## XzArchiveSettings.HighCompression property
 
-Получает экземпляр класса[`XzArchiveSettings`](../../xzarchivesettings) с размером словаря равен 32 мегабайтам в фильтре LZMA2, размер блока равен 128 мегабайтам и контрольной сумме CRC32.
+Получает экземпляр[`XzArchiveSettings`](../../xzarchivesettings)class с размером словаря 32 мегабайта в фильтре LZMA2, размером блока 128 мегабайт и контрольной суммой CRC32.
 
 ```csharp
 public static XzArchiveSettings HighCompression { get; }

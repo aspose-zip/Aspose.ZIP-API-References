@@ -23,11 +23,11 @@ public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 未提供要归档的数据源。 |
+| InvalidOperationException | 尚未提供要归档的数据来源。 |
 | ArgumentException | *outputStream*不可写。 |
 | UnauthorizedAccessException | 文件源是只读的或者是一个目录。 |
 | DirectoryNotFoundException | 指定的文件源路径无效，例如位于未映射的驱动器上。 |
-| IOException | 文件源已经打开。 |
+| IOException | 文件源已打开。 |
 
 ### 评论
 
@@ -70,12 +70,12 @@ public void Save(string destinationFileName)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *destinationFileName*为空、仅包含空格或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*destinationFileName*的访问被拒绝。 |
-| PathTooLongException | 指定的*destinationFileName*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *destinationFileName*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *destinationFileName*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*destinationFileName*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*destinationFileName*被拒绝。 |
+| PathTooLongException | 指定的*destinationFileName*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*destinationFileName*在字符串中间包含一个冒号 (:)。 |
 
 ### 例子
 

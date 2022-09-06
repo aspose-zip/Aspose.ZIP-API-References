@@ -1,14 +1,14 @@
 ---
 title: TarFormat
 second_title: Aspose.ZIP for .NET API 参考
-description: TarArchive./tararchive支持格式的枚举
+description: 枚举支持的格式TarArchive./tararchive .
 type: docs
-weight: 600
+weight: 620
 url: /zh/net/aspose.zip.tar/tarformat/
 ---
 ## TarFormat enumeration
 
-[`TarArchive`](../tararchive)支持格式的枚举。
+枚举支持的格式[`TarArchive`](../tararchive) .
 
 ```csharp
 public enum TarFormat
@@ -18,7 +18,7 @@ public enum TarFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| UsTar | `0` | 格式从 v7 格式扩展了标头块。在 Windows 的许多实用程序中广泛使用和支持。 |
+| UsTar | `0` | 格式扩展了 v7 格式的标头块。在 Windows 的许多实用程序中得到广泛支持和支持。 |
 | Gnu | `1` | GNU tar 基于 POSIX.1 的早期草案。这种格式在许多 Linux 系统中被实现为默认的 tar 格式。 |
 | Pax | `2` | POSIX.1-2001 标准中定义的格式。 |
 

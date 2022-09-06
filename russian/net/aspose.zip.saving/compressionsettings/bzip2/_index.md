@@ -1,14 +1,14 @@
 ---
 title: Bzip2
 second_title: Aspose.ZIP для справочника API .NET
-description: Экземпляр Bzip2CompressionSettings с параметрами по умолчанию.
+description: ЭкземплярBzip2CompressionНастройки с параметрами по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/compressionsettings/bzip2/
 ---
 ## CompressionSettings.Bzip2 property
 
-Экземпляр` Bzip2CompressionSettings` с параметрами по умолчанию.
+Экземпляр`Bzip2CompressionНастройки` с параметрами по умолчанию.
 
 ```csharp
 public static Bzip2CompressionSettings Bzip2 { get; }

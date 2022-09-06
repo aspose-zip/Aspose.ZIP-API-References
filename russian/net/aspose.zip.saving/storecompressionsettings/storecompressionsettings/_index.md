@@ -1,14 +1,14 @@
 ---
 title: StoreCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаStoreCompressionSettingsaspose.zip.saving/storecompressionsettings.
+description: Инициализирует новый экземплярStoreCompressionSettingsaspose.zip.saving/storecompressionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/storecompressionsettings/storecompressionsettings/
 ---
 ## StoreCompressionSettings constructor
 
-Инициализирует новый экземпляр класса[`StoreCompressionSettings`](../../storecompressionsettings).
+Инициализирует новый экземпляр[`StoreCompressionSettings`](../../storecompressionsettings) класс.
 
 ```csharp
 public StoreCompressionSettings()

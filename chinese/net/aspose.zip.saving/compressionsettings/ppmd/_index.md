@@ -1,14 +1,14 @@
 ---
 title: PPMd
 second_title: Aspose.ZIP for .NET API 参考
-description:  PPMdCompressionSettings 的实例带有默认参数
+description: 的一个实例PPMd压缩设置使用默认参数
 type: docs
 weight: 40
 url: /zh/net/aspose.zip.saving/compressionsettings/ppmd/
 ---
 ## CompressionSettings.PPMd property
 
-` PPMdCompressionSettings` 的实例，带有默认参数。
+的一个实例`PPMd压缩设置`使用默认参数。
 
 ```csharp
 public static PPMdCompressionSettings PPMd { get; }

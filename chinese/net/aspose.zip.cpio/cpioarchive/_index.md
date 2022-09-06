@@ -18,15 +18,15 @@ public class CpioArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CpioArchive](cpioarchive#constructor)() | 初始化[`CpioArchive`](../cpioarchive)类的新实例。 |
-| [CpioArchive](cpioarchive#constructor_1)(Stream) | 初始化[`CpioArchive`](../cpioarchive)类的新实例，并且可以从存档中提取条目列表。 |
-| [CpioArchive](cpioarchive#constructor_2)(string) | 初始化[`CpioArchive`](../cpioarchive)类的新实例，并且可以从存档中提取条目列表。 |
+| [CpioArchive](cpioarchive#constructor)() | 初始化[`CpioArchive`](../cpioarchive)类. |
+| [CpioArchive](cpioarchive#constructor_1)(Stream) | 初始化[`CpioArchive`](../cpioarchive)可以从存档中提取类和组成条目列表。 |
+| [CpioArchive](cpioarchive#constructor_2)(string) | 初始化[`CpioArchive`](../cpioarchive)可以从存档中提取类和组成条目列表。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Entries](../../aspose.zip.cpio/cpioarchive/entries) { get; } | 获取构成存档的[`CpioEntry`](../cpioentry)类型的条目。 |
+| [Entries](../../aspose.zip.cpio/cpioarchive/entries) { get; } | 获取条目[`CpioEntry`](../cpioentry)构成档案的类型。 |
 
 ## 方法
 
@@ -43,6 +43,10 @@ public class CpioArchive : IDisposable
 | [ExtractToDirectory](../../aspose.zip.cpio/cpioarchive/extracttodirectory)(string) | 将存档中的所有文件提取到提供的目录。 |
 | [Save](../../aspose.zip.cpio/cpioarchive/save#save)(Stream, CpioFormat) | 将存档保存到提供的流中。 |
 | [Save](../../aspose.zip.cpio/cpioarchive/save#save_1)(string, CpioFormat) | 将存档保存到提供的目标文件。 |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped#savegzipped)(Stream, CpioFormat) | 使用 gzip 压缩将存档保存到流中。 |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped#savegzipped_1)(string, CpioFormat) | 使用 gzip 压缩按路径将存档保存到文件中。 |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed#savexzcompressed)(Stream, CpioFormat, XzArchiveSettings) | 使用 xz 压缩将存档保存到流中。 |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed#savexzcompressed_1)(string, CpioFormat, XzArchiveSettings) | 使用 xz 压缩按路径将存档保存到路径。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ProgressEventArgs
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化ProgressEventArgsaspose.zip/progresseventargs类的新实例
+description: 初始化ProgressEventArgsaspose.zip/progresseventargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip/progresseventargs/progresseventargs/
 ---
 ## ProgressEventArgs constructor
 
-初始化[`ProgressEventArgs`](../../progresseventargs)类的新实例。
+初始化[`ProgressEventArgs`](../../progresseventargs)类.
 
 ```csharp
 public ProgressEventArgs(ulong proceededBytes)
@@ -16,7 +16,7 @@ public ProgressEventArgs(ulong proceededBytes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| proceededBytes | UInt64 | 进行的字节数。 |
+| proceededBytes | UInt64 | 字节数继续。 |
 
 ### 也可以看看
 

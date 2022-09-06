@@ -1,14 +1,14 @@
 ---
 title: Store
 second_title: Aspose.ZIP for .NET API 参考
-description:  StoreCompressionSettings 的实例带有默认参数
+description: 的一个实例存储压缩设置使用默认参数
 type: docs
 weight: 50
 url: /zh/net/aspose.zip.saving/compressionsettings/store/
 ---
 ## CompressionSettings.Store property
 
-` StoreCompressionSettings` 的实例，带有默认参数。
+的一个实例`存储压缩设置`使用默认参数。
 
 ```csharp
 public static StoreCompressionSettings Store { get; }

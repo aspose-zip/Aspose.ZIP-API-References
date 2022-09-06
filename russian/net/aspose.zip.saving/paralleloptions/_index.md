@@ -3,7 +3,7 @@ title: ParallelOptions
 second_title: Aspose.ZIP для справочника API .NET
 description: Опции для параллельного сжатия.
 type: docs
-weight: 410
+weight: 420
 url: /ru/net/aspose.zip.saving/paralleloptions/
 ---
 ## ParallelOptions class
@@ -24,7 +24,7 @@ public class ParallelOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize) { get; set; } | Получает или задает оценку памяти в мегабайтах, доступную для размещения сжатых записей без свопинга на диск. Это значение имеет смысл, только если[`ParallelCompressInMemory`](./parallelcompressinmemory)параметр находится вAuto. Автоматический режим. |
+| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize) { get; set; } | Получает или задает оценку памяти в мегабайтах, доступную для размещения сжатых записей без свопинга на диск. Это значение имеет смысл, только если[`ParallelCompressInMemory`](./parallelcompressinmemory) настройка находится вAuto режим. |
 | [ParallelCompressInMemory](../../aspose.zip.saving/paralleloptions/parallelcompressinmemory) { get; set; } | Получает или задает значение, указывающее, как следует использовать параллельный подход. |
 
 ### Примечания

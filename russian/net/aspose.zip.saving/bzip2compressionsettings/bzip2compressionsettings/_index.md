@@ -1,14 +1,14 @@
 ---
 title: Bzip2CompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаBzip2CompressionSettingsaspose.zip.saving/bzip2compressionsettings.
+description: Инициализирует новый экземплярBzip2CompressionSettingsaspose.zip.saving/bzip2compressionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/bzip2compressionsettings/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings(int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Bzip2CompressionSettings`](../../bzip2compressionsettings).
+Инициализирует новый экземпляр[`Bzip2CompressionSettings`](../../bzip2compressionsettings) класс.
 
 ```csharp
 public Bzip2CompressionSettings(int blockSize)
@@ -44,7 +44,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 
 ## Bzip2CompressionSettings() {#constructor}
 
-Инициализирует новый экземпляр класса[`Bzip2CompressionSettings`](../../bzip2compressionsettings)с размером блока по умолчанию, равным 9 сотням килобайт .
+Инициализирует новый экземпляр[`Bzip2CompressionSettings`](../../bzip2compressionsettings)класс с размером блока по умолчанию, равным 9 сотням килобайт.
 
 ```csharp
 public Bzip2CompressionSettings()
