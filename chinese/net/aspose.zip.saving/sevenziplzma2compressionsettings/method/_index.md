@@ -3,7 +3,7 @@ title: Method
 second_title: Aspose.ZIP for .NET API 参考
 description: 获取压缩或解压方法
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.zip.saving/sevenziplzma2compressionsettings/method/
 ---
 ## SevenZipLZMA2CompressionSettings.Method property

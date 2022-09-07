@@ -3,7 +3,7 @@ title: XarEntry
 second_title: Aspose.ZIP for .NET API 参考
 description: 表示 xar 存档中的单个条目
 type: docs
-weight: 680
+weight: 700
 url: /zh/net/aspose.zip.xar/xarentry/
 ---
 ## XarEntry class
@@ -20,7 +20,7 @@ public abstract class XarEntry
 | --- | --- |
 | [CreationTime](../../aspose.zip.xar/xarentry/creationtime) { get; } | 获取文件或目录的创建时间。 |
 | [FullPath](../../aspose.zip.xar/xarentry/fullpath) { get; } | 获取存档中条目的完整路径。 |
-| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime) { get; } | 获取文件或目录的最后访问时间。 |
 | [LastWriteTime](../../aspose.zip.xar/xarentry/lastwritetime) { get; } | 获取文件或目录的修改时间。 |
 | [Name](../../aspose.zip.xar/xarentry/name) { get; } | 获取存档中条目的名称。 |

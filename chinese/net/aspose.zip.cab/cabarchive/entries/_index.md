@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成存档的CabEntryaspose.zip.cab/cabentry类型的条目
+description: 获取条目CabEntryaspose.zip.cab/cabentry构成档案的类型
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.cab/cabarchive/entries/
 ---
 ## CabArchive.Entries property
 
-获取构成存档的[`CabEntry`](../../cabentry)类型的条目。
+获取条目[`CabEntry`](../../cabentry)构成档案的类型。
 
 ```csharp
 public ReadOnlyCollection<CabEntry> Entries { get; }

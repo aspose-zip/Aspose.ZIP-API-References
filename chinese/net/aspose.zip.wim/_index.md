@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Wim
 second_title: Aspose.ZIP for .NET API 参考
-description: Wim命名空间包含代表 WIM 存档相关实体的类
+description: 的Wim命名空间包含代表 WIM 存档相关实体的类
 type: docs
-weight: 120
+weight: 130
 url: /zh/net/aspose.zip.wim/
 ---
-Wim命名空间包含代表 WIM 存档相关实体的类。
+的Wim命名空间包含代表 WIM 存档相关实体的类。
 
 ## 课程
 

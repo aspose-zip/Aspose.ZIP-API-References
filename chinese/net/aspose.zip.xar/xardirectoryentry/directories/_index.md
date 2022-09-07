@@ -1,14 +1,14 @@
 ---
 title: Directories
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成目录的XarDirectoryEntryaspose.zip.xar/xardirectoryentry类型的条目
+description: 获取条目XarDirectoryEntryaspose.zip.xar/xardirectoryentry构成目录的类型
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.xar/xardirectoryentry/directories/
 ---
 ## XarDirectoryEntry.Directories property
 
-获取构成目录的[`XarDirectoryEntry`](../../xardirectoryentry)类型的条目。
+获取条目[`XarDirectoryEntry`](../../xardirectoryentry)构成目录的类型。
 
 ```csharp
 public IEnumerable<XarDirectoryEntry> Directories { get; }

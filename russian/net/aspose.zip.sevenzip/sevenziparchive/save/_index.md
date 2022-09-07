@@ -22,13 +22,13 @@ public void Save(Stream output)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *output*не поддерживает поиск. |
-| ArgumentNullException | *output*равно null. |
-| InvalidOperationException | Кодировщику не удалось сжать данные. |
+| ArgumentException | *output* не поддерживает поиск. |
+| ArgumentNullException | *output* нулевой. |
+| InvalidOperationException | Кодеру не удалось сжать данные. |
 
 ### Примечания
 
-*output*должен быть доступен для поиска.
+*output* должен быть доступен для поиска.
 
 ### Примеры
 
@@ -56,7 +56,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ## Save(string) {#save_1}
 
-Сохраняет архив в указанный целевой файл.
+Сохраняет архив в указанный файл назначения.
 
 ```csharp
 public void Save(string destinationFileName)
@@ -70,16 +70,16 @@ public void Save(string destinationFileName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*имеет значение null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *destinationFileName*пусто, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName*запрещен. |
+| ArgumentNullException | *destinationFileName* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
 | PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*destinationFileName*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Архив можно сохранить по тому же пути, по которому он был загружен. Однако это не рекомендуется, так как этот подход использует копирование во временный файл.
+Архив можно сохранить по тому же пути, по которому он был загружен из . Однако делать это не рекомендуется, поскольку при таком подходе используется копирование во временный файл.
 
 ### Примеры
 

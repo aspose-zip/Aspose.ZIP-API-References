@@ -22,7 +22,7 @@ public void Extract(Stream destination)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *destination*不支持写入。 |
+| ArgumentException | *destination*不支持书写。 |
 
 ### 例子
 

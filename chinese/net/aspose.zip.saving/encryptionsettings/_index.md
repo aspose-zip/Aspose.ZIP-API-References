@@ -3,7 +3,7 @@ title: EncryptionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 几种 zip 加密方法设置的基类
 type: docs
-weight: 350
+weight: 360
 url: /zh/net/aspose.zip.saving/encryptionsettings/
 ---
 ## EncryptionSettings class

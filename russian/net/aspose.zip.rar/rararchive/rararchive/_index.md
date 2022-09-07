@@ -1,14 +1,14 @@
 ---
 title: RarArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаRarArchiveaspose.zip.rar/rararchiveи составляет список записей которые можно извлечь из архива.
+description: Инициализирует новый экземплярRarArchiveaspose.zip.rar/rararchive список записей классов и композиций можно извлечь из архива.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.rar/rararchive/rararchive/
 ---
 ## RarArchive(string, RarArchiveLoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`RarArchive`](../../rararchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`RarArchive`](../../rararchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
@@ -16,27 +16,27 @@ public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Полный или относительный путь к архивному файлу. |
+| path | String | Полный или относительный путь к файлу архива. |
 | loadOptions | RarArchiveLoadOptions | Опции для загрузки существующего архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См.[`Open`](../../rararchiveentry/open)метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../rararchiveentry/open) метод распаковки.
 
 ### Примеры
 
-Следующий пример извлекает архив, затем распаковывает первую запись в` MemoryStream` .
+В следующем примере извлекается архив, а затем распаковывается первая запись в`ПамятьПоток`.
 
 ```csharp
 var extracted = new MemoryStream();
@@ -63,7 +63,7 @@ using (RarArchive archive = new RarArchive("data.rar"))
 
 ## RarArchive(Stream, RarArchiveLoadOptions) {#constructor}
 
-Инициализирует новый экземпляр класса[`RarArchive`](../../rararchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`RarArchive`](../../rararchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
@@ -78,17 +78,17 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *sourceStream*не доступен для поиска. |
-| InvalidDataException | Неверная подпись для архива. - или - Файл не является архивом RAR. |
+| ArgumentException | *sourceStream* не доступен для поиска. |
+| InvalidDataException | Неправильная подпись для архива. - или - Файл не является архивом RAR. |
 | InvalidOperationException |  |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См.[`Open`](../../rararchiveentry/open)метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../rararchiveentry/open) метод распаковки.
 
 ### Примеры
 
-Следующий пример расшифровки и распаковать первую запись в` MemoryStream` .
+В следующем примере расшифровывается и распаковывается первая запись в`ПамятьПоток`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.rar");

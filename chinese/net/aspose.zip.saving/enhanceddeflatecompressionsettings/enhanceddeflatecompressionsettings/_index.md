@@ -1,14 +1,14 @@
 ---
 title: EnhancedDeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化EnhancedDeflateCompressionSettingsaspose.zip.saving/enhanceddeflatecompressionsettings类的新实例
+description: 初始化EnhancedDeflateCompressionSettingsaspose.zip.saving/enhanceddeflatecompressionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/enhanceddeflatecompressionsettings/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings constructor
 
-初始化[`EnhancedDeflateCompressionSettings`](../../enhanceddeflatecompressionsettings)类的新实例。
+初始化[`EnhancedDeflateCompressionSettings`](../../enhanceddeflatecompressionsettings)类.
 
 ```csharp
 public EnhancedDeflateCompressionSettings()

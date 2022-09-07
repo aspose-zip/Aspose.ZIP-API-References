@@ -1,14 +1,14 @@
 ---
 title: XzLZMA2FilterSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化XzLZMA2FilterSettingsaspose.zip.xz.settings/xzlzma2filtersettings的新实例
+description: 初始化XzLZMA2FilterSettingsaspose.zip.xz.settings/xzlzma2filtersettings .
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.xz.settings/xzlzma2filtersettings/xzlzma2filtersettings/
 ---
 ## XzLZMA2FilterSettings constructor
 
-初始化[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings)的新实例。
+初始化[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) .
 
 ```csharp
 public XzLZMA2FilterSettings(uint dictionarySize = 16777216)
@@ -16,7 +16,7 @@ public XzLZMA2FilterSettings(uint dictionarySize = 16777216)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dictionarySize | UInt32 | LZMA2 过滤器使用的字典大小，必须介于 4096 和 1073741824 之间。 |
+| dictionarySize | UInt32 | LZMA2过滤器使用字典的大小，必须在4096和1073741824之间。 |
 
 ### 例外
 

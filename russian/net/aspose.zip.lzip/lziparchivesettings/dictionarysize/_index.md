@@ -1,14 +1,14 @@
 ---
 title: DictionarySize
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает размер словаря который используется сжатием LZMA.
+description: Получает размер словаря который используется при сжатии LZMA.
 type: docs
 weight: 70
 url: /ru/net/aspose.zip.lzip/lziparchivesettings/dictionarysize/
 ---
 ## LzipArchiveSettings.DictionarySize property
 
-Получает размер словаря, который используется сжатием LZMA.
+Получает размер словаря, который используется при сжатии LZMA.
 
 ```csharp
 public int DictionarySize { get; }

@@ -1,14 +1,14 @@
 ---
 title: Normal
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает экземпляр классаLzipArchiveSettingsaspose.zip.lzip/lziparchivesettingsкласса с размером словаря равным 16 мегабайт в фильтре LZMA.
+description: Получает экземплярLzipArchiveSettingsaspose.zip.lzip/lziparchivesettings class с размером словаря 16 мегабайт в фильтре LZMA.
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.lzip/lziparchivesettings/normal/
 ---
 ## LzipArchiveSettings.Normal property
 
-Получает экземпляр класса[`LzipArchiveSettings`](../../lziparchivesettings)класса с размером словаря, равным 16 мегабайт в фильтре LZMA.
+Получает экземпляр[`LzipArchiveSettings`](../../lziparchivesettings) class с размером словаря 16 мегабайт в фильтре LZMA.
 
 ```csharp
 public static LzipArchiveSettings Normal { get; }

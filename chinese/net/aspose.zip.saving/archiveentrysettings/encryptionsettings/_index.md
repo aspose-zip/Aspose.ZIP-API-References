@@ -16,8 +16,8 @@ public EncryptionSettings EncryptionSettings { get; }
 
 ### 评论
 
-* &lt;term&gt;[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)&lt; /term&gt;
-* &lt;term&gt;[`AesEcryptionSettings`](../../aesecryptionsettings)&lt;/term&gt;
+* **[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)**
+* **[`AesEcryptionSettings`](../../aesecryptionsettings)**
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ArchiveEntrySettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化ArchiveEntrySettingsaspose.zip.saving/archiveentrysettings类的新实例
+description: 初始化ArchiveEntrySettingsaspose.zip.saving/archiveentrysettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/archiveentrysettings/archiveentrysettings/
 ---
 ## ArchiveEntrySettings constructor
 
-初始化[`ArchiveEntrySettings`](../../archiveentrysettings)类的新实例。
+初始化[`ArchiveEntrySettings`](../../archiveentrysettings)类.
 
 ```csharp
 public ArchiveEntrySettings(CompressionSettings compressionSettings = null, 

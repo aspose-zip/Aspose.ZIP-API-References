@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает или устанавливает имя записи в архиве.
+description: Получает или задает имя записи в архиве.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.tar/tarentry/name/
 ---
 ## TarEntry.Name property
 
-Получает или устанавливает имя записи в архиве.
+Получает или задает имя записи в архиве.
 
 ```csharp
 public string Name { get; set; }

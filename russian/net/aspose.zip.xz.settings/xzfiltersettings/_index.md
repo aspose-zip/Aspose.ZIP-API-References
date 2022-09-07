@@ -3,7 +3,7 @@ title: XzFilterSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Базовый класс для набора настроек конкретного фильтра формата xz.
 type: docs
-weight: 730
+weight: 750
 url: /ru/net/aspose.zip.xz.settings/xzfiltersettings/
 ---
 ## XzFilterSettings class

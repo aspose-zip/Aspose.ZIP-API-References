@@ -18,8 +18,8 @@ public enum CpioFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| OldBinary | `0` | 旧二进制格式。 |
-| OldAscii | `1` | 可移植的 ASCII 格式。 |
+| OldBinary | `0` | 旧二进制格式. |
+| OldAscii | `1` | 可移植 ASCII 格式。 |
 | NewAscii | `2` | 新的 ASCII 格式。 |
 | NewAsciiCrc | `3` | 新的 ASCII CRC 格式。 |
 

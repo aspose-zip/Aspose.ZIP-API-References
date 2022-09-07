@@ -1,14 +1,14 @@
 ---
 title: CabEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Представляет один файл внутри CAB-архива.
+description: Представляет один файл в CABархиве.
 type: docs
 weight: 90
 url: /ru/net/aspose.zip.cab/cabentry/
 ---
 ## CabEntry class
 
-Представляет один файл внутри CAB-архива.
+Представляет один файл в CAB-архиве.
 
 ```csharp
 public sealed class CabEntry
@@ -25,7 +25,7 @@ public sealed class CabEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip.cab/cabentry/extract#extract_1)(Stream) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip.cab/cabentry/extract#extract_1)(Stream) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip.cab/cabentry/extract#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip.cab/cabentry/open)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 | override [ToString](../../aspose.zip.cab/cabentry/tostring)() |  |

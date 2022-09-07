@@ -1,14 +1,14 @@
 ---
 title: Lzma
 second_title: Aspose.ZIP для справочника API .NET
-description: Экземпляр LzmaCompressionSettings с параметрами по умолчанию.
+description: ЭкземплярLzmaCompressionSettings с параметрами по умолчанию.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.saving/compressionsettings/lzma/
 ---
 ## CompressionSettings.Lzma property
 
-Экземпляр` LzmaCompressionSettings` с параметрами по умолчанию.
+Экземпляр`LzmaCompressionSettings` с параметрами по умолчанию.
 
 ```csharp
 public static LzmaCompressionSettings Lzma { get; }

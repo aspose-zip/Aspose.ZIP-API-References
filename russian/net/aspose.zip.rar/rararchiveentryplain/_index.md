@@ -1,14 +1,14 @@
 ---
 title: RarArchiveEntryPlain
 second_title: Aspose.ZIP для справочника API .NET
-description: Rar-запись которую необходимо распаковать без расшифровки.
+description: Запись Rar которую необходимо распаковать без расшифровки.
 type: docs
-weight: 260
+weight: 270
 url: /ru/net/aspose.zip.rar/rararchiveentryplain/
 ---
 ## RarArchiveEntryPlain class
 
-Rar-запись, которую необходимо распаковать без расшифровки.
+Запись Rar, которую необходимо распаковать без расшифровки.
 
 ```csharp
 public sealed class RarArchiveEntryPlain : RarArchiveEntry
@@ -30,7 +30,7 @@ public sealed class RarArchiveEntryPlain : RarArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract)(Stream, string) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract)(Stream, string) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract)(string, string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip.rar/rararchiveentry/open)(string) | Открывает запись для извлечения и предоставляет поток с распакованным содержимым записи. |
 

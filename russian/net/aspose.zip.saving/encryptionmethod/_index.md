@@ -1,9 +1,9 @@
 ---
 title: EncryptionMethod
 second_title: Aspose.ZIP для справочника API .NET
-description: Методы шифрования/дешифрования можно использовать с zip-архивом.
+description: Методы шифрования/дешифрования можно использовать с zipархивом.
 type: docs
-weight: 340
+weight: 350
 url: /ru/net/aspose.zip.saving/encryptionmethod/
 ---
 ## EncryptionMethod enumeration

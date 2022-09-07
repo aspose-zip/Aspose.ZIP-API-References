@@ -1,14 +1,14 @@
 ---
 title: AllEntries
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает все записи типаXarEntryaspose.zip.xar/xarentry рекурсивно составляющие каталог.
+description: Получает все записиXarEntryaspose.zip.xar/xarentry тип составляющий каталог рекурсивно.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xar/xardirectoryentry/allentries/
 ---
 ## XarDirectoryEntry.AllEntries property
 
-Получает все записи типа[`XarEntry`](../../xarentry), рекурсивно составляющие каталог.
+Получает все записи[`XarEntry`](../../xarentry) тип, составляющий каталог рекурсивно.
 
 ```csharp
 public IEnumerable<XarEntry> AllEntries { get; }

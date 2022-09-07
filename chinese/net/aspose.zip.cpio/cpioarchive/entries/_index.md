@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成存档的CpioEntryaspose.zip.cpio/cpioentry类型的条目
+description: 获取条目CpioEntryaspose.zip.cpio/cpioentry构成档案的类型
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.cpio/cpioarchive/entries/
 ---
 ## CpioArchive.Entries property
 
-获取构成存档的[`CpioEntry`](../../cpioentry)类型的条目。
+获取条目[`CpioEntry`](../../cpioentry)构成档案的类型。
 
 ```csharp
 public ReadOnlyCollection<CpioEntry> Entries { get; }

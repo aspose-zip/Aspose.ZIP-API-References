@@ -18,17 +18,17 @@ public class LzipArchiveSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LzipArchiveSettings](lziparchivesettings)(int, int) | 使用特定字典大小初始化[`LzipArchiveSettings`](../lziparchivesettings)的新实例。 |
+| [LzipArchiveSettings](lziparchivesettings)(int, int) | 初始化[`LzipArchiveSettings`](../lziparchivesettings)具有特定的字典大小。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed) { get; } | 获取[`LzipArchiveSettings`](../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 65536 字节。 |
-| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed) { get; } | 获取[`LzipArchiveSettings`](../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 1 兆字节。 |
-| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression) { get; } | 获取[`LzipArchiveSettings`](../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 32 兆字节。 |
-| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression) { get; } | 获取[`LzipArchiveSettings`](../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 64 兆字节。 |
-| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal) { get; } | 获取[`LzipArchiveSettings`](../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 16 兆字节。 |
+| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed) { get; } | 获取实例[`LzipArchiveSettings`](../lziparchivesettings)在 LZMA 过滤器中，字典大小等于 65536 字节的 class 。 |
+| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed) { get; } | 获取实例[`LzipArchiveSettings`](../lziparchivesettings)字典大小等于 LZMA 过滤器中的 1 兆字节的 class 。 |
+| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression) { get; } | 获取实例[`LzipArchiveSettings`](../lziparchivesettings)字典大小等于 LZMA 过滤器中的 32 兆字节的 class 。 |
+| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression) { get; } | 获取实例[`LzipArchiveSettings`](../lziparchivesettings)字典大小等于 LZMA 过滤器中的 64 兆字节的 class 。 |
+| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal) { get; } | 获取实例[`LzipArchiveSettings`](../lziparchivesettings)在 LZMA 过滤器中，字典大小等于 16 兆字节的 class 。 |
 | [DictionarySize](../../aspose.zip.lzip/lziparchivesettings/dictionarysize) { get; } | 获取 LZMA 压缩使用的字典大小。 |
 | [MaxMemberSize](../../aspose.zip.lzip/lziparchivesettings/maxmembersize) { get; } | 获取 lzip 存档中一个成员的最大大小，以字节为单位。 |
 

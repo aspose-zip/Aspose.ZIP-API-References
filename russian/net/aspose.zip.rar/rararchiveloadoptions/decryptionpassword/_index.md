@@ -16,7 +16,7 @@ public string DecryptionPassword { get; set; }
 
 ### Примеры
 
-Пароль для расшифровки можно указать один раз при распаковке архива.
+Вы можете указать пароль для расшифровки один раз при распаковке архива.
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.rar"))

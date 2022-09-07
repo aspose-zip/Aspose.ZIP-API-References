@@ -1,14 +1,14 @@
 ---
 title: ArchiveEntrySettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаArchiveEntrySettingsaspose.zip.saving/archiveentrysettings.
+description: Инициализирует новый экземплярArchiveEntrySettingsaspose.zip.saving/archiveentrysettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/archiveentrysettings/archiveentrysettings/
 ---
 ## ArchiveEntrySettings constructor
 
-Инициализирует новый экземпляр класса[`ArchiveEntrySettings`](../../archiveentrysettings).
+Инициализирует новый экземпляр[`ArchiveEntrySettings`](../../archiveentrysettings) класс.
 
 ```csharp
 public ArchiveEntrySettings(CompressionSettings compressionSettings = null, 
@@ -17,8 +17,8 @@ public ArchiveEntrySettings(CompressionSettings compressionSettings = null,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| compressionSettings | CompressionSettings | Настройки сжатия. Передайте null для настроек выкачивания по умолчанию. |
-| encryptionSettings | EncryptionSettings | Настройки для шифрования. Передайте null, если нет необходимости шифровать или расшифровывать. |
+| compressionSettings | CompressionSettings | Настройки сжатия. Передайте значение null для настроек выкачивания по умолчанию. |
+| encryptionSettings | EncryptionSettings | Настройки шифрования. Передайте null, если нет необходимости шифровать или расшифровывать. |
 
 ### Смотрите также
 

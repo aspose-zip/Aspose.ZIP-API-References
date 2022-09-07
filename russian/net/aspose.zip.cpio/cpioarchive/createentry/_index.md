@@ -1,14 +1,14 @@
 ---
 title: CreateEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Создать одну запись внутри архива.
+description: Создать одну запись в архиве.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.cpio/cpioarchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -28,13 +28,13 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *имя*равно нулю. |
-| ArgumentException | *name*пусто. |
-| ArgumentNullException | *fileInfo*равно нулю. |
+| ArgumentNullException | *name* нулевой. |
+| ArgumentException | *name* пустой. |
+| ArgumentNullException | *fileInfo* нулевой. |
 
 ### Примечания
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до удаления архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет удален.
 
 ### Примеры
 
@@ -58,7 +58,7 @@ using (var archive = new CpioArchive())
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
@@ -78,18 +78,18 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourcePath*имеет значение null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *sourcePath*пуст, содержит только пробелы или недопустимые символы. - или - Имя файла, как часть*name*, превышает 100 символов. |
-| UnauthorizedAccessException | Доступ к файлу*sourcePath*запрещен. |
-| PathTooLongException | Указанный*sourcePath*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. - или -*name*слишком длинное для cpio. |
-| NotSupportedException | Файл по адресу*sourcePath*содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *sourcePath* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *sourcePath* пуст, содержит только пробелы или содержит недопустимые символы. - или - Имя файла, как часть*name*, превышает 100 символов. |
+| UnauthorizedAccessException | Доступ к файлу*sourcePath* отказано. |
+| PathTooLongException | Указанный*sourcePath* , имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. - или же -*name* слишком длинный для cpio. |
+| NotSupportedException | Файл в*sourcePath* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*sourcePath*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*sourcePath* параметр не влияет на имя записи.
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до удаления архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет удален.
 
 ### Примеры
 
@@ -112,7 +112,7 @@ using (var archive = new CpioArchive())
 
 ## CreateEntry(string, Stream) {#createentry_1}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public CpioEntry CreateEntry(string name, Stream source)
@@ -131,9 +131,9 @@ public CpioEntry CreateEntry(string name, Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *name*равно null. |
-| ArgumentNullException | *source*равно null. |
-| ArgumentException | *name*пусто. |
+| ArgumentNullException | *name* нулевой. |
+| ArgumentNullException | *source* нулевой. |
+| ArgumentException | *name* пустой. |
 
 ### Примеры
 

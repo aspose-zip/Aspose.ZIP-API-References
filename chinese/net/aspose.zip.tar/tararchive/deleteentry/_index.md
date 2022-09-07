@@ -24,7 +24,7 @@ public TarArchive DeleteEntry(TarEntry entry)
 
 ### 例子
 
-以下是删除除最后一项之外的所有条目的方法：
+以下是删除除最后一个条目之外的所有条目的方法：
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -64,7 +64,7 @@ public TarArchive DeleteEntry(int entryIndex)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*小于 0。-或-*entryIndex*等于或大于` 条目` 计数。 |
+| ArgumentOutOfRangeException | *entryIndex*小于 0.-或-*entryIndex*等于或大于`参赛作品`数数。 |
 
 ### 例子
 

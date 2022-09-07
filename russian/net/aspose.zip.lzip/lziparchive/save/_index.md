@@ -1,7 +1,7 @@
 ---
 title: Save
 second_title: Aspose.ZIP для справочника API .NET
-description: Сохраняет lzip-архив в указанный поток.
+description: Сохраняет lzipархив в указанный поток.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.lzip/lziparchive/save/
@@ -22,12 +22,12 @@ public void Save(Stream outputStream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *outputStream*не поддерживает поиск. |
-| ArgumentNullException | *outputStream*равно null. |
+| ArgumentException | *outputStream* не поддерживает поиск. |
+| ArgumentNullException | *outputStream* нулевой. |
 
 ### Примечания
 
-*outputStream*должен быть доступен для поиска.
+*outputStream* должен быть доступен для поиска.
 
 ### Примеры
 
@@ -52,7 +52,7 @@ using (FileStream lzFile = File.Open("archive.lz", FileMode.Create))
 
 ## Save(string) {#save_2}
 
-Сохраняет архив lzip в указанный целевой файл.
+Сохраняет архив lzip в указанный файл назначения.
 
 ```csharp
 public void Save(string destinationFileName)
@@ -66,12 +66,12 @@ public void Save(string destinationFileName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*имеет значение null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *destinationFileName*пусто, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName*запрещен. |
+| ArgumentNullException | *destinationFileName* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
 | PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*destinationFileName*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 
@@ -93,7 +93,7 @@ using (var archive = new LzipArchive())
 
 ## Save(FileInfo) {#save}
 
-Сохраняет архив lzip в указанный целевой файл.
+Сохраняет архив lzip в указанный файл назначения.
 
 ```csharp
 public void Save(FileInfo destination)
@@ -101,18 +101,18 @@ public void Save(FileInfo destination)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destination | FileInfo | FileInfo, который будет открыт как целевой поток. |
+| destination | FileInfo | FileInfo, который будет открыт как поток назначения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| SecurityException | У вызывающего абонента нет необходимых прав для открытия*destination*. |
+| SecurityException | У вызывающего абонента нет необходимых разрешений для открытия*destination*. |
 | ArgumentException | Путь к файлу пуст или содержит только пробелы. |
 | FileNotFoundException | Файл не найден. |
 | UnauthorizedAccessException | Путь к файлу доступен только для чтения или является каталогом. |
-| ArgumentNullException | *destination*равно null. |
-| DirectoryNotFoundException | Указан недопустимый путь, например, на несопоставленном диске. |
+| ArgumentNullException | *destination* нулевой. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
 | IOException | Файл уже открыт. |
 
 ### Примеры

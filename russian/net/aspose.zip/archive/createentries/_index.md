@@ -21,14 +21,14 @@ public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory 
 
 ### Возвращаемое значение
 
-Архив с составленными записями.
+Архив с записями составлен.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| DirectoryNotFoundException | Путь к*directory*недействителен, например, находится на несопоставленном диске. |
-| SecurityException | Вызывающий объект не имеет необходимого разрешения на доступ к*directory*. |
+| DirectoryNotFoundException | Путь к*directory* недействителен, например, находится на несопоставленном диске. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*directory*. |
 
 ### Примеры
 
@@ -64,7 +64,7 @@ public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory =
 
 ### Возвращаемое значение
 
-Архив с составленными записями.
+Архив с записями составлен.
 
 ### Примеры
 

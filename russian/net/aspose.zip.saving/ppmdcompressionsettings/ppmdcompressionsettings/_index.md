@@ -1,14 +1,14 @@
 ---
 title: PPMdCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаPPMdCompressionSettingsaspose.zip.saving/ppmdcompressionsettings.
+description: Инициализирует новый экземплярPPMdCompressionSettingsaspose.zip.saving/ppmdcompressionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/ppmdcompressionsettings/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PPMdCompressionSettings`](../../ppmdcompressionsettings).
+Инициализирует новый экземпляр[`PPMdCompressionSettings`](../../ppmdcompressionsettings) класс.
 
 ```csharp
 public PPMdCompressionSettings(int modelOrder, int suballocatorSize)
@@ -16,20 +16,20 @@ public PPMdCompressionSettings(int modelOrder, int suballocatorSize)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| modelOrder | Int32 | Порядок модели. |
-| suballocatorSize | Int32 | Размер памяти в МБ, который может потреблять субраспределитель. |
+| modelOrder | Int32 | Заказ модели. |
+| suballocatorSize | Int32 | Размер памяти в субраспределителе МБ может потребляться. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *modelOrder*не находится между 2 и 16. - или -*suballocatorSize*не находится в диапазоне от 1 до 256. |
+| ArgumentOutOfRangeException | *modelOrder* не находится между 2 и 16. - или -*suballocatorSize* не находится между 1 и 256. |
 
 ### Примечания
 
-Большие порядки моделей почти наверняка приводят к лучшему сжатию и, безусловно, к большему использованию памяти и ЦП.
+Более крупные порядки моделей почти наверняка приводят к лучшему сжатию и, безусловно, к большему использованию памяти и ЦП.
 
-Алгоритму PPMd может потребоваться много памяти, особенно при использовании с большими файлами и/или с большим порядком модели. Если ppmd требуется больше памяти, чем вы ему даете, сжатие будет хуже.
+Алгоритму PPMd может потребоваться много памяти, особенно при использовании с большими файлами и/или с большим заказом моделей. Если ppmd требуется больше памяти, чем вы ему даете, сжатие будет хуже.
 
 ### Примеры
 
@@ -51,7 +51,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressio
 
 ## PPMdCompressionSettings() {#constructor}
 
-Инициализирует новый экземпляр класса[`PPMdCompressionSettings`](../../ppmdcompressionsettings)с порядком модели по умолчанию и размером вспомогательного распределителя.
+Инициализирует новый экземпляр[`PPMdCompressionSettings`](../../ppmdcompressionsettings) класс с порядком модели по умолчанию и размером вспомогательного распределителя.
 
 ```csharp
 public PPMdCompressionSettings()
@@ -59,7 +59,7 @@ public PPMdCompressionSettings()
 
 ### Примечания
 
-Порядок модели по умолчанию - 8, а размер вспомогательного распределителя - 50 МБ.
+Порядок моделей по умолчанию — 8, а размер вспомогательного распределителя — 50 МБ.
 
 ### Примеры
 

@@ -26,7 +26,7 @@ Cpio 入口实例。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *entry*为空。 |
+| ArgumentNullException | *entry*一片空白。 |
 
 ### 例子
 
@@ -70,7 +70,7 @@ public CpioArchive DeleteEntry(int entryIndex)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*小于 0。-或-*entryIndex*等于或大于` 条目` 计数。 |
+| ArgumentOutOfRangeException | *entryIndex*小于 0.-或-*entryIndex*等于或大于`参赛作品`数数。 |
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: SevenZipAESEncryptionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化SevenZipAESEncryptionSettingsaspose.zip.saving/sevenzipaesencryptionsettings类的新实例
+description: 初始化SevenZipAESEncryptionSettingsaspose.zip.saving/sevenzipaesencryptionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/sevenzipaesencryptionsettings/sevenzipaesencryptionsettings/
 ---
 ## SevenZipAESEncryptionSettings constructor
 
-初始化[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings)类的新实例。
+初始化[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings)类.
 
 ```csharp
 public SevenZipAESEncryptionSettings(string password)
@@ -16,7 +16,7 @@ public SevenZipAESEncryptionSettings(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 加密或解密密码。 |
+| password | String | 加密或解密的密码。 |
 
 ### 例子
 

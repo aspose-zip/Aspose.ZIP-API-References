@@ -1,14 +1,14 @@
 ---
 title: XzArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化XzArchiveaspose.zip.xz/xzarchive类的新实例并以 xz 格式组成存档
+description: 初始化XzArchiveaspose.zip.xz/xzarchive类并以 xz 格式组成档案
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.xz/xzarchive/xzarchive/
 ---
 ## XzArchive(XzArchiveSettings) {#constructor}
 
-初始化[`XzArchive`](../../xzarchive)类的新实例并以 xz 格式组成存档。
+初始化[`XzArchive`](../../xzarchive)类并以 xz 格式组成档案。
 
 ```csharp
 public XzArchive(XzArchiveSettings settings = null)
@@ -29,7 +29,7 @@ public XzArchive(XzArchiveSettings settings = null)
 
 ## XzArchive(Stream) {#constructor_1}
 
-初始化准备解压缩的[`XzArchive`](../../xzarchive)类的新实例。
+初始化[`XzArchive`](../../xzarchive)准备解压的类。
 
 ```csharp
 public XzArchive(Stream source)
@@ -43,12 +43,12 @@ public XzArchive(Stream source)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *source*不可搜索。 |
-| ArgumentNullException | *source*为空。 |
+| ArgumentException | *source*是不可搜索的。 |
+| ArgumentNullException | *source*一片空白。 |
 
 ### 评论
 
-此构造函数不解压缩。解压方法见[`Extract`](../extract)方法。
+此构造函数不解压缩。看[`Extract`](../extract)解压方法.
 
 ### 也可以看看
 
@@ -60,7 +60,7 @@ public XzArchive(Stream source)
 
 ## XzArchive(string) {#constructor_2}
 
-初始化准备解压缩的[`XzArchive`](../../xzarchive)类的新实例。
+初始化[`XzArchive`](../../xzarchive)准备解压的类。
 
 ```csharp
 public XzArchive(string path)
@@ -74,16 +74,16 @@ public XzArchive(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不解压缩。解压方法见[`Extract`](../extract)方法。
+此构造函数不解压缩。看[`Extract`](../extract)解压方法.
 
 ### 也可以看看
 

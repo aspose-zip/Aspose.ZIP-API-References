@@ -1,14 +1,14 @@
 ---
 title: SevenZipBZip2CompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаSevenZipBZip2CompressionSettingsaspose.zip.saving/sevenzipbzip2compressionsettings.
+description: Инициализирует новый экземплярSevenZipBZip2CompressionSettingsaspose.zip.saving/sevenzipbzip2compressionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/sevenzipbzip2compressionsettings/sevenzipbzip2compressionsettings/
 ---
 ## SevenZipBZip2CompressionSettings(int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings).
+Инициализирует новый экземпляр[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings) класс.
 
 ```csharp
 public SevenZipBZip2CompressionSettings(int blockSize)
@@ -22,7 +22,7 @@ public SevenZipBZip2CompressionSettings(int blockSize)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *blockSize*слишком большой или слишком маленький. |
+| ArgumentOutOfRangeException | *blockSize* слишком велик или слишком мал. |
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public SevenZipBZip2CompressionSettings(int blockSize)
 
 ## SevenZipBZip2CompressionSettings() {#constructor}
 
-Инициализирует новый экземпляр класса[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings)с размером блока по умолчанию, равным 9 сотням килобайт .
+Инициализирует новый экземпляр[`SevenZipBZip2CompressionSettings`](../../sevenzipbzip2compressionsettings)класс с размером блока по умолчанию, равным 9 сотням килобайт.
 
 ```csharp
 public SevenZipBZip2CompressionSettings()

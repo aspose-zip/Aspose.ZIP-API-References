@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаLicenseaspose.zip/license.
+description: Инициализирует новый экземплярLicenseaspose.zip/license учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/license/license/
 ---
 ## License constructor
 
-Инициализирует новый экземпляр класса[`License`](../../license).
+Инициализирует новый экземпляр[`License`](../../license) учебный класс.
 
 ```csharp
 public License()
@@ -16,7 +16,7 @@ public License()
 
 ### Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей  компонент, в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей  компонент в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-jar-файл компонента:
+файл jar компонента:
 
 ```csharp
 License license = new License();

@@ -1,14 +1,14 @@
 ---
 title: ZArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Этот класс представляет файл архива Z сжатие. Используйте его для составления или извлечения Z-архивов.
+description: Этот класс представляет файл архива Z сжатие. Используйте его для создания или извлечения Zархивов.
 type: docs
-weight: 760
+weight: 780
 url: /ru/net/aspose.zip.z/zarchive/
 ---
 ## ZArchive class
 
-Этот класс представляет файл архива Z (сжатие). Используйте его для составления или извлечения Z-архивов.
+Этот класс представляет файл архива Z (сжатие). Используйте его для создания или извлечения Z-архивов.
 
 ```csharp
 public class ZArchive : IDisposable
@@ -18,18 +18,18 @@ public class ZArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [ZArchive](zarchive#constructor)() | Инициализирует новый экземпляр класса[`ZArchive`](../zarchive), подготовленный для сжатия. |
-| [ZArchive](zarchive#constructor_1)(Stream) | Инициализирует новый экземпляр класса[`ZArchive`](../zarchive), подготовленный для распаковки. |
-| [ZArchive](zarchive#constructor_2)(string) | Инициализирует новый экземпляр класса[`ZArchive`](../zarchive), подготовленный для распаковки. |
+| [ZArchive](zarchive#constructor)() | Инициализирует новый экземпляр[`ZArchive`](../zarchive) класс подготовлен к сжатию. |
+| [ZArchive](zarchive#constructor_1)(Stream) | Инициализирует новый экземпляр[`ZArchive`](../zarchive) класс подготовлен к распаковке. |
+| [ZArchive](zarchive#constructor_2)(string) | Инициализирует новый экземпляр[`ZArchive`](../zarchive) класс подготовлен к распаковке. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.z/zarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [Extract](../../aspose.zip.z/zarchive/extract#extract)(FileInfo) | Распаковывает архив Z в файл. |
-| [Extract](../../aspose.zip.z/zarchive/extract#extract_1)(Stream) | Распаковывает архив Z в поток. |
-| [Extract](../../aspose.zip.z/zarchive/extract#extract_2)(string) | Распаковывает архив Z в файл по пути. |
+| [Dispose](../../aspose.zip.z/zarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Extract](../../aspose.zip.z/zarchive/extract#extract)(FileInfo) | Извлекает архив Z в файл. |
+| [Extract](../../aspose.zip.z/zarchive/extract#extract_1)(Stream) | Извлекает архив Z в поток. |
+| [Extract](../../aspose.zip.z/zarchive/extract#extract_2)(string) | Извлекает архив Z в файл по пути. |
 | [Save](../../aspose.zip.z/zarchive/save#save)(Stream) | Сохраняет архив xz в указанный поток. |
 | [Save](../../aspose.zip.z/zarchive/save#save_1)(string) | Сохраняет Z-архив в указанный целевой файл. |
 | [SetSource](../../aspose.zip.z/zarchive/setsource#setsource)(FileInfo) | Задает сжатие содержимого внутри архива. |

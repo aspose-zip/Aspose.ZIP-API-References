@@ -26,7 +26,7 @@ public Stream Open()
 
 提取存档并将提取的内容复制到文件流。
 
-对于 .NET 4.0 及更高版本，您可以使用 Stream.CopyTo 方法：
+您可以在 .NET 4.0 及更高版本中使用 Stream.CopyTo 方法：
 
 ```csharp
 unpacked.CopyTo(extracted);

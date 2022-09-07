@@ -3,7 +3,7 @@ title: ArchiveEntrySettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки используемые для сжатия или распаковки записей.
 type: docs
-weight: 290
+weight: 300
 url: /ru/net/aspose.zip.saving/archiveentrysettings/
 ---
 ## ArchiveEntrySettings class
@@ -18,7 +18,7 @@ public class ArchiveEntrySettings
 
 | Имя | Описание |
 | --- | --- |
-| [ArchiveEntrySettings](archiveentrysettings)(CompressionSettings, EncryptionSettings) | Инициализирует новый экземпляр класса[`ArchiveEntrySettings`](../archiveentrysettings). |
+| [ArchiveEntrySettings](archiveentrysettings)(CompressionSettings, EncryptionSettings) | Инициализирует новый экземпляр[`ArchiveEntrySettings`](../archiveentrysettings) класс. |
 
 ## Характеристики
 

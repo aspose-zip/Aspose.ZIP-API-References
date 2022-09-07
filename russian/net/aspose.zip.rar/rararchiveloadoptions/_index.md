@@ -1,14 +1,14 @@
 ---
 title: RarArchiveLoadOptions
 second_title: Aspose.ZIP для справочника API .NET
-description: Параметры с которымиRarArchive./rararchiveзагружается из сжатого файла.
+description: Опции с которымиRarArchive./rararchive загружается из сжатого файла.
 type: docs
-weight: 270
+weight: 280
 url: /ru/net/aspose.zip.rar/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions class
 
-Параметры, с которыми[`RarArchive`](../rararchive)загружается из сжатого файла.
+Опции, с которыми[`RarArchive`](../rararchive) загружается из сжатого файла.
 
 ```csharp
 public class RarArchiveLoadOptions

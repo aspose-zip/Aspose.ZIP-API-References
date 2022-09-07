@@ -1,14 +1,14 @@
 ---
 title: DeflateCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаDeflateCompressionSettingsaspose.zip.saving/deflatecompressionsettings.
+description: Инициализирует новый экземплярDeflateCompressionSettingsaspose.zip.saving/deflatecompressionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/deflatecompressionsettings/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings constructor
 
-Инициализирует новый экземпляр класса[`DeflateCompressionSettings`](../../deflatecompressionsettings).
+Инициализирует новый экземпляр[`DeflateCompressionSettings`](../../deflatecompressionsettings) класс.
 
 ```csharp
 public DeflateCompressionSettings()

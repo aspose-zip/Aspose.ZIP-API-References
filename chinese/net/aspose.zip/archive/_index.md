@@ -18,16 +18,16 @@ public class Archive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Archive](archive#constructor)(ArchiveEntrySettings) | 使用其条目的可选设置初始化[`Archive`](../archive)类的新实例。 |
-| [Archive](archive#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | 初始化[`Archive`](../archive)类的新实例并组成条目列表可以从存档中提取。 |
-| [Archive](archive#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | 初始化[`Archive`](../archive)类的新实例并组成条目列表可以从存档中提取。 |
+| [Archive](archive#constructor)(ArchiveEntrySettings) | 初始化[`Archive`](../archive)类及其条目的可选设置。 |
+| [Archive](archive#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | 初始化[`Archive`](../archive)可以从存档中提取类和组成条目列表。 |
+| [Archive](archive#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | 初始化[`Archive`](../archive)可以从存档中提取类和组成条目列表。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Entries](../../aspose.zip/archive/entries) { get; } | 获取构成存档的[`ArchiveEntry`](../archiveentry)类型的条目。 |
-| [NewEntrySettings](../../aspose.zip/archive/newentrysettings) { get; } | 用于新添加的[`ArchiveEntry`](../archiveentry)项目的压缩和加密设置。 |
+| [Entries](../../aspose.zip/archive/entries) { get; } | 获取条目[`ArchiveEntry`](../archiveentry)构成档案的类型。 |
+| [NewEntrySettings](../../aspose.zip/archive/newentrysettings) { get; } | 用于新添加的压缩和加密设置[`ArchiveEntry`](../archiveentry)项目. |
 
 ## 方法
 

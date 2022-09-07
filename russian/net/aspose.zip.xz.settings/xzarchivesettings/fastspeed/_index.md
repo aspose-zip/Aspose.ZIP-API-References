@@ -1,14 +1,14 @@
 ---
 title: FastSpeed
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает экземпляр классаXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings с размером словаря равен 1 мегабайту в фильтре LZMA2 размер блока равен 4 мегабайтам и контрольной сумме CRC32.
+description: Получает экземплярXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings class с размером словаря 1 мегабайт в фильтре LZMA2 размером блока 4 мегабайта и контрольной суммой CRC32.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.xz.settings/xzarchivesettings/fastspeed/
 ---
 ## XzArchiveSettings.FastSpeed property
 
-Получает экземпляр класса[`XzArchiveSettings`](../../xzarchivesettings) с размером словаря равен 1 мегабайту в фильтре LZMA2, размер блока равен 4 мегабайтам и контрольной сумме CRC32.
+Получает экземпляр[`XzArchiveSettings`](../../xzarchivesettings) class с размером словаря 1 мегабайт в фильтре LZMA2, размером блока 4 мегабайта и контрольной суммой CRC32.
 
 ```csharp
 public static XzArchiveSettings FastSpeed { get; }

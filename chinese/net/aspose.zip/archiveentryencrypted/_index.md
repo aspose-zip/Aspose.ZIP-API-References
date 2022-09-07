@@ -1,14 +1,14 @@
 ---
 title: ArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API 参考
-description: 需要加密压缩或解密解压缩的 Zip 条目
+description: 需要加密压缩或解密解压的 Zip 条目
 type: docs
 weight: 30
 url: /zh/net/aspose.zip/archiveentryencrypted/
 ---
 ## ArchiveEntryEncrypted class
 
-需要加密压缩或解密解压缩的 Zip 条目。
+需要加密压缩或解密解压的 Zip 条目。
 
 ```csharp
 public sealed class ArchiveEntryEncrypted : ArchiveEntry
@@ -21,7 +21,7 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 | [CompressedSize](../../aspose.zip/archiveentry/compressedsize) { get; } | 获取压缩文件的大小。 |
 | [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | 获取压缩或解压缩设置。 |
 | [EncryptionSettings](../../aspose.zip/archiveentryencrypted/encryptionsettings) { get; } | 获取加密或解密设置。 |
-| [IsDirectory](../../aspose.zip/archiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip/archiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [ModificationTime](../../aspose.zip/archiveentry/modificationtime) { get; set; } | 获取或设置上次修改的日期和时间。 |
 | [Name](../../aspose.zip/archiveentry/name) { get; } | 获取存档中条目的名称。 |
 | [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize) { get; } | 获取原始文件的大小。 |
@@ -32,7 +32,7 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 | --- | --- |
 | [Extract](../../aspose.zip/archiveentry/extract)(Stream, string) | 将条目提取到提供的流中。 |
 | [Extract](../../aspose.zip/archiveentry/extract)(string, string) | 通过提供的路径将条目提取到文件系统。 |
-| [Open](../../aspose.zip/archiveentry/open)(string) | 打开条目以进行提取并提供具有解压缩条目内容的流。 |
+| [Open](../../aspose.zip/archiveentry/open)(string) | 打开条目以进行提取，并提供具有解压缩条目内容的流。 |
 
 ### 也可以看看
 

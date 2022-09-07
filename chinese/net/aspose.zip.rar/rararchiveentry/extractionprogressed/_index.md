@@ -16,7 +16,7 @@ public event EventHandler<ProgressEventArgs> ExtractionProgressed;
 
 ### 评论
 
-事件发送者是一个[`RarArchiveEntry`](../../rararchiveentry)实例。
+事件发送者是[`RarArchiveEntry`](../../rararchiveentry)实例。
 
 ### 例子
 

@@ -21,14 +21,14 @@ public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDi
 
 ### Возвращаемое значение
 
-Архив с составленными записями.
+Архив с записями составлен.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| DirectoryNotFoundException | Путь к*directory*недействителен, например, находится на несопоставленном диске. |
-| SecurityException | Вызывающий объект не имеет необходимого разрешения на доступ к*directory*. |
+| DirectoryNotFoundException | Путь к*directory* недействителен, например, находится на несопоставленном диске. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*directory*. |
 
 ### Примеры
 
@@ -64,11 +64,11 @@ public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDir
 
 ### Возвращаемое значение
 
-Архив с составленными записями.
+Архив с записями составлен.
 
 ### Примеры
 
-Составить 7z архив со сжатием LZMA2.
+Собрать архив 7z со сжатием LZMA2.
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings())))

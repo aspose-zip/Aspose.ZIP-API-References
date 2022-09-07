@@ -18,7 +18,7 @@ public class EntryEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [EntryEventArgs](entryeventargs)(ArchiveEntry) | Инициализирует новый экземпляр класса[`EntryEventArgs`](../entryeventargs). |
+| [EntryEventArgs](entryeventargs)(ArchiveEntry) | Инициализирует новый экземпляр[`EntryEventArgs`](../entryeventargs) класс. |
 
 ## Характеристики
 

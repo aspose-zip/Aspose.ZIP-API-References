@@ -19,14 +19,14 @@ public void SaveXzCompressed(Stream output, TarFormat? format = default,
 | --- | --- | --- |
 | output | Stream | Целевой поток. |
 | format | Nullable`1 | Определяет формат заголовка tar. Нулевое значение будет рассматриваться как USTar, когда это возможно. |
-| settings | XzArchiveSettings | Набор настроек конкретного архива xz:размер словаря, размер блока, тип проверки. |
+| settings | XzArchiveSettings | Набор настроек конкретного архива xz: размер словаря, размер блока, тип проверки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output*равно нулю. |
-| ArgumentException | *output*недоступен для записи. |
+| ArgumentNullException | *output* нулевой. |
+| ArgumentException | *output* не доступен для записи. |
 
 ### Примечания
 
@@ -71,7 +71,7 @@ public void SaveXzCompressed(string path, TarFormat? format = default,
 | --- | --- | --- |
 | path | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
 | format | Nullable`1 | Определяет формат заголовка tar. Нулевое значение будет рассматриваться как USTar, когда это возможно. |
-| settings | XzArchiveSettings | Набор настроек конкретного архива xz:размер словаря, размер блока, тип проверки. |
+| settings | XzArchiveSettings | Набор настроек конкретного архива xz: размер словаря, размер блока, тип проверки. |
 
 ### Примеры
 

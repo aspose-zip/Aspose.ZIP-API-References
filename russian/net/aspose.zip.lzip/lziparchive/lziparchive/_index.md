@@ -1,14 +1,14 @@
 ---
 title: LzipArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземплярLzipArchiveaspose.zip.lzip/lziparchive.
+description: Инициализирует новый экземплярLzipArchiveaspose.zip.lzip/lziparchive .
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.lzip/lziparchive/lziparchive/
 ---
 ## LzipArchive(LzipArchiveSettings) {#constructor}
 
-Инициализирует новый экземпляр[`LzipArchive`](../../lziparchive).
+Инициализирует новый экземпляр[`LzipArchive`](../../lziparchive) .
 
 ```csharp
 public LzipArchive(LzipArchiveSettings settings = null)
@@ -29,7 +29,7 @@ public LzipArchive(LzipArchiveSettings settings = null)
 
 ## LzipArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`LzipArchive`](../../lziparchive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`LzipArchive`](../../lziparchive) класс подготовлен к распаковке.
 
 ```csharp
 public LzipArchive(Stream sourceStream)
@@ -43,13 +43,13 @@ public LzipArchive(Stream sourceStream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *sourceStream*не доступен для поиска. |
-| ArgumentNullException | *sourceStream*равно нулю. |
+| ArgumentException | *sourceStream* не доступен для поиска. |
+| ArgumentNullException | *sourceStream* нулевой. |
 | InvalidDataException | Заголовки не соответствуют типу архива lzip. |
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Extract`](../extract)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Extract`](../extract) метод распаковки.
 
 ### Смотрите также
 
@@ -61,7 +61,7 @@ public LzipArchive(Stream sourceStream)
 
 ## LzipArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`LzipArchive`](../../lziparchive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`LzipArchive`](../../lziparchive) класс подготовлен к распаковке.
 
 ```csharp
 public LzipArchive(string path)
@@ -75,17 +75,17 @@ public LzipArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 | InvalidDataException | Заголовки не соответствуют типу архива lzip. |
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Extract`](../extract)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Extract`](../extract) метод распаковки.
 
 ### Примеры
 

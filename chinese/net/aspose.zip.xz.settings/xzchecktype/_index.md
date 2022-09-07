@@ -1,14 +1,14 @@
 ---
 title: XzCheckType
 second_title: Aspose.ZIP for .NET API 参考
-description: 枚举定义了 xz 存档的校验和计算方法
+description: 枚举定义了xz存档的校验和计算方法
 type: docs
-weight: 720
+weight: 740
 url: /zh/net/aspose.zip.xz.settings/xzchecktype/
 ---
 ## XzCheckType enumeration
 
-枚举定义了 xz 存档的校验和计算方法。
+枚举定义了xz存档的校验和计算方法。
 
 ```csharp
 public enum XzCheckType : byte
@@ -19,8 +19,8 @@ public enum XzCheckType : byte
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 不会计算校验和。 |
-| Crc32 | `1` | 校验和将使用 CRC32 算法计算。 |
-| Crc64 | `4` | 校验和将使用 CRC64 算法计算。 |
+| Crc32 | `1` | 校验和将使用CRC32算法计算。 |
+| Crc64 | `4` | 校验和将使用CRC64算法计算。 |
 
 ### 也可以看看
 

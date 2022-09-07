@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/sevenziplzma2compressionsettings/sevenziplzma2compressionsettings/
 ---
-## SevenZipLZMA2CompressionSettings constructor
+## SevenZipLZMA2CompressionSettings(int) {#constructor}
 
 在 7z 存档中实例化 LZMA2 压缩方法的设置。
 
@@ -16,7 +16,7 @@ public SevenZipLZMA2CompressionSettings(int dictionarySize = 16777216)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dictionarySize | Int32 | 历史缓冲区的大小，必须在 4096 和 1073741824 之间。 |
+| dictionarySize | Int32 | 历史缓冲区的大小，必须介于 4096 和 1073741824 之间。 |
 
 ### 例外
 
@@ -26,7 +26,38 @@ public SevenZipLZMA2CompressionSettings(int dictionarySize = 16777216)
 
 ### 评论
 
-字典越大越好压缩比通常是，但是大于未压缩数据的字典是RAM的浪费。
+字典越大，压缩率通常就越好，但字典比未压缩数据大是浪费内存。
+
+### 也可以看看
+
+* class [SevenZipLZMA2CompressionSettings](../../sevenziplzma2compressionsettings)
+* 命名空间 [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings)
+* 部件 [Aspose.Zip](../../../)
+
+---
+
+## SevenZipLZMA2CompressionSettings(int, int) {#constructor_1}
+
+在 7z 存档中实例化 LZMA2 压缩方法的设置。
+
+```csharp
+public SevenZipLZMA2CompressionSettings(int dictionarySize, int fastBytes = 32)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| dictionarySize | Int32 | 历史缓冲区的大小，必须介于 4096 和 1073741824 之间。 |
+| fastBytes | Int32 | 控制 LZMA2 压缩器使用的快速字节数。较大数量的快速字节可以以压缩速度为代价提供更好的压缩比。 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentOutOfRangeException | *dictionarySize*太大或太小，或*fastBytes*太大或太小。 |
+
+### 评论
+
+字典越大，压缩率通常就越好，但字典比未压缩数据大是浪费内存。
 
 ### 也可以看看
 

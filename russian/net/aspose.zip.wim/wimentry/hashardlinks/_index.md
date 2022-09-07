@@ -1,14 +1,14 @@
 ---
 title: HasHardLinks
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает известен ли файл или каталог под другими именами.
+description: Получает известны ли файл или каталог под другими именами.
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.wim/wimentry/hashardlinks/
 ---
 ## WimEntry.HasHardLinks property
 
-Получает, известен ли файл или каталог под другими именами.
+Получает, известны ли файл или каталог под другими именами.
 
 ```csharp
 public bool HasHardLinks { get; }

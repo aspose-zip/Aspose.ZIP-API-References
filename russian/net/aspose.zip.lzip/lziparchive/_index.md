@@ -18,9 +18,9 @@ public class LzipArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [LzipArchive](lziparchive#constructor)(LzipArchiveSettings) | Инициализирует новый экземпляр[`LzipArchive`](../lziparchive). |
-| [LzipArchive](lziparchive#constructor_1)(Stream) | Инициализирует новый экземпляр класса[`LzipArchive`](../lziparchive), подготовленный для распаковки. |
-| [LzipArchive](lziparchive#constructor_2)(string) | Инициализирует новый экземпляр класса[`LzipArchive`](../lziparchive), подготовленный для распаковки. |
+| [LzipArchive](lziparchive#constructor)(LzipArchiveSettings) | Инициализирует новый экземпляр[`LzipArchive`](../lziparchive) . |
+| [LzipArchive](lziparchive#constructor_1)(Stream) | Инициализирует новый экземпляр[`LzipArchive`](../lziparchive) класс подготовлен к распаковке. |
+| [LzipArchive](lziparchive#constructor_2)(string) | Инициализирует новый экземпляр[`LzipArchive`](../lziparchive) класс подготовлен к распаковке. |
 
 ## Характеристики
 
@@ -32,13 +32,13 @@ public class LzipArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.lzip/lziparchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [Extract](../../aspose.zip.lzip/lziparchive/extract#extract)(FileInfo) | Распаковывает архив lzip в файл. |
-| [Extract](../../aspose.zip.lzip/lziparchive/extract#extract_1)(Stream) | Распаковывает архив lzip в поток. |
-| [Extract](../../aspose.zip.lzip/lziparchive/extract#extract_2)(string) | Распаковывает архив lzip в файл по пути. |
-| [Save](../../aspose.zip.lzip/lziparchive/save#save)(FileInfo) | Сохраняет архив lzip в указанный целевой файл. |
+| [Dispose](../../aspose.zip.lzip/lziparchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Extract](../../aspose.zip.lzip/lziparchive/extract#extract)(FileInfo) | Извлекает lzip-архив в файл. |
+| [Extract](../../aspose.zip.lzip/lziparchive/extract#extract_1)(Stream) | Извлекает lzip-архив в поток. |
+| [Extract](../../aspose.zip.lzip/lziparchive/extract#extract_2)(string) | Извлекает архив lzip в файл по пути. |
+| [Save](../../aspose.zip.lzip/lziparchive/save#save)(FileInfo) | Сохраняет архив lzip в указанный файл назначения. |
 | [Save](../../aspose.zip.lzip/lziparchive/save#save_1)(Stream) | Сохраняет lzip-архив в указанный поток. |
-| [Save](../../aspose.zip.lzip/lziparchive/save#save_2)(string) | Сохраняет архив lzip в указанный целевой файл. |
+| [Save](../../aspose.zip.lzip/lziparchive/save#save_2)(string) | Сохраняет архив lzip в указанный файл назначения. |
 | [SetSource](../../aspose.zip.lzip/lziparchive/setsource#setsource)(FileInfo) | Задает сжатие содержимого внутри архива. |
 | [SetSource](../../aspose.zip.lzip/lziparchive/setsource#setsource_1)(Stream) | Задает сжатие содержимого внутри архива. |
 | [SetSource](../../aspose.zip.lzip/lziparchive/setsource#setsource_2)(string) | Задает сжатие содержимого внутри архива. |

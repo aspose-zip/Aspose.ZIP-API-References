@@ -3,7 +3,7 @@ title: SevenZipLZMA2CompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия LZMA2 в архиве 7z.
 type: docs
-weight: 490
+weight: 500
 url: /ru/net/aspose.zip.saving/sevenziplzma2compressionsettings/
 ---
 ## SevenZipLZMA2CompressionSettings class
@@ -18,20 +18,22 @@ public class SevenZipLZMA2CompressionSettings : SevenZipCompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings)(int) | Задает настройки для метода сжатия LZMA2 в архиве 7z. |
+| [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings#constructor)(int) | Задает настройки для метода сжатия LZMA2 в архиве 7z. |
+| [SevenZipLZMA2CompressionSettings](sevenziplzma2compressionsettings#constructor_1)(int, int) | Задает настройки для метода сжатия LZMA2 в архиве 7z. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DictionarySize](../../aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize) { get; } | Размер словаря (буфера истории) показывает, сколько байт недавно обработанных несжатых данных хранится в памяти. |
+| [DictionarySize](../../aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize) { get; } | Размер словаря (буфера истории) указывает, сколько байтов недавно обработанных несжатых данных хранится в памяти. |
+| [FastBytes](../../aspose.zip.saving/sevenziplzma2compressionsettings/fastbytes) { get; } | Получает управляющее число быстрых байтов, используемых компрессором LZMA2. |
 | override [Method](../../aspose.zip.saving/sevenziplzma2compressionsettings/method) { get; } | Получает метод сжатия или распаковки. |
 
 ### Примечания
 
 LZMA2 поддерживает несколько запусков сжатых данных LZMA и несжатых данных.
 
-Подробнее:https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+Подробнее: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
 
 ### Смотрите также
 

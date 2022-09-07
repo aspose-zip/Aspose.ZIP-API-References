@@ -25,7 +25,7 @@ public class ArchiveLoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [DecryptionPassword](../../aspose.zip/archiveloadoptions/decryptionpassword) { get; set; } | 获取或设置用于解密条目的密码。 |
-| [EntryExtractionProgressed](../../aspose.zip/archiveloadoptions/entryextractionprogressed) { get; set; } | 获取或设置在提取某些字节时调用的委托。 |
+| [EntryExtractionProgressed](../../aspose.zip/archiveloadoptions/entryextractionprogressed) { get; set; } | 获取或设置提取某些字节时调用的委托。 |
 | [EntryListed](../../aspose.zip/archiveloadoptions/entrylisted) { get; set; } | 获取或设置在目录中列出条目时调用的委托。 |
 
 ### 也可以看看

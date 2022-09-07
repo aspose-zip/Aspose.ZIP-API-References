@@ -1,14 +1,14 @@
 ---
 title: TraditionalEncryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаTraditionalEncryptionSettingsaspose.zip.saving/traditionalencryptionsettings.
+description: Инициализирует новый экземплярTraditionalEncryptionSettingsaspose.zip.saving/traditionalencryptionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/traditionalencryptionsettings/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings).
+Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings) класс.
 
 ```csharp
 public TraditionalEncryptionSettings(string password)
@@ -16,7 +16,7 @@ public TraditionalEncryptionSettings(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль для шифрования. |
+| password | String | Пароль для шифрования. |
 
 ### Примеры
 
@@ -38,7 +38,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 
 ## TraditionalEncryptionSettings(string, Encoding) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)с пользовательской кодировкой.
+Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings) класс с пользовательской кодировкой.
 
 ```csharp
 public TraditionalEncryptionSettings(string password, Encoding encoding)
@@ -46,7 +46,7 @@ public TraditionalEncryptionSettings(string password, Encoding encoding)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль для шифрования. |
+| password | String | Пароль для шифрования. |
 | encoding | Encoding | Кодировка символов пароля. |
 
 ### Примечания
@@ -73,7 +73,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 
 ## TraditionalEncryptionSettings() {#constructor}
 
-Инициализирует новый экземпляр класса[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)без пароля.
+Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings) класс без пароля.
 
 ```csharp
 public TraditionalEncryptionSettings()

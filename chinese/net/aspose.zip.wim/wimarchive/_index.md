@@ -3,7 +3,7 @@ title: WimArchive
 second_title: Aspose.ZIP for .NET API 参考
 description: 这个类代表wim归档文件
 type: docs
-weight: 610
+weight: 630
 url: /zh/net/aspose.zip.wim/wimarchive/
 ---
 ## WimArchive class
@@ -18,18 +18,18 @@ public class WimArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WimArchive](wimarchive#constructor)(Stream) | 初始化[`WimArchive`](../wimarchive)类的新实例并组成条目列表可以从存档中提取。 |
-| [WimArchive](wimarchive#constructor_1)(string) | 初始化[`WimArchive`](../wimarchive)类的新实例并组成条目列表可以从存档中提取。 |
+| [WimArchive](wimarchive#constructor)(Stream) | 初始化[`WimArchive`](../wimarchive)可以从存档中提取类和组成条目列表。 |
+| [WimArchive](wimarchive#constructor_1)(string) | 初始化[`WimArchive`](../wimarchive)可以从存档中提取类和组成条目列表。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BootImageIndex](../../aspose.zip.wim/wimarchive/bootimageindex) { get; } | 获取可启动映像的（从零开始的）索引。 |
+| [BootImageIndex](../../aspose.zip.wim/wimarchive/bootimageindex) { get; } | 获取可引导映像的（从零开始的）索引。 |
 | [FileFormatVersion](../../aspose.zip.wim/wimarchive/fileformatversion) { get; } | 获取文件格式的版本。 |
 | [Guid](../../aspose.zip.wim/wimarchive/guid) { get; } | 获取存档的标识 GUID。 |
-| [Images](../../aspose.zip.wim/wimarchive/images) { get; } | 获取构成存档的[`WimImage`](../wimimage)类型的条目。 |
-| [Manifest](../../aspose.zip.wim/wimarchive/manifest) { get; } | 获取描述文件和包含图像的嵌入清单。 |
+| [Images](../../aspose.zip.wim/wimarchive/images) { get; } | 获取条目[`WimImage`](../wimimage)构成档案的类型。 |
+| [Manifest](../../aspose.zip.wim/wimarchive/manifest) { get; } | 获取描述文件和包含的图像的嵌入清单。 |
 
 ## 方法
 

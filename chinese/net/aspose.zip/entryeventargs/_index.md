@@ -18,7 +18,7 @@ public class EntryEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EntryEventArgs](entryeventargs)(ArchiveEntry) | 初始化[`EntryEventArgs`](../entryeventargs)类的新实例。 |
+| [EntryEventArgs](entryeventargs)(ArchiveEntry) | 初始化[`EntryEventArgs`](../entryeventargs)类. |
 
 ## 特性
 

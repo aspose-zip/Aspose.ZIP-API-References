@@ -1,14 +1,14 @@
 ---
 title: EnhancedDeflateCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Настройки метода сжатия Enhanced Deflate.
+description: Настройки для метода сжатия Enhanced Deflate.
 type: docs
-weight: 360
+weight: 370
 url: /ru/net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings class
 
-Настройки метода сжатия Enhanced Deflate.
+Настройки для метода сжатия Enhanced Deflate.
 
 ```csharp
 public class EnhancedDeflateCompressionSettings : CompressionSettings
@@ -18,7 +18,7 @@ public class EnhancedDeflateCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings)() | Инициализирует новый экземпляр класса[`EnhancedDeflateCompressionSettings`](../enhanceddeflatecompressionsettings). |
+| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings)() | Инициализирует новый экземпляр[`EnhancedDeflateCompressionSettings`](../enhanceddeflatecompressionsettings) класс. |
 
 ### Смотрите также
 

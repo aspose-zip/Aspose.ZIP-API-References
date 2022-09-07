@@ -1,14 +1,14 @@
 ---
 title: CancelEntryEventArgs
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаCancelEntryEventArgsaspose.zip/cancelentryeventargs.
+description: Инициализирует новый экземплярCancelEntryEventArgsaspose.zip/cancelentryeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/cancelentryeventargs/cancelentryeventargs/
 ---
 ## CancelEntryEventArgs constructor
 
-Инициализирует новый экземпляр класса[`CancelEntryEventArgs`](../../cancelentryeventargs).
+Инициализирует новый экземпляр[`CancelEntryEventArgs`](../../cancelentryeventargs) класс.
 
 ```csharp
 public CancelEntryEventArgs(ArchiveEntry entry)

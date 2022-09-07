@@ -3,7 +3,7 @@ title: SevenZipArchiveEntryEncrypted
 second_title: Aspose.ZIP для справочника API .NET
 description: Запись архива SevenZip которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки.
 type: docs
-weight: 560
+weight: 570
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentryencrypted/
 ---
 ## SevenZipArchiveEntryEncrypted class
@@ -19,7 +19,7 @@ public class SevenZipArchiveEntryEncrypted : SevenZipArchiveEntry
 | Имя | Описание |
 | --- | --- |
 | [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize) { get; } | Получает размер сжатого файла. |
-| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings) { get; } | Получает настройки для сжатия или распаковки. |
+| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings) { get; } | Получает параметры сжатия или распаковки. |
 | [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
 | [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name) { get; } | Получает имя записи в архиве. |
 | [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize) { get; } | Получает размер исходного файла. |

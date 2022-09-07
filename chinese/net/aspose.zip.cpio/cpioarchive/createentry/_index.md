@@ -28,13 +28,13 @@ Cpio 入口实例。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *name*为空。 |
-| ArgumentException | *name*为空。 |
-| ArgumentNullException | *fileInfo*为空。 |
+| ArgumentNullException | *name*一片空白。 |
+| ArgumentException | *name*是空的。 |
+| ArgumentNullException | *fileInfo*一片空白。 |
 
 ### 评论
 
-如果使用*openImmediately*参数立即打开文件，它将被阻止，直到归档被处置。
+如果文件立即打开*openImmediately*参数它会被阻塞，直到归档被处理。
 
 ### 例子
 
@@ -78,18 +78,18 @@ Cpio 入口实例。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourcePath*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *sourcePath*为空、仅包含空格或包含无效字符。 - 或 - 作为*name*一部分的文件名超过 100 个符号。 |
-| UnauthorizedAccessException | 对文件*sourcePath*的访问被拒绝。 |
-| PathTooLongException | 指定的*sourcePath*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 - 或 -*name*对于 cpio 来说太长了。 |
-| NotSupportedException | *sourcePath*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *sourcePath*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*sourcePath*为空、仅包含空格或包含无效字符。 - 或 - 文件名，作为*name*超过 100 个符号。 |
+| UnauthorizedAccessException | 访问文件*sourcePath*被拒绝。 |
+| PathTooLongException | 指定的*sourcePath*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 - 或者 -*name*对于 cpio 来说太长了。 |
+| NotSupportedException | 档案在*sourcePath*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-条目名称仅在*name*参数中设置。*sourcePath*参数中提供的文件名不会影响条目名称。
+条目名称仅设置在*name*范围。中提供的文件名*sourcePath*参数不影响条目名称。
 
-如果使用*openImmediately*参数立即打开文件，它将被阻止，直到归档被处置。
+如果文件立即打开*openImmediately*参数它会被阻塞，直到归档被处理。
 
 ### 例子
 
@@ -131,9 +131,9 @@ Cpio 入口实例。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *name*为空。 |
-| ArgumentNullException | *source*为空。 |
-| ArgumentException | *name*为空。 |
+| ArgumentNullException | *name*一片空白。 |
+| ArgumentNullException | *source*一片空白。 |
+| ArgumentException | *name*是空的。 |
 
 ### 例子
 

@@ -1,0 +1,192 @@
+---
+title: SetSource
+second_title: Aspose.ZIP för .NET API-referens
+description: Ställer in innehållet som ska komprimeras i arkivet.
+type: docs
+weight: 60
+url: /sv/net/aspose.zip.bzip2/bzip2archive/setsource/
+---
+## SetSource(Stream) {#setsource_3}
+
+Ställer in innehållet som ska komprimeras i arkivet.
+
+```csharp
+public void SetSource(Stream source)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| source | Stream | Indataströmmen för arkivet. |
+
+### Exempel
+
+```csharp
+using (Bzip2Archive archive = new Bzip2Archive()) 
+{
+    archive.SetSource(new MemoryStream(new byte[] { 0x00,0xFF }));
+    archive.Save("archive.bz2");
+}
+```
+
+### Se även
+
+* class [Bzip2Archive](../../bzip2archive)
+* namnutrymme [Aspose.Zip.Bzip2](../../bzip2archive)
+* hopsättning [Aspose.Zip](../../../)
+
+---
+
+## SetSource(FileInfo) {#setsource_2}
+
+Ställer in innehållet som ska komprimeras i arkivet.
+
+```csharp
+public void SetSource(FileInfo fileInfo)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| fileInfo | FileInfo | Referensen till en fil som ska komprimeras. |
+
+### Exempel
+
+```csharp
+using (Bzip2Archive archive = new Bzip2Archive()) 
+{
+    archive.SetSource(new FileInfo("data.bin"));
+    archive.Save("archive.bz2");
+}
+```
+
+### Se även
+
+* class [Bzip2Archive](../../bzip2archive)
+* namnutrymme [Aspose.Zip.Bzip2](../../bzip2archive)
+* hopsättning [Aspose.Zip](../../../)
+
+---
+
+## SetSource(string) {#setsource_4}
+
+Ställer in innehållet som ska komprimeras i arkivet.
+
+```csharp
+public void SetSource(string path)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| path | String | Sökväg till fil som ska komprimeras. |
+
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentNullException | *path* är inget. |
+| SecurityException | Den som ringer har inte den behörighet som krävs för att få åtkomst |
+| ArgumentException | De*path* är tom, innehåller bara blanksteg eller innehåller ogiltiga tecken. |
+| UnauthorizedAccessException | Tillgång till fil*path* är nekad. |
+| PathTooLongException | Den angivna*path*, filnamn eller båda överskrider den systemdefinierade maximala längden. Till exempel, på Windows-baserade plattformar måste sökvägar vara mindre än 248 tecken och filnamn måste vara mindre än 260 tecken. |
+| NotSupportedException | Arkivera kl*path* innehåller ett kolon (:) i mitten av strängen. |
+
+### Exempel
+
+```csharp
+using (Bzip2Archive archive = new Bzip2Archive()) 
+{
+    archive.SetSource("data.bin");
+    archive.Save("archive.bz2");
+}
+```
+
+### Se även
+
+* class [Bzip2Archive](../../bzip2archive)
+* namnutrymme [Aspose.Zip.Bzip2](../../bzip2archive)
+* hopsättning [Aspose.Zip](../../../)
+
+---
+
+## SetSource(TarArchive, TarFormat) {#setsource_1}
+
+Ställer in innehållet som ska komprimeras i arkivet.
+
+```csharp
+public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| tarArchive | TarArchive | Tar-arkiv som ska komprimeras. |
+| format | TarFormat | Definierar tjärhuvudformat. |
+
+### Anmärkningar
+
+Använd den här metoden för att skapa ett gemensamt tar.bz2-arkiv.
+
+### Exempel
+
+```csharp
+using (var tarArchive = new TarArchive())
+{
+    tarArchive.CreateEntry("first.bin", "data1.bin");
+    tarArchive.CreateEntry("second.bin", "data2.bin");
+    using (var bzippedArchive = new Bzip2Archive())
+    {
+        bzippedArchive.SetSource(tarArchive);
+        bzippedArchive.Save("archive.tar.bz2");
+    }
+}
+```
+
+### Se även
+
+* class [TarArchive](../../../aspose.zip.tar/tararchive)
+* enum [TarFormat](../../../aspose.zip.tar/tarformat)
+* class [Bzip2Archive](../../bzip2archive)
+* namnutrymme [Aspose.Zip.Bzip2](../../bzip2archive)
+* hopsättning [Aspose.Zip](../../../)
+
+---
+
+## SetSource(CpioArchive, CpioFormat) {#setsource}
+
+Ställer in innehållet som ska komprimeras i arkivet.
+
+```csharp
+public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.OldAscii)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| cpioArchive | CpioArchive | Cpio-arkiv som ska komprimeras. |
+| format | CpioFormat | Definierar cpio-huvudformat. |
+
+### Anmärkningar
+
+Använd den här metoden för att skapa ett gemensamt cpio.bz2-arkiv.
+
+### Exempel
+
+```csharp
+using (var cpioArchive = new CpioArchive())
+{
+    cpioArchive.CreateEntry("first.bin", "data1.bin");
+    cpioArchive.CreateEntry("second.bin", "data2.bin");
+    using (var bzippedArchive = new Bzip2Archive())
+    {
+        bzippedArchive.SetSource(cpioArchive);
+        bzippedArchive.Save("archive.cpio.bz2");
+    }
+}
+```
+
+### Se även
+
+* class [CpioArchive](../../../aspose.zip.cpio/cpioarchive)
+* enum [CpioFormat](../../../aspose.zip.cpio/cpioformat)
+* class [Bzip2Archive](../../bzip2archive)
+* namnutrymme [Aspose.Zip.Bzip2](../../bzip2archive)
+* hopsättning [Aspose.Zip](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->

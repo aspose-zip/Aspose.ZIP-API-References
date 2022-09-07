@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Gzip
 second_title: Aspose.ZIP для справочника API .NET
-description: Пространство именGzipсодержит классы представляющие gzip-архив.
+description: Gzip namespace содержит классы представляющие gzipархив.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.gzip/
 ---
-Пространство именGzipсодержит классы, представляющие gzip-архив.
+Gzip namespace содержит классы, представляющие gzip-архив.
 
 ## Классы
 

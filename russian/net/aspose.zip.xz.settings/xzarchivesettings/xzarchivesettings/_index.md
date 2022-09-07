@@ -1,14 +1,14 @@
 ---
 title: XzArchiveSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings используя однократное сжатие LZMA2.
+description: Инициализирует новый экземплярXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings класс использующий однократное сжатие LZMA2.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xz.settings/xzarchivesettings/xzarchivesettings/
 ---
 ## XzArchiveSettings() {#constructor}
 
-Инициализирует новый экземпляр класса[`XzArchiveSettings`](../../xzarchivesettings), используя однократное сжатие LZMA2.
+Инициализирует новый экземпляр[`XzArchiveSettings`](../../xzarchivesettings) класс, использующий однократное сжатие LZMA2.
 
 ```csharp
 public XzArchiveSettings()
@@ -16,7 +16,7 @@ public XzArchiveSettings()
 
 ### Примечания
 
-Размер словаря по умолчанию в фильтре LZMA2 равен 16 мегабайт, размер блока по умолчанию равен 64 мегабайтам, по умолчанию тип контрольной суммы CRC32.
+Размер словаря по умолчанию в фильтре LZMA2 равен 16 мегабайт, размер блока по умолчанию равен 64 мегабайтам, тип контрольной суммы по умолчанию - CRC32.
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public XzArchiveSettings()
 
 ## XzArchiveSettings(XzFilterSettings[], long, XzCheckType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XzArchiveSettings`](../../xzarchivesettings)с пользовательскими параметрами.
+Инициализирует новый экземпляр[`XzArchiveSettings`](../../xzarchivesettings) класс с пользовательскими параметрами.
 
 ```csharp
 public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType checkType)
@@ -36,7 +36,7 @@ public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filters | XzFilterSettings[] | Фильтры (компрессоры), которые последовательно применяются для создания[`XzArchive`](../../../aspose.zip.xz/xzarchive). Это может быть один[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) или параXzBcjX86FilterSettingsи[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) |
+| filters | XzFilterSettings[] | Фильтры (компрессоры), применяемые последовательно для создания[`XzArchive`](../../../aspose.zip.xz/xzarchive) . Он может быть либо одиночным[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) или пара[`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings) а также[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) |
 | blockSize | Int64 | Размер блока архива xz. |
 | checkType | XzCheckType | Тип вычисления контрольной суммы для несжатых данных. |
 
@@ -44,9 +44,9 @@ public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *blockSize*имеет отрицательное значение. |
-| ArgumentNullException | *filters*is null |
-| ArgumentException | *filters*имеет менее одного или более двух фильтров, или последний фильтр не[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings). |
+| ArgumentOutOfRangeException | *blockSize* отрицательно. |
+| ArgumentNullException | *filters* нулевой |
+| ArgumentException | *filters* имеет менее одного или более двух фильтров, или последний фильтр не[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings). |
 
 ### Примеры
 

@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /zh/net/aspose.zip.bzip2/bzip2archive/setsource/
 ---
-## SetSource(Stream) {#setsource_2}
+## SetSource(Stream) {#setsource_3}
 
 设置要在存档中压缩的内容。
 
@@ -36,7 +36,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## SetSource(FileInfo) {#setsource_1}
+## SetSource(FileInfo) {#setsource_2}
 
 设置要在存档中压缩的内容。
 
@@ -66,7 +66,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## SetSource(string) {#setsource_3}
+## SetSource(string) {#setsource_4}
 
 设置要在存档中压缩的内容。
 
@@ -82,12 +82,12 @@ public void SetSource(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 例子
 
@@ -107,21 +107,22 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## SetSource(TarArchive) {#setsource}
+## SetSource(TarArchive, TarFormat) {#setsource_1}
 
 设置要在存档中压缩的内容。
 
 ```csharp
-public void SetSource(TarArchive tarArchive)
+public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tarArchive | TarArchive | 要压缩的tar存档。 |
+| tarArchive | TarArchive | 要压缩的 tar 存档。 |
+| format | TarFormat | 定义 tar 标头格式。 |
 
 ### 评论
 
-使用此方法组成联合 tar.gz 存档。
+使用此方法组成联合 tar.bz2 存档。
 
 ### 例子
 
@@ -132,8 +133,8 @@ using (var tarArchive = new TarArchive())
     tarArchive.CreateEntry("second.bin", "data2.bin");
     using (var bzippedArchive = new Bzip2Archive())
     {
-           bzippedArchive.SetSource(tarArchive);
-           bzippedArchive.Save("archive.tar.bz2");
+        bzippedArchive.SetSource(tarArchive);
+        bzippedArchive.Save("archive.tar.bz2");
     }
 }
 ```
@@ -141,6 +142,49 @@ using (var tarArchive = new TarArchive())
 ### 也可以看看
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive)
+* enum [TarFormat](../../../aspose.zip.tar/tarformat)
+* class [Bzip2Archive](../../bzip2archive)
+* 命名空间 [Aspose.Zip.Bzip2](../../bzip2archive)
+* 部件 [Aspose.Zip](../../../)
+
+---
+
+## SetSource(CpioArchive, CpioFormat) {#setsource}
+
+设置要在存档中压缩的内容。
+
+```csharp
+public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.OldAscii)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| cpioArchive | CpioArchive | 要压缩的 Cpio 存档。 |
+| format | CpioFormat | 定义 cpio 标头格式。 |
+
+### 评论
+
+使用此方法组成联合 cpio.bz2 存档。
+
+### 例子
+
+```csharp
+using (var cpioArchive = new CpioArchive())
+{
+    cpioArchive.CreateEntry("first.bin", "data1.bin");
+    cpioArchive.CreateEntry("second.bin", "data2.bin");
+    using (var bzippedArchive = new Bzip2Archive())
+    {
+        bzippedArchive.SetSource(cpioArchive);
+        bzippedArchive.Save("archive.cpio.bz2");
+    }
+}
+```
+
+### 也可以看看
+
+* class [CpioArchive](../../../aspose.zip.cpio/cpioarchive)
+* enum [CpioFormat](../../../aspose.zip.cpio/cpioformat)
 * class [Bzip2Archive](../../bzip2archive)
 * 命名空间 [Aspose.Zip.Bzip2](../../bzip2archive)
 * 部件 [Aspose.Zip](../../../)

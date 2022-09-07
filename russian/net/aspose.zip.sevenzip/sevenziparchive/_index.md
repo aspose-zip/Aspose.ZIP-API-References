@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP для справочника API .NET
 description: Этот класс представляет файл архива 7z. Используйте его для создания и извлечения архивов 7z.
 type: docs
-weight: 540
+weight: 550
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/
 ---
 ## SevenZipArchive class
@@ -18,16 +18,16 @@ public class SevenZipArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [SevenZipArchive](sevenziparchive#constructor)(SevenZipEntrySettings) | Инициализирует новый экземпляр класса[`SevenZipArchive`](../sevenziparchive)с дополнительными настройками для его записей. |
-| [SevenZipArchive](sevenziparchive#constructor_1)(Stream) | Инициализирует новый экземпляр класса[`SevenZipArchive`](../sevenziparchive)и составляет список записей, которые можно извлечь из архива. |
-| [SevenZipArchive](sevenziparchive#constructor_2)(string) | Инициализирует новый экземпляр класса[`SevenZipArchive`](../sevenziparchive)и составляет список записей, которые можно извлечь из архива. |
+| [SevenZipArchive](sevenziparchive#constructor)(SevenZipEntrySettings) | Инициализирует новый экземпляр[`SevenZipArchive`](../sevenziparchive)класс с необязательными настройками для его записей. |
+| [SevenZipArchive](sevenziparchive#constructor_1)(Stream) | Инициализирует новый экземпляр[`SevenZipArchive`](../sevenziparchive) список записей классов и композиций можно извлечь из архива. |
+| [SevenZipArchive](sevenziparchive#constructor_2)(string) | Инициализирует новый экземпляр[`SevenZipArchive`](../sevenziparchive) список записей классов и композиций можно извлечь из архива. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Entries](../../aspose.zip.sevenzip/sevenziparchive/entries) { get; } | Получает записи типа[`SevenZipArchiveEntry`](../sevenziparchiveentry), составляющие архив. |
-| [NewEntrySettings](../../aspose.zip.sevenzip/sevenziparchive/newentrysettings) { get; } | Настройки сжатия и шифрования, используемые для вновь добавленных элементов[`SevenZipArchiveEntry`](../sevenziparchiveentry). |
+| [Entries](../../aspose.zip.sevenzip/sevenziparchive/entries) { get; } | Получает записи[`SevenZipArchiveEntry`](../sevenziparchiveentry) тип составляющий архив. |
+| [NewEntrySettings](../../aspose.zip.sevenzip/sevenziparchive/newentrysettings) { get; } | Параметры сжатия и шифрования, используемые для вновь добавленных[`SevenZipArchiveEntry`](../sevenziparchiveentry) предметы. |
 
 ## Методы
 
@@ -35,14 +35,14 @@ public class SevenZipArchive : IDisposable
 | --- | --- |
 | [CreateEntries](../../aspose.zip.sevenzip/sevenziparchive/createentries#createentries)(DirectoryInfo, bool) | Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге. |
 | [CreateEntries](../../aspose.zip.sevenzip/sevenziparchive/createentries#createentries_1)(string, bool) | Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry_1)(string, Stream, SevenZipEntrySettings) | Создать одну запись внутри архива. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry)(string, FileInfo, bool, SevenZipEntrySettings) | Создать одну запись внутри архива. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry_2)(string, Stream, SevenZipEntrySettings, FileSystemInfo) | Создать одну запись внутри архива. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry_3)(string, string, bool, SevenZipEntrySettings) | Создать одну запись внутри архива. |
-| [Dispose](../../aspose.zip.sevenzip/sevenziparchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry_1)(string, Stream, SevenZipEntrySettings) | Создать одну запись в архиве. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry)(string, FileInfo, bool, SevenZipEntrySettings) | Создать одну запись в архиве. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry_2)(string, Stream, SevenZipEntrySettings, FileSystemInfo) | Создать одну запись в архиве. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry#createentry_3)(string, string, bool, SevenZipEntrySettings) | Создать одну запись в архиве. |
+| [Dispose](../../aspose.zip.sevenzip/sevenziparchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [ExtractToDirectory](../../aspose.zip.sevenzip/sevenziparchive/extracttodirectory)(string, string) | Извлекает все файлы из архива в указанный каталог. |
 | [Save](../../aspose.zip.sevenzip/sevenziparchive/save#save)(Stream) | Сохраняет архив 7z в указанный поток. |
-| [Save](../../aspose.zip.sevenzip/sevenziparchive/save#save_1)(string) | Сохраняет архив в указанный целевой файл. |
+| [Save](../../aspose.zip.sevenzip/sevenziparchive/save#save_1)(string) | Сохраняет архив в указанный файл назначения. |
 
 ### Смотрите также
 

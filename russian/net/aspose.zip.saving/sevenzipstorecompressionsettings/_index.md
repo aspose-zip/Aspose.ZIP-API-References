@@ -3,7 +3,7 @@ title: SevenZipStoreCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия Store в архиве 7z.
 type: docs
-weight: 510
+weight: 520
 url: /ru/net/aspose.zip.saving/sevenzipstorecompressionsettings/
 ---
 ## SevenZipStoreCompressionSettings class

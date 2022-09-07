@@ -3,7 +3,7 @@ title: AesEcryptionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: AES 加密或解密算法的设置
 type: docs
-weight: 280
+weight: 290
 url: /zh/net/aspose.zip.saving/aesecryptionsettings/
 ---
 ## AesEcryptionSettings class
@@ -18,8 +18,8 @@ public class AesEcryptionSettings : EncryptionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AesEcryptionSettings](aesecryptionsettings#constructor)(EncryptionMethod) | 在没有密码的情况下初始化[`AesEcryptionSettings`](../aesecryptionsettings)类的新实例。 |
-| [AesEcryptionSettings](aesecryptionsettings#constructor_1)(string, EncryptionMethod) | 初始化[`AesEcryptionSettings`](../aesecryptionsettings)类的新实例。 |
+| [AesEcryptionSettings](aesecryptionsettings#constructor)(EncryptionMethod) | 初始化[`AesEcryptionSettings`](../aesecryptionsettings)没有密码的课程。 |
+| [AesEcryptionSettings](aesecryptionsettings#constructor_1)(string, EncryptionMethod) | 初始化[`AesEcryptionSettings`](../aesecryptionsettings)类. |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public class AesEcryptionSettings : EncryptionSettings
 
 ### 评论
 
-在 https://www.winzip.com/win/en/aes_info.html 查看更多信息
+在 https://www.winzip.com/win/en/aes_info.html 上查看更多信息
 
 ### 也可以看看
 

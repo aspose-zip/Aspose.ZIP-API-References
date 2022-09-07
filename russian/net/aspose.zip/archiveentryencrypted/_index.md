@@ -1,7 +1,7 @@
 ---
 title: ArchiveEntryEncrypted
 second_title: Aspose.ZIP для справочника API .NET
-description: ZIP-запись которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки.
+description: ZIPзапись которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip/archiveentryencrypted/
@@ -19,7 +19,7 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 | Имя | Описание |
 | --- | --- |
 | [CompressedSize](../../aspose.zip/archiveentry/compressedsize) { get; } | Получает размер сжатого файла. |
-| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | Получает настройки для сжатия или распаковки. |
+| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | Получает параметры сжатия или распаковки. |
 | [EncryptionSettings](../../aspose.zip/archiveentryencrypted/encryptionsettings) { get; } | Получает настройки для шифрования или дешифрования. |
 | [IsDirectory](../../aspose.zip/archiveentry/isdirectory) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
 | [ModificationTime](../../aspose.zip/archiveentry/modificationtime) { get; set; } | Получает или устанавливает дату и время последнего изменения. |
@@ -30,7 +30,7 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip/archiveentry/extract)(Stream, string) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip/archiveentry/extract)(Stream, string) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip/archiveentry/extract)(string, string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip/archiveentry/open)(string) | Открывает запись для извлечения и предоставляет поток с распакованным содержимым записи. |
 

@@ -1,14 +1,14 @@
 ---
 title: NewEntrySettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Настройки сжатия и шифрования используемые для вновь добавленныхArchiveEntryaspose.zip/archiveentryэлементов.
+description: Параметры сжатия и шифрования используемые для вновь добавленныхArchiveEntryaspose.zip/archiveentry предметы.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip/archive/newentrysettings/
 ---
 ## Archive.NewEntrySettings property
 
-Настройки сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry)элементов.
+Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry) предметы.
 
 ```csharp
 public ArchiveEntrySettings NewEntrySettings { get; }

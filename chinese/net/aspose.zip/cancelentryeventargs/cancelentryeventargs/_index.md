@@ -1,14 +1,14 @@
 ---
 title: CancelEntryEventArgs
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化CancelEntryEventArgsaspose.zip/cancelentryeventargs类的新实例
+description: 初始化CancelEntryEventArgsaspose.zip/cancelentryeventargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip/cancelentryeventargs/cancelentryeventargs/
 ---
 ## CancelEntryEventArgs constructor
 
-初始化[`CancelEntryEventArgs`](../../cancelentryeventargs)类的新实例。
+初始化[`CancelEntryEventArgs`](../../cancelentryeventargs)类.
 
 ```csharp
 public CancelEntryEventArgs(ArchiveEntry entry)

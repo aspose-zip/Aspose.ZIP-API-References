@@ -1,14 +1,14 @@
 ---
 title: TarArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаTarArchiveaspose.zip.tar/tararchive.
+description: Инициализирует новый экземплярTarArchiveaspose.zip.tar/tararchive класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.tar/tararchive/tararchive/
 ---
 ## TarArchive() {#constructor}
 
-Инициализирует новый экземпляр класса[`TarArchive`](../../tararchive).
+Инициализирует новый экземпляр[`TarArchive`](../../tararchive) класс.
 
 ```csharp
 public TarArchive()
@@ -36,7 +36,7 @@ using (var archive = new TarArchive())
 
 ## TarArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Archive`](../../../aspose.zip/archive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`Archive`](../../../aspose.zip/archive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public TarArchive(Stream sourceStream)
@@ -50,11 +50,11 @@ public TarArchive(Stream sourceStream)
 
 | исключение | условие |
 | --- | --- |
-| InvalidDataException | *sourceStream*не доступен для поиска. |
+| InvalidDataException | *sourceStream* не доступен для поиска. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См. метод[`Open`](../../tarentry/open)для распаковки.
+Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../tarentry/open) способ распаковки.
 
 ### Примеры
 
@@ -77,7 +77,7 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 
 ## TarArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TarArchive`](../../tararchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`TarArchive`](../../tararchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public TarArchive(string path)
@@ -91,16 +91,16 @@ public TarArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См. метод[`Open`](../../tarentry/open)для распаковки.
+Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../tarentry/open) способ распаковки.
 
 ### Примеры
 

@@ -3,7 +3,7 @@ title: StoreCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 存储压缩方法的设置
 type: docs
-weight: 520
+weight: 530
 url: /zh/net/aspose.zip.saving/storecompressionsettings/
 ---
 ## StoreCompressionSettings class
@@ -18,7 +18,7 @@ public class StoreCompressionSettings : CompressionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StoreCompressionSettings](storecompressionsettings)() | 初始化[`StoreCompressionSettings`](../storecompressionsettings)类的新实例。 |
+| [StoreCompressionSettings](storecompressionsettings)() | 初始化[`StoreCompressionSettings`](../storecompressionsettings)类. |
 
 ### 评论
 

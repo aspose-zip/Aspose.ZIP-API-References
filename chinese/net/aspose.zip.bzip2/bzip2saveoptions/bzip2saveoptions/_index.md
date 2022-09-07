@@ -1,14 +1,14 @@
 ---
 title: Bzip2SaveOptions
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化Bzip2SaveOptionsaspose.zip.bzip2/bzip2saveoptions类的新实例
+description: 初始化Bzip2SaveOptionsaspose.zip.bzip2/bzip2saveoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.bzip2/bzip2saveoptions/bzip2saveoptions/
 ---
 ## Bzip2SaveOptions(int) {#constructor_1}
 
-初始化[`Bzip2SaveOptions`](../../bzip2saveoptions)类的新实例。
+初始化[`Bzip2SaveOptions`](../../bzip2saveoptions)类.
 
 ```csharp
 public Bzip2SaveOptions(int blockSize)
@@ -16,7 +16,7 @@ public Bzip2SaveOptions(int blockSize)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| blockSize | Int32 | 块大小以数百千字节为单位。 |
+| blockSize | Int32 | 块大小以数百 KB 为单位。 |
 
 ### 例外
 
@@ -47,7 +47,7 @@ using (FileStream result = File.Open("archive.bz2"))
 
 ## Bzip2SaveOptions() {#constructor}
 
-使用默认块大小初始化[`Bzip2SaveOptions`](../../bzip2saveoptions)类的新实例，等于 900 KB。
+初始化[`Bzip2SaveOptions`](../../bzip2saveoptions)具有默认块大小的类，等于 900 千字节。
 
 ```csharp
 public Bzip2SaveOptions()

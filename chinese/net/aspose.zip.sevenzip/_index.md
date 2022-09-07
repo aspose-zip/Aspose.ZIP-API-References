@@ -1,18 +1,18 @@
 ---
 title: Aspose.Zip.SevenZip
 second_title: Aspose.ZIP for .NET API 参考
-description: SevenZip命名空间包含代表 7z 存档相关实体的类
+description: 的SevenZip命名空间包含代表 7z 存档相关实体的类
 type: docs
 weight: 100
 url: /zh/net/aspose.zip.sevenzip/
 ---
-SevenZip命名空间包含代表 7z 存档相关实体的类。
+的SevenZip命名空间包含代表 7z 存档相关实体的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [SevenZipArchive](./sevenziparchive) | 这个类代表 7z 存档文件。使用它来编写和提取 7z 档案。 |
+| [SevenZipArchive](./sevenziparchive) | 此类代表 7z 存档文件。使用它来编写和提取 7z 档案。 |
 | [SevenZipArchiveEntry](./sevenziparchiveentry) | 表示 7z 存档中的单个文件。 |
 | [SevenZipArchiveEntryEncrypted](./sevenziparchiveentryencrypted) | SevenZip 存档条目，需要加密压缩或解密解压缩。 |
 | [SevenZipArchiveEntryPlain](./sevenziparchiveentryplain) | SevenZip 条目，需要在不加密的情况下压缩或在不解密的情况下解压缩。 |

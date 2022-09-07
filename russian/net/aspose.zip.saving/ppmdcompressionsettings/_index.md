@@ -3,7 +3,7 @@ title: PPMdCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия PPMd.
 type: docs
-weight: 390
+weight: 400
 url: /ru/net/aspose.zip.saving/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings class
@@ -18,19 +18,19 @@ public class PPMdCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [PPMdCompressionSettings](ppmdcompressionsettings#constructor)() | Инициализирует новый экземпляр класса[`PPMdCompressionSettings`](../ppmdcompressionsettings)с порядком модели по умолчанию и размером вспомогательного распределителя. |
-| [PPMdCompressionSettings](ppmdcompressionsettings#constructor_1)(int, int) | Инициализирует новый экземпляр класса[`PPMdCompressionSettings`](../ppmdcompressionsettings). |
+| [PPMdCompressionSettings](ppmdcompressionsettings#constructor)() | Инициализирует новый экземпляр[`PPMdCompressionSettings`](../ppmdcompressionsettings) класс с порядком модели по умолчанию и размером вспомогательного распределителя. |
+| [PPMdCompressionSettings](ppmdcompressionsettings#constructor_1)(int, int) | Инициализирует новый экземпляр[`PPMdCompressionSettings`](../ppmdcompressionsettings) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [ModelOrder](../../aspose.zip.saving/ppmdcompressionsettings/modelorder) { get; } | Получает порядок модели. |
-| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize) { get; } | Получает размер подраспределителя в МБ. |
+| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize) { get; } | Получает размер вспомогательного распределителя в МБ. |
 
 ### Примечания
 
-PPMd — алгоритм сжатия данных, разработанный Дмитрием Шкариным. Этот алгоритм основан на прогнозирующем сопоставлении фраз в контексте нескольких заказов.
+PPMd — это алгоритм сжатия данных, разработанный Дмитрием Шкариным. Этот алгоритм основан на прогнозирующем сопоставлении фраз в нескольких контекстах заказа.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ExtractionProgressed
 second_title: Aspose.ZIP для справочника API .NET
-description: Возникает при извлечении части исходного потока.
+description: Возникает при извлечении части необработанного потока.
 type: docs
 weight: 80
 url: /ru/net/aspose.zip/archiveentry/extractionprogressed/
 ---
 ## ArchiveEntry.ExtractionProgressed event
 
-Возникает при извлечении части исходного потока.
+Возникает при извлечении части необработанного потока.
 
 ```csharp
 public event EventHandler<ProgressEventArgs> ExtractionProgressed;
@@ -16,7 +16,7 @@ public event EventHandler<ProgressEventArgs> ExtractionProgressed;
 
 ### Примечания
 
-Отправителем события является экземпляр[`ArchiveEntry`](../../archiveentry).
+Отправителем события является[`ArchiveEntry`](../../archiveentry) пример.
 
 ### Примеры
 

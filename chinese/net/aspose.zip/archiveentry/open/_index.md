@@ -8,7 +8,7 @@ url: /zh/net/aspose.zip/archiveentry/open/
 ---
 ## ArchiveEntry.Open method
 
-打开条目以进行提取并提供具有解压缩条目内容的流。
+打开条目以进行提取，并提供具有解压缩条目内容的流。
 
 ```csharp
 public Stream Open(string password = null)
@@ -30,13 +30,13 @@ public Stream Open(string password = null)
 
 用法：
 
-.NET 4.0 及更高版本 - 使用 Stream。 CopyTo 方法：
+.NET 4.0 及更高版本 - 使用 Stream.CopyTo 方法：
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 及之前 - 手动复制字节：
+.NET 3.5 及之前版本 - 手动复制字节：
 
 ```csharp
 byte[] buffer = new byte[8192];

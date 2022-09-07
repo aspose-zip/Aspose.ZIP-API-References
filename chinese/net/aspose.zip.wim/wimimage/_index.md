@@ -3,7 +3,7 @@ title: WimImage
 second_title: Aspose.ZIP for .NET API 参考
 description: 表示 wim 存档中的单个图像
 type: docs
-weight: 650
+weight: 670
 url: /zh/net/aspose.zip.wim/wimimage/
 ---
 ## WimImage class
@@ -18,16 +18,16 @@ public sealed class WimImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllEntries](../../aspose.zip.wim/wimimage/allentries) { get; } | 以递归方式获取构成图像的[`WimEntry`](../wimentry)类型的条目。 |
+| [AllEntries](../../aspose.zip.wim/wimimage/allentries) { get; } | 获取条目[`WimEntry`](../wimentry)递归构成图像的类型。 |
 | [Parent](../../aspose.zip.wim/wimimage/parent) { get; } | 获取图像所属的存档。 |
-| [RootDirectory](../../aspose.zip.wim/wimimage/rootdirectory) { get; } | 获取图片的根目录项。 |
+| [RootDirectory](../../aspose.zip.wim/wimimage/rootdirectory) { get; } | 获取图片的根目录入口。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExtractToDirectory](../../aspose.zip.wim/wimimage/extracttodirectory)(string) | 将图像中的所有文件提取到提供的目录中。 |
-| [GetEntry](../../aspose.zip.wim/wimimage/getentry)(string) | 获取给定路径的[`WimEntry`](../wimentry)类型的条目。 |
+| [ExtractToDirectory](../../aspose.zip.wim/wimimage/extracttodirectory)(string) | 将镜像中的所有文件提取到提供的目录中。 |
+| [GetEntry](../../aspose.zip.wim/wimimage/getentry)(string) | 获取条目[`WimEntry`](../wimentry)给定路径的类型。 |
 
 ### 也可以看看
 

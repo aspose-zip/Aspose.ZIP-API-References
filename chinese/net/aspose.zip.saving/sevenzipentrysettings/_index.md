@@ -3,7 +3,7 @@ title: SevenZipEntrySettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 用于压缩或解压缩 7Z 条目的设置
 type: docs
-weight: 480
+weight: 490
 url: /zh/net/aspose.zip.saving/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings class
@@ -18,7 +18,7 @@ public class SevenZipEntrySettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SevenZipEntrySettings](sevenzipentrysettings)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | 初始化[`SevenZipEntrySettings`](../sevenzipentrysettings)类的新实例。 |
+| [SevenZipEntrySettings](sevenzipentrysettings)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | 初始化[`SevenZipEntrySettings`](../sevenzipentrysettings)类. |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: Files
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成目录的XarFileEntryaspose.zip.xar/xarfileentry类型的条目
+description: 获取条目XarFileEntryaspose.zip.xar/xarfileentry构成目录的类型
 type: docs
 weight: 30
 url: /zh/net/aspose.zip.xar/xardirectoryentry/files/
 ---
 ## XarDirectoryEntry.Files property
 
-获取构成目录的[`XarFileEntry`](../../xarfileentry)类型的条目。
+获取条目[`XarFileEntry`](../../xarfileentry)构成目录的类型。
 
 ```csharp
 public IEnumerable<XarFileEntry> Files { get; }

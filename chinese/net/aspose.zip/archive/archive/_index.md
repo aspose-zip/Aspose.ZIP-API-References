@@ -1,14 +1,14 @@
 ---
 title: Archive
 second_title: Aspose.ZIP for .NET API 参考
-description: 使用其条目的可选设置初始化Archiveaspose.zip/archive类的新实例
+description: 初始化Archiveaspose.zip/archive类及其条目的可选设置
 type: docs
 weight: 10
 url: /zh/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-使用其条目的可选设置初始化[`Archive`](../../archive)类的新实例。
+初始化[`Archive`](../../archive)类及其条目的可选设置。
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,7 +16,7 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | 用于新添加的[`ArchiveEntry`](../../archiveentry)项目的压缩和加密设置。 如果未指定，将使用最常见的 Deflate 压缩而不加密。 |
+| newEntrySettings | ArchiveEntrySettings | 用于新添加的压缩和加密设置[`ArchiveEntry`](../../archiveentry)items. 如果未指定，将使用最常见的 Deflate 压缩而不加密。 |
 
 ### 例子
 
@@ -44,7 +44,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-初始化[`Archive`](../../archive)类的新实例并组成条目列表可以从存档中提取。
+初始化[`Archive`](../../archive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -55,22 +55,22 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | sourceStream | Stream | 存档的来源。 |
 | loadOptions | ArchiveLoadOptions | 加载现有存档的选项。 |
-| newEntrySettings | ArchiveEntrySettings | 用于新添加的[`ArchiveEntry`](../../archiveentry)项目的压缩和加密设置。 如果未指定，将使用最常见的 Deflate 压缩而不加密。 |
+| newEntrySettings | ArchiveEntrySettings | 用于新添加的压缩和加密设置[`ArchiveEntry`](../../archiveentry)items. 如果未指定，将使用最常见的 Deflate 压缩而不加密。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *sourceStream*不可搜索。 |
+| ArgumentException | *sourceStream*是不可搜索的。 |
 | InvalidDataException | AES 的加密标头与 WinZip 压缩方法相矛盾。 |
 
 ### 评论
 
-此构造函数不解压缩任何条目。请参阅[`Open`](../../archiveentry/open)解压方法。
+此构造函数不解压缩任何条目。看[`Open`](../../archiveentry/open)解压方法.
 
 ### 例子
 
-以下示例提取加密存档，然后将第一个条目解压缩到` MemoryStream` 。
+以下示例提取加密存档，然后将第一个条目解压缩到`记忆流`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.zip");
@@ -99,7 +99,7 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-初始化[`Archive`](../../archive)类的新实例并组成条目列表可以从存档中提取。
+初始化[`Archive`](../../archive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -110,26 +110,26 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | path | String | 归档文件的完全限定或相对路径。 |
 | loadOptions | ArchiveLoadOptions | 加载现有存档的选项。 |
-| newEntrySettings | ArchiveEntrySettings | 用于新添加的[`ArchiveEntry`](../../archiveentry)项目的压缩和加密设置。 如果未指定，将使用最常见的 Deflate 压缩而不加密。 |
+| newEntrySettings | ArchiveEntrySettings | 用于新添加的压缩和加密设置[`ArchiveEntry`](../../archiveentry)items. 如果未指定，将使用最常见的 Deflate 压缩而不加密。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不解压缩任何条目。请参阅[`Open`](../../archiveentry/open)解压方法。
+此构造函数不解压缩任何条目。看[`Open`](../../archiveentry/open)解压方法.
 
 ### 例子
 
-以下示例提取加密存档，然后将第一个条目解压缩到` MemoryStream` 。
+以下示例提取加密存档，然后将第一个条目解压缩到`记忆流`.
 
 ```csharp
 var extracted = new MemoryStream();

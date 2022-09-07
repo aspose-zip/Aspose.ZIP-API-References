@@ -3,7 +3,7 @@ title: XarArchive
 second_title: Aspose.ZIP для справочника API .NET
 description: Этот класс представляет файл архива xar.
 type: docs
-weight: 660
+weight: 680
 url: /ru/net/aspose.zip.xar/xararchive/
 ---
 ## XarArchive class
@@ -18,20 +18,20 @@ public class XarArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [XarArchive](xararchive#constructor)(Stream) | Инициализирует новый экземпляр класса[`XarArchive`](../xararchive)и составляет список записей, которые можно извлечь из архива. |
-| [XarArchive](xararchive#constructor_1)(string) | Инициализирует новый экземпляр класса[`XarArchive`](../xararchive)и составляет список записей, которые можно извлечь из архива. |
+| [XarArchive](xararchive#constructor)(Stream) | Инициализирует новый экземпляр[`XarArchive`](../xararchive) список записей классов и композиций можно извлечь из архива. |
+| [XarArchive](xararchive#constructor_1)(string) | Инициализирует новый экземпляр[`XarArchive`](../xararchive) список записей классов и композиций можно извлечь из архива. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Entries](../../aspose.zip.xar/xararchive/entries) { get; } | Получает записи типа[`XarEntry`](../xarentry), составляющие архив. |
+| [Entries](../../aspose.zip.xar/xararchive/entries) { get; } | Получает записи[`XarEntry`](../xarentry) тип составляющий архив. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.xar/xararchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.zip.xar/xararchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [ExtractToDirectory](../../aspose.zip.xar/xararchive/extracttodirectory)(string) | Извлекает все файлы из архива в указанный каталог. |
 
 ### Смотрите также

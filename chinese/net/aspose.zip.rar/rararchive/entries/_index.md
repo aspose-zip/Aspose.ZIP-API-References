@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成 rar 存档的RarArchiveEntryaspose.zip.rar/rararchiveentry类型的条目
+description: 获取条目RarArchiveEntryaspose.zip.rar/rararchiveentry构成 rar 存档的类型
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.rar/rararchive/entries/
 ---
 ## RarArchive.Entries property
 
-获取构成 rar 存档的[`RarArchiveEntry`](../../rararchiveentry)类型的条目。
+获取条目[`RarArchiveEntry`](../../rararchiveentry)构成 rar 存档的类型。
 
 ```csharp
 public ReadOnlyCollection<RarArchiveEntry> Entries { get; }

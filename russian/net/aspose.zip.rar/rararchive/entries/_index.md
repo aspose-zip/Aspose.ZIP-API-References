@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает записи типаRarArchiveEntryaspose.zip.rar/rararchiveentry составляющие rar-архив.
+description: Получает записиRarArchiveEntryaspose.zip.rar/rararchiveentry тип составляющий архив rar.
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.rar/rararchive/entries/
 ---
 ## RarArchive.Entries property
 
-Получает записи типа[`RarArchiveEntry`](../../rararchiveentry), составляющие rar-архив.
+Получает записи[`RarArchiveEntry`](../../rararchiveentry) тип, составляющий архив rar.
 
 ```csharp
 public ReadOnlyCollection<RarArchiveEntry> Entries { get; }

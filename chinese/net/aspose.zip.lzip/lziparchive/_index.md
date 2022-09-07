@@ -18,9 +18,9 @@ public class LzipArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LzipArchive](lziparchive#constructor)(LzipArchiveSettings) | 初始化[`LzipArchive`](../lziparchive)的新实例。 |
-| [LzipArchive](lziparchive#constructor_1)(Stream) | 初始化准备解压缩的[`LzipArchive`](../lziparchive)类的新实例。 |
-| [LzipArchive](lziparchive#constructor_2)(string) | 初始化准备解压缩的[`LzipArchive`](../lziparchive)类的新实例。 |
+| [LzipArchive](lziparchive#constructor)(LzipArchiveSettings) | 初始化[`LzipArchive`](../lziparchive) . |
+| [LzipArchive](lziparchive#constructor_1)(Stream) | 初始化[`LzipArchive`](../lziparchive)准备解压的类。 |
+| [LzipArchive](lziparchive#constructor_2)(string) | 初始化[`LzipArchive`](../lziparchive)准备解压的类。 |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: Normal
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает экземпляр классаXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings с размером словаря равен 16 мегабайтам в фильтре LZMA2 размер блока равен 64 мегабайтам и контрольной сумме CRC32.
+description: Получает экземплярXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings class с размером словаря 16 мегабайт в фильтре LZMA2 размером блока 64 мегабайта и контрольной суммой CRC32.
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.xz.settings/xzarchivesettings/normal/
 ---
 ## XzArchiveSettings.Normal property
 
-Получает экземпляр класса[`XzArchiveSettings`](../../xzarchivesettings) с размером словаря равен 16 мегабайтам в фильтре LZMA2, размер блока равен 64 мегабайтам и контрольной сумме CRC32.
+Получает экземпляр[`XzArchiveSettings`](../../xzarchivesettings) class с размером словаря 16 мегабайт в фильтре LZMA2, размером блока 64 мегабайта и контрольной суммой CRC32.
 
 ```csharp
 public static XzArchiveSettings Normal { get; }

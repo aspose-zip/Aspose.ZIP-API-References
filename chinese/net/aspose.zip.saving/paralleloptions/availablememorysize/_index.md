@@ -1,14 +1,14 @@
 ---
 title: AvailableMemorySize
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取或设置以兆字节为单位的内存估计值可用于容纳压缩条目而无需交换到磁盘 此值仅在ParallelCompressInMemoryaspose.zip.saving/paralleloptions/parallelcompressinmemory设置处于Auto模式时才有意义
+description: 获取或设置内存估计值以兆字节为单位可用于容纳压缩条目而不交换到磁盘 此值仅在以下情况下才有意义ParallelCompressInMemoryaspose.zip.saving/paralleloptions/parallelcompressinmemory设置在Auto模式.
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.saving/paralleloptions/availablememorysize/
 ---
 ## ParallelOptions.AvailableMemorySize property
 
-获取或设置以兆字节为单位的内存估计值，可用于容纳压缩条目而无需交换到磁盘。 此值仅在[`ParallelCompressInMemory`](../parallelcompressinmemory)设置处于Auto模式时才有意义。
+获取或设置内存估计值（以兆字节为单位）可用于容纳压缩条目而不交换到磁盘。 此值仅在以下情况下才有意义[`ParallelCompressInMemory`](../parallelcompressinmemory)设置在Auto模式.
 
 ```csharp
 public int AvailableMemorySize { get; set; }
@@ -16,7 +16,7 @@ public int AvailableMemorySize { get; set; }
 
 ### 评论
 
-此值用于计算可以与其他条目并行压缩的最大条目大小。所有超过计算阈值的条目将被顺序压缩。 拥有与可用 RAM 一样大甚至更大的`AvailableMemorySize`属性是安全的。默认情况下，假设每个 CPU 核心至少有 200MB。
+此值用于计算可以与其他条目并行压缩的最大条目大小。超过计算阈值的所有条目将按顺序压缩。 拥有它是安全的`AvailableMemorySize`财产与免费 RAM 一样大，甚至更大。默认情况下，假设每个 CPU 核心至少有 200MB。
 
 ### 也可以看看
 

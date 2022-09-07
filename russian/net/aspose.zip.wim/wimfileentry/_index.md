@@ -1,14 +1,14 @@
 ---
 title: WimFileEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Представляет один файл внутри wim-архива.
+description: Представляет один файл в wimархиве.
 type: docs
-weight: 640
+weight: 660
 url: /ru/net/aspose.zip.wim/wimfileentry/
 ---
 ## WimFileEntry class
 
-Представляет один файл внутри wim-архива.
+Представляет один файл в wim-архиве.
 
 ```csharp
 public sealed class WimFileEntry : WimEntry
@@ -23,9 +23,9 @@ public sealed class WimFileEntry : WimEntry
 | [ChangeTime](../../aspose.zip.wim/wimentry/changetime) { get; } | Получает время последнего изменения файла или каталога. |
 | [CreationTime](../../aspose.zip.wim/wimentry/creationtime) { get; } | Получает время создания файла или каталога. |
 | [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes) { get; } | Получает атрибуты файла или каталога. |
-| [FullPath](../../aspose.zip.wim/wimentry/fullpath) { get; } | Получает полный путь записи в изображении. |
+| [FullPath](../../aspose.zip.wim/wimentry/fullpath) { get; } | Получает полный путь записи в образе. |
 | [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | Получает идентификатор жесткой ссылки файла или каталога. |
-| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | Получает, известен ли файл или каталог под другими именами. |
+| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | Получает, известны ли файл или каталог под другими именами. |
 | [Image](../../aspose.zip.wim/wimentry/image) { get; } | Получает изображение, которому принадлежит запись. |
 | [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
 | [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime) { get; } | Получает время последнего доступа к файлу или каталогу. |
@@ -39,7 +39,7 @@ public sealed class WimFileEntry : WimEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip.wim/wimfileentry/extract#extract_1)(Stream) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip.wim/wimfileentry/extract#extract_1)(Stream) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip.wim/wimfileentry/extract#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip.wim/wimfileentry/open)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 | override [ToString](../../aspose.zip.wim/wimentry/tostring)() |  |

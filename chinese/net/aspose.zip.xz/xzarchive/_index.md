@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for .NET API 参考
 description: 此类表示 xz 存档文件使用它来编写和提取 xz 档案
 type: docs
-weight: 750
+weight: 770
 url: /zh/net/aspose.zip.xz/xzarchive/
 ---
 ## XzArchive class
@@ -18,9 +18,9 @@ public class XzArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XzArchive](xzarchive#constructor_1)(Stream) | 初始化准备解压缩的[`XzArchive`](../xzarchive)类的新实例。 |
-| [XzArchive](xzarchive#constructor_2)(string) | 初始化准备解压缩的[`XzArchive`](../xzarchive)类的新实例。 |
-| [XzArchive](xzarchive#constructor)(XzArchiveSettings) | 初始化[`XzArchive`](../xzarchive)类的新实例并以 xz 格式组成存档。 |
+| [XzArchive](xzarchive#constructor_1)(Stream) | 初始化[`XzArchive`](../xzarchive)准备解压的类。 |
+| [XzArchive](xzarchive#constructor_2)(string) | 初始化[`XzArchive`](../xzarchive)准备解压的类。 |
+| [XzArchive](xzarchive#constructor)(XzArchiveSettings) | 初始化[`XzArchive`](../xzarchive)类并以 xz 格式组成档案。 |
 
 ## 方法
 

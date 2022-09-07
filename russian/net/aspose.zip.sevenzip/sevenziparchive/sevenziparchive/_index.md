@@ -1,14 +1,14 @@
 ---
 title: SevenZipArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаSevenZipArchiveaspose.zip.sevenzip/sevenziparchiveс дополнительными настройками для его записей.
+description: Инициализирует новый экземплярSevenZipArchiveaspose.zip.sevenzip/sevenziparchiveкласс с необязательными настройками для его записей.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/sevenziparchive/
 ---
 ## SevenZipArchive(SevenZipEntrySettings) {#constructor}
 
-Инициализирует новый экземпляр класса[`SevenZipArchive`](../../sevenziparchive)с дополнительными настройками для его записей.
+Инициализирует новый экземпляр[`SevenZipArchive`](../../sevenziparchive)класс с необязательными настройками для его записей.
 
 ```csharp
 public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
@@ -16,11 +16,11 @@ public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry)Предметы. Если не указано, будет использоваться сжатие LZMA без шифрования. |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) items. Если не указано, будет использоваться сжатие LZMA без шифрования. |
 
 ### Примеры
 
-В следующем примере показано, как сжать один файл с настройками по умолчанию:LZMA-сжатие без шифрования.
+В следующем примере показано, как сжать один файл с настройками по умолчанию: LZMA-сжатие без шифрования.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -44,7 +44,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ## SevenZipArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SevenZipArchive`](../../sevenziparchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`SevenZipArchive`](../../sevenziparchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public SevenZipArchive(Stream sourceStream)
@@ -58,13 +58,13 @@ public SevenZipArchive(Stream sourceStream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *sourceStream*не доступен для поиска. |
-| ArgumentNullException | *sourceStream*равно нулю. |
+| ArgumentException | *sourceStream* не доступен для поиска. |
+| ArgumentNullException | *sourceStream* нулевой. |
 | NotImplementedException | Архив содержит более одного кодера. Теперь поддерживается только сжатие LZMA. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См.[`ExtractToDirectory`](../extracttodirectory)метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`ExtractToDirectory`](../extracttodirectory) метод распаковки.
 
 ### Примеры
 
@@ -85,7 +85,7 @@ using (SevenZipArchive archive = new SevenZipArchive(File.OpenRead("archive.7z")
 
 ## SevenZipArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`SevenZipArchive`](../../sevenziparchive)и составляет список записей, которые можно извлечь из архива.
+Инициализирует новый экземпляр[`SevenZipArchive`](../../sevenziparchive) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public SevenZipArchive(string path)
@@ -93,22 +93,22 @@ public SevenZipArchive(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Полный или относительный путь к архивному файлу. |
+| path | String | Полный или относительный путь к файлу архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывает никакую запись. См.[`ExtractToDirectory`](../extracttodirectory)метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`ExtractToDirectory`](../extracttodirectory) метод распаковки.
 
 ### Примеры
 

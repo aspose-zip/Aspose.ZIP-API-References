@@ -1,14 +1,14 @@
 ---
 title: CpioArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化CpioArchiveaspose.zip.cpio/cpioarchive类的新实例
+description: 初始化CpioArchiveaspose.zip.cpio/cpioarchive类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.cpio/cpioarchive/cpioarchive/
 ---
 ## CpioArchive() {#constructor}
 
-初始化[`CpioArchive`](../../cpioarchive)类的新实例。
+初始化[`CpioArchive`](../../cpioarchive)类.
 
 ```csharp
 public CpioArchive()
@@ -16,7 +16,7 @@ public CpioArchive()
 
 ### 例子
 
-以下示例显示如何压缩文件。
+以下示例显示了如何压缩文件。
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -36,7 +36,7 @@ using (var archive = new CpioArchive())
 
 ## CpioArchive(Stream) {#constructor_1}
 
-初始化[`CpioArchive`](../../cpioarchive)类的新实例，并且可以从存档中提取条目列表。
+初始化[`CpioArchive`](../../cpioarchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public CpioArchive(Stream sourceStream)
@@ -50,13 +50,13 @@ public CpioArchive(Stream sourceStream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceStream*为空。 |
-| ArgumentException | *sourceStream*不可搜索。 |
+| ArgumentNullException | *sourceStream*一片空白。 |
+| ArgumentException | *sourceStream*是不可搜索的。 |
 | InvalidDataException | *sourceStream*不是有效的 cpio 存档。 |
 
 ### 评论
 
-此构造函数不会解压缩任何条目。请参阅[`Open`](../../cpioentry/open)方法进行解包。
+此构造函数不解压缩任何条目。看[`Open`](../../cpioentry/open)解包方法.
 
 ### 例子
 
@@ -79,7 +79,7 @@ using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
 
 ## CpioArchive(string) {#constructor_2}
 
-初始化[`CpioArchive`](../../cpioarchive)类的新实例，并且可以从存档中提取条目列表。
+初始化[`CpioArchive`](../../cpioarchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public CpioArchive(string path)
@@ -93,16 +93,16 @@ public CpioArchive(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不会解压缩任何条目。请参阅[`Open`](../../cpioentry/open)方法进行解包。
+此构造函数不解压缩任何条目。看[`Open`](../../cpioentry/open)解包方法.
 
 ### 例子
 

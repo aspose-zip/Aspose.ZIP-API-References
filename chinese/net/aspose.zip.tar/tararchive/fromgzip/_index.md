@@ -1,16 +1,16 @@
 ---
 title: FromGZip
 second_title: Aspose.ZIP for .NET API 参考
-description: 提取提供的 gzip 存档并从提取的数据中组成TarArchiveaspose.zip.tar/tararchive
+description: 提取提供的 gzip 存档并组成TarArchiveaspose.zip.tar/tararchive从提取的数据中
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.tar/tararchive/fromgzip/
 ---
 ## FromGZip(Stream) {#fromgzip}
 
-提取提供的 gzip 存档并从提取的数据中组成[`TarArchive`](../../tararchive)。
+提取提供的 gzip 存档并组成[`TarArchive`](../../tararchive)从提取的数据中。
 
-重要提示：gzip 存档在此方法中完全提取，其内容保存在内部。小心内存消耗。
+重要提示：gzip 存档在此方法中完全提取，其内容在内部保存。小心内存消耗。
 
 ```csharp
 public static TarArchive FromGZip(Stream source)
@@ -22,11 +22,11 @@ public static TarArchive FromGZip(Stream source)
 
 ### 返回值
 
-[`TarArchive`](../../tararchive)
+一个实例[`TarArchive`](../../tararchive)
 
 ### 评论
 
-GZip 提取流的实例不可被压缩算法的本质。 Tar 存档提供了提取任意记录的工具，因此它必须在引擎盖下操作可搜索的流。
+GZip 提取流在压缩算法的本质上是不可搜索的。 Tar 存档提供了提取任意记录的工具，因此它必须在引擎盖下操作可搜索流。
 
 ### 也可以看看
 
@@ -38,9 +38,9 @@ GZip 提取流的实例不可被压缩算法的本质。 Tar 存档提供了提�
 
 ## FromGZip(string) {#fromgzip_1}
 
-提取提供的 gzip 存档并从提取的数据中组成[`TarArchive`](../../tararchive)。
+提取提供的 gzip 存档并组成[`TarArchive`](../../tararchive)从提取的数据中。
 
-重要提示：gzip 存档在此方法中完全提取，其内容保存在内部。小心内存消耗。
+重要提示：gzip 存档在此方法中完全提取，其内容在内部保存。小心内存消耗。
 
 ```csharp
 public static TarArchive FromGZip(string path)
@@ -52,11 +52,11 @@ public static TarArchive FromGZip(string path)
 
 ### 返回值
 
-[`TarArchive`](../../tararchive)
+一个实例[`TarArchive`](../../tararchive)
 
 ### 评论
 
-GZip 提取流的实例不可被压缩算法的本质。 Tar 存档提供了提取任意记录的工具，因此它必须在引擎盖下操作可搜索的流。
+GZip 提取流在压缩算法的本质上是不可搜索的。 Tar 存档提供了提取任意记录的工具，因此它必须在引擎盖下操作可搜索流。
 
 ### 也可以看看
 

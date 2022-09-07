@@ -52,13 +52,13 @@ public void SetSource(FileInfo fileInfo)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| SecurityException | 调用者没有打开*fileInfo*所需的权限。 |
+| SecurityException | 调用者没有打开所需的权限*fileInfo*. |
 | ArgumentException | 文件路径为空或仅包含空格。 |
-| FileNotFoundException | 找不到文件。 |
+| FileNotFoundException | 未找到该文件。 |
 | UnauthorizedAccessException | 文件路径是只读的或者是目录。 |
-| ArgumentNullException | *fileInfo*为空。 |
+| ArgumentNullException | *fileInfo*一片空白。 |
 | DirectoryNotFoundException | 指定的路径无效，例如位于未映射的驱动器上。 |
-| IOException | 文件已打开。 |
+| IOException | 该文件已打开。 |
 
 ### 例子
 
@@ -96,10 +96,10 @@ public void SetSource(string sourcePath)
 | --- | --- |
 | ArgumentNullException | *sourcePath*为 null 或空字符串。 |
 | SecurityException | 调用者没有访问资源所需的权限。 |
-| ArgumentException | *sourcePath*为空，仅包含空格或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*sourcePath*的访问被拒绝。 |
-| PathTooLongException | 指定的*sourcePath*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *sourcePath*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentException | 这*sourcePath*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*sourcePath*被拒绝。 |
+| PathTooLongException | 指定的*sourcePath*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*sourcePath*在字符串中间包含一个冒号 (:)。 |
 
 ### 例子
 
