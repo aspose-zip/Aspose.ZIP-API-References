@@ -26,6 +26,7 @@ public class Bzip2SaveOptions
 | Name | Description |
 | --- | --- |
 | [BlockSize](../../aspose.zip.bzip2/bzip2saveoptions/blocksize) { get; } | Block size in hundreds of kilobytes. |
+| [CompressionThreads](../../aspose.zip.bzip2/bzip2saveoptions/compressionthreads) { get; set; } | Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used. |
 
 ### See Also
 
