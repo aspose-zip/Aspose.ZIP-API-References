@@ -1,14 +1,14 @@
 ---
 title: LzmaCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 使用默认字典大小初始化LzmaCompressionSettingsaspose.zip.saving/lzmacompressionsettings类的新实例等于 16 兆字节
+description: 初始化LzmaCompressionSettingsaspose.zip.saving/lzmacompressionsettings具有默认字典大小的类等于 16 兆字节
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/lzmacompressionsettings/lzmacompressionsettings/
 ---
 ## LzmaCompressionSettings constructor
 
-使用默认字典大小初始化[`LzmaCompressionSettings`](../../lzmacompressionsettings)类的新实例，等于 16 兆字节。
+初始化[`LzmaCompressionSettings`](../../lzmacompressionsettings)具有默认字典大小的类，等于 16 兆字节。
 
 ```csharp
 public LzmaCompressionSettings()

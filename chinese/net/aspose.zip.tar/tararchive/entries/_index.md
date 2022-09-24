@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成存档的TarEntryaspose.zip.tar/tarentry类型的条目
+description: 获取条目TarEntryaspose.zip.tar/tarentry构成档案的类型
 type: docs
 weight: 60
 url: /zh/net/aspose.zip.tar/tararchive/entries/
 ---
 ## TarArchive.Entries property
 
-获取构成存档的[`TarEntry`](../../tarentry)类型的条目。
+获取条目[`TarEntry`](../../tarentry)构成档案的类型。
 
 ```csharp
 public ReadOnlyCollection<TarEntry> Entries { get; }

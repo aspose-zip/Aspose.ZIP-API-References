@@ -1,14 +1,14 @@
 ---
 title: Files
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成目录的WimFileEntryaspose.zip.wim/wimfileentry类型的条目
+description: 获取条目WimFileEntryaspose.zip.wim/wimfileentry构成目录的类型
 type: docs
 weight: 30
 url: /zh/net/aspose.zip.wim/wimdirectoryentry/files/
 ---
 ## WimDirectoryEntry.Files property
 
-获取构成目录的[`WimFileEntry`](../../wimfileentry)类型的条目。
+获取条目[`WimFileEntry`](../../wimfileentry)构成目录的类型。
 
 ```csharp
 public ReadOnlyCollection<WimFileEntry> Files { get; }

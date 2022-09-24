@@ -3,7 +3,7 @@ title: StoreCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия Store.
 type: docs
-weight: 520
+weight: 530
 url: /ru/net/aspose.zip.saving/storecompressionsettings/
 ---
 ## StoreCompressionSettings class
@@ -18,7 +18,7 @@ public class StoreCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [StoreCompressionSettings](storecompressionsettings)() | Инициализирует новый экземпляр класса[`StoreCompressionSettings`](../storecompressionsettings). |
+| [StoreCompressionSettings](storecompressionsettings)() | Инициализирует новый экземпляр[`StoreCompressionSettings`](../storecompressionsettings) класс. |
 
 ### Примечания
 

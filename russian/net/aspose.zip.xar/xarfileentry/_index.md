@@ -3,7 +3,7 @@ title: XarFileEntry
 second_title: Aspose.ZIP для справочника API .NET
 description: Представляет запись файла в архиве xar.
 type: docs
-weight: 690
+weight: 710
 url: /ru/net/aspose.zip.xar/xarfileentry/
 ---
 ## XarFileEntry class
@@ -31,7 +31,7 @@ public abstract class XarFileEntry : XarEntry
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Extract](../../aspose.zip.xar/xarfileentry/extract#extract_1)(Stream) | Извлекает запись в указанный поток. |
+| abstract [Extract](../../aspose.zip.xar/xarfileentry/extract#extract_1)(Stream) | Извлекает запись в предоставленный поток. |
 | abstract [Extract](../../aspose.zip.xar/xarfileentry/extract#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
 | abstract [Open](../../aspose.zip.xar/xarfileentry/open)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 | override [ToString](../../aspose.zip.xar/xarentry/tostring)() |  |

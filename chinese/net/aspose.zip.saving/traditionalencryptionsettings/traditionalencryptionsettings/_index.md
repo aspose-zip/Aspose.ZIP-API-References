@@ -1,14 +1,14 @@
 ---
 title: TraditionalEncryptionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化TraditionalEncryptionSettingsaspose.zip.saving/traditionalencryptionsettings类的新实例
+description: 初始化TraditionalEncryptionSettingsaspose.zip.saving/traditionalencryptionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/traditionalencryptionsettings/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings(string) {#constructor_1}
 
-初始化[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)类的新实例。
+初始化[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)类.
 
 ```csharp
 public TraditionalEncryptionSettings(string password)
@@ -16,7 +16,7 @@ public TraditionalEncryptionSettings(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 加密密码。 |
+| password | String | 用于加密的密码。 |
 
 ### 例子
 
@@ -38,7 +38,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 
 ## TraditionalEncryptionSettings(string, Encoding) {#constructor_2}
 
-使用用户定义的编码初始化[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)类的新实例。
+初始化[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)具有用户定义编码的类。
 
 ```csharp
 public TraditionalEncryptionSettings(string password, Encoding encoding)
@@ -46,7 +46,7 @@ public TraditionalEncryptionSettings(string password, Encoding encoding)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 加密密码。 |
+| password | String | 用于加密的密码。 |
 | encoding | Encoding | 密码字符的编码。 |
 
 ### 评论
@@ -73,7 +73,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 
 ## TraditionalEncryptionSettings() {#constructor}
 
-在没有密码的情况下初始化[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)类的新实例。
+初始化[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings)没有密码的课程。
 
 ```csharp
 public TraditionalEncryptionSettings()

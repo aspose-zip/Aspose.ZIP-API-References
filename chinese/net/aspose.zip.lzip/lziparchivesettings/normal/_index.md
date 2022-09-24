@@ -1,14 +1,14 @@
 ---
 title: Normal
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings类 的实例字典大小在 LZMA 过滤器中等于 16 兆字节
+description: 获取实例LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings在 LZMA 过滤器中字典大小等于 16 兆字节的 class 
 type: docs
 weight: 60
 url: /zh/net/aspose.zip.lzip/lziparchivesettings/normal/
 ---
 ## LzipArchiveSettings.Normal property
 
-获取[`LzipArchiveSettings`](../../lziparchivesettings)类 的实例，字典大小在 LZMA 过滤器中等于 16 兆字节。
+获取实例[`LzipArchiveSettings`](../../lziparchivesettings)在 LZMA 过滤器中，字典大小等于 16 兆字节的 class 。
 
 ```csharp
 public static LzipArchiveSettings Normal { get; }

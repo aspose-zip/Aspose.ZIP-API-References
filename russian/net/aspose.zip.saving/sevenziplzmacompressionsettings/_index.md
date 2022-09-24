@@ -3,7 +3,7 @@ title: SevenZipLZMACompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия LZMA в архиве 7z.
 type: docs
-weight: 500
+weight: 510
 url: /ru/net/aspose.zip.saving/sevenziplzmacompressionsettings/
 ---
 ## SevenZipLZMACompressionSettings class
@@ -24,14 +24,14 @@ public class SevenZipLZMACompressionSettings : SevenZipCompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [DictionarySize](../../aspose.zip.saving/sevenziplzmacompressionsettings/dictionarysize) { get; set; } | Размер словаря (буфера истории) показывает, сколько байт недавно обработанных несжатых данных хранится в памяти. Если не установлено, будет выбрано в соответствии с размером записи. |
+| [DictionarySize](../../aspose.zip.saving/sevenziplzmacompressionsettings/dictionarysize) { get; set; } | Размер словаря (буфера истории) указывает, сколько байтов недавно обработанных несжатых данных хранится в памяти. Если не задано, будет выбрано в соответствии с размером записи. |
 | override [Method](../../aspose.zip.saving/sevenziplzmacompressionsettings/method) { get; } | Получает метод сжатия или распаковки. |
 
 ### Примечания
 
-Цепной алгоритм Лемпеля–Зива–Маркова (LZMA) алгоритм, используемый для сжатия данных без потерь. Этот алгоритм использует схему сжатия словаря, чем-то похожую на алгоритм LZ77, и отличается высокой степенью сжатия и переменным размером словаря сжатия.
+Цепной алгоритм Лемпеля-Зива-Маркова (LZMA) — это алгоритм, используемый для сжатия данных без потерь. Этот алгоритм использует схему сжатия словаря, несколько похожую на алгоритм LZ77, и отличается высокой степенью сжатия и переменным размером словаря сжатия.
 
-Подробнее:https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+Подробнее: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SevenZipEntrySettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаSevenZipEntrySettingsaspose.zip.saving/sevenzipentrysettings.
+description: Инициализирует новый экземплярSevenZipEntrySettingsaspose.zip.saving/sevenzipentrysettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/sevenzipentrysettings/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings constructor
 
-Инициализирует новый экземпляр класса[`SevenZipEntrySettings`](../../sevenzipentrysettings).
+Инициализирует новый экземпляр[`SevenZipEntrySettings`](../../sevenzipentrysettings) класс.
 
 ```csharp
 public SevenZipEntrySettings(SevenZipCompressionSettings compressionSettings = null, 

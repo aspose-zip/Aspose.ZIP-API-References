@@ -3,7 +3,7 @@ title: SevenZipEncryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Базовый класс для настроек нескольких методов шифрования 7z.
 type: docs
-weight: 470
+weight: 480
 url: /ru/net/aspose.zip.saving/sevenzipencryptionsettings/
 ---
 ## SevenZipEncryptionSettings class
@@ -22,7 +22,7 @@ public abstract class SevenZipEncryptionSettings
 
 ### Примечания
 
-AES-256 - единственный возможный метод шифрования для архива 7z. Таким образом,[`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings)является единственной реализацией.
+AES-256 — единственный возможный метод шифрования для архива 7z. Итак[`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings) единственная реализация.
 
 ### Смотрите также
 

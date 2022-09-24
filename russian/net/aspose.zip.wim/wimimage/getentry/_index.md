@@ -1,14 +1,14 @@
 ---
 title: GetEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает записьWimEntryaspose.zip.wim/wimentrytype для заданного пути.
+description: Получает записьWimEntryaspose.zip.wim/wimentry тип для заданного пути.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.wim/wimimage/getentry/
 ---
 ## WimImage.GetEntry method
 
-Получает запись[`WimEntry`](../../wimentry)type для заданного пути.
+Получает запись[`WimEntry`](../../wimentry) тип для заданного пути.
 
 ```csharp
 public WimEntry GetEntry(string path)
@@ -20,7 +20,7 @@ public WimEntry GetEntry(string path)
 
 ### Возвращаемое значение
 
-Запись[`WimEntry`](../../wimentry)type.
+Вход[`WimEntry`](../../wimentry) тип.
 
 ### Смотрите также
 

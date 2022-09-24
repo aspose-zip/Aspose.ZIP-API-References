@@ -3,7 +3,7 @@ title: ParallelCompressionMode
 second_title: Aspose.ZIP for .NET API 参考
 description: 使用并行压缩工具的选项
 type: docs
-weight: 400
+weight: 410
 url: /zh/net/aspose.zip.saving/parallelcompressionmode/
 ---
 ## ParallelCompressionMode enumeration

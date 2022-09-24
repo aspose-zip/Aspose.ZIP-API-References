@@ -1,14 +1,14 @@
 ---
 title: MaximumCompression
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает экземпляр классаXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings с размером словаря равен 64 мегабайтам в фильтре LZMA2 размер блока равен 256 мегабайтам и контрольной сумме CRC32.
+description: Получает экземплярXzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings class с размером словаря 64 мегабайта в фильтре LZMA2 размером блока 256 мегабайт и контрольной суммой CRC32.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.xz.settings/xzarchivesettings/maximumcompression/
 ---
 ## XzArchiveSettings.MaximumCompression property
 
-Получает экземпляр класса[`XzArchiveSettings`](../../xzarchivesettings) с размером словаря равен 64 мегабайтам в фильтре LZMA2, размер блока равен 256 мегабайтам и контрольной сумме CRC32.
+Получает экземпляр[`XzArchiveSettings`](../../xzarchivesettings) class с размером словаря 64 мегабайта в фильтре LZMA2, размером блока 256 мегабайт и контрольной суммой CRC32.
 
 ```csharp
 public static XzArchiveSettings MaximumCompression { get; }

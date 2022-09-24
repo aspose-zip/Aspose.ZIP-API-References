@@ -21,18 +21,18 @@ public FileInfo Extract(string path, string password = null)
 
 ### 返回值
 
-合成文件的文件信息。
+组合文件的文件信息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 | InvalidDataException | 条目的 CRC 或 MAC 验证失败。 |
 
 ### 例子
@@ -76,7 +76,7 @@ public void Extract(Stream destination, string password = null)
 | 例外 | （健康）状况 |
 | --- | --- |
 | InvalidDataException | 条目的 CRC 或 MAC 验证失败。 |
-| ArgumentException | *destination*不支持写入。 |
+| ArgumentException | *destination*不支持书写。 |
 
 ### 例子
 

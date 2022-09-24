@@ -1,14 +1,14 @@
 ---
 title: PPMd
 second_title: Aspose.ZIP для справочника API .NET
-description: Экземпляр PPMdCompressionSettings с параметрами по умолчанию.
+description: ЭкземплярPPMdCompressionSettings с параметрами по умолчанию.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.saving/compressionsettings/ppmd/
 ---
 ## CompressionSettings.PPMd property
 
-Экземпляр` PPMdCompressionSettings` с параметрами по умолчанию.
+Экземпляр`PPMdCompressionSettings` с параметрами по умолчанию.
 
 ```csharp
 public static PPMdCompressionSettings PPMd { get; }

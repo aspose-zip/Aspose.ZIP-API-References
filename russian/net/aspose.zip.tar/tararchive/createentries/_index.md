@@ -21,7 +21,7 @@ public TarArchive CreateEntries(DirectoryInfo directory, bool includeRootDirecto
 
 ### Возвращаемое значение
 
-Архив с составленными записями.
+Архив с записями составлен.
 
 ### Примеры
 
@@ -59,16 +59,16 @@ public TarArchive CreateEntries(string sourceDirectory, bool includeRootDirector
 
 ### Возвращаемое значение
 
-Архив с составленными записями.
+Архив с записями составлен.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceDirectory*равно null. |
-| SecurityException | Вызывающий объект не имеет необходимого разрешения на доступ к*sourceDirectory*. |
-| ArgumentException | *sourceDirectory*содержит недопустимые символы, такие как ", &lt;, &gt; или &#x7C;. |
-| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой.Например, на платформах Windows пути должны быть менее 248 символов, а имена файлов должны быть менее 260 символов.Указанный путь, имя файла или оба слишком длинные. |
+| ArgumentNullException | *sourceDirectory* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*sourceDirectory*. |
+| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt; или &#x7C;. |
+| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. Указанный путь, имя файла или оба слишком длинные. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: FromLZip
 second_title: Aspose.ZIP for .NET API 参考
-description: 提取提供的 lzip 存档并从提取的数据中组成TarArchiveaspose.zip.tar/tararchive
+description: 提取提供的 lzip 存档并组成TarArchiveaspose.zip.tar/tararchive从提取的数据中
 type: docs
 weight: 30
 url: /zh/net/aspose.zip.tar/tararchive/fromlzip/
 ---
 ## FromLZip(Stream) {#fromlzip}
 
-提取提供的 lzip 存档并从提取的数据中组成[`TarArchive`](../../tararchive)。
+提取提供的 lzip 存档并组成[`TarArchive`](../../tararchive)从提取的数据中。
 
 重要提示：lzip 存档在此方法中完全提取，其内容保存在内部。小心内存消耗。
 
@@ -22,11 +22,11 @@ public static TarArchive FromLZip(Stream source)
 
 ### 返回值
 
-[`TarArchive`](../../tararchive)
+一个实例[`TarArchive`](../../tararchive)
 
 ### 评论
 
-Lzip 提取流的实例不可被压缩算法的本质。 tar 归档提供了提取任意记录的工具，因此它必须在后台操作可搜索的流。
+Lzip 提取流是不可搜索的压缩算法的性质。 tar 归档提供了提取任意记录的工具，因此它必须在后台操作可搜索的流。
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ Lzip 提取流的实例不可被压缩算法的本质。 tar 归档提供了提�
 
 ## FromLZip(string) {#fromlzip_1}
 
-提取提供的 lzip 存档并从提取的数据中组成[`TarArchive`](../../tararchive)。
+提取提供的 lzip 存档并组成[`TarArchive`](../../tararchive)从提取的数据中。
 
 重要提示：lzip 存档在此方法中完全提取，其内容保存在内部。小心内存消耗。
 
@@ -52,11 +52,11 @@ public static TarArchive FromLZip(string path)
 
 ### 返回值
 
-[`TarArchive`](../../tararchive)
+一个实例[`TarArchive`](../../tararchive)
 
 ### 评论
 
-Lzip 提取流的实例不可被压缩算法的本质。 tar 归档提供了提取任意记录的工具，因此它必须在后台操作可搜索的流。
+Lzip 提取流是不可搜索的压缩算法的性质。 tar 归档提供了提取任意记录的工具，因此它必须在后台操作可搜索的流。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Extract
 second_title: Aspose.ZIP для справочника API .NET
-description: Распаковывает архив lzma в поток.
+description: Извлекает архив lzma в поток.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.lzma/lzmaarchive/extract/
 ---
 ## Extract(Stream) {#extract_1}
 
-Распаковывает архив lzma в поток.
+Извлекает архив lzma в поток.
 
 ```csharp
 public void Extract(Stream destination)
@@ -22,7 +22,7 @@ public void Extract(Stream destination)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Заголовки архива и служебная информация не были прочитаны. |
+| InvalidOperationException | Заголовки архива и служебная информация не читались. |
 | InvalidDataException | Ошибка данных в заголовке или контрольной сумме. |
 | ArgumentNullException | Целевой поток равен нулю. |
 | ArgumentException | Целевой поток не поддерживает запись. |
@@ -52,7 +52,7 @@ using (FileStream sourceLzmaFile = File.Open(sourceFileName, FileMode.Open))
 
 ## Extract(FileInfo) {#extract}
 
-Распаковывает архив lzma в файл.
+Извлекает архив lzma в файл.
 
 ```csharp
 public void Extract(FileInfo fileInfo)
@@ -66,21 +66,21 @@ public void Extract(FileInfo fileInfo)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Заголовки архива и служебная информация не были прочитаны. |
-| SecurityException | У вызывающего абонента нет необходимых прав для открытия*fileInfo*. |
+| InvalidOperationException | Заголовки архива и служебная информация не читались. |
+| SecurityException | У вызывающего абонента нет необходимых разрешений для открытия*fileInfo*. |
 | ArgumentException | Путь к файлу пуст или содержит только пробелы. |
 | FileNotFoundException | Файл не найден. |
 | UnauthorizedAccessException | Путь к файлу доступен только для чтения или является каталогом. |
-| ArgumentNullException | *fileInfo*равно нулю. |
-| DirectoryNotFoundException | Указан недопустимый путь, например, на несопоставленном диске. |
+| ArgumentNullException | *fileInfo* нулевой. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
 | IOException | Файл уже открыт. |
 
 ### Примеры
 
 ```csharp
-using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
+using (FileStream lzmaFile = File.Open(sourceFileName, FileMode.Open))
 {
-    using (var archive = new LzipArchive(lzipFile))
+    using (var archive = new LzmaArchive(lzmaFile))
     {
         archive.Extract(new FileInfo("extracted.bin"));
     }
@@ -97,7 +97,7 @@ using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
 
 ## Extract(string) {#extract_2}
 
-Распаковывает архив lzma в файл по пути.
+Извлекает архив lzma в файл по пути.
 
 ```csharp
 public void Extract(string path)
@@ -111,20 +111,20 @@ public void Extract(string path)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Заголовки архива и служебная информация не были прочитаны. |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| InvalidOperationException | Заголовки архива и служебная информация не читались. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 
 ```csharp
-using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
+using (FileStream lzmaFile = File.Open(sourceFileName, FileMode.Open))
 {
-    using (var archive = new LzipArchive(xzFile))
+    using (var archive = new LzmaArchive(lzmaFile))
     {
         archive.Extract("extracted.bin");
     }

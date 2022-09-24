@@ -1,14 +1,14 @@
 ---
 title: IsDirectory
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取一个值该值指示该条目是否表示目录
+description: 获取一个值该值指示该条目是否代表目录
 type: docs
 weight: 30
 url: /zh/net/aspose.zip.xar/xarentry/isdirectory/
 ---
 ## XarEntry.IsDirectory property
 
-获取一个值，该值指示该条目是否表示目录。
+获取一个值，该值指示该条目是否代表目录。
 
 ```csharp
 public bool IsDirectory { get; }

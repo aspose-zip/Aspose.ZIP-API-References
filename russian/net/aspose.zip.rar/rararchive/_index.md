@@ -3,7 +3,7 @@ title: RarArchive
 second_title: Aspose.ZIP для справочника API .NET
 description: Этот класс представляет файл архива RAR. Используйте его для извлечения архивов RAR.
 type: docs
-weight: 230
+weight: 240
 url: /ru/net/aspose.zip.rar/rararchive/
 ---
 ## RarArchive class
@@ -18,20 +18,20 @@ public class RarArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [RarArchive](rararchive#constructor)(Stream, RarArchiveLoadOptions) | Инициализирует новый экземпляр класса[`RarArchive`](../rararchive)и составляет список записей, которые можно извлечь из архива. |
-| [RarArchive](rararchive#constructor_1)(string, RarArchiveLoadOptions) | Инициализирует новый экземпляр класса[`RarArchive`](../rararchive)и составляет список записей, которые можно извлечь из архива. |
+| [RarArchive](rararchive#constructor)(Stream, RarArchiveLoadOptions) | Инициализирует новый экземпляр[`RarArchive`](../rararchive) список записей классов и композиций можно извлечь из архива. |
+| [RarArchive](rararchive#constructor_1)(string, RarArchiveLoadOptions) | Инициализирует новый экземпляр[`RarArchive`](../rararchive) список записей классов и композиций можно извлечь из архива. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Entries](../../aspose.zip.rar/rararchive/entries) { get; } | Получает записи типа[`RarArchiveEntry`](../rararchiveentry), составляющие rar-архив. |
+| [Entries](../../aspose.zip.rar/rararchive/entries) { get; } | Получает записи[`RarArchiveEntry`](../rararchiveentry) тип, составляющий архив rar. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.rar/rararchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.zip.rar/rararchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [ExtractToDirectory](../../aspose.zip.rar/rararchive/extracttodirectory#extracttodirectory)(string) | Извлекает все файлы из архива в указанный каталог. |
 
 ### Смотрите также

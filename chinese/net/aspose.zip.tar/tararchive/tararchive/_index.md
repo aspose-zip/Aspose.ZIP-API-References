@@ -1,14 +1,14 @@
 ---
 title: TarArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化TarArchiveaspose.zip.tar/tararchive类的新实例
+description: 初始化TarArchiveaspose.zip.tar/tararchive类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.tar/tararchive/tararchive/
 ---
 ## TarArchive() {#constructor}
 
-初始化[`TarArchive`](../../tararchive)类的新实例。
+初始化[`TarArchive`](../../tararchive)类.
 
 ```csharp
 public TarArchive()
@@ -16,7 +16,7 @@ public TarArchive()
 
 ### 例子
 
-以下示例显示如何压缩文件。
+以下示例显示了如何压缩文件。
 
 ```csharp
 using (var archive = new TarArchive())
@@ -36,7 +36,7 @@ using (var archive = new TarArchive())
 
 ## TarArchive(Stream) {#constructor_1}
 
-初始化[`Archive`](../../../aspose.zip/archive)类的新实例并组成条目列表可以从存档中提取。
+初始化[`Archive`](../../../aspose.zip/archive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public TarArchive(Stream sourceStream)
@@ -50,11 +50,11 @@ public TarArchive(Stream sourceStream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidDataException | *sourceStream*不可搜索。 |
+| InvalidDataException | *sourceStream*是不可搜索的。 |
 
 ### 评论
 
-此构造函数不会解压缩任何条目。请参阅[`Open`](../../tarentry/open)方法进行解包。
+此构造函数不解压缩任何条目。看[`Open`](../../tarentry/open)解包方法.
 
 ### 例子
 
@@ -77,7 +77,7 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 
 ## TarArchive(string) {#constructor_2}
 
-初始化[`TarArchive`](../../tararchive)类的新实例并组成条目列表可以从存档中提取。
+初始化[`TarArchive`](../../tararchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public TarArchive(string path)
@@ -91,16 +91,16 @@ public TarArchive(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不会解压缩任何条目。请参阅[`Open`](../../tarentry/open)方法进行解包。
+此构造函数不解压缩任何条目。看[`Open`](../../tarentry/open)解包方法.
 
 ### 例子
 

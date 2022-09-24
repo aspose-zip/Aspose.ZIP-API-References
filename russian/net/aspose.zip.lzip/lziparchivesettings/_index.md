@@ -18,18 +18,18 @@ public class LzipArchiveSettings
 
 | Имя | Описание |
 | --- | --- |
-| [LzipArchiveSettings](lziparchivesettings)(int, int) | Инициализирует новый экземпляр[`LzipArchiveSettings`](../lziparchivesettings)с определенным размером словаря. |
+| [LzipArchiveSettings](lziparchivesettings)(int, int) | Инициализирует новый экземпляр[`LzipArchiveSettings`](../lziparchivesettings) с определенным размером словаря. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed) { get; } | Получает экземпляр класса[`LzipArchiveSettings`](../lziparchivesettings)класса с размером словаря, равным 65536 байт в фильтре LZMA. |
-| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed) { get; } | Получает экземпляр класса[`LzipArchiveSettings`](../lziparchivesettings)класса с размером словаря, равным 1 мегабайт в фильтре LZMA. |
-| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression) { get; } | Получает экземпляр класса[`LzipArchiveSettings`](../lziparchivesettings)класса с размером словаря, равным 32 мегабайта в фильтре LZMA. |
-| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression) { get; } | Получает экземпляр класса[`LzipArchiveSettings`](../lziparchivesettings)класса с размером словаря, равным 64 мегабайта в фильтре LZMA. |
-| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal) { get; } | Получает экземпляр класса[`LzipArchiveSettings`](../lziparchivesettings)класса с размером словаря, равным 16 мегабайт в фильтре LZMA. |
-| [DictionarySize](../../aspose.zip.lzip/lziparchivesettings/dictionarysize) { get; } | Получает размер словаря, который используется сжатием LZMA. |
+| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed) { get; } | Получает экземпляр[`LzipArchiveSettings`](../lziparchivesettings) class с размером словаря, равным 65536 байт в фильтре LZMA. |
+| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed) { get; } | Получает экземпляр[`LzipArchiveSettings`](../lziparchivesettings) class с размером словаря, равным 1 мегабайту в фильтре LZMA. |
+| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression) { get; } | Получает экземпляр[`LzipArchiveSettings`](../lziparchivesettings) class с размером словаря 32 мегабайта в фильтре LZMA. |
+| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression) { get; } | Получает экземпляр[`LzipArchiveSettings`](../lziparchivesettings) class с размером словаря 64 мегабайта в фильтре LZMA. |
+| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal) { get; } | Получает экземпляр[`LzipArchiveSettings`](../lziparchivesettings) class с размером словаря 16 мегабайт в фильтре LZMA. |
+| [DictionarySize](../../aspose.zip.lzip/lziparchivesettings/dictionarysize) { get; } | Получает размер словаря, который используется при сжатии LZMA. |
 | [MaxMemberSize](../../aspose.zip.lzip/lziparchivesettings/maxmembersize) { get; } | Получает максимальный размер одного элемента в архиве lzip, представленный в байтах. |
 
 ### Смотрите также

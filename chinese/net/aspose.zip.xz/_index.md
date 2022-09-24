@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Xz
 second_title: Aspose.ZIP for .NET API 参考
-description: Xz命名空间包含代表 xz 存档相关实体的类
+description: 的Xz命名空间包含代表 xz 存档相关实体的类
 type: docs
-weight: 140
+weight: 150
 url: /zh/net/aspose.zip.xz/
 ---
-Xz命名空间包含代表 xz 存档相关实体的类。
+的Xz命名空间包含代表 xz 存档相关实体的类。
 
 ## 课程
 

@@ -1,14 +1,14 @@
 ---
 title: XzArchiveSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 使用单个 LZMA2 压缩初始化XzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings类的新实例
+description: 初始化XzArchiveSettingsaspose.zip.xz.settings/xzarchivesettings使用单个 LZMA2 压缩的类
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.xz.settings/xzarchivesettings/xzarchivesettings/
 ---
 ## XzArchiveSettings() {#constructor}
 
-使用单个 LZMA2 压缩初始化[`XzArchiveSettings`](../../xzarchivesettings)类的新实例。
+初始化[`XzArchiveSettings`](../../xzarchivesettings)使用单个 LZMA2 压缩的类。
 
 ```csharp
 public XzArchiveSettings()
@@ -16,7 +16,7 @@ public XzArchiveSettings()
 
 ### 评论
 
-LZMA2过滤器中的默认字典大小等于16兆字节，默认块大小等于64兆字节，默认校验和类型是CRC32。
+LZMA2过滤器中的默认字典大小等于16兆字节，默认块大小等于64兆字节，默认校验和类型是CRC32.
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ LZMA2过滤器中的默认字典大小等于16兆字节，默认块大小等于6
 
 ## XzArchiveSettings(XzFilterSettings[], long, XzCheckType) {#constructor_1}
 
-使用自定义参数初始化[`XzArchiveSettings`](../../xzarchivesettings)类的新实例。
+初始化[`XzArchiveSettings`](../../xzarchivesettings)具有自定义参数的类。
 
 ```csharp
 public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType checkType)
@@ -36,7 +36,7 @@ public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filters | XzFilterSettings[] | 过滤器（压缩器）按顺序应用以创建[`XzArchive`](../../../aspose.zip.xz/xzarchive)。它可以是单个[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) 或一对[`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings)和[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) |
+| filters | XzFilterSettings[] | 要顺序应用的过滤器（压缩器）以创建[`XzArchive`](../../../aspose.zip.xz/xzarchive).它可以是单一的[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) 或一对[`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings)和[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings) |
 | blockSize | Int64 | 大小 xz 存档块。 |
 | checkType | XzCheckType | 未压缩数据的校验和计算类型。 |
 
@@ -44,9 +44,9 @@ public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *blockSize*为负数。 |
-| ArgumentNullException | *filters*为空 |
-| ArgumentException | *filters*有少于一个或多于两个过滤器，或者最后一个过滤器不是[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings)。 |
+| ArgumentOutOfRangeException | *blockSize*是负数。 |
+| ArgumentNullException | *filters*一片空白 |
+| ArgumentException | *filters*有少于一个或多于两个过滤器，或者最后一个过滤器不是[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings). |
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: Bzip2Archive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаBzip2Archiveaspose.zip.bzip2/bzip2archive подготовленный для сжатия.
+description: Инициализирует новый экземплярBzip2Archiveaspose.zip.bzip2/bzip2archive класс подготовлен к сжатию.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.bzip2/bzip2archive/bzip2archive/
 ---
 ## Bzip2Archive() {#constructor}
 
-Инициализирует новый экземпляр класса[`Bzip2Archive`](../../bzip2archive), подготовленный для сжатия.
+Инициализирует новый экземпляр[`Bzip2Archive`](../../bzip2archive) класс подготовлен к сжатию.
 
 ```csharp
 public Bzip2Archive()
@@ -36,7 +36,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ## Bzip2Archive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Bzip2Archive`](../../bzip2archive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`Bzip2Archive`](../../bzip2archive) класс подготовлен к распаковке.
 
 ```csharp
 public Bzip2Archive(Stream sourceStream)
@@ -48,11 +48,11 @@ public Bzip2Archive(Stream sourceStream)
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Open`](../open)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Open`](../open) метод распаковки.
 
 ### Примеры
 
-Открыть архив из потока и извлечь его в` MemoryStream`
+Откройте архив из потока и распакуйте его в`ПамятьПоток`
 
 ```csharp
 var ms = new MemoryStream();
@@ -70,7 +70,7 @@ using (Bzip2Archive archive = new Bzip2Archive(File.OpenRead("archive.bz2")))
 
 ## Bzip2Archive(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Bzip2Archive`](../../bzip2archive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`Bzip2Archive`](../../bzip2archive) класс подготовлен к распаковке.
 
 ```csharp
 public Bzip2Archive(string path)
@@ -84,20 +84,20 @@ public Bzip2Archive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Open`](../open)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Open`](../open) метод распаковки.
 
 ### Примеры
 
-Открыть архив из файла по пути и распаковать его в` MemoryStream`
+Откройте архив из файла по пути и извлеките его в`ПамятьПоток`
 
 ```csharp
 var ms = new MemoryStream();

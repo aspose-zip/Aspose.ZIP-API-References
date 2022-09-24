@@ -18,8 +18,8 @@ public class Bzip2SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Bzip2SaveOptions](bzip2saveoptions#constructor)() | Инициализирует новый экземпляр класса[`Bzip2SaveOptions`](../bzip2saveoptions)с размером блока по умолчанию, равным 9 сотням килобайт . |
-| [Bzip2SaveOptions](bzip2saveoptions#constructor_1)(int) | Инициализирует новый экземпляр класса[`Bzip2SaveOptions`](../bzip2saveoptions). |
+| [Bzip2SaveOptions](bzip2saveoptions#constructor)() | Инициализирует новый экземпляр[`Bzip2SaveOptions`](../bzip2saveoptions)класс с размером блока по умолчанию, равным 9 сотням килобайт. |
+| [Bzip2SaveOptions](bzip2saveoptions#constructor_1)(int) | Инициализирует новый экземпляр[`Bzip2SaveOptions`](../bzip2saveoptions) класс. |
 
 ## Характеристики
 

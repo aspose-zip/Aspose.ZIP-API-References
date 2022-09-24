@@ -3,7 +3,7 @@ title: LzmaCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия LZMA.
 type: docs
-weight: 380
+weight: 390
 url: /ru/net/aspose.zip.saving/lzmacompressionsettings/
 ---
 ## LzmaCompressionSettings class
@@ -18,13 +18,13 @@ public class LzmaCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [LzmaCompressionSettings](lzmacompressionsettings)() | Инициализирует новый экземпляр класса[`LzmaCompressionSettings`](../lzmacompressionsettings)с размером словаря по умолчанию, равным 16 мегабайтам. |
+| [LzmaCompressionSettings](lzmacompressionsettings)() | Инициализирует новый экземпляр[`LzmaCompressionSettings`](../lzmacompressionsettings) class с размером словаря по умолчанию, равным 16 мегабайтам. |
 
 ### Примечания
 
-Цепной алгоритм Лемпеля–Зива–Маркова (LZMA) алгоритм, используемый для сжатия данных без потерь. Этот алгоритм использует схему сжатия словаря, чем-то похожую на алгоритм LZ77, и отличается высокой степенью сжатия и переменным размером словаря сжатия.
+Цепной алгоритм Лемпеля-Зива-Маркова (LZMA) — это алгоритм, используемый для сжатия данных без потерь. Этот алгоритм использует схему сжатия словаря, несколько похожую на алгоритм LZ77, и отличается высокой степенью сжатия и переменным размером словаря сжатия.
 
-Подробнее:https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+Подробнее: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
 
 ### Смотрите также
 

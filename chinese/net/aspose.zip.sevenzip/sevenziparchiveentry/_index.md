@@ -3,7 +3,7 @@ title: SevenZipArchiveEntry
 second_title: Aspose.ZIP for .NET API 参考
 description: 表示 7z 存档中的单个文件
 type: docs
-weight: 550
+weight: 560
 url: /zh/net/aspose.zip.sevenzip/sevenziparchiveentry/
 ---
 ## SevenZipArchiveEntry class
@@ -20,7 +20,7 @@ public abstract class SevenZipArchiveEntry
 | --- | --- |
 | [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize) { get; } | 获取压缩文件的大小。 |
 | [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings) { get; } | 获取压缩或解压缩设置。 |
-| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name) { get; } | 获取存档中条目的名称。 |
 | [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize) { get; } | 获取原始文件的大小。 |
 
@@ -33,7 +33,7 @@ public abstract class SevenZipArchiveEntry
 
 ### 评论
 
-将[`SevenZipArchiveEntry`](../sevenziparchiveentry)实例投射到[`SevenZipArchiveEntryEncrypted`](../sevenziparchiveentryencrypted)确定条目是否加密。
+施放一个[`SevenZipArchiveEntry`](../sevenziparchiveentry)实例到[`SevenZipArchiveEntryEncrypted`](../sevenziparchiveentryencrypted)确定条目是否加密。
 
 ### 也可以看看
 

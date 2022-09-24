@@ -1,14 +1,14 @@
 ---
 title: XarArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 这个类代表 xar 存档文件
+description: 这个类代表xar归档文件
 type: docs
-weight: 660
+weight: 680
 url: /zh/net/aspose.zip.xar/xararchive/
 ---
 ## XarArchive class
 
-这个类代表 xar 存档文件。
+这个类代表xar归档文件。
 
 ```csharp
 public class XarArchive : IDisposable
@@ -18,14 +18,14 @@ public class XarArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XarArchive](xararchive#constructor)(Stream) | 初始化[`XarArchive`](../xararchive)类的新实例并组成条目列表可以从存档中提取。 |
-| [XarArchive](xararchive#constructor_1)(string) | 初始化[`XarArchive`](../xararchive)类的新实例并组成条目列表可以从存档中提取。 |
+| [XarArchive](xararchive#constructor)(Stream) | 初始化[`XarArchive`](../xararchive)可以从存档中提取类和组成条目列表。 |
+| [XarArchive](xararchive#constructor_1)(string) | 初始化[`XarArchive`](../xararchive)可以从存档中提取类和组成条目列表。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Entries](../../aspose.zip.xar/xararchive/entries) { get; } | 获取构成存档的[`XarEntry`](../xarentry)类型的条目。 |
+| [Entries](../../aspose.zip.xar/xararchive/entries) { get; } | 获取条目[`XarEntry`](../xarentry)构成档案的类型。 |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: HardLink
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取文件或目录的硬链接 ID
+description: 获取文件或目录的硬链接id
 type: docs
 weight: 70
 url: /zh/net/aspose.zip.wim/wimentry/hardlink/
 ---
 ## WimEntry.HardLink property
 
-获取文件或目录的硬链接 ID。
+获取文件或目录的硬链接id。
 
 ```csharp
 public long HardLink { get; }

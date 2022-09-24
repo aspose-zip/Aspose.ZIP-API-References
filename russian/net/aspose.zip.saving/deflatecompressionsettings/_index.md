@@ -3,7 +3,7 @@ title: DeflateCompressionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки метода сжатия Deflate.
 type: docs
-weight: 330
+weight: 340
 url: /ru/net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class
@@ -18,13 +18,13 @@ public class DeflateCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [DeflateCompressionSettings](deflatecompressionsettings)() | Инициализирует новый экземпляр класса[`DeflateCompressionSettings`](../deflatecompressionsettings). |
+| [DeflateCompressionSettings](deflatecompressionsettings)() | Инициализирует новый экземпляр[`DeflateCompressionSettings`](../deflatecompressionsettings) класс. |
 
 ### Примечания
 
-Deflate — это алгоритм сжатия данных без потерь, который использует комбинацию алгоритм LZ77 и кодирование Хаффмана.
+Deflate — это алгоритм сжатия данных без потерь, в котором используется комбинация алгоритма LZ77 и кодирования Хаффмана.
 
-См. стандарт здесь:https://tools.ietf.org/html/rfc1951
+См. стандарт здесь: https://tools.ietf.org/html/rfc1951
 
 ### Смотрите также
 

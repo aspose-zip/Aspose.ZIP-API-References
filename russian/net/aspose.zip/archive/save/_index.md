@@ -17,17 +17,17 @@ public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | outputStream | Stream | Целевой поток. |
-| saveOptions | ArchiveSaveOptions | Параметры сохранения архива. |
+| saveOptions | ArchiveSaveOptions | Варианты сохранения архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *outputStream*недоступен для записи. |
+| ArgumentException | *outputStream* не доступен для записи. |
 
 ### Примечания
 
-*outputStream*должен быть доступен для записи.
+*outputStream* должен быть доступен для записи.
 
 ### Примеры
 
@@ -53,7 +53,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## Save(string, ArchiveSaveOptions) {#save_1}
 
-Сохраняет архив в указанный целевой файл.
+Сохраняет архив в указанный файл назначения.
 
 ```csharp
 public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = null)
@@ -62,22 +62,22 @@ public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = nu
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | destinationFileName | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
-| saveOptions | ArchiveSaveOptions | Параметры сохранения архива. |
+| saveOptions | ArchiveSaveOptions | Варианты сохранения архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*имеет значение null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *destinationFileName*пусто, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName*запрещен. |
+| ArgumentNullException | *destinationFileName* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
 | PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*destinationFileName*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Архив можно сохранить по тому же пути, по которому он был загружен. Однако это не рекомендуется, так как этот подход использует копирование во временный файл.
+Архив можно сохранить по тому же пути, по которому он был загружен из . Однако делать это не рекомендуется, поскольку при таком подходе используется копирование во временный файл.
 
 ### Примеры
 

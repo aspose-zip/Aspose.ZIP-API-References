@@ -3,7 +3,7 @@ title: ArchiveEntrySettings
 second_title: Aspose.ZIP for .NET API 参考
 description: 用于压缩或解压缩条目的设置
 type: docs
-weight: 290
+weight: 300
 url: /zh/net/aspose.zip.saving/archiveentrysettings/
 ---
 ## ArchiveEntrySettings class
@@ -18,7 +18,7 @@ public class ArchiveEntrySettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ArchiveEntrySettings](archiveentrysettings)(CompressionSettings, EncryptionSettings) | 初始化[`ArchiveEntrySettings`](../archiveentrysettings)类的新实例。 |
+| [ArchiveEntrySettings](archiveentrysettings)(CompressionSettings, EncryptionSettings) | 初始化[`ArchiveEntrySettings`](../archiveentrysettings)类. |
 
 ## 特性
 

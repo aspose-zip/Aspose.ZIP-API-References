@@ -1,14 +1,14 @@
 ---
 title: ParallelOptions
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает или задает параметры для параллельного сжатия.
+description: Получает или задает параметры параллельного сжатия.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.saving/archivesaveoptions/paralleloptions/
 ---
 ## ArchiveSaveOptions.ParallelOptions property
 
-Получает или задает параметры для параллельного сжатия.
+Получает или задает параметры параллельного сжатия.
 
 ```csharp
 public ParallelOptions ParallelOptions { get; set; }
@@ -16,7 +16,7 @@ public ParallelOptions ParallelOptions { get; set; }
 
 ### Примечания
 
-Назначьте его, если хотите использовать несколько ядер процессора при сжатии нескольких записей архива.
+Назначьте его, если хотите использовать несколько ядер ЦП при сжатии нескольких записей архива.
 
 ### Смотрите также
 

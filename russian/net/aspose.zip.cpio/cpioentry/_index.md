@@ -28,7 +28,7 @@ public sealed class CpioEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip.cpio/cpioentry/extract#extract_1)(Stream) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip.cpio/cpioentry/extract#extract_1)(Stream) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip.cpio/cpioentry/extract#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip.cpio/cpioentry/open)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 | override [ToString](../../aspose.zip.cpio/cpioentry/tostring)() |  |

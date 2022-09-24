@@ -1,14 +1,14 @@
 ---
 title: EntryListed
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает или задает делегата вызываемого когда запись указана в таблице содержимого.
+description: Получает или задает делегата который вызывается когда запись указана в таблице содержания.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip/archiveloadoptions/entrylisted/
 ---
 ## ArchiveLoadOptions.EntryListed property
 
-Получает или задает делегата, вызываемого, когда запись указана в таблице содержимого.
+Получает или задает делегата, который вызывается, когда запись указана в таблице содержания.
 
 ```csharp
 public EventHandler<EntryEventArgs> EntryListed { get; set; }

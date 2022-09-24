@@ -1,14 +1,14 @@
 ---
 title: EventsBag
 second_title: Aspose.ZIP для справочника API .NET
-description: Контейнер событий используемый при сохраненииArchive../aspose.zip/archive.
+description: Контейнер событий используемый наArchive../aspose.zip/archive сохранение.
 type: docs
-weight: 370
+weight: 380
 url: /ru/net/aspose.zip.saving/eventsbag/
 ---
 ## EventsBag class
 
-Контейнер событий, используемый при сохранении[`Archive`](../../aspose.zip/archive).
+Контейнер событий, используемый на[`Archive`](../../aspose.zip/archive) сохранение.
 
 ```csharp
 public sealed class EventsBag

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Saving
 second_title: Aspose.ZIP for .NET API 参考
-description: Saving命名空间包含需要保存存档的操作所需的类
+description: 的Saving命名空间包含需要保存存档的操作的类
 type: docs
 weight: 90
 url: /zh/net/aspose.zip.saving/
 ---
-Saving命名空间包含需要保存存档的操作所需的类。
+的Saving命名空间包含需要保存存档的操作的类。
 
 ## 课程
 
@@ -15,12 +15,12 @@ Saving命名空间包含需要保存存档的操作所需的类。
 | [AesEcryptionSettings](./aesecryptionsettings) | AES 加密或解密算法的设置。 |
 | [ArchiveEntrySettings](./archiveentrysettings) | 用于压缩或解压缩条目的设置。 |
 | [ArchiveSaveOptions](./archivesaveoptions) | 用于保存存档的选项。 |
-| [Bzip2CompressionSettings](./bzip2compressionsettings) | Bzip2 压缩方法的设置。 |
+| [Bzip2CompressionSettings](./bzip2compressionsettings) | Bzip2 压缩方式的设置。 |
 | [CompressionSettings](./compressionsettings) | 压缩器或解压缩器工作所需的设置。 |
 | [DeflateCompressionSettings](./deflatecompressionsettings) | Deflate 压缩方法的设置。 |
 | [EncryptionSettings](./encryptionsettings) | 几种 zip 加密方法设置的基类。 |
 | [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings) | 增强 Deflate 压缩方法的设置。 |
-| [EventsBag](./eventsbag) | [`Archive`](../aspose.zip/archive)保存中使用的事件容器。 |
+| [EventsBag](./eventsbag) | 使用的事件容器[`Archive`](../aspose.zip/archive)保存. |
 | [LzmaCompressionSettings](./lzmacompressionsettings) | LZMA 压缩方法的设置。 |
 | [ParallelOptions](./paralleloptions) | 并行压缩选项。 |
 | [PPMdCompressionSettings](./ppmdcompressionsettings) | PPMd 压缩方法的设置。 |
@@ -32,14 +32,14 @@ Saving命名空间包含需要保存存档的操作所需的类。
 | [SevenZipEntrySettings](./sevenzipentrysettings) | 用于压缩或解压缩 7Z 条目的设置。 |
 | [SevenZipLZMA2CompressionSettings](./sevenziplzma2compressionsettings) | 7z 存档中 LZMA2 压缩方法的设置。 |
 | [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings) | 7z 存档中 LZMA 压缩方法的设置。 |
-| [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | 在 7z 存档中存储压缩方法的设置。 |
+| [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | 7z 存档中存储压缩方法的设置。 |
 | [StoreCompressionSettings](./storecompressionsettings) | 存储压缩方法的设置。 |
 | [TraditionalEncryptionSettings](./traditionalencryptionsettings) | 传统 ZipCrypto 算法的设置。 |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
-| [EncryptionMethod](./encryptionmethod) | 加密/解密方法可用于 zip 存档。 |
+| [EncryptionMethod](./encryptionmethod) | 加密/解密方法可以与 zip 存档一起使用。 |
 | [ParallelCompressionMode](./parallelcompressionmode) | 使用并行压缩工具的选项。 |
 | [SevenZipCompressionMethod](./sevenzipcompressionmethod) | 7Z 格式支持的压缩方法。 |
 

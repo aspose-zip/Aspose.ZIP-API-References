@@ -17,27 +17,27 @@ public FileInfo Extract(string path, string password = null)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Путь к файлу назначения. Если файл уже существует, он будет перезаписан. |
-| пароль | String | Необязательный пароль для расшифровки. |
+| password | String | Необязательный пароль для расшифровки. |
 
 ### Возвращаемое значение
 
-Информация о скомпонованном файле.
+Информация о файле составленного файла.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
-| InvalidDataException | Проверка CRC или MAC для записи не удалась. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| InvalidDataException | Ошибка проверки CRC или MAC для записи. |
 
 ### Примеры
 
-Извлечь две записи из архива rar.
+Извлеките две записи архива rar.
 
 ```csharp
 using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
@@ -60,7 +60,7 @@ using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
 
 ## Extract(Stream, string) {#extract_1}
 
-Извлекает запись в указанный поток.
+Извлекает запись в предоставленный поток.
 
 ```csharp
 public void Extract(Stream destination, string password = null)
@@ -69,14 +69,14 @@ public void Extract(Stream destination, string password = null)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | destination | Stream | Целевой поток. Должен быть доступен для записи. |
-| пароль | String | Необязательный пароль для расшифровки. |
+| password | String | Необязательный пароль для расшифровки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidDataException | Проверка CRC или MAC для записи не удалась. |
-| ArgumentException | *destination*не поддерживает запись. |
+| InvalidDataException | Ошибка проверки CRC или MAC для записи. |
+| ArgumentException | *destination* не поддерживает запись. |
 
 ### Примеры
 

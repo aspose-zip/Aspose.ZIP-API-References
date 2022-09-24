@@ -1,14 +1,14 @@
 ---
 title: SevenZipAESEncryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаSevenZipAESEncryptionSettingsaspose.zip.saving/sevenzipaesencryptionsettings.
+description: Инициализирует новый экземплярSevenZipAESEncryptionSettingsaspose.zip.saving/sevenzipaesencryptionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/sevenzipaesencryptionsettings/sevenzipaesencryptionsettings/
 ---
 ## SevenZipAESEncryptionSettings constructor
 
-Инициализирует новый экземпляр класса[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings).
+Инициализирует новый экземпляр[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings) класс.
 
 ```csharp
 public SevenZipAESEncryptionSettings(string password)
@@ -16,7 +16,7 @@ public SevenZipAESEncryptionSettings(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль для шифрования или дешифрования. |
+| password | String | Пароль для шифрования или дешифрования. |
 
 ### Примеры
 

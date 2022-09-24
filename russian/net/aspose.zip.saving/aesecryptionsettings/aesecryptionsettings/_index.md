@@ -1,14 +1,14 @@
 ---
 title: AesEcryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаAesEcryptionSettingsaspose.zip.saving/aesecryptionsettings.
+description: Инициализирует новый экземплярAesEcryptionSettingsaspose.zip.saving/aesecryptionsettings класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/aesecryptionsettings/aesecryptionsettings/
 ---
 ## AesEcryptionSettings(string, EncryptionMethod) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AesEcryptionSettings`](../../aesecryptionsettings).
+Инициализирует новый экземпляр[`AesEcryptionSettings`](../../aesecryptionsettings) класс.
 
 ```csharp
 public AesEcryptionSettings(string password, EncryptionMethod method)
@@ -16,14 +16,14 @@ public AesEcryptionSettings(string password, EncryptionMethod method)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль для шифрования или дешифрования. |
+| password | String | Пароль для шифрования или дешифрования. |
 | method | EncryptionMethod | Опция алгоритма, указывающая размер блока шифра. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | *method*не является одним изAES128,AES192, илиAES256. |
+| NotSupportedException | *method* не является одним изAES128 ,AES192 , или жеAES256. |
 
 ### Примеры
 
@@ -46,7 +46,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ## AesEcryptionSettings(EncryptionMethod) {#constructor}
 
-Инициализирует новый экземпляр класса[`AesEcryptionSettings`](../../aesecryptionsettings)без пароля.
+Инициализирует новый экземпляр[`AesEcryptionSettings`](../../aesecryptionsettings) класс без пароля.
 
 ```csharp
 public AesEcryptionSettings(EncryptionMethod method)

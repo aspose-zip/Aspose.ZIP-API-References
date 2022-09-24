@@ -46,11 +46,11 @@ public void SetSource(FileInfo fileInfo)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileInfo | FileInfo | Ссылка на сжимаемый файл. |
+| fileInfo | FileInfo | Ссылка на файл, который нужно сжать. |
 
 ### Примеры
 
-Открыть архив из потока и извлечь его в` MemoryStream`
+Откройте архив из потока и распакуйте его в`ПамятьПоток`
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -84,16 +84,16 @@ public void SetSource(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 
-Открыть архив из файла по пути и распаковать его в` MemoryStream`
+Откройте архив из файла по пути и извлеките его в`ПамятьПоток`
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -125,7 +125,7 @@ public void SetSource(TarArchive tarArchive)
 
 ### Примечания
 
-Используйте этот метод для составления объединенного архива tar.gz.
+Используйте этот метод для создания совместного архива tar.gz.
 
 ### Примеры
 

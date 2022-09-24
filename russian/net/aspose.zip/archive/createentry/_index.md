@@ -1,14 +1,14 @@
 ---
 title: CreateEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Создать одну запись внутри архива.
+description: Создать одну запись в архиве.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip/archive/createentry/
 ---
 ## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_3}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, string path, bool openImmediately = false, 
@@ -20,7 +20,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | name | String | Имя записи. |
 | path | String | Полное имя нового файла или относительное имя файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | ArchiveEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`ArchiveEntry`](../../archiveentry). |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
 
 ### Возвращаемое значение
 
@@ -30,18 +30,18 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*path*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*path* параметр не влияет на имя записи.
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до сохранения архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет сохранен.
 
 ### Примеры
 
@@ -68,7 +68,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_1}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, 
@@ -79,7 +79,7 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | ArchiveEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`ArchiveEntry`](../../archiveentry). |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
 
 ### Возвращаемое значение
 
@@ -107,7 +107,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false, 
@@ -117,9 +117,9 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя записи. |
-| fileInfo | FileInfo | Метаданные сжимаемого файла. |
+| fileInfo | FileInfo | Метаданные файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | ArchiveEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`ArchiveEntry`](../../archiveentry). |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
 
 ### Возвращаемое значение
 
@@ -129,19 +129,19 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 
 | исключение | условие |
 | --- | --- |
-| UnauthorizedAccessException | *fileInfo*доступен только для чтения или является каталогом. |
-| DirectoryNotFoundException | Указан недопустимый путь, например, на несопоставленном диске. |
+| UnauthorizedAccessException | *fileInfo* доступен только для чтения или является каталогом. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
 | IOException | Файл уже открыт. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*fileInfo*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*fileInfo* параметр не влияет на имя записи.
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до сохранения архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет сохранен.
 
 ### Примеры
 
-Составьте архив с записями, зашифрованными разными методами шифрования и паролями каждая.
+Составьте архив с записями, зашифрованными разными методами шифрования и паролями.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -171,7 +171,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_2}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings newEntrySettings, 
@@ -182,7 +182,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | ArchiveEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`ArchiveEntry`](../../archiveentry). |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
 | fileInfo | FileSystemInfo | Метаданные файла или папки для сжатия. |
 
 ### Возвращаемое значение
@@ -193,17 +193,17 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Оба*source*и*fileInfo*имеют значение null или*source*имеют значение null, а*fileInfo*обозначает каталог. |
+| InvalidOperationException | Оба*source* а также*fileInfo* являются нулевыми или*source* является нулевым и*fileInfo* обозначает каталог. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*fileInfo*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*fileInfo* параметр не влияет на имя записи.
 
-*fileInfo*может ссылаться наDirectoryInfoесли запись является каталогом.
+*fileInfo* может относиться кDirectoryInfo если запись является каталогом.
 
 ### Примеры
 
-Составить архив с зашифрованной записью.
+Составьте архив с зашифрованной записью.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))

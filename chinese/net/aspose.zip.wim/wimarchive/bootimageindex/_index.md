@@ -1,14 +1,14 @@
 ---
 title: BootImageIndex
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取可启动映像的从零开始的索引
+description: 获取可引导映像的从零开始的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.wim/wimarchive/bootimageindex/
 ---
 ## WimArchive.BootImageIndex property
 
-获取可启动映像的（从零开始的）索引。
+获取可引导映像的（从零开始的）索引。
 
 ```csharp
 public int BootImageIndex { get; }

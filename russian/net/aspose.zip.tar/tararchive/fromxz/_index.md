@@ -1,16 +1,16 @@
 ---
 title: FromXz
 second_title: Aspose.ZIP для справочника API .NET
-description: Извлекает предоставленный архив формата xz и составляетTarArchiveaspose.zip.tar/tararchiveиз извлеченных данных.
+description: Распаковывает прилагаемый архив формата xz и компонуетTarArchiveaspose.zip.tar/tararchive из извлеченных данных.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.tar/tararchive/fromxz/
 ---
 ## FromXz(Stream) {#fromxz}
 
-Извлекает предоставленный архив формата xz и составляет[`TarArchive`](../../tararchive)из извлеченных данных.
+Распаковывает прилагаемый архив формата xz и компонует[`TarArchive`](../../tararchive) из извлеченных данных.
 
-Важно:этим методом архив xz полностью распаковывается, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
+Важно: этим методом архив xz полностью распаковывается, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
 
 ```csharp
 public static TarArchive FromXz(Stream source)
@@ -38,9 +38,9 @@ public static TarArchive FromXz(Stream source)
 
 ## FromXz(string) {#fromxz_1}
 
-Извлекает предоставленный архив формата xz и составляет[`TarArchive`](../../tararchive)из извлеченных данных.
+Распаковывает прилагаемый архив формата xz и компонует[`TarArchive`](../../tararchive) из извлеченных данных.
 
-Важно:этим методом архив xz полностью распаковывается, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
+Важно: этим методом архив xz полностью распаковывается, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
 
 ```csharp
 public static TarArchive FromXz(string path)

@@ -1,14 +1,14 @@
 ---
 title: EntryExtractionProgressed
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取或设置在提取某些字节时调用的委托
+description: 获取或设置提取某些字节时调用的委托
 type: docs
 weight: 30
 url: /zh/net/aspose.zip/archiveloadoptions/entryextractionprogressed/
 ---
 ## ArchiveLoadOptions.EntryExtractionProgressed property
 
-获取或设置在提取某些字节时调用的委托。
+获取或设置提取某些字节时调用的委托。
 
 ```csharp
 public EventHandler<ProgressEventArgs> EntryExtractionProgressed { get; set; }
@@ -16,7 +16,7 @@ public EventHandler<ProgressEventArgs> EntryExtractionProgressed { get; set; }
 
 ### 评论
 
-事件发送者是正在提取的[`ArchiveEntry`](../../archiveentry)实例。
+事件发送者是[`ArchiveEntry`](../../archiveentry)进行提取的实例。
 
 ### 例子
 

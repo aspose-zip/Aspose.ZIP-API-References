@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成存档的ArchiveEntryaspose.zip/archiveentry类型的条目
+description: 获取条目ArchiveEntryaspose.zip/archiveentry构成档案的类型
 type: docs
 weight: 20
 url: /zh/net/aspose.zip/archive/entries/
 ---
 ## Archive.Entries property
 
-获取构成存档的[`ArchiveEntry`](../../archiveentry)类型的条目。
+获取条目[`ArchiveEntry`](../../archiveentry)构成档案的类型。
 
 ```csharp
 public ReadOnlyCollection<ArchiveEntry> Entries { get; }

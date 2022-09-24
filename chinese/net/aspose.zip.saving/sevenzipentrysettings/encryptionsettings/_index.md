@@ -16,7 +16,7 @@ public SevenZipEncryptionSettings EncryptionSettings { get; }
 
 ### 评论
 
-[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings)是 7Z 档案的唯一选项。
+的[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings)是 7Z 档案的唯一选项。
 
 ### 也可以看看
 

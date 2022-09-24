@@ -1,14 +1,14 @@
 ---
 title: LzmaArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 这个类代表 LZMA 归档文件使用它来编写或提取 LZMA 档案
+description: 此类表示 LZMA 归档文件使用它来编写或提取 LZMA 档案
 type: docs
 weight: 170
 url: /zh/net/aspose.zip.lzma/lzmaarchive/
 ---
 ## LzmaArchive class
 
-这个类代表 LZMA 归档文件。使用它来编写或提取 LZMA 档案。
+此类表示 LZMA 归档文件。使用它来编写或提取 LZMA 档案。
 
 ```csharp
 public class LzmaArchive : IDisposable
@@ -18,9 +18,9 @@ public class LzmaArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LzmaArchive](lzmaarchive#constructor)(LzmaArchiveSettings) | 初始化[`LzmaArchive`](../lzmaarchive)类的新实例并以 lzma 格式组成存档。 |
-| [LzmaArchive](lzmaarchive#constructor_1)(Stream) | 初始化准备解压缩的[`LzmaArchive`](../lzmaarchive)类的新实例。 |
-| [LzmaArchive](lzmaarchive#constructor_2)(string) | 初始化准备解压缩的[`LzmaArchive`](../lzmaarchive)类的新实例。 |
+| [LzmaArchive](lzmaarchive#constructor)(LzmaArchiveSettings) | 初始化[`LzmaArchive`](../lzmaarchive)类并以 lzma 格式组成档案。 |
+| [LzmaArchive](lzmaarchive#constructor_1)(Stream) | 初始化[`LzmaArchive`](../lzmaarchive)准备解压的类。 |
+| [LzmaArchive](lzmaarchive#constructor_2)(string) | 初始化[`LzmaArchive`](../lzmaarchive)准备解压的类。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public class LzmaArchive : IDisposable
 | [Dispose](../../aspose.zip.lzma/lzmaarchive/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
 | [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract)(FileInfo) | 将 lzma 存档提取到文件中。 |
 | [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_1)(Stream) | 将 lzma 存档提取到流中。 |
-| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_2)(string) | 按路径将 lzma 存档提取到文件中。 |
+| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_2)(string) | 通过路径将 lzma 存档提取到文件中。 |
 | [Save](../../aspose.zip.lzma/lzmaarchive/save#save)(FileInfo) | 将 lzma 存档保存到提供的目标文件。 |
 | [Save](../../aspose.zip.lzma/lzmaarchive/save#save_1)(Stream) | 将 lzma 存档保存到提供的流中。 |
 | [Save](../../aspose.zip.lzma/lzmaarchive/save#save_2)(string) | 将 lzma 存档保存到提供的目标文件。 |

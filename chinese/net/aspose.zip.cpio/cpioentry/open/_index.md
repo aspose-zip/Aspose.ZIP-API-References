@@ -26,13 +26,13 @@ public Stream Open()
 
 用法：
 
-.NET 4.0 及更高版本 - 使用 Stream.CopyTo方法：
+.NET 4.0 及更高版本 - 使用 Stream.CopyTo 方法：
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 及之前 - 手动复制字节：
+.NET 3.5 及之前版本 - 手动复制字节：
 
 ```csharp
 byte[] buffer = new byte[8192];

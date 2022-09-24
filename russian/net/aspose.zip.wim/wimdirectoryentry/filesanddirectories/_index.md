@@ -1,14 +1,14 @@
 ---
 title: FilesAndDirectories
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает записи типаWimEntryaspose.zip.wim/wimentry составляющие каталог.
+description: Получает записиWimEntryaspose.zip.wim/wimentry тип составляющий каталог.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.wim/wimdirectoryentry/filesanddirectories/
 ---
 ## WimDirectoryEntry.FilesAndDirectories property
 
-Получает записи типа[`WimEntry`](../../wimentry), составляющие каталог.
+Получает записи[`WimEntry`](../../wimentry) тип, составляющий каталог.
 
 ```csharp
 public IEnumerable<WimEntry> FilesAndDirectories { get; }

@@ -16,7 +16,7 @@ public event EventHandler<ProgressEventArgs> CompressionProgressed;
 
 ### Примечания
 
-Отправителем события является экземпляр[`ArchiveEntry`](../../archiveentry).
+Отправителем события является[`ArchiveEntry`](../../archiveentry) пример.
 
 ### Примеры
 

@@ -23,11 +23,11 @@ public void Save(Stream output, TarFormat? format = default)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *output*недоступен для записи. - или -*output*тот же поток, из которого мы извлекаем. - ИЛИ - Невозможно сохранить архив в форматеиз-за ограничений формата. |
+| ArgumentException | *output* не доступен для записи. - или же -*output* это тот же поток, из которого мы извлекаем. - ИЛИ - Невозможно сохранить архив в*format* из-за ограничений формата. |
 
 ### Примечания
 
-*output*должен быть доступен для записи.
+*output* должен быть доступен для записи.
 
 ### Примеры
 
@@ -53,7 +53,7 @@ using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
 
 ## Save(string, TarFormat?) {#save_1}
 
-Сохраняет архив в указанный целевой файл.
+Сохраняет архив в указанный файл назначения.
 
 ```csharp
 public void Save(string destinationFileName, TarFormat? format = default)
@@ -68,17 +68,17 @@ public void Save(string destinationFileName, TarFormat? format = default)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *destinationFileName*— это строка нулевой длины, содержащая только пробелы или один или несколько недопустимых символов, как определено в System.IO.Path.InvalidPathChars. |
-| ArgumentNullException | *destinationFileName*имеет значение null. |
+| ArgumentException | *destinationFileName* представляет собой строку нулевой длины, содержащую только пробелы или один или несколько недопустимых символов, как определено в System.IO.Path.InvalidPathChars. |
+| ArgumentNullException | *destinationFileName* нулевой. |
 | PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
 | DirectoryNotFoundException | Указанный*destinationFileName*недействителен (например, он находится на несопоставленном диске). |
 | IOException | Ошибка ввода-вывода при открытии файла. |
-| UnauthorizedAccessException | *destinationFileName*указан файл, доступный только для чтения, и доступ не указан для чтения. каталог.-или- У вызывающего абонента нет необходимого разрешения. |
-| NotSupportedException | *destinationFileName*имеет недопустимый формат. |
+| UnauthorizedAccessException | *destinationFileName* указан файл, доступный только для чтения, и доступ не для чтения.-или- путь указан к каталогу.-или- у вызывающего абонента нет необходимых разрешений. |
+| NotSupportedException | *destinationFileName* имеет недопустимый формат. |
 
 ### Примечания
 
-Архив можно сохранить по тому же пути, по которому он был загружен. Однако это не рекомендуется, так как этот подход использует копирование во временный файл.
+Архив можно сохранить по тому же пути, по которому он был загружен из . Однако делать это не рекомендуется, поскольку при таком подходе используется копирование во временный файл.
 
 ### Примеры
 

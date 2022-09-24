@@ -50,7 +50,7 @@ public void SetSource(FileInfo fileInfo)
 
 ### 例子
 
-从流中打开存档并将其解压缩到` MemoryStream`
+从流中打开存档并将其解压缩到`记忆流`
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -84,16 +84,16 @@ public void SetSource(string path)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 例子
 
-按路径从文件中打开存档并将其解压缩到` MemoryStream`
+按路径从文件中打开存档并将其解压缩到`记忆流`
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -121,7 +121,7 @@ public void SetSource(TarArchive tarArchive)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tarArchive | TarArchive | 要压缩的tar存档。 |
+| tarArchive | TarArchive | 要压缩的 tar 存档。 |
 
 ### 评论
 

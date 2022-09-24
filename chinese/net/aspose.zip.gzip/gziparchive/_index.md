@@ -18,9 +18,9 @@ public class GzipArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GzipArchive](gziparchive#constructor)() | 初始化准备压缩的[`GzipArchive`](../gziparchive)类的新实例。 |
-| [GzipArchive](gziparchive#constructor_1)(Stream, bool) | 初始化准备解压缩的[`GzipArchive`](../gziparchive)类的新实例。 |
-| [GzipArchive](gziparchive#constructor_2)(string, bool) | 初始化[`GzipArchive`](../gziparchive)类的新实例。 |
+| [GzipArchive](gziparchive#constructor)() | 初始化[`GzipArchive`](../gziparchive)准备压缩的类。 |
+| [GzipArchive](gziparchive#constructor_1)(Stream, bool) | 初始化[`GzipArchive`](../gziparchive)准备解压的类。 |
+| [GzipArchive](gziparchive#constructor_2)(string, bool) | 初始化[`GzipArchive`](../gziparchive)类. |
 
 ## 特性
 

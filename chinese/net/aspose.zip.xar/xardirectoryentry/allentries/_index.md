@@ -1,14 +1,14 @@
 ---
 title: AllEntries
 second_title: Aspose.ZIP for .NET API 参考
-description: 递归获取构成目录的XarEntryaspose.zip.xar/xarentry类型的所有条目
+description: 获取所有条目XarEntryaspose.zip.xar/xarentry递归构成目录的类型
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.xar/xardirectoryentry/allentries/
 ---
 ## XarDirectoryEntry.AllEntries property
 
-递归获取构成目录的[`XarEntry`](../../xarentry)类型的所有条目。
+获取所有条目[`XarEntry`](../../xarentry)递归构成目录的类型。
 
 ```csharp
 public IEnumerable<XarEntry> AllEntries { get; }

@@ -18,21 +18,21 @@ public class LzmaArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [LzmaArchive](lzmaarchive#constructor)(LzmaArchiveSettings) | Инициализирует новый экземпляр класса[`LzmaArchive`](../lzmaarchive)и формирует архив в формате lzma. |
-| [LzmaArchive](lzmaarchive#constructor_1)(Stream) | Инициализирует новый экземпляр класса[`LzmaArchive`](../lzmaarchive), подготовленный для распаковки. |
-| [LzmaArchive](lzmaarchive#constructor_2)(string) | Инициализирует новый экземпляр класса[`LzmaArchive`](../lzmaarchive), подготовленный для распаковки. |
+| [LzmaArchive](lzmaarchive#constructor)(LzmaArchiveSettings) | Инициализирует новый экземпляр[`LzmaArchive`](../lzmaarchive) class и составляет архив в формате lzma. |
+| [LzmaArchive](lzmaarchive#constructor_1)(Stream) | Инициализирует новый экземпляр[`LzmaArchive`](../lzmaarchive) класс подготовлен к распаковке. |
+| [LzmaArchive](lzmaarchive#constructor_2)(string) | Инициализирует новый экземпляр[`LzmaArchive`](../lzmaarchive) класс подготовлен к распаковке. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.lzma/lzmaarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract)(FileInfo) | Распаковывает архив lzma в файл. |
-| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_1)(Stream) | Распаковывает архив lzma в поток. |
-| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_2)(string) | Распаковывает архив lzma в файл по пути. |
-| [Save](../../aspose.zip.lzma/lzmaarchive/save#save)(FileInfo) | Сохраняет архив lzma в указанный целевой файл. |
+| [Dispose](../../aspose.zip.lzma/lzmaarchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract)(FileInfo) | Извлекает архив lzma в файл. |
+| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_1)(Stream) | Извлекает архив lzma в поток. |
+| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_2)(string) | Извлекает архив lzma в файл по пути. |
+| [Save](../../aspose.zip.lzma/lzmaarchive/save#save)(FileInfo) | Сохраняет архив lzma в указанный файл назначения. |
 | [Save](../../aspose.zip.lzma/lzmaarchive/save#save_1)(Stream) | Сохраняет архив lzma в указанный поток. |
-| [Save](../../aspose.zip.lzma/lzmaarchive/save#save_2)(string) | Сохраняет архив lzma в указанный целевой файл. |
+| [Save](../../aspose.zip.lzma/lzmaarchive/save#save_2)(string) | Сохраняет архив lzma в указанный файл назначения. |
 | [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource#setsource)(FileInfo) | Задает сжатие содержимого внутри архива. |
 | [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource#setsource_1)(Stream) | Задает сжатие содержимого внутри архива. |
 | [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource#setsource_2)(string) | Задает сжатие содержимого внутри архива. |

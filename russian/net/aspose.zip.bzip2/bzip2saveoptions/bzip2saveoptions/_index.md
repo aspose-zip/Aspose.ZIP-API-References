@@ -1,14 +1,14 @@
 ---
 title: Bzip2SaveOptions
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаBzip2SaveOptionsaspose.zip.bzip2/bzip2saveoptions.
+description: Инициализирует новый экземплярBzip2SaveOptionsaspose.zip.bzip2/bzip2saveoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.bzip2/bzip2saveoptions/bzip2saveoptions/
 ---
 ## Bzip2SaveOptions(int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Bzip2SaveOptions`](../../bzip2saveoptions).
+Инициализирует новый экземпляр[`Bzip2SaveOptions`](../../bzip2saveoptions) класс.
 
 ```csharp
 public Bzip2SaveOptions(int blockSize)
@@ -47,7 +47,7 @@ using (FileStream result = File.Open("archive.bz2"))
 
 ## Bzip2SaveOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`Bzip2SaveOptions`](../../bzip2saveoptions)с размером блока по умолчанию, равным 9 сотням килобайт .
+Инициализирует новый экземпляр[`Bzip2SaveOptions`](../../bzip2saveoptions)класс с размером блока по умолчанию, равным 9 сотням килобайт.
 
 ```csharp
 public Bzip2SaveOptions()

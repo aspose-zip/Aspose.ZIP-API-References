@@ -3,7 +3,7 @@ title: AesEcryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки алгоритма шифрования или дешифрования AES.
 type: docs
-weight: 280
+weight: 290
 url: /ru/net/aspose.zip.saving/aesecryptionsettings/
 ---
 ## AesEcryptionSettings class
@@ -18,8 +18,8 @@ public class AesEcryptionSettings : EncryptionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [AesEcryptionSettings](aesecryptionsettings#constructor)(EncryptionMethod) | Инициализирует новый экземпляр класса[`AesEcryptionSettings`](../aesecryptionsettings)без пароля. |
-| [AesEcryptionSettings](aesecryptionsettings#constructor_1)(string, EncryptionMethod) | Инициализирует новый экземпляр класса[`AesEcryptionSettings`](../aesecryptionsettings). |
+| [AesEcryptionSettings](aesecryptionsettings#constructor)(EncryptionMethod) | Инициализирует новый экземпляр[`AesEcryptionSettings`](../aesecryptionsettings) класс без пароля. |
+| [AesEcryptionSettings](aesecryptionsettings#constructor_1)(string, EncryptionMethod) | Инициализирует новый экземпляр[`AesEcryptionSettings`](../aesecryptionsettings) класс. |
 
 ## Характеристики
 
@@ -30,7 +30,7 @@ public class AesEcryptionSettings : EncryptionSettings
 
 ### Примечания
 
-Подробнее на https://www.winzip.com/win/en/aes_info.html
+Подробнее см. на https://www.winzip.com/win/en/aes_info.html
 
 ### Смотрите также
 

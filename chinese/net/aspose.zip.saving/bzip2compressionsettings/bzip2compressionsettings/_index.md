@@ -1,14 +1,14 @@
 ---
 title: Bzip2CompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化Bzip2CompressionSettingsaspose.zip.saving/bzip2compressionsettings类的新实例
+description: 初始化Bzip2CompressionSettingsaspose.zip.saving/bzip2compressionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/bzip2compressionsettings/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings(int) {#constructor_1}
 
-初始化[`Bzip2CompressionSettings`](../../bzip2compressionsettings)类的新实例。
+初始化[`Bzip2CompressionSettings`](../../bzip2compressionsettings)类.
 
 ```csharp
 public Bzip2CompressionSettings(int blockSize)
@@ -16,13 +16,13 @@ public Bzip2CompressionSettings(int blockSize)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| blockSize | Int32 | 块大小以数百千字节为单位。 |
+| blockSize | Int32 | 块大小以数百 KB 为单位。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 块大小不在 1 和 9 之间。 |
+| ArgumentOutOfRangeException | 块大小不在 1 到 9 之间。 |
 
 ### 例子
 
@@ -44,7 +44,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 
 ## Bzip2CompressionSettings() {#constructor}
 
-使用默认块大小初始化[`Bzip2CompressionSettings`](../../bzip2compressionsettings)类的新实例，等于 900 KB。
+初始化[`Bzip2CompressionSettings`](../../bzip2compressionsettings)具有默认块大小的类，等于 900 千字节。
 
 ```csharp
 public Bzip2CompressionSettings()

@@ -1,14 +1,14 @@
 ---
 title: LzipArchiveSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 使用特定字典大小初始化LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings的新实例
+description: 初始化LzipArchiveSettingsaspose.zip.lzip/lziparchivesettings具有特定的字典大小
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.lzip/lziparchivesettings/lziparchivesettings/
 ---
 ## LzipArchiveSettings constructor
 
-使用特定字典大小初始化[`LzipArchiveSettings`](../../lziparchivesettings)的新实例。
+初始化[`LzipArchiveSettings`](../../lziparchivesettings)具有特定的字典大小。
 
 ```csharp
 public LzipArchiveSettings(int dictionarySize, int maxMemberSize = 62914560)

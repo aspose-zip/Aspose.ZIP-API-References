@@ -3,7 +3,7 @@ title: ProgressEventArgs
 second_title: Aspose.ZIP для справочника API .NET
 description: Класс для данных события содержащих количество обработанных байтов.
 type: docs
-weight: 220
+weight: 230
 url: /ru/net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class
@@ -18,7 +18,7 @@ public class ProgressEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [ProgressEventArgs](progresseventargs)(ulong) | Инициализирует новый экземпляр класса[`ProgressEventArgs`](../progresseventargs). |
+| [ProgressEventArgs](progresseventargs)(ulong) | Инициализирует новый экземпляр[`ProgressEventArgs`](../progresseventargs) класс. |
 
 ## Характеристики
 

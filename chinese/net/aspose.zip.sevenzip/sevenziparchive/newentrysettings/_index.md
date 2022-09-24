@@ -1,14 +1,14 @@
 ---
 title: NewEntrySettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 用于新添加的SevenZipArchiveEntryaspose.zip.sevenzip/sevenziparchiveentry项目的压缩和加密设置
+description: 用于新添加的压缩和加密设置SevenZipArchiveEntryaspose.zip.sevenzip/sevenziparchiveentry项目.
 type: docs
 weight: 30
 url: /zh/net/aspose.zip.sevenzip/sevenziparchive/newentrysettings/
 ---
 ## SevenZipArchive.NewEntrySettings property
 
-用于新添加的[`SevenZipArchiveEntry`](../../sevenziparchiveentry)项目的压缩和加密设置。
+用于新添加的压缩和加密设置[`SevenZipArchiveEntry`](../../sevenziparchiveentry)项目.
 
 ```csharp
 public SevenZipEntrySettings NewEntrySettings { get; }

@@ -3,7 +3,7 @@ title: SevenZipAESEncryptionSettings
 second_title: Aspose.ZIP for .NET API 参考
 description: AES 加密或解密算法的设置
 type: docs
-weight: 430
+weight: 440
 url: /zh/net/aspose.zip.saving/sevenzipaesencryptionsettings/
 ---
 ## SevenZipAESEncryptionSettings class
@@ -18,7 +18,7 @@ public class SevenZipAESEncryptionSettings : SevenZipEncryptionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings)(string) | 初始化[`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings)类的新实例。 |
+| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings)(string) | 初始化[`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings)类. |
 
 ## 特性
 

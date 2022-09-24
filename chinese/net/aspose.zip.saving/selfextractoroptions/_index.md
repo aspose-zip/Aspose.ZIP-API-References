@@ -3,7 +3,7 @@ title: SelfExtractorOptions
 second_title: Aspose.ZIP for .NET API 参考
 description: 用于创建自解压可执行存档的选项
 type: docs
-weight: 420
+weight: 430
 url: /zh/net/aspose.zip.saving/selfextractoroptions/
 ---
 ## SelfExtractorOptions class
@@ -28,6 +28,10 @@ public class SelfExtractorOptions
 | [ExtractorTitle](../../aspose.zip.saving/selfextractoroptions/extractortitle) { get; set; } | 获取或设置提取器窗口的标题。 |
 | [RunAfterExtraction](../../aspose.zip.saving/selfextractoroptions/runafterextraction) { get; set; } | 获取或设置档案提取完成后要执行的程序。 |
 | [TitleIcon](../../aspose.zip.saving/selfextractoroptions/titleicon) { get; set; } | 获取或设置提取器应用程序主窗口的标题图标的路径。 |
+
+### 评论
+
+自解压档案不能与计量许可证组成：[`MeteredLicense`](../../aspose.zip/meteredlicense) .
 
 ### 例子
 

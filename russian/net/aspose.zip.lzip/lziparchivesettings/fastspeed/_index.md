@@ -1,14 +1,14 @@
 ---
 title: FastSpeed
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает экземпляр классаLzipArchiveSettingsaspose.zip.lzip/lziparchivesettingsкласса с размером словаря равным 1 мегабайт в фильтре LZMA.
+description: Получает экземплярLzipArchiveSettingsaspose.zip.lzip/lziparchivesettings class с размером словаря равным 1 мегабайту в фильтре LZMA.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.lzip/lziparchivesettings/fastspeed/
 ---
 ## LzipArchiveSettings.FastSpeed property
 
-Получает экземпляр класса[`LzipArchiveSettings`](../../lziparchivesettings)класса с размером словаря, равным 1 мегабайт в фильтре LZMA.
+Получает экземпляр[`LzipArchiveSettings`](../../lziparchivesettings) class с размером словаря, равным 1 мегабайту в фильтре LZMA.
 
 ```csharp
 public static LzipArchiveSettings FastSpeed { get; }

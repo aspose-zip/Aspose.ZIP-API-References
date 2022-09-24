@@ -1,7 +1,7 @@
 ---
 title: SaveZCompressed
 second_title: Aspose.ZIP для справочника API .NET
-description: Сохраняет архив в поток с Z-сжатием.
+description: Сохраняет архив в поток с Zсжатием.
 type: docs
 weight: 160
 url: /ru/net/aspose.zip.tar/tararchive/savezcompressed/
@@ -23,12 +23,12 @@ public void SaveZCompressed(Stream output, TarFormat? format = default)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output*равно нулю. |
-| ArgumentException | *output*недоступен для записи. |
+| ArgumentNullException | *output* нулевой. |
+| ArgumentException | *output* не доступен для записи. |
 
 ### Примечания
 
-*output*должен быть доступен для записи.
+*output* должен быть доступен для записи.
 
 ### Примеры
 

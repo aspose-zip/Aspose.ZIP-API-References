@@ -20,18 +20,18 @@ public FileSystemInfo Extract(string path)
 
 ### Возвращаемое значение
 
-Информация о скомпонованном файле.
+Информация о файле составленного файла.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | Вызывающий объект не имеет необходимого разрешения на доступ. |
-| ArgumentException | *path*пуст, содержит только пробелы или недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 
@@ -52,7 +52,7 @@ using (var archive = new CpioArchive("archive.cpio"))
 
 ## Extract(Stream) {#extract_1}
 
-Извлекает запись в указанный поток.
+Извлекает запись в предоставленный поток.
 
 ```csharp
 public void Extract(Stream destination)
@@ -66,11 +66,11 @@ public void Extract(Stream destination)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *destination*не поддерживает запись. |
+| ArgumentException | *destination* не поддерживает запись. |
 
 ### Примеры
 
-Извлечь запись из архива cpio.
+Извлеките запись из архива cpio.
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))

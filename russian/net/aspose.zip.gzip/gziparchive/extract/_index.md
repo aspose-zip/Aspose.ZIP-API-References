@@ -1,14 +1,14 @@
 ---
 title: Extract
 second_title: Aspose.ZIP для справочника API .NET
-description: Распаковывает архив в указанный поток.
+description: Извлекает архив в указанный поток.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.gzip/gziparchive/extract/
 ---
 ## GzipArchive.Extract method
 
-Распаковывает архив в указанный поток.
+Извлекает архив в указанный поток.
 
 ```csharp
 public void Extract(Stream destination)
@@ -22,7 +22,7 @@ public void Extract(Stream destination)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *destination*не поддерживает запись. |
+| ArgumentException | *destination* не поддерживает запись. |
 
 ### Примеры
 

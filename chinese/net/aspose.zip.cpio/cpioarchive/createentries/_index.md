@@ -17,7 +17,7 @@ public CpioArchive CreateEntries(string sourceDirectory, bool includeRootDirecto
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceDirectory | String | 要压缩的目录。 |
-| includeRootDirectory | Boolean | 表示是否包含根目录本身。 |
+| includeRootDirectory | Boolean | 指示是否包含根目录本身。 |
 
 ### 返回值
 
@@ -27,11 +27,11 @@ Cpio 入口实例。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceDirectory*为空。 |
-| SecurityException | 调用者没有访问所需的权限*sourceDirectory*。 |
+| ArgumentNullException | *sourceDirectory*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限*sourceDirectory*. |
 | ArgumentException | *sourceDirectory*包含无效字符，例如 "、&lt;、&gt; 或 &#x7C;。 |
-| PathTooLongException | 指定的路径、文件名或两者都超过了系统定义的最大长度。例如，在基于Windows的平台上，路径必须小于248个字符，文件名必须是少于 260 个字符。指定的路径、文件名或两者都太长。 |
-| IOException | *sourceDirectory*代表文件，不用于目录。 |
+| PathTooLongException | 指定的路径、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。指定的路径、文件名或两者都太长。 |
+| IOException | *sourceDirectory*代表文件，而不是目录。 |
 
 ### 例子
 
@@ -65,7 +65,7 @@ public CpioArchive CreateEntries(DirectoryInfo directory, bool includeRootDirect
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | directory | DirectoryInfo | 要压缩的目录。 |
-| includeRootDirectory | Boolean | 表示是否包含根目录本身。 |
+| includeRootDirectory | Boolean | 指示是否包含根目录本身。 |
 
 ### 返回值
 
@@ -75,8 +75,8 @@ Cpio 入口实例。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *directory*为空。 |
-| SecurityException | 调用者没有访问所需的权限*directory*。 |
+| ArgumentNullException | *directory*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限*directory*. |
 | IOException | *directory*代表文件，而不是目录。 |
 
 ### 例子

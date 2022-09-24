@@ -1,14 +1,14 @@
 ---
 title: EventsBag
 second_title: Aspose.ZIP for .NET API 参考
-description: Archive../aspose.zip/archive保存中使用的事件容器
+description: 使用的事件容器Archive../aspose.zip/archive保存.
 type: docs
-weight: 370
+weight: 380
 url: /zh/net/aspose.zip.saving/eventsbag/
 ---
 ## EventsBag class
 
-[`Archive`](../../aspose.zip/archive)保存中使用的事件容器。
+使用的事件容器[`Archive`](../../aspose.zip/archive)保存.
 
 ```csharp
 public sealed class EventsBag

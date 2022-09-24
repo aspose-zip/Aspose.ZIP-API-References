@@ -1,14 +1,14 @@
 ---
 title: LzmaArchiveSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 使用默认字典大小初始化LzmaArchiveSettingsaspose.zip.lzma/lzmaarchivesettings类的新实例等于 16 兆字节
+description: 初始化LzmaArchiveSettingsaspose.zip.lzma/lzmaarchivesettings具有默认字典大小的类等于 16 兆字节
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.lzma/lzmaarchivesettings/lzmaarchivesettings/
 ---
 ## LzmaArchiveSettings constructor
 
-使用默认字典大小初始化[`LzmaArchiveSettings`](../../lzmaarchivesettings)类的新实例，等于 16 兆字节。
+初始化[`LzmaArchiveSettings`](../../lzmaarchivesettings)具有默认字典大小的类，等于 16 兆字节。
 
 ```csharp
 public LzmaArchiveSettings()

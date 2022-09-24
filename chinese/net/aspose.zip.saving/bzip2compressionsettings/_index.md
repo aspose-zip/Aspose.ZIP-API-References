@@ -1,14 +1,14 @@
 ---
 title: Bzip2CompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: Bzip2 压缩方法的设置
+description: Bzip2 压缩方式的设置
 type: docs
-weight: 310
+weight: 320
 url: /zh/net/aspose.zip.saving/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings class
 
-Bzip2 压缩方法的设置。
+Bzip2 压缩方式的设置。
 
 ```csharp
 public class Bzip2CompressionSettings : CompressionSettings
@@ -18,8 +18,8 @@ public class Bzip2CompressionSettings : CompressionSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bzip2CompressionSettings](bzip2compressionsettings#constructor)() | 使用默认块大小初始化[`Bzip2CompressionSettings`](../bzip2compressionsettings)类的新实例，等于 900 KB。 |
-| [Bzip2CompressionSettings](bzip2compressionsettings#constructor_1)(int) | 初始化[`Bzip2CompressionSettings`](../bzip2compressionsettings)类的新实例。 |
+| [Bzip2CompressionSettings](bzip2compressionsettings#constructor)() | 初始化[`Bzip2CompressionSettings`](../bzip2compressionsettings)具有默认块大小的类，等于 900 千字节。 |
+| [Bzip2CompressionSettings](bzip2compressionsettings#constructor_1)(int) | 初始化[`Bzip2CompressionSettings`](../bzip2compressionsettings)类. |
 
 ## 特性
 

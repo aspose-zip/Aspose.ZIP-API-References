@@ -1,14 +1,14 @@
 ---
 title: SevenZipArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 这个类代表 7z 存档文件使用它来编写和提取 7z 档案
+description: 此类代表 7z 存档文件使用它来编写和提取 7z 档案
 type: docs
-weight: 540
+weight: 550
 url: /zh/net/aspose.zip.sevenzip/sevenziparchive/
 ---
 ## SevenZipArchive class
 
-这个类代表 7z 存档文件。使用它来编写和提取 7z 档案。
+此类代表 7z 存档文件。使用它来编写和提取 7z 档案。
 
 ```csharp
 public class SevenZipArchive : IDisposable
@@ -18,16 +18,16 @@ public class SevenZipArchive : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SevenZipArchive](sevenziparchive#constructor)(SevenZipEntrySettings) | 使用其条目的可选设置初始化[`SevenZipArchive`](../sevenziparchive)类的新实例。 |
-| [SevenZipArchive](sevenziparchive#constructor_1)(Stream) | 初始化[`SevenZipArchive`](../sevenziparchive)类的新实例，并且可以从存档中提取条目列表。 |
-| [SevenZipArchive](sevenziparchive#constructor_2)(string) | 初始化[`SevenZipArchive`](../sevenziparchive)类的新实例，并且可以从存档中提取条目列表。 |
+| [SevenZipArchive](sevenziparchive#constructor)(SevenZipEntrySettings) | 初始化[`SevenZipArchive`](../sevenziparchive)类及其条目的可选设置。 |
+| [SevenZipArchive](sevenziparchive#constructor_1)(Stream) | 初始化[`SevenZipArchive`](../sevenziparchive)可以从存档中提取类和组成条目列表。 |
+| [SevenZipArchive](sevenziparchive#constructor_2)(string) | 初始化[`SevenZipArchive`](../sevenziparchive)可以从存档中提取类和组成条目列表。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Entries](../../aspose.zip.sevenzip/sevenziparchive/entries) { get; } | 获取构成存档的[`SevenZipArchiveEntry`](../sevenziparchiveentry)类型的条目。 |
-| [NewEntrySettings](../../aspose.zip.sevenzip/sevenziparchive/newentrysettings) { get; } | 用于新添加的[`SevenZipArchiveEntry`](../sevenziparchiveentry)项目的压缩和加密设置。 |
+| [Entries](../../aspose.zip.sevenzip/sevenziparchive/entries) { get; } | 获取条目[`SevenZipArchiveEntry`](../sevenziparchiveentry)构成档案的类型。 |
+| [NewEntrySettings](../../aspose.zip.sevenzip/sevenziparchive/newentrysettings) { get; } | 用于新添加的压缩和加密设置[`SevenZipArchiveEntry`](../sevenziparchiveentry)项目. |
 
 ## 方法
 

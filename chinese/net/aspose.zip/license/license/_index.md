@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化Licenseaspose.zip/license类的新实例
+description: 初始化Licenseaspose.zip/license班级
 type: docs
 weight: 10
 url: /zh/net/aspose.zip/license/license/
 ---
 ## License constructor
 
-初始化[`License`](../../license)类的新实例。
+初始化[`License`](../../license)班级。
 
 ```csharp
 public License()
@@ -16,7 +16,7 @@ public License()
 
 ### 例子
 
-在此示例中，将尝试在包含以下内容的文件夹中查找名为 MyLicense.lic 的许可证文件  组件，在包含调用程序集的文件夹中， 在条目程序集的文件夹中，然后在调用程序集的嵌入资源中.
+在此示例中，将尝试在包含 的文件夹中查找名为 MyLicense.lic 的许可证文件 组件，在包含调用程序集的文件夹中， 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
 
 ```csharp
 [C#]

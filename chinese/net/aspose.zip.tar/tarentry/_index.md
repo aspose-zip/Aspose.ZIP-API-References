@@ -3,7 +3,7 @@ title: TarEntry
 second_title: Aspose.ZIP for .NET API 参考
 description: 表示 tar 存档中的单个文件
 type: docs
-weight: 590
+weight: 610
 url: /zh/net/aspose.zip.tar/tarentry/
 ---
 ## TarEntry class
@@ -18,7 +18,7 @@ public class TarEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsDirectory](../../aspose.zip.tar/tarentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.tar/tarentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [Length](../../aspose.zip.tar/tarentry/length) { get; } | 以字节为单位获取条目长度。 |
 | [Name](../../aspose.zip.tar/tarentry/name) { get; set; } | 获取或设置存档中条目的名称。 |
 

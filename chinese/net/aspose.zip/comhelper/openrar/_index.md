@@ -20,10 +20,11 @@ public RarArchive OpenRar(Stream stream)
 
 ### 返回值
 
-一个RarArchive对象，代表存档。
+一个[`RarArchive`](../../../aspose.zip.rar/rararchive)代表档案的对象。
 
 ### 也可以看看
 
+* class [RarArchive](../../../aspose.zip.rar/rararchive)
 * class [ComHelper](../../comhelper)
 * 命名空间 [Aspose.Zip](../../comhelper)
 * 部件 [Aspose.Zip](../../../)
@@ -40,14 +41,15 @@ public RarArchive OpenRar(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 要加载的存档文件名。 |
+| fileName | String | 要加载的存档的文件名。 |
 
 ### 返回值
 
-一个RarArchive对象，代表存档。
+一个[`RarArchive`](../../../aspose.zip.rar/rararchive)代表档案的对象。
 
 ### 也可以看看
 
+* class [RarArchive](../../../aspose.zip.rar/rararchive)
 * class [ComHelper](../../comhelper)
 * 命名空间 [Aspose.Zip](../../comhelper)
 * 部件 [Aspose.Zip](../../../)

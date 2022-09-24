@@ -1,14 +1,14 @@
 ---
 title: SelfExtractorOptions
 second_title: Aspose.ZIP для справочника API .NET
-description: Варианты создания самораспаковывающегося исполняемого архива.
+description: Параметры создания самораспаковывающегося исполняемого архива.
 type: docs
-weight: 420
+weight: 430
 url: /ru/net/aspose.zip.saving/selfextractoroptions/
 ---
 ## SelfExtractorOptions class
 
-Варианты создания самораспаковывающегося исполняемого архива.
+Параметры создания самораспаковывающегося исполняемого архива.
 
 ```csharp
 public class SelfExtractorOptions
@@ -24,10 +24,14 @@ public class SelfExtractorOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CloseWindowOnExtraction](../../aspose.zip.saving/selfextractoroptions/closewindowonextraction) { get; set; } | Получает или задает значение, указывающее, должно ли закрываться окно экстрактора при извлечении или нет. |
+| [CloseWindowOnExtraction](../../aspose.zip.saving/selfextractoroptions/closewindowonextraction) { get; set; } | Получает или задает значение, указывающее, должно ли окно экстрактора закрываться при извлечении или нет. |
 | [ExtractorTitle](../../aspose.zip.saving/selfextractoroptions/extractortitle) { get; set; } | Получает или устанавливает заголовок окна экстрактора. |
-| [RunAfterExtraction](../../aspose.zip.saving/selfextractoroptions/runafterextraction) { get; set; } | Получает или задает программу, которая должна быть выполнена после завершения извлечения архива. |
-| [TitleIcon](../../aspose.zip.saving/selfextractoroptions/titleicon) { get; set; } | Получает или задает путь к значку заголовка для основных окон приложения-распаковщика. |
+| [RunAfterExtraction](../../aspose.zip.saving/selfextractoroptions/runafterextraction) { get; set; } | Получает или задает программу, которая будет выполняться после завершения извлечения архива. |
+| [TitleIcon](../../aspose.zip.saving/selfextractoroptions/titleicon) { get; set; } | Получает или задает путь к значку заголовка для главных окон приложения экстрактора. |
+
+### Примечания
+
+Самораспаковывающийся архив нельзя составить с лимитной лицензией:[`MeteredLicense`](../../aspose.zip/meteredlicense) .
 
 ### Примеры
 

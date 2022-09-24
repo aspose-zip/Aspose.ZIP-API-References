@@ -1,14 +1,14 @@
 ---
 title: RarArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API 参考
-description: 需要通过解密解压缩的 Zip 条目
+description: 需要解密解压的zip入口
 type: docs
-weight: 250
+weight: 260
 url: /zh/net/aspose.zip.rar/rararchiveentryencrypted/
 ---
 ## RarArchiveEntryEncrypted class
 
-需要通过解密解压缩的 Zip 条目。
+需要解密解压的zip入口。
 
 ```csharp
 public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
@@ -20,7 +20,7 @@ public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
 | --- | --- |
 | [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize) { get; } | 获取压缩文件的大小。 |
 | [CreationTime](../../aspose.zip.rar/rararchiveentry/creationtime) { get; } | 获取创建日期和时间。 |
-| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime) { get; } | 获取上次访问日期和时间。 |
 | [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime) { get; } | 获取上次修改的日期和时间。 |
 | [Name](../../aspose.zip.rar/rararchiveentry/name) { get; } | 获取存档中条目的名称。 |
@@ -32,7 +32,7 @@ public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
 | --- | --- |
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract)(Stream, string) | 将条目提取到提供的流中。 |
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract)(string, string) | 通过提供的路径将条目提取到文件系统。 |
-| [Open](../../aspose.zip.rar/rararchiveentry/open)(string) | 打开条目以进行提取并提供具有解压缩条目内容的流。 |
+| [Open](../../aspose.zip.rar/rararchiveentry/open)(string) | 打开条目以进行提取，并提供具有解压缩条目内容的流。 |
 
 ### 也可以看看
 

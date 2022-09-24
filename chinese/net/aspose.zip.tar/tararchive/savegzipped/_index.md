@@ -23,7 +23,7 @@ public void SaveGzipped(Stream output, TarFormat? format = default)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *output*为空。 |
+| ArgumentNullException | *output*一片空白。 |
 | ArgumentException | *output*不可写。 |
 
 ### 评论
@@ -57,7 +57,7 @@ using (FileStream result = File.OpenWrite("result.tar.gz"))
 
 ## SaveGzipped(string, TarFormat?) {#savegzipped_1}
 
-使用 gzip 压缩按路径将存档保存到文件。
+使用 gzip 压缩按路径将存档保存到文件中。
 
 ```csharp
 public void SaveGzipped(string path, TarFormat? format = default)

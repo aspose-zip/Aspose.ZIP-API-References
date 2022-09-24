@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.ZIP для справочника API .NET
-description: Имя оригинального файла.
+description: Имя исходного файла.
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.gzip/gziparchive/name/
 ---
 ## GzipArchive.Name property
 
-Имя оригинального файла.
+Имя исходного файла.
 
 ```csharp
 public string Name { get; }

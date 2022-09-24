@@ -1,16 +1,16 @@
 ---
 title: FromLZip
 second_title: Aspose.ZIP для справочника API .NET
-description: Извлекает поставляемый lzip-архив и составляетTarArchiveaspose.zip.tar/tararchiveиз извлеченных данных.
+description: Распаковывает прилагаемый lzipархив и компонуетTarArchiveaspose.zip.tar/tararchive из извлеченных данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.tar/tararchive/fromlzip/
 ---
 ## FromLZip(Stream) {#fromlzip}
 
-Извлекает поставляемый lzip-архив и составляет[`TarArchive`](../../tararchive)из извлеченных данных.
+Распаковывает прилагаемый lzip-архив и компонует[`TarArchive`](../../tararchive) из извлеченных данных.
 
-Важно:этим методом полностью распаковывается lzip-архив, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
+Важно: этим методом полностью распаковывается lzip-архив, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
 
 ```csharp
 public static TarArchive FromLZip(Stream source)
@@ -38,9 +38,9 @@ public static TarArchive FromLZip(Stream source)
 
 ## FromLZip(string) {#fromlzip_1}
 
-Извлекает поставляемый lzip-архив и составляет[`TarArchive`](../../tararchive)из извлеченных данных.
+Распаковывает прилагаемый lzip-архив и компонует[`TarArchive`](../../tararchive) из извлеченных данных.
 
-Важно:этим методом полностью распаковывается lzip-архив, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
+Важно: этим методом полностью распаковывается lzip-архив, его содержимое сохраняется внутри. Остерегайтесь потребления памяти.
 
 ```csharp
 public static TarArchive FromLZip(string path)

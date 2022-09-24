@@ -18,27 +18,28 @@ public class Bzip2Archive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Bzip2Archive](bzip2archive#constructor)() | Инициализирует новый экземпляр класса[`Bzip2Archive`](../bzip2archive), подготовленный для сжатия. |
-| [Bzip2Archive](bzip2archive#constructor_1)(Stream) | Инициализирует новый экземпляр класса[`Bzip2Archive`](../bzip2archive), подготовленный для распаковки. |
-| [Bzip2Archive](bzip2archive#constructor_2)(string) | Инициализирует новый экземпляр класса[`Bzip2Archive`](../bzip2archive), подготовленный для распаковки. |
+| [Bzip2Archive](bzip2archive#constructor)() | Инициализирует новый экземпляр[`Bzip2Archive`](../bzip2archive) класс подготовлен к сжатию. |
+| [Bzip2Archive](bzip2archive#constructor_1)(Stream) | Инициализирует новый экземпляр[`Bzip2Archive`](../bzip2archive) класс подготовлен к распаковке. |
+| [Bzip2Archive](bzip2archive#constructor_2)(string) | Инициализирует новый экземпляр[`Bzip2Archive`](../bzip2archive) класс подготовлен к распаковке. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.bzip2/bzip2archive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [Extract](../../aspose.zip.bzip2/bzip2archive/extract)(Stream) | Распаковывает архив в указанный поток. |
+| [Dispose](../../aspose.zip.bzip2/bzip2archive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Extract](../../aspose.zip.bzip2/bzip2archive/extract)(Stream) | Извлекает архив в указанный поток. |
 | [Open](../../aspose.zip.bzip2/bzip2archive/open)() | Открывает архив для извлечения и предоставляет поток с содержимым архива. |
-| [Save](../../aspose.zip.bzip2/bzip2archive/save#save_1)(string) | Сохраняет архив в указанный целевой файл. |
+| [Save](../../aspose.zip.bzip2/bzip2archive/save#save_1)(string) | Сохраняет архив в указанный файл назначения. |
 | [Save](../../aspose.zip.bzip2/bzip2archive/save#save)(Stream, Bzip2SaveOptions) | Сохраняет архив в указанный поток. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_1)(FileInfo) | Задает сжатие содержимого внутри архива. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_2)(Stream) | Задает сжатие содержимого внутри архива. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_3)(string) | Задает сжатие содержимого внутри архива. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource)(TarArchive) | Задает сжатие содержимого внутри архива. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_2)(FileInfo) | Задает сжатие содержимого внутри архива. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_3)(Stream) | Задает сжатие содержимого внутри архива. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_4)(string) | Задает сжатие содержимого внутри архива. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource)(CpioArchive, CpioFormat) | Задает сжатие содержимого внутри архива. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_1)(TarArchive, TarFormat) | Задает сжатие содержимого внутри архива. |
 
 ### Примечания
 
-bzip2 сжимает файлы, используя алгоритм сжатия текста с блочной сортировкой Берроуза-Уилера и кодирование Хаффмана. Подробнее:https://en.wikipedia.org/wiki/Bzip2
+bzip2 сжимает файлы, используя алгоритм сжатия текста с блочной сортировкой Берроуза-Уилера и кодирование Хаффмана. Подробнее: https://en.wikipedia.org/wiki/Bzip2
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public class CancelEntryEventArgs : EntryEventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [CancelEntryEventArgs](cancelentryeventargs)(ArchiveEntry) | Инициализирует новый экземпляр класса[`CancelEntryEventArgs`](../cancelentryeventargs). |
+| [CancelEntryEventArgs](cancelentryeventargs)(ArchiveEntry) | Инициализирует новый экземпляр[`CancelEntryEventArgs`](../cancelentryeventargs) класс. |
 
 ## Характеристики
 

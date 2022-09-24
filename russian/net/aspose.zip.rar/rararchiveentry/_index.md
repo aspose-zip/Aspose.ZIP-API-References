@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP для справочника API .NET
 description: Представляет один файл в архиве.
 type: docs
-weight: 240
+weight: 250
 url: /ru/net/aspose.zip.rar/rararchiveentry/
 ---
 ## RarArchiveEntry class
@@ -30,13 +30,13 @@ public abstract class RarArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract#extract_1)(Stream, string) | Извлекает запись в указанный поток. |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract#extract_1)(Stream, string) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract#extract)(string, string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip.rar/rararchiveentry/open)(string) | Открывает запись для извлечения и предоставляет поток с распакованным содержимым записи. |
 
 ### Примечания
 
-Cast a[`RarArchiveEntry`](../rararchiveentry)instance to[`RarArchiveEntryEncrypted`](../rararchiveentryencrypted)чтобы определить, зашифрована запись или нет.
+В ролях[`RarArchiveEntry`](../rararchiveentry) пример для[`RarArchiveEntryEncrypted`](../rararchiveentryencrypted) чтобы определить, зашифрована ли запись или нет.
 
 ### Смотрите также
 

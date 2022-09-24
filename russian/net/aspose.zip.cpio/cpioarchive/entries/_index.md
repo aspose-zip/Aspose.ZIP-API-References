@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает записи типаCpioEntryaspose.zip.cpio/cpioentry составляющие архив.
+description: Получает записиCpioEntryaspose.zip.cpio/cpioentry тип составляющий архив.
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.cpio/cpioarchive/entries/
 ---
 ## CpioArchive.Entries property
 
-Получает записи типа[`CpioEntry`](../../cpioentry), составляющие архив.
+Получает записи[`CpioEntry`](../../cpioentry) тип составляющий архив.
 
 ```csharp
 public ReadOnlyCollection<CpioEntry> Entries { get; }

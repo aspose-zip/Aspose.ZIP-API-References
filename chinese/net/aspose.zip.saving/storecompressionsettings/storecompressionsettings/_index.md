@@ -1,14 +1,14 @@
 ---
 title: StoreCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化StoreCompressionSettingsaspose.zip.saving/storecompressionsettings类的新实例
+description: 初始化StoreCompressionSettingsaspose.zip.saving/storecompressionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/storecompressionsettings/storecompressionsettings/
 ---
 ## StoreCompressionSettings constructor
 
-初始化[`StoreCompressionSettings`](../../storecompressionsettings)类的新实例。
+初始化[`StoreCompressionSettings`](../../storecompressionsettings)类.
 
 ```csharp
 public StoreCompressionSettings()

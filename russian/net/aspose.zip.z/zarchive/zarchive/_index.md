@@ -1,14 +1,14 @@
 ---
 title: ZArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаZArchiveaspose.zip.z/zarchive подготовленный для сжатия.
+description: Инициализирует новый экземплярZArchiveaspose.zip.z/zarchive класс подготовлен к сжатию.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.z/zarchive/zarchive/
 ---
 ## ZArchive() {#constructor}
 
-Инициализирует новый экземпляр класса[`ZArchive`](../../zarchive), подготовленный для сжатия.
+Инициализирует новый экземпляр[`ZArchive`](../../zarchive) класс подготовлен к сжатию.
 
 ```csharp
 public ZArchive()
@@ -24,7 +24,7 @@ public ZArchive()
 
 ## ZArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ZArchive`](../../zarchive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`ZArchive`](../../zarchive) класс подготовлен к распаковке.
 
 ```csharp
 public ZArchive(Stream source)
@@ -38,12 +38,12 @@ public ZArchive(Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *source*не доступен для поиска. |
-| ArgumentNullException | *source*равно null. |
+| ArgumentException | *source* не доступен для поиска. |
+| ArgumentNullException | *source* нулевой. |
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Extract`](../extract)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Extract`](../extract) метод распаковки.
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public ZArchive(Stream source)
 
 ## ZArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ZArchive`](../../zarchive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`ZArchive`](../../zarchive) класс подготовлен к распаковке.
 
 ```csharp
 public ZArchive(string path)
@@ -69,16 +69,16 @@ public ZArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Extract`](../extract)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Extract`](../extract) метод распаковки.
 
 ### Смотрите также
 

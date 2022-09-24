@@ -1,14 +1,14 @@
 ---
 title: CreateEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Создать одну запись внутри архива.
+description: Создать одну запись в архиве.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo, 
@@ -18,31 +18,31 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя записи. |
-| fileInfo | FileInfo | Метаданные сжимаемого файла. |
+| fileInfo | FileInfo | Метаданные файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | SevenZipEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`SevenZipArchiveEntry`](../../sevenziparchiveentry). |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
 
 ### Возвращаемое значение
 
-Семь экземпляров записей Zip.
+Экземпляр записи Seven Zip.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| UnauthorizedAccessException | *fileInfo*доступен только для чтения или является каталогом. |
-| DirectoryNotFoundException | Указан недопустимый путь, например, на несопоставленном диске. |
+| UnauthorizedAccessException | *fileInfo* доступен только для чтения или является каталогом. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
 | IOException | Файл уже открыт. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*fileInfo*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*fileInfo* параметр не влияет на имя записи.
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до сохранения архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет сохранен.
 
 ### Примеры
 
-Составить архив с записями, зашифрованными разными паролями.
+Составьте архив с записями, зашифрованными разными паролями.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -72,7 +72,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_2}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, Stream source, 
@@ -83,7 +83,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | SevenZipEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`SevenZipArchiveEntry`](../../sevenziparchiveentry). |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
 | fileInfo | FileSystemInfo | Метаданные файла или папки для сжатия. |
 
 ### Возвращаемое значение
@@ -94,17 +94,17 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Оба*source*и*fileInfo*имеют значение null или*source*имеют значение null, а*fileInfo*обозначает каталог. |
+| InvalidOperationException | Оба*source* а также*fileInfo* являются нулевыми или*source* является нулевым и*fileInfo* обозначает каталог. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*fileInfo*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*fileInfo* параметр не влияет на имя записи.
 
-*fileInfo*может ссылаться наDirectoryInfoесли запись является каталогом.
+*fileInfo* может относиться кDirectoryInfo если запись является каталогом.
 
 ### Примеры
 
-Составить архив со сжатой зашифрованной записью LZMA2.
+Составьте архив со сжатой зашифрованной записью LZMA2.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -129,7 +129,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_1}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, Stream source, 
@@ -140,7 +140,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | SevenZipEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`SevenZipArchiveEntry`](../../sevenziparchiveentry). |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
 
 ### Возвращаемое значение
 
@@ -148,7 +148,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 
 ### Примеры
 
-Составить 7z архив со сжатием LZMA2 и шифрованием всех записей.
+Составьте архив 7z со сжатием LZMA2 и шифрованием всех записей.
 
 ```csharp
 using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMA2CompressionSettings(), new SevenZipAESEncryptionSettings("p@s$"))))
@@ -170,7 +170,7 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 
 ## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_3}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmediately = false, 
@@ -182,7 +182,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | name | String | Имя записи. |
 | path | String | Полное имя нового файла или относительное имя файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | SevenZipEntrySettings | Настройки сжатия и шифрования, используемые для добавленного элемента[`SevenZipArchiveEntry`](../../sevenziparchiveentry). |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
 
 ### Возвращаемое значение
 
@@ -192,18 +192,18 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*is нулевой. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*path*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*path* параметр не влияет на имя записи.
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до сохранения архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет сохранен.
 
 ### Примеры
 

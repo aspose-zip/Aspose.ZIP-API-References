@@ -3,7 +3,7 @@ title: ParallelOptions
 second_title: Aspose.ZIP for .NET API 参考
 description: 并行压缩选项
 type: docs
-weight: 410
+weight: 420
 url: /zh/net/aspose.zip.saving/paralleloptions/
 ---
 ## ParallelOptions class
@@ -24,7 +24,7 @@ public class ParallelOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize) { get; set; } | 获取或设置以兆字节为单位的内存估计值，可用于容纳压缩条目而无需交换到磁盘。 此值仅在[`ParallelCompressInMemory`](./parallelcompressinmemory)设置处于Auto模式时才有意义。 |
+| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize) { get; set; } | 获取或设置内存估计值（以兆字节为单位）可用于容纳压缩条目而不交换到磁盘。 此值仅在以下情况下才有意义[`ParallelCompressInMemory`](./parallelcompressinmemory)设置在Auto模式. |
 | [ParallelCompressInMemory](../../aspose.zip.saving/paralleloptions/parallelcompressinmemory) { get; set; } | 获取或设置指示如何使用并行方法的值。 |
 
 ### 评论

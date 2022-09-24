@@ -18,25 +18,25 @@ public class GzipArchive : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [GzipArchive](gziparchive#constructor)() | Инициализирует новый экземпляр класса[`GzipArchive`](../gziparchive), подготовленный для сжатия. |
-| [GzipArchive](gziparchive#constructor_1)(Stream, bool) | Инициализирует новый экземпляр класса[`GzipArchive`](../gziparchive), подготовленный для распаковки. |
-| [GzipArchive](gziparchive#constructor_2)(string, bool) | Инициализирует новый экземпляр класса[`GzipArchive`](../gziparchive). |
+| [GzipArchive](gziparchive#constructor)() | Инициализирует новый экземпляр[`GzipArchive`](../gziparchive) класс подготовлен к сжатию. |
+| [GzipArchive](gziparchive#constructor_1)(Stream, bool) | Инициализирует новый экземпляр[`GzipArchive`](../gziparchive) класс подготовлен к распаковке. |
+| [GzipArchive](gziparchive#constructor_2)(string, bool) | Инициализирует новый экземпляр[`GzipArchive`](../gziparchive) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.zip.gzip/gziparchive/name) { get; } | Имя оригинального файла. |
+| [Name](../../aspose.zip.gzip/gziparchive/name) { get; } | Имя исходного файла. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.gzip/gziparchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [Extract](../../aspose.zip.gzip/gziparchive/extract)(Stream) | Распаковывает архив в указанный поток. |
+| [Dispose](../../aspose.zip.gzip/gziparchive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Extract](../../aspose.zip.gzip/gziparchive/extract)(Stream) | Извлекает архив в указанный поток. |
 | [Open](../../aspose.zip.gzip/gziparchive/open)() | Открывает архив для извлечения и предоставляет поток с содержимым архива. |
 | [Save](../../aspose.zip.gzip/gziparchive/save#save)(Stream) | Сохраняет архив в указанный поток. |
-| [Save](../../aspose.zip.gzip/gziparchive/save#save_1)(string) | Сохраняет архив в указанный целевой файл. |
+| [Save](../../aspose.zip.gzip/gziparchive/save#save_1)(string) | Сохраняет архив в указанный файл назначения. |
 | [SetSource](../../aspose.zip.gzip/gziparchive/setsource#setsource_1)(FileInfo) | Задает сжатие содержимого внутри архива. |
 | [SetSource](../../aspose.zip.gzip/gziparchive/setsource#setsource_2)(Stream) | Задает сжатие содержимого внутри архива. |
 | [SetSource](../../aspose.zip.gzip/gziparchive/setsource#setsource_3)(string) | Задает сжатие содержимого внутри архива. |

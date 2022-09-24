@@ -1,14 +1,14 @@
 ---
 title: XzArchive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземпляр классаXzArchiveaspose.zip.xz/xzarchiveи формирует архив в формате xz.
+description: Инициализирует новый экземплярXzArchiveaspose.zip.xz/xzarchive class и составляет архив в формате xz.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xz/xzarchive/xzarchive/
 ---
 ## XzArchive(XzArchiveSettings) {#constructor}
 
-Инициализирует новый экземпляр класса[`XzArchive`](../../xzarchive)и формирует архив в формате xz.
+Инициализирует новый экземпляр[`XzArchive`](../../xzarchive) class и составляет архив в формате xz.
 
 ```csharp
 public XzArchive(XzArchiveSettings settings = null)
@@ -16,7 +16,7 @@ public XzArchive(XzArchiveSettings settings = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| settings | XzArchiveSettings | Набор настроек конкретного архива xz:размер словаря, размер блока, тип проверки. |
+| settings | XzArchiveSettings | Набор настроек конкретного архива xz: размер словаря, размер блока, тип проверки. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public XzArchive(XzArchiveSettings settings = null)
 
 ## XzArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XzArchive`](../../xzarchive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`XzArchive`](../../xzarchive) класс подготовлен к распаковке.
 
 ```csharp
 public XzArchive(Stream source)
@@ -43,12 +43,12 @@ public XzArchive(Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *source*не доступен для поиска. |
-| ArgumentNullException | *source*равно null. |
+| ArgumentException | *source* не доступен для поиска. |
+| ArgumentNullException | *source* нулевой. |
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Extract`](../extract)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Extract`](../extract) метод распаковки.
 
 ### Смотрите также
 
@@ -60,7 +60,7 @@ public XzArchive(Stream source)
 
 ## XzArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`XzArchive`](../../xzarchive), подготовленный для распаковки.
+Инициализирует новый экземпляр[`XzArchive`](../../xzarchive) класс подготовлен к распаковке.
 
 ```csharp
 public XzArchive(string path)
@@ -74,16 +74,16 @@ public XzArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Этот конструктор не распаковывается. См.[`Extract`](../extract)метод распаковки.
+Этот конструктор не распаковывается. Видеть[`Extract`](../extract) метод распаковки.
 
 ### Смотрите также
 

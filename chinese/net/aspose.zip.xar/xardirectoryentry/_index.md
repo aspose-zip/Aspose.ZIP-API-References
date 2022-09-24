@@ -3,7 +3,7 @@ title: XarDirectoryEntry
 second_title: Aspose.ZIP for .NET API 参考
 description: 表示 xar 存档中的目录条目
 type: docs
-weight: 670
+weight: 690
 url: /zh/net/aspose.zip.xar/xardirectoryentry/
 ---
 ## XarDirectoryEntry class
@@ -18,13 +18,13 @@ public sealed class XarDirectoryEntry : XarEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllEntries](../../aspose.zip.xar/xardirectoryentry/allentries) { get; } | 递归获取构成目录的[`XarEntry`](../xarentry)类型的所有条目。 |
+| [AllEntries](../../aspose.zip.xar/xardirectoryentry/allentries) { get; } | 获取所有条目[`XarEntry`](../xarentry)递归构成目录的类型。 |
 | [CreationTime](../../aspose.zip.xar/xarentry/creationtime) { get; } | 获取文件或目录的创建时间。 |
-| [Directories](../../aspose.zip.xar/xardirectoryentry/directories) { get; } | 获取构成目录的[`XarDirectoryEntry`](../xardirectoryentry)类型的条目。 |
-| [Files](../../aspose.zip.xar/xardirectoryentry/files) { get; } | 获取构成目录的[`XarFileEntry`](../xarfileentry)类型的条目。 |
-| [FilesAndDirectories](../../aspose.zip.xar/xardirectoryentry/filesanddirectories) { get; } | 获取构成目录的[`XarEntry`](../xarentry)类型的条目。 |
+| [Directories](../../aspose.zip.xar/xardirectoryentry/directories) { get; } | 获取条目[`XarDirectoryEntry`](../xardirectoryentry)构成目录的类型。 |
+| [Files](../../aspose.zip.xar/xardirectoryentry/files) { get; } | 获取条目[`XarFileEntry`](../xarfileentry)构成目录的类型。 |
+| [FilesAndDirectories](../../aspose.zip.xar/xardirectoryentry/filesanddirectories) { get; } | 获取条目[`XarEntry`](../xarentry)构成目录的类型。 |
 | [FullPath](../../aspose.zip.xar/xarentry/fullpath) { get; } | 获取存档中条目的完整路径。 |
-| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否表示目录。 |
+| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory) { get; } | 获取一个值，该值指示该条目是否代表目录。 |
 | [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime) { get; } | 获取文件或目录的最后访问时间。 |
 | [LastWriteTime](../../aspose.zip.xar/xarentry/lastwritetime) { get; } | 获取文件或目录的修改时间。 |
 | [Name](../../aspose.zip.xar/xarentry/name) { get; } | 获取存档中条目的名称。 |
@@ -34,7 +34,7 @@ public sealed class XarDirectoryEntry : XarEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExtractToDirectory](../../aspose.zip.xar/xardirectoryentry/extracttodirectory)(string) | 将当前目录中的所有文件提取到提供的目录中。 |
+| [ExtractToDirectory](../../aspose.zip.xar/xardirectoryentry/extracttodirectory)(string) | 将当前目录下的所有文件解压到提供的目录下。 |
 | override [ToString](../../aspose.zip.xar/xarentry/tostring)() |  |
 
 ### 也可以看看

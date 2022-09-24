@@ -3,7 +3,7 @@ title: TraditionalEncryptionSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки для традиционного алгоритма ZipCrypto.
 type: docs
-weight: 530
+weight: 540
 url: /ru/net/aspose.zip.saving/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings class
@@ -18,9 +18,9 @@ public class TraditionalEncryptionSettings : EncryptionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor)() | Инициализирует новый экземпляр класса[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)без пароля. |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_1)(string) | Инициализирует новый экземпляр класса[`TraditionalEncryptionSettings`](../traditionalencryptionsettings). |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_2)(string, Encoding) | Инициализирует новый экземпляр класса[`TraditionalEncryptionSettings`](../traditionalencryptionsettings)с пользовательской кодировкой. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor)() | Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../traditionalencryptionsettings) класс без пароля. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_1)(string) | Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../traditionalencryptionsettings) класс. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings#constructor_2)(string, Encoding) | Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../traditionalencryptionsettings) класс с пользовательской кодировкой. |
 
 ## Характеристики
 
@@ -31,7 +31,7 @@ public class TraditionalEncryptionSettings : EncryptionSettings
 
 ### Примечания
 
-См. раздел 6.0 в описании формата ZIP:https://pkware.cachefly.net/webdocs/ casestudies/APPNOTE.TXT
+См. раздел 6.0 в описании формата ZIP: https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT
 
 ### Смотрите также
 

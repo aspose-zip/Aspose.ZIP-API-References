@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /ru/net/aspose.zip.bzip2/bzip2archive/setsource/
 ---
-## SetSource(Stream) {#setsource_2}
+## SetSource(Stream) {#setsource_3}
 
 Задает сжатие содержимого внутри архива.
 
@@ -36,7 +36,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## SetSource(FileInfo) {#setsource_1}
+## SetSource(FileInfo) {#setsource_2}
 
 Задает сжатие содержимого внутри архива.
 
@@ -46,7 +46,7 @@ public void SetSource(FileInfo fileInfo)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileInfo | FileInfo | Ссылка на сжимаемый файл. |
+| fileInfo | FileInfo | Ссылка на файл, который нужно сжать. |
 
 ### Примеры
 
@@ -66,7 +66,7 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## SetSource(string) {#setsource_3}
+## SetSource(string) {#setsource_4}
 
 Задает сжатие содержимого внутри архива.
 
@@ -82,12 +82,12 @@ public void SetSource(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 
@@ -107,21 +107,22 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## SetSource(TarArchive) {#setsource}
+## SetSource(TarArchive, TarFormat) {#setsource_1}
 
 Задает сжатие содержимого внутри архива.
 
 ```csharp
-public void SetSource(TarArchive tarArchive)
+public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tarArchive | TarArchive | Архив Tar для сжатия. |
+| format | TarFormat | Определяет формат заголовка tar. |
 
 ### Примечания
 
-Используйте этот метод для составления объединенного архива tar.gz.
+Используйте этот метод для составления совместного архива tar.bz2.
 
 ### Примеры
 
@@ -132,8 +133,8 @@ using (var tarArchive = new TarArchive())
     tarArchive.CreateEntry("second.bin", "data2.bin");
     using (var bzippedArchive = new Bzip2Archive())
     {
-           bzippedArchive.SetSource(tarArchive);
-           bzippedArchive.Save("archive.tar.bz2");
+        bzippedArchive.SetSource(tarArchive);
+        bzippedArchive.Save("archive.tar.bz2");
     }
 }
 ```
@@ -141,6 +142,49 @@ using (var tarArchive = new TarArchive())
 ### Смотрите также
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive)
+* enum [TarFormat](../../../aspose.zip.tar/tarformat)
+* class [Bzip2Archive](../../bzip2archive)
+* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive)
+* сборка [Aspose.Zip](../../../)
+
+---
+
+## SetSource(CpioArchive, CpioFormat) {#setsource}
+
+Задает сжатие содержимого внутри архива.
+
+```csharp
+public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.OldAscii)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| cpioArchive | CpioArchive | Архив Cpio нужно сжать. |
+| format | CpioFormat | Определяет формат заголовка cpio. |
+
+### Примечания
+
+Используйте этот метод для создания совместного архива cpio.bz2.
+
+### Примеры
+
+```csharp
+using (var cpioArchive = new CpioArchive())
+{
+    cpioArchive.CreateEntry("first.bin", "data1.bin");
+    cpioArchive.CreateEntry("second.bin", "data2.bin");
+    using (var bzippedArchive = new Bzip2Archive())
+    {
+        bzippedArchive.SetSource(cpioArchive);
+        bzippedArchive.Save("archive.cpio.bz2");
+    }
+}
+```
+
+### Смотрите также
+
+* class [CpioArchive](../../../aspose.zip.cpio/cpioarchive)
+* enum [CpioFormat](../../../aspose.zip.cpio/cpioformat)
 * class [Bzip2Archive](../../bzip2archive)
 * пространство имен [Aspose.Zip.Bzip2](../../bzip2archive)
 * сборка [Aspose.Zip](../../../)

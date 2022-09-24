@@ -16,11 +16,11 @@ public Bzip2Archive OpenBzip2(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Потоковый объект .NET, содержащий загружаемый архив. |
+| stream | Stream | Объект потока .NET, содержащий загружаемый архив. |
 
 ### Возвращаемое значение
 
-A[`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive)объект, представляющий архив.
+А[`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive) объект, представляющий архив.
 
 ### Смотрите также
 
@@ -41,11 +41,11 @@ public Bzip2Archive OpenBzip2(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла загружаемого архива. |
+| fileName | String | Имя файла архива для загрузки. |
 
 ### Возвращаемое значение
 
-A[`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive)объект, представляющий архив.
+А[`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive) объект, представляющий архив.
 
 ### Смотрите также
 

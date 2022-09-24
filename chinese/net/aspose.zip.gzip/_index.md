@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Gzip
 second_title: Aspose.ZIP for .NET API 参考
-description: Gzip命名空间包含代表 gzip 存档的类
+description: 的Gzip命名空间包含代表 gzip 存档的类
 type: docs
 weight: 50
 url: /zh/net/aspose.zip.gzip/
 ---
-Gzip命名空间包含代表 gzip 存档的类。
+的Gzip命名空间包含代表 gzip 存档的类。
 
 ## 课程
 

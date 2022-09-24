@@ -17,21 +17,21 @@ public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | outputStream | Stream | Целевой поток. |
-| saveOptions | Bzip2SaveOptions | Опции для сохранения архива bzip2. Если не указано иное, будет использоваться размер блока 900 КБ. |
+| saveOptions | Bzip2SaveOptions | Варианты сохранения архива bzip2. Если не указано иное, будет использоваться размер блока 900 КБ. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Не указан источник архивируемых данных. |
-| ArgumentException | *outputStream*недоступен для записи. |
+| InvalidOperationException | Источник данных для архивирования не указан. |
+| ArgumentException | *outputStream* не доступен для записи. |
 | UnauthorizedAccessException | Источник файла доступен только для чтения или является каталогом. |
-| DirectoryNotFoundException | Указан недопустимый исходный путь к файлу, например, он находится на несопоставленном диске. |
+| DirectoryNotFoundException | Указанный путь к источнику файла является недопустимым, например, он находится на несопоставленном диске. |
 | IOException | Источник файла уже открыт. |
 
 ### Примечания
 
-*outputStream*должен быть доступен для записи.
+*outputStream* должен быть доступен для записи.
 
 ### Примеры
 
@@ -56,7 +56,7 @@ using (var archive = new Bzip2Archive())
 
 ## Save(string) {#save_1}
 
-Сохраняет архив в указанный целевой файл.
+Сохраняет архив в указанный файл назначения.
 
 ```csharp
 public void Save(string destinationFileName)
@@ -70,12 +70,12 @@ public void Save(string destinationFileName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*имеет значение null. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *destinationFileName*пусто, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName*запрещен. |
+| ArgumentNullException | *destinationFileName* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
 | PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл по адресу*destinationFileName*содержит двоеточие (:) в середине строки. |
+| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
 
 ### Примеры
 

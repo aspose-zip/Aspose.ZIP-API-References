@@ -1,14 +1,14 @@
 ---
 title: RarArchive
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化RarArchiveaspose.zip.rar/rararchive类的新实例并组成条目列表可以从存档中提取
+description: 初始化RarArchiveaspose.zip.rar/rararchive可以从存档中提取类和组成条目列表
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.rar/rararchive/rararchive/
 ---
 ## RarArchive(string, RarArchiveLoadOptions) {#constructor_1}
 
-初始化[`RarArchive`](../../rararchive)类的新实例并组成条目列表，可以从存档中提取。
+初始化[`RarArchive`](../../rararchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
@@ -23,20 +23,20 @@ public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
-| SecurityException | 调用者没有访问所需的权限 |
-| ArgumentException | *path*为空，仅包含空格，或包含无效字符。 |
-| UnauthorizedAccessException | 对文件*path*的访问被拒绝。 |
-| PathTooLongException | 指定的*path*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
-| NotSupportedException | *path*的文件在字符串中间包含一个冒号 (:)。 |
+| ArgumentNullException | *path*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限 |
+| ArgumentException | 这*path*为空、仅包含空格或包含无效字符。 |
+| UnauthorizedAccessException | 访问文件*path*被拒绝。 |
+| PathTooLongException | 指定的*path*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| NotSupportedException | 档案在*path*在字符串中间包含一个冒号 (:)。 |
 
 ### 评论
 
-此构造函数不解压缩任何条目。解压方法见[`Open`](../../rararchiveentry/open)方法。
+此构造函数不解压缩任何条目。看[`Open`](../../rararchiveentry/open)解压方法.
 
 ### 例子
 
-以下示例提取存档，然后将第一个条目解压缩到` MemoryStream` 。
+以下示例提取档案，然后将第一个条目解压缩到`记忆流`.
 
 ```csharp
 var extracted = new MemoryStream();
@@ -63,7 +63,7 @@ using (RarArchive archive = new RarArchive("data.rar"))
 
 ## RarArchive(Stream, RarArchiveLoadOptions) {#constructor}
 
-初始化[`RarArchive`](../../rararchive)类的新实例并组成条目列表，可以从存档中提取。
+初始化[`RarArchive`](../../rararchive)可以从存档中提取类和组成条目列表。
 
 ```csharp
 public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
@@ -78,17 +78,17 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *sourceStream*不可搜索。 |
+| ArgumentException | *sourceStream*是不可搜索的。 |
 | InvalidDataException | 存档签名错误。 - 或 - 该文件不是 RAR 存档。 |
 | InvalidOperationException |  |
 
 ### 评论
 
-此构造函数不解压缩任何条目。解压方法见[`Open`](../../rararchiveentry/open)方法。
+此构造函数不解压缩任何条目。看[`Open`](../../rararchiveentry/open)解压方法.
 
 ### 例子
 
-以下示例将第一个条目解密并解压缩为` MemoryStream` 。
+以下示例将第一个条目解密并解压缩为`记忆流`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.rar");

@@ -1,14 +1,14 @@
 ---
 title: EntryExtractionProgressed
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает или задает делегат вызываемый при извлечении нескольких байтов.
+description: Получает или задает делегат вызываемый после извлечения нескольких байтов.
 type: docs
 weight: 30
 url: /ru/net/aspose.zip/archiveloadoptions/entryextractionprogressed/
 ---
 ## ArchiveLoadOptions.EntryExtractionProgressed property
 
-Получает или задает делегат, вызываемый при извлечении нескольких байтов.
+Получает или задает делегат, вызываемый после извлечения нескольких байтов.
 
 ```csharp
 public EventHandler<ProgressEventArgs> EntryExtractionProgressed { get; set; }
@@ -16,7 +16,7 @@ public EventHandler<ProgressEventArgs> EntryExtractionProgressed { get; set; }
 
 ### Примечания
 
-Отправителем события является экземпляр[`ArchiveEntry`](../../archiveentry), извлечение которого выполняется.
+Отправителем события является[`ArchiveEntry`](../../archiveentry) экземпляр, в котором выполняется извлечение.
 
 ### Примеры
 

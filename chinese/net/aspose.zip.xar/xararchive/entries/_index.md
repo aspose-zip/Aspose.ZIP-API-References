@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.ZIP for .NET API 参考
-description: 获取构成存档的XarEntryaspose.zip.xar/xarentry类型的条目
+description: 获取条目XarEntryaspose.zip.xar/xarentry构成档案的类型
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.xar/xararchive/entries/
 ---
 ## XarArchive.Entries property
 
-获取构成存档的[`XarEntry`](../../xarentry)类型的条目。
+获取条目[`XarEntry`](../../xarentry)构成档案的类型。
 
 ```csharp
 public IEnumerable<XarEntry> Entries { get; }

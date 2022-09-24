@@ -18,13 +18,13 @@ public class CancelEntryEventArgs : EntryEventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CancelEntryEventArgs](cancelentryeventargs)(ArchiveEntry) | 初始化[`CancelEntryEventArgs`](../cancelentryeventargs)类的新实例。 |
+| [CancelEntryEventArgs](cancelentryeventargs)(ArchiveEntry) | 初始化[`CancelEntryEventArgs`](../cancelentryeventargs)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Cancel](../../aspose.zip/cancelentryeventargs/cancel) { get; set; } | 获取或设置一个值，指示是否应该取消事件。 |
+| [Cancel](../../aspose.zip/cancelentryeventargs/cancel) { get; set; } | 获取或设置一个值，该值指示是否应该取消事件。 |
 | [Entry](../../aspose.zip/entryeventargs/entry) { get; } | 获取引发事件的存档条目。 |
 
 ### 也可以看看

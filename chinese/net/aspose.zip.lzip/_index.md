@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Lzip
 second_title: Aspose.ZIP for .NET API 参考
-description: Lzip命名空间包含代表 lzip 存档相关实体的类
+description: 的Lzip命名空间包含代表 lzip 存档相关实体的类
 type: docs
 weight: 60
 url: /zh/net/aspose.zip.lzip/
 ---
-Lzip命名空间包含代表 lzip 存档相关实体的类。
+的Lzip命名空间包含代表 lzip 存档相关实体的类。
 
 ## 课程
 

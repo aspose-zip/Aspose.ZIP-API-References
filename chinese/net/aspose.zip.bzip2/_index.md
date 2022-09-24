@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Bzip2
 second_title: Aspose.ZIP for .NET API 参考
-description: Bzip2命名空间包含代表 bzip2 存档相关实体的类
+description: 的Bzip2命名空间包含代表 bzip2 存档相关实体的类
 type: docs
 weight: 20
 url: /zh/net/aspose.zip.bzip2/
 ---
-Bzip2命名空间包含代表 bzip2 存档相关实体的类。
+的Bzip2命名空间包含代表 bzip2 存档相关实体的类。
 
 ## 课程
 

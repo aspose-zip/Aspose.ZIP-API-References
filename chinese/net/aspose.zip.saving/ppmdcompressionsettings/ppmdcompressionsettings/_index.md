@@ -1,14 +1,14 @@
 ---
 title: PPMdCompressionSettings
 second_title: Aspose.ZIP for .NET API 参考
-description: 初始化PPMdCompressionSettingsaspose.zip.saving/ppmdcompressionsettings类的新实例
+description: 初始化PPMdCompressionSettingsaspose.zip.saving/ppmdcompressionsettings类.
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.saving/ppmdcompressionsettings/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings(int, int) {#constructor_1}
 
-初始化[`PPMdCompressionSettings`](../../ppmdcompressionsettings)类的新实例。
+初始化[`PPMdCompressionSettings`](../../ppmdcompressionsettings)类.
 
 ```csharp
 public PPMdCompressionSettings(int modelOrder, int suballocatorSize)
@@ -23,13 +23,13 @@ public PPMdCompressionSettings(int modelOrder, int suballocatorSize)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *modelOrder*不在 2 和 16 之间。 - 或 -*suballocatorSize*不在介于 1 和 256 之间。 |
+| ArgumentOutOfRangeException | *modelOrder*不在 2 到 16 之间。 - 或 -*suballocatorSize*不在 1 到 256 之间。 |
 
 ### 评论
 
-更大的模型订单几乎肯定会导致更好的压缩，并且肯定会增加内存和 CPU 使用率。
+更大的模型订单几乎肯定会导致更好的压缩以及更多的内存和 CPU 使用率。
 
-PPMd 算法可能需要大量内存，尤其是在用于大型文件和/或用于大型模型订单时。 如果 ppmd 需要的内存比你给的多，压缩会更糟。
+PPMd 算法可能需要大量内存，尤其是在用于大文件和/或与大模型订单一起使用时。
 
 ### 例子
 
@@ -51,7 +51,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressio
 
 ## PPMdCompressionSettings() {#constructor}
 
-使用默认模型顺序和子分配器大小初始化[`PPMdCompressionSettings`](../../ppmdcompressionsettings)类的新实例。
+初始化[`PPMdCompressionSettings`](../../ppmdcompressionsettings)具有默认模型顺序和子分配器大小的类。
 
 ```csharp
 public PPMdCompressionSettings()

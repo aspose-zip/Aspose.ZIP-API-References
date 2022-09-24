@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Saving
 second_title: Aspose.ZIP для справочника API .NET
-description: Пространство именSavingсодержит классы необходимые для операций по сохранению архива.
+description: Saving namespace содержит классы необходимые для операций по сохранению архива.
 type: docs
 weight: 90
 url: /ru/net/aspose.zip.saving/
 ---
-Пространство именSavingсодержит классы, необходимые для операций по сохранению архива.
+Saving namespace содержит классы, необходимые для операций по сохранению архива.
 
 ## Классы
 
@@ -19,12 +19,12 @@ url: /ru/net/aspose.zip.saving/
 | [CompressionSettings](./compressionsettings) | Настройки, необходимые для работы компрессора или декомпрессора. |
 | [DeflateCompressionSettings](./deflatecompressionsettings) | Настройки метода сжатия Deflate. |
 | [EncryptionSettings](./encryptionsettings) | Базовый класс для настроек нескольких методов шифрования zip. |
-| [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings) | Настройки метода сжатия Enhanced Deflate. |
-| [EventsBag](./eventsbag) | Контейнер событий, используемый при сохранении[`Archive`](../aspose.zip/archive). |
+| [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings) | Настройки для метода сжатия Enhanced Deflate. |
+| [EventsBag](./eventsbag) | Контейнер событий, используемый на[`Archive`](../aspose.zip/archive) сохранение. |
 | [LzmaCompressionSettings](./lzmacompressionsettings) | Настройки метода сжатия LZMA. |
 | [ParallelOptions](./paralleloptions) | Опции для параллельного сжатия. |
 | [PPMdCompressionSettings](./ppmdcompressionsettings) | Настройки метода сжатия PPMd. |
-| [SelfExtractorOptions](./selfextractoroptions) | Варианты создания самораспаковывающегося исполняемого архива. |
+| [SelfExtractorOptions](./selfextractoroptions) | Параметры создания самораспаковывающегося исполняемого архива. |
 | [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings) | Настройки алгоритма шифрования или дешифрования AES. |
 | [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings) | Настройки метода сжатия BZip2 в архиве 7z. |
 | [SevenZipCompressionSettings](./sevenzipcompressionsettings) | Настройки, необходимые для работы компрессора или декомпрессора 7z. |

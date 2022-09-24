@@ -23,12 +23,12 @@ public void SaveGzipped(Stream output, TarFormat? format = default)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output*равно нулю. |
-| ArgumentException | *output*недоступен для записи. |
+| ArgumentNullException | *output* нулевой. |
+| ArgumentException | *output* не доступен для записи. |
 
 ### Примечания
 
-*output*должен быть доступен для записи.
+*output* должен быть доступен для записи.
 
 ### Примеры
 

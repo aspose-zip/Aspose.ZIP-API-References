@@ -1,14 +1,14 @@
 ---
 title: CreateEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Создать одну запись внутри архива.
+description: Создать одну запись в архиве.
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.tar/tararchive/createentry/
 ---
 ## CreateEntry(string, Stream, FileSystemInfo) {#createentry_1}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo = null)
@@ -28,14 +28,14 @@ public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo 
 
 | исключение | условие |
 | --- | --- |
-| PathTooLongException | *name*слишком длинное для tar по стандарту IEEE 1003.1-1998. |
+| PathTooLongException | *name* слишком длинный для tar по стандарту IEEE 1003.1-1998. |
 | ArgumentException | Имя файла, как часть*name*, превышает 100 символов. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*fileInfo*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*fileInfo* параметр не влияет на имя записи.
 
-*fileInfo*может ссылаться наDirectoryInfoесли запись является каталогом.
+*fileInfo* может относиться кDirectoryInfo если запись является каталогом.
 
 ### Примеры
 
@@ -58,7 +58,7 @@ using (var archive = new TarArchive())
 
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -78,16 +78,16 @@ public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately
 
 | исключение | условие |
 | --- | --- |
-| PathTooLongException | *name*слишком длинное для tar по стандарту IEEE 1003.1-1998. |
+| PathTooLongException | *name* слишком длинный для tar по стандарту IEEE 1003.1-1998. |
 | ArgumentException | Имя файла, как часть*name*, превышает 100 символов. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*fileInfo*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*fileInfo* параметр не влияет на имя записи.
 
-*fileInfo*может ссылаться наDirectoryInfoесли запись является каталогом.
+*fileInfo* может относиться кDirectoryInfo если запись является каталогом.
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до удаления архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет удален.
 
 ### Примеры
 
@@ -111,7 +111,7 @@ using (var archive = new TarArchive())
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Создать одну запись внутри архива.
+Создать одну запись в архиве.
 
 ```csharp
 public TarEntry CreateEntry(string name, string path, bool openImmediately = false)
@@ -131,18 +131,18 @@ public TarEntry CreateEntry(string name, string path, bool openImmediately = fal
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *путь*равно нулю. |
-| SecurityException | У вызывающего абонента нет необходимых прав доступа для доступа |
-| ArgumentException | *path*пуст, содержит только пробелы или содержит недопустимые символы. - или - Имя файла, как часть*name*, превышает 100 символов. |
-| UnauthorizedAccessException | Доступ к файлу*path*запрещен. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. - или -*name*слишком длинное для tar согласно стандарту IEEE 1003.1-1998. |
-| NotSupportedException | Файл по адресу*path*содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. - или - Имя файла, как часть*name*, превышает 100 символов. |
+| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
+| PathTooLongException | Указанный*path* , имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. - или же -*name* слишком длинный для tar по стандарту IEEE 1003.1-1998. |
+| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
 
 ### Примечания
 
-Имя записи задается исключительно в параметре*name*. Имя файла, указанное в параметре*path*, не влияет на имя записи.
+Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*path* параметр не влияет на имя записи.
 
-Если файл открывается сразу с параметром*openImmediately*, он блокируется до удаления архива.
+Если файл открывается сразу с помощью*openImmediately* параметр блокируется до тех пор, пока архив не будет удален.
 
 ### Примеры
 

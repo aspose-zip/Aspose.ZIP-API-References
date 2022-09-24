@@ -26,11 +26,11 @@ public CpioArchive DeleteEntry(CpioEntry entry)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *entry*равно null. |
+| ArgumentNullException | *entry* нулевой. |
 
 ### Примеры
 
-Вот как можно удалить все записи, кроме последней:
+Вот как вы можете удалить все записи, кроме последней:
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))
@@ -64,13 +64,13 @@ public CpioArchive DeleteEntry(int entryIndex)
 
 ### Возвращаемое значение
 
-Архив с удаленной записью.
+Архив с записью удален.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*меньше 0.-или-*entryIndex*равно до или больше` Записей` количество. |
+| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или-*entryIndex* равно или больше, чем`Записи` считать. |
 
 ### Примеры
 

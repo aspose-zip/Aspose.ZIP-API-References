@@ -1,14 +1,14 @@
 ---
 title: EventsBag
 second_title: Aspose.ZIP для справочника API .NET
-description: Получает или задает контейнер возникновения событий при сохранении архива.
+description: Получает или задает контейнер событий возникающих при сохранении архива.
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.saving/archivesaveoptions/eventsbag/
 ---
 ## ArchiveSaveOptions.EventsBag property
 
-Получает или задает контейнер возникновения событий при сохранении архива.
+Получает или задает контейнер событий, возникающих при сохранении архива.
 
 ```csharp
 public EventsBag EventsBag { get; set; }

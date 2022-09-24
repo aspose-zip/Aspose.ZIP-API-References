@@ -3,7 +3,7 @@ title: XzBcjX86FilterSettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки фильтра xz Bcj X86.
 type: docs
-weight: 710
+weight: 730
 url: /ru/net/aspose.zip.xz.settings/xzbcjx86filtersettings/
 ---
 ## XzBcjX86FilterSettings class
@@ -18,7 +18,7 @@ public sealed class XzBcjX86FilterSettings : XzFilterSettings
 
 | Имя | Описание |
 | --- | --- |
-| [XzBcjX86FilterSettings](xzbcjx86filtersettings)() | Инициализирует новый экземпляр[`XzBcjX86FilterSettings`](../xzbcjx86filtersettings). Используйте его для сжатия исполняемых файлов и библиотек в[`XzArchive`](../../aspose.zip.xz/xzarchive). |
+| [XzBcjX86FilterSettings](xzbcjx86filtersettings)() | Инициализирует новый экземпляр[`XzBcjX86FilterSettings`](../xzbcjx86filtersettings) . Используйте его для сжатия исполняемых файлов и библиотек внутри[`XzArchive`](../../aspose.zip.xz/xzarchive) . |
 
 ### Смотрите также
 

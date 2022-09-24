@@ -23,17 +23,17 @@ public void Save(string destinationFileName, CpioFormat cpioFormat = CpioFormat.
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *destinationFileName*是一个零长度字符串，仅包含空格，或包含一个或多个由 System.IO.Path.InvalidPathChars 定义的无效字符。 |
-| ArgumentNullException | *destinationFileName*为空。 |
-| PathTooLongException | 指定的*destinationFileName*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
+| ArgumentException | *destinationFileName*是长度为零的字符串，仅包含空格，或者包含一个或多个由 System.IO.Path.InvalidPathChars 定义的无效字符。 |
+| ArgumentNullException | *destinationFileName*一片空白。 |
+| PathTooLongException | 指定的*destinationFileName*、文件名或两者都超过系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 |
 | DirectoryNotFoundException | 指定的*destinationFileName*无效，（例如，它位于未映射的驱动器上）。 |
 | IOException | 打开文件时发生 I/O 错误。 |
-| UnauthorizedAccessException | *destinationFileName*指定了一个只读文件并且访问权限不是读取。-或- path 指定了一个目录。-或-调用者没有所需的权限。 |
+| UnauthorizedAccessException | *destinationFileName*指定了一个只读文件并且访问权限不是读取。- 或- 指定了目录的路径。- 或- 调用者没有所需的权限。 |
 | NotSupportedException | *destinationFileName*格式无效。 |
 
 ### 评论
 
-可以将存档保存到与加载文件相同的路径。 但是，不建议这样做，因为这种方法使用复制到临时文件。
+可以将存档保存到与加载文件相同的路径。 但是，不建议这样做，因为此方法使用复制到临时文件。
 
 ### 例子
 
@@ -71,8 +71,8 @@ public void Save(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *output*为空。 |
-| ArgumentException | *output*不可写。 - 或 -*output*是我们从中提取的同一流。 - 或 - 由于格式限制，无法将存档保存在*cpioFormat*中。 |
+| ArgumentNullException | *output*一片空白。 |
+| ArgumentException | *output*不可写。 - 或者 -*output*是我们从中提取的同一流。 - 或 - 无法将存档保存在*cpioFormat*由于格式限制。 |
 
 ### 评论
 

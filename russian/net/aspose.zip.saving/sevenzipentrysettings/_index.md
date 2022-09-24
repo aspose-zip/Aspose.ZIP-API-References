@@ -3,7 +3,7 @@ title: SevenZipEntrySettings
 second_title: Aspose.ZIP для справочника API .NET
 description: Настройки используемые для сжатия или распаковки записей 7Z.
 type: docs
-weight: 480
+weight: 490
 url: /ru/net/aspose.zip.saving/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings class
@@ -18,7 +18,7 @@ public class SevenZipEntrySettings
 
 | Имя | Описание |
 | --- | --- |
-| [SevenZipEntrySettings](sevenzipentrysettings)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | Инициализирует новый экземпляр класса[`SevenZipEntrySettings`](../sevenzipentrysettings). |
+| [SevenZipEntrySettings](sevenzipentrysettings)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | Инициализирует новый экземпляр[`SevenZipEntrySettings`](../sevenzipentrysettings) класс. |
 
 ## Характеристики
 

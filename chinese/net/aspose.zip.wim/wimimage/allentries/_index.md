@@ -1,14 +1,14 @@
 ---
 title: AllEntries
 second_title: Aspose.ZIP for .NET API 参考
-description: 以递归方式获取构成图像的WimEntryaspose.zip.wim/wimentry类型的条目
+description: 获取条目WimEntryaspose.zip.wim/wimentry递归构成图像的类型
 type: docs
 weight: 10
 url: /zh/net/aspose.zip.wim/wimimage/allentries/
 ---
 ## WimImage.AllEntries property
 
-以递归方式获取构成图像的[`WimEntry`](../../wimentry)类型的条目。
+获取条目[`WimEntry`](../../wimentry)递归构成图像的类型。
 
 ```csharp
 public IEnumerable<WimEntry> AllEntries { get; }

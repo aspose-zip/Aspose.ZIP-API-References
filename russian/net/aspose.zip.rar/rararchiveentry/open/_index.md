@@ -16,7 +16,7 @@ public Stream Open(string password = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Необязательный пароль для расшифровки. Его также можно установить в[`DecryptionPassword`](../../rararchiveloadoptions/decryptionpassword). |
+| password | String | Необязательный пароль для расшифровки. Он также может быть установлен в пределах[`DecryptionPassword`](../../rararchiveloadoptions/decryptionpassword). |
 
 ### Возвращаемое значение
 
@@ -24,19 +24,19 @@ public Stream Open(string password = null)
 
 ### Примечания
 
-Читать из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
+Прочитайте из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
 
 ### Примеры
 
 Использование:
 
-.NET 4.0 и выше - используйте метод Stream.CopyTo:
+.NET 4.0 и выше — используйте метод Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 а раньше - копировать байты вручную:
+.NET 3.5 и более ранние версии — копировать байты вручную:
 
 ```csharp
 byte[] buffer = new byte[8192];
