@@ -1,17 +1,17 @@
 ---
-title: IsDirectory
+title: Comment
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 40
-url: /net/aspose.zip/archiveentry/isdirectory/
+weight: 10
+url: /net/aspose.zip/archiveentry/comment/
 ---
-## ArchiveEntry.IsDirectory property
+## ArchiveEntry.Comment property
 
-Gets a value indicating whether the entry represents directory.
+Gets comment of the entry within archive.
 
 ```csharp
-public bool IsDirectory { get; }
+public string Comment { get; }
 ```
 
 ### See Also

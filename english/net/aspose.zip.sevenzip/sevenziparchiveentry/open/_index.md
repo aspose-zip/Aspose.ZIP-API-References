@@ -3,7 +3,7 @@ title: Open
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip.sevenzip/sevenziparchiveentry/open/
 ---
 ## SevenZipArchiveEntry.Open method
@@ -21,6 +21,13 @@ public Stream Open(string password = null)
 ### Return Value
 
 The stream that represents the contents of the entry.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The archive is not opened for extraction. - or - This entry is a directory. |
+| InvalidDataException | Wrong data within the entry. |
 
 ### Remarks
 

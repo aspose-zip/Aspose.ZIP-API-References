@@ -1,17 +1,17 @@
 ---
-title: Name
+title: ModificationTime
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 50
-url: /net/aspose.zip.sevenzip/sevenziparchiveentry/name/
+weight: 40
+url: /net/aspose.zip.sevenzip/sevenziparchiveentry/modificationtime/
 ---
-## SevenZipArchiveEntry.Name property
+## SevenZipArchiveEntry.ModificationTime property
 
-Gets name of the entry within archive.
+Gets last modified date and time.
 
 ```csharp
-public string Name { get; }
+public DateTime ModificationTime { get; }
 ```
 
 ### See Also

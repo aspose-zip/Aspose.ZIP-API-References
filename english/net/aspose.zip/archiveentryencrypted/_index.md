@@ -18,6 +18,7 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 
 | Name | Description |
 | --- | --- |
+| [Comment](../../aspose.zip/archiveentry/comment) { get; } | Gets comment of the entry within archive. |
 | [CompressedSize](../../aspose.zip/archiveentry/compressedsize) { get; } | Gets size of compressed file. |
 | [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | Gets settings for compression or decompression. |
 | [EncryptionSettings](../../aspose.zip/archiveentryencrypted/encryptionsettings) { get; } | Gets settings for encryption or decryption. |

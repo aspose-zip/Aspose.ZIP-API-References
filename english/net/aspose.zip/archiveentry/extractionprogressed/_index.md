@@ -3,7 +3,7 @@ title: ExtractionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip/archiveentry/extractionprogressed/
 ---
 ## ArchiveEntry.ExtractionProgressed event

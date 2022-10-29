@@ -3,7 +3,7 @@ title: ModificationTime
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip/archiveentry/modificationtime/
 ---
 ## ArchiveEntry.ModificationTime property

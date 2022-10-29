@@ -3,7 +3,7 @@ title: EntryExtractionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip/archiveloadoptions/entryextractionprogressed/
 ---
 ## ArchiveLoadOptions.EntryExtractionProgressed property
