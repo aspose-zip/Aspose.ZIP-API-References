@@ -35,6 +35,7 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
 | [StoreCompressionSettings](./storecompressionsettings) | Settings for Store compression method. |
 | [TraditionalEncryptionSettings](./traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
+| [XzCompressionSettings](./xzcompressionsettings) | Settings for Xz compression method. |
 ## Enumeration
 
 | Enumeration | Description |

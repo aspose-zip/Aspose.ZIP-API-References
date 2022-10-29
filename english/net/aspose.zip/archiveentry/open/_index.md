@@ -3,7 +3,7 @@ title: Open
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.zip/archiveentry/open/
 ---
 ## ArchiveEntry.Open method

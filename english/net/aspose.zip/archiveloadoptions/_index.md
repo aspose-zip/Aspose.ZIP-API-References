@@ -25,6 +25,7 @@ public class ArchiveLoadOptions
 | Name | Description |
 | --- | --- |
 | [DecryptionPassword](../../aspose.zip/archiveloadoptions/decryptionpassword) { get; set; } | Gets or sets the password to decrypt entries. |
+| [Encoding](../../aspose.zip/archiveloadoptions/encoding) { get; set; } | Gets or sets the encoding for entries' names. |
 | [EntryExtractionProgressed](../../aspose.zip/archiveloadoptions/entryextractionprogressed) { get; set; } | Gets or sets the delegate invoked when some bytes have been extracted. |
 | [EntryListed](../../aspose.zip/archiveloadoptions/entrylisted) { get; set; } | Gets or sets the delegate invoked when an entry listed within table of content. |
 

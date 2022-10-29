@@ -3,7 +3,7 @@ title: CompressedSize
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.zip/archiveentry/compressedsize/
 ---
 ## ArchiveEntry.CompressedSize property

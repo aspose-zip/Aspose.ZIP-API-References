@@ -3,10 +3,10 @@ title: Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.sevenzip/sevenziparchiveentry/extract/
 ---
-## SevenZipArchiveEntry.Extract method
+## SevenZipArchiveEntry.Extract method (1 of 2)
 
 Extracts the entry to the filesystem by the path provided.
 
@@ -40,6 +40,46 @@ The file info of composed file.
 using (var archive = new SevenZipArchive("archive.7z"))
 {
     archive.Entries[0].Extract("data.bin");
+}
+```
+
+### See Also
+
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## SevenZipArchiveEntry.Extract method (2 of 2)
+
+Extracts the entry to the stream provided.
+
+```csharp
+public void Extract(Stream destination, string password = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destination | Stream | Destination stream. Must be writable. |
+| password | String | Optional password for decryption. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *destination* does not support writing. |
+| InvalidOperationException | The archive is not opened for extraction. - or - This entry is a directory. |
+| InvalidDataException | Wrong data within the entry. |
+
+### Examples
+
+Extract an entry of zip archive with password.
+
+```csharp
+using (var archive = new SevenZipArchive("archive.7z"))
+{
+    archive.Entries[0].Extract(httpResponseStream);
 }
 ```
 

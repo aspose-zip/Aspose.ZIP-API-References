@@ -59,12 +59,13 @@ using (var archive = new Bzip2Archive())
 Saves archive to destination file provided.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, Bzip2SaveOptions saveOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| saveOptions | Bzip2SaveOptions | Options for saving a bzip2 archive. If not specified, 900 Kb block size would be used. |
 
 ### Exceptions
 
@@ -91,6 +92,7 @@ using (var archive = new Bzip2Archive())
 
 ### See Also
 
+* class [Bzip2SaveOptions](../../bzip2saveoptions)
 * class [Bzip2Archive](../../bzip2archive)
 * namespace [Aspose.Zip.Bzip2](../../bzip2archive)
 * assembly [Aspose.Zip](../../../)

@@ -29,8 +29,8 @@ public class Bzip2Archive : IDisposable
 | [Dispose](../../aspose.zip.bzip2/bzip2archive/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [Extract](../../aspose.zip.bzip2/bzip2archive/extract)(Stream) | Extracts the archive to the stream provided. |
 | [Open](../../aspose.zip.bzip2/bzip2archive/open)() | Opens the archive for extraction and provides a stream with archive content. |
-| [Save](../../aspose.zip.bzip2/bzip2archive/save)(string) | Saves archive to destination file provided. |
 | [Save](../../aspose.zip.bzip2/bzip2archive/save)(Stream, Bzip2SaveOptions) | Saves archive to the stream provided. |
+| [Save](../../aspose.zip.bzip2/bzip2archive/save)(string, Bzip2SaveOptions) | Saves archive to destination file provided. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(Stream) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource)(string) | Sets the content to be compressed within the archive. |

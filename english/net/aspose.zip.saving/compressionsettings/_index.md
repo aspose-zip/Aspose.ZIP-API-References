@@ -23,6 +23,7 @@ public abstract class CompressionSettings
 | static [Lzma](../../aspose.zip.saving/compressionsettings/lzma) { get; } | An instance of `LzmaCompressionSettings` with default parameters. |
 | static [PPMd](../../aspose.zip.saving/compressionsettings/ppmd) { get; } | An instance of `PPMdCompressionSettings` with default parameters. |
 | static [Store](../../aspose.zip.saving/compressionsettings/store) { get; } | An instance of `StoreCompressionSettings` with default parameters. |
+| static [Xz](../../aspose.zip.saving/compressionsettings/xz) { get; } | An instance of `Xz` with default parameters. |
 
 ### See Also
 

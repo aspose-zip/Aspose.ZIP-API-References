@@ -3,7 +3,7 @@ title: UncompressedSize
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/
 ---
 ## SevenZipArchiveEntry.UncompressedSize property

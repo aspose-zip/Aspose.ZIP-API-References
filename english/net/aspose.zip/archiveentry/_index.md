@@ -18,6 +18,7 @@ public abstract class ArchiveEntry
 
 | Name | Description |
 | --- | --- |
+| [Comment](../../aspose.zip/archiveentry/comment) { get; } | Gets comment of the entry within archive. |
 | [CompressedSize](../../aspose.zip/archiveentry/compressedsize) { get; } | Gets size of compressed file. |
 | [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings) { get; } | Gets settings for compression or decompression. |
 | [IsDirectory](../../aspose.zip/archiveentry/isdirectory) { get; } | Gets a value indicating whether the entry represents directory. |

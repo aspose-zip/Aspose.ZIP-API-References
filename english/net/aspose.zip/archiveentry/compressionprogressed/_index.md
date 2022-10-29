@@ -3,7 +3,7 @@ title: CompressionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip/archiveentry/compressionprogressed/
 ---
 ## ArchiveEntry.CompressionProgressed event
