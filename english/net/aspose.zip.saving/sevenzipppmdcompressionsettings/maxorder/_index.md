@@ -1,17 +1,17 @@
 ---
-title: SuballocatorSize
+title: MaxOrder
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 40
-url: /net/aspose.zip.saving/sevenzipppmdcompressionsettings/suballocatorsize/
+weight: 20
+url: /net/aspose.zip.saving/sevenzipppmdcompressionsettings/maxorder/
 ---
-## SevenZipPPMdCompressionSettings.SuballocatorSize property
+## SevenZipPPMdCompressionSettings.MaxOrder property
 
-Gets the sub-allocator size in MB.
+Gets the maximum order.
 
 ```csharp
-public int SuballocatorSize { get; }
+public byte MaxOrder { get; }
 ```
 
 ### See Also

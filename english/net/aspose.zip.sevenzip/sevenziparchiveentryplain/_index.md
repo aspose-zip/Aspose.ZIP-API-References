@@ -3,7 +3,7 @@ title: SevenZipArchiveEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.zip.sevenzip/sevenziparchiveentryplain/
 ---
 ## SevenZipArchiveEntryPlain class

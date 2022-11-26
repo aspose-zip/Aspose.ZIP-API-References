@@ -3,7 +3,7 @@ title: Open
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip.sevenzip/sevenziparchiveentry/open/
 ---
 ## SevenZipArchiveEntry.Open method

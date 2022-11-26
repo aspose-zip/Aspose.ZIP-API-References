@@ -32,6 +32,7 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [SevenZipEntrySettings](./sevenzipentrysettings) | Settings used to compress or decompress 7Z entries. |
 | [SevenZipLZMA2CompressionSettings](./sevenziplzma2compressionsettings) | Settings for LZMA2 compression method within 7z archive. |
 | [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
+| [SevenZipPPMdCompressionSettings](./sevenzipppmdcompressionsettings) | Settings for PPMd compression method within 7z archive. |
 | [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
 | [StoreCompressionSettings](./storecompressionsettings) | Settings for Store compression method. |
 | [TraditionalEncryptionSettings](./traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |

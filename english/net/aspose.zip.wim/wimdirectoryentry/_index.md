@@ -3,7 +3,7 @@ title: WimDirectoryEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.zip.wim/wimdirectoryentry/
 ---
 ## WimDirectoryEntry class
