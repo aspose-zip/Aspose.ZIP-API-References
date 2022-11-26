@@ -3,7 +3,7 @@ title: Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip.sevenzip/sevenziparchiveentry/extract/
 ---
 ## SevenZipArchiveEntry.Extract method (1 of 2)

@@ -3,7 +3,7 @@ title: ZArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.zip.z/zarchive/
 ---
 ## ZArchive class
