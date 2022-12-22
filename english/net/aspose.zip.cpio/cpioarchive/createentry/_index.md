@@ -79,7 +79,7 @@ Cpio entry instance.
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | *sourcePath* is null. |
-| SecurityException | The caller does not have the required permission to access |
+| SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *sourcePath* is empty, contains only white spaces, or contains invalid characters. - or - File name, as a part of *name*, exceeds 100 symbols. |
 | UnauthorizedAccessException | Access to file *sourcePath* is denied. |
 | PathTooLongException | The specified *sourcePath*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. - or - *name* is too long for cpio. |

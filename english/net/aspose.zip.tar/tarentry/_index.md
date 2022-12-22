@@ -3,7 +3,7 @@ title: TarEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 660
 url: /net/aspose.zip.tar/tarentry/
 ---
 ## TarEntry class

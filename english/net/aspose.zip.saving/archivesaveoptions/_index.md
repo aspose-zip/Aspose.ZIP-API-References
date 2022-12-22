@@ -8,7 +8,7 @@ url: /net/aspose.zip.saving/archivesaveoptions/
 ---
 ## ArchiveSaveOptions class
 
-Options for saving an archive.
+Options for saving a zip archive.
 
 ```csharp
 public class ArchiveSaveOptions

@@ -45,6 +45,7 @@ public class Archive : IDisposable
 | [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory)(string) | Extracts all the files in the archive to the directory provided. |
 | [Save](../../aspose.zip/archive/save)(Stream, ArchiveSaveOptions) | Saves archive to the stream provided. |
 | [Save](../../aspose.zip/archive/save)(string, ArchiveSaveOptions) | Saves archive to destination file provided. |
+| [SaveSplit](../../aspose.zip/archive/savesplit)(string, SplitArchiveSaveOptions) | Saves multi-volume archive to destination directory provided. |
 
 ### See Also
 

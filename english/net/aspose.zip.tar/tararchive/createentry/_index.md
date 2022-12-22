@@ -132,7 +132,7 @@ Tar entry instance.
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | *path* is null. |
-| SecurityException | The caller does not have the required permission to access |
+| SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. - or - File name, as a part of *name*, exceeds 100 symbols. |
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. - or - *name* is too long for tar as of IEEE 1003.1-1998 standard. |
