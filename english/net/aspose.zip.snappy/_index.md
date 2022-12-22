@@ -3,7 +3,7 @@ title: Aspose.Zip.Snappy
 second_title: Aspose.ZIP for .NET API Reference
 description: The Snappy namespace contains classes for Snappy compressed data manipulation.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.zip.snappy/
 ---
 The Snappy namespace contains classes for Snappy compressed data manipulation.

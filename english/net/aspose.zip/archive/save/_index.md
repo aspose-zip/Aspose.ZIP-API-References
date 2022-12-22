@@ -69,7 +69,7 @@ public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = nu
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | *destinationFileName* is null. |
-| SecurityException | The caller does not have the required permission to access |
+| SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *destinationFileName* is empty, contains only white spaces, or contains invalid characters. |
 | UnauthorizedAccessException | Access to file *destinationFileName* is denied. |
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
@@ -86,7 +86,7 @@ using (var archive = new Archive())
 {
     archive.CreateEntry("entry.bin", "data.bin");
     archive.Save("archive.zip",  new ArchiveSaveOptions() { Encoding = Encoding.ASCII });
-}        
+}
 ```
 
 ### See Also

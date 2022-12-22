@@ -3,7 +3,7 @@ title: XzCheckType
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 790
 url: /net/aspose.zip.xz.settings/xzchecktype/
 ---
 ## XzCheckType enumeration

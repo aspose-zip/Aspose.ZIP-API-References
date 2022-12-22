@@ -14,7 +14,7 @@ The Saving namespace contains classes which are needed for operations entailing 
 | --- | --- |
 | [AesEcryptionSettings](./aesecryptionsettings) | Settings for AES encryption or decryption algorithm. |
 | [ArchiveEntrySettings](./archiveentrysettings) | Settings used to compress or decompress entries. |
-| [ArchiveSaveOptions](./archivesaveoptions) | Options for saving an archive. |
+| [ArchiveSaveOptions](./archivesaveoptions) | Options for saving a zip archive. |
 | [Bzip2CompressionSettings](./bzip2compressionsettings) | Settings for Bzip2 compression method. |
 | [CompressionSettings](./compressionsettings) | Settings needed for compressor or decompressor to work. |
 | [DeflateCompressionSettings](./deflatecompressionsettings) | Settings for Deflate compression method. |
@@ -34,6 +34,7 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
 | [SevenZipPPMdCompressionSettings](./sevenzipppmdcompressionsettings) | Settings for PPMd compression method within 7z archive. |
 | [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
+| [SplitArchiveSaveOptions](./splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
 | [StoreCompressionSettings](./storecompressionsettings) | Settings for Store compression method. |
 | [TraditionalEncryptionSettings](./traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
 | [XzCompressionSettings](./xzcompressionsettings) | Settings for Xz compression method. |

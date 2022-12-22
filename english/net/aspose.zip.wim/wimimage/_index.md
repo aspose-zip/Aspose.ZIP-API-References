@@ -3,7 +3,7 @@ title: WimImage
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 720
 url: /net/aspose.zip.wim/wimimage/
 ---
 ## WimImage class

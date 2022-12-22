@@ -3,7 +3,7 @@ title: SnappyArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 640
 url: /net/aspose.zip.snappy/snappyarchive/
 ---
 ## SnappyArchive class

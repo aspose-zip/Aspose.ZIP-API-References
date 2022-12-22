@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 650
 url: /net/aspose.zip.tar/tararchive/
 ---
 ## TarArchive class

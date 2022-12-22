@@ -21,6 +21,7 @@ is_root: true
 | [Aspose.Zip.Rar](./aspose.zip.rar) | The Rar namespace contains classes which represent RAR archive related entities. |
 | [Aspose.Zip.Saving](./aspose.zip.saving) | The Saving namespace contains classes which are needed for operations entailing saving the archive. |
 | [Aspose.Zip.SevenZip](./aspose.zip.sevenzip) | The SevenZip namespace contains classes which represent 7z archive related entities. |
+| [Aspose.Zip.Shar](./aspose.zip.shar) | The Shar namespace contains classes which represent shar archive related entities. |
 | [Aspose.Zip.Snappy](./aspose.zip.snappy) | The Snappy namespace contains classes for Snappy compressed data manipulation. |
 | [Aspose.Zip.Tar](./aspose.zip.tar) | The Tar namespace contains classes which represent tar archive related entities. |
 | [Aspose.Zip.Wim](./aspose.zip.wim) | The Wim namespace contains classes which represent WIM archive related entities. |
