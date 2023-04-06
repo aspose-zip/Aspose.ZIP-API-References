@@ -1,0 +1,92 @@
+---
+title: TarArchive.CreateEntries
+second_title: .NET API संदर्भ के लिए Aspose.ZIP
+description: TarArchive तरक. द गई नर्देशक में सभ फइलं और नर्देशकओं क पुनरवर्त रूप से संग्रह में जड़त है
+type: docs
+weight: 70
+url: /hi/net/aspose.zip.tar/tararchive/createentries/
+---
+## CreateEntries(DirectoryInfo, bool) {#createentries}
+
+दी गई निर्देशिका में सभी फाइलों और निर्देशिकाओं को पुनरावर्ती रूप से संग्रह में जोड़ता है।
+
+```csharp
+public TarArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| directory | DirectoryInfo | संपीड़ित करने के लिए निर्देशिका। |
+| includeRootDirectory | Boolean | इंगित करता है कि रूट निर्देशिका को स्वयं शामिल करना है या नहीं। |
+
+### प्रतिलाभ की मात्रा
+
+रचित प्रविष्टियों के साथ संग्रह।
+
+### उदाहरण
+
+```csharp
+using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
+{
+    using (var archive = new TarArchive())
+    {
+        archive.CreateEntries(new DirectoryInfo("C:\folder"), false);
+        archive.Save(tarFile);
+    }
+}
+```
+
+### यह सभी देखें
+
+* class [TarArchive](../)
+* नाम स्थान [Aspose.Zip.Tar](../../tararchive/)
+* सभा [Aspose.Zip](../../../)
+
+---
+
+## CreateEntries(string, bool) {#createentries_1}
+
+दी गई निर्देशिका में सभी फाइलों और निर्देशिकाओं को पुनरावर्ती रूप से संग्रह में जोड़ता है।
+
+```csharp
+public TarArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| sourceDirectory | String | संपीड़ित करने के लिए निर्देशिका। |
+| includeRootDirectory | Boolean | इंगित करता है कि रूट निर्देशिका को स्वयं शामिल करना है या नहीं। |
+
+### प्रतिलाभ की मात्रा
+
+रचित प्रविष्टियों के साथ संग्रह।
+
+### अपवाद
+
+| अपवाद | स्थिति |
+| --- | --- |
+| ArgumentNullException | *sourceDirectory* शून्य है। |
+| SecurityException | कॉल करने वाले के पास एक्सेस करने के लिए आवश्यक अनुमति नहीं है*sourceDirectory*. |
+| ArgumentException | *sourceDirectory* में अमान्य वर्ण हैं जैसे ", &lt;,&gt;, या &#x7C;। |
+| PathTooLongException | निर्दिष्ट पथ, फ़ाइल नाम, या दोनों सिस्टम-परिभाषित अधिकतम लंबाई से अधिक हैं। उदाहरण के लिए, Windows-आधारित प्लेटफ़ॉर्म पर, पथ 248 वर्णों से कम होने चाहिए और फ़ाइल नाम 260 वर्णों से कम होने चाहिए। निर्दिष्ट पथ, फ़ाइल नाम, या दोनों बहुत लंबे हैं। |
+
+### उदाहरण
+
+```csharp
+using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
+{
+    using (var archive = new TarArchive())
+    {
+        archive.CreateEntries("C:\folder", false);
+        archive.Save(tarFile);
+    }
+}
+```
+
+### यह सभी देखें
+
+* class [TarArchive](../)
+* नाम स्थान [Aspose.Zip.Tar](../../tararchive/)
+* सभा [Aspose.Zip](../../../)
+
+
