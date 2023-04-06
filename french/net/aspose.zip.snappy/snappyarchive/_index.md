@@ -1,9 +1,9 @@
 ---
-title: SnappyArchive
+title: Class SnappyArchive
 second_title: Référence de l'API Aspose.ZIP pour .NET
-description: Cette classe représente un fichier darchive rapide. Utilisezle pour composer ou extraire des archives accrocheuses.
+description: Aspose.Zip.Snappy.SnappyArchive classe. Cette classe représente un fichier darchive rapide. Utilisezle pour composer ou extraire des archives accrocheuses.
 type: docs
-weight: 590
+weight: 720
 url: /fr/net/aspose.zip.snappy/snappyarchive/
 ---
 ## SnappyArchive class
@@ -11,35 +11,37 @@ url: /fr/net/aspose.zip.snappy/snappyarchive/
 Cette classe représente un fichier d'archive rapide. Utilisez-le pour composer ou extraire des archives accrocheuses.
 
 ```csharp
-public class SnappyArchive : IDisposable
+public class SnappyArchive : IArchive, IArchiveFileEntry
 ```
 
 ## Constructeurs
 
 | Nom | La description |
 | --- | --- |
-| [SnappyArchive](snappyarchive#constructor)() | Initialise une nouvelle instance du[`SnappyArchive`](../snappyarchive) classe préparée pour la compression. |
-| [SnappyArchive](snappyarchive#constructor_1)(Stream) | Initialise une nouvelle instance du[`SnappyArchive`](../snappyarchive) classe préparée pour la décompression. |
-| [SnappyArchive](snappyarchive#constructor_2)(string) | Initialise une nouvelle instance du[`SnappyArchive`](../snappyarchive) classe préparée pour la décompression. |
+| [SnappyArchive](snappyarchive/#constructor)() | Initialise une nouvelle instance du`SnappyArchive` classe préparée pour la compression. |
+| [SnappyArchive](snappyarchive/#constructor_1)(Stream) | Initialise une nouvelle instance du`SnappyArchive` classe préparée pour la décompression. |
+| [SnappyArchive](snappyarchive/#constructor_2)(string) | Initialise une nouvelle instance du`SnappyArchive` classe préparée pour la décompression. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Dispose](../../aspose.zip.snappy/snappyarchive/dispose)() | Effectue des tâches définies par l'application associées à la libération, à la libération ou à la réinitialisation des ressources non gérées. |
-| [Extract](../../aspose.zip.snappy/snappyarchive/extract#extract)(FileInfo) | Extrait l'archive rapide dans un fichier. |
-| [Extract](../../aspose.zip.snappy/snappyarchive/extract#extract_1)(Stream) | Extrait l'archive rapide dans un flux. |
-| [Extract](../../aspose.zip.snappy/snappyarchive/extract#extract_2)(string) | Extrait l'archive rapide dans un fichier par chemin. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save#save)(FileInfo) | Enregistre l'archive rapide dans le fichier de destination fourni. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save#save_1)(Stream) | Enregistre l'archive rapide dans le flux fourni. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save#save_2)(string) | Enregistre l'archive rapide dans le fichier de destination fourni. |
-| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource#setsource)(FileInfo) | Définit le contenu à compresser dans l'archive. |
-| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource#setsource_1)(Stream) | Définit le contenu à compresser dans l'archive. |
-| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource#setsource_2)(string) | Définit le contenu à compresser dans l'archive. |
+| [Dispose](../../aspose.zip.snappy/snappyarchive/dispose/)() | Effectue des tâches définies par l'application associées à la libération, à la libération ou à la réinitialisation des ressources non gérées. |
+| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract_1)(FileInfo) | Extrait l'archive rapide dans un fichier. |
+| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract_2)(Stream) | Extrait l'archive rapide dans un flux. |
+| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract)(string) | Extrait l'archive rapide dans un fichier par chemin. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save)(FileInfo) | Enregistre l'archive rapide dans le fichier de destination fourni. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_1)(Stream) | Enregistre l'archive rapide dans le flux fourni. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_2)(string) | Enregistre l'archive rapide dans le fichier de destination fourni. |
+| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource)(FileInfo) | Définit le contenu à compresser dans l'archive. |
+| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_1)(Stream) | Définit le contenu à compresser dans l'archive. |
+| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_2)(string) | Définit le contenu à compresser dans l'archive. |
 
 ### Voir également
 
-* espace de noms [Aspose.Zip.Snappy](../../aspose.zip.snappy)
+* interface [IArchive](../../aspose.zip/iarchive/)
+* interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
+* espace de noms [Aspose.Zip.Snappy](../../aspose.zip.snappy/)
 * Assemblée [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

@@ -12,22 +12,25 @@ is_root: true
 
 | Espace de noms | La description |
 | --- | --- |
-| [Aspose.Zip](./aspose.zip) | LeZip l'espace de noms contient des classes qui représentent des entités liées aux archives. |
-| [Aspose.Zip.Bzip2](./aspose.zip.bzip2) | LeBzip2 l'espace de noms contient des classes qui représentent des entités liées à l'archive bzip2. |
-| [Aspose.Zip.Cab](./aspose.zip.cab) | LeCab l'espace de noms contient des classes qui représentent des entités liées à l'archive Cab. |
-| [Aspose.Zip.Cpio](./aspose.zip.cpio) | LeCpio l'espace de noms contient des classes qui représentent des entités liées à l'archive cpio. |
-| [Aspose.Zip.Gzip](./aspose.zip.gzip) | LeGzip l'espace de noms contient des classes qui représentent l'archive gzip. |
-| [Aspose.Zip.Lzip](./aspose.zip.lzip) | LeLzip l'espace de noms contient des classes qui représentent des entités liées à l'archive lzip. |
-| [Aspose.Zip.LZMA](./aspose.zip.lzma) | LeLZMAl'espace de noms contient des classes qui représentent les entités liées à l'archive lzma. |
-| [Aspose.Zip.Rar](./aspose.zip.rar) | LeRar l'espace de noms contient des classes qui représentent des entités liées à l'archive RAR. |
-| [Aspose.Zip.Saving](./aspose.zip.saving) | LeSaving l'espace de noms contient des classes nécessaires aux opérations impliquant la sauvegarde de l'archive. |
-| [Aspose.Zip.SevenZip](./aspose.zip.sevenzip) | LeSevenZip l'espace de noms contient des classes qui représentent des entités liées à l'archive 7z. |
-| [Aspose.Zip.Snappy](./aspose.zip.snappy) | LeSnappy l'espace de noms contient des classes pour la manipulation de données compressées Snappy. |
-| [Aspose.Zip.Tar](./aspose.zip.tar) | LeTar l'espace de noms contient des classes qui représentent des entités liées à l'archive tar. |
-| [Aspose.Zip.Wim](./aspose.zip.wim) | LeWim l'espace de noms contient des classes qui représentent des entités liées à l'archive WIM. |
-| [Aspose.Zip.Xar](./aspose.zip.xar) | LeXar l'espace de noms contient des classes qui représentent les entités liées à l'archive Xar. |
-| [Aspose.Zip.Xz](./aspose.zip.xz) | LeXz l'espace de noms contient des classes qui représentent des entités liées à l'archive xz. |
-| [Aspose.Zip.Xz.Settings](./aspose.zip.xz.settings) | LeSettings l'espace de noms contient des classes qui représentent les paramètres d'archive xz. |
-| [Aspose.Zip.Z](./aspose.zip.z) | LeZ l'espace de noms contient des classes qui représentent des entités liées à l'archive Z. |
+| [Aspose.Zip](./aspose.zip/) | LeZip l'espace de noms contient des classes qui représentent l'archive zip et les entités liées à l'archive commune. |
+| [Aspose.Zip.ArchiveInfo](./aspose.zip.archiveinfo/) | LeArchiveInfo l'espace de noms contient des classes qui représentent des entités liées aux informations d'archive. |
+| [Aspose.Zip.Bzip2](./aspose.zip.bzip2/) | LeBzip2 l'espace de noms contient des classes qui représentent des entités liées à l'archive bzip2. |
+| [Aspose.Zip.Cab](./aspose.zip.cab/) | LeCab l'espace de noms contient des classes qui représentent des entités liées à l'archive Cab. |
+| [Aspose.Zip.Cpio](./aspose.zip.cpio/) | LeCpio l'espace de noms contient des classes qui représentent des entités liées à l'archive cpio. |
+| [Aspose.Zip.Crypto](./aspose.zip.crypto/) | LeCrypto l'espace de noms contient des classes pour les routines de chiffrement externes. |
+| [Aspose.Zip.Gzip](./aspose.zip.gzip/) | LeGzip l'espace de noms contient des classes qui représentent l'archive gzip. |
+| [Aspose.Zip.Lzip](./aspose.zip.lzip/) | LeLzipl'espace de noms contient des classes qui représentent des entités liées à l'archive lzip. |
+| [Aspose.Zip.LZMA](./aspose.zip.lzma/) | LeLZMAl'espace de noms contient des classes qui représentent les entités liées à l'archive lzma. |
+| [Aspose.Zip.Rar](./aspose.zip.rar/) | LeRarl'espace de noms contient des classes qui représentent des entités liées à l'archive RAR. |
+| [Aspose.Zip.Saving](./aspose.zip.saving/) | LeSaving l'espace de noms contient des classes nécessaires aux opérations impliquant la sauvegarde de l'archive. |
+| [Aspose.Zip.SevenZip](./aspose.zip.sevenzip/) | LeSevenZip l'espace de noms contient des classes qui représentent des entités liées à l'archive 7z. |
+| [Aspose.Zip.Shar](./aspose.zip.shar/) | LeShar l'espace de noms contient des classes qui représentent des entités liées à l'archive shar. |
+| [Aspose.Zip.Snappy](./aspose.zip.snappy/) | LeSnappy l'espace de noms contient des classes pour la manipulation de données compressées Snappy. |
+| [Aspose.Zip.Tar](./aspose.zip.tar/) | LeTarl'espace de noms contient des classes qui représentent des entités liées à l'archive tar. |
+| [Aspose.Zip.Wim](./aspose.zip.wim/) | LeWim l'espace de noms contient des classes qui représentent des entités liées à l'archive WIM. |
+| [Aspose.Zip.Xar](./aspose.zip.xar/) | LeXar l'espace de noms contient des classes qui représentent les entités liées à l'archive Xar. |
+| [Aspose.Zip.Xz](./aspose.zip.xz/) | LeXz l'espace de noms contient des classes qui représentent des entités liées à l'archive xz. |
+| [Aspose.Zip.Xz.Settings](./aspose.zip.xz.settings/) | LeSettingsl'espace de noms contient des classes qui représentent les paramètres d'archive xz. |
+| [Aspose.Zip.Z](./aspose.zip.z/) | LeZ l'espace de noms contient des classes qui représentent des entités liées à l'archive Z. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

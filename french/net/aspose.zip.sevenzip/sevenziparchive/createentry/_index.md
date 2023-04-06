@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: SevenZipArchive.CreateEntry
 second_title: Référence de l'API Aspose.ZIP pour .NET
-description: Créer une entrée unique dans larchive.
+description: SevenZipArchive méthode. Créer une entrée unique dans larchive.
 type: docs
 weight: 50
 url: /fr/net/aspose.zip.sevenzip/sevenziparchive/createentry/
@@ -20,7 +20,7 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | name | String | Le nom de l'entrée. |
 | fileInfo | FileInfo | Les métadonnées du fichier à compresser. |
 | openImmediately | Boolean | Vrai si ouvrir le fichier immédiatement, sinon ouvrir le fichier lors de l'enregistrement de l'archive. |
-| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Objet. |
+| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) article. |
 
 ### Return_Value
 
@@ -62,10 +62,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Voir également
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * Assemblée [Aspose.Zip](../../../)
 
 ---
@@ -83,7 +83,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Le nom de l'entrée. |
 | source | Stream | Le flux d'entrée pour l'entrée. |
-| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Objet. |
+| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) article. |
 | fileInfo | FileSystemInfo | Les métadonnées du fichier ou du dossier à compresser. |
 
 ### Return_Value
@@ -94,7 +94,7 @@ Instance d'entrée SevenZip.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Tous les deux*source* et*fileInfo* sont nuls ou*source* est nul et*fileInfo* signifie répertoire. |
+| InvalidOperationException | Les deux*source* et*fileInfo* sont nuls ou*source*est nul et*fileInfo* signifie répertoire. |
 
 ### Remarques
 
@@ -119,10 +119,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Voir également
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * Assemblée [Aspose.Zip](../../../)
 
 ---
@@ -140,7 +140,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Le nom de l'entrée. |
 | source | Stream | Le flux d'entrée pour l'entrée. |
-| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Objet. |
+| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) article. |
 
 ### Return_Value
 
@@ -160,10 +160,10 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 
 ### Voir également
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * Assemblée [Aspose.Zip](../../../)
 
 ---
@@ -182,7 +182,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | name | String | Le nom de l'entrée. |
 | path | String | Le nom complet du nouveau fichier ou le nom relatif du fichier à compresser. |
 | openImmediately | Boolean | Vrai si ouvrir le fichier immédiatement, sinon ouvrir le fichier lors de l'enregistrement de l'archive. |
-| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Objet. |
+| newEntrySettings | SevenZipEntrySettings | Paramètres de compression et de cryptage utilisés pour les[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) article. |
 
 ### Return_Value
 
@@ -193,8 +193,8 @@ Instance d'entrée de code postal.
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | *path* est nul. |
-| SecurityException | L'appelant n'a pas l'autorisation requise pour accéder |
-| ArgumentException | La*path* est vide, ne contient que des espaces blancs ou contient des caractères non valides. |
+| SecurityException | L'appelant n'a pas l'autorisation requise pour accéder. |
+| ArgumentException | Le*path* est vide, ne contient que des espaces blancs ou contient des caractères non valides. |
 | UnauthorizedAccessException | Accéder au dossier*path* est refusé. |
 | PathTooLongException | Le spécifié*path*, nom de fichier ou les deux dépassent la longueur maximale définie par le système. Par exemple, sur les plates-formes Windows, les chemins doivent comporter moins de 248 caractères et les noms de fichiers doivent comporter moins de 260 caractères. |
 | NotSupportedException | Fichier à*path* contient deux-points (:) au milieu de la chaîne. |
@@ -220,10 +220,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Voir également
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* espace de noms [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * Assemblée [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
