@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: Archive.CreateEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Создать одну запись в архиве.
+description: Archive метод. Создать одну запись в архиве.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip/archive/createentry/
@@ -20,7 +20,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | name | String | Имя записи. |
 | path | String | Полное имя нового файла или относительное имя файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry/) элемент. |
 
 ### Возвращаемое значение
 
@@ -31,7 +31,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
 | ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
 | UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
@@ -58,10 +58,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Смотрите также
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* пространство имен [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* пространство имен [Aspose.Zip](../../archive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
@@ -79,7 +79,7 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry/) элемент. |
 
 ### Возвращаемое значение
 
@@ -97,10 +97,10 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ### Смотрите также
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* пространство имен [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* пространство имен [Aspose.Zip](../../archive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
@@ -119,7 +119,7 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | name | String | Имя записи. |
 | fileInfo | FileInfo | Метаданные файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry/) элемент. |
 
 ### Возвращаемое значение
 
@@ -161,10 +161,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Смотрите также
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* пространство имен [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* пространство имен [Aspose.Zip](../../archive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
@@ -182,7 +182,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry) вещь. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`ArchiveEntry`](../../archiveentry/) элемент. |
 | fileInfo | FileSystemInfo | Метаданные файла или папки для сжатия. |
 
 ### Возвращаемое значение
@@ -193,7 +193,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Оба*source* а также*fileInfo* являются нулевыми или*source* является нулевым и*fileInfo* обозначает каталог. |
+| InvalidOperationException | Оба*source* и*fileInfo* являются нулевыми или*source*является нулевым и*fileInfo* обозначает каталог. |
 
 ### Примечания
 
@@ -218,10 +218,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Смотрите также
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* пространство имен [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* пространство имен [Aspose.Zip](../../archive/)
 * сборка [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

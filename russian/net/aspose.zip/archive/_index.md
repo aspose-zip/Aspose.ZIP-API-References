@@ -1,7 +1,7 @@
 ---
-title: Archive
+title: Class Archive
 second_title: Aspose.ZIP для справочника API .NET
-description: Этот класс представляет файл zipархива. Используйте его для создания извлечения или обновления zipархивов.
+description: Aspose.Zip.Archive сорт. Этот класс представляет файл zipархива. Используйте его для создания извлечения или обновления zipархивов.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/archive/
@@ -11,44 +11,46 @@ url: /ru/net/aspose.zip/archive/
 Этот класс представляет файл zip-архива. Используйте его для создания, извлечения или обновления zip-архивов.
 
 ```csharp
-public class Archive : IDisposable
+public class Archive : IArchive
 ```
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [Archive](archive#constructor)(ArchiveEntrySettings) | Инициализирует новый экземпляр[`Archive`](../archive)класс с необязательными настройками для его записей. |
-| [Archive](archive#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Инициализирует новый экземпляр[`Archive`](../archive) список записей классов и композиций можно извлечь из архива. |
-| [Archive](archive#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Инициализирует новый экземпляр[`Archive`](../archive) список записей классов и композиций можно извлечь из архива. |
+| [Archive](archive/#constructor)(ArchiveEntrySettings) | Инициализирует новый экземпляр`Archive` класс с необязательными настройками для его записей. |
+| [Archive](archive/#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Инициализирует новый экземпляр`Archive` список записей классов и композиций можно извлечь из архива. |
+| [Archive](archive/#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Инициализирует новый экземпляр`Archive` список записей классов и композиций можно извлечь из архива. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Entries](../../aspose.zip/archive/entries) { get; } | Получает записи[`ArchiveEntry`](../archiveentry) тип составляющий архив. |
-| [NewEntrySettings](../../aspose.zip/archive/newentrysettings) { get; } | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../archiveentry) предметы. |
+| [Entries](../../aspose.zip/archive/entries/) { get; } | Получает записи[`ArchiveEntry`](../archiveentry/) тип составляющий архив. |
+| [NewEntrySettings](../../aspose.zip/archive/newentrysettings/) { get; } | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../archiveentry/) предметы. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreateEntries](../../aspose.zip/archive/createentries#createentries)(DirectoryInfo, bool) | Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге. |
-| [CreateEntries](../../aspose.zip/archive/createentries#createentries_1)(string, bool) | Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry_1)(string, Stream, ArchiveEntrySettings) | Создать одну запись в архиве. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry)(string, FileInfo, bool, ArchiveEntrySettings) | Создать одну запись в архиве. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry_2)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Создать одну запись в архиве. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry_3)(string, string, bool, ArchiveEntrySettings) | Создать одну запись в архиве. |
-| [DeleteEntry](../../aspose.zip/archive/deleteentry#deleteentry)(ArchiveEntry) | Удаляет первое вхождение определенной записи из списка записей. |
-| [DeleteEntry](../../aspose.zip/archive/deleteentry#deleteentry_1)(int) | Удаляет запись из списка записей по индексу. |
-| [Dispose](../../aspose.zip/archive/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
-| [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory)(string) | Извлекает все файлы из архива в указанный каталог. |
-| [Save](../../aspose.zip/archive/save#save)(Stream, ArchiveSaveOptions) | Сохраняет архив в указанный поток. |
-| [Save](../../aspose.zip/archive/save#save_1)(string, ArchiveSaveOptions) | Сохраняет архив в указанный файл назначения. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries)(DirectoryInfo, bool) | Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries_1)(string, bool) | Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_1)(string, Stream, ArchiveEntrySettings) | Создать одну запись в архиве. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry)(string, FileInfo, bool, ArchiveEntrySettings) | Создать одну запись в архиве. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_2)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Создать одну запись в архиве. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_3)(string, string, bool, ArchiveEntrySettings) | Создать одну запись в архиве. |
+| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry)(ArchiveEntry) | Удаляет первое вхождение определенной записи из списка записей. |
+| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry_1)(int) | Удаляет запись из списка записей по индексу. |
+| [Dispose](../../aspose.zip/archive/dispose/)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory/)(string) | Извлекает все файлы из архива в указанный каталог. |
+| [Save](../../aspose.zip/archive/save/#save)(Stream, ArchiveSaveOptions) | Сохраняет архив в указанный поток. |
+| [Save](../../aspose.zip/archive/save/#save_1)(string, ArchiveSaveOptions) | Сохраняет архив в указанный файл назначения. |
+| [SaveSplit](../../aspose.zip/archive/savesplit/)(string, SplitArchiveSaveOptions) | Сохраняет многотомный архив в указанный каталог назначения. |
 
 ### Смотрите также
 
-* пространство имен [Aspose.Zip](../../aspose.zip)
+* interface [IArchive](../iarchive/)
+* пространство имен [Aspose.Zip](../../aspose.zip/)
 * сборка [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

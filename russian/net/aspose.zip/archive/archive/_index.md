@@ -1,14 +1,14 @@
 ---
-title: Archive
+title: Archive.Archive
 second_title: Aspose.ZIP для справочника API .NET
-description: Инициализирует новый экземплярArchiveaspose.zip/archiveкласс с необязательными настройками для его записей.
+description: Archive строитель. Инициализирует новый экземплярArchive класс с необязательными настройками для его записей.
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-Инициализирует новый экземпляр[`Archive`](../../archive)класс с необязательными настройками для его записей.
+Инициализирует новый экземпляр[`Archive`](../) класс с необязательными настройками для его записей.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,7 +16,7 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry)items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry/) items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
 
 ### Примеры
 
@@ -35,16 +35,16 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Смотрите также
 
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* пространство имен [Aspose.Zip](../../archive)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* пространство имен [Aspose.Zip](../../archive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-Инициализирует новый экземпляр[`Archive`](../../archive) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр[`Archive`](../) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -55,7 +55,7 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | sourceStream | Stream | Источник архива. |
 | loadOptions | ArchiveLoadOptions | Опции для загрузки существующего архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry)items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry/) items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
 
 ### Исключения
 
@@ -66,7 +66,7 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 
 ### Примечания
 
-Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open) метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open/) метод распаковки.
 
 ### Примеры
 
@@ -89,17 +89,17 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ### Смотрите также
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* пространство имен [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* пространство имен [Aspose.Zip](../../archive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-Инициализирует новый экземпляр[`Archive`](../../archive) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр[`Archive`](../) список записей классов и композиций можно извлечь из архива.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -110,14 +110,14 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | path | String | Полный или относительный путь к файлу архива. |
 | loadOptions | ArchiveLoadOptions | Опции для загрузки существующего архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry)items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry/) items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
 | ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
 | UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
@@ -125,7 +125,7 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 
 ### Примечания
 
-Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open) метод распаковки.
+Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open/) метод распаковки.
 
 ### Примеры
 
@@ -147,10 +147,10 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 
 ### Смотрите также
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* пространство имен [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* пространство имен [Aspose.Zip](../../archive/)
 * сборка [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
