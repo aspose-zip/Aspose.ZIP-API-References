@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: SevenZipArchive.CreateEntry
 second_title: Aspose.ZIP för .NET API-referens
-description: Skapa en enskild post i arkivet.
+description: SevenZipArchive metod. Skapa en enskild post i arkivet.
 type: docs
 weight: 50
 url: /sv/net/aspose.zip.sevenzip/sevenziparchive/createentry/
@@ -20,7 +20,7 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | name | String | Namnet på posten. |
 | fileInfo | FileInfo | Metadata för filen som ska komprimeras. |
 | openImmediately | Boolean | Sant om du öppnar filen omedelbart, annars öppnar du filen när du sparar arkivet. |
-| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Artikel. |
+| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) Artikel. |
 
 ### Returvärde
 
@@ -62,10 +62,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Se även
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * hopsättning [Aspose.Zip](../../../)
 
 ---
@@ -83,7 +83,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Namnet på posten. |
 | source | Stream | Ingångsströmmen för posten. |
-| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Artikel. |
+| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) Artikel. |
 | fileInfo | FileSystemInfo | Metadata för fil eller mapp som ska komprimeras. |
 
 ### Returvärde
@@ -94,7 +94,7 @@ SevenZip-inträdesinstans.
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Både*source* och*fileInfo* är null eller*source* är null och*fileInfo* står för katalog. |
+| InvalidOperationException | Både*source* och*fileInfo* är null eller*source*är null och*fileInfo* står för katalog. |
 
 ### Anmärkningar
 
@@ -119,10 +119,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Se även
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * hopsättning [Aspose.Zip](../../../)
 
 ---
@@ -140,7 +140,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Namnet på posten. |
 | source | Stream | Ingångsströmmen för posten. |
-| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Artikel. |
+| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) Artikel. |
 
 ### Returvärde
 
@@ -160,10 +160,10 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 
 ### Se även
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * hopsättning [Aspose.Zip](../../../)
 
 ---
@@ -182,7 +182,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | name | String | Namnet på posten. |
 | path | String | Det fullständiga namnet på den nya filen, eller det relativa filnamnet som ska komprimeras. |
 | openImmediately | Boolean | Sant om du öppnar filen omedelbart, annars öppnar du filen när du sparar arkivet. |
-| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry) Artikel. |
+| newEntrySettings | SevenZipEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) Artikel. |
 
 ### Returvärde
 
@@ -193,7 +193,7 @@ Zip-inträdesinstans.
 | undantag | skick |
 | --- | --- |
 | ArgumentNullException | *path* är inget. |
-| SecurityException | Den som ringer har inte den behörighet som krävs för att få åtkomst |
+| SecurityException | Den som ringer har inte den behörighet som krävs för att få åtkomst. |
 | ArgumentException | De*path* är tom, innehåller bara blanksteg eller innehåller ogiltiga tecken. |
 | UnauthorizedAccessException | Tillgång till fil*path* är nekad. |
 | PathTooLongException | Den angivna*path*, filnamn eller båda överskrider den systemdefinierade maximala längden. Till exempel, på Windows-baserade plattformar måste sökvägar vara mindre än 248 tecken och filnamn måste vara mindre än 260 tecken. |
@@ -220,10 +220,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Se även
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namnutrymme [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * hopsättning [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

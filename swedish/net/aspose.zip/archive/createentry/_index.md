@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: Archive.CreateEntry
 second_title: Aspose.ZIP för .NET API-referens
-description: Skapa en enskild post i arkivet.
+description: Archive metod. Skapa en enskild post i arkivet.
 type: docs
 weight: 50
 url: /sv/net/aspose.zip/archive/createentry/
@@ -20,7 +20,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | name | String | Namnet på posten. |
 | path | String | Det fullständiga namnet på den nya filen, eller det relativa filnamnet som ska komprimeras. |
 | openImmediately | Boolean | Sant om du öppnar filen omedelbart, annars öppnar du filen när du sparar arkivet. |
-| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry/) Artikel. |
 
 ### Returvärde
 
@@ -31,7 +31,7 @@ Zip-inträdesinstans.
 | undantag | skick |
 | --- | --- |
 | ArgumentNullException | *path* är inget. |
-| SecurityException | Den som ringer har inte den behörighet som krävs för att få åtkomst |
+| SecurityException | Den som ringer har inte den behörighet som krävs för att få åtkomst. |
 | ArgumentException | De*path* är tom, innehåller bara blanksteg eller innehåller ogiltiga tecken. |
 | UnauthorizedAccessException | Tillgång till fil*path* är nekad. |
 | PathTooLongException | Den angivna*path*, filnamn eller båda överskrider den systemdefinierade maximala längden. Till exempel, på Windows-baserade plattformar måste sökvägar vara mindre än 248 tecken och filnamn måste vara mindre än 260 tecken. |
@@ -58,10 +58,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Se även
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namnutrymme [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namnutrymme [Aspose.Zip](../../archive/)
 * hopsättning [Aspose.Zip](../../../)
 
 ---
@@ -79,7 +79,7 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Namnet på posten. |
 | source | Stream | Ingångsströmmen för posten. |
-| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry/) Artikel. |
 
 ### Returvärde
 
@@ -97,10 +97,10 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ### Se även
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namnutrymme [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namnutrymme [Aspose.Zip](../../archive/)
 * hopsättning [Aspose.Zip](../../../)
 
 ---
@@ -119,7 +119,7 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | name | String | Namnet på posten. |
 | fileInfo | FileInfo | Metadata för filen som ska komprimeras. |
 | openImmediately | Boolean | Sant om du öppnar filen omedelbart, annars öppnar du filen när du sparar arkivet. |
-| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry/) Artikel. |
 
 ### Returvärde
 
@@ -161,10 +161,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Se även
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namnutrymme [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namnutrymme [Aspose.Zip](../../archive/)
 * hopsättning [Aspose.Zip](../../../)
 
 ---
@@ -182,7 +182,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | --- | --- | --- |
 | name | String | Namnet på posten. |
 | source | Stream | Ingångsströmmen för posten. |
-| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimerings- och krypteringsinställningar som används för att lägga till[`ArchiveEntry`](../../archiveentry/) Artikel. |
 | fileInfo | FileSystemInfo | Metadata för fil eller mapp som ska komprimeras. |
 
 ### Returvärde
@@ -193,7 +193,7 @@ Zip-inträdesinstans.
 
 | undantag | skick |
 | --- | --- |
-| InvalidOperationException | Både*source* och*fileInfo* är null eller*source* är null och*fileInfo* står för katalog. |
+| InvalidOperationException | Både*source* och*fileInfo* är null eller*source*är null och*fileInfo* står för katalog. |
 
 ### Anmärkningar
 
@@ -218,10 +218,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Se även
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namnutrymme [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namnutrymme [Aspose.Zip](../../archive/)
 * hopsättning [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
