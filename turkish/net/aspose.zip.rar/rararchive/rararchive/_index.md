@@ -1,14 +1,14 @@
 ---
-title: RarArchive
+title: RarArchive.RarArchive
 second_title: Aspose.ZIP for .NET API Referansı
-description: Yeni bir örneğini başlatırRarArchiveaspose.zip.rar/rararchive sınıf ve oluşturur girdiler listesi arşivden çıkarılabilir.
+description: RarArchive inşaatçı. Yeni bir örneğini başlatır.RarArchive class ve composes girişleri listesi arşivden çıkarılabilir.
 type: docs
 weight: 10
 url: /tr/net/aspose.zip.rar/rararchive/rararchive/
 ---
 ## RarArchive(string, RarArchiveLoadOptions) {#constructor_1}
 
-Yeni bir örneğini başlatır[`RarArchive`](../../rararchive) sınıf ve oluşturur girdiler listesi arşivden çıkarılabilir.
+Yeni bir örneğini başlatır.[`RarArchive`](../) class ve composes girişleri listesi arşivden çıkarılabilir.
 
 ```csharp
 public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
@@ -17,26 +17,26 @@ public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | path | String | Arşiv dosyasının tam veya göreli yolu. |
-| loadOptions | RarArchiveLoadOptions | Mevcut arşivi yükleme seçenekleri. |
+| loadOptions | RarArchiveLoadOptions | Mevcut arşivi yüklemek için seçenekler. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
 | ArgumentNullException | *path* boş. |
-| SecurityException | Arayan, erişim için gerekli izne sahip değil |
-| ArgumentException | bu*path* boş, yalnızca boşluk içeriyor veya geçersiz karakterler içeriyor. |
-| UnauthorizedAccessException | Dosyaya erişim*path* engellendi. |
-| PathTooLongException | Belirtilmiş*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden ve dosya adları 260 karakterden az olmalıdır. |
-| NotSupportedException | Dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
+| SecurityException | Arayan, erişim için gerekli izne sahip değil. |
+| ArgumentException | bu*path* boş, yalnızca beyaz boşluklar içeriyor veya geçersiz karakterler içeriyor. |
+| UnauthorizedAccessException | dosyaya erişim*path* engellendi. |
+| PathTooLongException | Belirtilen*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden, dosya adları ise 260 karakterden kısa olmalıdır. |
+| NotSupportedException | dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
 
 ### Notlar
 
-Bu kurucu herhangi bir girdiyi açmaz. Görmek[`Open`](../../rararchiveentry/open) sıkıştırmayı açma yöntemi.
+Bu yapıcı herhangi bir girdiyi açmaz. Görmek[`Open`](../../rararchiveentry/open/) açma yöntemi.
 
 ### Örnekler
 
-Aşağıdaki örnek, bir arşivi çıkarır, ardından ilk girişi bir arşive açar.`MemoryStream`.
+Aşağıdaki örnek, bir arşivi ayıklayın, ardından ilk girdiyi sıkıştırılmış bir dosyaya açın.`Bellek Akışı`.
 
 ```csharp
 var extracted = new MemoryStream();
@@ -54,16 +54,16 @@ using (RarArchive archive = new RarArchive("data.rar"))
 
 ### Ayrıca bakınız
 
-* class [RarArchiveLoadOptions](../../rararchiveloadoptions)
-* class [RarArchive](../../rararchive)
-* ad alanı [Aspose.Zip.Rar](../../rararchive)
+* class [RarArchiveLoadOptions](../../rararchiveloadoptions/)
+* class [RarArchive](../)
+* ad alanı [Aspose.Zip.Rar](../../rararchive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## RarArchive(Stream, RarArchiveLoadOptions) {#constructor}
 
-Yeni bir örneğini başlatır[`RarArchive`](../../rararchive) sınıf ve oluşturur girdiler listesi arşivden çıkarılabilir.
+Yeni bir örneğini başlatır.[`RarArchive`](../) class ve composes girişleri listesi arşivden çıkarılabilir.
 
 ```csharp
 public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
@@ -72,7 +72,7 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | sourceStream | Stream | Arşivin kaynağı. |
-| loadOptions | RarArchiveLoadOptions | Mevcut arşivi yükleme seçenekleri. |
+| loadOptions | RarArchiveLoadOptions | Mevcut arşivi yüklemek için seçenekler. |
 
 ### istisnalar
 
@@ -84,11 +84,11 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 
 ### Notlar
 
-Bu kurucu herhangi bir girdiyi açmaz. Görmek[`Open`](../../rararchiveentry/open) sıkıştırmayı açma yöntemi.
+Bu yapıcı herhangi bir girdiyi açmaz. Görmek[`Open`](../../rararchiveentry/open/) açma yöntemi.
 
 ### Örnekler
 
-Aşağıdaki örnek, bir girişe ilk girişi deşifre eder ve sıkıştırır.`MemoryStream`.
+Aşağıdaki örnek, bir dosyaya ilk girişi deşifre eder ve açar.`Bellek Akışı`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.rar");
@@ -107,9 +107,9 @@ using (RarArchive archive = new RarArchive(fs, new RarArchiveLoadOptions() { Dec
 
 ### Ayrıca bakınız
 
-* class [RarArchiveLoadOptions](../../rararchiveloadoptions)
-* class [RarArchive](../../rararchive)
-* ad alanı [Aspose.Zip.Rar](../../rararchive)
+* class [RarArchiveLoadOptions](../../rararchiveloadoptions/)
+* class [RarArchive](../)
+* ad alanı [Aspose.Zip.Rar](../../rararchive/)
 * toplantı [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

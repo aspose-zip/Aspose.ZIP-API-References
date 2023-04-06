@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive
+title: SevenZipArchive.SevenZipArchive
 second_title: Aspose.ZIP for .NET API Referansı
-description: Yeni bir örneğini başlatırSevenZipArchiveaspose.zip.sevenzip/sevenziparchivegirişleri için isteğe bağlı ayarlara sahip sınıf.
+description: SevenZipArchive inşaatçı. Yeni bir örneğini başlatır.SevenZipArchive girişleri için isteğe bağlı ayarlara sahip sınıf.
 type: docs
 weight: 10
 url: /tr/net/aspose.zip.sevenzip/sevenziparchive/sevenziparchive/
 ---
 ## SevenZipArchive(SevenZipEntrySettings) {#constructor}
 
-Yeni bir örneğini başlatır[`SevenZipArchive`](../../sevenziparchive)girişleri için isteğe bağlı ayarlara sahip sınıf.
+Yeni bir örneğini başlatır.[`SevenZipArchive`](../) girişleri için isteğe bağlı ayarlara sahip sınıf.
 
 ```csharp
 public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
@@ -16,11 +16,11 @@ public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| newEntrySettings | SevenZipEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. Belirtilmezse, şifrelemesiz LZMA sıkıştırması kullanılacaktır. |
+| newEntrySettings | SevenZipEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) items. Belirtilmezse, şifrelemesiz LZMA sıkıştırması kullanılır. |
 
 ### Örnekler
 
-Aşağıdaki örnek, varsayılan ayarlarla tek bir dosyanın nasıl sıkıştırılacağını gösterir: Şifrelemesiz LZMA sıkıştırması.
+Aşağıdaki örnek, tek bir dosyanın varsayılan ayarlarla nasıl sıkıştırılacağını gösterir: Şifrelemesiz LZMA sıkıştırma.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -35,16 +35,16 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Ayrıca bakınız
 
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* ad alanı [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* ad alanı [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipArchive(Stream) {#constructor_1}
 
-Yeni bir örneğini başlatır[`SevenZipArchive`](../../sevenziparchive) sınıf ve oluşturur girdiler listesi arşivden çıkarılabilir.
+Yeni bir örneğini başlatır.[`SevenZipArchive`](../) class ve composes girişleri listesi arşivden çıkarılabilir.
 
 ```csharp
 public SevenZipArchive(Stream sourceStream)
@@ -60,11 +60,11 @@ public SevenZipArchive(Stream sourceStream)
 | --- | --- |
 | ArgumentException | *sourceStream* aranmaz. |
 | ArgumentNullException | *sourceStream* boş. |
-| NotImplementedException | Arşiv birden fazla kodlayıcı içeriyor. Artık yalnızca LZMA sıkıştırması destekleniyor. |
+| NotImplementedException | Arşiv birden fazla kodlayıcı içeriyor. Artık yalnızca LZMA sıkıştırması desteklenmektedir. |
 
 ### Notlar
 
-Bu kurucu herhangi bir girdiyi açmaz. Görmek[`ExtractToDirectory`](../extracttodirectory) sıkıştırmayı açma yöntemi.
+Bu yapıcı herhangi bir girdiyi açmaz. Görmek[`ExtractToDirectory`](../extracttodirectory/) açma yöntemi.
 
 ### Örnekler
 
@@ -77,15 +77,15 @@ using (SevenZipArchive archive = new SevenZipArchive(File.OpenRead("archive.7z")
 
 ### Ayrıca bakınız
 
-* class [SevenZipArchive](../../sevenziparchive)
-* ad alanı [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchive](../)
+* ad alanı [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipArchive(string) {#constructor_2}
 
-Yeni bir örneğini başlatır[`SevenZipArchive`](../../sevenziparchive) sınıf ve oluşturur girdiler listesi arşivden çıkarılabilir.
+Yeni bir örneğini başlatır.[`SevenZipArchive`](../) class ve composes girişleri listesi arşivden çıkarılabilir.
 
 ```csharp
 public SevenZipArchive(string path)
@@ -100,15 +100,15 @@ public SevenZipArchive(string path)
 | istisna | şart |
 | --- | --- |
 | ArgumentNullException | *path* boş. |
-| SecurityException | Arayan, erişim için gerekli izne sahip değil |
-| ArgumentException | bu*path* boş, yalnızca boşluk içeriyor veya geçersiz karakterler içeriyor. |
-| UnauthorizedAccessException | Dosyaya erişim*path* engellendi. |
-| PathTooLongException | Belirtilmiş*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden ve dosya adları 260 karakterden az olmalıdır. |
-| NotSupportedException | Dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
+| SecurityException | Arayan, erişim için gerekli izne sahip değil. |
+| ArgumentException | bu*path* boş, yalnızca beyaz boşluklar içeriyor veya geçersiz karakterler içeriyor. |
+| UnauthorizedAccessException | dosyaya erişim*path* engellendi. |
+| PathTooLongException | Belirtilen*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden, dosya adları ise 260 karakterden kısa olmalıdır. |
+| NotSupportedException | dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
 
 ### Notlar
 
-Bu kurucu herhangi bir girdiyi açmaz. Görmek[`ExtractToDirectory`](../extracttodirectory) sıkıştırmayı açma yöntemi.
+Bu yapıcı herhangi bir girdiyi açmaz. Görmek[`ExtractToDirectory`](../extracttodirectory/) açma yöntemi.
 
 ### Örnekler
 
@@ -121,8 +121,8 @@ using (SevenZipArchive archive = new SevenZipArchive("archive.7z"))
 
 ### Ayrıca bakınız
 
-* class [SevenZipArchive](../../sevenziparchive)
-* ad alanı [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchive](../)
+* ad alanı [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * toplantı [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
