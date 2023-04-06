@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: Archive.CreateEntry
 second_title: Aspose.ZIP für .NET-API-Referenz
-description: Einzelner Eintrag im Archiv erstellen.
+description: Archive methode. Einzelner Eintrag im Archiv erstellen.
 type: docs
 weight: 50
 url: /de/net/aspose.zip/archive/createentry/
@@ -20,7 +20,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | name | String | Der Name des Eintrags. |
 | path | String | Der vollständig qualifizierte Name der neuen Datei oder der relative Dateiname, der komprimiert werden soll. |
 | openImmediately | Boolean | Wahr, wenn die Datei sofort geöffnet wird, andernfalls die Datei beim Archivspeichern öffnen. |
-| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry/) Artikel. |
 
 ### Rückgabewert
 
@@ -31,15 +31,15 @@ Zip-Eintragsinstanz.
 | Ausnahme | Bedingung |
 | --- | --- |
 | ArgumentNullException | *path* ist Null. |
-| SecurityException | Der Anrufer verfügt nicht über die erforderliche Zugriffsberechtigung |
-| ArgumentException | Das*path* leer ist, nur Leerzeichen enthält oder ungültige Zeichen enthält. |
+| SecurityException | Der Anrufer verfügt nicht über die erforderliche Zugriffsberechtigung. |
+| ArgumentException | Der*path* leer ist, nur Leerzeichen enthält oder ungültige Zeichen enthält. |
 | UnauthorizedAccessException | Zugriff auf Datei*path* ist abgelehnt. |
 | PathTooLongException | Die angegebene*path*, Dateiname oder beide überschreiten die vom System definierte maximale Länge. Beispielsweise müssen auf Windows-basierten Plattformen Pfade weniger als 248 Zeichen und Dateinamen weniger als 260 Zeichen umfassen. |
 | NotSupportedException | Datei unter*path* enthält einen Doppelpunkt (:) in der Mitte der Zeichenfolge. |
 
 ### Bemerkungen
 
-Der Eintragsname wird ausschließlich innerhalb festgelegt*name* Parameter. Der Dateiname, der in bereitgestellt wird*path* Parameter wirkt sich nicht auf den Eintragsnamen aus.
+Der Eintragsname wird ausschließlich innerhalb gesetzt*name* Parameter. Der Dateiname, der in bereitgestellt wird*path* Parameter wirkt sich nicht auf den Eintragsnamen aus.
 
 Wird die Datei sofort mit geöffnet*openImmediately* Parameter wird es gesperrt, bis das Archiv gespeichert wird.
 
@@ -58,10 +58,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Siehe auch
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namensraum [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namensraum [Aspose.Zip](../../archive/)
 * Montage [Aspose.Zip](../../../)
 
 ---
@@ -79,7 +79,7 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Der Name des Eintrags. |
 | source | Stream | Der Eingabestream für den Eintrag. |
-| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry/) Artikel. |
 
 ### Rückgabewert
 
@@ -97,10 +97,10 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ### Siehe auch
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namensraum [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namensraum [Aspose.Zip](../../archive/)
 * Montage [Aspose.Zip](../../../)
 
 ---
@@ -119,7 +119,7 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | name | String | Der Name des Eintrags. |
 | fileInfo | FileInfo | Die Metadaten der zu komprimierenden Datei. |
 | openImmediately | Boolean | Wahr, wenn die Datei sofort geöffnet wird, andernfalls die Datei beim Archivspeichern öffnen. |
-| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry/) Artikel. |
 
 ### Rückgabewert
 
@@ -135,7 +135,7 @@ Zip-Eintragsinstanz.
 
 ### Bemerkungen
 
-Der Eintragsname wird ausschließlich innerhalb festgelegt*name* Parameter. Der Dateiname, der in bereitgestellt wird*fileInfo* Parameter wirkt sich nicht auf den Eintragsnamen aus.
+Der Eintragsname wird ausschließlich innerhalb gesetzt*name* Parameter. Der Dateiname, der in bereitgestellt wird*fileInfo* Parameter wirkt sich nicht auf den Eintragsnamen aus.
 
 Wird die Datei sofort mit geöffnet*openImmediately* Parameter wird es gesperrt, bis das Archiv gespeichert wird.
 
@@ -161,10 +161,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Siehe auch
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namensraum [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namensraum [Aspose.Zip](../../archive/)
 * Montage [Aspose.Zip](../../../)
 
 ---
@@ -182,7 +182,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | --- | --- | --- |
 | name | String | Der Name des Eintrags. |
 | source | Stream | Der Eingabestream für den Eintrag. |
-| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry) Artikel. |
+| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen für hinzugefügt[`ArchiveEntry`](../../archiveentry/) Artikel. |
 | fileInfo | FileSystemInfo | Die Metadaten der zu komprimierenden Datei oder des Ordners. |
 
 ### Rückgabewert
@@ -193,11 +193,11 @@ Zip-Eintragsinstanz.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Beide*source* und*fileInfo* sind null oder*source* ist null und*fileInfo* steht für Verzeichnis. |
+| InvalidOperationException | Beide*source* Und*fileInfo* sind null oder*source*ist null und*fileInfo* steht für Verzeichnis. |
 
 ### Bemerkungen
 
-Der Eintragsname wird ausschließlich innerhalb festgelegt*name* Parameter. Der Dateiname, der in bereitgestellt wird*fileInfo* Parameter wirkt sich nicht auf den Eintragsnamen aus.
+Der Eintragsname wird ausschließlich innerhalb gesetzt*name* Parameter. Der Dateiname, der in bereitgestellt wird*fileInfo* Parameter wirkt sich nicht auf den Eintragsnamen aus.
 
 *fileInfo* verweisen kannDirectoryInfo wenn der Eintrag Verzeichnis ist.
 
@@ -218,10 +218,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Siehe auch
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namensraum [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namensraum [Aspose.Zip](../../archive/)
 * Montage [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: Archive
+title: Class Archive
 second_title: Aspose.ZIP für .NET-API-Referenz
-description: Diese Klasse repräsentiert eine ZIPArchivdatei. Verwenden Sie es zum Erstellen Extrahieren oder Aktualisieren von ZipArchiven.
+description: Aspose.Zip.Archive klas. Diese Klasse repräsentiert eine ZIPArchivdatei. Verwenden Sie es zum Erstellen Extrahieren oder Aktualisieren von ZipArchiven.
 type: docs
 weight: 10
 url: /de/net/aspose.zip/archive/
@@ -11,44 +11,46 @@ url: /de/net/aspose.zip/archive/
 Diese Klasse repräsentiert eine ZIP-Archivdatei. Verwenden Sie es zum Erstellen, Extrahieren oder Aktualisieren von Zip-Archiven.
 
 ```csharp
-public class Archive : IDisposable
+public class Archive : IArchive
 ```
 
 ## Konstrukteure
 
 | Name | Beschreibung |
 | --- | --- |
-| [Archive](archive#constructor)(ArchiveEntrySettings) | Initialisiert eine neue Instanz von[`Archive`](../archive)Klasse mit optionalen Einstellungen für ihre Einträge. |
-| [Archive](archive#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Initialisiert eine neue Instanz von[`Archive`](../archive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
-| [Archive](archive#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Initialisiert eine neue Instanz von[`Archive`](../archive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
+| [Archive](archive/#constructor)(ArchiveEntrySettings) | Initialisiert eine neue Instanz von`Archive` Klasse mit optionalen Einstellungen für ihre Einträge. |
+| [Archive](archive/#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Initialisiert eine neue Instanz von`Archive` Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
+| [Archive](archive/#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Initialisiert eine neue Instanz von`Archive` Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Entries](../../aspose.zip/archive/entries) { get; } | Ruft Einträge von ab[`ArchiveEntry`](../archiveentry) Typ, der das Archiv bildet. |
-| [NewEntrySettings](../../aspose.zip/archive/newentrysettings) { get; } | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../archiveentry) Artikel. |
+| [Entries](../../aspose.zip/archive/entries/) { get; } | Ruft Einträge von ab[`ArchiveEntry`](../archiveentry/) Typ, der das Archiv bildet. |
+| [NewEntrySettings](../../aspose.zip/archive/newentrysettings/) { get; } | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../archiveentry/) Artikel. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateEntries](../../aspose.zip/archive/createentries#createentries)(DirectoryInfo, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
-| [CreateEntries](../../aspose.zip/archive/createentries#createentries_1)(string, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry_1)(string, Stream, ArchiveEntrySettings) | Einzelner Eintrag im Archiv erstellen. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry)(string, FileInfo, bool, ArchiveEntrySettings) | Einzelner Eintrag im Archiv erstellen. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry_2)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Einzelner Eintrag im Archiv erstellen. |
-| [CreateEntry](../../aspose.zip/archive/createentry#createentry_3)(string, string, bool, ArchiveEntrySettings) | Einzelner Eintrag im Archiv erstellen. |
-| [DeleteEntry](../../aspose.zip/archive/deleteentry#deleteentry)(ArchiveEntry) | Entfernt das erste Vorkommen eines bestimmten Eintrags aus der Eintragsliste. |
-| [DeleteEntry](../../aspose.zip/archive/deleteentry#deleteentry_1)(int) | Entfernt den Eintrag aus der Eintragsliste nach Index. |
-| [Dispose](../../aspose.zip/archive/dispose)() | Führt anwendungsdefinierte Aufgaben aus, die mit dem Freigeben, Freigeben oder Zurücksetzen nicht verwalteter Ressourcen verbunden sind. |
-| [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory)(string) | Extrahiert alle Dateien im Archiv in das angegebene Verzeichnis. |
-| [Save](../../aspose.zip/archive/save#save)(Stream, ArchiveSaveOptions) | Speichert das Archiv im bereitgestellten Stream. |
-| [Save](../../aspose.zip/archive/save#save_1)(string, ArchiveSaveOptions) | Speichert das Archiv in der bereitgestellten Zieldatei. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries)(DirectoryInfo, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries_1)(string, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_1)(string, Stream, ArchiveEntrySettings) | Einzelner Eintrag im Archiv erstellen. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry)(string, FileInfo, bool, ArchiveEntrySettings) | Einzelner Eintrag im Archiv erstellen. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_2)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Einzelner Eintrag im Archiv erstellen. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_3)(string, string, bool, ArchiveEntrySettings) | Einzelner Eintrag im Archiv erstellen. |
+| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry)(ArchiveEntry) | Entfernt das erste Vorkommen eines bestimmten Eintrags aus der Eintragsliste. |
+| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry_1)(int) | Entfernt den Eintrag aus der Eintragsliste nach Index. |
+| [Dispose](../../aspose.zip/archive/dispose/)() | Führt anwendungsdefinierte Aufgaben aus, die mit dem Freigeben, Freigeben oder Zurücksetzen nicht verwalteter Ressourcen verbunden sind. |
+| [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory/)(string) | Extrahiert alle Dateien im Archiv in das angegebene Verzeichnis. |
+| [Save](../../aspose.zip/archive/save/#save)(Stream, ArchiveSaveOptions) | Speichert das Archiv im bereitgestellten Stream. |
+| [Save](../../aspose.zip/archive/save/#save_1)(string, ArchiveSaveOptions) | Speichert das Archiv in der bereitgestellten Zieldatei. |
+| [SaveSplit](../../aspose.zip/archive/savesplit/)(string, SplitArchiveSaveOptions) | Speichert mehrvolumiges Archiv im angegebenen Zielverzeichnis. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Zip](../../aspose.zip)
+* interface [IArchive](../iarchive/)
+* namensraum [Aspose.Zip](../../aspose.zip/)
 * Montage [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

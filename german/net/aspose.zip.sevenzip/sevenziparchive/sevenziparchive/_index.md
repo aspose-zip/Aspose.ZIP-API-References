@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive
+title: SevenZipArchive.SevenZipArchive
 second_title: Aspose.ZIP für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonSevenZipArchiveaspose.zip.sevenzip/sevenziparchiveKlasse mit optionalen Einstellungen für ihre Einträge.
+description: SevenZipArchive constructeur. Initialisiert eine neue Instanz vonSevenZipArchive Klasse mit optionalen Einstellungen für ihre Einträge.
 type: docs
 weight: 10
 url: /de/net/aspose.zip.sevenzip/sevenziparchive/sevenziparchive/
 ---
 ## SevenZipArchive(SevenZipEntrySettings) {#constructor}
 
-Initialisiert eine neue Instanz von[`SevenZipArchive`](../../sevenziparchive)Klasse mit optionalen Einstellungen für ihre Einträge.
+Initialisiert eine neue Instanz von[`SevenZipArchive`](../) Klasse mit optionalen Einstellungen für ihre Einträge.
 
 ```csharp
 public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
@@ -16,7 +16,7 @@ public SevenZipArchive(SevenZipEntrySettings newEntrySettings = null)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| newEntrySettings | SevenZipEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`SevenZipArchiveEntry`](../../sevenziparchiveentry) items. Wenn nicht angegeben, wird LZMA-Komprimierung ohne Verschlüsselung verwendet. |
+| newEntrySettings | SevenZipEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) items. Wenn nicht angegeben, wird LZMA-Komprimierung ohne Verschlüsselung verwendet. |
 
 ### Beispiele
 
@@ -35,16 +35,16 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Siehe auch
 
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* namensraum [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namensraum [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * Montage [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipArchive(Stream) {#constructor_1}
 
-Initialisiert eine neue Instanz von[`SevenZipArchive`](../../sevenziparchive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
+Initialisiert eine neue Instanz von[`SevenZipArchive`](../) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
 
 ```csharp
 public SevenZipArchive(Stream sourceStream)
@@ -64,7 +64,7 @@ public SevenZipArchive(Stream sourceStream)
 
 ### Bemerkungen
 
-Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`ExtractToDirectory`](../extracttodirectory) Methode zum Dekomprimieren.
+Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`ExtractToDirectory`](../extracttodirectory/) Methode zum Dekomprimieren.
 
 ### Beispiele
 
@@ -77,15 +77,15 @@ using (SevenZipArchive archive = new SevenZipArchive(File.OpenRead("archive.7z")
 
 ### Siehe auch
 
-* class [SevenZipArchive](../../sevenziparchive)
-* namensraum [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchive](../)
+* namensraum [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * Montage [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipArchive(string) {#constructor_2}
 
-Initialisiert eine neue Instanz von[`SevenZipArchive`](../../sevenziparchive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
+Initialisiert eine neue Instanz von[`SevenZipArchive`](../) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
 
 ```csharp
 public SevenZipArchive(string path)
@@ -100,15 +100,15 @@ public SevenZipArchive(string path)
 | Ausnahme | Bedingung |
 | --- | --- |
 | ArgumentNullException | *path* ist Null. |
-| SecurityException | Der Anrufer verfügt nicht über die erforderliche Zugriffsberechtigung |
-| ArgumentException | Das*path* leer ist, nur Leerzeichen enthält oder ungültige Zeichen enthält. |
+| SecurityException | Der Anrufer verfügt nicht über die erforderliche Zugriffsberechtigung. |
+| ArgumentException | Der*path* leer ist, nur Leerzeichen enthält oder ungültige Zeichen enthält. |
 | UnauthorizedAccessException | Zugriff auf Datei*path* ist abgelehnt. |
 | PathTooLongException | Die angegebene*path*, Dateiname oder beide überschreiten die vom System definierte maximale Länge. Beispielsweise müssen auf Windows-basierten Plattformen Pfade weniger als 248 Zeichen und Dateinamen weniger als 260 Zeichen umfassen. |
 | NotSupportedException | Datei unter*path* enthält einen Doppelpunkt (:) in der Mitte der Zeichenfolge. |
 
 ### Bemerkungen
 
-Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`ExtractToDirectory`](../extracttodirectory) Methode zum Dekomprimieren.
+Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`ExtractToDirectory`](../extracttodirectory/) Methode zum Dekomprimieren.
 
 ### Beispiele
 
@@ -121,8 +121,8 @@ using (SevenZipArchive archive = new SevenZipArchive("archive.7z"))
 
 ### Siehe auch
 
-* class [SevenZipArchive](../../sevenziparchive)
-* namensraum [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchive](../)
+* namensraum [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * Montage [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
