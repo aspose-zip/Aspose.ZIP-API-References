@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: CpioArchive.CreateEntry
 second_title: Riferimento API Aspose.ZIP per .NET
-description: Crea una singola voce allinterno dellarchivio.
+description: CpioArchive metodo. Crea una singola voce allinterno dellarchivio.
 type: docs
 weight: 40
 url: /it/net/aspose.zip.cpio/cpioarchive/createentry/
@@ -17,8 +17,8 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | name | String | Il nome della voce. |
-| fileInfo | FileInfo | metadati del file o della cartella da comprimere. |
-| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio dell'archivio. |
+| fileInfo | FileInfo | I metadati del file o della cartella da comprimere. |
+| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio in archivio. |
 
 ### Valore di ritorno
 
@@ -34,7 +34,7 @@ Istanza di ingresso Cpio.
 
 ### Osservazioni
 
-Se il file viene aperto immediatamente con*openImmediately* parametro viene bloccato fino a quando l'archivio non viene eliminato.
+Se il file viene aperto immediatamente con*openImmediately*parametro diventa bloccato fino a quando l'archivio non viene eliminato.
 
 ### Esempi
 
@@ -49,9 +49,9 @@ using (var archive = new CpioArchive())
 
 ### Guarda anche
 
-* class [CpioEntry](../../cpioentry)
-* class [CpioArchive](../../cpioarchive)
-* spazio dei nomi [Aspose.Zip.Cpio](../../cpioarchive)
+* class [CpioEntry](../../cpioentry/)
+* class [CpioArchive](../)
+* spazio dei nomi [Aspose.Zip.Cpio](../../cpioarchive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
@@ -68,7 +68,7 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 | --- | --- | --- |
 | name | String | Il nome della voce. |
 | sourcePath | String | Percorso del file da comprimere. |
-| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio dell'archivio. |
+| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio in archivio. |
 
 ### Valore di ritorno
 
@@ -79,17 +79,17 @@ Istanza di ingresso Cpio.
 | eccezione | condizione |
 | --- | --- |
 | ArgumentNullException | *sourcePath* è zero. |
-| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per accedere |
-| ArgumentException | Il*sourcePath* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. - oppure - Nome file, come parte di*name*, supera i 100 simboli. |
-| UnauthorizedAccessException | Accesso al file*sourcePath* è negato. |
-| PathTooLongException | Il specificato*sourcePath* , il nome del file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, sulle piattaforme basate su Windows, i percorsi devono essere inferiori a 248 caratteri e i nomi dei file devono essere inferiori a 260 caratteri. - o -*name* è troppo lungo per cpio. |
-| NotSupportedException | Archivia a*sourcePath* contiene due punti (:) al centro della stringa. |
+| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per l'accesso. |
+| ArgumentException | IL*sourcePath* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. - oppure - Nome file, come parte di*name*, supera i 100 simboli. |
+| UnauthorizedAccessException | Accesso all'archivio*sourcePath* è negato. |
+| PathTooLongException | Il specificato*sourcePath* , nome file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, su piattaforme basate su Windows, i percorsi devono contenere meno di 248 caratteri ei nomi file devono contenere meno di 260 caratteri. - O -*name* è troppo lungo per cpio. |
+| NotSupportedException | File a*sourcePath* contiene i due punti (:) al centro della stringa. |
 
 ### Osservazioni
 
 Il nome della voce è impostato esclusivamente all'interno*name* parametro. Il nome del file fornito in*sourcePath* parametro non influisce sul nome della voce.
 
-Se il file viene aperto immediatamente con*openImmediately* parametro viene bloccato fino a quando l'archivio non viene eliminato.
+Se il file viene aperto immediatamente con*openImmediately*parametro diventa bloccato fino a quando l'archivio non viene eliminato.
 
 ### Esempi
 
@@ -103,9 +103,9 @@ using (var archive = new CpioArchive())
 
 ### Guarda anche
 
-* class [CpioEntry](../../cpioentry)
-* class [CpioArchive](../../cpioarchive)
-* spazio dei nomi [Aspose.Zip.Cpio](../../cpioarchive)
+* class [CpioEntry](../../cpioentry/)
+* class [CpioArchive](../)
+* spazio dei nomi [Aspose.Zip.Cpio](../../cpioarchive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
@@ -147,9 +147,9 @@ using (var archive = new CpioArchive())
 
 ### Guarda anche
 
-* class [CpioEntry](../../cpioentry)
-* class [CpioArchive](../../cpioarchive)
-* spazio dei nomi [Aspose.Zip.Cpio](../../cpioarchive)
+* class [CpioEntry](../../cpioentry/)
+* class [CpioArchive](../)
+* spazio dei nomi [Aspose.Zip.Cpio](../../cpioarchive/)
 * assemblea [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

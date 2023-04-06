@@ -1,14 +1,14 @@
 ---
-title: RarArchive
+title: RarArchive.RarArchive
 second_title: Riferimento API Aspose.ZIP per .NET
-description: Inizializza una nuova istanza diRarArchiveaspose.zip.rar/rararchive classe e compone lelenco delle voci può essere estratto dallarchivio.
+description: RarArchive costruttore. Inizializza una nuova istanza diRarArchive classe e compone lelenco delle voci può essere estratto dallarchivio.
 type: docs
 weight: 10
 url: /it/net/aspose.zip.rar/rararchive/rararchive/
 ---
 ## RarArchive(string, RarArchiveLoadOptions) {#constructor_1}
 
-Inizializza una nuova istanza di[`RarArchive`](../../rararchive) classe e compone l'elenco delle voci può essere estratto dall'archivio.
+Inizializza una nuova istanza di[`RarArchive`](../) classe e compone l'elenco delle voci può essere estratto dall'archivio.
 
 ```csharp
 public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
@@ -16,23 +16,23 @@ public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| path | String | Il percorso completo o relativo al file di archivio. |
-| loadOptions | RarArchiveLoadOptions | Opzioni con cui caricare l'archivio esistente. |
+| path | String | Il percorso completo o relativo del file di archivio. |
+| loadOptions | RarArchiveLoadOptions | Opzioni per caricare l'archivio esistente con. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
 | ArgumentNullException | *path* è zero. |
-| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per accedere |
-| ArgumentException | Il*path* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. |
-| UnauthorizedAccessException | Accesso al file*path* è negato. |
-| PathTooLongException | Il specificato*path*, il nome del file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, sulle piattaforme basate su Windows, i percorsi devono essere inferiori a 248 caratteri e i nomi dei file devono essere inferiori a 260 caratteri. |
-| NotSupportedException | Archivia a*path* contiene due punti (:) al centro della stringa. |
+| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per l'accesso. |
+| ArgumentException | IL*path* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. |
+| UnauthorizedAccessException | Accesso all'archivio*path* è negato. |
+| PathTooLongException | Il specificato*path*, nome file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, su piattaforme basate su Windows, i percorsi devono contenere meno di 248 caratteri ei nomi file devono contenere meno di 260 caratteri. |
+| NotSupportedException | File a*path* contiene i due punti (:) al centro della stringa. |
 
 ### Osservazioni
 
-Questo costruttore non decomprime alcuna voce. Vedere[`Open`](../../rararchiveentry/open) metodo per la decompressione.
+Questo costruttore non decomprime alcuna voce. Vedere[`Open`](../../rararchiveentry/open/) metodo per decomprimere.
 
 ### Esempi
 
@@ -54,16 +54,16 @@ using (RarArchive archive = new RarArchive("data.rar"))
 
 ### Guarda anche
 
-* class [RarArchiveLoadOptions](../../rararchiveloadoptions)
-* class [RarArchive](../../rararchive)
-* spazio dei nomi [Aspose.Zip.Rar](../../rararchive)
+* class [RarArchiveLoadOptions](../../rararchiveloadoptions/)
+* class [RarArchive](../)
+* spazio dei nomi [Aspose.Zip.Rar](../../rararchive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
 
 ## RarArchive(Stream, RarArchiveLoadOptions) {#constructor}
 
-Inizializza una nuova istanza di[`RarArchive`](../../rararchive) classe e compone l'elenco delle voci può essere estratto dall'archivio.
+Inizializza una nuova istanza di[`RarArchive`](../) classe e compone l'elenco delle voci può essere estratto dall'archivio.
 
 ```csharp
 public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
@@ -72,7 +72,7 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | sourceStream | Stream | La fonte dell'archivio. |
-| loadOptions | RarArchiveLoadOptions | Opzioni con cui caricare l'archivio esistente. |
+| loadOptions | RarArchiveLoadOptions | Opzioni per caricare l'archivio esistente con. |
 
 ### Eccezioni
 
@@ -84,11 +84,11 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 
 ### Osservazioni
 
-Questo costruttore non decomprime alcuna voce. Vedere[`Open`](../../rararchiveentry/open) metodo per la decompressione.
+Questo costruttore non decomprime alcuna voce. Vedere[`Open`](../../rararchiveentry/open/) metodo per decomprimere.
 
 ### Esempi
 
-L'esempio seguente decifra e decomprime la prima voce in a`MemoryStream`.
+Il seguente esempio decifra e decomprime la prima voce in a`MemoryStream`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.rar");
@@ -107,9 +107,9 @@ using (RarArchive archive = new RarArchive(fs, new RarArchiveLoadOptions() { Dec
 
 ### Guarda anche
 
-* class [RarArchiveLoadOptions](../../rararchiveloadoptions)
-* class [RarArchive](../../rararchive)
-* spazio dei nomi [Aspose.Zip.Rar](../../rararchive)
+* class [RarArchiveLoadOptions](../../rararchiveloadoptions/)
+* class [RarArchive](../)
+* spazio dei nomi [Aspose.Zip.Rar](../../rararchive/)
 * assemblea [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
