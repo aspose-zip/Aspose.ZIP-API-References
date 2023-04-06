@@ -1,9 +1,9 @@
 ---
-title: WimDirectoryEntry
+title: Class WimDirectoryEntry
 second_title: Aspose.ZIP لمرجع .NET API
-description: يمثل دليلًا منفردًا داخل أرشيف wim.
+description: Aspose.Zip.Wim.WimDirectoryEntry فصل. يمثل دليلًا منفردًا داخل أرشيف wim.
 type: docs
-weight: 640
+weight: 770
 url: /ar/net/aspose.zip.wim/wimdirectoryentry/
 ---
 ## WimDirectoryEntry class
@@ -18,37 +18,37 @@ public sealed class WimDirectoryEntry : WimEntry
 
 | اسم | وصف |
 | --- | --- |
-| [AllEntries](../../aspose.zip.wim/wimdirectoryentry/allentries) { get; } | يحصل على كافة إدخالات[`WimEntry`](../wimentry) النوع الذي يشكل الدليل بشكل متكرر. |
-| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams) { get; } | يحصل على أسماء تدفقات البيانات البديلة لملف أو دليل. |
-| [Archive](../../aspose.zip.wim/wimentry/archive) { get; } | يحصل على الأرشيف الذي ينتمي إليه الإدخال . |
-| [ChangeTime](../../aspose.zip.wim/wimentry/changetime) { get; } | يحصل على آخر مرة تم فيها تغيير الملف أو الدليل. |
-| [CreationTime](../../aspose.zip.wim/wimentry/creationtime) { get; } | يحصل على وقت إنشاء الملف أو الدليل. |
-| [Directories](../../aspose.zip.wim/wimdirectoryentry/directories) { get; } | يحصل على إدخالات[`WimDirectoryEntry`](../wimdirectoryentry) اكتب الذي يشكل الدليل. |
-| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes) { get; } | يحصل على سمات الملف أو الدليل . |
-| [Files](../../aspose.zip.wim/wimdirectoryentry/files) { get; } | يحصل على إدخالات[`WimFileEntry`](../wimfileentry) اكتب الذي يشكل الدليل. |
-| [FilesAndDirectories](../../aspose.zip.wim/wimdirectoryentry/filesanddirectories) { get; } | يحصل على إدخالات[`WimEntry`](../wimentry) اكتب الذي يشكل الدليل. |
-| [FullPath](../../aspose.zip.wim/wimentry/fullpath) { get; } | يحصل على المسار الكامل للإدخال داخل الصورة. |
-| [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | يحصل على معرف الارتباط الثابت للملف أو الدليل. |
-| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | تحديد ما إذا كان الملف أو الدليل معروفًا بأسماء أخرى. |
-| [Image](../../aspose.zip.wim/wimentry/image) { get; } | الحصول على الصورة التي ينتمي إليها الإدخال . |
-| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | يحصل على قيمة تشير إلى ما إذا كان الإدخال يمثل الدليل . |
-| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime) { get; } | يحصل على آخر وقت وصول للملف أو الدليل. |
-| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime) { get; } | يحصل على وقت تعديل الملف أو الدليل. |
-| [Name](../../aspose.zip.wim/wimentry/name) { get; } | الحصول على اسم الإدخال داخل الصورة. |
-| [Parent](../../aspose.zip.wim/wimentry/parent) { get; } | يحصل على الدليل الأصل الذي ينتمي إليه الإدخال. |
-| [ShortName](../../aspose.zip.wim/wimentry/shortname) { get; } | الحصول على الاسم المختصر للإدخال داخل الصورة . |
+| [AllEntries](../../aspose.zip.wim/wimdirectoryentry/allentries/) { get; } | يحصل على كافة إدخالات[`WimEntry`](../wimentry/) النوع الذي يشكل الدليل بشكل متكرر. |
+| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams/) { get; } | يحصل على أسماء تدفقات البيانات البديلة لملف أو دليل. |
+| [Archive](../../aspose.zip.wim/wimentry/archive/) { get; } | يحصل على الأرشيف الذي ينتمي إليه الإدخال . |
+| [ChangeTime](../../aspose.zip.wim/wimentry/changetime/) { get; } | يحصل على آخر مرة تم فيها تغيير الملف أو الدليل. |
+| [CreationTime](../../aspose.zip.wim/wimentry/creationtime/) { get; } | يحصل على وقت إنشاء الملف أو الدليل. |
+| [Directories](../../aspose.zip.wim/wimdirectoryentry/directories/) { get; } | يحصل على إدخالات`WimDirectoryEntry` اكتب الذي يشكل الدليل. |
+| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes/) { get; } | يحصل على سمات الملف أو الدليل . |
+| [Files](../../aspose.zip.wim/wimdirectoryentry/files/) { get; } | يحصل على إدخالات[`WimFileEntry`](../wimfileentry/) اكتب الذي يشكل الدليل. |
+| [FilesAndDirectories](../../aspose.zip.wim/wimdirectoryentry/filesanddirectories/) { get; } | يحصل على إدخالات[`WimEntry`](../wimentry/) اكتب الذي يشكل الدليل. |
+| [FullPath](../../aspose.zip.wim/wimentry/fullpath/) { get; } | يحصل على المسار الكامل للإدخال داخل الصورة. |
+| [HardLink](../../aspose.zip.wim/wimentry/hardlink/) { get; } | يحصل على معرف الارتباط الثابت للملف أو الدليل. |
+| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks/) { get; } | تحديد ما إذا كان الملف أو الدليل معروفًا بأسماء أخرى. |
+| [Image](../../aspose.zip.wim/wimentry/image/) { get; } | الحصول على الصورة التي ينتمي إليها الإدخال . |
+| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الإدخال يمثل الدليل . |
+| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime/) { get; } | يحصل على آخر وقت وصول للملف أو الدليل. |
+| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime/) { get; } | يحصل على وقت تعديل الملف أو الدليل. |
+| [Name](../../aspose.zip.wim/wimentry/name/) { get; } | الحصول على اسم الإدخال داخل الصورة. |
+| [Parent](../../aspose.zip.wim/wimentry/parent/) { get; } | الحصول على الدليل الأصلي الذي ينتمي إليه الإدخال . |
+| [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | الحصول على الاسم المختصر للإدخال داخل الصورة . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ExtractToDirectory](../../aspose.zip.wim/wimdirectoryentry/extracttodirectory)(string) | استخراج كافة الملفات الموجودة في الدليل الحالي إلى الدليل المقدم. |
-| override [ToString](../../aspose.zip.wim/wimentry/tostring)() |  |
+| [ExtractToDirectory](../../aspose.zip.wim/wimdirectoryentry/extracttodirectory/)(string) | استخراج كافة الملفات الموجودة في الدليل الحالي إلى الدليل المقدم. |
+| override [ToString](../../aspose.zip.wim/wimentry/tostring/)() |  |
 
 ### أنظر أيضا
 
-* class [WimEntry](../wimentry)
-* مساحة الاسم [Aspose.Zip.Wim](../../aspose.zip.wim)
+* class [WimEntry](../wimentry/)
+* مساحة الاسم [Aspose.Zip.Wim](../../aspose.zip.wim/)
 * المجسم [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
