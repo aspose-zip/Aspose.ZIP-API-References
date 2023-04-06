@@ -3,7 +3,7 @@ title: Aspose.Zip.Saving
 second_title: Aspose.ZIP для справочника API .NET
 description: Saving namespace содержит классы необходимые для операций по сохранению архива.
 type: docs
-weight: 90
+weight: 110
 url: /ru/net/aspose.zip.saving/
 ---
 Saving namespace содержит классы, необходимые для операций по сохранению архива.
@@ -12,35 +12,39 @@ Saving namespace содержит классы, необходимые для о
 
 | Учебный класс | Описание |
 | --- | --- |
-| [AesEcryptionSettings](./aesecryptionsettings) | Настройки алгоритма шифрования или дешифрования AES. |
-| [ArchiveEntrySettings](./archiveentrysettings) | Настройки, используемые для сжатия или распаковки записей. |
-| [ArchiveSaveOptions](./archivesaveoptions) | Варианты сохранения архива. |
-| [Bzip2CompressionSettings](./bzip2compressionsettings) | Настройки метода сжатия Bzip2. |
-| [CompressionSettings](./compressionsettings) | Настройки, необходимые для работы компрессора или декомпрессора. |
-| [DeflateCompressionSettings](./deflatecompressionsettings) | Настройки метода сжатия Deflate. |
-| [EncryptionSettings](./encryptionsettings) | Базовый класс для настроек нескольких методов шифрования zip. |
-| [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings) | Настройки для метода сжатия Enhanced Deflate. |
-| [EventsBag](./eventsbag) | Контейнер событий, используемый на[`Archive`](../aspose.zip/archive) сохранение. |
-| [LzmaCompressionSettings](./lzmacompressionsettings) | Настройки метода сжатия LZMA. |
-| [ParallelOptions](./paralleloptions) | Опции для параллельного сжатия. |
-| [PPMdCompressionSettings](./ppmdcompressionsettings) | Настройки метода сжатия PPMd. |
-| [SelfExtractorOptions](./selfextractoroptions) | Параметры создания самораспаковывающегося исполняемого архива. |
-| [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings) | Настройки алгоритма шифрования или дешифрования AES. |
-| [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings) | Настройки метода сжатия BZip2 в архиве 7z. |
-| [SevenZipCompressionSettings](./sevenzipcompressionsettings) | Настройки, необходимые для работы компрессора или декомпрессора 7z. |
-| [SevenZipEncryptionSettings](./sevenzipencryptionsettings) | Базовый класс для настроек нескольких методов шифрования 7z. |
-| [SevenZipEntrySettings](./sevenzipentrysettings) | Настройки, используемые для сжатия или распаковки записей 7Z. |
-| [SevenZipLZMA2CompressionSettings](./sevenziplzma2compressionsettings) | Настройки метода сжатия LZMA2 в архиве 7z. |
-| [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings) | Настройки метода сжатия LZMA в архиве 7z. |
-| [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings) | Настройки метода сжатия Store в архиве 7z. |
-| [StoreCompressionSettings](./storecompressionsettings) | Настройки метода сжатия Store. |
-| [TraditionalEncryptionSettings](./traditionalencryptionsettings) | Настройки для традиционного алгоритма ZipCrypto. |
+| [AesEcryptionSettings](./aesecryptionsettings/) | Настройки алгоритма шифрования или дешифрования AES. |
+| [ArchiveEntrySettings](./archiveentrysettings/) | Настройки, используемые для сжатия или распаковки записей. |
+| [ArchiveSaveOptions](./archivesaveoptions/) | Варианты сохранения zip-архива. |
+| [Bzip2CompressionSettings](./bzip2compressionsettings/) | Настройки метода сжатия Bzip2. |
+| [CompressionSettings](./compressionsettings/) | Настройки, необходимые для работы компрессора или декомпрессора. |
+| [DeflateCompressionSettings](./deflatecompressionsettings/) | Настройки метода сжатия Deflate. |
+| [EncryptionSettings](./encryptionsettings/) | Базовый класс для настроек нескольких методов шифрования zip. |
+| [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings/) | Настройки для метода сжатия Enhanced Deflate. |
+| [EventsBag](./eventsbag/) | Контейнер событий, используемый на[`Archive`](../aspose.zip/archive/) сохранение. |
+| [LzmaCompressionSettings](./lzmacompressionsettings/) | Настройки метода сжатия LZMA. |
+| [ParallelOptions](./paralleloptions/) | Опции для параллельного сжатия. |
+| [PPMdCompressionSettings](./ppmdcompressionsettings/) | Настройки метода сжатия PPMd. |
+| [SelfExtractorOptions](./selfextractoroptions/) | Параметры создания самораспаковывающегося исполняемого архива. |
+| [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings/) | Настройки алгоритма шифрования или дешифрования AES. |
+| [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings/) | Настройки метода сжатия BZip2 в архиве 7z. |
+| [SevenZipCompressionSettings](./sevenzipcompressionsettings/) | Настройки, необходимые для работы компрессора или декомпрессора 7z. |
+| [SevenZipEncryptionSettings](./sevenzipencryptionsettings/) | Базовый класс для настроек нескольких методов шифрования 7z. |
+| [SevenZipEntrySettings](./sevenzipentrysettings/) | Настройки, используемые для сжатия или распаковки записей 7Z. |
+| [SevenZipLZMA2CompressionSettings](./sevenziplzma2compressionsettings/) | Настройки метода сжатия LZMA2 в архиве 7z. |
+| [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings/) | Настройки метода сжатия LZMA в архиве 7z. |
+| [SevenZipPPMdCompressionSettings](./sevenzipppmdcompressionsettings/) | Настройки метода сжатия PPMd в архиве 7z. |
+| [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings/) | Настройки метода сжатия Store в архиве 7z. |
+| [SplitArchiveSaveOptions](./splitarchivesaveoptions/) | Варианты сохранения многотомного zip-архива. |
+| [SplitSevenZipArchiveSaveOptions](./splitsevenziparchivesaveoptions/) | Варианты сохранения многотомного архива 7-zip. |
+| [StoreCompressionSettings](./storecompressionsettings/) | Настройки метода сжатия Store. |
+| [TraditionalEncryptionSettings](./traditionalencryptionsettings/) | Настройки для традиционного алгоритма ZipCrypto. |
+| [XzCompressionSettings](./xzcompressionsettings/) | Настройки для метода сжатия Xz. |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
-| [EncryptionMethod](./encryptionmethod) | Методы шифрования/дешифрования можно использовать с zip-архивом. |
-| [ParallelCompressionMode](./parallelcompressionmode) | Варианты использования средства параллельного сжатия. |
-| [SevenZipCompressionMethod](./sevenzipcompressionmethod) | Методы сжатия, поддерживаемые форматом 7Z. |
+| [EncryptionMethod](./encryptionmethod/) | Методы шифрования/дешифрования можно использовать с zip-архивом. |
+| [ParallelCompressionMode](./parallelcompressionmode/) | Варианты использования средства параллельного сжатия. |
+| [SevenZipCompressionMethod](./sevenzipcompressionmethod/) | Методы сжатия, поддерживаемые форматом 7Z. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

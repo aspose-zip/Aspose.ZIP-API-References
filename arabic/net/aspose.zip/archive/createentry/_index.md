@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: Archive.CreateEntry
 second_title: Aspose.ZIP لمرجع .NET API
-description: إنشاء إدخال واحد داخل الأرشيف.
+description: Archive طريقة. إنشاء إدخال واحد داخل الأرشيف.
 type: docs
 weight: 50
 url: /ar/net/aspose.zip/archive/createentry/
@@ -20,7 +20,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | name | String | اسم الإدخال. |
 | path | String | الاسم المؤهل بالكامل للملف الجديد ، أو اسم الملف النسبي المراد ضغطه. |
 | openImmediately | Boolean | صحيح إذا فتحت الملف على الفور ، وإلا فافتح الملف عند حفظ الأرشيف. |
-| newEntrySettings | ArchiveEntrySettings | تمت إضافة إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry) العنصر. |
+| newEntrySettings | ArchiveEntrySettings | أضيفت إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry/) غرض. |
 
 ### قيمة الإرجاع
 
@@ -31,7 +31,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | استثناء | حالة |
 | --- | --- |
 | ArgumentNullException | *path* باطل. |
-| SecurityException | المتصل ليس لديه الإذن المطلوب للوصول |
+| SecurityException | المتصل ليس لديه الإذن المطلوب للوصول. |
 | ArgumentException | ال*path* فارغ أو يحتوي على مسافات بيضاء فقط أو يحتوي على أحرف غير صالحة. |
 | UnauthorizedAccessException | الوصول إلى الملف*path* مرفوض. |
 | PathTooLongException | المحدد*path*أو اسم الملف أو كلاهما يتجاوز الحد الأقصى للطول المحدد من قبل النظام. على سبيل المثال ، في الأنظمة الأساسية المستندة إلى Windows ، يجب أن تكون المسارات أقل من 248 حرفًا ، ويجب أن تكون أسماء الملفات أقل من 260 حرفًا. |
@@ -58,10 +58,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### أنظر أيضا
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* مساحة الاسم [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* مساحة الاسم [Aspose.Zip](../../archive/)
 * المجسم [Aspose.Zip](../../../)
 
 ---
@@ -79,7 +79,7 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | اسم الإدخال. |
 | source | Stream | تيار الإدخال للدخول. |
-| newEntrySettings | ArchiveEntrySettings | تمت إضافة إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry) العنصر. |
+| newEntrySettings | ArchiveEntrySettings | أضيفت إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry/) غرض. |
 
 ### قيمة الإرجاع
 
@@ -97,10 +97,10 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ### أنظر أيضا
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* مساحة الاسم [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* مساحة الاسم [Aspose.Zip](../../archive/)
 * المجسم [Aspose.Zip](../../../)
 
 ---
@@ -119,7 +119,7 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | name | String | اسم الإدخال. |
 | fileInfo | FileInfo | البيانات الوصفية للملف المراد ضغطه. |
 | openImmediately | Boolean | صحيح إذا فتحت الملف على الفور ، وإلا فافتح الملف عند حفظ الأرشيف. |
-| newEntrySettings | ArchiveEntrySettings | تمت إضافة إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry) العنصر. |
+| newEntrySettings | ArchiveEntrySettings | أضيفت إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry/) غرض. |
 
 ### قيمة الإرجاع
 
@@ -141,7 +141,7 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 
 ### أمثلة
 
-أنشئ أرشيفًا بإدخالات مشفرة بأساليب تشفير وكلمات مرور مختلفة لكل منهما.
+أنشئ أرشيفًا بإدخالات مشفرة باستخدام طرق تشفير وكلمات مرور مختلفة لكل منهما.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -161,10 +161,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### أنظر أيضا
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* مساحة الاسم [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* مساحة الاسم [Aspose.Zip](../../archive/)
 * المجسم [Aspose.Zip](../../../)
 
 ---
@@ -182,7 +182,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | --- | --- | --- |
 | name | String | اسم الإدخال. |
 | source | Stream | تيار الإدخال للدخول. |
-| newEntrySettings | ArchiveEntrySettings | تمت إضافة إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry) العنصر. |
+| newEntrySettings | ArchiveEntrySettings | أضيفت إعدادات الضغط والتشفير المستخدمة[`ArchiveEntry`](../../archiveentry/) غرض. |
 | fileInfo | FileSystemInfo | البيانات الوصفية للملف أو المجلد المراد ضغطه. |
 
 ### قيمة الإرجاع
@@ -193,7 +193,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | كلاهما*source* و*fileInfo* لاغية أو*source* باطل و*fileInfo* لتقف على الدليل. |
+| InvalidOperationException | كلاهما*source* و*fileInfo* لاغية أو*source*باطل و*fileInfo* لتقف على الدليل. |
 
 ### ملاحظات
 
@@ -218,10 +218,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### أنظر أيضا
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* مساحة الاسم [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* مساحة الاسم [Aspose.Zip](../../archive/)
 * المجسم [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

@@ -1,14 +1,14 @@
 ---
-title: CreateEntry
+title: CpioArchive.CreateEntry
 second_title: Aspose.ZIP for .NET API Referansı
-description: Arşiv içinde tek bir giriş oluşturun.
+description: CpioArchive yöntem. Arşiv içinde tek giriş oluşturun.
 type: docs
 weight: 40
 url: /tr/net/aspose.zip.cpio/cpioarchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Arşiv içinde tek bir giriş oluşturun.
+Arşiv içinde tek giriş oluşturun.
 
 ```csharp
 public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -18,7 +18,7 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 | --- | --- | --- |
 | name | String | Girişin adı. |
 | fileInfo | FileInfo | Sıkıştırılacak dosya veya klasörün meta verileri. |
-| openImmediately | Boolean | Dosyayı hemen açarsanız doğru, aksi takdirde dosyayı arşiv kaydında açın. |
+| openImmediately | Boolean | Dosyayı hemen açarsanız doğrudur, aksi takdirde dosyayı arşive kaydederken açın. |
 
 ### Geri dönüş değeri
 
@@ -34,7 +34,7 @@ Cpio giriş örneği.
 
 ### Notlar
 
-Dosya ile hemen açılırsa*openImmediately* parametre, arşiv atılana kadar bloke olur.
+Dosya ile hemen açılırsa*openImmediately*parametresi, arşiv atılana kadar bloke olur.
 
 ### Örnekler
 
@@ -49,16 +49,16 @@ using (var archive = new CpioArchive())
 
 ### Ayrıca bakınız
 
-* class [CpioEntry](../../cpioentry)
-* class [CpioArchive](../../cpioarchive)
-* ad alanı [Aspose.Zip.Cpio](../../cpioarchive)
+* class [CpioEntry](../../cpioentry/)
+* class [CpioArchive](../)
+* ad alanı [Aspose.Zip.Cpio](../../cpioarchive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Arşiv içinde tek bir giriş oluşturun.
+Arşiv içinde tek giriş oluşturun.
 
 ```csharp
 public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
@@ -68,7 +68,7 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 | --- | --- | --- |
 | name | String | Girişin adı. |
 | sourcePath | String | Sıkıştırılacak dosyanın yolu. |
-| openImmediately | Boolean | Dosyayı hemen açarsanız doğru, aksi takdirde dosyayı arşiv kaydında açın. |
+| openImmediately | Boolean | Dosyayı hemen açarsanız doğrudur, aksi takdirde dosyayı arşive kaydederken açın. |
 
 ### Geri dönüş değeri
 
@@ -79,17 +79,17 @@ Cpio giriş örneği.
 | istisna | şart |
 | --- | --- |
 | ArgumentNullException | *sourcePath* boş. |
-| SecurityException | Arayan, erişim için gerekli izne sahip değil |
-| ArgumentException | bu*sourcePath* boş, yalnızca boşluk içeriyor veya geçersiz karakterler içeriyor. - veya - Dosya adı, bir parçası olarak*name*, 100 sembolü aşıyor. |
-| UnauthorizedAccessException | Dosyaya erişim*sourcePath* engellendi. |
-| PathTooLongException | Belirtilmiş*sourcePath* , dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden ve dosya adları 260 karakterden az olmalıdır. - veya -*name* cpio için çok uzun. |
-| NotSupportedException | Dosya*sourcePath* dizenin ortasında iki nokta üst üste (:) içerir. |
+| SecurityException | Arayan, erişim için gerekli izne sahip değil. |
+| ArgumentException | bu*sourcePath* boş, yalnızca beyaz boşluklar içeriyor veya geçersiz karakterler içeriyor. - veya - Dosya adı, bir parçası olarak*name*, 100 sembolü aşıyor. |
+| UnauthorizedAccessException | dosyaya erişim*sourcePath* engellendi. |
+| PathTooLongException | Belirtilen*sourcePath* , dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden, dosya adları ise 260 karakterden kısa olmalıdır. - veya -*name* cpio için çok uzun. |
+| NotSupportedException | dosya*sourcePath* dizenin ortasında iki nokta üst üste (:) içerir. |
 
 ### Notlar
 
-Giriş adı yalnızca*name* parametre. İçinde sağlanan dosya adı*sourcePath* parametre giriş adını etkilemez.
+Giriş adı yalnızca içinde ayarlanır*name* parametre. Verilen dosya adı*sourcePath* parametre giriş adını etkilemez.
 
-Dosya ile hemen açılırsa*openImmediately* parametre, arşiv atılana kadar bloke olur.
+Dosya ile hemen açılırsa*openImmediately*parametresi, arşiv atılana kadar bloke olur.
 
 ### Örnekler
 
@@ -103,16 +103,16 @@ using (var archive = new CpioArchive())
 
 ### Ayrıca bakınız
 
-* class [CpioEntry](../../cpioentry)
-* class [CpioArchive](../../cpioarchive)
-* ad alanı [Aspose.Zip.Cpio](../../cpioarchive)
+* class [CpioEntry](../../cpioentry/)
+* class [CpioArchive](../)
+* ad alanı [Aspose.Zip.Cpio](../../cpioarchive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, Stream) {#createentry_1}
 
-Arşiv içinde tek bir giriş oluşturun.
+Arşiv içinde tek giriş oluşturun.
 
 ```csharp
 public CpioEntry CreateEntry(string name, Stream source)
@@ -147,9 +147,9 @@ using (var archive = new CpioArchive())
 
 ### Ayrıca bakınız
 
-* class [CpioEntry](../../cpioentry)
-* class [CpioArchive](../../cpioarchive)
-* ad alanı [Aspose.Zip.Cpio](../../cpioarchive)
+* class [CpioEntry](../../cpioentry/)
+* class [CpioArchive](../)
+* ad alanı [Aspose.Zip.Cpio](../../cpioarchive/)
 * toplantı [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

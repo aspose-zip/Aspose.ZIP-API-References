@@ -1,9 +1,9 @@
 ---
-title: WimFileEntry
+title: Class WimFileEntry
 second_title: Aspose.ZIP för .NET API-referens
-description: Representerar en fil i wimarkivet.
+description: Aspose.Zip.Wim.WimFileEntry klass. Representerar en fil i wimarkivet.
 type: docs
-weight: 660
+weight: 790
 url: /sv/net/aspose.zip.wim/wimfileentry/
 ---
 ## WimFileEntry class
@@ -11,43 +11,44 @@ url: /sv/net/aspose.zip.wim/wimfileentry/
 Representerar en fil i wim-arkivet.
 
 ```csharp
-public sealed class WimFileEntry : WimEntry
+public sealed class WimFileEntry : WimEntry, IArchiveFileEntry
 ```
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams) { get; } | Hämtar namnen på de alternativa dataströmmarna för en fil eller katalog. |
-| [Archive](../../aspose.zip.wim/wimentry/archive) { get; } | Hämtar arkivet som posten tillhör. |
-| [ChangeTime](../../aspose.zip.wim/wimentry/changetime) { get; } | Hämtar senaste gången filen eller katalogen ändrades. |
-| [CreationTime](../../aspose.zip.wim/wimentry/creationtime) { get; } | Hämtar skapandet av filen eller katalogen. |
-| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes) { get; } | Hämtar fil- eller katalogattributen. |
-| [FullPath](../../aspose.zip.wim/wimentry/fullpath) { get; } | Får hela sökvägen till posten i bilden. |
-| [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | Hämtar hårdlänks-id för filen eller katalogen. |
-| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | Hämtar om filen eller katalogen är känd under andra namn. |
-| [Image](../../aspose.zip.wim/wimentry/image) { get; } | Hämtar bilden som posten tillhör. |
-| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | Får ett värde som indikerar om posten representerar katalog. |
-| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime) { get; } | Får den senaste åtkomsttiden för filen eller katalogen. |
-| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime) { get; } | Hämtar ändringstiden för filen eller katalogen. |
-| [Length](../../aspose.zip.wim/wimfileentry/length) { get; } | Hämtar längden på posten i byte. |
-| [Name](../../aspose.zip.wim/wimentry/name) { get; } | Hämtar namnet på posten i bilden. |
-| [Parent](../../aspose.zip.wim/wimentry/parent) { get; } | Hämtar den överordnade katalogen som posten tillhör. |
-| [ShortName](../../aspose.zip.wim/wimentry/shortname) { get; } | Får kortnamnet på posten i bilden. |
+| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams/) { get; } | Hämtar namnen på de alternativa dataströmmarna för en fil eller katalog. |
+| [Archive](../../aspose.zip.wim/wimentry/archive/) { get; } | Hämtar arkivet som posten tillhör. |
+| [ChangeTime](../../aspose.zip.wim/wimentry/changetime/) { get; } | Hämtar senaste gången filen eller katalogen ändrades. |
+| [CreationTime](../../aspose.zip.wim/wimentry/creationtime/) { get; } | Hämtar skapandet av filen eller katalogen. |
+| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes/) { get; } | Hämtar fil- eller katalogattributen. |
+| [FullPath](../../aspose.zip.wim/wimentry/fullpath/) { get; } | Får hela sökvägen till posten i bilden. |
+| [HardLink](../../aspose.zip.wim/wimentry/hardlink/) { get; } | Hämtar hårdlänks-id för filen eller katalogen. |
+| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks/) { get; } | Hämtar om filen eller katalogen är känd under andra namn. |
+| [Image](../../aspose.zip.wim/wimentry/image/) { get; } | Hämtar bilden som posten tillhör. |
+| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | Får ett värde som indikerar om posten representerar katalog. |
+| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime/) { get; } | Får den senaste åtkomsttiden för filen eller katalogen. |
+| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime/) { get; } | Hämtar ändringstiden för filen eller katalogen. |
+| [Length](../../aspose.zip.wim/wimfileentry/length/) { get; } | Hämtar längden på posten i byte. |
+| [Name](../../aspose.zip.wim/wimentry/name/) { get; } | Hämtar namnet på posten i bilden. |
+| [Parent](../../aspose.zip.wim/wimentry/parent/) { get; } | Hämtar den överordnade katalogen som posten tillhör. |
+| [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | Får kortnamnet på posten i bilden. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Extract](../../aspose.zip.wim/wimfileentry/extract#extract_1)(Stream) | Extraherar posten till den tillhandahållna strömmen. |
-| [Extract](../../aspose.zip.wim/wimfileentry/extract#extract)(string) | Extraherar posten till filsystemet med den angivna sökvägen. |
-| [Open](../../aspose.zip.wim/wimfileentry/open)() | Öppnar posten för extraktion och tillhandahåller en ström med postinnehåll. |
-| override [ToString](../../aspose.zip.wim/wimentry/tostring)() |  |
+| [Extract](../../aspose.zip.wim/wimfileentry/extract/#extract_1)(Stream) | Extraherar posten till den tillhandahållna strömmen. |
+| [Extract](../../aspose.zip.wim/wimfileentry/extract/#extract)(string) | Extraherar posten till filsystemet med den angivna sökvägen. |
+| [Open](../../aspose.zip.wim/wimfileentry/open/)() | Öppnar posten för extraktion och tillhandahåller en ström med postinnehåll. |
+| override [ToString](../../aspose.zip.wim/wimentry/tostring/)() |  |
 
 ### Se även
 
-* class [WimEntry](../wimentry)
-* namnutrymme [Aspose.Zip.Wim](../../aspose.zip.wim)
+* class [WimEntry](../wimentry/)
+* interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
+* namnutrymme [Aspose.Zip.Wim](../../aspose.zip.wim/)
 * hopsättning [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

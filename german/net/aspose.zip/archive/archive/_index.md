@@ -1,14 +1,14 @@
 ---
-title: Archive
+title: Archive.Archive
 second_title: Aspose.ZIP für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonArchiveaspose.zip/archiveKlasse mit optionalen Einstellungen für ihre Einträge.
+description: Archive constructeur. Initialisiert eine neue Instanz vonArchive Klasse mit optionalen Einstellungen für ihre Einträge.
 type: docs
 weight: 10
 url: /de/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-Initialisiert eine neue Instanz von[`Archive`](../../archive)Klasse mit optionalen Einstellungen für ihre Einträge.
+Initialisiert eine neue Instanz von[`Archive`](../) Klasse mit optionalen Einstellungen für ihre Einträge.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,7 +16,7 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../../archiveentry)items. Wenn nicht angegeben, würde die häufigste Deflate-Komprimierung ohne Verschlüsselung verwendet werden. |
+| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../../archiveentry/) items. Wenn nicht angegeben, würde die häufigste Deflate-Komprimierung ohne Verschlüsselung verwendet werden. |
 
 ### Beispiele
 
@@ -35,16 +35,16 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Siehe auch
 
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namensraum [Aspose.Zip](../../archive)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namensraum [Aspose.Zip](../../archive/)
 * Montage [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-Initialisiert eine neue Instanz von[`Archive`](../../archive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
+Initialisiert eine neue Instanz von[`Archive`](../) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -55,7 +55,7 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | sourceStream | Stream | Die Quelle des Archivs. |
 | loadOptions | ArchiveLoadOptions | Optionen zum Laden bestehender Archive mit. |
-| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../../archiveentry)items. Wenn nicht angegeben, würde die häufigste Deflate-Komprimierung ohne Verschlüsselung verwendet werden. |
+| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../../archiveentry/) items. Wenn nicht angegeben, würde die häufigste Deflate-Komprimierung ohne Verschlüsselung verwendet werden. |
 
 ### Ausnahmen
 
@@ -66,7 +66,7 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 
 ### Bemerkungen
 
-Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`Open`](../../archiveentry/open) Methode zum Dekomprimieren.
+Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`Open`](../../archiveentry/open/) Methode zum Dekomprimieren.
 
 ### Beispiele
 
@@ -89,17 +89,17 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ### Siehe auch
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namensraum [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namensraum [Aspose.Zip](../../archive/)
 * Montage [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-Initialisiert eine neue Instanz von[`Archive`](../../archive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
+Initialisiert eine neue Instanz von[`Archive`](../) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -110,22 +110,22 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | path | String | Der vollständig qualifizierte oder der relative Pfad zur Archivdatei. |
 | loadOptions | ArchiveLoadOptions | Optionen zum Laden bestehender Archive mit. |
-| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../../archiveentry)items. Wenn nicht angegeben, würde die häufigste Deflate-Komprimierung ohne Verschlüsselung verwendet werden. |
+| newEntrySettings | ArchiveEntrySettings | Komprimierungs- und Verschlüsselungseinstellungen, die für neu hinzugefügte verwendet werden[`ArchiveEntry`](../../archiveentry/) items. Wenn nicht angegeben, würde die häufigste Deflate-Komprimierung ohne Verschlüsselung verwendet werden. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
 | ArgumentNullException | *path* ist Null. |
-| SecurityException | Der Anrufer verfügt nicht über die erforderliche Zugriffsberechtigung |
-| ArgumentException | Das*path* leer ist, nur Leerzeichen enthält oder ungültige Zeichen enthält. |
+| SecurityException | Der Anrufer verfügt nicht über die erforderliche Zugriffsberechtigung. |
+| ArgumentException | Der*path* leer ist, nur Leerzeichen enthält oder ungültige Zeichen enthält. |
 | UnauthorizedAccessException | Zugriff auf Datei*path* ist abgelehnt. |
 | PathTooLongException | Die angegebene*path*, Dateiname oder beide überschreiten die vom System definierte maximale Länge. Beispielsweise müssen auf Windows-basierten Plattformen Pfade weniger als 248 Zeichen und Dateinamen weniger als 260 Zeichen umfassen. |
 | NotSupportedException | Datei unter*path* enthält einen Doppelpunkt (:) in der Mitte der Zeichenfolge. |
 
 ### Bemerkungen
 
-Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`Open`](../../archiveentry/open) Methode zum Dekomprimieren.
+Dieser Konstruktor dekomprimiert keinen Eintrag. Sehen[`Open`](../../archiveentry/open/) Methode zum Dekomprimieren.
 
 ### Beispiele
 
@@ -147,10 +147,10 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 
 ### Siehe auch
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* namensraum [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namensraum [Aspose.Zip](../../archive/)
 * Montage [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

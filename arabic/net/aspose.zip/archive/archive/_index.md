@@ -1,14 +1,14 @@
 ---
-title: Archive
+title: Archive.Archive
 second_title: Aspose.ZIP لمرجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفArchiveaspose.zip/archiveفئة مع إعدادات اختيارية لإدخالاتها.
+description: Archive البناء. يقوم بتهيئة مثيل جديد لملفArchive فئة مع إعدادات اختيارية لإدخالاتها.
 type: docs
 weight: 10
 url: /ar/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`Archive`](../../archive)فئة مع إعدادات اختيارية لإدخالاتها.
+يقوم بتهيئة مثيل جديد لملف[`Archive`](../) فئة مع إعدادات اختيارية لإدخالاتها.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,7 +16,7 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | إعدادات الضغط والتشفير المستخدمة حديثًا[`ArchiveEntry`](../../archiveentry)items. إذا لم يتم تحديدها ، فسيتم استخدام ضغط Deflate الأكثر شيوعًا بدون تشفير. |
+| newEntrySettings | ArchiveEntrySettings | إعدادات الضغط والتشفير المستخدمة حديثًا[`ArchiveEntry`](../../archiveentry/) items. إذا لم يتم تحديدها ، فسيتم استخدام ضغط Deflate الأكثر شيوعًا بدون تشفير. |
 
 ### أمثلة
 
@@ -35,16 +35,16 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### أنظر أيضا
 
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* مساحة الاسم [Aspose.Zip](../../archive)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* مساحة الاسم [Aspose.Zip](../../archive/)
 * المجسم [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`Archive`](../../archive) يمكن استخراج فئة ويؤلف قائمة إدخالات من الأرشيف.
+يقوم بتهيئة مثيل جديد لملف[`Archive`](../) يمكن استخراج فئة ويؤلف قائمة إدخالات من الأرشيف.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -55,7 +55,7 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | sourceStream | Stream | مصدر الأرشيف. |
 | loadOptions | ArchiveLoadOptions | خيارات لتحميل الأرشيف الحالي مع. |
-| newEntrySettings | ArchiveEntrySettings | إعدادات الضغط والتشفير المستخدمة حديثًا[`ArchiveEntry`](../../archiveentry)items. إذا لم يتم تحديدها ، فسيتم استخدام ضغط Deflate الأكثر شيوعًا بدون تشفير. |
+| newEntrySettings | ArchiveEntrySettings | إعدادات الضغط والتشفير المستخدمة حديثًا[`ArchiveEntry`](../../archiveentry/) items. إذا لم يتم تحديدها ، فسيتم استخدام ضغط Deflate الأكثر شيوعًا بدون تشفير. |
 
 ### استثناءات
 
@@ -66,7 +66,7 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 
 ### ملاحظات
 
-لا يقوم المُنشئ هذا بفك ضغط أي إدخال. نرى[`Open`](../../archiveentry/open) طريقة فك الضغط.
+لا يقوم المُنشئ هذا بفك ضغط أي إدخال. يرى[`Open`](../../archiveentry/open/) طريقة فك الضغط.
 
 ### أمثلة
 
@@ -89,17 +89,17 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ### أنظر أيضا
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* مساحة الاسم [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* مساحة الاسم [Aspose.Zip](../../archive/)
 * المجسم [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد لملف[`Archive`](../../archive) يمكن استخراج فئة ويؤلف قائمة إدخالات من الأرشيف.
+يقوم بتهيئة مثيل جديد لملف[`Archive`](../) يمكن استخراج فئة ويؤلف قائمة إدخالات من الأرشيف.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -110,14 +110,14 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | path | String | المسار المؤهل بالكامل أو النسبي لملف الأرشيف. |
 | loadOptions | ArchiveLoadOptions | خيارات لتحميل الأرشيف الحالي مع. |
-| newEntrySettings | ArchiveEntrySettings | إعدادات الضغط والتشفير المستخدمة حديثًا[`ArchiveEntry`](../../archiveentry)items. إذا لم يتم تحديدها ، فسيتم استخدام ضغط Deflate الأكثر شيوعًا بدون تشفير. |
+| newEntrySettings | ArchiveEntrySettings | إعدادات الضغط والتشفير المستخدمة حديثًا[`ArchiveEntry`](../../archiveentry/) items. إذا لم يتم تحديدها ، فسيتم استخدام ضغط Deflate الأكثر شيوعًا بدون تشفير. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
 | ArgumentNullException | *path* باطل. |
-| SecurityException | المتصل ليس لديه الإذن المطلوب للوصول |
+| SecurityException | المتصل ليس لديه الإذن المطلوب للوصول. |
 | ArgumentException | ال*path* فارغ أو يحتوي على مسافات بيضاء فقط أو يحتوي على أحرف غير صالحة. |
 | UnauthorizedAccessException | الوصول إلى الملف*path* مرفوض. |
 | PathTooLongException | المحدد*path*أو اسم الملف أو كلاهما يتجاوز الحد الأقصى للطول المحدد من قبل النظام. على سبيل المثال ، في الأنظمة الأساسية المستندة إلى Windows ، يجب أن تكون المسارات أقل من 248 حرفًا ، ويجب أن تكون أسماء الملفات أقل من 260 حرفًا. |
@@ -125,7 +125,7 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 
 ### ملاحظات
 
-لا يقوم المُنشئ هذا بفك ضغط أي إدخال. نرى[`Open`](../../archiveentry/open) طريقة فك الضغط.
+لا يقوم المُنشئ هذا بفك ضغط أي إدخال. يرى[`Open`](../../archiveentry/open/) طريقة فك الضغط.
 
 ### أمثلة
 
@@ -147,10 +147,10 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 
 ### أنظر أيضا
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* مساحة الاسم [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* مساحة الاسم [Aspose.Zip](../../archive/)
 * المجسم [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

@@ -1,0 +1,23 @@
+---
+title: SharArchive.Dispose
+second_title: Referencia de la API de Aspose.ZIP para .NET
+description: SharArchive método. Realiza tareas definidas por la aplicación asociadas con liberar liberar o restablecer recursos no administrados.
+type: docs
+weight: 60
+url: /es/net/aspose.zip.shar/shararchive/dispose/
+---
+## SharArchive.Dispose method
+
+Realiza tareas definidas por la aplicación asociadas con liberar, liberar o restablecer recursos no administrados.
+
+```csharp
+public void Dispose()
+```
+
+### Ver también
+
+* class [SharArchive](../)
+* espacio de nombres [Aspose.Zip.Shar](../../shararchive/)
+* asamblea [Aspose.Zip](../../../)
+
+

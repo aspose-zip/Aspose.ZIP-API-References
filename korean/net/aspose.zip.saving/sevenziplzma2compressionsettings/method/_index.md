@@ -1,0 +1,24 @@
+---
+title: SevenZipLZMA2CompressionSettings.Method
+second_title: .NET API 참조용 Aspose.ZIP
+description: SevenZipLZMA2CompressionSettings 재산. 압축 또는 압축 해제 방법을 가져옵니다.
+type: docs
+weight: 40
+url: /ko/net/aspose.zip.saving/sevenziplzma2compressionsettings/method/
+---
+## SevenZipLZMA2CompressionSettings.Method property
+
+압축 또는 압축 해제 방법을 가져옵니다.
+
+```csharp
+public override SevenZipCompressionMethod Method { get; }
+```
+
+### 또한보십시오
+
+* enum [SevenZipCompressionMethod](../../sevenzipcompressionmethod/)
+* class [SevenZipLZMA2CompressionSettings](../)
+* 네임스페이스 [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings/)
+* 집회 [Aspose.Zip](../../../)
+
+

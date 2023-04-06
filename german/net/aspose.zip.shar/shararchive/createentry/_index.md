@@ -1,0 +1,155 @@
+---
+title: SharArchive.CreateEntry
+second_title: Aspose.ZIP für .NET-API-Referenz
+description: SharArchive methode. Einzelner Eintrag im Archiv erstellen.
+type: docs
+weight: 40
+url: /de/net/aspose.zip.shar/shararchive/createentry/
+---
+## CreateEntry(string, FileInfo, bool) {#createentry}
+
+Einzelner Eintrag im Archiv erstellen.
+
+```csharp
+public SharEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| name | String | Der Name des Eintrags. |
+| fileInfo | FileInfo | Die Metadaten der zu komprimierenden Datei oder des Ordners. |
+| openImmediately | Boolean | Wahr, wenn die Datei sofort geöffnet wird, andernfalls die Datei beim Archivspeichern öffnen. |
+
+### Rückgabewert
+
+Instanz des Shar-Eintrags.
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentNullException | *name* ist Null. |
+| ArgumentException | *name* ist leer. |
+| ArgumentNullException | *fileInfo* ist Null. |
+
+### Bemerkungen
+
+Wird die Datei sofort mit geöffnet*openImmediately*Parameter wird es blockiert, bis das Archiv entsorgt wird.
+
+### Beispiele
+
+```csharp
+FileInfo fileInfo = new FileInfo("data.bin");
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("test.bin", fileInfo);
+    archive.Save("archive.shar");
+}
+```
+
+### Siehe auch
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* namensraum [Aspose.Zip.Shar](../../shararchive/)
+* Montage [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, string, bool) {#createentry_2}
+
+Einzelner Eintrag im Archiv erstellen.
+
+```csharp
+public SharEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| name | String | Der Name des Eintrags. |
+| sourcePath | String | Pfad zur zu komprimierenden Datei. |
+| openImmediately | Boolean | Wahr, wenn die Datei sofort geöffnet wird, andernfalls die Datei beim Archivspeichern öffnen. |
+
+### Rückgabewert
+
+Instanz des Shar-Eintrags.
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentNullException | *sourcePath* ist Null. |
+| SecurityException | Der Anrufer verfügt nicht über die erforderliche Zugriffsberechtigung. |
+| ArgumentException | Der*sourcePath* leer ist, nur Leerzeichen enthält oder ungültige Zeichen enthält. - oder - Dateiname, als Teil von*name*, überschreitet 100 Symbole. |
+| UnauthorizedAccessException | Zugriff auf Datei*sourcePath* ist abgelehnt. |
+| PathTooLongException | Die angegebene*sourcePath* , Dateiname oder beide überschreiten die vom System definierte maximale Länge. Beispielsweise müssen auf Windows-basierten Plattformen Pfade weniger als 248 Zeichen und Dateinamen weniger als 260 Zeichen umfassen. - oder -*name* ist zu lang für Shar. |
+| NotSupportedException | Datei unter*sourcePath* enthält einen Doppelpunkt (:) in der Mitte der Zeichenfolge. |
+
+### Bemerkungen
+
+Der Eintragsname wird ausschließlich innerhalb gesetzt*name* Parameter. Der Dateiname, der in bereitgestellt wird*sourcePath* Parameter wirkt sich nicht auf den Eintragsnamen aus.
+
+Wird die Datei sofort mit geöffnet*openImmediately*Parameter wird es blockiert, bis das Archiv entsorgt wird.
+
+### Beispiele
+
+```csharp
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("first.bin", "data.bin");
+    archive.Save("archive.shar");
+}
+```
+
+### Siehe auch
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* namensraum [Aspose.Zip.Shar](../../shararchive/)
+* Montage [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Stream) {#createentry_1}
+
+Einzelner Eintrag im Archiv erstellen.
+
+```csharp
+public SharEntry CreateEntry(string name, Stream source)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| name | String | Der Name des Eintrags. |
+| source | Stream | Der Eingabestream für den Eintrag. |
+
+### Rückgabewert
+
+Instanz des Shar-Eintrags.
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentNullException | *name* ist Null. |
+| ArgumentNullException | *source* ist Null. |
+| ArgumentException | *name* ist leer. |
+
+### Beispiele
+
+```csharp
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("data.bin", File.OpenRead("data.bin"));
+    archive.Save("archive.shar");
+}
+```
+
+### Siehe auch
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* namensraum [Aspose.Zip.Shar](../../shararchive/)
+* Montage [Aspose.Zip](../../../)
+
+

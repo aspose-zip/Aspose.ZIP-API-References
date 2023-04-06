@@ -1,0 +1,52 @@
+---
+title: SevenZipArchive.ExtractToDirectory
+second_title: Aspose.ZIP voor .NET API-referentie
+description: SevenZipArchive methode. Pakt alle bestanden in het archief uit naar de opgegeven map.
+type: docs
+weight: 70
+url: /nl/net/aspose.zip.sevenzip/sevenziparchive/extracttodirectory/
+---
+## SevenZipArchive.ExtractToDirectory method
+
+Pakt alle bestanden in het archief uit naar de opgegeven map.
+
+```csharp
+public void ExtractToDirectory(string destinationDirectory, string password = null)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| destinationDirectory | String | Het pad naar de map om de uitgepakte bestanden in te plaatsen. |
+| password | String | Optioneel wachtwoord voor decodering. |
+
+### Uitzonderingen
+
+| uitzondering | voorwaarde |
+| --- | --- |
+| ArgumentNullException | *destinationDirectory* is niets. |
+| PathTooLongException | Het opgegeven pad, de bestandsnaam of beide overschrijden de door het systeem gedefinieerde maximale lengte. Op Windows-gebaseerde platforms moeten paden bijvoorbeeld uit minder dan 248 tekens bestaan en moeten bestandsnamen uit minder dan 260 tekens bestaan. |
+| SecurityException | De beller heeft niet de vereiste toestemming om toegang te krijgen tot de bestaande telefoonlijst. |
+| NotSupportedException | Als de directory niet bestaat, bevat het pad een dubbele punt (:) dat geen deel uitmaakt van een stationslabel ("C:\"). |
+| ArgumentException | *destinationDirectory* is een tekenreeks met de lengte nul, bevat alleen witruimte of bevat een of meer ongeldige tekens. U kunt zoeken naar ongeldige tekens met behulp van de methode System.IO.Path.GetInvalidPathChars. -of- pad wordt voorafgegaan door of bevat alleen een dubbele punt (:). |
+| IOException | De map gespecificeerd door pad is een bestand. -of- De netwerknaam is niet bekend. |
+
+### Opmerkingen
+
+Als de directory niet bestaat, wordt deze aangemaakt.
+
+### Voorbeelden
+
+```csharp
+using (var archive = new SevenZipArchive("archive.7z")) 
+{ 
+   archive.ExtractToDirectory("C:\extracted");
+}
+```
+
+### Zie ook
+
+* class [SevenZipArchive](../)
+* naamruimte [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* montage [Aspose.Zip](../../../)
+
+

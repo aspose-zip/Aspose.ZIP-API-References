@@ -1,0 +1,155 @@
+---
+title: SharArchive.CreateEntry
+second_title: Aspose.ZIP för .NET API-referens
+description: SharArchive metod. Skapa en enskild post i arkivet.
+type: docs
+weight: 40
+url: /sv/net/aspose.zip.shar/shararchive/createentry/
+---
+## CreateEntry(string, FileInfo, bool) {#createentry}
+
+Skapa en enskild post i arkivet.
+
+```csharp
+public SharEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| name | String | Namnet på posten. |
+| fileInfo | FileInfo | Metadata för fil eller mapp som ska komprimeras. |
+| openImmediately | Boolean | Sant om du öppnar filen omedelbart, annars öppnar du filen när du sparar arkivet. |
+
+### Returvärde
+
+Shar-inträdesinstans.
+
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentNullException | *name* är inget. |
+| ArgumentException | *name* är tom. |
+| ArgumentNullException | *fileInfo* är inget. |
+
+### Anmärkningar
+
+Om filen öppnas omedelbart med*openImmediately*parametern blockeras den tills arkivet kasseras.
+
+### Exempel
+
+```csharp
+FileInfo fileInfo = new FileInfo("data.bin");
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("test.bin", fileInfo);
+    archive.Save("archive.shar");
+}
+```
+
+### Se även
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* namnutrymme [Aspose.Zip.Shar](../../shararchive/)
+* hopsättning [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, string, bool) {#createentry_2}
+
+Skapa en enskild post i arkivet.
+
+```csharp
+public SharEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| name | String | Namnet på posten. |
+| sourcePath | String | Sökväg till fil som ska komprimeras. |
+| openImmediately | Boolean | Sant om du öppnar filen omedelbart, annars öppnar du filen när du sparar arkivet. |
+
+### Returvärde
+
+Shar-inträdesinstans.
+
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentNullException | *sourcePath* är inget. |
+| SecurityException | Den som ringer har inte den behörighet som krävs för att få åtkomst. |
+| ArgumentException | De*sourcePath* är tom, innehåller bara blanksteg eller innehåller ogiltiga tecken. - eller - Filnamn, som en del av*name*, överstiger 100 symboler. |
+| UnauthorizedAccessException | Tillgång till fil*sourcePath* är nekad. |
+| PathTooLongException | Den angivna*sourcePath* , filnamn eller båda överskrider den systemdefinierade maximala längden. Till exempel, på Windows-baserade plattformar måste sökvägar vara mindre än 248 tecken och filnamn måste vara mindre än 260 tecken. - eller -*name* är för lång för shar. |
+| NotSupportedException | Arkivera kl*sourcePath* innehåller ett kolon (:) i mitten av strängen. |
+
+### Anmärkningar
+
+Postens namn anges endast inom*name* parameter. Filnamnet som anges i*sourcePath* parametern påverkar inte postens namn.
+
+Om filen öppnas omedelbart med*openImmediately*parametern blockeras den tills arkivet kasseras.
+
+### Exempel
+
+```csharp
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("first.bin", "data.bin");
+    archive.Save("archive.shar");
+}
+```
+
+### Se även
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* namnutrymme [Aspose.Zip.Shar](../../shararchive/)
+* hopsättning [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Stream) {#createentry_1}
+
+Skapa en enskild post i arkivet.
+
+```csharp
+public SharEntry CreateEntry(string name, Stream source)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| name | String | Namnet på posten. |
+| source | Stream | Ingångsströmmen för posten. |
+
+### Returvärde
+
+Shar-inträdesinstans.
+
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentNullException | *name* är inget. |
+| ArgumentNullException | *source* är inget. |
+| ArgumentException | *name* är tom. |
+
+### Exempel
+
+```csharp
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("data.bin", File.OpenRead("data.bin"));
+    archive.Save("archive.shar");
+}
+```
+
+### Se även
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* namnutrymme [Aspose.Zip.Shar](../../shararchive/)
+* hopsättning [Aspose.Zip](../../../)
+
+

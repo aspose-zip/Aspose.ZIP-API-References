@@ -1,14 +1,14 @@
 ---
-title: CreateEntry
+title: Archive.CreateEntry
 second_title: Aspose.ZIP for .NET API Referansı
-description: Arşiv içinde tek bir giriş oluşturun.
+description: Archive yöntem. Arşiv içinde tek giriş oluşturun.
 type: docs
 weight: 50
 url: /tr/net/aspose.zip/archive/createentry/
 ---
 ## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_3}
 
-Arşiv içinde tek bir giriş oluşturun.
+Arşiv içinde tek giriş oluşturun.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, string path, bool openImmediately = false, 
@@ -19,8 +19,8 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | --- | --- | --- |
 | name | String | Girişin adı. |
 | path | String | Yeni dosyanın tam adı veya sıkıştırılacak ilgili dosya adı. |
-| openImmediately | Boolean | Dosyayı hemen açarsanız doğru, aksi takdirde dosyayı arşiv kaydında açın. |
-| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry) öğe. |
+| openImmediately | Boolean | Dosyayı hemen açarsanız doğrudur, aksi takdirde dosyayı arşive kaydederken açın. |
+| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry/) öğe. |
 
 ### Geri dönüş değeri
 
@@ -31,17 +31,17 @@ Zip girişi örneği.
 | istisna | şart |
 | --- | --- |
 | ArgumentNullException | *path* boş. |
-| SecurityException | Arayan, erişim için gerekli izne sahip değil |
-| ArgumentException | bu*path* boş, yalnızca boşluk içeriyor veya geçersiz karakterler içeriyor. |
-| UnauthorizedAccessException | Dosyaya erişim*path* engellendi. |
-| PathTooLongException | Belirtilmiş*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden ve dosya adları 260 karakterden az olmalıdır. |
-| NotSupportedException | Dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
+| SecurityException | Arayan, erişim için gerekli izne sahip değil. |
+| ArgumentException | bu*path* boş, yalnızca beyaz boşluklar içeriyor veya geçersiz karakterler içeriyor. |
+| UnauthorizedAccessException | dosyaya erişim*path* engellendi. |
+| PathTooLongException | Belirtilen*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden, dosya adları ise 260 karakterden kısa olmalıdır. |
+| NotSupportedException | dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
 
 ### Notlar
 
-Giriş adı yalnızca*name* parametre. İçinde sağlanan dosya adı*path* parametre giriş adını etkilemez.
+Giriş adı yalnızca içinde ayarlanır*name* parametre. Verilen dosya adı*path* parametre giriş adını etkilemez.
 
-Dosya ile hemen açılırsa*openImmediately* parametre, arşiv kaydedilene kadar engellenir.
+Dosya ile hemen açılırsa*openImmediately* parametresi, arşiv kaydedilene kadar bloke olur.
 
 ### Örnekler
 
@@ -58,17 +58,17 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Ayrıca bakınız
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* ad alanı [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* ad alanı [Aspose.Zip](../../archive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_1}
 
-Arşiv içinde tek bir giriş oluşturun.
+Arşiv içinde tek giriş oluşturun.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, 
@@ -79,7 +79,7 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Girişin adı. |
 | source | Stream | Giriş için giriş akışı. |
-| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry) öğe. |
+| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry/) öğe. |
 
 ### Geri dönüş değeri
 
@@ -97,17 +97,17 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ### Ayrıca bakınız
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* ad alanı [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* ad alanı [Aspose.Zip](../../archive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry}
 
-Arşiv içinde tek bir giriş oluşturun.
+Arşiv içinde tek giriş oluşturun.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false, 
@@ -118,8 +118,8 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | --- | --- | --- |
 | name | String | Girişin adı. |
 | fileInfo | FileInfo | Sıkıştırılacak dosyanın meta verileri. |
-| openImmediately | Boolean | Dosyayı hemen açarsanız doğru, aksi takdirde dosyayı arşiv kaydında açın. |
-| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry) öğe. |
+| openImmediately | Boolean | Dosyayı hemen açarsanız doğrudur, aksi takdirde dosyayı arşive kaydederken açın. |
+| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry/) öğe. |
 
 ### Geri dönüş değeri
 
@@ -130,14 +130,14 @@ Zip girişi örneği.
 | istisna | şart |
 | --- | --- |
 | UnauthorizedAccessException | *fileInfo* salt okunurdur veya bir dizindir. |
-| DirectoryNotFoundException | Belirtilen yol, eşlenmemiş bir sürücüde olmak gibi geçersiz. |
+| DirectoryNotFoundException | Eşlenmemiş bir sürücüde olmak gibi, belirtilen yol geçersiz. |
 | IOException | Dosya zaten açık. |
 
 ### Notlar
 
-Giriş adı yalnızca*name* parametre. İçinde sağlanan dosya adı*fileInfo* parametre giriş adını etkilemez.
+Giriş adı yalnızca içinde ayarlanır*name* parametre. Verilen dosya adı*fileInfo* parametre giriş adını etkilemez.
 
-Dosya ile hemen açılırsa*openImmediately* parametre, arşiv kaydedilene kadar engellenir.
+Dosya ile hemen açılırsa*openImmediately* parametresi, arşiv kaydedilene kadar bloke olur.
 
 ### Örnekler
 
@@ -161,17 +161,17 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Ayrıca bakınız
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* ad alanı [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* ad alanı [Aspose.Zip](../../archive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_2}
 
-Arşiv içinde tek bir giriş oluşturun.
+Arşiv içinde tek giriş oluşturun.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings newEntrySettings, 
@@ -182,7 +182,7 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | --- | --- | --- |
 | name | String | Girişin adı. |
 | source | Stream | Giriş için giriş akışı. |
-| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry) öğe. |
+| newEntrySettings | ArchiveEntrySettings | Eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry/) öğe. |
 | fileInfo | FileSystemInfo | Sıkıştırılacak dosya veya klasörün meta verileri. |
 
 ### Geri dönüş değeri
@@ -193,11 +193,11 @@ Zip girişi örneği.
 
 | istisna | şart |
 | --- | --- |
-| InvalidOperationException | İkisi birden*source* ve*fileInfo* boş veya*source* boş ve*fileInfo* dizin anlamına gelir. |
+| InvalidOperationException | İkisi birden*source* Ve*fileInfo* boş veya*source*boş ve*fileInfo* dizin anlamına gelir. |
 
 ### Notlar
 
-Giriş adı yalnızca*name* parametre. İçinde sağlanan dosya adı*fileInfo* parametre giriş adını etkilemez.
+Giriş adı yalnızca içinde ayarlanır*name* parametre. Verilen dosya adı*fileInfo* parametre giriş adını etkilemez.
 
 *fileInfo* başvurabilirDirectoryInfo giriş dizin ise.
 
@@ -218,10 +218,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Ayrıca bakınız
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* ad alanı [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* ad alanı [Aspose.Zip](../../archive/)
 * toplantı [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

@@ -1,0 +1,101 @@
+---
+title: SharArchive.CreateEntries
+second_title: Aspose.ZIP для справочника API .NET
+description: SharArchive метод. Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+type: docs
+weight: 30
+url: /ru/net/aspose.zip.shar/shararchive/createentries/
+---
+## CreateEntries(string, bool) {#createentries_1}
+
+Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+
+```csharp
+public SharArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| sourceDirectory | String | Каталог для сжатия. |
+| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+
+### Возвращаемое значение
+
+Экземпляр записи Shar.
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | *sourceDirectory* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*sourceDirectory*. |
+| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt; или &#x7C;. |
+| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. Указанный путь, имя файла или оба слишком длинные. |
+| IOException | *sourceDirectory* означает файл, а не каталог. |
+
+### Примеры
+
+```csharp
+using (FileStream sharFile = File.Open("archive.shar", FileMode.Create))
+{
+    using (var archive = new SharArchive())
+    {
+        archive.CreateEntries("C:\folder", false);
+        archive.Save(sharFile);
+    }
+}
+```
+
+### Смотрите также
+
+* class [SharArchive](../)
+* пространство имен [Aspose.Zip.Shar](../../shararchive/)
+* сборка [Aspose.Zip](../../../)
+
+---
+
+## CreateEntries(DirectoryInfo, bool) {#createentries}
+
+Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+
+```csharp
+public SharArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| directory | DirectoryInfo | Каталог для сжатия. |
+| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+
+### Возвращаемое значение
+
+Экземпляр записи Shar.
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | *directory* нулевой. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*directory*. |
+| IOException | *directory* означает файл, а не каталог. |
+
+### Примеры
+
+```csharp
+using (FileStream sharFile = File.Open("archive.shar", FileMode.Create))
+{
+    using (var archive = new SharArchive())
+    {
+        archive.CreateEntries(new DirectoryInfo("C:\folder"), false);
+        archive.Save(sharFile);
+    }
+}
+```
+
+### Смотрите также
+
+* class [SharArchive](../)
+* пространство имен [Aspose.Zip.Shar](../../shararchive/)
+* сборка [Aspose.Zip](../../../)
+
+

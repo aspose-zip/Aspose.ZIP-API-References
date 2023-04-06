@@ -1,0 +1,23 @@
+---
+title: WimArchive.Dispose
+second_title: Aspose.ZIP for .NET API リファレンス
+description: WimArchive 方法. アンマネージ リソースの解放解放またはリセットに関連するアプリケーション定義のタスクを実行します
+type: docs
+weight: 70
+url: /ja/net/aspose.zip.wim/wimarchive/dispose/
+---
+## WimArchive.Dispose method
+
+アンマネージ リソースの解放、解放、またはリセットに関連するアプリケーション定義のタスクを実行します。
+
+```csharp
+public void Dispose()
+```
+
+### 関連項目
+
+* class [WimArchive](../)
+* 名前空間 [Aspose.Zip.Wim](../../wimarchive/)
+* 組み立て [Aspose.Zip](../../../)
+
+

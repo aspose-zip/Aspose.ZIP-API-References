@@ -1,9 +1,9 @@
 ---
-title: WimFileEntry
+title: Class WimFileEntry
 second_title: Referencia de la API de Aspose.ZIP para .NET
-description: Representa un solo archivo dentro del archivo wim.
+description: Aspose.Zip.Wim.WimFileEntry clase. Representa un solo archivo dentro del archivo wim.
 type: docs
-weight: 660
+weight: 790
 url: /es/net/aspose.zip.wim/wimfileentry/
 ---
 ## WimFileEntry class
@@ -11,43 +11,44 @@ url: /es/net/aspose.zip.wim/wimfileentry/
 Representa un solo archivo dentro del archivo wim.
 
 ```csharp
-public sealed class WimFileEntry : WimEntry
+public sealed class WimFileEntry : WimEntry, IArchiveFileEntry
 ```
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams) { get; } | Obtiene los nombres de los flujos de datos alternativos para un archivo o directorio. |
-| [Archive](../../aspose.zip.wim/wimentry/archive) { get; } | Obtiene el archivo al que pertenece la entrada. |
-| [ChangeTime](../../aspose.zip.wim/wimentry/changetime) { get; } | Obtiene la última vez que se cambió el archivo o directorio. |
-| [CreationTime](../../aspose.zip.wim/wimentry/creationtime) { get; } | Obtiene la hora de creación del archivo o directorio. |
-| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes) { get; } | Obtiene los atributos del archivo o directorio. |
-| [FullPath](../../aspose.zip.wim/wimentry/fullpath) { get; } | Obtiene la ruta completa de la entrada dentro de la imagen. |
-| [HardLink](../../aspose.zip.wim/wimentry/hardlink) { get; } | Obtiene la identificación del enlace fijo del archivo o directorio. |
-| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks) { get; } | Obtiene si el archivo o directorio es conocido por otros nombres. |
-| [Image](../../aspose.zip.wim/wimentry/image) { get; } | Obtiene la imagen a la que pertenece la entrada. |
-| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory) { get; } | Obtiene un valor que indica si la entrada representa el directorio. |
-| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime) { get; } | Obtiene la hora del último acceso al archivo o directorio. |
-| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime) { get; } | Obtiene la hora de modificación del archivo o directorio. |
-| [Length](../../aspose.zip.wim/wimfileentry/length) { get; } | Obtiene la longitud de la entrada en bytes. |
-| [Name](../../aspose.zip.wim/wimentry/name) { get; } | Obtiene el nombre de la entrada dentro de la imagen. |
-| [Parent](../../aspose.zip.wim/wimentry/parent) { get; } | Obtiene el directorio padre al que pertenece la entrada. |
-| [ShortName](../../aspose.zip.wim/wimentry/shortname) { get; } | Obtiene el nombre corto de la entrada dentro de la imagen. |
+| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams/) { get; } | Obtiene los nombres de los flujos de datos alternativos para un archivo o directorio. |
+| [Archive](../../aspose.zip.wim/wimentry/archive/) { get; } | Obtiene el archivo al que pertenece la entrada. |
+| [ChangeTime](../../aspose.zip.wim/wimentry/changetime/) { get; } | Obtiene la última vez que se cambió el archivo o directorio. |
+| [CreationTime](../../aspose.zip.wim/wimentry/creationtime/) { get; } | Obtiene la hora de creación del archivo o directorio. |
+| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes/) { get; } | Obtiene los atributos del archivo o directorio. |
+| [FullPath](../../aspose.zip.wim/wimentry/fullpath/) { get; } | Obtiene la ruta completa de la entrada dentro de la imagen. |
+| [HardLink](../../aspose.zip.wim/wimentry/hardlink/) { get; } | Obtiene la identificación del enlace fijo del archivo o directorio. |
+| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks/) { get; } | Obtiene si el archivo o directorio es conocido por otros nombres. |
+| [Image](../../aspose.zip.wim/wimentry/image/) { get; } | Obtiene la imagen a la que pertenece la entrada. |
+| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | Obtiene un valor que indica si la entrada representa el directorio. |
+| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime/) { get; } | Obtiene la hora del último acceso al archivo o directorio. |
+| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime/) { get; } | Obtiene la hora de modificación del archivo o directorio. |
+| [Length](../../aspose.zip.wim/wimfileentry/length/) { get; } | Obtiene la longitud de la entrada en bytes. |
+| [Name](../../aspose.zip.wim/wimentry/name/) { get; } | Obtiene el nombre de la entrada dentro de la imagen. |
+| [Parent](../../aspose.zip.wim/wimentry/parent/) { get; } | Obtiene el directorio padre al que pertenece la entrada. |
+| [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | Obtiene el nombre corto de la entrada dentro de la imagen. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Extract](../../aspose.zip.wim/wimfileentry/extract#extract_1)(Stream) | Extrae la entrada al flujo proporcionado. |
-| [Extract](../../aspose.zip.wim/wimfileentry/extract#extract)(string) | Extrae la entrada al sistema de archivos por la ruta proporcionada. |
-| [Open](../../aspose.zip.wim/wimfileentry/open)() | Abre la entrada para la extracción y proporciona una secuencia con el contenido de la entrada. |
-| override [ToString](../../aspose.zip.wim/wimentry/tostring)() |  |
+| [Extract](../../aspose.zip.wim/wimfileentry/extract/#extract_1)(Stream) | Extrae la entrada al flujo proporcionado. |
+| [Extract](../../aspose.zip.wim/wimfileentry/extract/#extract)(string) | Extrae la entrada al sistema de archivos por la ruta proporcionada. |
+| [Open](../../aspose.zip.wim/wimfileentry/open/)() | Abre la entrada para la extracción y proporciona una secuencia con el contenido de la entrada. |
+| override [ToString](../../aspose.zip.wim/wimentry/tostring/)() |  |
 
 ### Ver también
 
-* class [WimEntry](../wimentry)
-* espacio de nombres [Aspose.Zip.Wim](../../aspose.zip.wim)
+* class [WimEntry](../wimentry/)
+* interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
+* espacio de nombres [Aspose.Zip.Wim](../../aspose.zip.wim/)
 * asamblea [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

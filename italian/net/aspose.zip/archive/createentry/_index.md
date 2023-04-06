@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: Archive.CreateEntry
 second_title: Riferimento API Aspose.ZIP per .NET
-description: Crea una singola voce allinterno dellarchivio.
+description: Archive metodo. Crea una singola voce allinterno dellarchivio.
 type: docs
 weight: 50
 url: /it/net/aspose.zip/archive/createentry/
@@ -19,29 +19,29 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | --- | --- | --- |
 | name | String | Il nome della voce. |
 | path | String | Il nome completo del nuovo file o il relativo nome del file da comprimere. |
-| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio dell'archivio. |
-| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry) elemento. |
+| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio in archivio. |
+| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry/) articolo. |
 
 ### Valore di ritorno
 
-Istanza di immissione zip.
+Istanza di ingresso zip.
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
 | ArgumentNullException | *path* è zero. |
-| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per accedere |
-| ArgumentException | Il*path* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. |
-| UnauthorizedAccessException | Accesso al file*path* è negato. |
-| PathTooLongException | Il specificato*path*, il nome del file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, sulle piattaforme basate su Windows, i percorsi devono essere inferiori a 248 caratteri e i nomi dei file devono essere inferiori a 260 caratteri. |
-| NotSupportedException | Archivia a*path* contiene due punti (:) al centro della stringa. |
+| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per l'accesso. |
+| ArgumentException | IL*path* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. |
+| UnauthorizedAccessException | Accesso all'archivio*path* è negato. |
+| PathTooLongException | Il specificato*path*, nome file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, su piattaforme basate su Windows, i percorsi devono contenere meno di 248 caratteri ei nomi file devono contenere meno di 260 caratteri. |
+| NotSupportedException | File a*path* contiene i due punti (:) al centro della stringa. |
 
 ### Osservazioni
 
 Il nome della voce è impostato esclusivamente all'interno*name* parametro. Il nome del file fornito in*path* parametro non influisce sul nome della voce.
 
-Se il file viene aperto immediatamente con*openImmediately* parametro viene bloccato fino al salvataggio dell'archivio.
+Se il file viene aperto immediatamente con*openImmediately* parametro diventa bloccato fino al salvataggio dell'archivio.
 
 ### Esempi
 
@@ -58,10 +58,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Guarda anche
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* spazio dei nomi [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* spazio dei nomi [Aspose.Zip](../../archive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
@@ -79,11 +79,11 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Il nome della voce. |
 | source | Stream | Il flusso di input per la voce. |
-| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry) elemento. |
+| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry/) articolo. |
 
 ### Valore di ritorno
 
-Istanza di immissione zip.
+Istanza di ingresso zip.
 
 ### Esempi
 
@@ -97,10 +97,10 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ### Guarda anche
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* spazio dei nomi [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* spazio dei nomi [Aspose.Zip](../../archive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
@@ -118,30 +118,30 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | --- | --- | --- |
 | name | String | Il nome della voce. |
 | fileInfo | FileInfo | I metadati del file da comprimere. |
-| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio dell'archivio. |
-| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry) elemento. |
+| openImmediately | Boolean | Vero se apri il file immediatamente, altrimenti apri il file al salvataggio in archivio. |
+| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry/) articolo. |
 
 ### Valore di ritorno
 
-Istanza di immissione zip.
+Istanza di ingresso zip.
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
 | UnauthorizedAccessException | *fileInfo* è di sola lettura o è una directory. |
-| DirectoryNotFoundException | Il percorso specificato non è valido, ad esempio su un'unità non mappata. |
+| DirectoryNotFoundException | Il percorso specificato non è valido, ad esempio si trova su un'unità non mappata. |
 | IOException | Il file è già aperto. |
 
 ### Osservazioni
 
 Il nome della voce è impostato esclusivamente all'interno*name* parametro. Il nome del file fornito in*fileInfo* parametro non influisce sul nome della voce.
 
-Se il file viene aperto immediatamente con*openImmediately* parametro viene bloccato fino al salvataggio dell'archivio.
+Se il file viene aperto immediatamente con*openImmediately* parametro diventa bloccato fino al salvataggio dell'archivio.
 
 ### Esempi
 
-Componi l'archivio con voci crittografate con diversi metodi di crittografia e password ciascuna.
+Componi un archivio con voci crittografate con diversi metodi di crittografia e password ciascuno.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -161,10 +161,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Guarda anche
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* spazio dei nomi [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* spazio dei nomi [Aspose.Zip](../../archive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
@@ -182,24 +182,24 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 | --- | --- | --- |
 | name | String | Il nome della voce. |
 | source | Stream | Il flusso di input per la voce. |
-| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry) elemento. |
-| fileInfo | FileSystemInfo | metadati del file o della cartella da comprimere. |
+| newEntrySettings | ArchiveEntrySettings | Impostazioni di compressione e crittografia utilizzate per l'aggiunta[`ArchiveEntry`](../../archiveentry/) articolo. |
+| fileInfo | FileSystemInfo | I metadati del file o della cartella da comprimere. |
 
 ### Valore di ritorno
 
-Istanza di immissione zip.
+Istanza di ingresso zip.
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | Tutti e due*source* e*fileInfo* sono nulli o*source* è nullo e*fileInfo* sta per directory. |
+| InvalidOperationException | Entrambi*source* E*fileInfo* sono nulli o*source*è nullo e*fileInfo* sta per directory. |
 
 ### Osservazioni
 
 Il nome della voce è impostato esclusivamente all'interno*name* parametro. Il nome del file fornito in*fileInfo* parametro non influisce sul nome della voce.
 
-*fileInfo* può fare riferimentoDirectoryInfo se la voce è directory.
+*fileInfo* può fare riferimento aDirectoryInfo se la voce è directory.
 
 ### Esempi
 
@@ -218,10 +218,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Guarda anche
 
-* class [ArchiveEntry](../../archiveentry)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* spazio dei nomi [Aspose.Zip](../../archive)
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* spazio dei nomi [Aspose.Zip](../../archive/)
 * assemblea [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

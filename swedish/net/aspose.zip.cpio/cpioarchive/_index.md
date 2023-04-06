@@ -1,9 +1,9 @@
 ---
-title: CpioArchive
+title: Class CpioArchive
 second_title: Aspose.ZIP för .NET API-referens
-description: Den här klassen representerar cpioarkivfilen.
+description: Aspose.Zip.Cpio.CpioArchive klass. Den här klassen representerar cpioarkivfilen.
 type: docs
-weight: 120
+weight: 160
 url: /sv/net/aspose.zip.cpio/cpioarchive/
 ---
 ## CpioArchive class
@@ -11,46 +11,47 @@ url: /sv/net/aspose.zip.cpio/cpioarchive/
 Den här klassen representerar cpio-arkivfilen.
 
 ```csharp
-public class CpioArchive : IDisposable
+public class CpioArchive : IArchive
 ```
 
 ## Konstruktörer
 
 | namn | Beskrivning |
 | --- | --- |
-| [CpioArchive](cpioarchive#constructor)() | Initierar en ny instans av[`CpioArchive`](../cpioarchive) class. |
-| [CpioArchive](cpioarchive#constructor_1)(Stream) | Initierar en ny instans av[`CpioArchive`](../cpioarchive) klass och komponerar poster lista kan extraheras från arkivet. |
-| [CpioArchive](cpioarchive#constructor_2)(string) | Initierar en ny instans av[`CpioArchive`](../cpioarchive) klass och komponerar poster lista kan extraheras från arkivet. |
+| [CpioArchive](cpioarchive/#constructor)() | Initierar en ny instans av`CpioArchive` class. |
+| [CpioArchive](cpioarchive/#constructor_1)(Stream) | Initierar en ny instans av`CpioArchive` klass och komponerar poster lista kan extraheras från arkivet. |
+| [CpioArchive](cpioarchive/#constructor_2)(string) | Initierar en ny instans av`CpioArchive` klass och komponerar poster lista kan extraheras från arkivet. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Entries](../../aspose.zip.cpio/cpioarchive/entries) { get; } | Hämtar poster av[`CpioEntry`](../cpioentry) typ som utgör arkivet. |
+| [Entries](../../aspose.zip.cpio/cpioarchive/entries/) { get; } | Hämtar poster av[`CpioEntry`](../cpioentry/) typ som utgör arkivet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries#createentries)(DirectoryInfo, bool) | Lägger till alla filer och kataloger i arkivet rekursivt i den angivna katalogen. |
-| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries#createentries_1)(string, bool) | Lägger till alla filer och kataloger i arkivet rekursivt i den angivna katalogen. |
-| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry#createentry_1)(string, Stream) | Skapa en enskild post i arkivet. |
-| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry#createentry)(string, FileInfo, bool) | Skapa en enskild post i arkivet. |
-| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry#createentry_2)(string, string, bool) | Skapa en enskild post i arkivet. |
-| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry#deleteentry)(CpioEntry) | Tar bort den första förekomsten av en specifik post från postlistan. |
-| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry#deleteentry_1)(int) | Tar bort posten från postlistan efter index. |
-| [Dispose](../../aspose.zip.cpio/cpioarchive/dispose)() | Utför programdefinierade uppgifter associerade med att frigöra, frigöra eller återställa ohanterade resurser. |
-| [ExtractToDirectory](../../aspose.zip.cpio/cpioarchive/extracttodirectory)(string) | Extraherar alla filer i arkivet till den angivna katalogen. |
-| [Save](../../aspose.zip.cpio/cpioarchive/save#save)(Stream, CpioFormat) | Sparar arkivet i den tillhandahållna strömmen. |
-| [Save](../../aspose.zip.cpio/cpioarchive/save#save_1)(string, CpioFormat) | Sparar arkiv till destinationsfil som tillhandahålls. |
-| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped#savegzipped)(Stream, CpioFormat) | Sparar arkiv i strömmen med gzip-komprimering. |
-| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped#savegzipped_1)(string, CpioFormat) | Sparar arkiv till filen efter sökväg med gzip-komprimering. |
-| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed#savexzcompressed)(Stream, CpioFormat, XzArchiveSettings) | Sparar arkiv till strömmen med xz-komprimering. |
-| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed#savexzcompressed_1)(string, CpioFormat, XzArchiveSettings) | Sparar arkiv till sökvägen för sökväg med xz-komprimering. |
+| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries/#createentries)(DirectoryInfo, bool) | Lägger till alla filer och kataloger i arkivet rekursivt i den angivna katalogen. |
+| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries/#createentries_1)(string, bool) | Lägger till alla filer och kataloger i arkivet rekursivt i den angivna katalogen. |
+| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry/#createentry_1)(string, Stream) | Skapa en enskild post i arkivet. |
+| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry/#createentry)(string, FileInfo, bool) | Skapa en enskild post i arkivet. |
+| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry/#createentry_2)(string, string, bool) | Skapa en enskild post i arkivet. |
+| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry/#deleteentry)(CpioEntry) | Tar bort den första förekomsten av en specifik post från postlistan. |
+| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry/#deleteentry_1)(int) | Tar bort posten från postlistan efter index. |
+| [Dispose](../../aspose.zip.cpio/cpioarchive/dispose/)() | Utför programdefinierade uppgifter associerade med att frigöra, frigöra eller återställa ohanterade resurser. |
+| [ExtractToDirectory](../../aspose.zip.cpio/cpioarchive/extracttodirectory/)(string) | Extraherar alla filer i arkivet till den angivna katalogen. |
+| [Save](../../aspose.zip.cpio/cpioarchive/save/#save)(Stream, CpioFormat) | Sparar arkivet i den tillhandahållna strömmen. |
+| [Save](../../aspose.zip.cpio/cpioarchive/save/#save_1)(string, CpioFormat) | Sparar arkiv till destinationsfil som tillhandahålls. |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped/#savegzipped)(Stream, CpioFormat) | Sparar arkiv i strömmen med gzip-komprimering. |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped/#savegzipped_1)(string, CpioFormat) | Sparar arkiv till filen efter sökväg med gzip-komprimering. |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed/#savexzcompressed)(Stream, CpioFormat, XzArchiveSettings) | Sparar arkiv till strömmen med xz-komprimering. |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed/#savexzcompressed_1)(string, CpioFormat, XzArchiveSettings) | Sparar arkiv till sökvägen för sökväg med xz-komprimering. |
 
 ### Se även
 
-* namnutrymme [Aspose.Zip.Cpio](../../aspose.zip.cpio)
+* interface [IArchive](../../aspose.zip/iarchive/)
+* namnutrymme [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
 * hopsättning [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

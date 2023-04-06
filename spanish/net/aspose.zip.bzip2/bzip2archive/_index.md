@@ -1,9 +1,9 @@
 ---
-title: Bzip2Archive
+title: Class Bzip2Archive
 second_title: Referencia de la API de Aspose.ZIP para .NET
-description: Esta clase representa el archivo de almacenamiento bzip2. Úselo para componer o extraer archivos bzip2.
+description: Aspose.Zip.Bzip2.Bzip2Archive clase. Esta clase representa el archivo de almacenamiento bzip2. Úselo para componer o extraer archivos bzip2.
 type: docs
-weight: 60
+weight: 100
 url: /es/net/aspose.zip.bzip2/bzip2archive/
 ---
 ## Bzip2Archive class
@@ -11,31 +11,31 @@ url: /es/net/aspose.zip.bzip2/bzip2archive/
 Esta clase representa el archivo de almacenamiento bzip2. Úselo para componer o extraer archivos bzip2.
 
 ```csharp
-public class Bzip2Archive : IDisposable
+public class Bzip2Archive : IArchive, IArchiveFileEntry
 ```
 
 ## Constructores
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bzip2Archive](bzip2archive#constructor)() | Inicializa una nueva instancia del[`Bzip2Archive`](../bzip2archive) clase preparada para comprimir. |
-| [Bzip2Archive](bzip2archive#constructor_1)(Stream) | Inicializa una nueva instancia del[`Bzip2Archive`](../bzip2archive) clase preparada para descomprimir. |
-| [Bzip2Archive](bzip2archive#constructor_2)(string) | Inicializa una nueva instancia del[`Bzip2Archive`](../bzip2archive) clase preparada para descomprimir. |
+| [Bzip2Archive](bzip2archive/#constructor)() | Inicializa una nueva instancia del`Bzip2Archive` clase preparada para comprimir. |
+| [Bzip2Archive](bzip2archive/#constructor_1)(Stream) | Inicializa una nueva instancia del`Bzip2Archive` clase preparada para descomprimir. |
+| [Bzip2Archive](bzip2archive/#constructor_2)(string) | Inicializa una nueva instancia del`Bzip2Archive` clase preparada para descomprimir. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Dispose](../../aspose.zip.bzip2/bzip2archive/dispose)() | Realiza tareas definidas por la aplicación asociadas con liberar, liberar o restablecer recursos no administrados. |
-| [Extract](../../aspose.zip.bzip2/bzip2archive/extract)(Stream) | Extrae el archivo a la secuencia proporcionada. |
-| [Open](../../aspose.zip.bzip2/bzip2archive/open)() | Abre el archivo para su extracción y proporciona una secuencia con el contenido del archivo. |
-| [Save](../../aspose.zip.bzip2/bzip2archive/save#save_1)(string) | Guarda el archivo en el archivo de destino proporcionado. |
-| [Save](../../aspose.zip.bzip2/bzip2archive/save#save)(Stream, Bzip2SaveOptions) | Guarda el archivo en la secuencia proporcionada. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_2)(FileInfo) | Establece el contenido que se comprimirá dentro del archivo. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_3)(Stream) | Establece el contenido que se comprimirá dentro del archivo. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_4)(string) | Establece el contenido que se comprimirá dentro del archivo. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource)(CpioArchive, CpioFormat) | Establece el contenido que se comprimirá dentro del archivo. |
-| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource#setsource_1)(TarArchive, TarFormat) | Establece el contenido que se comprimirá dentro del archivo. |
+| [Dispose](../../aspose.zip.bzip2/bzip2archive/dispose/)() | Realiza tareas definidas por la aplicación asociadas con liberar, liberar o restablecer recursos no administrados. |
+| [Extract](../../aspose.zip.bzip2/bzip2archive/extract/)(Stream) | Extrae el archivo a la secuencia proporcionada. |
+| [Open](../../aspose.zip.bzip2/bzip2archive/open/)() | Abre el archivo para su extracción y proporciona una secuencia con el contenido del archivo. |
+| [Save](../../aspose.zip.bzip2/bzip2archive/save/#save)(Stream, Bzip2SaveOptions) | Guarda el archivo en la secuencia proporcionada. |
+| [Save](../../aspose.zip.bzip2/bzip2archive/save/#save_1)(string, Bzip2SaveOptions) | Guarda el archivo en el archivo de destino proporcionado. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource_2)(FileInfo) | Establece el contenido que se comprimirá dentro del archivo. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource_3)(Stream) | Establece el contenido que se comprimirá dentro del archivo. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource_4)(string) | Establece el contenido que se comprimirá dentro del archivo. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource)(CpioArchive, CpioFormat) | Establece el contenido que se comprimirá dentro del archivo. |
+| [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource_1)(TarArchive, TarFormat) | Establece el contenido que se comprimirá dentro del archivo. |
 
 ### Observaciones
 
@@ -43,7 +43,9 @@ bzip2 comprime archivos utilizando el algoritmo de compresión de texto de clasi
 
 ### Ver también
 
-* espacio de nombres [Aspose.Zip.Bzip2](../../aspose.zip.bzip2)
+* interface [IArchive](../../aspose.zip/iarchive/)
+* interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
+* espacio de nombres [Aspose.Zip.Bzip2](../../aspose.zip.bzip2/)
 * asamblea [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

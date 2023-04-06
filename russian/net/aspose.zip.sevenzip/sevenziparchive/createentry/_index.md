@@ -1,7 +1,7 @@
 ---
-title: CreateEntry
+title: SevenZipArchive.CreateEntry
 second_title: Aspose.ZIP для справочника API .NET
-description: Создать одну запись в архиве.
+description: SevenZipArchive метод. Создать одну запись в архиве.
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/createentry/
@@ -20,7 +20,7 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | name | String | Имя записи. |
 | fileInfo | FileInfo | Метаданные файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) элемент. |
 
 ### Возвращаемое значение
 
@@ -62,10 +62,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Смотрите также
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
@@ -83,7 +83,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) элемент. |
 | fileInfo | FileSystemInfo | Метаданные файла или папки для сжатия. |
 
 ### Возвращаемое значение
@@ -94,7 +94,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Оба*source* а также*fileInfo* являются нулевыми или*source* является нулевым и*fileInfo* обозначает каталог. |
+| InvalidOperationException | Оба*source* и*fileInfo* являются нулевыми или*source*является нулевым и*fileInfo* обозначает каталог. |
 
 ### Примечания
 
@@ -119,10 +119,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Смотрите также
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
@@ -140,7 +140,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | Имя записи. |
 | source | Stream | Входной поток для записи. |
-| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) элемент. |
 
 ### Возвращаемое значение
 
@@ -160,10 +160,10 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 
 ### Смотрите также
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * сборка [Aspose.Zip](../../../)
 
 ---
@@ -182,7 +182,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | name | String | Имя записи. |
 | path | String | Полное имя нового файла или относительное имя файла для сжатия. |
 | openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
-| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry) вещь. |
+| newEntrySettings | SevenZipEntrySettings | Параметры сжатия и шифрования, используемые для добавленных[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) элемент. |
 
 ### Возвращаемое значение
 
@@ -193,7 +193,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа |
+| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
 | ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
 | UnauthorizedAccessException | Доступ к файлу*path* отказано. |
 | PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
@@ -220,10 +220,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### Смотрите также
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
-* class [SevenZipArchive](../../sevenziparchive)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * сборка [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

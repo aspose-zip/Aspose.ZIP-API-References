@@ -1,9 +1,9 @@
 ---
-title: CpioArchive
+title: Class CpioArchive
 second_title: Aspose.ZIP für .NET-API-Referenz
-description: Diese Klasse repräsentiert die cpioArchivdatei.
+description: Aspose.Zip.Cpio.CpioArchive klas. Diese Klasse repräsentiert die cpioArchivdatei.
 type: docs
-weight: 120
+weight: 160
 url: /de/net/aspose.zip.cpio/cpioarchive/
 ---
 ## CpioArchive class
@@ -11,46 +11,47 @@ url: /de/net/aspose.zip.cpio/cpioarchive/
 Diese Klasse repräsentiert die cpio-Archivdatei.
 
 ```csharp
-public class CpioArchive : IDisposable
+public class CpioArchive : IArchive
 ```
 
 ## Konstrukteure
 
 | Name | Beschreibung |
 | --- | --- |
-| [CpioArchive](cpioarchive#constructor)() | Initialisiert eine neue Instanz von[`CpioArchive`](../cpioarchive) Klasse. |
-| [CpioArchive](cpioarchive#constructor_1)(Stream) | Initialisiert eine neue Instanz von[`CpioArchive`](../cpioarchive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
-| [CpioArchive](cpioarchive#constructor_2)(string) | Initialisiert eine neue Instanz von[`CpioArchive`](../cpioarchive) Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
+| [CpioArchive](cpioarchive/#constructor)() | Initialisiert eine neue Instanz von`CpioArchive` Klasse. |
+| [CpioArchive](cpioarchive/#constructor_1)(Stream) | Initialisiert eine neue Instanz von`CpioArchive` Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
+| [CpioArchive](cpioarchive/#constructor_2)(string) | Initialisiert eine neue Instanz von`CpioArchive` Klasse und Liste der zusammengesetzten Einträge können aus dem Archiv extrahiert werden. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Entries](../../aspose.zip.cpio/cpioarchive/entries) { get; } | Ruft Einträge von ab[`CpioEntry`](../cpioentry) Typ, der das Archiv bildet. |
+| [Entries](../../aspose.zip.cpio/cpioarchive/entries/) { get; } | Ruft Einträge von ab[`CpioEntry`](../cpioentry/) Typ, der das Archiv bildet. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries#createentries)(DirectoryInfo, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
-| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries#createentries_1)(string, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
-| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry#createentry_1)(string, Stream) | Einzelner Eintrag im Archiv erstellen. |
-| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry#createentry)(string, FileInfo, bool) | Einzelner Eintrag im Archiv erstellen. |
-| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry#createentry_2)(string, string, bool) | Einzelner Eintrag im Archiv erstellen. |
-| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry#deleteentry)(CpioEntry) | Entfernt das erste Vorkommen eines bestimmten Eintrags aus der Eintragsliste. |
-| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry#deleteentry_1)(int) | Entfernt den Eintrag aus der Eintragsliste nach Index. |
-| [Dispose](../../aspose.zip.cpio/cpioarchive/dispose)() | Führt anwendungsdefinierte Aufgaben aus, die mit dem Freigeben, Freigeben oder Zurücksetzen nicht verwalteter Ressourcen verbunden sind. |
-| [ExtractToDirectory](../../aspose.zip.cpio/cpioarchive/extracttodirectory)(string) | Extrahiert alle Dateien im Archiv in das angegebene Verzeichnis. |
-| [Save](../../aspose.zip.cpio/cpioarchive/save#save)(Stream, CpioFormat) | Speichert das Archiv im bereitgestellten Stream. |
-| [Save](../../aspose.zip.cpio/cpioarchive/save#save_1)(string, CpioFormat) | Speichert das Archiv in der bereitgestellten Zieldatei. |
-| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped#savegzipped)(Stream, CpioFormat) | Speichert das Archiv mit gzip-Komprimierung im Stream. |
-| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped#savegzipped_1)(string, CpioFormat) | Speichert das Archiv in der Datei nach Pfad mit gzip-Komprimierung. |
-| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed#savexzcompressed)(Stream, CpioFormat, XzArchiveSettings) | Speichert das Archiv mit xz-Komprimierung im Stream. |
-| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed#savexzcompressed_1)(string, CpioFormat, XzArchiveSettings) | Speichert das Archiv Pfad für Pfad mit xz-Komprimierung. |
+| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries/#createentries)(DirectoryInfo, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
+| [CreateEntries](../../aspose.zip.cpio/cpioarchive/createentries/#createentries_1)(string, bool) | Fügt dem Archiv rekursiv alle Dateien und Verzeichnisse im angegebenen Verzeichnis hinzu. |
+| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry/#createentry_1)(string, Stream) | Einzelner Eintrag im Archiv erstellen. |
+| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry/#createentry)(string, FileInfo, bool) | Einzelner Eintrag im Archiv erstellen. |
+| [CreateEntry](../../aspose.zip.cpio/cpioarchive/createentry/#createentry_2)(string, string, bool) | Einzelner Eintrag im Archiv erstellen. |
+| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry/#deleteentry)(CpioEntry) | Entfernt das erste Vorkommen eines bestimmten Eintrags aus der Eintragsliste. |
+| [DeleteEntry](../../aspose.zip.cpio/cpioarchive/deleteentry/#deleteentry_1)(int) | Entfernt den Eintrag aus der Eintragsliste nach Index. |
+| [Dispose](../../aspose.zip.cpio/cpioarchive/dispose/)() | Führt anwendungsdefinierte Aufgaben aus, die mit dem Freigeben, Freigeben oder Zurücksetzen nicht verwalteter Ressourcen verbunden sind. |
+| [ExtractToDirectory](../../aspose.zip.cpio/cpioarchive/extracttodirectory/)(string) | Extrahiert alle Dateien im Archiv in das angegebene Verzeichnis. |
+| [Save](../../aspose.zip.cpio/cpioarchive/save/#save)(Stream, CpioFormat) | Speichert das Archiv im bereitgestellten Stream. |
+| [Save](../../aspose.zip.cpio/cpioarchive/save/#save_1)(string, CpioFormat) | Speichert das Archiv in der bereitgestellten Zieldatei. |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped/#savegzipped)(Stream, CpioFormat) | Speichert das Archiv mit gzip-Komprimierung im Stream. |
+| [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped/#savegzipped_1)(string, CpioFormat) | Speichert das Archiv in der Datei nach Pfad mit gzip-Komprimierung. |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed/#savexzcompressed)(Stream, CpioFormat, XzArchiveSettings) | Speichert das Archiv mit xz-Komprimierung im Stream. |
+| [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed/#savexzcompressed_1)(string, CpioFormat, XzArchiveSettings) | Speichert das Archiv Pfad für Pfad mit xz-Komprimierung. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Zip.Cpio](../../aspose.zip.cpio)
+* interface [IArchive](../../aspose.zip/iarchive/)
+* namensraum [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
 * Montage [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

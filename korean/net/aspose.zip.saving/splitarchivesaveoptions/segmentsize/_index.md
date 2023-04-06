@@ -1,0 +1,23 @@
+---
+title: SplitArchiveSaveOptions.SegmentSize
+second_title: .NET API 참조용 Aspose.ZIP
+description: SplitArchiveSaveOptions 재산. 세그먼트의 크기를 가져옵니다.
+type: docs
+weight: 40
+url: /ko/net/aspose.zip.saving/splitarchivesaveoptions/segmentsize/
+---
+## SplitArchiveSaveOptions.SegmentSize property
+
+세그먼트의 크기를 가져옵니다.
+
+```csharp
+public uint SegmentSize { get; }
+```
+
+### 또한보십시오
+
+* class [SplitArchiveSaveOptions](../)
+* 네임스페이스 [Aspose.Zip.Saving](../../splitarchivesaveoptions/)
+* 집회 [Aspose.Zip](../../../)
+
+

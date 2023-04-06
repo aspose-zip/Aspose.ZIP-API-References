@@ -1,9 +1,9 @@
 ---
-title: LzmaArchive
+title: Class LzmaArchive
 second_title: Aspose.ZIP für .NET-API-Referenz
-description: Diese Klasse repräsentiert die LZMAArchivdatei. Verwenden Sie es um LZMAArchive zu erstellen oder zu extrahieren.
+description: Aspose.Zip.LZMA.LzmaArchive klas. Diese Klasse repräsentiert die LZMAArchivdatei. Verwenden Sie es um LZMAArchive zu erstellen oder zu extrahieren.
 type: docs
-weight: 170
+weight: 240
 url: /de/net/aspose.zip.lzma/lzmaarchive/
 ---
 ## LzmaArchive class
@@ -11,35 +11,37 @@ url: /de/net/aspose.zip.lzma/lzmaarchive/
 Diese Klasse repräsentiert die LZMA-Archivdatei. Verwenden Sie es, um LZMA-Archive zu erstellen oder zu extrahieren.
 
 ```csharp
-public class LzmaArchive : IDisposable
+public class LzmaArchive : IArchive, IArchiveFileEntry
 ```
 
 ## Konstrukteure
 
 | Name | Beschreibung |
 | --- | --- |
-| [LzmaArchive](lzmaarchive#constructor)(LzmaArchiveSettings) | Initialisiert eine neue Instanz von[`LzmaArchive`](../lzmaarchive) Klasse und erstellt das Archiv im lzma-Format. |
-| [LzmaArchive](lzmaarchive#constructor_1)(Stream) | Initialisiert eine neue Instanz von[`LzmaArchive`](../lzmaarchive) Klasse zum Dekomprimieren vorbereitet. |
-| [LzmaArchive](lzmaarchive#constructor_2)(string) | Initialisiert eine neue Instanz von[`LzmaArchive`](../lzmaarchive) Klasse zum Dekomprimieren vorbereitet. |
+| [LzmaArchive](lzmaarchive/#constructor)(LzmaArchiveSettings) | Initialisiert eine neue Instanz von`LzmaArchive` Klasse und erstellt das Archiv im lzma-Format. |
+| [LzmaArchive](lzmaarchive/#constructor_1)(Stream) | Initialisiert eine neue Instanz von`LzmaArchive` Klasse zum Dekomprimieren vorbereitet. |
+| [LzmaArchive](lzmaarchive/#constructor_2)(string) | Initialisiert eine neue Instanz von`LzmaArchive` Klasse zum Dekomprimieren vorbereitet. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Dispose](../../aspose.zip.lzma/lzmaarchive/dispose)() | Führt anwendungsdefinierte Aufgaben aus, die mit dem Freigeben, Freigeben oder Zurücksetzen nicht verwalteter Ressourcen verbunden sind. |
-| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract)(FileInfo) | Extrahiert das lzma-Archiv in eine Datei. |
-| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_1)(Stream) | Extrahiert das lzma-Archiv in einen Stream. |
-| [Extract](../../aspose.zip.lzma/lzmaarchive/extract#extract_2)(string) | Extrahiert das lzma-Archiv nach Pfad in eine Datei. |
-| [Save](../../aspose.zip.lzma/lzmaarchive/save#save)(FileInfo) | Speichert das lzma-Archiv in der bereitgestellten Zieldatei. |
-| [Save](../../aspose.zip.lzma/lzmaarchive/save#save_1)(Stream) | Speichert das lzma-Archiv im bereitgestellten Stream. |
-| [Save](../../aspose.zip.lzma/lzmaarchive/save#save_2)(string) | Speichert das lzma-Archiv in der bereitgestellten Zieldatei. |
-| [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource#setsource)(FileInfo) | Legt den Inhalt fest, der innerhalb des Archivs komprimiert werden soll. |
-| [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource#setsource_1)(Stream) | Legt den Inhalt fest, der innerhalb des Archivs komprimiert werden soll. |
-| [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource#setsource_2)(string) | Legt den Inhalt fest, der innerhalb des Archivs komprimiert werden soll. |
+| [Dispose](../../aspose.zip.lzma/lzmaarchive/dispose/)() | Führt anwendungsdefinierte Aufgaben aus, die mit dem Freigeben, Freigeben oder Zurücksetzen nicht verwalteter Ressourcen verbunden sind. |
+| [Extract](../../aspose.zip.lzma/lzmaarchive/extract/#extract)(FileInfo) | Extrahiert das lzma-Archiv in eine Datei. |
+| [Extract](../../aspose.zip.lzma/lzmaarchive/extract/#extract_1)(Stream) | Extrahiert das lzma-Archiv in einen Stream. |
+| [Extract](../../aspose.zip.lzma/lzmaarchive/extract/#extract_2)(string) | Extrahiert das lzma-Archiv nach Pfad in eine Datei. |
+| [Save](../../aspose.zip.lzma/lzmaarchive/save/#save)(FileInfo) | Speichert das lzma-Archiv in der bereitgestellten Zieldatei. |
+| [Save](../../aspose.zip.lzma/lzmaarchive/save/#save_1)(Stream) | Speichert das lzma-Archiv im bereitgestellten Stream. |
+| [Save](../../aspose.zip.lzma/lzmaarchive/save/#save_2)(string) | Speichert das lzma-Archiv in der bereitgestellten Zieldatei. |
+| [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource/#setsource)(FileInfo) | Legt den Inhalt fest, der innerhalb des Archivs komprimiert werden soll. |
+| [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource/#setsource_1)(Stream) | Legt den Inhalt fest, der innerhalb des Archivs komprimiert werden soll. |
+| [SetSource](../../aspose.zip.lzma/lzmaarchive/setsource/#setsource_2)(string) | Legt den Inhalt fest, der innerhalb des Archivs komprimiert werden soll. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Zip.LZMA](../../aspose.zip.lzma)
+* interface [IArchive](../../aspose.zip/iarchive/)
+* interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
+* namensraum [Aspose.Zip.LZMA](../../aspose.zip.lzma/)
 * Montage [Aspose.Zip](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

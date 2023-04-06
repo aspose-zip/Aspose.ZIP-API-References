@@ -1,7 +1,7 @@
 ---
-title: Extract
+title: LzipArchive.Extract
 second_title: Riferimento API Aspose.ZIP per .NET
-description: Estrae larchivio lzip in un flusso.
+description: LzipArchive metodo. Estrae larchivio lzip in un flusso.
 type: docs
 weight: 40
 url: /it/net/aspose.zip.lzip/lziparchive/extract/
@@ -16,13 +16,13 @@ public void Extract(Stream destination)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| destination | Stream | Stream per la memorizzazione di dati decompressi. |
+| destination | Stream | Flusso per l'archiviazione dei dati decompressi. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | Le intestazioni dell'archivio e le informazioni sul servizio non sono state lette. |
+| InvalidOperationException | Le intestazioni dell'archivio e le informazioni di servizio non sono state lette. |
 | InvalidDataException | Errore nei dati nell'intestazione o nel checksum. |
 | ArgumentNullException | Il flusso di destinazione è nullo. |
 | ArgumentException | Il flusso di destinazione non supporta la scrittura. |
@@ -44,8 +44,8 @@ using (FileStream sourceLzipFile = File.Open(sourceFileName, FileMode.Open))
 
 ### Guarda anche
 
-* class [LzipArchive](../../lziparchive)
-* spazio dei nomi [Aspose.Zip.Lzip](../../lziparchive)
+* class [LzipArchive](../)
+* spazio dei nomi [Aspose.Zip.Lzip](../../lziparchive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
@@ -60,19 +60,19 @@ public void Extract(FileInfo fileInfo)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileInfo | FileInfo | FileInfo per la memorizzazione dei dati decompressi. |
+| fileInfo | FileInfo | FileInfo per la memorizzazione di dati decompressi. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | Le intestazioni dell'archivio e le informazioni sul servizio non sono state lette. |
+| InvalidOperationException | Le intestazioni dell'archivio e le informazioni di servizio non sono state lette. |
 | SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per aprire il file*fileInfo*. |
 | ArgumentException | Il percorso del file è vuoto o contiene solo spazi bianchi. |
 | FileNotFoundException | Il file non è stato trovato. |
 | UnauthorizedAccessException | Il percorso del file è di sola lettura o è una directory. |
 | ArgumentNullException | *fileInfo* è zero. |
-| DirectoryNotFoundException | Il percorso specificato non è valido, ad esempio su un'unità non mappata. |
+| DirectoryNotFoundException | Il percorso specificato non è valido, ad esempio si trova su un'unità non mappata. |
 | IOException | Il file è già aperto. |
 
 ### Esempi
@@ -89,15 +89,15 @@ using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
 
 ### Guarda anche
 
-* class [LzipArchive](../../lziparchive)
-* spazio dei nomi [Aspose.Zip.Lzip](../../lziparchive)
+* class [LzipArchive](../)
+* spazio dei nomi [Aspose.Zip.Lzip](../../lziparchive/)
 * assemblea [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(string) {#extract_2}
 
-Estrae l'archivio lzip in un file in base al percorso.
+Estrae l'archivio lzip in un file per percorso.
 
 ```csharp
 public void Extract(string path)
@@ -111,13 +111,13 @@ public void Extract(string path)
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidOperationException | Le intestazioni dell'archivio e le informazioni sul servizio non sono state lette. |
+| InvalidOperationException | Le intestazioni dell'archivio e le informazioni di servizio non sono state lette. |
 | ArgumentNullException | *path* è zero. |
-| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per accedere |
-| ArgumentException | Il*path* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. |
-| UnauthorizedAccessException | Accesso al file*path* è negato. |
-| PathTooLongException | Il specificato*path*, il nome del file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, sulle piattaforme basate su Windows, i percorsi devono essere inferiori a 248 caratteri e i nomi dei file devono essere inferiori a 260 caratteri. |
-| NotSupportedException | Archivia a*path* contiene due punti (:) al centro della stringa. |
+| SecurityException | Il chiamante non dispone dell'autorizzazione richiesta per l'accesso. |
+| ArgumentException | IL*path* è vuoto, contiene solo spazi bianchi o contiene caratteri non validi. |
+| UnauthorizedAccessException | Accesso all'archivio*path* è negato. |
+| PathTooLongException | Il specificato*path*, nome file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, su piattaforme basate su Windows, i percorsi devono contenere meno di 248 caratteri ei nomi file devono contenere meno di 260 caratteri. |
+| NotSupportedException | File a*path* contiene i due punti (:) al centro della stringa. |
 
 ### Esempi
 
@@ -133,8 +133,8 @@ using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
 
 ### Guarda anche
 
-* class [LzipArchive](../../lziparchive)
-* spazio dei nomi [Aspose.Zip.Lzip](../../lziparchive)
+* class [LzipArchive](../)
+* spazio dei nomi [Aspose.Zip.Lzip](../../lziparchive/)
 * assemblea [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+

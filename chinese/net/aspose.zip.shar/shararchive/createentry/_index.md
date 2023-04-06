@@ -1,0 +1,155 @@
+---
+title: SharArchive.CreateEntry
+second_title: Aspose.ZIP for .NET API 参考
+description: SharArchive 方法. 在存档中创建单个条目
+type: docs
+weight: 40
+url: /zh/net/aspose.zip.shar/shararchive/createentry/
+---
+## CreateEntry(string, FileInfo, bool) {#createentry}
+
+在存档中创建单个条目。
+
+```csharp
+public SharEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 条目的名称。 |
+| fileInfo | FileInfo | 要压缩的文件或文件夹的元数据。 |
+| openImmediately | Boolean | 如果立即打开文件则为真，否则在存档保存时打开文件。 |
+
+### 返回值
+
+Shar 条目实例。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentNullException | *name*一片空白。 |
+| ArgumentException | *name*是空的。 |
+| ArgumentNullException | *fileInfo*一片空白。 |
+
+### 评论
+
+如果文件立即打开*openImmediately*参数它会被阻塞，直到归档被处理。
+
+### 例子
+
+```csharp
+FileInfo fileInfo = new FileInfo("data.bin");
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("test.bin", fileInfo);
+    archive.Save("archive.shar");
+}
+```
+
+### 也可以看看
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* 命名空间 [Aspose.Zip.Shar](../../shararchive/)
+* 部件 [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, string, bool) {#createentry_2}
+
+在存档中创建单个条目。
+
+```csharp
+public SharEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 条目的名称。 |
+| sourcePath | String | 要压缩的文件的路径。 |
+| openImmediately | Boolean | 如果立即打开文件则为真，否则在存档保存时打开文件。 |
+
+### 返回值
+
+Shar 条目实例。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentNullException | *sourcePath*一片空白。 |
+| SecurityException | 调用者没有所需的访问权限。 |
+| ArgumentException | 这*sourcePath*为空、仅包含空格或包含无效字符。 - 或 - 文件名，作为*name*超过 100 个符号。 |
+| UnauthorizedAccessException | 访问文件*sourcePath*被拒绝。 |
+| PathTooLongException | 指定的*sourcePath*、文件名或两者都超过了系统定义的最大长度。例如，在基于 Windows 的平台上，路径必须少于 248 个字符，文件名必须少于 260 个字符。 - 或者 -*name*对于 shar 来说太长了。 |
+| NotSupportedException | 归档于*sourcePath*在字符串中间包含一个冒号 (:)。 |
+
+### 评论
+
+条目名称仅在*name*范围。中提供的文件名*sourcePath*参数不影响条目名称。
+
+如果文件立即打开*openImmediately*参数它会被阻塞，直到归档被处理。
+
+### 例子
+
+```csharp
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("first.bin", "data.bin");
+    archive.Save("archive.shar");
+}
+```
+
+### 也可以看看
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* 命名空间 [Aspose.Zip.Shar](../../shararchive/)
+* 部件 [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Stream) {#createentry_1}
+
+在存档中创建单个条目。
+
+```csharp
+public SharEntry CreateEntry(string name, Stream source)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 条目的名称。 |
+| source | Stream | 条目的输入流。 |
+
+### 返回值
+
+Shar 条目实例。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentNullException | *name*一片空白。 |
+| ArgumentNullException | *source*一片空白。 |
+| ArgumentException | *name*是空的。 |
+
+### 例子
+
+```csharp
+using (var archive = new SharArchive())
+{
+    archive.CreateEntry("data.bin", File.OpenRead("data.bin"));
+    archive.Save("archive.shar");
+}
+```
+
+### 也可以看看
+
+* class [SharEntry](../../sharentry/)
+* class [SharArchive](../)
+* 命名空间 [Aspose.Zip.Shar](../../shararchive/)
+* 部件 [Aspose.Zip](../../../)
+
+

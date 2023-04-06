@@ -1,14 +1,14 @@
 ---
-title: Archive
+title: Archive.Archive
 second_title: Aspose.ZIP for .NET API Referansı
-description: Yeni bir örneğini başlatırArchiveaspose.zip/archivegirişleri için isteğe bağlı ayarlara sahip sınıf.
+description: Archive inşaatçı. Yeni bir örneğini başlatır.Archive girişleri için isteğe bağlı ayarlara sahip sınıf.
 type: docs
 weight: 10
 url: /tr/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-Yeni bir örneğini başlatır[`Archive`](../../archive)girişleri için isteğe bağlı ayarlara sahip sınıf.
+Yeni bir örneğini başlatır.[`Archive`](../) girişleri için isteğe bağlı ayarlara sahip sınıf.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,7 +16,7 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry)items. Belirtilmezse, şifreleme olmadan en yaygın Deflate sıkıştırması kullanılır. |
+| newEntrySettings | ArchiveEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry/) items. Belirtilmezse, şifreleme olmadan en yaygın Deflate sıkıştırması kullanılır. |
 
 ### Örnekler
 
@@ -35,16 +35,16 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### Ayrıca bakınız
 
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* ad alanı [Aspose.Zip](../../archive)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* ad alanı [Aspose.Zip](../../archive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-Yeni bir örneğini başlatır[`Archive`](../../archive) sınıf ve oluşturur girdiler listesi arşivden çıkarılabilir.
+Yeni bir örneğini başlatır.[`Archive`](../) class ve composes girişleri listesi arşivden çıkarılabilir.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -54,8 +54,8 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | sourceStream | Stream | Arşivin kaynağı. |
-| loadOptions | ArchiveLoadOptions | Mevcut arşivi yükleme seçenekleri. |
-| newEntrySettings | ArchiveEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry)items. Belirtilmezse, şifreleme olmadan en yaygın Deflate sıkıştırması kullanılır. |
+| loadOptions | ArchiveLoadOptions | Mevcut arşivi yüklemek için seçenekler. |
+| newEntrySettings | ArchiveEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry/) items. Belirtilmezse, şifreleme olmadan en yaygın Deflate sıkıştırması kullanılır. |
 
 ### istisnalar
 
@@ -66,11 +66,11 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 
 ### Notlar
 
-Bu kurucu herhangi bir girdiyi açmaz. Görmek[`Open`](../../archiveentry/open) sıkıştırmayı açma yöntemi.
+Bu yapıcı herhangi bir girdiyi açmaz. Görmek[`Open`](../../archiveentry/open/) açma yöntemi.
 
 ### Örnekler
 
-Aşağıdaki örnek, şifreli bir arşivi çıkarır, ardından ilk girişi bir`MemoryStream`.
+Aşağıdaki örnek, şifrelenmiş bir arşivi ayıklar, ardından ilk girdiyi sıkıştırılmış bir dosyaya açar.`Bellek Akışı`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.zip");
@@ -89,17 +89,17 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ### Ayrıca bakınız
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* ad alanı [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* ad alanı [Aspose.Zip](../../archive/)
 * toplantı [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-Yeni bir örneğini başlatır[`Archive`](../../archive) sınıf ve oluşturur girdiler listesi arşivden çıkarılabilir.
+Yeni bir örneğini başlatır.[`Archive`](../) class ve composes girişleri listesi arşivden çıkarılabilir.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -109,27 +109,27 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | path | String | Arşiv dosyasının tam veya göreli yolu. |
-| loadOptions | ArchiveLoadOptions | Mevcut arşivi yükleme seçenekleri. |
-| newEntrySettings | ArchiveEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry)items. Belirtilmezse, şifreleme olmadan en yaygın Deflate sıkıştırması kullanılır. |
+| loadOptions | ArchiveLoadOptions | Mevcut arşivi yüklemek için seçenekler. |
+| newEntrySettings | ArchiveEntrySettings | Yeni eklenenler için kullanılan sıkıştırma ve şifreleme ayarları[`ArchiveEntry`](../../archiveentry/) items. Belirtilmezse, şifreleme olmadan en yaygın Deflate sıkıştırması kullanılır. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
 | ArgumentNullException | *path* boş. |
-| SecurityException | Arayan, erişim için gerekli izne sahip değil |
-| ArgumentException | bu*path* boş, yalnızca boşluk içeriyor veya geçersiz karakterler içeriyor. |
-| UnauthorizedAccessException | Dosyaya erişim*path* engellendi. |
-| PathTooLongException | Belirtilmiş*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden ve dosya adları 260 karakterden az olmalıdır. |
-| NotSupportedException | Dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
+| SecurityException | Arayan, erişim için gerekli izne sahip değil. |
+| ArgumentException | bu*path* boş, yalnızca beyaz boşluklar içeriyor veya geçersiz karakterler içeriyor. |
+| UnauthorizedAccessException | dosyaya erişim*path* engellendi. |
+| PathTooLongException | Belirtilen*path*, dosya adı veya her ikisi de sistem tarafından tanımlanan maksimum uzunluğu aşıyor. Örneğin, Windows tabanlı platformlarda yollar 248 karakterden, dosya adları ise 260 karakterden kısa olmalıdır. |
+| NotSupportedException | dosya*path* dizenin ortasında iki nokta üst üste (:) içerir. |
 
 ### Notlar
 
-Bu kurucu herhangi bir girdiyi açmaz. Görmek[`Open`](../../archiveentry/open) sıkıştırmayı açma yöntemi.
+Bu yapıcı herhangi bir girdiyi açmaz. Görmek[`Open`](../../archiveentry/open/) açma yöntemi.
 
 ### Örnekler
 
-Aşağıdaki örnek, şifreli bir arşivi çıkarır, ardından ilk girişi bir`MemoryStream`.
+Aşağıdaki örnek, şifrelenmiş bir arşivi ayıklar, ardından ilk girdiyi sıkıştırılmış bir dosyaya açar.`Bellek Akışı`.
 
 ```csharp
 var extracted = new MemoryStream();
@@ -147,10 +147,10 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 
 ### Ayrıca bakınız
 
-* class [ArchiveLoadOptions](../../archiveloadoptions)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
-* class [Archive](../../archive)
-* ad alanı [Aspose.Zip](../../archive)
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* ad alanı [Aspose.Zip](../../archive/)
 * toplantı [Aspose.Zip](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Zip.dll -->
+
