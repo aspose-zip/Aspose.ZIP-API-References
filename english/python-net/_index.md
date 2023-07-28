@@ -23,10 +23,10 @@ url: /python-net/
 |[aspose.zip.xz](/zip/python-net/aspose.zip.xz/)|Contains classes which represent xz archive related entities.|
 |[aspose.zip.xz.settings](/zip/python-net/aspose.zip.xz.settings/)|Contains classes which represent xz archive settings.|
 |[aspose.zip.rar](/zip/python-net/aspose.zip.rar/)|Contains classes which represent RAR archive related entities.|
-|[aspose.zip.sevenzip](/zip/python-net/aspose.zip.sevenzip/)||
+|[aspose.zip.sevenzip](/zip/python-net/aspose.zip.sevenzip/)|Contains classes which represent 7z archive related entities.|
 |[aspose.zip.tar](/zip/python-net/aspose.zip.tar/)|Contains classes which represent tar archive related entities.|
 |[aspose.zip.gzip](/zip/python-net/aspose.zip.gzip/)|Contains classes which represent gzip archive.|
 |[aspose.zip.saving](/zip/python-net/aspose.zip.saving/)|Contains classes which are needed for operations entailing saving the archive.|
 |[aspose.zip.cab](/zip/python-net/aspose.zip.cab/)|Contains classes which represent Cab archive related entities.|
 |[aspose.zip.bzip2](/zip/python-net/aspose.zip.bzip2/)|Contains classes which represent bzip2 archive related entities.|
-|[aspose.zip.archiveinfo](/zip/python-net/aspose.zip.archiveinfo/)||
+|[aspose.zip.archiveinfo](/zip/python-net/aspose.zip.archiveinfo/)|Contains classes which represent archive info related entities.|

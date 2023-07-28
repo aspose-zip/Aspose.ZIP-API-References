@@ -8,7 +8,7 @@ url: /python-net/aspose.zip.sevenzip/
 ---
 
 
-
+Contains classes which represent 7z archive related entities.
 
 ## Classes
 | Class | Description |

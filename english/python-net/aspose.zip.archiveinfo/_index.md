@@ -8,7 +8,7 @@ url: /python-net/aspose.zip.archiveinfo/
 ---
 
 
-
+Contains classes which represent archive info related entities.
 
 ## Classes
 | Class | Description |
