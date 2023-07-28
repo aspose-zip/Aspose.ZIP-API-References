@@ -1,0 +1,17 @@
+---
+title: aspose.zip.cab
+second_title: Aspose.Sildes for Python via .NET API Reference
+description: 
+type: docs
+weight: 180
+url: /python-net/aspose.zip.cab/
+---
+
+
+Contains classes which represent Cab archive related entities.
+
+## Classes
+| Class | Description |
+| :- | :- |
+|[CabArchive](/zip/python-net/aspose.zip.cab/cabarchive/)|This class represents cab archive file.|
+|[CabEntry](/zip/python-net/aspose.zip.cab/cabentry/)|Represents single file within cab archive.|
