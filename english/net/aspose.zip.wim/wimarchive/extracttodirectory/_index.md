@@ -1,0 +1,31 @@
+---
+title: WimArchive.ExtractToDirectory
+second_title: Aspose.ZIP for .NET API Reference
+description: WimArchive method. Extracts the archive to the file by path
+type: docs
+weight: 80
+url: /net/aspose.zip.wim/wimarchive/extracttodirectory/
+---
+## WimArchive.ExtractToDirectory method
+
+Extracts the archive to the file by path.
+
+```csharp
+public void ExtractToDirectory(string destinationDirectory)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationDirectory | String | The path to the directory to place the extracted files in. |
+
+### Return Value
+
+Info of extracted file.
+
+### See Also
+
+* class [WimArchive](../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
+
+
