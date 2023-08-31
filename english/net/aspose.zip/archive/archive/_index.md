@@ -1,14 +1,14 @@
 ---
-title: Archive.Archive
+title: Archive
 second_title: Aspose.ZIP for .NET API Reference
-description: Archive constructor. Initializes a new instance of the Archive class with optional settings for its entries
+description: 
 type: docs
 weight: 10
 url: /net/aspose.zip/archive/archive/
 ---
-## Archive(ArchiveEntrySettings) {#constructor}
+## Archive constructor (1 of 3)
 
-Initializes a new instance of the [`Archive`](../) class with optional settings for its entries.
+Initializes a new instance of the [`Archive`](../../archive) class with optional settings for its entries.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,9 +16,9 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for newly added [`ArchiveEntry`](../../archiveentry/) items. If not specified, most common Deflate compression without encryption would be used. |
+| newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for newly added [`ArchiveEntry`](../../archiveentry) items. If not specified, most common Deflate compression without encryption would be used. |
 
-## Examples
+### Examples
 
 The following example shows how to compress a single file with default settings.
 
@@ -35,16 +35,16 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ### See Also
 
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
-* class [Archive](../)
-* namespace [Aspose.Zip](../../archive/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
+* class [Archive](../../archive)
+* namespace [Aspose.Zip](../../archive)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
+## Archive constructor (2 of 3)
 
-Initializes a new instance of the [`Archive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`Archive`](../../archive) class and composes entries list can be extracted from the archive.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -55,7 +55,7 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. |
 | loadOptions | ArchiveLoadOptions | Options to load existing archive with. |
-| newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for newly added [`ArchiveEntry`](../../archiveentry/) items. If not specified, most common Deflate compression without encryption would be used. |
+| newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for newly added [`ArchiveEntry`](../../archiveentry) items. If not specified, most common Deflate compression without encryption would be used. |
 
 ### Exceptions
 
@@ -64,11 +64,11 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | Encryption header for AES contradicts WinZip compression method. |
 
-## Remarks
+### Remarks
 
-This constructor does not decompress any entry. See [`Open`](../../archiveentry/open/) method for decompressing.
+This constructor does not decompress any entry. See [`Open`](../../archiveentry/open) method for decompressing.
 
-## Examples
+### Examples
 
 The following example extract an encrypted archive, then decompress first entry to a `MemoryStream`.
 
@@ -89,17 +89,17 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ### See Also
 
-* class [ArchiveLoadOptions](../../archiveloadoptions/)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
-* class [Archive](../)
-* namespace [Aspose.Zip](../../archive/)
+* class [ArchiveLoadOptions](../../archiveloadoptions)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
+* class [Archive](../../archive)
+* namespace [Aspose.Zip](../../archive)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
+## Archive constructor (3 of 3)
 
-Initializes a new instance of the [`Archive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`Archive`](../../archive) class and composes entries list can be extracted from the archive.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -110,7 +110,7 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | --- | --- | --- |
 | path | String | The fully qualified or the relative path to the archive file. |
 | loadOptions | ArchiveLoadOptions | Options to load existing archive with. |
-| newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for newly added [`ArchiveEntry`](../../archiveentry/) items. If not specified, most common Deflate compression without encryption would be used. |
+| newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for newly added [`ArchiveEntry`](../../archiveentry) items. If not specified, most common Deflate compression without encryption would be used. |
 
 ### Exceptions
 
@@ -123,11 +123,11 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 
-## Remarks
+### Remarks
 
-This constructor does not decompress any entry. See [`Open`](../../archiveentry/open/) method for decompressing.
+This constructor does not decompress any entry. See [`Open`](../../archiveentry/open) method for decompressing.
 
-## Examples
+### Examples
 
 The following example extract an encrypted archive, then decompress first entry to a `MemoryStream`.
 
@@ -147,10 +147,10 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 
 ### See Also
 
-* class [ArchiveLoadOptions](../../archiveloadoptions/)
-* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
-* class [Archive](../)
-* namespace [Aspose.Zip](../../archive/)
+* class [ArchiveLoadOptions](../../archiveloadoptions)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
+* class [Archive](../../archive)
+* namespace [Aspose.Zip](../../archive)
 * assembly [Aspose.Zip](../../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.ZIP.dll -->
