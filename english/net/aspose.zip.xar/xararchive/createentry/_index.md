@@ -1,12 +1,12 @@
 ---
-title: XarArchive.CreateEntry
+title: CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: XarArchive method. Create single entry within the archive
+description: 
 type: docs
 weight: 40
 url: /net/aspose.zip.xar/xararchive/createentry/
 ---
-## CreateEntry(string, FileInfo, bool, XarCompressionSettings) {#createentry}
+## XarArchive.CreateEntry method (1 of 3)
 
 Create single entry within the archive.
 
@@ -20,7 +20,7 @@ public XarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file or folder to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
-| compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry/) item. |
+| compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry) item. |
 
 ### Return Value
 
@@ -34,11 +34,11 @@ Xar entry instance.
 | ArgumentException | *name* is empty. |
 | ArgumentNullException | *fileInfo* is null. |
 
-## Remarks
+### Remarks
 
 If the file is opened immediately with *openImmediately* parameter it becomes blocked until archive is disposed.
 
-## Examples
+### Examples
 
 ```csharp
 FileInfo fileInfo = new FileInfo("data.bin");
@@ -51,15 +51,15 @@ using (var archive = new XarArchive())
 
 ### See Also
 
-* class [XarEntry](../../xarentry/)
-* class [XarCompressionSettings](../../xarcompressionsettings/)
-* class [XarArchive](../)
-* namespace [Aspose.Zip.Xar](../../xararchive/)
+* class [XarEntry](../../xarentry)
+* class [XarCompressionSettings](../../xarcompressionsettings)
+* class [XarArchive](../../xararchive)
+* namespace [Aspose.Zip.Xar](../../xararchive)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, string, bool, XarCompressionSettings) {#createentry_2}
+## XarArchive.CreateEntry method (2 of 3)
 
 Create single entry within the archive.
 
@@ -73,7 +73,7 @@ public XarEntry CreateEntry(string name, string sourcePath, bool openImmediately
 | name | String | The name of the entry. |
 | sourcePath | String | Path to file to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
-| compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry/) item. |
+| compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry) item. |
 
 ### Return Value
 
@@ -91,13 +91,13 @@ Xar entry instance.
 | NotSupportedException | File at *sourcePath* contains a colon (:) in the middle of the string. |
 | InvalidOperationException | Impossible to modify xar archive. |
 
-## Remarks
+### Remarks
 
 The entry name is solely set within *name* parameter. The file name provided in *sourcePath* parameter does not affect the entry name.
 
 If the file is opened immediately with *openImmediately* parameter it becomes blocked until archive is disposed.
 
-## Examples
+### Examples
 
 ```csharp
 using (var archive = new XarArchive())
@@ -109,15 +109,15 @@ using (var archive = new XarArchive())
 
 ### See Also
 
-* class [XarEntry](../../xarentry/)
-* class [XarCompressionSettings](../../xarcompressionsettings/)
-* class [XarArchive](../)
-* namespace [Aspose.Zip.Xar](../../xararchive/)
+* class [XarEntry](../../xarentry)
+* class [XarCompressionSettings](../../xarcompressionsettings)
+* class [XarArchive](../../xararchive)
+* namespace [Aspose.Zip.Xar](../../xararchive)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, XarCompressionSettings) {#createentry_1}
+## XarArchive.CreateEntry method (3 of 3)
 
 Create single entry within the archive.
 
@@ -130,7 +130,7 @@ public XarEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | source | Stream | The input stream for the entry. |
-| compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry/) item. |
+| compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry) item. |
 
 ### Return Value
 
@@ -145,7 +145,7 @@ Xar entry instance.
 | ArgumentException | *name* is empty. |
 | InvalidOperationException | Impossible to modify xar archive. |
 
-## Examples
+### Examples
 
 ```csharp
 using (var archive = new XarArchive())
@@ -157,10 +157,10 @@ using (var archive = new XarArchive())
 
 ### See Also
 
-* class [XarEntry](../../xarentry/)
-* class [XarCompressionSettings](../../xarcompressionsettings/)
-* class [XarArchive](../)
-* namespace [Aspose.Zip.Xar](../../xararchive/)
+* class [XarEntry](../../xarentry)
+* class [XarCompressionSettings](../../xarcompressionsettings)
+* class [XarArchive](../../xararchive)
+* namespace [Aspose.Zip.Xar](../../xararchive)
 * assembly [Aspose.Zip](../../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.ZIP.dll -->
