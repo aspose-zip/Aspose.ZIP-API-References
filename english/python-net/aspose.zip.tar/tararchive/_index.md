@@ -32,6 +32,8 @@ The TarArchive type exposes the following members:
 |save(destination_file_name, format)|  |
 |save_gzipped(output, format)|  |
 |save_gzipped(path, format)|  |
+|save_zstandard(output, format)|  |
+|save_zstandard(path, format)|  |
 |save_lzipped(output, format)|  |
 |save_lzipped(path, format)|  |
 |save_xz_compressed(output, format, settings)|  |
@@ -40,12 +42,14 @@ The TarArchive type exposes the following members:
 |save_z_compressed(path, format)|  |
 |from_g_zip(source)|Extracts supplied gzip archive and composes|
 |from_g_zip(path)|Extracts supplied gzip archive and composes|
+|from_zstandard(source)|Extracts supplied Zstandard archive and composes|
+|from_zstandard(path)|Extracts supplied Zstandard archive and composes|
 |from_l_zip(source)|Extracts supplied lzip archive and composes|
 |from_l_zip(path)|Extracts supplied lzip archive and composes|
 |from_xz(source)|Extracts supplied xz format archive and composes|
 |from_xz(path)|Extracts supplied xz format archive and composes|
-|from_z(source)|Extracts supplied Z format archive and composes|
-|from_z(path)|Extracts supplied Z format archive and composes|
+|from_z(source)|Extracts supplied Zstandard archive and composes|
+|from_z(path)|Extracts supplied Zstandard archive and composes|
 |create_entry(name, path, open_immediately)|Create single entry within the archive.|
 |create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
