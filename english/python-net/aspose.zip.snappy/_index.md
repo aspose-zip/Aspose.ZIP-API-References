@@ -1,9 +1,9 @@
 ---
 title: aspose.zip.snappy
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 140
 url: /python-net/aspose.zip.snappy/
 ---
 

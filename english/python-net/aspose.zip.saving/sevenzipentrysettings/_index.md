@@ -1,9 +1,9 @@
 ---
 title: SevenZipEntrySettings
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 180
 url: /python-net/aspose.zip.saving/sevenzipentrysettings/
 ---
 
@@ -21,6 +21,7 @@ The SevenZipEntrySettings type exposes the following members:
 | :- | :- |
 |compression_settings|Gets settings for compression or decompression routine.|
 |encryption_settings|Gets settings for encryption or decryption. Settings of particular entry may vary.|
+|compress_header|Gets or sets value indicating whether to compress archive header.|
 
 ### See Also
 
