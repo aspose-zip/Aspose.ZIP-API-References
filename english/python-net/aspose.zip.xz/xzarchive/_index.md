@@ -1,6 +1,6 @@
 ---
 title: XzArchive
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
@@ -27,12 +27,11 @@ The XzArchive type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(destination)|Extracts xz archive to a stream.|
-|extract(path)|Extracts content of the archive to the directory provided.|
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |save(output)|Saves xz archive to the stream provided.|
 |save(destination_file_name)|Saves xz archive to destination file provided.|
+|extract(destination)|Extracts xz archive to a stream.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 
 ### See Also

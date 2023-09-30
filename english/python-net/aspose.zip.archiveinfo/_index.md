@@ -1,9 +1,9 @@
 ---
 title: aspose.zip.archiveinfo
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 20
 url: /python-net/aspose.zip.archiveinfo/
 ---
 

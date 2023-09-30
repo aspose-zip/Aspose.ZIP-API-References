@@ -1,9 +1,9 @@
 ---
 title: ParallelCompressionMode
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 300
 url: /python-net/aspose.zip.saving/parallelcompressionmode/
 ---
 
