@@ -1,6 +1,6 @@
 ---
 title: ZArchive
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
@@ -27,12 +27,11 @@ The ZArchive type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(destination)|Extracts Z archive to a stream.|
-|extract(path)|Extracts Z archive to a file by path.|
 |save(output)|Saves xz archive to the stream provided.|
 |save(destination_file_name)|Saves Z archive to destination file provided.|
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
+|extract(destination)|Extracts Z archive to a stream.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 
 ### See Also

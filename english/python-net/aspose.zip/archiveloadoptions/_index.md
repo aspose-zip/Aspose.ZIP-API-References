@@ -1,9 +1,9 @@
 ---
 title: ArchiveLoadOptions
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 60
 url: /python-net/aspose.zip/archiveloadoptions/
 ---
 

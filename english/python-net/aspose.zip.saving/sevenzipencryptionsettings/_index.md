@@ -1,9 +1,9 @@
 ---
 title: SevenZipEncryptionSettings
-second_title: Aspose.Sildes for Python via .NET API Reference
+second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.zip.saving/sevenzipencryptionsettings/
 ---
 
