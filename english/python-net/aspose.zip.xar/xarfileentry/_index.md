@@ -3,7 +3,7 @@ title: XarFileEntry
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /python-net/aspose.zip.xar/xarfileentry/
 ---
 
@@ -26,8 +26,9 @@ The XarFileEntry type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|open()|Opens the entry for extraction and provides a stream with entry content.|
+|extract(path)|Extracts the entry to the filesystem by the path provided.|
 |extract(destination)|Extracts the entry to the stream provided.|
+|open()|Opens the entry for extraction and provides a stream with entry content.|
 
 ### See Also
 
