@@ -3,7 +3,7 @@ title: SplitArchiveSaveOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 270
 url: /python-net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 

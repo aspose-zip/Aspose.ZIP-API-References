@@ -20,8 +20,9 @@ The CabEntry type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|open()|Opens the entry for extraction and provides a stream with entry content.|
+|extract(path)|Extracts the entry to the filesystem by the path provided.|
 |extract(destination)|Extracts the entry to the stream provided.|
+|open()|Opens the entry for extraction and provides a stream with entry content.|
 
 ### See Also
 
