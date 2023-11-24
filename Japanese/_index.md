@@ -22,3 +22,19 @@ Aspose.ZIP は、従来の暗号化技術と AES 暗号化技術を使用して 
 
 これらは、いくつかの有用なリソースへのリンクです。
 - [Aspose.ZIP for .NET API リファレンス](/zip/ja/net/)
+- [Aspose.ZIP for .NET API チュートリアル](/tutorials/zip/net/)
+
+## .NET 経由の Python 用 Aspose.ZIP
+
+{{% alert color="primary" %}} 
+
+![Aspose.ZIP for Python via .NET 製品ロゴ](../home_2.png)
+
+Aspose.ZIP for Python .NET は、標準の ZIP 形式でファイル圧縮を処理できる、柔軟で使いやすい Python API です。 圧縮ファイル形式の根本的な複雑さを考慮することなく、ファイルやフォルダーの圧縮/解凍を実行できるため、時間と労力を節約できます。
+
+Aspose.ZIP は、従来の暗号化技術と AES 暗号化技術を使用して ZIP アーカイブをパスワード保護する機能を提供します。 API は使いやすく、堅牢です。
+
+{{% /alert %}} 
+
+これらはいくつかの役立つリソースへのリンクです。
+- [.NET API リファレンス経由の Python 用 Aspose.ZIP](/zip/python-net/)

@@ -21,6 +21,7 @@ Aspose.ZIP provides you the capability to password protect the ZIP archives with
 
 These are links to some useful resources:
 - [Aspose.ZIP for .NET API Reference](/zip/net/)
+- [Aspose.ZIP for .NET API Tutorials](/tutorials/zip/net/)
 
 ## Aspose.ZIP for Python via .NET
 

@@ -22,3 +22,19 @@ Aspose.ZIP 为您提供了使用传统和 AES 加密技术对 ZIP 档案进行�
 
 这些是一些有用资源的链接：
 - [Aspose.ZIP for .NET API 参考](/zip/zh/net/)
+- [Aspose.ZIP for .NET API 教程](/tutorials/zip/zh/net/)
+
+## Aspose.ZIP for Python 通过 .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.ZIP for Python via .NET 产品徽标](../home_2.png)
+
+Aspose.ZIP for Python .NET 是一个灵活且易于使用的 Python API，可让您以标准 ZIP 格式压缩文件。 它允许您实现文件和文件夹的压缩/解压缩，而无需考虑压缩文件格式的潜在复杂性，从而节省您的时间和精力。
+
+Aspose.ZIP 使您能够使用传统和 AES 加密技术对 ZIP 档案进行密码保护。 该 API 易于使用且功能强大。
+
+{{% /alert %}} 
+
+这些是一些有用资源的链接：
+- [Aspose.ZIP for Python via .NET API 参考](/zip/python-net/)
