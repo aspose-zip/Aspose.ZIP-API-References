@@ -22,3 +22,19 @@ Aspose.ZIP le brinda la capacidad de proteger con contraseña los archivos ZIP c
 
 Estos son enlaces a algunos recursos útiles:
 - [Referencia de la API de Aspose.ZIP para .NET](/zip/es/net/)
+- [Tutoriales de API de Aspose.ZIP para .NET](/tutorials/zip/es/net/)
+
+## Aspose.ZIP para Python a través de .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.ZIP para Python a través del logotipo del producto .NET](../home_2.png)
+
+Aspose.ZIP para Python .NET es una API de Python flexible y fácil de usar que le permite trabajar con compresión de archivos en un formato ZIP estándar. Le ahorra tiempo y esfuerzos al permitirle lograr la compresión/descompresión de archivos y carpetas sin entrar en la complejidad subyacente de los formatos de archivos comprimidos.
+
+Aspose.ZIP le brinda la capacidad de proteger con contraseña los archivos ZIP con técnicas de cifrado tradicionales y AES. La API es fácil de usar y robusta.
+
+{{% /alert %}} 
+
+Estos son enlaces a algunos recursos útiles:
+- [Aspose.ZIP para Python a través de la referencia de API .NET](/zip/python-net/)

@@ -22,3 +22,19 @@ Aspose.ZIP, geleneksel ve AES şifreleme teknikleriyle ZIP arşivlerini parolayl
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.ZIP for .NET API Referansı](/zip/tr/net/)
+- [.NET API Eğitimleri için Aspose.ZIP](/tutorials/zip/tr/net/)
+
+## .NET aracılığıyla Python için Aspose.ZIP
+
+{{% alert color="primary" %}} 
+
+![.NET Ürün Logosu aracılığıyla Python için Aspose.ZIP](../home_2.png)
+
+Aspose.ZIP for Python .NET, standart ZIP formatında dosya sıkıştırmayla çalışmanıza olanak tanıyan esnek ve kullanımı kolay bir Python API'sidir. Sıkıştırılmış dosya formatlarının temel karmaşıklığına girmeden dosya ve klasörlerin sıkıştırılmasını/açılmasını sağlayarak zamandan ve emekten tasarruf etmenizi sağlar.
+
+Aspose.ZIP, ZIP arşivlerinizi hem geleneksel hem de AES şifreleme teknikleriyle parolayla koruma olanağı sağlar. API'nin kullanımı kolay ve sağlamdır.
+
+{{% /alert %}} 
+
+Bunlar bazı yararlı kaynaklara bağlantılar:
+- [.NET API Referansı aracılığıyla Python için Aspose.ZIP](/zip/python-net/)

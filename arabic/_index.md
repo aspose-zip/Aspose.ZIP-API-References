@@ -22,3 +22,19 @@ Aspose.ZIP for .NET هو .NET API مرن وسهل الاستخدام يتيح ل
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.ZIP لمرجع .NET API](/zip/ar/net/)
+- [Aspose.ZIP لبرامج .NET API التعليمية(/tutorials/zip/ar/net/)
+
+## Aspose.ZIP لـ Python عبر .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.ZIP لـ Python عبر شعار منتج .NET](../home_2.png)
+
+Aspose.ZIP for Python .NET عبارة عن Python API مرنة وسهلة الاستخدام تتيح لك العمل مع ضغط الملفات بتنسيق ZIP القياسي. إنه يوفر وقتك وجهدك من خلال السماح لك بتحقيق ضغط/إلغاء ضغط الملفات والمجلدات دون الخوض في التعقيد الأساسي لتنسيقات الملفات المضغوطة.
+
+يوفر لك Aspose.ZIP القدرة على حماية أرشيفات ZIP بكلمة مرور باستخدام تقنيات التشفير التقليدية وكذلك AES. واجهة برمجة التطبيقات (API) سهلة الاستخدام وقوية.
+
+{{% /alert %}} 
+
+وهذه روابط لبعض الموارد المفيدة:
+- [Aspose.ZIP لـ Python عبر مرجع .NET API](/zip/python-net/)
