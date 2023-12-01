@@ -18,6 +18,7 @@ The SevenZipArchive type exposes the following members:
 |SevenZipArchive(new_entry_settings)|Initializes a new instance of the SevenZipArchive class|
 |SevenZipArchive(source_stream, password)|Initializes a new instance of the SevenZipArchive class|
 |SevenZipArchive(path, password)|Initializes a new instance of the SevenZipArchive class|
+|SevenZipArchive(parts, password)|Initializes a new instance of the SevenZipArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
