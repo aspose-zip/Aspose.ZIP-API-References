@@ -17,6 +17,7 @@ The CompressionSettings type exposes the following members:
 | :- | :- |
 |bzip2|An instance of|
 |deflate|An instance of|
+|enhanced_deflate|An instance of|
 |store|An instance of|
 |lzma|An instance of|
 |xz|An instance of|
