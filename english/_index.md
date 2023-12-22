@@ -23,6 +23,21 @@ These are links to some useful resources:
 - [Aspose.ZIP for .NET API Reference](/zip/net/)
 - [Aspose.ZIP for .NET API Tutorials](/tutorials/zip/net/)
 
+## Aspose.ZIP for Java
+
+{{% alert color="primary" %}} 
+
+![Aspose.ZIP for Java Product Logo](home_java.png)
+
+Aspose.ZIP for Java is a flexible and easy to use Java API that lets you work with files compression in a standard ZIP format. It saves your time and efforts by allowing you to achieve compression/decompression of files and folders without going into the underlying complexity of the compress file formats.
+
+Aspose.ZIP provides you the capability to password protect the ZIP archives with traditional as well as AES encryption techniques. The API is robust and easy to use in Java applications.
+
+{{% /alert %}} 
+
+These are links to some useful resources:
+- [Aspose.ZIP for Java API Reference](/zip/java/)
+
 ## Aspose.ZIP for Python via .NET
 
 {{% alert color="primary" %}} 
