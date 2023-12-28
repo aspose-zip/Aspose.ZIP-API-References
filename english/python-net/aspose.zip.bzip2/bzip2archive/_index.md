@@ -31,11 +31,10 @@ The Bzip2Archive type exposes the following members:
 |set_source(path)|Sets the content to be compressed within the archive.|
 |set_source(tar_archive, format)|Sets the content to be compressed within the archive.|
 |set_source(cpio_archive, format)|Sets the content to be compressed within the archive.|
-|extract(destination)|Extracts the archive to the stream provided.|
-|extract(path)|Extracts content of the archive to the directory provided.|
 |save(output_stream, save_options)|Saves archive to the stream provided.|
 |save(destination_file_name, save_options)|Saves archive to destination file provided.|
 |open()|Opens the archive for extraction and provides a stream with archive content.|
+|extract(destination)|Extracts the archive to the stream provided.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 
 ### See Also

@@ -3,7 +3,7 @@ title: ParallelOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 120
 url: /python-net/aspose.zip.saving/paralleloptions/
 ---
 
