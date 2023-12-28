@@ -1,12 +1,12 @@
 ---
-title: SevenZipArchive.CreateEntry
+title: CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: SevenZipArchive method. Create single entry within the archive
+description: 
 type: docs
 weight: 50
 url: /net/aspose.zip.sevenzip/sevenziparchive/createentry/
 ---
-## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry}
+## SevenZipArchive.CreateEntry method (1 of 4)
 
 Create single entry within the archive.
 
@@ -20,7 +20,7 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 
 ### Return Value
 
@@ -34,13 +34,13 @@ Seven Zip entry instance.
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 
-## Remarks
+### Remarks
 
 The entry name is solely set within *name* parameter. The file name provided in *fileInfo* parameter does not affect the entry name.
 
 If the file is opened immediately with *openImmediately* parameter it becomes blocked until archive is saved.
 
-## Examples
+### Examples
 
 Compose archive with entries encrypted with different passwords each.
 
@@ -62,15 +62,15 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### See Also
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
-* class [SevenZipArchive](../)
-* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
+* class [SevenZipArchive](../../sevenziparchive)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_2}
+## SevenZipArchive.CreateEntry method (2 of 4)
 
 Create single entry within the archive.
 
@@ -83,7 +83,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | source | Stream | The input stream for the entry. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 | fileInfo | FileSystemInfo | The metadata of file or folder to be compressed. |
 
 ### Return Value
@@ -96,13 +96,13 @@ SevenZip entry instance.
 | --- | --- |
 | InvalidOperationException | Both *source* and *fileInfo* are null or *source* is null and *fileInfo* stands for directory. |
 
-## Remarks
+### Remarks
 
 The entry name is solely set within *name* parameter. The file name provided in *fileInfo* parameter does not affect the entry name.
 
 *fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-## Examples
+### Examples
 
 Compose archive with LZMA2 compressed encrypted entry.
 
@@ -119,15 +119,15 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### See Also
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
-* class [SevenZipArchive](../)
-* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
+* class [SevenZipArchive](../../sevenziparchive)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_1}
+## SevenZipArchive.CreateEntry method (3 of 4)
 
 Create single entry within the archive.
 
@@ -140,13 +140,13 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | source | Stream | The input stream for the entry. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 
 ### Return Value
 
 Zip entry instance.
 
-## Examples
+### Examples
 
 Compose 7z archive with LZMA2 compression and encryption of all entries.
 
@@ -160,15 +160,15 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 
 ### See Also
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
-* class [SevenZipArchive](../)
-* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
+* class [SevenZipArchive](../../sevenziparchive)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_3}
+## SevenZipArchive.CreateEntry method (4 of 4)
 
 Create single entry within the archive.
 
@@ -182,7 +182,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | name | String | The name of the entry. |
 | path | String | The fully qualified name of the new file, or the relative file name to be compressed. |
 | openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry) item. |
 
 ### Return Value
 
@@ -199,13 +199,13 @@ Zip entry instance.
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 
-## Remarks
+### Remarks
 
 The entry name is solely set within *name* parameter. The file name provided in *path* parameter does not affect the entry name.
 
 If the file is opened immediately with *openImmediately* parameter it becomes blocked until archive is saved.
 
-## Examples
+### Examples
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -220,10 +220,10 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### See Also
 
-* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
-* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
-* class [SevenZipArchive](../)
-* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings)
+* class [SevenZipArchive](../../sevenziparchive)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive)
 * assembly [Aspose.Zip](../../../)
 
-
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.ZIP.dll -->
