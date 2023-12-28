@@ -3,7 +3,7 @@ title: EventsBag
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 90
 url: /python-net/aspose.zip.saving/eventsbag/
 ---
 

@@ -3,7 +3,7 @@ title: Bzip2CompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /python-net/aspose.zip.saving/bzip2compressionsettings/
 ---
 
