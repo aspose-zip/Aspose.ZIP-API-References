@@ -33,9 +33,8 @@ The WimFileEntry type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(path)|Extracts the entry to the filesystem by the path provided.|
-|extract(destination)|Extracts the entry to the stream provided.|
 |open()|Opens the entry for extraction and provides a stream with entry content.|
+|extract(destination)|Extracts the entry to the stream provided.|
 
 ### See Also
 

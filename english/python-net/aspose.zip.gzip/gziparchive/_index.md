@@ -30,11 +30,10 @@ The GzipArchive type exposes the following members:
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |set_source(tar_archive)|Sets the content to be compressed within the archive.|
-|extract(destination)|Extracts the archive to the stream provided.|
-|extract(path)|Extracts content of the archive to the directory provided.|
 |save(output_stream)|Saves archive to the stream provided.|
 |save(destination_file_name)|Saves archive to destination file provided.|
 |open()|Opens the archive for extraction and provides a stream with archive content.|
+|extract(destination)|Extracts the archive to the stream provided.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 
 ### See Also
