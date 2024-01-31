@@ -8,12 +8,12 @@ url: /java/com.aspose.zip/archive/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class Archive implements System.IDisposable, IArchive, AutoCloseable
+public class Archive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
 ```
 
 This class represents zip archive file. Use it to compose, extract, or update zip archives.
@@ -29,6 +29,8 @@ This class represents zip archive file. Use it to compose, extract, or update zi
 | [Archive(String path)](#Archive-java.lang.String-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
 | [Archive(String path, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
 | [Archive(String path, ArchiveLoadOptions loadOptions, ArchiveEntrySettings newEntrySettings)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-com.aspose.zip.ArchiveEntrySettings-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
+| [Archive(String mainSegment, String[] segmentsInOrder)](#Archive-java.lang.String-java.lang.String---) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive. |
+| [Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-java.lang.String---com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -331,6 +333,59 @@ This constructor does not decompress any entry. See [ArchiveEntry.open()](../../
 | path | java.lang.String | The fully qualified or the relative path to the archive file. |
 | loadOptions | [ArchiveLoadOptions](../../com.aspose.zip/archiveloadoptions) | Options to load existing archive with. |
 | newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. If not specified, most common Deflate compression without encryption would be used. |
+
+### Archive(String mainSegment, String[] segmentsInOrder) {#Archive-java.lang.String-java.lang.String---}
+```
+public Archive(String mainSegment, String[] segmentsInOrder)
+```
+
+
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive.
+
+```
+
+     try (Archive a = new Archive("archive.zip", new String[] { "archive.z01", "archive.z02" })) {
+         a.extractToDirectory("destination");
+     }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mainSegment | java.lang.String | Path to the last segment of multi-volume archive with the central directory.
+
+Usually this segment has \*.zip extension and smaller than others. |
+| segmentsInOrder | java.lang.String[] | Paths to each segment but the last of multi-volume zip archive respecting order.
+
+Usually they named filename.z01, filename.z02, ..., filename.z(n-1). |
+
+### Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions loadOptions) {#Archive-java.lang.String-java.lang.String---com.aspose.zip.ArchiveLoadOptions-}
+```
+public Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive.
+
+```
+
+     try (Archive a = new Archive("archive.zip", new String[] { "archive.z01", "archive.z02" })) {
+         a.extractToDirectory("destination");
+     }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mainSegment | java.lang.String | Path to the last segment of multi-volume archive with the central directory.
+
+Usually this segment has \*.zip extension and smaller than others. |
+| segmentsInOrder | java.lang.String[] | Paths to each segment but the last of multi-volume zip archive respecting order.
+
+Usually they named filename.z01, filename.z02, ..., filename.z(n-1). |
+| loadOptions | [ArchiveLoadOptions](../../com.aspose.zip/archiveloadoptions) | Options to load existing archive with. |
 
 ### close() {#close--}
 ```

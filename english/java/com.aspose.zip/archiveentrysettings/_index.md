@@ -50,7 +50,9 @@ Initializes a new instance of the [ArchiveEntrySettings](../../com.aspose.zip/ar
 
 Can be one of these:
 
- *   |
+ *  [DeflateCompressionSettings](../../com.aspose.zip/deflatecompressionsettings)
+ *  [EnhancedDeflateCompressionSettings](../../com.aspose.zip/enhanceddeflatecompressionsettings)
+ *  [StoreCompressionSettings](../../com.aspose.zip/storecompressionsettings) |
 
 ### ArchiveEntrySettings(CompressionSettings compressionSettings, EncryptionSettings encryptionSettings) {#ArchiveEntrySettings-com.aspose.zip.CompressionSettings-com.aspose.zip.EncryptionSettings-}
 ```
@@ -67,12 +69,15 @@ Initializes a new instance of the [ArchiveEntrySettings](../../com.aspose.zip/ar
 
 Can be one of these:
 
- *   |
+ *  [DeflateCompressionSettings](../../com.aspose.zip/deflatecompressionsettings)
+ *  [EnhancedDeflateCompressionSettings](../../com.aspose.zip/enhanceddeflatecompressionsettings)
+ *  [StoreCompressionSettings](../../com.aspose.zip/storecompressionsettings) |
 | encryptionSettings | [EncryptionSettings](../../com.aspose.zip/encryptionsettings) | Settings for encryption. Pass null if no need to encrypt or decrypt.
 
 Can be one of these:
 
- *   |
+ *  [TraditionalEncryptionSettings](../../com.aspose.zip/traditionalencryptionsettings)
+ *  [AesEncryptionSettings](../../com.aspose.zip/aesencryptionsettings) |
 
 ### getCompressionSettings() {#getCompressionSettings--}
 ```
@@ -85,6 +90,7 @@ Gets settings for compression or decompression routine.
 Can be one of these:
 
  *  [DeflateCompressionSettings](../../com.aspose.zip/deflatecompressionsettings)
+ *  [EnhancedDeflateCompressionSettings](../../com.aspose.zip/enhanceddeflatecompressionsettings)
  *  [StoreCompressionSettings](../../com.aspose.zip/storecompressionsettings)
 
 **Returns:**
