@@ -18,6 +18,7 @@ The Archive type exposes the following members:
 |Archive(new_entry_settings)|Initializes a new instance of the Archive class|
 |Archive(source_stream, load_options, new_entry_settings)|Initializes a new instance of the Archive class|
 |Archive(path, load_options, new_entry_settings)|Initializes a new instance of the Archive class|
+|Archive(main_segment, segments_in_order, load_options)|Initializes a new instance of the Archive class|
 ## Properties
 | Name | Description |
 | :- | :- |
