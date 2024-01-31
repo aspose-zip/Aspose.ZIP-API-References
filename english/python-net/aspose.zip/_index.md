@@ -23,6 +23,7 @@ Contains classes which represent zip archive and common archive related entities
 |[IArchive](/zip/python-net/aspose.zip/iarchive/)|This interface represents an archive.|
 |[IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/)|This interface represents an archive file entry.|
 |[License](/zip/python-net/aspose.zip/license/)|Provides methods to license the component.|
+|[MeteredLicense](/zip/python-net/aspose.zip/meteredlicense/)|Provides methods to set metered key.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
