@@ -3,7 +3,7 @@ title: SplitArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a multi-volume zip archive.
 type: docs
-weight: 32
+weight: 37
 url: /java/com.aspose.zip/splitarchivesaveoptions/
 ---
 

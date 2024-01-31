@@ -34,6 +34,11 @@ url: /java/com.aspose.zip/
 | [MeteredLicense](../com.aspose.zip/meteredlicense) | Provides methods to set metered key. |
 | [ParallelOptions](../com.aspose.zip/paralleloptions) | Options for parallel compression. |
 | [ProgressEventArgs](../com.aspose.zip/progresseventargs) | Class for event data containing the number of bytes proceeded. |
+| [RarArchive](../com.aspose.zip/rararchive) | This class represents RAR archive file. |
+| [RarArchiveEntry](../com.aspose.zip/rararchiveentry) | Represents single file within archive. |
+| [RarArchiveEntryEncrypted](../com.aspose.zip/rararchiveentryencrypted) | Rar entry that needs to be decompressed with decryption. |
+| [RarArchiveEntryPlain](../com.aspose.zip/rararchiveentryplain) | Rar entry that needs to be decompressed without decryption. |
+| [RarArchiveLoadOptions](../com.aspose.zip/rararchiveloadoptions) | Options with which [RarArchive](../com.aspose.zip/rararchive) is loaded from compressed file. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
 | [StoreCompressionSettings](../com.aspose.zip/storecompressionsettings) | Settings for Store compression method. |
 | [TraditionalEncryptionSettings](../com.aspose.zip/traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
