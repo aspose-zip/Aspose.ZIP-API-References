@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 38
+weight: 43
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -18,6 +18,7 @@ Supported archive formats.
 
 | Field | Description |
 | --- | --- |
+| [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
 | [Unknown](#Unknown) | Unknown format. |
 | [Zip](#Zip) | Zip archive ([Archive](../../com.aspose.zip/archive)). |
 ## Methods
@@ -26,6 +27,14 @@ Supported archive formats.
 | --- | --- |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
+### Rar {#Rar}
+```
+public static final ArchiveFormat Rar
+```
+
+
+Rar archive ([RarArchive](../../com.aspose.zip/rararchive)).
+
 ### Unknown {#Unknown}
 ```
 public static final ArchiveFormat Unknown

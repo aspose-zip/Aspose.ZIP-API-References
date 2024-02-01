@@ -92,13 +92,11 @@ public final void setMeteredKey(String publicKey, String privateKey)
 
 Sets metered public and private keys.
 
+If you purchase metered license, this API should be called on application startup, normally, this is enough. However, if metered fails to upload consumption data during 24 hours period, the license will be set to evaluation status. To avoid such case, you should regularly check the license status If it is evaluation status, call this API again.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | publicKey | java.lang.String | The public key. |
-| privateKey | java.lang.String | The private key.
-
---------------------
-
-If you purchase metered license, this API should be called on application startup, normally, this is enough. However, if metered fails to upload consumption data during 24 hours period, the license will be set to evaluation status. To avoid such case, you should regularly check the license status If it is evaluation status, call this API again. |
+| privateKey | java.lang.String | The private key. |
 
