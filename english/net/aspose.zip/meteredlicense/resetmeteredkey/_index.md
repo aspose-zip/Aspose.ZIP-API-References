@@ -1,17 +1,17 @@
 ---
-title: MeteredLicense
+title: ResetMeteredKey
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 10
-url: /net/aspose.zip/meteredlicense/meteredlicense/
+weight: 20
+url: /net/aspose.zip/meteredlicense/resetmeteredkey/
 ---
-## MeteredLicense constructor
+## MeteredLicense.ResetMeteredKey method
 
-The default constructor.
+Removes previously setup license.
 
 ```csharp
-public MeteredLicense()
+public void ResetMeteredKey()
 ```
 
 ### See Also

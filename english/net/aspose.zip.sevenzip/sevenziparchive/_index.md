@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.zip.sevenzip/sevenziparchive/
 ---
 ## SevenZipArchive class

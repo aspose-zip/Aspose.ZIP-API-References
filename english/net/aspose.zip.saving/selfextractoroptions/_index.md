@@ -3,7 +3,7 @@ title: SelfExtractorOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.zip.saving/selfextractoroptions/
 ---
 ## SelfExtractorOptions class
@@ -31,7 +31,7 @@ public class SelfExtractorOptions
 
 ### Remarks
 
-Self-extracting archive can not be composed with metered license: !:MeteredLicense.
+Self-extracting archive can not be composed with metered license: [`MeteredLicense`](../../aspose.zip/meteredlicense).
 
 ### Examples
 
