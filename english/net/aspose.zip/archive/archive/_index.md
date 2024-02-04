@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.zip/archive/archive/
 ---
-## Archive constructor (1 of 3)
+## Archive constructor (1 of 4)
 
 Initializes a new instance of the [`Archive`](../../archive) class with optional settings for its entries.
 
@@ -42,7 +42,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ---
 
-## Archive constructor (2 of 3)
+## Archive constructor (2 of 4)
 
 Initializes a new instance of the [`Archive`](../../archive) class and composes entries list can be extracted from the archive.
 
@@ -97,7 +97,7 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ---
 
-## Archive constructor (3 of 3)
+## Archive constructor (3 of 4)
 
 Initializes a new instance of the [`Archive`](../../archive) class and composes entries list can be extracted from the archive.
 
@@ -149,6 +149,40 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 
 * class [ArchiveLoadOptions](../../archiveloadoptions)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings)
+* class [Archive](../../archive)
+* namespace [Aspose.Zip](../../archive)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## Archive constructor (4 of 4)
+
+Initializes a new instance of the [`Archive`](../../archive) class from multi-volume zip archive and composes entries list can be extracted from the archive.
+
+```csharp
+public Archive(string mainSegment, string[] segmentsInOrder, ArchiveLoadOptions loadOptions = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mainSegment | String | Path to the last segment of multi-volume archive with the central directory. |
+| segmentsInOrder | String[] | Paths to each segment but the last of multi-volume zip archive respecting order. |
+| loadOptions | ArchiveLoadOptions | Options to load existing archive with. |
+
+### Examples
+
+This sample extract to a directory an archive of three segments.
+
+```csharp
+using (Archive a = new Archive("archive.zip", new string[] { "archive.z01", "archive.z02" }))
+{
+    a.ExtractToDirectory("destination");
+}
+```
+
+### See Also
+
+* class [ArchiveLoadOptions](../../archiveloadoptions)
 * class [Archive](../../archive)
 * namespace [Aspose.Zip](../../archive)
 * assembly [Aspose.Zip](../../../)

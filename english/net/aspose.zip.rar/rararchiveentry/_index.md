@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.zip.rar/rararchiveentry/
 ---
 ## RarArchiveEntry class

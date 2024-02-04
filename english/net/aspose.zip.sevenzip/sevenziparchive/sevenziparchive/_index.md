@@ -139,7 +139,7 @@ public SevenZipArchive(string[] parts, string password = null)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parts | String[] | Pathes to each segment of multi-volume 7z archive respecting order |
+| parts | String[] | Paths to each segment of multi-volume 7z archive respecting order |
 | password | String | Optional password for decryption. If file names are encrypted it must be present. |
 
 ### Exceptions

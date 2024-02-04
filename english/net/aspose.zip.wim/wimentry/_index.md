@@ -3,7 +3,7 @@ title: WimEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.zip.wim/wimentry/
 ---
 ## WimEntry class

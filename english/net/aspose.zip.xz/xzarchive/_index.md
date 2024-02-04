@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.zip.xz/xzarchive/
 ---
 ## XzArchive class

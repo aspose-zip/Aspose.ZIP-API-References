@@ -21,6 +21,7 @@ public class Archive : IArchive
 | [Archive](archive)(ArchiveEntrySettings) | Initializes a new instance of the [`Archive`](../archive) class with optional settings for its entries. |
 | [Archive](archive)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Initializes a new instance of the [`Archive`](../archive) class and composes entries list can be extracted from the archive. |
 | [Archive](archive)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Initializes a new instance of the [`Archive`](../archive) class and composes entries list can be extracted from the archive. |
+| [Archive](archive)(string, string[], ArchiveLoadOptions) | Initializes a new instance of the [`Archive`](../archive) class from multi-volume zip archive and composes entries list can be extracted from the archive. |
 
 ## Properties
 

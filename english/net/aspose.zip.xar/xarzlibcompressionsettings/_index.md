@@ -3,7 +3,7 @@ title: XarZlibCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.zip.xar/xarzlibcompressionsettings/
 ---
 ## XarZlibCompressionSettings class

@@ -1,18 +1,22 @@
 ---
-title: MeteredLicense
+title: GetConsumptionQuantity
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 10
-url: /net/aspose.zip/meteredlicense/meteredlicense/
+weight: 50
+url: /net/aspose.zip/meteredlicense/getconsumptionquantity/
 ---
-## MeteredLicense constructor
+## MeteredLicense.GetConsumptionQuantity method
 
-The default constructor.
+Gets consumption file size.
 
 ```csharp
-public MeteredLicense()
+public static decimal GetConsumptionQuantity()
 ```
+
+### Return Value
+
+Returns the number of consumed bytes.
 
 ### See Also
 

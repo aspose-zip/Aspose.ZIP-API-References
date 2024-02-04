@@ -3,7 +3,7 @@ title: SharEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.zip.shar/sharentry/
 ---
 ## SharEntry class
