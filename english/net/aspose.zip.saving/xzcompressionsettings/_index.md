@@ -3,7 +3,7 @@ title: XzCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.zip.saving/xzcompressionsettings/
 ---
 ## XzCompressionSettings class

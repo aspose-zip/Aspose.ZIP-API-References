@@ -18,6 +18,7 @@ public static class ArchiveFactory
 
 | Name | Description |
 | --- | --- |
+| static [CompressDirectory](../../aspose.zip/archivefactory/compressdirectory)(string, string, ArchiveFormat) | Compresses the specified directory into an archive file using the provided archive format. |
 | static [GetArchive](../../aspose.zip/archivefactory/getarchive)(Stream) | Detects the archive format and creates the appropriate [`IArchive`](../iarchive) object according to the type of archive specified by the given stream. |
 | static [GetArchive](../../aspose.zip/archivefactory/getarchive)(string) | Detects the archive format and creates the appropriate [`IArchive`](../iarchive) object according to the type of archive specified by the given path. |
 

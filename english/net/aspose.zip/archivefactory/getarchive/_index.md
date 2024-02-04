@@ -3,7 +3,7 @@ title: GetArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.zip/archivefactory/getarchive/
 ---
 ## ArchiveFactory.GetArchive method (1 of 2)
