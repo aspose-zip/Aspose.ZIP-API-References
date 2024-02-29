@@ -3,7 +3,7 @@ title: MeteredLicense
 second_title: Aspose.ZIP for Java API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.aspose.zip/meteredlicense/
 ---
 

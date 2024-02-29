@@ -121,7 +121,7 @@ public Archive(InputStream sourceStream)
 Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an encrypted archive, then decompress first entry to a  ByteArrayOutputStream .
+The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -133,7 +133,7 @@ The following example extract an encrypted archive, then decompress first entry 
              try (InputStream decompressed = archive.getEntries().get(0).open()) {
                  byte[] b = new byte[8192];
                  int bytesRead;
-                 while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                 while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                      extracted.write(b, 0, bytesRead);
              }
          }
@@ -158,7 +158,7 @@ public Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions)
 Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an encrypted archive, then decompress first entry to a  ByteArrayOutputStream .
+The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -170,7 +170,7 @@ The following example extract an encrypted archive, then decompress first entry 
              try (InputStream decompressed = archive.getEntries().get(0).open()) {
                  byte[] b = new byte[8192];
                  int bytesRead;
-                 while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                 while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                      extracted.write(b, 0, bytesRead);
              }
          }
@@ -196,7 +196,7 @@ public Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions, Archive
 Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an encrypted archive, then decompress first entry to a  ByteArrayOutputStream .
+The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -208,7 +208,7 @@ The following example extract an encrypted archive, then decompress first entry 
              try (InputStream decompressed = archive.getEntries().get(0).open()) {
                  byte[] b = new byte[8192];
                  int bytesRead;
-                 while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                 while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                      extracted.write(b, 0, bytesRead);
              }
          }
@@ -235,7 +235,7 @@ public Archive(String path)
 Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an encrypted archive, then decompress first entry to a  ByteArrayOutputStream .
+The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -246,7 +246,7 @@ The following example extract an encrypted archive, then decompress first entry 
          try (InputStream decompressed = archive.getEntries().get(0).open()) {
              byte[] b = new byte[8192];
              int bytesRead;
-             while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+             while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                  extracted.write(b, 0, bytesRead);
          } catch (IOException ex) {
          }
@@ -270,7 +270,7 @@ public Archive(String path, ArchiveLoadOptions loadOptions)
 Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an encrypted archive, then decompress first entry to a  ByteArrayOutputStream .
+The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -281,7 +281,7 @@ The following example extract an encrypted archive, then decompress first entry 
          try (InputStream decompressed = archive.getEntries().get(0).open()) {
              byte[] b = new byte[8192];
              int bytesRead;
-             while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+             while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                  extracted.write(b, 0, bytesRead);
          } catch (IOException ex) {
          }
@@ -306,7 +306,7 @@ public Archive(String path, ArchiveLoadOptions loadOptions, ArchiveEntrySettings
 Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an encrypted archive, then decompress first entry to a  ByteArrayOutputStream .
+The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -317,7 +317,7 @@ The following example extract an encrypted archive, then decompress first entry 
          try (InputStream decompressed = archive.getEntries().get(0).open()) {
              byte[] b = new byte[8192];
              int bytesRead;
-             while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+             while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                  extracted.write(b, 0, bytesRead);
          } catch (IOException ex) {
          }
@@ -523,7 +523,7 @@ Compose archive with entries encrypted with different encryption methods and pas
  
 ```
 
-The entry name is solely set within  name  parameter. The file name provided in  fileInfo  parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -561,9 +561,9 @@ Compose archive with entries encrypted with different encryption methods and pas
  
 ```
 
-The entry name is solely set within  name  parameter. The file name provided in  fileInfo  parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
 
-If the file is opened immediately with  openImmediately  parameter it becomes blocked until archive is saved.
+If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is saved.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,9 +602,9 @@ Compose archive with entries encrypted with different encryption methods and pas
  
 ```
 
-The entry name is solely set within  name  parameter. The file name provided in  fileInfo  parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
 
-If the file is opened immediately with  openImmediately  parameter it becomes blocked until archive is saved.
+If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is saved.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,9 +699,9 @@ Compose archive with encrypted entry.
  
 ```
 
-The entry name is solely set within  name  parameter. The file name provided in  fileInfo  parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
 
- fileInfo  can refer to DirectoryInfo if the entry is directory.
+`fileInfo` can refer to DirectoryInfo if the entry is directory.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -733,7 +733,7 @@ Create single entry within the archive.
  
 ```
 
-The entry name is solely set within  name  parameter. The file name provided in  path  parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `path` parameter does not affect the entry name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -763,9 +763,9 @@ Create single entry within the archive.
  
 ```
 
-The entry name is solely set within  name  parameter. The file name provided in  path  parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `path` parameter does not affect the entry name.
 
-If the file is opened immediately with  openImmediately  parameter it becomes blocked until archive is saved.
+If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is saved.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -796,9 +796,9 @@ Create single entry within the archive.
  
 ```
 
-The entry name is solely set within  name  parameter. The file name provided in  path  parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `path` parameter does not affect the entry name.
 
-If the file is opened immediately with  openImmediately  parameter it becomes blocked until archive is saved.
+If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is saved.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -824,7 +824,7 @@ Here is how you can remove all entries except the last one:
 ```
 
     try (Archive archive = new Archive("archive.zip")) {
-        while (archive.getEntries().size() &gt; 1)
+        while (archive.getEntries().size() > 1)
             archive.deleteEntry(archive.getEntries().get(0));
         archive.save("last_entry.zip");
     }
@@ -943,7 +943,7 @@ Saves archive to the stream provided.
  
 ```
 
- outputStream  must be writable.
+`outputStream` must be writable.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -970,7 +970,7 @@ Saves archive to the stream provided.
  
 ```
 
- outputStream  must be writable.
+`outputStream` must be writable.
 
 **Parameters:**
 | Parameter | Type | Description |

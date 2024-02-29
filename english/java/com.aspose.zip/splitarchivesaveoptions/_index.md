@@ -3,7 +3,7 @@ title: SplitArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a multi-volume zip archive.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.aspose.zip/splitarchivesaveoptions/
 ---
 
@@ -37,9 +37,9 @@ public SplitArchiveSaveOptions(String fileName, long segmentSize)
 
 Instantiates settings for saving a multi-volume zip archive.
 
-Some volumes may be less than  segmentSize . In most cases the last segment will be less but rarely regular segments might be too.
+Some volumes may be less than `segmentSize`. In most cases the last segment will be less but rarely regular segments might be too.
 
-Names of files will be as follows:  fileName .z01,  fileName .z02, ...,  fileName .z(n-1),  fileName .zip.
+Names of files will be as follows: `fileName`.z01, `fileName`.z02, ..., `fileName`.z(n-1), `fileName`.zip.
 
 **Parameters:**
 | Parameter | Type | Description |
