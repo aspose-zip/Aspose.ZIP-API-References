@@ -3,7 +3,7 @@ title: aspose.zip.snappy
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 40
 url: /python-net/aspose.zip.snappy/
 ---
 
