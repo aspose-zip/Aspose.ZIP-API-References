@@ -3,7 +3,7 @@ title: SevenZipAESEncryptionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 120
 url: /python-net/aspose.zip.saving/sevenzipaesencryptionsettings/
 ---
 
