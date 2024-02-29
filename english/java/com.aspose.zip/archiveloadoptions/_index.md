@@ -58,7 +58,7 @@ You can provide decryption password once on archive extraction.
                 try (InputStream decompressed = archive.getEntries().get(0).open()) {
                     byte[] b = new byte[8192];
                     int bytesRead;
-                    while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                    while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                         extracted.write(b, 0, bytesRead);
                 }
                 archive.getEntries().get(0).extract("first.bin", "first_pass");
@@ -109,7 +109,7 @@ Gets the delegate invoked when some bytes have been extracted.
 ```
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
-    options.setEntryExtractionProgressed(new Event&lt;ProgressEventArgs&gt;() {
+    options.setEntryExtractionProgressed(new Event<ProgressEventArgs>() {
         @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
@@ -134,7 +134,7 @@ Gets the delegate invoked when an entry listed within table of content.
 ```
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
-    options.setEntryListed(new Event&lt;EntryEventArgs&gt;() {
+    options.setEntryListed(new Event<EntryEventArgs>() {
         @Override
         public void invoke(Object sender, EntryEventArgs entryEventArgs) {
             System.out.println(entryEventArgs.getEntry().getName());
@@ -167,7 +167,7 @@ You can provide decryption password once on archive extraction.
                 try (InputStream decompressed = archive.getEntries().get(0).open()) {
                     byte[] b = new byte[8192];
                     int bytesRead;
-                    while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                    while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                         extracted.write(b, 0, bytesRead);
                 }
                 archive.getEntries().get(0).extract("first.bin", "first_pass");
@@ -224,7 +224,7 @@ Sets the delegate invoked when some bytes have been extracted.
 ```
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
-    options.setEntryExtractionProgressed(new Event&lt;ProgressEventArgs&gt;() {
+    options.setEntryExtractionProgressed(new Event<ProgressEventArgs>() {
         @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
@@ -252,7 +252,7 @@ Sets the delegate invoked when an entry listed within table of content.
 ```
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
-    options.setEntryListed(new Event&lt;EntryEventArgs&gt;() {
+    options.setEntryListed(new Event<EntryEventArgs>() {
         @Override
         public void invoke(Object sender, EntryEventArgs entryEventArgs) {
             System.out.println(entryEventArgs.getEntry().getName());

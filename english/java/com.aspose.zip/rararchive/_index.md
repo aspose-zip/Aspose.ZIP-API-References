@@ -3,7 +3,7 @@ title: RarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents RAR archive file.
 type: docs
-weight: 32
+weight: 33
 url: /java/com.aspose.zip/rararchive/
 ---
 
@@ -43,7 +43,7 @@ public RarArchive(String path)
 Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an archive, then decompress first entry to a  MemoryStream .
+The following example extract an archive, then decompress first entry to a `MemoryStream`.
 
 ```
 
@@ -52,7 +52,7 @@ The following example extract an archive, then decompress first entry to a  Memo
          try (InputStream decompressed = archive.getEntries().get(0).open()) {
              byte[] b = new byte[8192];
              int bytesRead;
-             while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+             while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                  extracted.write(b, 0, bytesRead);
          } catch (IOException ex) {
          }
@@ -76,7 +76,7 @@ public RarArchive(String path, RarArchiveLoadOptions loadOptions)
 Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
 
 
-The following example extract an archive, then decompress first entry to a  MemoryStream .
+The following example extract an archive, then decompress first entry to a `MemoryStream`.
 
 ```
 
@@ -85,7 +85,7 @@ The following example extract an archive, then decompress first entry to a  Memo
          try (InputStream decompressed = archive.getEntries().get(0).open()) {
              byte[] b = new byte[8192];
              int bytesRead;
-             while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+             while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                  extracted.write(b, 0, bytesRead);
          } catch (IOException ex) {
          }
@@ -110,7 +110,7 @@ public RarArchive(InputStream sourceStream)
 Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
 
 
-The following example decipher and decompress first entry to a  MemoryStream .
+The following example decipher and decompress first entry to a `MemoryStream`.
 
 ```
 
@@ -122,7 +122,7 @@ The following example decipher and decompress first entry to a  MemoryStream .
              try (InputStream decompressed = archive.getEntries().get(0).open()) {
                  byte[] b = new byte[8192];
                  int bytesRead;
-                 while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                 while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                      extracted.write(b, 0, bytesRead);
              }
          }
@@ -147,7 +147,7 @@ public RarArchive(InputStream sourceStream, RarArchiveLoadOptions loadOptions)
 Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
 
 
-The following example decipher and decompress first entry to a  MemoryStream .
+The following example decipher and decompress first entry to a `MemoryStream`.
 
 ```
 
@@ -159,7 +159,7 @@ The following example decipher and decompress first entry to a  MemoryStream .
              try (InputStream decompressed = archive.getEntries().get(0).open()) {
                  byte[] b = new byte[8192];
                  int bytesRead;
-                 while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                 while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                      extracted.write(b, 0, bytesRead);
              }
          }
