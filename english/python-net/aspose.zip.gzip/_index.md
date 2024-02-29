@@ -3,7 +3,7 @@ title: aspose.zip.gzip
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 170
 url: /python-net/aspose.zip.gzip/
 ---
 

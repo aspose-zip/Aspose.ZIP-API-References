@@ -3,7 +3,7 @@ title: Archive
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 70
 url: /python-net/aspose.zip/archive/
 ---
 

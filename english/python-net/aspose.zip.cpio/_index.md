@@ -3,7 +3,7 @@ title: aspose.zip.cpio
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 90
 url: /python-net/aspose.zip.cpio/
 ---
 
