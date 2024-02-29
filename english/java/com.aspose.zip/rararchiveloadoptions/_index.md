@@ -3,7 +3,7 @@ title: RarArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from compressed file.
 type: docs
-weight: 36
+weight: 37
 url: /java/com.aspose.zip/rararchiveloadoptions/
 ---
 
@@ -52,7 +52,7 @@ You can provide decryption password once on archive extraction.
                 try (InputStream decompressed = archive.getEntries().get(0).open()) {
                     byte[] b = new byte[8192];
                     int bytesRead;
-                    while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                    while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                         extracted.write(b, 0, bytesRead);
                 }
             }
@@ -85,7 +85,7 @@ You can provide decryption password once on archive extraction.
                 try (InputStream decompressed = archive.getEntries().get(0).open()) {
                     byte[] b = new byte[8192];
                     int bytesRead;
-                    while (0 &lt; (bytesRead = decompressed.read(b, 0, b.length)))
+                    while (0 < (bytesRead = decompressed.read(b, 0, b.length)))
                         extracted.write(b, 0, bytesRead);
                 }
             }

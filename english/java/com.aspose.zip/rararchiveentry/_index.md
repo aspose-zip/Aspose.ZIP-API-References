@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 33
+weight: 34
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 
@@ -185,7 +185,7 @@ Gets an event that is raised when a portion of raw stream extracted.
 
 ```
 
-    archive.getEntries().get(0).setExtractionProgressed(new Event&lt;ProgressEventArgs&gt;() {
+    archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
         @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((RarArchiveEntry) sender).getUncompressedSize());
@@ -274,7 +274,7 @@ Usage:
     InputStream decompressed = entry.open();
     byte[] buffer = new byte[8192];
     int bytesRead;
-    while (0 &lt; (bytesRead = decompressed.read(buffer, 0, buffer.length)))
+    while (0 < (bytesRead = decompressed.read(buffer, 0, buffer.length)))
         fileStream.write(buffer, 0, bytesRead);
  
 ```
@@ -299,7 +299,7 @@ Usage:
     InputStream decompressed = entry.open();
     byte[] buffer = new byte[8192];
     int bytesRead;
-    while (0 &lt; (bytesRead = decompressed.read(buffer, 0, buffer.length)))
+    while (0 < (bytesRead = decompressed.read(buffer, 0, buffer.length)))
         fileStream.write(buffer, 0, bytesRead);
  
 ```
@@ -323,7 +323,7 @@ Sets an event that is raised when a portion of raw stream extracted.
 
 ```
 
-    archive.getEntries().get(0).setExtractionProgressed(new Event&lt;ProgressEventArgs&gt;() {
+    archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
         @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((RarArchiveEntry) sender).getUncompressedSize());

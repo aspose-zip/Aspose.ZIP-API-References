@@ -3,7 +3,7 @@ title: Event
 second_title: Aspose.ZIP for Java API Reference
 description: An event.
 type: docs
-weight: 40
+weight: 43
 url: /java/com.aspose.zip/event/
 ---
 ```
@@ -12,7 +12,7 @@ public interface Event<TArgs>
 
 An event.
 
- TArgs : event arguments.
+`TArgs`: event arguments.
 
  TArgs : 
 ## Methods

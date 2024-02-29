@@ -30,6 +30,7 @@ url: /java/com.aspose.zip/
 | [EnhancedDeflateCompressionSettings](../com.aspose.zip/enhanceddeflatecompressionsettings) | Settings for Enhanced Deflate compression method. |
 | [EntryEventArgs](../com.aspose.zip/entryeventargs) | Event arguments for entry related events. |
 | [EventsBag](../com.aspose.zip/eventsbag) | Events container used on [Archive](../com.aspose.zip/archive) saving. |
+| [GzipArchive](../com.aspose.zip/gziparchive) | This class represents gzip archive file. |
 | [License](../com.aspose.zip/license) | Provides methods to license the component. |
 | [MeteredLicense](../com.aspose.zip/meteredlicense) | Provides methods to set metered key. |
 | [ParallelOptions](../com.aspose.zip/paralleloptions) | Options for parallel compression. |
@@ -41,6 +42,8 @@ url: /java/com.aspose.zip/
 | [RarArchiveLoadOptions](../com.aspose.zip/rararchiveloadoptions) | Options with which [RarArchive](../com.aspose.zip/rararchive) is loaded from compressed file. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
 | [StoreCompressionSettings](../com.aspose.zip/storecompressionsettings) | Settings for Store compression method. |
+| [TarArchive](../com.aspose.zip/tararchive) | This class represents tar archive file. |
+| [TarEntry](../com.aspose.zip/tarentry) | Represents single file within tar archive. |
 | [TraditionalEncryptionSettings](../com.aspose.zip/traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
 
 ## Interfaces
@@ -58,3 +61,4 @@ url: /java/com.aspose.zip/
 | [ArchiveFormat](../com.aspose.zip/archiveformat) | Supported archive formats. |
 | [EncryptionMethod](../com.aspose.zip/encryptionmethod) | Encryption/decryption methods can be used with zip archive. |
 | [ParallelCompressionMode](../com.aspose.zip/parallelcompressionmode) | Options of usage parallel compression facility. |
+| [TarFormat](../com.aspose.zip/tarformat) | Enumeration with supported formats of [TarArchive](../com.aspose.zip/tararchive). |
