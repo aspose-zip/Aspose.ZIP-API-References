@@ -36,6 +36,8 @@ public class TarArchive : IArchive
 | static [FromGZip](../../aspose.zip.tar/tararchive/fromgzip)(string) | Extracts supplied gzip archive and composes [`TarArchive`](../tararchive) from extracted data. |
 | static [FromLZip](../../aspose.zip.tar/tararchive/fromlzip)(Stream) | Extracts supplied lzip archive and composes [`TarArchive`](../tararchive) from extracted data. |
 | static [FromLZip](../../aspose.zip.tar/tararchive/fromlzip)(string) | Extracts supplied lzip archive and composes [`TarArchive`](../tararchive) from extracted data. |
+| static [FromLZMA](../../aspose.zip.tar/tararchive/fromlzma)(Stream) | Extracts supplied LZMA archive and composes [`TarArchive`](../tararchive) from extracted data. |
+| static [FromLZMA](../../aspose.zip.tar/tararchive/fromlzma)(string) | Extracts supplied LZMA archive and composes [`TarArchive`](../tararchive) from extracted data. |
 | static [FromXz](../../aspose.zip.tar/tararchive/fromxz)(Stream) | Extracts supplied xz format archive and composes [`TarArchive`](../tararchive) from extracted data. |
 | static [FromXz](../../aspose.zip.tar/tararchive/fromxz)(string) | Extracts supplied xz format archive and composes [`TarArchive`](../tararchive) from extracted data. |
 | static [FromZ](../../aspose.zip.tar/tararchive/fromz)(Stream) | Extracts supplied Z format archive and composes [`TarArchive`](../tararchive) from extracted data. |
@@ -57,6 +59,8 @@ public class TarArchive : IArchive
 | [SaveGzipped](../../aspose.zip.tar/tararchive/savegzipped)(string, TarFormat?) | Saves archive to the file by path with gzip compression. |
 | [SaveLzipped](../../aspose.zip.tar/tararchive/savelzipped)(Stream, TarFormat?) | Saves archive to the stream with lzip compression. |
 | [SaveLzipped](../../aspose.zip.tar/tararchive/savelzipped)(string, TarFormat?) | Saves archive to the file by path with lzip compression. |
+| [SaveLZMACompressed](../../aspose.zip.tar/tararchive/savelzmacompressed)(Stream, TarFormat?) | Saves archive to the stream with LZMA compression. |
+| [SaveLZMACompressed](../../aspose.zip.tar/tararchive/savelzmacompressed)(string, TarFormat?) | Saves archive to the file by path with lzma compression. |
 | [SaveXzCompressed](../../aspose.zip.tar/tararchive/savexzcompressed)(Stream, TarFormat?, XzArchiveSettings) | Saves archive to the stream with xz compression. |
 | [SaveXzCompressed](../../aspose.zip.tar/tararchive/savexzcompressed)(string, TarFormat?, XzArchiveSettings) | Saves archive to the path by path with xz compression. |
 | [SaveZCompressed](../../aspose.zip.tar/tararchive/savezcompressed)(Stream, TarFormat?) | Saves archive to the stream with Z compression. |

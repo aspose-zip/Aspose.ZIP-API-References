@@ -3,7 +3,7 @@ title: CreateEntries
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip.tar/tararchive/createentries/
 ---
 ## TarArchive.CreateEntries method (1 of 2)

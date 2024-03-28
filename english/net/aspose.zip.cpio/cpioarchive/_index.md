@@ -45,8 +45,16 @@ public class CpioArchive : IArchive
 | [Save](../../aspose.zip.cpio/cpioarchive/save)(string, CpioFormat) | Saves archive to destination file provided. |
 | [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped)(Stream, CpioFormat) | Saves archive to the stream with gzip compression. |
 | [SaveGzipped](../../aspose.zip.cpio/cpioarchive/savegzipped)(string, CpioFormat) | Saves archive to the file by path with gzip compression. |
+| [SaveLzipped](../../aspose.zip.cpio/cpioarchive/savelzipped)(Stream, CpioFormat) | Saves archive to the stream with lzip compression. |
+| [SaveLzipped](../../aspose.zip.cpio/cpioarchive/savelzipped)(string, CpioFormat) | Saves archive to the file by path with lzip compression. |
+| [SaveLZMACompressed](../../aspose.zip.cpio/cpioarchive/savelzmacompressed)(Stream, CpioFormat) | Saves the archive to the stream with LZMA compression. |
+| [SaveLZMACompressed](../../aspose.zip.cpio/cpioarchive/savelzmacompressed)(string, CpioFormat) | Saves the archive to the file by path with lzma compression. |
 | [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed)(Stream, CpioFormat, XzArchiveSettings) | Saves archive to the stream with xz compression. |
 | [SaveXzCompressed](../../aspose.zip.cpio/cpioarchive/savexzcompressed)(string, CpioFormat, XzArchiveSettings) | Saves archive to the path by path with xz compression. |
+| [SaveZCompressed](../../aspose.zip.cpio/cpioarchive/savezcompressed)(Stream, CpioFormat) | Saves archive to the stream with Z compression. |
+| [SaveZCompressed](../../aspose.zip.cpio/cpioarchive/savezcompressed)(string, CpioFormat) | Saves archive to the path by path with Z compression. |
+| [SaveZstandard](../../aspose.zip.cpio/cpioarchive/savezstandard)(Stream, CpioFormat) | Saves archive to the stream with Zstandard compression. |
+| [SaveZstandard](../../aspose.zip.cpio/cpioarchive/savezstandard)(string, CpioFormat) | Saves archive to the file by path with Zstandard compression. |
 
 ### See Also
 

@@ -50,8 +50,6 @@ public void SetSource(FileInfo fileInfo)
 
 ### Examples
 
-Open an archive from a stream and extract it to a `MemoryStream`
-
 ```csharp
 using (var archive = new GzipArchive()) 
 {

@@ -122,6 +122,10 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| FileNotFoundException | The file is not found. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| IOException | The file is already open. |
+| InvalidDataException | File is corrupted. |
 
 ### Remarks
 
@@ -168,6 +172,12 @@ public Archive(string mainSegment, string[] segmentsInOrder, ArchiveLoadOptions 
 | mainSegment | String | Path to the last segment of multi-volume archive with the central directory. |
 | segmentsInOrder | String[] | Paths to each segment but the last of multi-volume zip archive respecting order. |
 | loadOptions | ArchiveLoadOptions | Options to load existing archive with. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Can not load ZIP headers because provided files are corrupted. |
 
 ### Examples
 

@@ -23,7 +23,7 @@ public void Extract(Stream destination)
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Archive headers and service information were not read. |
-| InvalidDataException | Error in data in header or checksum. |
+| InvalidDataException | Archive is corrupted. |
 | ArgumentNullException | Destination stream is null. |
 | ArgumentException | Destination stream does not support writing. |
 
@@ -74,6 +74,7 @@ public void Extract(FileInfo fileInfo)
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| InvalidDataException | Archive is corrupted. |
 
 ### Examples
 
@@ -118,6 +119,7 @@ public void Extract(string path)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| InvalidDataException | Archive is corrupted. |
 
 ### Examples
 

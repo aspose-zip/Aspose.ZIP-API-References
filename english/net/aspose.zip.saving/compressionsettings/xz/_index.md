@@ -8,7 +8,7 @@ url: /net/aspose.zip.saving/compressionsettings/xz/
 ---
 ## CompressionSettings.Xz property
 
-An instance of `Xz` with default parameters.
+An instance of `XzCompressionSettings` with default parameters.
 
 ```csharp
 public static XzCompressionSettings Xz { get; }

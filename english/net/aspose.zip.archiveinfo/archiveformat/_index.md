@@ -35,6 +35,7 @@ public enum ArchiveFormat
 | Xar | `14` | Xar archive ([`XarArchive`](../../aspose.zip.xar/xararchive)). |
 | Xz | `15` | Xz archive ([`XzArchive`](../../aspose.zip.xz/xzarchive)). |
 | Z | `16` | Z archive ([`ZArchive`](../../aspose.zip.z/zarchive)). |
+| Zstandard | `17` | Zstandard archive ([`ZstandardArchive`](../../aspose.zip.zstandard/zstandardarchive)). |
 
 ### See Also
 
