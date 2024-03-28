@@ -75,6 +75,9 @@ public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = nu
 | UnauthorizedAccessException | Access to file *destinationFileName* is denied. |
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
+| FileNotFoundException | The file is not found. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| IOException | The file is already open. |
 
 ### Remarks
 

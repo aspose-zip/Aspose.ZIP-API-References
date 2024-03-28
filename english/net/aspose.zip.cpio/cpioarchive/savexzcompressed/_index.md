@@ -3,7 +3,7 @@ title: SaveXzCompressed
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.zip.cpio/cpioarchive/savexzcompressed/
 ---
 ## CpioArchive.SaveXzCompressed method (1 of 2)

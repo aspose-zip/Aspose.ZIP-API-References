@@ -3,7 +3,7 @@ title: Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.zip.tar/tararchive/dispose/
 ---
 ## TarArchive.Dispose method

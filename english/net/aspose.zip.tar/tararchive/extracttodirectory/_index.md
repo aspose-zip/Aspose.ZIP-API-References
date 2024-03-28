@@ -3,7 +3,7 @@ title: ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.zip.tar/tararchive/extracttodirectory/
 ---
 ## TarArchive.ExtractToDirectory method

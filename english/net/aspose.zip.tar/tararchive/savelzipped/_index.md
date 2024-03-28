@@ -3,7 +3,7 @@ title: SaveLzipped
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.zip.tar/tararchive/savelzipped/
 ---
 ## TarArchive.SaveLzipped method (1 of 2)

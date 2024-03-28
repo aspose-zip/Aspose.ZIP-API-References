@@ -3,7 +3,7 @@ title: FromXz
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.tar/tararchive/fromxz/
 ---
 ## TarArchive.FromXz method (1 of 2)

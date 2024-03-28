@@ -3,7 +3,7 @@ title: SaveZstandard
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.zip.tar/tararchive/savezstandard/
 ---
 ## TarArchive.SaveZstandard method (1 of 2)

@@ -32,7 +32,7 @@ public class CabArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.zip.cab/cabarchive/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [ExtractToDirectory](../../aspose.zip.cab/cabarchive/extracttodirectory)(string) | Extracts all the files in the archive to the directory provided. |
+| [ExtractToDirectory](../../aspose.zip.cab/cabarchive/extracttodirectory)(string) |  |
 
 ### See Also
 

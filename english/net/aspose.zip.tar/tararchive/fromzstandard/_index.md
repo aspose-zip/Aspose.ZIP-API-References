@@ -3,7 +3,7 @@ title: FromZstandard
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.tar/tararchive/fromzstandard/
 ---
 ## TarArchive.FromZstandard method (1 of 2)
@@ -23,6 +23,13 @@ public static TarArchive FromZstandard(Stream source)
 ### Return Value
 
 An instance of [`TarArchive`](../../tararchive)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| IOException | Zstandard stream is corrupted or not readable. |
+| InvalidDataException | Data is corrupted. |
 
 ### See Also
 
@@ -49,6 +56,13 @@ public static TarArchive FromZstandard(string path)
 ### Return Value
 
 An instance of [`TarArchive`](../../tararchive)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| IOException | Zstandard stream is corrupted or not readable. |
+| InvalidDataException | Data is corrupted. |
 
 ### See Also
 
