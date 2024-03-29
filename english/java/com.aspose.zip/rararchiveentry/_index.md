@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 34
+weight: 40
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 
@@ -186,7 +186,6 @@ Gets an event that is raised when a portion of raw stream extracted.
 ```
 
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((RarArchiveEntry) sender).getUncompressedSize());
         }
@@ -324,7 +323,6 @@ Sets an event that is raised when a portion of raw stream extracted.
 ```
 
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((RarArchiveEntry) sender).getUncompressedSize());
         }

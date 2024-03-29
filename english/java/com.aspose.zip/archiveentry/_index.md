@@ -189,7 +189,6 @@ Gets an event that is raised when a portion of raw stream compressed.
 ```
 
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
         }
@@ -222,7 +221,6 @@ Gets an event that is raised when a portion of raw stream extracted.
 ```
 
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
         }
@@ -350,7 +348,6 @@ Sets an event that is raised when a portion of raw stream compressed.
 ```
 
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
         }
@@ -376,7 +373,6 @@ Sets an event that is raised when a portion of raw stream extracted.
 ```
 
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
         }

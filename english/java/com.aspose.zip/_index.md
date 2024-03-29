@@ -23,6 +23,9 @@ url: /java/com.aspose.zip/
 | [ArchiveInstanceInfo](../com.aspose.zip/archiveinstanceinfo) | Represents information about the archive instance. |
 | [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which archive is loaded from compressed file. |
 | [ArchiveSaveOptions](../com.aspose.zip/archivesaveoptions) | Options for saving a zip archive. |
+| [Bzip2Archive](../com.aspose.zip/bzip2archive) | This class represents bzip2 archive file. |
+| [Bzip2CompressionSettings](../com.aspose.zip/bzip2compressionsettings) | Settings for Bzip2 compression method. |
+| [Bzip2SaveOptions](../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. |
 | [CancelEntryEventArgs](../com.aspose.zip/cancelentryeventargs) | Event arguments for cancelable entry related events. |
 | [CompressionSettings](../com.aspose.zip/compressionsettings) | Settings needed for compressor or decompressor to work. |
 | [DeflateCompressionSettings](../com.aspose.zip/deflatecompressionsettings) | Settings for Deflate compression method. |
@@ -32,6 +35,9 @@ url: /java/com.aspose.zip/
 | [EventsBag](../com.aspose.zip/eventsbag) | Events container used on [Archive](../com.aspose.zip/archive) saving. |
 | [GzipArchive](../com.aspose.zip/gziparchive) | This class represents gzip archive file. |
 | [License](../com.aspose.zip/license) | Provides methods to license the component. |
+| [LzmaArchive](../com.aspose.zip/lzmaarchive) | This class represents LZMA archive file. |
+| [LzmaArchiveSettings](../com.aspose.zip/lzmaarchivesettings) | Settings for LZMA compression method within lzma archive. |
+| [LzmaCompressionSettings](../com.aspose.zip/lzmacompressionsettings) | Settings for LZMA compression method. |
 | [MeteredLicense](../com.aspose.zip/meteredlicense) | Provides methods to set metered key. |
 | [ParallelOptions](../com.aspose.zip/paralleloptions) | Options for parallel compression. |
 | [ProgressEventArgs](../com.aspose.zip/progresseventargs) | Class for event data containing the number of bytes proceeded. |

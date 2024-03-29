@@ -3,7 +3,7 @@ title: IArchiveFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: This interface represents an archive file entry.
 type: docs
-weight: 45
+weight: 51
 url: /java/com.aspose.zip/iarchivefileentry/
 ---
 ```
