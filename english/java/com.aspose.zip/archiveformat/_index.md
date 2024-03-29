@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 46
+weight: 52
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -18,7 +18,9 @@ Supported archive formats.
 
 | Field | Description |
 | --- | --- |
+| [Bzip2](#Bzip2) | Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)). |
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
+| [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
 | [Tar](#Tar) | Tar archive ([TarArchive](../../com.aspose.zip/tararchive)). |
 | [Unknown](#Unknown) | Unknown format. |
@@ -29,6 +31,14 @@ Supported archive formats.
 | --- | --- |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
+### Bzip2 {#Bzip2}
+```
+public static final ArchiveFormat Bzip2
+```
+
+
+Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)).
+
 ### Gzip {#Gzip}
 ```
 public static final ArchiveFormat Gzip
@@ -36,6 +46,14 @@ public static final ArchiveFormat Gzip
 
 
 Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)).
+
+### Lzma {#Lzma}
+```
+public static final ArchiveFormat Lzma
+```
+
+
+Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)).
 
 ### Rar {#Rar}
 ```

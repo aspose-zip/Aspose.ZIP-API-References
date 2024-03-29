@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents tar archive file.
 type: docs
-weight: 40
+weight: 46
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -45,6 +45,8 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [fromGZip(InputStream source)](#fromGZip-java.io.InputStream-) | Extracts supplied gzip archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromGZip(String path)](#fromGZip-java.lang.String-) | Extracts supplied gzip archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromLZMA(InputStream source)](#fromLZMA-java.io.InputStream-) | Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromLZMA(String path)](#fromLZMA-java.lang.String-) | Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [getEntries()](#getEntries--) | Gets entries of [TarEntry](../../com.aspose.zip/tarentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
@@ -55,6 +57,10 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [saveGzipped(OutputStream output, TarFormat format)](#saveGzipped-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with gzip compression. |
 | [saveGzipped(String path)](#saveGzipped-java.lang.String-) | Saves archive to the file by path with gzip compression. |
 | [saveGzipped(String path, TarFormat format)](#saveGzipped-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with gzip compression. |
+| [saveLZMACompressed(OutputStream output)](#saveLZMACompressed-java.io.OutputStream-) | Saves archive to the stream with LZMA compression. |
+| [saveLZMACompressed(OutputStream output, TarFormat format)](#saveLZMACompressed-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with LZMA compression. |
+| [saveLZMACompressed(String path)](#saveLZMACompressed-java.lang.String-) | Saves archive to the file by path with lzma compression. |
+| [saveLZMACompressed(String path, TarFormat format)](#saveLZMACompressed-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with lzma compression. |
 ### TarArchive() {#TarArchive--}
 ```
 public TarArchive()
@@ -559,6 +565,44 @@ GZip extraction stream is not seekable by the nature of compression algorithm. T
 
 **Returns:**
 [TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromLZMA(InputStream source) {#fromLZMA-java.io.InputStream-}
+```
+public static TarArchive fromLZMA(InputStream source)
+```
+
+
+Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: LZMA archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+LZMA extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | java.io.InputStream | The source stream. |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromLZMA(String path) {#fromLZMA-java.lang.String-}
+```
+public static TarArchive fromLZMA(String path)
+```
+
+
+Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: LZMA archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+LZMA extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path to the archive file. |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### getEntries() {#getEntries--}
 ```
 public final List<TarEntry> getEntries()
@@ -810,6 +854,130 @@ Saves archive to the file by path with gzip compression.
 ```
 
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+
+### saveLZMACompressed(OutputStream output) {#saveLZMACompressed-java.io.OutputStream-}
+```
+public final void saveLZMACompressed(OutputStream output)
+```
+
+
+Saves archive to the stream with LZMA compression.
+
+```
+
+ using (FileStream result = File.OpenWrite("result.tar.lzma"))
+ {
+     using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
+     {
+         using (var archive = new TarArchive())
+         {
+             archive.CreateEntry("entry.bin", source);
+             archive.SaveLZMACompressed(result);
+         }
+     }
+ }
+ 
+```
+
+Important: tar archive is composed then compressed within this method, its content is kept internally. Beware of memory consumption.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream.
+
+`output` must be writable. |
+
+### saveLZMACompressed(OutputStream output, TarFormat format) {#saveLZMACompressed-java.io.OutputStream-com.aspose.zip.TarFormat-}
+```
+public final void saveLZMACompressed(OutputStream output, TarFormat format)
+```
+
+
+Saves archive to the stream with LZMA compression.
+
+```
+
+ using (FileStream result = File.OpenWrite("result.tar.lzma"))
+ {
+     using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
+     {
+         using (var archive = new TarArchive())
+         {
+             archive.CreateEntry("entry.bin", source);
+             archive.SaveLZMACompressed(result);
+         }
+     }
+ }
+ 
+```
+
+Important: tar archive is composed then compressed within this method, its content is kept internally. Beware of memory consumption.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream.
+
+`output` must be writable. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+
+### saveLZMACompressed(String path) {#saveLZMACompressed-java.lang.String-}
+```
+public final void saveLZMACompressed(String path)
+```
+
+
+Saves archive to the file by path with lzma compression.
+
+```
+
+ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
+ {
+     using (var archive = new TarArchive())
+     {
+         archive.CreateEntry("entry.bin", source);
+         archive.SaveLZMACompressed("result.tar.lzma");
+     }
+ }
+ 
+```
+
+Important: tar archive is composed then compressed within this method, its content is kept internally. Beware of memory consumption.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+
+### saveLZMACompressed(String path, TarFormat format) {#saveLZMACompressed-java.lang.String-com.aspose.zip.TarFormat-}
+```
+public final void saveLZMACompressed(String path, TarFormat format)
+```
+
+
+Saves archive to the file by path with lzma compression.
+
+```
+
+ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
+ {
+     using (var archive = new TarArchive())
+     {
+         archive.CreateEntry("entry.bin", source);
+         archive.SaveLZMACompressed("result.tar.lzma");
+     }
+ }
+ 
+```
+
+Important: tar archive is composed then compressed within this method, its content is kept internally. Beware of memory consumption.
 
 **Parameters:**
 | Parameter | Type | Description |
