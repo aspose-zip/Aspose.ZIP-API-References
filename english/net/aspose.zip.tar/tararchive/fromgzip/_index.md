@@ -24,6 +24,12 @@ public static TarArchive FromGZip(Stream source)
 
 An instance of [`TarArchive`](../../tararchive)
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidDataException | Archive is corrupted. |
+
 ### Remarks
 
 GZip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood.
@@ -53,6 +59,12 @@ public static TarArchive FromGZip(string path)
 ### Return Value
 
 An instance of [`TarArchive`](../../tararchive)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidDataException | Archive is corrupted. |
 
 ### Remarks
 

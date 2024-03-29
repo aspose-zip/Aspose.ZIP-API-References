@@ -3,7 +3,7 @@ title: DeleteEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.zip.tar/tararchive/deleteentry/
 ---
 ## TarArchive.DeleteEntry method (1 of 2)

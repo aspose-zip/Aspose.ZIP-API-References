@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.zip.tar/tararchive/save/
 ---
 ## TarArchive.Save method (1 of 2)
@@ -75,6 +75,7 @@ public void Save(string destinationFileName, TarFormat? format = default)
 | IOException | An I/O error occurred while opening the file. |
 | UnauthorizedAccessException | *destinationFileName* specified a file that is read-only and access is not Read.-or- path specified a directory.-or- The caller does not have the required permission. |
 | NotSupportedException | *destinationFileName* is in an invalid format. |
+| FileNotFoundException | The file is not found. |
 
 ### Remarks
 

@@ -94,7 +94,7 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
     {
          archive.Extract(extractedFile);
     }
-   }
+}
 ```
 
 ### See Also

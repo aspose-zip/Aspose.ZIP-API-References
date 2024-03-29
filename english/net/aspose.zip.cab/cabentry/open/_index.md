@@ -18,6 +18,13 @@ public Stream Open()
 
 The stream that represents the contents of the entry.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotSupportedException | Stream initialization failed due to wrong data. |
+| InvalidDataException | Archive is corrupted. |
+
 ### Remarks
 
 Read from the stream to get original content of file. See examples section.

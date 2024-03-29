@@ -37,7 +37,7 @@ These options manage simultaneous compression by several CPU cores.
 using (var archive = new Archive())
 {
     archive.CreateEntries("DirToCompress");
-    archive.Save("archive.zip", new ArchiveSaveOptions() { ParallelOptions = new ParallelOptions { ParallelCompressInMemory = mode, AvailableMemorySize = 4000 } });
+    archive.Save("archive.zip", new ArchiveSaveOptions() { ParallelOptions = new ParallelOptions { ParallelCompressInMemory = ParallelCompressionMode.Auto, AvailableMemorySize = 4000 } });
 }
 ```
 

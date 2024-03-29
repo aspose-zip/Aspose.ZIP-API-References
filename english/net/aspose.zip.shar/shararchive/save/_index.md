@@ -29,6 +29,7 @@ public void Save(string destinationFileName)
 | IOException | An I/O error occurred while opening the file. |
 | UnauthorizedAccessException | *destinationFileName* specified a file that is read-only and access is not Read.-or- path specified a directory.-or- The caller does not have the required permission. |
 | NotSupportedException | *destinationFileName* is in an invalid format. |
+| FileNotFoundException | The file is not found. |
 
 ### Remarks
 

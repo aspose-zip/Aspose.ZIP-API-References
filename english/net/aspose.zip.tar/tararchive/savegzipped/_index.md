@@ -3,7 +3,7 @@ title: SaveGzipped
 second_title: Aspose.ZIP for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.zip.tar/tararchive/savegzipped/
 ---
 ## TarArchive.SaveGzipped method (1 of 2)
