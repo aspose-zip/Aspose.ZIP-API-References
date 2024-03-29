@@ -1,10 +1,10 @@
 ---
-title: GzipArchive
+title: Bzip2Archive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents gzip archive file.
+description: This class represents bzip2 archive file.
 type: docs
-weight: 31
-url: /java/com.aspose.zip/gziparchive/
+weight: 21
+url: /java/com.aspose.zip/bzip2archive/
 ---
 
 **Inheritance:**
@@ -13,21 +13,22 @@ java.lang.Object, com.aspose.zip.ILicenseStateProvider
 **All Implemented Interfaces:**
 com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class GzipArchive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
+public class Bzip2Archive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
 ```
 
-This class represents gzip archive file. Use it to compose or extract gzip archives.
+This class represents bzip2 archive file. Use it to compose or extract bzip2 archives.
 
-Gzip compression algorithm is based on the DEFLATE algorithm, which is a combination of LZ77 and Huffman coding.
+bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding. See more: [Bzip2][]
+
+
+[Bzip2]: https://en.wikipedia.org/wiki/Bzip2
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GzipArchive()](#GzipArchive--) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for compressing. |
-| [GzipArchive(InputStream sourceStream)](#GzipArchive-java.io.InputStream-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing. |
-| [GzipArchive(InputStream sourceStream, boolean parseHeader)](#GzipArchive-java.io.InputStream-boolean-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing. |
-| [GzipArchive(String path)](#GzipArchive-java.lang.String-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class. |
-| [GzipArchive(String path, boolean parseHeader)](#GzipArchive-java.lang.String-boolean-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class. |
+| [Bzip2Archive()](#Bzip2Archive--) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for compressing. |
+| [Bzip2Archive(InputStream sourceStream)](#Bzip2Archive-java.io.InputStream-) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing. |
+| [Bzip2Archive(String path)](#Bzip2Archive-java.lang.String-) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing. |
 ## Methods
 
 | Method | Description |
@@ -37,55 +38,56 @@ Gzip compression algorithm is based on the DEFLATE algorithm, which is a combina
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the archive to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
-| [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive. |
-| [getName()](#getName--) | Name of original file. |
+| [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
+| [save(OutputStream outputStream, Bzip2SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.Bzip2SaveOptions-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
+| [save(String destinationFileName, Bzip2SaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.Bzip2SaveOptions-) | Saves archive to destination file provided. |
 | [setSource(TarArchive tarArchive)](#setSource-com.aspose.zip.TarArchive-) | Sets the content to be compressed within the archive. |
+| [setSource(TarArchive tarArchive, TarFormat format)](#setSource-com.aspose.zip.TarArchive-com.aspose.zip.TarFormat-) | Sets the content to be compressed within the archive. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String path)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
-### GzipArchive() {#GzipArchive--}
+### Bzip2Archive() {#Bzip2Archive--}
 ```
-public GzipArchive()
+public Bzip2Archive()
 ```
 
 
-Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for compressing.
+Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for compressing.
 
 The following example shows how to compress a file.
 
 ```
 
-     try (GzipArchive archive = new GzipArchive())
-     {
+     try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource("data.bin");
-         archive.save("archive.gz");
+         archive.save("archive.bz2");
      }
  
 ```
 
 
 
-### GzipArchive(InputStream sourceStream) {#GzipArchive-java.io.InputStream-}
+### Bzip2Archive(InputStream sourceStream) {#Bzip2Archive-java.io.InputStream-}
 ```
-public GzipArchive(InputStream sourceStream)
+public Bzip2Archive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing.
+Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing.
 
 Open an archive from a stream and extract it to a `MemoryStream`
 
 ```
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
-     try (GzipArchive archive = new GzipArchive(Files.newInputStream(java.nio.file.Paths.get("archive.gz")))) {
+     try (Bzip2Archive archive = new Bzip2Archive(new FileInputStream("archive.bz2"))) {
+         InputStream decompressed = archive.open();
          byte[] b = new byte[8192];
          int bytesRead;
-         InputStream archiveStream = archive.open();
-         while (0 < (bytesRead = archiveStream.read(b, 0, b.length))) {
+         while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
              ms.write(b, 0, bytesRead);
          }
      } catch (IOException ex) {
@@ -94,65 +96,31 @@ Open an archive from a stream and extract it to a `MemoryStream`
  
 ```
 
-This constructor does not decompress. See [open()](../../com.aspose.zip/gziparchive\#open--) method for decompressing.
+This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2archive\#open--) method for decompressing.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | The source of the archive. |
 
-### GzipArchive(InputStream sourceStream, boolean parseHeader) {#GzipArchive-java.io.InputStream-boolean-}
+### Bzip2Archive(String path) {#Bzip2Archive-java.lang.String-}
 ```
-public GzipArchive(InputStream sourceStream, boolean parseHeader)
-```
-
-
-Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing.
-
-Open an archive from a stream and extract it to a `MemoryStream`
-
-```
-
-     ByteArrayOutputStream ms = new ByteArrayOutputStream();
-     try (GzipArchive archive = new GzipArchive(Files.newInputStream(java.nio.file.Paths.get("archive.gz")))) {
-         byte[] b = new byte[8192];
-         int bytesRead;
-         InputStream archiveStream = archive.open();
-         while (0 < (bytesRead = archiveStream.read(b, 0, b.length))) {
-             ms.write(b, 0, bytesRead);
-         }
-     } catch (IOException ex) {
-         System.out.println(ex);
-     }
- 
-```
-
-This constructor does not decompress. See [open()](../../com.aspose.zip/gziparchive\#open--) method for decompressing.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceStream | java.io.InputStream | The source of the archive. |
-| parseHeader | boolean | Whether to parse stream header to figure out properties, including name. Makes sense for seekable stream only. |
-
-### GzipArchive(String path) {#GzipArchive-java.lang.String-}
-```
-public GzipArchive(String path)
+public Bzip2Archive(String path)
 ```
 
 
-Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class.
+Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing.
 
 Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
-     try (GzipArchive archive = new GzipArchive("archive.gz")) {
+     try (Bzip2Archive archive = new Bzip2Archive("archive.bz2")) {
+         InputStream decompressed = archive.open();
          byte[] b = new byte[8192];
          int bytesRead;
-         InputStream archiveStream = archive.open();
-         while (0 < (bytesRead = archiveStream.read(b, 0, b.length))) {
+         while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
              ms.write(b, 0, bytesRead);
          }
      } catch (IOException ex) {
@@ -161,46 +129,12 @@ Open an archive from file by path and extract it to a `MemoryStream`
  
 ```
 
-This constructor does not decompress. See [open()](../../com.aspose.zip/gziparchive\#open--) method for decompressing.
+This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2archive\#open--) method for decompressing.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | The path to the archive file. |
-
-### GzipArchive(String path, boolean parseHeader) {#GzipArchive-java.lang.String-boolean-}
-```
-public GzipArchive(String path, boolean parseHeader)
-```
-
-
-Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class.
-
-Open an archive from file by path and extract it to a `MemoryStream`
-
-```
-
-     ByteArrayOutputStream ms = new ByteArrayOutputStream();
-     try (GzipArchive archive = new GzipArchive("archive.gz")) {
-         byte[] b = new byte[8192];
-         int bytesRead;
-         InputStream archiveStream = archive.open();
-         while (0 < (bytesRead = archiveStream.read(b, 0, b.length))) {
-             ms.write(b, 0, bytesRead);
-         }
-     } catch (IOException ex) {
-         System.out.println(ex);
-     }
- 
-```
-
-This constructor does not decompress. See [open()](../../com.aspose.zip/gziparchive\#open--) method for decompressing.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | java.lang.String | The path to the archive file. |
-| parseHeader | boolean | Whether to parse stream header to figure out properties, including name. Makes sense for seekable stream only. |
 
 ### close() {#close--}
 ```
@@ -228,7 +162,7 @@ Extracts the archive to the stream provided.
 
 ```
 
-     try (GzipArchive archive = new GzipArchive("archive.gz")) {
+     try (Bzip2Archive archive = new Bzip2Archive("archive.bz2")) {
          archive.extract(httpResponseStream);
      }
  
@@ -277,20 +211,10 @@ public final Iterable<IArchiveFileEntry> getFileEntries()
 ```
 
 
-Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive.
+Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive.
 
 **Returns:**
-java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive.
-### getName() {#getName--}
-```
-public final String getName()
-```
-
-
-Name of original file.
-
-**Returns:**
-java.lang.String - the name of the original file.
+java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive.
 ### open() {#open--}
 ```
 public final InputStream open()
@@ -299,18 +223,16 @@ public final InputStream open()
 
 Opens the archive for extraction and provides a stream with archive content.
 
-Extracts the archive and copies extracted content to file stream.
+
+Usage:
 
 ```
 
-     try (GzipArchive archive = new GzipArchive("archive.gz")) {
-         try (FileOutputStream extracted = new FileOutputStream("data.bin")) {
-             InputStream unpacked = archive.open();
-             byte[] b = new byte[8192];
-             int bytesRead;
-             while (0 < (bytesRead = unpacked.read(b, 0, b.length))) {
-                 extracted.write(b, 0, bytesRead);
-             }
+     try (InputStream decompressed = archive.open()) {
+         byte[] buffer = new byte[8192];
+         int bytesRead;
+         while (0 < (bytesRead = decompressed.read(buffer, 0, buffer.length))) {
+             fileStream.write(buffer, 0, bytesRead);
          }
      } catch (IOException ex) {
          System.out.println(ex);
@@ -330,13 +252,13 @@ public final void save(OutputStream outputStream)
 
 Saves archive to the stream provided.
 
-Writes compressed data to http response stream.
+Writes compressed data to an output stream.
 
 ```
 
-     try (GzipArchive archive = new GzipArchive()) {
+     try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new File("data.bin"));
-         archive.save(httpResponseStream);
+         archive.save(outputStream);
      }
  
 ```
@@ -350,6 +272,35 @@ Writes compressed data to http response stream.
 
 `outputStream` must be writable. |
 
+### save(OutputStream outputStream, Bzip2SaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.zip.Bzip2SaveOptions-}
+```
+public final void save(OutputStream outputStream, Bzip2SaveOptions saveOptions)
+```
+
+
+Saves archive to the stream provided.
+
+Writes compressed data to an output stream.
+
+```
+
+     try (Bzip2Archive archive = new Bzip2Archive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save(outputStream);
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | java.io.OutputStream | Destination stream.
+
+`outputStream` must be writable. |
+| saveOptions | [Bzip2SaveOptions](../../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. If not specified, 900 Kb block size would be used. |
+
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
 public final void save(String destinationFileName)
@@ -358,11 +309,13 @@ public final void save(String destinationFileName)
 
 Saves archive to destination file provided.
 
+Writes compressed data to file.
+
 ```
 
-     try (GzipArchive archive = new GzipArchive()) {
-         archive.setSource("data.bin");
-         archive.save("archive.gz");
+     try (Bzip2Archive archive = new Bzip2Archive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save("data.bz2");
      }
  
 ```
@@ -373,6 +326,33 @@ Saves archive to destination file provided.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+
+### save(String destinationFileName, Bzip2SaveOptions saveOptions) {#save-java.lang.String-com.aspose.zip.Bzip2SaveOptions-}
+```
+public final void save(String destinationFileName, Bzip2SaveOptions saveOptions)
+```
+
+
+Saves archive to destination file provided.
+
+Writes compressed data to file.
+
+```
+
+     try (Bzip2Archive archive = new Bzip2Archive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save("data.bz2");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| saveOptions | [Bzip2SaveOptions](../../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. If not specified, 900 Kb block size would be used. |
 
 ### setSource(TarArchive tarArchive) {#setSource-com.aspose.zip.TarArchive-}
 ```
@@ -387,20 +367,49 @@ Sets the content to be compressed within the archive.
      try (TarArchive tarArchive = new TarArchive()) {
          tarArchive.createEntry("first.bin", "data1.bin");
          tarArchive.createEntry("second.bin", "data2.bin");
-         try (GzipArchive gzippedArchive = new GzipArchive()) {
-             gzippedArchive.setSource(tarArchive);
-             gzippedArchive.save("archive.tar.gz");
+         try (Bzip2Archive bzippedArchive = new Bzip2Archive()) {
+             bzippedArchive.setSource(tarArchive);
+             bzippedArchive.save("archive.tar.bz2");
          }
      }
  
 ```
 
-Use this method to compose joint tar.gz archive.
+Use this method to compose joint tar.bz2 archive.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | Tar archive to be compressed. |
+
+### setSource(TarArchive tarArchive, TarFormat format) {#setSource-com.aspose.zip.TarArchive-com.aspose.zip.TarFormat-}
+```
+public final void setSource(TarArchive tarArchive, TarFormat format)
+```
+
+
+Sets the content to be compressed within the archive.
+
+```
+
+     try (TarArchive tarArchive = new TarArchive()) {
+         tarArchive.createEntry("first.bin", "data1.bin");
+         tarArchive.createEntry("second.bin", "data2.bin");
+         try (Bzip2Archive bzippedArchive = new Bzip2Archive()) {
+             bzippedArchive.setSource(tarArchive);
+             bzippedArchive.save("archive.tar.bz2");
+         }
+     }
+ 
+```
+
+Use this method to compose joint tar.bz2 archive.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | Tar archive to be compressed. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. |
 
 ### setSource(File file) {#setSource-java.io.File-}
 ```
@@ -412,9 +421,9 @@ Sets the content to be compressed within the archive.
 
 ```
 
-     try (GzipArchive archive = new GzipArchive()) {
+     try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new File("data.bin"));
-         archive.save("archive.gz");
+         archive.save("archive.bz2");
      }
  
 ```
@@ -436,12 +445,9 @@ Sets the content to be compressed within the archive.
 
 ```
 
-     try (GzipArchive archive = new GzipArchive()) {
-         archive.setSource(new ByteArrayInputStream(new byte[] {
-                 0x00,
-                 (byte) 0xFF
-         }));
-         archive.save("archive.gz");
+     try (Bzip2Archive archive = new Bzip2Archive()) {
+         archive.setSource(new ByteArrayInputStream(new byte[] { 0x00, (byte) 0xFF }));
+         archive.save("archive.bz2");
      }
  
 ```
@@ -461,13 +467,11 @@ public final void setSource(String path)
 
 Sets the content to be compressed within the archive.
 
-Open an archive from file by path and extract it to a `MemoryStream`
-
 ```
 
-     try (GzipArchive archive = new GzipArchive()) {
+     try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource("data.bin");
-         archive.save("archive.gz");
+         archive.save("archive.bz2");
      }
  
 ```

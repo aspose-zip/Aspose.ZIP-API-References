@@ -110,7 +110,6 @@ Gets the delegate invoked when some bytes have been extracted.
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryExtractionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
         }
@@ -135,7 +134,6 @@ Gets the delegate invoked when an entry listed within table of content.
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryListed(new Event<EntryEventArgs>() {
-        @Override
         public void invoke(Object sender, EntryEventArgs entryEventArgs) {
             System.out.println(entryEventArgs.getEntry().getName());
         }
@@ -225,7 +223,6 @@ Sets the delegate invoked when some bytes have been extracted.
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryExtractionProgressed(new Event<ProgressEventArgs>() {
-        @Override
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
         }
@@ -253,7 +250,6 @@ Sets the delegate invoked when an entry listed within table of content.
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryListed(new Event<EntryEventArgs>() {
-        @Override
         public void invoke(Object sender, EntryEventArgs entryEventArgs) {
             System.out.println(entryEventArgs.getEntry().getName());
         }
