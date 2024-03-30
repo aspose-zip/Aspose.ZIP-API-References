@@ -36,6 +36,8 @@ The TarArchive type exposes the following members:
 |save_zstandard(path, format)|  |
 |save_lzipped(output, format)|  |
 |save_lzipped(path, format)|  |
+|save_lzma_compressed(output, format)|  |
+|save_lzma_compressed(path, format)|  |
 |save_xz_compressed(output, format, settings)|  |
 |save_xz_compressed(path, format, settings)|  |
 |save_z_compressed(output, format)|  |
@@ -46,6 +48,8 @@ The TarArchive type exposes the following members:
 |from_zstandard(path)|Extracts supplied Zstandard archive and composes|
 |from_l_zip(source)|Extracts supplied lzip archive and composes|
 |from_l_zip(path)|Extracts supplied lzip archive and composes|
+|from_lzma(source)|Extracts supplied LZMA archive and composes|
+|from_lzma(path)|Extracts supplied LZMA archive and composes|
 |from_xz(source)|Extracts supplied xz format archive and composes|
 |from_xz(path)|Extracts supplied xz format archive and composes|
 |from_z(source)|Extracts supplied Zstandard archive and composes|
