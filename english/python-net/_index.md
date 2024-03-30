@@ -13,6 +13,7 @@ url: /python-net/
 |[aspose.zip](/zip/python-net/aspose.zip/)|Contains classes which represent zip archive and common archive related entities.|
 |[aspose.zip.crypto](/zip/python-net/aspose.zip.crypto/)|Contains classes for external encryption routines.|
 |[aspose.zip.shar](/zip/python-net/aspose.zip.shar/)|Contains classes which represent shar archive related entities.|
+|[aspose.zip.zstandard](/zip/python-net/aspose.zip.zstandard/)|Contains classes which represent ZStandard archive related entities.|
 |[aspose.zip.snappy](/zip/python-net/aspose.zip.snappy/)|Contains classes for Snappy compressed data manipulation.|
 |[aspose.zip.lzma](/zip/python-net/aspose.zip.lzma/)|Contains classes which represent lzma archive related entities.|
 |[aspose.zip.xar](/zip/python-net/aspose.zip.xar/)|Contains classes which represent Xar archive related entities.|

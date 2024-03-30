@@ -34,8 +34,16 @@ The CpioArchive type exposes the following members:
 |save(output, cpio_format)|Saves archive to the stream provided.|
 |save_gzipped(output, cpio_format)|Saves archive to the stream with gzip compression.|
 |save_gzipped(path, cpio_format)|Saves archive to the file by path with gzip compression.|
+|save_lzipped(output, cpio_format)|Saves archive to the stream with lzip compression.|
+|save_lzipped(path, cpio_format)|Saves archive to the file by path with lzip compression.|
+|save_lzma_compressed(output, cpio_format)|Saves the archive to the stream with LZMA compression.|
+|save_lzma_compressed(path, cpio_format)|Saves the archive to the file by path with lzma compression.|
 |save_xz_compressed(output, cpio_format, settings)|Saves archive to the stream with xz compression.|
 |save_xz_compressed(path, cpio_format, settings)|Saves archive to the path by path with xz compression.|
+|save_z_compressed(output, cpio_format)|Saves archive to the stream with Z compression.|
+|save_z_compressed(path, cpio_format)|Saves archive to the path by path with Z compression.|
+|save_zstandard(output, cpio_format)|Saves archive to the stream with Zstandard compression.|
+|save_zstandard(path, cpio_format)|Saves archive to the file by path with Zstandard compression.|
 |create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 
