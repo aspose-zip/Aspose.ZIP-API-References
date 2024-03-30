@@ -31,6 +31,7 @@ Supported archive formats.
 |XAR|Xar archive (|
 |XZ|Xz archive (|
 |Z|Z archive (|
+|ZSTANDARD|Zstandard archive (|
 
 ### See Also
 
