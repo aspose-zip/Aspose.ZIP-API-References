@@ -28,6 +28,7 @@ Settings needed for compressor or decompressor to work.
 | [getEnhancedDeflate()](#getEnhancedDeflate--) | An instance of `EnhancedDeflateCompressionSettings` with default parameters. |
 | [getLzma()](#getLzma--) | An instance of `LzmaCompressionSettings` with default parameters. |
 | [getStore()](#getStore--) | An instance of `StoreCompressionSettings` with default parameters. |
+| [getXz()](#getXz--) | An instance of `Xz` with default parameters. |
 ### CompressionSettings() {#CompressionSettings--}
 ```
 public CompressionSettings()
@@ -84,3 +85,13 @@ An instance of `StoreCompressionSettings` with default parameters.
 
 **Returns:**
 [StoreCompressionSettings](../../com.aspose.zip/storecompressionsettings) - An instance of `StoreCompressionSettings` with default parameters.
+### getXz() {#getXz--}
+```
+public static XzCompressionSettings getXz()
+```
+
+
+An instance of `Xz` with default parameters.
+
+**Returns:**
+[XzCompressionSettings](../../com.aspose.zip/xzcompressionsettings) - an instance of `Xz` with default parameters.

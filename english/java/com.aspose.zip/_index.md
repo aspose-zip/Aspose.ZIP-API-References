@@ -46,11 +46,31 @@ url: /java/com.aspose.zip/
 | [RarArchiveEntryEncrypted](../com.aspose.zip/rararchiveentryencrypted) | Rar entry that needs to be decompressed with decryption. |
 | [RarArchiveEntryPlain](../com.aspose.zip/rararchiveentryplain) | Rar entry that needs to be decompressed without decryption. |
 | [RarArchiveLoadOptions](../com.aspose.zip/rararchiveloadoptions) | Options with which [RarArchive](../com.aspose.zip/rararchive) is loaded from compressed file. |
+| [SevenZipAESEncryptionSettings](../com.aspose.zip/sevenzipaesencryptionsettings) | Settings for AES encryption or decryption algorithm. |
+| [SevenZipArchive](../com.aspose.zip/sevenziparchive) | This class represents 7z archive file. |
+| [SevenZipArchiveEntry](../com.aspose.zip/sevenziparchiveentry) | Represents single file within 7z archive. |
+| [SevenZipArchiveEntryEncrypted](../com.aspose.zip/sevenziparchiveentryencrypted) | SevenZip archive entry that needs to be compressed with encryption or decompressed with decryption. |
+| [SevenZipArchiveEntryPlain](../com.aspose.zip/sevenziparchiveentryplain) | SevenZip entry that needs to be compressed without encryption or decompressed without decryption. |
+| [SevenZipBZip2CompressionSettings](../com.aspose.zip/sevenzipbzip2compressionsettings) | Settings for BZip2 compression method within 7z archive. |
+| [SevenZipCipher](../com.aspose.zip/sevenzipcipher) | Base class for AES cipher used for 7-zip encryption. |
+| [SevenZipCompressionSettings](../com.aspose.zip/sevenzipcompressionsettings) | Settings needed for 7z compressor or decompressor to work. |
+| [SevenZipEncryptionSettings](../com.aspose.zip/sevenzipencryptionsettings) | Base class for settings for several 7z encryption methods. |
+| [SevenZipEntrySettings](../com.aspose.zip/sevenzipentrysettings) | Settings used to compress or decompress 7z entries. |
+| [SevenZipLZMA2CompressionSettings](../com.aspose.zip/sevenziplzma2compressionsettings) | Settings for LZMA2 compression method within 7z archive. |
+| [SevenZipLZMACompressionSettings](../com.aspose.zip/sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
+| [SevenZipStoreCompressionSettings](../com.aspose.zip/sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
+| [SplitSevenZipArchiveSaveOptions](../com.aspose.zip/splitsevenziparchivesaveoptions) | Options for saving a multi-volume 7-zip archive. |
 | [StoreCompressionSettings](../com.aspose.zip/storecompressionsettings) | Settings for Store compression method. |
 | [TarArchive](../com.aspose.zip/tararchive) | This class represents tar archive file. |
 | [TarEntry](../com.aspose.zip/tarentry) | Represents single file within tar archive. |
 | [TraditionalEncryptionSettings](../com.aspose.zip/traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
+| [XzArchive](../com.aspose.zip/xzarchive) | This class represents xz archive file. |
+| [XzArchiveSettings](../com.aspose.zip/xzarchivesettings) | The class contains set of setting particular xz archive. |
+| [XzBcjX86FilterSettings](../com.aspose.zip/xzbcjx86filtersettings) | Settings for xz Bcj X86 filter. |
+| [XzCompressionSettings](../com.aspose.zip/xzcompressionsettings) | Settings for Xz compression method. |
+| [XzFilterSettings](../com.aspose.zip/xzfiltersettings) | Base class for set of settings of particular xz format filter. |
+| [XzLZMA2FilterSettings](../com.aspose.zip/xzlzma2filtersettings) | Set of settings for xz LZMA2 filter. |
 
 ## Interfaces
 
@@ -67,4 +87,6 @@ url: /java/com.aspose.zip/
 | [ArchiveFormat](../com.aspose.zip/archiveformat) | Supported archive formats. |
 | [EncryptionMethod](../com.aspose.zip/encryptionmethod) | Encryption/decryption methods can be used with zip archive. |
 | [ParallelCompressionMode](../com.aspose.zip/parallelcompressionmode) | Options of usage parallel compression facility. |
+| [SevenZipCompressionMethod](../com.aspose.zip/sevenzipcompressionmethod) | Methods of compression that 7z format support. |
 | [TarFormat](../com.aspose.zip/tarformat) | Enumeration with supported formats of [TarArchive](../com.aspose.zip/tararchive). |
+| [XzCheckType](../com.aspose.zip/xzchecktype) | The enumeration defines checksum calculation approach for xz archive. |
