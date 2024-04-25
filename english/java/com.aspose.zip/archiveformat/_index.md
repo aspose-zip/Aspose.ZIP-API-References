@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 52
+weight: 72
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -22,8 +22,10 @@ Supported archive formats.
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
 | [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
+| [SevenZip](#SevenZip) | 7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)). |
 | [Tar](#Tar) | Tar archive ([TarArchive](../../com.aspose.zip/tararchive)). |
 | [Unknown](#Unknown) | Unknown format. |
+| [Xz](#Xz) | Xz archive ([XzArchive](../../com.aspose.zip/xzarchive)). |
 | [Zip](#Zip) | Zip archive ([Archive](../../com.aspose.zip/archive)). |
 ## Methods
 
@@ -63,6 +65,14 @@ public static final ArchiveFormat Rar
 
 Rar archive ([RarArchive](../../com.aspose.zip/rararchive)).
 
+### SevenZip {#SevenZip}
+```
+public static final ArchiveFormat SevenZip
+```
+
+
+7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)).
+
 ### Tar {#Tar}
 ```
 public static final ArchiveFormat Tar
@@ -78,6 +88,14 @@ public static final ArchiveFormat Unknown
 
 
 Unknown format.
+
+### Xz {#Xz}
+```
+public static final ArchiveFormat Xz
+```
+
+
+Xz archive ([XzArchive](../../com.aspose.zip/xzarchive)).
 
 ### Zip {#Zip}
 ```

@@ -3,7 +3,7 @@ title: Event
 second_title: Aspose.ZIP for Java API Reference
 description: An event.
 type: docs
-weight: 49
+weight: 69
 url: /java/com.aspose.zip/event/
 ---
 ```

@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents tar archive file.
 type: docs
-weight: 46
+weight: 60
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -47,6 +47,8 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [fromGZip(String path)](#fromGZip-java.lang.String-) | Extracts supplied gzip archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromLZMA(InputStream source)](#fromLZMA-java.io.InputStream-) | Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromLZMA(String path)](#fromLZMA-java.lang.String-) | Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromXz(InputStream source)](#fromXz-java.io.InputStream-) | Extracts supplied xz format archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromXz(String path)](#fromXz-java.lang.String-) | Extracts supplied xz format archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [getEntries()](#getEntries--) | Gets entries of [TarEntry](../../com.aspose.zip/tarentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
@@ -61,6 +63,12 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [saveLZMACompressed(OutputStream output, TarFormat format)](#saveLZMACompressed-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with LZMA compression. |
 | [saveLZMACompressed(String path)](#saveLZMACompressed-java.lang.String-) | Saves archive to the file by path with lzma compression. |
 | [saveLZMACompressed(String path, TarFormat format)](#saveLZMACompressed-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with lzma compression. |
+| [saveXzCompressed(OutputStream output)](#saveXzCompressed-java.io.OutputStream-) | Saves archive to the stream with xz compression. |
+| [saveXzCompressed(OutputStream output, TarFormat format)](#saveXzCompressed-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with xz compression. |
+| [saveXzCompressed(OutputStream output, TarFormat format, XzArchiveSettings settings)](#saveXzCompressed-java.io.OutputStream-com.aspose.zip.TarFormat-com.aspose.zip.XzArchiveSettings-) | Saves archive to the stream with xz compression. |
+| [saveXzCompressed(String path)](#saveXzCompressed-java.lang.String-) | Saves archive to the file by path with xz compression. |
+| [saveXzCompressed(String path, TarFormat format)](#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with xz compression. |
+| [saveXzCompressed(String path, TarFormat format, XzArchiveSettings settings)](#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-com.aspose.zip.XzArchiveSettings-) | Saves archive to the file by path with xz compression. |
 ### TarArchive() {#TarArchive--}
 ```
 public TarArchive()
@@ -603,6 +611,44 @@ LZMA extraction stream is not seekable by the nature of compression algorithm. T
 
 **Returns:**
 [TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromXz(InputStream source) {#fromXz-java.io.InputStream-}
+```
+public static TarArchive fromXz(InputStream source)
+```
+
+
+Extracts supplied xz format archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: xz archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | java.io.InputStream | The source of the archive. |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromXz(String path) {#fromXz-java.lang.String-}
+```
+public static TarArchive fromXz(String path)
+```
+
+
+Extracts supplied xz format archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: xz archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path to the archive file. |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### getEntries() {#getEntries--}
 ```
 public final List<TarEntry> getEntries()
@@ -694,10 +740,9 @@ Saves archive to destination file provided.
 
 ```
 
- using (var archive = new TarArchive())
- {
-     archive.CreateEntry("entry1", "data.bin");
-     archive.Save("myarchive.tar");
+     try (TarArchive archive = new TarArchive()) {
+         archive.createEntry("entry1", "data.bin");
+         archive.save("myarchive.tar");
  }
  
 ```
@@ -721,10 +766,9 @@ Saves archive to destination file provided.
 
 ```
 
- using (var archive = new TarArchive())
- {
-     archive.CreateEntry("entry1", "data.bin");
-     archive.Save("myarchive.tar");
+     try (TarArchive archive = new TarArchive()) {
+         archive.createEntry("entry1", "data.bin");
+         archive.save("myarchive.tar");
  }
  
 ```
@@ -871,17 +915,15 @@ Saves archive to the stream with LZMA compression.
 
 ```
 
- using (FileStream result = File.OpenWrite("result.tar.lzma"))
- {
-     using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
-     {
-         using (var archive = new TarArchive())
-         {
-             archive.CreateEntry("entry.bin", source);
-             archive.SaveLZMACompressed(result);
+     try (FileOutputStream result = new FileOutputStream("result.tar.lzma")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveLZMACompressed(result);
+             }
          }
+     } catch (IOException ex) {
      }
- }
  
 ```
 
@@ -904,17 +946,15 @@ Saves archive to the stream with LZMA compression.
 
 ```
 
- using (FileStream result = File.OpenWrite("result.tar.lzma"))
- {
-     using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
-     {
-         using (var archive = new TarArchive())
-         {
-             archive.CreateEntry("entry.bin", source);
-             archive.SaveLZMACompressed(result);
+     try (FileOutputStream result = new FileOutputStream("result.tar.lzma")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveLZMACompressed(result);
+             }
          }
+     } catch (IOException ex) {
      }
- }
  
 ```
 
@@ -938,14 +978,13 @@ Saves archive to the file by path with lzma compression.
 
 ```
 
- using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
- {
-     using (var archive = new TarArchive())
-     {
-         archive.CreateEntry("entry.bin", source);
-         archive.SaveLZMACompressed("result.tar.lzma");
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveLZMACompressed("result.tar.lzma");
+         }
+     } catch (IOException ex) {
      }
- }
  
 ```
 
@@ -966,14 +1005,13 @@ Saves archive to the file by path with lzma compression.
 
 ```
 
- using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
- {
-     using (var archive = new TarArchive())
-     {
-         archive.CreateEntry("entry.bin", source);
-         archive.SaveLZMACompressed("result.tar.lzma");
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveLZMACompressed("result.tar.lzma");
+         }
+     } catch (IOException ex) {
      }
- }
  
 ```
 
@@ -984,4 +1022,184 @@ Important: tar archive is composed then compressed within this method, its conte
 | --- | --- | --- |
 | path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 | format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+
+### saveXzCompressed(OutputStream output) {#saveXzCompressed-java.io.OutputStream-}
+```
+public final void saveXzCompressed(OutputStream output)
+```
+
+
+Saves archive to the stream with xz compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.tar.xz")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveXzCompressed(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream.
+
+`output`The stream must be writable. |
+
+### saveXzCompressed(OutputStream output, TarFormat format) {#saveXzCompressed-java.io.OutputStream-com.aspose.zip.TarFormat-}
+```
+public final void saveXzCompressed(OutputStream output, TarFormat format)
+```
+
+
+Saves archive to the stream with xz compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.tar.xz")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveXzCompressed(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream.
+
+`output`The stream must be writable. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+
+### saveXzCompressed(OutputStream output, TarFormat format, XzArchiveSettings settings) {#saveXzCompressed-java.io.OutputStream-com.aspose.zip.TarFormat-com.aspose.zip.XzArchiveSettings-}
+```
+public final void saveXzCompressed(OutputStream output, TarFormat format, XzArchiveSettings settings)
+```
+
+
+Saves archive to the stream with xz compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.tar.xz")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveXzCompressed(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream.
+
+`output`The stream must be writable. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+| settings | [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) | Set of setting particular xz archive: dictionary size, block size, check type. |
+
+### saveXzCompressed(String path) {#saveXzCompressed-java.lang.String-}
+```
+public final void saveXzCompressed(String path)
+```
+
+
+Saves archive to the file by path with xz compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveXzCompressed("result.tar.xz");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+
+### saveXzCompressed(String path, TarFormat format) {#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-}
+```
+public final void saveXzCompressed(String path, TarFormat format)
+```
+
+
+Saves archive to the file by path with xz compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveXzCompressed("result.tar.xz");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+
+### saveXzCompressed(String path, TarFormat format, XzArchiveSettings settings) {#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-com.aspose.zip.XzArchiveSettings-}
+```
+public final void saveXzCompressed(String path, TarFormat format, XzArchiveSettings settings)
+```
+
+
+Saves archive to the file by path with xz compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveXzCompressed("result.tar.xz");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+| settings | [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) | Set of setting particular xz archive: dictionary size, block size, check type. |
 
