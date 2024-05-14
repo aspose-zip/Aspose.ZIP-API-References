@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 72
+weight: 76
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -20,6 +20,7 @@ Supported archive formats.
 | --- | --- |
 | [Bzip2](#Bzip2) | Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)). |
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
+| [Lzip](#Lzip) | Lzip archive ([LzipArchive](../../com.aspose.zip/lziparchive)). |
 | [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
 | [SevenZip](#SevenZip) | 7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)). |
@@ -48,6 +49,14 @@ public static final ArchiveFormat Gzip
 
 
 Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)).
+
+### Lzip {#Lzip}
+```
+public static final ArchiveFormat Lzip
+```
+
+
+Lzip archive ([LzipArchive](../../com.aspose.zip/lziparchive)).
 
 ### Lzma {#Lzma}
 ```

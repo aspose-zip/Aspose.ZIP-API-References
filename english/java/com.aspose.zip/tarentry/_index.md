@@ -3,7 +3,7 @@ title: TarEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within tar archive.
 type: docs
-weight: 61
+weight: 65
 url: /java/com.aspose.zip/tarentry/
 ---
 
