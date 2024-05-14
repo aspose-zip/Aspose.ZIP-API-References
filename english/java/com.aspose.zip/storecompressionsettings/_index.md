@@ -3,7 +3,7 @@ title: StoreCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Store compression method.
 type: docs
-weight: 59
+weight: 63
 url: /java/com.aspose.zip/storecompressionsettings/
 ---
 

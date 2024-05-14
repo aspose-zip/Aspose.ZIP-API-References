@@ -35,10 +35,13 @@ url: /java/com.aspose.zip/
 | [EventsBag](../com.aspose.zip/eventsbag) | Events container used on [Archive](../com.aspose.zip/archive) saving. |
 | [GzipArchive](../com.aspose.zip/gziparchive) | This class represents gzip archive file. |
 | [License](../com.aspose.zip/license) | Provides methods to license the component. |
+| [LzipArchive](../com.aspose.zip/lziparchive) | This class represents Lzip archive file. |
+| [LzipArchiveSettings](../com.aspose.zip/lziparchivesettings) | The class contains setting of particular lzip archive. |
 | [LzmaArchive](../com.aspose.zip/lzmaarchive) | This class represents LZMA archive file. |
 | [LzmaArchiveSettings](../com.aspose.zip/lzmaarchivesettings) | Settings for LZMA compression method within lzma archive. |
 | [LzmaCompressionSettings](../com.aspose.zip/lzmacompressionsettings) | Settings for LZMA compression method. |
 | [MeteredLicense](../com.aspose.zip/meteredlicense) | Provides methods to set metered key. |
+| [PPMdCompressionSettings](../com.aspose.zip/ppmdcompressionsettings) | Settings for PPMd compression method. |
 | [ParallelOptions](../com.aspose.zip/paralleloptions) | Options for parallel compression. |
 | [ProgressEventArgs](../com.aspose.zip/progresseventargs) | Class for event data containing the number of bytes proceeded. |
 | [RarArchive](../com.aspose.zip/rararchive) | This class represents RAR archive file. |
@@ -58,6 +61,7 @@ url: /java/com.aspose.zip/
 | [SevenZipEntrySettings](../com.aspose.zip/sevenzipentrysettings) | Settings used to compress or decompress 7z entries. |
 | [SevenZipLZMA2CompressionSettings](../com.aspose.zip/sevenziplzma2compressionsettings) | Settings for LZMA2 compression method within 7z archive. |
 | [SevenZipLZMACompressionSettings](../com.aspose.zip/sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
+| [SevenZipPPMdCompressionSettings](../com.aspose.zip/sevenzipppmdcompressionsettings) | Settings for PPMd compression method within 7z archive. |
 | [SevenZipStoreCompressionSettings](../com.aspose.zip/sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
 | [SplitSevenZipArchiveSaveOptions](../com.aspose.zip/splitsevenziparchivesaveoptions) | Options for saving a multi-volume 7-zip archive. |
