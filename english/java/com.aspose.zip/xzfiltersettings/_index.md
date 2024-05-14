@@ -3,7 +3,7 @@ title: XzFilterSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Base class for set of settings of particular xz format filter.
 type: docs
-weight: 67
+weight: 71
 url: /java/com.aspose.zip/xzfiltersettings/
 ---
 
