@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 76
+weight: 95
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -19,6 +19,8 @@ Supported archive formats.
 | Field | Description |
 | --- | --- |
 | [Bzip2](#Bzip2) | Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)). |
+| [Cab](#Cab) | Cab archive ([CabArchive](../../com.aspose.zip/cabarchive)). |
+| [Cpio](#Cpio) | Cpio archive ([CpioArchive](../../com.aspose.zip/cpioarchive)). |
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
 | [Lzip](#Lzip) | Lzip archive ([LzipArchive](../../com.aspose.zip/lziparchive)). |
 | [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
@@ -26,8 +28,11 @@ Supported archive formats.
 | [SevenZip](#SevenZip) | 7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)). |
 | [Tar](#Tar) | Tar archive ([TarArchive](../../com.aspose.zip/tararchive)). |
 | [Unknown](#Unknown) | Unknown format. |
+| [Wim](#Wim) | Wim archive ([WimArchive](../../com.aspose.zip/wimarchive)). |
+| [Xar](#Xar) | Xar archive ([XarArchive](../../com.aspose.zip/xararchive)). |
 | [Xz](#Xz) | Xz archive ([XzArchive](../../com.aspose.zip/xzarchive)). |
 | [Zip](#Zip) | Zip archive ([Archive](../../com.aspose.zip/archive)). |
+| [Zstandard](#Zstandard) | Zstandard archive ([ZstandardArchive](../../com.aspose.zip/zstandardarchive)). |
 ## Methods
 
 | Method | Description |
@@ -41,6 +46,22 @@ public static final ArchiveFormat Bzip2
 
 
 Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)).
+
+### Cab {#Cab}
+```
+public static final ArchiveFormat Cab
+```
+
+
+Cab archive ([CabArchive](../../com.aspose.zip/cabarchive)).
+
+### Cpio {#Cpio}
+```
+public static final ArchiveFormat Cpio
+```
+
+
+Cpio archive ([CpioArchive](../../com.aspose.zip/cpioarchive)).
 
 ### Gzip {#Gzip}
 ```
@@ -98,6 +119,22 @@ public static final ArchiveFormat Unknown
 
 Unknown format.
 
+### Wim {#Wim}
+```
+public static final ArchiveFormat Wim
+```
+
+
+Wim archive ([WimArchive](../../com.aspose.zip/wimarchive)).
+
+### Xar {#Xar}
+```
+public static final ArchiveFormat Xar
+```
+
+
+Xar archive ([XarArchive](../../com.aspose.zip/xararchive)).
+
 ### Xz {#Xz}
 ```
 public static final ArchiveFormat Xz
@@ -113,6 +150,14 @@ public static final ArchiveFormat Zip
 
 
 Zip archive ([Archive](../../com.aspose.zip/archive)).
+
+### Zstandard {#Zstandard}
+```
+public static final ArchiveFormat Zstandard
+```
+
+
+Zstandard archive ([ZstandardArchive](../../com.aspose.zip/zstandardarchive)).
 
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```

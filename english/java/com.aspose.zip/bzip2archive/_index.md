@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/bzip2archive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class Bzip2Archive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
+public class Bzip2Archive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents bzip2 archive file. Use it to compose or extract bzip2 archives.
@@ -44,6 +44,8 @@ bzip2 compresses files using the Burrows-Wheeler block sorting text compression 
 | [save(OutputStream outputStream, Bzip2SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.Bzip2SaveOptions-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
 | [save(String destinationFileName, Bzip2SaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.Bzip2SaveOptions-) | Saves archive to destination file provided. |
+| [setSource(CpioArchive cpioArchive)](#setSource-com.aspose.zip.CpioArchive-) | Sets the content to be compressed within the archive. |
+| [setSource(CpioArchive cpioArchive, CpioFormat format)](#setSource-com.aspose.zip.CpioArchive-com.aspose.zip.CpioFormat-) | Sets the content to be compressed within the archive. |
 | [setSource(TarArchive tarArchive)](#setSource-com.aspose.zip.TarArchive-) | Sets the content to be compressed within the archive. |
 | [setSource(TarArchive tarArchive, TarFormat format)](#setSource-com.aspose.zip.TarArchive-com.aspose.zip.TarFormat-) | Sets the content to be compressed within the archive. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
@@ -78,7 +80,7 @@ public Bzip2Archive(InputStream sourceStream)
 
 Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing.
 
-Open an archive from a stream and extract it to a `MemoryStream`
+Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
 
@@ -101,7 +103,7 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2arc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceStream | java.io.InputStream | The source of the archive. |
+| sourceStream | java.io.InputStream | the source of the archive |
 
 ### Bzip2Archive(String path) {#Bzip2Archive-java.lang.String-}
 ```
@@ -134,7 +136,7 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2arc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to the archive file. |
+| path | java.lang.String | the path to the archive file |
 
 ### close() {#close--}
 ```
@@ -173,7 +175,7 @@ Extracts the archive to the stream provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.OutputStream | Destination stream. Must be writable. |
+| destination | java.io.OutputStream | destination stream. Must be writable |
 
 ### extract(String path) {#extract-java.lang.String-}
 ```
@@ -186,7 +188,7 @@ Extracts the archive to the file by path.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to destination file. If the file already exists, it will be overwritten. |
+| path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
 java.io.File - Info of extracted file.
@@ -214,7 +216,7 @@ public final Iterable<IArchiveFileEntry> getFileEntries()
 Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive.
 
 **Returns:**
-java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive.
+java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive
 ### open() {#open--}
 ```
 public final InputStream open()
@@ -243,7 +245,7 @@ Usage:
 Read from the stream to get original content of file. See examples section.
 
 **Returns:**
-java.io.InputStream - The stream that represents the contents of the archive.
+java.io.InputStream - the stream that represents the contents of the archive
 ### save(OutputStream outputStream) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream outputStream)
@@ -268,9 +270,9 @@ Writes compressed data to an output stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | java.io.OutputStream | Destination stream.
+| outputStream | java.io.OutputStream | destination stream.
 
-`outputStream` must be writable. |
+`outputStream` must be writable |
 
 ### save(OutputStream outputStream, Bzip2SaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.zip.Bzip2SaveOptions-}
 ```
@@ -296,10 +298,10 @@ Writes compressed data to an output stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | java.io.OutputStream | Destination stream.
+| outputStream | java.io.OutputStream | destination stream.
 
-`outputStream` must be writable. |
-| saveOptions | [Bzip2SaveOptions](../../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. If not specified, 900 Kb block size would be used. |
+`outputStream` must be writable |
+| saveOptions | [Bzip2SaveOptions](../../com.aspose.zip/bzip2saveoptions) | options for saving a bzip2 archive. If not specified, 900 Kb block size would be used |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
@@ -325,7 +327,7 @@ Writes compressed data to file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
 
 ### save(String destinationFileName, Bzip2SaveOptions saveOptions) {#save-java.lang.String-com.aspose.zip.Bzip2SaveOptions-}
 ```
@@ -351,8 +353,65 @@ Writes compressed data to file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
-| saveOptions | [Bzip2SaveOptions](../../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. If not specified, 900 Kb block size would be used. |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| saveOptions | [Bzip2SaveOptions](../../com.aspose.zip/bzip2saveoptions) | options for saving a bzip2 archive. If not specified, 900 Kb block size would be used |
+
+### setSource(CpioArchive cpioArchive) {#setSource-com.aspose.zip.CpioArchive-}
+```
+public final void setSource(CpioArchive cpioArchive)
+```
+
+
+Sets the content to be compressed within the archive.
+
+```
+
+     try (CpioArchive cpioArchive = new CpioArchive()) {
+         cpioArchive.createEntry("first.bin", "data1.bin");
+         cpioArchive.createEntry("second.bin", "data2.bin");
+         try (Bzip2Archive bzippedArchive = new Bzip2Archive()) {
+             bzippedArchive.setSource(cpioArchive);
+             bzippedArchive.save("archive.cpio.bz2");
+         }
+     }
+ 
+```
+
+Use this method to compose joint cpio.bz2 archive.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cpioArchive | [CpioArchive](../../com.aspose.zip/cpioarchive) | cpio archive to be compressed |
+
+### setSource(CpioArchive cpioArchive, CpioFormat format) {#setSource-com.aspose.zip.CpioArchive-com.aspose.zip.CpioFormat-}
+```
+public final void setSource(CpioArchive cpioArchive, CpioFormat format)
+```
+
+
+Sets the content to be compressed within the archive.
+
+```
+
+     try (CpioArchive cpioArchive = new CpioArchive()) {
+         cpioArchive.createEntry("first.bin", "data1.bin");
+         cpioArchive.createEntry("second.bin", "data2.bin");
+         try (Bzip2Archive bzippedArchive = new Bzip2Archive()) {
+             bzippedArchive.setSource(cpioArchive);
+             bzippedArchive.save("archive.cpio.bz2");
+         }
+     }
+ 
+```
+
+Use this method to compose joint cpio.bz2 archive.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cpioArchive | [CpioArchive](../../com.aspose.zip/cpioarchive) | cpio archive to be compressed |
+| format | [CpioFormat](../../com.aspose.zip/cpioformat) | defines cpio header format |
 
 ### setSource(TarArchive tarArchive) {#setSource-com.aspose.zip.TarArchive-}
 ```
@@ -380,7 +439,7 @@ Use this method to compose joint tar.bz2 archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | Tar archive to be compressed. |
+| tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | tar archive to be compressed |
 
 ### setSource(TarArchive tarArchive, TarFormat format) {#setSource-com.aspose.zip.TarArchive-com.aspose.zip.TarFormat-}
 ```
@@ -408,8 +467,8 @@ Use this method to compose joint tar.bz2 archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | Tar archive to be compressed. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. |
+| tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | tar archive to be compressed |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format |
 
 ### setSource(File file) {#setSource-java.io.File-}
 ```
@@ -433,7 +492,7 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.io.File | The reference to a file to be compressed. |
+| file | java.io.File | the reference to a file to be compressed |
 
 ### setSource(InputStream source) {#setSource-java.io.InputStream-}
 ```
@@ -457,7 +516,7 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | The input stream for the archive. |
+| source | java.io.InputStream | the input stream for the archive |
 
 ### setSource(String path) {#setSource-java.lang.String-}
 ```
@@ -481,5 +540,5 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | Path to file to be compressed. |
+| path | java.lang.String | path to file to be compressed |
 

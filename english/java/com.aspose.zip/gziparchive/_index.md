@@ -3,7 +3,7 @@ title: GzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents gzip archive file.
 type: docs
-weight: 31
+weight: 35
 url: /java/com.aspose.zip/gziparchive/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/gziparchive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class GzipArchive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
+public class GzipArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents gzip archive file. Use it to compose or extract gzip archives.
@@ -38,7 +38,7 @@ Gzip compression algorithm is based on the DEFLATE algorithm, which is a combina
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive. |
-| [getName()](#getName--) | Name of original file. |
+| [getName()](#getName--) | The name of original file. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
@@ -76,7 +76,7 @@ public GzipArchive(InputStream sourceStream)
 
 Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing.
 
-Open an archive from a stream and extract it to a `MemoryStream`
+Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
 
@@ -109,7 +109,7 @@ public GzipArchive(InputStream sourceStream, boolean parseHeader)
 
 Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing.
 
-Open an archive from a stream and extract it to a `MemoryStream`
+Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
 
@@ -287,7 +287,7 @@ public final String getName()
 ```
 
 
-Name of original file.
+The name of original file.
 
 **Returns:**
 java.lang.String - the name of the original file.

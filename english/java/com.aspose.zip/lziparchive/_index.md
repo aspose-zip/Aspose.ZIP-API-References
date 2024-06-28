@@ -3,7 +3,7 @@ title: LzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Lzip archive file.
 type: docs
-weight: 33
+weight: 37
 url: /java/com.aspose.zip/lziparchive/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/lziparchive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), com.aspose.ms.System.IDisposable, java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class LzipArchive extends ILicenseStateProvider implements IArchive, System.IDisposable, AutoCloseable
+public class LzipArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents Lzip archive file. Use it to compose or extract Lzip archives.
@@ -62,7 +62,7 @@ Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| settings | [LzipArchiveSettings](../../com.aspose.zip/lziparchivesettings) | setting of particular lzip archive with definition of dictionary size |
+| settings | [LzipArchiveSettings](../../com.aspose.zip/lziparchivesettings) | the setting of particular lzip archive with definition of dictionary size |
 
 ### LzipArchive(InputStream sourceStream) {#LzipArchive-java.io.InputStream-}
 ```
@@ -116,7 +116,7 @@ This constructor does not decompress. See [extract(OutputStream)](../../com.aspo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | path to the source of the archive |
+| path | java.lang.String | the path to the source of the archive |
 
 ### close() {#close--}
 ```
@@ -158,7 +158,7 @@ Extracts lzip archive to a file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.io.File | file for storing decompressed data |
+| file | java.io.File | the file for storing decompressed data |
 
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
@@ -186,7 +186,7 @@ Extracts lzip archive to a stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.OutputStream | stream for storing decompressed data |
+| destination | java.io.OutputStream | the stream for storing decompressed data |
 
 ### extract(String path) {#extract-java.lang.String-}
 ```
@@ -212,7 +212,7 @@ Extracts lzip archive to a file by path.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | path to file which will store decompressed data |
+| path | java.lang.String | the path to the file which will store decompressed data |
 
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
@@ -271,7 +271,7 @@ Saves lzip archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.File | file which will be opened as destination stream |
+| destination | java.io.File | the file which will be opened as destination stream |
 
 ### save(OutputStream outputStream) {#save-java.io.OutputStream-}
 ```
@@ -298,9 +298,7 @@ Saves lzip archive to the stream provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | java.io.OutputStream | destination stream.
-
-`outputStream` must be seekable. |
+| outputStream | java.io.OutputStream | destination stream |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
@@ -348,7 +346,7 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.io.File | file which will be opened as input stream |
+| file | java.io.File | the file which will be opened as input stream |
 
 ### setSource(InputStream source) {#setSource-java.io.InputStream-}
 ```
@@ -396,5 +394,5 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | path to file to be compressed |
+| path | java.lang.String | the path to the file to be compressed |
 

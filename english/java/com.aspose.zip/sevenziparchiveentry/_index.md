@@ -3,7 +3,7 @@ title: SevenZipArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within 7z archive.
 type: docs
-weight: 49
+weight: 53
 url: /java/com.aspose.zip/sevenziparchiveentry/
 ---
 
@@ -32,9 +32,9 @@ Cast an [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) instan
 | [getCompressionSettings()](#getCompressionSettings--) | Gets settings for compression or decompression. |
 | [getLength()](#getLength--) | Gets length. |
 | [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
-| [getName()](#getName--) | Gets name of the entry within archive. |
+| [getName()](#getName--) | Gets the name of the entry within archive. |
 | [getUncompressedSize()](#getUncompressedSize--) | Gets size of original file. |
-| [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents directory. |
+| [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
 | [open(String password)](#open-java.lang.String-) | Opens the entry for extraction and provides a stream with entry content. |
 | [setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream compressed. |
@@ -210,10 +210,10 @@ public final String getName()
 ```
 
 
-Gets name of the entry within archive.
+Gets the name of the entry within archive.
 
 **Returns:**
-java.lang.String - name of the entry within archive
+java.lang.String - the name of the entry within archive
 ### getUncompressedSize() {#getUncompressedSize--}
 ```
 public final long getUncompressedSize()
@@ -230,10 +230,10 @@ public final boolean isDirectory()
 ```
 
 
-Gets a value indicating whether the entry represents directory.
+Gets a value indicating whether the entry represents a directory.
 
 **Returns:**
-boolean - a value indicating whether the entry represents directory
+boolean - a value indicating whether the entry represents a directory
 ### open() {#open--}
 ```
 public final InputStream open()

@@ -3,7 +3,7 @@ title: RarArchiveEntryPlain
 second_title: Aspose.ZIP for Java API Reference
 description: Rar entry that needs to be decompressed without decryption.
 type: docs
-weight: 45
+weight: 49
 url: /java/com.aspose.zip/rararchiveentryplain/
 ---
 

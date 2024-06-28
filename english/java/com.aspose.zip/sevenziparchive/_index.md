@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 48
+weight: 52
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/sevenziparchive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), com.aspose.ms.System.IDisposable, java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class SevenZipArchive extends ILicenseStateProvider implements IArchive, System.IDisposable, AutoCloseable
+public class SevenZipArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents 7z archive file. Use it to compose and extract 7z archives.
@@ -805,9 +805,7 @@ Saves 7z archive to the stream provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | destination stream.
-
-`output` must be seekable. |
+| output | java.io.OutputStream | destination stream |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```

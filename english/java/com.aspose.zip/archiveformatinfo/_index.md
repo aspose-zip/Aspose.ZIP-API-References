@@ -50,4 +50,4 @@ public String toString()
 Returns string representation of the instance of the [ArchiveFormatInfo](../../com.aspose.zip/archiveformatinfo) class.
 
 **Returns:**
-java.lang.String - string representation of this object.
+java.lang.String - string representation of this object
