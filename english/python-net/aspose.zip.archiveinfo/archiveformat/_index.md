@@ -32,6 +32,7 @@ Supported archive formats.
 |XZ|Xz archive (|
 |Z|Z archive (|
 |ZSTANDARD|Zstandard archive (|
+|ISO|Iso archive (|
 
 ### See Also
 
