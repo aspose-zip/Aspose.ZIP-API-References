@@ -3,7 +3,7 @@ title: SevenZipEncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Base class for settings for several 7z encryption methods.
 type: docs
-weight: 55
+weight: 59
 url: /java/com.aspose.zip/sevenzipencryptionsettings/
 ---
 

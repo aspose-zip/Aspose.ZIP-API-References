@@ -87,7 +87,7 @@ public final int getBlockSize()
 Block size in hundreds of kilobytes.
 
 **Returns:**
-int - Block size in hundreds of kilobytes.
+int - block size in hundreds of kilobytes
 ### getCompressionThreads() {#getCompressionThreads--}
 ```
 public final int getCompressionThreads()

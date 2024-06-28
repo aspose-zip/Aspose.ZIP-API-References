@@ -3,7 +3,7 @@ title: TarEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within tar archive.
 type: docs
-weight: 65
+weight: 69
 url: /java/com.aspose.zip/tarentry/
 ---
 
@@ -20,11 +20,11 @@ Represents single file within tar archive.
 | --- | --- |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the entry to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
-| [getLength()](#getLength--) | Get length of entry in bytes. |
-| [getName()](#getName--) | Gets name of the entry within archive. |
-| [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents directory. |
+| [getLength()](#getLength--) | Get length of the entry in bytes. |
+| [getName()](#getName--) | Gets the name of the entry within archive. |
+| [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
-| [setName(String value)](#setName-java.lang.String-) | Sets name of the entry within archive. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the entry within archive. |
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
 public final void extract(OutputStream destination)
@@ -81,30 +81,30 @@ public final long getLength()
 ```
 
 
-Get length of entry in bytes.
+Get length of the entry in bytes.
 
 **Returns:**
-long - length of entry in bytes.
+long - length of the entry in bytes.
 ### getName() {#getName--}
 ```
 public final String getName()
 ```
 
 
-Gets name of the entry within archive.
+Gets the name of the entry within archive.
 
 **Returns:**
-java.lang.String - name of the entry within archive.
+java.lang.String - the name of the entry within archive.
 ### isDirectory() {#isDirectory--}
 ```
 public final boolean isDirectory()
 ```
 
 
-Gets a value indicating whether the entry represents directory.
+Gets a value indicating whether the entry represents a directory.
 
 **Returns:**
-boolean - a value indicating whether the entry represents directory.
+boolean - a value indicating whether the entry represents a directory.
 ### open() {#open--}
 ```
 public final InputStream open()
@@ -137,10 +137,10 @@ public final void setName(String value)
 ```
 
 
-Sets name of the entry within archive.
+Sets the name of the entry within archive.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | name of the entry within archive. |
+| value | java.lang.String | the name of the entry within archive. |
 

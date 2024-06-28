@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents tar archive file.
 type: docs
-weight: 64
+weight: 68
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/tararchive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class TarArchive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
+public class TarArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents tar archive file. Use it to compose, extract, or update tar archives.
@@ -33,10 +33,10 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [createEntries(File directory, boolean includeRootDirectory)](#createEntries-java.io.File-boolean-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Adds to the archive all the files and directories recursively in the directory given. |
-| [createEntry(String name, File fileInfo)](#createEntry-java.lang.String-java.io.File-) | Create single entry within the archive. |
-| [createEntry(String name, File fileInfo, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Create single entry within the archive. |
+| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Create single entry within the archive. |
+| [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Create single entry within the archive. |
 | [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source, File fileInfo)](#createEntry-java.lang.String-java.io.InputStream-java.io.File-) | Create single entry within the archive. |
+| [createEntry(String name, InputStream source, File file)](#createEntry-java.lang.String-java.io.InputStream-java.io.File-) | Create single entry within the archive. |
 | [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Create single entry within the archive. |
 | [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
 | [deleteEntry(TarEntry entry)](#deleteEntry-com.aspose.zip.TarEntry-) | Removes the first occurrence of a specific entry from the entries list. |
@@ -51,6 +51,8 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [fromLZip(String path)](#fromLZip-java.lang.String-) | Extracts supplied lzip archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromXz(InputStream source)](#fromXz-java.io.InputStream-) | Extracts supplied xz format archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromXz(String path)](#fromXz-java.lang.String-) | Extracts supplied xz format archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromZstandard(InputStream source)](#fromZstandard-java.io.InputStream-) | Extracts supplied Zstandard archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromZstandard(String path)](#fromZstandard-java.lang.String-) | Extracts supplied Zstandard archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [getEntries()](#getEntries--) | Gets entries of [TarEntry](../../com.aspose.zip/tarentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
@@ -75,6 +77,10 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [saveXzCompressed(String path)](#saveXzCompressed-java.lang.String-) | Saves archive to the file by path with xz compression. |
 | [saveXzCompressed(String path, TarFormat format)](#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with xz compression. |
 | [saveXzCompressed(String path, TarFormat format, XzArchiveSettings settings)](#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-com.aspose.zip.XzArchiveSettings-) | Saves archive to the file by path with xz compression. |
+| [saveZstandard(OutputStream output)](#saveZstandard-java.io.OutputStream-) | Saves archive to the stream with Zstandard compression. |
+| [saveZstandard(OutputStream output, TarFormat format)](#saveZstandard-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with Zstandard compression. |
+| [saveZstandard(String path)](#saveZstandard-java.lang.String-) | Saves archive to the file by path with Zstandard compression. |
+| [saveZstandard(String path, TarFormat format)](#saveZstandard-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with Zstandard compression. |
 ### TarArchive() {#TarArchive--}
 ```
 public TarArchive()
@@ -121,7 +127,7 @@ This constructor does not unpack any entry. See [TarEntry.open()](../../com.aspo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceStream | java.io.InputStream | The source of the archive. It must be seekable. |
+| sourceStream | java.io.InputStream | the source of the archive |
 
 ### TarArchive(String path) {#TarArchive-java.lang.String-}
 ```
@@ -146,7 +152,7 @@ This constructor does not unpack any entry. See [TarEntry.open()](../../com.aspo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to the archive file. |
+| path | java.lang.String | the path to the archive file |
 
 ### close() {#close--}
 ```
@@ -182,10 +188,10 @@ Adds to the archive all the files and directories recursively in the directory g
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| directory | java.io.File | Directory to compress. |
+| directory | java.io.File | directory to compress |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - The archive with entries composed.
+[TarArchive](../../com.aspose.zip/tararchive) - the archive with entries composed
 ### createEntries(File directory, boolean includeRootDirectory) {#createEntries-java.io.File-boolean-}
 ```
 public final TarArchive createEntries(File directory, boolean includeRootDirectory)
@@ -212,11 +218,11 @@ Adds to the archive all the files and directories recursively in the directory g
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| directory | java.io.File | Directory to compress. |
-| includeRootDirectory | boolean | Indicates whether to include the root directory itself or not. |
+| directory | java.io.File | directory to compress |
+| includeRootDirectory | boolean | indicates whether to include the root directory itself or not |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - The archive with entries composed.
+[TarArchive](../../com.aspose.zip/tararchive) - the archive with entries composed
 ### createEntries(String sourceDirectory) {#createEntries-java.lang.String-}
 ```
 public final TarArchive createEntries(String sourceDirectory)
@@ -243,10 +249,10 @@ Adds to the archive all the files and directories recursively in the directory g
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDirectory | java.lang.String | Directory to compress. |
+| sourceDirectory | java.lang.String | directory to compress |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - The archive with entries composed.
+[TarArchive](../../com.aspose.zip/tararchive) - the archive with entries composed
 ### createEntries(String sourceDirectory, boolean includeRootDirectory) {#createEntries-java.lang.String-boolean-}
 ```
 public final TarArchive createEntries(String sourceDirectory, boolean includeRootDirectory)
@@ -273,14 +279,14 @@ Adds to the archive all the files and directories recursively in the directory g
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDirectory | java.lang.String | Directory to compress. |
-| includeRootDirectory | boolean | Indicates whether to include the root directory itself or not. |
+| sourceDirectory | java.lang.String | directory to compress |
+| includeRootDirectory | boolean | indicates whether to include the root directory itself or not |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - The archive with entries composed.
-### createEntry(String name, File fileInfo) {#createEntry-java.lang.String-java.io.File-}
+[TarArchive](../../com.aspose.zip/tararchive) - the archive with entries composed
+### createEntry(String name, File file) {#createEntry-java.lang.String-java.io.File-}
 ```
-public final TarEntry createEntry(String name, File fileInfo)
+public final TarEntry createEntry(String name, File file)
 ```
 
 
@@ -296,21 +302,19 @@ Create single entry within the archive.
  
 ```
 
-The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
-
-`fileInfo` can refer to DirectoryInfo if the entry is directory.
+The entry name is solely set within `name` parameter. The file name provided in `file` parameter does not affect the entry name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of the entry. |
-| fileInfo | java.io.File | The metadata of file or folder to be compressed. |
+| name | java.lang.String | the name of the entry |
+| file | java.io.File | the metadata of file or folder to be compressed |
 
 **Returns:**
-[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance.
-### createEntry(String name, File fileInfo, boolean openImmediately) {#createEntry-java.lang.String-java.io.File-boolean-}
+[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance
+### createEntry(String name, File file, boolean openImmediately) {#createEntry-java.lang.String-java.io.File-boolean-}
 ```
-public final TarEntry createEntry(String name, File fileInfo, boolean openImmediately)
+public final TarEntry createEntry(String name, File file, boolean openImmediately)
 ```
 
 
@@ -326,21 +330,19 @@ Create single entry within the archive.
  
 ```
 
-The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
-
-`fileInfo` can refer to DirectoryInfo if the entry is directory.
+The entry name is solely set within `name` parameter. The file name provided in `file` parameter does not affect the entry name.
 
 If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is disposed.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of the entry. |
-| fileInfo | java.io.File | The metadata of file or folder to be compressed. |
-| openImmediately | boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| name | java.lang.String | the name of the entry |
+| file | java.io.File | the metadata of file or folder to be compressed |
+| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving |
 
 **Returns:**
-[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance.
+[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance
 ### createEntry(String name, InputStream source) {#createEntry-java.lang.String-java.io.InputStream-}
 ```
 public final TarEntry createEntry(String name, InputStream source)
@@ -363,14 +365,14 @@ The entry name is solely set within `name` parameter.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of the entry. |
-| source | java.io.InputStream | The input stream for the entry. |
+| name | java.lang.String | the name of the entry |
+| source | java.io.InputStream | the input stream for the entry |
 
 **Returns:**
-[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance.
-### createEntry(String name, InputStream source, File fileInfo) {#createEntry-java.lang.String-java.io.InputStream-java.io.File-}
+[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance
+### createEntry(String name, InputStream source, File file) {#createEntry-java.lang.String-java.io.InputStream-java.io.File-}
 ```
-public final TarEntry createEntry(String name, InputStream source, File fileInfo)
+public final TarEntry createEntry(String name, InputStream source, File file)
 ```
 
 
@@ -385,19 +387,17 @@ Create single entry within the archive.
  
 ```
 
-The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
-
-`fileInfo` can refer to DirectoryInfo if the entry is directory.
+The entry name is solely set within `name` parameter. The file name provided in `file` parameter does not affect the entry name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of the entry. |
-| source | java.io.InputStream | The input stream for the entry. |
-| fileInfo | java.io.File | The metadata of file or folder to be compressed. |
+| name | java.lang.String | the name of the entry |
+| source | java.io.InputStream | the input stream for the entry |
+| file | java.io.File | the metadata of file or folder to be compressed |
 
 **Returns:**
-[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance.
+[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance
 ### createEntry(String name, String path) {#createEntry-java.lang.String-java.lang.String-}
 ```
 public final TarEntry createEntry(String name, String path)
@@ -420,11 +420,11 @@ The entry name is solely set within `name` parameter. The file name provided in 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of the entry. |
-| path | java.lang.String | Path to file to be compressed. |
+| name | java.lang.String | the name of the entry |
+| path | java.lang.String | path to file to be compressed |
 
 **Returns:**
-[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance.
+[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance
 ### createEntry(String name, String path, boolean openImmediately) {#createEntry-java.lang.String-java.lang.String-boolean-}
 ```
 public final TarEntry createEntry(String name, String path, boolean openImmediately)
@@ -449,12 +449,12 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of the entry. |
-| path | java.lang.String | Path to file to be compressed. |
-| openImmediately | boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| name | java.lang.String | the name of the entry |
+| path | java.lang.String | path to file to be compressed |
+| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving |
 
 **Returns:**
-[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance.
+[TarEntry](../../com.aspose.zip/tarentry) - Tar entry instance
 ### deleteEntry(TarEntry entry) {#deleteEntry-com.aspose.zip.TarEntry-}
 ```
 public final TarArchive deleteEntry(TarEntry entry)
@@ -480,10 +480,10 @@ Here is how you can remove all entries except the last one:
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entry | [TarEntry](../../com.aspose.zip/tarentry) | The entry to remove from the entries list. |
+| entry | [TarEntry](../../com.aspose.zip/tarentry) | the entry to remove from the entries list |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - The archive with the entry deleted.
+[TarArchive](../../com.aspose.zip/tararchive) - the archive with the entry deleted
 ### deleteEntry(int entryIndex) {#deleteEntry-int-}
 ```
 public final TarArchive deleteEntry(int entryIndex)
@@ -506,10 +506,10 @@ Removes the entry from the entries list by index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| entryIndex | int | The zero-based index of the entry to remove. |
+| entryIndex | int | the zero-based index of the entry to remove |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - The archive with the entry deleted.
+[TarArchive](../../com.aspose.zip/tararchive) - the archive with the entry deleted
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -539,7 +539,7 @@ If the directory does not exist, it will be created.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationDirectory | java.lang.String | The path to the directory to place the extracted files in. |
+| destinationDirectory | java.lang.String | the path to the directory to place the extracted files in |
 
 ### fromGZip(InputStream source) {#fromGZip-java.io.InputStream-}
 ```
@@ -551,15 +551,15 @@ Extracts supplied gzip archive and composes [TarArchive](../../com.aspose.zip/ta
 
 Important: gzip archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
 
+GZip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | The source of the archive.
-
-GZip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood. |
+| source | java.io.InputStream | the source of the archive. |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### fromGZip(String path) {#fromGZip-java.lang.String-}
 ```
 public static TarArchive fromGZip(String path)
@@ -570,15 +570,15 @@ Extracts supplied gzip archive and composes [TarArchive](../../com.aspose.zip/ta
 
 Important: gzip archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
 
+GZip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to the archive file.
-
-GZip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood. |
+| path | java.lang.String | the path to the archive file. |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### fromLZMA(InputStream source) {#fromLZMA-java.io.InputStream-}
 ```
 public static TarArchive fromLZMA(InputStream source)
@@ -594,10 +594,10 @@ LZMA extraction stream is not seekable by the nature of compression algorithm. T
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | The source stream. |
+| source | java.io.InputStream | the source stream |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### fromLZMA(String path) {#fromLZMA-java.lang.String-}
 ```
 public static TarArchive fromLZMA(String path)
@@ -613,10 +613,10 @@ LZMA extraction stream is not seekable by the nature of compression algorithm. T
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to the archive file. |
+| path | java.lang.String | the path to the archive file |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### fromLZip(InputStream source) {#fromLZip-java.io.InputStream-}
 ```
 public static TarArchive fromLZip(InputStream source)
@@ -627,12 +627,12 @@ Extracts supplied lzip archive and composes [TarArchive](../../com.aspose.zip/ta
 
 Important: lzip archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
 
+Lzip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | the source of the archive.
-
-Lzip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood |
+| source | java.io.InputStream | the source of the archive. |
 
 **Returns:**
 [TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
@@ -646,14 +646,12 @@ Extracts supplied lzip archive and composes [TarArchive](../../com.aspose.zip/ta
 
 Important: lzip archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
 
+Lzip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | the path to the archive file.
-
---------------------
-
-Lzip extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood |
+| path | java.lang.String | the path to the archive file. |
 
 **Returns:**
 [TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
@@ -672,10 +670,10 @@ Tar archive provides facility to extract arbitrary record, so it has to operate 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | The source of the archive. |
+| source | java.io.InputStream | the source of the archive |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### fromXz(String path) {#fromXz-java.lang.String-}
 ```
 public static TarArchive fromXz(String path)
@@ -691,10 +689,44 @@ Tar archive provides facility to extract arbitrary record, so it has to operate 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to the archive file. |
+| path | java.lang.String | the path to the archive file |
 
 **Returns:**
-[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromZstandard(InputStream source) {#fromZstandard-java.io.InputStream-}
+```
+public static TarArchive fromZstandard(InputStream source)
+```
+
+
+Extracts supplied Zstandard archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: Zstandard archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | java.io.InputStream | the source of the archive |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromZstandard(String path) {#fromZstandard-java.lang.String-}
+```
+public static TarArchive fromZstandard(String path)
+```
+
+
+Extracts supplied Zstandard archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: Zstandard archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### getEntries() {#getEntries--}
 ```
 public final List<TarEntry> getEntries()
@@ -704,7 +736,7 @@ public final List<TarEntry> getEntries()
 Gets entries of [TarEntry](../../com.aspose.zip/tarentry) type constituting the archive.
 
 **Returns:**
-java.util.List&lt;com.aspose.zip.TarEntry&gt; - entries of [TarEntry](../../com.aspose.zip/tarentry) type constituting the archive.
+java.util.List&lt;com.aspose.zip.TarEntry&gt; - entries of [TarEntry](../../com.aspose.zip/tarentry) type constituting the archive
 ### getFileEntries() {#getFileEntries--}
 ```
 public final Iterable<IArchiveFileEntry> getFileEntries()
@@ -714,7 +746,7 @@ public final Iterable<IArchiveFileEntry> getFileEntries()
 Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive.
 
 **Returns:**
-java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive.
+java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream output)
@@ -741,9 +773,9 @@ Saves archive to the stream provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output` must be writable. |
+`output` must be writable |
 
 ### save(OutputStream output, TarFormat format) {#save-java.io.OutputStream-com.aspose.zip.TarFormat-}
 ```
@@ -771,10 +803,10 @@ Saves archive to the stream provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output` must be writable. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+`output` must be writable |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
@@ -798,9 +830,9 @@ Saves archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file. |
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file |
 
 ### save(String destinationFileName, TarFormat format) {#save-java.lang.String-com.aspose.zip.TarFormat-}
 ```
@@ -824,10 +856,10 @@ Saves archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### saveGzipped(OutputStream output) {#saveGzipped-java.io.OutputStream-}
 ```
@@ -857,9 +889,9 @@ Saves archive to the stream with gzip compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output` must be writable. |
+`output` must be writable |
 
 ### saveGzipped(OutputStream output, TarFormat format) {#saveGzipped-java.io.OutputStream-com.aspose.zip.TarFormat-}
 ```
@@ -889,10 +921,10 @@ Saves archive to the stream with gzip compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output` must be writable. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+`output` must be writable |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### saveGzipped(String path) {#saveGzipped-java.lang.String-}
 ```
@@ -920,7 +952,7 @@ Saves archive to the file by path with gzip compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
 
 ### saveGzipped(String path, TarFormat format) {#saveGzipped-java.lang.String-com.aspose.zip.TarFormat-}
 ```
@@ -948,8 +980,8 @@ Saves archive to the file by path with gzip compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### saveLZMACompressed(OutputStream output) {#saveLZMACompressed-java.io.OutputStream-}
 ```
@@ -978,9 +1010,9 @@ Important: tar archive is composed then compressed within this method, its conte
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output` must be writable. |
+`output` must be writable |
 
 ### saveLZMACompressed(OutputStream output, TarFormat format) {#saveLZMACompressed-java.io.OutputStream-com.aspose.zip.TarFormat-}
 ```
@@ -1009,10 +1041,10 @@ Important: tar archive is composed then compressed within this method, its conte
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output` must be writable. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+`output` must be writable |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### saveLZMACompressed(String path) {#saveLZMACompressed-java.lang.String-}
 ```
@@ -1039,7 +1071,7 @@ Important: tar archive is composed then compressed within this method, its conte
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
 
 ### saveLZMACompressed(String path, TarFormat format) {#saveLZMACompressed-java.lang.String-com.aspose.zip.TarFormat-}
 ```
@@ -1066,8 +1098,8 @@ Important: tar archive is composed then compressed within this method, its conte
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### saveLzipped(OutputStream output) {#saveLzipped-java.io.OutputStream-}
 ```
@@ -1214,9 +1246,9 @@ Saves archive to the stream with xz compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output`The stream must be writable. |
+`output`The stream must be writable |
 
 ### saveXzCompressed(OutputStream output, TarFormat format) {#saveXzCompressed-java.io.OutputStream-com.aspose.zip.TarFormat-}
 ```
@@ -1245,10 +1277,10 @@ Saves archive to the stream with xz compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output`The stream must be writable. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+`output`The stream must be writable |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### saveXzCompressed(OutputStream output, TarFormat format, XzArchiveSettings settings) {#saveXzCompressed-java.io.OutputStream-com.aspose.zip.TarFormat-com.aspose.zip.XzArchiveSettings-}
 ```
@@ -1277,11 +1309,11 @@ Saves archive to the stream with xz compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
+| output | java.io.OutputStream | destination stream.
 
-`output`The stream must be writable. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
-| settings | [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) | Set of setting particular xz archive: dictionary size, block size, check type. |
+`output`The stream must be writable |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
+| settings | [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) | set of setting particular xz archive: dictionary size, block size, check type |
 
 ### saveXzCompressed(String path) {#saveXzCompressed-java.lang.String-}
 ```
@@ -1308,7 +1340,7 @@ Saves archive to the file by path with xz compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
 
 ### saveXzCompressed(String path, TarFormat format) {#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-}
 ```
@@ -1335,8 +1367,8 @@ Saves archive to the file by path with xz compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 
 ### saveXzCompressed(String path, TarFormat format, XzArchiveSettings settings) {#saveXzCompressed-java.lang.String-com.aspose.zip.TarFormat-com.aspose.zip.XzArchiveSettings-}
 ```
@@ -1363,7 +1395,125 @@ Saves archive to the file by path with xz compression.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. Null value will be treated as USTar when possible. |
-| settings | [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) | Set of setting particular xz archive: dictionary size, block size, check type. |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
+| settings | [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) | set of setting particular xz archive: dictionary size, block size, check type |
+
+### saveZstandard(OutputStream output) {#saveZstandard-java.io.OutputStream-}
+```
+public final void saveZstandard(OutputStream output)
+```
+
+
+Saves archive to the stream with Zstandard compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.tar.zst")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveZstandard(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | destination stream.
+
+`output` must be writable |
+
+### saveZstandard(OutputStream output, TarFormat format) {#saveZstandard-java.io.OutputStream-com.aspose.zip.TarFormat-}
+```
+public final void saveZstandard(OutputStream output, TarFormat format)
+```
+
+
+Saves archive to the stream with Zstandard compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.tar.zst")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveZstandard(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | destination stream.
+
+`output` must be writable |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
+
+### saveZstandard(String path) {#saveZstandard-java.lang.String-}
+```
+public final void saveZstandard(String path)
+```
+
+
+Saves archive to the file by path with Zstandard compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveZstandard("result.tar.zst");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+
+### saveZstandard(String path, TarFormat format) {#saveZstandard-java.lang.String-com.aspose.zip.TarFormat-}
+```
+public final void saveZstandard(String path, TarFormat format)
+```
+
+
+Saves archive to the file by path with Zstandard compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveZstandard("result.tar.zst");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
 

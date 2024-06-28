@@ -3,7 +3,7 @@ title: LzmaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZMA archive file.
 type: docs
-weight: 35
+weight: 39
 url: /java/com.aspose.zip/lzmaarchive/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/lzmaarchive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class LzmaArchive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
+public class LzmaArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents LZMA archive file. Use it to compose or extract LZMA archives.
@@ -61,7 +61,7 @@ Initializes a new instance of the [LzmaArchive](../../com.aspose.zip/lzmaarchive
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| settings | [LzmaArchiveSettings](../../com.aspose.zip/lzmaarchivesettings) | Set of setting particular lzma archive. |
+| settings | [LzmaArchiveSettings](../../com.aspose.zip/lzmaarchivesettings) | set of setting particular lzma archive |
 
 ### LzmaArchive(InputStream source) {#LzmaArchive-java.io.InputStream-}
 ```
@@ -76,7 +76,7 @@ This constructor does not decompress. See [extract(OutputStream)](../../com.aspo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | The source of the archive. |
+| source | java.io.InputStream | the source of the archive |
 
 ### LzmaArchive(String path) {#LzmaArchive-java.lang.String-}
 ```
@@ -105,7 +105,7 @@ This constructor does not decompress. See [extract(OutputStream)](../../com.aspo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | Path to the source of the archive. |
+| path | java.lang.String | the path to the source of the archive |
 
 ### close() {#close--}
 ```
@@ -148,7 +148,7 @@ Extracts lzma archive to a file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.io.File | file for storing decompressed data. |
+| file | java.io.File | the file for storing decompressed data |
 
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
@@ -177,7 +177,7 @@ Extracts lzma archive to a stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.OutputStream | Stream for storing decompressed data. |
+| destination | java.io.OutputStream | the stream for storing decompressed data |
 
 ### extract(String path) {#extract-java.lang.String-}
 ```
@@ -204,7 +204,7 @@ Extracts lzma archive to a file by path.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | Path to file which will store decompressed data. |
+| path | java.lang.String | the path to the file which will store decompressed data |
 
 **Returns:**
 java.io.File
@@ -219,9 +219,9 @@ Extracts content of the archive to the directory provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationDirectory | java.lang.String | The path to the directory to place the extracted files in.
+| destinationDirectory | java.lang.String | the path to the directory to place the extracted files in.
 
-If the directory does not exist, it will be created. |
+If the directory does not exist, it will be created |
 
 ### getFileEntries() {#getFileEntries--}
 ```
@@ -255,7 +255,7 @@ Saves lzma archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.File | FileInfo which will be opened as destination stream. |
+| destination | java.io.File | the file which will be opened as destination stream |
 
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
@@ -283,9 +283,7 @@ Saves lzma archive to the stream provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | Destination stream.
-
-`output` must be seekable. |
+| output | java.io.OutputStream | destination stream |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
@@ -309,7 +307,7 @@ Saves lzma archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
 
 ### setSource(File file) {#setSource-java.io.File-}
 ```
@@ -333,7 +331,7 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.io.File | file which will be opened as input stream. |
+| file | java.io.File | the file which will be opened as input stream |
 
 ### setSource(InputStream source) {#setSource-java.io.InputStream-}
 ```
@@ -357,7 +355,7 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | The input stream for the archive. |
+| source | java.io.InputStream | the input stream for the archive |
 
 ### setSource(String sourcePath) {#setSource-java.lang.String-}
 ```
@@ -381,5 +379,5 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourcePath | java.lang.String | Path to file which will be opened as input stream. |
+| sourcePath | java.lang.String | path to file which will be opened as input stream |
 

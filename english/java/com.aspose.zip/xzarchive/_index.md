@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xz archive file.
 type: docs
-weight: 67
+weight: 84
 url: /java/com.aspose.zip/xzarchive/
 ---
 
@@ -36,8 +36,8 @@ This class represents xz archive file. Use it to compose and extract xz archives
 | [extract(String path)](#extract-java.lang.String-) | Extracts xz archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the xz archive. |
-| [getLength()](#getLength--) | Gets length. |
-| [getName()](#getName--) | Gets name of the entry within archive. |
+| [getLength()](#getLength--) | Gets the length of the entry in bytes. |
+| [getName()](#getName--) | Gets the name of the entry within archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves xz archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves xz archive to destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
@@ -223,20 +223,20 @@ public final Long getLength()
 ```
 
 
-Gets length.
+Gets the length of the entry in bytes.
 
 **Returns:**
-java.lang.Long - length
+java.lang.Long - the length of the entry in bytes
 ### getName() {#getName--}
 ```
 public final String getName()
 ```
 
 
-Gets name of the entry within archive.
+Gets the name of the entry within archive.
 
 **Returns:**
-java.lang.String - name of the entry within archive
+java.lang.String - the name of the entry within archive
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream output)
@@ -262,9 +262,7 @@ Saves xz archive to the stream provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | destination stream
-
-`output` must be seekable |
+| output | java.io.OutputStream | destination stream |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
