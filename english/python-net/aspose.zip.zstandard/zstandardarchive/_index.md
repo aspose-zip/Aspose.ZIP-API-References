@@ -31,8 +31,9 @@ The ZstandardArchive type exposes the following members:
 |extract(path)|Extracts the archive to the file by path.|
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
-|open()|Opens the archive for extraction and provides a stream with archive content.|
 |save(output_stream)|Saves archive to the stream provided.|
+|save(destination_file_name)|Saves archive to destination file provided.|
+|open()|Opens the archive for extraction and provides a stream with archive content.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 
 ### See Also

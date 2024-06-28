@@ -11,7 +11,7 @@ url: /python-net/
 | Namespace | Description |
 | :- | :- |
 |[aspose.zip](/zip/python-net/aspose.zip/)|Contains classes which represent zip archive and common archive related entities.|
-|[aspose.zip.streams](/zip/python-net/aspose.zip.streams/)|Contains special stream classes.|
+|[aspose.zip.iso](/zip/python-net/aspose.zip.iso/)|Contains classes which represent Iso archive related entities.|
 |[aspose.zip.crypto](/zip/python-net/aspose.zip.crypto/)|Contains classes for external encryption routines.|
 |[aspose.zip.shar](/zip/python-net/aspose.zip.shar/)|Contains classes which represent shar archive related entities.|
 |[aspose.zip.zstandard](/zip/python-net/aspose.zip.zstandard/)|Contains classes which represent ZStandard archive related entities.|
