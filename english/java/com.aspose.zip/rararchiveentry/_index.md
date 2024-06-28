@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 43
+weight: 47
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 
@@ -33,9 +33,9 @@ Cast a [RarArchiveEntry](../../com.aspose.zip/rararchiveentry) instance to [RarA
 | [getLastAccessTime()](#getLastAccessTime--) | Gets last access date and time. |
 | [getLength()](#getLength--) | Gets length. |
 | [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
-| [getName()](#getName--) | Gets name of the entry within archive. |
+| [getName()](#getName--) | Gets the name of the entry within archive. |
 | [getUncompressedSize()](#getUncompressedSize--) | Gets size of original file. |
-| [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents directory. |
+| [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 | [open(String password)](#open-java.lang.String-) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 | [setExtractionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream extracted. |
@@ -233,10 +233,10 @@ public final String getName()
 ```
 
 
-Gets name of the entry within archive.
+Gets the name of the entry within archive.
 
 **Returns:**
-java.lang.String - name of the entry within archive.
+java.lang.String - the name of the entry within archive.
 ### getUncompressedSize() {#getUncompressedSize--}
 ```
 public final long getUncompressedSize()
@@ -253,10 +253,10 @@ public final boolean isDirectory()
 ```
 
 
-Gets a value indicating whether the entry represents directory.
+Gets a value indicating whether the entry represents a directory.
 
 **Returns:**
-boolean - a value indicating whether the entry represents directory.
+boolean - a value indicating whether the entry represents a directory.
 ### open() {#open--}
 ```
 public final InputStream open()

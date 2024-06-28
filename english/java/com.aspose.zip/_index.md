@@ -26,8 +26,12 @@ url: /java/com.aspose.zip/
 | [Bzip2Archive](../com.aspose.zip/bzip2archive) | This class represents bzip2 archive file. |
 | [Bzip2CompressionSettings](../com.aspose.zip/bzip2compressionsettings) | Settings for Bzip2 compression method. |
 | [Bzip2SaveOptions](../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. |
+| [CabArchive](../com.aspose.zip/cabarchive) | This class represents cab archive file. |
+| [CabEntry](../com.aspose.zip/cabentry) | Represents single file within cab archive. |
 | [CancelEntryEventArgs](../com.aspose.zip/cancelentryeventargs) | Event arguments for cancelable entry related events. |
 | [CompressionSettings](../com.aspose.zip/compressionsettings) | Settings needed for compressor or decompressor to work. |
+| [CpioArchive](../com.aspose.zip/cpioarchive) | This class represents cpio archive file. |
+| [CpioEntry](../com.aspose.zip/cpioentry) | Represents single file within cpio archive. |
 | [DeflateCompressionSettings](../com.aspose.zip/deflatecompressionsettings) | Settings for Deflate compression method. |
 | [EncryptionSettings](../com.aspose.zip/encryptionsettings) | Base class for settings for several zip encryption methods. |
 | [EnhancedDeflateCompressionSettings](../com.aspose.zip/enhanceddeflatecompressionsettings) | Settings for Enhanced Deflate compression method. |
@@ -69,12 +73,27 @@ url: /java/com.aspose.zip/
 | [TarArchive](../com.aspose.zip/tararchive) | This class represents tar archive file. |
 | [TarEntry](../com.aspose.zip/tarentry) | Represents single file within tar archive. |
 | [TraditionalEncryptionSettings](../com.aspose.zip/traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
+| [WimArchive](../com.aspose.zip/wimarchive) | This class represents wim archive file. |
+| [WimDirectoryEntry](../com.aspose.zip/wimdirectoryentry) | Represents single directory within wim archive. |
+| [WimEntry](../com.aspose.zip/wimentry) | Represents single file or directory within wim image. |
+| [WimFileEntry](../com.aspose.zip/wimfileentry) | Represents single file within wim archive. |
+| [WimImage](../com.aspose.zip/wimimage) | Represents single image within wim archive. |
+| [XarArchive](../com.aspose.zip/xararchive) | This class represents xar archive file. |
+| [XarBzip2CompressionSettings](../com.aspose.zip/xarbzip2compressionsettings) | Settings for Bzip2 compression method. |
+| [XarCompressionSettings](../com.aspose.zip/xarcompressionsettings) | Settings needed for compressor to work. |
+| [XarDirectoryEntry](../com.aspose.zip/xardirectoryentry) | Represents directory entry within xar archive. |
+| [XarEntry](../com.aspose.zip/xarentry) | Represents single entry within xar archive. |
+| [XarFileEntry](../com.aspose.zip/xarfileentry) | Represents file entry within xar archive. |
+| [XarStoreCompressionSettings](../com.aspose.zip/xarstorecompressionsettings) | Settings for Store compression method. |
+| [XarZlibCompressionSettings](../com.aspose.zip/xarzlibcompressionsettings) | Settings for Zlib compression method. |
 | [XzArchive](../com.aspose.zip/xzarchive) | This class represents xz archive file. |
 | [XzArchiveSettings](../com.aspose.zip/xzarchivesettings) | The class contains set of setting particular xz archive. |
 | [XzBcjX86FilterSettings](../com.aspose.zip/xzbcjx86filtersettings) | Settings for xz Bcj X86 filter. |
 | [XzCompressionSettings](../com.aspose.zip/xzcompressionsettings) | Settings for Xz compression method. |
 | [XzFilterSettings](../com.aspose.zip/xzfiltersettings) | Base class for set of settings of particular xz format filter. |
 | [XzLZMA2FilterSettings](../com.aspose.zip/xzlzma2filtersettings) | Set of settings for xz LZMA2 filter. |
+| [ZstandardArchive](../com.aspose.zip/zstandardarchive) | This class represents Zstandard archive file. |
+| [ZstandardCompressionSettings](../com.aspose.zip/zstandardcompressionsettings) | Settings for Zstandard compression method. |
 
 ## Interfaces
 
@@ -89,6 +108,7 @@ url: /java/com.aspose.zip/
 | Enum | Description |
 | --- | --- |
 | [ArchiveFormat](../com.aspose.zip/archiveformat) | Supported archive formats. |
+| [CpioFormat](../com.aspose.zip/cpioformat) | Enumeration with supported formats of cpio. |
 | [EncryptionMethod](../com.aspose.zip/encryptionmethod) | Encryption/decryption methods can be used with zip archive. |
 | [ParallelCompressionMode](../com.aspose.zip/parallelcompressionmode) | Options of usage parallel compression facility. |
 | [SevenZipCompressionMethod](../com.aspose.zip/sevenzipcompressionmethod) | Methods of compression that 7z format support. |

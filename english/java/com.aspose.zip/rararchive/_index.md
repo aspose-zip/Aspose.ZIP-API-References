@@ -3,7 +3,7 @@ title: RarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents RAR archive file.
 type: docs
-weight: 42
+weight: 46
 url: /java/com.aspose.zip/rararchive/
 ---
 
@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/rararchive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class RarArchive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
+public class RarArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents RAR archive file. Use it to extract RAR archives.

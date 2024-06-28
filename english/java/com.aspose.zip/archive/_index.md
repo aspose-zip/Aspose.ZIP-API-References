@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/archive/
 java.lang.Object, com.aspose.zip.ILicenseStateProvider
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class Archive extends ILicenseStateProvider implements System.IDisposable, IArchive, AutoCloseable
+public class Archive extends ILicenseStateProvider implements IArchive, AutoCloseable
 ```
 
 This class represents zip archive file. Use it to compose, extract, or update zip archives.
@@ -523,7 +523,7 @@ Compose archive with entries encrypted with different encryption methods and pas
  
 ```
 
-The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `file` parameter does not affect the entry name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -561,7 +561,7 @@ Compose archive with entries encrypted with different encryption methods and pas
  
 ```
 
-The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `file` parameter does not affect the entry name.
 
 If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is saved.
 
@@ -602,7 +602,7 @@ Compose archive with entries encrypted with different encryption methods and pas
  
 ```
 
-The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
+The entry name is solely set within `name` parameter. The file name provided in `file` parameter does not affect the entry name.
 
 If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is saved.
 
@@ -699,9 +699,7 @@ Compose archive with encrypted entry.
  
 ```
 
-The entry name is solely set within `name` parameter. The file name provided in `fileInfo` parameter does not affect the entry name.
-
-`fileInfo` can refer to DirectoryInfo if the entry is directory.
+The entry name is solely set within `name` parameter. The file name provided in `file` parameter does not affect the entry name.
 
 **Parameters:**
 | Parameter | Type | Description |

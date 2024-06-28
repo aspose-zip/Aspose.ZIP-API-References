@@ -3,7 +3,7 @@ title: EncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Base class for settings for several zip encryption methods.
 type: docs
-weight: 27
+weight: 31
 url: /java/com.aspose.zip/encryptionsettings/
 ---
 
