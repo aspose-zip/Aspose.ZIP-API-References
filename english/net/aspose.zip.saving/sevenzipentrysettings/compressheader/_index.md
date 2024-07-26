@@ -14,6 +14,10 @@ Gets or sets value indicating whether to compress archive header.
 public bool CompressHeader { get; set; }
 ```
 
+## Remarks
+
+This setting is equivalent `-mhc=on` switch of 7-Zip tool. Currently it is incompatible with header encryption.
+
 ### See Also
 
 * class [SevenZipEntrySettings](../)
