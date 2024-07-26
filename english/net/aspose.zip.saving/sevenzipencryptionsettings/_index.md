@@ -18,6 +18,7 @@ public abstract class SevenZipEncryptionSettings
 
 | Name | Description |
 | --- | --- |
+| [EncryptHeader](../../aspose.zip.saving/sevenzipencryptionsettings/encryptheader/) { get; set; } | Gets or sets a value indicating header encryption. |
 | [Password](../../aspose.zip.saving/sevenzipencryptionsettings/password/) { get; set; } | Gets or sets password for encryption or decryption. |
 
 ## Remarks
