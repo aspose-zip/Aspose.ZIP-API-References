@@ -3,17 +3,17 @@ title: RarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents RAR archive file.
 type: docs
-weight: 46
+weight: 49
 url: /java/com.aspose.zip/rararchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
 [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class RarArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class RarArchive implements IArchive, AutoCloseable
 ```
 
 This class represents RAR archive file. Use it to extract RAR archives.
@@ -30,7 +30,6 @@ This class represents RAR archive file. Use it to extract RAR archives.
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [RarArchiveEntry](../../com.aspose.zip/rararchiveentry) type constituting the rar archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the rar archive. |
@@ -183,14 +182,6 @@ public void close()
 
 
 
-
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```

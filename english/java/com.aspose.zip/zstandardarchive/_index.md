@@ -3,17 +3,17 @@ title: ZstandardArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Zstandard archive file.
 type: docs
-weight: 90
+weight: 96
 url: /java/com.aspose.zip/zstandardarchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry), com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry), [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class ZstandardArchive extends ILicenseStateProvider implements IArchiveFileEntry, System.IDisposable, IArchive, AutoCloseable
+public class ZstandardArchive implements IArchiveFileEntry, IArchive, AutoCloseable
 ```
 
 This class represents Zstandard archive file. Use it to compose Zstandard archives.
@@ -30,7 +30,6 @@ This class represents Zstandard archive file. Use it to compose Zstandard archiv
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the archive to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
@@ -173,14 +172,6 @@ public void close()
 
 
 
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
 public final void extract(OutputStream destination)
@@ -218,7 +209,7 @@ Extracts the archive to the file by path.
 | path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - info of extracted file
+java.io.File - the file info of the extracted file
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)

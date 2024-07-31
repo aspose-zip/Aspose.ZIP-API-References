@@ -9,8 +9,11 @@ url: /java/com.aspose.zip/cpioentry/
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+[com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry)
 ```
-public final class CpioEntry
+public final class CpioEntry implements IArchiveFileEntry
 ```
 
 Represents single file within cpio archive.
@@ -76,7 +79,7 @@ Extracts the entry to the filesystem by the path provided.
 | path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - the file info of composed file
+java.io.File - the file info of the extracted file
 ### getLastWriteTimeUtc() {#getLastWriteTimeUtc--}
 ```
 public final Date getLastWriteTimeUtc()
@@ -89,14 +92,14 @@ Gets the last write time.
 java.util.Date - the last write time
 ### getLength() {#getLength--}
 ```
-public final long getLength()
+public final Long getLength()
 ```
 
 
 Gets the length of the entry in bytes.
 
 **Returns:**
-long - the length of the entry in bytes
+java.lang.Long - the length of the entry in bytes
 ### getName() {#getName--}
 ```
 public final String getName()

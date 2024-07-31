@@ -3,14 +3,17 @@ title: TarEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within tar archive.
 type: docs
-weight: 69
+weight: 74
 url: /java/com.aspose.zip/tarentry/
 ---
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+[com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry)
 ```
-public class TarEntry
+public class TarEntry implements IArchiveFileEntry
 ```
 
 Represents single file within tar archive.
@@ -71,20 +74,20 @@ Extracts the entry to the filesystem by the path provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to destination file. If the file already exists, it will be overwritten. |
+| path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - The file info of composed file.
+java.io.File - the file info of the extracted file
 ### getLength() {#getLength--}
 ```
-public final long getLength()
+public final Long getLength()
 ```
 
 
 Get length of the entry in bytes.
 
 **Returns:**
-long - length of the entry in bytes.
+java.lang.Long - the length of the entry in bytes
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -94,7 +97,7 @@ public final String getName()
 Gets the name of the entry within archive.
 
 **Returns:**
-java.lang.String - the name of the entry within archive.
+java.lang.String - the name of the entry within archive
 ### isDirectory() {#isDirectory--}
 ```
 public final boolean isDirectory()
@@ -104,7 +107,7 @@ public final boolean isDirectory()
 Gets a value indicating whether the entry represents a directory.
 
 **Returns:**
-boolean - a value indicating whether the entry represents a directory.
+boolean - a value indicating whether the entry represents a directory
 ### open() {#open--}
 ```
 public final InputStream open()
@@ -130,7 +133,7 @@ Usage:
 Read from the stream to get original content of file. See examples section.
 
 **Returns:**
-java.io.InputStream - The stream that represents the contents of the entry.
+java.io.InputStream - the stream that represents the contents of the entry
 ### setName(String value) {#setName-java.lang.String-}
 ```
 public final void setName(String value)
@@ -142,5 +145,5 @@ Sets the name of the entry within archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the name of the entry within archive. |
+| value | java.lang.String | the name of the entry within archive |
 

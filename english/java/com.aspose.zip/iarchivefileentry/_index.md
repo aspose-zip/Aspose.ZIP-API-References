@@ -3,7 +3,7 @@ title: IArchiveFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: This interface represents an archive file entry.
 type: docs
-weight: 94
+weight: 100
 url: /java/com.aspose.zip/iarchivefileentry/
 ---
 ```
@@ -46,7 +46,7 @@ Extracts the entry to the filesystem by the path provided.
 | path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - FileInfo instance containing extracted data
+java.io.File - java.io.File instance containing extracted data
 ### getLength() {#getLength--}
 ```
 public abstract Long getLength()

@@ -3,17 +3,17 @@ title: LzmaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZMA archive file.
 type: docs
-weight: 39
+weight: 42
 url: /java/com.aspose.zip/lzmaarchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), [com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry), java.lang.AutoCloseable
 ```
-public class LzmaArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class LzmaArchive implements IArchive, IArchiveFileEntry, AutoCloseable
 ```
 
 This class represents LZMA archive file. Use it to compose or extract LZMA archives.
@@ -30,12 +30,13 @@ This class represents LZMA archive file. Use it to compose or extract LZMA archi
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extract(File file)](#extract-java.io.File-) | Extracts lzma archive to a file. |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts lzma archive to a stream. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts lzma archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzma archive. |
+| [getLength()](#getLength--) | Gets length. |
+| [getName()](#getName--) | The name of original file. |
 | [save(File destination)](#save-java.io.File-) | Saves lzma archive to destination file provided. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves lzma archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves lzma archive to destination file provided. |
@@ -114,14 +115,6 @@ public void close()
 
 
 
-
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### extract(File file) {#extract-java.io.File-}
 ```
@@ -207,7 +200,7 @@ Extracts lzma archive to a file by path.
 | path | java.lang.String | the path to the file which will store decompressed data |
 
 **Returns:**
-java.io.File
+java.io.File - the file info of the extracted file
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)
@@ -233,6 +226,26 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzma archive.
+### getLength() {#getLength--}
+```
+public final Long getLength()
+```
+
+
+Gets length.
+
+**Returns:**
+java.lang.Long - length
+### getName() {#getName--}
+```
+public final String getName()
+```
+
+
+The name of original file.
+
+**Returns:**
+java.lang.String - the name of the original file
 ### save(File destination) {#save-java.io.File-}
 ```
 public final void save(File destination)

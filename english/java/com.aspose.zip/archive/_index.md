@@ -8,12 +8,12 @@ url: /java/com.aspose.zip/archive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
 [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class Archive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class Archive implements IArchive, AutoCloseable
 ```
 
 This class represents zip archive file. Use it to compose, extract, or update zip archives.
@@ -51,7 +51,6 @@ This class represents zip archive file. Use it to compose, extract, or update zi
 | [createEntry(String name, String path, boolean openImmediately, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.ArchiveEntrySettings-) | Create single entry within the archive. |
 | [deleteEntry(ArchiveEntry entry)](#deleteEntry-com.aspose.zip.ArchiveEntry-) | Removes the first occurrence of a specific entry from the entries list. |
 | [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [ArchiveEntry](../../com.aspose.zip/archiveentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
@@ -860,14 +859,6 @@ Removes the entry from the entries list by index.
 
 **Returns:**
 [Archive](../../com.aspose.zip/archive) - The archive with the entry deleted.
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)
