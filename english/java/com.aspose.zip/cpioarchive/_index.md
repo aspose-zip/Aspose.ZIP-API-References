@@ -8,12 +8,12 @@ url: /java/com.aspose.zip/cpioarchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
 [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class CpioArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class CpioArchive implements IArchive, AutoCloseable
 ```
 
 This class represents cpio archive file.
@@ -40,7 +40,6 @@ This class represents cpio archive file.
 | [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
 | [deleteEntry(CpioEntry entry)](#deleteEntry-com.aspose.zip.CpioEntry-) | Removes the first occurrence of a specific entry from the entries list. |
 | [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [CpioEntry](../../com.aspose.zip/cpioentry) type constituting the cpio archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the cpio archive. |
@@ -63,9 +62,13 @@ This class represents cpio archive file.
 | [saveXzCompressed(OutputStream output)](#saveXzCompressed-java.io.OutputStream-) | Saves archive to the stream with xz compression. |
 | [saveXzCompressed(OutputStream output, CpioFormat cpioFormat)](#saveXzCompressed-java.io.OutputStream-com.aspose.zip.CpioFormat-) | Saves archive to the stream with xz compression. |
 | [saveXzCompressed(OutputStream output, CpioFormat cpioFormat, XzArchiveSettings settings)](#saveXzCompressed-java.io.OutputStream-com.aspose.zip.CpioFormat-com.aspose.zip.XzArchiveSettings-) | Saves archive to the stream with xz compression. |
-| [saveXzCompressed(String path)](#saveXzCompressed-java.lang.String-) | Saves archive to the path by path with xz compression. |
-| [saveXzCompressed(String path, CpioFormat cpioFormat)](#saveXzCompressed-java.lang.String-com.aspose.zip.CpioFormat-) | Saves archive to the path by path with xz compression. |
-| [saveXzCompressed(String path, CpioFormat cpioFormat, XzArchiveSettings settings)](#saveXzCompressed-java.lang.String-com.aspose.zip.CpioFormat-com.aspose.zip.XzArchiveSettings-) | Saves archive to the path by path with xz compression. |
+| [saveXzCompressed(String path)](#saveXzCompressed-java.lang.String-) | Saves archive to the file by path with xz compression. |
+| [saveXzCompressed(String path, CpioFormat cpioFormat)](#saveXzCompressed-java.lang.String-com.aspose.zip.CpioFormat-) | Saves archive to the file by path with xz compression. |
+| [saveXzCompressed(String path, CpioFormat cpioFormat, XzArchiveSettings settings)](#saveXzCompressed-java.lang.String-com.aspose.zip.CpioFormat-com.aspose.zip.XzArchiveSettings-) | Saves archive to the file by path with xz compression. |
+| [saveZCompressed(OutputStream output)](#saveZCompressed-java.io.OutputStream-) | Saves archive to the stream with Z compression. |
+| [saveZCompressed(OutputStream output, CpioFormat cpioFormat)](#saveZCompressed-java.io.OutputStream-com.aspose.zip.CpioFormat-) | Saves archive to the stream with Z compression. |
+| [saveZCompressed(String path)](#saveZCompressed-java.lang.String-) | Saves archive to the file by path with Z compression. |
+| [saveZCompressed(String path, CpioFormat cpioFormat)](#saveZCompressed-java.lang.String-com.aspose.zip.CpioFormat-) | Saves archive to the file by path with Z compression. |
 | [saveZstandard(OutputStream output)](#saveZstandard-java.io.OutputStream-) | Saves archive to the stream with Zstandard compression. |
 | [saveZstandard(OutputStream output, CpioFormat cpioFormat)](#saveZstandard-java.io.OutputStream-com.aspose.zip.CpioFormat-) | Saves archive to the stream with Zstandard compression. |
 | [saveZstandard(String path)](#saveZstandard-java.lang.String-) | Saves archive to the file by path with Zstandard compression. |
@@ -468,14 +471,6 @@ Removes the entry from the entries list by index.
 
 **Returns:**
 [CpioArchive](../../com.aspose.zip/cpioarchive) - the archive with the entry deleted
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)
@@ -1090,7 +1085,7 @@ public final void saveXzCompressed(String path)
 ```
 
 
-Saves archive to the path by path with xz compression.
+Saves archive to the file by path with xz compression.
 
 ```
 
@@ -1117,7 +1112,7 @@ public final void saveXzCompressed(String path, CpioFormat cpioFormat)
 ```
 
 
-Saves archive to the path by path with xz compression.
+Saves archive to the file by path with xz compression.
 
 ```
 
@@ -1145,7 +1140,7 @@ public final void saveXzCompressed(String path, CpioFormat cpioFormat, XzArchive
 ```
 
 
-Saves archive to the path by path with xz compression.
+Saves archive to the file by path with xz compression.
 
 ```
 
@@ -1167,6 +1162,124 @@ Saves archive to the path by path with xz compression.
 | path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
 | cpioFormat | [CpioFormat](../../com.aspose.zip/cpioformat) | defines cpio header format |
 | settings | [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) | set of setting particular xz archive: dictionary size, block size, check type |
+
+### saveZCompressed(OutputStream output) {#saveZCompressed-java.io.OutputStream-}
+```
+public final void saveZCompressed(OutputStream output)
+```
+
+
+Saves archive to the stream with Z compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.cpio.Z")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (CpioArchive archive = new CpioArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveZCompressed(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | the destination stream.
+
+`output` must be writable |
+
+### saveZCompressed(OutputStream output, CpioFormat cpioFormat) {#saveZCompressed-java.io.OutputStream-com.aspose.zip.CpioFormat-}
+```
+public final void saveZCompressed(OutputStream output, CpioFormat cpioFormat)
+```
+
+
+Saves archive to the stream with Z compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.cpio.Z")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (CpioArchive archive = new CpioArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveZCompressed(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | the destination stream.
+
+`output` must be writable |
+| cpioFormat | [CpioFormat](../../com.aspose.zip/cpioformat) | defines cpio header format |
+
+### saveZCompressed(String path) {#saveZCompressed-java.lang.String-}
+```
+public final void saveZCompressed(String path)
+```
+
+
+Saves archive to the file by path with Z compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (CpioArchive archive = new CpioArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveZCompressed("result.cpio.Z");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+
+### saveZCompressed(String path, CpioFormat cpioFormat) {#saveZCompressed-java.lang.String-com.aspose.zip.CpioFormat-}
+```
+public final void saveZCompressed(String path, CpioFormat cpioFormat)
+```
+
+
+Saves archive to the file by path with Z compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (CpioArchive archive = new CpioArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveZCompressed("result.cpio.Z");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| cpioFormat | [CpioFormat](../../com.aspose.zip/cpioformat) | d cpio header format |
 
 ### saveZstandard(OutputStream output) {#saveZstandard-java.io.OutputStream-}
 ```

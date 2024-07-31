@@ -3,17 +3,17 @@ title: XarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xar archive file.
 type: docs
-weight: 76
+weight: 81
 url: /java/com.aspose.zip/xararchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
 [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class XarArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class XarArchive implements IArchive, AutoCloseable
 ```
 
 This class represents xar archive file.
@@ -45,7 +45,6 @@ This class represents xar archive file.
 | [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
 | [createEntry(String name, String sourcePath, boolean openImmediately, XarCompressionSettings compressionSettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.XarCompressionSettings-) | Create single entry within the archive. |
 | [deleteEntry(XarEntry entry)](#deleteEntry-com.aspose.zip.XarEntry-) | Removes the first occurrence of a specific entry from the entries list. |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [XarEntry](../../com.aspose.zip/xarentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the xar archive. |
@@ -598,14 +597,6 @@ Here is how you can remove all entries except the last one:
 
 **Returns:**
 [XarArchive](../../com.aspose.zip/xararchive) - Xar entry instance
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)

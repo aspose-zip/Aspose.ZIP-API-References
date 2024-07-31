@@ -8,12 +8,12 @@ url: /java/com.aspose.zip/cabarchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
 [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class CabArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class CabArchive implements IArchive, AutoCloseable
 ```
 
 This class represents cab archive file.
@@ -28,7 +28,6 @@ This class represents cab archive file.
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [CabEntry](../../com.aspose.zip/cabentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the cab archive. |
@@ -91,14 +90,6 @@ public void close()
 
 
 
-
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```

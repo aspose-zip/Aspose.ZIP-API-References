@@ -3,17 +3,17 @@ title: WimArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents wim archive file.
 type: docs
-weight: 71
+weight: 76
 url: /java/com.aspose.zip/wimarchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
 [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class WimArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class WimArchive implements IArchive, AutoCloseable
 ```
 
 This class represents wim archive file.
@@ -28,7 +28,6 @@ This class represents wim archive file.
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts the archive to the file by path. |
 | [getBootImageIndex()](#getBootImageIndex--) | Gets the (zero-based) index of the bootable image. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the wim archive. |
@@ -93,14 +92,6 @@ public void close()
 
 
 
-
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```

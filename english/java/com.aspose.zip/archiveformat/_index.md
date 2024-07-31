@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 95
+weight: 101
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -22,15 +22,18 @@ Supported archive formats.
 | [Cab](#Cab) | Cab archive ([CabArchive](../../com.aspose.zip/cabarchive)). |
 | [Cpio](#Cpio) | Cpio archive ([CpioArchive](../../com.aspose.zip/cpioarchive)). |
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
+| [Iso](#Iso) | Iso archive ([IsoArchive](../../com.aspose.zip/isoarchive)). |
 | [Lzip](#Lzip) | Lzip archive ([LzipArchive](../../com.aspose.zip/lziparchive)). |
 | [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
 | [SevenZip](#SevenZip) | 7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)). |
+| [Shar](#Shar) | Shar archive ([SharArchive](../../com.aspose.zip/shararchive)). |
 | [Tar](#Tar) | Tar archive ([TarArchive](../../com.aspose.zip/tararchive)). |
 | [Unknown](#Unknown) | Unknown format. |
 | [Wim](#Wim) | Wim archive ([WimArchive](../../com.aspose.zip/wimarchive)). |
 | [Xar](#Xar) | Xar archive ([XarArchive](../../com.aspose.zip/xararchive)). |
 | [Xz](#Xz) | Xz archive ([XzArchive](../../com.aspose.zip/xzarchive)). |
+| [Z](#Z) | Z archive ([ZArchive](../../com.aspose.zip/zarchive)). |
 | [Zip](#Zip) | Zip archive ([Archive](../../com.aspose.zip/archive)). |
 | [Zstandard](#Zstandard) | Zstandard archive ([ZstandardArchive](../../com.aspose.zip/zstandardarchive)). |
 ## Methods
@@ -71,6 +74,14 @@ public static final ArchiveFormat Gzip
 
 Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)).
 
+### Iso {#Iso}
+```
+public static final ArchiveFormat Iso
+```
+
+
+Iso archive ([IsoArchive](../../com.aspose.zip/isoarchive)).
+
 ### Lzip {#Lzip}
 ```
 public static final ArchiveFormat Lzip
@@ -102,6 +113,14 @@ public static final ArchiveFormat SevenZip
 
 
 7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)).
+
+### Shar {#Shar}
+```
+public static final ArchiveFormat Shar
+```
+
+
+Shar archive ([SharArchive](../../com.aspose.zip/shararchive)).
 
 ### Tar {#Tar}
 ```
@@ -142,6 +161,14 @@ public static final ArchiveFormat Xz
 
 
 Xz archive ([XzArchive](../../com.aspose.zip/xzarchive)).
+
+### Z {#Z}
+```
+public static final ArchiveFormat Z
+```
+
+
+Z archive ([ZArchive](../../com.aspose.zip/zarchive)).
 
 ### Zip {#Zip}
 ```
