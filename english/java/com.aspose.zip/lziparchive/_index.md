@@ -3,17 +3,17 @@ title: LzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Lzip archive file.
 type: docs
-weight: 37
+weight: 40
 url: /java/com.aspose.zip/lziparchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), [com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry), java.lang.AutoCloseable
 ```
-public class LzipArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class LzipArchive implements IArchive, IArchiveFileEntry, AutoCloseable
 ```
 
 This class represents Lzip archive file. Use it to compose or extract Lzip archives.
@@ -30,12 +30,13 @@ This class represents Lzip archive file. Use it to compose or extract Lzip archi
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extract(File file)](#extract-java.io.File-) | Extracts lzip archive to a file. |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts lzip archive to a stream. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts lzip archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzip archive. |
+| [getLength()](#getLength--) | Gets length. |
+| [getName()](#getName--) | The name of original file. |
 | [getSettings()](#getSettings--) | Gets the setting of particular lzip archive. |
 | [save(File destination)](#save-java.io.File-) | Saves lzip archive to destination file provided. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves lzip archive to the stream provided. |
@@ -126,14 +127,6 @@ public void close()
 
 
 
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ### extract(File file) {#extract-java.io.File-}
 ```
 public final void extract(File file)
@@ -190,7 +183,7 @@ Extracts lzip archive to a stream.
 
 ### extract(String path) {#extract-java.lang.String-}
 ```
-public final void extract(String path)
+public final File extract(String path)
 ```
 
 
@@ -214,6 +207,8 @@ Extracts lzip archive to a file by path.
 | --- | --- | --- |
 | path | java.lang.String | the path to the file which will store decompressed data |
 
+**Returns:**
+java.io.File - the file info of the extracted file
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)
@@ -239,6 +234,26 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzip archive
+### getLength() {#getLength--}
+```
+public final Long getLength()
+```
+
+
+Gets length.
+
+**Returns:**
+java.lang.Long - length
+### getName() {#getName--}
+```
+public final String getName()
+```
+
+
+The name of original file.
+
+**Returns:**
+java.lang.String - the name of the original file
 ### getSettings() {#getSettings--}
 ```
 public final LzipArchiveSettings getSettings()

@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 47
+weight: 50
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 
@@ -120,10 +120,10 @@ Extract two entries of rar archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | The path to destination file. If the file already exists, it will be overwritten. |
+| path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - The file info of composed file.
+java.io.File - the file info of the extracted file
 ### extract(String path, String password) {#extract-java.lang.String-java.lang.String-}
 ```
 public final File extract(String path, String password)
@@ -154,7 +154,7 @@ Extract two entries of rar archive.
 | password | java.lang.String | Optional password for decryption. |
 
 **Returns:**
-java.io.File - The file info of composed file.
+java.io.File - the file info of the extracted file
 ### getCompressedSize() {#getCompressedSize--}
 ```
 public final long getCompressedSize()

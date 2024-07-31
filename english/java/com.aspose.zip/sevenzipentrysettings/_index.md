@@ -3,7 +3,7 @@ title: SevenZipEntrySettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings used to compress or decompress 7z entries.
 type: docs
-weight: 60
+weight: 63
 url: /java/com.aspose.zip/sevenzipentrysettings/
 ---
 
@@ -92,6 +92,8 @@ public final boolean getCompressHeader()
 
 Gets value indicating whether to compress archive header.
 
+This setting is equivalent `-mhc=on` switch of 7-Zip tool. Currently it is incompatible with header encryption.
+
 **Returns:**
 boolean - value indicating whether to compress archive header
 ### getCompressionSettings() {#getCompressionSettings--}
@@ -123,6 +125,8 @@ public final void setCompressHeader(boolean value)
 
 
 Sets value indicating whether to compress archive header.
+
+This setting is equivalent `-mhc=on` switch of 7-Zip tool. Currently it is incompatible with header encryption.
 
 **Parameters:**
 | Parameter | Type | Description |

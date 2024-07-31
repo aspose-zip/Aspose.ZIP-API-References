@@ -3,14 +3,14 @@ title: IArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This interface represents an archive.
 type: docs
-weight: 93
+weight: 99
 url: /java/com.aspose.zip/iarchive/
 ---
 
 **All Implemented Interfaces:**
-com.aspose.ms.System.IDisposable
+java.lang.AutoCloseable
 ```
-public interface IArchive extends System.IDisposable
+public interface IArchive extends AutoCloseable
 ```
 
 This interface represents an archive.
@@ -18,8 +18,17 @@ This interface represents an archive.
 
 | Method | Description |
 | --- | --- |
+| [close()](#close--) | \{@inheritDoc\} |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
+### close() {#close--}
+```
+public abstract void close()
+```
+
+
+
+
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public abstract void extractToDirectory(String destinationDirectory)

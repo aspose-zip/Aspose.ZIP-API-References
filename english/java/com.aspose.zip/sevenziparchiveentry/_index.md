@@ -3,7 +3,7 @@ title: SevenZipArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within 7z archive.
 type: docs
-weight: 53
+weight: 56
 url: /java/com.aspose.zip/sevenziparchiveentry/
 ---
 
@@ -113,7 +113,7 @@ Extracts the entry to the filesystem by the path provided.
 | path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - the file info of composed file
+java.io.File - the file info of the extracted file
 ### extract(String path, String password) {#extract-java.lang.String-java.lang.String-}
 ```
 public final File extract(String path, String password)
@@ -139,7 +139,7 @@ Extracts the entry to the filesystem by the path provided.
 | password | java.lang.String | optional password for decryption |
 
 **Returns:**
-java.io.File - the file info of composed file
+java.io.File - the file info of the extracted file
 ### getCompressedSize() {#getCompressedSize--}
 ```
 public final long getCompressedSize()

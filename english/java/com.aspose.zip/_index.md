@@ -37,7 +37,10 @@ url: /java/com.aspose.zip/
 | [EnhancedDeflateCompressionSettings](../com.aspose.zip/enhanceddeflatecompressionsettings) | Settings for Enhanced Deflate compression method. |
 | [EntryEventArgs](../com.aspose.zip/entryeventargs) | Event arguments for entry related events. |
 | [EventsBag](../com.aspose.zip/eventsbag) | Events container used on [Archive](../com.aspose.zip/archive) saving. |
+| [FastLZOutputStream](../com.aspose.zip/fastlzoutputstream) | A stream wrapper that compresses data with FastLZ. |
 | [GzipArchive](../com.aspose.zip/gziparchive) | This class represents gzip archive file. |
+| [IsoArchive](../com.aspose.zip/isoarchive) | Represents an ISO archive (ISO 9660). |
+| [IsoEntry](../com.aspose.zip/isoentry) | Represents an entry (file or directory) within an ISO archive. |
 | [License](../com.aspose.zip/license) | Provides methods to license the component. |
 | [LzipArchive](../com.aspose.zip/lziparchive) | This class represents Lzip archive file. |
 | [LzipArchiveSettings](../com.aspose.zip/lziparchivesettings) | The class contains setting of particular lzip archive. |
@@ -67,6 +70,8 @@ url: /java/com.aspose.zip/
 | [SevenZipLZMACompressionSettings](../com.aspose.zip/sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
 | [SevenZipPPMdCompressionSettings](../com.aspose.zip/sevenzipppmdcompressionsettings) | Settings for PPMd compression method within 7z archive. |
 | [SevenZipStoreCompressionSettings](../com.aspose.zip/sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
+| [SharArchive](../com.aspose.zip/shararchive) | This class represents shar archive file. |
+| [SharEntry](../com.aspose.zip/sharentry) | Represents single file within shar archive. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
 | [SplitSevenZipArchiveSaveOptions](../com.aspose.zip/splitsevenziparchivesaveoptions) | Options for saving a multi-volume 7-zip archive. |
 | [StoreCompressionSettings](../com.aspose.zip/storecompressionsettings) | Settings for Store compression method. |
@@ -92,6 +97,7 @@ url: /java/com.aspose.zip/
 | [XzCompressionSettings](../com.aspose.zip/xzcompressionsettings) | Settings for Xz compression method. |
 | [XzFilterSettings](../com.aspose.zip/xzfiltersettings) | Base class for set of settings of particular xz format filter. |
 | [XzLZMA2FilterSettings](../com.aspose.zip/xzlzma2filtersettings) | Set of settings for xz LZMA2 filter. |
+| [ZArchive](../com.aspose.zip/zarchive) | This class represents Z (compress) archive file. |
 | [ZstandardArchive](../com.aspose.zip/zstandardarchive) | This class represents Zstandard archive file. |
 | [ZstandardCompressionSettings](../com.aspose.zip/zstandardcompressionsettings) | Settings for Zstandard compression method. |
 

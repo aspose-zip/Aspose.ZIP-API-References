@@ -126,7 +126,7 @@ Extract two entries of zip archive, each with own password
 | path | java.lang.String | The path to destination file. If the file already exists, it will be overwritten. |
 
 **Returns:**
-java.io.File - The file info of composed file.
+java.io.File - the file info of the extracted file
 ### extract(String path, String password) {#extract-java.lang.String-java.lang.String-}
 ```
 public final File extract(String path, String password)
@@ -157,7 +157,7 @@ Extract two entries of zip archive, each with own password
 | password | java.lang.String | Optional password for decryption. |
 
 **Returns:**
-java.io.File - The file info of composed file.
+java.io.File - the file info of the extracted file
 ### getComment() {#getComment--}
 ```
 public final String getComment()

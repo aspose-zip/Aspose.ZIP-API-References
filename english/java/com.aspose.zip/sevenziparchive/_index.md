@@ -3,17 +3,17 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 52
+weight: 55
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
 [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class SevenZipArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class SevenZipArchive implements IArchive, AutoCloseable
 ```
 
 This class represents 7z archive file. Use it to compose and extract 7z archives.
@@ -47,7 +47,6 @@ This class represents 7z archive file. Use it to compose and extract 7z archives
 | [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Create single entry within the archive. |
 | [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
 | [createEntry(String name, String path, boolean openImmediately, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.SevenZipEntrySettings-) | Create single entry within the archive. |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [extractToDirectory(String destinationDirectory, String password)](#extractToDirectory-java.lang.String-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) type constituting the archive. |
@@ -687,14 +686,6 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 
 **Returns:**
 [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) - Zip entry instance
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)

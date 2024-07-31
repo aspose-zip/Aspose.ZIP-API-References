@@ -3,7 +3,7 @@ title: XarZlibCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Zlib compression method.
 type: docs
-weight: 83
+weight: 88
 url: /java/com.aspose.zip/xarzlibcompressionsettings/
 ---
 

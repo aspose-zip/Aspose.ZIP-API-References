@@ -3,17 +3,17 @@ title: XzArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xz archive file.
 type: docs
-weight: 84
+weight: 89
 url: /java/com.aspose.zip/xzarchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry), com.aspose.ms.System.IDisposable, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry), [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public class XzArchive extends ILicenseStateProvider implements IArchiveFileEntry, System.IDisposable, IArchive, AutoCloseable
+public class XzArchive implements IArchiveFileEntry, IArchive, AutoCloseable
 ```
 
 This class represents xz archive file. Use it to compose and extract xz archives.
@@ -30,7 +30,6 @@ This class represents xz archive file. Use it to compose and extract xz archives
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extract(File file)](#extract-java.io.File-) | Extracts xz archive to a file. |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts xz archive to a stream. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts xz archive to a file by path. |
@@ -101,14 +100,6 @@ public void close()
 
 
 
-
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### extract(File file) {#extract-java.io.File-}
 ```

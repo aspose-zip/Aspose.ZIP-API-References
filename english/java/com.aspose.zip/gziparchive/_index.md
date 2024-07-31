@@ -3,17 +3,17 @@ title: GzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents gzip archive file.
 type: docs
-weight: 35
+weight: 36
 url: /java/com.aspose.zip/gziparchive/
 ---
 
 **Inheritance:**
-java.lang.Object, com.aspose.zip.ILicenseStateProvider
+java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), [com.aspose.zip.IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry), java.lang.AutoCloseable
 ```
-public class GzipArchive extends ILicenseStateProvider implements IArchive, AutoCloseable
+public class GzipArchive implements IArchive, IArchiveFileEntry, AutoCloseable
 ```
 
 This class represents gzip archive file. Use it to compose or extract gzip archives.
@@ -33,11 +33,11 @@ Gzip compression algorithm is based on the DEFLATE algorithm, which is a combina
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the archive to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive. |
+| [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | The name of original file. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
@@ -210,14 +210,6 @@ public void close()
 
 
 
-### dispose() {#dispose--}
-```
-public final void dispose()
-```
-
-
-Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
-
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
 public final void extract(OutputStream destination)
@@ -255,7 +247,7 @@ Extracts the archive to the file by path.
 | path | java.lang.String | The path to destination file. If the file already exists, it will be overwritten. |
 
 **Returns:**
-java.io.File - Info of extracted file.
+java.io.File - the file info of the extracted file
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)
@@ -281,6 +273,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive.
+### getLength() {#getLength--}
+```
+public final Long getLength()
+```
+
+
+Gets length.
+
+**Returns:**
+java.lang.Long - length
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -290,7 +292,7 @@ public final String getName()
 The name of original file.
 
 **Returns:**
-java.lang.String - the name of the original file.
+java.lang.String - the name of the original file
 ### open() {#open--}
 ```
 public final InputStream open()
