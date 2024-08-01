@@ -21,6 +21,7 @@ The SevenZipAESEncryptionSettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |password|Gets or sets password for encryption or decryption.|
+|encrypt_header|Gets or sets a value indicating header encryption.|
 
 ### See Also
 
