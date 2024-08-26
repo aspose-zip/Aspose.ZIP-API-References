@@ -3,7 +3,7 @@ title: Class XarDirectoryEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarDirectoryEntry class. Represents directory entry within xar archive
 type: docs
-weight: 880
+weight: 900
 url: /net/aspose.zip.xar/xardirectoryentry/
 ---
 ## XarDirectoryEntry class

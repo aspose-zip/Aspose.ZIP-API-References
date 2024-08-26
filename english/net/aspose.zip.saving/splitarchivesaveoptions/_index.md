@@ -26,6 +26,7 @@ public class SplitArchiveSaveOptions
 | --- | --- |
 | [ArchiveComment](../../aspose.zip.saving/splitarchivesaveoptions/archivecomment/) { get; set; } | Gets or sets optional comment for the Zip file. |
 | [Encoding](../../aspose.zip.saving/splitarchivesaveoptions/encoding/) { get; set; } | Gets or sets encoding for converting file names and other strings to bytes. |
+| [EventsBag](../../aspose.zip.saving/splitarchivesaveoptions/eventsbag/) { get; set; } | Gets or sets container of events raising on archive saving. |
 | [FileName](../../aspose.zip.saving/splitarchivesaveoptions/filename/) { get; } | Gets the name of segments without extension. |
 | [SegmentSize](../../aspose.zip.saving/splitarchivesaveoptions/segmentsize/) { get; } | Gets the size of segment. |
 

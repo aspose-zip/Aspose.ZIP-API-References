@@ -24,6 +24,7 @@ public sealed class EventsBag
 
 | Name | Description |
 | --- | --- |
+| event [EntryAccessed](../../aspose.zip.saving/eventsbag/entryaccessed/) | Raises before an archive entry is being compressed. |
 | event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | Raises after an archive entry has been compressed. |
 
 ### See Also

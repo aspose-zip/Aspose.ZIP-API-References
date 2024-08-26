@@ -3,7 +3,7 @@ title: EventsBag.EntryCompressed
 second_title: Aspose.ZIP for .NET API Reference
 description: EventsBag event. Raises after an archive entry has been compressed
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.saving/eventsbag/entrycompressed/
 ---
 ## EventsBag.EntryCompressed event
