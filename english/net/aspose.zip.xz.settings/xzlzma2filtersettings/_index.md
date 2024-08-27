@@ -3,7 +3,7 @@ title: Class XzLZMA2FilterSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.Settings.XzLZMA2FilterSettings class. Set of settings for xz LZMA2 filter
 type: docs
-weight: 970
+weight: 990
 url: /net/aspose.zip.xz.settings/xzlzma2filtersettings/
 ---
 ## XzLZMA2FilterSettings class

@@ -28,6 +28,7 @@ is_root: true
 | [Aspose.Zip.Shar](./aspose.zip.shar/) | The Shar namespace contains classes which represent shar archive related entities. |
 | [Aspose.Zip.Snappy](./aspose.zip.snappy/) | The Snappy namespace contains classes for Snappy compressed data manipulation. |
 | [Aspose.Zip.Tar](./aspose.zip.tar/) | The Tar namespace contains classes which represent tar archive related entities. |
+| [Aspose.Zip.Uue](./aspose.zip.uue/) | The Uue namespace contains classes which represent uuencode related entities. |
 | [Aspose.Zip.Wim](./aspose.zip.wim/) | The Wim namespace contains classes which represent WIM archive related entities. |
 | [Aspose.Zip.Xar](./aspose.zip.xar/) | The Xar namespace contains classes which represent Xar archive related entities. |
 | [Aspose.Zip.Xz](./aspose.zip.xz/) | The Xz namespace contains classes which represent xz archive related entities. |

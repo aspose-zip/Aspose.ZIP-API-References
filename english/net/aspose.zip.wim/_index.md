@@ -3,7 +3,7 @@ title: Aspose.Zip.Wim
 second_title: Aspose.ZIP for .NET API Reference
 description: The Wim namespace contains classes which represent WIM archive related entities
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.zip.wim/
 ---
 The Wim namespace contains classes which represent WIM archive related entities.

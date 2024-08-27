@@ -3,7 +3,7 @@ title: Aspose.Zip.Xz.Settings
 second_title: Aspose.ZIP for .NET API Reference
 description: The Settings namespace contains classes which represent xz archive settings
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.zip.xz.settings/
 ---
 The Settings namespace contains classes which represent xz archive settings.
