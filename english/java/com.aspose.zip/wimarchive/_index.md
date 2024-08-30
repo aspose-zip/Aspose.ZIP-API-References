@@ -3,7 +3,7 @@ title: WimArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents wim archive file.
 type: docs
-weight: 76
+weight: 78
 url: /java/com.aspose.zip/wimarchive/
 ---
 
@@ -33,6 +33,7 @@ This class represents wim archive file.
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the wim archive. |
 | [getFileFormatVersion()](#getFileFormatVersion--) | Gets the version of the file format. |
 | [getGuid()](#getGuid--) | Gets the identifying UUID for the archive. |
+| [getImages()](#getImages--) | Gets entries of [WimImage](../../com.aspose.zip/wimimage) type constituting the archive. |
 | [getManifest()](#getManifest--) | Gets the embedded manifest describing the file and the contained images. |
 ### WimArchive(InputStream sourceStream) {#WimArchive-java.io.InputStream-}
 ```
@@ -146,6 +147,16 @@ Gets the identifying UUID for the archive.
 
 **Returns:**
 java.util.UUID - the identifying UUID for the archive
+### getImages() {#getImages--}
+```
+public final List<WimImage> getImages()
+```
+
+
+Gets entries of [WimImage](../../com.aspose.zip/wimimage) type constituting the archive.
+
+**Returns:**
+java.util.List&lt;com.aspose.zip.WimImage&gt; - entries of [WimImage](../../com.aspose.zip/wimimage) type constituting the archive
 ### getManifest() {#getManifest--}
 ```
 public final String getManifest()

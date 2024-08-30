@@ -78,6 +78,8 @@ url: /java/com.aspose.zip/
 | [TarArchive](../com.aspose.zip/tararchive) | This class represents tar archive file. |
 | [TarEntry](../com.aspose.zip/tarentry) | Represents single file within tar archive. |
 | [TraditionalEncryptionSettings](../com.aspose.zip/traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm. |
+| [UueArchive](../com.aspose.zip/uuearchive) | This class represents uuencoded file. |
+| [UueSaveOptions](../com.aspose.zip/uuesaveoptions) | Options for saving an uuencoded file. |
 | [WimArchive](../com.aspose.zip/wimarchive) | This class represents wim archive file. |
 | [WimDirectoryEntry](../com.aspose.zip/wimdirectoryentry) | Represents single directory within wim archive. |
 | [WimEntry](../com.aspose.zip/wimentry) | Represents single file or directory within wim image. |
