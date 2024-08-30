@@ -30,6 +30,7 @@ Settings needed for compressor or decompressor to work.
 | [getPPMd()](#getPPMd--) | An instance of `PPMdCompressionSettings` with default parameters. |
 | [getStore()](#getStore--) | An instance of `StoreCompressionSettings` with default parameters. |
 | [getXz()](#getXz--) | An instance of `Xz` with default parameters. |
+| [getZstd()](#getZstd--) | An instance of `ZstandardCompressionSettings` with default parameters. |
 ### CompressionSettings() {#CompressionSettings--}
 ```
 public CompressionSettings()
@@ -106,3 +107,13 @@ An instance of `Xz` with default parameters.
 
 **Returns:**
 [XzCompressionSettings](../../com.aspose.zip/xzcompressionsettings) - an instance of `Xz` with default parameters
+### getZstd() {#getZstd--}
+```
+public static ZstandardCompressionSettings getZstd()
+```
+
+
+An instance of `ZstandardCompressionSettings` with default parameters.
+
+**Returns:**
+[ZstandardCompressionSettings](../../com.aspose.zip/zstandardcompressionsettings) - an instance of `ZstandardCompressionSettings` with default parameters
