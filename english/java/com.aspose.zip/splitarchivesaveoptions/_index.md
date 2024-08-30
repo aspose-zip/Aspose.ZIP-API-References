@@ -25,10 +25,12 @@ Options for saving a multi-volume zip archive.
 | --- | --- |
 | [getArchiveComment()](#getArchiveComment--) | Gets optional comment for the Zip file. |
 | [getEncoding()](#getEncoding--) | Gets encoding for converting file names and other strings to bytes. |
+| [getEventsBag()](#getEventsBag--) | Gets container of events raising on archive saving. |
 | [getFileName()](#getFileName--) | Gets the name of segments without extension. |
 | [getSegmentSize()](#getSegmentSize--) | Gets the size of segment. |
 | [setArchiveComment(String value)](#setArchiveComment-java.lang.String-) | Sets optional comment for the Zip file. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets encoding for converting file names and other strings to bytes. |
+| [setEventsBag(EventsBag value)](#setEventsBag-com.aspose.zip.EventsBag-) | Sets container of events raising on archive saving. |
 ### SplitArchiveSaveOptions(String fileName, long segmentSize) {#SplitArchiveSaveOptions-java.lang.String-long-}
 ```
 public SplitArchiveSaveOptions(String fileName, long segmentSize)
@@ -69,6 +71,16 @@ If not set, code page 437 will be used.
 
 **Returns:**
 java.nio.charset.Charset - encoding for converting file names and other strings to bytes.
+### getEventsBag() {#getEventsBag--}
+```
+public final EventsBag getEventsBag()
+```
+
+
+Gets container of events raising on archive saving.
+
+**Returns:**
+[EventsBag](../../com.aspose.zip/eventsbag) - container of events raising on archive saving
 ### getFileName() {#getFileName--}
 ```
 public final String getFileName()
@@ -116,4 +128,17 @@ If not set, code page 437 will be used.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset | encoding for converting file names and other strings to bytes. |
+
+### setEventsBag(EventsBag value) {#setEventsBag-com.aspose.zip.EventsBag-}
+```
+public final void setEventsBag(EventsBag value)
+```
+
+
+Sets container of events raising on archive saving.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [EventsBag](../../com.aspose.zip/eventsbag) | container of events raising on archive saving |
 
