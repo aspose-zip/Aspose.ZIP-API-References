@@ -26,6 +26,7 @@ The XzCompressionSettings type exposes the following members:
 |lzma|An instance of|
 |xz|An instance of|
 |pp_md|An instance of|
+|zstd|An instance of|
 
 ### See Also
 

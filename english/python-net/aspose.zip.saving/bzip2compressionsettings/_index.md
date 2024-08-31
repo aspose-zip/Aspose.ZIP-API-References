@@ -27,6 +27,7 @@ The Bzip2CompressionSettings type exposes the following members:
 |lzma|An instance of|
 |xz|An instance of|
 |pp_md|An instance of|
+|zstd|An instance of|
 |block_size|Block size in hundreds of kilobytes.|
 
 ### See Also
