@@ -23,6 +23,7 @@ The SplitArchiveSaveOptions type exposes the following members:
 |file_name|Gets the name of segments without extension.|
 |archive_comment|Gets or sets optional comment for the Zip file.|
 |encoding|Gets or sets encoding for converting file names and other strings to bytes.|
+|events_bag|Gets or sets container of events raising on archive saving.|
 
 ### See Also
 
