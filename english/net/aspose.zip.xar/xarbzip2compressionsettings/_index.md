@@ -3,7 +3,7 @@ title: Class XarBzip2CompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarBzip2CompressionSettings class. Settings for Bzip2 compression method
 type: docs
-weight: 880
+weight: 960
 url: /net/aspose.zip.xar/xarbzip2compressionsettings/
 ---
 ## XarBzip2CompressionSettings class

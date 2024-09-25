@@ -13,5 +13,7 @@ The Zstandard namespace contains classes for Zstandard compressed data manipulat
 | Class | Description |
 | --- | --- |
 | [ZstandardArchive](./zstandardarchive/) | This class represents Zstandard archive file. Use it to compose Zstandard archives. |
+| [ZstandardLoadOptions](./zstandardloadoptions/) | Options with which [`ZstandardArchive`](../aspose.zip.zstandard/zstandardarchive/) is loaded from compressed file. Contains event raised on extraction. |
+| [ZstandardSaveOptions](./zstandardsaveoptions/) | Settings for ZStandard archive. |
 
 

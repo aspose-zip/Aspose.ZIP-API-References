@@ -3,7 +3,7 @@ title: Class XarFileEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarFileEntry class. Represents file entry within xar archive
 type: docs
-weight: 920
+weight: 1000
 url: /net/aspose.zip.xar/xarfileentry/
 ---
 ## XarFileEntry class
@@ -35,6 +35,12 @@ public sealed class XarFileEntry : XarEntry, IArchiveFileEntry
 | [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract)(string) | Extracts the entry to the filesystem by the path provided. |
 | [Open](../../aspose.zip.xar/xarfileentry/open/)() | Opens the entry for extraction and provides a stream with entry content. |
 | override [ToString](../../aspose.zip.xar/xarentry/tostring/)() |  |
+
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [CompressionProgressed](../../aspose.zip.xar/xarfileentry/compressionprogressed/) | Raises when a portion of raw stream compressed. |
 
 ### See Also
 

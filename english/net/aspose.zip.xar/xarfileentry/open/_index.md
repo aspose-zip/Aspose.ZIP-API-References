@@ -3,7 +3,7 @@ title: XarFileEntry.Open
 second_title: Aspose.ZIP for .NET API Reference
 description: XarFileEntry method. Opens the entry for extraction and provides a stream with entry content
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.xar/xarfileentry/open/
 ---
 ## XarFileEntry.Open method

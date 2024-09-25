@@ -6,17 +6,18 @@ type: docs
 weight: 80
 url: /net/aspose.zip.xar/xararchive/save/
 ---
-## Save(string) {#save_1}
+## Save(string, XarSaveOptions) {#save_1}
 
 Saves archive to destination file provided.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, XarSaveOptions saveOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| saveOptions | XarSaveOptions | Options to save xar archive with. |
 
 ### Exceptions
 
@@ -27,23 +28,25 @@ public void Save(string destinationFileName)
 
 ### See Also
 
+* class [XarSaveOptions](../../xarsaveoptions/)
 * class [XarArchive](../)
 * namespace [Aspose.Zip.Xar](../../xararchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(Stream, XarSaveOptions) {#save}
 
 Saves archive to the stream provided.
 
 ```csharp
-public void Save(Stream output)
+public void Save(Stream output, XarSaveOptions saveOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | output | Stream | Destination stream. |
+| saveOptions | XarSaveOptions | Options to save xar archive with. |
 
 ### Exceptions
 
@@ -55,6 +58,7 @@ public void Save(Stream output)
 
 ### See Also
 
+* class [XarSaveOptions](../../xarsaveoptions/)
 * class [XarArchive](../)
 * namespace [Aspose.Zip.Xar](../../xararchive/)
 * assembly [Aspose.Zip](../../../)

@@ -14,6 +14,12 @@ Gets or sets compression thread count. If the value greater than 1, multithreadi
 public int CompressionThreads { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | The number of threads is more than 100 or less than 1. |
+
 ### See Also
 
 * class [Bzip2SaveOptions](../)

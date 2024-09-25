@@ -3,7 +3,7 @@ title: XarFileEntry.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: XarFileEntry method. Extracts the entry to the filesystem by the path provided
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.xar/xarfileentry/extract/
 ---
 ## Extract(string) {#extract}
