@@ -39,17 +39,18 @@ using (var archive = new XarArchive())
 
 ---
 
-## XarArchive(Stream) {#constructor_1}
+## XarArchive(Stream, XarLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`XarArchive`](../) class and composes entries list can be extracted from the archive.
 
 ```csharp
-public XarArchive(Stream sourceStream)
+public XarArchive(Stream sourceStream, XarLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. It must be seekable. |
+| loadOptions | XarLoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -76,23 +77,25 @@ using (var archive = new XarArchive(File.OpenRead("archive.xar")))
 
 ### See Also
 
+* class [XarLoadOptions](../../xarloadoptions/)
 * class [XarArchive](../)
 * namespace [Aspose.Zip.Xar](../../xararchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## XarArchive(string) {#constructor_2}
+## XarArchive(string, XarLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`XarArchive`](../) class and composes entries list can be extracted from the archive.
 
 ```csharp
-public XarArchive(string path)
+public XarArchive(string path, XarLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path to the archive file. |
+| loadOptions | XarLoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -126,6 +129,7 @@ using (var archive = new XarArchive("archive.xar"))
 
 ### See Also
 
+* class [XarLoadOptions](../../xarloadoptions/)
 * class [XarArchive](../)
 * namespace [Aspose.Zip.Xar](../../xararchive/)
 * assembly [Aspose.Zip](../../../)

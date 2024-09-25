@@ -34,17 +34,18 @@ using (ZstandardArchive archive = new ZstandardArchive())
 
 ---
 
-## ZstandardArchive(Stream) {#constructor_1}
+## ZstandardArchive(Stream, ZstandardLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`ZstandardArchive`](../) class prepared for decompressing.
 
 ```csharp
-public ZstandardArchive(Stream sourceStream)
+public ZstandardArchive(Stream sourceStream, ZstandardLoadOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. |
+| options | ZstandardLoadOptions | The options to load archive with. |
 
 ## Remarks
 
@@ -62,24 +63,25 @@ using (GzipArchive archive = new ZstandardArchive(File.OpenRead("archive.zst")))
 
 ### See Also
 
+* class [ZstandardLoadOptions](../../zstandardloadoptions/)
 * class [ZstandardArchive](../)
 * namespace [Aspose.Zip.Zstandard](../../zstandardarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## ZstandardArchive(string, bool) {#constructor_2}
+## ZstandardArchive(string, ZstandardLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`ZstandardArchive`](../) class.
 
 ```csharp
-public ZstandardArchive(string path, bool parseHeader = false)
+public ZstandardArchive(string path, ZstandardLoadOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path to the archive file. |
-| parseHeader | Boolean | Whether to parse stream header to figure out properties, including name. Makes sense for seekable stream only. |
+| options | ZstandardLoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -108,6 +110,7 @@ using (ZstandardArchive archive = new ZstandardArchive("archive.zst"))
 
 ### See Also
 
+* class [ZstandardLoadOptions](../../zstandardloadoptions/)
 * class [ZstandardArchive](../)
 * namespace [Aspose.Zip.Zstandard](../../zstandardarchive/)
 * assembly [Aspose.Zip](../../../)

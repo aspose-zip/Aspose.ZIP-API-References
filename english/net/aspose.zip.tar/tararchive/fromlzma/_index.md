@@ -18,7 +18,7 @@ public static TarArchive FromLZMA(Stream source)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | Stream | The path to the archive file. |
+| source | Stream | The source of the archive. |
 
 ### Return Value
 

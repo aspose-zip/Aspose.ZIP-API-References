@@ -22,17 +22,18 @@ public ZArchive()
 
 ---
 
-## ZArchive(Stream) {#constructor_1}
+## ZArchive(Stream, ZArchiveLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`ZArchive`](../) class prepared for decompressing.
 
 ```csharp
-public ZArchive(Stream source)
+public ZArchive(Stream source, ZArchiveLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | source | Stream | The source of the archive. |
+| loadOptions | ZArchiveLoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -47,23 +48,25 @@ This constructor does not decompress. See [`Extract`](../extract/) method for de
 
 ### See Also
 
+* class [ZArchiveLoadOptions](../../zarchiveloadoptions/)
 * class [ZArchive](../)
 * namespace [Aspose.Zip.Z](../../zarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## ZArchive(string) {#constructor_2}
+## ZArchive(string, ZArchiveLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`ZArchive`](../) class prepared for decompressing.
 
 ```csharp
-public ZArchive(string path)
+public ZArchive(string path, ZArchiveLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | Path to the source of the archive. |
+| loadOptions | ZArchiveLoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -85,6 +88,7 @@ This constructor does not decompress. See [`Extract`](../extract/) method for de
 
 ### See Also
 
+* class [ZArchiveLoadOptions](../../zarchiveloadoptions/)
 * class [ZArchive](../)
 * namespace [Aspose.Zip.Z](../../zarchive/)
 * assembly [Aspose.Zip](../../../)

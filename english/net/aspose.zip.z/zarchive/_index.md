@@ -3,7 +3,7 @@ title: Class ZArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Z.ZArchive class. This class represents Z compress archive file. Use it to compose or extract Z archives
 type: docs
-weight: 1010
+weight: 1110
 url: /net/aspose.zip.z/zarchive/
 ---
 ## ZArchive class
@@ -19,8 +19,8 @@ public class ZArchive : IArchive, IArchiveFileEntry
 | Name | Description |
 | --- | --- |
 | [ZArchive](zarchive/#constructor)() | Initializes a new instance of the `ZArchive` class prepared for compressing. |
-| [ZArchive](zarchive/#constructor_1)(Stream) | Initializes a new instance of the `ZArchive` class prepared for decompressing. |
-| [ZArchive](zarchive/#constructor_2)(string) | Initializes a new instance of the `ZArchive` class prepared for decompressing. |
+| [ZArchive](zarchive/#constructor_1)(Stream, ZArchiveLoadOptions) | Initializes a new instance of the `ZArchive` class prepared for decompressing. |
+| [ZArchive](zarchive/#constructor_2)(string, ZArchiveLoadOptions) | Initializes a new instance of the `ZArchive` class prepared for decompressing. |
 
 ## Methods
 
@@ -31,8 +31,8 @@ public class ZArchive : IArchive, IArchiveFileEntry
 | [Extract](../../aspose.zip.z/zarchive/extract/#extract_2)(Stream) | Extracts Z archive to a stream. |
 | [Extract](../../aspose.zip.z/zarchive/extract/#extract)(string) | Extracts Z archive to a file by path. |
 | [ExtractToDirectory](../../aspose.zip.z/zarchive/extracttodirectory/)(string) | Extracts content of the archive to the directory provided. |
-| [Save](../../aspose.zip.z/zarchive/save/#save)(Stream) | Saves xz archive to the stream provided. |
-| [Save](../../aspose.zip.z/zarchive/save/#save_1)(string) | Saves Z archive to destination file provided. |
+| [Save](../../aspose.zip.z/zarchive/save/#save)(Stream, ZArchiveSaveOptions) | Saves xz archive to the stream provided. |
+| [Save](../../aspose.zip.z/zarchive/save/#save_1)(string, ZArchiveSaveOptions) | Saves Z archive to destination file provided. |
 | [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_1)(Stream) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_2)(string) | Sets the content to be compressed within the archive. |

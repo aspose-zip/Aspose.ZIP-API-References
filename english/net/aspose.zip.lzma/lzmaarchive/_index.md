@@ -3,7 +3,7 @@ title: Class LzmaArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.LZMA.LzmaArchive class. This class represents LZMA archive file. Use it to compose or extract LZMA archives
 type: docs
-weight: 270
+weight: 320
 url: /net/aspose.zip.lzma/lzmaarchive/
 ---
 ## LzmaArchive class

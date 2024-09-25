@@ -1,14 +1,14 @@
 ---
 title: Class LzmaArchiveSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.LZMA.LzmaArchiveSettings class. Settings for LZMA compression method within lzma archive
+description: Aspose.Zip.LZMA.LzmaArchiveSettings class. Settings for lzma archive
 type: docs
-weight: 280
+weight: 330
 url: /net/aspose.zip.lzma/lzmaarchivesettings/
 ---
 ## LzmaArchiveSettings class
 
-Settings for LZMA compression method within lzma archive.
+Settings for lzma archive.
 
 ```csharp
 public class LzmaArchiveSettings
@@ -25,6 +25,12 @@ public class LzmaArchiveSettings
 | Name | Description |
 | --- | --- |
 | [DictionarySize](../../aspose.zip.lzma/lzmaarchivesettings/dictionarysize/) { get; set; } | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size. |
+
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [CompressionProgressed](../../aspose.zip.lzma/lzmaarchivesettings/compressionprogressed/) | Raises when a portion of raw stream compressed. |
 
 ## Remarks
 

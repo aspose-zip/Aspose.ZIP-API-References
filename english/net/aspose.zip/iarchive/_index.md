@@ -3,7 +3,7 @@ title: Interface IArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.IArchive interface. This interface represents an archive
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.zip/iarchive/
 ---
 ## IArchive interface

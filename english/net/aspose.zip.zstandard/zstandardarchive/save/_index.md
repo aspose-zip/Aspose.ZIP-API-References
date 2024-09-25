@@ -6,17 +6,18 @@ type: docs
 weight: 60
 url: /net/aspose.zip.zstandard/zstandardarchive/save/
 ---
-## Save(Stream) {#save_1}
+## Save(Stream, ZstandardSaveOptions) {#save_1}
 
 Saves archive to the stream provided.
 
 ```csharp
-public void Save(Stream outputStream)
+public void Save(Stream outputStream, ZstandardSaveOptions settings = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | outputStream | Stream | Destination stream. |
+| settings | ZstandardSaveOptions | Optional settings for archive composition. |
 
 ### Exceptions
 
@@ -43,23 +44,25 @@ using (var archive = new ZstandardArchive())
 
 ### See Also
 
+* class [ZstandardSaveOptions](../../zstandardsaveoptions/)
 * class [ZstandardArchive](../)
 * namespace [Aspose.Zip.Zstandard](../../zstandardarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(string) {#save_2}
+## Save(string, ZstandardSaveOptions) {#save_2}
 
 Saves archive to destination file provided.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, ZstandardSaveOptions settings = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| settings | ZstandardSaveOptions | Optional settings for archive composition. |
 
 ### Exceptions
 
@@ -84,23 +87,25 @@ using (var archive = new ZstandardArchive())
 
 ### See Also
 
+* class [ZstandardSaveOptions](../../zstandardsaveoptions/)
 * class [ZstandardArchive](../)
 * namespace [Aspose.Zip.Zstandard](../../zstandardarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(FileInfo) {#save}
+## Save(FileInfo, ZstandardSaveOptions) {#save}
 
 Saves archive to destination file provided.
 
 ```csharp
-public void Save(FileInfo destination)
+public void Save(FileInfo destination, ZstandardSaveOptions settings = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destination | FileInfo | FileInfo which will be opened as destination stream. |
+| settings | ZstandardSaveOptions | Optional settings for archive composition. |
 
 ### Exceptions
 
@@ -126,6 +131,7 @@ using (var archive = new ZstandardArchive())
 
 ### See Also
 
+* class [ZstandardSaveOptions](../../zstandardsaveoptions/)
 * class [ZstandardArchive](../)
 * namespace [Aspose.Zip.Zstandard](../../zstandardarchive/)
 * assembly [Aspose.Zip](../../../)

@@ -3,7 +3,7 @@ title: Class SharArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Shar.SharArchive class. This class represents shar archive file
 type: docs
-weight: 740
+weight: 790
 url: /net/aspose.zip.shar/shararchive/
 ---
 ## SharArchive class

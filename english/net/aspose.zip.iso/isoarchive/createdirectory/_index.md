@@ -18,6 +18,13 @@ public void CreateDirectory(string name)
 | --- | --- | --- |
 | name | String | Path of the directory in the ISO. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The archive is opened for extraction. |
+| ArgumentNullException | `name` is null or empty. |
+
 ### See Also
 
 * class [IsoArchive](../)

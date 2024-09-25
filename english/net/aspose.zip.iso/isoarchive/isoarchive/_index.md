@@ -38,17 +38,18 @@ using(IsoArchive isoArchive = new IsoArchive())
 
 ---
 
-## IsoArchive(Stream) {#constructor_1}
+## IsoArchive(Stream, IsoLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`IsoArchive`](../) class and composes entries list that can be extracted from the archive.
 
 ```csharp
-public IsoArchive(Stream sourceStream)
+public IsoArchive(Stream sourceStream, IsoLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. It must be seekable. |
+| loadOptions | IsoLoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -75,23 +76,25 @@ using (var archive = new IsoArchive(File.OpenRead("archive.iso")))
 
 ### See Also
 
+* class [IsoLoadOptions](../../isoloadoptions/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## IsoArchive(string) {#constructor_2}
+## IsoArchive(string, IsoLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`IsoArchive`](../) class and composes entries list that can be extracted from the archive.
 
 ```csharp
-public IsoArchive(string path)
+public IsoArchive(string path, IsoLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path to the archive file. |
+| loadOptions | IsoLoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -125,6 +128,7 @@ using (var archive = new IsoArchive("archive.iso"))
 
 ### See Also
 
+* class [IsoLoadOptions](../../isoloadoptions/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)

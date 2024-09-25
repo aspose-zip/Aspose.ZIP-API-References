@@ -6,17 +6,18 @@ type: docs
 weight: 50
 url: /net/aspose.zip.z/zarchive/save/
 ---
-## Save(Stream) {#save}
+## Save(Stream, ZArchiveSaveOptions) {#save}
 
 Saves xz archive to the stream provided.
 
 ```csharp
-public void Save(Stream output)
+public void Save(Stream output, ZArchiveSaveOptions settings = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | output | Stream | Destination stream. |
+| settings | ZArchiveSaveOptions | Optional settings for archive composition. |
 
 ### Exceptions
 
@@ -44,23 +45,25 @@ using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
 
 ### See Also
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
 * namespace [Aspose.Zip.Z](../../zarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(string, ZArchiveSaveOptions) {#save_1}
 
 Saves Z archive to destination file provided.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, ZArchiveSaveOptions settings = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | String | +The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| settings | ZArchiveSaveOptions | Optional settings for archive composition. |
 
 ### Exceptions
 
@@ -85,6 +88,7 @@ using (var archive = new ZArchive())
 
 ### See Also
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
 * namespace [Aspose.Zip.Z](../../zarchive/)
 * assembly [Aspose.Zip](../../../)

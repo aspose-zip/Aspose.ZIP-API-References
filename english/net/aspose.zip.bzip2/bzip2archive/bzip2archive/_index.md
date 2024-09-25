@@ -34,17 +34,18 @@ using (Bzip2Archive archive = new Bzip2Archive())
 
 ---
 
-## Bzip2Archive(Stream) {#constructor_1}
+## Bzip2Archive(Stream, Bzip2LoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`Bzip2Archive`](../) class prepared for decompressing.
 
 ```csharp
-public Bzip2Archive(Stream sourceStream)
+public Bzip2Archive(Stream sourceStream, Bzip2LoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. |
+| loadOptions | Bzip2LoadOptions | The options to load archive with. |
 
 ## Remarks
 
@@ -62,23 +63,25 @@ using (Bzip2Archive archive = new Bzip2Archive(File.OpenRead("archive.bz2")))
 
 ### See Also
 
+* class [Bzip2LoadOptions](../../bzip2loadoptions/)
 * class [Bzip2Archive](../)
 * namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Bzip2Archive(string) {#constructor_2}
+## Bzip2Archive(string, Bzip2LoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`Bzip2Archive`](../) class prepared for decompressing.
 
 ```csharp
-public Bzip2Archive(string path)
+public Bzip2Archive(string path, Bzip2LoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path to the archive file. |
+| loadOptions | Bzip2LoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -110,6 +113,7 @@ using (Bzip2Archive archive = new Bzip2Archive("archive.bz2"))
 
 ### See Also
 
+* class [Bzip2LoadOptions](../../bzip2loadoptions/)
 * class [Bzip2Archive](../)
 * namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
 * assembly [Aspose.Zip](../../../)
