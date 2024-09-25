@@ -19,8 +19,8 @@ public class Bzip2Archive : IArchive, IArchiveFileEntry
 | Name | Description |
 | --- | --- |
 | [Bzip2Archive](bzip2archive/#constructor)() | Initializes a new instance of the `Bzip2Archive` class prepared for compressing. |
-| [Bzip2Archive](bzip2archive/#constructor_1)(Stream) | Initializes a new instance of the `Bzip2Archive` class prepared for decompressing. |
-| [Bzip2Archive](bzip2archive/#constructor_2)(string) | Initializes a new instance of the `Bzip2Archive` class prepared for decompressing. |
+| [Bzip2Archive](bzip2archive/#constructor_1)(Stream, Bzip2LoadOptions) | Initializes a new instance of the `Bzip2Archive` class prepared for decompressing. |
+| [Bzip2Archive](bzip2archive/#constructor_2)(string, Bzip2LoadOptions) | Initializes a new instance of the `Bzip2Archive` class prepared for decompressing. |
 
 ## Methods
 

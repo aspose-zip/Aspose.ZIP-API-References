@@ -3,7 +3,7 @@ title: Class CabArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabArchive class. This class represents cab archive file
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.zip.cab/cabarchive/
 ---
 ## CabArchive class
@@ -32,7 +32,7 @@ public class CabArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.zip.cab/cabarchive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [ExtractToDirectory](../../aspose.zip.cab/cabarchive/extracttodirectory/)(string) |  |
+| [ExtractToDirectory](../../aspose.zip.cab/cabarchive/extracttodirectory/)(string) | Extracts all the files in the archive to the directory provided. |
 
 ### See Also
 

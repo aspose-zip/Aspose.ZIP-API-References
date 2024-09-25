@@ -3,7 +3,7 @@ title: Class XarArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarArchive class. This class represents xar archive file
 type: docs
-weight: 870
+weight: 950
 url: /net/aspose.zip.xar/xararchive/
 ---
 ## XarArchive class
@@ -18,9 +18,9 @@ public class XarArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [XarArchive](xararchive/#constructor_1)(Stream) | Initializes a new instance of the `XarArchive` class and composes entries list can be extracted from the archive. |
-| [XarArchive](xararchive/#constructor_2)(string) | Initializes a new instance of the `XarArchive` class and composes entries list can be extracted from the archive. |
 | [XarArchive](xararchive/#constructor)(XarCompressionSettings) | Initializes a new instance of the `XarArchive` class. |
+| [XarArchive](xararchive/#constructor_1)(Stream, XarLoadOptions) | Initializes a new instance of the `XarArchive` class and composes entries list can be extracted from the archive. |
+| [XarArchive](xararchive/#constructor_2)(string, XarLoadOptions) | Initializes a new instance of the `XarArchive` class and composes entries list can be extracted from the archive. |
 
 ## Properties
 
@@ -40,8 +40,8 @@ public class XarArchive : IArchive
 | [DeleteEntry](../../aspose.zip.xar/xararchive/deleteentry/)(XarEntry) | Removes the first occurrence of a specific entry from the entries list. |
 | [Dispose](../../aspose.zip.xar/xararchive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExtractToDirectory](../../aspose.zip.xar/xararchive/extracttodirectory/)(string) | Extracts all the files in the archive to the directory provided. |
-| [Save](../../aspose.zip.xar/xararchive/save/#save)(Stream) | Saves archive to the stream provided. |
-| [Save](../../aspose.zip.xar/xararchive/save/#save_1)(string) | Saves archive to destination file provided. |
+| [Save](../../aspose.zip.xar/xararchive/save/#save)(Stream, XarSaveOptions) | Saves archive to the stream provided. |
+| [Save](../../aspose.zip.xar/xararchive/save/#save_1)(string, XarSaveOptions) | Saves archive to destination file provided. |
 
 ### See Also
 

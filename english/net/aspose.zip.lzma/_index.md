@@ -13,6 +13,6 @@ The LZMA namespace contains classes which represent lzma archive related entitie
 | Class | Description |
 | --- | --- |
 | [LzmaArchive](./lzmaarchive/) | This class represents LZMA archive file. Use it to compose or extract LZMA archives. |
-| [LzmaArchiveSettings](./lzmaarchivesettings/) | Settings for LZMA compression method within lzma archive. |
+| [LzmaArchiveSettings](./lzmaarchivesettings/) | Settings for lzma archive. |
 
 

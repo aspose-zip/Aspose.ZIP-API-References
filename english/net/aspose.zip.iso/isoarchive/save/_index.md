@@ -6,17 +6,18 @@ type: docs
 weight: 80
 url: /net/aspose.zip.iso/isoarchive/save/
 ---
-## Save(string) {#save_1}
+## Save(string, IsoSaveOptions) {#save_1}
 
 Saves the ISO image to the specified path.
 
 ```csharp
-public void Save(string path)
+public void Save(string path, IsoSaveOptions saveOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path where the ISO image will be saved. |
+| saveOptions | IsoSaveOptions | Options to save ISO archive with. |
 
 ### Exceptions
 
@@ -47,23 +48,25 @@ using(IsoArchive isoArchive = new IsoArchive())
 
 ### See Also
 
+* class [IsoSaveOptions](../../isosaveoptions/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(Stream, IsoSaveOptions) {#save}
 
 Saves the ISO image to the specified stream.
 
 ```csharp
-public void Save(Stream stream)
+public void Save(Stream stream, IsoSaveOptions saveOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream where the ISO image will be saved. |
+| saveOptions | IsoSaveOptions | Options to save ISO archive with. |
 
 ### Exceptions
 
@@ -92,6 +95,7 @@ The following example shows how to save an ISO archive to a memory stream:
 
 ### See Also
 
+* class [IsoSaveOptions](../../isosaveoptions/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)

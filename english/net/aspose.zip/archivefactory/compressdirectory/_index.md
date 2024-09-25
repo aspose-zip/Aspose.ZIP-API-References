@@ -15,10 +15,11 @@ public static void CompressDirectory(string path, string outputFileName,
     ArchiveFormat archiveFormat)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| path | The path to the directory that will be compressed. |
-| archiveFormat | The format of the archive to create (e.g., zip, rar, tar, etc.). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | The path to the directory that will be compressed. |
+| outputFileName | String | Destination file name. |
+| archiveFormat | ArchiveFormat | The format of the archive to create (e.g., zip, rar, tar, etc.). |
 
 ### Exceptions
 
@@ -39,7 +40,7 @@ Here is an example of how to use the CompressDirectory method:
 ```csharp
 string directoryPath = @"C:\path\to\your\directory";
 ArchiveInfo.ArchiveFormat format = ArchiveInfo.ArchiveFormat.Zip;
-ArchiveFactory.CompressDirectory(directoryPath, format);
+ArchiveFactory.CompressDirectory(directoryPath, "result", format);
 // This will create a zip file with the contents of the directory at the specified path.
 ```
 

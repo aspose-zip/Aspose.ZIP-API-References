@@ -3,7 +3,7 @@ title: Class FastLZStream
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.FastLZ.FastLZStream class. A stream wrapper that compresses data with FastLZ. Implements decorator pattern
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.zip.fastlz/fastlzstream/
 ---
 ## FastLZStream class

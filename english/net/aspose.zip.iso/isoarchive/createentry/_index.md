@@ -71,6 +71,13 @@ public void CreateEntry(string name)
 | --- | --- | --- |
 | name | String | Path of the directory in the ISO. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | `name` is null or empty. |
+| InvalidOperationException | The archive is opened for extraction. |
+
 ### See Also
 
 * class [IsoArchive](../)
