@@ -16,8 +16,8 @@ The ZArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |ZArchive()|Initializes a new instance of the [ZArchive](/zip/python-net/aspose.zip.z/zarchive/) class prepared for compressing.|
-|ZArchive(source)|Initializes a new instance of the ZArchive class|
-|ZArchive(path)|Initializes a new instance of the ZArchive class|
+|ZArchive(source, load_options)|Initializes a new instance of the ZArchive class|
+|ZArchive(path, load_options)|Initializes a new instance of the ZArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -29,8 +29,8 @@ The ZArchive type exposes the following members:
 | :- | :- |
 |extract(destination)|Extracts Z archive to a stream.|
 |extract(path)|Extracts Z archive to a file by path.|
-|save(output)|Saves xz archive to the stream provided.|
-|save(destination_file_name)|Saves Z archive to destination file provided.|
+|save(output, settings)|Saves xz archive to the stream provided.|
+|save(destination_file_name, settings)|Saves Z archive to destination file provided.|
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
