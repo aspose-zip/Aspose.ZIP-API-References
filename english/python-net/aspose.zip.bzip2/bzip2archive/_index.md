@@ -16,8 +16,8 @@ The Bzip2Archive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |Bzip2Archive()|Initializes a new instance of the [Bzip2Archive](/zip/python-net/aspose.zip.bzip2/bzip2archive/) class prepared for compressing.|
-|Bzip2Archive(source_stream)|Initializes a new instance of the Bzip2Archive class|
-|Bzip2Archive(path)|Initializes a new instance of the Bzip2Archive class|
+|Bzip2Archive(source_stream, load_options)|Initializes a new instance of the Bzip2Archive class|
+|Bzip2Archive(path, load_options)|Initializes a new instance of the Bzip2Archive class|
 ## Properties
 | Name | Description |
 | :- | :- |

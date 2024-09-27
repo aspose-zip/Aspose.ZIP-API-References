@@ -3,7 +3,7 @@ title: IsoEntry
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /python-net/aspose.zip.iso/isoentry/
 ---
 

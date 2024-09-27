@@ -16,8 +16,8 @@ The ZstandardArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |ZstandardArchive()|Initializes a new instance of the [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) class prepared for compressing.|
-|ZstandardArchive(source_stream)|Initializes a new instance of the ZstandardArchive class|
-|ZstandardArchive(path, parse_header)|Initializes a new instance of the ZstandardArchive class|
+|ZstandardArchive(source_stream, options)|Initializes a new instance of the ZstandardArchive class|
+|ZstandardArchive(path, options)|Initializes a new instance of the ZstandardArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -31,8 +31,8 @@ The ZstandardArchive type exposes the following members:
 |extract(path)|Extracts the archive to the file by path.|
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
-|save(output_stream)|Saves archive to the stream provided.|
-|save(destination_file_name)|Saves archive to destination file provided.|
+|save(output_stream, settings)|Saves archive to the stream provided.|
+|save(destination_file_name, settings)|Saves archive to destination file provided.|
 |open()|Opens the archive for extraction and provides a stream with archive content.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 

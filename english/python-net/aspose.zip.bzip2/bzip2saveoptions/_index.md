@@ -3,7 +3,7 @@ title: Bzip2SaveOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.zip.bzip2/bzip2saveoptions/
 ---
 
