@@ -3,7 +3,7 @@ title: ParallelCompressionMode
 second_title: Aspose.ZIP for Java API Reference
 description: Options of usage parallel compression facility.
 type: docs
-weight: 106
+weight: 121
 url: /java/com.aspose.zip/parallelcompressionmode/
 ---
 
@@ -50,6 +50,8 @@ Do compress in parallel. Beware out of memory.
  
 ```
 
+
+
 ### Auto {#Auto}
 ```
 public static final ParallelCompressionMode Auto
@@ -73,6 +75,8 @@ Decide if use parallel compression or not upon the entries. This option may comp
  
 ```
 
+
+
 ### Never {#Never}
 ```
 public static final ParallelCompressionMode Never
@@ -95,6 +99,8 @@ Do not compress in parallel.
     }
  
 ```
+
+
 
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```

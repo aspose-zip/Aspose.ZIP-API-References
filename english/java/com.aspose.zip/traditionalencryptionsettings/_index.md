@@ -3,7 +3,7 @@ title: TraditionalEncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for traditional ZipCrypto algorithm.
 type: docs
-weight: 75
+weight: 84
 url: /java/com.aspose.zip/traditionalencryptionsettings/
 ---
 
@@ -39,6 +39,8 @@ Initializes a new instance of the [TraditionalEncryptionSettings](../../com.aspo
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

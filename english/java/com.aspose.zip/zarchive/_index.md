@@ -3,7 +3,7 @@ title: ZArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Z compress archive file.
 type: docs
-weight: 97
+weight: 108
 url: /java/com.aspose.zip/zarchive/
 ---
 
@@ -28,7 +28,9 @@ See [Z Compressed File Format ][Z Compressed File Format]
 | --- | --- |
 | [ZArchive()](#ZArchive--) | Initializes a new instance of the [ZArchive](../../com.aspose.zip/zarchive) class prepared for compressing. |
 | [ZArchive(InputStream source)](#ZArchive-java.io.InputStream-) | Initializes a new instance of the [ZArchive](../../com.aspose.zip/zarchive) class prepared for decompressing. |
+| [ZArchive(InputStream source, ZArchiveLoadOptions loadOptions)](#ZArchive-java.io.InputStream-com.aspose.zip.ZArchiveLoadOptions-) | Initializes a new instance of the [ZArchive](../../com.aspose.zip/zarchive) class prepared for decompressing. |
 | [ZArchive(String path)](#ZArchive-java.lang.String-) | Initializes a new instance of the [ZArchive](../../com.aspose.zip/zarchive) class prepared for decompressing. |
+| [ZArchive(String path, ZArchiveLoadOptions loadOptions)](#ZArchive-java.lang.String-com.aspose.zip.ZArchiveLoadOptions-) | Initializes a new instance of the [ZArchive](../../com.aspose.zip/zarchive) class prepared for decompressing. |
 ## Methods
 
 | Method | Description |
@@ -42,7 +44,9 @@ See [Z Compressed File Format ][Z Compressed File Format]
 | [getLength()](#getLength--) | Get length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves Z archive to the stream provided. |
+| [save(OutputStream output, ZArchiveSaveOptions settings)](#save-java.io.OutputStream-com.aspose.zip.ZArchiveSaveOptions-) | Saves Z archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves Z archive to destination file provided. |
+| [save(String destinationFileName, ZArchiveSaveOptions settings)](#save-java.lang.String-com.aspose.zip.ZArchiveSaveOptions-) | Saves Z archive to destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String sourcePath)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
@@ -69,6 +73,22 @@ This constructor does not decompress. See [extract(OutputStream)](../../com.aspo
 | --- | --- | --- |
 | source | java.io.InputStream | the source of the archive |
 
+### ZArchive(InputStream source, ZArchiveLoadOptions loadOptions) {#ZArchive-java.io.InputStream-com.aspose.zip.ZArchiveLoadOptions-}
+```
+public ZArchive(InputStream source, ZArchiveLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [ZArchive](../../com.aspose.zip/zarchive) class prepared for decompressing.
+
+This constructor does not decompress. See [extract(OutputStream)](../../com.aspose.zip/zarchive\#extract-OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | java.io.InputStream | the source of the archive |
+| loadOptions | [ZArchiveLoadOptions](../../com.aspose.zip/zarchiveloadoptions) | the options to load archive with |
+
 ### ZArchive(String path) {#ZArchive-java.lang.String-}
 ```
 public ZArchive(String path)
@@ -83,6 +103,22 @@ This constructor does not decompress. See [extract(String)](../../com.aspose.zip
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the source of the archive |
+
+### ZArchive(String path, ZArchiveLoadOptions loadOptions) {#ZArchive-java.lang.String-com.aspose.zip.ZArchiveLoadOptions-}
+```
+public ZArchive(String path, ZArchiveLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [ZArchive](../../com.aspose.zip/zarchive) class prepared for decompressing.
+
+This constructor does not decompress. See [extract(String)](../../com.aspose.zip/zarchive\#extract-String-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the source of the archive |
+| loadOptions | [ZArchiveLoadOptions](../../com.aspose.zip/zarchiveloadoptions) | the options to load archive with |
 
 ### close() {#close--}
 ```
@@ -246,6 +282,34 @@ Saves Z archive to the stream provided.
 | --- | --- | --- |
 | output | java.io.OutputStream | the destination stream |
 
+### save(OutputStream output, ZArchiveSaveOptions settings) {#save-java.io.OutputStream-com.aspose.zip.ZArchiveSaveOptions-}
+```
+public final void save(OutputStream output, ZArchiveSaveOptions settings)
+```
+
+
+Saves Z archive to the stream provided.
+
+```
+
+     try (FileOutputStream zFile = new FileOutputStream("data.bin.Z")) {
+         try (ZArchive archive = new ZArchive()) {
+             archive.setSource("data.bin");
+             archive.save(zFile);
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | the destination stream |
+| settings | [ZArchiveSaveOptions](../../com.aspose.zip/zarchivesaveoptions) | the settings for archive composition |
+
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
 public final void save(String destinationFileName)
@@ -269,6 +333,31 @@ Saves Z archive to destination file provided.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+
+### save(String destinationFileName, ZArchiveSaveOptions settings) {#save-java.lang.String-com.aspose.zip.ZArchiveSaveOptions-}
+```
+public final void save(String destinationFileName, ZArchiveSaveOptions settings)
+```
+
+
+Saves Z archive to destination file provided.
+
+```
+
+     try (ZArchive archive = new ZArchive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save("data.bin.Z");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| settings | [ZArchiveSaveOptions](../../com.aspose.zip/zarchivesaveoptions) | the settings for archive composition |
 
 ### setSource(File file) {#setSource-java.io.File-}
 ```

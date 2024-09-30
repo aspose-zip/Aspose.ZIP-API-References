@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents tar archive file.
 type: docs
-weight: 73
+weight: 82
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -591,7 +591,7 @@ LZMA extraction stream is not seekable by the nature of compression algorithm. T
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | java.io.InputStream | the source stream |
+| source | java.io.InputStream | the source of the archive |
 
 **Returns:**
 [TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)

@@ -3,7 +3,7 @@ title: SevenZipPPMdCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for PPMd compression method within 7z archive.
 type: docs
-weight: 66
+weight: 75
 url: /java/com.aspose.zip/sevenzipppmdcompressionsettings/
 ---
 

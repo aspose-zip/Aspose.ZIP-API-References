@@ -3,7 +3,7 @@ title: SevenZipCipher
 second_title: Aspose.ZIP for Java API Reference
 description: Base class for AES cipher used for 7-zip encryption.
 type: docs
-weight: 60
+weight: 69
 url: /java/com.aspose.zip/sevenzipcipher/
 ---
 

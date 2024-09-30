@@ -3,7 +3,7 @@ title: XarFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents file entry within xar archive.
 type: docs
-weight: 88
+weight: 97
 url: /java/com.aspose.zip/xarfileentry/
 ---
 
@@ -23,8 +23,10 @@ Represents file entry within xar archive.
 | --- | --- |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the entry to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
+| [getCompressionProgressed()](#getCompressionProgressed--) | Gets an event that is raised when a portion of raw stream compressed. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
+| [setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream compressed. |
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
 public final void extract(OutputStream destination)
@@ -78,6 +80,28 @@ Extracts the entry to the filesystem by the path provided.
 
 **Returns:**
 java.io.File - the file info of the extracted file
+### getCompressionProgressed() {#getCompressionProgressed--}
+```
+public final Event<ProgressEventArgs> getCompressionProgressed()
+```
+
+
+Gets an event that is raised when a portion of raw stream compressed.
+
+```
+
+    archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
+        public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
+            int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
+        }
+    });
+ 
+```
+
+Event sender is an [XarFileEntry](../../com.aspose.zip/xarfileentry) instance.
+
+**Returns:**
+[Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream compressed
 ### getLength() {#getLength--}
 ```
 public final Long getLength()
@@ -117,3 +141,28 @@ Read from the stream to get original content of file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the entry
+### setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
+```
+public final void setCompressionProgressed(Event<ProgressEventArgs> value)
+```
+
+
+Sets an event that is raised when a portion of raw stream compressed.
+
+```
+
+    archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
+        public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
+            int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
+        }
+    });
+ 
+```
+
+Event sender is an [XarFileEntry](../../com.aspose.zip/xarfileentry) instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when a portion of raw stream compressed |
+

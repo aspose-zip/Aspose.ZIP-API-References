@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 50
+weight: 58
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 
@@ -61,6 +61,8 @@ Extract an entry of rar archive with password.
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -87,6 +89,8 @@ Extract an entry of rar archive with password.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -117,6 +121,8 @@ Extract two entries of rar archive.
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -146,6 +152,8 @@ Extract two entries of rar archive.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: WimArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents wim archive file.
 type: docs
-weight: 78
+weight: 87
 url: /java/com.aspose.zip/wimarchive/
 ---
 

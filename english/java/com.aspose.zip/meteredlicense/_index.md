@@ -3,7 +3,7 @@ title: MeteredLicense
 second_title: Aspose.ZIP for Java API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 45
+weight: 53
 url: /java/com.aspose.zip/meteredlicense/
 ---
 
@@ -20,8 +20,8 @@ In this example, an attempt will be made to set metered public and private key.
 
 ```
 
-	MeteredLicense metered = new MeteredLicense();
-	metered.setMeteredKey("PublicKey", "PrivateKey");
+ 	MeteredLicense metered = new MeteredLicense();
+ 	metered.setMeteredKey("PublicKey", "PrivateKey");
  
 ```
 
