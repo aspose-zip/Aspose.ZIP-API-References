@@ -3,7 +3,7 @@ title: DeflateCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Deflate compression method.
 type: docs
-weight: 30
+weight: 32
 url: /java/com.aspose.zip/deflatecompressionsettings/
 ---
 
@@ -39,4 +39,6 @@ Initializes a new instance of the [DeflateCompressionSettings](../../com.aspose.
     }
  
 ```
+
+
 

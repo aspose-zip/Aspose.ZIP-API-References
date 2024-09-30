@@ -3,7 +3,7 @@ title: IsoArchive
 second_title: Aspose.ZIP for Java API Reference
 description: Represents an ISO archive ISO 9660.
 type: docs
-weight: 37
+weight: 43
 url: /java/com.aspose.zip/isoarchive/
 ---
 
@@ -23,7 +23,9 @@ Represents an ISO archive (ISO 9660).
 | --- | --- |
 | [IsoArchive()](#IsoArchive--) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and creates an empty ISO archive for adding new files and directories. |
 | [IsoArchive(InputStream sourceStream)](#IsoArchive-java.io.InputStream-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive. |
+| [IsoArchive(InputStream sourceStream, IsoLoadOptions loadOptions)](#IsoArchive-java.io.InputStream-com.aspose.zip.IsoLoadOptions-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive. |
 | [IsoArchive(String path)](#IsoArchive-java.lang.String-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive. |
+| [IsoArchive(String path, IsoLoadOptions loadOptions)](#IsoArchive-java.lang.String-com.aspose.zip.IsoLoadOptions-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -37,7 +39,9 @@ Represents an ISO archive (ISO 9660).
 | [getEntries()](#getEntries--) | Gets entries of [IsoEntry](../../com.aspose.zip/isoentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the ISO image to the specified stream. |
+| [save(OutputStream stream, IsoSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.IsoSaveOptions-) | Saves the ISO image to the specified stream. |
 | [save(String path)](#save-java.lang.String-) | Saves the ISO image to the specified path. |
+| [save(String path, IsoSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.IsoSaveOptions-) | Saves the ISO image to the specified path. |
 ### IsoArchive() {#IsoArchive--}
 ```
 public IsoArchive()
@@ -88,6 +92,33 @@ This constructor does not unpack any entry.
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### IsoArchive(InputStream sourceStream, IsoLoadOptions loadOptions) {#IsoArchive-java.io.InputStream-com.aspose.zip.IsoLoadOptions-}
+```
+public IsoArchive(InputStream sourceStream, IsoLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive.
+
+The following example shows how to extract all of the entries to a directory.
+
+```
+
+     try (IsoArchive archive = new IsoArchive(new FileInputStream("archive.iso"))) {
+         archive.extractToDirectory("C:\\extracted");
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not unpack any entry.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| loadOptions | [IsoLoadOptions](../../com.aspose.zip/isoloadoptions) | the options to load archive with |
+
 ### IsoArchive(String path) {#IsoArchive-java.lang.String-}
 ```
 public IsoArchive(String path)
@@ -112,6 +143,32 @@ This constructor does not unpack any entry.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### IsoArchive(String path, IsoLoadOptions loadOptions) {#IsoArchive-java.lang.String-com.aspose.zip.IsoLoadOptions-}
+```
+public IsoArchive(String path, IsoLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive.
+
+The following example shows how to extract all of the entries to a directory.
+
+```
+
+     try (IsoArchive archive = new IsoArchive("archive.iso")) {
+         archive.extractToDirectory("C:\\extracted");
+     }
+ 
+```
+
+This constructor does not unpack any entry.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+| loadOptions | [IsoLoadOptions](../../com.aspose.zip/isoloadoptions) | the options to load archive with |
 
 ### close() {#close--}
 ```
@@ -251,6 +308,37 @@ The following example shows how to save an ISO archive to a memory stream:
 | --- | --- | --- |
 | stream | java.io.OutputStream | the stream where the ISO image will be saved |
 
+### save(OutputStream stream, IsoSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.zip.IsoSaveOptions-}
+```
+public final void save(OutputStream stream, IsoSaveOptions saveOptions)
+```
+
+
+Saves the ISO image to the specified stream.
+
+The following example shows how to save an ISO archive to a memory stream:
+
+```
+
+     ByteArrayOutputStream memoryStream = new ByteArrayOutputStream();
+     // Create a new empty ISO archive
+     try (IsoArchive isoArchive = new IsoArchive()) {
+         // Add files to the ISO archive
+         isoArchive.createEntry("example_file.txt", "path_to_file.txt");
+         // Save the ISO archive to a memory stream
+         isoArchive.save(memoryStream);
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream | the stream where the ISO image will be saved |
+| saveOptions | [IsoSaveOptions](../../com.aspose.zip/isosaveoptions) | the options to save ISO archive with |
+
 ### save(String path) {#save-java.lang.String-}
 ```
 public final void save(String path)
@@ -279,4 +367,34 @@ The following example shows how to save an ISO archive to a file:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path where the ISO image will be saved |
+
+### save(String path, IsoSaveOptions saveOptions) {#save-java.lang.String-com.aspose.zip.IsoSaveOptions-}
+```
+public final void save(String path, IsoSaveOptions saveOptions)
+```
+
+
+Saves the ISO image to the specified path.
+
+The following example shows how to save an ISO archive to a file:
+
+```
+
+     // Create a new empty ISO archive
+     try (IsoArchive isoArchive = new IsoArchive()) {
+         // Add files to the ISO archive
+         isoArchive.createEntry("example_file.txt", "path_to_file.txt");
+         // Save the ISO archive to a file
+         isoArchive.save("new_archive.iso");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path where the ISO image will be saved |
+| saveOptions | [IsoSaveOptions](../../com.aspose.zip/isosaveoptions) | the options to save ISO archive with |
 

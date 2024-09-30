@@ -3,7 +3,7 @@ title: XarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xar archive file.
 type: docs
-weight: 83
+weight: 92
 url: /java/com.aspose.zip/xararchive/
 ---
 
@@ -24,7 +24,9 @@ This class represents xar archive file.
 | [XarArchive()](#XarArchive--) | Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class. |
 | [XarArchive(XarCompressionSettings defaultCompressionSettings)](#XarArchive-com.aspose.zip.XarCompressionSettings-) | Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class. |
 | [XarArchive(InputStream sourceStream)](#XarArchive-java.io.InputStream-) | Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes entries list can be extracted from the archive. |
+| [XarArchive(InputStream sourceStream, XarLoadOptions loadOptions)](#XarArchive-java.io.InputStream-com.aspose.zip.XarLoadOptions-) | Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes entries list can be extracted from the archive. |
 | [XarArchive(String path)](#XarArchive-java.lang.String-) | Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes entries list can be extracted from the archive. |
+| [XarArchive(String path, XarLoadOptions loadOptions)](#XarArchive-java.lang.String-com.aspose.zip.XarLoadOptions-) | Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes entries list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -49,7 +51,9 @@ This class represents xar archive file.
 | [getEntries()](#getEntries--) | Gets entries of [XarEntry](../../com.aspose.zip/xarentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the xar archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
+| [save(OutputStream output, XarSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.XarSaveOptions-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
+| [save(String destinationFileName, XarSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.XarSaveOptions-) | Saves archive to destination file provided. |
 ### XarArchive() {#XarArchive--}
 ```
 public XarArchive()
@@ -123,6 +127,33 @@ This constructor does not unpack any entry. See [XarFileEntry.open()](../../com.
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### XarArchive(InputStream sourceStream, XarLoadOptions loadOptions) {#XarArchive-java.io.InputStream-com.aspose.zip.XarLoadOptions-}
+```
+public XarArchive(InputStream sourceStream, XarLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes entries list can be extracted from the archive.
+
+The following example shows how to extract all of the entries to a directory.
+
+```
+
+     try (XarArchive archive = new XarArchive(new FileInputStream("archive.xar"))) {
+         archive.extractToDirectory("C:\\extracted");
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not unpack any entry. See [XarFileEntry.open()](../../com.aspose.zip/xarfileentry\#open--) method for unpacking.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| loadOptions | [XarLoadOptions](../../com.aspose.zip/xarloadoptions) | the options to load archive with |
+
 ### XarArchive(String path) {#XarArchive-java.lang.String-}
 ```
 public XarArchive(String path)
@@ -147,6 +178,32 @@ This constructor does not unpack any entry. See [XarFileEntry.open()](../../com.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### XarArchive(String path, XarLoadOptions loadOptions) {#XarArchive-java.lang.String-com.aspose.zip.XarLoadOptions-}
+```
+public XarArchive(String path, XarLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes entries list can be extracted from the archive.
+
+The following example shows how to extract all of the entries to a directory.
+
+```
+
+     try (XarArchive archive = new XarArchive("archive.xar")) {
+         archive.extractToDirectory("C:\\extracted");
+     }
+ 
+```
+
+This constructor does not unpack any entry. See [XarFileEntry.open()](../../com.aspose.zip/xarfileentry\#open--) method for unpacking.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+| loadOptions | [XarLoadOptions](../../com.aspose.zip/xarloadoptions) | the options to load archive with |
 
 ### close() {#close--}
 ```
@@ -655,7 +712,23 @@ For large archives use [save(String)](../../com.aspose.zip/xararchive\#save-Stri
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| output | java.io.OutputStream | destination stream |
+| output | java.io.OutputStream | the destination stream |
+
+### save(OutputStream output, XarSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.zip.XarSaveOptions-}
+```
+public final void save(OutputStream output, XarSaveOptions saveOptions)
+```
+
+
+Saves archive to the stream provided.
+
+For large archives use [save(String)](../../com.aspose.zip/xararchive\#save-String-) instead of saving to java.io.FileOutputStream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | the destination stream |
+| saveOptions | [XarSaveOptions](../../com.aspose.zip/xarsaveoptions) | the options to save xar archive with |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
@@ -669,4 +742,18 @@ Saves archive to destination file provided.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+
+### save(String destinationFileName, XarSaveOptions saveOptions) {#save-java.lang.String-com.aspose.zip.XarSaveOptions-}
+```
+public final void save(String destinationFileName, XarSaveOptions saveOptions)
+```
+
+
+Saves archive to destination file provided.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| saveOptions | [XarSaveOptions](../../com.aspose.zip/xarsaveoptions) | the options to save xar archive with |
 

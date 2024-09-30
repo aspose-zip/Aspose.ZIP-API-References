@@ -28,7 +28,9 @@ bzip2 compresses files using the Burrows-Wheeler block sorting text compression 
 | --- | --- |
 | [Bzip2Archive()](#Bzip2Archive--) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for compressing. |
 | [Bzip2Archive(InputStream sourceStream)](#Bzip2Archive-java.io.InputStream-) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing. |
+| [Bzip2Archive(InputStream sourceStream, Bzip2LoadOptions loadOptions)](#Bzip2Archive-java.io.InputStream-com.aspose.zip.Bzip2LoadOptions-) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing. |
 | [Bzip2Archive(String path)](#Bzip2Archive-java.lang.String-) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing. |
+| [Bzip2Archive(String path, Bzip2LoadOptions loadOptions)](#Bzip2Archive-java.lang.String-com.aspose.zip.Bzip2LoadOptions-) | Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing. |
 ## Methods
 
 | Method | Description |
@@ -106,6 +108,40 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2arc
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### Bzip2Archive(InputStream sourceStream, Bzip2LoadOptions loadOptions) {#Bzip2Archive-java.io.InputStream-com.aspose.zip.Bzip2LoadOptions-}
+```
+public Bzip2Archive(InputStream sourceStream, Bzip2LoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing.
+
+Open an archive from a stream and extract it to a `ByteArrayOutputStream`
+
+```
+
+     ByteArrayOutputStream ms = new ByteArrayOutputStream();
+     try (Bzip2Archive archive = new Bzip2Archive(new FileInputStream("archive.bz2"))) {
+         InputStream decompressed = archive.open();
+         byte[] b = new byte[8192];
+         int bytesRead;
+         while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
+             ms.write(b, 0, bytesRead);
+         }
+     } catch (IOException ex) {
+         System.out.println(ex);
+     }
+ 
+```
+
+This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2archive\#open--) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| loadOptions | [Bzip2LoadOptions](../../com.aspose.zip/bzip2loadoptions) | the options to load archive with |
+
 ### Bzip2Archive(String path) {#Bzip2Archive-java.lang.String-}
 ```
 public Bzip2Archive(String path)
@@ -138,6 +174,40 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2arc
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### Bzip2Archive(String path, Bzip2LoadOptions loadOptions) {#Bzip2Archive-java.lang.String-com.aspose.zip.Bzip2LoadOptions-}
+```
+public Bzip2Archive(String path, Bzip2LoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archive) class prepared for decompressing.
+
+Open an archive from file by path and extract it to a `MemoryStream`
+
+```
+
+     ByteArrayOutputStream ms = new ByteArrayOutputStream();
+     try (Bzip2Archive archive = new Bzip2Archive("archive.bz2")) {
+         InputStream decompressed = archive.open();
+         byte[] b = new byte[8192];
+         int bytesRead;
+         while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
+             ms.write(b, 0, bytesRead);
+         }
+     } catch (IOException ex) {
+         System.out.println(ex);
+     }
+ 
+```
+
+This constructor does not decompress. See [open()](../../com.aspose.zip/bzip2archive\#open--) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+| loadOptions | [Bzip2LoadOptions](../../com.aspose.zip/bzip2loadoptions) | the options to load archive with |
 
 ### close() {#close--}
 ```

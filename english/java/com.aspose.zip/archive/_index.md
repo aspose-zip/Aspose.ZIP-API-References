@@ -49,6 +49,8 @@ This class represents zip archive file. Use it to compose, extract, or update zi
 | [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Create single entry within the archive. |
 | [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
 | [createEntry(String name, String path, boolean openImmediately, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.ArchiveEntrySettings-) | Create single entry within the archive. |
+| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--) | Create single entry within the archive. |
+| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--com.aspose.zip.ArchiveEntrySettings-) | Create single entry within the archive. |
 | [deleteEntry(ArchiveEntry entry)](#deleteEntry-com.aspose.zip.ArchiveEntry-) | Removes the first occurrence of a specific entry from the entries list. |
 | [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
@@ -807,6 +809,83 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 
 **Returns:**
 [ArchiveEntry](../../com.aspose.zip/archiveentry) - Zip entry instance.
+### createEntry(String name, Supplier&lt;InputStream&gt; streamProvider) {#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--}
+```
+public final ArchiveEntry createEntry(String name, Supplier<InputStream> streamProvider)
+```
+
+
+Create single entry within the archive.
+
+Compose archive with encrypted entry.
+
+```
+
+     Supplier<InputStream> provider = new Supplier<InputStream>() {
+         public InputStream get() {
+             return new ByteArrayInputStream(new byte[] {(byte) 0xFF, 0x00});
+         }
+     };
+     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
+         try (Archive archive = new Archive()) {
+             archive.createEntry("entry1.bin", provider, new ArchiveEntrySettings(new DeflateCompressionSettings(), new TraditionalEncryptionSettings("pass1")));
+             archive.save(zipFile);
+         }
+     } catch (IOException ex) {
+         System.out.println(ex);
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | the name of the entry |
+| streamProvider | java.util.function.Supplier&lt;java.io.InputStream&gt; | the method providing input stream for the entry |
+
+**Returns:**
+[ArchiveEntry](../../com.aspose.zip/archiveentry) - zip entry instance
+### createEntry(String name, Supplier&lt;InputStream&gt; streamProvider, ArchiveEntrySettings newEntrySettings) {#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--com.aspose.zip.ArchiveEntrySettings-}
+```
+public final ArchiveEntry createEntry(String name, Supplier<InputStream> streamProvider, ArchiveEntrySettings newEntrySettings)
+```
+
+
+Create single entry within the archive.
+
+Compose archive with encrypted entry.
+
+```
+
+     Supplier<InputStream> provider = new Supplier<InputStream>() {
+         public InputStream get() {
+             return new ByteArrayInputStream(new byte[] {(byte) 0xFF, 0x00});
+         }
+     };
+     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
+         try (Archive archive = new Archive()) {
+             archive.createEntry("entry1.bin", provider, new ArchiveEntrySettings(new DeflateCompressionSettings(), new TraditionalEncryptionSettings("pass1")));
+             archive.save(zipFile);
+         }
+     } catch (IOException ex) {
+         System.out.println(ex);
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | the name of the entry |
+| streamProvider | java.util.function.Supplier&lt;java.io.InputStream&gt; | the method providing input stream for the entry |
+| newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | compression and encryption settings used for added [ArchiveEntry](../../com.aspose.zip/archiveentry) item |
+
+**Returns:**
+[ArchiveEntry](../../com.aspose.zip/archiveentry) - zip entry instance
 ### deleteEntry(ArchiveEntry entry) {#deleteEntry-com.aspose.zip.ArchiveEntry-}
 ```
 public final Archive deleteEntry(ArchiveEntry entry)
