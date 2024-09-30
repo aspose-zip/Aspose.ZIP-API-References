@@ -3,7 +3,7 @@ title: RarArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from compressed file.
 type: docs
-weight: 53
+weight: 61
 url: /java/com.aspose.zip/rararchiveloadoptions/
 ---
 
@@ -62,6 +62,8 @@ You can provide decryption password once on archive extraction.
  
 ```
 
+
+
 **Returns:**
 java.lang.String - the password to decrypt entries.
 ### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String-}
@@ -94,6 +96,8 @@ You can provide decryption password once on archive extraction.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

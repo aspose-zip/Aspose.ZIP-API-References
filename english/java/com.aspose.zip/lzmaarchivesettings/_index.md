@@ -1,9 +1,9 @@
 ---
 title: LzmaArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
-description: Settings for LZMA compression method within lzma archive.
+description: Settings for lzma archive.
 type: docs
-weight: 43
+weight: 51
 url: /java/com.aspose.zip/lzmaarchivesettings/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class LzmaArchiveSettings
 ```
 
-Settings for LZMA compression method within lzma archive.
+Settings for lzma archive.
 
 The Lempel\\u2013Ziv\\u2013Markov chain algorithm (LZMA) is an algorithm used to perform lossless data compression. This algorithm uses a dictionary compression scheme somewhat similar to the LZ77 algorithm and features a high compression ratio and a variable compression-dictionary size.
 
@@ -30,7 +30,9 @@ See more: [Lempel\\u2013Ziv\\u2013Markov chain algorithm][Lempel_u2013Ziv_u2013M
 
 | Method | Description |
 | --- | --- |
+| [getCompressionProgressed()](#getCompressionProgressed--) | Gets an event that is raised when a portion of raw stream compressed. |
 | [getDictionarySize()](#getDictionarySize--) | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. |
+| [setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream compressed. |
 | [setDictionarySize(int value)](#setDictionarySize-int-) | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. |
 ### LzmaArchiveSettings() {#LzmaArchiveSettings--}
 ```
@@ -53,6 +55,28 @@ Initializes a new instance of the [LzmaArchiveSettings](../../com.aspose.zip/lzm
 
 
 
+### getCompressionProgressed() {#getCompressionProgressed--}
+```
+public Event<ProgressEventArgs> getCompressionProgressed()
+```
+
+
+Gets an event that is raised when a portion of raw stream compressed.
+
+```
+
+    lzmaArchiveSettings.setCompressionProgressed(new Event<ProgressEventArgs>() {
+        public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
+            int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
+        }
+    });
+ 
+```
+
+
+
+**Returns:**
+[Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream compressed
 ### getDictionarySize() {#getDictionarySize--}
 ```
 public final int getDictionarySize()
@@ -65,6 +89,31 @@ The bigger the dictionary, the better the compression ratio usually is, but dict
 
 **Returns:**
 int - Dictionary (history buffer) size.
+### setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
+```
+public void setCompressionProgressed(Event<ProgressEventArgs> value)
+```
+
+
+Sets an event that is raised when a portion of raw stream compressed.
+
+```
+
+    lzmaArchiveSettings.setCompressionProgressed(new Event<ProgressEventArgs>() {
+        public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
+            int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
+        }
+    });
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when a portion of raw stream compressed |
+
 ### setDictionarySize(int value) {#setDictionarySize-int-}
 ```
 public final void setDictionarySize(int value)

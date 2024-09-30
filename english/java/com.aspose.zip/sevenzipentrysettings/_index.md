@@ -3,7 +3,7 @@ title: SevenZipEntrySettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings used to compress or decompress 7z entries.
 type: docs
-weight: 63
+weight: 72
 url: /java/com.aspose.zip/sevenzipentrysettings/
 ---
 

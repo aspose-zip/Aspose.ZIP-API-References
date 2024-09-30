@@ -25,12 +25,12 @@ Options with which archive is loaded from compressed file.
 | --- | --- |
 | [getDecryptionPassword()](#getDecryptionPassword--) | Gets the password to decrypt entries. |
 | [getEncoding()](#getEncoding--) | Gets the encoding for entries' names. |
-| [getEntryExtractionProgressed()](#getEntryExtractionProgressed--) | Gets the delegate invoked when some bytes have been extracted. |
-| [getEntryListed()](#getEntryListed--) | Gets the delegate invoked when an entry listed within table of content. |
+| [getEntryExtractionProgressed()](#getEntryExtractionProgressed--) | Gets an event that is raised when some bytes have been extracted. |
+| [getEntryListed()](#getEntryListed--) | Gets an event that is raised when an entry listed within table of content. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | Sets the password to decrypt entries. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding for entries' names. |
-| [setEntryExtractionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets the delegate invoked when some bytes have been extracted. |
-| [setEntryListed(Event&lt;EntryEventArgs&gt; value)](#setEntryListed-com.aspose.zip.Event-com.aspose.zip.EntryEventArgs--) | Sets the delegate invoked when an entry listed within table of content. |
+| [setEntryExtractionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when some bytes have been extracted. |
+| [setEntryListed(Event&lt;EntryEventArgs&gt; value)](#setEntryListed-com.aspose.zip.Event-com.aspose.zip.EntryEventArgs--) | Sets an event that is raised when an entry listed within table of content. |
 ### ArchiveLoadOptions() {#ArchiveLoadOptions--}
 ```
 public ArchiveLoadOptions()
@@ -71,7 +71,7 @@ You can provide decryption password once on archive extraction.
 ```
 
 **Returns:**
-java.lang.String - the password to decrypt entries.
+java.lang.String - the password to decrypt entries
 ### getEncoding() {#getEncoding--}
 ```
 public final Charset getEncoding()
@@ -97,14 +97,14 @@ Entry name composed using specified encoding regardless of zip file properties.
 ```
 
 **Returns:**
-java.nio.charset.Charset - the encoding for entries' names.
+java.nio.charset.Charset - the encoding for entries' names
 ### getEntryExtractionProgressed() {#getEntryExtractionProgressed--}
 ```
 public final Event<ProgressEventArgs> getEntryExtractionProgressed()
 ```
 
 
-Gets the delegate invoked when some bytes have been extracted.
+Gets an event that is raised when some bytes have been extracted.
 
 ```
 
@@ -121,14 +121,14 @@ Gets the delegate invoked when some bytes have been extracted.
 Event sender is the [ArchiveEntry](../../com.aspose.zip/archiveentry) instance which extraction is progressed.
 
 **Returns:**
-[Event](../../com.aspose.zip/event) - the delegate invoked when some bytes have been extracted.
+[Event](../../com.aspose.zip/event) - an event that is raised when some bytes have been extracted
 ### getEntryListed() {#getEntryListed--}
 ```
 public final Event<EntryEventArgs> getEntryListed()
 ```
 
 
-Gets the delegate invoked when an entry listed within table of content.
+Gets an event that is raised when an entry listed within table of content.
 
 ```
 
@@ -143,7 +143,7 @@ Gets the delegate invoked when an entry listed within table of content.
 ```
 
 **Returns:**
-[Event](../../com.aspose.zip/event) - the delegate invoked when an entry listed within table of content.
+[Event](../../com.aspose.zip/event) - an event that is raised when an entry listed within table of content
 ### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String-}
 ```
 public final void setDecryptionPassword(String value)
@@ -180,7 +180,7 @@ You can provide decryption password once on archive extraction.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the password to decrypt entries. |
+| value | java.lang.String | the password to decrypt entries |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -209,7 +209,7 @@ Entry name composed using specified encoding regardless of zip file properties.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.nio.charset.Charset | the encoding for entries' names. |
+| value | java.nio.charset.Charset | the encoding for entries' names |
 
 ### setEntryExtractionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
 ```
@@ -217,7 +217,7 @@ public final void setEntryExtractionProgressed(Event<ProgressEventArgs> value)
 ```
 
 
-Sets the delegate invoked when some bytes have been extracted.
+Sets an event that is raised when some bytes have been extracted.
 
 ```
 
@@ -236,7 +236,7 @@ Event sender is the [ArchiveEntry](../../com.aspose.zip/archiveentry) instance w
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | the delegate invoked when some bytes have been extracted. |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when some bytes have been extracted |
 
 ### setEntryListed(Event&lt;EntryEventArgs&gt; value) {#setEntryListed-com.aspose.zip.Event-com.aspose.zip.EntryEventArgs--}
 ```
@@ -244,7 +244,7 @@ public final void setEntryListed(Event<EntryEventArgs> value)
 ```
 
 
-Sets the delegate invoked when an entry listed within table of content.
+Sets an event that is raised when an entry listed within table of content.
 
 ```
 
@@ -261,5 +261,5 @@ Sets the delegate invoked when an entry listed within table of content.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.zip.Event&lt;com.aspose.zip.EntryEventArgs&gt; | the delegate invoked when an entry listed within table of content. |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.EntryEventArgs&gt; | an event that is raised when an entry listed within table of content |
 

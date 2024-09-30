@@ -3,7 +3,7 @@ title: XzCheckType
 second_title: Aspose.ZIP for Java API Reference
 description: The enumeration defines checksum calculation approach for xz archive.
 type: docs
-weight: 109
+weight: 124
 url: /java/com.aspose.zip/xzchecktype/
 ---
 

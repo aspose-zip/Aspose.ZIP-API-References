@@ -25,10 +25,12 @@ url: /java/com.aspose.zip/
 | [ArchiveSaveOptions](../com.aspose.zip/archivesaveoptions) | Options for saving a zip archive. |
 | [Bzip2Archive](../com.aspose.zip/bzip2archive) | This class represents bzip2 archive file. |
 | [Bzip2CompressionSettings](../com.aspose.zip/bzip2compressionsettings) | Settings for Bzip2 compression method. |
+| [Bzip2LoadOptions](../com.aspose.zip/bzip2loadoptions) | Options for loading [Bzip2Archive](../com.aspose.zip/bzip2archive). |
 | [Bzip2SaveOptions](../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. |
 | [CabArchive](../com.aspose.zip/cabarchive) | This class represents cab archive file. |
 | [CabEntry](../com.aspose.zip/cabentry) | Represents single file within cab archive. |
 | [CancelEntryEventArgs](../com.aspose.zip/cancelentryeventargs) | Event arguments for cancelable entry related events. |
+| [CancelEntryEventArgsXar](../com.aspose.zip/cancelentryeventargsxar) | Event arguments for cancelable entry related events. |
 | [CompressionSettings](../com.aspose.zip/compressionsettings) | Settings needed for compressor or decompressor to work. |
 | [CpioArchive](../com.aspose.zip/cpioarchive) | This class represents cpio archive file. |
 | [CpioEntry](../com.aspose.zip/cpioentry) | Represents single file within cpio archive. |
@@ -36,16 +38,22 @@ url: /java/com.aspose.zip/
 | [EncryptionSettings](../com.aspose.zip/encryptionsettings) | Base class for settings for several zip encryption methods. |
 | [EnhancedDeflateCompressionSettings](../com.aspose.zip/enhanceddeflatecompressionsettings) | Settings for Enhanced Deflate compression method. |
 | [EntryEventArgs](../com.aspose.zip/entryeventargs) | Event arguments for entry related events. |
+| [EntryEventArgsIso](../com.aspose.zip/entryeventargsiso) | Event arguments for entry related events. |
+| [EntryEventArgsXar](../com.aspose.zip/entryeventargsxar) | Event arguments for entry related events. |
 | [EventsBag](../com.aspose.zip/eventsbag) | Events container used on [Archive](../com.aspose.zip/archive) saving. |
+| [EventsBagIso](../com.aspose.zip/eventsbagiso) | Events container used on [IsoArchive](../com.aspose.zip/isoarchive) saving. |
+| [EventsBagXar](../com.aspose.zip/eventsbagxar) | Events container used on [XarArchive](../com.aspose.zip/xararchive) saving. |
 | [FastLZOutputStream](../com.aspose.zip/fastlzoutputstream) | A stream wrapper that compresses data with FastLZ. |
 | [GzipArchive](../com.aspose.zip/gziparchive) | This class represents gzip archive file. |
 | [IsoArchive](../com.aspose.zip/isoarchive) | Represents an ISO archive (ISO 9660). |
 | [IsoEntry](../com.aspose.zip/isoentry) | Represents an entry (file or directory) within an ISO archive. |
+| [IsoLoadOptions](../com.aspose.zip/isoloadoptions) | Options with which [IsoArchive](../com.aspose.zip/isoarchive) is loaded from compressed file. |
+| [IsoSaveOptions](../com.aspose.zip/isosaveoptions) | Options for saving an ISO archive. |
 | [License](../com.aspose.zip/license) | Provides methods to license the component. |
 | [LzipArchive](../com.aspose.zip/lziparchive) | This class represents Lzip archive file. |
 | [LzipArchiveSettings](../com.aspose.zip/lziparchivesettings) | The class contains setting of particular lzip archive. |
 | [LzmaArchive](../com.aspose.zip/lzmaarchive) | This class represents LZMA archive file. |
-| [LzmaArchiveSettings](../com.aspose.zip/lzmaarchivesettings) | Settings for LZMA compression method within lzma archive. |
+| [LzmaArchiveSettings](../com.aspose.zip/lzmaarchivesettings) | Settings for lzma archive. |
 | [LzmaCompressionSettings](../com.aspose.zip/lzmacompressionsettings) | Settings for LZMA compression method. |
 | [MeteredLicense](../com.aspose.zip/meteredlicense) | Provides methods to set metered key. |
 | [PPMdCompressionSettings](../com.aspose.zip/ppmdcompressionsettings) | Settings for PPMd compression method. |
@@ -56,6 +64,7 @@ url: /java/com.aspose.zip/
 | [RarArchiveEntryEncrypted](../com.aspose.zip/rararchiveentryencrypted) | Rar entry that needs to be decompressed with decryption. |
 | [RarArchiveEntryPlain](../com.aspose.zip/rararchiveentryplain) | Rar entry that needs to be decompressed without decryption. |
 | [RarArchiveLoadOptions](../com.aspose.zip/rararchiveloadoptions) | Options with which [RarArchive](../com.aspose.zip/rararchive) is loaded from compressed file. |
+| [SelfExtractorOptions](../com.aspose.zip/selfextractoroptions) | Options for creation of self-extracting executable archive. |
 | [SevenZipAESEncryptionSettings](../com.aspose.zip/sevenzipaesencryptionsettings) | Settings for AES encryption or decryption algorithm. |
 | [SevenZipArchive](../com.aspose.zip/sevenziparchive) | This class represents 7z archive file. |
 | [SevenZipArchiveEntry](../com.aspose.zip/sevenziparchiveentry) | Represents single file within 7z archive. |
@@ -91,6 +100,8 @@ url: /java/com.aspose.zip/
 | [XarDirectoryEntry](../com.aspose.zip/xardirectoryentry) | Represents directory entry within xar archive. |
 | [XarEntry](../com.aspose.zip/xarentry) | Represents single entry within xar archive. |
 | [XarFileEntry](../com.aspose.zip/xarfileentry) | Represents file entry within xar archive. |
+| [XarLoadOptions](../com.aspose.zip/xarloadoptions) | Options with which archive is loaded from compressed file. |
+| [XarSaveOptions](../com.aspose.zip/xarsaveoptions) | Options for saving a xar archive. |
 | [XarStoreCompressionSettings](../com.aspose.zip/xarstorecompressionsettings) | Settings for Store compression method. |
 | [XarZlibCompressionSettings](../com.aspose.zip/xarzlibcompressionsettings) | Settings for Zlib compression method. |
 | [XzArchive](../com.aspose.zip/xzarchive) | This class represents xz archive file. |
@@ -100,8 +111,12 @@ url: /java/com.aspose.zip/
 | [XzFilterSettings](../com.aspose.zip/xzfiltersettings) | Base class for set of settings of particular xz format filter. |
 | [XzLZMA2FilterSettings](../com.aspose.zip/xzlzma2filtersettings) | Set of settings for xz LZMA2 filter. |
 | [ZArchive](../com.aspose.zip/zarchive) | This class represents Z (compress) archive file. |
+| [ZArchiveLoadOptions](../com.aspose.zip/zarchiveloadoptions) | Options with which [ZArchive](../com.aspose.zip/zarchive) is loaded from compressed file. |
+| [ZArchiveSaveOptions](../com.aspose.zip/zarchivesaveoptions) | Settings for Zarchive. |
 | [ZstandardArchive](../com.aspose.zip/zstandardarchive) | This class represents Zstandard archive file. |
 | [ZstandardCompressionSettings](../com.aspose.zip/zstandardcompressionsettings) | Settings for Zstandard compression method. |
+| [ZstandardLoadOptions](../com.aspose.zip/zstandardloadoptions) | Options with which [ZstandardArchive](../com.aspose.zip/zstandardarchive) is loaded from compressed file. |
+| [ZstandardSaveOptions](../com.aspose.zip/zstandardsaveoptions) | Settings for ZStandard archive. |
 
 ## Interfaces
 

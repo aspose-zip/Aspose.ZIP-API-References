@@ -3,7 +3,7 @@ title: Bzip2SaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a bzip2 archive.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.zip/bzip2saveoptions/
 ---
 
@@ -25,7 +25,9 @@ Options for saving a bzip2 archive.
 | Method | Description |
 | --- | --- |
 | [getBlockSize()](#getBlockSize--) | Block size in hundreds of kilobytes. |
+| [getCompressionProgressed()](#getCompressionProgressed--) | Gets an event that is raised when a portion of raw stream compressed. |
 | [getCompressionThreads()](#getCompressionThreads--) | Gets compression thread count. |
+| [setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream compressed. |
 | [setCompressionThreads(int value)](#setCompressionThreads-int-) | Sets compression thread count. |
 ### Bzip2SaveOptions(int blockSize) {#Bzip2SaveOptions-int-}
 ```
@@ -88,6 +90,28 @@ Block size in hundreds of kilobytes.
 
 **Returns:**
 int - block size in hundreds of kilobytes
+### getCompressionProgressed() {#getCompressionProgressed--}
+```
+public Event<ProgressEventArgs> getCompressionProgressed()
+```
+
+
+Gets an event that is raised when a portion of raw stream compressed.
+
+```
+
+     File source = new File("huge.bin");
+     Bzip2SaveOptions settings = new Bzip2SaveOptions();
+     settings.setCompressionProgressed((sender, args) -> {
+         int percent = (int)((100 * args.getProceededBytes()) / source.length());
+     });
+ 
+```
+
+This event won't be raised when compressing in multithreaded mode.
+
+**Returns:**
+[Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream compressed
 ### getCompressionThreads() {#getCompressionThreads--}
 ```
 public final int getCompressionThreads()
@@ -98,6 +122,31 @@ Gets compression thread count. If the value greater than 1, multithreading compr
 
 **Returns:**
 int - Compression thread count.
+### setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
+```
+public void setCompressionProgressed(Event<ProgressEventArgs> value)
+```
+
+
+Sets an event that is raised when a portion of raw stream compressed.
+
+```
+
+     File source = new File("huge.bin");
+     Bzip2SaveOptions settings = new Bzip2SaveOptions();
+     settings.setCompressionProgressed((sender, args) -> {
+         int percent = (int)((100 * args.getProceededBytes()) / source.length());
+     });
+ 
+```
+
+This event won't be raised when compressing in multithreaded mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when a portion of raw stream compressed |
+
 ### setCompressionThreads(int value) {#setCompressionThreads-int-}
 ```
 public final void setCompressionThreads(int value)

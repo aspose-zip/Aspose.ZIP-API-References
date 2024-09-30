@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 55
+weight: 64
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 

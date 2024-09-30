@@ -199,7 +199,7 @@ Gets an event that is raised when a portion of raw stream compressed.
 Event sender is an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance.
 
 **Returns:**
-[Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream compressed.
+[Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream compressed
 ### getCompressionSettings() {#getCompressionSettings--}
 ```
 public final CompressionSettings getCompressionSettings()
@@ -360,7 +360,7 @@ Event sender is an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when a portion of raw stream compressed. |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when a portion of raw stream compressed |
 
 ### setExtractionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
 ```

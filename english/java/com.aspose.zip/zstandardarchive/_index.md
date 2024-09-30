@@ -3,7 +3,7 @@ title: ZstandardArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Zstandard archive file.
 type: docs
-weight: 98
+weight: 111
 url: /java/com.aspose.zip/zstandardarchive/
 ---
 
@@ -23,8 +23,9 @@ This class represents Zstandard archive file. Use it to compose Zstandard archiv
 | --- | --- |
 | [ZstandardArchive()](#ZstandardArchive--) | Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstandardarchive) class prepared for compressing. |
 | [ZstandardArchive(InputStream sourceStream)](#ZstandardArchive-java.io.InputStream-) | Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstandardarchive) class prepared for decompressing. |
+| [ZstandardArchive(InputStream sourceStream, ZstandardLoadOptions options)](#ZstandardArchive-java.io.InputStream-com.aspose.zip.ZstandardLoadOptions-) | Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstandardarchive) class prepared for decompressing. |
 | [ZstandardArchive(String path)](#ZstandardArchive-java.lang.String-) | Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstandardarchive) class. |
-| [ZstandardArchive(String path, boolean parseHeader)](#ZstandardArchive-java.lang.String-boolean-) | Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstandardarchive) class. |
+| [ZstandardArchive(String path, ZstandardLoadOptions options)](#ZstandardArchive-java.lang.String-com.aspose.zip.ZstandardLoadOptions-) | Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstandardarchive) class. |
 ## Methods
 
 | Method | Description |
@@ -38,8 +39,11 @@ This class represents Zstandard archive file. Use it to compose Zstandard archiv
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
 | [save(File destination)](#save-java.io.File-) | Saves archive to destination file provided. |
+| [save(File destination, ZstandardSaveOptions settings)](#save-java.io.File-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to destination file provided. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
+| [save(OutputStream outputStream, ZstandardSaveOptions settings)](#save-java.io.OutputStream-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
+| [save(String destinationFileName, ZstandardSaveOptions settings)](#save-java.lang.String-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String path)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
@@ -97,6 +101,40 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/zstandar
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### ZstandardArchive(InputStream sourceStream, ZstandardLoadOptions options) {#ZstandardArchive-java.io.InputStream-com.aspose.zip.ZstandardLoadOptions-}
+```
+public ZstandardArchive(InputStream sourceStream, ZstandardLoadOptions options)
+```
+
+
+Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstandardarchive) class prepared for decompressing.
+
+Open an archive from a stream and extract it to a `ByteArrayOutputStream`
+
+```
+
+     ByteArrayOutputStream ms = new ByteArrayOutputStream();
+     try (ZstandardArchive archive = new ZstandardArchive(new FileInputStream("archive.zst"))) {
+         InputStream decompressed = archive.open();
+         byte[] b = new byte[8192];
+         int bytesRead;
+         while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
+             ms.write(b, 0, bytesRead);
+         }
+     } catch (IOException ex) {
+         System.out.println(ex);
+     }
+ 
+```
+
+This constructor does not decompress. See [open()](../../com.aspose.zip/zstandardarchive\#open--) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| options | [ZstandardLoadOptions](../../com.aspose.zip/zstandardloadoptions) | the options to load archive with |
+
 ### ZstandardArchive(String path) {#ZstandardArchive-java.lang.String-}
 ```
 public ZstandardArchive(String path)
@@ -130,9 +168,9 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/zstandar
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
 
-### ZstandardArchive(String path, boolean parseHeader) {#ZstandardArchive-java.lang.String-boolean-}
+### ZstandardArchive(String path, ZstandardLoadOptions options) {#ZstandardArchive-java.lang.String-com.aspose.zip.ZstandardLoadOptions-}
 ```
-public ZstandardArchive(String path, boolean parseHeader)
+public ZstandardArchive(String path, ZstandardLoadOptions options)
 ```
 
 
@@ -162,7 +200,7 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/zstandar
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
-| parseHeader | boolean | whether to parse stream header to figure out properties, including name. Makes sense for seekable stream only |
+| options | [ZstandardLoadOptions](../../com.aspose.zip/zstandardloadoptions) | the options to load archive with |
 
 ### close() {#close--}
 ```
@@ -310,6 +348,31 @@ Saves archive to destination file provided.
 | --- | --- | --- |
 | destination | java.io.File | the file which will be opened as destination stream |
 
+### save(File destination, ZstandardSaveOptions settings) {#save-java.io.File-com.aspose.zip.ZstandardSaveOptions-}
+```
+public final void save(File destination, ZstandardSaveOptions settings)
+```
+
+
+Saves archive to destination file provided.
+
+```
+
+     try (ZstandardArchive archive = new ZstandardArchive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save(new File("archive.zst"));
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destination | java.io.File | the file which will be opened as destination stream |
+| settings | [ZstandardSaveOptions](../../com.aspose.zip/zstandardsaveoptions) | the settings for archive composition |
+
 ### save(OutputStream outputStream) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream outputStream)
@@ -334,9 +397,34 @@ Writes compressed data to http response stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | java.io.OutputStream | destination stream.
+| outputStream | java.io.OutputStream | the destination stream |
 
-`outputStream` must be writable |
+### save(OutputStream outputStream, ZstandardSaveOptions settings) {#save-java.io.OutputStream-com.aspose.zip.ZstandardSaveOptions-}
+```
+public final void save(OutputStream outputStream, ZstandardSaveOptions settings)
+```
+
+
+Saves archive to the stream provided.
+
+Writes compressed data to http response stream.
+
+```
+
+     try (ZstandardArchive archive = new ZstandardArchive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save(outputStream);
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | java.io.OutputStream | the destination stream |
+| settings | [ZstandardSaveOptions](../../com.aspose.zip/zstandardsaveoptions) | the settings for archive composition |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
@@ -361,6 +449,31 @@ Saves archive to destination file provided.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+
+### save(String destinationFileName, ZstandardSaveOptions settings) {#save-java.lang.String-com.aspose.zip.ZstandardSaveOptions-}
+```
+public final void save(String destinationFileName, ZstandardSaveOptions settings)
+```
+
+
+Saves archive to destination file provided.
+
+```
+
+     try (ZstandardArchive archive = new ZstandardArchive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save("result.zst");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
+| settings | [ZstandardSaveOptions](../../com.aspose.zip/zstandardsaveoptions) | the settings for archive composition |
 
 ### setSource(File file) {#setSource-java.io.File-}
 ```

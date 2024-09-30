@@ -3,7 +3,7 @@ title: SevenZipArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within 7z archive.
 type: docs
-weight: 56
+weight: 65
 url: /java/com.aspose.zip/sevenziparchiveentry/
 ---
 
