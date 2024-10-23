@@ -25,6 +25,7 @@ public class ArchiveSaveOptions
 | Name | Description |
 | --- | --- |
 | [ArchiveComment](../../aspose.zip.saving/archivesaveoptions/archivecomment/) { get; set; } | Gets or sets optional comment for the Zip file. |
+| [CloseEntrySource](../../aspose.zip.saving/archivesaveoptions/closeentrysource/) { get; set; } | Gets or sets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [Encoding](../../aspose.zip.saving/archivesaveoptions/encoding/) { get; set; } | Gets or sets encoding for converting file names and other strings to bytes. |
 | [EncryptionOptions](../../aspose.zip.saving/archivesaveoptions/encryptionoptions/) { get; set; } | Gets of sets encryption settings for saving existing zip archive. |
 | [EventsBag](../../aspose.zip.saving/archivesaveoptions/eventsbag/) { get; set; } | Gets or sets container of events raising on archive saving. |
