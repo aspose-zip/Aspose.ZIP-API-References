@@ -21,6 +21,7 @@ public abstract class ArchiveEntry : IArchiveFileEntry
 | [Comment](../../aspose.zip/archiveentry/comment/) { get; } | Gets comment of the entry within archive. |
 | [CompressedSize](../../aspose.zip/archiveentry/compressedsize/) { get; } | Gets size of compressed file. |
 | [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings/) { get; } | Gets settings for compression or decompression. |
+| [DataSource](../../aspose.zip/archiveentry/datasource/) { get; } | Source for the entry if the entry was added to archive, not extracted. |
 | [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
 | [ModificationTime](../../aspose.zip/archiveentry/modificationtime/) { get; set; } | Gets or sets last modified date and time. |
 | [Name](../../aspose.zip/archiveentry/name/) { get; } | Gets name of the entry within archive. |

@@ -11,13 +11,17 @@ url: /net/aspose.zip.iso/isoarchive/createentry/
 Adds a file to the ISO image.
 
 ```csharp
-public void CreateEntry(string name, string filePath)
+public IsoEntry CreateEntry(string name, string filePath)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | Path of the file in the ISO. |
 | filePath | String | Path of the file. |
+
+### Return Value
+
+The ISO entry composed.
 
 ### Exceptions
 
@@ -32,6 +36,7 @@ public void CreateEntry(string name, string filePath)
 
 ### See Also
 
+* class [IsoEntry](../../isoentry/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)
@@ -43,7 +48,7 @@ public void CreateEntry(string name, string filePath)
 Adds a file to the ISO image.
 
 ```csharp
-public void CreateEntry(string name, Stream source)
+public IsoEntry CreateEntry(string name, Stream source)
 ```
 
 | Parameter | Type | Description |
@@ -51,8 +56,13 @@ public void CreateEntry(string name, Stream source)
 | name | String | Path of the file in the ISO. |
 | source | Stream | Stream containing the file data. |
 
+### Return Value
+
+The ISO entry composed.
+
 ### See Also
 
+* class [IsoEntry](../../isoentry/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)
@@ -64,12 +74,16 @@ public void CreateEntry(string name, Stream source)
 Adds a file to the ISO image.
 
 ```csharp
-public void CreateEntry(string name)
+public IsoEntry CreateEntry(string name)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | Path of the directory in the ISO. |
+
+### Return Value
+
+The ISO entry composed.
 
 ### Exceptions
 
@@ -80,6 +94,7 @@ public void CreateEntry(string name)
 
 ### See Also
 
+* class [IsoEntry](../../isoentry/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)

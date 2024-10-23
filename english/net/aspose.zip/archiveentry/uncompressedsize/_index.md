@@ -3,7 +3,7 @@ title: ArchiveEntry.UncompressedSize
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveEntry property. Gets size of original file
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip/archiveentry/uncompressedsize/
 ---
 ## ArchiveEntry.UncompressedSize property

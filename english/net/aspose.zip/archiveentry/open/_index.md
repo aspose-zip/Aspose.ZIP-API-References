@@ -3,7 +3,7 @@ title: ArchiveEntry.Open
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveEntry method. Opens the entry for extraction and provides a stream with decompressed entry content
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.zip/archiveentry/open/
 ---
 ## ArchiveEntry.Open method
