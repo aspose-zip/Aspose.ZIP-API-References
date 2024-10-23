@@ -11,12 +11,16 @@ url: /net/aspose.zip.iso/isoarchive/createdirectory/
 Adds a directory to the ISO image.
 
 ```csharp
-public void CreateDirectory(string name)
+public IsoEntry CreateDirectory(string name)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | Path of the directory in the ISO. |
+
+### Return Value
+
+The ISO entry composed.
 
 ### Exceptions
 
@@ -27,6 +31,7 @@ public void CreateDirectory(string name)
 
 ### See Also
 
+* class [IsoEntry](../../isoentry/)
 * class [IsoArchive](../)
 * namespace [Aspose.Zip.Iso](../../isoarchive/)
 * assembly [Aspose.Zip](../../../)

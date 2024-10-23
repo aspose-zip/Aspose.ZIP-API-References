@@ -3,7 +3,7 @@ title: ArchiveEntry.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveEntry method. Extracts the entry to the filesystem by the path provided
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.zip/archiveentry/extract/
 ---
 ## Extract(string, string) {#extract}

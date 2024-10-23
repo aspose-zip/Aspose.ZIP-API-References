@@ -3,7 +3,7 @@ title: ArchiveEntry.CompressionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveEntry event. Raises when a portion of raw stream compressed
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip/archiveentry/compressionprogressed/
 ---
 ## ArchiveEntry.CompressionProgressed event

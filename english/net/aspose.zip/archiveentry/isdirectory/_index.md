@@ -3,7 +3,7 @@ title: ArchiveEntry.IsDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveEntry property. Gets a value indicating whether the entry represents directory
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip/archiveentry/isdirectory/
 ---
 ## ArchiveEntry.IsDirectory property

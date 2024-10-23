@@ -3,7 +3,7 @@ title: ArchiveSaveOptions.SelfExtractorOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveSaveOptions property. Gets or sets settings for self extracted archive
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip.saving/archivesaveoptions/selfextractoroptions/
 ---
 ## ArchiveSaveOptions.SelfExtractorOptions property

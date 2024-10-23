@@ -36,10 +36,11 @@ public class Archive : IArchive
 | --- | --- |
 | [CreateEntries](../../aspose.zip/archive/createentries/#createentries)(DirectoryInfo, bool) | Adds to the archive all files and directories recursively in the directory given. |
 | [CreateEntries](../../aspose.zip/archive/createentries/#createentries_1)(string, bool) | Adds to the archive all files and directories recursively in the directory given. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_1)(string, Stream, ArchiveEntrySettings) | Create single entry within the archive. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry)(string, FileInfo, bool, ArchiveEntrySettings) | Create single entry within the archive. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_2)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Create single entry within the archive. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_3)(string, string, bool, ArchiveEntrySettings) | Create single entry within the archive. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry)(string, Func&lt;Stream&gt;, ArchiveEntrySettings) | Create single entry within the archive. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_2)(string, Stream, ArchiveEntrySettings) | Create single entry within the archive. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_1)(string, FileInfo, bool, ArchiveEntrySettings) | Create single entry within the archive. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_3)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Create single entry within the archive. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_4)(string, string, bool, ArchiveEntrySettings) | Create single entry within the archive. |
 | [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry)(ArchiveEntry) | Removes the first occurrence of a specific entry from the entries list. |
 | [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry_1)(int) | Removes the entry from the entries list by index. |
 | [Dispose](../../aspose.zip/archive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |

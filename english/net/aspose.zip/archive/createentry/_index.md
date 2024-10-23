@@ -6,7 +6,7 @@ type: docs
 weight: 50
 url: /net/aspose.zip/archive/createentry/
 ---
-## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_3}
+## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_4}
 
 Create single entry within the archive.
 
@@ -66,7 +66,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_1}
+## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_2}
 
 Create single entry within the archive.
 
@@ -105,7 +105,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ---
 
-## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry_1}
 
 Create single entry within the archive.
 
@@ -169,7 +169,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_2}
+## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_3}
 
 Create single entry within the archive.
 
@@ -211,6 +211,55 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
     using (var archive = new Archive())
     {
         archive.CreateEntry("entry1.bin", new MemoryStream(new byte[] {0x00, 0xFF} ), new ArchiveEntrySettings(new DeflateCompressionSettings(), new TraditionalEncryptionSettings("pass1")), new FileInfo("data1.bin")); 
+        archive.Save(zipFile);
+    }
+}
+```
+
+### See Also
+
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Func&lt;Stream&gt;, ArchiveEntrySettings) {#createentry}
+
+Create single entry within the archive.
+
+```csharp
+public ArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    ArchiveEntrySettings newEntrySettings = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the entry. |
+| streamProvider | Func`1 | The method providing input stream for the entry. |
+| newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for added [`ArchiveEntry`](../../archiveentry/) item. |
+
+### Return Value
+
+Zip entry instance.
+
+## Remarks
+
+This method is for .NET Framework 4.0 and above and for .NET Standard 2.0 version.
+
+## Examples
+
+Compose archive with encrypted entry.
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
+{
+    using (var archive = new Archive())
+    {
+        archive.CreateEntry("entry1.bin", provider, new ArchiveEntrySettings(new DeflateCompressionSettings(), new TraditionalEncryptionSettings("pass1")))); 
         archive.Save(zipFile);
     }
 }
