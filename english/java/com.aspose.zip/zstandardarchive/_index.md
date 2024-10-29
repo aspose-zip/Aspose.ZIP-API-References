@@ -3,7 +3,7 @@ title: ZstandardArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Zstandard archive file.
 type: docs
-weight: 111
+weight: 112
 url: /java/com.aspose.zip/zstandardarchive/
 ---
 

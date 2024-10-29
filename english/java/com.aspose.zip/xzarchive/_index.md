@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xz archive file.
 type: docs
-weight: 102
+weight: 103
 url: /java/com.aspose.zip/xzarchive/
 ---
 

@@ -11,9 +11,9 @@ url: /java/com.aspose.zip/isoarchive/
 java.lang.Object
 
 **All Implemented Interfaces:**
-com.aspose.zip.ICompressionArchive, [com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
+[com.aspose.zip.IArchive](../../com.aspose.zip/iarchive), java.lang.AutoCloseable
 ```
-public final class IsoArchive implements ICompressionArchive, IArchive, AutoCloseable
+public final class IsoArchive implements IArchive, AutoCloseable
 ```
 
 Represents an ISO archive (ISO 9660).
@@ -180,7 +180,7 @@ public void close()
 
 ### createDirectory(String name) {#createDirectory-java.lang.String-}
 ```
-public final void createDirectory(String name)
+public final IsoEntry createDirectory(String name)
 ```
 
 
@@ -191,9 +191,11 @@ Adds a directory to the ISO image.
 | --- | --- | --- |
 | name | java.lang.String | the path of the directory in the ISO |
 
+**Returns:**
+[IsoEntry](../../com.aspose.zip/isoentry) - the ISO entry composed
 ### createEntry(String name) {#createEntry-java.lang.String-}
 ```
-public final void createEntry(String name)
+public final IsoEntry createEntry(String name)
 ```
 
 
@@ -204,9 +206,11 @@ Adds a file to the ISO image.
 | --- | --- | --- |
 | name | java.lang.String | the path of the file in the ISO |
 
+**Returns:**
+[IsoEntry](../../com.aspose.zip/isoentry) - the ISO entry composed
 ### createEntry(String name, InputStream source) {#createEntry-java.lang.String-java.io.InputStream-}
 ```
-public final void createEntry(String name, InputStream source)
+public final IsoEntry createEntry(String name, InputStream source)
 ```
 
 
@@ -218,9 +222,11 @@ Adds a file to the ISO image.
 | name | java.lang.String | the path of the file in the ISO |
 | source | java.io.InputStream | the stream containing the file data |
 
+**Returns:**
+[IsoEntry](../../com.aspose.zip/isoentry) - the ISO entry composed
 ### createEntry(String name, String filePath) {#createEntry-java.lang.String-java.lang.String-}
 ```
-public final void createEntry(String name, String filePath)
+public final IsoEntry createEntry(String name, String filePath)
 ```
 
 
@@ -232,6 +238,8 @@ Adds a file to the ISO image.
 | name | java.lang.String | the path of the file in the ISO |
 | filePath | java.lang.String | the path of the file |
 
+**Returns:**
+[IsoEntry](../../com.aspose.zip/isoentry) - the ISO entry composed
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)

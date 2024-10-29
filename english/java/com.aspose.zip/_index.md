@@ -81,6 +81,7 @@ url: /java/com.aspose.zip/
 | [SevenZipStoreCompressionSettings](../com.aspose.zip/sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
 | [SharArchive](../com.aspose.zip/shararchive) | This class represents shar archive file. |
 | [SharEntry](../com.aspose.zip/sharentry) | Represents single file within shar archive. |
+| [SnappyArchive](../com.aspose.zip/snappyarchive) | This class represents snappy archive file. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
 | [SplitSevenZipArchiveSaveOptions](../com.aspose.zip/splitsevenziparchivesaveoptions) | Options for saving a multi-volume 7-zip archive. |
 | [StoreCompressionSettings](../com.aspose.zip/storecompressionsettings) | Settings for Store compression method. |
