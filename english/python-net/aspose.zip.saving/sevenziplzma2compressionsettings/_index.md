@@ -3,7 +3,7 @@ title: SevenZipLZMA2CompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 230
 url: /python-net/aspose.zip.saving/sevenziplzma2compressionsettings/
 ---
 

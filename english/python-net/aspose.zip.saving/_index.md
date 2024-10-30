@@ -13,6 +13,8 @@ Contains classes which are needed for operations entailing saving the archive.
 ## Classes
 | Class | Description |
 | :- | :- |
+|[AesEcryptionSettings](/zip/python-net/aspose.zip.saving/aesecryptionsettings/)|Settings for AES encryption or decryption algorithm.|
+|[ArchiveSaveOptions](/zip/python-net/aspose.zip.saving/archivesaveoptions/)|Options for saving a zip archive.|
 |[Bzip2CompressionSettings](/zip/python-net/aspose.zip.saving/bzip2compressionsettings/)|Settings for Bzip2 compression method.|
 |[CompressionSettings](/zip/python-net/aspose.zip.saving/compressionsettings/)|Settings needed for compressor or decompressor to work.|
 |[DeflateCompressionSettings](/zip/python-net/aspose.zip.saving/deflatecompressionsettings/)|Settings for Deflate compression method.|
@@ -20,8 +22,12 @@ Contains classes which are needed for operations entailing saving the archive.
 |[EnhancedDeflateCompressionSettings](/zip/python-net/aspose.zip.saving/enhanceddeflatecompressionsettings/)|Settings for Enhanced Deflate compression method.|
 |[EventsBag](/zip/python-net/aspose.zip.saving/eventsbag/)|Events container used on|
 |[LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/)|Settings for LZMA compression method.|
+|[ParallelOptions](/zip/python-net/aspose.zip.saving/paralleloptions/)|Options for parallel compression.|
 |[PPMdCompressionSettings](/zip/python-net/aspose.zip.saving/ppmdcompressionsettings/)|Settings for PPMd compression method.|
+|[SelfExtractorOptions](/zip/python-net/aspose.zip.saving/selfextractoroptions/)|Options for creation of self-extracting executable archive.|
+|[SplitArchiveSaveOptions](/zip/python-net/aspose.zip.saving/splitarchivesaveoptions/)|Options for saving a multi-volume zip archive.|
 |[StoreCompressionSettings](/zip/python-net/aspose.zip.saving/storecompressionsettings/)|Settings for Store compression method.|
+|[TraditionalEncryptionSettings](/zip/python-net/aspose.zip.saving/traditionalencryptionsettings/)|Settings for traditional ZipCrypto algorithm.|
 |[XzCompressionSettings](/zip/python-net/aspose.zip.saving/xzcompressionsettings/)|Settings for Xz compression method.|
 |[ZstandardCompressionSettings](/zip/python-net/aspose.zip.saving/zstandardcompressionsettings/)|Settings for Zstandard compression method.|
 |[SevenZipAESEncryptionSettings](/zip/python-net/aspose.zip.saving/sevenzipaesencryptionsettings/)|Settings for AES encryption or decryption algorithm.|
@@ -34,16 +40,10 @@ Contains classes which are needed for operations entailing saving the archive.
 |[SevenZipPPMdCompressionSettings](/zip/python-net/aspose.zip.saving/sevenzipppmdcompressionsettings/)|Settings for PPMd compression method within 7z archive.|
 |[SevenZipStoreCompressionSettings](/zip/python-net/aspose.zip.saving/sevenzipstorecompressionsettings/)|Settings for Store compression method within 7z archive.|
 |[SplitSevenZipArchiveSaveOptions](/zip/python-net/aspose.zip.saving/splitsevenziparchivesaveoptions/)|Options for saving a multi-volume 7-zip archive.|
-|[AesEcryptionSettings](/zip/python-net/aspose.zip.saving/aesecryptionsettings/)|Settings for AES encryption or decryption algorithm.|
 |[ArchiveEntrySettings](/zip/python-net/aspose.zip.saving/archiveentrysettings/)|Settings used to compress or decompress entries.|
-|[ArchiveSaveOptions](/zip/python-net/aspose.zip.saving/archivesaveoptions/)|Options for saving a zip archive.|
-|[ParallelOptions](/zip/python-net/aspose.zip.saving/paralleloptions/)|Options for parallel compression.|
-|[SelfExtractorOptions](/zip/python-net/aspose.zip.saving/selfextractoroptions/)|Options for creation of self-extracting executable archive.|
-|[SplitArchiveSaveOptions](/zip/python-net/aspose.zip.saving/splitarchivesaveoptions/)|Options for saving a multi-volume zip archive.|
-|[TraditionalEncryptionSettings](/zip/python-net/aspose.zip.saving/traditionalencryptionsettings/)|Settings for traditional ZipCrypto algorithm.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
 |[EncryptionMethod](/zip/python-net/aspose.zip.saving/encryptionmethod/)|Encryption/decryption methods can be used with zip archive.|
-|[SevenZipCompressionMethod](/zip/python-net/aspose.zip.saving/sevenzipcompressionmethod/)|Methods of compression that 7Z format support.|
 |[ParallelCompressionMode](/zip/python-net/aspose.zip.saving/parallelcompressionmode/)|Options of usage parallel compression facility.|
+|[SevenZipCompressionMethod](/zip/python-net/aspose.zip.saving/sevenzipcompressionmethod/)|Methods of compression that 7Z format support.|

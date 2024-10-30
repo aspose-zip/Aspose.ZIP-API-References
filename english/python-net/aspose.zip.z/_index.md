@@ -14,5 +14,5 @@ Contains classes which represent Z archive related entities.
 | Class | Description |
 | :- | :- |
 |[ZArchive](/zip/python-net/aspose.zip.z/zarchive/)|This class represents Z (compress) archive file. Use it to compose or extract Z archives.|
-|[ZArchiveLoadOptions](/zip/python-net/aspose.zip.z/zarchiveloadoptions/)|Options with which|
-|[ZArchiveSaveOptions](/zip/python-net/aspose.zip.z/zarchivesaveoptions/)|Settings for Zarchive.|
+|[ZArchiveLoadOptions](/zip/python-net/aspose.zip.z/zarchiveloadoptions/)||
+|[ZArchiveSaveOptions](/zip/python-net/aspose.zip.z/zarchivesaveoptions/)||

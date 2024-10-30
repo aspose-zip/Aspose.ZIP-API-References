@@ -3,7 +3,7 @@ title: StoreCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 140
 url: /python-net/aspose.zip.saving/storecompressionsettings/
 ---
 

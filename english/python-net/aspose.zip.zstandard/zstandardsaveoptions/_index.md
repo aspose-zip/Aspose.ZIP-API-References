@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.zstandard/zstandardsaveoptions/
 
 ## ZstandardSaveOptions class
 
-Settings for ZStandard  archive.
+
 
 The ZstandardSaveOptions type exposes the following members:
 ## Constructors

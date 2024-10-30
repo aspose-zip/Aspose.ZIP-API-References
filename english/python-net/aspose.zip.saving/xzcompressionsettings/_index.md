@@ -3,7 +3,7 @@ title: XzCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 160
 url: /python-net/aspose.zip.saving/xzcompressionsettings/
 ---
 

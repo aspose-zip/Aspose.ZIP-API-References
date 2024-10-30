@@ -29,8 +29,8 @@ The IsoArchive type exposes the following members:
 |create_entry(name, file_path)|Adds a file to the ISO image.|
 |create_entry(name, source)|Adds a file to the ISO image.|
 |create_entry(name)|Adds a file to the ISO image.|
-|save(path, save_options)|Saves the ISO image to the specified path.|
-|save(stream, save_options)|Saves the ISO image to the specified stream.|
+|save(path, save_options)|  |
+|save(stream, save_options)|  |
 |create_directory(name)|Adds a directory to the ISO image.|
 |extract_to_directory(destination_directory)|Extracts all entries to the specified directory.|
 

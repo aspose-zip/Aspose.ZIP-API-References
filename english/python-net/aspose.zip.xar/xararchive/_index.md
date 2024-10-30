@@ -28,8 +28,8 @@ The XarArchive type exposes the following members:
 | :- | :- |
 |create_entry(name, source_path, open_immediately, compression_settings)|Create single entry within the archive.|
 |create_entry(name, source, compression_settings)|Create single entry within the archive.|
-|save(destination_file_name, save_options)|Saves archive to destination file provided.|
-|save(output, save_options)|Saves archive to the stream provided.|
+|save(destination_file_name, save_options)|  |
+|save(output, save_options)|  |
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 |create_entries(source_directory, include_root_directory, compression_settings)|Adds to the archive all the files and directories recursively in the directory given.|
 |delete_entry(entry)|Removes the first occurrence of a specific entry from the entries list.|

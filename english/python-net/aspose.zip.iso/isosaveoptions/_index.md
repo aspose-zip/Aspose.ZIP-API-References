@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.iso/isosaveoptions/
 
 ## IsoSaveOptions class
 
-Options for saving an ISO archive.
+
 
 The IsoSaveOptions type exposes the following members:
 ## Constructors
@@ -19,7 +19,7 @@ The IsoSaveOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|events_bag|Gets or sets container of events raising on archive saving.|
+|events_bag|  |
 
 ### See Also
 

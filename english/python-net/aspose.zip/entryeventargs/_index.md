@@ -3,13 +3,13 @@ title: EntryEventArgs
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
-url: /python-net/aspose.zip.xar/entryeventargs/
+weight: 130
+url: /python-net/aspose.zip/entryeventargs/
 ---
 
 ## EntryEventArgs class
 
-
+Event arguments for entry related events.
 
 The EntryEventArgs type exposes the following members:
 ## Constructors
@@ -19,10 +19,10 @@ The EntryEventArgs type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|entry|  |
+|entry|Gets the archive entry the event is raised for.|
 
 ### See Also
 
-* namespace [aspose.zip.xar](/zip/python-net/aspose.zip.xar/)
+* namespace [aspose.zip](/zip/python-net/aspose.zip/)
 * assembly [Aspose.Zip](/zip/python-net/)
 

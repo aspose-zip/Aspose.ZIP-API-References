@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.bzip2/bzip2loadoptions/
 
 ## Bzip2LoadOptions class
 
-Options for loading
+
 
 The Bzip2LoadOptions type exposes the following members:
 ## Constructors

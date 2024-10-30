@@ -29,8 +29,8 @@ The ZArchive type exposes the following members:
 | :- | :- |
 |extract(destination)|Extracts Z archive to a stream.|
 |extract(path)|Extracts Z archive to a file by path.|
-|save(output, settings)|Saves xz archive to the stream provided.|
-|save(destination_file_name, settings)|Saves Z archive to destination file provided.|
+|save(output, settings)|  |
+|save(destination_file_name, settings)|  |
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|

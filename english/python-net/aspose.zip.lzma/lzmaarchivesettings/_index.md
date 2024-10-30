@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.lzma/lzmaarchivesettings/
 
 ## LzmaArchiveSettings class
 
-Settings for lzma archive.
+Settings for LZMA compression method within lzma archive.
 
 The LzmaArchiveSettings type exposes the following members:
 ## Constructors

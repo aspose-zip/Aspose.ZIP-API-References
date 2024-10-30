@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.iso/eventsbag/
 
 ## EventsBag class
 
-Events container used on
+
 
 The EventsBag type exposes the following members:
 ## Constructors

@@ -17,6 +17,12 @@ The IsoEntry type exposes the following members:
 | :- | :- |
 |name|Gets the name of the entry.|
 |is_directory|Gets a value indicating whether the entry is a directory.|
+|length|Gets the length of the entry in bytes.|
+## Methods
+| Name | Description |
+| :- | :- |
+|extract(path)|Extracts the entry to the filesystem by the path provided.|
+|extract(destination)|Extracts the entry to the stream provided.|
 
 ### See Also
 

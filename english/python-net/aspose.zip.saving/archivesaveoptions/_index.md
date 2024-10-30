@@ -3,7 +3,7 @@ title: ArchiveSaveOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 20
 url: /python-net/aspose.zip.saving/archivesaveoptions/
 ---
 
@@ -24,6 +24,7 @@ The ArchiveSaveOptions type exposes the following members:
 |parallel_options|Gets or sets settings for parallel compression.|
 |self_extractor_options|Gets or sets settings for self extracted archive.|
 |events_bag|Gets or sets container of events raising on archive saving.|
+|close_entry_source|  |
 |encryption_options|Gets of sets encryption settings for saving existing zip archive.|
 
 ### See Also
