@@ -15,7 +15,7 @@ The XzCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XzCompressionSettings()|Initializes a new instance of the [XzCompressionSettings](/zip/python-net/aspose.zip.saving/xzcompressionsettings/) class.|
+|XzCompressionSettings()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

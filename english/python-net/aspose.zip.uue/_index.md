@@ -8,7 +8,7 @@ url: /python-net/aspose.zip.uue/
 ---
 
 
-Contains classes which represent uue archive related entities.
+
 
 ## Classes
 | Class | Description |

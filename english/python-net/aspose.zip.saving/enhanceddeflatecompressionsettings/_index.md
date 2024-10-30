@@ -15,7 +15,7 @@ The EnhancedDeflateCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|EnhancedDeflateCompressionSettings()|Initializes a new instance of the [EnhancedDeflateCompressionSettings](/zip/python-net/aspose.zip.saving/enhanceddeflatecompressionsettings/) class.|
+|EnhancedDeflateCompressionSettings()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

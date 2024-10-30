@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.z/zarchivesaveoptions/
 
 ## ZArchiveSaveOptions class
 
-
+Settings for Zarchive.
 
 The ZArchiveSaveOptions type exposes the following members:
 ## Constructors

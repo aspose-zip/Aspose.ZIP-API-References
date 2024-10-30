@@ -17,12 +17,12 @@ Contains classes which represent Xar archive related entities.
 |[XarCompressionSettings](/zip/python-net/aspose.zip.xar/xarcompressionsettings/)|Settings needed for compressor to work.|
 |[XarStoreCompressionSettings](/zip/python-net/aspose.zip.xar/xarstorecompressionsettings/)|Settings for Store compression method.|
 |[XarZlibCompressionSettings](/zip/python-net/aspose.zip.xar/xarzlibcompressionsettings/)|Settings for Zlib compression method.|
-|[CancelEntryEventArgs](/zip/python-net/aspose.zip.xar/cancelentryeventargs/)||
-|[EntryEventArgs](/zip/python-net/aspose.zip.xar/entryeventargs/)||
-|[EventsBag](/zip/python-net/aspose.zip.xar/eventsbag/)||
+|[CancelEntryEventArgs](/zip/python-net/aspose.zip.xar/cancelentryeventargs/)|Event arguments for cancelable entry related events.|
+|[EntryEventArgs](/zip/python-net/aspose.zip.xar/entryeventargs/)|Event arguments for entry related events.|
+|[EventsBag](/zip/python-net/aspose.zip.xar/eventsbag/)|Events container used on [XarArchive](/zip/python-net/aspose.zip.xar/xararchive/) saving.|
 |[XarArchive](/zip/python-net/aspose.zip.xar/xararchive/)|This class represents xar archive file.|
 |[XarDirectoryEntry](/zip/python-net/aspose.zip.xar/xardirectoryentry/)|Represents directory entry within xar archive.|
 |[XarEntry](/zip/python-net/aspose.zip.xar/xarentry/)|Represents single entry within xar archive.|
 |[XarFileEntry](/zip/python-net/aspose.zip.xar/xarfileentry/)|Represents file entry within xar archive.|
-|[XarLoadOptions](/zip/python-net/aspose.zip.xar/xarloadoptions/)||
-|[XarSaveOptions](/zip/python-net/aspose.zip.xar/xarsaveoptions/)||
+|[XarLoadOptions](/zip/python-net/aspose.zip.xar/xarloadoptions/)|Options with which archive is loaded from compressed file.|
+|[XarSaveOptions](/zip/python-net/aspose.zip.xar/xarsaveoptions/)|Options for saving a xar archive.|

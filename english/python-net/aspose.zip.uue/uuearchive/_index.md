@@ -15,14 +15,14 @@ The UueArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|UueArchive()|Initializes a new instance of the [UueArchive](/zip/python-net/aspose.zip.uue/uuearchive/) class prepared for encoding.|
+|UueArchive()|Initializes a new instance of the|
 |UueArchive(source_stream)|Initializes a new instance of the UueArchive class|
 |UueArchive(path)|Initializes a new instance of the UueArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
 |name|Name of original file.|
-|file_entries|Gets entries of|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |

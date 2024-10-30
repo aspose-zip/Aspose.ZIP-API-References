@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.iso/entryeventargs/
 
 ## EntryEventArgs class
 
-
+Event arguments for entry related events.
 
 The EntryEventArgs type exposes the following members:
 ## Constructors
@@ -19,7 +19,7 @@ The EntryEventArgs type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|entry|  |
+|entry|Gets the archive entry the event is raised for.|
 
 ### See Also
 

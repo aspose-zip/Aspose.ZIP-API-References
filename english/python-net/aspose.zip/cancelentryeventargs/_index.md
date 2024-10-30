@@ -19,7 +19,7 @@ The CancelEntryEventArgs type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|entry|  |
+|entry|Gets the archive entry the event is raised for.|
 |cancel|Gets or sets a value indicating whether the event should be canceled.|
 
 ### See Also

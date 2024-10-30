@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.xar/xarsaveoptions/
 
 ## XarSaveOptions class
 
-
+Options for saving a xar archive.
 
 The XarSaveOptions type exposes the following members:
 ## Constructors
@@ -19,7 +19,7 @@ The XarSaveOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|events_bag|  |
+|events_bag|Gets or sets container of events raising on archive saving.|
 
 ### See Also
 

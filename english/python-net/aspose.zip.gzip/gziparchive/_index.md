@@ -15,14 +15,14 @@ The GzipArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GzipArchive()|Initializes a new instance of the [GzipArchive](/zip/python-net/aspose.zip.gzip/gziparchive/) class prepared for compressing.|
+|GzipArchive()|Initializes a new instance of the|
 |GzipArchive(source_stream, parse_header)|Initializes a new instance of the GzipArchive class|
 |GzipArchive(path, parse_header)|Initializes a new instance of the GzipArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
 |name|Name of original file.|
-|file_entries|Gets entries of|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |

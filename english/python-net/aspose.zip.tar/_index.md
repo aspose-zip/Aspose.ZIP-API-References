@@ -18,4 +18,4 @@ Contains classes which represent tar archive related entities.
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |
-|[TarFormat](/zip/python-net/aspose.zip.tar/tarformat/)|Enumeration with supported formats of|
+|[TarFormat](/zip/python-net/aspose.zip.tar/tarformat/)|Enumeration with supported formats of [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/).|

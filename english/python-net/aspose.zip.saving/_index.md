@@ -20,7 +20,7 @@ Contains classes which are needed for operations entailing saving the archive.
 |[DeflateCompressionSettings](/zip/python-net/aspose.zip.saving/deflatecompressionsettings/)|Settings for Deflate compression method.|
 |[EncryptionSettings](/zip/python-net/aspose.zip.saving/encryptionsettings/)|Base class for settings for several zip encryption methods.|
 |[EnhancedDeflateCompressionSettings](/zip/python-net/aspose.zip.saving/enhanceddeflatecompressionsettings/)|Settings for Enhanced Deflate compression method.|
-|[EventsBag](/zip/python-net/aspose.zip.saving/eventsbag/)|Events container used on|
+|[EventsBag](/zip/python-net/aspose.zip.saving/eventsbag/)|Events container used on [Archive](/zip/python-net/aspose.zip/archive/) saving.|
 |[LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/)|Settings for LZMA compression method.|
 |[ParallelOptions](/zip/python-net/aspose.zip.saving/paralleloptions/)|Options for parallel compression.|
 |[PPMdCompressionSettings](/zip/python-net/aspose.zip.saving/ppmdcompressionsettings/)|Settings for PPMd compression method.|

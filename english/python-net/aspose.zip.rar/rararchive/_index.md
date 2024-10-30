@@ -20,8 +20,8 @@ The RarArchive type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|entries|Gets entries of|
-|file_entries|Gets entries of|
+|entries|Gets entries of [RarArchiveEntry](/zip/python-net/aspose.zip.rar/rararchiveentry/) type constituting the rar archive.|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 ## Methods
 | Name | Description |
 | :- | :- |

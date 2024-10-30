@@ -15,7 +15,7 @@ The DeflateCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|DeflateCompressionSettings()|Initializes a new instance of the [DeflateCompressionSettings](/zip/python-net/aspose.zip.saving/deflatecompressionsettings/) class.|
+|DeflateCompressionSettings()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

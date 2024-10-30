@@ -15,14 +15,14 @@ The TarArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TarArchive()|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class.|
+|TarArchive()|Initializes a new instance of the|
 |TarArchive(source_stream)|Initializes a new instance of the TarArchive class|
 |TarArchive(path)|Initializes a new instance of the TarArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
-|entries|Gets entries of|
-|file_entries|Gets entries of|
+|entries|Gets entries of [TarEntry](/zip/python-net/aspose.zip.tar/tarentry/) type constituting the archive.|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -42,18 +42,18 @@ The TarArchive type exposes the following members:
 |save_xz_compressed(path, format, settings)|  |
 |save_z_compressed(output, format)|  |
 |save_z_compressed(path, format)|  |
-|from_g_zip(source)|Extracts supplied gzip archive and composes|
-|from_g_zip(path)|Extracts supplied gzip archive and composes|
-|from_zstandard(source)|Extracts supplied Zstandard archive and composes|
-|from_zstandard(path)|Extracts supplied Zstandard archive and composes|
-|from_l_zip(source)|Extracts supplied lzip archive and composes|
-|from_l_zip(path)|Extracts supplied lzip archive and composes|
-|from_lzma(source)|Extracts supplied LZMA archive and composes|
-|from_lzma(path)|Extracts supplied LZMA archive and composes|
-|from_xz(source)|Extracts supplied xz format archive and composes|
-|from_xz(path)|Extracts supplied xz format archive and composes|
-|from_z(source)|Extracts supplied Zstandard archive and composes|
-|from_z(path)|Extracts supplied Zstandard archive and composes|
+|from_g_zip(source)|Extracts supplied gzip archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_g_zip(path)|Extracts supplied gzip archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_zstandard(source)|Extracts supplied Zstandard archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_zstandard(path)|Extracts supplied Zstandard archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_l_zip(source)|Extracts supplied lzip archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_l_zip(path)|Extracts supplied lzip archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_lzma(source)|Extracts supplied LZMA archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_lzma(path)|Extracts supplied LZMA archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_xz(source)|Extracts supplied xz format archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_xz(path)|Extracts supplied xz format archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_z(source)|Extracts supplied Zstandard archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_z(path)|Extracts supplied Zstandard archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |create_entry(name, path, open_immediately)|Create single entry within the archive.|
 |create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|

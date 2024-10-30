@@ -15,7 +15,7 @@ The ArchiveFormatDetector type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ArchiveFormatDetector()|Initializes a new instance of the [ArchiveFormatDetector](/zip/python-net/aspose.zip.archiveinfo/archiveformatdetector/) class.|
+|ArchiveFormatDetector()|Initializes a new instance of the|
 ## Methods
 | Name | Description |
 | :- | :- |

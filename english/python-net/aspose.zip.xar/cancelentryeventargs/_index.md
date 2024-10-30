@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.xar/cancelentryeventargs/
 
 ## CancelEntryEventArgs class
 
-
+Event arguments for cancelable entry related events.
 
 The CancelEntryEventArgs type exposes the following members:
 ## Constructors
@@ -19,8 +19,8 @@ The CancelEntryEventArgs type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|entry|  |
-|cancel|  |
+|entry|Gets the archive entry the event is raised for.|
+|cancel|Gets or sets a value indicating whether the event should be canceled.|
 
 ### See Also
 
