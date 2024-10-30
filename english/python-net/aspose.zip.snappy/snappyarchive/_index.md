@@ -16,8 +16,8 @@ The SnappyArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |SnappyArchive()|Initializes a new instance of the [SnappyArchive](/zip/python-net/aspose.zip.snappy/snappyarchive/) class prepared for compressing.|
-|SnappyArchive(source)|Initializes a new instance of the SnappyArchive class|
-|SnappyArchive(path)|Initializes a new instance of the SnappyArchive class|
+|SnappyArchive(source)|Initializes a new instance of the [SnappyArchive](/zip/python-net/aspose.zip.snappy/snappyarchive/) class prepared for decompressing.|
+|SnappyArchive(path)|Initializes a new instance of the [SnappyArchive](/zip/python-net/aspose.zip.snappy/snappyarchive/) class prepared for decompressing.|
 ## Properties
 | Name | Description |
 | :- | :- |

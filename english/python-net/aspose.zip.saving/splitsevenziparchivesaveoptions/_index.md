@@ -15,7 +15,7 @@ The SplitSevenZipArchiveSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SplitSevenZipArchiveSaveOptions(file_name, segment_size)|Initializes a new instance of the SplitSevenZipArchiveSaveOptions class|
+|SplitSevenZipArchiveSaveOptions(file_name, segment_size)|Instantiates settings for saving a multi-volume 7z archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

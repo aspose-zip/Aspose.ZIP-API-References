@@ -15,9 +15,9 @@ The LzmaArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LzmaArchive(settings)|Initializes a new instance of the LzmaArchive class|
-|LzmaArchive(source)|Initializes a new instance of the LzmaArchive class|
-|LzmaArchive(path)|Initializes a new instance of the LzmaArchive class|
+|LzmaArchive(settings)|Initializes a new instance of the [LzmaArchive](/zip/python-net/aspose.zip.lzma/lzmaarchive/) class and composes the archive in lzma format.|
+|LzmaArchive(source)|Initializes a new instance of the [LzmaArchive](/zip/python-net/aspose.zip.lzma/lzmaarchive/) class prepared for decompressing.|
+|LzmaArchive(path)|Initializes a new instance of the [LzmaArchive](/zip/python-net/aspose.zip.lzma/lzmaarchive/) class prepared for decompressing.|
 ## Properties
 | Name | Description |
 | :- | :- |

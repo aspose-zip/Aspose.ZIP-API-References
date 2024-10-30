@@ -15,8 +15,8 @@ The WimArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|WimArchive(source_stream)|Initializes a new instance of the WimArchive class|
-|WimArchive(path)|Initializes a new instance of the WimArchive class|
+|WimArchive(source_stream)|Initializes a new instance of the [WimArchive](/zip/python-net/aspose.zip.wim/wimarchive/) class and composes entries list can be extracted from the archive.|
+|WimArchive(path)|Initializes a new instance of the [WimArchive](/zip/python-net/aspose.zip.wim/wimarchive/) class and composes entries list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

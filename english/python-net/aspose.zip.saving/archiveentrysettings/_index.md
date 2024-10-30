@@ -15,7 +15,7 @@ The ArchiveEntrySettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ArchiveEntrySettings(compression_settings, encryption_settings)|Initializes a new instance of the ArchiveEntrySettings class|
+|ArchiveEntrySettings(compression_settings, encryption_settings)|Initializes a new instance of the [ArchiveEntrySettings](/zip/python-net/aspose.zip.saving/archiveentrysettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

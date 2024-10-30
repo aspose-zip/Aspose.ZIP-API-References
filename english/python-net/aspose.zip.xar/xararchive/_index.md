@@ -15,9 +15,9 @@ The XarArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XarArchive(default_compression_settings)|Initializes a new instance of the XarArchive class|
-|XarArchive(source_stream, load_options)|Initializes a new instance of the XarArchive class|
-|XarArchive(path, load_options)|Initializes a new instance of the XarArchive class|
+|XarArchive(default_compression_settings)|Initializes a new instance of the [XarArchive](/zip/python-net/aspose.zip.xar/xararchive/) class.|
+|XarArchive(source_stream, load_options)|Initializes a new instance of the [XarArchive](/zip/python-net/aspose.zip.xar/xararchive/) class and composes entries list can be extracted from the archive.|
+|XarArchive(path, load_options)|Initializes a new instance of the [XarArchive](/zip/python-net/aspose.zip.xar/xararchive/) class and composes entries list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -15,7 +15,7 @@ The SevenZipEntrySettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SevenZipEntrySettings(compression_settings, encryption_settings)|Initializes a new instance of the SevenZipEntrySettings class|
+|SevenZipEntrySettings(compression_settings, encryption_settings)|Initializes a new instance of the [SevenZipEntrySettings](/zip/python-net/aspose.zip.saving/sevenzipentrysettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

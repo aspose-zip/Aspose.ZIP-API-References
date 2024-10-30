@@ -15,8 +15,8 @@ The AesEcryptionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AesEcryptionSettings(password, method)|Initializes a new instance of the AesEcryptionSettings class|
-|AesEcryptionSettings(method)|Initializes a new instance of the AesEcryptionSettings class|
+|AesEcryptionSettings(password, method)|Initializes a new instance of the [AesEcryptionSettings](/zip/python-net/aspose.zip.saving/aesecryptionsettings/) class.|
+|AesEcryptionSettings(method)|Initializes a new instance of the [AesEcryptionSettings](/zip/python-net/aspose.zip.saving/aesecryptionsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

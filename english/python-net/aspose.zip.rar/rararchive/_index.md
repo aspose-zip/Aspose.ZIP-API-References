@@ -15,8 +15,8 @@ The RarArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RarArchive(path, load_options)|Initializes a new instance of the RarArchive class|
-|RarArchive(source_stream, load_options)|Initializes a new instance of the RarArchive class|
+|RarArchive(path, load_options)|Initializes a new instance of the [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) class and composes entries list can be extracted from the archive.|
+|RarArchive(source_stream, load_options)|Initializes a new instance of the [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) class and composes entries list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -15,7 +15,7 @@ The CancelEntryEventArgs type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CancelEntryEventArgs(entry)|Initializes a new instance of the CancelEntryEventArgs class|
+|CancelEntryEventArgs(entry)|Initializes a new instance of the [CancelEntryEventArgs](/zip/python-net/aspose.zip.xar/cancelentryeventargs/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
