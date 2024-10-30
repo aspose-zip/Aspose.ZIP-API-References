@@ -3,7 +3,7 @@ title: SevenZipCompressionMethod
 second_title: Aspose.ZIP for Java API Reference
 description: Methods of compression that 7z format support.
 type: docs
-weight: 122
+weight: 123
 url: /java/com.aspose.zip/sevenzipcompressionmethod/
 ---
 

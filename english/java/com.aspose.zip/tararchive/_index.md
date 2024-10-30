@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents tar archive file.
 type: docs
-weight: 82
+weight: 83
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -852,7 +852,7 @@ Saves archive to destination file provided.
      try (TarArchive archive = new TarArchive()) {
          archive.createEntry("entry1", "data.bin");
          archive.save("myarchive.tar");
- }
+     }
  
 ```
 
@@ -878,7 +878,7 @@ Saves archive to destination file provided.
      try (TarArchive archive = new TarArchive()) {
          archive.createEntry("entry1", "data.bin");
          archive.save("myarchive.tar");
- }
+     }
  
 ```
 

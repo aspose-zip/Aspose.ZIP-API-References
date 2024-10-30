@@ -3,7 +3,7 @@ title: UueArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents uuencoded file.
 type: docs
-weight: 85
+weight: 86
 url: /java/com.aspose.zip/uuearchive/
 ---
 

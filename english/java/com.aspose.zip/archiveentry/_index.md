@@ -31,6 +31,7 @@ Cast an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance to [ArchiveEn
 | [getCompressedSize()](#getCompressedSize--) | Gets size of compressed file. |
 | [getCompressionProgressed()](#getCompressionProgressed--) | Gets an event that is raised when a portion of raw stream compressed. |
 | [getCompressionSettings()](#getCompressionSettings--) | Gets settings for compression or decompression. |
+| [getDataSource()](#getDataSource--) | Source for the entry if the entry was added to archive, not extracted. |
 | [getExtractionProgressed()](#getExtractionProgressed--) | Gets an event that is raised when a portion of raw stream extracted. |
 | [getLength()](#getLength--) | Gets length. |
 | [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
@@ -210,6 +211,18 @@ Gets settings for compression or decompression.
 
 **Returns:**
 [CompressionSettings](../../com.aspose.zip/compressionsettings) - settings for compression or decompression.
+### getDataSource() {#getDataSource--}
+```
+public final InputStream getDataSource()
+```
+
+
+Source for the entry if the entry was added to archive, not extracted.
+
+Before assigned, the source is null. This source may be assigned within `Archive.save` method in some cases.
+
+**Returns:**
+java.io.InputStream - the source for the entry
 ### getExtractionProgressed() {#getExtractionProgressed--}
 ```
 public final Event<ProgressEventArgs> getExtractionProgressed()
