@@ -15,7 +15,7 @@ The ZArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ZArchive()|Initializes a new instance of the|
+|ZArchive()|Initializes a new instance of the [ZArchive](/zip/python-net/aspose.zip.z/zarchive/) class prepared for compressing.|
 |ZArchive(source, load_options)|Initializes a new instance of the ZArchive class|
 |ZArchive(path, load_options)|Initializes a new instance of the ZArchive class|
 ## Properties

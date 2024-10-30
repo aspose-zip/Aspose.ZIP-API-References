@@ -15,7 +15,7 @@ The LzmaCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LzmaCompressionSettings()|Initializes a new instance of the|
+|LzmaCompressionSettings()|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with default dictionary size, equals to 16 megabytes.|
 ## Properties
 | Name | Description |
 | :- | :- |

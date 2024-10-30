@@ -15,7 +15,7 @@ The GzipArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|GzipArchive()|Initializes a new instance of the|
+|GzipArchive()|Initializes a new instance of the [GzipArchive](/zip/python-net/aspose.zip.gzip/gziparchive/) class prepared for compressing.|
 |GzipArchive(source_stream, parse_header)|Initializes a new instance of the GzipArchive class|
 |GzipArchive(path, parse_header)|Initializes a new instance of the GzipArchive class|
 ## Properties

@@ -15,7 +15,7 @@ The TarArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TarArchive()|Initializes a new instance of the|
+|TarArchive()|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class.|
 |TarArchive(source_stream)|Initializes a new instance of the TarArchive class|
 |TarArchive(path)|Initializes a new instance of the TarArchive class|
 ## Properties

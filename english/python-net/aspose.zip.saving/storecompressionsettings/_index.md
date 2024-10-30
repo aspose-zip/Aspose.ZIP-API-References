@@ -15,7 +15,7 @@ The StoreCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|StoreCompressionSettings()|Initializes a new instance of the|
+|StoreCompressionSettings()|Initializes a new instance of the [StoreCompressionSettings](/zip/python-net/aspose.zip.saving/storecompressionsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

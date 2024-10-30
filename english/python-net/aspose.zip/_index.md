@@ -13,7 +13,7 @@ Contains classes which represent zip archive and common archive related entities
 ## Classes
 | Class | Description |
 | :- | :- |
-|[ArchiveFactory](/zip/python-net/aspose.zip/archivefactory/)|Detects the archive format and creates the appropriate|
+|[ArchiveFactory](/zip/python-net/aspose.zip/archivefactory/)|Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of archive.|
 |[IArchive](/zip/python-net/aspose.zip/iarchive/)|This interface represents an archive.|
 |[IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/)|This interface represents an archive file entry.|
 |[ComHelper](/zip/python-net/aspose.zip/comhelper/)|Provides methods for COM clients to load archives into Aspose.Zip.|
