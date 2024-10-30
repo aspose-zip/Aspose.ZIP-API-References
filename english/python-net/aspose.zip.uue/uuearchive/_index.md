@@ -15,7 +15,7 @@ The UueArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|UueArchive()|Initializes a new instance of the|
+|UueArchive()|Initializes a new instance of the [UueArchive](/zip/python-net/aspose.zip.uue/uuearchive/) class prepared for encoding.|
 |UueArchive(source_stream)|Initializes a new instance of the UueArchive class|
 |UueArchive(path)|Initializes a new instance of the UueArchive class|
 ## Properties
