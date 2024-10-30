@@ -15,12 +15,12 @@ The SharArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SharArchive()|Initializes a new instance of the [SharArchive](/zip/python-net/aspose.zip.shar/shararchive/) class.|
+|SharArchive()|Initializes a new instance of the|
 |SharArchive(path)|Initializes a new instance of the SharArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
-|entries|Gets entries of|
+|entries|Gets entries of [SharEntry](/zip/python-net/aspose.zip.shar/sharentry/) type constituting the archive.|
 ## Methods
 | Name | Description |
 | :- | :- |

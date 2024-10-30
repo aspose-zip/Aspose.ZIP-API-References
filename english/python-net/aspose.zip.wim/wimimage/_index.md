@@ -16,12 +16,12 @@ The WimImage type exposes the following members:
 | Name | Description |
 | :- | :- |
 |root_directory|Gets the root directory entry of the image.|
-|all_entries|Gets entries of|
+|all_entries|Gets entries of [WimEntry](/zip/python-net/aspose.zip.wim/wimentry/) type constituting the image recursively.|
 |parent|Gets the archive the image belongs to.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_entry(path)|Gets the entry of|
+|get_entry(path)|Gets the entry of [WimEntry](/zip/python-net/aspose.zip.wim/wimentry/) type for a given path.|
 |extract_to_directory(destination_directory)|Extracts all the files in the image to the directory provided.|
 
 ### See Also

@@ -15,14 +15,14 @@ The CpioArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CpioArchive()|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class.|
+|CpioArchive()|Initializes a new instance of the|
 |CpioArchive(source_stream)|Initializes a new instance of the CpioArchive class|
 |CpioArchive(path)|Initializes a new instance of the CpioArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
-|entries|Gets entries of|
-|file_entries|Gets entries of|
+|entries|Gets entries of [CpioEntry](/zip/python-net/aspose.zip.cpio/cpioentry/) type constituting the archive.|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 ## Methods
 | Name | Description |
 | :- | :- |

@@ -13,7 +13,7 @@ Contains classes which represent zip archive and common archive related entities
 ## Classes
 | Class | Description |
 | :- | :- |
-|[ArchiveFactory](/zip/python-net/aspose.zip/archivefactory/)|Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of archive.|
+|[ArchiveFactory](/zip/python-net/aspose.zip/archivefactory/)|Detects the archive format and creates the appropriate|
 |[IArchive](/zip/python-net/aspose.zip/iarchive/)|This interface represents an archive.|
 |[IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/)|This interface represents an archive file entry.|
 |[ComHelper](/zip/python-net/aspose.zip/comhelper/)|Provides methods for COM clients to load archives into Aspose.Zip.|
@@ -24,6 +24,9 @@ Contains classes which represent zip archive and common archive related entities
 |[ArchiveEntryEncrypted](/zip/python-net/aspose.zip/archiveentryencrypted/)|Zip entry that needs to be compressed with encryption or decompressed with decryption.|
 |[ArchiveEntryPlain](/zip/python-net/aspose.zip/archiveentryplain/)|Zip entry that needs to be compressed without encryption or decompressed without decryption.|
 |[ArchiveLoadOptions](/zip/python-net/aspose.zip/archiveloadoptions/)|Options with which archive is loaded from compressed file.|
+|[CancelEntryEventArgs](/zip/python-net/aspose.zip/cancelentryeventargs/)|Event arguments for cancelable entry related events.|
+|[EntryEventArgs](/zip/python-net/aspose.zip/entryeventargs/)|Event arguments for entry related events.|
+|[ProgressEventArgs](/zip/python-net/aspose.zip/progresseventargs/)|Class for event data containing the number of bytes proceeded.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

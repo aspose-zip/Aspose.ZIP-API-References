@@ -22,9 +22,9 @@ The SevenZipArchive type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|new_entry_settings|Compression and encryption settings used for newly added|
-|entries|Gets entries of|
-|file_entries|Gets entries of|
+|new_entry_settings|Compression and encryption settings used for newly added [SevenZipArchiveEntry](/zip/python-net/aspose.zip.sevenzip/sevenziparchiveentry/) items.|
+|entries|Gets entries of [SevenZipArchiveEntry](/zip/python-net/aspose.zip.sevenzip/sevenziparchiveentry/) type constituting the archive.|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 ## Methods
 | Name | Description |
 | :- | :- |

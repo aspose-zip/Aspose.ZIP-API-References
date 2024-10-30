@@ -15,13 +15,13 @@ The SnappyArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SnappyArchive()|Initializes a new instance of the [SnappyArchive](/zip/python-net/aspose.zip.snappy/snappyarchive/) class prepared for compressing.|
+|SnappyArchive()|Initializes a new instance of the|
 |SnappyArchive(source)|Initializes a new instance of the SnappyArchive class|
 |SnappyArchive(path)|Initializes a new instance of the SnappyArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
-|file_entries|Gets entries of|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |name|Gets name of the entry.|
 |length|Gets the length of the entry in bytes.|
 ## Methods

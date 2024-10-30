@@ -21,6 +21,7 @@ The ArchiveEntryPlain type exposes the following members:
 |uncompressed_size|Gets size of original file.|
 |modification_time|Gets or sets last modified date and time.|
 |is_directory|Gets a value indicating whether the entry represents directory.|
+|data_source|Source for the entry if the entry was added to archive, not extracted.|
 |compression_settings|Gets settings for compression or decompression.|
 |length|Gets the length of the entry in bytes.|
 ## Methods

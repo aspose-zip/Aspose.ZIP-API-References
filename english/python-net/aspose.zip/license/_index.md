@@ -15,7 +15,7 @@ The License type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|License()|Initializes a new instance of the|
+|License()|Initializes a new instance of the [License](/zip/python-net/aspose.zip/license/) class.|
 ## Methods
 | Name | Description |
 | :- | :- |

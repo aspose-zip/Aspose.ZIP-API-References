@@ -14,8 +14,8 @@ Contains classes which represent Iso archive related entities.
 | Class | Description |
 | :- | :- |
 |[EntryEventArgs](/zip/python-net/aspose.zip.iso/entryeventargs/)|Event arguments for entry related events.|
-|[EventsBag](/zip/python-net/aspose.zip.iso/eventsbag/)|Events container used on|
+|[EventsBag](/zip/python-net/aspose.zip.iso/eventsbag/)|Events container used on [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) saving.|
 |[IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/)|Represents an ISO archive (ISO 9660).|
 |[IsoEntry](/zip/python-net/aspose.zip.iso/isoentry/)|Represents an entry (file or directory) within an ISO archive.|
-|[IsoLoadOptions](/zip/python-net/aspose.zip.iso/isoloadoptions/)|Options with which|
+|[IsoLoadOptions](/zip/python-net/aspose.zip.iso/isoloadoptions/)|Options with which [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) is loaded from compressed file. Contains event raised on extraction.|
 |[IsoSaveOptions](/zip/python-net/aspose.zip.iso/isosaveoptions/)|Options for saving an ISO archive.|

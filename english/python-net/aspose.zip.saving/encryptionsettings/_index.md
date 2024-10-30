@@ -3,7 +3,7 @@ title: EncryptionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /python-net/aspose.zip.saving/encryptionsettings/
 ---
 

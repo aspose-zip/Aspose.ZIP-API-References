@@ -19,11 +19,11 @@ The LzipArchiveSettings type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|fastest_speed|Gets the instance of the [LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/) class<br/>            with dictionary size equals to 65536 bytes in LZMA filter.|
-|fast_speed|Gets the instance of the [LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/) class<br/>            with dictionary size equals to 1 megabyte in LZMA filter.|
-|normal|Gets the instance of the [LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/) class<br/>            with dictionary size equals to 16 megabytes in LZMA filter.|
-|high_compression|Gets the instance of the [LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/) class<br/>            with dictionary size equals to 32 megabytes in LZMA filter.|
-|maximum_compression|Gets the instance of the [LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/) class<br/>            with dictionary size equals to 64 megabytes in LZMA filter.|
+|fastest_speed|Gets the instance of the|
+|fast_speed|Gets the instance of the|
+|normal|Gets the instance of the|
+|high_compression|Gets the instance of the|
+|maximum_compression|Gets the instance of the|
 |dictionary_size|Gets the size of dictionary which used by LZMA compression.|
 |max_member_size|Gets the maximum size of one member in lzip archive presented in bytes.|
 |compression_threads|Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.|

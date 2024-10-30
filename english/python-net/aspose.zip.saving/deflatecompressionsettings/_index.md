@@ -3,7 +3,7 @@ title: DeflateCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /python-net/aspose.zip.saving/deflatecompressionsettings/
 ---
 
@@ -15,7 +15,7 @@ The DeflateCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|DeflateCompressionSettings()|Initializes a new instance of the [DeflateCompressionSettings](/zip/python-net/aspose.zip.saving/deflatecompressionsettings/) class.|
+|DeflateCompressionSettings()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |
