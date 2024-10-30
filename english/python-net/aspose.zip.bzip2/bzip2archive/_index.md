@@ -15,13 +15,13 @@ The Bzip2Archive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Bzip2Archive()|Initializes a new instance of the [Bzip2Archive](/zip/python-net/aspose.zip.bzip2/bzip2archive/) class prepared for compressing.|
+|Bzip2Archive()|Initializes a new instance of the|
 |Bzip2Archive(source_stream, load_options)|Initializes a new instance of the Bzip2Archive class|
 |Bzip2Archive(path, load_options)|Initializes a new instance of the Bzip2Archive class|
 ## Properties
 | Name | Description |
 | :- | :- |
-|file_entries|Gets entries of|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |name|Gets name of the entry.|
 |length|Gets the length of the entry in bytes.|
 ## Methods

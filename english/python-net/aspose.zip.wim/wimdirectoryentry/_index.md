@@ -29,10 +29,10 @@ The WimDirectoryEntry type exposes the following members:
 |hard_link|Gets the hardlink id of the file or directory.|
 |has_hard_links|Gets whether the file or directory is known by other names.|
 |is_directory|Gets a value indicating whether the entry represents directory.|
-|directories|Gets entries of|
-|files|Gets entries of|
-|files_and_directories|Gets entries of|
-|all_entries|Gets all entries of|
+|directories|Gets entries of [WimDirectoryEntry](/zip/python-net/aspose.zip.wim/wimdirectoryentry/) type constituting the directory.|
+|files|Gets entries of [WimFileEntry](/zip/python-net/aspose.zip.wim/wimfileentry/) type constituting the directory.|
+|files_and_directories|Gets entries of [WimEntry](/zip/python-net/aspose.zip.wim/wimentry/) type constituting the directory.|
+|all_entries|Gets all entries of [WimEntry](/zip/python-net/aspose.zip.wim/wimentry/) type constituting the directory recursively.|
 ## Methods
 | Name | Description |
 | :- | :- |

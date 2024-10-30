@@ -3,7 +3,7 @@ title: SplitArchiveSaveOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 130
 url: /python-net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 
@@ -23,6 +23,7 @@ The SplitArchiveSaveOptions type exposes the following members:
 |file_name|Gets the name of segments without extension.|
 |archive_comment|Gets or sets optional comment for the Zip file.|
 |encoding|Gets or sets encoding for converting file names and other strings to bytes.|
+|close_entry_source|Gets or sets a value indicating whether entries' sources should be closed right after an entry has been compressed.|
 |events_bag|Gets or sets container of events raising on archive saving.|
 
 ### See Also

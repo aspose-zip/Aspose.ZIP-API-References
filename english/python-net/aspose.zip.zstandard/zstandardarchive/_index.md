@@ -15,13 +15,13 @@ The ZstandardArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ZstandardArchive()|Initializes a new instance of the [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) class prepared for compressing.|
+|ZstandardArchive()|Initializes a new instance of the|
 |ZstandardArchive(source_stream, options)|Initializes a new instance of the ZstandardArchive class|
 |ZstandardArchive(path, options)|Initializes a new instance of the ZstandardArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
-|file_entries|Gets entries of|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |name|Gets name of the entry.|
 |length|Gets the length of the entry in bytes.|
 ## Methods

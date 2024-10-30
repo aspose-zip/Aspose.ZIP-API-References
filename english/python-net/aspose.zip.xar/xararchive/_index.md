@@ -21,8 +21,8 @@ The XarArchive type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|entries|Gets entries of|
-|file_entries|Gets entries of|
+|entries|Gets entries of [XarEntry](/zip/python-net/aspose.zip.xar/xarentry/) type constituting the archive.|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 ## Methods
 | Name | Description |
 | :- | :- |

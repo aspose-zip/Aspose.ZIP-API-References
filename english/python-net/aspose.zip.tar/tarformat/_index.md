@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.tar/tarformat/
 
 ## TarFormat enumeration
 
-Enumeration with supported formats of
+Enumeration with supported formats of [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/).
 
 ## Members
 | Member name | Description |

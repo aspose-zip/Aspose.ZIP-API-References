@@ -9,14 +9,14 @@ url: /python-net/aspose.zip/archivefactory/
 
 ## ArchiveFactory class
 
-Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of archive.
+Detects the archive format and creates the appropriate
 
 The ArchiveFactory type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|get_archive(path)|Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of archive specified by the given path.|
-|get_archive(stream)|Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of archive specified by the given stream.|
+|get_archive(path)|Detects the archive format and creates the appropriate|
+|get_archive(stream)|Detects the archive format and creates the appropriate|
 |compress_directory(path, output_file_name, archive_format)|Compresses the specified directory into an archive file using the provided archive format.|
 
 ### See Also

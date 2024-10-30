@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.xar/eventsbag/
 
 ## EventsBag class
 
-Events container used on
+Events container used on [XarArchive](/zip/python-net/aspose.zip.xar/xararchive/) saving.
 
 The EventsBag type exposes the following members:
 ## Constructors

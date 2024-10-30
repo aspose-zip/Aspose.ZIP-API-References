@@ -3,7 +3,7 @@ title: ParallelOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 100
 url: /python-net/aspose.zip.saving/paralleloptions/
 ---
 
@@ -20,7 +20,7 @@ The ParallelOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |parallel_compress_in_memory|Gets or sets value indicating how parallel approach to be used.|
-|available_memory_size|Gets or sets memory estimate in megabytes available to accomodate compressed entries without swap to disk.<br/>            This value only makes sense if|
+|available_memory_size|Gets or sets memory estimate in megabytes available to accomodate compressed entries without swap to disk.<br/>            This value only makes sense if [parallel_compress_in_memory](/zip/python-net/aspose.zip.saving/paralleloptions/) setting is in [AUTO](/zip/python-net/aspose.zip.saving/parallelcompressionmode/) mode.|
 
 ### See Also
 

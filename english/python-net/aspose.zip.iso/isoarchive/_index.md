@@ -15,14 +15,14 @@ The IsoArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|IsoArchive()|Initializes a new instance of the|
+|IsoArchive()|Initializes a new instance of the [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) class and creates an empty ISO archive<br/>             for adding new files and directories.|
 |IsoArchive(source_stream, load_options)|Initializes a new instance of the IsoArchive class|
 |IsoArchive(path, load_options)|Initializes a new instance of the IsoArchive class|
 ## Properties
 | Name | Description |
 | :- | :- |
-|entries|Gets entries of|
-|file_entries|Gets entries of|
+|entries|Gets entries of [IsoEntry](/zip/python-net/aspose.zip.iso/isoentry/) type constituting the archive.|
+|file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 ## Methods
 | Name | Description |
 | :- | :- |

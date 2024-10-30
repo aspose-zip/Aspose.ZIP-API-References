@@ -3,7 +3,7 @@ title: EnhancedDeflateCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /python-net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 
@@ -15,7 +15,7 @@ The EnhancedDeflateCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|EnhancedDeflateCompressionSettings()|Initializes a new instance of the [EnhancedDeflateCompressionSettings](/zip/python-net/aspose.zip.saving/enhanceddeflatecompressionsettings/) class.|
+|EnhancedDeflateCompressionSettings()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

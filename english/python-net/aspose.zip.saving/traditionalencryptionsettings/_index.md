@@ -3,7 +3,7 @@ title: TraditionalEncryptionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 150
 url: /python-net/aspose.zip.saving/traditionalencryptionsettings/
 ---
 
@@ -17,7 +17,7 @@ The TraditionalEncryptionSettings type exposes the following members:
 | :- | :- |
 |TraditionalEncryptionSettings(password)|Initializes a new instance of the TraditionalEncryptionSettings class|
 |TraditionalEncryptionSettings(password, encoding)|Initializes a new instance of the TraditionalEncryptionSettings class|
-|TraditionalEncryptionSettings()|Initializes a new instance of the [TraditionalEncryptionSettings](/zip/python-net/aspose.zip.saving/traditionalencryptionsettings/) class without a password.|
+|TraditionalEncryptionSettings()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |

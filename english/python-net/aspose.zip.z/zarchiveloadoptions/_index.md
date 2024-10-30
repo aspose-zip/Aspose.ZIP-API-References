@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.z/zarchiveloadoptions/
 
 ## ZArchiveLoadOptions class
 
-Options with which
+Options with which [ZArchive](/zip/python-net/aspose.zip.z/zarchive/) is loaded from compressed file. Contains event raised on extraction.
 
 The ZArchiveLoadOptions type exposes the following members:
 ## Constructors

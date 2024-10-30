@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.bzip2/bzip2loadoptions/
 
 ## Bzip2LoadOptions class
 
-Options for loading
+Options for loading [Bzip2Archive](/zip/python-net/aspose.zip.bzip2/bzip2archive/). Contains event raised on extraction.
 
 The Bzip2LoadOptions type exposes the following members:
 ## Constructors

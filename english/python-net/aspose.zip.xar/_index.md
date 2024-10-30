@@ -19,7 +19,7 @@ Contains classes which represent Xar archive related entities.
 |[XarZlibCompressionSettings](/zip/python-net/aspose.zip.xar/xarzlibcompressionsettings/)|Settings for Zlib compression method.|
 |[CancelEntryEventArgs](/zip/python-net/aspose.zip.xar/cancelentryeventargs/)|Event arguments for cancelable entry related events.|
 |[EntryEventArgs](/zip/python-net/aspose.zip.xar/entryeventargs/)|Event arguments for entry related events.|
-|[EventsBag](/zip/python-net/aspose.zip.xar/eventsbag/)|Events container used on|
+|[EventsBag](/zip/python-net/aspose.zip.xar/eventsbag/)|Events container used on [XarArchive](/zip/python-net/aspose.zip.xar/xararchive/) saving.|
 |[XarArchive](/zip/python-net/aspose.zip.xar/xararchive/)|This class represents xar archive file.|
 |[XarDirectoryEntry](/zip/python-net/aspose.zip.xar/xardirectoryentry/)|Represents directory entry within xar archive.|
 |[XarEntry](/zip/python-net/aspose.zip.xar/xarentry/)|Represents single entry within xar archive.|

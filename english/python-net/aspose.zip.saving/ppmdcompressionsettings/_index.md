@@ -3,7 +3,7 @@ title: PPMdCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 110
 url: /python-net/aspose.zip.saving/ppmdcompressionsettings/
 ---
 
@@ -16,7 +16,7 @@ The PPMdCompressionSettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |PPMdCompressionSettings(model_order, suballocator_size)|Initializes a new instance of the PPMdCompressionSettings class|
-|PPMdCompressionSettings()|Initializes a new instance of the [PPMdCompressionSettings](/zip/python-net/aspose.zip.saving/ppmdcompressionsettings/) class with default model order and sub-allocator size.|
+|PPMdCompressionSettings()|Initializes a new instance of the|
 ## Properties
 | Name | Description |
 | :- | :- |
