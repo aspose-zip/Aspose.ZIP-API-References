@@ -15,9 +15,9 @@ The XzArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XzArchive(settings)|Initializes a new instance of the XzArchive class|
-|XzArchive(source)|Initializes a new instance of the XzArchive class|
-|XzArchive(path)|Initializes a new instance of the XzArchive class|
+|XzArchive(settings)|Initializes a new instance of the [XzArchive](/zip/python-net/aspose.zip.xz/xzarchive/) class and composes the archive in xz format.|
+|XzArchive(source)|Initializes a new instance of the [XzArchive](/zip/python-net/aspose.zip.xz/xzarchive/) class prepared for decompressing.|
+|XzArchive(path)|Initializes a new instance of the [XzArchive](/zip/python-net/aspose.zip.xz/xzarchive/) class prepared for decompressing.|
 ## Properties
 | Name | Description |
 | :- | :- |

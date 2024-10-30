@@ -15,8 +15,8 @@ The Bzip2CompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Bzip2CompressionSettings(block_size)|Initializes a new instance of the Bzip2CompressionSettings class|
-|Bzip2CompressionSettings()|Initializes a new instance of the [Bzip2CompressionSettings](/zip/python-net/aspose.zip.saving/bzip2compressionsettings/) class with default block size, equals to 9 hundred of kilobytes.|
+|Bzip2CompressionSettings(block_size)|Initializes a new instance of the [Bzip2CompressionSettings](/zip/python-net/aspose.zip.saving/bzip2compressionsettings/) class.|
+|Bzip2CompressionSettings()|Initializes a new instance of the [Bzip2CompressionSettings](/zip/python-net/aspose.zip.saving/bzip2compressionsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

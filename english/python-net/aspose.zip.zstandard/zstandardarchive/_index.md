@@ -16,8 +16,8 @@ The ZstandardArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |ZstandardArchive()|Initializes a new instance of the [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) class prepared for compressing.|
-|ZstandardArchive(source_stream, options)|Initializes a new instance of the ZstandardArchive class|
-|ZstandardArchive(path, options)|Initializes a new instance of the ZstandardArchive class|
+|ZstandardArchive(source_stream, options)|Initializes a new instance of the [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) class prepared for decompressing.|
+|ZstandardArchive(path, options)|Initializes a new instance of the [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -15,10 +15,10 @@ The SevenZipArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SevenZipArchive(new_entry_settings)|Initializes a new instance of the SevenZipArchive class|
-|SevenZipArchive(source_stream, password)|Initializes a new instance of the SevenZipArchive class|
-|SevenZipArchive(path, password)|Initializes a new instance of the SevenZipArchive class|
-|SevenZipArchive(parts, password)|Initializes a new instance of the SevenZipArchive class|
+|SevenZipArchive(new_entry_settings)|Initializes a new instance of the [SevenZipArchive](/zip/python-net/aspose.zip.sevenzip/sevenziparchive/) class with optional settings for its entries.|
+|SevenZipArchive(source_stream, password)|Initializes a new instance of the [SevenZipArchive](/zip/python-net/aspose.zip.sevenzip/sevenziparchive/) class and composes entries list can be extracted from the archive.|
+|SevenZipArchive(path, password)|Initializes a new instance of the [SevenZipArchive](/zip/python-net/aspose.zip.sevenzip/sevenziparchive/) class and composes entries list can be extracted from the archive.|
+|SevenZipArchive(parts, password)|Initializes a new instance of the [SevenZipArchive](/zip/python-net/aspose.zip.sevenzip/sevenziparchive/) class from multi-volume 7z archive and composes entries list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

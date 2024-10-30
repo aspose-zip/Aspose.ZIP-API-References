@@ -15,7 +15,7 @@ The FastLZStream type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FastLZStream(stream, compression_level)|Initializes a new instance of the FastLZStream class|
+|FastLZStream(stream, compression_level)|Initializes a new instance of the [FastLZStream](/zip/python-net/aspose.zip.fastlz/fastlzstream/) class prepared for compression.|
 
 ### See Also
 

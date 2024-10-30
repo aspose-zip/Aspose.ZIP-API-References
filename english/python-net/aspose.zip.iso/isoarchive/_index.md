@@ -16,8 +16,8 @@ The IsoArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |IsoArchive()|Initializes a new instance of the [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) class and creates an empty ISO archive<br/>             for adding new files and directories.|
-|IsoArchive(source_stream, load_options)|Initializes a new instance of the IsoArchive class|
-|IsoArchive(path, load_options)|Initializes a new instance of the IsoArchive class|
+|IsoArchive(source_stream, load_options)|Initializes a new instance of the [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) class and composes entries list that can be extracted from the archive.|
+|IsoArchive(path, load_options)|Initializes a new instance of the [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) class and composes entries list that can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

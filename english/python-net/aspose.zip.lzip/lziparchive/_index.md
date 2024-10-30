@@ -15,9 +15,9 @@ The LzipArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LzipArchive(settings)|Initializes a new instance of the LzipArchive class|
-|LzipArchive(source_stream)|Initializes a new instance of the LzipArchive class|
-|LzipArchive(path)|Initializes a new instance of the LzipArchive class|
+|LzipArchive(settings)|Initializes a new instance of the [LzipArchive](/zip/python-net/aspose.zip.lzip/lziparchive/).|
+|LzipArchive(source_stream)|Initializes a new instance of the [LzipArchive](/zip/python-net/aspose.zip.lzip/lziparchive/) class prepared for decompressing.|
+|LzipArchive(path)|Initializes a new instance of the [LzipArchive](/zip/python-net/aspose.zip.lzip/lziparchive/) class prepared for decompressing.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -15,7 +15,7 @@ The ProgressEventArgs type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProgressEventArgs(proceeded_bytes)|Initializes a new instance of the ProgressEventArgs class|
+|ProgressEventArgs(proceeded_bytes)|Initializes a new instance of the [ProgressEventArgs](/zip/python-net/aspose.zip/progresseventargs/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

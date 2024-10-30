@@ -15,7 +15,7 @@ The XzLZMA2FilterSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XzLZMA2FilterSettings(dictionary_size)|Initializes a new instance of the XzLZMA2FilterSettings class|
+|XzLZMA2FilterSettings(dictionary_size)|Initializes a new instance of the [XzLZMA2FilterSettings](/zip/python-net/aspose.zip.xz.settings/xzlzma2filtersettings/).|
 ## Properties
 | Name | Description |
 | :- | :- |

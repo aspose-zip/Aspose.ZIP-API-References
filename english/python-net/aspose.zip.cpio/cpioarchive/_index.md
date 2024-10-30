@@ -16,8 +16,8 @@ The CpioArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |CpioArchive()|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class.|
-|CpioArchive(source_stream)|Initializes a new instance of the CpioArchive class|
-|CpioArchive(path)|Initializes a new instance of the CpioArchive class|
+|CpioArchive(source_stream)|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class and composes entries list can be extracted from the archive.|
+|CpioArchive(path)|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class and composes entries list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
