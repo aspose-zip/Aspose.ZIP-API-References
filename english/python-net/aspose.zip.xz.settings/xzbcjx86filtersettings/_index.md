@@ -15,7 +15,7 @@ The XzBcjX86FilterSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XzBcjX86FilterSettings()|Initializes a new instance of the|
+|XzBcjX86FilterSettings()|Initializes a new instance of the [XzBcjX86FilterSettings](/zip/python-net/aspose.zip.xz.settings/xzbcjx86filtersettings/). Use it to compress executable files and libraries within [XzArchive](/zip/python-net/aspose.zip.xz/xzarchive/).|
 
 ### See Also
 

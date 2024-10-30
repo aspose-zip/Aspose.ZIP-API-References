@@ -16,7 +16,7 @@ The SevenZipBZip2CompressionSettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |SevenZipBZip2CompressionSettings(block_size)|Initializes a new instance of the SevenZipBZip2CompressionSettings class|
-|SevenZipBZip2CompressionSettings()|Initializes a new instance of the|
+|SevenZipBZip2CompressionSettings()|Initializes a new instance of the [SevenZipBZip2CompressionSettings](/zip/python-net/aspose.zip.saving/sevenzipbzip2compressionsettings/) class with default block size, equals to 9 hundred of kilobytes.|
 ## Properties
 | Name | Description |
 | :- | :- |

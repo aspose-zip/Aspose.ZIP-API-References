@@ -15,7 +15,7 @@ The LzmaArchiveSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LzmaArchiveSettings()|Initializes a new instance of the|
+|LzmaArchiveSettings()|Initializes a new instance of the [LzmaArchiveSettings](/zip/python-net/aspose.zip.lzma/lzmaarchivesettings/) class with default dictionary size, equals to 16 megabytes.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -16,7 +16,7 @@ The Bzip2SaveOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |Bzip2SaveOptions(block_size)|Initializes a new instance of the Bzip2SaveOptions class|
-|Bzip2SaveOptions()|Initializes a new instance of the|
+|Bzip2SaveOptions()|Initializes a new instance of the [Bzip2SaveOptions](/zip/python-net/aspose.zip.bzip2/bzip2saveoptions/) class with default block size, equals to 9 hundred of kilobytes.|
 ## Properties
 | Name | Description |
 | :- | :- |
