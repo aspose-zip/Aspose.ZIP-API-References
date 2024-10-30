@@ -15,10 +15,10 @@ The Archive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Archive(new_entry_settings)|Initializes a new instance of the Archive class|
-|Archive(source_stream, load_options, new_entry_settings)|Initializes a new instance of the Archive class|
-|Archive(path, load_options, new_entry_settings)|Initializes a new instance of the Archive class|
-|Archive(main_segment, segments_in_order, load_options)|Initializes a new instance of the Archive class|
+|Archive(new_entry_settings)|Initializes a new instance of the [Archive](/zip/python-net/aspose.zip/archive/) class with optional settings for its entries.|
+|Archive(source_stream, load_options, new_entry_settings)|Initializes a new instance of the [Archive](/zip/python-net/aspose.zip/archive/) class and composes entries list can be extracted from the archive.|
+|Archive(path, load_options, new_entry_settings)|Initializes a new instance of the [Archive](/zip/python-net/aspose.zip/archive/) class and composes entries list can be extracted from the archive.|
+|Archive(main_segment, segments_in_order, load_options)|Initializes a new instance of the [Archive](/zip/python-net/aspose.zip/archive/) class from multi-volume zip archive and composes entries list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

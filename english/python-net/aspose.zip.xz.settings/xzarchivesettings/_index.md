@@ -15,7 +15,7 @@ The XzArchiveSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XzArchiveSettings()|Initializes a new instance of the [XzArchiveSettings](/zip/python-net/aspose.zip.xz.settings/xzarchivesettings/) class using single LZMA2 compression.|
+|XzArchiveSettings()|Initializes a new instance of the [XzArchiveSettings](/zip/python-net/aspose.zip.xz.settings/xzarchivesettings/) class using single LZMA2 compression with custom parameters.|
 |XzArchiveSettings(filters, block_size, check_type)|Initializes a new instance of the XzArchiveSettings class|
 ## Properties
 | Name | Description |

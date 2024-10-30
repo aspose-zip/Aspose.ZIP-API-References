@@ -16,7 +16,7 @@ The SharArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |SharArchive()|Initializes a new instance of the [SharArchive](/zip/python-net/aspose.zip.shar/shararchive/) class.|
-|SharArchive(path)|Initializes a new instance of the SharArchive class|
+|SharArchive(path)|Initializes a new instance of the [SharArchive](/zip/python-net/aspose.zip.shar/shararchive/) class prepared for decompressing.|
 ## Properties
 | Name | Description |
 | :- | :- |

@@ -15,9 +15,9 @@ The TraditionalEncryptionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TraditionalEncryptionSettings(password)|Initializes a new instance of the TraditionalEncryptionSettings class|
-|TraditionalEncryptionSettings(password, encoding)|Initializes a new instance of the TraditionalEncryptionSettings class|
-|TraditionalEncryptionSettings()|Initializes a new instance of the [TraditionalEncryptionSettings](/zip/python-net/aspose.zip.saving/traditionalencryptionsettings/) class without a password.|
+|TraditionalEncryptionSettings(password)|Initializes a new instance of the [TraditionalEncryptionSettings](/zip/python-net/aspose.zip.saving/traditionalencryptionsettings/) class.|
+|TraditionalEncryptionSettings(password, encoding)|Initializes a new instance of the [TraditionalEncryptionSettings](/zip/python-net/aspose.zip.saving/traditionalencryptionsettings/) class with user defined encoding.|
+|TraditionalEncryptionSettings()|Initializes a new instance of the [TraditionalEncryptionSettings](/zip/python-net/aspose.zip.saving/traditionalencryptionsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

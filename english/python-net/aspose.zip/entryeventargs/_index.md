@@ -15,7 +15,7 @@ The EntryEventArgs type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|EntryEventArgs(entry)|Initializes a new instance of the EntryEventArgs class|
+|EntryEventArgs(entry)|Initializes a new instance of the [EntryEventArgs](/zip/python-net/aspose.zip/entryeventargs/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |

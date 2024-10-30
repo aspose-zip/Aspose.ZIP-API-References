@@ -15,8 +15,8 @@ The SevenZipAESEncryptionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SevenZipAESEncryptionSettings(password)|Initializes a new instance of the SevenZipAESEncryptionSettings class|
-|SevenZipAESEncryptionSettings(cipher)|Initializes a new instance of the SevenZipAESEncryptionSettings class|
+|SevenZipAESEncryptionSettings(password)|Initializes a new instance of the [SevenZipAESEncryptionSettings](/zip/python-net/aspose.zip.saving/sevenzipaesencryptionsettings/) class.|
+|SevenZipAESEncryptionSettings(cipher)|Initializes a new instance of the [SevenZipAESEncryptionSettings](/zip/python-net/aspose.zip.saving/sevenzipaesencryptionsettings/) class with external cipher.|
 ## Properties
 | Name | Description |
 | :- | :- |

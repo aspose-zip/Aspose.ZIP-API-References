@@ -15,7 +15,7 @@ The LzipArchiveSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LzipArchiveSettings(dictionary_size, max_member_size)|Initializes a new instance of the LzipArchiveSettings class|
+|LzipArchiveSettings(dictionary_size, max_member_size)|Initializes a new instance of the [LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/) with particular dictionary size.|
 ## Properties
 | Name | Description |
 | :- | :- |

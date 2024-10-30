@@ -15,7 +15,7 @@ The SplitArchiveSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SplitArchiveSaveOptions(file_name, segment_size)|Initializes a new instance of the SplitArchiveSaveOptions class|
+|SplitArchiveSaveOptions(file_name, segment_size)|Instantiates settings for saving a multi-volume zip archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

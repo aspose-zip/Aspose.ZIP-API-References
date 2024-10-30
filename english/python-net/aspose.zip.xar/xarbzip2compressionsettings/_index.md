@@ -15,8 +15,8 @@ The XarBzip2CompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XarBzip2CompressionSettings(block_size)|Initializes a new instance of the XarBzip2CompressionSettings class|
-|XarBzip2CompressionSettings()|Initializes a new instance of the [XarBzip2CompressionSettings](/zip/python-net/aspose.zip.xar/xarbzip2compressionsettings/) class with default block size, equals to 9 hundred of kilobytes.|
+|XarBzip2CompressionSettings(block_size)|Initializes a new instance of the [XarBzip2CompressionSettings](/zip/python-net/aspose.zip.xar/xarbzip2compressionsettings/) class.|
+|XarBzip2CompressionSettings()|Initializes a new instance of the [XarBzip2CompressionSettings](/zip/python-net/aspose.zip.xar/xarbzip2compressionsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
