@@ -24,12 +24,14 @@ Options for saving a zip archive.
 | Method | Description |
 | --- | --- |
 | [getArchiveComment()](#getArchiveComment--) | Gets optional comment for the Zip file. |
+| [getCloseEntrySource()](#getCloseEntrySource--) | Gets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [getEncoding()](#getEncoding--) | Gets encoding for converting file names and other strings to bytes. |
 | [getEncryptionOptions()](#getEncryptionOptions--) | Gets encryption settings for saving existing zip archive. |
 | [getEventsBag()](#getEventsBag--) | Gets container of events raising on archive saving. |
 | [getParallelOptions()](#getParallelOptions--) | Gets settings for parallel compression. |
 | [getSelfExtractorOptions()](#getSelfExtractorOptions--) | Gets settings for self extracted archive. |
 | [setArchiveComment(String value)](#setArchiveComment-java.lang.String-) | Sets optional comment for the Zip file. |
+| [setCloseEntrySource(boolean value)](#setCloseEntrySource-boolean-) | Sets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets encoding for converting file names and other strings to bytes. |
 | [setEncryptionOptions(EncryptionSettings value)](#setEncryptionOptions-com.aspose.zip.EncryptionSettings-) | Sets encryption settings for saving existing zip archive. |
 | [setEventsBag(EventsBag value)](#setEventsBag-com.aspose.zip.EventsBag-) | Sets container of events raising on archive saving. |
@@ -51,6 +53,16 @@ Gets optional comment for the Zip file.
 
 **Returns:**
 java.lang.String - optional comment for the Zip file.
+### getCloseEntrySource() {#getCloseEntrySource--}
+```
+public final boolean getCloseEntrySource()
+```
+
+
+Gets a value indicating whether entries' sources should be closed right after an entry has been compressed.
+
+**Returns:**
+boolean - a value indicating whether entries' sources should be closed right after an entry has been compressed
 ### getEncoding() {#getEncoding--}
 ```
 public final Charset getEncoding()
@@ -131,6 +143,19 @@ Sets optional comment for the Zip file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | optional comment for the Zip file. |
+
+### setCloseEntrySource(boolean value) {#setCloseEntrySource-boolean-}
+```
+public final void setCloseEntrySource(boolean value)
+```
+
+
+Sets a value indicating whether entries' sources should be closed right after an entry has been compressed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether entries' sources should be closed right after an entry has been compressed |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```

@@ -3,7 +3,7 @@ title: ZArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Z compress archive file.
 type: docs
-weight: 108
+weight: 109
 url: /java/com.aspose.zip/zarchive/
 ---
 

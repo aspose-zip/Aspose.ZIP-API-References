@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 118
+weight: 119
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -28,6 +28,7 @@ Supported archive formats.
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
 | [SevenZip](#SevenZip) | 7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)). |
 | [Shar](#Shar) | Shar archive ([SharArchive](../../com.aspose.zip/shararchive)). |
+| [Snappy](#Snappy) | Snappy archive ([SnappyArchive](../../com.aspose.zip/snappyarchive)). |
 | [Tar](#Tar) | Tar archive ([TarArchive](../../com.aspose.zip/tararchive)). |
 | [Unknown](#Unknown) | Unknown format. |
 | [Wim](#Wim) | Wim archive ([WimArchive](../../com.aspose.zip/wimarchive)). |
@@ -121,6 +122,14 @@ public static final ArchiveFormat Shar
 
 
 Shar archive ([SharArchive](../../com.aspose.zip/shararchive)).
+
+### Snappy {#Snappy}
+```
+public static final ArchiveFormat Snappy
+```
+
+
+Snappy archive ([SnappyArchive](../../com.aspose.zip/snappyarchive)).
 
 ### Tar {#Tar}
 ```

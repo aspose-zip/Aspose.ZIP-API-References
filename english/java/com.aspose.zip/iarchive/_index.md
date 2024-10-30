@@ -3,7 +3,7 @@ title: IArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This interface represents an archive.
 type: docs
-weight: 116
+weight: 117
 url: /java/com.aspose.zip/iarchive/
 ---
 
