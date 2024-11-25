@@ -3,7 +3,7 @@ title: Class RarArchiveEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Rar.RarArchiveEntryPlain class. Rar entry that needs to be decompressed without decryption
 type: docs
-weight: 420
+weight: 450
 url: /net/aspose.zip.rar/rararchiveentryplain/
 ---
 ## RarArchiveEntryPlain class

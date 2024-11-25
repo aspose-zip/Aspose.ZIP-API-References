@@ -19,7 +19,8 @@ is_root: true
 | [Aspose.Zip.Crypto](./aspose.zip.crypto/) | The Crypto namespace contains classes for external encryption routines. |
 | [Aspose.Zip.FastLZ](./aspose.zip.fastlz/) | The FastLZ namespace contains classes which represent FastLZ related entities. |
 | [Aspose.Zip.Gzip](./aspose.zip.gzip/) | The Gzip namespace contains classes which represent gzip archive. |
-| [Aspose.Zip.Iso](./aspose.zip.iso/) | The Iso namespace contains classes which represent iso related entities. |
+| [Aspose.Zip.Iso](./aspose.zip.iso/) | The Iso namespace contains classes which represent ISO related entities. |
+| [Aspose.Zip.Lha](./aspose.zip.lha/) | The Lha namespace contains classes which represent Lha related entities. |
 | [Aspose.Zip.Lzip](./aspose.zip.lzip/) | The Lzip namespace contains classes which represent lzip archive related entities. |
 | [Aspose.Zip.LZMA](./aspose.zip.lzma/) | The LZMA namespace contains classes which represent lzma archive related entities. |
 | [Aspose.Zip.Rar](./aspose.zip.rar/) | The Rar namespace contains classes which represent RAR archive related entities. |
