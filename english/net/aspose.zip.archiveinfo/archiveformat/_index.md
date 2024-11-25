@@ -37,6 +37,7 @@ public enum ArchiveFormat
 | Z | `16` | Z archive ([`ZArchive`](../../aspose.zip.z/zarchive/)). |
 | Zstandard | `17` | Zstandard archive ([`ZstandardArchive`](../../aspose.zip.zstandard/zstandardarchive/)). |
 | Iso | `18` | Iso archive ([`IsoArchive`](../../aspose.zip.iso/isoarchive/)). |
+| Lha | `19` | Lha archive ([`LhaArchive`](../../aspose.zip.lha/lhaarchive/) |
 
 ### See Also
 

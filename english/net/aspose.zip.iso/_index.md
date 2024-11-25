@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip.Iso
 second_title: Aspose.ZIP for .NET API Reference
-description: The Iso namespace contains classes which represent iso related entities
+description: The Iso namespace contains classes which represent ISO related entities
 type: docs
 weight: 90
 url: /net/aspose.zip.iso/
 ---
-The Iso namespace contains classes which represent iso related entities.
+The Iso namespace contains classes which represent ISO related entities.
 
 ## Classes
 

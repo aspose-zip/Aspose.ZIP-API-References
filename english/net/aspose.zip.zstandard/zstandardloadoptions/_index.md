@@ -3,7 +3,7 @@ title: Class ZstandardLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Zstandard.ZstandardLoadOptions class. Options with which ZstandardArchive is loaded from compressed file. Contains event raised on extraction
 type: docs
-weight: 1150
+weight: 1180
 url: /net/aspose.zip.zstandard/zstandardloadoptions/
 ---
 ## ZstandardLoadOptions class
