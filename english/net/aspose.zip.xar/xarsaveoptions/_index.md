@@ -3,7 +3,7 @@ title: Class XarSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarSaveOptions class. Options for saving a xar archive
 type: docs
-weight: 1020
+weight: 1050
 url: /net/aspose.zip.xar/xarsaveoptions/
 ---
 ## XarSaveOptions class
