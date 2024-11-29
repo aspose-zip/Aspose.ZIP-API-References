@@ -3,7 +3,7 @@ title: XarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xar archive file.
 type: docs
-weight: 93
+weight: 96
 url: /java/com.aspose.zip/xararchive/
 ---
 

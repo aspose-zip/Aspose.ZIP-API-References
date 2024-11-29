@@ -3,7 +3,7 @@ title: CpioFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Enumeration with supported formats of cpio.
 type: docs
-weight: 120
+weight: 123
 url: /java/com.aspose.zip/cpioformat/
 ---
 
