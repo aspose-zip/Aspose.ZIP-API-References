@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 119
+weight: 122
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -23,6 +23,7 @@ Supported archive formats.
 | [Cpio](#Cpio) | Cpio archive ([CpioArchive](../../com.aspose.zip/cpioarchive)). |
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
 | [Iso](#Iso) | Iso archive ([IsoArchive](../../com.aspose.zip/isoarchive)). |
+| [Lha](#Lha) | Lha archive ([LhaArchive](../../com.aspose.zip/lhaarchive)). |
 | [Lzip](#Lzip) | Lzip archive ([LzipArchive](../../com.aspose.zip/lziparchive)). |
 | [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
@@ -82,6 +83,14 @@ public static final ArchiveFormat Iso
 
 
 Iso archive ([IsoArchive](../../com.aspose.zip/isoarchive)).
+
+### Lha {#Lha}
+```
+public static final ArchiveFormat Lha
+```
+
+
+Lha archive ([LhaArchive](../../com.aspose.zip/lhaarchive)).
 
 ### Lzip {#Lzip}
 ```

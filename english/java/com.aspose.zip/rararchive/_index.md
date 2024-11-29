@@ -3,7 +3,7 @@ title: RarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents RAR archive file.
 type: docs
-weight: 57
+weight: 60
 url: /java/com.aspose.zip/rararchive/
 ---
 

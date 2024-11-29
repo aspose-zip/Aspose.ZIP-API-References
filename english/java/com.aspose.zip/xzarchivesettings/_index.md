@@ -3,7 +3,7 @@ title: XzArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
 description: The class contains set of setting particular xz archive.
 type: docs
-weight: 104
+weight: 107
 url: /java/com.aspose.zip/xzarchivesettings/
 ---
 

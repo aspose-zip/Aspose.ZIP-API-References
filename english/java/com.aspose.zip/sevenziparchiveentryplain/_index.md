@@ -3,7 +3,7 @@ title: SevenZipArchiveEntryPlain
 second_title: Aspose.ZIP for Java API Reference
 description: SevenZip entry that needs to be compressed without encryption or decompressed without decryption.
 type: docs
-weight: 67
+weight: 70
 url: /java/com.aspose.zip/sevenziparchiveentryplain/
 ---
 
