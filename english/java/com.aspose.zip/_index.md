@@ -49,6 +49,9 @@ url: /java/com.aspose.zip/
 | [IsoEntry](../com.aspose.zip/isoentry) | Represents an entry (file or directory) within an ISO archive. |
 | [IsoLoadOptions](../com.aspose.zip/isoloadoptions) | Options with which [IsoArchive](../com.aspose.zip/isoarchive) is loaded from compressed file. |
 | [IsoSaveOptions](../com.aspose.zip/isosaveoptions) | Options for saving an ISO archive. |
+| [LhaArchive](../com.aspose.zip/lhaarchive) | This class represents LHA (.lzh) archive file. |
+| [LhaArchiveEntry](../com.aspose.zip/lhaarchiveentry) | Represents single file within Lha archive. |
+| [LhaDirectoryEntry](../com.aspose.zip/lhadirectoryentry) | Represents an empty directory inside Lha archive. |
 | [License](../com.aspose.zip/license) | Provides methods to license the component. |
 | [LzipArchive](../com.aspose.zip/lziparchive) | This class represents Lzip archive file. |
 | [LzipArchiveSettings](../com.aspose.zip/lziparchivesettings) | The class contains setting of particular lzip archive. |

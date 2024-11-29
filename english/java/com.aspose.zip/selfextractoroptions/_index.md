@@ -3,7 +3,7 @@ title: SelfExtractorOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for creation of self-extracting executable archive.
 type: docs
-weight: 62
+weight: 65
 url: /java/com.aspose.zip/selfextractoroptions/
 ---
 
