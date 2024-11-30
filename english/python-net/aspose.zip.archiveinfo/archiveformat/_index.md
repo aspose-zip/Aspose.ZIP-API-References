@@ -33,6 +33,7 @@ Supported archive formats.
 |Z|Z archive ([ZArchive](/zip/python-net/aspose.zip.z/zarchive/)).|
 |ZSTANDARD|Zstandard archive ([ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/)).|
 |ISO|Iso archive ([IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/)).|
+|LHA|Lha archive ([LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/)|
 
 ### See Also
 
