@@ -21,6 +21,7 @@ Methods of compression that 7z format support.
 | [AES](#AES) | File is encrypted. |
 | [BCJ](#BCJ) | Technique that improves the compression of machine code. |
 | [BZip2](#BZip2) | File is compressed using Bzip2. |
+| [Delta](#Delta) | File is encoded using Delta converter. |
 | [LZMA](#LZMA) | File is compressed using LZMA. |
 | [LZMA2](#LZMA2) | File is compressed using LZMA2. |
 | [PPMd](#PPMd) | File is compressed using PPMd. |
@@ -54,6 +55,14 @@ public static final SevenZipCompressionMethod BZip2
 
 
 File is compressed using Bzip2.
+
+### Delta {#Delta}
+```
+public static final SevenZipCompressionMethod Delta
+```
+
+
+File is encoded using Delta converter.
 
 ### LZMA {#LZMA}
 ```
