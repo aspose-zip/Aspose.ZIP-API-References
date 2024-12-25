@@ -21,6 +21,7 @@ Methods of compression that 7Z format support.
 |B_ZIP2|File is compressed using Bzip2.|
 |BCJ|Technique that improves the compression of machine code.|
 |AES|File is encrypted.|
+|DELTA|File is encoded using Delta converter.|
 
 ### See Also
 
