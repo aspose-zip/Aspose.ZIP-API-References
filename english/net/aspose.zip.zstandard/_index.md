@@ -3,7 +3,7 @@ title: Aspose.Zip.Zstandard
 second_title: Aspose.ZIP for .NET API Reference
 description: The Zstandard namespace contains classes for Zstandard compressed data manipulation
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.zip.zstandard/
 ---
 The Zstandard namespace contains classes for Zstandard compressed data manipulation.

@@ -83,7 +83,6 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 | --- | --- |
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | Wrong signature for archive. - or - The file is not a RAR archive. |
-| InvalidOperationException |  |
 
 ## Remarks
 

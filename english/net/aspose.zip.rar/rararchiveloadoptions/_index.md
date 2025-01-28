@@ -3,7 +3,7 @@ title: Class RarArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Rar.RarArchiveLoadOptions class. Options with which RarArchive is loaded from compressed file
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.zip.rar/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions class

@@ -3,7 +3,7 @@ title: Class TraditionalEncryptionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.TraditionalEncryptionSettings class. Settings for traditional ZipCrypto algorithm
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.zip.saving/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings class

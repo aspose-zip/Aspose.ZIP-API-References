@@ -3,7 +3,7 @@ title: Aspose.Zip.Shar
 second_title: Aspose.ZIP for .NET API Reference
 description: The Shar namespace contains classes which represent shar archive related entities
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.zip.shar/
 ---
 The Shar namespace contains classes which represent shar archive related entities.

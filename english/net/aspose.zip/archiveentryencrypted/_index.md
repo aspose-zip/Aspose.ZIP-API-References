@@ -3,7 +3,7 @@ title: Class ArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveEntryEncrypted class. Zip entry that needs to be compressed with encryption or decompressed with decryption
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.zip/archiveentryencrypted/
 ---
 ## ArchiveEntryEncrypted class

@@ -3,7 +3,7 @@ title: Aspose.Zip.Rar
 second_title: Aspose.ZIP for .NET API Reference
 description: The Rar namespace contains classes which represent RAR archive related entities
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.zip.rar/
 ---
 The Rar namespace contains classes which represent RAR archive related entities.

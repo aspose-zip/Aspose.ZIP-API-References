@@ -3,7 +3,7 @@ title: Class LhaArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lha.LhaArchive class. This class represents LHA .lzh archive file
 type: docs
-weight: 340
+weight: 360
 url: /net/aspose.zip.lha/lhaarchive/
 ---
 ## LhaArchive class
@@ -25,7 +25,6 @@ public class LhaArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [Directories](../../aspose.zip.lha/lhaarchive/directories/) { get; } | Gets directory entries of [`LhaDirectoryEntry`](../lhadirectoryentry/) type constituting the archive. |
 | [Entries](../../aspose.zip.lha/lhaarchive/entries/) { get; } | Gets file entries of [`LhaArchiveEntry`](../lhaarchiveentry/) type constituting the archive. |
 
 ## Methods

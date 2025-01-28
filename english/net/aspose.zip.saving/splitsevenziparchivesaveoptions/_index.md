@@ -3,7 +3,7 @@ title: Class SplitSevenZipArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SplitSevenZipArchiveSaveOptions class. Options for saving a multivolume 7zip archive
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.zip.saving/splitsevenziparchivesaveoptions/
 ---
 ## SplitSevenZipArchiveSaveOptions class

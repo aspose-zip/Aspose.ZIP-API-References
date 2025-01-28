@@ -3,7 +3,7 @@ title: IsoArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: IsoArchive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.zip.iso/isoarchive/dispose/
 ---
 ## IsoArchive.Dispose method

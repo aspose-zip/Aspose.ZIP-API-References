@@ -3,7 +3,7 @@ title: Class Bzip2LoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Bzip2.Bzip2LoadOptions class. Options for loading Bzip2Archive. Contains event raised on extraction
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.zip.bzip2/bzip2loadoptions/
 ---
 ## Bzip2LoadOptions class

@@ -3,7 +3,7 @@ title: Class SevenZipArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipArchive class. This class represents 7z archive file. Use it to compose and extract 7z archives
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.zip.sevenzip/sevenziparchive/
 ---
 ## SevenZipArchive class

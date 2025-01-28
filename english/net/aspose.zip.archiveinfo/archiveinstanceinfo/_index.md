@@ -3,7 +3,7 @@ title: Class ArchiveInstanceInfo
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveInfo.ArchiveInstanceInfo class. Represents information about the archive instance
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.zip.archiveinfo/archiveinstanceinfo/
 ---
 ## ArchiveInstanceInfo class

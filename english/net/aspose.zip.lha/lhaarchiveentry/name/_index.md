@@ -3,7 +3,7 @@ title: LhaArchiveEntry.Name
 second_title: Aspose.ZIP for .NET API Reference
 description: LhaArchiveEntry property. 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.zip.lha/lhaarchiveentry/name/
 ---
 ## LhaArchiveEntry.Name property
