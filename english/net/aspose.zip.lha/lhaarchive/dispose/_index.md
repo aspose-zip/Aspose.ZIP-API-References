@@ -3,7 +3,7 @@ title: LhaArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: LhaArchive method. 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.zip.lha/lhaarchive/dispose/
 ---
 ## LhaArchive.Dispose method

@@ -3,7 +3,7 @@ title: Class IsoArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Iso.IsoArchive class. Represents an ISO archive ISO 9660
 type: docs
-weight: 280
+weight: 300
 url: /net/aspose.zip.iso/isoarchive/
 ---
 ## IsoArchive class
@@ -27,7 +27,6 @@ public sealed class IsoArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [Entries](../../aspose.zip.iso/isoarchive/entries/) { get; } | Gets entries of [`IsoEntry`](../isoentry/) type constituting the archive. |
-| [FileEntries](../../aspose.zip.iso/isoarchive/fileentries/) { get; } | Gets entries of [`IArchiveFileEntry`](../../aspose.zip/iarchivefileentry/) type constituting the archive. |
 
 ## Methods
 

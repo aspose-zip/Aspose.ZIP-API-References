@@ -3,7 +3,7 @@ title: LhaArchive.ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: LhaArchive method. Extracts all the files and directories in the archive to the directory provided
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.zip.lha/lhaarchive/extracttodirectory/
 ---
 ## LhaArchive.ExtractToDirectory method

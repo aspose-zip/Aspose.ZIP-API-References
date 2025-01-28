@@ -3,7 +3,7 @@ title: IsoArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
 description: IsoArchive method. Saves the ISO image to the specified path
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.zip.iso/isoarchive/save/
 ---
 ## Save(string, IsoSaveOptions) {#save_1}

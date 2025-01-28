@@ -3,7 +3,7 @@ title: Class CabEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabEntry class. Represents single file within cab archive
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.zip.cab/cabentry/
 ---
 ## CabEntry class

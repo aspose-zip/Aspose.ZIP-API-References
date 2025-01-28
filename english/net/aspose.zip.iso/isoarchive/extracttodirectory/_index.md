@@ -3,7 +3,7 @@ title: IsoArchive.ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: IsoArchive method. Extracts all entries to the specified directory
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.zip.iso/isoarchive/extracttodirectory/
 ---
 ## IsoArchive.ExtractToDirectory method

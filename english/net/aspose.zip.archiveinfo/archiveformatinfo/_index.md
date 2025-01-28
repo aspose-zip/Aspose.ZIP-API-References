@@ -3,7 +3,7 @@ title: Class ArchiveFormatInfo
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveInfo.ArchiveFormatInfo class. Represents information about the archive format
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.zip.archiveinfo/archiveformatinfo/
 ---
 ## ArchiveFormatInfo class
