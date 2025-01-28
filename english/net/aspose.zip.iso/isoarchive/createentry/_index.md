@@ -3,7 +3,7 @@ title: IsoArchive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: IsoArchive method. Adds a file to the ISO image
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.zip.iso/isoarchive/createentry/
 ---
 ## CreateEntry(string, string) {#createentry_2}

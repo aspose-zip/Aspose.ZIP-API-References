@@ -3,7 +3,7 @@ title: Class Archive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Archive class. This class represents zip archive file. Use it to compose extract or update zip archives
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.zip/archive/
 ---
 ## Archive class

@@ -3,7 +3,7 @@ title: Aspose.Zip.Saving
 second_title: Aspose.ZIP for .NET API Reference
 description: The Saving namespace contains classes which are needed for operations entailing saving the archive
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.zip.saving/
 ---
 The Saving namespace contains classes which are needed for operations entailing saving the archive.

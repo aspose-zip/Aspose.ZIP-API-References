@@ -3,7 +3,7 @@ title: Class LhaArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lha.LhaArchiveEntry class. Represents single file within Lha archive
 type: docs
-weight: 350
+weight: 370
 url: /net/aspose.zip.lha/lhaarchiveentry/
 ---
 ## LhaArchiveEntry class
@@ -18,8 +18,11 @@ public class LhaArchiveEntry : IArchiveFileEntry
 
 | Name | Description |
 | --- | --- |
+| [IsDirectory](../../aspose.zip.lha/lhaarchiveentry/isdirectory/) { get; } | Gets a value indicating whether this entry directory. |
+| [LastModified](../../aspose.zip.lha/lhaarchiveentry/lastmodified/) { get; } | Gets the last modified time of the entry. |
 | [Length](../../aspose.zip.lha/lhaarchiveentry/length/) { get; } |  |
 | [Name](../../aspose.zip.lha/lhaarchiveentry/name/) { get; } |  |
+| [Path](../../aspose.zip.lha/lhaarchiveentry/path/) { get; } | Gets the full path to the entry. |
 
 ## Methods
 
@@ -27,7 +30,7 @@ public class LhaArchiveEntry : IArchiveFileEntry
 | --- | --- |
 | [Extract](../../aspose.zip.lha/lhaarchiveentry/extract/#extract_1)(FileInfo) | Extracts Lha archive entry to a file. |
 | [Extract](../../aspose.zip.lha/lhaarchiveentry/extract/#extract_2)(Stream) | Extracts the entry to the stream provided. |
-| [Extract](../../aspose.zip.lha/lhaarchiveentry/extract/#extract)(string) | Extracts Lha archive entry to a file by path. |
+| [Extract](../../aspose.zip.lha/lhaarchiveentry/extract/#extract)(string) | Extracts Lha archive entry to a filesystem by path. |
 
 ### See Also
 

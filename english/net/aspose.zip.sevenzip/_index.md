@@ -3,7 +3,7 @@ title: Aspose.Zip.SevenZip
 second_title: Aspose.ZIP for .NET API Reference
 description: The SevenZip namespace contains classes which represent 7z archive related entities
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.zip.sevenzip/
 ---
 The SevenZip namespace contains classes which represent 7z archive related entities.

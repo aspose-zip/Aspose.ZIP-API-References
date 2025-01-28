@@ -1,17 +1,17 @@
 ---
 title: LhaArchiveEntry.Extract
 second_title: Aspose.ZIP for .NET API Reference
-description: LhaArchiveEntry method. Extracts Lha archive entry to a file by path
+description: LhaArchiveEntry method. Extracts Lha archive entry to a filesystem by path
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.zip.lha/lhaarchiveentry/extract/
 ---
 ## Extract(string) {#extract}
 
-Extracts Lha archive entry to a file by path.
+Extracts Lha archive entry to a filesystem by path.
 
 ```csharp
-public FileInfo Extract(string path)
+public FileSystemInfo Extract(string path)
 ```
 
 | Parameter | Type | Description |
@@ -20,7 +20,7 @@ public FileInfo Extract(string path)
 
 ### Return Value
 
-FileInfo instance containing extracted data.
+FileSystemInfoInstance containing extracted data.
 
 ### Exceptions
 
@@ -72,6 +72,10 @@ public void Extract(Stream destination)
 | --- | --- |
 | ArgumentException | *destination* does not support writing. |
 
+## Remarks
+
+Does nothing for directory entry.
+
 ### See Also
 
 * class [LhaArchiveEntry](../)
@@ -104,6 +108,10 @@ public void Extract(FileInfo fileInfo)
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+
+## Remarks
+
+Does nothing for directory entry.
 
 ## Examples
 

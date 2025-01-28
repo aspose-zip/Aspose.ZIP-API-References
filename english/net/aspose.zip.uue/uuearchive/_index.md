@@ -3,7 +3,7 @@ title: Class UueArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Uue.UueArchive class. This class represents uuencoded file
 type: docs
-weight: 880
+weight: 890
 url: /net/aspose.zip.uue/uuearchive/
 ---
 ## UueArchive class

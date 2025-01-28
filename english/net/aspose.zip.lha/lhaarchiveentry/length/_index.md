@@ -3,7 +3,7 @@ title: LhaArchiveEntry.Length
 second_title: Aspose.ZIP for .NET API Reference
 description: LhaArchiveEntry property. 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.zip.lha/lhaarchiveentry/length/
 ---
 ## LhaArchiveEntry.Length property

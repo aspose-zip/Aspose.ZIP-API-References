@@ -24,6 +24,7 @@ public LhaArchive(Stream sourceStream)
 | --- | --- |
 | ArgumentNullException | *sourceStream* is null |
 | ArgumentException | *sourceStream* is unseekable. |
+| InvalidDataException | Inappropriate data found. |
 
 ## Remarks
 

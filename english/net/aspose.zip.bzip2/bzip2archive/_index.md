@@ -3,7 +3,7 @@ title: Class Bzip2Archive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Bzip2.Bzip2Archive class. This class represents bzip2 archive file. Use it to compose or extract bzip2 archives
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.zip.bzip2/bzip2archive/
 ---
 ## Bzip2Archive class

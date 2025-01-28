@@ -3,7 +3,7 @@ title: Class EventsBag
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Iso.EventsBag class. Events container used on IsoArchive saving
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.zip.iso/eventsbag/
 ---
 ## EventsBag class

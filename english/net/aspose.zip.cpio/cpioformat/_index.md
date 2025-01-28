@@ -3,7 +3,7 @@ title: Enum CpioFormat
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cpio.CpioFormat enum. Enumeration with supported formats of cpio
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.zip.cpio/cpioformat/
 ---
 ## CpioFormat enumeration
