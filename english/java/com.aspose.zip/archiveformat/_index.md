@@ -18,7 +18,7 @@ Supported archive formats.
 
 | Field | Description |
 | --- | --- |
-| [Arj](#Arj) | Arj archive ([ArjArchive](../../com.aspose.zip/arjarchive) |
+| [Arj](#Arj) | Arj archive ([ArjArchive](../../com.aspose.zip/arjarchive)). |
 | [Bzip2](#Bzip2) | Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)). |
 | [Cab](#Cab) | Cab archive ([CabArchive](../../com.aspose.zip/cabarchive)). |
 | [Cpio](#Cpio) | Cpio archive ([CpioArchive](../../com.aspose.zip/cpioarchive)). |
@@ -51,7 +51,7 @@ public static final ArchiveFormat Arj
 ```
 
 
-Arj archive ([ArjArchive](../../com.aspose.zip/arjarchive)
+Arj archive ([ArjArchive](../../com.aspose.zip/arjarchive)).
 
 ### Bzip2 {#Bzip2}
 ```
