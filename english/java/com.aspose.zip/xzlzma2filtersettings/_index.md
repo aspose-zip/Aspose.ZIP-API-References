@@ -3,7 +3,7 @@ title: XzLZMA2FilterSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Set of settings for xz LZMA2 filter.
 type: docs
-weight: 111
+weight: 113
 url: /java/com.aspose.zip/xzlzma2filtersettings/
 ---
 

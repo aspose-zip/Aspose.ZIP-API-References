@@ -3,7 +3,7 @@ title: IsoArchive
 second_title: Aspose.ZIP for Java API Reference
 description: Represents an ISO archive ISO 9660.
 type: docs
-weight: 43
+weight: 45
 url: /java/com.aspose.zip/isoarchive/
 ---
 

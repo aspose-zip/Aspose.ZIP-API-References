@@ -3,7 +3,7 @@ title: EncryptionMethod
 second_title: Aspose.ZIP for Java API Reference
 description: Encryption/decryption methods can be used with zip archive.
 type: docs
-weight: 124
+weight: 126
 url: /java/com.aspose.zip/encryptionmethod/
 ---
 

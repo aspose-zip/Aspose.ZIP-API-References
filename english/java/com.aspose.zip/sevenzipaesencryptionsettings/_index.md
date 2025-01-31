@@ -3,7 +3,7 @@ title: SevenZipAESEncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for AES encryption or decryption algorithm.
 type: docs
-weight: 66
+weight: 68
 url: /java/com.aspose.zip/sevenzipaesencryptionsettings/
 ---
 

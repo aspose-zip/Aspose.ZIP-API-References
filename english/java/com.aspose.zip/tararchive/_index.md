@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents tar archive file.
 type: docs
-weight: 86
+weight: 88
 url: /java/com.aspose.zip/tararchive/
 ---
 

@@ -3,7 +3,7 @@ title: CabEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within cab archive.
 type: docs
-weight: 26
+weight: 28
 url: /java/com.aspose.zip/cabentry/
 ---
 

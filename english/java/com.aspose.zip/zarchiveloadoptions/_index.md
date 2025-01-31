@@ -3,7 +3,7 @@ title: ZArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from compressed file.
 type: docs
-weight: 113
+weight: 115
 url: /java/com.aspose.zip/zarchiveloadoptions/
 ---
 

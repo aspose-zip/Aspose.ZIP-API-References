@@ -3,7 +3,7 @@ title: EntryEventArgsIso
 second_title: Aspose.ZIP for Java API Reference
 description: Event arguments for entry related events.
 type: docs
-weight: 36
+weight: 38
 url: /java/com.aspose.zip/entryeventargsiso/
 ---
 
