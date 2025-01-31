@@ -34,4 +34,5 @@ url: /python-net/
 |[aspose.zip.saving](/zip/python-net/aspose.zip.saving/)|Contains classes which are needed for operations entailing saving the archive.|
 |[aspose.zip.cab](/zip/python-net/aspose.zip.cab/)|Contains classes which represent Cab archive related entities.|
 |[aspose.zip.bzip2](/zip/python-net/aspose.zip.bzip2/)|Contains classes which represent bzip2 archive related entities.|
+|[aspose.zip.arj](/zip/python-net/aspose.zip.arj/)|Contains classes which represent arj archive related entities.|
 |[aspose.zip.archiveinfo](/zip/python-net/aspose.zip.archiveinfo/)|Contains classes which represent archive info related entities.|
