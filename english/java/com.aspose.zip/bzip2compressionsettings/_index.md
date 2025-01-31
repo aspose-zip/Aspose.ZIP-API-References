@@ -3,7 +3,7 @@ title: Bzip2CompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Bzip2 compression method.
 type: docs
-weight: 22
+weight: 24
 url: /java/com.aspose.zip/bzip2compressionsettings/
 ---
 

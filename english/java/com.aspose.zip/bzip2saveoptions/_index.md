@@ -3,7 +3,7 @@ title: Bzip2SaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a bzip2 archive.
 type: docs
-weight: 24
+weight: 26
 url: /java/com.aspose.zip/bzip2saveoptions/
 ---
 

@@ -3,7 +3,7 @@ title: GzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents gzip archive file.
 type: docs
-weight: 42
+weight: 44
 url: /java/com.aspose.zip/gziparchive/
 ---
 

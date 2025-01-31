@@ -3,7 +3,7 @@ title: LhaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LHA .lzh archive file.
 type: docs
-weight: 47
+weight: 49
 url: /java/com.aspose.zip/lhaarchive/
 ---
 
@@ -41,7 +41,6 @@ Only following compression methods are supported:
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files and directories in the archive to the directory provided. |
-| [getDirectories()](#getDirectories--) | Gets directory entries of [LhaDirectoryEntry](../../com.aspose.zip/lhadirectoryentry) type constituting the archive. |
 | [getEntries()](#getEntries--) | Gets file entries of [LhaArchiveEntry](../../com.aspose.zip/lhaarchiveentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
 ### LhaArchive(InputStream sourceStream) {#LhaArchive-java.io.InputStream-}
@@ -118,16 +117,6 @@ Extracts all the files and directories in the archive to the directory provided.
 
 If the directory does not exist, it will be created |
 
-### getDirectories() {#getDirectories--}
-```
-public final List<LhaDirectoryEntry> getDirectories()
-```
-
-
-Gets directory entries of [LhaDirectoryEntry](../../com.aspose.zip/lhadirectoryentry) type constituting the archive.
-
-**Returns:**
-java.util.List&lt;com.aspose.zip.LhaDirectoryEntry&gt; - directory entries of [LhaDirectoryEntry](../../com.aspose.zip/lhadirectoryentry) type constituting the archive
 ### getEntries() {#getEntries--}
 ```
 public final List<LhaArchiveEntry> getEntries()
@@ -145,8 +134,6 @@ public final Iterable<IArchiveFileEntry> getFileEntries()
 
 
 Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive.
-
-Archives for compression only, such as gzip, bzip2, lzip, lzma, xz, z consist of the single record - the archive itself.
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive

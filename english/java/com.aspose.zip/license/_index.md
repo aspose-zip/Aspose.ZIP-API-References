@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.ZIP for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 50
+weight: 52
 url: /java/com.aspose.zip/license/
 ---
 
