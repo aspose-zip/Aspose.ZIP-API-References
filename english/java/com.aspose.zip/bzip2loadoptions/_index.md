@@ -3,7 +3,7 @@ title: Bzip2LoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 23
+weight: 25
 url: /java/com.aspose.zip/bzip2loadoptions/
 ---
 

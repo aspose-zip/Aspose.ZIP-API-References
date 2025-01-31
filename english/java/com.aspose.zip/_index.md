@@ -23,6 +23,8 @@ url: /java/com.aspose.zip/
 | [ArchiveInstanceInfo](../com.aspose.zip/archiveinstanceinfo) | Represents information about the archive instance. |
 | [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which archive is loaded from compressed file. |
 | [ArchiveSaveOptions](../com.aspose.zip/archivesaveoptions) | Options for saving a zip archive. |
+| [ArjArchive](../com.aspose.zip/arjarchive) | This class represents ARJ archive file. |
+| [ArjEntryPlain](../com.aspose.zip/arjentryplain) | Represents single file within ARJ archive. |
 | [Bzip2Archive](../com.aspose.zip/bzip2archive) | This class represents bzip2 archive file. |
 | [Bzip2CompressionSettings](../com.aspose.zip/bzip2compressionsettings) | Settings for Bzip2 compression method. |
 | [Bzip2LoadOptions](../com.aspose.zip/bzip2loadoptions) | Options for loading [Bzip2Archive](../com.aspose.zip/bzip2archive). |

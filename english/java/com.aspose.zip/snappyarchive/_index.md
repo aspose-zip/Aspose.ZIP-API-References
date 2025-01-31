@@ -3,7 +3,7 @@ title: SnappyArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents snappy archive file.
 type: docs
-weight: 82
+weight: 84
 url: /java/com.aspose.zip/snappyarchive/
 ---
 

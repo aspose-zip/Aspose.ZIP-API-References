@@ -3,7 +3,7 @@ title: Bzip2Archive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents bzip2 archive file.
 type: docs
-weight: 21
+weight: 23
 url: /java/com.aspose.zip/bzip2archive/
 ---
 
