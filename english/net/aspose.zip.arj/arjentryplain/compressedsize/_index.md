@@ -17,7 +17,7 @@ public uint CompressedSize { get; }
 ### See Also
 
 * class [ArjEntryPlain](../)
-* namespace [Aspose.Zip.ARJ](../../arjentryplain/)
+* namespace [Aspose.Zip.Arj](../../arjentryplain/)
 * assembly [Aspose.Zip](../../../)
 
 

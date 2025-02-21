@@ -19,8 +19,8 @@ public class LhaArchiveEntry : IArchiveFileEntry
 | Name | Description |
 | --- | --- |
 | [IsDirectory](../../aspose.zip.lha/lhaarchiveentry/isdirectory/) { get; } | Gets a value indicating whether this entry directory. |
-| [LastModified](../../aspose.zip.lha/lhaarchiveentry/lastmodified/) { get; } | Gets the last modified time of the entry. |
 | [Length](../../aspose.zip.lha/lhaarchiveentry/length/) { get; } |  |
+| [ModificationTime](../../aspose.zip.lha/lhaarchiveentry/modificationtime/) { get; } | Gets the last modified time of the entry. |
 | [Name](../../aspose.zip.lha/lhaarchiveentry/name/) { get; } |  |
 | [Path](../../aspose.zip.lha/lhaarchiveentry/path/) { get; } | Gets the full path to the entry. |
 

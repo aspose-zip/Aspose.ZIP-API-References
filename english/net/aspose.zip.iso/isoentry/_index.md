@@ -19,7 +19,8 @@ public abstract class IsoEntry : IArchiveFileEntry
 | Name | Description |
 | --- | --- |
 | [IsDirectory](../../aspose.zip.iso/isoentry/isdirectory/) { get; } | Gets a value indicating whether the entry is a directory. |
-| [Length](../../aspose.zip.iso/isoentry/length/) { get; } | Gets the length of the entry in bytes. |
+| [Length](../../aspose.zip.iso/isoentry/length/) { get; } | Gets or sets creation date and time. |
+| [ModificationTime](../../aspose.zip.iso/isoentry/modificationtime/) { get; } | Gets or sets last modified date and time. |
 | [Name](../../aspose.zip.iso/isoentry/name/) { get; } | Gets the name of the entry. |
 
 ## Methods

@@ -3,7 +3,7 @@ title: IsoEntry.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: IsoEntry method. Extracts the entry to the filesystem by the path provided
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.iso/isoentry/extract/
 ---
 ## Extract(string) {#extract}
@@ -32,6 +32,9 @@ FileInfo instance containing extracted data.
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| FileNotFoundException | The file is not found. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| IOException | The file is already open. |
 
 ### See Also
 

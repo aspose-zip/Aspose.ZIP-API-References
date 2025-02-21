@@ -13,7 +13,7 @@ is_root: true
 | --- | --- |
 | [Aspose.Zip](./aspose.zip/) | The Zip namespace contains classes which represent zip archive and common archive related entities. |
 | [Aspose.Zip.ArchiveInfo](./aspose.zip.archiveinfo/) | The ArchiveInfo namespace contains classes which represent archive info related entities. |
-| [Aspose.Zip.ARJ](./aspose.zip.arj/) | The ARJ namespace contains classes which represent ARJ related entities. |
+| [Aspose.Zip.Arj](./aspose.zip.arj/) | The Arj namespace contains classes which represent ARJ related entities. |
 | [Aspose.Zip.Bzip2](./aspose.zip.bzip2/) | The Bzip2 namespace contains classes which represent bzip2 archive related entities. |
 | [Aspose.Zip.Cab](./aspose.zip.cab/) | The Cab namespace contains classes which represent Cab archive related entities. |
 | [Aspose.Zip.Cpio](./aspose.zip.cpio/) | The Cpio namespace contains classes which represent cpio archive related entities. |

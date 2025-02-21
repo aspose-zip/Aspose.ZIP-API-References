@@ -47,6 +47,13 @@ public Bzip2Archive(Stream sourceStream, Bzip2LoadOptions loadOptions = null)
 | sourceStream | Stream | The source of the archive. |
 | loadOptions | Bzip2LoadOptions | The options to load archive with. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Premature stream end. |
+| InvalidDataException | Wrong signature bytes. |
+
 ## Remarks
 
 This constructor does not decompress. See [`Open`](../open/) method for decompressing.
@@ -96,6 +103,8 @@ public Bzip2Archive(string path, Bzip2LoadOptions loadOptions = null)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| EndOfStreamException | Premature stream end. |
+| InvalidDataException | Wrong signature bytes. |
 
 ## Remarks
 

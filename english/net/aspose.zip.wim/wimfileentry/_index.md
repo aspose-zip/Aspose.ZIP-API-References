@@ -29,8 +29,8 @@ public sealed class WimFileEntry : WimEntry, IArchiveFileEntry
 | [Image](../../aspose.zip.wim/wimentry/image/) { get; } | Gets the image the entry belongs to. |
 | [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
 | [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime/) { get; } | Gets the last access time of the file or directory. |
-| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime/) { get; } | Gets the modification time of the file or directory. |
 | [Length](../../aspose.zip.wim/wimfileentry/length/) { get; } | Gets the length of the entry in bytes. |
+| [ModificationTime](../../aspose.zip.wim/wimentry/modificationtime/) { get; } | Gets the modification time of the file or directory. |
 | [Name](../../aspose.zip.wim/wimentry/name/) { get; } | Gets name of the entry within image. |
 | [Parent](../../aspose.zip.wim/wimentry/parent/) { get; } | Gets the parent directory the entry belongs to. |
 | [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | Gets short name of the entry within image. |

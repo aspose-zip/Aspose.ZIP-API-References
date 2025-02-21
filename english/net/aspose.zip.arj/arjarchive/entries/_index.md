@@ -18,7 +18,7 @@ public ReadOnlyCollection<ArjEntryPlain> Entries { get; }
 
 * class [ArjEntryPlain](../../arjentryplain/)
 * class [ArjArchive](../)
-* namespace [Aspose.Zip.ARJ](../../arjarchive/)
+* namespace [Aspose.Zip.Arj](../../arjarchive/)
 * assembly [Aspose.Zip](../../../)
 
 

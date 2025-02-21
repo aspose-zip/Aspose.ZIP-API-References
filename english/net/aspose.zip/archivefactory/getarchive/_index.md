@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.zip/archivefactory/getarchive/
 ---
-## GetArchive(string) {#getarchive_1}
+## GetArchive(string) {#getarchive_2}
 
 Detects the archive format and creates the appropriate [`IArchive`](../../iarchive/) object according to the type of archive specified by the given path.
 
@@ -41,7 +41,33 @@ public static IArchive GetArchive(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream containing the archive data. It must bee seekable. |
+| stream | Stream | The stream containing the archive data. It must be seekable. |
+
+### Return Value
+
+An [`IArchive`](../../iarchive/) object representing the archive.
+
+### See Also
+
+* interface [IArchive](../../iarchive/)
+* class [ArchiveFactory](../)
+* namespace [Aspose.Zip](../../archivefactory/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GetArchive(Stream, string) {#getarchive_1}
+
+Detects the archive format and creates the appropriate [`IArchive`](../../iarchive/) object according to the type of encrypted archive specified by the given stream.
+
+```csharp
+public static IArchive GetArchive(Stream stream, string password)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream containing the archive data. It must be seekable. |
+| password | String | Password to decrypt encrypted archive. |
 
 ### Return Value
 

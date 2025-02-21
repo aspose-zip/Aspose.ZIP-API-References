@@ -25,7 +25,7 @@ public CabArchive(Stream sourceStream)
 | ArgumentNullException | *sourceStream* is null. |
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | *sourceStream* is not valid cab archive. |
-| EndOfStreamException | Stream is too short. |
+| EndOfStreamException | The stream is too short. |
 
 ## Remarks
 
@@ -33,7 +33,7 @@ This constructor does not unpack any entry. See [`Open`](../../cabentry/open/) m
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new CabArchive(File.OpenRead("archive.cab")))
@@ -83,7 +83,7 @@ This constructor does not unpack any entry. See [`Open`](../../cabentry/open/) m
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new CabArchive("archive.cab")) 

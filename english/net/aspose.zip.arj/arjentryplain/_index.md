@@ -1,9 +1,9 @@
 ---
 title: Class ArjEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.ARJ.ArjEntryPlain class. Represents single file within ARJ archive
+description: Aspose.Zip.Arj.ArjEntryPlain class. Represents single file within ARJ archive
 type: docs
-weight: 20
+weight: 110
 url: /net/aspose.zip.arj/arjentryplain/
 ---
 ## ArjEntryPlain class
@@ -33,7 +33,7 @@ public class ArjEntryPlain : IArchiveFileEntry
 ### See Also
 
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* namespace [Aspose.Zip.ARJ](../../aspose.zip.arj/)
+* namespace [Aspose.Zip.Arj](../../aspose.zip.arj/)
 * assembly [Aspose.Zip](../../)
 
 

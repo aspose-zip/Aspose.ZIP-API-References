@@ -1,14 +1,14 @@
 ---
 title: Archive.DeleteEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: Archive method. Removes the first occurrence of a specific entry from the entries list
+description: Archive method. Removes the first occurrence of the specific entry from the entry list
 type: docs
 weight: 60
 url: /net/aspose.zip/archive/deleteentry/
 ---
 ## DeleteEntry(ArchiveEntry) {#deleteentry}
 
-Removes the first occurrence of a specific entry from the entries list.
+Removes the first occurrence of the specific entry from the entry list.
 
 ```csharp
 public Archive DeleteEntry(ArchiveEntry entry)
@@ -26,7 +26,7 @@ The archive with the entry deleted.
 
 | exception | condition |
 | --- | --- |
-| ObjectDisposedException | Archive is disposed. |
+| ObjectDisposedException | The archive is disposed. |
 
 ## Examples
 
@@ -52,7 +52,7 @@ using (var archive = new Archive("archive.zip"))
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Removes the entry from the entries list by index.
+Removes the entry from the entry list by index.
 
 ```csharp
 public Archive DeleteEntry(int entryIndex)

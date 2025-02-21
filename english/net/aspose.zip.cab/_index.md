@@ -12,7 +12,7 @@ The Cab namespace contains classes which represent Cab archive related entities.
 
 | Class | Description |
 | --- | --- |
-| [CabArchive](./cabarchive/) | This class represents cab archive file. |
-| [CabEntry](./cabentry/) | Represents single file within cab archive. |
+| [CabArchive](./cabarchive/) | This class represents a cab archive file. |
+| [CabEntry](./cabentry/) | Represents a single file within cab archive. |
 
 

@@ -58,7 +58,7 @@ using (var archive = new TarArchive())
 
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -68,7 +68,7 @@ public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file or folder to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 
 ### Return Value
 
@@ -111,7 +111,7 @@ using (var archive = new TarArchive())
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public TarEntry CreateEntry(string name, string path, bool openImmediately = false)
@@ -121,7 +121,7 @@ public TarEntry CreateEntry(string name, string path, bool openImmediately = fal
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | path | String | Path to file to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 
 ### Return Value
 

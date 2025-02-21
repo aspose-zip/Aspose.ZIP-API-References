@@ -34,7 +34,7 @@ This constructor does not decompress any entry. See [`Extract`](../../arjentrypl
 ### See Also
 
 * class [ArjArchive](../)
-* namespace [Aspose.Zip.ARJ](../../arjarchive/)
+* namespace [Aspose.Zip.Arj](../../arjarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
@@ -83,7 +83,7 @@ using (var archive = new ArjArchive("archive.arj"))
 ### See Also
 
 * class [ArjArchive](../)
-* namespace [Aspose.Zip.ARJ](../../arjarchive/)
+* namespace [Aspose.Zip.Arj](../../arjarchive/)
 * assembly [Aspose.Zip](../../../)
 
 

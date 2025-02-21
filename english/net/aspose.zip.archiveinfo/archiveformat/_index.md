@@ -3,7 +3,7 @@ title: Enum ArchiveFormat
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveInfo.ArchiveFormat enum. Supported archive formats
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.zip.archiveinfo/archiveformat/
 ---
 ## ArchiveFormat enumeration
@@ -38,7 +38,7 @@ public enum ArchiveFormat
 | Zstandard | `17` | Zstandard archive ([`ZstandardArchive`](../../aspose.zip.zstandard/zstandardarchive/)). |
 | Iso | `18` | Iso archive ([`IsoArchive`](../../aspose.zip.iso/isoarchive/)). |
 | Lha | `19` | Lha archive ([`LhaArchive`](../../aspose.zip.lha/lhaarchive/) |
-| Arj | `20` | Lha archive ([`ArjArchive`](../../aspose.zip.arj/arjarchive/) |
+| Arj | `20` | Arj archive ([`ArjArchive`](../../aspose.zip.arj/arjarchive/) |
 
 ### See Also
 

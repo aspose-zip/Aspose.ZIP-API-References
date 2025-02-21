@@ -3,7 +3,7 @@ title: CabEntry.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: CabEntry method. Extracts the entry to the filesystem by the path provided
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.cab/cabentry/extract/
 ---
 ## Extract(string) {#extract}
@@ -20,7 +20,7 @@ public FileInfo Extract(string path)
 
 ### Return Value
 
-The file info of composed file.
+The file info of a composed file.
 
 ### Exceptions
 
@@ -36,7 +36,7 @@ The file info of composed file.
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | NotSupportedException | Stream initialization failed due to wrong data. |
-| InvalidDataException | Archive is corrupted. |
+| InvalidDataException | The archive is corrupted. |
 
 ## Examples
 
@@ -80,7 +80,7 @@ public void Extract(Stream destination)
 Extract an entry of cab archive.
 
 ```csharp
-using (var archive = new CabArchive("archive.cab"))
+Using (var archive = new CabArchive("archive.cab"))
 {
     archive.Entries[0].Extract(httpResponseStream);
 }

@@ -1,9 +1,9 @@
 ---
 title: Class ArjArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.ARJ.ArjArchive class. This class represents ARJ archive file
+description: Aspose.Zip.Arj.ArjArchive class. This class represents ARJ archive file
 type: docs
-weight: 10
+weight: 100
 url: /net/aspose.zip.arj/arjarchive/
 ---
 ## ArjArchive class
@@ -63,7 +63,7 @@ Combination of LZ77 and adaptive Huffman coding. Best speed.
 ### See Also
 
 * interface [IArchive](../../aspose.zip/iarchive/)
-* namespace [Aspose.Zip.ARJ](../../aspose.zip.arj/)
+* namespace [Aspose.Zip.Arj](../../aspose.zip.arj/)
 * assembly [Aspose.Zip](../../)
 
 

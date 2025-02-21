@@ -17,7 +17,7 @@ public void SaveZCompressed(Stream output, TarFormat? format = default)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | output | Stream | Destination stream. |
-| format | Nullable`1 | Defines tar header format. Null value will be treated as USTar when possible. |
+| format | Nullable`1 | Defines the tar header format. Null value will be treated as USTar when possible. |
 
 ### Exceptions
 
@@ -66,7 +66,7 @@ public void SaveZCompressed(string path, TarFormat? format = default)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
-| format | Nullable`1 | Defines tar header format. Null value will be treated as USTar when possible. |
+| format | Nullable`1 | Defines the tar header format. Null value will be treated as USTar when possible. |
 
 ## Examples
 
