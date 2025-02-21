@@ -3,7 +3,7 @@ title: CabEntry.ToString
 second_title: Aspose.ZIP for .NET API Reference
 description: CabEntry method. 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.cab/cabentry/tostring/
 ---
 ## CabEntry.ToString method

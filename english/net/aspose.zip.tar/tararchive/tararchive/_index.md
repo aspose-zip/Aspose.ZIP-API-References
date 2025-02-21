@@ -36,7 +36,7 @@ using (var archive = new TarArchive())
 
 ## TarArchive(Stream) {#constructor_1}
 
-Initializes a new instance of the [`Archive`](../../../aspose.zip/archive/) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`Archive`](../../../aspose.zip/archive/) class and composes entry list can be extracted from the archive.
 
 ```csharp
 public TarArchive(Stream sourceStream)
@@ -50,7 +50,8 @@ public TarArchive(Stream sourceStream)
 
 | exception | condition |
 | --- | --- |
-| InvalidDataException | *sourceStream* is not seekable. |
+| ArgumentException | *sourceStream* is not seekable. |
+| ArgumentNullException | *sourceStream* is null. |
 
 ## Remarks
 
@@ -58,7 +59,7 @@ This constructor does not unpack any entry. See [`Open`](../../tarentry/open/) m
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new TarArchive(File.OpenRead("archive.tar")))

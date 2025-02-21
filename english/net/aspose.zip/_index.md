@@ -17,7 +17,7 @@ The Zip namespace contains classes which represent zip archive and common archiv
 | [ArchiveEntryEncrypted](./archiveentryencrypted/) | Zip entry that needs to be compressed with encryption or decompressed with decryption. |
 | [ArchiveEntryPlain](./archiveentryplain/) | Zip entry that needs to be compressed without encryption or decompressed without decryption. |
 | [ArchiveFactory](./archivefactory/) | Detects the archive format and creates the appropriate [`IArchive`](../aspose.zip/iarchive/) object according to the type of archive. |
-| [ArchiveLoadOptions](./archiveloadoptions/) | Options with which archive is loaded from compressed file. |
+| [ArchiveLoadOptions](./archiveloadoptions/) | Options with which archive is loaded from a compressed file. |
 | [CancelEntryEventArgs](./cancelentryeventargs/) | Event arguments for cancelable entry related events. |
 | [ComHelper](./comhelper/) | Provides methods for COM clients to load archives into Aspose.Zip. |
 | [EntryEventArgs](./entryeventargs/) | Event arguments for entry related events. |

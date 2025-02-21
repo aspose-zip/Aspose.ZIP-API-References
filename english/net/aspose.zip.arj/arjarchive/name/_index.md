@@ -17,7 +17,7 @@ public string Name { get; }
 ### See Also
 
 * class [ArjArchive](../)
-* namespace [Aspose.Zip.ARJ](../../arjarchive/)
+* namespace [Aspose.Zip.Arj](../../arjarchive/)
 * assembly [Aspose.Zip](../../../)
 
 

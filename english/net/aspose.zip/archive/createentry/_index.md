@@ -1,14 +1,14 @@
 ---
 title: Archive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: Archive method. Create single entry within the archive
+description: Archive method. Create a single entry within the archive
 type: docs
 weight: 50
 url: /net/aspose.zip/archive/createentry/
 ---
 ## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_4}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, string path, bool openImmediately = false, 
@@ -19,7 +19,7 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | path | String | The fully qualified name of the new file, or the relative file name to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for added [`ArchiveEntry`](../../archiveentry/) item. |
 
 ### Return Value
@@ -68,7 +68,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_2}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, 
@@ -107,7 +107,7 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 ## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry_1}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false, 
@@ -118,7 +118,7 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | ArchiveEntrySettings | Compression and encryption settings used for added [`ArchiveEntry`](../../archiveentry/) item. |
 
 ### Return Value
@@ -171,7 +171,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_3}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings newEntrySettings, 
@@ -228,7 +228,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## CreateEntry(string, Func&lt;Stream&gt;, ArchiveEntrySettings) {#createentry}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 

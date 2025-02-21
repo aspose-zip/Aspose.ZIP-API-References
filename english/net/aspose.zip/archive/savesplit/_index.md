@@ -29,13 +29,13 @@ public void SaveSplit(string destinationDirectory, SplitArchiveSaveOptions optio
 | SecurityException | The caller does not have the required permission to access the directory. |
 | ArgumentException | *destinationDirectory* contains invalid characters such as ", &gt;, &lt;, or &#x7C;. |
 | PathTooLongException | The specified path exceeds the system-defined maximum length. |
-| ObjectDisposedException | Archive is disposed. |
+| ObjectDisposedException | The archive is disposed. |
 
 ## Remarks
 
-This method compose several (`n`) files filename.z01, filename.z02, ..., filename.z(n-1), filename.zip.
+This method composes several (`n`) files filename.z01, filename.z02, ..., filename.z(n-1), filename.zip.
 
-Can not make existing archive multi-volume.
+Cannot make existing archive multi-volume.
 
 ## Examples
 

@@ -18,7 +18,7 @@ public event EventHandler<ProgressEventArgs> CompressionProgressed;
 
 Event sender is an [`SevenZipArchiveEntry`](../) instance.
 
-Does not invoke in multi-threaded mode for LZMA2 entries.
+Does not invoke in multithreaded mode for LZMA2 entries.
 
 ## Examples
 

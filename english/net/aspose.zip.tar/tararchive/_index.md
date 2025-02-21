@@ -19,7 +19,7 @@ public class TarArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [TarArchive](tararchive/#constructor)() | Initializes a new instance of the `TarArchive` class. |
-| [TarArchive](tararchive/#constructor_1)(Stream) | Initializes a new instance of the [`Archive`](../../aspose.zip/archive/) class and composes entries list can be extracted from the archive. |
+| [TarArchive](tararchive/#constructor_1)(Stream) | Initializes a new instance of the [`Archive`](../../aspose.zip/archive/) class and composes entry list can be extracted from the archive. |
 | [TarArchive](tararchive/#constructor_2)(string) | Initializes a new instance of the `TarArchive` class and composes entries list can be extracted from the archive. |
 
 ## Properties
@@ -46,11 +46,11 @@ public class TarArchive : IArchive
 | static [FromZstandard](../../aspose.zip.tar/tararchive/fromzstandard/#fromzstandard_1)(string) | Extracts supplied Zstandard archive and composes `TarArchive` from extracted data. |
 | [CreateEntries](../../aspose.zip.tar/tararchive/createentries/#createentries)(DirectoryInfo, bool) | Adds to the archive all the files and directories recursively in the directory given. |
 | [CreateEntries](../../aspose.zip.tar/tararchive/createentries/#createentries_1)(string, bool) | Adds to the archive all the files and directories recursively in the directory given. |
-| [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry)(string, FileInfo, bool) | Create single entry within the archive. |
+| [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry)(string, FileInfo, bool) | Create a single entry within the archive. |
 | [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry_1)(string, Stream, FileSystemInfo) | Create single entry within the archive. |
-| [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry_2)(string, string, bool) | Create single entry within the archive. |
-| [DeleteEntry](../../aspose.zip.tar/tararchive/deleteentry/#deleteentry_1)(int) | Removes the entry from the entries list by index. |
-| [DeleteEntry](../../aspose.zip.tar/tararchive/deleteentry/#deleteentry)(TarEntry) | Removes the first occurrence of a specific entry from the entries list. |
+| [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry_2)(string, string, bool) | Create a single entry within the archive. |
+| [DeleteEntry](../../aspose.zip.tar/tararchive/deleteentry/#deleteentry_1)(int) | Removes the entry from the entry list by index. |
+| [DeleteEntry](../../aspose.zip.tar/tararchive/deleteentry/#deleteentry)(TarEntry) | Removes the first occurrence of a specific entry from the entry list. |
 | [Dispose](../../aspose.zip.tar/tararchive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExtractToDirectory](../../aspose.zip.tar/tararchive/extracttodirectory/)(string) | Extracts all the files in the archive to the directory provided. |
 | [Save](../../aspose.zip.tar/tararchive/save/#save)(Stream, TarFormat?) | Saves archive to the stream provided. |

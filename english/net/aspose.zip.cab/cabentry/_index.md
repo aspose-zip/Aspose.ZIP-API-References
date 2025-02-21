@@ -1,14 +1,14 @@
 ---
 title: Class CabEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Cab.CabEntry class. Represents single file within cab archive
+description: Aspose.Zip.Cab.CabEntry class. Represents a single file within cab archive
 type: docs
 weight: 160
 url: /net/aspose.zip.cab/cabentry/
 ---
 ## CabEntry class
 
-Represents single file within cab archive.
+Represents a single file within cab archive.
 
 ```csharp
 public sealed class CabEntry : IArchiveFileEntry
@@ -19,7 +19,8 @@ public sealed class CabEntry : IArchiveFileEntry
 | Name | Description |
 | --- | --- |
 | [Length](../../aspose.zip.cab/cabentry/length/) { get; } | Gets the length of the entry in bytes. |
-| [Name](../../aspose.zip.cab/cabentry/name/) { get; } | Gets name of the entry within archive. |
+| [ModificationTime](../../aspose.zip.cab/cabentry/modificationtime/) { get; } | Gets last modified date and time. |
+| [Name](../../aspose.zip.cab/cabentry/name/) { get; } | Gets name of the entry within the archive. |
 
 ## Methods
 
