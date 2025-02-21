@@ -22,8 +22,8 @@ public sealed class XarFileEntry : XarEntry, IArchiveFileEntry
 | [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Gets full path of the entry within archive. |
 | [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
 | [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime/) { get; } | Gets the last access time of the file or directory. |
-| [LastWriteTime](../../aspose.zip.xar/xarentry/lastwritetime/) { get; } | Gets the modification time of the file or directory. |
 | [Length](../../aspose.zip.xar/xarfileentry/length/) { get; } | Gets the length of the entry in bytes. |
+| [ModificationTime](../../aspose.zip.xar/xarentry/modificationtime/) { get; } | Gets the modification time of the file or directory. |
 | [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Gets name of the entry within archive. |
 | [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Gets the parent directory the entry belongs to. |
 

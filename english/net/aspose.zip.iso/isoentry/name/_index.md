@@ -3,7 +3,7 @@ title: IsoEntry.Name
 second_title: Aspose.ZIP for .NET API Reference
 description: IsoEntry property. Gets the name of the entry
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.iso/isoentry/name/
 ---
 ## IsoEntry.Name property

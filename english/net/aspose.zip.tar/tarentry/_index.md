@@ -20,6 +20,7 @@ public class TarEntry : IArchiveFileEntry
 | --- | --- |
 | [IsDirectory](../../aspose.zip.tar/tarentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
 | [Length](../../aspose.zip.tar/tarentry/length/) { get; } | Get length of entry in bytes. |
+| [ModificationTime](../../aspose.zip.tar/tarentry/modificationtime/) { get; } | Gets the modification time of the file or directory. |
 | [Name](../../aspose.zip.tar/tarentry/name/) { get; set; } | Gets or sets name of the entry within archive. |
 
 ## Methods

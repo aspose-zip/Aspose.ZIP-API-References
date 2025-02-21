@@ -38,7 +38,7 @@ using (var archive = new ArjArchive(File.OpenRead("archive.arj")))
 ### See Also
 
 * class [ArjArchive](../)
-* namespace [Aspose.Zip.ARJ](../../arjarchive/)
+* namespace [Aspose.Zip.Arj](../../arjarchive/)
 * assembly [Aspose.Zip](../../../)
 
 

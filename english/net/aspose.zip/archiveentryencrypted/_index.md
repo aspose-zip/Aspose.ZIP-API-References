@@ -3,7 +3,7 @@ title: Class ArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveEntryEncrypted class. Zip entry that needs to be compressed with encryption or decompressed with decryption
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose.zip/archiveentryencrypted/
 ---
 ## ArchiveEntryEncrypted class
@@ -23,7 +23,7 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 | [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings/) { get; } | Gets settings for compression or decompression. |
 | [DataSource](../../aspose.zip/archiveentry/datasource/) { get; } | Source for the entry if the entry was added to archive, not extracted. |
 | [EncryptionSettings](../../aspose.zip/archiveentryencrypted/encryptionsettings/) { get; } | Gets settings for encryption or decryption. |
-| [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
+| [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [ModificationTime](../../aspose.zip/archiveentry/modificationtime/) { get; set; } | Gets or sets last modified date and time. |
 | [Name](../../aspose.zip/archiveentry/name/) { get; } | Gets name of the entry within archive. |
 | [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize/) { get; } | Gets size of original file. |

@@ -18,7 +18,7 @@ public void SaveXzCompressed(Stream output, TarFormat? format = default,
 | Parameter | Type | Description |
 | --- | --- | --- |
 | output | Stream | Destination stream. |
-| format | Nullable`1 | Defines tar header format. Null value will be treated as USTar when possible. |
+| format | Nullable`1 | Defines the tar header format. Null value will be treated as USTar when possible. |
 | settings | XzArchiveSettings | Set of setting particular xz archive: dictionary size, block size, check type. |
 
 ### Exceptions

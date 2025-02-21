@@ -46,7 +46,7 @@ using (FileStream arjFile = File.Open("archive.arj", FileMode.Open))
 ### See Also
 
 * class [ArjEntryPlain](../)
-* namespace [Aspose.Zip.ARJ](../../arjentryplain/)
+* namespace [Aspose.Zip.Arj](../../arjentryplain/)
 * assembly [Aspose.Zip](../../../)
 
 ---
@@ -91,7 +91,7 @@ using (var arjFile = File.Open(sourceFileName, FileMode.Open))
 ### See Also
 
 * class [ArjEntryPlain](../)
-* namespace [Aspose.Zip.ARJ](../../arjentryplain/)
+* namespace [Aspose.Zip.Arj](../../arjentryplain/)
 * assembly [Aspose.Zip](../../../)
 
 ---
@@ -119,7 +119,7 @@ public void Extract(Stream destination)
 ### See Also
 
 * class [ArjEntryPlain](../)
-* namespace [Aspose.Zip.ARJ](../../arjentryplain/)
+* namespace [Aspose.Zip.Arj](../../arjentryplain/)
 * assembly [Aspose.Zip](../../../)
 
 

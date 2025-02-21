@@ -24,7 +24,7 @@ public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
 | exception | condition |
 | --- | --- |
 | ArgumentException | *outputStream* is not writable. |
-| ObjectDisposedException | Archive is disposed. |
+| ObjectDisposedException | The archive is disposed. |
 
 ## Remarks
 
@@ -54,7 +54,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 ## Save(string, ArchiveSaveOptions) {#save_1}
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```csharp
 public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = null)
@@ -81,7 +81,7 @@ public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = nu
 
 ## Remarks
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file.
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file.
 
 ## Examples
 

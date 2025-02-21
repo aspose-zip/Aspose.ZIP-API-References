@@ -3,7 +3,7 @@ title: TarEntry.Open
 second_title: Aspose.ZIP for .NET API Reference
 description: TarEntry method. Opens the entry for extraction and provides a stream with entry content
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.tar/tarentry/open/
 ---
 ## TarEntry.Open method

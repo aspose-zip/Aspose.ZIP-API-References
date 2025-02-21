@@ -47,6 +47,14 @@ public GzipArchive(Stream sourceStream, bool parseHeader = false)
 | sourceStream | Stream | The source of the archive. |
 | parseHeader | Boolean | Whether to parse stream header to figure out properties, including name. Makes sense for seekable stream only. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceStream* is null. |
+| EndOfStreamException | *sourceStream* is too short. |
+| InvalidDataException | The *sourceStream* has wrong signature. |
+
 ## Remarks
 
 This constructor does not decompress. See [`Open`](../open/) method for decompressing.
@@ -92,6 +100,8 @@ public GzipArchive(string path, bool parseHeader = false)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| EndOfStreamException | File is too short. |
+| InvalidDataException | Data in the file has wrong signature. |
 
 ## Remarks
 
