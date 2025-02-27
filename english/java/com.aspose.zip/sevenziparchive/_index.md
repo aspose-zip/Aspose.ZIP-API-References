@@ -23,12 +23,12 @@ This class represents 7z archive file. Use it to compose and extract 7z archives
 | --- | --- |
 | [SevenZipArchive()](#SevenZipArchive--) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class with optional settings for its entries. |
 | [SevenZipArchive(SevenZipEntrySettings newEntrySettings)](#SevenZipArchive-com.aspose.zip.SevenZipEntrySettings-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class with optional settings for its entries. |
-| [SevenZipArchive(InputStream sourceStream)](#SevenZipArchive-java.io.InputStream-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive. |
-| [SevenZipArchive(InputStream sourceStream, String password)](#SevenZipArchive-java.io.InputStream-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive. |
-| [SevenZipArchive(String path)](#SevenZipArchive-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive. |
-| [SevenZipArchive(String path, String password)](#SevenZipArchive-java.lang.String-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive. |
-| [SevenZipArchive(String[] parts)](#SevenZipArchive-java.lang.String---) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes entries list can be extracted from the archive. |
-| [SevenZipArchive(String[] parts, String password)](#SevenZipArchive-java.lang.String---java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes entries list can be extracted from the archive. |
+| [SevenZipArchive(InputStream sourceStream)](#SevenZipArchive-java.io.InputStream-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive(InputStream sourceStream, String password)](#SevenZipArchive-java.io.InputStream-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive(String path)](#SevenZipArchive-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive(String path, String password)](#SevenZipArchive-java.lang.String-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive(String[] parts)](#SevenZipArchive-java.lang.String---) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive(String[] parts, String password)](#SevenZipArchive-java.lang.String---java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -38,22 +38,22 @@ This class represents 7z archive file. Use it to compose and extract 7z archives
 | [createEntries(File directory, boolean includeRootDirectory)](#createEntries-java.io.File-boolean-) | Adds to the archive all files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Adds to the archive all files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Adds to the archive all files and directories recursively in the directory given. |
-| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Create single entry within the archive. |
-| [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Create single entry within the archive. |
-| [createEntry(String name, File file, boolean openImmediately, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.File-boolean-com.aspose.zip.SevenZipEntrySettings-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.SevenZipEntrySettings-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source, SevenZipEntrySettings newEntrySettings, File file)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.SevenZipEntrySettings-java.io.File-) | Create single entry within the archive. |
-| [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Create single entry within the archive. |
-| [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
-| [createEntry(String name, String path, boolean openImmediately, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.SevenZipEntrySettings-) | Create single entry within the archive. |
+| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean openImmediately, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.File-boolean-com.aspose.zip.SevenZipEntrySettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.SevenZipEntrySettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source, SevenZipEntrySettings newEntrySettings, File file)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.SevenZipEntrySettings-java.io.File-) | Creates a single entry within the archive. |
+| [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
+| [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, String path, boolean openImmediately, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.SevenZipEntrySettings-) | Creates a single entry within the archive. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [extractToDirectory(String destinationDirectory, String password)](#extractToDirectory-java.lang.String-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the 7z archive. |
 | [getNewEntrySettings()](#getNewEntrySettings--) | Compression and encryption settings used for newly added [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) items. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves 7z archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to a destination file provided. |
 | [saveSplit(String destinationDirectory, SplitSevenZipArchiveSaveOptions options)](#saveSplit-java.lang.String-com.aspose.zip.SplitSevenZipArchiveSaveOptions-) | Saves multi-volume archive to destination directory provided. |
 ### SevenZipArchive() {#SevenZipArchive--}
 ```
@@ -114,7 +114,7 @@ public SevenZipArchive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -138,7 +138,7 @@ public SevenZipArchive(InputStream sourceStream, String password)
 ```
 
 
-Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -155,7 +155,7 @@ This constructor does not decompress any entry. See [extractToDirectory(String, 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
-| password | java.lang.String | optional password for decryption. If file names are encrypted it must be present |
+| password | java.lang.String | optional password for decryption. If file names are encrypted, it must be present |
 
 ### SevenZipArchive(String path) {#SevenZipArchive-java.lang.String-}
 ```
@@ -163,7 +163,7 @@ public SevenZipArchive(String path)
 ```
 
 
-Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -187,7 +187,7 @@ public SevenZipArchive(String path, String password)
 ```
 
 
-Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -204,7 +204,7 @@ This constructor does not decompress any entry. See [extractToDirectory(String, 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the fully qualified or the relative path to the archive file |
-| password | java.lang.String | optional password for decryption. If file names are encrypted it must be present |
+| password | java.lang.String | optional password for decryption. If file names are encrypted, it must be present |
 
 ### SevenZipArchive(String[] parts) {#SevenZipArchive-java.lang.String---}
 ```
@@ -212,7 +212,7 @@ public SevenZipArchive(String[] parts)
 ```
 
 
-Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes entries list can be extracted from the archive.
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -235,7 +235,7 @@ public SevenZipArchive(String[] parts, String password)
 ```
 
 
-Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes entries list can be extracted from the archive.
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -251,7 +251,7 @@ Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenzi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parts | java.lang.String[] | paths to each segment of multi-volume 7z archive respecting order |
-| password | java.lang.String | optional password for decryption. If file names are encrypted it must be present |
+| password | java.lang.String | optional password for decryption. If file names are encrypted, it must be present |
 
 ### close() {#close--}
 ```
@@ -379,7 +379,7 @@ public final SevenZipArchiveEntry createEntry(String name, File file)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose archive with entries encrypted with different passwords each.
 
@@ -417,7 +417,7 @@ public final SevenZipArchiveEntry createEntry(String name, File file, boolean op
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose archive with entries encrypted with different passwords each.
 
@@ -448,7 +448,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | the name of the entry |
 | file | java.io.File | the metadata of file to be compressed |
-| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving |
+| openImmediately | boolean | true, if open the file immediately, otherwise open the file on archive saving |
 
 **Returns:**
 [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) - Seven Zip entry instance
@@ -458,7 +458,7 @@ public final SevenZipArchiveEntry createEntry(String name, File file, boolean op
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose archive with entries encrypted with different passwords each.
 
@@ -489,7 +489,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | the name of the entry |
 | file | java.io.File | the metadata of file to be compressed |
-| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving |
+| openImmediately | boolean | true, if open the file immediately, otherwise open the file on archive saving |
 | newEntrySettings | [SevenZipEntrySettings](../../com.aspose.zip/sevenzipentrysettings) | compression and encryption settings used for added [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) item |
 
 **Returns:**
@@ -500,7 +500,7 @@ public final SevenZipArchiveEntry createEntry(String name, InputStream source)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose 7z archive with LZMA compression and encryption of all entries.
 
@@ -529,7 +529,7 @@ public final SevenZipArchiveEntry createEntry(String name, InputStream source, S
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose 7z archive with LZMA compression and encryption of all entries.
 
@@ -559,7 +559,7 @@ public final SevenZipArchiveEntry createEntry(String name, InputStream source, S
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose archive with LZMA compressed encrypted entry.
 
@@ -595,7 +595,7 @@ public final SevenZipArchiveEntry createEntry(String name, String path)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -625,7 +625,7 @@ public final SevenZipArchiveEntry createEntry(String name, String path, boolean 
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -648,7 +648,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | the name of the entry |
 | path | java.lang.String | the fully qualified name of the new file, or the relative file name to be compressed |
-| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving |
+| openImmediately | boolean | true, if open the file immediately, otherwise open the file on archive saving |
 
 **Returns:**
 [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) - Seven Zip entry instance
@@ -658,7 +658,7 @@ public final SevenZipArchiveEntry createEntry(String name, String path, boolean 
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -681,7 +681,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | the name of the entry |
 | path | java.lang.String | the fully qualified name of the new file, or the relative file name to be compressed |
-| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving |
+| openImmediately | boolean | true, if open the file immediately, otherwise open the file on archive saving |
 | newEntrySettings | [SevenZipEntrySettings](../../com.aspose.zip/sevenzipentrysettings) | compression and encryption settings used for added [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) item |
 
 **Returns:**
@@ -804,7 +804,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to a destination file provided.
 
 ```
 
@@ -825,7 +825,7 @@ Saves archive to destination file provided.
 | --- | --- | --- |
 | destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file. |
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file. |
 
 ### saveSplit(String destinationDirectory, SplitSevenZipArchiveSaveOptions options) {#saveSplit-java.lang.String-com.aspose.zip.SplitSevenZipArchiveSaveOptions-}
 ```
@@ -844,7 +844,7 @@ Saves multi-volume archive to destination directory provided.
  
 ```
 
-This method compose several `(n)` files filename.7z.001, filename.7z.002, ..., filename.7z.(n).
+This method composes several `(n)` files filename.7z.001, filename.7z.002, ..., filename.7z.(n).
 
 Can not make existing archive multi-volume.
 

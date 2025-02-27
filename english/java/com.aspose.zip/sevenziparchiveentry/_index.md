@@ -1,7 +1,7 @@
 ---
 title: SevenZipArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single file within 7z archive.
+description: Represents a single file within 7z archive.
 type: docs
 weight: 70
 url: /java/com.aspose.zip/sevenziparchiveentry/
@@ -16,7 +16,7 @@ java.lang.Object
 public abstract class SevenZipArchiveEntry implements IArchiveFileEntry
 ```
 
-Represents single file within 7z archive.
+Represents a single file within 7z archive.
 
 Cast an [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) instance to [SevenZipArchiveEntryEncrypted](../../com.aspose.zip/sevenziparchiveentryencrypted) to determine whether the entry encrypted or not.
 ## Methods
@@ -27,13 +27,13 @@ Cast an [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) instan
 | [extract(OutputStream destination, String password)](#extract-java.io.OutputStream-java.lang.String-) | Extracts the entry to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
 | [extract(String path, String password)](#extract-java.lang.String-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
-| [getCompressedSize()](#getCompressedSize--) | Gets size of compressed file. |
+| [getCompressedSize()](#getCompressedSize--) | Gets the size of the compressed file. |
 | [getCompressionProgressed()](#getCompressionProgressed--) | Gets an event that is raised when a portion of raw stream compressed. |
 | [getCompressionSettings()](#getCompressionSettings--) | Gets settings for compression or decompression. |
 | [getLength()](#getLength--) | Gets length. |
 | [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
-| [getName()](#getName--) | Gets the name of the entry within archive. |
-| [getUncompressedSize()](#getUncompressedSize--) | Gets size of original file. |
+| [getName()](#getName--) | Gets the name of the entry within the archive. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets the size of the original file. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
 | [open(String password)](#open-java.lang.String-) | Opens the entry for extraction and provides a stream with entry content. |
@@ -146,10 +146,10 @@ public final long getCompressedSize()
 ```
 
 
-Gets size of compressed file.
+Gets the size of the compressed file.
 
 **Returns:**
-long - size of compressed file
+long - the size of the compressed file
 ### getCompressionProgressed() {#getCompressionProgressed--}
 ```
 public final Event<ProgressEventArgs> getCompressionProgressed()
@@ -170,7 +170,7 @@ Gets an event that is raised when a portion of raw stream compressed.
 
 Event sender is an [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) instance.
 
-Does not invoke in multi-threaded mode for LZMA2 entries.
+Does not invoke in multithreaded mode for LZMA2 entries.
 
 **Returns:**
 [Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream compressed
@@ -210,20 +210,20 @@ public final String getName()
 ```
 
 
-Gets the name of the entry within archive.
+Gets the name of the entry within the archive.
 
 **Returns:**
-java.lang.String - the name of the entry within archive
+java.lang.String - the name of the entry within the archive
 ### getUncompressedSize() {#getUncompressedSize--}
 ```
 public final long getUncompressedSize()
 ```
 
 
-Gets size of original file.
+Gets the size of the original file.
 
 **Returns:**
-long - size of original file
+long - the size of the original file
 ### isDirectory() {#isDirectory--}
 ```
 public final boolean isDirectory()
@@ -261,7 +261,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the entry
@@ -292,7 +292,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +321,7 @@ Sets an event that is raised when a portion of raw stream compressed.
 
 Event sender is an [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) instance.
 
-Does not invoke in multi-threaded mode for LZMA2 entries.
+Does not invoke in multithreaded mode for LZMA2 entries.
 
 **Parameters:**
 | Parameter | Type | Description |

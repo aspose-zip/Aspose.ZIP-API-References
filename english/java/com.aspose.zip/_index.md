@@ -21,7 +21,7 @@ url: /java/com.aspose.zip/
 | [ArchiveFactory](../com.aspose.zip/archivefactory) | Detects the archive format and creates the appropriate [IArchive](../com.aspose.zip/iarchive) object according to the type of archive. |
 | [ArchiveFormatInfo](../com.aspose.zip/archiveformatinfo) | Represents information about the archive format. |
 | [ArchiveInstanceInfo](../com.aspose.zip/archiveinstanceinfo) | Represents information about the archive instance. |
-| [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which archive is loaded from compressed file. |
+| [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which archive is loaded from a compressed file. |
 | [ArchiveSaveOptions](../com.aspose.zip/archivesaveoptions) | Options for saving a zip archive. |
 | [ArjArchive](../com.aspose.zip/arjarchive) | This class represents ARJ archive file. |
 | [ArjEntryPlain](../com.aspose.zip/arjentryplain) | Represents single file within ARJ archive. |
@@ -29,8 +29,8 @@ url: /java/com.aspose.zip/
 | [Bzip2CompressionSettings](../com.aspose.zip/bzip2compressionsettings) | Settings for Bzip2 compression method. |
 | [Bzip2LoadOptions](../com.aspose.zip/bzip2loadoptions) | Options for loading [Bzip2Archive](../com.aspose.zip/bzip2archive). |
 | [Bzip2SaveOptions](../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. |
-| [CabArchive](../com.aspose.zip/cabarchive) | This class represents cab archive file. |
-| [CabEntry](../com.aspose.zip/cabentry) | Represents single file within cab archive. |
+| [CabArchive](../com.aspose.zip/cabarchive) | This class represents a cab archive file. |
+| [CabEntry](../com.aspose.zip/cabentry) | Represents a single file within cab archive. |
 | [CancelEntryEventArgs](../com.aspose.zip/cancelentryeventargs) | Event arguments for cancelable entry related events. |
 | [CancelEntryEventArgsXar](../com.aspose.zip/cancelentryeventargsxar) | Event arguments for cancelable entry related events. |
 | [CompressionSettings](../com.aspose.zip/compressionsettings) | Settings needed for compressor or decompressor to work. |
@@ -72,7 +72,7 @@ url: /java/com.aspose.zip/
 | [SelfExtractorOptions](../com.aspose.zip/selfextractoroptions) | Options for creation of self-extracting executable archive. |
 | [SevenZipAESEncryptionSettings](../com.aspose.zip/sevenzipaesencryptionsettings) | Settings for AES encryption or decryption algorithm. |
 | [SevenZipArchive](../com.aspose.zip/sevenziparchive) | This class represents 7z archive file. |
-| [SevenZipArchiveEntry](../com.aspose.zip/sevenziparchiveentry) | Represents single file within 7z archive. |
+| [SevenZipArchiveEntry](../com.aspose.zip/sevenziparchiveentry) | Represents a single file within 7z archive. |
 | [SevenZipArchiveEntryEncrypted](../com.aspose.zip/sevenziparchiveentryencrypted) | SevenZip archive entry that needs to be compressed with encryption or decompressed with decryption. |
 | [SevenZipArchiveEntryPlain](../com.aspose.zip/sevenziparchiveentryplain) | SevenZip entry that needs to be compressed without encryption or decompressed without decryption. |
 | [SevenZipBZip2CompressionSettings](../com.aspose.zip/sevenzipbzip2compressionsettings) | Settings for BZip2 compression method within 7z archive. |

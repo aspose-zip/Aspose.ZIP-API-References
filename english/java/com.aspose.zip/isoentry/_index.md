@@ -24,6 +24,7 @@ Represents an entry (file or directory) within an ISO archive.
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the entry to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
 | [getLength()](#getLength--) | Gets the length of the entry. |
+| [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
 | [getName()](#getName--) | Gets the name of the entry. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry is a directory. |
 | [toString()](#toString--) | Returns a string that represents the current entry. |
@@ -51,7 +52,7 @@ Extracts the entry to the filesystem by the path provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
+| path | java.lang.String | the path to the destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
 java.io.File - java.io.File instance containing extracted data
@@ -65,6 +66,16 @@ Gets the length of the entry.
 
 **Returns:**
 java.lang.Long - the length of the entry
+### getModificationTime() {#getModificationTime--}
+```
+public final Date getModificationTime()
+```
+
+
+Gets last modified date and time.
+
+**Returns:**
+java.util.Date - last modified date and time
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -94,4 +105,4 @@ public String toString()
 Returns a string that represents the current entry.
 
 **Returns:**
-java.lang.String - a string that represents the current entry
+java.lang.String - the name of the entry
