@@ -17,6 +17,7 @@ The ArchiveFactory type exposes the following members:
 | :- | :- |
 |get_archive(path)|Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of archive specified by the given path.|
 |get_archive(stream)|Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of archive specified by the given stream.|
+|get_archive(stream, password)|Detects the archive format and creates the appropriate [IArchive](/zip/python-net/aspose.zip/iarchive/) object according to the type of encrypted archive specified by the given stream.|
 |compress_directory(path, output_file_name, archive_format)|Compresses the specified directory into an archive file using the provided archive format.|
 
 ### See Also

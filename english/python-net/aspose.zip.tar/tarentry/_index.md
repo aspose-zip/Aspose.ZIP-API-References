@@ -18,6 +18,7 @@ The TarEntry type exposes the following members:
 |name|Gets or sets name of the entry within archive.|
 |length|Get length of entry in bytes.|
 |is_directory|Gets a value indicating whether the entry represents directory.|
+|modification_time|Gets the modification time of the file or directory.|
 ## Methods
 | Name | Description |
 | :- | :- |

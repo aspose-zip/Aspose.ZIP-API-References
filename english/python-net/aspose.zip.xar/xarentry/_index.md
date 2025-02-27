@@ -22,6 +22,7 @@ The XarEntry type exposes the following members:
 |creation_time|Gets the creation time of the file or directory.|
 |last_access_time|Gets the last access time of the file or directory.|
 |last_write_time|Gets the modification time of the file or directory.|
+|modification_time|Gets the modification time of the file or directory.|
 
 ### See Also
 

@@ -13,5 +13,5 @@ Contains classes which represent Cab archive related entities.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[CabArchive](/zip/python-net/aspose.zip.cab/cabarchive/)|This class represents cab archive file.|
-|[CabEntry](/zip/python-net/aspose.zip.cab/cabentry/)|Represents single file within cab archive.|
+|[CabArchive](/zip/python-net/aspose.zip.cab/cabarchive/)|This class represents a cab archive file.|
+|[CabEntry](/zip/python-net/aspose.zip.cab/cabentry/)|Represents a single file within cab archive.|

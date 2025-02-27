@@ -22,6 +22,7 @@ The XarDirectoryEntry type exposes the following members:
 |creation_time|Gets the creation time of the file or directory.|
 |last_access_time|Gets the last access time of the file or directory.|
 |last_write_time|Gets the modification time of the file or directory.|
+|modification_time|Gets the modification time of the file or directory.|
 |files_and_directories|Gets entries of [XarEntry](/zip/python-net/aspose.zip.xar/xarentry/) type constituting the directory.|
 |directories|Gets entries of [XarDirectoryEntry](/zip/python-net/aspose.zip.xar/xardirectoryentry/) type constituting the directory.|
 |files|Gets entries of [XarFileEntry](/zip/python-net/aspose.zip.xar/xarfileentry/) type constituting the directory.|

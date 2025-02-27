@@ -25,6 +25,7 @@ The WimDirectoryEntry type exposes the following members:
 |creation_time|Gets the creation time of the file or directory.|
 |last_access_time|Gets the last access time of the file or directory.|
 |last_write_time|Gets the modification time of the file or directory.|
+|modification_time|Gets the modification time of the file or directory.|
 |alternate_data_streams|Gets the names of the alternate data streams for a file or directory.|
 |hard_link|Gets the hardlink id of the file or directory.|
 |has_hard_links|Gets whether the file or directory is known by other names.|

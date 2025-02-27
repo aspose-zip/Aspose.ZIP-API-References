@@ -17,7 +17,8 @@ The IsoEntry type exposes the following members:
 | :- | :- |
 |name|Gets the name of the entry.|
 |is_directory|Gets a value indicating whether the entry is a directory.|
-|length|Gets the length of the entry in bytes.|
+|length|Gets or sets creation date and time.|
+|modification_time|Gets or sets last modified date and time.|
 ## Methods
 | Name | Description |
 | :- | :- |

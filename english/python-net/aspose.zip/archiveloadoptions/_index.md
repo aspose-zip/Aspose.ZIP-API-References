@@ -9,7 +9,7 @@ url: /python-net/aspose.zip/archiveloadoptions/
 
 ## ArchiveLoadOptions class
 
-Options with which archive is loaded from compressed file.
+Options with which archive is loaded from a compressed file.
 
 The ArchiveLoadOptions type exposes the following members:
 ## Constructors
@@ -21,6 +21,7 @@ The ArchiveLoadOptions type exposes the following members:
 | :- | :- |
 |decryption_password|Gets or sets the password to decrypt entries.|
 |encoding|Gets or sets the encoding for entries' names.|
+|skip_checksum_verification|Get or set a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. Default is false.|
 
 ### See Also
 
