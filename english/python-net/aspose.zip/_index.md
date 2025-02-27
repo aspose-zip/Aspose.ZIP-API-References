@@ -23,7 +23,7 @@ Contains classes which represent zip archive and common archive related entities
 |[ArchiveEntry](/zip/python-net/aspose.zip/archiveentry/)|Represents single file within archive.|
 |[ArchiveEntryEncrypted](/zip/python-net/aspose.zip/archiveentryencrypted/)|Zip entry that needs to be compressed with encryption or decompressed with decryption.|
 |[ArchiveEntryPlain](/zip/python-net/aspose.zip/archiveentryplain/)|Zip entry that needs to be compressed without encryption or decompressed without decryption.|
-|[ArchiveLoadOptions](/zip/python-net/aspose.zip/archiveloadoptions/)|Options with which archive is loaded from compressed file.|
+|[ArchiveLoadOptions](/zip/python-net/aspose.zip/archiveloadoptions/)|Options with which archive is loaded from a compressed file.|
 |[CancelEntryEventArgs](/zip/python-net/aspose.zip/cancelentryeventargs/)|Event arguments for cancelable entry related events.|
 |[EntryEventArgs](/zip/python-net/aspose.zip/entryeventargs/)|Event arguments for entry related events.|
 |[ProgressEventArgs](/zip/python-net/aspose.zip/progresseventargs/)|Class for event data containing the number of bytes proceeded.|

@@ -9,14 +9,15 @@ url: /python-net/aspose.zip.cab/cabentry/
 
 ## CabEntry class
 
-Represents single file within cab archive.
+Represents a single file within cab archive.
 
 The CabEntry type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|name|Gets name of the entry within archive.|
+|name|Gets name of the entry within the archive.|
 |length|Gets the length of the entry in bytes.|
+|modification_time|Gets last modified date and time.|
 ## Methods
 | Name | Description |
 | :- | :- |
