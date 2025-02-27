@@ -19,6 +19,7 @@ The LhaArchiveEntry type exposes the following members:
 |length|Gets the length of the entry in bytes.|
 |is_directory|Gets a value indicating whether this entry directory.|
 |last_modified|Gets the last modified time of the entry.|
+|modification_time|Gets the last modified time of the entry.|
 |path|Gets the full path to the entry.|
 ## Methods
 | Name | Description |

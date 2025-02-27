@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.cab/cabarchive/
 
 ## CabArchive class
 
-This class represents cab archive file.
+This class represents a cab archive file.
 
 The CabArchive type exposes the following members:
 ## Constructors
