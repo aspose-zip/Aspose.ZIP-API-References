@@ -20,6 +20,7 @@ Detects the archive format and creates the appropriate [IArchive](../../com.aspo
 | --- | --- |
 | [compressDirectory(String path, String outputFileName, ArchiveFormat archiveFormat)](#compressDirectory-java.lang.String-java.lang.String-com.aspose.zip.ArchiveFormat-) | Compresses the specified directory into an archive file using the provided archive format. |
 | [getArchive(InputStream stream)](#getArchive-java.io.InputStream-) | Detects the archive format and creates the appropriate [IArchive](../../com.aspose.zip/iarchive) object according to the type of archive specified by the given stream. |
+| [getArchive(InputStream stream, String password)](#getArchive-java.io.InputStream-java.lang.String-) | Detects the archive format and creates the appropriate [IArchive](../../com.aspose.zip/iarchive) object according to the type of encrypted archive specified by the given stream. |
 | [getArchive(String path)](#getArchive-java.lang.String-) | Detects the archive format and creates the appropriate [IArchive](../../com.aspose.zip/iarchive) object according to the type of archive specified by the given path. |
 ### compressDirectory(String path, String outputFileName, ArchiveFormat archiveFormat) {#compressDirectory-java.lang.String-java.lang.String-com.aspose.zip.ArchiveFormat-}
 ```
@@ -61,6 +62,22 @@ Detects the archive format and creates the appropriate [IArchive](../../com.aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | the stream containing the archive data |
+
+**Returns:**
+[IArchive](../../com.aspose.zip/iarchive) - an [IArchive](../../com.aspose.zip/iarchive) object representing the archive
+### getArchive(InputStream stream, String password) {#getArchive-java.io.InputStream-java.lang.String-}
+```
+public static IArchive getArchive(InputStream stream, String password)
+```
+
+
+Detects the archive format and creates the appropriate [IArchive](../../com.aspose.zip/iarchive) object according to the type of encrypted archive specified by the given stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | the stream containing the archive data |
+| password | java.lang.String | password to decrypt encrypted archive |
 
 **Returns:**
 [IArchive](../../com.aspose.zip/iarchive) - an [IArchive](../../com.aspose.zip/iarchive) object representing the archive

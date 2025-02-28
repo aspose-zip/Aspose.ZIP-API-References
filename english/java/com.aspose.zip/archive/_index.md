@@ -23,14 +23,14 @@ This class represents zip archive file. Use it to compose, extract, or update zi
 | --- | --- |
 | [Archive()](#Archive--) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class with optional settings for its entries. |
 | [Archive(ArchiveEntrySettings newEntrySettings)](#Archive-com.aspose.zip.ArchiveEntrySettings-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class with optional settings for its entries. |
-| [Archive(InputStream sourceStream)](#Archive-java.io.InputStream-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
-| [Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions)](#Archive-java.io.InputStream-com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
-| [Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions, ArchiveEntrySettings newEntrySettings)](#Archive-java.io.InputStream-com.aspose.zip.ArchiveLoadOptions-com.aspose.zip.ArchiveEntrySettings-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
-| [Archive(String path)](#Archive-java.lang.String-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
-| [Archive(String path, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
-| [Archive(String path, ArchiveLoadOptions loadOptions, ArchiveEntrySettings newEntrySettings)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-com.aspose.zip.ArchiveEntrySettings-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive. |
-| [Archive(String mainSegment, String[] segmentsInOrder)](#Archive-java.lang.String-java.lang.String---) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive. |
-| [Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-java.lang.String---com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive. |
+| [Archive(InputStream sourceStream)](#Archive-java.io.InputStream-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
+| [Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions)](#Archive-java.io.InputStream-com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
+| [Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions, ArchiveEntrySettings newEntrySettings)](#Archive-java.io.InputStream-com.aspose.zip.ArchiveLoadOptions-com.aspose.zip.ArchiveEntrySettings-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
+| [Archive(String path)](#Archive-java.lang.String-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
+| [Archive(String path, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
+| [Archive(String path, ArchiveLoadOptions loadOptions, ArchiveEntrySettings newEntrySettings)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-com.aspose.zip.ArchiveEntrySettings-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
+| [Archive(String mainSegment, String[] segmentsInOrder)](#Archive-java.lang.String-java.lang.String---) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive. |
+| [Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-java.lang.String---com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -40,28 +40,28 @@ This class represents zip archive file. Use it to compose, extract, or update zi
 | [createEntries(File directory, boolean includeRootDirectory)](#createEntries-java.io.File-boolean-) | Adds to the archive all files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Adds to the archive all files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Adds to the archive all files and directories recursively in the directory given. |
-| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Create single entry within the archive. |
-| [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Create single entry within the archive. |
-| [createEntry(String name, File file, boolean openImmediately, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.File-boolean-com.aspose.zip.ArchiveEntrySettings-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.ArchiveEntrySettings-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source, ArchiveEntrySettings newEntrySettings, File file)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.ArchiveEntrySettings-java.io.File-) | Create single entry within the archive. |
-| [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Create single entry within the archive. |
-| [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
-| [createEntry(String name, String path, boolean openImmediately, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.ArchiveEntrySettings-) | Create single entry within the archive. |
-| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--) | Create single entry within the archive. |
-| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--com.aspose.zip.ArchiveEntrySettings-) | Create single entry within the archive. |
-| [deleteEntry(ArchiveEntry entry)](#deleteEntry-com.aspose.zip.ArchiveEntry-) | Removes the first occurrence of a specific entry from the entries list. |
-| [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
+| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean openImmediately, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.File-boolean-com.aspose.zip.ArchiveEntrySettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.ArchiveEntrySettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source, ArchiveEntrySettings newEntrySettings, File file)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.ArchiveEntrySettings-java.io.File-) | Creates a single entry within the archive. |
+| [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
+| [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, String path, boolean openImmediately, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.ArchiveEntrySettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--) | Creates a single entry within the archive. |
+| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--com.aspose.zip.ArchiveEntrySettings-) | Creates a single entry within the archive. |
+| [deleteEntry(ArchiveEntry entry)](#deleteEntry-com.aspose.zip.ArchiveEntry-) | Removes the first occurrence of the specific entry from the entry list. |
+| [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entry list by index. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [ArchiveEntry](../../com.aspose.zip/archiveentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
 | [getNewEntrySettings()](#getNewEntrySettings--) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream outputStream, ArchiveSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.ArchiveSaveOptions-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
-| [save(String destinationFileName, ArchiveSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.ArchiveSaveOptions-) | Saves archive to destination file provided. |
-| [saveSplit(String destinationDirectory, SplitArchiveSaveOptions options)](#saveSplit-java.lang.String-com.aspose.zip.SplitArchiveSaveOptions-) | Saves multi-volume archive to destination directory provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
+| [save(String destinationFileName, ArchiveSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.ArchiveSaveOptions-) | Saves archive to the destination file provided. |
+| [saveSplit(String destinationDirectory, SplitArchiveSaveOptions options)](#saveSplit-java.lang.String-com.aspose.zip.SplitArchiveSaveOptions-) | Saves multi-volume archive to the destination directory provided. |
 ### Archive() {#Archive--}
 ```
 public Archive()
@@ -111,7 +111,7 @@ The following example shows how to compress a single file with default settings.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. If not specified, most common Deflate compression without encryption would be used. |
+| newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. If not specified, the most common Deflate compression without encryption would be used. |
 
 ### Archive(InputStream sourceStream) {#Archive-java.io.InputStream-}
 ```
@@ -119,10 +119,9 @@ public Archive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive.
 
-
-The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
+The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -156,10 +155,9 @@ public Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive.
 
-
-The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
+The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -194,10 +192,9 @@ public Archive(InputStream sourceStream, ArchiveLoadOptions loadOptions, Archive
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive.
 
-
-The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
+The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -225,7 +222,7 @@ This constructor does not decompress any entry. See [ArchiveEntry.open()](../../
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | The source of the archive. |
 | loadOptions | [ArchiveLoadOptions](../../com.aspose.zip/archiveloadoptions) | Options to load existing archive with. |
-| newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. If not specified, most common Deflate compression without encryption would be used. |
+| newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. If not specified, the most common Deflate compression without encryption would be used. |
 
 ### Archive(String path) {#Archive-java.lang.String-}
 ```
@@ -233,10 +230,9 @@ public Archive(String path)
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive.
 
-
-The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
+The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -268,10 +264,9 @@ public Archive(String path, ArchiveLoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive.
 
-
-The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
+The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -304,10 +299,9 @@ public Archive(String path, ArchiveLoadOptions loadOptions, ArchiveEntrySettings
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive.
 
-
-The following example extract an encrypted archive, then decompress first entry to a `ByteArrayOutputStream`.
+The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
 
@@ -333,7 +327,7 @@ This constructor does not decompress any entry. See [ArchiveEntry.open()](../../
 | --- | --- | --- |
 | path | java.lang.String | The fully qualified or the relative path to the archive file. |
 | loadOptions | [ArchiveLoadOptions](../../com.aspose.zip/archiveloadoptions) | Options to load existing archive with. |
-| newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. If not specified, most common Deflate compression without encryption would be used. |
+| newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. If not specified, the most common Deflate compression without encryption would be used. |
 
 ### Archive(String mainSegment, String[] segmentsInOrder) {#Archive-java.lang.String-java.lang.String---}
 ```
@@ -341,7 +335,7 @@ public Archive(String mainSegment, String[] segmentsInOrder)
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -367,7 +361,9 @@ public Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions 
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes entries list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive.
+
+This sample extract to a directory an archive of three segments.
 
 ```
 
@@ -502,8 +498,7 @@ public final ArchiveEntry createEntry(String name, File file)
 ```
 
 
-Create single entry within the archive.
-
+Creates a single entry within the archive.
 
 Compose archive with entries encrypted with different encryption methods and passwords each.
 
@@ -540,8 +535,7 @@ public final ArchiveEntry createEntry(String name, File file, boolean openImmedi
 ```
 
 
-Create single entry within the archive.
-
+Creates a single entry within the archive.
 
 Compose archive with entries encrypted with different encryption methods and passwords each.
 
@@ -571,7 +565,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | The name of the entry. |
 | file | java.io.File | The metadata of file to be compressed. |
-| openImmediately | boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 
 **Returns:**
 [ArchiveEntry](../../com.aspose.zip/archiveentry) - Zip entry instance.
@@ -581,8 +575,7 @@ public final ArchiveEntry createEntry(String name, File file, boolean openImmedi
 ```
 
 
-Create single entry within the archive.
-
+Creates a single entry within the archive.
 
 Compose archive with entries encrypted with different encryption methods and passwords each.
 
@@ -612,7 +605,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | The name of the entry. |
 | file | java.io.File | The metadata of file to be compressed. |
-| openImmediately | boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for added [ArchiveEntry](../../com.aspose.zip/archiveentry) item. |
 
 **Returns:**
@@ -623,7 +616,7 @@ public final ArchiveEntry createEntry(String name, InputStream source)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -651,7 +644,7 @@ public final ArchiveEntry createEntry(String name, InputStream source, ArchiveEn
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -680,8 +673,7 @@ public final ArchiveEntry createEntry(String name, InputStream source, ArchiveEn
 ```
 
 
-Create single entry within the archive.
-
+Creates a single entry within the archive.
 
 Compose archive with encrypted entry.
 
@@ -718,7 +710,7 @@ public final ArchiveEntry createEntry(String name, String path)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -748,7 +740,7 @@ public final ArchiveEntry createEntry(String name, String path, boolean openImme
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -771,7 +763,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | The name of the entry. |
 | path | java.lang.String | The fully qualified name of the new file, or the relative file name to be compressed. |
-| openImmediately | boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 
 **Returns:**
 [ArchiveEntry](../../com.aspose.zip/archiveentry) - Zip entry instance.
@@ -781,7 +773,7 @@ public final ArchiveEntry createEntry(String name, String path, boolean openImme
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -804,7 +796,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | The name of the entry. |
 | path | java.lang.String | The fully qualified name of the new file, or the relative file name to be compressed. |
-| openImmediately | boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) | Compression and encryption settings used for added [ArchiveEntry](../../com.aspose.zip/archiveentry) item. |
 
 **Returns:**
@@ -815,7 +807,7 @@ public final ArchiveEntry createEntry(String name, Supplier<InputStream> streamP
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose archive with encrypted entry.
 
@@ -853,7 +845,7 @@ public final ArchiveEntry createEntry(String name, Supplier<InputStream> streamP
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 Compose archive with encrypted entry.
 
@@ -892,8 +884,7 @@ public final Archive deleteEntry(ArchiveEntry entry)
 ```
 
 
-Removes the first occurrence of a specific entry from the entries list.
-
+Removes the first occurrence of the specific entry from the entry list.
 
 Here is how you can remove all entries except the last one:
 
@@ -920,7 +911,7 @@ public final Archive deleteEntry(int entryIndex)
 ```
 
 
-Removes the entry from the entries list by index.
+Removes the entry from the entry list by index.
 
 ```
 
@@ -1052,7 +1043,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -1078,7 +1069,7 @@ public final void save(String destinationFileName, ArchiveSaveOptions saveOption
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -1105,7 +1096,7 @@ public final void saveSplit(String destinationDirectory, SplitArchiveSaveOptions
 ```
 
 
-Saves multi-volume archive to destination directory provided.
+Saves multi-volume archive to the destination directory provided.
 
 ```
 
@@ -1116,7 +1107,7 @@ Saves multi-volume archive to destination directory provided.
  
 ```
 
-This method compose several (n) files filename.z01, filename.z02, ..., filename.z(n-1), filename.zip.
+This method composes several (n) files filename.z01, filename.z02, ..., filename.z(n-1), filename.zip.
 
 Can not make existing archive multi-volume.
 

@@ -28,6 +28,7 @@ Represents single file or directory within wim image.
 | [getImage()](#getImage--) | Gets the image the entry belongs to. |
 | [getLastAccessTime()](#getLastAccessTime--) | Gets the last access time of the file or directory. |
 | [getLastWriteTime()](#getLastWriteTime--) | Gets the modification time of the file or directory. |
+| [getModificationTime()](#getModificationTime--) | Gets the modification time of the file or directory. |
 | [getName()](#getName--) | Gets the name of the entry within the image. |
 | [getParent()](#getParent--) | Gets the parent directory the entry belongs to. |
 | [getShortName()](#getShortName--) | Gets the short name of the entry within the image. |
@@ -127,6 +128,16 @@ java.util.Date - the last access time of the file or directory
 ### getLastWriteTime() {#getLastWriteTime--}
 ```
 public final Date getLastWriteTime()
+```
+
+
+Gets the modification time of the file or directory.
+
+**Returns:**
+java.util.Date - the modification time of the file or directory
+### getModificationTime() {#getModificationTime--}
+```
+public final Date getModificationTime()
 ```
 
 

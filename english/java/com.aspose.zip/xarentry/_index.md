@@ -22,6 +22,7 @@ Represents single entry within xar archive.
 | [getFullPath()](#getFullPath--) | Gets the full path of the entry within the archive. |
 | [getLastAccessTime()](#getLastAccessTime--) | Gets the last access time of the file or directory. |
 | [getLastWriteTime()](#getLastWriteTime--) | Gets the modification time of the file or directory. |
+| [getModificationTime()](#getModificationTime--) | Gets the modification time of the file or directory. |
 | [getName()](#getName--) | Gets the name of the entry within the archive. |
 | [getParent()](#getParent--) | Gets the parent directory the entry belongs to. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
@@ -59,6 +60,16 @@ java.util.Date - the last access time of the file or directory
 ### getLastWriteTime() {#getLastWriteTime--}
 ```
 public final Date getLastWriteTime()
+```
+
+
+Gets the modification time of the file or directory.
+
+**Returns:**
+java.util.Date - the modification time of the file or directory
+### getModificationTime() {#getModificationTime--}
+```
+public final Date getModificationTime()
 ```
 
 
