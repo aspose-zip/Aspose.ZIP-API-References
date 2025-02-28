@@ -23,7 +23,8 @@ Represents single file within tar archive.
 | --- | --- |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the entry to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
-| [getLength()](#getLength--) | Get length of the entry in bytes. |
+| [getLength()](#getLength--) | Gets the length of the entry in bytes. |
+| [getModificationTime()](#getModificationTime--) | Gets the modification time of the file or directory. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
@@ -84,10 +85,20 @@ public final Long getLength()
 ```
 
 
-Get length of the entry in bytes.
+Gets the length of the entry in bytes.
 
 **Returns:**
 java.lang.Long - the length of the entry in bytes
+### getModificationTime() {#getModificationTime--}
+```
+public final Date getModificationTime()
+```
+
+
+Gets the modification time of the file or directory.
+
+**Returns:**
+java.util.Date - the modification time of the file or directory.
 ### getName() {#getName--}
 ```
 public final String getName()

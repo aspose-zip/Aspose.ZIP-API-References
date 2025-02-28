@@ -41,7 +41,7 @@ See [Z Compressed File Format ][Z Compressed File Format]
 | [extract(String path)](#extract-java.lang.String-) | Extracts Z archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the Z archive. |
-| [getLength()](#getLength--) | Get length of the entry in bytes. |
+| [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves Z archive to the stream provided. |
 | [save(OutputStream output, ZArchiveSaveOptions settings)](#save-java.io.OutputStream-com.aspose.zip.ZArchiveSaveOptions-) | Saves Z archive to the stream provided. |
@@ -241,7 +241,7 @@ public final Long getLength()
 ```
 
 
-Get length of the entry in bytes.
+Gets the length of the entry in bytes.
 
 **Returns:**
 java.lang.Long - the length of the entry in bytes

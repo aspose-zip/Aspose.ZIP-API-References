@@ -1,7 +1,7 @@
 ---
 title: CabArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents cab archive file.
+description: This class represents a cab archive file.
 type: docs
 weight: 27
 url: /java/com.aspose.zip/cabarchive/
@@ -16,7 +16,7 @@ java.lang.Object
 public class CabArchive implements IArchive, AutoCloseable
 ```
 
-This class represents cab archive file.
+This class represents a cab archive file.
 ## Constructors
 
 | Constructor | Description |
@@ -39,7 +39,7 @@ public CabArchive(InputStream sourceStream)
 
 Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes entries list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -65,7 +65,7 @@ public CabArchive(String path)
 
 Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes entries list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 

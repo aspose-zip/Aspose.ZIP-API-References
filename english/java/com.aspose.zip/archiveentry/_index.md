@@ -254,7 +254,7 @@ public final Long getLength()
 Gets length.
 
 **Returns:**
-java.lang.Long - length.
+java.lang.Long - length
 ### getModificationTime() {#getModificationTime--}
 ```
 public final Date getModificationTime()

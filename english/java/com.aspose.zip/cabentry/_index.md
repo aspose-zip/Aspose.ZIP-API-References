@@ -1,7 +1,7 @@
 ---
 title: CabEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single file within cab archive.
+description: Represents a single file within cab archive.
 type: docs
 weight: 28
 url: /java/com.aspose.zip/cabentry/
@@ -16,7 +16,7 @@ java.lang.Object
 public final class CabEntry implements IArchiveFileEntry
 ```
 
-Represents single file within cab archive.
+Represents a single file within cab archive.
 ## Methods
 
 | Method | Description |
@@ -24,6 +24,7 @@ Represents single file within cab archive.
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the entry to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
+| [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
 | [getName()](#getName--) | Gets the name of the entry within the archive. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
 | [toString()](#toString--) | Returns string representation of the instance of the [CabEntry](../../com.aspose.zip/cabentry) class. |
@@ -76,7 +77,7 @@ Extracts the entry to the filesystem by the path provided.
 | path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - the file info of the extracted file
+java.io.File - the file info of a composed file
 ### getLength() {#getLength--}
 ```
 public final Long getLength()
@@ -87,6 +88,16 @@ Gets the length of the entry in bytes.
 
 **Returns:**
 java.lang.Long - the length of the entry in bytes
+### getModificationTime() {#getModificationTime--}
+```
+public final Date getModificationTime()
+```
+
+
+Gets last modified date and time.
+
+**Returns:**
+java.util.Date - last modified date and time.
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -124,7 +135,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of a file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the entry

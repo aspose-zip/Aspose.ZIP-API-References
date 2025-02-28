@@ -32,11 +32,11 @@ This class represents shar archive file.
 | [createEntries(File directory, boolean includeRootDirectory)](#createEntries-java.io.File-boolean-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Adds to the archive all the files and directories recursively in the directory given. |
-| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Create single entry within the archive. |
-| [createEntry(String name, File file, boolean includeRootDirectory)](#createEntry-java.lang.String-java.io.File-boolean-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Create single entry within the archive. |
-| [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Create single entry within the archive. |
-| [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
+| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean includeRootDirectory)](#createEntry-java.lang.String-java.io.File-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Creates a single entry within the archive. |
+| [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
+| [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
 | [deleteEntry(SharEntry entry)](#deleteEntry-com.aspose.zip.SharEntry-) | Removes the first occurrence of a specific entry from the entries list. |
 | [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
 | [getEntries()](#getEntries--) | Gets entries of [SharEntry](../../com.aspose.zip/sharentry) type constituting the archive. |
@@ -208,7 +208,7 @@ public final SharEntry createEntry(String name, File file)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -236,7 +236,7 @@ public final SharEntry createEntry(String name, File file, boolean includeRootDi
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -265,7 +265,7 @@ public final SharEntry createEntry(String name, InputStream source)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -293,7 +293,7 @@ public final SharEntry createEntry(String name, String sourcePath)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -320,7 +320,7 @@ public final SharEntry createEntry(String name, String sourcePath, boolean openI
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 

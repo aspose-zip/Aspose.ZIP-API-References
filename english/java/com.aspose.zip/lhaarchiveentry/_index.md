@@ -26,6 +26,7 @@ Represents single file within Lha archive.
 | [extract(String path)](#extract-java.lang.String-) | Extracts Lha archive entry to a filesystem by path. |
 | [getLastModified()](#getLastModified--) | Gets the last modified time of the entry. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
+| [getModificationTime()](#getModificationTime--) | Gets the last modified time of the entry. |
 | [getName()](#getName--) | Gets the name of the entry. |
 | [getPath()](#getPath--) | Gets the full path to the entry. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether this entry directory. |
@@ -118,6 +119,16 @@ Gets the length of the entry in bytes.
 
 **Returns:**
 java.lang.Long - the length of the entry in bytes
+### getModificationTime() {#getModificationTime--}
+```
+public final Date getModificationTime()
+```
+
+
+Gets the last modified time of the entry.
+
+**Returns:**
+java.util.Date - the last modified time of the entry
 ### getName() {#getName--}
 ```
 public final String getName()

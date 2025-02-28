@@ -1,7 +1,7 @@
 ---
 title: ArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
-description: Options with which archive is loaded from compressed file.
+description: Options with which archive is loaded from a compressed file.
 type: docs
 weight: 19
 url: /java/com.aspose.zip/archiveloadoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ArchiveLoadOptions
 ```
 
-Options with which archive is loaded from compressed file.
+Options with which archive is loaded from a compressed file.
 ## Constructors
 
 | Constructor | Description |
@@ -27,10 +27,12 @@ Options with which archive is loaded from compressed file.
 | [getEncoding()](#getEncoding--) | Gets the encoding for entries' names. |
 | [getEntryExtractionProgressed()](#getEntryExtractionProgressed--) | Gets an event that is raised when some bytes have been extracted. |
 | [getEntryListed()](#getEntryListed--) | Gets an event that is raised when an entry listed within table of content. |
+| [getSkipChecksumVerification()](#getSkipChecksumVerification--) | Gets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | Sets the password to decrypt entries. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding for entries' names. |
 | [setEntryExtractionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when some bytes have been extracted. |
 | [setEntryListed(Event&lt;EntryEventArgs&gt; value)](#setEntryListed-com.aspose.zip.Event-com.aspose.zip.EntryEventArgs--) | Sets an event that is raised when an entry listed within table of content. |
+| [setSkipChecksumVerification(boolean value)](#setSkipChecksumVerification-boolean-) | Sets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. |
 ### ArchiveLoadOptions() {#ArchiveLoadOptions--}
 ```
 public ArchiveLoadOptions()
@@ -144,6 +146,16 @@ Gets an event that is raised when an entry listed within table of content.
 
 **Returns:**
 [Event](../../com.aspose.zip/event) - an event that is raised when an entry listed within table of content
+### getSkipChecksumVerification() {#getSkipChecksumVerification--}
+```
+public final boolean getSkipChecksumVerification()
+```
+
+
+Gets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. Default is false.
+
+**Returns:**
+boolean - a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored
 ### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String-}
 ```
 public final void setDecryptionPassword(String value)
@@ -262,4 +274,17 @@ Sets an event that is raised when an entry listed within table of content.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | com.aspose.zip.Event&lt;com.aspose.zip.EntryEventArgs&gt; | an event that is raised when an entry listed within table of content |
+
+### setSkipChecksumVerification(boolean value) {#setSkipChecksumVerification-boolean-}
+```
+public final void setSkipChecksumVerification(boolean value)
+```
+
+
+Sets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. Default is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored |
 

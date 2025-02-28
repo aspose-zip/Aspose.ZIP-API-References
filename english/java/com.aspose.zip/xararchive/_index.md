@@ -38,14 +38,14 @@ This class represents xar archive file.
 | [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory, boolean includeRootDirectory, XarCompressionSettings compressionSettings)](#createEntries-java.lang.String-boolean-com.aspose.zip.XarCompressionSettings-) | Adds to the archive all the files and directories recursively in the directory given. |
-| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Create single entry within the archive. |
-| [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Create single entry within the archive. |
-| [createEntry(String name, File file, boolean openImmediately, XarCompressionSettings compressionSettings)](#createEntry-java.lang.String-java.io.File-boolean-com.aspose.zip.XarCompressionSettings-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Create single entry within the archive. |
-| [createEntry(String name, InputStream source, XarCompressionSettings compressionSettings)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.XarCompressionSettings-) | Create single entry within the archive. |
-| [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Create single entry within the archive. |
-| [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create single entry within the archive. |
-| [createEntry(String name, String sourcePath, boolean openImmediately, XarCompressionSettings compressionSettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.XarCompressionSettings-) | Create single entry within the archive. |
+| [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean openImmediately, XarCompressionSettings compressionSettings)](#createEntry-java.lang.String-java.io.File-boolean-com.aspose.zip.XarCompressionSettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Creates a single entry within the archive. |
+| [createEntry(String name, InputStream source, XarCompressionSettings compressionSettings)](#createEntry-java.lang.String-java.io.InputStream-com.aspose.zip.XarCompressionSettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
+| [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, String sourcePath, boolean openImmediately, XarCompressionSettings compressionSettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.XarCompressionSettings-) | Creates a single entry within the archive. |
 | [deleteEntry(XarEntry entry)](#deleteEntry-com.aspose.zip.XarEntry-) | Removes the first occurrence of a specific entry from the entries list. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [XarEntry](../../com.aspose.zip/xarentry) type constituting the archive. |
@@ -399,7 +399,7 @@ public final XarEntry createEntry(String name, File file)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -427,7 +427,7 @@ public final XarEntry createEntry(String name, File file, boolean openImmediatel
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -456,7 +456,7 @@ public final XarEntry createEntry(String name, File file, boolean openImmediatel
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -486,7 +486,7 @@ public final XarEntry createEntry(String name, InputStream source)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -514,7 +514,7 @@ public final XarEntry createEntry(String name, InputStream source, XarCompressio
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -543,7 +543,7 @@ public final XarEntry createEntry(String name, String sourcePath)
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -570,7 +570,7 @@ public final XarEntry createEntry(String name, String sourcePath, boolean openIm
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
@@ -600,7 +600,7 @@ public final XarEntry createEntry(String name, String sourcePath, boolean openIm
 ```
 
 
-Create single entry within the archive.
+Creates a single entry within the archive.
 
 ```
 
