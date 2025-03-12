@@ -12,7 +12,7 @@ url: /python-net/
 | :- | :- |
 |[aspose.zip](/zip/python-net/aspose.zip/)|Contains classes which represent zip archive and common archive related entities.|
 |[aspose.zip.lha](/zip/python-net/aspose.zip.lha/)|Contains classes which represent Lha archive related entities.|
-|[aspose.zip.uue](/zip/python-net/aspose.zip.uue/)||
+|[aspose.zip.uue](/zip/python-net/aspose.zip.uue/)|Contains classes which represent uuencode related entities.|
 |[aspose.zip.iso](/zip/python-net/aspose.zip.iso/)|Contains classes which represent Iso archive related entities.|
 |[aspose.zip.crypto](/zip/python-net/aspose.zip.crypto/)|Contains classes for external encryption routines.|
 |[aspose.zip.shar](/zip/python-net/aspose.zip.shar/)|Contains classes which represent shar archive related entities.|
