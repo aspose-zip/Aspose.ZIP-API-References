@@ -1,14 +1,14 @@
 ---
 title: SevenZipArchive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: SevenZipArchive method. Create single entry within the archive
+description: SevenZipArchive method. Create a single entry within the archive
 type: docs
 weight: 50
 url: /net/aspose.zip.sevenzip/sevenziparchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo, 
@@ -19,7 +19,7 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
 
 ### Return Value
@@ -72,7 +72,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_2}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, Stream source, 
@@ -129,7 +129,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_1}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, Stream source, 
@@ -170,7 +170,7 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 
 ## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_3}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmediately = false, 
@@ -181,7 +181,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | path | String | The fully qualified name of the new file, or the relative file name to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
 
 ### Return Value

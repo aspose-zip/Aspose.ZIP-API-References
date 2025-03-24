@@ -36,7 +36,7 @@ using (var archive = new CpioArchive())
 
 ## CpioArchive(Stream) {#constructor_1}
 
-Initializes a new instance of the [`CpioArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`CpioArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public CpioArchive(Stream sourceStream)
@@ -60,7 +60,7 @@ This constructor does not unpack any entry. See [`Open`](../../cpioentry/open/) 
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
@@ -79,7 +79,7 @@ using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
 
 ## CpioArchive(string) {#constructor_2}
 
-Initializes a new instance of the [`CpioArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`CpioArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public CpioArchive(string path)
@@ -109,7 +109,7 @@ This constructor does not unpack any entry. See [`Open`](../../cpioentry/open/) 
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio")) 

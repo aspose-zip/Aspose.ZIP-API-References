@@ -1,14 +1,14 @@
 ---
 title: RarArchiveEntry.Name
 second_title: Aspose.ZIP for .NET API Reference
-description: RarArchiveEntry property. Gets name of the entry within archive
+description: RarArchiveEntry property. Gets name of the entry within the archive
 type: docs
 weight: 60
 url: /net/aspose.zip.rar/rararchiveentry/name/
 ---
 ## RarArchiveEntry.Name property
 
-Gets name of the entry within archive.
+Gets name of the entry within the archive.
 
 ```csharp
 public string Name { get; }

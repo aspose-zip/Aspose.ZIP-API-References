@@ -12,6 +12,6 @@ The Gzip namespace contains classes which represent gzip archive.
 
 | Class | Description |
 | --- | --- |
-| [GzipArchive](./gziparchive/) | This class represents gzip archive file. Use it to compose or extract gzip archives. |
+| [GzipArchive](./gziparchive/) | This class represents a gzip archive file. Use it to compose or extract gzip archives. |
 
 

@@ -53,7 +53,7 @@ using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
 
 ## Save(string, TarFormat?) {#save_1}
 
-Saves archive to destination file provided.
+Saves archive to a destination file provided.
 
 ```csharp
 public void Save(string destinationFileName, TarFormat? format = default)
@@ -62,7 +62,7 @@ public void Save(string destinationFileName, TarFormat? format = default)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
-| format | Nullable`1 | Defines tar header format. Null value will be treated as USTar when possible. |
+| format | Nullable`1 | Defines the tar header format. Null value will be treated as USTar when possible. |
 
 ### Exceptions
 
@@ -79,7 +79,7 @@ public void Save(string destinationFileName, TarFormat? format = default)
 
 ## Remarks
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file.
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file.
 
 ## Examples
 

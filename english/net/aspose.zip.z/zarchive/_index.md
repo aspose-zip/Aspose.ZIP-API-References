@@ -1,14 +1,14 @@
 ---
 title: Class ZArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Z.ZArchive class. This class represents Z compress archive file. Use it to compose or extract Z archives
+description: Aspose.Zip.Z.ZArchive class. This class represents a Z compress archive file. Use it to compose or extract Z archives
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.zip.z/zarchive/
 ---
 ## ZArchive class
 
-This class represents Z (compress) archive file. Use it to compose or extract Z archives.
+This class represents a Z (compress) archive file. Use it to compose or extract Z archives.
 
 ```csharp
 public class ZArchive : IArchive, IArchiveFileEntry
@@ -32,7 +32,7 @@ public class ZArchive : IArchive, IArchiveFileEntry
 | [Extract](../../aspose.zip.z/zarchive/extract/#extract)(string) | Extracts Z archive to a file by path. |
 | [ExtractToDirectory](../../aspose.zip.z/zarchive/extracttodirectory/)(string) | Extracts content of the archive to the directory provided. |
 | [Save](../../aspose.zip.z/zarchive/save/#save)(Stream, ZArchiveSaveOptions) | Saves xz archive to the stream provided. |
-| [Save](../../aspose.zip.z/zarchive/save/#save_1)(string, ZArchiveSaveOptions) | Saves Z archive to destination file provided. |
+| [Save](../../aspose.zip.z/zarchive/save/#save_1)(string, ZArchiveSaveOptions) | Saves Z archive to the destination file provided. |
 | [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_1)(Stream) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_2)(string) | Sets the content to be compressed within the archive. |

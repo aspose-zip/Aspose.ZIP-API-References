@@ -3,7 +3,7 @@ title: Class UueArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Uue.UueArchive class. This class represents uuencoded file
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.zip.uue/uuearchive/
 ---
 ## UueArchive class
@@ -26,7 +26,7 @@ public class UueArchive : IArchive, IArchiveFileEntry
 
 | Name | Description |
 | --- | --- |
-| [Name](../../aspose.zip.uue/uuearchive/name/) { get; } | Name of original file. |
+| [Name](../../aspose.zip.uue/uuearchive/name/) { get; } | Name of the original file. |
 
 ## Methods
 
@@ -38,7 +38,7 @@ public class UueArchive : IArchive, IArchiveFileEntry
 | [ExtractToDirectory](../../aspose.zip.uue/uuearchive/extracttodirectory/)(string) | Extracts content of the archive to the directory provided. |
 | [Open](../../aspose.zip.uue/uuearchive/open/)() | Opens the archive for decoding and provides a stream with archive content. |
 | [Save](../../aspose.zip.uue/uuearchive/save/#save)(Stream, UueSaveOptions) | Saves archive to the stream provided. |
-| [Save](../../aspose.zip.uue/uuearchive/save/#save_1)(string, UueSaveOptions) | Saves archive to destination file provided. |
+| [Save](../../aspose.zip.uue/uuearchive/save/#save_1)(string, UueSaveOptions) | Saves archive to a destination file provided. |
 | [SetSource](../../aspose.zip.uue/uuearchive/setsource/#setsource)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.uue/uuearchive/setsource/#setsource_1)(Stream) | Sets the content to be encoded within the archive. |
 | [SetSource](../../aspose.zip.uue/uuearchive/setsource/#setsource_2)(string) | Sets the content to be encoded within the archive. |

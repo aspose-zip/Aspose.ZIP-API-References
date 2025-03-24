@@ -1,14 +1,14 @@
 ---
 title: SharArchive.DeleteEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: SharArchive method. Removes the first occurrence of a specific entry from the entries list
+description: SharArchive method. Removes the first occurrence of a specific entry from the entry list
 type: docs
 weight: 50
 url: /net/aspose.zip.shar/shararchive/deleteentry/
 ---
 ## DeleteEntry(SharEntry) {#deleteentry}
 
-Removes the first occurrence of a specific entry from the entries list.
+Removes the first occurrence of a specific entry from the entry list.
 
 ```csharp
 public SharArchive DeleteEntry(SharEntry entry)

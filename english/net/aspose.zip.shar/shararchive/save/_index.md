@@ -1,14 +1,14 @@
 ---
 title: SharArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
-description: SharArchive method. Saves archive to destination file provided
+description: SharArchive method. Saves archive to a destination file provided
 type: docs
 weight: 70
 url: /net/aspose.zip.shar/shararchive/save/
 ---
 ## Save(string) {#save_1}
 
-Saves archive to destination file provided.
+Saves archive to a destination file provided.
 
 ```csharp
 public void Save(string destinationFileName)
@@ -33,7 +33,7 @@ public void Save(string destinationFileName)
 
 ## Remarks
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file.
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file.
 
 ## Examples
 

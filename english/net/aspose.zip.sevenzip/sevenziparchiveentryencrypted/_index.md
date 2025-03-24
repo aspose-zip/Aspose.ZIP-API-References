@@ -3,7 +3,7 @@ title: Class SevenZipArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipArchiveEntryEncrypted class. SevenZip archive entry that needs to be compressed with encryption or decompressed with decryption
 type: docs
-weight: 810
+weight: 820
 url: /net/aspose.zip.sevenzip/sevenziparchiveentryencrypted/
 ---
 ## SevenZipArchiveEntryEncrypted class
@@ -18,12 +18,12 @@ public class SevenZipArchiveEntryEncrypted : SevenZipArchiveEntry
 
 | Name | Description |
 | --- | --- |
-| [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize/) { get; } | Gets size of compressed file. |
+| [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize/) { get; } | Gets the size of a compressed file. |
 | [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings/) { get; } | Gets settings for compression or decompression. |
-| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
+| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [ModificationTime](../../aspose.zip.sevenzip/sevenziparchiveentry/modificationtime/) { get; } | Gets last modified date and time. |
-| [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name/) { get; } | Gets name of the entry within archive. |
-| [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/) { get; } | Gets size of original file. |
+| [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name/) { get; } | Gets name of the entry within the archive. |
+| [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/) { get; } | Gets size of an original file. |
 
 ## Methods
 

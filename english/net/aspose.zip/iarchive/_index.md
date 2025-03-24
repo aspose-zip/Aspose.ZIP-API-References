@@ -19,6 +19,7 @@ public interface IArchive : IDisposable
 | Name | Description |
 | --- | --- |
 | [FileEntries](../../aspose.zip/iarchive/fileentries/) { get; } | Gets entries of [`IArchiveFileEntry`](../iarchivefileentry/) type constituting the archive. |
+| [Format](../../aspose.zip/iarchive/format/) { get; } | Gets the archive format. |
 
 ## Methods
 

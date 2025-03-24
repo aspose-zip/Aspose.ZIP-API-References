@@ -23,7 +23,7 @@ public void SaveSplit(string destinationDirectory, SplitSevenZipArchiveSaveOptio
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | This archive was opened from existing source. |
+| InvalidOperationException | This archive was opened from the existing source. |
 | ArgumentNullException | *destinationDirectory* is null. |
 | SecurityException | The caller does not have the required permission to access the directory. |
 | ArgumentException | *destinationDirectory* contains invalid characters such as ", &gt;, &lt;, or &#x7C;. |
@@ -31,9 +31,9 @@ public void SaveSplit(string destinationDirectory, SplitSevenZipArchiveSaveOptio
 
 ## Remarks
 
-This method compose several (`n`) files filename.7z.001, filename.7z.002, ..., filename.7z.(n).
+This method composes several (`n`) files filename.7z.001, filename.7z.002, ..., filename.7z.(n).
 
-Can not make existing archive multi-volume.
+Cannot make existing archive multi-volume.
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: Class TarArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Tar.TarArchive class. This class represents tar archive file. Use it to compose extract or update tar archives
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.zip.tar/tararchive/
 ---
 ## TarArchive class
@@ -47,14 +47,14 @@ public class TarArchive : IArchive
 | [CreateEntries](../../aspose.zip.tar/tararchive/createentries/#createentries)(DirectoryInfo, bool) | Adds to the archive all the files and directories recursively in the directory given. |
 | [CreateEntries](../../aspose.zip.tar/tararchive/createentries/#createentries_1)(string, bool) | Adds to the archive all the files and directories recursively in the directory given. |
 | [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry)(string, FileInfo, bool) | Create a single entry within the archive. |
-| [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry_1)(string, Stream, FileSystemInfo) | Create single entry within the archive. |
+| [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry_1)(string, Stream, FileSystemInfo) | Create a single entry within the archive. |
 | [CreateEntry](../../aspose.zip.tar/tararchive/createentry/#createentry_2)(string, string, bool) | Create a single entry within the archive. |
 | [DeleteEntry](../../aspose.zip.tar/tararchive/deleteentry/#deleteentry_1)(int) | Removes the entry from the entry list by index. |
 | [DeleteEntry](../../aspose.zip.tar/tararchive/deleteentry/#deleteentry)(TarEntry) | Removes the first occurrence of a specific entry from the entry list. |
 | [Dispose](../../aspose.zip.tar/tararchive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExtractToDirectory](../../aspose.zip.tar/tararchive/extracttodirectory/)(string) | Extracts all the files in the archive to the directory provided. |
 | [Save](../../aspose.zip.tar/tararchive/save/#save)(Stream, TarFormat?) | Saves archive to the stream provided. |
-| [Save](../../aspose.zip.tar/tararchive/save/#save_1)(string, TarFormat?) | Saves archive to destination file provided. |
+| [Save](../../aspose.zip.tar/tararchive/save/#save_1)(string, TarFormat?) | Saves archive to a destination file provided. |
 | [SaveGzipped](../../aspose.zip.tar/tararchive/savegzipped/#savegzipped)(Stream, TarFormat?) | Saves archive to the stream with gzip compression. |
 | [SaveGzipped](../../aspose.zip.tar/tararchive/savegzipped/#savegzipped_1)(string, TarFormat?) | Saves archive to the file by path with gzip compression. |
 | [SaveLzipped](../../aspose.zip.tar/tararchive/savelzipped/#savelzipped)(Stream, TarFormat?) | Saves archive to the stream with lzip compression. |
