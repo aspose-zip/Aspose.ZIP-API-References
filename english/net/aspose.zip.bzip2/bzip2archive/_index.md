@@ -32,7 +32,7 @@ public class Bzip2Archive : IArchive, IArchiveFileEntry
 | [ExtractToDirectory](../../aspose.zip.bzip2/bzip2archive/extracttodirectory/)(string) | Extracts content of the archive to the directory provided. |
 | [Open](../../aspose.zip.bzip2/bzip2archive/open/)() | Opens the archive for extraction and provides a stream with archive content. |
 | [Save](../../aspose.zip.bzip2/bzip2archive/save/#save)(Stream, Bzip2SaveOptions) | Saves archive to the stream provided. |
-| [Save](../../aspose.zip.bzip2/bzip2archive/save/#save_1)(string, Bzip2SaveOptions) | Saves archive to destination file provided. |
+| [Save](../../aspose.zip.bzip2/bzip2archive/save/#save_1)(string, Bzip2SaveOptions) | Saves archive to a destination file provided. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource_2)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource_3)(Stream) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.bzip2/bzip2archive/setsource/#setsource_4)(string) | Sets the content to be compressed within the archive. |

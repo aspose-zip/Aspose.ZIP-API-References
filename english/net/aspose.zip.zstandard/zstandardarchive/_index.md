@@ -1,14 +1,14 @@
 ---
 title: Class ZstandardArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Zstandard.ZstandardArchive class. This class represents Zstandard archive file. Use it to compose Zstandard archives
+description: Aspose.Zip.Zstandard.ZstandardArchive class. This class represents a Zstandard archive file. Use it to compose Zstandard archives
 type: docs
-weight: 1180
+weight: 1190
 url: /net/aspose.zip.zstandard/zstandardarchive/
 ---
 ## ZstandardArchive class
 
-This class represents Zstandard archive file. Use it to compose Zstandard archives.
+This class represents a Zstandard archive file. Use it to compose Zstandard archives.
 
 ```csharp
 public class ZstandardArchive : IArchive, IArchiveFileEntry

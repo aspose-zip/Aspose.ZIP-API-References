@@ -3,7 +3,7 @@ title: Class TarEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Tar.TarEntry class. Represents single file within tar archive
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.zip.tar/tarentry/
 ---
 ## TarEntry class
@@ -18,10 +18,11 @@ public class TarEntry : IArchiveFileEntry
 
 | Name | Description |
 | --- | --- |
-| [IsDirectory](../../aspose.zip.tar/tarentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
+| [IsDirectory](../../aspose.zip.tar/tarentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [Length](../../aspose.zip.tar/tarentry/length/) { get; } | Get length of entry in bytes. |
 | [ModificationTime](../../aspose.zip.tar/tarentry/modificationtime/) { get; } | Gets the modification time of the file or directory. |
-| [Name](../../aspose.zip.tar/tarentry/name/) { get; set; } | Gets or sets name of the entry within archive. |
+| [Name](../../aspose.zip.tar/tarentry/name/) { get; set; } | Gets or sets a name of the entry within the archive. |
+| [UncompressedSize](../../aspose.zip.tar/tarentry/uncompressedsize/) { get; } | Gets the size of an original file. |
 
 ## Methods
 

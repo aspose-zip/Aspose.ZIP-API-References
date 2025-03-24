@@ -3,7 +3,7 @@ title: GzipArchive.SetSource
 second_title: Aspose.ZIP for .NET API Reference
 description: GzipArchive method. Sets the content to be compressed within the archive
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip.gzip/gziparchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_2}

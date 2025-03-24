@@ -20,7 +20,7 @@ public FileSystemInfo Extract(string path)
 
 ### Return Value
 
-The file info of composed file.
+The file info of a composed file.
 
 ### Exceptions
 

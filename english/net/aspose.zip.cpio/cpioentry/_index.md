@@ -18,10 +18,10 @@ public sealed class CpioEntry : IArchiveFileEntry
 
 | Name | Description |
 | --- | --- |
-| [IsDirectory](../../aspose.zip.cpio/cpioentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
+| [IsDirectory](../../aspose.zip.cpio/cpioentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [LastWriteTimeUtc](../../aspose.zip.cpio/cpioentry/lastwritetimeutc/) { get; } | Gets the last write time. |
 | [Length](../../aspose.zip.cpio/cpioentry/length/) { get; } | Gets the length of the entry in bytes. |
-| [Name](../../aspose.zip.cpio/cpioentry/name/) { get; } | Gets name of the entry within archive. |
+| [Name](../../aspose.zip.cpio/cpioentry/name/) { get; } | Gets name of the entry within the archive. |
 | [Parent](../../aspose.zip.cpio/cpioentry/parent/) { get; } | Gets the archive the entry belongs to. |
 
 ## Methods

@@ -3,7 +3,7 @@ title: TarEntry.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: TarEntry method. Extracts the entry to the filesystem by the path provided
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.tar/tarentry/extract/
 ---
 ## Extract(string) {#extract}
@@ -20,7 +20,7 @@ public FileSystemInfo Extract(string path)
 
 ### Return Value
 
-The file info of composed file.
+The file info of the composed file.
 
 ### Exceptions
 

@@ -1,14 +1,14 @@
 ---
 title: SevenZipArchiveEntry.UncompressedSize
 second_title: Aspose.ZIP for .NET API Reference
-description: SevenZipArchiveEntry property. Gets size of original file
+description: SevenZipArchiveEntry property. Gets size of an original file
 type: docs
 weight: 60
 url: /net/aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/
 ---
 ## SevenZipArchiveEntry.UncompressedSize property
 
-Gets size of original file.
+Gets size of an original file.
 
 ```csharp
 public ulong UncompressedSize { get; }

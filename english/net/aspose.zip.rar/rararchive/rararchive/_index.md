@@ -39,7 +39,7 @@ This constructor does not decompress any entry. See [`Open`](../../rararchiveent
 
 ## Examples
 
-The following example extract an archive, then decompress first entry to a `MemoryStream`.
+The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```csharp
 var extracted = new MemoryStream();
@@ -66,7 +66,7 @@ using (RarArchive archive = new RarArchive("data.rar"))
 
 ## RarArchive(Stream, RarArchiveLoadOptions) {#constructor}
 
-Initializes a new instance of the [`RarArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`RarArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)

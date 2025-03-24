@@ -20,7 +20,7 @@ The stream that represents the contents of the archive.
 
 ## Remarks
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 ## Examples
 

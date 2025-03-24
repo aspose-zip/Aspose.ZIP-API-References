@@ -1,14 +1,14 @@
 ---
 title: CpioEntry.Name
 second_title: Aspose.ZIP for .NET API Reference
-description: CpioEntry property. Gets name of the entry within archive
+description: CpioEntry property. Gets name of the entry within the archive
 type: docs
 weight: 40
 url: /net/aspose.zip.cpio/cpioentry/name/
 ---
 ## CpioEntry.Name property
 
-Gets name of the entry within archive.
+Gets name of the entry within the archive.
 
 ```csharp
 public string Name { get; }

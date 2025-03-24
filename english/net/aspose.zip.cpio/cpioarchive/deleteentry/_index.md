@@ -1,14 +1,14 @@
 ---
 title: CpioArchive.DeleteEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: CpioArchive method. Removes the first occurrence of a specific entry from the entries list
+description: CpioArchive method. Removes the first occurrence of a specific entry from the entry list
 type: docs
 weight: 50
 url: /net/aspose.zip.cpio/cpioarchive/deleteentry/
 ---
 ## DeleteEntry(CpioEntry) {#deleteentry}
 
-Removes the first occurrence of a specific entry from the entries list.
+Removes the first occurrence of a specific entry from the entry list.
 
 ```csharp
 public CpioArchive DeleteEntry(CpioEntry entry)
@@ -52,7 +52,7 @@ using (var archive = new CpioArchive("archive.cpio"))
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Removes the entry from the entries list by index.
+Removes the entry from the entry list by index.
 
 ```csharp
 public CpioArchive DeleteEntry(int entryIndex)
