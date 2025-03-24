@@ -3,7 +3,7 @@ title: Class XzArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.XzArchive class. This class represents xz archive file. Use it to compose and extract xz archives
 type: docs
-weight: 1140
+weight: 1150
 url: /net/aspose.zip.xz/xzarchive/
 ---
 ## XzArchive class

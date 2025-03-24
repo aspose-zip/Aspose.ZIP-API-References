@@ -1,14 +1,14 @@
 ---
 title: CpioArchive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: CpioArchive method. Create single entry within the archive
+description: CpioArchive method. Create a single entry within the archive
 type: docs
 weight: 40
 url: /net/aspose.zip.cpio/cpioarchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -18,7 +18,7 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file or folder to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 
 ### Return Value
 
@@ -58,7 +58,7 @@ using (var archive = new CpioArchive())
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
@@ -68,7 +68,7 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | sourcePath | String | Path to file to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 
 ### Return Value
 
@@ -112,7 +112,7 @@ using (var archive = new CpioArchive())
 
 ## CreateEntry(string, Stream) {#createentry_1}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public CpioEntry CreateEntry(string name, Stream source)

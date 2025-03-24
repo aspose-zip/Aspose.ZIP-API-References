@@ -3,7 +3,7 @@ title: GzipArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
 description: GzipArchive method. Saves archive to the stream provided
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip.gzip/gziparchive/save/
 ---
 ## Save(Stream) {#save}
@@ -51,7 +51,7 @@ using (var archive = new GzipArchive())
 
 ## Save(string) {#save_1}
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```csharp
 public void Save(string destinationFileName)

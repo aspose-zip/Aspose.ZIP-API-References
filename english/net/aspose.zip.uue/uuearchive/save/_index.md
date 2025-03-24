@@ -23,7 +23,7 @@ public void Save(Stream outputStream, UueSaveOptions saveOptions = null)
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Source of data to be archived has not been provided. |
+| InvalidOperationException | The source of data to be archived has not been provided. |
 | ArgumentException | *outputStream* is not writable. |
 | UnauthorizedAccessException | File source is read-only or is a directory. |
 | DirectoryNotFoundException | The specified file source path is invalid, such as being on an unmapped drive. |
@@ -56,7 +56,7 @@ using (var archive = new UueArchive())
 
 ## Save(string, UueSaveOptions) {#save_1}
 
-Saves archive to destination file provided.
+Saves archive to a destination file provided.
 
 ```csharp
 public void Save(string destinationFileName, UueSaveOptions saveOptions = null)

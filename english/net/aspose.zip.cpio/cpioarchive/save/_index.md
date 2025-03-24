@@ -1,14 +1,14 @@
 ---
 title: CpioArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
-description: CpioArchive method. Saves archive to destination file provided
+description: CpioArchive method. Saves archive to a destination file provided
 type: docs
 weight: 80
 url: /net/aspose.zip.cpio/cpioarchive/save/
 ---
 ## Save(string, CpioFormat) {#save_1}
 
-Saves archive to destination file provided.
+Saves archive to a destination file provided.
 
 ```csharp
 public void Save(string destinationFileName, CpioFormat cpioFormat = CpioFormat.OldAscii)
@@ -28,12 +28,12 @@ public void Save(string destinationFileName, CpioFormat cpioFormat = CpioFormat.
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | DirectoryNotFoundException | The specified *destinationFileName* is invalid, (for example, it is on an unmapped drive). |
 | IOException | An I/O error occurred while opening the file. |
-| UnauthorizedAccessException | *destinationFileName* specified a file that is read-only and access is not Read.-or- path specified a directory.-or- The caller does not have the required permission. |
+| UnauthorizedAccessException | *destinationFileName*Specified a file is read-only and access is not Read.-or- path specified a directory.-or- The caller does not have the required permission. |
 | NotSupportedException | *destinationFileName* is in an invalid format. |
 
 ## Remarks
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file.
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file.
 
 ## Examples
 

@@ -67,7 +67,7 @@ public static IArchive GetArchive(Stream stream, string password)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream containing the archive data. It must be seekable. |
-| password | String | Password to decrypt encrypted archive. |
+| password | String | Password to decrypt an encrypted archive. |
 
 ### Return Value
 

@@ -3,7 +3,7 @@ title: IArchive.ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: IArchive method. Extracts all the files in the archive to the directory provided
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip/iarchive/extracttodirectory/
 ---
 ## IArchive.ExtractToDirectory method

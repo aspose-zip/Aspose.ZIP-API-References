@@ -3,7 +3,7 @@ title: Class RarArchiveEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Rar.RarArchiveEntryPlain class. Rar entry that needs to be decompressed without decryption
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.zip.rar/rararchiveentryplain/
 ---
 ## RarArchiveEntryPlain class
@@ -18,13 +18,13 @@ public sealed class RarArchiveEntryPlain : RarArchiveEntry
 
 | Name | Description |
 | --- | --- |
-| [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize/) { get; } | Gets size of compressed file. |
+| [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize/) { get; } | Gets the size of a compressed file. |
 | [CreationTime](../../aspose.zip.rar/rararchiveentry/creationtime/) { get; } | Gets creation date and time. |
-| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
+| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime/) { get; } | Gets last access date and time. |
 | [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime/) { get; } | Gets last modified date and time. |
-| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Gets name of the entry within archive. |
-| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Gets size of original file. |
+| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Gets name of the entry within the archive. |
+| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Gets the size of an original file. |
 
 ## Methods
 

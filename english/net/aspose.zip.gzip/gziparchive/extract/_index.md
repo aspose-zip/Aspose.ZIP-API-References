@@ -3,7 +3,7 @@ title: GzipArchive.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: GzipArchive method. Extracts the archive to the stream provided
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.gzip/gziparchive/extract/
 ---
 ## Extract(Stream) {#extract_1}

@@ -100,7 +100,7 @@ public GzipArchive(string path, bool parseHeader = false)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
-| EndOfStreamException | File is too short. |
+| EndOfStreamException | The file is too short. |
 | InvalidDataException | Data in the file has wrong signature. |
 
 ## Remarks

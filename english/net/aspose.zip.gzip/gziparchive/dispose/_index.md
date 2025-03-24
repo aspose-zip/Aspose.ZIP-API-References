@@ -3,7 +3,7 @@ title: GzipArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: GzipArchive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.gzip/gziparchive/dispose/
 ---
 ## GzipArchive.Dispose method

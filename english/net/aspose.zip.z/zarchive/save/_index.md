@@ -54,7 +54,7 @@ using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
 
 ## Save(string, ZArchiveSaveOptions) {#save_1}
 
-Saves Z archive to destination file provided.
+Saves Z archive to the destination file provided.
 
 ```csharp
 public void Save(string destinationFileName, ZArchiveSaveOptions settings = null)

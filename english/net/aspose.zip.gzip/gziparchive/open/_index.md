@@ -3,7 +3,7 @@ title: GzipArchive.Open
 second_title: Aspose.ZIP for .NET API Reference
 description: GzipArchive method. Opens the archive for extraction and provides a stream with archive content
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.gzip/gziparchive/open/
 ---
 ## GzipArchive.Open method
@@ -20,7 +20,7 @@ The stream that represents the contents of the archive.
 
 ## Remarks
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of a file. See examples section.
 
 ## Examples
 

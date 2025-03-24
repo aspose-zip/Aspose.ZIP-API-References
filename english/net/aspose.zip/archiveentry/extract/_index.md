@@ -79,7 +79,7 @@ public void Extract(Stream destination, string password = null)
 | exception | condition |
 | --- | --- |
 | InvalidDataException | Data is corrupted. -or- CRC or MAC verification failed for the entry. |
-| IOException | Source is corrupted or not readable. |
+| IOException | The source is corrupted or not readable. |
 | ArgumentException | *destination* does not support writing. |
 
 ## Examples
