@@ -23,6 +23,7 @@ The LzipArchive type exposes the following members:
 | :- | :- |
 |settings|Gets the setting of particular lzip archive.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 |name|Gets name of the entry.|
 |length|Gets the length of the entry in bytes.|
 ## Methods

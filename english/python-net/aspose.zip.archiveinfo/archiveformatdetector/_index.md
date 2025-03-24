@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.archiveinfo/archiveformatdetector/
 
 ## ArchiveFormatDetector class
 
-Detects archive format and provides other related information.
+Detects an archive format and provides other related information.
 
 The ArchiveFormatDetector type exposes the following members:
 ## Constructors

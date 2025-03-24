@@ -26,6 +26,7 @@ The WimArchive type exposes the following members:
 |file_format_version|Gets the version of the file format.|
 |manifest|Gets the embedded manifest describing the file and the contained images.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |
