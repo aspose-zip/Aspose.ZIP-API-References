@@ -15,13 +15,13 @@ The RarArchiveEntry type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|name|Gets name of the entry within archive.|
-|compressed_size|Gets size of compressed file.|
-|uncompressed_size|Gets size of original file.|
+|name|Gets name of the entry within the archive.|
+|compressed_size|Gets the size of a compressed file.|
+|uncompressed_size|Gets the size of an original file.|
 |modification_time|Gets last modified date and time.|
 |creation_time|Gets creation date and time.|
 |last_access_time|Gets last access date and time.|
-|is_directory|Gets a value indicating whether the entry represents directory.|
+|is_directory|Gets a value indicating whether the entry represents a directory.|
 |length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |

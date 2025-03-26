@@ -16,21 +16,22 @@ The CpioArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |CpioArchive()|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class.|
-|CpioArchive(source_stream)|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class and composes entries list can be extracted from the archive.|
-|CpioArchive(path)|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class and composes entries list can be extracted from the archive.|
+|CpioArchive(source_stream)|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class and composes an entry list can be extracted from the archive.|
+|CpioArchive(path)|Initializes a new instance of the [CpioArchive](/zip/python-net/aspose.zip.cpio/cpioarchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
 |entries|Gets entries of [CpioEntry](/zip/python-net/aspose.zip.cpio/cpioentry/) type constituting the archive.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|create_entry(name, source_path, open_immediately)|Create single entry within the archive.|
-|create_entry(name, source)|Create single entry within the archive.|
-|delete_entry(entry)|Removes the first occurrence of a specific entry from the entries list.|
-|delete_entry(entry_index)|Removes the entry from the entries list by index.|
-|save(destination_file_name, cpio_format)|Saves archive to destination file provided.|
+|create_entry(name, source_path, open_immediately)|Create a single entry within the archive.|
+|create_entry(name, source)|Create a single entry within the archive.|
+|delete_entry(entry)|Removes the first occurrence of a specific entry from the entry list.|
+|delete_entry(entry_index)|Removes the entry from the entry list by index.|
+|save(destination_file_name, cpio_format)|Saves archive to a destination file provided.|
 |save(output, cpio_format)|Saves archive to the stream provided.|
 |save_gzipped(output, cpio_format)|Saves archive to the stream with gzip compression.|
 |save_gzipped(path, cpio_format)|Saves archive to the file by path with gzip compression.|

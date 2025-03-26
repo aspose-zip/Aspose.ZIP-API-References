@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.shar/shararchive/
 
 ## SharArchive class
 
-This class represents shar archive file.
+This class represents a shar archive file.
 
 The SharArchive type exposes the following members:
 ## Constructors
@@ -26,9 +26,9 @@ The SharArchive type exposes the following members:
 | :- | :- |
 |create_entry(name, source_path, open_immediately)|Create single entry within the archive.|
 |create_entry(name, source)|Create single entry within the archive.|
-|delete_entry(entry)|Removes the first occurrence of a specific entry from the entries list.|
+|delete_entry(entry)|Removes the first occurrence of a specific entry from the entry list.|
 |delete_entry(entry_index)|Removes the entry from the entries list by index.|
-|save(destination_file_name)|Saves archive to destination file provided.|
+|save(destination_file_name)|Saves archive to a destination file provided.|
 |save(output)|Saves archive to the stream provided.|
 |create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
 

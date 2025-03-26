@@ -23,6 +23,7 @@ The IsoArchive type exposes the following members:
 | :- | :- |
 |entries|Gets entries of [IsoEntry](/zip/python-net/aspose.zip.iso/isoentry/) type constituting the archive.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |

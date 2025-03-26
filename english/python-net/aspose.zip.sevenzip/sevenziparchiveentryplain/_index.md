@@ -15,11 +15,11 @@ The SevenZipArchiveEntryPlain type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|name|Gets name of the entry within archive.|
+|name|Gets name of the entry within the archive.|
 |modification_time|Gets last modified date and time.|
-|uncompressed_size|Gets size of original file.|
-|compressed_size|Gets size of compressed file.|
-|is_directory|Gets a value indicating whether the entry represents directory.|
+|uncompressed_size|Gets size of an original file.|
+|compressed_size|Gets the size of a compressed file.|
+|is_directory|Gets a value indicating whether the entry represents a directory.|
 |compression_settings|Gets settings for compression or decompression.|
 |length|Gets the length of the entry in bytes.|
 ## Methods
