@@ -16,12 +16,13 @@ The RarArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |RarArchive(path, load_options)|Initializes a new instance of the [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) class and composes entries list can be extracted from the archive.|
-|RarArchive(source_stream, load_options)|Initializes a new instance of the [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) class and composes entries list can be extracted from the archive.|
+|RarArchive(source_stream, load_options)|Initializes a new instance of the [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
 |entries|Gets entries of [RarArchiveEntry](/zip/python-net/aspose.zip.rar/rararchiveentry/) type constituting the rar archive.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |

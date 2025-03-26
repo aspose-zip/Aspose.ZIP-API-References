@@ -15,10 +15,10 @@ The CpioEntry type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|name|Gets name of the entry within archive.|
+|name|Gets name of the entry within the archive.|
 |parent|Gets the archive the entry belongs to.|
 |length|Gets the length of the entry in bytes.|
-|is_directory|Gets a value indicating whether the entry represents directory.|
+|is_directory|Gets a value indicating whether the entry represents a directory.|
 |last_write_time_utc|Gets the last write time.|
 ## Methods
 | Name | Description |

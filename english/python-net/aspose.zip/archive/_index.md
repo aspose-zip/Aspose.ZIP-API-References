@@ -25,6 +25,7 @@ The Archive type exposes the following members:
 |new_entry_settings|Compression and encryption settings used for newly added [ArchiveEntry](/zip/python-net/aspose.zip/archiveentry/) items.|
 |entries|Gets entries of [ArchiveEntry](/zip/python-net/aspose.zip/archiveentry/) type constituting the archive.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |

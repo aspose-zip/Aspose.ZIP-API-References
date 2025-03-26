@@ -22,6 +22,7 @@ The LhaArchive type exposes the following members:
 | :- | :- |
 |entries|Gets file entries of [LhaArchiveEntry](/zip/python-net/aspose.zip.lha/lhaarchiveentry/) type constituting the archive.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |

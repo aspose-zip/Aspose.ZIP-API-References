@@ -21,14 +21,15 @@ The UueArchive type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|name|Name of original file.|
+|name|Name of the original file.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 |length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |save(output_stream, save_options)|Saves archive to the stream provided.|
-|save(destination_file_name, save_options)|Saves archive to destination file provided.|
+|save(destination_file_name, save_options)|Saves archive to a destination file provided.|
 |extract(destination)|Extracts the archive to the stream provided.|
 |extract(path)|Extracts the archive to the file by path.|
 |set_source(source)|Sets the content to be encoded within the archive.|

@@ -16,6 +16,7 @@ The IArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |

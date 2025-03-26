@@ -24,6 +24,7 @@ The ArjArchive type exposes the following members:
 |commentary|Gets the commentary.|
 |name|Gets the original name.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
+|format|Gets the archive format.|
 ## Methods
 | Name | Description |
 | :- | :- |
