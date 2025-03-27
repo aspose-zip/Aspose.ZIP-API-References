@@ -3,7 +3,7 @@ title: XarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xar archive file.
 type: docs
-weight: 98
+weight: 99
 url: /java/com.aspose.zip/xararchive/
 ---
 
@@ -50,6 +50,7 @@ This class represents xar archive file.
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [XarEntry](../../com.aspose.zip/xarentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the xar archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream output, XarSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.XarSaveOptions-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
@@ -699,6 +700,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the xar archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream output)

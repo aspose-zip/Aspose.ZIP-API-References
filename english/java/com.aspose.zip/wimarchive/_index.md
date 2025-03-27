@@ -3,7 +3,7 @@ title: WimArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents wim archive file.
 type: docs
-weight: 93
+weight: 94
 url: /java/com.aspose.zip/wimarchive/
 ---
 
@@ -32,6 +32,7 @@ This class represents wim archive file.
 | [getBootImageIndex()](#getBootImageIndex--) | Gets the (zero-based) index of the bootable image. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the wim archive. |
 | [getFileFormatVersion()](#getFileFormatVersion--) | Gets the version of the file format. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getGuid()](#getGuid--) | Gets the identifying UUID for the archive. |
 | [getImages()](#getImages--) | Gets entries of [WimImage](../../com.aspose.zip/wimimage) type constituting the archive. |
 | [getManifest()](#getManifest--) | Gets the embedded manifest describing the file and the contained images. |
@@ -137,6 +138,16 @@ Gets the version of the file format.
 
 **Returns:**
 int - the version of the file format
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getGuid() {#getGuid--}
 ```
 public final UUID getGuid()

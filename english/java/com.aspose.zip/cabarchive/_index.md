@@ -31,6 +31,7 @@ This class represents a cab archive file.
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [CabEntry](../../com.aspose.zip/cabentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the cab archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 ### CabArchive(InputStream sourceStream) {#CabArchive-java.io.InputStream-}
 ```
 public CabArchive(InputStream sourceStream)
@@ -137,3 +138,13 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the cab archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format

@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 63
+weight: 64
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 
@@ -33,8 +33,8 @@ Cast a [RarArchiveEntry](../../com.aspose.zip/rararchiveentry) instance to [RarA
 | [getLastAccessTime()](#getLastAccessTime--) | Gets last access date and time. |
 | [getLength()](#getLength--) | Gets length. |
 | [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
-| [getName()](#getName--) | Gets the name of the entry within archive. |
-| [getUncompressedSize()](#getUncompressedSize--) | Gets size of original file. |
+| [getName()](#getName--) | Gets the name of the entry within the archive. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets the size of the original file. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 | [open(String password)](#open-java.lang.String-) | Opens the entry for extraction and provides a stream with decompressed entry content. |
@@ -172,7 +172,7 @@ public final long getCompressedSize()
 Gets size of compressed file.
 
 **Returns:**
-long - size of compressed file.
+long - the size of the compressed file
 ### getCreationTime() {#getCreationTime--}
 ```
 public final Date getCreationTime()
@@ -241,20 +241,20 @@ public final String getName()
 ```
 
 
-Gets the name of the entry within archive.
+Gets the name of the entry within the archive.
 
 **Returns:**
-java.lang.String - the name of the entry within archive.
+java.lang.String - the name of the entry within the archive
 ### getUncompressedSize() {#getUncompressedSize--}
 ```
 public final long getUncompressedSize()
 ```
 
 
-Gets size of original file.
+Gets the size of the original file.
 
 **Returns:**
-long - size of original file.
+long - the size of the original file.
 ### isDirectory() {#isDirectory--}
 ```
 public final boolean isDirectory()
@@ -286,7 +286,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Returns:**
 java.io.InputStream - The stream that represents the contents of the entry.
@@ -311,7 +311,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Parameters:**
 | Parameter | Type | Description |

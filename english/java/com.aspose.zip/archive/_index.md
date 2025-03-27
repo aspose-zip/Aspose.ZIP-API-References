@@ -56,6 +56,7 @@ This class represents zip archive file. Use it to compose, extract, or update zi
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [ArchiveEntry](../../com.aspose.zip/archiveentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getNewEntrySettings()](#getNewEntrySettings--) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream outputStream, ArchiveSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.ArchiveSaveOptions-) | Saves archive to the stream provided. |
@@ -972,6 +973,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive.
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getNewEntrySettings() {#getNewEntrySettings--}
 ```
 public final ArchiveEntrySettings getNewEntrySettings()

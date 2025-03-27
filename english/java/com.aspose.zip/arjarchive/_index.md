@@ -41,6 +41,7 @@ Only following compression methods are supported:
 | [getCommentary()](#getCommentary--) | Gets the commentary. |
 | [getEntries()](#getEntries--) | Gets entries of [ArjEntryPlain](../../com.aspose.zip/arjentryplain) type constituting the ARJ archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getName()](#getName--) | Gets the original name. |
 ### ArjArchive(InputStream extractionSource) {#ArjArchive-java.io.InputStream-}
 ```
@@ -147,6 +148,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getName() {#getName--}
 ```
 public final String getName()

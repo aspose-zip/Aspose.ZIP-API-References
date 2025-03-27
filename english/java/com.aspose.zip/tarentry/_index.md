@@ -3,7 +3,7 @@ title: TarEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within tar archive.
 type: docs
-weight: 89
+weight: 90
 url: /java/com.aspose.zip/tarentry/
 ---
 
@@ -25,10 +25,11 @@ Represents single file within tar archive.
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getModificationTime()](#getModificationTime--) | Gets the modification time of the file or directory. |
-| [getName()](#getName--) | Gets the name of the entry within archive. |
+| [getName()](#getName--) | Gets the name of the entry within the archive. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets the size of an original file. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of the entry within archive. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the entry within the archive. |
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
 public final void extract(OutputStream destination)
@@ -105,10 +106,22 @@ public final String getName()
 ```
 
 
-Gets the name of the entry within archive.
+Gets the name of the entry within the archive.
 
 **Returns:**
-java.lang.String - the name of the entry within archive
+java.lang.String - the name of the entry within the archive
+### getUncompressedSize() {#getUncompressedSize--}
+```
+public final long getUncompressedSize()
+```
+
+
+Gets the size of an original file.
+
+Has the same value as `Length`([getLength](../../com.aspose.zip/tarentry\#getLength--))
+
+**Returns:**
+long - the size of an original file.
 ### isDirectory() {#isDirectory--}
 ```
 public final boolean isDirectory()
@@ -141,7 +154,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the entry
@@ -151,10 +164,10 @@ public final void setName(String value)
 ```
 
 
-Sets the name of the entry within archive.
+Sets the name of the entry within the archive.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | the name of the entry within archive |
+| value | java.lang.String | the name of the entry within the archive |
 

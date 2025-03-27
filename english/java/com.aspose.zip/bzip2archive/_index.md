@@ -40,13 +40,14 @@ bzip2 compresses files using the Burrows-Wheeler block sorting text compression 
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | The name of original file. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream outputStream, Bzip2SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.Bzip2SaveOptions-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
-| [save(String destinationFileName, Bzip2SaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.Bzip2SaveOptions-) | Saves archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
+| [save(String destinationFileName, Bzip2SaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.Bzip2SaveOptions-) | Saves archive to the destination file provided. |
 | [setSource(CpioArchive cpioArchive)](#setSource-com.aspose.zip.CpioArchive-) | Sets the content to be compressed within the archive. |
 | [setSource(CpioArchive cpioArchive, CpioFormat format)](#setSource-com.aspose.zip.CpioArchive-com.aspose.zip.CpioFormat-) | Sets the content to be compressed within the archive. |
 | [setSource(TarArchive tarArchive)](#setSource-com.aspose.zip.TarArchive-) | Sets the content to be compressed within the archive. |
@@ -280,6 +281,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the bzip2 archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()
@@ -325,7 +336,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the archive
@@ -392,7 +403,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 Writes compressed data to file.
 
@@ -418,7 +429,7 @@ public final void save(String destinationFileName, Bzip2SaveOptions saveOptions)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 Writes compressed data to file.
 

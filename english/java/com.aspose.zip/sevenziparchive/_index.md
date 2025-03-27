@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 69
+weight: 70
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 
@@ -51,6 +51,7 @@ This class represents 7z archive file. Use it to compose and extract 7z archives
 | [extractToDirectory(String destinationDirectory, String password)](#extractToDirectory-java.lang.String-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the 7z archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getNewEntrySettings()](#getNewEntrySettings--) | Compression and encryption settings used for newly added [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) items. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves 7z archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to a destination file provided. |
@@ -759,6 +760,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the 7z archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getNewEntrySettings() {#getNewEntrySettings--}
 ```
 public final SevenZipEntrySettings getNewEntrySettings()

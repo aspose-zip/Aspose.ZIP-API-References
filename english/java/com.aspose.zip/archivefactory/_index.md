@@ -77,7 +77,7 @@ Detects the archive format and creates the appropriate [IArchive](../../com.aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | the stream containing the archive data |
-| password | java.lang.String | password to decrypt encrypted archive |
+| password | java.lang.String | password to decrypt an encrypted archive |
 
 **Returns:**
 [IArchive](../../com.aspose.zip/iarchive) - an [IArchive](../../com.aspose.zip/iarchive) object representing the archive

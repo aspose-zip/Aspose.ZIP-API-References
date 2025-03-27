@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xz archive file.
 type: docs
-weight: 108
+weight: 109
 url: /java/com.aspose.zip/xzarchive/
 ---
 
@@ -35,6 +35,7 @@ This class represents xz archive file. Use it to compose and extract xz archives
 | [extract(String path)](#extract-java.lang.String-) | Extracts xz archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the xz archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves xz archive to the stream provided. |
@@ -208,6 +209,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the xz archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()

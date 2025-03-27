@@ -3,7 +3,7 @@ title: ZstandardSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for ZStandard  archive.
 type: docs
-weight: 120
+weight: 121
 url: /java/com.aspose.zip/zstandardsaveoptions/
 ---
 

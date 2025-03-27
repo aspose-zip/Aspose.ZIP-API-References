@@ -3,7 +3,7 @@ title: XarFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents file entry within xar archive.
 type: docs
-weight: 103
+weight: 104
 url: /java/com.aspose.zip/xarfileentry/
 ---
 

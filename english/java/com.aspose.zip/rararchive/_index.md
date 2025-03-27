@@ -3,7 +3,7 @@ title: RarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents RAR archive file.
 type: docs
-weight: 62
+weight: 63
 url: /java/com.aspose.zip/rararchive/
 ---
 
@@ -23,8 +23,8 @@ This class represents RAR archive file. Use it to extract RAR archives.
 | --- | --- |
 | [RarArchive(String path)](#RarArchive-java.lang.String-) | Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive. |
 | [RarArchive(String path, RarArchiveLoadOptions loadOptions)](#RarArchive-java.lang.String-com.aspose.zip.RarArchiveLoadOptions-) | Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive. |
-| [RarArchive(InputStream sourceStream)](#RarArchive-java.io.InputStream-) | Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive. |
-| [RarArchive(InputStream sourceStream, RarArchiveLoadOptions loadOptions)](#RarArchive-java.io.InputStream-com.aspose.zip.RarArchiveLoadOptions-) | Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive. |
+| [RarArchive(InputStream sourceStream)](#RarArchive-java.io.InputStream-) | Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes an entry list can be extracted from the archive. |
+| [RarArchive(InputStream sourceStream, RarArchiveLoadOptions loadOptions)](#RarArchive-java.io.InputStream-com.aspose.zip.RarArchiveLoadOptions-) | Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -33,6 +33,7 @@ This class represents RAR archive file. Use it to extract RAR archives.
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [RarArchiveEntry](../../com.aspose.zip/rararchiveentry) type constituting the rar archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the rar archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 ### RarArchive(String path) {#RarArchive-java.lang.String-}
 ```
 public RarArchive(String path)
@@ -41,8 +42,7 @@ public RarArchive(String path)
 
 Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
 
-
-The following example extract an archive, then decompress first entry to a `MemoryStream`.
+The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```
 
@@ -74,8 +74,7 @@ public RarArchive(String path, RarArchiveLoadOptions loadOptions)
 
 Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
 
-
-The following example extract an archive, then decompress first entry to a `MemoryStream`.
+The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```
 
@@ -106,7 +105,7 @@ public RarArchive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes an entry list can be extracted from the archive.
 
 
 The following example decipher and decompress first entry to a `MemoryStream`.
@@ -143,7 +142,7 @@ public RarArchive(InputStream sourceStream, RarArchiveLoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) class and composes an entry list can be extracted from the archive.
 
 
 The following example decipher and decompress first entry to a `MemoryStream`.
@@ -226,3 +225,13 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the rar archive.
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
