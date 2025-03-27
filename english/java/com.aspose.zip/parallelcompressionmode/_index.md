@@ -3,7 +3,7 @@ title: ParallelCompressionMode
 second_title: Aspose.ZIP for Java API Reference
 description: Options of usage parallel compression facility.
 type: docs
-weight: 127
+weight: 128
 url: /java/com.aspose.zip/parallelcompressionmode/
 ---
 

@@ -22,8 +22,8 @@ This class represents cpio archive file.
 | Constructor | Description |
 | --- | --- |
 | [CpioArchive()](#CpioArchive--) | Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class. |
-| [CpioArchive(InputStream sourceStream)](#CpioArchive-java.io.InputStream-) | Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes entries list can be extracted from the archive. |
-| [CpioArchive(String path)](#CpioArchive-java.lang.String-) | Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes entries list can be extracted from the archive. |
+| [CpioArchive(InputStream sourceStream)](#CpioArchive-java.io.InputStream-) | Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes an entry list can be extracted from the archive. |
+| [CpioArchive(String path)](#CpioArchive-java.lang.String-) | Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -38,15 +38,16 @@ This class represents cpio archive file.
 | [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Creates a single entry within the archive. |
 | [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
 | [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
-| [deleteEntry(CpioEntry entry)](#deleteEntry-com.aspose.zip.CpioEntry-) | Removes the first occurrence of a specific entry from the entries list. |
-| [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
+| [deleteEntry(CpioEntry entry)](#deleteEntry-com.aspose.zip.CpioEntry-) | Removes the first occurrence of a specific entry from the entry list. |
+| [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entry list by index. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [CpioEntry](../../com.aspose.zip/cpioentry) type constituting the cpio archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the cpio archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream output, CpioFormat cpioFormat)](#save-java.io.OutputStream-com.aspose.zip.CpioFormat-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
-| [save(String destinationFileName, CpioFormat cpioFormat)](#save-java.lang.String-com.aspose.zip.CpioFormat-) | Saves archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
+| [save(String destinationFileName, CpioFormat cpioFormat)](#save-java.lang.String-com.aspose.zip.CpioFormat-) | Saves archive to the destination file provided. |
 | [saveGzipped(OutputStream output)](#saveGzipped-java.io.OutputStream-) | Saves archive to the stream with gzip compression. |
 | [saveGzipped(OutputStream output, CpioFormat cpioFormat)](#saveGzipped-java.io.OutputStream-com.aspose.zip.CpioFormat-) | Saves archive to the stream with gzip compression. |
 | [saveGzipped(String path)](#saveGzipped-java.lang.String-) | Saves archive to the file by path with gzip compression. |
@@ -100,9 +101,9 @@ public CpioArchive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -126,9 +127,9 @@ public CpioArchive(String path)
 ```
 
 
-Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -325,7 +326,7 @@ Creates a single entry within the archive.
 | --- | --- | --- |
 | name | java.lang.String | the name of the entry |
 | file | java.io.File | the metadata of file or folder to be compressed |
-| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving.
+| openImmediately | boolean | true, if open the file immediately, otherwise open the file on archive saving.
 
 If the file is opened immediately with `openImmediately` parameter it becomes blocked until archive is disposed |
 
@@ -412,7 +413,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | the name of the entry |
 | sourcePath | java.lang.String | path to file to be compressed. |
-| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | boolean | true, if open the file immediately, otherwise open the file on archive saving. |
 
 **Returns:**
 [CpioEntry](../../com.aspose.zip/cpioentry) - cpio entry instance
@@ -422,7 +423,7 @@ public final CpioArchive deleteEntry(CpioEntry entry)
 ```
 
 
-Removes the first occurrence of a specific entry from the entries list.
+Removes the first occurrence of a specific entry from the entry list.
 
 Here is how you can remove all entries except the last one:
 
@@ -451,7 +452,7 @@ public final CpioArchive deleteEntry(int entryIndex)
 ```
 
 
-Removes the entry from the entries list by index.
+Removes the entry from the entry list by index.
 
 ```
 
@@ -517,6 +518,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the cpio archive.
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream output)
@@ -582,7 +593,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -600,7 +611,7 @@ Saves archive to destination file provided.
 | --- | --- | --- |
 | destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file |
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file |
 
 ### save(String destinationFileName, CpioFormat cpioFormat) {#save-java.lang.String-com.aspose.zip.CpioFormat-}
 ```
@@ -608,7 +619,7 @@ public final void save(String destinationFileName, CpioFormat cpioFormat)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -626,7 +637,7 @@ Saves archive to destination file provided.
 | --- | --- | --- |
 | destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file |
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file |
 | cpioFormat | [CpioFormat](../../com.aspose.zip/cpioformat) | defines cpio header format |
 
 ### saveGzipped(OutputStream output) {#saveGzipped-java.io.OutputStream-}

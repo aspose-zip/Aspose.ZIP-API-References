@@ -40,7 +40,7 @@ public abstract ArchiveFormat getFormat()
 Gets the archive format.
 
 **Returns:**
-[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format.
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### toString() {#toString--}
 ```
 public String toString()

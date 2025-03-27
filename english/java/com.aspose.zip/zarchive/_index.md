@@ -1,9 +1,9 @@
 ---
 title: ZArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents Z compress archive file.
+description: This class represents a Z compress archive file.
 type: docs
-weight: 114
+weight: 115
 url: /java/com.aspose.zip/zarchive/
 ---
 
@@ -16,7 +16,7 @@ java.lang.Object
 public class ZArchive implements IArchiveFileEntry, IArchive, AutoCloseable
 ```
 
-This class represents Z (compress) archive file. Use it to compose or extract Z archives.
+This class represents a Z (compress) archive file. Use it to compose or extract Z archives.
 
 See [Z Compressed File Format ][Z Compressed File Format]
 
@@ -41,12 +41,13 @@ See [Z Compressed File Format ][Z Compressed File Format]
 | [extract(String path)](#extract-java.lang.String-) | Extracts Z archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the Z archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves Z archive to the stream provided. |
 | [save(OutputStream output, ZArchiveSaveOptions settings)](#save-java.io.OutputStream-com.aspose.zip.ZArchiveSaveOptions-) | Saves Z archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves Z archive to destination file provided. |
-| [save(String destinationFileName, ZArchiveSaveOptions settings)](#save-java.lang.String-com.aspose.zip.ZArchiveSaveOptions-) | Saves Z archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves Z archive to the destination file provided. |
+| [save(String destinationFileName, ZArchiveSaveOptions settings)](#save-java.lang.String-com.aspose.zip.ZArchiveSaveOptions-) | Saves Z archive to the destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String sourcePath)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
@@ -235,6 +236,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the Z archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()
@@ -316,7 +327,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves Z archive to destination file provided.
+Saves Z archive to the destination file provided.
 
 ```
 
@@ -340,7 +351,7 @@ public final void save(String destinationFileName, ZArchiveSaveOptions settings)
 ```
 
 
-Saves Z archive to destination file provided.
+Saves Z archive to the destination file provided.
 
 ```
 

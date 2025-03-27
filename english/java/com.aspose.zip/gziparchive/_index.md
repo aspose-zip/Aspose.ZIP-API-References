@@ -1,7 +1,7 @@
 ---
 title: GzipArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents gzip archive file.
+description: This class represents a gzip archive file.
 type: docs
 weight: 44
 url: /java/com.aspose.zip/gziparchive/
@@ -16,7 +16,7 @@ java.lang.Object
 public class GzipArchive implements IArchive, IArchiveFileEntry, AutoCloseable
 ```
 
-This class represents gzip archive file. Use it to compose or extract gzip archives.
+This class represents a gzip archive file. Use it to compose or extract gzip archives.
 
 Gzip compression algorithm is based on the DEFLATE algorithm, which is a combination of LZ77 and Huffman coding.
 ## Constructors
@@ -37,11 +37,13 @@ Gzip compression algorithm is based on the DEFLATE algorithm, which is a combina
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive. |
-| [getLength()](#getLength--) | Gets length. |
-| [getName()](#getName--) | The name of original file. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
+| [getLength()](#getLength--) | Gets size of an original file. |
+| [getName()](#getName--) | The name of the original file. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets size of an original file. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
 | [setSource(TarArchive tarArchive)](#setSource-com.aspose.zip.TarArchive-) | Sets the content to be compressed within the archive. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
@@ -273,26 +275,50 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the gzip archive.
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()
 ```
 
 
-Gets length.
+Gets size of an original file.
+
+During decompression, this property may contain incorrect size. If the uncompressed file size exceeds 4GB, this property will give a wrong value due to the 32-bit limit in header.
 
 **Returns:**
-java.lang.Long - length
+java.lang.Long - size of an original file
 ### getName() {#getName--}
 ```
 public final String getName()
 ```
 
 
-The name of original file.
+The name of the original file.
 
 **Returns:**
 java.lang.String - the name of the original file
+### getUncompressedSize() {#getUncompressedSize--}
+```
+public final long getUncompressedSize()
+```
+
+
+Gets size of an original file.
+
+During decompression, this property may contain incorrect size. If the uncompressed file size exceeds 4GB, this property will give a wrong value due to the 32-bit limit in header.
+
+**Returns:**
+long - size of an original file.
 ### open() {#open--}
 ```
 public final InputStream open()
@@ -320,7 +346,7 @@ Extracts the archive and copies extracted content to file stream.
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of a file. See examples section.
 
 **Returns:**
 java.io.InputStream - The stream that represents the contents of the archive.
@@ -358,7 +384,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 

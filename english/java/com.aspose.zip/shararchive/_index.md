@@ -1,9 +1,9 @@
 ---
 title: SharArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents shar archive file.
+description: This class represents a shar archive file.
 type: docs
-weight: 82
+weight: 83
 url: /java/com.aspose.zip/shararchive/
 ---
 
@@ -16,7 +16,7 @@ java.lang.AutoCloseable
 public class SharArchive implements AutoCloseable
 ```
 
-This class represents shar archive file.
+This class represents a shar archive file.
 ## Constructors
 
 | Constructor | Description |
@@ -37,11 +37,11 @@ This class represents shar archive file.
 | [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Creates a single entry within the archive. |
 | [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
 | [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
-| [deleteEntry(SharEntry entry)](#deleteEntry-com.aspose.zip.SharEntry-) | Removes the first occurrence of a specific entry from the entries list. |
+| [deleteEntry(SharEntry entry)](#deleteEntry-com.aspose.zip.SharEntry-) | Removes the first occurrence of a specific entry from the entry list. |
 | [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
 | [getEntries()](#getEntries--) | Gets entries of [SharEntry](../../com.aspose.zip/sharentry) type constituting the archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
 ### SharArchive() {#SharArchive--}
 ```
 public SharArchive()
@@ -350,7 +350,7 @@ public final SharArchive deleteEntry(SharEntry entry)
 ```
 
 
-Removes the first occurrence of a specific entry from the entries list.
+Removes the first occurrence of a specific entry from the entry list.
 
 Here is how you can remove all entries except the last one:
 
@@ -442,7 +442,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -460,5 +460,5 @@ Saves archive to destination file provided.
 | --- | --- | --- |
 | destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
 
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file |
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file |
 

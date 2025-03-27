@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 124
+weight: 125
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -25,6 +25,7 @@ Supported archive formats.
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
 | [Iso](#Iso) | Iso archive ([IsoArchive](../../com.aspose.zip/isoarchive)). |
 | [Lha](#Lha) | Lha archive ([LhaArchive](../../com.aspose.zip/lhaarchive)). |
+| [Lz4](#Lz4) | Lz4 archive ([Lz4Archive](../../com.aspose.zip/lz4archive)). |
 | [Lzip](#Lzip) | Lzip archive ([LzipArchive](../../com.aspose.zip/lziparchive)). |
 | [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
@@ -33,6 +34,7 @@ Supported archive formats.
 | [Snappy](#Snappy) | Snappy archive ([SnappyArchive](../../com.aspose.zip/snappyarchive)). |
 | [Tar](#Tar) | Tar archive ([TarArchive](../../com.aspose.zip/tararchive)). |
 | [Unknown](#Unknown) | Unknown format. |
+| [Uue](#Uue) | Uue encoded file ([UueArchive](../../com.aspose.zip/uuearchive)). |
 | [Wim](#Wim) | Wim archive ([WimArchive](../../com.aspose.zip/wimarchive)). |
 | [Xar](#Xar) | Xar archive ([XarArchive](../../com.aspose.zip/xararchive)). |
 | [Xz](#Xz) | Xz archive ([XzArchive](../../com.aspose.zip/xzarchive)). |
@@ -101,6 +103,14 @@ public static final ArchiveFormat Lha
 
 Lha archive ([LhaArchive](../../com.aspose.zip/lhaarchive)).
 
+### Lz4 {#Lz4}
+```
+public static final ArchiveFormat Lz4
+```
+
+
+Lz4 archive ([Lz4Archive](../../com.aspose.zip/lz4archive)).
+
 ### Lzip {#Lzip}
 ```
 public static final ArchiveFormat Lzip
@@ -164,6 +174,14 @@ public static final ArchiveFormat Unknown
 
 
 Unknown format.
+
+### Uue {#Uue}
+```
+public static final ArchiveFormat Uue
+```
+
+
+Uue encoded file ([UueArchive](../../com.aspose.zip/uuearchive)).
 
 ### Wim {#Wim}
 ```

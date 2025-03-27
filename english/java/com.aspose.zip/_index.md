@@ -46,7 +46,7 @@ url: /java/com.aspose.zip/
 | [EventsBagIso](../com.aspose.zip/eventsbagiso) | Events container used on [IsoArchive](../com.aspose.zip/isoarchive) saving. |
 | [EventsBagXar](../com.aspose.zip/eventsbagxar) | Events container used on [XarArchive](../com.aspose.zip/xararchive) saving. |
 | [FastLZOutputStream](../com.aspose.zip/fastlzoutputstream) | A stream wrapper that compresses data with FastLZ. |
-| [GzipArchive](../com.aspose.zip/gziparchive) | This class represents gzip archive file. |
+| [GzipArchive](../com.aspose.zip/gziparchive) | This class represents a gzip archive file. |
 | [IsoArchive](../com.aspose.zip/isoarchive) | Represents an ISO archive (ISO 9660). |
 | [IsoEntry](../com.aspose.zip/isoentry) | Represents an entry (file or directory) within an ISO archive. |
 | [IsoLoadOptions](../com.aspose.zip/isoloadoptions) | Options with which [IsoArchive](../com.aspose.zip/isoarchive) is loaded from compressed file. |
@@ -55,6 +55,7 @@ url: /java/com.aspose.zip/
 | [LhaArchiveEntry](../com.aspose.zip/lhaarchiveentry) | Represents single file within Lha archive. |
 | [LhaDirectoryEntry](../com.aspose.zip/lhadirectoryentry) | Represents an empty directory inside Lha archive. |
 | [License](../com.aspose.zip/license) | Provides methods to license the component. |
+| [Lz4Archive](../com.aspose.zip/lz4archive) | This class represents LZ4 archive file. |
 | [LzipArchive](../com.aspose.zip/lziparchive) | This class represents Lzip archive file. |
 | [LzipArchiveSettings](../com.aspose.zip/lziparchivesettings) | The class contains setting of particular lzip archive. |
 | [LzmaArchive](../com.aspose.zip/lzmaarchive) | This class represents LZMA archive file. |
@@ -84,7 +85,7 @@ url: /java/com.aspose.zip/
 | [SevenZipLZMACompressionSettings](../com.aspose.zip/sevenziplzmacompressionsettings) | Settings for LZMA compression method within 7z archive. |
 | [SevenZipPPMdCompressionSettings](../com.aspose.zip/sevenzipppmdcompressionsettings) | Settings for PPMd compression method within 7z archive. |
 | [SevenZipStoreCompressionSettings](../com.aspose.zip/sevenzipstorecompressionsettings) | Settings for Store compression method within 7z archive. |
-| [SharArchive](../com.aspose.zip/shararchive) | This class represents shar archive file. |
+| [SharArchive](../com.aspose.zip/shararchive) | This class represents a shar archive file. |
 | [SharEntry](../com.aspose.zip/sharentry) | Represents single file within shar archive. |
 | [SnappyArchive](../com.aspose.zip/snappyarchive) | This class represents snappy archive file. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume zip archive. |
@@ -116,10 +117,10 @@ url: /java/com.aspose.zip/
 | [XzCompressionSettings](../com.aspose.zip/xzcompressionsettings) | Settings for Xz compression method. |
 | [XzFilterSettings](../com.aspose.zip/xzfiltersettings) | Base class for set of settings of particular xz format filter. |
 | [XzLZMA2FilterSettings](../com.aspose.zip/xzlzma2filtersettings) | Set of settings for xz LZMA2 filter. |
-| [ZArchive](../com.aspose.zip/zarchive) | This class represents Z (compress) archive file. |
+| [ZArchive](../com.aspose.zip/zarchive) | This class represents a Z (compress) archive file. |
 | [ZArchiveLoadOptions](../com.aspose.zip/zarchiveloadoptions) | Options with which [ZArchive](../com.aspose.zip/zarchive) is loaded from compressed file. |
 | [ZArchiveSaveOptions](../com.aspose.zip/zarchivesaveoptions) | Settings for Zarchive. |
-| [ZstandardArchive](../com.aspose.zip/zstandardarchive) | This class represents Zstandard archive file. |
+| [ZstandardArchive](../com.aspose.zip/zstandardarchive) | This class represents a Zstandard archive file. |
 | [ZstandardCompressionSettings](../com.aspose.zip/zstandardcompressionsettings) | Settings for Zstandard compression method. |
 | [ZstandardLoadOptions](../com.aspose.zip/zstandardloadoptions) | Options with which [ZstandardArchive](../com.aspose.zip/zstandardarchive) is loaded from compressed file. |
 | [ZstandardSaveOptions](../com.aspose.zip/zstandardsaveoptions) | Settings for ZStandard archive. |
