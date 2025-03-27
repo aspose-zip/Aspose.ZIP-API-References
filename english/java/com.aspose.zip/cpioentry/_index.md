@@ -25,7 +25,7 @@ Represents single file within cpio archive.
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
 | [getLastWriteTimeUtc()](#getLastWriteTimeUtc--) | Gets the last write time. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
-| [getName()](#getName--) | Gets the name of the entry within archive. |
+| [getName()](#getName--) | Gets the name of the entry within the archive. |
 | [getParent()](#getParent--) | Gets the archive the entry belongs to. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with entry content. |
@@ -106,10 +106,10 @@ public final String getName()
 ```
 
 
-Gets the name of the entry within archive.
+Gets the name of the entry within the archive.
 
 **Returns:**
-java.lang.String - the name of the entry within archive
+java.lang.String - the name of the entry within the archive
 ### getParent() {#getParent--}
 ```
 public final CpioArchive getParent()
@@ -157,7 +157,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of a file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the entry

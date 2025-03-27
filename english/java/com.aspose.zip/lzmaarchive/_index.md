@@ -3,7 +3,7 @@ title: LzmaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZMA archive file.
 type: docs
-weight: 55
+weight: 56
 url: /java/com.aspose.zip/lzmaarchive/
 ---
 
@@ -35,6 +35,7 @@ This class represents LZMA archive file. Use it to compose or extract LZMA archi
 | [extract(String path)](#extract-java.lang.String-) | Extracts lzma archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzma archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | The name of original file. |
 | [save(File destination)](#save-java.io.File-) | Saves lzma archive to destination file provided. |
@@ -226,6 +227,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzma archive.
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()

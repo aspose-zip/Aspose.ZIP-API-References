@@ -3,7 +3,7 @@ title: LzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents Lzip archive file.
 type: docs
-weight: 53
+weight: 54
 url: /java/com.aspose.zip/lziparchive/
 ---
 
@@ -35,6 +35,7 @@ This class represents Lzip archive file. Use it to compose or extract Lzip archi
 | [extract(String path)](#extract-java.lang.String-) | Extracts lzip archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzip archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | The name of original file. |
 | [getSettings()](#getSettings--) | Gets the setting of particular lzip archive. |
@@ -234,6 +235,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the lzip archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()

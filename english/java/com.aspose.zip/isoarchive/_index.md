@@ -38,6 +38,7 @@ Represents an ISO archive (ISO 9660).
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all entries to the specified directory. |
 | [getEntries()](#getEntries--) | Gets entries of [IsoEntry](../../com.aspose.zip/isoentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the ISO image to the specified stream. |
 | [save(OutputStream stream, IsoSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.IsoSaveOptions-) | Saves the ISO image to the specified stream. |
 | [save(String path)](#save-java.lang.String-) | Saves the ISO image to the specified path. |
@@ -286,6 +287,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the iso archive
+### getFormat() {#getFormat--}
+```
+public ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream stream)

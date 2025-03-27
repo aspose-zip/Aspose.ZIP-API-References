@@ -3,7 +3,7 @@ title: SnappyArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents snappy archive file.
 type: docs
-weight: 84
+weight: 85
 url: /java/com.aspose.zip/snappyarchive/
 ---
 
@@ -34,6 +34,7 @@ This class represents snappy archive file. Use it to compose or extract snappy a
 | [extract(String path)](#extract-java.lang.String-) | Extracts snappy archive to a file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the snappy archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | The name of original file. |
 | [save(File destination)](#save-java.io.File-) | Saves snappy archive to destination file provided. |
@@ -221,6 +222,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the snappy archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()

@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents tar archive file.
 type: docs
-weight: 88
+weight: 89
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -56,10 +56,11 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [fromZstandard(String path)](#fromZstandard-java.lang.String-) | Extracts supplied Zstandard archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [getEntries()](#getEntries--) | Gets entries of [TarEntry](../../com.aspose.zip/tarentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream output, TarFormat format)](#save-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
-| [save(String destinationFileName, TarFormat format)](#save-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
+| [save(String destinationFileName, TarFormat format)](#save-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the destination file provided. |
 | [saveGzipped(OutputStream output)](#saveGzipped-java.io.OutputStream-) | Saves archive to the stream with gzip compression. |
 | [saveGzipped(OutputStream output, TarFormat format)](#saveGzipped-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with gzip compression. |
 | [saveGzipped(String path)](#saveGzipped-java.lang.String-) | Saves archive to the file by path with gzip compression. |
@@ -778,6 +779,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the tar archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream output)
@@ -845,7 +856,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -856,14 +867,12 @@ Saves archive to destination file provided.
  
 ```
 
-
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
-
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 
 ### save(String destinationFileName, TarFormat format) {#save-java.lang.String-com.aspose.zip.TarFormat-}
 ```
@@ -871,7 +880,7 @@ public final void save(String destinationFileName, TarFormat format)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -882,14 +891,12 @@ Saves archive to destination file provided.
  
 ```
 
-
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
-
-It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to temporary file |
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 | format | [TarFormat](../../com.aspose.zip/tarformat) | defines the tar header format. Null value will be treated as USTar when possible |
 
 ### saveGzipped(OutputStream output) {#saveGzipped-java.io.OutputStream-}

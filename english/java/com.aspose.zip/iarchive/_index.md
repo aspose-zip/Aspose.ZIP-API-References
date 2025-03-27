@@ -3,7 +3,7 @@ title: IArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This interface represents an archive.
 type: docs
-weight: 122
+weight: 123
 url: /java/com.aspose.zip/iarchive/
 ---
 
@@ -21,6 +21,7 @@ This interface represents an archive.
 | [close()](#close--) | \{@inheritDoc\} |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 ### close() {#close--}
 ```
 public abstract void close()
@@ -56,3 +57,13 @@ Archives for compression only, such as gzip, bzip2, lzip, lzma, xz, z consist of
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive.
+### getFormat() {#getFormat--}
+```
+public abstract ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format

@@ -1,9 +1,9 @@
 ---
 title: ZstandardArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents Zstandard archive file.
+description: This class represents a Zstandard archive file.
 type: docs
-weight: 117
+weight: 118
 url: /java/com.aspose.zip/zstandardarchive/
 ---
 
@@ -16,7 +16,7 @@ java.lang.Object
 public class ZstandardArchive implements IArchiveFileEntry, IArchive, AutoCloseable
 ```
 
-This class represents Zstandard archive file. Use it to compose Zstandard archives.
+This class represents a Zstandard archive file. Use it to compose Zstandard archives.
 ## Constructors
 
 | Constructor | Description |
@@ -35,6 +35,7 @@ This class represents Zstandard archive file. Use it to compose Zstandard archiv
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the zstandard archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
@@ -273,6 +274,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the zstandard archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()

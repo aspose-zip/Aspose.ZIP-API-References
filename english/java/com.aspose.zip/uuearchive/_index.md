@@ -3,7 +3,7 @@ title: UueArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents uuencoded file.
 type: docs
-weight: 91
+weight: 92
 url: /java/com.aspose.zip/uuearchive/
 ---
 
@@ -33,12 +33,13 @@ This class represents uuencoded file.
 | [extract(String path)](#extract-java.lang.String-) | Extracts the archive to the file by path. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts content of the archive to the directory provided. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the uue archive. |
+| [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets length. |
-| [getName()](#getName--) | Name of original file. |
+| [getName()](#getName--) | Name of the original file. |
 | [open()](#open--) | Opens the archive for decoding and provides a stream with archive content. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream outputStream, UueSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.UueSaveOptions-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves the archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves the archive to the destination file provided. |
 | [save(String destinationFileName, UueSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.UueSaveOptions-) | Saves the archive to the destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be encoded within the archive. |
@@ -199,6 +200,16 @@ Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the uue archive
+### getFormat() {#getFormat--}
+```
+public final ArchiveFormat getFormat()
+```
+
+
+Gets the archive format.
+
+**Returns:**
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
 ### getLength() {#getLength--}
 ```
 public final Long getLength()
@@ -215,7 +226,7 @@ public final String getName()
 ```
 
 
-Name of original file.
+Name of the original file.
 
 **Returns:**
 java.lang.String - the name of the original file
@@ -305,7 +316,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves the archive to destination file provided.
+Saves the archive to the destination file provided.
 
 Writes encoded data to file.
 
