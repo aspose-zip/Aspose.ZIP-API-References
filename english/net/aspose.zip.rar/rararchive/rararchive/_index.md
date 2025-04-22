@@ -1,14 +1,14 @@
 ---
 title: RarArchive.RarArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: RarArchive constructor. Initializes a new instance of the RarArchive class and composes entries list can be extracted from the archive
+description: RarArchive constructor. Initializes a new instance of the RarArchive class and composes an entry list can be extracted from the archive
 type: docs
 weight: 10
 url: /net/aspose.zip.rar/rararchive/rararchive/
 ---
 ## RarArchive(string, RarArchiveLoadOptions) {#constructor_1}
 
-Initializes a new instance of the [`RarArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`RarArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)

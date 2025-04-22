@@ -1,14 +1,14 @@
 ---
 title: WimArchive.WimArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: WimArchive constructor. Initializes a new instance of the WimArchive class and composes entries list can be extracted from the archive
+description: WimArchive constructor. Initializes a new instance of the WimArchive class and composes an entry list can be extracted from the archive
 type: docs
 weight: 10
 url: /net/aspose.zip.wim/wimarchive/wimarchive/
 ---
 ## WimArchive(Stream) {#constructor}
 
-Initializes a new instance of the [`WimArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`WimArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public WimArchive(Stream sourceStream)
@@ -51,7 +51,7 @@ using (var archive = new WimArchive(File.OpenRead("archive.wim")))
 
 ## WimArchive(string) {#constructor_1}
 
-Initializes a new instance of the [`WimArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`WimArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public WimArchive(string path)

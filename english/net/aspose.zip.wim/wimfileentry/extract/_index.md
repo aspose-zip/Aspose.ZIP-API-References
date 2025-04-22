@@ -20,7 +20,7 @@ public FileInfo Extract(string path)
 
 ### Return Value
 
-The file info of composed file.
+The file info of the composed file.
 
 ### Exceptions
 
@@ -35,7 +35,7 @@ The file info of composed file.
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
-| InvalidDataException | Archive is corrupted. |
+| InvalidDataException | The archive is corrupted. |
 
 ## Examples
 
@@ -71,7 +71,7 @@ public void Extract(Stream destination)
 | exception | condition |
 | --- | --- |
 | ArgumentException | *destination* does not support writing. |
-| InvalidDataException | Archive is corrupted. |
+| InvalidDataException | The archive is corrupted. |
 
 ## Examples
 

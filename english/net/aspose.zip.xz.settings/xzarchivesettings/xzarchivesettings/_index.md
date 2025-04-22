@@ -16,7 +16,7 @@ public XzArchiveSettings()
 
 ## Remarks
 
-Default dictionary in LZMA2 filter size equals to 16 megabyte, default block size equals to 64 megabytes, default checksum type is CRC32.
+Default dictionary in LZMA2 filter size equals to 16 megabytes, default block size equals to 64 megabytes, a default checksum type is CRC32.
 
 ### See Also
 
@@ -46,7 +46,7 @@ public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType
 | --- | --- |
 | ArgumentOutOfRangeException | *blockSize* is negative. |
 | ArgumentNullException | *filters* is null |
-| ArgumentException | *filters* has less than one or more than two filter, or last filter is not [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/). |
+| ArgumentException | *filters* has less than one or more than two filters, or last filter is not [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/). |
 
 ## Examples
 

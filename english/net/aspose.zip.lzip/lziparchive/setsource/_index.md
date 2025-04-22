@@ -59,7 +59,7 @@ public void SetSource(FileInfo fileInfo)
 | exception | condition |
 | --- | --- |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
-| ArgumentException | File path is empty or contains only white spaces. |
+| ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
 | UnauthorizedAccessException | Path to file is read-only or is a directory. |
 | ArgumentNullException | *fileInfo* is null. |
@@ -94,7 +94,7 @@ public void SetSource(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | Path to file to be compressed.. |
+| path | String | Path to file to be compressed. |
 
 ### Exceptions
 

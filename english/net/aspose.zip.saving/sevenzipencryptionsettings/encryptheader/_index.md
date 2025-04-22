@@ -16,7 +16,7 @@ public bool EncryptHeader { get; set; }
 
 ## Remarks
 
-This setting is equivalent `-mhe=on` switch of 7-Zip tool. Currently it is incompatible with header compression.
+This setting is equivalent `-mhe=on` switch of 7-Zip tool. Currently, it is incompatible with header compression.
 
 ### See Also
 

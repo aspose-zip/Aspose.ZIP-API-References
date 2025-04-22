@@ -3,7 +3,7 @@ title: TarArchive.SaveZstandard
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Saves archive to the stream with Zstandard compression
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.zip.tar/tararchive/savezstandard/
 ---
 ## SaveZstandard(Stream, TarFormat?) {#savezstandard}
@@ -67,6 +67,17 @@ public void SaveZstandard(string path, TarFormat? format = default)
 | --- | --- | --- |
 | path | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 | format | Nullable`1 | Defines the tar header format. Null value will be treated as USTar when possible. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| UnauthorizedAccessException | The caller does not have the required permission. -or- *path* specified a read-only file or directory. |
+| ArgumentException | *path* is a zero-length string, contains only white space, or contains one or more invalid characters as defined by InvalidPathChars. |
+| ArgumentNullException | *path* is null. |
+| PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
+| DirectoryNotFoundException | The specified *path* is invalid, (for example, it is on an unmapped drive). |
+| NotSupportedException | *path* is in an invalid format. |
 
 ## Examples
 

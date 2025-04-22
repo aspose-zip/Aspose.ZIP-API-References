@@ -55,7 +55,7 @@ public FileInfo Extract(string path)
 
 ### Return Value
 
-Info of extracted file.
+Info of the extracted file.
 
 ### Exceptions
 

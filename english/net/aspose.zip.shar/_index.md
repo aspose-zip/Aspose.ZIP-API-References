@@ -13,6 +13,6 @@ The Shar namespace contains classes which represent shar archive related entitie
 | Class | Description |
 | --- | --- |
 | [SharArchive](./shararchive/) | This class represents a shar archive file. |
-| [SharEntry](./sharentry/) | Represents single file within shar archive. |
+| [SharEntry](./sharentry/) | Represents a single file within shar archive. |
 
 

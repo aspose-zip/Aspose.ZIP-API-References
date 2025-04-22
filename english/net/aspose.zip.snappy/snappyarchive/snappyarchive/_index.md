@@ -22,7 +22,7 @@ The following example shows how to compress a file.
 using (SnappyArchive archive = new SnappyArchive()) 
 {
     archive.SetSource("data.bin");
-    archive.Save("archive.snapy");
+    archive.Save("archive.snappy");
 }
 ```
 

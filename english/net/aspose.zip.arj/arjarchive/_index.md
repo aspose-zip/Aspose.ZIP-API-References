@@ -1,14 +1,14 @@
 ---
 title: Class ArjArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Arj.ArjArchive class. This class represents ARJ archive file
+description: Aspose.Zip.Arj.ArjArchive class. This class represents an ARJ archive file
 type: docs
 weight: 100
 url: /net/aspose.zip.arj/arjarchive/
 ---
 ## ArjArchive class
 
-This class represents ARJ archive file.
+This class represents an ARJ archive file.
 
 ```csharp
 public class ArjArchive : IArchive
@@ -18,8 +18,8 @@ public class ArjArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [ArjArchive](arjarchive/#constructor)(Stream) | Initializes a new instance of the `ArjArchive` class and composes entries list can be extracted from the archive. |
-| [ArjArchive](arjarchive/#constructor_1)(string) | Initializes a new instance of the `ArjArchive` class and composes entries list can be extracted from the archive. |
+| [ArjArchive](arjarchive/#constructor)(Stream) | Initializes a new instance of the `ArjArchive` class and composes an entry list can be extracted from the archive. |
+| [ArjArchive](arjarchive/#constructor_1)(string) | Initializes a new instance of the `ArjArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 
@@ -38,7 +38,7 @@ public class ArjArchive : IArchive
 
 ## Remarks
 
-Only following compression methods are supported:
+Only the following compression methods are supported:
 
 **Method**
 

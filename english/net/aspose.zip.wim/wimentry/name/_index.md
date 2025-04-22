@@ -1,14 +1,14 @@
 ---
 title: WimEntry.Name
 second_title: Aspose.ZIP for .NET API Reference
-description: WimEntry property. Gets name of the entry within image
+description: WimEntry property. Gets name of the entry within the image
 type: docs
 weight: 130
 url: /net/aspose.zip.wim/wimentry/name/
 ---
 ## WimEntry.Name property
 
-Gets name of the entry within image.
+Gets name of the entry within the image.
 
 ```csharp
 public string Name { get; }

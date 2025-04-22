@@ -1,14 +1,14 @@
 ---
 title: WimEntry.ShortName
 second_title: Aspose.ZIP for .NET API Reference
-description: WimEntry property. Gets short name of the entry within image
+description: WimEntry property. Gets short name of the entry within the image
 type: docs
 weight: 150
 url: /net/aspose.zip.wim/wimentry/shortname/
 ---
 ## WimEntry.ShortName property
 
-Gets short name of the entry within image.
+Gets short name of the entry within the image.
 
 ```csharp
 public string ShortName { get; }

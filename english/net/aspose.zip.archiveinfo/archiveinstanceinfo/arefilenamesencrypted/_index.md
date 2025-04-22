@@ -1,14 +1,14 @@
 ---
 title: ArchiveInstanceInfo.AreFileNamesEncrypted
 second_title: Aspose.ZIP for .NET API Reference
-description: ArchiveInstanceInfo property. Gets a value indicating whether names of entries files of the archive are encrypted
+description: ArchiveInstanceInfo property. Gets a value indicating whether the names of entries files of the archive are encrypted
 type: docs
 weight: 20
 url: /net/aspose.zip.archiveinfo/archiveinstanceinfo/arefilenamesencrypted/
 ---
 ## ArchiveInstanceInfo.AreFileNamesEncrypted property
 
-Gets a value indicating whether names of entries (files) of the archive are encrypted.
+Gets a value indicating whether the names of entries (files) of the archive are encrypted.
 
 ```csharp
 public bool AreFileNamesEncrypted { get; }

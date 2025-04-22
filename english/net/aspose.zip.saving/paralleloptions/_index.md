@@ -3,7 +3,7 @@ title: Class ParallelOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.ParallelOptions class. Options for parallel compression
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.zip.saving/paralleloptions/
 ---
 ## ParallelOptions class
@@ -24,7 +24,7 @@ public class ParallelOptions
 
 | Name | Description |
 | --- | --- |
-| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize/) { get; set; } | Gets or sets memory estimate in megabytes available to accomodate compressed entries without swap to disk. This value only makes sense if [`ParallelCompressInMemory`](./parallelcompressinmemory/) setting is in Auto mode. |
+| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize/) { get; set; } | Gets or sets memory estimate in megabytes available to accomodate compressed entries without a swap to disk. This value only makes sense if [`ParallelCompressInMemory`](./parallelcompressinmemory/) setting is in Auto mode. |
 | [ParallelCompressInMemory](../../aspose.zip.saving/paralleloptions/parallelcompressinmemory/) { get; set; } | Gets or sets value indicating how parallel approach to be used. |
 
 ## Remarks

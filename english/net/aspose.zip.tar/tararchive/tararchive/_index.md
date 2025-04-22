@@ -36,7 +36,7 @@ using (var archive = new TarArchive())
 
 ## TarArchive(Stream) {#constructor_1}
 
-Initializes a new instance of the [`Archive`](../../../aspose.zip/archive/) class and composes entry list can be extracted from the archive.
+Initializes a new instance of the [`Archive`](../../../aspose.zip/archive/) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public TarArchive(Stream sourceStream)
@@ -78,7 +78,7 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 
 ## TarArchive(string) {#constructor_2}
 
-Initializes a new instance of the [`TarArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`TarArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public TarArchive(string path)
@@ -108,7 +108,7 @@ This constructor does not unpack any entry. See [`Open`](../../tarentry/open/) m
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new TarArchive("archive.tar")) 

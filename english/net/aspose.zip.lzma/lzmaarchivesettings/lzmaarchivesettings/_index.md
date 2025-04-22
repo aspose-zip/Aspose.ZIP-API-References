@@ -17,9 +17,9 @@ public LzmaArchiveSettings()
 ## Examples
 
 ```csharp
-using (LzmaArchive archive = new LzmaArchive(new LzmaArchiveSettings() { DictionarySize = 1048576 } )
+using (LzmaArchive archive = new LzmaArchive(new LzmaArchiveSettings() { DictionarySize = 1048576 })
 {
-    archive.SetSource("data.bin);
+    archive.SetSource("data.bin");
     archive.Save(lzmaFile);
 }
 ```

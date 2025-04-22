@@ -1,14 +1,14 @@
 ---
 title: Class TarArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Tar.TarArchive class. This class represents tar archive file. Use it to compose extract or update tar archives
+description: Aspose.Zip.Tar.TarArchive class. This class represents a tar archive file. Use it to compose extract or update tar archives
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.zip.tar/tararchive/
 ---
 ## TarArchive class
 
-This class represents tar archive file. Use it to compose, extract, or update tar archives.
+This class represents a tar archive file. Use it to compose, extract, or update tar archives.
 
 ```csharp
 public class TarArchive : IArchive
@@ -19,8 +19,8 @@ public class TarArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [TarArchive](tararchive/#constructor)() | Initializes a new instance of the `TarArchive` class. |
-| [TarArchive](tararchive/#constructor_1)(Stream) | Initializes a new instance of the [`Archive`](../../aspose.zip/archive/) class and composes entry list can be extracted from the archive. |
-| [TarArchive](tararchive/#constructor_2)(string) | Initializes a new instance of the `TarArchive` class and composes entries list can be extracted from the archive. |
+| [TarArchive](tararchive/#constructor_1)(Stream) | Initializes a new instance of the [`Archive`](../../aspose.zip/archive/) class and composes an entry list can be extracted from the archive. |
+| [TarArchive](tararchive/#constructor_2)(string) | Initializes a new instance of the `TarArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 
@@ -34,6 +34,8 @@ public class TarArchive : IArchive
 | --- | --- |
 | static [FromGZip](../../aspose.zip.tar/tararchive/fromgzip/#fromgzip)(Stream) | Extracts supplied gzip archive and composes `TarArchive` from extracted data. |
 | static [FromGZip](../../aspose.zip.tar/tararchive/fromgzip/#fromgzip_1)(string) | Extracts supplied gzip archive and composes `TarArchive` from extracted data. |
+| static [FromLZ4](../../aspose.zip.tar/tararchive/fromlz4/#fromlz4)(Stream) | Extracts supplied LZ4 archive and composes `TarArchive` from extracted data. |
+| static [FromLZ4](../../aspose.zip.tar/tararchive/fromlz4/#fromlz4_1)(string) | Extracts supplied LZ4 archive and composes `TarArchive` from extracted data. |
 | static [FromLZip](../../aspose.zip.tar/tararchive/fromlzip/#fromlzip)(Stream) | Extracts supplied lzip archive and composes `TarArchive` from extracted data. |
 | static [FromLZip](../../aspose.zip.tar/tararchive/fromlzip/#fromlzip_1)(string) | Extracts supplied lzip archive and composes `TarArchive` from extracted data. |
 | static [FromLZMA](../../aspose.zip.tar/tararchive/fromlzma/#fromlzma)(Stream) | Extracts supplied LZMA archive and composes `TarArchive` from extracted data. |

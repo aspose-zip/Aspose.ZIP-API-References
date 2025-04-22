@@ -17,7 +17,7 @@ public FastLZStream(Stream stream, int compressionLevel)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream for saving compressed data. |
-| compressionLevel | Int32 | Use 1 for faster compression, use 2 for better compression ratio. |
+| compressionLevel | Int32 | Use 1 for faster compression, use 2 for a better compression ratio. |
 
 ### Exceptions
 

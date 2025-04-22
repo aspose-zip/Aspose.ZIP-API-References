@@ -3,7 +3,7 @@ title: Class XarDirectoryEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarDirectoryEntry class. Represents directory entry within xar archive
 type: docs
-weight: 1030
+weight: 1040
 url: /net/aspose.zip.xar/xardirectoryentry/
 ---
 ## XarDirectoryEntry class
@@ -23,11 +23,11 @@ public sealed class XarDirectoryEntry : XarEntry
 | [Directories](../../aspose.zip.xar/xardirectoryentry/directories/) { get; } | Gets entries of `XarDirectoryEntry` type constituting the directory. |
 | [Files](../../aspose.zip.xar/xardirectoryentry/files/) { get; } | Gets entries of [`XarFileEntry`](../xarfileentry/) type constituting the directory. |
 | [FilesAndDirectories](../../aspose.zip.xar/xardirectoryentry/filesanddirectories/) { get; } | Gets entries of [`XarEntry`](../xarentry/) type constituting the directory. |
-| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Gets full path of the entry within archive. |
-| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
+| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Gets a full path of the entry within the archive. |
+| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime/) { get; } | Gets the last access time of the file or directory. |
 | [ModificationTime](../../aspose.zip.xar/xarentry/modificationtime/) { get; } | Gets the modification time of the file or directory. |
-| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Gets name of the entry within archive. |
+| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Gets name of the entry within the archive. |
 | [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Gets the parent directory the entry belongs to. |
 
 ## Methods

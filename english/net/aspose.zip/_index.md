@@ -12,7 +12,7 @@ The Zip namespace contains classes which represent zip archive and common archiv
 
 | Class | Description |
 | --- | --- |
-| [Archive](./archive/) | This class represents zip archive file. Use it to compose, extract, or update zip archives. |
+| [Archive](./archive/) | This class represents a zip archive file. Use it to compose, extract, or update zip archives. |
 | [ArchiveEntry](./archiveentry/) | Represents single file within archive. |
 | [ArchiveEntryEncrypted](./archiveentryencrypted/) | Zip entry that needs to be compressed with encryption or decompressed with decryption. |
 | [ArchiveEntryPlain](./archiveentryplain/) | Zip entry that needs to be compressed without encryption or decompressed without decryption. |

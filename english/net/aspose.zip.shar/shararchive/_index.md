@@ -3,7 +3,7 @@ title: Class SharArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Shar.SharArchive class. This class represents a shar archive file
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.zip.shar/shararchive/
 ---
 ## SharArchive class
@@ -33,10 +33,10 @@ public class SharArchive : IDisposable
 | --- | --- |
 | [CreateEntries](../../aspose.zip.shar/shararchive/createentries/#createentries)(DirectoryInfo, bool) | Adds to the archive all the files and directories recursively in the directory given. |
 | [CreateEntries](../../aspose.zip.shar/shararchive/createentries/#createentries_1)(string, bool) | Adds to the archive all the files and directories recursively in the directory given. |
-| [CreateEntry](../../aspose.zip.shar/shararchive/createentry/#createentry_1)(string, Stream) | Create single entry within the archive. |
-| [CreateEntry](../../aspose.zip.shar/shararchive/createentry/#createentry)(string, FileInfo, bool) | Create single entry within the archive. |
-| [CreateEntry](../../aspose.zip.shar/shararchive/createentry/#createentry_2)(string, string, bool) | Create single entry within the archive. |
-| [DeleteEntry](../../aspose.zip.shar/shararchive/deleteentry/#deleteentry_1)(int) | Removes the entry from the entries list by index. |
+| [CreateEntry](../../aspose.zip.shar/shararchive/createentry/#createentry_1)(string, Stream) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.shar/shararchive/createentry/#createentry)(string, FileInfo, bool) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.shar/shararchive/createentry/#createentry_2)(string, string, bool) | Create a single entry within the archive. |
+| [DeleteEntry](../../aspose.zip.shar/shararchive/deleteentry/#deleteentry_1)(int) | Removes the entry from the entry list by index. |
 | [DeleteEntry](../../aspose.zip.shar/shararchive/deleteentry/#deleteentry)(SharEntry) | Removes the first occurrence of a specific entry from the entry list. |
 | [Dispose](../../aspose.zip.shar/shararchive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [Save](../../aspose.zip.shar/shararchive/save/#save)(Stream) | Saves archive to the stream provided. |

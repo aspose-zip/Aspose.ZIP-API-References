@@ -19,14 +19,14 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 | Name | Description |
 | --- | --- |
 | [Comment](../../aspose.zip/archiveentry/comment/) { get; } | Gets comment of the entry within archive. |
-| [CompressedSize](../../aspose.zip/archiveentry/compressedsize/) { get; } | Gets size of compressed file. |
+| [CompressedSize](../../aspose.zip/archiveentry/compressedsize/) { get; } | Gets size of the compressed file. |
 | [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings/) { get; } | Gets settings for compression or decompression. |
-| [DataSource](../../aspose.zip/archiveentry/datasource/) { get; } | Source for the entry if the entry was added to archive, not extracted. |
+| [DataSource](../../aspose.zip/archiveentry/datasource/) { get; } | Source for the entry if the entry was added to the archive, not extracted. |
 | [EncryptionSettings](../../aspose.zip/archiveentryencrypted/encryptionsettings/) { get; } | Gets settings for encryption or decryption. |
 | [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [ModificationTime](../../aspose.zip/archiveentry/modificationtime/) { get; set; } | Gets or sets last modified date and time. |
-| [Name](../../aspose.zip/archiveentry/name/) { get; } | Gets name of the entry within archive. |
-| [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize/) { get; } | Gets size of original file. |
+| [Name](../../aspose.zip/archiveentry/name/) { get; } | Gets name of the entry within the archive. |
+| [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize/) { get; } | Gets size of the original file. |
 
 ## Methods
 

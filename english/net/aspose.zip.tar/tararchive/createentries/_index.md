@@ -3,7 +3,7 @@ title: TarArchive.CreateEntries
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Adds to the archive all the files and directories recursively in the directory given
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.zip.tar/tararchive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}

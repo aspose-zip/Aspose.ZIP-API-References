@@ -12,7 +12,7 @@ The Lzip namespace contains classes which represent lzip archive related entitie
 
 | Class | Description |
 | --- | --- |
-| [LzipArchive](./lziparchive/) | This class represents Lzip archive file. Use it to compose or extract Lzip archives. |
-| [LzipArchiveSettings](./lziparchivesettings/) | The class contains setting of particular lzip archive. |
+| [LzipArchive](./lziparchive/) | This class represents a Lzip archive file. Use it to compose or extract Lzip archives. |
+| [LzipArchiveSettings](./lziparchivesettings/) | The class contains setting of a particular lzip archive. |
 
 

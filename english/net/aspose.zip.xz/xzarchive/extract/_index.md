@@ -65,7 +65,7 @@ public void Extract(FileInfo fileInfo)
 | --- | --- |
 | InvalidOperationException | Archive headers and service information were not read. |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
-| ArgumentException | File path is empty or contains only white spaces. |
+| ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
 | UnauthorizedAccessException | Path to file is read-only or is a directory. |
 | ArgumentNullException | *fileInfo* is null. |

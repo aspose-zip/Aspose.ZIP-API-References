@@ -1,14 +1,14 @@
 ---
 title: SplitSevenZipArchiveSaveOptions.SegmentSize
 second_title: Aspose.ZIP for .NET API Reference
-description: SplitSevenZipArchiveSaveOptions property. Gets the size of segment
+description: SplitSevenZipArchiveSaveOptions property. Gets the size of the segment
 type: docs
 weight: 30
 url: /net/aspose.zip.saving/splitsevenziparchivesaveoptions/segmentsize/
 ---
 ## SplitSevenZipArchiveSaveOptions.SegmentSize property
 
-Gets the size of segment.
+Gets the size of the segment.
 
 ```csharp
 public uint SegmentSize { get; }

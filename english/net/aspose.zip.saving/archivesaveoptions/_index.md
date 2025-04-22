@@ -3,7 +3,7 @@ title: Class ArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.ArchiveSaveOptions class. Options for saving a zip archive
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.zip.saving/archivesaveoptions/
 ---
 ## ArchiveSaveOptions class

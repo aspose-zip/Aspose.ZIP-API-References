@@ -1,14 +1,14 @@
 ---
 title: ArchiveEntry.Name
 second_title: Aspose.ZIP for .NET API Reference
-description: ArchiveEntry property. Gets name of the entry within archive
+description: ArchiveEntry property. Gets name of the entry within the archive
 type: docs
 weight: 70
 url: /net/aspose.zip/archiveentry/name/
 ---
 ## ArchiveEntry.Name property
 
-Gets name of the entry within archive.
+Gets name of the entry within the archive.
 
 ```csharp
 public string Name { get; }

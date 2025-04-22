@@ -12,7 +12,7 @@ The Arj namespace contains classes which represent Arj related entities.
 
 | Class | Description |
 | --- | --- |
-| [ArjArchive](./arjarchive/) | This class represents ARJ archive file. |
-| [ArjEntryPlain](./arjentryplain/) | Represents single file within ARJ archive. |
+| [ArjArchive](./arjarchive/) | This class represents an ARJ archive file. |
+| [ArjEntryPlain](./arjentryplain/) | Represents a single file within ARJ archive. |
 
 

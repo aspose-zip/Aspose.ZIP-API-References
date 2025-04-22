@@ -1,14 +1,14 @@
 ---
 title: XarArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
-description: XarArchive method. Saves archive to destination file provided
+description: XarArchive method. Saves archive to the destination file provided
 type: docs
 weight: 80
 url: /net/aspose.zip.xar/xararchive/save/
 ---
 ## Save(string, XarSaveOptions) {#save_1}
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```csharp
 public void Save(string destinationFileName, XarSaveOptions saveOptions = null)
