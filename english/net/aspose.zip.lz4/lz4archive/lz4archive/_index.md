@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.zip.lz4/lz4archive/lz4archive/
 ---
-## Lz4Archive(Stream) {#constructor}
+## Lz4Archive(Stream) {#constructor_1}
 
 Initializes a new instance of the [`Lz4Archive`](../) class prepared for decompressing.
 
@@ -49,7 +49,7 @@ using (Lz4Archive archive = new Lz4Archive(File.OpenRead("archive.lz4")))
 
 ---
 
-## Lz4Archive(string) {#constructor_1}
+## Lz4Archive(string) {#constructor_2}
 
 Initializes a new instance of the [`Lz4Archive`](../) class.
 
@@ -90,6 +90,27 @@ using (Lz4Archive archive = new Lz4Archive("archive.lz4"))
 
 ### See Also
 
+* class [Lz4Archive](../)
+* namespace [Aspose.Zip.Lz4](../../lz4archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## Lz4Archive(Lz4ArchiveSetting) {#constructor}
+
+Initializes a new instance of the [`Lz4Archive`](../) class prepared for compressing.
+
+```csharp
+public Lz4Archive(Lz4ArchiveSetting settings = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| settings | Lz4ArchiveSetting | The setting of the composed archive. |
+
+### See Also
+
+* class [Lz4ArchiveSetting](../../lz4archivesetting/)
 * class [Lz4Archive](../)
 * namespace [Aspose.Zip.Lz4](../../lz4archive/)
 * assembly [Aspose.Zip](../../../)

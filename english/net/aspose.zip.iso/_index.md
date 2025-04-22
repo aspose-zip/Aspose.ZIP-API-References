@@ -16,7 +16,7 @@ The Iso namespace contains classes which represent ISO related entities.
 | [EventsBag](./eventsbag/) | Events container used on [`IsoArchive`](../aspose.zip.iso/isoarchive/) saving. |
 | [IsoArchive](./isoarchive/) | Represents an ISO archive (ISO 9660). |
 | [IsoEntry](./isoentry/) | Represents an entry (file or directory) within an ISO archive. |
-| [IsoLoadOptions](./isoloadoptions/) | Options with which [`IsoArchive`](../aspose.zip.iso/isoarchive/) is loaded from compressed file. Contains event raised on extraction. |
+| [IsoLoadOptions](./isoloadoptions/) | Options with which [`IsoArchive`](../aspose.zip.iso/isoarchive/) is loaded from a compressed file. Contains event raised on extraction. |
 | [IsoSaveOptions](./isosaveoptions/) | Options for saving an ISO archive. |
 
 

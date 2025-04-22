@@ -32,7 +32,7 @@ public void Save(Stream outputStream, ZstandardSaveOptions settings = null)
 
 ## Examples
 
-Writes compressed data to http response stream.
+Write compressed data to http response stream.
 
 ```csharp
 using (var archive = new ZstandardArchive()) 
@@ -53,7 +53,7 @@ using (var archive = new ZstandardArchive())
 
 ## Save(string, ZstandardSaveOptions) {#save_2}
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```csharp
 public void Save(string destinationFileName, ZstandardSaveOptions settings = null)
@@ -96,7 +96,7 @@ using (var archive = new ZstandardArchive())
 
 ## Save(FileInfo, ZstandardSaveOptions) {#save}
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```csharp
 public void Save(FileInfo destination, ZstandardSaveOptions settings = null)
@@ -104,7 +104,7 @@ public void Save(FileInfo destination, ZstandardSaveOptions settings = null)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | FileInfo | FileInfo which will be opened as destination stream. |
+| destination | FileInfo | FileInfo, which will be opened as destination stream. |
 | settings | ZstandardSaveOptions | Optional settings for archive composition. |
 
 ### Exceptions
@@ -112,7 +112,7 @@ public void Save(FileInfo destination, ZstandardSaveOptions settings = null)
 | exception | condition |
 | --- | --- |
 | SecurityException | The caller does not have the required permission to open the *destination*. |
-| ArgumentException | File path is empty or contains only white spaces. |
+| ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
 | UnauthorizedAccessException | Path to file is read-only or is a directory. |
 | ArgumentNullException | *destination* is null. |

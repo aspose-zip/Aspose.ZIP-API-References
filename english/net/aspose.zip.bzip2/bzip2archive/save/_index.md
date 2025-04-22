@@ -35,7 +35,7 @@ public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
 
 ## Examples
 
-Writes compressed data to http response stream.
+Write compressed data to http response stream.
 
 ```csharp
 using (var archive = new Bzip2Archive()) 

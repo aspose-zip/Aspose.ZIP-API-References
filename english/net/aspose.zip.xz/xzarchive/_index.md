@@ -3,7 +3,7 @@ title: Class XzArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.XzArchive class. This class represents xz archive file. Use it to compose and extract xz archives
 type: docs
-weight: 1150
+weight: 1160
 url: /net/aspose.zip.xz/xzarchive/
 ---
 ## XzArchive class
@@ -32,7 +32,7 @@ public class XzArchive : IArchive, IArchiveFileEntry
 | [Extract](../../aspose.zip.xz/xzarchive/extract/#extract)(string) | Extracts xz archive to a file by path. |
 | [ExtractToDirectory](../../aspose.zip.xz/xzarchive/extracttodirectory/)(string) | Extracts content of the archive to the directory provided. |
 | [Save](../../aspose.zip.xz/xzarchive/save/#save)(Stream) | Saves xz archive to the stream provided. |
-| [Save](../../aspose.zip.xz/xzarchive/save/#save_1)(string) | Saves xz archive to destination file provided. |
+| [Save](../../aspose.zip.xz/xzarchive/save/#save_1)(string) | Saves xz archive to the destination file provided. |
 | [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_1)(Stream) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_2)(string) | Sets the content to be compressed within the archive. |

@@ -30,6 +30,7 @@ public void ExtractToDirectory(string destinationDirectory)
 | IOException | The directory specified by path is a file. -or- The network name is not known. |
 | EndOfStreamException | Source stream is too short. |
 | InvalidDataException | Wrong bytes found while initialize decoding. |
+| InvalidOperationException | The archive is prepared for composition. |
 
 ## Remarks
 

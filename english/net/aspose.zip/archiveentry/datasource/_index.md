@@ -1,14 +1,14 @@
 ---
 title: ArchiveEntry.DataSource
 second_title: Aspose.ZIP for .NET API Reference
-description: ArchiveEntry property. Source for the entry if the entry was added to archive not extracted
+description: ArchiveEntry property. Source for the entry if the entry was added to the archive not extracted
 type: docs
 weight: 40
 url: /net/aspose.zip/archiveentry/datasource/
 ---
 ## ArchiveEntry.DataSource property
 
-Source for the entry if the entry was added to archive, not extracted.
+Source for the entry if the entry was added to the archive, not extracted.
 
 ```csharp
 public Stream DataSource { get; }

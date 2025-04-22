@@ -60,7 +60,7 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | Raises if the entry does not represent file. |
+| NotSupportedException | Raises if the entry does not represent a file. |
 
 ### See Also
 

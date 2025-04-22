@@ -22,7 +22,7 @@ is_root: true
 | [Aspose.Zip.Gzip](./aspose.zip.gzip/) | The Gzip namespace contains classes which represent gzip archive. |
 | [Aspose.Zip.Iso](./aspose.zip.iso/) | The Iso namespace contains classes which represent ISO related entities. |
 | [Aspose.Zip.Lha](./aspose.zip.lha/) | The Lha namespace contains classes which represent Lha related entities. |
-| [Aspose.Zip.Lz4](./aspose.zip.lz4/) | The Lz4 namespace contains classes which represent Lz4 related entities. |
+| [Aspose.Zip.Lz4](./aspose.zip.lz4/) | The Lz4 namespace contains classes which represent LZ4 related entities. |
 | [Aspose.Zip.Lzip](./aspose.zip.lzip/) | The Lzip namespace contains classes which represent lzip archive related entities. |
 | [Aspose.Zip.LZMA](./aspose.zip.lzma/) | The LZMA namespace contains classes which represent lzma archive related entities. |
 | [Aspose.Zip.Rar](./aspose.zip.rar/) | The Rar namespace contains classes which represent RAR archive related entities. |

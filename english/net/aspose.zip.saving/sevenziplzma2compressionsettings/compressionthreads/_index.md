@@ -1,14 +1,14 @@
 ---
 title: SevenZipLZMA2CompressionSettings.CompressionThreads
 second_title: Aspose.ZIP for .NET API Reference
-description: SevenZipLZMA2CompressionSettings property. Gets or sets compression thread count. If the value greater than 1 multithreading compression will be used
+description: SevenZipLZMA2CompressionSettings property. Gets or sets compression thread count. If the value is greater than 1 multithreading compression will be used
 type: docs
 weight: 20
 url: /net/aspose.zip.saving/sevenziplzma2compressionsettings/compressionthreads/
 ---
 ## SevenZipLZMA2CompressionSettings.CompressionThreads property
 
-Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.
+Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 ```csharp
 public int CompressionThreads { get; set; }
@@ -18,7 +18,7 @@ public int CompressionThreads { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | The number of threads is more than 32. |
+| ArgumentOutOfRangeException | The number of threads is higher than 32. |
 
 ## Remarks
 

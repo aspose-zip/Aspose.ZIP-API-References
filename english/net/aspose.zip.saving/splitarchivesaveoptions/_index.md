@@ -3,7 +3,7 @@ title: Class SplitArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SplitArchiveSaveOptions class. Options for saving a multivolume zip archive
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 ## SplitArchiveSaveOptions class
@@ -29,7 +29,7 @@ public class SplitArchiveSaveOptions
 | [Encoding](../../aspose.zip.saving/splitarchivesaveoptions/encoding/) { get; set; } | Gets or sets encoding for converting file names and other strings to bytes. |
 | [EventsBag](../../aspose.zip.saving/splitarchivesaveoptions/eventsbag/) { get; set; } | Gets or sets container of events raising on archive saving. |
 | [FileName](../../aspose.zip.saving/splitarchivesaveoptions/filename/) { get; } | Gets the name of segments without extension. |
-| [SegmentSize](../../aspose.zip.saving/splitarchivesaveoptions/segmentsize/) { get; } | Gets the size of segment. |
+| [SegmentSize](../../aspose.zip.saving/splitarchivesaveoptions/segmentsize/) { get; } | Gets the size of the segment. |
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: ArjEntryPlain.Name
 second_title: Aspose.ZIP for .NET API Reference
-description: ArjEntryPlain property. Gets name of the entry within archive
+description: ArjEntryPlain property. Gets name of the entry within the archive
 type: docs
 weight: 20
 url: /net/aspose.zip.arj/arjentryplain/name/
 ---
 ## ArjEntryPlain.Name property
 
-Gets name of the entry within archive.
+Gets name of the entry within the archive.
 
 ```csharp
 public string Name { get; }

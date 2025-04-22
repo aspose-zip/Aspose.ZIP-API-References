@@ -16,7 +16,7 @@ public bool CompressHeader { get; set; }
 
 ## Remarks
 
-This setting is equivalent `-mhc=on` switch of 7-Zip tool. Currently it is incompatible with header encryption.
+This setting is equivalent `-mhc=on` switch of 7-Zip tool. Currently, it is incompatible with header encryption.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Archive.CreateEntries
 second_title: Aspose.ZIP for .NET API Reference
-description: Archive method. Adds to the archive all files and directories recursively in the directory given
+description: Archive method. Add to the archive all files and directories recursively in the directory given
 type: docs
 weight: 40
 url: /net/aspose.zip/archive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Adds to the archive all files and directories recursively in the directory given.
+Add to the archive all files and directories recursively in the directory given.
 
 ```csharp
 public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
@@ -51,7 +51,7 @@ using (Archive archive = new Archive())
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Adds to the archive all files and directories recursively in the directory given.
+Add to the archive all files and directories recursively in the directory given.
 
 ```csharp
 public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)

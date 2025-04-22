@@ -12,9 +12,9 @@ The Settings namespace contains classes which represent xz archive settings.
 
 | Class | Description |
 | --- | --- |
-| [XzArchiveSettings](./xzarchivesettings/) | The class contains set of setting particular xz archive. |
+| [XzArchiveSettings](./xzarchivesettings/) | The class contains a set of setting particular xz archive. |
 | [XzBcjX86FilterSettings](./xzbcjx86filtersettings/) | Settings for xz Bcj X86 filter. |
-| [XzFilterSettings](./xzfiltersettings/) | Base class for set of settings of particular xz format filter. |
+| [XzFilterSettings](./xzfiltersettings/) | Base class for a set of settings of particular xz format filter. |
 | [XzLZMA2FilterSettings](./xzlzma2filtersettings/) | Set of settings for xz LZMA2 filter. |
 ## Enumeration
 

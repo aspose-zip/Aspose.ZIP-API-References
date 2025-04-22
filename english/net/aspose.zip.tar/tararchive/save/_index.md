@@ -3,7 +3,7 @@ title: TarArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Saves archive to the stream provided
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.zip.tar/tararchive/save/
 ---
 ## Save(Stream, TarFormat?) {#save}
@@ -17,7 +17,7 @@ public void Save(Stream output, TarFormat? format = default)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | output | Stream | Destination stream. |
-| format | Nullable`1 | Defines tar header format. Null value will be treated as USTar when possible. |
+| format | Nullable`1 | Defines the tar header format. Null value will be treated as USTar when possible. |
 
 ### Exceptions
 

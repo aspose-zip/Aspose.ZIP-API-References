@@ -16,7 +16,7 @@ public int DictionarySize { get; set; }
 
 ## Remarks
 
-The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+The bigger the dictionary, usually the better the compression ratio is - but dictionaries larger than the uncompressed data are a waste of RAM.
 
 ### See Also
 

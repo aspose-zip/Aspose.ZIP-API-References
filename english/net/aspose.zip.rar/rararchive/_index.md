@@ -3,7 +3,7 @@ title: Class RarArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Rar.RarArchive class. This class represents RAR archive file. Use it to extract RAR archives
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.zip.rar/rararchive/
 ---
 ## RarArchive class
@@ -19,7 +19,7 @@ public class RarArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [RarArchive](rararchive/#constructor)(Stream, RarArchiveLoadOptions) | Initializes a new instance of the `RarArchive` class and composes an entry list can be extracted from the archive. |
-| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Initializes a new instance of the `RarArchive` class and composes entries list can be extracted from the archive. |
+| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Initializes a new instance of the `RarArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 

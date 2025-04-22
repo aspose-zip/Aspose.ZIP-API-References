@@ -21,7 +21,7 @@ public FileInfo Extract(string path, string password = null)
 
 ### Return Value
 
-The file info of composed file.
+The file info of the composed file.
 
 ### Exceptions
 

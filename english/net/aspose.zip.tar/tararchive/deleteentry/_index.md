@@ -3,7 +3,7 @@ title: TarArchive.DeleteEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Removes the first occurrence of a specific entry from the entry list
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.zip.tar/tararchive/deleteentry/
 ---
 ## DeleteEntry(TarEntry) {#deleteentry}

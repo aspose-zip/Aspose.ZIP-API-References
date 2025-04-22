@@ -35,7 +35,7 @@ public void Save(Stream outputStream, UueSaveOptions saveOptions = null)
 
 ## Examples
 
-Writes compressed data to http response stream.
+Write compressed data to http response stream.
 
 ```csharp
 using (var archive = new UueArchive()) 
@@ -80,7 +80,7 @@ public void Save(string destinationFileName, UueSaveOptions saveOptions = null)
 
 ## Examples
 
-Writes encoded data to file.
+Write encoded data to file.
 
 ```csharp
 using (var archive = new UueArchive()) 

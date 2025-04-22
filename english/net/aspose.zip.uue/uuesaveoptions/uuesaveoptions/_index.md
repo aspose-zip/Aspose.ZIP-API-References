@@ -1,14 +1,14 @@
 ---
 title: UueSaveOptions.UueSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: UueSaveOptions constructor. Initializes the options with user proveded file name and new line
+description: UueSaveOptions constructor. Initializes the options with user provided file name and new line
 type: docs
 weight: 10
 url: /net/aspose.zip.uue/uuesaveoptions/uuesaveoptions/
 ---
 ## UueSaveOptions(string, string) {#constructor_1}
 
-Initializes the options with user proveded file name and new line.
+Initializes the options with user provided file name and new line.
 
 ```csharp
 public UueSaveOptions(string fileName, string newLine)
@@ -29,7 +29,7 @@ public UueSaveOptions(string fileName, string newLine)
 
 ## UueSaveOptions(string) {#constructor}
 
-Initializes the options with user proveded file name and the default new line.
+Initializes the options with user provided file name and the default new line.
 
 ```csharp
 public UueSaveOptions(string fileName)

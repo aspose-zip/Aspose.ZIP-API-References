@@ -1,14 +1,14 @@
 ---
 title: WimEntry.FullPath
 second_title: Aspose.ZIP for .NET API Reference
-description: WimEntry property. Gets full path of the entry within image
+description: WimEntry property. Gets a full path of the entry within the image
 type: docs
 weight: 60
 url: /net/aspose.zip.wim/wimentry/fullpath/
 ---
 ## WimEntry.FullPath property
 
-Gets full path of the entry within image.
+Gets a full path of the entry within the image.
 
 ```csharp
 public string FullPath { get; }

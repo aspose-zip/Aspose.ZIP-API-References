@@ -1,14 +1,14 @@
 ---
 title: Class WimDirectoryEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Wim.WimDirectoryEntry class. Represents single directory within wim archive
+description: Aspose.Zip.Wim.WimDirectoryEntry class. Represents a single directory within wim archive
 type: docs
-weight: 930
+weight: 940
 url: /net/aspose.zip.wim/wimdirectoryentry/
 ---
 ## WimDirectoryEntry class
 
-Represents single directory within wim archive.
+Represents a single directory within wim archive.
 
 ```csharp
 public sealed class WimDirectoryEntry : WimEntry
@@ -27,16 +27,16 @@ public sealed class WimDirectoryEntry : WimEntry
 | [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes/) { get; } | Gets the file or directory attributes. |
 | [Files](../../aspose.zip.wim/wimdirectoryentry/files/) { get; } | Gets entries of [`WimFileEntry`](../wimfileentry/) type constituting the directory. |
 | [FilesAndDirectories](../../aspose.zip.wim/wimdirectoryentry/filesanddirectories/) { get; } | Gets entries of [`WimEntry`](../wimentry/) type constituting the directory. |
-| [FullPath](../../aspose.zip.wim/wimentry/fullpath/) { get; } | Gets full path of the entry within image. |
+| [FullPath](../../aspose.zip.wim/wimentry/fullpath/) { get; } | Gets a full path of the entry within the image. |
 | [HardLink](../../aspose.zip.wim/wimentry/hardlink/) { get; } | Gets the hardlink id of the file or directory. |
 | [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks/) { get; } | Gets whether the file or directory is known by other names. |
 | [Image](../../aspose.zip.wim/wimentry/image/) { get; } | Gets the image the entry belongs to. |
-| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents directory. |
+| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
 | [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime/) { get; } | Gets the last access time of the file or directory. |
 | [ModificationTime](../../aspose.zip.wim/wimentry/modificationtime/) { get; } | Gets the modification time of the file or directory. |
-| [Name](../../aspose.zip.wim/wimentry/name/) { get; } | Gets name of the entry within image. |
+| [Name](../../aspose.zip.wim/wimentry/name/) { get; } | Gets name of the entry within the image. |
 | [Parent](../../aspose.zip.wim/wimentry/parent/) { get; } | Gets the parent directory the entry belongs to. |
-| [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | Gets short name of the entry within image. |
+| [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | Gets short name of the entry within the image. |
 
 ## Methods
 

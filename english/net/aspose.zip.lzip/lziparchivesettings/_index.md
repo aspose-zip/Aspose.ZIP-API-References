@@ -1,14 +1,14 @@
 ---
 title: Class LzipArchiveSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Lzip.LzipArchiveSettings class. The class contains setting of particular lzip archive
+description: Aspose.Zip.Lzip.LzipArchiveSettings class. The class contains setting of a particular lzip archive
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.zip.lzip/lziparchivesettings/
 ---
 ## LzipArchiveSettings class
 
-The class contains setting of particular lzip archive.
+The class contains setting of a particular lzip archive.
 
 ```csharp
 public class LzipArchiveSettings
@@ -29,7 +29,7 @@ public class LzipArchiveSettings
 | static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression/) { get; } | Gets the instance of the `LzipArchiveSettings` class with dictionary size equals to 32 megabytes in LZMA filter. |
 | static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression/) { get; } | Gets the instance of the `LzipArchiveSettings` class with dictionary size equals to 64 megabytes in LZMA filter. |
 | static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal/) { get; } | Gets the instance of the `LzipArchiveSettings` class with dictionary size equals to 16 megabytes in LZMA filter. |
-| [CompressionThreads](../../aspose.zip.lzip/lziparchivesettings/compressionthreads/) { get; set; } | Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used. |
+| [CompressionThreads](../../aspose.zip.lzip/lziparchivesettings/compressionthreads/) { get; set; } | Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used. |
 | [DictionarySize](../../aspose.zip.lzip/lziparchivesettings/dictionarysize/) { get; } | Gets the size of dictionary which used by LZMA compression. |
 | [MaxMemberSize](../../aspose.zip.lzip/lziparchivesettings/maxmembersize/) { get; } | Gets the maximum size of one member in lzip archive presented in bytes. |
 

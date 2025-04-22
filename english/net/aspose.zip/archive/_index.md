@@ -1,14 +1,14 @@
 ---
 title: Class Archive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Archive class. This class represents zip archive file. Use it to compose extract or update zip archives
+description: Aspose.Zip.Archive class. This class represents a zip archive file. Use it to compose extract or update zip archives
 type: docs
 weight: 10
 url: /net/aspose.zip/archive/
 ---
 ## Archive class
 
-This class represents zip archive file. Use it to compose, extract, or update zip archives.
+This class represents a zip archive file. Use it to compose, extract, or update zip archives.
 
 ```csharp
 public class Archive : IArchive
@@ -20,7 +20,7 @@ public class Archive : IArchive
 | --- | --- |
 | [Archive](archive/#constructor)(ArchiveEntrySettings) | Initializes a new instance of the `Archive` class with optional settings for its entries. |
 | [Archive](archive/#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Initializes a new instance of the `Archive` class and composes an entry list can be extracted from the archive. |
-| [Archive](archive/#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Initializes a new instance of the `Archive` class and composes entry list can be extracted from the archive. |
+| [Archive](archive/#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Initializes a new instance of the `Archive` class and composes an entry list can be extracted from the archive. |
 | [Archive](archive/#constructor_3)(string, string[], ArchiveLoadOptions) | Initializes a new instance of the `Archive` class from multi-volume zip archive and composes an entry list can be extracted from the archive. |
 
 ## Properties
@@ -34,8 +34,8 @@ public class Archive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [CreateEntries](../../aspose.zip/archive/createentries/#createentries)(DirectoryInfo, bool) | Adds to the archive all files and directories recursively in the directory given. |
-| [CreateEntries](../../aspose.zip/archive/createentries/#createentries_1)(string, bool) | Adds to the archive all files and directories recursively in the directory given. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries)(DirectoryInfo, bool) | Add to the archive all files and directories recursively in the directory given. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries_1)(string, bool) | Add to the archive all files and directories recursively in the directory given. |
 | [CreateEntry](../../aspose.zip/archive/createentry/#createentry)(string, Func&lt;Stream&gt;, ArchiveEntrySettings) | Create a single entry within the archive. |
 | [CreateEntry](../../aspose.zip/archive/createentry/#createentry_2)(string, Stream, ArchiveEntrySettings) | Create a single entry within the archive. |
 | [CreateEntry](../../aspose.zip/archive/createentry/#createentry_1)(string, FileInfo, bool, ArchiveEntrySettings) | Create a single entry within the archive. |

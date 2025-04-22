@@ -1,14 +1,14 @@
 ---
 title: Class SnappyArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Snappy.SnappyArchive class. This class represents snappy archive file. Use it to compose or extract snappy archives
+description: Aspose.Zip.Snappy.SnappyArchive class. This class represents a snappy archive file. Use it to compose or extract snappy archives
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.zip.snappy/snappyarchive/
 ---
 ## SnappyArchive class
 
-This class represents snappy archive file. Use it to compose or extract snappy archives.
+This class represents a snappy archive file. Use it to compose or extract snappy archives.
 
 ```csharp
 public class SnappyArchive : IArchive, IArchiveFileEntry
@@ -31,9 +31,9 @@ public class SnappyArchive : IArchive, IArchiveFileEntry
 | [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract_2)(Stream) | Extracts snappy archive to a stream. |
 | [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract)(string) | Extracts snappy archive to a file by path. |
 | [ExtractToDirectory](../../aspose.zip.snappy/snappyarchive/extracttodirectory/)(string) | Extracts content of the archive to the directory provided. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save/#save)(FileInfo) | Saves snappy archive to destination file provided. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save)(FileInfo) | Saves snappy archive to the destination file provided. |
 | [Save](../../aspose.zip.snappy/snappyarchive/save/#save_1)(Stream) | Saves snappy archive to the stream provided. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_2)(string) | Saves snappy archive to destination file provided. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_2)(string) | Saves snappy archive to a destination file provided. |
 | [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource)(FileInfo) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_1)(Stream) | Sets the content to be compressed within the archive. |
 | [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_2)(string) | Sets the content to be compressed within the archive. |

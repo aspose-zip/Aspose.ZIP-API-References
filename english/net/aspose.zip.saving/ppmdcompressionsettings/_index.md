@@ -3,7 +3,7 @@ title: Class PPMdCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.PPMdCompressionSettings class. Settings for PPMd compression method
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.zip.saving/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings class

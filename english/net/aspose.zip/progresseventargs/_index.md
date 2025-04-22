@@ -3,7 +3,7 @@ title: Class ProgressEventArgs
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ProgressEventArgs class. Class for event data containing the number of bytes proceeded
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class

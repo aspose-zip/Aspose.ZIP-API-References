@@ -24,6 +24,7 @@ The stream that represents the contents of the archive.
 | --- | --- |
 | EndOfStreamException | Source stream is too short. |
 | InvalidDataException | Wrong bytes found while initialize decoding. |
+| InvalidOperationException | The archive is prepared for composition. |
 
 ## Remarks
 

@@ -1,14 +1,14 @@
 ---
 title: Class XzArchiveSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Xz.Settings.XzArchiveSettings class. The class contains set of setting particular xz archive
+description: Aspose.Zip.Xz.Settings.XzArchiveSettings class. The class contains a set of setting particular xz archive
 type: docs
-weight: 1100
+weight: 1110
 url: /net/aspose.zip.xz.settings/xzarchivesettings/
 ---
 ## XzArchiveSettings class
 
-The class contains set of setting particular xz archive.
+The class contains a set of setting particular xz archive.
 
 ```csharp
 public class XzArchiveSettings
@@ -30,7 +30,7 @@ public class XzArchiveSettings
 | static [HighCompression](../../aspose.zip.xz.settings/xzarchivesettings/highcompression/) { get; } | Gets the instance of the `XzArchiveSettings` class with dictionary size equals to 32 megabytes in LZMA2 filter, block size equals to 128 megabytes and CRC32 checksum. |
 | static [MaximumCompression](../../aspose.zip.xz.settings/xzarchivesettings/maximumcompression/) { get; } | Gets the instance of the `XzArchiveSettings` class with dictionary size equals to 64 megabytes in LZMA2 filter, block size equals to 256 megabytes and CRC32 checksum. |
 | static [Normal](../../aspose.zip.xz.settings/xzarchivesettings/normal/) { get; } | Gets the instance of the `XzArchiveSettings` class with dictionary size equals to 16 megabytes in LZMA2 filter, block size equals to 64 megabytes and CRC32 checksum. |
-| [CompressionThreads](../../aspose.zip.xz.settings/xzarchivesettings/compressionthreads/) { get; set; } | Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used. |
+| [CompressionThreads](../../aspose.zip.xz.settings/xzarchivesettings/compressionthreads/) { get; set; } | Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used. |
 
 ### See Also
 

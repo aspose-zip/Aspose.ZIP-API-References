@@ -18,9 +18,9 @@ public sealed class ArchiveInstanceInfo
 
 | Name | Description |
 | --- | --- |
-| [AreFileNamesEncrypted](../../aspose.zip.archiveinfo/archiveinstanceinfo/arefilenamesencrypted/) { get; } | Gets a value indicating whether names of entries (files) of the archive are encrypted. |
+| [AreFileNamesEncrypted](../../aspose.zip.archiveinfo/archiveinstanceinfo/arefilenamesencrypted/) { get; } | Gets a value indicating whether the names of entries (files) of the archive are encrypted. |
 | [FormatInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/formatinfo/) { get; } | Gets the archive format info. |
-| [IsContentEncrypted](../../aspose.zip.archiveinfo/archiveinstanceinfo/iscontentencrypted/) { get; } | Gets a value indicating whether content of the archive is encrypted. |
+| [IsContentEncrypted](../../aspose.zip.archiveinfo/archiveinstanceinfo/iscontentencrypted/) { get; } | Gets a value indicating whether the content of the archive is encrypted. |
 
 ## Methods
 

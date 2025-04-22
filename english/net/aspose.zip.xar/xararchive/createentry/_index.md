@@ -1,14 +1,14 @@
 ---
 title: XarArchive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: XarArchive method. Create single entry within the archive
+description: XarArchive method. Create a single entry within the archive
 type: docs
 weight: 40
 url: /net/aspose.zip.xar/xararchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool, XarCompressionSettings) {#createentry}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public XarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false, 
@@ -19,7 +19,7 @@ public XarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file or folder to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry/) item. |
 
 ### Return Value
@@ -61,7 +61,7 @@ using (var archive = new XarArchive())
 
 ## CreateEntry(string, string, bool, XarCompressionSettings) {#createentry_2}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public XarEntry CreateEntry(string name, string sourcePath, bool openImmediately = false, 
@@ -72,7 +72,7 @@ public XarEntry CreateEntry(string name, string sourcePath, bool openImmediately
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | sourcePath | String | Path to file to be compressed. |
-| openImmediately | Boolean | True if open the file immediately, otherwise open the file on archive saving. |
+| openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
 | compressionSettings | XarCompressionSettings | The compression settings used for added [`XarEntry`](../../xarentry/) item. |
 
 ### Return Value
@@ -119,7 +119,7 @@ using (var archive = new XarArchive())
 
 ## CreateEntry(string, Stream, XarCompressionSettings) {#createentry_1}
 
-Create single entry within the archive.
+Create a single entry within the archive.
 
 ```csharp
 public XarEntry CreateEntry(string name, Stream source, 

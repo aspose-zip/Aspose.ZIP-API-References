@@ -23,7 +23,7 @@ public void SaveSplit(string destinationDirectory, SplitArchiveSaveOptions optio
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | This archive was opened from existing source. |
+| InvalidOperationException | This archive was opened from the existing source. |
 | NotSupportedException | This archive is both compressed with XZ method and encrypted. |
 | ArgumentNullException | *destinationDirectory* is null. |
 | SecurityException | The caller does not have the required permission to access the directory. |

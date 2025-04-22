@@ -12,7 +12,7 @@ The Tar namespace contains classes which represent tar archive related entities.
 
 | Class | Description |
 | --- | --- |
-| [TarArchive](./tararchive/) | This class represents tar archive file. Use it to compose, extract, or update tar archives. |
+| [TarArchive](./tararchive/) | This class represents a tar archive file. Use it to compose, extract, or update tar archives. |
 | [TarEntry](./tarentry/) | Represents single file within tar archive. |
 ## Enumeration
 

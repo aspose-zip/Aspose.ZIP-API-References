@@ -3,7 +3,7 @@ title: TarArchive.Entries
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive property. Gets entries of TarEntry type constituting the archive
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip.tar/tararchive/entries/
 ---
 ## TarArchive.Entries property

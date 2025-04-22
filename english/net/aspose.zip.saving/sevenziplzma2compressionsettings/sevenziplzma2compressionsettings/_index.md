@@ -16,7 +16,7 @@ public SevenZipLZMA2CompressionSettings(int dictionarySize = 16777216)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dictionarySize | Int32 | Size of history buffer, must be between 4096 and 1073741824. |
+| dictionarySize | Int32 | The Size of history buffer, must be between 4096 and 1073741824. |
 
 ### Exceptions
 
@@ -26,7 +26,7 @@ public SevenZipLZMA2CompressionSettings(int dictionarySize = 16777216)
 
 ## Remarks
 
-The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+The bigger the dictionary, usually the better the compression ratio is - but dictionaries larger than the uncompressed data are a waste of RAM.
 
 ### See Also
 
@@ -46,8 +46,8 @@ public SevenZipLZMA2CompressionSettings(int dictionarySize, int fastBytes = 32)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dictionarySize | Int32 | Size of history buffer, must be between 4096 and 1073741824. |
-| fastBytes | Int32 | Controls number of fast bytes used by the LZMA2 compressors. A larger number of fast bytes can provide a better compression ratio at the expense of compression speed. |
+| dictionarySize | Int32 | The size of history buffer, must be between 4096 and 1073741824. |
+| fastBytes | Int32 | Controls the number of fast bytes used by the LZMA2 compressors. A larger number of fast bytes can provide a better compression ratio at the expense of compression speed. |
 
 ### Exceptions
 
@@ -57,7 +57,7 @@ public SevenZipLZMA2CompressionSettings(int dictionarySize, int fastBytes = 32)
 
 ## Remarks
 
-The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+The bigger the dictionary, usually the better the compression ratio is - but dictionaries larger than the uncompressed data are a waste of RAM.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: CabArchive.CabArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: CabArchive constructor. Initializes a new instance of the CabArchive class and composes entries list can be extracted from the archive
+description: CabArchive constructor. Initializes a new instance of the CabArchive class and composes an entry list can be extracted from the archive
 type: docs
 weight: 10
 url: /net/aspose.zip.cab/cabarchive/cabarchive/
 ---
 ## CabArchive(Stream) {#constructor}
 
-Initializes a new instance of the [`CabArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`CabArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public CabArchive(Stream sourceStream)
@@ -52,7 +52,7 @@ using (var archive = new CabArchive(File.OpenRead("archive.cab")))
 
 ## CabArchive(string) {#constructor_1}
 
-Initializes a new instance of the [`CabArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`CabArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public CabArchive(string path)
@@ -75,7 +75,7 @@ public CabArchive(string path)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
-| EndOfStreamException | File is too short. |
+| EndOfStreamException | The file is too short. |
 
 ## Remarks
 

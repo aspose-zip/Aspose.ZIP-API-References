@@ -3,7 +3,7 @@ title: TarArchive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Create a single entry within the archive
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.zip.tar/tararchive/createentry/
 ---
 ## CreateEntry(string, Stream, FileSystemInfo) {#createentry_1}
