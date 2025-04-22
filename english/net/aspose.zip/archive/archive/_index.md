@@ -99,7 +99,7 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-Initializes a new instance of the [`Archive`](../) class and composes entry list can be extracted from the archive.
+Initializes a new instance of the [`Archive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -125,7 +125,7 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
-| InvalidDataException | File is corrupted. |
+| InvalidDataException | The file is corrupted. |
 
 ## Remarks
 

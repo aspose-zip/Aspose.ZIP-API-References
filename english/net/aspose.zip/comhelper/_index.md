@@ -35,7 +35,7 @@ public class ComHelper
 
 ## Remarks
 
-Use the ComHelper class to load an archive from a file or stream. Particular classes provide a default constructor to create a new archive and also provides overloaded constructors to load an archive from a file or stream. If you are using Aspose.Zip from a .NET application, you can use all of the archives constructors directly, but if you are using Aspose.Zip from a COM application, only the default archive constructor is available.
+Use the ComHelper class to load an archive from a file or stream. Particular classes provide a default constructor to create a new archive and also provides overloaded constructors to load an archive from a file or stream. If you are using Aspose.Zip from a .NET application, you can use all the archive constructors directly, but if you are using Aspose.Zip from a COM application, only the default archive constructor is available.
 
 ### See Also
 

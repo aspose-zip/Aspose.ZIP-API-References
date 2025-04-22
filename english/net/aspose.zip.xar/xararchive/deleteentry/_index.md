@@ -1,14 +1,14 @@
 ---
 title: XarArchive.DeleteEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: XarArchive method. Removes the first occurrence of a specific entry from the entries list
+description: XarArchive method. Removes the first occurrence of a specific entry from the entry list
 type: docs
 weight: 50
 url: /net/aspose.zip.xar/xararchive/deleteentry/
 ---
 ## XarArchive.DeleteEntry method
 
-Removes the first occurrence of a specific entry from the entries list.
+Removes the first occurrence of a specific entry from the entry list.
 
 ```csharp
 public XarArchive DeleteEntry(XarEntry entry)

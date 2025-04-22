@@ -13,7 +13,7 @@ The Z namespace contains classes which represent Z archive related entities.
 | Class | Description |
 | --- | --- |
 | [ZArchive](./zarchive/) | This class represents a Z (compress) archive file. Use it to compose or extract Z archives. |
-| [ZArchiveLoadOptions](./zarchiveloadoptions/) | Options with which [`ZArchive`](../aspose.zip.z/zarchive/) is loaded from compressed file. Contains event raised on extraction. |
+| [ZArchiveLoadOptions](./zarchiveloadoptions/) | Options with which [`ZArchive`](../aspose.zip.z/zarchive/) is loaded from a compressed file. Contains event raised on extraction. |
 | [ZArchiveSaveOptions](./zarchivesaveoptions/) | Settings for Zarchive. |
 
 

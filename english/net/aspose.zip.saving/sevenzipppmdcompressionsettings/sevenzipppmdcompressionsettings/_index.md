@@ -59,7 +59,7 @@ public SevenZipPPMdCompressionSettings()
 
 ## Remarks
 
-Default model order is 6 and sub-allocator size is 16MB.
+The default model order is 6 and sub-allocator size is 16MB.
 
 ## Examples
 

@@ -41,7 +41,7 @@ using (var archive = new XarArchive())
 
 ## XarArchive(Stream, XarLoadOptions) {#constructor_1}
 
-Initializes a new instance of the [`XarArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`XarArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public XarArchive(Stream sourceStream, XarLoadOptions loadOptions = null)
@@ -86,7 +86,7 @@ using (var archive = new XarArchive(File.OpenRead("archive.xar")))
 
 ## XarArchive(string, XarLoadOptions) {#constructor_2}
 
-Initializes a new instance of the [`XarArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`XarArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public XarArchive(string path, XarLoadOptions loadOptions = null)

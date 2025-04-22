@@ -22,7 +22,7 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
-| InvalidDataException | Data can not be decompressed. |
+| InvalidDataException | Data cannot be decompressed. |
 
 ## Examples
 
@@ -64,13 +64,13 @@ public void Extract(FileInfo fileInfo)
 | exception | condition |
 | --- | --- |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
-| ArgumentException | File path is empty or contains only white spaces. |
+| ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
 | UnauthorizedAccessException | Path to file is read-only or is a directory. |
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
-| InvalidDataException | Data can not be decompressed. |
+| InvalidDataException | Data cannot be decompressed. |
 
 ## Examples
 
@@ -118,7 +118,7 @@ Info of an extracted file.
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
-| InvalidDataException | Data can not be decompressed. |
+| InvalidDataException | Data cannot be decompressed. |
 
 ## Examples
 

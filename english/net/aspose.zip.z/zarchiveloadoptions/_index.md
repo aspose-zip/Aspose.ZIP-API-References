@@ -1,14 +1,14 @@
 ---
 title: Class ZArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Z.ZArchiveLoadOptions class. Options with which ZArchive is loaded from compressed file. Contains event raised on extraction
+description: Aspose.Zip.Z.ZArchiveLoadOptions class. Options with which ZArchive is loaded from a compressed file. Contains event raised on extraction
 type: docs
-weight: 1170
+weight: 1180
 url: /net/aspose.zip.z/zarchiveloadoptions/
 ---
 ## ZArchiveLoadOptions class
 
-Options with which [`ZArchive`](../zarchive/) is loaded from compressed file. Contains event raised on extraction.
+Options with which [`ZArchive`](../zarchive/) is loaded from a compressed file. Contains event raised on extraction.
 
 ```csharp
 public class ZArchiveLoadOptions

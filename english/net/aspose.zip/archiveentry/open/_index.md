@@ -26,11 +26,11 @@ The stream that represents the contents of the entry.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | The archive is in incorrect state. |
+| InvalidOperationException | The archive is in an incorrect state. |
 
 ## Remarks
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of a file. See examples section.
 
 ## Examples
 

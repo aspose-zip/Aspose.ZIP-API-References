@@ -59,7 +59,7 @@ public PPMdCompressionSettings()
 
 ## Remarks
 
-Default model order is 8 and sub-allocator size is 50MB.
+The default model order is 8, and the sub-allocator size is 50MB.
 
 ## Examples
 

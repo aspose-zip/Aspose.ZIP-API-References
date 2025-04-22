@@ -24,7 +24,7 @@ public class LzmaArchiveSettings
 
 | Name | Description |
 | --- | --- |
-| [DictionarySize](../../aspose.zip.lzma/lzmaarchivesettings/dictionarysize/) { get; set; } | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size. |
+| [DictionarySize](../../aspose.zip.lzma/lzmaarchivesettings/dictionarysize/) { get; set; } | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory. If not set, will be chosen accordingly to entry size. |
 
 ## Events
 

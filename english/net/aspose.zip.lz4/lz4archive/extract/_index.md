@@ -58,6 +58,7 @@ public void Extract(Stream destination)
 | EndOfStreamException | Source stream is too short. |
 | InvalidDataException | Wrong bytes found while decoding. |
 | NotSupportedException | This LZ4 version is not supported. |
+| InvalidOperationException | The archive is prepared for composition. |
 
 ## Examples
 

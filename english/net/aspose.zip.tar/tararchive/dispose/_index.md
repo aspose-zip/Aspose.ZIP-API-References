@@ -3,7 +3,7 @@ title: TarArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.zip.tar/tararchive/dispose/
 ---
 ## TarArchive.Dispose method

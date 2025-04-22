@@ -1,14 +1,14 @@
 ---
 title: Bzip2SaveOptions.CompressionThreads
 second_title: Aspose.ZIP for .NET API Reference
-description: Bzip2SaveOptions property. Gets or sets compression thread count. If the value greater than 1 multithreading compression will be used
+description: Bzip2SaveOptions property. Gets or sets compression thread count. If the value is greater than 1 multithreading compression will be used
 type: docs
 weight: 30
 url: /net/aspose.zip.bzip2/bzip2saveoptions/compressionthreads/
 ---
 ## Bzip2SaveOptions.CompressionThreads property
 
-Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.
+Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 ```csharp
 public int CompressionThreads { get; set; }

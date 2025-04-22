@@ -27,7 +27,7 @@ public SplitSevenZipArchiveSaveOptions(string fileName, uint segmentSize)
 
 ## Remarks
 
-Some volumes may be less than *segmentSize*. In most cases the last segment will be less but rarely regular segments might be too.
+Some volumes may be less than *segmentSize*. In most cases, the last segment will be less but rarely regular segments might be too.
 
 Names of files will be as follows: *fileName*.7z.001, *fileName*.7z.002, ..., *fileName*.7z.(n).
 

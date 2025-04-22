@@ -52,7 +52,7 @@ using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
 
 ## Save(string) {#save_1}
 
-Saves xz archive to destination file provided.
+Saves xz archive to the destination file provided.
 
 ```csharp
 public void Save(string destinationFileName)

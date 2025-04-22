@@ -3,7 +3,7 @@ title: Class SevenZipLZMA2CompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipLZMA2CompressionSettings class. Settings for LZMA2 compression method within 7z archive
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.zip.saving/sevenziplzma2compressionsettings/
 ---
 ## SevenZipLZMA2CompressionSettings class
@@ -25,9 +25,9 @@ public class SevenZipLZMA2CompressionSettings : SevenZipCompressionSettings
 
 | Name | Description |
 | --- | --- |
-| [CompressionThreads](../../aspose.zip.saving/sevenziplzma2compressionsettings/compressionthreads/) { get; set; } | Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used. |
-| [DictionarySize](../../aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize/) { get; } | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. |
-| [FastBytes](../../aspose.zip.saving/sevenziplzma2compressionsettings/fastbytes/) { get; } | Gets the controls number of fast bytes used by the LZMA2 compressor. |
+| [CompressionThreads](../../aspose.zip.saving/sevenziplzma2compressionsettings/compressionthreads/) { get; set; } | Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used. |
+| [DictionarySize](../../aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize/) { get; } | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory. |
+| [FastBytes](../../aspose.zip.saving/sevenziplzma2compressionsettings/fastbytes/) { get; } | Gets the control number of fast bytes used by the LZMA2 compressor. |
 | override [Method](../../aspose.zip.saving/sevenziplzma2compressionsettings/method/) { get; } | Gets compression or decompression method. |
 
 ## Remarks

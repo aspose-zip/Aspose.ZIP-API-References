@@ -16,6 +16,6 @@ The Rar namespace contains classes which represent RAR archive related entities.
 | [RarArchiveEntry](./rararchiveentry/) | Represents single file within archive. |
 | [RarArchiveEntryEncrypted](./rararchiveentryencrypted/) | Zip entry that needs to be decompressed with decryption. |
 | [RarArchiveEntryPlain](./rararchiveentryplain/) | Rar entry that needs to be decompressed without decryption. |
-| [RarArchiveLoadOptions](./rararchiveloadoptions/) | Options with which [`RarArchive`](../aspose.zip.rar/rararchive/) is loaded from compressed file. |
+| [RarArchiveLoadOptions](./rararchiveloadoptions/) | Options with which [`RarArchive`](../aspose.zip.rar/rararchive/) is loaded from a compressed file. |
 
 

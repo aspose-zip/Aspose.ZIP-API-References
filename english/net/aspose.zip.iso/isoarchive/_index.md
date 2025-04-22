@@ -19,8 +19,8 @@ public sealed class IsoArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [IsoArchive](isoarchive/#constructor)() | Initializes a new instance of the `IsoArchive` class and creates an empty ISO archive for adding new files and directories. |
-| [IsoArchive](isoarchive/#constructor_1)(Stream, IsoLoadOptions) | Initializes a new instance of the `IsoArchive` class and composes entries list that can be extracted from the archive. |
-| [IsoArchive](isoarchive/#constructor_2)(string, IsoLoadOptions) | Initializes a new instance of the `IsoArchive` class and composes entries list that can be extracted from the archive. |
+| [IsoArchive](isoarchive/#constructor_1)(Stream, IsoLoadOptions) | Initializes a new instance of the `IsoArchive` class and composes an entry list that can be extracted from the archive. |
+| [IsoArchive](isoarchive/#constructor_2)(string, IsoLoadOptions) | Initializes a new instance of the `IsoArchive` class and composes an entry list that can be extracted from the archive. |
 
 ## Properties
 

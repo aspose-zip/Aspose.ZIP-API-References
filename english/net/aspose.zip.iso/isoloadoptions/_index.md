@@ -1,14 +1,14 @@
 ---
 title: Class IsoLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Iso.IsoLoadOptions class. Options with which IsoArchive is loaded from compressed file. Contains event raised on extraction
+description: Aspose.Zip.Iso.IsoLoadOptions class. Options with which IsoArchive is loaded from a compressed file. Contains event raised on extraction
 type: docs
 weight: 320
 url: /net/aspose.zip.iso/isoloadoptions/
 ---
 ## IsoLoadOptions class
 
-Options with which [`IsoArchive`](../isoarchive/) is loaded from compressed file. Contains event raised on extraction.
+Options with which [`IsoArchive`](../isoarchive/) is loaded from a compressed file. Contains event raised on extraction.
 
 ```csharp
 public class IsoLoadOptions

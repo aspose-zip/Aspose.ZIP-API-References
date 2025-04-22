@@ -20,7 +20,7 @@ The stream that represents the contents of the entry.
 
 ## Remarks
 
-Read from the stream to get an original content of a file. See examples section.
+Read from the stream to get the original content of a file. See examples section.
 
 ## Examples
 

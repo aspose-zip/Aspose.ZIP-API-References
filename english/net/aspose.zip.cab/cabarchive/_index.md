@@ -18,8 +18,8 @@ public class CabArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [CabArchive](cabarchive/#constructor)(Stream) | Initializes a new instance of the `CabArchive` class and composes entries list can be extracted from the archive. |
-| [CabArchive](cabarchive/#constructor_1)(string) | Initializes a new instance of the `CabArchive` class and composes entries list can be extracted from the archive. |
+| [CabArchive](cabarchive/#constructor)(Stream) | Initializes a new instance of the `CabArchive` class and composes an entry list can be extracted from the archive. |
+| [CabArchive](cabarchive/#constructor_1)(string) | Initializes a new instance of the `CabArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 

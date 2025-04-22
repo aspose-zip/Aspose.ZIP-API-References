@@ -12,7 +12,7 @@ The Lha namespace contains classes which represent Lha related entities.
 
 | Class | Description |
 | --- | --- |
-| [LhaArchive](./lhaarchive/) | This class represents LHA (.lzh) archive file. |
-| [LhaArchiveEntry](./lhaarchiveentry/) | Represents single file within Lha archive. |
+| [LhaArchive](./lhaarchive/) | This class represents a LHA (.lzh) archive file. |
+| [LhaArchiveEntry](./lhaarchiveentry/) | Represents a single file within Lha archive. |
 
 

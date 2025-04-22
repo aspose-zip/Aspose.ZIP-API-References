@@ -1,14 +1,14 @@
 ---
 title: LhaArchive.LhaArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: LhaArchive constructor. Initializes a new instance of the LhaArchive class and composes entries list can be extracted from the archive
+description: LhaArchive constructor. Initializes a new instance of the LhaArchive class and composes an entry list can be extracted from the archive
 type: docs
 weight: 10
 url: /net/aspose.zip.lha/lhaarchive/lhaarchive/
 ---
 ## LhaArchive(Stream) {#constructor}
 
-Initializes a new instance of the [`LhaArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`LhaArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public LhaArchive(Stream sourceStream)
@@ -40,7 +40,7 @@ This constructor does not decompress any entry. See [`Extract`](../../lhaarchive
 
 ## LhaArchive(string) {#constructor_1}
 
-Initializes a new instance of the [`LhaArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`LhaArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public LhaArchive(string path)
@@ -63,15 +63,15 @@ public LhaArchive(string path)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
-| InvalidDataException | File is corrupted. |
+| InvalidDataException | The file is corrupted. |
 
 ## Remarks
 
-This constructor does not decompress any entry. See [`Open`](../../../aspose.zip/archiveentry/open/) method for decompressing.
+This constructor does not decompress any entry. See [`Extract`](../../lhaarchiveentry/extract/) method for decompressing.
 
 ## Examples
 
-The following example extract an archive, then decompress first entry to a `MemoryStream`.
+The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```csharp
 var extracted = new MemoryStream();

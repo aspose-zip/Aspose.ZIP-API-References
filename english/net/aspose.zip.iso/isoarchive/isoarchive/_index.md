@@ -40,7 +40,7 @@ using(IsoArchive isoArchive = new IsoArchive())
 
 ## IsoArchive(Stream, IsoLoadOptions) {#constructor_1}
 
-Initializes a new instance of the [`IsoArchive`](../) class and composes entries list that can be extracted from the archive.
+Initializes a new instance of the [`IsoArchive`](../) class and composes an entry list that can be extracted from the archive.
 
 ```csharp
 public IsoArchive(Stream sourceStream, IsoLoadOptions loadOptions = null)
@@ -85,7 +85,7 @@ using (var archive = new IsoArchive(File.OpenRead("archive.iso")))
 
 ## IsoArchive(string, IsoLoadOptions) {#constructor_2}
 
-Initializes a new instance of the [`IsoArchive`](../) class and composes entries list that can be extracted from the archive.
+Initializes a new instance of the [`IsoArchive`](../) class and composes an entry list that can be extracted from the archive.
 
 ```csharp
 public IsoArchive(string path, IsoLoadOptions loadOptions = null)
@@ -109,7 +109,7 @@ public IsoArchive(string path, IsoLoadOptions loadOptions = null)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
-| EndOfStreamException | File is too short. |
+| EndOfStreamException | The file is too short. |
 
 ## Remarks
 

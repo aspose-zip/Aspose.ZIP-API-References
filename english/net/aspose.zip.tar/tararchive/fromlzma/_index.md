@@ -3,7 +3,7 @@ title: TarArchive.FromLZMA
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Extracts supplied LZMA archive and composes TarArchive from extracted data
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.tar/tararchive/fromlzma/
 ---
 ## FromLZMA(Stream) {#fromlzma}
@@ -23,6 +23,12 @@ public static TarArchive FromLZMA(Stream source)
 ### Return Value
 
 An instance of [`TarArchive`](../)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidDataException | The archive is corrupted. |
 
 ## Remarks
 
@@ -53,6 +59,18 @@ public static TarArchive FromLZMA(string path)
 ### Return Value
 
 An instance of [`TarArchive`](../)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *path* is null. |
+| ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
+| UnauthorizedAccessException | Access to file *path* is denied. |
+| PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
+| NotSupportedException | File at *path* is in an invalid format. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
 
 ## Remarks
 

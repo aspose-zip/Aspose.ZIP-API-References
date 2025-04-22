@@ -1,14 +1,14 @@
 ---
 title: ArchiveEntry.CompressedSize
 second_title: Aspose.ZIP for .NET API Reference
-description: ArchiveEntry property. Gets size of compressed file
+description: ArchiveEntry property. Gets size of the compressed file
 type: docs
 weight: 20
 url: /net/aspose.zip/archiveentry/compressedsize/
 ---
 ## ArchiveEntry.CompressedSize property
 
-Gets size of compressed file.
+Gets size of the compressed file.
 
 ```csharp
 public ulong CompressedSize { get; }

@@ -52,7 +52,7 @@ using (FileStream snappyFile = File.Open("archive.snappy", FileMode.Create))
 
 ## Save(FileInfo) {#save}
 
-Saves snappy archive to destination file provided.
+Saves snappy archive to the destination file provided.
 
 ```csharp
 public void Save(FileInfo destination)
@@ -60,14 +60,14 @@ public void Save(FileInfo destination)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | FileInfo | FileInfo which will be opened as destination stream. |
+| destination | FileInfo | FileInfo, which will be opened as destination stream. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | SecurityException | The caller does not have the required permission to open the *destination*. |
-| ArgumentException | File path is empty or contains only white spaces. |
+| ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
 | UnauthorizedAccessException | Path to file is read-only or is a directory. |
 | ArgumentNullException | *destination* is null. |
@@ -94,7 +94,7 @@ using (var archive = new SnappyArchive())
 
 ## Save(string) {#save_2}
 
-Saves snappy archive to destination file provided.
+Saves snappy archive to a destination file provided.
 
 ```csharp
 public void Save(string destinationFileName)

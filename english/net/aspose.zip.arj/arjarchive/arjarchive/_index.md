@@ -1,14 +1,14 @@
 ---
 title: ArjArchive.ArjArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: ArjArchive constructor. Initializes a new instance of the ArjArchive class and composes entries list can be extracted from the archive
+description: ArjArchive constructor. Initializes a new instance of the ArjArchive class and composes an entry list can be extracted from the archive
 type: docs
 weight: 10
 url: /net/aspose.zip.arj/arjarchive/arjarchive/
 ---
 ## ArjArchive(Stream) {#constructor}
 
-Initializes a new instance of the [`ArjArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`ArjArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public ArjArchive(Stream extractionSource)
@@ -25,7 +25,7 @@ public ArjArchive(Stream extractionSource)
 | ArgumentNullException | *extractionSource* is null. |
 | ArgumentException | &gt;*extractionSource* does not support seeking. |
 | InvalidDataException | Wrong signature for archive. - or - The file is not an ARJ archive. |
-| NotSupportedException | Archive is garbled. |
+| NotSupportedException | The archive is garbled. |
 
 ## Remarks
 
@@ -41,7 +41,7 @@ This constructor does not decompress any entry. See [`Extract`](../../arjentrypl
 
 ## ArjArchive(string) {#constructor_1}
 
-Initializes a new instance of the [`ArjArchive`](../) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [`ArjArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
 public ArjArchive(string path)
@@ -71,7 +71,7 @@ This constructor does not unpack any entry. See [`Extract`](../../arjentryplain/
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new ArjArchive("archive.arj")) 

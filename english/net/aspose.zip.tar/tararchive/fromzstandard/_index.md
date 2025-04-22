@@ -3,7 +3,7 @@ title: TarArchive.FromZstandard
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Extracts supplied Zstandard archive and composes TarArchive from extracted data
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip.tar/tararchive/fromzstandard/
 ---
 ## FromZstandard(Stream) {#fromzstandard}
@@ -61,6 +61,13 @@ An instance of [`TarArchive`](../)
 
 | exception | condition |
 | --- | --- |
+| ArgumentNullException | *path* is null. |
+| ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
+| UnauthorizedAccessException | Access to file *path* is denied. |
+| PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
+| NotSupportedException | File at *path* is in an invalid format. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
 | IOException | Zstandard stream is corrupted or not readable. |
 | InvalidDataException | Data is corrupted. |
 

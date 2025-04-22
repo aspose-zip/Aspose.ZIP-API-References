@@ -52,7 +52,7 @@ using (var archive = new SharArchive("archive.shar"))
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Removes the entry from the entries list by index.
+Removes the entry from the entry list by index.
 
 ```csharp
 public SharArchive DeleteEntry(int entryIndex)

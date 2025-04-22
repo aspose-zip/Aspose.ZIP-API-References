@@ -73,7 +73,7 @@ public void Extract(Stream destination)
 | --- | --- |
 | ArgumentException | *destination* does not support writing. |
 | NotSupportedException | Stream initialization failed due to wrong data. |
-| InvalidDataException | Archive is corrupted. |
+| InvalidDataException | The archive is corrupted. |
 
 ## Examples
 

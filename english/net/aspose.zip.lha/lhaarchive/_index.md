@@ -1,14 +1,14 @@
 ---
 title: Class LhaArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Lha.LhaArchive class. This class represents LHA .lzh archive file
+description: Aspose.Zip.Lha.LhaArchive class. This class represents a LHA .lzh archive file
 type: docs
 weight: 360
 url: /net/aspose.zip.lha/lhaarchive/
 ---
 ## LhaArchive class
 
-This class represents LHA (.lzh) archive file.
+This class represents a LHA (.lzh) archive file.
 
 ```csharp
 public class LhaArchive : IArchive
@@ -18,8 +18,8 @@ public class LhaArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [LhaArchive](lhaarchive/#constructor)(Stream) | Initializes a new instance of the `LhaArchive` class and composes entries list can be extracted from the archive. |
-| [LhaArchive](lhaarchive/#constructor_1)(string) | Initializes a new instance of the `LhaArchive` class and composes entries list can be extracted from the archive. |
+| [LhaArchive](lhaarchive/#constructor)(Stream) | Initializes a new instance of the `LhaArchive` class and composes an entry list can be extracted from the archive. |
+| [LhaArchive](lhaarchive/#constructor_1)(string) | Initializes a new instance of the `LhaArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 
@@ -36,7 +36,7 @@ public class LhaArchive : IArchive
 
 ## Remarks
 
-Only following compression methods are supported:
+Only the following compression methods are supported:
 
 **Method**
 
