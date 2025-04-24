@@ -13,5 +13,5 @@ Contains classes which represent lzip archive related entities.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[LzipArchive](/zip/python-net/aspose.zip.lzip/lziparchive/)|This class represents Lzip archive file. Use it to compose or extract Lzip archives.|
-|[LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/)|The class contains setting of particular lzip archive.|
+|[LzipArchive](/zip/python-net/aspose.zip.lzip/lziparchive/)|This class represents a Lzip archive file. Use it to compose or extract Lzip archives.|
+|[LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/)|The class contains setting of a particular lzip archive.|

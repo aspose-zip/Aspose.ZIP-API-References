@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.lz4/lz4archive/
 
 ## Lz4Archive class
 
-This class represents LZ4 archive file. Use it to extract LZ4 archives.
+This class represents LZ4 archive file. Use it to extract or compose LZ4 archives.
 
 The Lz4Archive type exposes the following members:
 ## Constructors
@@ -17,6 +17,7 @@ The Lz4Archive type exposes the following members:
 | :- | :- |
 |Lz4Archive(source_stream)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class prepared for decompressing.|
 |Lz4Archive(path)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class.|
+|Lz4Archive(settings)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class prepared for compressing.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -29,6 +30,10 @@ The Lz4Archive type exposes the following members:
 | :- | :- |
 |extract(path)|Extracts the archive to the file by path.|
 |extract(destination)|Extracts the archive to the stream provided.|
+|save(output)|Saves lz4 archive to the stream provided.|
+|save(destination_file_name)|Saves archive to the destination file provided.|
+|set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(path)|Sets the content to be compressed within the archive.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 |open()|Opens the archive for extraction and provides a stream with archive content.|
 

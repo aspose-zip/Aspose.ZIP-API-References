@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.wim/wimimage/
 
 ## WimImage class
 
-Represents single image within wim archive.
+Represents a single image within wim archive.
 
 The WimImage type exposes the following members:
 ## Properties

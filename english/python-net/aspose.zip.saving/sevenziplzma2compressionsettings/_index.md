@@ -21,9 +21,9 @@ The SevenZipLZMA2CompressionSettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |method|Gets compression or decompression method.|
-|compression_threads|Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.|
-|dictionary_size|Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory.|
-|fast_bytes|Gets the controls number of fast bytes used by the LZMA2 compressor.|
+|compression_threads|Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used.|
+|dictionary_size|Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory.|
+|fast_bytes|Gets the control number of fast bytes used by the LZMA2 compressor.|
 
 ### See Also
 

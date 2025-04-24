@@ -15,8 +15,8 @@ The CabArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|CabArchive(source_stream)|Initializes a new instance of the [CabArchive](/zip/python-net/aspose.zip.cab/cabarchive/) class and composes entries list can be extracted from the archive.|
-|CabArchive(path)|Initializes a new instance of the [CabArchive](/zip/python-net/aspose.zip.cab/cabarchive/) class and composes entries list can be extracted from the archive.|
+|CabArchive(source_stream)|Initializes a new instance of the [CabArchive](/zip/python-net/aspose.zip.cab/cabarchive/) class and composes an entry list can be extracted from the archive.|
+|CabArchive(path)|Initializes a new instance of the [CabArchive](/zip/python-net/aspose.zip.cab/cabarchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

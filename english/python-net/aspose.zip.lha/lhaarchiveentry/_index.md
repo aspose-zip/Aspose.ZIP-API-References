@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.lha/lhaarchiveentry/
 
 ## LhaArchiveEntry class
 
-Represents single file within Lha archive.
+Represents a single file within Lha archive.
 
 The LhaArchiveEntry type exposes the following members:
 ## Properties

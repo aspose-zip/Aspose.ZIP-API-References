@@ -19,7 +19,7 @@ The LzmaArchiveSettings type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|dictionary_size|Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory.<br/>            If not set, will be chosen accordingly to entry size.|
+|dictionary_size|Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory.<br/>            If not set, will be chosen accordingly to entry size.|
 
 ### See Also
 

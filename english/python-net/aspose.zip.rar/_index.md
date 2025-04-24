@@ -17,4 +17,4 @@ Contains classes which represent RAR archive related entities.
 |[RarArchiveEntry](/zip/python-net/aspose.zip.rar/rararchiveentry/)|Represents single file within archive.|
 |[RarArchiveEntryEncrypted](/zip/python-net/aspose.zip.rar/rararchiveentryencrypted/)|Zip entry that needs to be decompressed with decryption.|
 |[RarArchiveEntryPlain](/zip/python-net/aspose.zip.rar/rararchiveentryplain/)|Rar entry that needs to be decompressed without decryption.|
-|[RarArchiveLoadOptions](/zip/python-net/aspose.zip.rar/rararchiveloadoptions/)|Options with which [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) is loaded from compressed file.|
+|[RarArchiveLoadOptions](/zip/python-net/aspose.zip.rar/rararchiveloadoptions/)|Options with which [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) is loaded from a compressed file.|

@@ -20,8 +20,8 @@ The SelfExtractorOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |extractor_title|Gets or sets the title of extractor's window.|
-|title_icon|Gets or sets path to title icon for main windows of extractor application.|
-|close_window_on_extraction|Gets or sets a value indicating whether extractor window must be closed upon extraction or not.|
+|title_icon|Gets or sets the path to title icon for main windows of extractor application.|
+|close_window_on_extraction|Gets or sets a value indicating whether an extractor window must be closed upon extraction or not.|
 |run_after_extraction|Gets or sets a program to be executed after the archive extraction is completed.|
 
 ### See Also

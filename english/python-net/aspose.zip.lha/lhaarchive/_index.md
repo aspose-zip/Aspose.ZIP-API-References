@@ -9,14 +9,14 @@ url: /python-net/aspose.zip.lha/lhaarchive/
 
 ## LhaArchive class
 
-This class represents LHA (.lzh) archive file.
+This class represents a LHA (.lzh) archive file.
 
 The LhaArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LhaArchive(source_stream)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes entries list can be extracted from the archive.|
-|LhaArchive(path)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes entries list can be extracted from the archive.|
+|LhaArchive(source_stream)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes an entry list can be extracted from the archive.|
+|LhaArchive(path)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

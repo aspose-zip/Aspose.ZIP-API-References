@@ -13,4 +13,4 @@ Contains classes for Snappy compressed data manipulation.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[SnappyArchive](/zip/python-net/aspose.zip.snappy/snappyarchive/)|This class represents snappy archive file. Use it to compose or extract snappy archives.|
+|[SnappyArchive](/zip/python-net/aspose.zip.snappy/snappyarchive/)|This class represents a snappy archive file. Use it to compose or extract snappy archives.|

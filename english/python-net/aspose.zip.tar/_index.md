@@ -13,7 +13,7 @@ Contains classes which represent tar archive related entities.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[TarArchive](/zip/python-net/aspose.zip.tar/tararchive/)|This class represents tar archive file. Use it to compose, extract, or update tar archives.|
+|[TarArchive](/zip/python-net/aspose.zip.tar/tararchive/)|This class represents a tar archive file. Use it to compose, extract, or update tar archives.|
 |[TarEntry](/zip/python-net/aspose.zip.tar/tarentry/)|Represents single file within tar archive.|
 ## Enumerations
 | Enumeration | Description |
