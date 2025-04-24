@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.xz.settings/xzfiltersettings/
 
 ## XzFilterSettings class
 
-Base class for set of settings of particular xz format filter.
+Base class for a set of settings of particular xz format filter.
 
 The XzFilterSettings type exposes the following members:
 

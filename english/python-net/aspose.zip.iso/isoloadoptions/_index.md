@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.iso/isoloadoptions/
 
 ## IsoLoadOptions class
 
-Options with which [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) is loaded from compressed file. Contains event raised on extraction.
+Options with which [IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/) is loaded from a compressed file. Contains event raised on extraction.
 
 The IsoLoadOptions type exposes the following members:
 ## Constructors

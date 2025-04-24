@@ -9,15 +9,15 @@ url: /python-net/aspose.zip.tar/tararchive/
 
 ## TarArchive class
 
-This class represents tar archive file. Use it to compose, extract, or update tar archives.
+This class represents a tar archive file. Use it to compose, extract, or update tar archives.
 
 The TarArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
 |TarArchive()|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class.|
-|TarArchive(source_stream)|Initializes a new instance of the [Archive](/zip/python-net/aspose.zip/archive/) class and composes entry list can be extracted from the archive.|
-|TarArchive(path)|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class and composes entries list can be extracted from the archive.|
+|TarArchive(source_stream)|Initializes a new instance of the [Archive](/zip/python-net/aspose.zip/archive/) class and composes an entry list can be extracted from the archive.|
+|TarArchive(path)|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -51,6 +51,8 @@ The TarArchive type exposes the following members:
 |from_l_zip(path)|Extracts supplied lzip archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |from_lzma(source)|Extracts supplied LZMA archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |from_lzma(path)|Extracts supplied LZMA archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_lz4(path)|Extracts supplied LZ4 archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
+|from_lz4(source)|Extracts supplied LZ4 archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |from_xz(source)|Extracts supplied xz format archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |from_xz(path)|Extracts supplied xz format archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |from_z(source)|Extracts supplied Zstandard archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|

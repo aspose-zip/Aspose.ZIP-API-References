@@ -19,7 +19,7 @@ Contains classes which represent zip archive and common archive related entities
 |[ComHelper](/zip/python-net/aspose.zip/comhelper/)|Provides methods for COM clients to load archives into Aspose.Zip.|
 |[License](/zip/python-net/aspose.zip/license/)|Provides methods to license the component.|
 |[MeteredLicense](/zip/python-net/aspose.zip/meteredlicense/)|Provides methods to set metered key.|
-|[Archive](/zip/python-net/aspose.zip/archive/)|This class represents zip archive file. Use it to compose, extract, or update zip archives.|
+|[Archive](/zip/python-net/aspose.zip/archive/)|This class represents a zip archive file. Use it to compose, extract, or update zip archives.|
 |[ArchiveEntry](/zip/python-net/aspose.zip/archiveentry/)|Represents single file within archive.|
 |[ArchiveEntryEncrypted](/zip/python-net/aspose.zip/archiveentryencrypted/)|Zip entry that needs to be compressed with encryption or decompressed with decryption.|
 |[ArchiveEntryPlain](/zip/python-net/aspose.zip/archiveentryplain/)|Zip entry that needs to be compressed without encryption or decompressed without decryption.|

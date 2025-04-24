@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.shar/sharentry/
 
 ## SharEntry class
 
-Represents single file within shar archive.
+Represents a single file within shar archive.
 
 The SharEntry type exposes the following members:
 

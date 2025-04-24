@@ -21,7 +21,7 @@ The Bzip2SaveOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |block_size|Block size in hundreds of kilobytes.|
-|compression_threads|Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.|
+|compression_threads|Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used.|
 
 ### See Also
 

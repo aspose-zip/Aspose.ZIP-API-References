@@ -19,7 +19,7 @@ The SplitArchiveSaveOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|segment_size|Gets the size of segment.|
+|segment_size|Gets the size of the segment.|
 |file_name|Gets the name of segments without extension.|
 |archive_comment|Gets or sets optional comment for the Zip file.|
 |encoding|Gets or sets encoding for converting file names and other strings to bytes.|

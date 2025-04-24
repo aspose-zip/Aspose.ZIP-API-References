@@ -9,14 +9,14 @@ url: /python-net/aspose.zip.arj/arjarchive/
 
 ## ArjArchive class
 
-This class represents ARJ archive file.
+This class represents an ARJ archive file.
 
 The ArjArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ArjArchive(extraction_source)|Initializes a new instance of the [ArjArchive](/zip/python-net/aspose.zip.arj/arjarchive/) class and composes entries list can be extracted from the archive.|
-|ArjArchive(path)|Initializes a new instance of the [ArjArchive](/zip/python-net/aspose.zip.arj/arjarchive/) class and composes entries list can be extracted from the archive.|
+|ArjArchive(extraction_source)|Initializes a new instance of the [ArjArchive](/zip/python-net/aspose.zip.arj/arjarchive/) class and composes an entry list can be extracted from the archive.|
+|ArjArchive(path)|Initializes a new instance of the [ArjArchive](/zip/python-net/aspose.zip.arj/arjarchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
