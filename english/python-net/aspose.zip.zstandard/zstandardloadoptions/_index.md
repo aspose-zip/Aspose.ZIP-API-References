@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.zstandard/zstandardloadoptions/
 
 ## ZstandardLoadOptions class
 
-Options with which [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) is loaded from compressed file. Contains event raised on extraction.
+Options with which [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) is loaded from a compressed file. Contains event raised on extraction.
 
 The ZstandardLoadOptions type exposes the following members:
 ## Constructors

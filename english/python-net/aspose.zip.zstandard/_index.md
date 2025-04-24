@@ -14,5 +14,5 @@ Contains classes which represent ZStandard archive related entities.
 | Class | Description |
 | :- | :- |
 |[ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/)|This class represents a Zstandard archive file. Use it to compose Zstandard archives.|
-|[ZstandardLoadOptions](/zip/python-net/aspose.zip.zstandard/zstandardloadoptions/)|Options with which [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) is loaded from compressed file. Contains event raised on extraction.|
+|[ZstandardLoadOptions](/zip/python-net/aspose.zip.zstandard/zstandardloadoptions/)|Options with which [ZstandardArchive](/zip/python-net/aspose.zip.zstandard/zstandardarchive/) is loaded from a compressed file. Contains event raised on extraction.|
 |[ZstandardSaveOptions](/zip/python-net/aspose.zip.zstandard/zstandardsaveoptions/)|Settings for ZStandard  archive.|

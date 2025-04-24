@@ -16,8 +16,8 @@ The ArchiveInstanceInfo type exposes the following members:
 | Name | Description |
 | :- | :- |
 |format_info|Gets the archive format info.|
-|is_content_encrypted|Gets a value indicating whether content of the archive is encrypted.|
-|are_file_names_encrypted|Gets a value indicating whether names of entries (files) of the archive are encrypted.|
+|is_content_encrypted|Gets a value indicating whether the content of the archive is encrypted.|
+|are_file_names_encrypted|Gets a value indicating whether the names of entries (files) of the archive are encrypted.|
 ## Methods
 | Name | Description |
 | :- | :- |

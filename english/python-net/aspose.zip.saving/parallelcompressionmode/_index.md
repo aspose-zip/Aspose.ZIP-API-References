@@ -15,8 +15,8 @@ Options of usage parallel compression facility.
 | Member name | Description |
 | :- | :- |
 |NEVER|Do not compress in parallel.|
-|ALWAYS|Do compress in parallel. Beware out of memory.|
-|AUTO|Decide if use parallel compression or not upon the entries.<br/>            This option may compress in parallel some entries only.|
+|ALWAYS|Do compress in parallel. Beware of a drain on memory.|
+|AUTO|Decide whether parallel compression will be used based on the entries.<br/>            This option may compress in parallel some entries only.|
 
 ### See Also
 

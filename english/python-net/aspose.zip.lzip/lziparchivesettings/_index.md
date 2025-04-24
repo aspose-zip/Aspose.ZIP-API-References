@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.lzip/lziparchivesettings/
 
 ## LzipArchiveSettings class
 
-The class contains setting of particular lzip archive.
+The class contains setting of a particular lzip archive.
 
 The LzipArchiveSettings type exposes the following members:
 ## Constructors
@@ -26,7 +26,7 @@ The LzipArchiveSettings type exposes the following members:
 |maximum_compression|Gets the instance of the [LzipArchiveSettings](/zip/python-net/aspose.zip.lzip/lziparchivesettings/) class<br/>            with dictionary size equals to 64 megabytes in LZMA filter.|
 |dictionary_size|Gets the size of dictionary which used by LZMA compression.|
 |max_member_size|Gets the maximum size of one member in lzip archive presented in bytes.|
-|compression_threads|Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.|
+|compression_threads|Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used.|
 
 ### See Also
 

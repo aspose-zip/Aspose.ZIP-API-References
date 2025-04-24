@@ -33,7 +33,7 @@ The XzArchive type exposes the following members:
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |save(output)|Saves xz archive to the stream provided.|
-|save(destination_file_name)|Saves xz archive to destination file provided.|
+|save(destination_file_name)|Saves xz archive to the destination file provided.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 
 ### See Also

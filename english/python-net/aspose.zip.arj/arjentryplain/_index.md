@@ -9,15 +9,15 @@ url: /python-net/aspose.zip.arj/arjentryplain/
 
 ## ArjEntryPlain class
 
-Represents single file within ARJ archive.
+Represents a single file within ARJ archive.
 
 The ArjEntryPlain type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|name|Gets name of the entry within archive.|
-|compressed_size|Gets size of compressed file.|
-|uncompressed_size|Gets size of original file.|
+|name|Gets name of the entry within the archive.|
+|compressed_size|Gets the size of a compressed file.|
+|uncompressed_size|Gets size of an original file.|
 |length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |

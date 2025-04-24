@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.rar/rararchiveloadoptions/
 
 ## RarArchiveLoadOptions class
 
-Options with which [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) is loaded from compressed file.
+Options with which [RarArchive](/zip/python-net/aspose.zip.rar/rararchive/) is loaded from a compressed file.
 
 The RarArchiveLoadOptions type exposes the following members:
 ## Constructors

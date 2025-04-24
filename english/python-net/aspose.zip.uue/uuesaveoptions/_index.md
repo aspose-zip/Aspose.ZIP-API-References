@@ -15,8 +15,8 @@ The UueSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|UueSaveOptions(file_name, new_line)|Initializes the options with user proveded file name and new line.|
-|UueSaveOptions(file_name)|Initializes the options with user proveded file name and new line.|
+|UueSaveOptions(file_name, new_line)|Initializes the options with user provided file name and new line.|
+|UueSaveOptions(file_name)|Initializes the options with user provided file name and new line.|
 ## Properties
 | Name | Description |
 | :- | :- |

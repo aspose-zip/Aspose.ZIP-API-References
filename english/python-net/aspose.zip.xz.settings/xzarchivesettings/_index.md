@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.xz.settings/xzarchivesettings/
 
 ## XzArchiveSettings class
 
-The class contains set of setting particular xz archive.
+The class contains a set of setting particular xz archive.
 
 The XzArchiveSettings type exposes the following members:
 ## Constructors
@@ -20,7 +20,7 @@ The XzArchiveSettings type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|compression_threads|Gets or sets compression thread count. If the value greater than 1, multithreading compression will be used.|
+|compression_threads|Gets or sets compression thread count. If the value is greater than 1, multithreading compression will be used.|
 |fastest_speed|Gets the instance of the [XzArchiveSettings](/zip/python-net/aspose.zip.xz.settings/xzarchivesettings/) class<br/>            with dictionary size equals to 65536 bytes in LZMA2 filter, block size equals to 1 megabyte and CRC32 checksum.|
 |fast_speed|Gets the instance of the [XzArchiveSettings](/zip/python-net/aspose.zip.xz.settings/xzarchivesettings/) class<br/>            with dictionary size equals to 1 megabyte in LZMA2 filter, block size equals to 4 megabytes and CRC32 checksum.|
 |normal|Gets the instance of the [XzArchiveSettings](/zip/python-net/aspose.zip.xz.settings/xzarchivesettings/) class<br/>            with dictionary size equals to 16 megabytes in LZMA2 filter, block size equals to 64 megabytes and CRC32 checksum.|

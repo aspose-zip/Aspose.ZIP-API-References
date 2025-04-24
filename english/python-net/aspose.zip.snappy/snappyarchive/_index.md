@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.snappy/snappyarchive/
 
 ## SnappyArchive class
 
-This class represents snappy archive file. Use it to compose or extract snappy archives.
+This class represents a snappy archive file. Use it to compose or extract snappy archives.
 
 The SnappyArchive type exposes the following members:
 ## Constructors
@@ -33,7 +33,7 @@ The SnappyArchive type exposes the following members:
 |set_source(source)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |save(output)|Saves snappy archive to the stream provided.|
-|save(destination_file_name)|Saves snappy archive to destination file provided.|
+|save(destination_file_name)|Saves snappy archive to a destination file provided.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 
 ### See Also

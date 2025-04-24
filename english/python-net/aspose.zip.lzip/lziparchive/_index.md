@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.lzip/lziparchive/
 
 ## LzipArchive class
 
-This class represents Lzip archive file. Use it to compose or extract Lzip archives.
+This class represents a Lzip archive file. Use it to compose or extract Lzip archives.
 
 The LzipArchive type exposes the following members:
 ## Constructors

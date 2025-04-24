@@ -19,7 +19,7 @@ The SplitSevenZipArchiveSaveOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|segment_size|Gets the size of segment.|
+|segment_size|Gets the size of the segment.|
 |file_name|Gets the name of segments without extension.|
 
 ### See Also
