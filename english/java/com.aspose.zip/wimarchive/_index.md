@@ -1,9 +1,9 @@
 ---
 title: WimArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents wim archive file.
+description: This class represents a wim archive file.
 type: docs
-weight: 94
+weight: 95
 url: /java/com.aspose.zip/wimarchive/
 ---
 
@@ -16,13 +16,13 @@ java.lang.Object
 public class WimArchive implements IArchive, AutoCloseable
 ```
 
-This class represents wim archive file.
+This class represents a wim archive file.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WimArchive(InputStream sourceStream)](#WimArchive-java.io.InputStream-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes entries list can be extracted from the archive. |
-| [WimArchive(String path)](#WimArchive-java.lang.String-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes entries list can be extracted from the archive. |
+| [WimArchive(InputStream sourceStream)](#WimArchive-java.io.InputStream-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive. |
+| [WimArchive(String path)](#WimArchive-java.lang.String-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -42,7 +42,7 @@ public WimArchive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive.
 
 The following example shows how to extract all of the entries to a directory.
 
@@ -68,7 +68,7 @@ public WimArchive(String path)
 ```
 
 
-Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive.
 
 The following example shows how to extract all of the entries to a directory.
 

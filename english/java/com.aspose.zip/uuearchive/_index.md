@@ -3,7 +3,7 @@ title: UueArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents uuencoded file.
 type: docs
-weight: 92
+weight: 93
 url: /java/com.aspose.zip/uuearchive/
 ---
 
@@ -174,7 +174,7 @@ Extracts the archive to the file by path.
 | path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - info of extracted file
+java.io.File - info of the extracted file
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)
@@ -253,7 +253,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the archive
@@ -265,7 +265,7 @@ public final void save(OutputStream outputStream)
 
 Saves archive to the stream provided.
 
-Writes compressed data to http response stream.
+Write compressed data to http response stream.
 
 ```
 
@@ -291,7 +291,7 @@ public final void save(OutputStream outputStream, UueSaveOptions saveOptions)
 
 Saves archive to the stream provided.
 
-Writes compressed data to http response stream.
+Write compressed data to http response stream.
 
 ```
 
@@ -318,7 +318,7 @@ public final void save(String destinationFileName)
 
 Saves the archive to the destination file provided.
 
-Writes encoded data to file.
+Write encoded data to file.
 
 ```
 
@@ -344,7 +344,7 @@ public final void save(String destinationFileName, UueSaveOptions saveOptions)
 
 Saves the archive to the destination file provided.
 
-Writes encoded data to file.
+Write encoded data to file.
 
 ```
 

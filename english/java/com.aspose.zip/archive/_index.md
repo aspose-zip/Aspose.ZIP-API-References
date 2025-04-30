@@ -1,7 +1,7 @@
 ---
 title: Archive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents zip archive file.
+description: This class represents a zip archive file.
 type: docs
 weight: 11
 url: /java/com.aspose.zip/archive/
@@ -16,7 +16,7 @@ java.lang.Object
 public class Archive implements IArchive, AutoCloseable
 ```
 
-This class represents zip archive file. Use it to compose, extract, or update zip archives.
+This class represents a zip archive file. Use it to compose, extract, or update zip archives.
 ## Constructors
 
 | Constructor | Description |
@@ -36,10 +36,10 @@ This class represents zip archive file. Use it to compose, extract, or update zi
 | Method | Description |
 | --- | --- |
 | [close()](#close--) | \{@inheritDoc\} |
-| [createEntries(File directory)](#createEntries-java.io.File-) | Adds to the archive all files and directories recursively in the directory given. |
-| [createEntries(File directory, boolean includeRootDirectory)](#createEntries-java.io.File-boolean-) | Adds to the archive all files and directories recursively in the directory given. |
-| [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Adds to the archive all files and directories recursively in the directory given. |
-| [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Adds to the archive all files and directories recursively in the directory given. |
+| [createEntries(File directory)](#createEntries-java.io.File-) | Add to the archive all files and directories recursively in the directory given. |
+| [createEntries(File directory, boolean includeRootDirectory)](#createEntries-java.io.File-boolean-) | Add to the archive all files and directories recursively in the directory given. |
+| [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Add to the archive all files and directories recursively in the directory given. |
+| [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Add to the archive all files and directories recursively in the directory given. |
 | [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Creates a single entry within the archive. |
 | [createEntry(String name, File file, boolean openImmediately)](#createEntry-java.lang.String-java.io.File-boolean-) | Creates a single entry within the archive. |
 | [createEntry(String name, File file, boolean openImmediately, ArchiveEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.io.File-boolean-com.aspose.zip.ArchiveEntrySettings-) | Creates a single entry within the archive. |
@@ -399,7 +399,7 @@ public final Archive createEntries(File directory)
 ```
 
 
-Adds to the archive all files and directories recursively in the directory given.
+Add to the archive all files and directories recursively in the directory given.
 
 ```
 
@@ -424,7 +424,7 @@ public final Archive createEntries(File directory, boolean includeRootDirectory)
 ```
 
 
-Adds to the archive all files and directories recursively in the directory given.
+Add to the archive all files and directories recursively in the directory given.
 
 ```
 
@@ -450,7 +450,7 @@ public final Archive createEntries(String sourceDirectory)
 ```
 
 
-Adds to the archive all files and directories recursively in the directory given.
+Add to the archive all files and directories recursively in the directory given.
 
 ```
 
@@ -474,7 +474,7 @@ public final Archive createEntries(String sourceDirectory, boolean includeRootDi
 ```
 
 
-Adds to the archive all files and directories recursively in the directory given.
+Add to the archive all files and directories recursively in the directory given.
 
 ```
 

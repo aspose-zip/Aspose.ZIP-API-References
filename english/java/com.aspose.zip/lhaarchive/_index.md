@@ -1,7 +1,7 @@
 ---
 title: LhaArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents LHA .lzh archive file.
+description: This class represents a LHA .lzh archive file.
 type: docs
 weight: 49
 url: /java/com.aspose.zip/lhaarchive/
@@ -16,9 +16,9 @@ java.lang.Object
 public class LhaArchive implements IArchive, AutoCloseable
 ```
 
-This class represents LHA (.lzh) archive file.
+This class represents a LHA (.lzh) archive file.
 
-Only following compression methods are supported:
+Only the following compression methods are supported:
 
     | ------ | --------------------------------------------- |
     | Method | Explanation                                   |
@@ -33,8 +33,8 @@ Only following compression methods are supported:
 
 | Constructor | Description |
 | --- | --- |
-| [LhaArchive(InputStream sourceStream)](#LhaArchive-java.io.InputStream-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes entries list can be extracted from the archive. |
-| [LhaArchive(String path)](#LhaArchive-java.lang.String-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes entries list can be extracted from the archive. |
+| [LhaArchive(InputStream sourceStream)](#LhaArchive-java.io.InputStream-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive. |
+| [LhaArchive(String path)](#LhaArchive-java.lang.String-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -50,7 +50,7 @@ public LhaArchive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive.
 
 This constructor does not decompress any entry. See [LhaArchiveEntry.extract(OutputStream)](../../com.aspose.zip/lhaarchiveentry\#extract-OutputStream-) method for decompressing.
 
@@ -65,9 +65,9 @@ public LhaArchive(String path)
 ```
 
 
-Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive.
 
-The following example extract an archive, then decompress first entry to a `MemoryStream`.
+The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```
 
@@ -78,7 +78,7 @@ The following example extract an archive, then decompress first entry to a `Memo
  
 ```
 
-This constructor does not decompress any entry. See [ArchiveEntry.open()](../../com.aspose.zip/archiveentry\#open--) method for decompressing.
+This constructor does not decompress any entry. See [ArchiveEntry.extract(OutputStream)](../../com.aspose.zip/archiveentry\#extract-OutputStream-) method for decompressing.
 
 **Parameters:**
 | Parameter | Type | Description |

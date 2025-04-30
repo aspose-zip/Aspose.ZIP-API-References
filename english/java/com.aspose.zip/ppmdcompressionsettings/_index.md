@@ -3,7 +3,7 @@ title: PPMdCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for PPMd compression method.
 type: docs
-weight: 60
+weight: 61
 url: /java/com.aspose.zip/ppmdcompressionsettings/
 ---
 
@@ -74,7 +74,7 @@ Initializes a new instance of the [PPMdCompressionSettings](../../com.aspose.zip
  
 ```
 
-Default model order is 8 and sub-allocator size is 50MB.
+The default model order is 8, and the sub-allocator size is 50MB.
 
 ### getModelOrder() {#getModelOrder--}
 ```

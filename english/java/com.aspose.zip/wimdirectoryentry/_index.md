@@ -1,9 +1,9 @@
 ---
 title: WimDirectoryEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single directory within wim archive.
+description: Represents a single directory within wim archive.
 type: docs
-weight: 95
+weight: 96
 url: /java/com.aspose.zip/wimdirectoryentry/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.zip.WimEntry](../../com.aspose.zip/wimentry)
 public final class WimDirectoryEntry extends WimEntry
 ```
 
-Represents single directory within wim archive.
+Represents a single directory within wim archive.
 ## Methods
 
 | Method | Description |

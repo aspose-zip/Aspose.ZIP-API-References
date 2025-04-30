@@ -1,9 +1,9 @@
 ---
 title: WimFileEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single file within wim archive.
+description: Represents a single file within wim archive.
 type: docs
-weight: 97
+weight: 98
 url: /java/com.aspose.zip/wimfileentry/
 ---
 
@@ -16,7 +16,7 @@ java.lang.Object, [com.aspose.zip.WimEntry](../../com.aspose.zip/wimentry)
 public final class WimFileEntry extends WimEntry implements IArchiveFileEntry
 ```
 
-Represents single file within wim archive.
+Represents a single file within wim archive.
 ## Methods
 
 | Method | Description |
@@ -110,7 +110,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of a file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the entry

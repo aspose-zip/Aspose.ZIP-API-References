@@ -16,13 +16,15 @@ java.lang.Object
 public class Lz4Archive implements IArchive, IArchiveFileEntry, AutoCloseable
 ```
 
-This class represents LZ4 archive file. Use it to extract LZ4 archives.
+This class represents LZ4 archive file. Use it to extract or compose LZ4 archives.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [Lz4Archive(InputStream sourceStream)](#Lz4Archive-java.io.InputStream-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for decompressing. |
 | [Lz4Archive(String path)](#Lz4Archive-java.lang.String-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class. |
+| [Lz4Archive()](#Lz4Archive--) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for compressing. |
+| [Lz4Archive(Lz4ArchiveSetting settings)](#Lz4Archive-com.aspose.zip.Lz4ArchiveSetting-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for compressing. |
 ## Methods
 
 | Method | Description |
@@ -36,6 +38,12 @@ This class represents LZ4 archive file. Use it to extract LZ4 archives.
 | [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | Gets the original name. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
+| [save(File destination)](#save-java.io.File-) | Saves lz4 archive to destination file provided. |
+| [save(OutputStream output)](#save-java.io.OutputStream-) | Saves lz4 archive to the stream provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
+| [setSource(File fileInfo)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
+| [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
+| [setSource(String path)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
 ### Lz4Archive(InputStream sourceStream) {#Lz4Archive-java.io.InputStream-}
 ```
 public Lz4Archive(InputStream sourceStream)
@@ -99,6 +107,27 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/lz4archi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### Lz4Archive() {#Lz4Archive--}
+```
+public Lz4Archive()
+```
+
+
+Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for compressing.
+
+### Lz4Archive(Lz4ArchiveSetting settings) {#Lz4Archive-com.aspose.zip.Lz4ArchiveSetting-}
+```
+public Lz4Archive(Lz4ArchiveSetting settings)
+```
+
+
+Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for compressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| settings | [Lz4ArchiveSetting](../../com.aspose.zip/lz4archivesetting) | The setting of the composed archive. |
 
 ### close() {#close--}
 ```
@@ -230,3 +259,157 @@ Read from the stream to get the original content of a file. See examples section
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the archive
+### save(File destination) {#save-java.io.File-}
+```
+public final void save(File destination)
+```
+
+
+Saves lz4 archive to destination file provided.
+
+```
+
+     try (Lz4Archive archive = new Lz4Archive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save(new File("archive.lz4"));
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destination | java.io.File | File, which will be opened as destination stream. |
+
+### save(OutputStream output) {#save-java.io.OutputStream-}
+```
+public final void save(OutputStream output)
+```
+
+
+Saves lz4 archive to the stream provided.
+
+```
+
+     try (FileOutputStream lz4File = new FileOutputStream("archive.lz4")) {
+         try (Lz4Archive archive = new Lz4Archive()) {
+             archive.setSource("data.bin");
+             archive.save(lz4File);
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream. |
+
+### save(String destinationFileName) {#save-java.lang.String-}
+```
+public final void save(String destinationFileName)
+```
+
+
+Saves archive to the destination file provided.
+
+```
+
+     try (Lz4Archive archive = new Lz4Archive()) {
+         archive.setSource("data.bin");
+         archive.save("archive.lz4");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+
+### setSource(File fileInfo) {#setSource-java.io.File-}
+```
+public final void setSource(File fileInfo)
+```
+
+
+Sets the content to be compressed within the archive.
+
+Open an archive from a stream and extract it to a `MemoryStream`
+
+```
+
+     try (Lz4Archive archive = new Lz4Archive()) {
+         archive.setSource(new File("data.bin"));
+         archive.save("archive.lz4");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileInfo | java.io.File | The reference to a file to be compressed. |
+
+### setSource(InputStream source) {#setSource-java.io.InputStream-}
+```
+public final void setSource(InputStream source)
+```
+
+
+Sets the content to be compressed within the archive.
+
+```
+
+     try (Lz4Archive archive = new Lz4Archive()) {
+         archive.setSource(new ByteArrayInputStream(new byte[] {
+                 0x00,
+                 (byte) 0xFF
+         }));
+         archive.save("archive.lz4");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | java.io.InputStream | The input stream for the archive. |
+
+### setSource(String path) {#setSource-java.lang.String-}
+```
+public final void setSource(String path)
+```
+
+
+Sets the content to be compressed within the archive.
+
+Open an archive from file by path and extract it to a `MemoryStream`
+
+```
+
+     try (Lz4Archive archive = new Lz4Archive()) {
+         archive.setSource("data.bin");
+         archive.save("archive.lz4");
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | Path to file to be compressed. |
+

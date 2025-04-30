@@ -1,9 +1,9 @@
 ---
 title: XarLoadOptions
 second_title: Aspose.ZIP for Java API Reference
-description: Options with which archive is loaded from compressed file.
+description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 105
+weight: 106
 url: /java/com.aspose.zip/xarloadoptions/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class XarLoadOptions
 ```
 
-Options with which archive is loaded from compressed file.
+Options with which archive is loaded from a compressed file.
 ## Constructors
 
 | Constructor | Description |

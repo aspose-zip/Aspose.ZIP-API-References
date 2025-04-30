@@ -21,8 +21,8 @@ This class represents a cab archive file.
 
 | Constructor | Description |
 | --- | --- |
-| [CabArchive(InputStream sourceStream)](#CabArchive-java.io.InputStream-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes entries list can be extracted from the archive. |
-| [CabArchive(String path)](#CabArchive-java.lang.String-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes entries list can be extracted from the archive. |
+| [CabArchive(InputStream sourceStream)](#CabArchive-java.io.InputStream-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
+| [CabArchive(String path)](#CabArchive-java.lang.String-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -38,7 +38,7 @@ public CabArchive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive.
 
 The following example shows how to extract all the entries to a directory.
 
@@ -64,7 +64,7 @@ public CabArchive(String path)
 ```
 
 
-Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive.
 
 The following example shows how to extract all the entries to a directory.
 

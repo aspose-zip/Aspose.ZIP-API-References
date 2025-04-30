@@ -1,9 +1,9 @@
 ---
 title: LzipArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents Lzip archive file.
+description: This class represents a Lzip archive file.
 type: docs
-weight: 54
+weight: 55
 url: /java/com.aspose.zip/lziparchive/
 ---
 
@@ -16,7 +16,7 @@ java.lang.Object
 public class LzipArchive implements IArchive, IArchiveFileEntry, AutoCloseable
 ```
 
-This class represents Lzip archive file. Use it to compose or extract Lzip archives.
+This class represents a Lzip archive file. Use it to compose or extract Lzip archives.
 ## Constructors
 
 | Constructor | Description |
@@ -297,7 +297,7 @@ Saves lzip archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.File | the file which will be opened as destination stream |
+| destination | java.io.File | the file, which will be opened as destination stream |
 
 ### save(OutputStream outputStream) {#save-java.io.OutputStream-}
 ```

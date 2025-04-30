@@ -3,7 +3,7 @@ title: SevenZipEncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Base class for settings for several 7z encryption methods.
 type: docs
-weight: 77
+weight: 78
 url: /java/com.aspose.zip/sevenzipencryptionsettings/
 ---
 
@@ -32,7 +32,7 @@ public final boolean getEncryptHeader()
 
 Gets a value indicating header encryption.
 
-This setting is equivalent `-mhe=on` switch of 7-Zip tool. Currently it is incompatible with header compression.
+This setting is equivalent `-mhe=on` switch of 7-Zip tool. Currently, it is incompatible with header compression.
 
 **Returns:**
 boolean - a value indicating header encryption
@@ -54,7 +54,7 @@ public final void setEncryptHeader(boolean value)
 
 Sets a value indicating header encryption.
 
-This setting is equivalent `-mhe=on` switch of 7-Zip tool. Currently it is incompatible with header compression.
+This setting is equivalent `-mhe=on` switch of 7-Zip tool. Currently, it is incompatible with header compression.
 
 **Parameters:**
 | Parameter | Type | Description |

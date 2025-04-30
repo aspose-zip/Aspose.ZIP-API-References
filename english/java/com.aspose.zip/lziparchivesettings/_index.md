@@ -1,9 +1,9 @@
 ---
 title: LzipArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
-description: The class contains setting of particular lzip archive.
+description: The class contains setting of a particular lzip archive.
 type: docs
-weight: 55
+weight: 56
 url: /java/com.aspose.zip/lziparchivesettings/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class LzipArchiveSettings
 ```
 
-The class contains setting of particular lzip archive.
+The class contains setting of a particular lzip archive.
 ## Constructors
 
 | Constructor | Description |
@@ -58,7 +58,7 @@ Initializes a new instance of the [LzipArchiveSettings](../../com.aspose.zip/lzi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dictionarySize | int | dictionary size for LZMA compression in bytes |
-| maxMemberSize | int | maximum size of one member in lzip archive presented in bytes. Default value is 60 MB |
+| maxMemberSize | int | Maximum size of one member in lzip archive presented in bytes. The default value is 60 MB. |
 
 ### getCompressionThreads() {#getCompressionThreads--}
 ```
@@ -66,7 +66,7 @@ public final int getCompressionThreads()
 ```
 
 
-Gets compression thread count. If the value greater than 1, multithreading compression will be used.
+Gets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 **Returns:**
 int - compression thread count
@@ -146,7 +146,7 @@ public final void setCompressionThreads(int value)
 ```
 
 
-Sets compression thread count. If the value greater than 1, multithreading compression will be used.
+Sets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 **Parameters:**
 | Parameter | Type | Description |

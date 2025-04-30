@@ -1,9 +1,9 @@
 ---
 title: WimEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single file or directory within wim image.
+description: Represents a single file or directory within wim image.
 type: docs
-weight: 96
+weight: 97
 url: /java/com.aspose.zip/wimentry/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class WimEntry
 ```
 
-Represents single file or directory within wim image.
+Represents a single file or directory within wim image.
 ## Methods
 
 | Method | Description |
