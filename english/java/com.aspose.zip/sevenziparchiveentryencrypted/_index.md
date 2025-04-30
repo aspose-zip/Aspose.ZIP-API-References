@@ -3,7 +3,7 @@ title: SevenZipArchiveEntryEncrypted
 second_title: Aspose.ZIP for Java API Reference
 description: SevenZip archive entry that needs to be compressed with encryption or decompressed with decryption.
 type: docs
-weight: 72
+weight: 73
 url: /java/com.aspose.zip/sevenziparchiveentryencrypted/
 ---
 

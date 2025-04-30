@@ -1,7 +1,7 @@
 ---
 title: ArjEntryPlain
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single file within ARJ archive.
+description: Represents a single file within ARJ archive.
 type: docs
 weight: 22
 url: /java/com.aspose.zip/arjentryplain/
@@ -16,7 +16,7 @@ java.lang.Object
 public class ArjEntryPlain implements IArchiveFileEntry
 ```
 
-Represents single file within ARJ archive.
+Represents a single file within ARJ archive.
 ## Methods
 
 | Method | Description |
@@ -24,10 +24,10 @@ Represents single file within ARJ archive.
 | [extract(File file)](#extract-java.io.File-) | Extracts ARJ archive entry to a file. |
 | [extract(OutputStream destination)](#extract-java.io.OutputStream-) | Extracts the entry to the stream provided. |
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
-| [getCompressedSize()](#getCompressedSize--) | Gets size of compressed file. |
+| [getCompressedSize()](#getCompressedSize--) | Gets the size of the compressed file. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
-| [getName()](#getName--) | Gets name of the entry within archive. |
-| [getUncompressedSize()](#getUncompressedSize--) | Gets size of original file. |
+| [getName()](#getName--) | Gets name of the entry within the archive. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets size of the original file. |
 ### extract(File file) {#extract-java.io.File-}
 ```
 public final void extract(File file)
@@ -97,17 +97,17 @@ Extract two entries of rar archive.
 | path | java.lang.String | the path to destination file. If the file already exists, it will be overwritten |
 
 **Returns:**
-java.io.File - the file info of composed file
+java.io.File - the file info of the composed file
 ### getCompressedSize() {#getCompressedSize--}
 ```
 public final long getCompressedSize()
 ```
 
 
-Gets size of compressed file.
+Gets the size of the compressed file.
 
 **Returns:**
-long - size of compressed file
+long - the size of the compressed file
 ### getLength() {#getLength--}
 ```
 public final Long getLength()
@@ -124,17 +124,17 @@ public final String getName()
 ```
 
 
-Gets name of the entry within archive.
+Gets name of the entry within the archive.
 
 **Returns:**
-java.lang.String - name of the entry within archive
+java.lang.String - name of the entry within the archive
 ### getUncompressedSize() {#getUncompressedSize--}
 ```
 public final long getUncompressedSize()
 ```
 
 
-Gets size of original file.
+Gets size of the original file.
 
 **Returns:**
-long - size of original file
+long - size of the original file

@@ -1,9 +1,9 @@
 ---
 title: SharEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single file within shar archive.
+description: Represents a single file within shar archive.
 type: docs
-weight: 84
+weight: 85
 url: /java/com.aspose.zip/sharentry/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class SharEntry
 ```
 
-Represents single file within shar archive.
+Represents a single file within shar archive.
 ## Methods
 
 | Method | Description |

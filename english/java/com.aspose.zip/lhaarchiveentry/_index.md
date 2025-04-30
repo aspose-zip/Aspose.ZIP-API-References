@@ -1,7 +1,7 @@
 ---
 title: LhaArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single file within Lha archive.
+description: Represents a single file within Lha archive.
 type: docs
 weight: 50
 url: /java/com.aspose.zip/lhaarchiveentry/
@@ -16,7 +16,7 @@ java.lang.Object
 public class LhaArchiveEntry implements IArchiveFileEntry
 ```
 
-Represents single file within Lha archive.
+Represents a single file within Lha archive.
 ## Methods
 
 | Method | Description |

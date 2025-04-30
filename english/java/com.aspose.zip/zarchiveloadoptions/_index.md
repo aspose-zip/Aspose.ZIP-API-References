@@ -1,9 +1,9 @@
 ---
 title: ZArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
-description: Options with which  is loaded from compressed file.
+description: Options with which  is loaded from a compressed file.
 type: docs
-weight: 116
+weight: 117
 url: /java/com.aspose.zip/zarchiveloadoptions/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class ZArchiveLoadOptions
 ```
 
-Options with which [ZArchive](../../com.aspose.zip/zarchive) is loaded from compressed file. Contains event raised on extraction.
+Options with which [ZArchive](../../com.aspose.zip/zarchive) is loaded from a compressed file. Contains event raised on extraction.
 ## Constructors
 
 | Constructor | Description |

@@ -1,9 +1,9 @@
 ---
 title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents tar archive file.
+description: This class represents a tar archive file.
 type: docs
-weight: 89
+weight: 90
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -16,14 +16,14 @@ java.lang.Object
 public class TarArchive implements IArchive, AutoCloseable
 ```
 
-This class represents tar archive file. Use it to compose, extract, or update tar archives.
+This class represents a tar archive file. Use it to compose, extract, or update tar archives.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
 | [TarArchive()](#TarArchive--) | Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) class. |
 | [TarArchive(InputStream sourceStream)](#TarArchive-java.io.InputStream-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
-| [TarArchive(String path)](#TarArchive-java.lang.String-) | Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) class and composes entries list can be extracted from the archive. |
+| [TarArchive(String path)](#TarArchive-java.lang.String-) | Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -44,6 +44,8 @@ This class represents tar archive file. Use it to compose, extract, or update ta
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [fromGZip(InputStream source)](#fromGZip-java.io.InputStream-) | Extracts supplied gzip archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromGZip(String path)](#fromGZip-java.lang.String-) | Extracts supplied gzip archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromLZ4(InputStream source)](#fromLZ4-java.io.InputStream-) | Extracts supplied LZ4 archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
+| [fromLZ4(String path)](#fromLZ4-java.lang.String-) | Extracts supplied LZ4 archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromLZMA(InputStream source)](#fromLZMA-java.io.InputStream-) | Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromLZMA(String path)](#fromLZMA-java.lang.String-) | Extracts supplied LZMA archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
 | [fromLZip(InputStream source)](#fromLZip-java.io.InputStream-) | Extracts supplied lzip archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data. |
@@ -141,9 +143,9 @@ public TarArchive(String path)
 ```
 
 
-Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -577,6 +579,44 @@ GZip extraction stream is not seekable by the nature of compression algorithm. T
 
 **Returns:**
 [TarArchive](../../com.aspose.zip/tararchive) - an instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromLZ4(InputStream source) {#fromLZ4-java.io.InputStream-}
+```
+public static TarArchive fromLZ4(InputStream source)
+```
+
+
+Extracts supplied LZ4 archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: LZ4 archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | java.io.InputStream | The source of the archive.
+
+LZ4 extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood. |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
+### fromLZ4(String path) {#fromLZ4-java.lang.String-}
+```
+public static TarArchive fromLZ4(String path)
+```
+
+
+Extracts supplied LZ4 archive and composes [TarArchive](../../com.aspose.zip/tararchive) from extracted data.
+
+Important: LZ4 archive is fully extracted within this method, its content is kept internally. Beware of memory consumption.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path to the archive file.
+
+LZ4 extraction stream is not seekable by the nature of compression algorithm. Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood. |
+
+**Returns:**
+[TarArchive](../../com.aspose.zip/tararchive) - An instance of [TarArchive](../../com.aspose.zip/tararchive)
 ### fromLZMA(InputStream source) {#fromLZMA-java.io.InputStream-}
 ```
 public static TarArchive fromLZMA(InputStream source)
@@ -848,7 +888,7 @@ Saves archive to the stream provided.
 | output | java.io.OutputStream | destination stream.
 
 `output` must be writable |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines the tar header format. Null value will be treated as USTar when possible |
 
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
@@ -1200,7 +1240,7 @@ Saves archive to the stream with lzip compression.
 | output | java.io.OutputStream | destination stream.
 
 `output` must be writable |
-| format | [TarFormat](../../com.aspose.zip/tarformat) | defines tar header format. Null value will be treated as USTar when possible |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | defines the tar header format. Null value will be treated as USTar when possible |
 
 ### saveLzipped(String path) {#saveLzipped-java.lang.String-}
 ```

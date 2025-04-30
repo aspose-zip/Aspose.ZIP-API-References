@@ -3,7 +3,7 @@ title: SplitArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a multi-volume zip archive.
 type: docs
-weight: 86
+weight: 87
 url: /java/com.aspose.zip/splitarchivesaveoptions/
 ---
 
@@ -28,7 +28,7 @@ Options for saving a multi-volume zip archive.
 | [getEncoding()](#getEncoding--) | Gets encoding for converting file names and other strings to bytes. |
 | [getEventsBag()](#getEventsBag--) | Gets container of events raising on archive saving. |
 | [getFileName()](#getFileName--) | Gets the name of segments without extension. |
-| [getSegmentSize()](#getSegmentSize--) | Gets the size of segment. |
+| [getSegmentSize()](#getSegmentSize--) | Gets the size of the segment. |
 | [setArchiveComment(String value)](#setArchiveComment-java.lang.String-) | Sets optional comment for the Zip file. |
 | [setCloseEntrySource(boolean value)](#setCloseEntrySource-boolean-) | Sets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets encoding for converting file names and other strings to bytes. |
@@ -41,7 +41,7 @@ public SplitArchiveSaveOptions(String fileName, long segmentSize)
 
 Instantiates settings for saving a multi-volume zip archive.
 
-Some volumes may be less than `segmentSize`. In most cases the last segment will be less but rarely regular segments might be too.
+Some volumes may be less than `segmentSize`. In most cases, the last segment will be less but rarely regular segments might be too.
 
 Names of files will be as follows: `fileName`.z01, `fileName`.z02, ..., `fileName`.z(n-1), `fileName`.zip.
 
@@ -70,7 +70,7 @@ public final boolean getCloseEntrySource()
 Gets a value indicating whether entries' sources should be closed right after an entry has been compressed.
 
 **Returns:**
-boolean - a value indicating whether entries' sources should be closed right after an entry has been compressed
+boolean - a value indicating whether entries' sources should be closed right after an entry has been compressed.
 ### getEncoding() {#getEncoding--}
 ```
 public final Charset getEncoding()
@@ -92,7 +92,7 @@ public final EventsBag getEventsBag()
 Gets container of events raising on archive saving.
 
 **Returns:**
-[EventsBag](../../com.aspose.zip/eventsbag) - container of events raising on archive saving
+[EventsBag](../../com.aspose.zip/eventsbag) - container of events raising on archive saving.
 ### getFileName() {#getFileName--}
 ```
 public final String getFileName()
@@ -109,10 +109,10 @@ public final long getSegmentSize()
 ```
 
 
-Gets the size of segment.
+Gets the size of the segment.
 
 **Returns:**
-long - the size of segment.
+long - the size of the segment.
 ### setArchiveComment(String value) {#setArchiveComment-java.lang.String-}
 ```
 public final void setArchiveComment(String value)
@@ -137,7 +137,7 @@ Sets a value indicating whether entries' sources should be closed right after an
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether entries' sources should be closed right after an entry has been compressed |
+| value | boolean | a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -165,5 +165,5 @@ Sets container of events raising on archive saving.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EventsBag](../../com.aspose.zip/eventsbag) | container of events raising on archive saving |
+| value | [EventsBag](../../com.aspose.zip/eventsbag) | container of events raising on archive saving. |
 

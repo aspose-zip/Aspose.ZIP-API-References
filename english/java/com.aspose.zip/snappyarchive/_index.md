@@ -1,9 +1,9 @@
 ---
 title: SnappyArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents snappy archive file.
+description: This class represents a snappy archive file.
 type: docs
-weight: 85
+weight: 86
 url: /java/com.aspose.zip/snappyarchive/
 ---
 
@@ -16,7 +16,7 @@ java.lang.Object
 public class SnappyArchive implements IArchive, IArchiveFileEntry, AutoCloseable
 ```
 
-This class represents snappy archive file. Use it to compose or extract snappy archives.
+This class represents a snappy archive file. Use it to compose or extract snappy archives.
 ## Constructors
 
 | Constructor | Description |
@@ -37,9 +37,9 @@ This class represents snappy archive file. Use it to compose or extract snappy a
 | [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | The name of original file. |
-| [save(File destination)](#save-java.io.File-) | Saves snappy archive to destination file provided. |
+| [save(File destination)](#save-java.io.File-) | Saves snappy archive to the destination file provided. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves snappy archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves snappy archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves snappy archive to the destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String sourcePath)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
@@ -258,7 +258,7 @@ public final void save(File destination)
 ```
 
 
-Saves snappy archive to destination file provided.
+Saves snappy archive to the destination file provided.
 
 ```
 
@@ -274,7 +274,7 @@ Saves snappy archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.File | the file which will be opened as a destination stream |
+| destination | java.io.File | the file, which will be opened as a destination stream |
 
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
@@ -309,7 +309,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves snappy archive to destination file provided.
+Saves snappy archive to the destination file provided.
 
 ```
 

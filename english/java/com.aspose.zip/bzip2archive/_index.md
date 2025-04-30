@@ -348,7 +348,7 @@ public final void save(OutputStream outputStream)
 
 Saves archive to the stream provided.
 
-Writes compressed data to an output stream.
+Write compressed data to an output stream.
 
 ```
 
@@ -376,7 +376,7 @@ public final void save(OutputStream outputStream, Bzip2SaveOptions saveOptions)
 
 Saves archive to the stream provided.
 
-Writes compressed data to an output stream.
+Write compressed data to an output stream.
 
 ```
 

@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xz archive file.
 type: docs
-weight: 109
+weight: 110
 url: /java/com.aspose.zip/xzarchive/
 ---
 
@@ -39,7 +39,7 @@ This class represents xz archive file. Use it to compose and extract xz archives
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves xz archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves xz archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves xz archive to the destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String sourcePath)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
@@ -272,7 +272,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves xz archive to destination file provided.
+Saves xz archive to the destination file provided.
 
 ```
 
@@ -312,7 +312,7 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.io.File | file which will be opened as input stream |
+| file | java.io.File | file, which will be opened as input stream |
 
 ### setSource(InputStream source) {#setSource-java.io.InputStream-}
 ```

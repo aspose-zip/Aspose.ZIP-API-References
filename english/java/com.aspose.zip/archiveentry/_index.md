@@ -28,15 +28,15 @@ Cast an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance to [ArchiveEn
 | [extract(String path)](#extract-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
 | [extract(String path, String password)](#extract-java.lang.String-java.lang.String-) | Extracts the entry to the filesystem by the path provided. |
 | [getComment()](#getComment--) | Gets comment of the entry within archive. |
-| [getCompressedSize()](#getCompressedSize--) | Gets size of compressed file. |
+| [getCompressedSize()](#getCompressedSize--) | Gets size of the compressed file. |
 | [getCompressionProgressed()](#getCompressionProgressed--) | Gets an event that is raised when a portion of raw stream compressed. |
 | [getCompressionSettings()](#getCompressionSettings--) | Gets settings for compression or decompression. |
-| [getDataSource()](#getDataSource--) | Source for the entry if the entry was added to archive, not extracted. |
+| [getDataSource()](#getDataSource--) | Source for the entry if the entry was added to the archive, not extracted. |
 | [getExtractionProgressed()](#getExtractionProgressed--) | Gets an event that is raised when a portion of raw stream extracted. |
 | [getLength()](#getLength--) | Gets length. |
 | [getModificationTime()](#getModificationTime--) | Gets last modified date and time. |
-| [getName()](#getName--) | Gets the name of the entry within archive. |
-| [getUncompressedSize()](#getUncompressedSize--) | Gets size of original file. |
+| [getName()](#getName--) | Gets name of the entry within the archive. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets size of the original file. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 | [open(String password)](#open-java.lang.String-) | Opens the entry for extraction and provides a stream with decompressed entry content. |
@@ -168,17 +168,17 @@ public final String getComment()
 Gets comment of the entry within archive.
 
 **Returns:**
-java.lang.String - comment of the entry within archive.
+java.lang.String - comment of the entry within archive
 ### getCompressedSize() {#getCompressedSize--}
 ```
 public final long getCompressedSize()
 ```
 
 
-Gets size of compressed file.
+Gets size of the compressed file.
 
 **Returns:**
-long - size of compressed file.
+long - size of the compressed file
 ### getCompressionProgressed() {#getCompressionProgressed--}
 ```
 public final Event<ProgressEventArgs> getCompressionProgressed()
@@ -217,7 +217,7 @@ public final InputStream getDataSource()
 ```
 
 
-Source for the entry if the entry was added to archive, not extracted.
+Source for the entry if the entry was added to the archive, not extracted.
 
 Before assigned, the source is null. This source may be assigned within `Archive.save` method in some cases.
 
@@ -264,27 +264,27 @@ public final Date getModificationTime()
 Gets last modified date and time.
 
 **Returns:**
-java.util.Date - last modified date and time.
+java.util.Date - last modified date and time
 ### getName() {#getName--}
 ```
 public final String getName()
 ```
 
 
-Gets the name of the entry within archive.
+Gets name of the entry within the archive.
 
 **Returns:**
-java.lang.String - the name of the entry within archive.
+java.lang.String - name of the entry within the archive
 ### getUncompressedSize() {#getUncompressedSize--}
 ```
 public final long getUncompressedSize()
 ```
 
 
-Gets size of original file.
+Gets size of the original file.
 
 **Returns:**
-long - size of original file.
+long - size of the original file
 ### isDirectory() {#isDirectory--}
 ```
 public final boolean isDirectory()
@@ -316,7 +316,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file.
+Read from the stream to get the original content of the file.
 
 **Returns:**
 java.io.InputStream - The stream that represents the contents of the entry.
@@ -341,7 +341,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,5 +411,5 @@ Sets last modified date and time.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.Date | last modified date and time. |
+| value | java.util.Date | last modified date and time |
 
