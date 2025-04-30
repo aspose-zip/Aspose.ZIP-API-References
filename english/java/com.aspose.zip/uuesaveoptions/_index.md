@@ -3,7 +3,7 @@ title: UueSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving an uuencoded file.
 type: docs
-weight: 93
+weight: 94
 url: /java/com.aspose.zip/uuesaveoptions/
 ---
 
@@ -18,8 +18,8 @@ Options for saving an uuencoded file.
 
 | Constructor | Description |
 | --- | --- |
-| [UueSaveOptions(String fileName, String newLine)](#UueSaveOptions-java.lang.String-java.lang.String-) | Initializes the options with the user provided file name and the new line. |
-| [UueSaveOptions(String fileName)](#UueSaveOptions-java.lang.String-) | Initializes the options with the user provided file name and the default new line. |
+| [UueSaveOptions(String fileName, String newLine)](#UueSaveOptions-java.lang.String-java.lang.String-) | Initializes the options with user provided file name and new line. |
+| [UueSaveOptions(String fileName)](#UueSaveOptions-java.lang.String-) | Initializes the options with user provided file name and the default new line. |
 ## Methods
 
 | Method | Description |
@@ -34,7 +34,7 @@ public UueSaveOptions(String fileName, String newLine)
 ```
 
 
-Initializes the options with the user provided file name and the new line.
+Initializes the options with user provided file name and new line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -48,7 +48,7 @@ public UueSaveOptions(String fileName)
 ```
 
 
-Initializes the options with the user provided file name and the default new line.
+Initializes the options with user provided file name and the default new line.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -74,7 +74,7 @@ public final String getNewLine()
 Gets the character terminating each line, usually "\\n" or "\\r\\n".
 
 **Returns:**
-java.lang.String - the character terminating each line
+java.lang.String - the character terminating each line, usually "\\n" or "\\r\\n".
 ### getUnixFilePermissions() {#getUnixFilePermissions--}
 ```
 public final String getUnixFilePermissions()

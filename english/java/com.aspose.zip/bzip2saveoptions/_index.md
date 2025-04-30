@@ -118,10 +118,10 @@ public final int getCompressionThreads()
 ```
 
 
-Gets compression thread count. If the value greater than 1, multithreading compression will be used.
+Gets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 **Returns:**
-int - Compression thread count.
+int - compression thread count.
 ### setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
 ```
 public void setCompressionProgressed(Event<ProgressEventArgs> value)
@@ -153,10 +153,10 @@ public final void setCompressionThreads(int value)
 ```
 
 
-Sets compression thread count. If the value greater than 1, multithreading compression will be used.
+Sets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Compression thread count. |
+| value | int | compression thread count. |
 

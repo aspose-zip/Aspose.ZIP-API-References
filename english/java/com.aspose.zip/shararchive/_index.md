@@ -3,7 +3,7 @@ title: SharArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a shar archive file.
 type: docs
-weight: 83
+weight: 84
 url: /java/com.aspose.zip/shararchive/
 ---
 
@@ -33,12 +33,12 @@ This class represents a shar archive file.
 | [createEntries(String sourceDirectory)](#createEntries-java.lang.String-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntries(String sourceDirectory, boolean includeRootDirectory)](#createEntries-java.lang.String-boolean-) | Adds to the archive all the files and directories recursively in the directory given. |
 | [createEntry(String name, File file)](#createEntry-java.lang.String-java.io.File-) | Creates a single entry within the archive. |
-| [createEntry(String name, File file, boolean includeRootDirectory)](#createEntry-java.lang.String-java.io.File-boolean-) | Creates a single entry within the archive. |
-| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Creates a single entry within the archive. |
-| [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
-| [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
+| [createEntry(String name, File file, boolean includeRootDirectory)](#createEntry-java.lang.String-java.io.File-boolean-) | Create a single entry within the archive. |
+| [createEntry(String name, InputStream source)](#createEntry-java.lang.String-java.io.InputStream-) | Create a single entry within the archive. |
+| [createEntry(String name, String sourcePath)](#createEntry-java.lang.String-java.lang.String-) | Create a single entry within the archive. |
+| [createEntry(String name, String sourcePath, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Create a single entry within the archive. |
 | [deleteEntry(SharEntry entry)](#deleteEntry-com.aspose.zip.SharEntry-) | Removes the first occurrence of a specific entry from the entry list. |
-| [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entries list by index. |
+| [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entry list by index. |
 | [getEntries()](#getEntries--) | Gets entries of [SharEntry](../../com.aspose.zip/sharentry) type constituting the archive. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
@@ -236,7 +236,7 @@ public final SharEntry createEntry(String name, File file, boolean includeRootDi
 ```
 
 
-Creates a single entry within the archive.
+Create a single entry within the archive.
 
 ```
 
@@ -265,7 +265,7 @@ public final SharEntry createEntry(String name, InputStream source)
 ```
 
 
-Creates a single entry within the archive.
+Create a single entry within the archive.
 
 ```
 
@@ -293,7 +293,7 @@ public final SharEntry createEntry(String name, String sourcePath)
 ```
 
 
-Creates a single entry within the archive.
+Create a single entry within the archive.
 
 ```
 
@@ -320,7 +320,7 @@ public final SharEntry createEntry(String name, String sourcePath, boolean openI
 ```
 
 
-Creates a single entry within the archive.
+Create a single entry within the archive.
 
 ```
 
@@ -340,7 +340,7 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 | --- | --- | --- |
 | name | java.lang.String | the name of the entry |
 | sourcePath | java.lang.String | the path to file to be compressed |
-| openImmediately | boolean | true if open the file immediately, otherwise open the file on archive saving |
+| openImmediately | boolean | true, if open the file immediately, otherwise open the file on archive saving |
 
 **Returns:**
 [SharEntry](../../com.aspose.zip/sharentry) - Shar entry instance
@@ -379,7 +379,7 @@ public final SharArchive deleteEntry(int entryIndex)
 ```
 
 
-Removes the entry from the entries list by index.
+Removes the entry from the entry list by index.
 
 ```
 

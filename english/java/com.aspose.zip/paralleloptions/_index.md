@@ -3,7 +3,7 @@ title: ParallelOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for parallel compression.
 type: docs
-weight: 61
+weight: 62
 url: /java/com.aspose.zip/paralleloptions/
 ---
 
@@ -39,9 +39,9 @@ These options manage simultaneous compression by several CPU cores.
 
 | Method | Description |
 | --- | --- |
-| [getAvailableMemorySize()](#getAvailableMemorySize--) | Gets memory estimate in megabytes available to accommodate compressed entries without swap to disk. |
+| [getAvailableMemorySize()](#getAvailableMemorySize--) | Gets memory estimate in megabytes available to accomodate compressed entries without a swap to disk. |
 | [getParallelCompressInMemory()](#getParallelCompressInMemory--) | Gets value indicating how parallel approach to be used. |
-| [setAvailableMemorySize(int value)](#setAvailableMemorySize-int-) | Sets memory estimate in megabytes available to accommodate compressed entries without swap to disk. |
+| [setAvailableMemorySize(int value)](#setAvailableMemorySize-int-) | Sets memory estimate in megabytes available to accomodate compressed entries without a swap to disk. |
 | [setParallelCompressInMemory(ParallelCompressionMode value)](#setParallelCompressInMemory-com.aspose.zip.ParallelCompressionMode-) | Sets value indicating how parallel approach to be used. |
 ### ParallelOptions() {#ParallelOptions--}
 ```
@@ -55,12 +55,12 @@ public final int getAvailableMemorySize()
 ```
 
 
-Gets memory estimate in megabytes available to accommodate compressed entries without swap to disk. This value only makes sense if [getParallelCompressInMemory()](../../com.aspose.zip/paralleloptions\#getParallelCompressInMemory--) setting is in [ParallelCompressionMode.Auto](../../com.aspose.zip/parallelcompressionmode\#Auto) mode.
+Gets memory estimate in megabytes available to accomodate compressed entries without a swap to disk. This value only makes sense if [getParallelCompressInMemory()](../../com.aspose.zip/paralleloptions\#getParallelCompressInMemory--) setting is in [ParallelCompressionMode.Auto](../../com.aspose.zip/parallelcompressionmode\#Auto) mode.
 
-This value is used to calculate biggest size of entry that can be compressed in parallel with others. All entries above the calculated threshold will be compressed sequentially. It is safe to have [getAvailableMemorySize()](../../com.aspose.zip/paralleloptions\#getAvailableMemorySize--) property as big as free RAM and even bigger. By default it is assumed you have at least 200MB per CPU core.
+This value is used to calculate the biggest size of entry that can be compressed in parallel with others. All entries above the calculated threshold will be compressed sequentially. It is safe to have [getAvailableMemorySize()](../../com.aspose.zip/paralleloptions\#getAvailableMemorySize--) property as big as free RAM and even bigger. By default it is assumed you have at least 200MB per CPU core.
 
 **Returns:**
-int - memory estimate in megabytes
+int - memory estimate in megabytes available to accomodate compressed entries without a swap to disk.
 ### getParallelCompressInMemory() {#getParallelCompressInMemory--}
 ```
 public final ParallelCompressionMode getParallelCompressInMemory()
@@ -77,14 +77,14 @@ public final void setAvailableMemorySize(int value)
 ```
 
 
-Sets memory estimate in megabytes available to accommodate compressed entries without swap to disk. This value only makes sense if [getParallelCompressInMemory()](../../com.aspose.zip/paralleloptions\#getParallelCompressInMemory--) setting is in [ParallelCompressionMode.Auto](../../com.aspose.zip/parallelcompressionmode\#Auto) mode.
+Sets memory estimate in megabytes available to accomodate compressed entries without a swap to disk. This value only makes sense if [getParallelCompressInMemory()](../../com.aspose.zip/paralleloptions\#getParallelCompressInMemory--) setting is in [ParallelCompressionMode.Auto](../../com.aspose.zip/parallelcompressionmode\#Auto) mode.
 
-This value is used to calculate biggest size of entry that can be compressed in parallel with others. All entries above the calculated threshold will be compressed sequentially. It is safe to have [getAvailableMemorySize()](../../com.aspose.zip/paralleloptions\#getAvailableMemorySize--) property as big as free RAM and even bigger. By default it is assumed you have at least 200MB per CPU core.
+This value is used to calculate the biggest size of entry that can be compressed in parallel with others. All entries above the calculated threshold will be compressed sequentially. It is safe to have [getAvailableMemorySize()](../../com.aspose.zip/paralleloptions\#getAvailableMemorySize--) property as big as free RAM and even bigger. By default it is assumed you have at least 200MB per CPU core.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | memory estimate in megabytes |
+| value | int | memory estimate in megabytes available to accomodate compressed entries without a swap to disk. |
 
 ### setParallelCompressInMemory(ParallelCompressionMode value) {#setParallelCompressInMemory-com.aspose.zip.ParallelCompressionMode-}
 ```

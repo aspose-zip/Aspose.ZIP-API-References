@@ -3,7 +3,7 @@ title: LzmaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZMA archive file.
 type: docs
-weight: 56
+weight: 57
 url: /java/com.aspose.zip/lzmaarchive/
 ---
 
@@ -279,7 +279,7 @@ Saves lzma archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.File | the file which will be opened as destination stream |
+| destination | java.io.File | the file, which will be opened as destination stream |
 
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
@@ -355,7 +355,7 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.io.File | the file which will be opened as input stream |
+| file | java.io.File | the file, which will be opened as input stream |
 
 ### setSource(InputStream source) {#setSource-java.io.InputStream-}
 ```
@@ -403,5 +403,5 @@ Sets the content to be compressed within the archive.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourcePath | java.lang.String | path to file which will be opened as input stream |
+| sourcePath | java.lang.String | path to file, which will be opened as input stream |
 

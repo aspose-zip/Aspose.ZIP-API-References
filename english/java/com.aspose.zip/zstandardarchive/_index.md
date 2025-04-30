@@ -3,7 +3,7 @@ title: ZstandardArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a Zstandard archive file.
 type: docs
-weight: 118
+weight: 119
 url: /java/com.aspose.zip/zstandardarchive/
 ---
 
@@ -39,12 +39,12 @@ This class represents a Zstandard archive file. Use it to compose Zstandard arch
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
 | [open()](#open--) | Opens the archive for extraction and provides a stream with archive content. |
-| [save(File destination)](#save-java.io.File-) | Saves archive to destination file provided. |
-| [save(File destination, ZstandardSaveOptions settings)](#save-java.io.File-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to destination file provided. |
+| [save(File destination)](#save-java.io.File-) | Saves archive to the destination file provided. |
+| [save(File destination, ZstandardSaveOptions settings)](#save-java.io.File-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to the destination file provided. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream outputStream, ZstandardSaveOptions settings)](#save-java.io.OutputStream-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to the stream provided. |
-| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to destination file provided. |
-| [save(String destinationFileName, ZstandardSaveOptions settings)](#save-java.lang.String-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to destination file provided. |
+| [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
+| [save(String destinationFileName, ZstandardSaveOptions settings)](#save-java.lang.String-com.aspose.zip.ZstandardSaveOptions-) | Saves archive to the destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String path)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
@@ -331,7 +331,7 @@ Extracts the archive and copies extracted content to file stream.
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the archive
@@ -341,7 +341,7 @@ public final void save(File destination)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -365,7 +365,7 @@ public final void save(File destination, ZstandardSaveOptions settings)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -381,7 +381,7 @@ Saves archive to destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destination | java.io.File | the file which will be opened as destination stream |
+| destination | java.io.File | the file, which will be opened as destination stream |
 | settings | [ZstandardSaveOptions](../../com.aspose.zip/zstandardsaveoptions) | the settings for archive composition |
 
 ### save(OutputStream outputStream) {#save-java.io.OutputStream-}
@@ -392,7 +392,7 @@ public final void save(OutputStream outputStream)
 
 Saves archive to the stream provided.
 
-Writes compressed data to http response stream.
+Write compressed data to http response stream.
 
 ```
 
@@ -418,7 +418,7 @@ public final void save(OutputStream outputStream, ZstandardSaveOptions settings)
 
 Saves archive to the stream provided.
 
-Writes compressed data to http response stream.
+Write compressed data to http response stream.
 
 ```
 
@@ -443,7 +443,7 @@ public final void save(String destinationFileName)
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 
@@ -467,7 +467,7 @@ public final void save(String destinationFileName, ZstandardSaveOptions settings
 ```
 
 
-Saves archive to destination file provided.
+Saves archive to the destination file provided.
 
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: ArjArchive
 second_title: Aspose.ZIP for Java API Reference
-description: This class represents ARJ archive file.
+description: This class represents an ARJ archive file.
 type: docs
 weight: 21
 url: /java/com.aspose.zip/arjarchive/
@@ -16,9 +16,9 @@ java.lang.Object
 public class ArjArchive implements IArchive, AutoCloseable
 ```
 
-This class represents ARJ archive file.
+This class represents an ARJ archive file.
 
-Only following compression methods are supported:
+Only the following compression methods are supported:
 
     | ------ | ------------------------------------------------------------ |
     | Method | Explanation                                                  |
@@ -30,8 +30,8 @@ Only following compression methods are supported:
 
 | Constructor | Description |
 | --- | --- |
-| [ArjArchive(InputStream extractionSource)](#ArjArchive-java.io.InputStream-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes entries list can be extracted from the archive. |
-| [ArjArchive(String path)](#ArjArchive-java.lang.String-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes entries list can be extracted from the archive. |
+| [ArjArchive(InputStream extractionSource)](#ArjArchive-java.io.InputStream-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive. |
+| [ArjArchive(String path)](#ArjArchive-java.lang.String-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -49,7 +49,7 @@ public ArjArchive(InputStream extractionSource)
 ```
 
 
-Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive.
 
 This constructor does not decompress any entry. See [ArjEntryPlain.extract(java.io.OutputStream)](../../com.aspose.zip/arjentryplain\#extract-java.io.OutputStream-) method for decompressing.
 
@@ -64,15 +64,15 @@ public ArjArchive(String path)
 ```
 
 
-Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes entries list can be extracted from the archive.
+Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
- using (var archive = new ArjArchive("archive.arj"))
- {
-    archive.ExtractToDirectory("C:\extracted");
+     try (ArjArchive archive = new ArjArchive("archive.arj")) {
+         archive.extractToDirectory("C:\\extracted");
+     } catch (IOException ex) {
  }
  
 ```

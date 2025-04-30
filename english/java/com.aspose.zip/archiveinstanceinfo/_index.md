@@ -18,23 +18,23 @@ Represents information about the archive instance.
 
 | Method | Description |
 | --- | --- |
-| [areFileNamesEncrypted()](#areFileNamesEncrypted--) | Gets a value indicating whether names of entries (files) of the archive are encrypted. |
+| [areFileNamesEncrypted()](#areFileNamesEncrypted--) | Gets a value indicating whether the names of entries (files) of the archive are encrypted. |
 | [getArchiveFormatInfo(InputStream stream)](#getArchiveFormatInfo-java.io.InputStream-) | Gets archive format info. |
 | [getArchiveFormatInfo(String fileName)](#getArchiveFormatInfo-java.lang.String-) | Gets archive format info. |
 | [getArchiveInstanceInfo(InputStream stream)](#getArchiveInstanceInfo-java.io.InputStream-) | Gets archive instance info. |
 | [getArchiveInstanceInfo(String fileName)](#getArchiveInstanceInfo-java.lang.String-) | Gets archive instance info. |
 | [getFormatInfo()](#getFormatInfo--) | Gets the archive format info. |
-| [isContentEncrypted()](#isContentEncrypted--) | Gets a value indicating whether content of the archive is encrypted. |
+| [isContentEncrypted()](#isContentEncrypted--) | Gets a value indicating whether the content of the archive is encrypted. |
 ### areFileNamesEncrypted() {#areFileNamesEncrypted--}
 ```
 public final boolean areFileNamesEncrypted()
 ```
 
 
-Gets a value indicating whether names of entries (files) of the archive are encrypted.
+Gets a value indicating whether the names of entries (files) of the archive are encrypted.
 
 **Returns:**
-boolean - a value indicating whether names of entries (files) of the archive are encrypted.
+boolean - a value indicating whether the names of entries (files) of the archive are encrypted.
 ### getArchiveFormatInfo(InputStream stream) {#getArchiveFormatInfo-java.io.InputStream-}
 ```
 public static ArchiveFormatInfo getArchiveFormatInfo(InputStream stream)
@@ -111,7 +111,7 @@ public final boolean isContentEncrypted()
 ```
 
 
-Gets a value indicating whether content of the archive is encrypted.
+Gets a value indicating whether the content of the archive is encrypted.
 
 **Returns:**
-boolean - a value indicating whether content of the archive is encrypted.
+boolean - a value indicating whether the content of the archive is encrypted.

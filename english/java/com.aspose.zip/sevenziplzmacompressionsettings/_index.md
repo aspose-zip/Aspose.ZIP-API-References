@@ -3,7 +3,7 @@ title: SevenZipLZMACompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for LZMA compression method within 7z archive.
 type: docs
-weight: 80
+weight: 81
 url: /java/com.aspose.zip/sevenziplzmacompressionsettings/
 ---
 
@@ -47,7 +47,7 @@ public final int getDictionarySize()
 
 Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size.
 
-The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+The bigger the dictionary, usually the better the compression ratio is - but dictionaries larger than the uncompressed data are a waste of RAM.
 
 **Returns:**
 int - dictionary (history buffer) size
@@ -69,7 +69,7 @@ public final void setDictionarySize(int value)
 
 Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size.
 
-The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+The bigger the dictionary, usually the better the compression ratio is - but dictionaries larger than the uncompressed data are a waste of RAM.
 
 **Parameters:**
 | Parameter | Type | Description |

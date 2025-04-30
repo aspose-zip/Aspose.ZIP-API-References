@@ -1,9 +1,9 @@
 ---
 title: XarEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single entry within xar archive.
+description: Represents a single entry within xar archive.
 type: docs
-weight: 103
+weight: 104
 url: /java/com.aspose.zip/xarentry/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class XarEntry
 ```
 
-Represents single entry within xar archive.
+Represents a single entry within xar archive.
 ## Methods
 
 | Method | Description |

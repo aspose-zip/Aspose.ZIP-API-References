@@ -1,7 +1,7 @@
 ---
 title: IsoLoadOptions
 second_title: Aspose.ZIP for Java API Reference
-description: Options with which  is loaded from compressed file.
+description: Options with which  is loaded from a compressed file.
 type: docs
 weight: 47
 url: /java/com.aspose.zip/isoloadoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class IsoLoadOptions
 ```
 
-Options with which [IsoArchive](../../com.aspose.zip/isoarchive) is loaded from compressed file. Contains event raised on extraction.
+Options with which [IsoArchive](../../com.aspose.zip/isoarchive) is loaded from a compressed file. Contains event raised on extraction.
 ## Constructors
 
 | Constructor | Description |

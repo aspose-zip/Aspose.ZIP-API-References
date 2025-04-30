@@ -1,9 +1,9 @@
 ---
 title: XzFilterSettings
 second_title: Aspose.ZIP for Java API Reference
-description: Base class for set of settings of particular xz format filter.
+description: Base class for a set of settings of particular xz format filter.
 type: docs
-weight: 113
+weight: 114
 url: /java/com.aspose.zip/xzfiltersettings/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public abstract class XzFilterSettings
 ```
 
-Base class for set of settings of particular xz format filter.
+Base class for a set of settings of particular xz format filter.
 ## Constructors
 
 | Constructor | Description |

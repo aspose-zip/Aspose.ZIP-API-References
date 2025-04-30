@@ -1,9 +1,9 @@
 ---
 title: XzArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
-description: The class contains set of setting particular xz archive.
+description: The class contains a set of setting particular xz archive.
 type: docs
-weight: 110
+weight: 111
 url: /java/com.aspose.zip/xzarchivesettings/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class XzArchiveSettings
 ```
 
-The class contains set of setting particular xz archive.
+The class contains a set of setting particular xz archive.
 ## Constructors
 
 | Constructor | Description |
@@ -39,7 +39,7 @@ public XzArchiveSettings()
 
 Initializes a new instance of the [XzArchiveSettings](../../com.aspose.zip/xzarchivesettings) class using single LZMA2 compression.
 
-Default dictionary in LZMA2 filter size equals to 16 megabyte, default block size equals to 64 megabytes, default checksum type is CRC32.
+Default dictionary in LZMA2 filter size equals to 16 megabytes, default block size equals to 64 megabytes, a default checksum type is CRC32.
 
 ### XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType checkType) {#XzArchiveSettings-com.aspose.zip.XzFilterSettings---long-com.aspose.zip.XzCheckType-}
 ```
@@ -78,7 +78,7 @@ public final int getCompressionThreads()
 ```
 
 
-Gets compression thread count. If the value greater than 1, multithreading compression will be used.
+Gets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 **Returns:**
 int - compression thread count
@@ -138,7 +138,7 @@ public final void setCompressionThreads(int value)
 ```
 
 
-Sets compression thread count. If the value greater than 1, multithreading compression will be used.
+Sets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 **Parameters:**
 | Parameter | Type | Description |

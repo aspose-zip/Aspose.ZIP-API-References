@@ -3,7 +3,7 @@ title: LzmaArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for lzma archive.
 type: docs
-weight: 57
+weight: 58
 url: /java/com.aspose.zip/lzmaarchivesettings/
 ---
 
@@ -31,9 +31,9 @@ See more: [Lempel\\u2013Ziv\\u2013Markov chain algorithm][Lempel_u2013Ziv_u2013M
 | Method | Description |
 | --- | --- |
 | [getCompressionProgressed()](#getCompressionProgressed--) | Gets an event that is raised when a portion of raw stream compressed. |
-| [getDictionarySize()](#getDictionarySize--) | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. |
+| [getDictionarySize()](#getDictionarySize--) | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory. |
 | [setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream compressed. |
-| [setDictionarySize(int value)](#setDictionarySize-int-) | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. |
+| [setDictionarySize(int value)](#setDictionarySize-int-) | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory. |
 ### LzmaArchiveSettings() {#LzmaArchiveSettings--}
 ```
 public LzmaArchiveSettings()
@@ -83,9 +83,9 @@ public final int getDictionarySize()
 ```
 
 
-Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size.
+Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory. If not set, will be chosen accordingly to entry size.
 
-The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+The bigger the dictionary, usually the better the compression ratio is - but dictionaries larger than the uncompressed data are a waste of RAM.
 
 **Returns:**
 int - Dictionary (history buffer) size.
@@ -120,9 +120,9 @@ public final void setDictionarySize(int value)
 ```
 
 
-Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size.
+Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory. If not set, will be chosen accordingly to entry size.
 
-The bigger the dictionary, the better the compression ratio usually is, but dictionaries bigger than the uncompressed data are waste of RAM.
+The bigger the dictionary, usually the better the compression ratio is - but dictionaries larger than the uncompressed data are a waste of RAM.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,7 @@ title: XarFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents file entry within xar archive.
 type: docs
-weight: 104
+weight: 105
 url: /java/com.aspose.zip/xarfileentry/
 ---
 
@@ -137,7 +137,7 @@ Usage:
  
 ```
 
-Read from the stream to get original content of file. See examples section.
+Read from the stream to get the original content of the file. See examples section.
 
 **Returns:**
 java.io.InputStream - the stream that represents the contents of the entry
