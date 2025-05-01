@@ -3,7 +3,7 @@ title: TarArchive.SaveXzCompressed
 second_title: Aspose.ZIP for .NET API Reference
 description: TarArchive method. Saves archive to the stream with xz compression
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.zip.tar/tararchive/savexzcompressed/
 ---
 ## SaveXzCompressed(Stream, TarFormat?, XzArchiveSettings) {#savexzcompressed}
