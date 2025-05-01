@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /net/aspose.zip.lz4/lz4archive/setsource/
 ---
-## SetSource(Stream) {#setsource_1}
+## SetSource(Stream) {#setsource_2}
 
 Sets the content to be compressed within the archive.
 
@@ -42,7 +42,7 @@ using (var archive = new Lz4Archive())
 
 ---
 
-## SetSource(FileInfo) {#setsource}
+## SetSource(FileInfo) {#setsource_1}
 
 Sets the content to be compressed within the archive.
 
@@ -80,7 +80,49 @@ using (var archive = new Lz4Archive())
 
 ---
 
-## SetSource(string) {#setsource_2}
+## SetSource(TarArchive, TarFormat) {#setsource}
+
+Sets the content to be compressed within the archive.
+
+```csharp
+public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tarArchive | TarArchive | Tar archive to be compressed. |
+| format | TarFormat | Defines tar header format. |
+
+## Remarks
+
+Use this method to compose joint tar.lz4 archive.
+
+## Examples
+
+```csharp
+using (var tarArchive = new TarArchive())
+{
+    tarArchive.CreateEntry("first.bin", "data1.bin");
+    tarArchive.CreateEntry("second.bin", "data2.bin");
+    using (var lz4Archive = new Lz4Archive())
+    {
+        lz4Archive.SetSource(tarArchive);
+        lz4Archive.Save("archive.tar.lz4");
+    }
+}
+```
+
+### See Also
+
+* class [TarArchive](../../../aspose.zip.tar/tararchive/)
+* enum [TarFormat](../../../aspose.zip.tar/tarformat/)
+* class [Lz4Archive](../)
+* namespace [Aspose.Zip.Lz4](../../lz4archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## SetSource(string) {#setsource_3}
 
 Sets the content to be compressed within the archive.
 

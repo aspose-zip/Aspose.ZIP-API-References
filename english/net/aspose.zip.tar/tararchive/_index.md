@@ -59,6 +59,8 @@ public class TarArchive : IArchive
 | [Save](../../aspose.zip.tar/tararchive/save/#save_1)(string, TarFormat?) | Saves archive to a destination file provided. |
 | [SaveGzipped](../../aspose.zip.tar/tararchive/savegzipped/#savegzipped)(Stream, TarFormat?) | Saves archive to the stream with gzip compression. |
 | [SaveGzipped](../../aspose.zip.tar/tararchive/savegzipped/#savegzipped_1)(string, TarFormat?) | Saves archive to the file by path with gzip compression. |
+| [SaveLZ4Compressed](../../aspose.zip.tar/tararchive/savelz4compressed/#savelz4compressed)(Stream, TarFormat?) | Saves archive to the stream with LZ4 compression. |
+| [SaveLZ4Compressed](../../aspose.zip.tar/tararchive/savelz4compressed/#savelz4compressed_1)(string, TarFormat?) | Saves archive to the file by path with LZ4 compression. |
 | [SaveLzipped](../../aspose.zip.tar/tararchive/savelzipped/#savelzipped)(Stream, TarFormat?) | Saves archive to the stream with lzip compression. |
 | [SaveLzipped](../../aspose.zip.tar/tararchive/savelzipped/#savelzipped_1)(string, TarFormat?) | Saves archive to the file by path with lzip compression. |
 | [SaveLZMACompressed](../../aspose.zip.tar/tararchive/savelzmacompressed/#savelzmacompressed)(Stream, TarFormat?) | Saves archive to the stream with LZMA compression. |
