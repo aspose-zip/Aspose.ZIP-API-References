@@ -34,9 +34,10 @@ public class Lz4Archive : IArchive, IArchiveFileEntry
 | [Save](../../aspose.zip.lz4/lz4archive/save/#save)(FileInfo) | Saves lz4 archive to destination file provided. |
 | [Save](../../aspose.zip.lz4/lz4archive/save/#save_1)(Stream) | Saves lz4 archive to the stream provided. |
 | [Save](../../aspose.zip.lz4/lz4archive/save/#save_2)(string) | Saves archive to the destination file provided. |
-| [SetSource](../../aspose.zip.lz4/lz4archive/setsource/#setsource)(FileInfo) | Sets the content to be compressed within the archive. |
-| [SetSource](../../aspose.zip.lz4/lz4archive/setsource/#setsource_1)(Stream) | Sets the content to be compressed within the archive. |
-| [SetSource](../../aspose.zip.lz4/lz4archive/setsource/#setsource_2)(string) | Sets the content to be compressed within the archive. |
+| [SetSource](../../aspose.zip.lz4/lz4archive/setsource/#setsource_1)(FileInfo) | Sets the content to be compressed within the archive. |
+| [SetSource](../../aspose.zip.lz4/lz4archive/setsource/#setsource_2)(Stream) | Sets the content to be compressed within the archive. |
+| [SetSource](../../aspose.zip.lz4/lz4archive/setsource/#setsource_3)(string) | Sets the content to be compressed within the archive. |
+| [SetSource](../../aspose.zip.lz4/lz4archive/setsource/#setsource)(TarArchive, TarFormat) | Sets the content to be compressed within the archive. |
 
 ### See Also
 

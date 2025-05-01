@@ -1,17 +1,17 @@
 ---
-title: TarArchive.SaveLZMACompressed
+title: TarArchive.SaveLZ4Compressed
 second_title: Aspose.ZIP for .NET API Reference
-description: TarArchive method. Saves archive to the stream with LZMA compression
+description: TarArchive method. Saves archive to the stream with LZ4 compression
 type: docs
-weight: 190
-url: /net/aspose.zip.tar/tararchive/savelzmacompressed/
+weight: 170
+url: /net/aspose.zip.tar/tararchive/savelz4compressed/
 ---
-## SaveLZMACompressed(Stream, TarFormat?) {#savelzmacompressed}
+## SaveLZ4Compressed(Stream, TarFormat?) {#savelz4compressed}
 
-Saves archive to the stream with LZMA compression.
+Saves archive to the stream with LZ4 compression.
 
 ```csharp
-public void SaveLZMACompressed(Stream output, TarFormat? format = default)
+public void SaveLZ4Compressed(Stream output, TarFormat? format = default)
 ```
 
 | Parameter | Type | Description |
@@ -30,19 +30,17 @@ public void SaveLZMACompressed(Stream output, TarFormat? format = default)
 
 *output* must be writable.
 
-Important: tar archive is composed then compressed within this method, its content is kept internally. Beware of memory consumption.
-
 ## Examples
 
 ```csharp
-using (FileStream result = File.OpenWrite("result.tar.lzma"))
+using (FileStream result = File.OpenWrite("result.tar.lz4"))
 {
     using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
     {
         using (var archive = new TarArchive())
         {
             archive.CreateEntry("entry.bin", source);
-            archive.SaveLZMACompressed(result);
+            archive.SaveLZ4Compressed(result);
         }
     }
 }
@@ -57,12 +55,12 @@ using (FileStream result = File.OpenWrite("result.tar.lzma"))
 
 ---
 
-## SaveLZMACompressed(string, TarFormat?) {#savelzmacompressed_1}
+## SaveLZ4Compressed(string, TarFormat?) {#savelz4compressed_1}
 
-Saves archive to the file by path with lzma compression.
+Saves archive to the file by path with LZ4 compression.
 
 ```csharp
-public void SaveLZMACompressed(string path, TarFormat? format = default)
+public void SaveLZ4Compressed(string path, TarFormat? format = default)
 ```
 
 | Parameter | Type | Description |
@@ -81,10 +79,6 @@ public void SaveLZMACompressed(string path, TarFormat? format = default)
 | DirectoryNotFoundException | The specified *path* is invalid, (for example, it is on an unmapped drive). |
 | NotSupportedException | *path* is in an invalid format. |
 
-## Remarks
-
-Important: tar archive is composed then compressed within this method, its content is kept internally. Beware of memory consumption.
-
 ## Examples
 
 ```csharp
@@ -93,7 +87,7 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
     using (var archive = new TarArchive())
     {
         archive.CreateEntry("entry.bin", source);
-        archive.SaveLZMACompressed("result.tar.lzma");
+        archive.SaveLZ4Compressed("result.tar.lz4");
     }
 }
 ```

@@ -24,7 +24,7 @@ public void Save(Stream output)
 | --- | --- |
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. |
-| InvalidOperationException | The archive is prepared for extraction. |
+| InvalidOperationException | The archive is prepared for extraction. - or - Source was not supplied. |
 
 ## Remarks
 
