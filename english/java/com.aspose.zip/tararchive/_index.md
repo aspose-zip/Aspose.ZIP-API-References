@@ -67,6 +67,10 @@ This class represents a tar archive file. Use it to compose, extract, or update 
 | [saveGzipped(OutputStream output, TarFormat format)](#saveGzipped-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with gzip compression. |
 | [saveGzipped(String path)](#saveGzipped-java.lang.String-) | Saves archive to the file by path with gzip compression. |
 | [saveGzipped(String path, TarFormat format)](#saveGzipped-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with gzip compression. |
+| [saveLZ4Compressed(OutputStream output)](#saveLZ4Compressed-java.io.OutputStream-) | Saves archive to the stream with LZ4 compression. |
+| [saveLZ4Compressed(OutputStream output, TarFormat format)](#saveLZ4Compressed-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with LZ4 compression. |
+| [saveLZ4Compressed(String path)](#saveLZ4Compressed-java.lang.String-) | Saves archive to the file by path with LZ4 compression. |
+| [saveLZ4Compressed(String path, TarFormat format)](#saveLZ4Compressed-java.lang.String-com.aspose.zip.TarFormat-) | Saves archive to the file by path with LZ4 compression. |
 | [saveLZMACompressed(OutputStream output)](#saveLZMACompressed-java.io.OutputStream-) | Saves archive to the stream with LZMA compression. |
 | [saveLZMACompressed(OutputStream output, TarFormat format)](#saveLZMACompressed-java.io.OutputStream-com.aspose.zip.TarFormat-) | Saves archive to the stream with LZMA compression. |
 | [saveLZMACompressed(String path)](#saveLZMACompressed-java.lang.String-) | Saves archive to the file by path with lzma compression. |
@@ -1060,6 +1064,120 @@ Saves archive to the file by path with gzip compression.
 | --- | --- | --- |
 | path | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten |
 | format | [TarFormat](../../com.aspose.zip/tarformat) | defines the tar header format. Null value will be treated as USTar when possible |
+
+### saveLZ4Compressed(OutputStream output) {#saveLZ4Compressed-java.io.OutputStream-}
+```
+public final void saveLZ4Compressed(OutputStream output)
+```
+
+
+Saves archive to the stream with LZ4 compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.tar.lz4")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveLZ4Compressed(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream. |
+
+### saveLZ4Compressed(OutputStream output, TarFormat format) {#saveLZ4Compressed-java.io.OutputStream-com.aspose.zip.TarFormat-}
+```
+public final void saveLZ4Compressed(OutputStream output, TarFormat format)
+```
+
+
+Saves archive to the stream with LZ4 compression.
+
+```
+
+     try (FileOutputStream result = new FileOutputStream("result.tar.lz4")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (TarArchive archive = new TarArchive()) {
+                 archive.createEntry("entry.bin", source);
+                 archive.saveLZ4Compressed(result);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | Destination stream. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines the tar header format. Null value will be treated as USTar when possible. |
+
+### saveLZ4Compressed(String path) {#saveLZ4Compressed-java.lang.String-}
+```
+public final void saveLZ4Compressed(String path)
+```
+
+
+Saves archive to the file by path with LZ4 compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveLZ4Compressed("result.tar.lz4");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+
+### saveLZ4Compressed(String path, TarFormat format) {#saveLZ4Compressed-java.lang.String-com.aspose.zip.TarFormat-}
+```
+public final void saveLZ4Compressed(String path, TarFormat format)
+```
+
+
+Saves archive to the file by path with LZ4 compression.
+
+```
+
+     try (FileInputStream source = new FileInputStream("data.bin")) {
+         try (TarArchive archive = new TarArchive()) {
+             archive.createEntry("entry.bin", source);
+             archive.saveLZ4Compressed("result.tar.lz4");
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines the tar header format. Null value will be treated as USTar when possible. |
 
 ### saveLZMACompressed(OutputStream output) {#saveLZMACompressed-java.io.OutputStream-}
 ```
