@@ -41,6 +41,8 @@ This class represents LZ4 archive file. Use it to extract or compose LZ4 archive
 | [save(File destination)](#save-java.io.File-) | Saves lz4 archive to destination file provided. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves lz4 archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
+| [setSource(TarArchive tarArchive)](#setSource-com.aspose.zip.TarArchive-) | Sets the content to be compressed within the archive. |
+| [setSource(TarArchive tarArchive, TarFormat format)](#setSource-com.aspose.zip.TarArchive-com.aspose.zip.TarFormat-) | Sets the content to be compressed within the archive. |
 | [setSource(File fileInfo)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
 | [setSource(InputStream source)](#setSource-java.io.InputStream-) | Sets the content to be compressed within the archive. |
 | [setSource(String path)](#setSource-java.lang.String-) | Sets the content to be compressed within the archive. |
@@ -333,6 +335,63 @@ Saves archive to the destination file provided.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+
+### setSource(TarArchive tarArchive) {#setSource-com.aspose.zip.TarArchive-}
+```
+public final void setSource(TarArchive tarArchive)
+```
+
+
+Sets the content to be compressed within the archive.
+
+```
+
+     try (TarArchive tarArchive = new TarArchive()) {
+         tarArchive.createEntry("first.bin", "data1.bin");
+         tarArchive.createEntry("second.bin", "data2.bin");
+         try (Lz4Archive lz4Archive = new Lz4Archive()) {
+             lz4Archive.setSource(tarArchive);
+             lz4Archive.save("archive.tar.lz4");
+         }
+     }
+ 
+```
+
+Use this method to compose joint tar.lz4 archive.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | Tar archive to be compressed. |
+
+### setSource(TarArchive tarArchive, TarFormat format) {#setSource-com.aspose.zip.TarArchive-com.aspose.zip.TarFormat-}
+```
+public final void setSource(TarArchive tarArchive, TarFormat format)
+```
+
+
+Sets the content to be compressed within the archive.
+
+```
+
+     try (TarArchive tarArchive = new TarArchive()) {
+         tarArchive.createEntry("first.bin", "data1.bin");
+         tarArchive.createEntry("second.bin", "data2.bin");
+         try (Lz4Archive lz4Archive = new Lz4Archive()) {
+             lz4Archive.setSource(tarArchive);
+             lz4Archive.save("archive.tar.lz4");
+         }
+     }
+ 
+```
+
+Use this method to compose joint tar.lz4 archive.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tarArchive | [TarArchive](../../com.aspose.zip/tararchive) | Tar archive to be compressed. |
+| format | [TarFormat](../../com.aspose.zip/tarformat) | Defines tar header format. |
 
 ### setSource(File fileInfo) {#setSource-java.io.File-}
 ```
