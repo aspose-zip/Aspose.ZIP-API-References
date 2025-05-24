@@ -39,6 +39,8 @@ The TarArchive type exposes the following members:
 |save_lzipped(path, format)|  |
 |save_lzma_compressed(output, format)|  |
 |save_lzma_compressed(path, format)|  |
+|save_lz4_compressed(output, format)|  |
+|save_lz4_compressed(path, format)|  |
 |save_xz_compressed(output, format, settings)|  |
 |save_xz_compressed(path, format, settings)|  |
 |save_z_compressed(output, format)|  |

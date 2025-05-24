@@ -33,6 +33,7 @@ The Lz4Archive type exposes the following members:
 |save(output)|Saves lz4 archive to the stream provided.|
 |save(destination_file_name)|Saves archive to the destination file provided.|
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(tar_archive, format)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 |open()|Opens the archive for extraction and provides a stream with archive content.|
