@@ -3,7 +3,7 @@ title: ArchiveLoadOptions.EntryListed
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveLoadOptions property. Gets or sets the delegate invoked when an entry listed within table of content
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip/archiveloadoptions/entrylisted/
 ---
 ## ArchiveLoadOptions.EntryListed property
@@ -17,7 +17,7 @@ public EventHandler<EntryEventArgs> EntryListed { get; set; }
 ## Examples
 
 ```csharp
-Archive archive = new Archive("archive.zip", new ArchiveLoadOptions() { EntryListed = (s, e) => { Console.WriteLine(e.Entry.Name); } });
+var archive = new Archive("archive.zip", new ArchiveLoadOptions() { EntryListed = (s, e) => { Console.WriteLine(e.Entry.Name); } });
 ```
 
 ### See Also

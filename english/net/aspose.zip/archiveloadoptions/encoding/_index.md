@@ -3,7 +3,7 @@ title: ArchiveLoadOptions.Encoding
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveLoadOptions property. Gets or sets the encoding for entries names
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip/archiveloadoptions/encoding/
 ---
 ## ArchiveLoadOptions.Encoding property
@@ -21,7 +21,7 @@ Entry name composed using specified encoding regardless of zip file properties.
 ```csharp
 using (FileStream fs = File.OpenRead("archive.zip"))
 {      
-    using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
+    using (var archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
     {
         string name = archive.Entries[0].Name;
     }    

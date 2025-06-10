@@ -28,6 +28,7 @@ The archive with entries composed.
 | exception | condition |
 | --- | --- |
 | DirectoryNotFoundException | The path to *directory* is invalid, such as being on an unmapped drive. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | SecurityException | The caller does not have the required permission to access *directory*. |
 
 ## Examples
@@ -65,6 +66,12 @@ public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDir
 ### Return Value
 
 The archive with entries composed.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

@@ -14,6 +14,12 @@ Gets the setting of particular lzip archive.
 public LzipArchiveSettings Settings { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [LzipArchiveSettings](../../lziparchivesettings/)

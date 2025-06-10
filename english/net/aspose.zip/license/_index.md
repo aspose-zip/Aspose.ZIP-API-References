@@ -3,7 +3,7 @@ title: Class License
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.License class. Provides methods to license the component
 type: docs
-weight: 380
+weight: 420
 url: /net/aspose.zip/license/
 ---
 ## License class

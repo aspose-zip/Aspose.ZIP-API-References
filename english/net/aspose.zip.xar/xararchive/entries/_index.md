@@ -14,6 +14,12 @@ Gets entries of [`XarEntry`](../../xarentry/) type constituting the archive.
 public IEnumerable<XarEntry> Entries { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [XarEntry](../../xarentry/)

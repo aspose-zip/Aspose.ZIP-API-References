@@ -14,6 +14,12 @@ Gets size of an original file.
 public ulong UncompressedSize { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Remarks
 
 During decompression, this property may contain incorrect size. If the uncompressed file size exceeds 4GB, this property will give a wrong value due to the 32-bit limit in header.

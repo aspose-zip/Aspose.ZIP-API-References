@@ -61,6 +61,7 @@ public void Extract(Stream destination)
 | exception | condition |
 | --- | --- |
 | NotSupportedException | Raises if the entry does not represent a file. |
+| ArgumentException | Supplied stream does not support writing. |
 
 ### See Also
 

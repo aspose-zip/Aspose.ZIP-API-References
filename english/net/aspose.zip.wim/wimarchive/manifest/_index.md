@@ -14,6 +14,12 @@ Gets the embedded manifest describing the file and the contained images.
 public string Manifest { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [WimArchive](../)

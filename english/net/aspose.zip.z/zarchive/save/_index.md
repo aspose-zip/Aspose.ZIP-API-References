@@ -23,6 +23,7 @@ public void Save(Stream output, ZArchiveSaveOptions settings = null)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentException | *output* does not support seeking. |
 | ArgumentNullException | *output* is null. |
 
@@ -69,6 +70,7 @@ public void Save(string destinationFileName, ZArchiveSaveOptions settings = null
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *destinationFileName* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *destinationFileName* is empty, contains only white spaces, or contains invalid characters. |

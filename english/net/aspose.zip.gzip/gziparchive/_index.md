@@ -3,7 +3,7 @@ title: Class GzipArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Gzip.GzipArchive class. This class represents a gzip archive file. Use it to compose or extract gzip archives
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.zip.gzip/gziparchive/
 ---
 ## GzipArchive class
@@ -19,14 +19,16 @@ public class GzipArchive : IArchive, IArchiveFileEntry
 | Name | Description |
 | --- | --- |
 | [GzipArchive](gziparchive/#constructor)() | Initializes a new instance of the `GzipArchive` class prepared for compressing. |
-| [GzipArchive](gziparchive/#constructor_1)(Stream, bool) | Initializes a new instance of the `GzipArchive` class prepared for decompressing. |
-| [GzipArchive](gziparchive/#constructor_2)(string, bool) | Initializes a new instance of the `GzipArchive` class. |
+| [GzipArchive](gziparchive/#constructor_2)(Stream, bool) | Initializes a new instance of the `GzipArchive` class prepared for decompressing. |
+| [GzipArchive](gziparchive/#constructor_1)(Stream, GzipLoadOptions) | Initializes a new instance of the `GzipArchive` class prepared for decompressing. |
+| [GzipArchive](gziparchive/#constructor_4)(string, bool) | Initializes a new instance of the `GzipArchive` class prepared for decompressing. |
+| [GzipArchive](gziparchive/#constructor_3)(string, GzipLoadOptions) | Initializes a new instance of the `GzipArchive` class prepared for decompressing. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Name](../../aspose.zip.gzip/gziparchive/name/) { get; } | Name of an original file. |
+| [Name](../../aspose.zip.gzip/gziparchive/name/) { get; } | Name of the original file. |
 | [UncompressedSize](../../aspose.zip.gzip/gziparchive/uncompressedsize/) { get; } | Gets size of an original file. |
 
 ## Methods

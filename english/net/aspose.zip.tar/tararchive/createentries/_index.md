@@ -23,6 +23,12 @@ public TarArchive CreateEntries(DirectoryInfo directory, bool includeRootDirecto
 
 The archive with entries composed.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
+
 ## Examples
 
 ```csharp
@@ -69,6 +75,7 @@ The archive with entries composed.
 | SecurityException | The caller does not have the required permission to access *sourceDirectory*. |
 | ArgumentException | *sourceDirectory* contains invalid characters such as ", &lt;, &gt;, or &#x7C;. |
 | PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. The specified path, file name, or both are too long. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Examples
 

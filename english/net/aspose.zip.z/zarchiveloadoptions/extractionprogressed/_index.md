@@ -3,7 +3,7 @@ title: ZArchiveLoadOptions.ExtractionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: ZArchiveLoadOptions event. Gets or sets the delegate invoked when some bytes have been extracted
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.z/zarchiveloadoptions/extractionprogressed/
 ---
 ## ZArchiveLoadOptions.ExtractionProgressed event

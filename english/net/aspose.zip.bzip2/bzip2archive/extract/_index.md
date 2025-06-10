@@ -23,6 +23,8 @@ public void Extract(Stream destination)
 | exception | condition |
 | --- | --- |
 | ArgumentException | *destination* does not support writing. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -70,6 +72,8 @@ Info of the extracted file.
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ### See Also
 

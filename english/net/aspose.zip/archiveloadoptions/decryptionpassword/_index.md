@@ -3,7 +3,7 @@ title: ArchiveLoadOptions.DecryptionPassword
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveLoadOptions property. Gets or sets the password to decrypt entries
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip/archiveloadoptions/decryptionpassword/
 ---
 ## ArchiveLoadOptions.DecryptionPassword property
@@ -23,7 +23,7 @@ using (FileStream fs = File.OpenRead("encrypted_archive.zip"))
 {
     using (var extracted = File.Create("extracted.bin"))
     {
-        using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
+        using (var archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
         {
             using (var decompressed = archive.Entries[0].Open())
             {

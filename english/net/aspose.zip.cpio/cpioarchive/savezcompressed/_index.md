@@ -25,6 +25,7 @@ public void SaveZCompressed(Stream output, CpioFormat cpioFormat = CpioFormat.Ol
 | --- | --- |
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -67,6 +68,12 @@ public void SaveZCompressed(string path, CpioFormat cpioFormat = CpioFormat.OldA
 | --- | --- | --- |
 | path | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 | cpioFormat | CpioFormat | Defines cpio header format. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

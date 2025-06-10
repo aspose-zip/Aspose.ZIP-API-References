@@ -42,7 +42,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ---
 
-## SevenZipArchive(Stream, string) {#constructor_1}
+## SevenZipArchive(Stream, string) {#constructor_2}
 
 Initializes a new instance of the [`SevenZipArchive`](../) class and composes an entry list can be extracted from the archive.
 
@@ -84,7 +84,7 @@ using (SevenZipArchive archive = new SevenZipArchive(File.OpenRead("archive.7z")
 
 ---
 
-## SevenZipArchive(string, string) {#constructor_2}
+## SevenZipArchive(string, string) {#constructor_4}
 
 Initializes a new instance of the [`SevenZipArchive`](../) class and composes an entry list can be extracted from the archive.
 
@@ -132,7 +132,113 @@ using (SevenZipArchive archive = new SevenZipArchive("archive.7z"))
 
 ---
 
-## SevenZipArchive(string[], string) {#constructor_3}
+## SevenZipArchive(Stream, SevenZipLoadOptions) {#constructor_1}
+
+Initializes a new instance of the [`SevenZipArchive`](../) class and composes an entry list can be extracted from the archive.
+
+```csharp
+public SevenZipArchive(Stream sourceStream, SevenZipLoadOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | Stream | The source of the archive. |
+| options | SevenZipLoadOptions | Options to load existing archive with. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *sourceStream* is not seekable. |
+| ArgumentNullException | *sourceStream* is null. |
+| NotImplementedException | The archive contains more than one coder. Now only LZMA compression supported. |
+
+## Remarks
+
+This constructor does not decompress any entry. See [`ExtractToDirectory`](../extracttodirectory/) method for decompressing.
+
+## Examples
+
+Extract an encrypted archive. Allow up to 60 seconds to proceed, cancel after that period.
+
+```csharp
+using(CancellationTokenSource cts = new CancellationTokenSource())
+{
+    SevenZipLoadOptions options = new SevenZipLoadOptions(){ DecryptionPassword = "Top$ecr3t", CancellationToken = cts.Token }
+    cts.CancelAfter(TimeSpan.FromSeconds(60));
+    using (SevenZipArchive archive = new SevenZipArchive(File.OpenRead("archive.7z"), options))
+    {
+        archive.ExtractToDirectory("C:\\extracted");
+    }
+}
+```
+
+### See Also
+
+* class [SevenZipLoadOptions](../../sevenziploadoptions/)
+* class [SevenZipArchive](../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## SevenZipArchive(string, SevenZipLoadOptions) {#constructor_3}
+
+Initializes a new instance of the [`SevenZipArchive`](../) class and composes an entry list can be extracted from the archive.
+
+```csharp
+public SevenZipArchive(string path, SevenZipLoadOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | The fully qualified or the relative path to the archive file. |
+| options | SevenZipLoadOptions | Options to load existing archive with. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *path* is null. |
+| SecurityException | The caller does not have the required permission to access. |
+| ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
+| UnauthorizedAccessException | Access to file *path* is denied. |
+| PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
+| NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| FileNotFoundException | The file is not found. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| IOException | The file is already open. |
+
+## Remarks
+
+This constructor does not decompress any entry. See [`ExtractToDirectory`](../extracttodirectory/) method for decompressing.
+
+## Examples
+
+Extract an encrypted archive. Allow up to 60 seconds to proceed, cancel after that period.
+
+```csharp
+using(CancellationTokenSource cts = new CancellationTokenSource())
+{
+    SevenZipLoadOptions options = new SevenZipLoadOptions(){ DecryptionPassword = "Top$ecr3t", CancellationToken = cts.Token }
+    cts.CancelAfter(TimeSpan.FromSeconds(60));
+    using (SevenZipArchive archive = new SevenZipArchive(File.OpenRead("archive.7z"), options))
+    {
+        archive.ExtractToDirectory("C:\\extracted");
+    }
+}
+```
+
+### See Also
+
+* class [SevenZipLoadOptions](../../sevenziploadoptions/)
+* class [SevenZipArchive](../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## SevenZipArchive(string[], string) {#constructor_5}
 
 Initializes a new instance of the [`SevenZipArchive`](../) class from multi-volume 7z archive and composes an entry list can be extracted from the archive.
 

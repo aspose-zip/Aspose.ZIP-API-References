@@ -3,7 +3,7 @@ title: Class LzipArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lzip.LzipArchive class. This class represents a Lzip archive file. Use it to compose or extract Lzip archives
 type: docs
-weight: 410
+weight: 460
 url: /net/aspose.zip.lzip/lziparchive/
 ---
 ## LzipArchive class
@@ -19,8 +19,8 @@ public class LzipArchive : IArchive, IArchiveFileEntry
 | Name | Description |
 | --- | --- |
 | [LzipArchive](lziparchive/#constructor)(LzipArchiveSettings) | Initializes a new instance of the `LzipArchive`. |
-| [LzipArchive](lziparchive/#constructor_1)(Stream) | Initializes a new instance of the `LzipArchive` class prepared for decompressing. |
-| [LzipArchive](lziparchive/#constructor_2)(string) | Initializes a new instance of the `LzipArchive` class prepared for decompressing. |
+| [LzipArchive](lziparchive/#constructor_1)(Stream, LzipLoadOptions) | Initializes a new instance of the `LzipArchive` class prepared for decompressing. |
+| [LzipArchive](lziparchive/#constructor_2)(string, LzipLoadOptions) | Initializes a new instance of the `LzipArchive` class prepared for decompressing. |
 
 ## Properties
 

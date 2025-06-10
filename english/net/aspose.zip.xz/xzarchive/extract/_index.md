@@ -22,7 +22,9 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -63,6 +65,7 @@ public void Extract(FileInfo fileInfo)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
 | ArgumentException | The file path is empty or contains only white spaces. |
@@ -71,6 +74,7 @@ public void Extract(FileInfo fileInfo)
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -112,6 +116,7 @@ FileInfo instance containing extracted data.
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
@@ -122,6 +127,7 @@ FileInfo instance containing extracted data.
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 

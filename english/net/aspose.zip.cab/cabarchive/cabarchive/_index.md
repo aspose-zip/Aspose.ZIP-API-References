@@ -6,17 +6,17 @@ type: docs
 weight: 10
 url: /net/aspose.zip.cab/cabarchive/cabarchive/
 ---
-## CabArchive(Stream) {#constructor}
+## CabArchive(Stream, CabLoadOptions) {#constructor}
 
 Initializes a new instance of the [`CabArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public CabArchive(Stream sourceStream)
+public CabArchive(Stream sourceStream, CabLoadOptions loadOptions = null)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceStream | Stream | The source of the archive. It must be seekable. |
+| Parameter | Description |
+| --- | --- |
+| sourceStream | The source of the archive. It must be seekable. |
 
 ### Exceptions
 
@@ -44,23 +44,24 @@ using (var archive = new CabArchive(File.OpenRead("archive.cab")))
 
 ### See Also
 
+* class [CabLoadOptions](../../cabloadoptions/)
 * class [CabArchive](../)
 * namespace [Aspose.Zip.Cab](../../cabarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## CabArchive(string) {#constructor_1}
+## CabArchive(string, CabLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`CabArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public CabArchive(string path)
+public CabArchive(string path, CabLoadOptions loadOptions = null)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | String | The path to the archive file. |
+| Parameter | Description |
+| --- | --- |
+| path | The path to the archive file. |
 
 ### Exceptions
 
@@ -94,6 +95,7 @@ using (var archive = new CabArchive("archive.cab"))
 
 ### See Also
 
+* class [CabLoadOptions](../../cabloadoptions/)
 * class [CabArchive](../)
 * namespace [Aspose.Zip.Cab](../../cabarchive/)
 * assembly [Aspose.Zip](../../../)

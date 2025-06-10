@@ -30,6 +30,7 @@ public void Save(string destinationFileName, CpioFormat cpioFormat = CpioFormat.
 | IOException | An I/O error occurred while opening the file. |
 | UnauthorizedAccessException | *destinationFileName*Specified a file is read-only and access is not Read.-or- path specified a directory.-or- The caller does not have the required permission. |
 | NotSupportedException | *destinationFileName* is in an invalid format. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -73,6 +74,7 @@ public void Save(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii)
 | --- | --- |
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. - or - *output* is the same stream we extract from. - OR - It is impossible to save archive in *cpioFormat* due to format restrictions. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

@@ -3,7 +3,7 @@ title: Bzip2LoadOptions.ExtractionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: Bzip2LoadOptions event. Event raised invoked when some bytes have been extracted
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.bzip2/bzip2loadoptions/extractionprogressed/
 ---
 ## Bzip2LoadOptions.ExtractionProgressed event

@@ -28,6 +28,7 @@ public void ExtractToDirectory(string destinationDirectory)
 | NotSupportedException | If the directory does not exist, the path contains a colon character (:) that is not part of a drive label ("C:\"). |
 | ArgumentException | Path is a zero-length string, contains only white space, or contains one or more invalid characters. You can query for invalid characters by using the System.IO.Path.GetInvalidPathChars method. - or - path is prefixed with, or contains, only a colon character (:). |
 | IOException | The directory specified by path is a file. - or - The network name is not known. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Remarks
 

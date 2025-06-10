@@ -22,6 +22,12 @@ public TarArchive DeleteEntry(TarEntry entry)
 
 The archive with the entry deleted.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
+
 ## Examples
 
 Here is how you can remove all entries except the last one:
@@ -65,6 +71,7 @@ The archive with the entry deleted.
 | exception | condition |
 | --- | --- |
 | ArgumentOutOfRangeException | *entryIndex* is less than 0.-or- *entryIndex* is equal to or greater than `Entries` count. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Examples
 

@@ -23,7 +23,7 @@ public void Save(Stream output, TarFormat? format = default)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *output* is not writable. - or - *output* is the same stream we extract from. - OR - It is impossible to save archive in *format* due to format restrictions. |
+| ArgumentException | *output* is not writable. - or - *output* is the same stream we extract from. Archive has been disposed and cannot be used - OR - It is impossible to save archive in *format* due to format restrictions. |
 
 ## Remarks
 
@@ -76,6 +76,7 @@ public void Save(string destinationFileName, TarFormat? format = default)
 | UnauthorizedAccessException | *destinationFileName* specified a file that is read-only and access is not Read.-or- path specified a directory.-or- The caller does not have the required permission. |
 | NotSupportedException | *destinationFileName* is in an invalid format. |
 | FileNotFoundException | The file is not found. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Remarks
 

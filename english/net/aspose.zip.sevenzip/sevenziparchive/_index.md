@@ -3,7 +3,7 @@ title: Class SevenZipArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipArchive class. This class represents 7z archive file. Use it to compose and extract 7z archives
 type: docs
-weight: 810
+weight: 880
 url: /net/aspose.zip.sevenzip/sevenziparchive/
 ---
 ## SevenZipArchive class
@@ -19,9 +19,11 @@ public class SevenZipArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [SevenZipArchive](sevenziparchive/#constructor)(SevenZipEntrySettings) | Initializes a new instance of the `SevenZipArchive` class with optional settings for its entries. |
-| [SevenZipArchive](sevenziparchive/#constructor_1)(Stream, string) | Initializes a new instance of the `SevenZipArchive` class and composes an entry list can be extracted from the archive. |
-| [SevenZipArchive](sevenziparchive/#constructor_2)(string, string) | Initializes a new instance of the `SevenZipArchive` class and composes an entry list can be extracted from the archive. |
-| [SevenZipArchive](sevenziparchive/#constructor_3)(string[], string) | Initializes a new instance of the `SevenZipArchive` class from multi-volume 7z archive and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive](sevenziparchive/#constructor_1)(Stream, SevenZipLoadOptions) | Initializes a new instance of the `SevenZipArchive` class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive](sevenziparchive/#constructor_2)(Stream, string) | Initializes a new instance of the `SevenZipArchive` class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive](sevenziparchive/#constructor_3)(string, SevenZipLoadOptions) | Initializes a new instance of the `SevenZipArchive` class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive](sevenziparchive/#constructor_4)(string, string) | Initializes a new instance of the `SevenZipArchive` class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive](sevenziparchive/#constructor_5)(string[], string) | Initializes a new instance of the `SevenZipArchive` class from multi-volume 7z archive and composes an entry list can be extracted from the archive. |
 
 ## Properties
 

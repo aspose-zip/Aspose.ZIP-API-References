@@ -21,7 +21,7 @@ The Xar namespace contains classes which represent Xar archive related entities.
 | [XarDirectoryEntry](./xardirectoryentry/) | Represents directory entry within xar archive. |
 | [XarEntry](./xarentry/) | Represents a single entry within xar archive. |
 | [XarFileEntry](./xarfileentry/) | Represents file entry within xar archive. |
-| [XarLoadOptions](./xarloadoptions/) | Options with which archive is loaded from a compressed file. |
+| [XarLoadOptions](./xarloadoptions/) | Options with which XAR archive is loaded from a compressed file. |
 | [XarSaveOptions](./xarsaveoptions/) | Options for saving a xar archive. |
 | [XarStoreCompressionSettings](./xarstorecompressionsettings/) | Settings for Store compression method. |
 | [XarZlibCompressionSettings](./xarzlibcompressionsettings/) | Settings for Zlib compression method. |

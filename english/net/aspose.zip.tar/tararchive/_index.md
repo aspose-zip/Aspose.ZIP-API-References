@@ -3,7 +3,7 @@ title: Class TarArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Tar.TarArchive class. This class represents a tar archive file. Use it to compose extract or update tar archives
 type: docs
-weight: 880
+weight: 960
 url: /net/aspose.zip.tar/tararchive/
 ---
 ## TarArchive class

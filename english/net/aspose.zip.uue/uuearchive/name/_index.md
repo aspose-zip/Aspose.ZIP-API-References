@@ -14,6 +14,12 @@ Name of the original file.
 public string Name { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [UueArchive](../)

@@ -14,6 +14,12 @@ Gets the commentary.
 public string Commentary { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [ArjArchive](../)

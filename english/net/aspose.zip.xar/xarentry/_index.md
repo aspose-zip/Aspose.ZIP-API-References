@@ -3,7 +3,7 @@ title: Class XarEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarEntry class. Represents a single entry within xar archive
 type: docs
-weight: 1050
+weight: 1140
 url: /net/aspose.zip.xar/xarentry/
 ---
 ## XarEntry class

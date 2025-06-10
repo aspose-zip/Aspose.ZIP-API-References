@@ -25,6 +25,7 @@ public void Save(string destinationFileName, XarSaveOptions saveOptions = null)
 | --- | --- |
 | ArgumentNullException | *destinationFileName* is null. |
 | InvalidOperationException | Impossible to modify xar archive. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 
@@ -55,6 +56,7 @@ public void Save(Stream output, XarSaveOptions saveOptions = null)
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output*Is not writable/readable or not seekable. |
 | InvalidOperationException | Impossible to modify xar archive. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 

@@ -66,7 +66,7 @@ This constructor does not unpack any entry. See [`Open`](../../xarfileentry/open
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new XarArchive(File.OpenRead("archive.xar")))
@@ -118,7 +118,7 @@ This constructor does not unpack any entry. See [`Open`](../../xarfileentry/open
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new XarArchive("archive.xar")) 

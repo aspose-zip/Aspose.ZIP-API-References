@@ -3,7 +3,7 @@ title: RarArchiveLoadOptions.DecryptionPassword
 second_title: Aspose.ZIP for .NET API Reference
 description: RarArchiveLoadOptions property. Gets or sets the password to decrypt entries and entry names
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.rar/rararchiveloadoptions/decryptionpassword/
 ---
 ## RarArchiveLoadOptions.DecryptionPassword property

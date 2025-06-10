@@ -22,6 +22,7 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | InvalidDataException | The archive is corrupted. |
 | ArgumentNullException | Destination stream is null. |
@@ -66,6 +67,7 @@ public void Extract(FileInfo fileInfo)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
 | ArgumentException | The file path is empty or contains only white spaces. |
@@ -112,6 +114,7 @@ public void Extract(string path)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |

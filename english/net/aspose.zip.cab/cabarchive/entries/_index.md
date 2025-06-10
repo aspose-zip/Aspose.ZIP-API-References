@@ -14,6 +14,12 @@ Gets entries of [`CabEntry`](../../cabentry/) type constituting the archive.
 public ReadOnlyCollection<CabEntry> Entries { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [CabEntry](../../cabentry/)

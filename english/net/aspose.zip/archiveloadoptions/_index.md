@@ -24,6 +24,7 @@ public class ArchiveLoadOptions
 
 | Name | Description |
 | --- | --- |
+| [CancellationToken](../../aspose.zip/archiveloadoptions/cancellationtoken/) { get; set; } | Gets or sets a cancellation token used to cancel the extraction operation. |
 | [DecryptionPassword](../../aspose.zip/archiveloadoptions/decryptionpassword/) { get; set; } | Gets or sets the password to decrypt entries. |
 | [Encoding](../../aspose.zip/archiveloadoptions/encoding/) { get; set; } | Gets or sets the encoding for entries' names. |
 | [EntryExtractionProgressed](../../aspose.zip/archiveloadoptions/entryextractionprogressed/) { get; set; } | Gets or sets the delegate invoked when some bytes have been extracted. |

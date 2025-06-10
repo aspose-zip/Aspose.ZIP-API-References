@@ -3,7 +3,7 @@ title: Class ZArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Z.ZArchiveLoadOptions class. Options with which ZArchive is loaded from a compressed file. Contains event raised on extraction
 type: docs
-weight: 1180
+weight: 1280
 url: /net/aspose.zip.z/zarchiveloadoptions/
 ---
 ## ZArchiveLoadOptions class
@@ -19,6 +19,12 @@ public class ZArchiveLoadOptions
 | Name | Description |
 | --- | --- |
 | [ZArchiveLoadOptions](zarchiveloadoptions/)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [CancellationToken](../../aspose.zip.z/zarchiveloadoptions/cancellationtoken/) { get; set; } | Gets or sets a cancellation token used to cancel the extraction operation. |
 
 ## Events
 
