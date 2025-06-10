@@ -3,7 +3,7 @@ title: Class CpioEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cpio.CpioEntry class. Represents single file within cpio archive
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.zip.cpio/cpioentry/
 ---
 ## CpioEntry class

@@ -34,7 +34,7 @@ using (GzipArchive archive = new GzipArchive())
 
 ---
 
-## GzipArchive(Stream, bool) {#constructor_1}
+## GzipArchive(Stream, bool) {#constructor_2}
 
 Initializes a new instance of the [`GzipArchive`](../) class prepared for decompressing.
 
@@ -77,9 +77,104 @@ using (GzipArchive archive = new GzipArchive(File.OpenRead("archive.gz")))
 
 ---
 
-## GzipArchive(string, bool) {#constructor_2}
+## GzipArchive(Stream, GzipLoadOptions) {#constructor_1}
 
-Initializes a new instance of the [`GzipArchive`](../) class.
+Initializes a new instance of the [`GzipArchive`](../) class prepared for decompressing.
+
+```csharp
+public GzipArchive(Stream sourceStream, GzipLoadOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | Stream | The source of the archive. |
+| options | GzipLoadOptions | Options to load the archive with. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceStream* is null. |
+| EndOfStreamException | *sourceStream* is too short. |
+| InvalidDataException | The *sourceStream* has wrong signature. |
+
+## Remarks
+
+This constructor does not decompress. See [`Open`](../open/) method for decompressing.
+
+## Examples
+
+Open an archive from a stream and extract it to a `MemoryStream`
+
+```csharp
+var ms = new MemoryStream();
+GzipLoadOptions options = new GzipLoadOptions();
+using (GzipArchive archive = new GzipArchive(File.OpenRead("archive.gz"), options))
+  archive.Extract(ms);
+```
+
+### See Also
+
+* class [GzipLoadOptions](../../gziploadoptions/)
+* class [GzipArchive](../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GzipArchive(string, GzipLoadOptions) {#constructor_3}
+
+Initializes a new instance of the [`GzipArchive`](../) class prepared for decompressing.
+
+```csharp
+public GzipArchive(string path, GzipLoadOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | The path to the archive file. |
+| options | GzipLoadOptions | Options to load the archive with. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *path* is null. |
+| SecurityException | The caller does not have the required permission to access |
+| ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
+| UnauthorizedAccessException | Access to file *path* is denied. |
+| PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
+| NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| EndOfStreamException | The file is too short. |
+| InvalidDataException | Data in the file has the wrong signature. |
+
+## Remarks
+
+This constructor does not decompress. See [`Open`](../open/) method for decompressing.
+
+## Examples
+
+Open an archive from file by path and extract it to a `MemoryStream`
+
+```csharp
+var ms = new MemoryStream();
+GzipLoadOptions options = new GzipLoadOptions();
+using (GzipArchive archive = new GzipArchive("archive.gz", options))
+  archive.Extract(ms);
+```
+
+### See Also
+
+* class [GzipLoadOptions](../../gziploadoptions/)
+* class [GzipArchive](../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GzipArchive(string, bool) {#constructor_4}
+
+Initializes a new instance of the [`GzipArchive`](../) class prepared for decompressing.
 
 ```csharp
 public GzipArchive(string path, bool parseHeader = false)

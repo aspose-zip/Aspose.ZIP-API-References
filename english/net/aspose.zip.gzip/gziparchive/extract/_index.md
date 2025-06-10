@@ -24,6 +24,8 @@ public void Extract(Stream destination)
 | --- | --- |
 | ArgumentException | *destination* does not support writing. |
 | InvalidDataException | Stream is corrupted and does not contain valid data. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -69,6 +71,8 @@ Info of extracted file.
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | InvalidDataException | Stream is corrupted and does not contain valid data. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 

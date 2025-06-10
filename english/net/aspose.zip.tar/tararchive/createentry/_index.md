@@ -30,6 +30,7 @@ Tar entry instance.
 | --- | --- |
 | PathTooLongException | *name* is too long for tar as of IEEE 1003.1-1998 standard. |
 | ArgumentException | File name, as a part of *name*, exceeds 100 symbols. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Remarks
 
@@ -80,6 +81,7 @@ Tar entry instance.
 | --- | --- |
 | PathTooLongException | *name* is too long for tar as of IEEE 1003.1-1998 standard. |
 | ArgumentException | File name, as a part of *name*, exceeds 100 symbols. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Remarks
 
@@ -137,6 +139,7 @@ Tar entry instance.
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. - or - *name* is too long for tar as of IEEE 1003.1-1998 standard. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Remarks
 

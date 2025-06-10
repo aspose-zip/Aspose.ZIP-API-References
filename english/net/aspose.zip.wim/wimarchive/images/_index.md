@@ -14,6 +14,12 @@ Gets entries of [`WimImage`](../../wimimage/) type constituting the archive.
 public ReadOnlyCollection<WimImage> Images { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [WimImage](../../wimimage/)

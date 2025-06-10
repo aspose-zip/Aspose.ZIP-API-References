@@ -3,7 +3,7 @@ title: Class WimArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Wim.WimArchive class. This class represents a wim archive file
 type: docs
-weight: 930
+weight: 1010
 url: /net/aspose.zip.wim/wimarchive/
 ---
 ## WimArchive class
@@ -18,8 +18,8 @@ public class WimArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [WimArchive](wimarchive/#constructor)(Stream) | Initializes a new instance of the `WimArchive` class and composes an entry list can be extracted from the archive. |
-| [WimArchive](wimarchive/#constructor_1)(string) | Initializes a new instance of the `WimArchive` class and composes an entry list can be extracted from the archive. |
+| [WimArchive](wimarchive/#constructor)(Stream, WimLoadOptions) | Initializes a new instance of the `WimArchive` class and composes an entry list can be extracted from the archive. |
+| [WimArchive](wimarchive/#constructor_1)(string, WimLoadOptions) | Initializes a new instance of the `WimArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 

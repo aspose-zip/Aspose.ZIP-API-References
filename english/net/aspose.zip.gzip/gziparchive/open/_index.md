@@ -18,6 +18,12 @@ public Stream Open()
 
 The stream that represents the contents of the archive.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Remarks
 
 Read from the stream to get the original content of a file. See examples section.
@@ -31,11 +37,13 @@ using (var archive = new GzipArchive("archive.gz"))
 {
     using (var extracted = File.Create("data.bin"))
     {
-        var unpacked = archive.Open();
-        byte[] b = new byte[8192];
-        int bytesRead;
-        while (0 < (bytesRead = unpacked.Read(b, 0, b.Length)))
-            extracted.Write(b, 0, bytesRead);
+        using(var unpacked = archive.Open())
+        {
+            byte[] b = new byte[8192];
+            int bytesRead;
+            while (0 < (bytesRead = unpacked.Read(b, 0, b.Length)))
+                extracted.Write(b, 0, bytesRead);
+        }
     }            
 }
 ```

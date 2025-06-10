@@ -28,6 +28,7 @@ public void SaveSplit(string destinationDirectory, SplitSevenZipArchiveSaveOptio
 | SecurityException | The caller does not have the required permission to access the directory. |
 | ArgumentException | *destinationDirectory* contains invalid characters such as ", &gt;, &lt;, or &#x7C;. |
 | PathTooLongException | The specified path exceeds the system-defined maximum length. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

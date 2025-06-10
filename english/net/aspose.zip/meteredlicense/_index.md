@@ -3,7 +3,7 @@ title: Class MeteredLicense
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.MeteredLicense class. Provides methods to set metered key
 type: docs
-weight: 430
+weight: 490
 url: /net/aspose.zip/meteredlicense/
 ---
 ## MeteredLicense class

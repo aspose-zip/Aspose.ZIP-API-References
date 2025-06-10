@@ -23,6 +23,7 @@ public void Save(Stream outputStream, UueSaveOptions saveOptions = null)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | The source of data to be archived has not been provided. |
 | ArgumentException | *outputStream* is not writable. |
 | UnauthorizedAccessException | File source is read-only or is a directory. |
@@ -71,6 +72,7 @@ public void Save(string destinationFileName, UueSaveOptions saveOptions = null)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *destinationFileName* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *destinationFileName* is empty, contains only white spaces, or contains invalid characters. |

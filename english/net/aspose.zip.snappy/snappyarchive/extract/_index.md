@@ -26,6 +26,7 @@ public void Extract(Stream destination)
 | InvalidDataException | Error in data in header or checksum. |
 | ArgumentNullException | Destination stream is null. |
 | ArgumentException | Destination stream does not support writing. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -74,6 +75,7 @@ public void Extract(FileInfo fileInfo)
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -122,6 +124,7 @@ FileInfo instance containing extracted data.
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

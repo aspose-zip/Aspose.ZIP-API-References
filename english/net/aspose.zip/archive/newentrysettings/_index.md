@@ -14,6 +14,12 @@ Compression and encryption settings used for newly added [`ArchiveEntry`](../../
 public ArchiveEntrySettings NewEntrySettings { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)

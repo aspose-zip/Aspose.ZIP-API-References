@@ -18,6 +18,12 @@ public Stream Open()
 
 The stream that represents the contents of the archive.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Remarks
 
 Read from the stream to get the original content of the file. See examples section.

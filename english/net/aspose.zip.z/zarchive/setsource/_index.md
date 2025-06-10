@@ -18,6 +18,12 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | The input stream for the archive. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Examples
 
 ```csharp
@@ -52,6 +58,7 @@ public void SetSource(FileInfo fileInfo)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
 | ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
@@ -94,6 +101,7 @@ public void SetSource(string sourcePath)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *sourcePath* is null or empty string. |
 | SecurityException | The caller does not have the required permission to access a resource. |
 | ArgumentException | The *sourcePath* is empty, contains only white spaces, or contains invalid characters. |

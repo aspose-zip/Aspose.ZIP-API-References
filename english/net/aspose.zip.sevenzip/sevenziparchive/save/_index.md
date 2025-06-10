@@ -25,6 +25,7 @@ public void Save(Stream output)
 | ArgumentException | *output* does not support seeking. |
 | ArgumentNullException | *output* is null. |
 | InvalidOperationException | Encoder failed to compress data. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -76,6 +77,7 @@ public void Save(string destinationFileName)
 | UnauthorizedAccessException | Access to file *destinationFileName* is denied. |
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

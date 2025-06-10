@@ -31,6 +31,8 @@ public void ExtractToDirectory(string destinationDirectory)
 | EndOfStreamException | Source stream is too short. |
 | InvalidDataException | Wrong bytes found while initialize decoding. |
 | InvalidOperationException | The archive is prepared for composition. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

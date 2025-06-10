@@ -22,10 +22,12 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | InvalidDataException | Error in data in header or checksum. |
 | ArgumentNullException | Destination stream is null. |
 | ArgumentException | Destination stream does not support writing. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -66,6 +68,7 @@ public void Extract(FileInfo fileInfo)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
 | ArgumentException | The file path is empty or contains only white spaces. |
@@ -74,6 +77,7 @@ public void Extract(FileInfo fileInfo)
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -111,6 +115,7 @@ public void Extract(string path)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | Archive headers and service information were not read. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
@@ -118,13 +123,14 @@ public void Extract(string path)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
 ```csharp
 using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
 {
-    using (var archive = new LzipArchive(xzFile))
+    using (var archive = new LzipArchive(lzipFile))
     {
         archive.Extract("extracted.bin");
     }

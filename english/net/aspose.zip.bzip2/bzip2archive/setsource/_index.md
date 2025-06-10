@@ -18,6 +18,12 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | The input stream for the archive. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Examples
 
 ```csharp
@@ -47,6 +53,12 @@ public void SetSource(FileInfo fileInfo)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileInfo | FileInfo | The reference to a file to be compressed. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Examples
 
@@ -88,6 +100,7 @@ public void SetSource(string path)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -119,6 +132,12 @@ public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 | --- | --- | --- |
 | tarArchive | TarArchive | Tar archive to be compressed. |
 | format | TarFormat | Defines tar header format. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -161,6 +180,12 @@ public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.Ol
 | --- | --- | --- |
 | cpioArchive | CpioArchive | Cpio archive to be compressed. |
 | format | CpioFormat | Defines cpio header format. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

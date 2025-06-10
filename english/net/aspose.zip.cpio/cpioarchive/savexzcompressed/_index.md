@@ -27,6 +27,7 @@ public void SaveXzCompressed(Stream output, CpioFormat cpioFormat = CpioFormat.O
 | --- | --- |
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -72,6 +73,12 @@ public void SaveXzCompressed(string path, CpioFormat cpioFormat = CpioFormat.Old
 | path | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 | cpioFormat | CpioFormat | Defines cpio header format. |
 | settings | XzArchiveSettings | Set of setting particular xz archive: dictionary size, block size, check type. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

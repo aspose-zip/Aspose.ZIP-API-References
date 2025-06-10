@@ -30,6 +30,7 @@ public void Save(string destinationFileName)
 | UnauthorizedAccessException | *destinationFileName* specified a file that is read-only and access is not Read.-or- path specified a directory.-or- The caller does not have the required permission. |
 | NotSupportedException | *destinationFileName* is in an invalid format. |
 | FileNotFoundException | The file is not found. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -71,6 +72,7 @@ public void Save(Stream output)
 | --- | --- |
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. - or - *output* is the same stream we extract from. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

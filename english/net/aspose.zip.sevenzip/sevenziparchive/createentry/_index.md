@@ -33,6 +33,7 @@ Seven Zip entry instance.
 | UnauthorizedAccessException | *fileInfo* is read-only or is a directory. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -95,6 +96,7 @@ SevenZip entry instance.
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Both *source* and *fileInfo* are null or *source* is null and *fileInfo* stands for directory. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -145,6 +147,12 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 ### Return Value
 
 Zip entry instance.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -197,6 +205,7 @@ Zip entry instance.
 | ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 
 ## Remarks

@@ -37,6 +37,7 @@ The file info of a composed file.
 | IOException | The file is already open. |
 | NotSupportedException | Stream initialization failed due to wrong data. |
 | InvalidDataException | The archive is corrupted. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -74,6 +75,7 @@ public void Extract(Stream destination)
 | ArgumentException | *destination* does not support writing. |
 | NotSupportedException | Stream initialization failed due to wrong data. |
 | InvalidDataException | The archive is corrupted. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 

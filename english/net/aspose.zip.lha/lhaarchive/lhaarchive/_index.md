@@ -6,17 +6,18 @@ type: docs
 weight: 10
 url: /net/aspose.zip.lha/lhaarchive/lhaarchive/
 ---
-## LhaArchive(Stream) {#constructor}
+## LhaArchive(Stream, LhaLoadOptions) {#constructor}
 
 Initializes a new instance of the [`LhaArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public LhaArchive(Stream sourceStream)
+public LhaArchive(Stream sourceStream, LhaLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. |
+| loadOptions | LhaLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -32,23 +33,25 @@ This constructor does not decompress any entry. See [`Extract`](../../lhaarchive
 
 ### See Also
 
+* class [LhaLoadOptions](../../lhaloadoptions/)
 * class [LhaArchive](../)
 * namespace [Aspose.Zip.Lha](../../lhaarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## LhaArchive(string) {#constructor_1}
+## LhaArchive(string, LhaLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`LhaArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public LhaArchive(string path)
+public LhaArchive(string path, LhaLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The fully qualified or the relative path to the archive file. |
+| loadOptions | LhaLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -83,6 +86,7 @@ using (LhaArchive archive = new LhaArchive("sample.lzh"))
 
 ### See Also
 
+* class [LhaLoadOptions](../../lhaloadoptions/)
 * class [LhaArchive](../)
 * namespace [Aspose.Zip.Lha](../../lhaarchive/)
 * assembly [Aspose.Zip](../../../)

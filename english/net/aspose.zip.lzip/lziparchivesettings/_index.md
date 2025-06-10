@@ -3,7 +3,7 @@ title: Class LzipArchiveSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lzip.LzipArchiveSettings class. The class contains setting of a particular lzip archive
 type: docs
-weight: 420
+weight: 470
 url: /net/aspose.zip.lzip/lziparchivesettings/
 ---
 ## LzipArchiveSettings class

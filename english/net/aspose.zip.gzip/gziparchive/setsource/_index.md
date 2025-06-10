@@ -18,6 +18,12 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | The input stream for the archive. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Examples
 
 ```csharp
@@ -47,6 +53,12 @@ public void SetSource(FileInfo fileInfo)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileInfo | FileInfo | The reference to a file to be compressed. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -88,10 +100,9 @@ public void SetSource(string path)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
-
-Open an archive from file by path and extract it to a `MemoryStream`
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -120,6 +131,12 @@ public void SetSource(TarArchive tarArchive)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tarArchive | TarArchive | Tar archive to be compressed. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

@@ -3,7 +3,7 @@ title: XarLoadOptions.EntryExtractionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: XarLoadOptions property. Gets or sets the delegate invoked when some bytes have been extracted
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.xar/xarloadoptions/entryextractionprogressed/
 ---
 ## XarLoadOptions.EntryExtractionProgressed property

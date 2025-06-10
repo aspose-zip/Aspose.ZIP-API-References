@@ -28,6 +28,7 @@ The ISO entry composed.
 | --- | --- |
 | InvalidOperationException | The archive is opened for extraction. |
 | ArgumentNullException | `name` is null or empty. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 

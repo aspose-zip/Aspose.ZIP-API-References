@@ -16,5 +16,6 @@ The SevenZip namespace contains classes which represent 7z archive related entit
 | [SevenZipArchiveEntry](./sevenziparchiveentry/) | Represents a single file within 7z archive. |
 | [SevenZipArchiveEntryEncrypted](./sevenziparchiveentryencrypted/) | SevenZip archive entry that needs to be compressed with encryption or decompressed with decryption. |
 | [SevenZipArchiveEntryPlain](./sevenziparchiveentryplain/) | SevenZip entry that needs to be compressed without encryption or decompressed without decryption. |
+| [SevenZipLoadOptions](./sevenziploadoptions/) | Options with which [`SevenZipArchive`](../aspose.zip.sevenzip/sevenziparchive/) is loaded from a compressed file. |
 
 

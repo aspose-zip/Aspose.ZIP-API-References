@@ -3,7 +3,7 @@ title: Class IsoLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Iso.IsoLoadOptions class. Options with which IsoArchive is loaded from a compressed file. Contains event raised on extraction
 type: docs
-weight: 320
+weight: 350
 url: /net/aspose.zip.iso/isoloadoptions/
 ---
 ## IsoLoadOptions class
@@ -24,6 +24,7 @@ public class IsoLoadOptions
 
 | Name | Description |
 | --- | --- |
+| [CancellationToken](../../aspose.zip.iso/isoloadoptions/cancellationtoken/) { get; set; } | Gets or sets a cancellation token used to cancel the extraction operation. |
 | [EntryExtractionProgressed](../../aspose.zip.iso/isoloadoptions/entryextractionprogressed/) { get; set; } | Gets or sets the delegate invoked when some bytes have been extracted. |
 
 ### See Also

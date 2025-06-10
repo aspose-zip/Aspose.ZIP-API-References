@@ -27,17 +27,18 @@ public LzipArchive(LzipArchiveSettings settings = null)
 
 ---
 
-## LzipArchive(Stream) {#constructor_1}
+## LzipArchive(Stream, LzipLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`LzipArchive`](../) class prepared for decompressing.
 
 ```csharp
-public LzipArchive(Stream sourceStream)
+public LzipArchive(Stream sourceStream, LzipLoadOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. |
+| options | LzipLoadOptions | Options to load the archive with. |
 
 ### Exceptions
 
@@ -53,23 +54,25 @@ This constructor does not decompress. See [`Extract`](../extract/) method for de
 
 ### See Also
 
+* class [LzipLoadOptions](../../lziploadoptions/)
 * class [LzipArchive](../)
 * namespace [Aspose.Zip.Lzip](../../lziparchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## LzipArchive(string) {#constructor_2}
+## LzipArchive(string, LzipLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`LzipArchive`](../) class prepared for decompressing.
 
 ```csharp
-public LzipArchive(string path)
+public LzipArchive(string path, LzipLoadOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | Path to the source of the archive. |
+| options | LzipLoadOptions | Options to load the archive with. |
 
 ### Exceptions
 
@@ -104,6 +107,7 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
 
 ### See Also
 
+* class [LzipLoadOptions](../../lziploadoptions/)
 * class [LzipArchive](../)
 * namespace [Aspose.Zip.Lzip](../../lziparchive/)
 * assembly [Aspose.Zip](../../../)

@@ -14,5 +14,6 @@ The Lzip namespace contains classes which represent lzip archive related entitie
 | --- | --- |
 | [LzipArchive](./lziparchive/) | This class represents a Lzip archive file. Use it to compose or extract Lzip archives. |
 | [LzipArchiveSettings](./lziparchivesettings/) | The class contains setting of a particular lzip archive. |
+| [LzipLoadOptions](./lziploadoptions/) | Options for loading [`LzipArchive`](../aspose.zip.lzip/lziparchive/). |
 
 

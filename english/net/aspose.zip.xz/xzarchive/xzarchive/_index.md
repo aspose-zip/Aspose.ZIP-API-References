@@ -27,17 +27,18 @@ public XzArchive(XzArchiveSettings settings = null)
 
 ---
 
-## XzArchive(Stream) {#constructor_1}
+## XzArchive(Stream, XzLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`XzArchive`](../) class prepared for decompressing.
 
 ```csharp
-public XzArchive(Stream source)
+public XzArchive(Stream source, XzLoadOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | source | Stream | The source of the archive. |
+| options | XzLoadOptions | Options to load the archive with. |
 
 ### Exceptions
 
@@ -52,23 +53,25 @@ This constructor does not decompress. See [`Extract`](../extract/) method for de
 
 ### See Also
 
+* class [XzLoadOptions](../../../aspose.zip.xz.settings/xzloadoptions/)
 * class [XzArchive](../)
 * namespace [Aspose.Zip.Xz](../../xzarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## XzArchive(string) {#constructor_2}
+## XzArchive(string, XzLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`XzArchive`](../) class prepared for decompressing.
 
 ```csharp
-public XzArchive(string path)
+public XzArchive(string path, XzLoadOptions options = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | Path to the source of the archive. |
+| options | XzLoadOptions | Options to load the archive with. |
 
 ### Exceptions
 
@@ -90,6 +93,7 @@ This constructor does not decompress. See [`Extract`](../extract/) method for de
 
 ### See Also
 
+* class [XzLoadOptions](../../../aspose.zip.xz.settings/xzloadoptions/)
 * class [XzArchive](../)
 * namespace [Aspose.Zip.Xz](../../xzarchive/)
 * assembly [Aspose.Zip](../../../)

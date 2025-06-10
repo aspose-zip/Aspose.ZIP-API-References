@@ -3,7 +3,7 @@ title: Class CabArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabArchive class. This class represents a cab archive file
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.zip.cab/cabarchive/
 ---
 ## CabArchive class
@@ -18,8 +18,8 @@ public class CabArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [CabArchive](cabarchive/#constructor)(Stream) | Initializes a new instance of the `CabArchive` class and composes an entry list can be extracted from the archive. |
-| [CabArchive](cabarchive/#constructor_1)(string) | Initializes a new instance of the `CabArchive` class and composes an entry list can be extracted from the archive. |
+| [CabArchive](cabarchive/#constructor)(Stream, CabLoadOptions) | Initializes a new instance of the `CabArchive` class and composes an entry list can be extracted from the archive. |
+| [CabArchive](cabarchive/#constructor_1)(string, CabLoadOptions) | Initializes a new instance of the `CabArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 

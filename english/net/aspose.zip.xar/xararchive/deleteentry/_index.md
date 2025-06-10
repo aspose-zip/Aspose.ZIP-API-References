@@ -27,6 +27,7 @@ Xar entry instance.
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | *entry* is null. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

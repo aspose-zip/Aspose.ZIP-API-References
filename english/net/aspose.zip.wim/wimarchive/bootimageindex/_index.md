@@ -14,6 +14,12 @@ Gets the (zero-based) index of the bootable image.
 public int BootImageIndex { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [WimArchive](../)

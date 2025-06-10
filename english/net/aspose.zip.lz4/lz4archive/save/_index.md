@@ -25,6 +25,8 @@ public void Save(Stream output)
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. |
 | InvalidOperationException | The archive is prepared for extraction. - or - Source was not supplied. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the compression is canceled via the provided cancellation token. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -75,6 +77,7 @@ public void Save(FileInfo destination)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | InvalidOperationException | The archive is prepared for extraction. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -117,6 +120,7 @@ public void Save(string destinationFileName)
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
 | InvalidOperationException | The archive is prepared for extraction. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
