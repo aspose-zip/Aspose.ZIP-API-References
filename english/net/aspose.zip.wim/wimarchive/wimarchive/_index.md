@@ -6,17 +6,18 @@ type: docs
 weight: 10
 url: /net/aspose.zip.wim/wimarchive/wimarchive/
 ---
-## WimArchive(Stream) {#constructor}
+## WimArchive(Stream, WimLoadOptions) {#constructor}
 
 Initializes a new instance of the [`WimArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public WimArchive(Stream sourceStream)
+public WimArchive(Stream sourceStream, WimLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. It must be seekable. |
+| loadOptions | WimLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -32,7 +33,7 @@ This constructor does not unpack any entry. See [`Open`](../../wimfileentry/open
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new WimArchive(File.OpenRead("archive.wim")))
@@ -43,23 +44,25 @@ using (var archive = new WimArchive(File.OpenRead("archive.wim")))
 
 ### See Also
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
 * namespace [Aspose.Zip.Wim](../../wimarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## WimArchive(string) {#constructor_1}
+## WimArchive(string, WimLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`WimArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public WimArchive(string path)
+public WimArchive(string path, WimLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path to the archive file. |
+| loadOptions | WimLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -81,7 +84,7 @@ This constructor does not unpack any entry. See [`Open`](../../wimfileentry/open
 
 ## Examples
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```csharp
 using (var archive = new WimArchive("archive.wim")) 
@@ -92,6 +95,7 @@ using (var archive = new WimArchive("archive.wim"))
 
 ### See Also
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
 * namespace [Aspose.Zip.Wim](../../wimarchive/)
 * assembly [Aspose.Zip](../../../)

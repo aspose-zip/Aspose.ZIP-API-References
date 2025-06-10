@@ -16,6 +16,7 @@ The Wim namespace contains classes which represent WIM archive related entities.
 | [WimDirectoryEntry](./wimdirectoryentry/) | Represents a single directory within wim archive. |
 | [WimEntry](./wimentry/) | Represents a single file or directory within wim image. |
 | [WimFileEntry](./wimfileentry/) | Represents a single file within wim archive. |
-| [WimImage](./wimimage/) | Represents single image within wim archive. |
+| [WimImage](./wimimage/) | Represents a single image within wim archive. |
+| [WimLoadOptions](./wimloadoptions/) | Options with which archive is loaded from a compressed file. |
 
 

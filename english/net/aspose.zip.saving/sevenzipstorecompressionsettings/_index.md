@@ -3,7 +3,7 @@ title: Class SevenZipStoreCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipStoreCompressionSettings class. Settings for Store compression method within 7z archive
 type: docs
-weight: 740
+weight: 810
 url: /net/aspose.zip.saving/sevenzipstorecompressionsettings/
 ---
 ## SevenZipStoreCompressionSettings class

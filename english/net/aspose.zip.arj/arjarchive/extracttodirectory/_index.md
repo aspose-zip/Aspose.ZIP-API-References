@@ -23,6 +23,8 @@ public void ExtractToDirectory(string destinationDirectory)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when the *destinationDirectory* is null. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 

@@ -33,6 +33,7 @@ The ISO entry composed.
 | PathTooLongException | The specified *filePath* exceeds the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *filePath* contains a colon (:) in the middle of the string. |
 | IOException | An I/O error occurred while opening the file. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 
@@ -59,6 +60,12 @@ public IsoEntry CreateEntry(string name, Stream source)
 ### Return Value
 
 The ISO entry composed.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 
@@ -91,6 +98,7 @@ The ISO entry composed.
 | --- | --- |
 | ArgumentNullException | `name` is null or empty. |
 | InvalidOperationException | The archive is opened for extraction. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 

@@ -29,6 +29,8 @@ Info of an extracted file.
 | EndOfStreamException | Source stream is too short. |
 | InvalidDataException | Wrong bytes found while decoding. |
 | NotSupportedException | This LZ4 version is not supported. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also
 
@@ -59,6 +61,8 @@ public void Extract(Stream destination)
 | InvalidDataException | Wrong bytes found while decoding. |
 | NotSupportedException | This LZ4 version is not supported. |
 | InvalidOperationException | The archive is prepared for composition. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

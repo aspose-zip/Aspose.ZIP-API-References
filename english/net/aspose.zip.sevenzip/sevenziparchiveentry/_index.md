@@ -3,7 +3,7 @@ title: Class SevenZipArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipArchiveEntry class. Represents a single file within 7z archive
 type: docs
-weight: 820
+weight: 890
 url: /net/aspose.zip.sevenzip/sevenziparchiveentry/
 ---
 ## SevenZipArchiveEntry class

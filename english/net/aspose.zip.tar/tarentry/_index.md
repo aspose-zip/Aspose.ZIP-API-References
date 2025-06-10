@@ -3,7 +3,7 @@ title: Class TarEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Tar.TarEntry class. Represents single file within tar archive
 type: docs
-weight: 890
+weight: 970
 url: /net/aspose.zip.tar/tarentry/
 ---
 ## TarEntry class

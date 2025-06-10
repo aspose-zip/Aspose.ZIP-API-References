@@ -25,6 +25,7 @@ public void SaveLZMACompressed(Stream output, TarFormat? format = default)
 | --- | --- |
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Remarks
 
@@ -80,6 +81,7 @@ public void SaveLZMACompressed(string path, TarFormat? format = default)
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | DirectoryNotFoundException | The specified *path* is invalid, (for example, it is on an unmapped drive). |
 | NotSupportedException | *path* is in an invalid format. |
+| ObjectDisposedException | Archive has been disposed and cannot be used |
 
 ## Remarks
 

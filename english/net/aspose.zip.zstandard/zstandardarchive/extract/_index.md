@@ -22,7 +22,9 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentException | *destination* does not support writing. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -61,12 +63,14 @@ Info of an extracted file.
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ### See Also
 

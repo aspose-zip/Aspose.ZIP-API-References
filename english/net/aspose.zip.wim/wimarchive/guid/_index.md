@@ -14,6 +14,12 @@ Gets the identifying GUID for the archive.
 public Guid Guid { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [WimArchive](../)

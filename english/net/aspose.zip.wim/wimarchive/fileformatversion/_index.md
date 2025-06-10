@@ -14,6 +14,12 @@ Gets the version of the file format.
 public int FileFormatVersion { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ### See Also
 
 * class [WimArchive](../)

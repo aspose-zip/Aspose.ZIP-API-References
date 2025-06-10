@@ -22,6 +22,7 @@ public void ExtractToDirectory(string destinationDirectory)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *destinationDirectory* is null. |
 | PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters and file names must be less than 260 characters. |
 | SecurityException | The caller does not have the required permission to access the existing directory. |

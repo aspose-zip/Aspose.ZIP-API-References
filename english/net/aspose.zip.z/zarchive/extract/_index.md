@@ -22,6 +22,7 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidDataException | Data cannot be decompressed. |
 
 ## Examples
@@ -63,6 +64,7 @@ public void Extract(FileInfo fileInfo)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
 | ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
@@ -71,6 +73,7 @@ public void Extract(FileInfo fileInfo)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | InvalidDataException | Data cannot be decompressed. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -112,6 +115,7 @@ Info of an extracted file.
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
@@ -119,6 +123,7 @@ Info of an extracted file.
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | InvalidDataException | Data cannot be decompressed. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 

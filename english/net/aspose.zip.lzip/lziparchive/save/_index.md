@@ -22,6 +22,7 @@ public void Save(Stream outputStream)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentException | *outputStream* does not support seeking. |
 | ArgumentNullException | *outputStream* is null. |
 
@@ -66,6 +67,7 @@ public void Save(string destinationFileName)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *destinationFileName* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *destinationFileName* is empty, contains only white spaces, or contains invalid characters. |
@@ -107,6 +109,7 @@ public void Save(FileInfo destination)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | SecurityException | The caller does not have the required permission to open the *destination*. |
 | ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |

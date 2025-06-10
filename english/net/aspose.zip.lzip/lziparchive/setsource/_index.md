@@ -22,6 +22,7 @@ public void SetSource(Stream source)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentException | The *source* stream is unseekable. |
 
 ## Examples
@@ -58,6 +59,7 @@ public void SetSource(FileInfo fileInfo)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | SecurityException | The caller does not have the required permission to open the *fileInfo*. |
 | ArgumentException | The file path is empty or contains only white spaces. |
 | FileNotFoundException | The file is not found. |
@@ -100,6 +102,7 @@ public void SetSource(string path)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |

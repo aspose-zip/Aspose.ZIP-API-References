@@ -22,6 +22,7 @@ public void Extract(Stream destination)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentException | *destination* does not support writing. |
 
 ## Examples
@@ -61,6 +62,7 @@ Info of the extracted file.
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |

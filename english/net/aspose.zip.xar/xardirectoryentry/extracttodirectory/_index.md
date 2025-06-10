@@ -29,6 +29,7 @@ public void ExtractToDirectory(string destinationDirectory)
 | ArgumentException | path is a zero-length string, contains only white space, or contains one or more invalid characters. You can query for invalid characters by using the System.IO.Path.GetInvalidPathChars method. -or- path is prefixed with, or contains, only a colon character (:). |
 | IOException | The directory specified by path is a file. -or- The network name is not known. |
 | InvalidDataException | The archive is corrupted. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Remarks
 

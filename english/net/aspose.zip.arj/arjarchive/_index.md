@@ -18,8 +18,8 @@ public class ArjArchive : IArchive
 
 | Name | Description |
 | --- | --- |
-| [ArjArchive](arjarchive/#constructor)(Stream) | Initializes a new instance of the `ArjArchive` class and composes an entry list can be extracted from the archive. |
-| [ArjArchive](arjarchive/#constructor_1)(string) | Initializes a new instance of the `ArjArchive` class and composes an entry list can be extracted from the archive. |
+| [ArjArchive](arjarchive/#constructor)(Stream, ArjLoadOptions) | Initializes a new instance of the `ArjArchive` class and composes an entry list can be extracted from the archive. |
+| [ArjArchive](arjarchive/#constructor_1)(string, ArjLoadOptions) | Initializes a new instance of the `ArjArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 

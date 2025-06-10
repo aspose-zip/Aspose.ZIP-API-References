@@ -6,17 +6,18 @@ type: docs
 weight: 10
 url: /net/aspose.zip.arj/arjarchive/arjarchive/
 ---
-## ArjArchive(Stream) {#constructor}
+## ArjArchive(Stream, ArjLoadOptions) {#constructor}
 
 Initializes a new instance of the [`ArjArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public ArjArchive(Stream extractionSource)
+public ArjArchive(Stream extractionSource, ArjLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | extractionSource | Stream | The source of the archive. |
+| loadOptions | ArjLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -33,23 +34,25 @@ This constructor does not decompress any entry. See [`Extract`](../../arjentrypl
 
 ### See Also
 
+* class [ArjLoadOptions](../../arjloadoptions/)
 * class [ArjArchive](../)
 * namespace [Aspose.Zip.Arj](../../arjarchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## ArjArchive(string) {#constructor_1}
+## ArjArchive(string, ArjLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`ArjArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public ArjArchive(string path)
+public ArjArchive(string path, ArjLoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path to the archive file. |
+| loadOptions | ArjLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -82,6 +85,7 @@ using (var archive = new ArjArchive("archive.arj"))
 
 ### See Also
 
+* class [ArjLoadOptions](../../arjloadoptions/)
 * class [ArjArchive](../)
 * namespace [Aspose.Zip.Arj](../../arjarchive/)
 * assembly [Aspose.Zip](../../../)

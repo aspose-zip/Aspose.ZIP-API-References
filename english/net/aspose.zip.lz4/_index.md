@@ -14,5 +14,6 @@ The Lz4 namespace contains classes which represent LZ4 related entities.
 | --- | --- |
 | [Lz4Archive](./lz4archive/) | This class represents LZ4 archive file. Use it to extract or compose LZ4 archives. |
 | [Lz4ArchiveSetting](./lz4archivesetting/) | Settings for LZ4 archive composition. |
+| [Lz4LoadOptions](./lz4loadoptions/) | Options for loading [`Lz4Archive`](../aspose.zip.lz4/lz4archive/). |
 
 

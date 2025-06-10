@@ -6,17 +6,18 @@ type: docs
 weight: 10
 url: /net/aspose.zip.lz4/lz4archive/lz4archive/
 ---
-## Lz4Archive(Stream) {#constructor_1}
+## Lz4Archive(Stream, Lz4LoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`Lz4Archive`](../) class prepared for decompressing.
 
 ```csharp
-public Lz4Archive(Stream sourceStream)
+public Lz4Archive(Stream sourceStream, Lz4LoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | Stream | The source of the archive. |
+| loadOptions | Lz4LoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -43,23 +44,25 @@ using (Lz4Archive archive = new Lz4Archive(File.OpenRead("archive.lz4")))
 
 ### See Also
 
+* class [Lz4LoadOptions](../../lz4loadoptions/)
 * class [Lz4Archive](../)
 * namespace [Aspose.Zip.Lz4](../../lz4archive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Lz4Archive(string) {#constructor_2}
+## Lz4Archive(string, Lz4LoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`Lz4Archive`](../) class.
 
 ```csharp
-public Lz4Archive(string path)
+public Lz4Archive(string path, Lz4LoadOptions loadOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | String | The path to the archive file. |
+| loadOptions | Lz4LoadOptions | The options to load archive with. |
 
 ### Exceptions
 
@@ -90,6 +93,7 @@ using (Lz4Archive archive = new Lz4Archive("archive.lz4"))
 
 ### See Also
 
+* class [Lz4LoadOptions](../../lz4loadoptions/)
 * class [Lz4Archive](../)
 * namespace [Aspose.Zip.Lz4](../../lz4archive/)
 * assembly [Aspose.Zip](../../../)

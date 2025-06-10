@@ -19,6 +19,12 @@ public void SaveLZMACompressed(Stream output, CpioFormat cpioFormat = CpioFormat
 | output | Stream | Destination stream. |
 | cpioFormat | CpioFormat | Defines cpio header format. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Remarks
 
 *output* must be writable.
@@ -62,6 +68,12 @@ public void SaveLZMACompressed(string path, CpioFormat cpioFormat = CpioFormat.O
 | --- | --- | --- |
 | path | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 | cpioFormat | CpioFormat | Defines cpio header format. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 

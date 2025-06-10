@@ -3,7 +3,7 @@ title: Class XarArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarArchive class. This class represents a xar archive file
 type: docs
-weight: 1010
+weight: 1100
 url: /net/aspose.zip.xar/xararchive/
 ---
 ## XarArchive class

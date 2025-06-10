@@ -27,6 +27,7 @@ Cpio entry instance.
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | *entry* is null. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -71,6 +72,7 @@ The archive with the entry deleted.
 | exception | condition |
 | --- | --- |
 | ArgumentOutOfRangeException | *entryIndex* is less than 0.-or- *entryIndex* is equal to or greater than `Entries` count. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

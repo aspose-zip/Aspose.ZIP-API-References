@@ -23,6 +23,7 @@ The Zip namespace contains classes which represent zip archive and common archiv
 | [EntryEventArgs](./entryeventargs/) | Event arguments for entry related events. |
 | [License](./license/) | Provides methods to license the component. |
 | [MeteredLicense](./meteredlicense/) | Provides methods to set metered key. |
+| [ProgressCancelEventArgs](./progresscanceleventargs/) | Class for cancelable event data containing the number of bytes proceeded. |
 | [ProgressEventArgs](./progresseventargs/) | Class for event data containing the number of bytes proceeded. |
 ## Interfaces
 

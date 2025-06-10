@@ -23,6 +23,7 @@ public void SetSource(Stream source)
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | The archive is prepared for extraction. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -59,6 +60,7 @@ public void SetSource(FileInfo fileInfo)
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | The archive is prepared for extraction. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -92,6 +94,12 @@ public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 | --- | --- | --- |
 | tarArchive | TarArchive | Tar archive to be compressed. |
 | format | TarFormat | Defines tar header format. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Remarks
 
@@ -145,6 +153,7 @@ public void SetSource(string path)
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | InvalidOperationException | This archive is prepared for extraction. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

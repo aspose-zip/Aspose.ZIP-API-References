@@ -23,6 +23,7 @@ public void SetSource(Stream source)
 | exception | condition |
 | --- | --- |
 | ArgumentException | The *source* stream is unseekable. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -65,6 +66,7 @@ public void SetSource(FileInfo fileInfo)
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -106,6 +108,7 @@ public void SetSource(string sourcePath)
 | UnauthorizedAccessException | Access to file *sourcePath* is denied. |
 | PathTooLongException | The specified *sourcePath*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *sourcePath* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 

@@ -75,6 +75,7 @@ public void Extract(FileInfo fileInfo)
 | ArgumentNullException | *fileInfo* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Examples
 
@@ -115,6 +116,7 @@ public void Extract(Stream destination)
 | ArgumentException | *destination* does not support writing. |
 | InvalidDataException | Checksum mismatch for headers or data. - or - Archive is corrupted. |
 | NotImplementedException | Entry compressed with method 4. |
+| OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ### See Also
 

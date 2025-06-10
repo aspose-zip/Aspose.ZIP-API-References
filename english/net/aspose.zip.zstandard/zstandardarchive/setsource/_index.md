@@ -18,6 +18,12 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | The input stream for the archive. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+
 ## Examples
 
 ```csharp
@@ -47,6 +53,12 @@ public void SetSource(FileInfo fileInfo)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileInfo | FileInfo | The reference to a file to be compressed. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ## Examples
 
@@ -82,6 +94,7 @@ public void SetSource(string path)
 
 | exception | condition |
 | --- | --- |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
 | ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |

@@ -3,7 +3,7 @@ title: Class Lz4ArchiveSetting
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lz4.Lz4ArchiveSetting class. Settings for LZ4 archive composition
 type: docs
-weight: 400
+weight: 440
 url: /net/aspose.zip.lz4/lz4archivesetting/
 ---
 ## Lz4ArchiveSetting class

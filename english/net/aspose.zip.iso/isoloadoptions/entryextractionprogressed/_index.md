@@ -3,7 +3,7 @@ title: IsoLoadOptions.EntryExtractionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: IsoLoadOptions property. Gets or sets the delegate invoked when some bytes have been extracted
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.iso/isoloadoptions/entryextractionprogressed/
 ---
 ## IsoLoadOptions.EntryExtractionProgressed property

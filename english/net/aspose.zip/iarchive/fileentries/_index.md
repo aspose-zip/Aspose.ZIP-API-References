@@ -16,7 +16,7 @@ public IEnumerable<IArchiveFileEntry> FileEntries { get; }
 
 ## Remarks
 
-Archives for compression only, such as gzip, bzip2, lzip, lzma, xz, z consist of the single record - the archive itself.
+Archives for compression only, such as gzip, bzip2, lzip, lzma, lz4, xz, z consist of the single record - the archive itself.
 
 ### See Also
 

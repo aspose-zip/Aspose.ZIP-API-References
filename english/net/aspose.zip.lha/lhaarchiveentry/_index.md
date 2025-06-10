@@ -3,7 +3,7 @@ title: Class LhaArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lha.LhaArchiveEntry class. Represents a single file within Lha archive
 type: docs
-weight: 370
+weight: 400
 url: /net/aspose.zip.lha/lhaarchiveentry/
 ---
 ## LhaArchiveEntry class
