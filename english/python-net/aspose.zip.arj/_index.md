@@ -15,3 +15,4 @@ Contains classes which represent arj archive related entities.
 | :- | :- |
 |[ArjArchive](/zip/python-net/aspose.zip.arj/arjarchive/)|This class represents an ARJ archive file.|
 |[ArjEntryPlain](/zip/python-net/aspose.zip.arj/arjentryplain/)|Represents a single file within ARJ archive.|
+|[ArjLoadOptions](/zip/python-net/aspose.zip.arj/arjloadoptions/)|Options with which archive is loaded from a compressed file.|
