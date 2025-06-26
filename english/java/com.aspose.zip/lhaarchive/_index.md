@@ -3,7 +3,7 @@ title: LhaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a LHA .lzh archive file.
 type: docs
-weight: 49
+weight: 53
 url: /java/com.aspose.zip/lhaarchive/
 ---
 
@@ -34,7 +34,9 @@ Only the following compression methods are supported:
 | Constructor | Description |
 | --- | --- |
 | [LhaArchive(InputStream sourceStream)](#LhaArchive-java.io.InputStream-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive. |
+| [LhaArchive(InputStream sourceStream, LhaLoadOptions loadOptions)](#LhaArchive-java.io.InputStream-com.aspose.zip.LhaLoadOptions-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive. |
 | [LhaArchive(String path)](#LhaArchive-java.lang.String-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive. |
+| [LhaArchive(String path, LhaLoadOptions loadOptions)](#LhaArchive-java.lang.String-com.aspose.zip.LhaLoadOptions-) | Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -58,6 +60,22 @@ This constructor does not decompress any entry. See [LhaArchiveEntry.extract(Out
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
+
+### LhaArchive(InputStream sourceStream, LhaLoadOptions loadOptions) {#LhaArchive-java.io.InputStream-com.aspose.zip.LhaLoadOptions-}
+```
+public LhaArchive(InputStream sourceStream, LhaLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive.
+
+This constructor does not decompress any entry. See [LhaArchiveEntry.extract(OutputStream)](../../com.aspose.zip/lhaarchiveentry\#extract-OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| loadOptions | [LhaLoadOptions](../../com.aspose.zip/lhaloadoptions) | Options to load existing archive with. |
 
 ### LhaArchive(String path) {#LhaArchive-java.lang.String-}
 ```
@@ -84,6 +102,33 @@ This constructor does not decompress any entry. See [ArchiveEntry.extract(Output
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the fully qualified or the relative path to the archive file |
+
+### LhaArchive(String path, LhaLoadOptions loadOptions) {#LhaArchive-java.lang.String-com.aspose.zip.LhaLoadOptions-}
+```
+public LhaArchive(String path, LhaLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) class and composes an entry list can be extracted from the archive.
+
+The following example extracts an archive, then decompress first entry to a `MemoryStream`.
+
+```
+
+     ByteArrayOutputStream extracted = new ByteArrayOutputStream();
+     try (LhaArchive archive = new LhaArchive("sample.lzh")) {
+         archive.getEntries().get(0).extract(extracted);
+     }
+ 
+```
+
+This constructor does not decompress any entry. See [ArchiveEntry.extract(OutputStream)](../../com.aspose.zip/archiveentry\#extract-OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the fully qualified or the relative path to the archive file |
+| loadOptions | [LhaLoadOptions](../../com.aspose.zip/lhaloadoptions) | Options to load existing archive with. |
 
 ### close() {#close--}
 ```

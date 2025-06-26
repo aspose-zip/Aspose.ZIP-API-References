@@ -41,7 +41,7 @@ Cast an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance to [ArchiveEn
 | [open()](#open--) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 | [open(String password)](#open-java.lang.String-) | Opens the entry for extraction and provides a stream with decompressed entry content. |
 | [setCompressionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setCompressionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream compressed. |
-| [setExtractionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when a portion of raw stream extracted. |
+| [setExtractionProgressed(Event&lt;ProgressCancelEventArgs&gt; value)](#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressCancelEventArgs--) | Sets an event that is raised when a portion of raw stream extracted. |
 | [setModificationTime(Date value)](#setModificationTime-java.util.Date-) | Sets last modified date and time. |
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
@@ -225,11 +225,13 @@ Before assigned, the source is null. This source may be assigned within `Archive
 java.io.InputStream - the source for the entry
 ### getExtractionProgressed() {#getExtractionProgressed--}
 ```
-public final Event<ProgressEventArgs> getExtractionProgressed()
+public final Event<ProgressCancelEventArgs> getExtractionProgressed()
 ```
 
 
 Gets an event that is raised when a portion of raw stream extracted.
+
+In this sample event handler is used for calculation the share of proceeded size in percents.
 
 ```
 
@@ -241,7 +243,15 @@ Gets an event that is raised when a portion of raw stream extracted.
  
 ```
 
-Event sender is an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance.
+In this sample event handler is used for cancellation after the first hundred of Mb of entry was extracted.
+
+```
+
+ a.getEntries().get(0).setExtractionProgressed( (s, e) -> { if (e.getProceededBytes() > 100000000) e.setCancel(true); } );
+ 
+```
+
+Event sender is an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance. It is possible to cancel extraction.
 
 **Returns:**
 [Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream extracted.
@@ -375,13 +385,15 @@ Event sender is an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance.
 | --- | --- | --- |
 | value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when a portion of raw stream compressed |
 
-### setExtractionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
+### setExtractionProgressed(Event&lt;ProgressCancelEventArgs&gt; value) {#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressCancelEventArgs--}
 ```
-public final void setExtractionProgressed(Event<ProgressEventArgs> value)
+public final void setExtractionProgressed(Event<ProgressCancelEventArgs> value)
 ```
 
 
 Sets an event that is raised when a portion of raw stream extracted.
+
+In this sample event handler is used for calculation the share of proceeded size in percents.
 
 ```
 
@@ -393,12 +405,20 @@ Sets an event that is raised when a portion of raw stream extracted.
  
 ```
 
-Event sender is an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance.
+In this sample event handler is used for cancellation after the first hundred of Mb of entry was extracted.
+
+```
+
+ a.getEntries().get(0).setExtractionProgressed( (s, e) -> { if (e.getProceededBytes() > 100000000) e.setCancel(true); } );
+ 
+```
+
+Event sender is an [ArchiveEntry](../../com.aspose.zip/archiveentry) instance. It is possible to cancel extraction.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when a portion of raw stream extracted. |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressCancelEventArgs&gt; | an event that is raised when a portion of raw stream extracted. |
 
 ### setModificationTime(Date value) {#setModificationTime-java.util.Date-}
 ```

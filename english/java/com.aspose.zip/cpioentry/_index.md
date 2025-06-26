@@ -3,7 +3,7 @@ title: CpioEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within cpio archive.
 type: docs
-weight: 33
+weight: 36
 url: /java/com.aspose.zip/cpioentry/
 ---
 

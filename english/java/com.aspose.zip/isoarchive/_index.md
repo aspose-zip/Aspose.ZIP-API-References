@@ -3,7 +3,7 @@ title: IsoArchive
 second_title: Aspose.ZIP for Java API Reference
 description: Represents an ISO archive ISO 9660.
 type: docs
-weight: 45
+weight: 49
 url: /java/com.aspose.zip/isoarchive/
 ---
 
@@ -22,7 +22,7 @@ Represents an ISO archive (ISO 9660).
 | Constructor | Description |
 | --- | --- |
 | [IsoArchive()](#IsoArchive--) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and creates an empty ISO archive for adding new files and directories. |
-| [IsoArchive(InputStream sourceStream)](#IsoArchive-java.io.InputStream-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive. |
+| [IsoArchive(InputStream sourceStream)](#IsoArchive-java.io.InputStream-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive. |
 | [IsoArchive(InputStream sourceStream, IsoLoadOptions loadOptions)](#IsoArchive-java.io.InputStream-com.aspose.zip.IsoLoadOptions-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive. |
 | [IsoArchive(String path)](#IsoArchive-java.lang.String-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive. |
 | [IsoArchive(String path, IsoLoadOptions loadOptions)](#IsoArchive-java.lang.String-com.aspose.zip.IsoLoadOptions-) | Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive. |
@@ -73,9 +73,9 @@ public IsoArchive(InputStream sourceStream)
 ```
 
 
-Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes entries list that can be extracted from the archive.
+Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -101,7 +101,7 @@ public IsoArchive(InputStream sourceStream, IsoLoadOptions loadOptions)
 
 Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -128,7 +128,7 @@ public IsoArchive(String path)
 
 Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -153,7 +153,7 @@ public IsoArchive(String path, IsoLoadOptions loadOptions)
 
 Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) class and composes an entry list that can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 

@@ -3,7 +3,7 @@ title: CancelEntryEventArgsXar
 second_title: Aspose.ZIP for Java API Reference
 description: Event arguments for cancelable entry related events.
 type: docs
-weight: 30
+weight: 32
 url: /java/com.aspose.zip/cancelentryeventargsxar/
 ---
 

@@ -3,7 +3,7 @@ title: LzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a Lzip archive file.
 type: docs
-weight: 55
+weight: 61
 url: /java/com.aspose.zip/lziparchive/
 ---
 
@@ -24,7 +24,9 @@ This class represents a Lzip archive file. Use it to compose or extract Lzip arc
 | [LzipArchive()](#LzipArchive--) | Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive). |
 | [LzipArchive(LzipArchiveSettings settings)](#LzipArchive-com.aspose.zip.LzipArchiveSettings-) | Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive). |
 | [LzipArchive(InputStream sourceStream)](#LzipArchive-java.io.InputStream-) | Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing. |
+| [LzipArchive(InputStream sourceStream, LzipLoadOptions options)](#LzipArchive-java.io.InputStream-com.aspose.zip.LzipLoadOptions-) | Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing. |
 | [LzipArchive(String path)](#LzipArchive-java.lang.String-) | Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing. |
+| [LzipArchive(String path, LzipLoadOptions options)](#LzipArchive-java.lang.String-com.aspose.zip.LzipLoadOptions-) | Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing. |
 ## Methods
 
 | Method | Description |
@@ -94,6 +96,35 @@ This constructor does not decompress. See [extract(OutputStream)](../../com.aspo
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### LzipArchive(InputStream sourceStream, LzipLoadOptions options) {#LzipArchive-java.io.InputStream-com.aspose.zip.LzipLoadOptions-}
+```
+public LzipArchive(InputStream sourceStream, LzipLoadOptions options)
+```
+
+
+Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing.
+
+```
+
+     try (FileInputStream sourceLzipFile = new FileInputStream("sourceLzipFile")) {
+         try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
+             try (LzipArchive archive = new LzipArchive(sourceLzipFile)) {
+                 archive.extract(extractedFile);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not decompress. See [extract(OutputStream)](../../com.aspose.zip/lziparchive\#extract-OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| options | [LzipLoadOptions](../../com.aspose.zip/lziploadoptions) | Options to load the archive with. |
+
 ### LzipArchive(String path) {#LzipArchive-java.lang.String-}
 ```
 public LzipArchive(String path)
@@ -119,6 +150,33 @@ This constructor does not decompress. See [extract(OutputStream)](../../com.aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the source of the archive |
+
+### LzipArchive(String path, LzipLoadOptions options) {#LzipArchive-java.lang.String-com.aspose.zip.LzipLoadOptions-}
+```
+public LzipArchive(String path, LzipLoadOptions options)
+```
+
+
+Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing.
+
+```
+
+     try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
+         try (LzipArchive archive = new LzipArchive("sourceLzipFileName")) {
+             archive.extract(extractedFile);
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not decompress. See [extract(OutputStream)](../../com.aspose.zip/lziparchive\#extract-OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the source of the archive |
+| options | [LzipLoadOptions](../../com.aspose.zip/lziploadoptions) | Options to load the archive with. |
 
 ### close() {#close--}
 ```

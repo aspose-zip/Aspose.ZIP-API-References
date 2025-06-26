@@ -3,7 +3,7 @@ title: SharArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a shar archive file.
 type: docs
-weight: 84
+weight: 93
 url: /java/com.aspose.zip/shararchive/
 ---
 

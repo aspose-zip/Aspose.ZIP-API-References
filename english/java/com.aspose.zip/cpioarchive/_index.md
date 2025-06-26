@@ -3,7 +3,7 @@ title: CpioArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents cpio archive file.
 type: docs
-weight: 32
+weight: 35
 url: /java/com.aspose.zip/cpioarchive/
 ---
 

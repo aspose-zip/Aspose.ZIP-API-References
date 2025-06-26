@@ -3,7 +3,7 @@ title: Bzip2Archive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents bzip2 archive file.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.zip/bzip2archive/
 ---
 
@@ -364,9 +364,7 @@ Write compressed data to an output stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | java.io.OutputStream | destination stream.
-
-`outputStream` must be writable |
+| outputStream | java.io.OutputStream | destination stream. |
 
 ### save(OutputStream outputStream, Bzip2SaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.zip.Bzip2SaveOptions-}
 ```
@@ -392,9 +390,7 @@ Write compressed data to an output stream.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | java.io.OutputStream | destination stream.
-
-`outputStream` must be writable |
+| outputStream | java.io.OutputStream | destination stream. |
 | saveOptions | [Bzip2SaveOptions](../../com.aspose.zip/bzip2saveoptions) | options for saving a bzip2 archive. If not specified, 900 Kb block size would be used |
 
 ### save(String destinationFileName) {#save-java.lang.String-}

@@ -31,7 +31,9 @@ Only the following compression methods are supported:
 | Constructor | Description |
 | --- | --- |
 | [ArjArchive(InputStream extractionSource)](#ArjArchive-java.io.InputStream-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive. |
+| [ArjArchive(InputStream extractionSource, ArjLoadOptions loadOptions)](#ArjArchive-java.io.InputStream-com.aspose.zip.ArjLoadOptions-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive. |
 | [ArjArchive(String path)](#ArjArchive-java.lang.String-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive. |
+| [ArjArchive(String path, ArjLoadOptions loadOptions)](#ArjArchive-java.lang.String-com.aspose.zip.ArjLoadOptions-) | Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -58,6 +60,22 @@ This constructor does not decompress any entry. See [ArjEntryPlain.extract(java.
 | --- | --- | --- |
 | extractionSource | java.io.InputStream | the source of the archive |
 
+### ArjArchive(InputStream extractionSource, ArjLoadOptions loadOptions) {#ArjArchive-java.io.InputStream-com.aspose.zip.ArjLoadOptions-}
+```
+public ArjArchive(InputStream extractionSource, ArjLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive.
+
+This constructor does not decompress any entry. See [ArjEntryPlain.extract(java.io.OutputStream)](../../com.aspose.zip/arjentryplain\#extract-java.io.OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| extractionSource | java.io.InputStream | the source of the archive |
+| loadOptions | [ArjLoadOptions](../../com.aspose.zip/arjloadoptions) | Options to load existing archive with. |
+
 ### ArjArchive(String path) {#ArjArchive-java.lang.String-}
 ```
 public ArjArchive(String path)
@@ -83,6 +101,33 @@ This constructor does not unpack any entry. See [ArjEntryPlain.extract(java.io.O
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### ArjArchive(String path, ArjLoadOptions loadOptions) {#ArjArchive-java.lang.String-com.aspose.zip.ArjLoadOptions-}
+```
+public ArjArchive(String path, ArjLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) class and composes an entry list can be extracted from the archive.
+
+The following example shows how to extract all the entries to a directory.
+
+```
+
+     try (ArjArchive archive = new ArjArchive("archive.arj")) {
+         archive.extractToDirectory("C:\\extracted");
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not unpack any entry. See [ArjEntryPlain.extract(java.io.OutputStream)](../../com.aspose.zip/arjentryplain\#extract-java.io.OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+| loadOptions | [ArjLoadOptions](../../com.aspose.zip/arjloadoptions) | Options to load existing archive with. |
 
 ### close() {#close--}
 ```

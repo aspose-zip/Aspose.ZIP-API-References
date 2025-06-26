@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 65
+weight: 73
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 

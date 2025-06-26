@@ -3,7 +3,7 @@ title: IsoEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents an entry file or directory within an ISO archive.
 type: docs
-weight: 46
+weight: 50
 url: /java/com.aspose.zip/isoentry/
 ---
 
