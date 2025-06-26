@@ -3,7 +3,7 @@ title: XarCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings needed for compressor to work.
 type: docs
-weight: 102
+weight: 112
 url: /java/com.aspose.zip/xarcompressionsettings/
 ---
 

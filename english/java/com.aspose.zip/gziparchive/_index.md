@@ -3,7 +3,7 @@ title: GzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a gzip archive file.
 type: docs
-weight: 44
+weight: 47
 url: /java/com.aspose.zip/gziparchive/
 ---
 
@@ -26,6 +26,8 @@ Gzip compression algorithm is based on the DEFLATE algorithm, which is a combina
 | [GzipArchive()](#GzipArchive--) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for compressing. |
 | [GzipArchive(InputStream sourceStream)](#GzipArchive-java.io.InputStream-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing. |
 | [GzipArchive(InputStream sourceStream, boolean parseHeader)](#GzipArchive-java.io.InputStream-boolean-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing. |
+| [GzipArchive(InputStream sourceStream, GzipLoadOptions options)](#GzipArchive-java.io.InputStream-com.aspose.zip.GzipLoadOptions-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing. |
+| [GzipArchive(String path, GzipLoadOptions options)](#GzipArchive-java.lang.String-com.aspose.zip.GzipLoadOptions-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing. |
 | [GzipArchive(String path)](#GzipArchive-java.lang.String-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class. |
 | [GzipArchive(String path, boolean parseHeader)](#GzipArchive-java.lang.String-boolean-) | Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class. |
 ## Methods
@@ -136,6 +138,62 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/gziparch
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | The source of the archive. |
 | parseHeader | boolean | Whether to parse stream header to figure out properties, including name. Makes sense for seekable stream only. |
+
+### GzipArchive(InputStream sourceStream, GzipLoadOptions options) {#GzipArchive-java.io.InputStream-com.aspose.zip.GzipLoadOptions-}
+```
+public GzipArchive(InputStream sourceStream, GzipLoadOptions options)
+```
+
+
+Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing.
+
+Open an archive from a stream and extract it to a `MemoryStream`
+
+```
+
+     ByteArrayOutputStream ms = new ByteArrayOutputStream();
+     GzipLoadOptions options = new GzipLoadOptions();
+     try (GzipArchive archive = new GzipArchive(new FileInputStream("archive.gz"), options)) {
+         archive.extract(ms);
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not decompress. See [open()](../../com.aspose.zip/gziparchive\#open--) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | The source of the archive. |
+| options | [GzipLoadOptions](../../com.aspose.zip/gziploadoptions) | Options to load the archive with. |
+
+### GzipArchive(String path, GzipLoadOptions options) {#GzipArchive-java.lang.String-com.aspose.zip.GzipLoadOptions-}
+```
+public GzipArchive(String path, GzipLoadOptions options)
+```
+
+
+Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive) class prepared for decompressing.
+
+Open an archive from file by path and extract it to a `MemoryStream`
+
+```
+
+ var ms = new MemoryStream();
+ GzipLoadOptions options = new GzipLoadOptions();
+ using (GzipArchive archive = new GzipArchive("archive.gz", options))
+   archive.Extract(ms);
+ 
+```
+
+This constructor does not decompress. See [open()](../../com.aspose.zip/gziparchive\#open--) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The path to the archive file. |
+| options | [GzipLoadOptions](../../com.aspose.zip/gziploadoptions) | Options to load the archive with. |
 
 ### GzipArchive(String path) {#GzipArchive-java.lang.String-}
 ```

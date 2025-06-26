@@ -3,7 +3,7 @@ title: XarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a xar archive file.
 type: docs
-weight: 100
+weight: 110
 url: /java/com.aspose.zip/xararchive/
 ---
 
@@ -110,7 +110,7 @@ public XarArchive(InputStream sourceStream)
 
 Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -136,7 +136,7 @@ public XarArchive(InputStream sourceStream, XarLoadOptions loadOptions)
 
 Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -163,7 +163,7 @@ public XarArchive(String path)
 
 Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 
@@ -188,7 +188,7 @@ public XarArchive(String path, XarLoadOptions loadOptions)
 
 Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) class and composes an entry list can be extracted from the archive.
 
-The following example shows how to extract all of the entries to a directory.
+The following example shows how to extract all the entries to a directory.
 
 ```
 

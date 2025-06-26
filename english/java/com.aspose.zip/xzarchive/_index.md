@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xz archive file.
 type: docs
-weight: 110
+weight: 120
 url: /java/com.aspose.zip/xzarchive/
 ---
 
@@ -24,7 +24,9 @@ This class represents xz archive file. Use it to compose and extract xz archives
 | [XzArchive()](#XzArchive--) | Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class and composes the archive in xz format. |
 | [XzArchive(XzArchiveSettings settings)](#XzArchive-com.aspose.zip.XzArchiveSettings-) | Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class and composes the archive in xz format. |
 | [XzArchive(InputStream source)](#XzArchive-java.io.InputStream-) | Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class prepared for decompressing. |
+| [XzArchive(InputStream source, XzLoadOptions options)](#XzArchive-java.io.InputStream-com.aspose.zip.XzLoadOptions-) | Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class prepared for decompressing. |
 | [XzArchive(String path)](#XzArchive-java.lang.String-) | Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class prepared for decompressing. |
+| [XzArchive(String path, XzLoadOptions options)](#XzArchive-java.lang.String-com.aspose.zip.XzLoadOptions-) | Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class prepared for decompressing. |
 ## Methods
 
 | Method | Description |
@@ -79,6 +81,22 @@ This constructor does not decompress. See [extract(java.io.OutputStream)](../../
 | --- | --- | --- |
 | source | java.io.InputStream | the source of the archive |
 
+### XzArchive(InputStream source, XzLoadOptions options) {#XzArchive-java.io.InputStream-com.aspose.zip.XzLoadOptions-}
+```
+public XzArchive(InputStream source, XzLoadOptions options)
+```
+
+
+Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class prepared for decompressing.
+
+This constructor does not decompress. See [extract(java.io.OutputStream)](../../com.aspose.zip/xzarchive\#extract-java.io.OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | java.io.InputStream | the source of the archive |
+| options | [XzLoadOptions](../../com.aspose.zip/xzloadoptions) | Options to load the archive with. |
+
 ### XzArchive(String path) {#XzArchive-java.lang.String-}
 ```
 public XzArchive(String path)
@@ -93,6 +111,22 @@ This constructor does not decompress. See [extract(java.io.OutputStream)](../../
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | path to the source of the archive |
+
+### XzArchive(String path, XzLoadOptions options) {#XzArchive-java.lang.String-com.aspose.zip.XzLoadOptions-}
+```
+public XzArchive(String path, XzLoadOptions options)
+```
+
+
+Initializes a new instance of the [XzArchive](../../com.aspose.zip/xzarchive) class prepared for decompressing.
+
+This constructor does not decompress. See [extract(java.io.OutputStream)](../../com.aspose.zip/xzarchive\#extract-java.io.OutputStream-) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | path to the source of the archive |
+| options | [XzLoadOptions](../../com.aspose.zip/xzloadoptions) |  |
 
 ### close() {#close--}
 ```

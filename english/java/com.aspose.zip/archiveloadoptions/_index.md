@@ -28,9 +28,10 @@ Options with which archive is loaded from a compressed file.
 | [getEntryExtractionProgressed()](#getEntryExtractionProgressed--) | Gets an event that is raised when some bytes have been extracted. |
 | [getEntryListed()](#getEntryListed--) | Gets an event that is raised when an entry listed within table of content. |
 | [getSkipChecksumVerification()](#getSkipChecksumVerification--) | Gets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. |
+| [setCancellationFlag(CancellationFlag value)](#setCancellationFlag-com.aspose.zip.CancellationFlag-) | Sets a cancellation flag used to cancel the extraction operation. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | Sets the password to decrypt entries. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding for entries' names. |
-| [setEntryExtractionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Sets an event that is raised when some bytes have been extracted. |
+| [setEntryExtractionProgressed(Event&lt;ProgressCancelEventArgs&gt; value)](#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressCancelEventArgs--) | Sets an event that is raised when some bytes have been extracted. |
 | [setEntryListed(Event&lt;EntryEventArgs&gt; value)](#setEntryListed-com.aspose.zip.Event-com.aspose.zip.EntryEventArgs--) | Sets an event that is raised when an entry listed within table of content. |
 | [setSkipChecksumVerification(boolean value)](#setSkipChecksumVerification-boolean-) | Sets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. |
 ### ArchiveLoadOptions() {#ArchiveLoadOptions--}
@@ -102,11 +103,13 @@ Entry name composed using specified encoding regardless of zip file properties.
 java.nio.charset.Charset - the encoding for entries' names
 ### getEntryExtractionProgressed() {#getEntryExtractionProgressed--}
 ```
-public final Event<ProgressEventArgs> getEntryExtractionProgressed()
+public final Event<ProgressCancelEventArgs> getEntryExtractionProgressed()
 ```
 
 
 Gets an event that is raised when some bytes have been extracted.
+
+Track the progress of an entry extraction.
 
 ```
 
@@ -117,6 +120,22 @@ Gets an event that is raised when some bytes have been extracted.
         }
     });
     Archive archive = new Archive("archive.zip", options);
+ 
+```
+
+Cancel an entry extraction after a certain time.
+
+```
+
+     long startTime = System.nanoTime();
+     ArchiveLoadOptions options = new ArchiveLoadOptions();
+     options.setEntryExtractionProgressed((s, e) -> {
+         if ((System.nanoTime() - startTime) / 1_000_000 > 1000)
+             e.setCancel(true);
+     });
+     try (Archive a = new Archive("big.zip", options)) {
+         a.getEntries().get(0).extract("first.bin");
+     }
  
 ```
 
@@ -156,6 +175,40 @@ Gets a value indicating whether checksum verification of ZIP entries be skipped 
 
 **Returns:**
 boolean - a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored
+### setCancellationFlag(CancellationFlag value) {#setCancellationFlag-com.aspose.zip.CancellationFlag-}
+```
+public void setCancellationFlag(CancellationFlag value)
+```
+
+
+Sets a cancellation flag used to cancel the extraction operation.
+
+Cancel ZIP archive extraction after a certain time.
+
+```
+
+     try (CancellationFlag cf = new CancellationFlag()) {
+         cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
+         ArchiveLoadOptions options = new ArchiveLoadOptions();
+         options.setCancellationFlag(cf);
+         try (Archive a = new Archive("big.zip", options)) {
+             try {
+                 a.getEntries().get(0).extract("data.bin");
+             } catch (OperationCanceledException e) {
+                 System.out.println("Extraction was cancelled after 60 seconds");
+             }
+         }
+     }
+ 
+```
+
+Cancellation mostly results in some data not being extracted.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CancellationFlag](../../com.aspose.zip/cancellationflag) | a cancellation flag used to cancel the extraction operation. |
+
 ### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String-}
 ```
 public final void setDecryptionPassword(String value)
@@ -223,13 +276,15 @@ Entry name composed using specified encoding regardless of zip file properties.
 | --- | --- | --- |
 | value | java.nio.charset.Charset | the encoding for entries' names |
 
-### setEntryExtractionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
+### setEntryExtractionProgressed(Event&lt;ProgressCancelEventArgs&gt; value) {#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressCancelEventArgs--}
 ```
-public final void setEntryExtractionProgressed(Event<ProgressEventArgs> value)
+public final void setEntryExtractionProgressed(Event<ProgressCancelEventArgs> value)
 ```
 
 
 Sets an event that is raised when some bytes have been extracted.
+
+Track the progress of an entry extraction.
 
 ```
 
@@ -243,12 +298,28 @@ Sets an event that is raised when some bytes have been extracted.
  
 ```
 
+Cancel an entry extraction after a certain time.
+
+```
+
+     long startTime = System.nanoTime();
+     ArchiveLoadOptions options = new ArchiveLoadOptions();
+     options.setEntryExtractionProgressed((s, e) -> {
+         if ((System.nanoTime() - startTime) / 1_000_000 > 1000)
+             e.setCancel(true);
+     });
+     try (Archive a = new Archive("big.zip", options)) {
+         a.getEntries().get(0).extract("first.bin");
+     }
+ 
+```
+
 Event sender is the [ArchiveEntry](../../com.aspose.zip/archiveentry) instance which extraction is progressed.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when some bytes have been extracted |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressCancelEventArgs&gt; | an event that is raised when some bytes have been extracted |
 
 ### setEntryListed(Event&lt;EntryEventArgs&gt; value) {#setEntryListed-com.aspose.zip.Event-com.aspose.zip.EntryEventArgs--}
 ```

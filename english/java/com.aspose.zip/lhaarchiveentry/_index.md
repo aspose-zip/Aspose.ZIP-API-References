@@ -3,7 +3,7 @@ title: LhaArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within Lha archive.
 type: docs
-weight: 50
+weight: 54
 url: /java/com.aspose.zip/lhaarchiveentry/
 ---
 

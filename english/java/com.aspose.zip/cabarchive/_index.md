@@ -3,7 +3,7 @@ title: CabArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a cab archive file.
 type: docs
-weight: 27
+weight: 28
 url: /java/com.aspose.zip/cabarchive/
 ---
 
@@ -22,7 +22,9 @@ This class represents a cab archive file.
 | Constructor | Description |
 | --- | --- |
 | [CabArchive(InputStream sourceStream)](#CabArchive-java.io.InputStream-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
+| [CabArchive(InputStream sourceStream, CabLoadOptions loadOptions)](#CabArchive-java.io.InputStream-com.aspose.zip.CabLoadOptions-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
 | [CabArchive(String path)](#CabArchive-java.lang.String-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
+| [CabArchive(String path, CabLoadOptions loadOptions)](#CabArchive-java.lang.String-com.aspose.zip.CabLoadOptions-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -58,6 +60,33 @@ This constructor does not unpack any entry. See [CabEntry.open()](../../com.aspo
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### CabArchive(InputStream sourceStream, CabLoadOptions loadOptions) {#CabArchive-java.io.InputStream-com.aspose.zip.CabLoadOptions-}
+```
+public CabArchive(InputStream sourceStream, CabLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive.
+
+The following example shows how to extract all the entries to a directory.
+
+```
+
+     try (CabArchive archive = new CabArchive(new FileInputStream("archive.cab"))) {
+         archive.extractToDirectory("C:\\extracted");
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not unpack any entry. See [CabEntry.open()](../../com.aspose.zip/cabentry\#open--) method for unpacking.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| loadOptions | [CabLoadOptions](../../com.aspose.zip/cabloadoptions) | Options to load existing archive with. |
+
 ### CabArchive(String path) {#CabArchive-java.lang.String-}
 ```
 public CabArchive(String path)
@@ -83,6 +112,33 @@ This constructor does not unpack any entry. See [CabEntry.open()](../../com.aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### CabArchive(String path, CabLoadOptions loadOptions) {#CabArchive-java.lang.String-com.aspose.zip.CabLoadOptions-}
+```
+public CabArchive(String path, CabLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive.
+
+The following example shows how to extract all the entries to a directory.
+
+```
+
+     try (CabArchive archive = new CabArchive("archive.cab")) {
+         archive.extractToDirectory("C:\\extracted");
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not unpack any entry. See [CabEntry.open()](../../com.aspose.zip/cabentry\#open--) method for unpacking.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+| loadOptions | [CabLoadOptions](../../com.aspose.zip/cabloadoptions) | Options to load existing archive with. |
 
 ### close() {#close--}
 ```

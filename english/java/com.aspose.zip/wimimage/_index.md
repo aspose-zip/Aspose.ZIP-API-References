@@ -1,9 +1,9 @@
 ---
 title: WimImage
 second_title: Aspose.ZIP for Java API Reference
-description: Represents single image within wim archive.
+description: Represents a single image within wim archive.
 type: docs
-weight: 99
+weight: 108
 url: /java/com.aspose.zip/wimimage/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public final class WimImage
 ```
 
-Represents single image within wim archive.
+Represents a single image within wim archive.
 ## Methods
 
 | Method | Description |
