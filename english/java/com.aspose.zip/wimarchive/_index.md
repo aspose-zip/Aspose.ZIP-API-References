@@ -3,7 +3,7 @@ title: WimArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a wim archive file.
 type: docs
-weight: 95
+weight: 104
 url: /java/com.aspose.zip/wimarchive/
 ---
 
@@ -22,7 +22,9 @@ This class represents a wim archive file.
 | Constructor | Description |
 | --- | --- |
 | [WimArchive(InputStream sourceStream)](#WimArchive-java.io.InputStream-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive. |
+| [WimArchive(InputStream sourceStream, WimLoadOptions loadOptions)](#WimArchive-java.io.InputStream-com.aspose.zip.WimLoadOptions-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive. |
 | [WimArchive(String path)](#WimArchive-java.lang.String-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive. |
+| [WimArchive(String path, WimLoadOptions loadOptions)](#WimArchive-java.lang.String-com.aspose.zip.WimLoadOptions-) | Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -62,6 +64,33 @@ This constructor does not unpack any entry. See [WimFileEntry.open()](../../com.
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### WimArchive(InputStream sourceStream, WimLoadOptions loadOptions) {#WimArchive-java.io.InputStream-com.aspose.zip.WimLoadOptions-}
+```
+public WimArchive(InputStream sourceStream, WimLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive.
+
+The following example shows how to extract all of the entries to a directory.
+
+```
+
+     try (WimArchive archive = new WimArchive(new FileInputStream("archive.wim"))) {
+         archive.getImages().get_Item(0).extractToDirectory("C:\\extracted");
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not unpack any entry. See [WimFileEntry.open()](../../com.aspose.zip/wimfileentry\#open--) method for unpacking.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| loadOptions | [WimLoadOptions](../../com.aspose.zip/wimloadoptions) | Options to load existing archive with. |
+
 ### WimArchive(String path) {#WimArchive-java.lang.String-}
 ```
 public WimArchive(String path)
@@ -86,6 +115,32 @@ This constructor does not unpack any entry. See [WimFileEntry.open()](../../com.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### WimArchive(String path, WimLoadOptions loadOptions) {#WimArchive-java.lang.String-com.aspose.zip.WimLoadOptions-}
+```
+public WimArchive(String path, WimLoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) class and composes an entry list can be extracted from the archive.
+
+The following example shows how to extract all of the entries to a directory.
+
+```
+
+     try (WimArchive archive = new WimArchive("archive.wim")) {
+         archive.getImages().get_Item(0).extractToDirectory("C:\\extracted");
+     }
+ 
+```
+
+This constructor does not unpack any entry. See [WimFileEntry.open()](../../com.aspose.zip/wimfileentry\#open--) method for unpacking.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+| loadOptions | [WimLoadOptions](../../com.aspose.zip/wimloadoptions) | Options to load existing archive with. |
 
 ### close() {#close--}
 ```

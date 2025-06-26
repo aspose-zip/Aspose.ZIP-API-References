@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 71
+weight: 79
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 
@@ -27,6 +27,8 @@ This class represents 7z archive file. Use it to compose and extract 7z archives
 | [SevenZipArchive(InputStream sourceStream, String password)](#SevenZipArchive-java.io.InputStream-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
 | [SevenZipArchive(String path)](#SevenZipArchive-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
 | [SevenZipArchive(String path, String password)](#SevenZipArchive-java.lang.String-java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive(InputStream sourceStream, SevenZipLoadOptions options)](#SevenZipArchive-java.io.InputStream-com.aspose.zip.SevenZipLoadOptions-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
+| [SevenZipArchive(String path, SevenZipLoadOptions options)](#SevenZipArchive-java.lang.String-com.aspose.zip.SevenZipLoadOptions-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive. |
 | [SevenZipArchive(String[] parts)](#SevenZipArchive-java.lang.String---) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes an entry list can be extracted from the archive. |
 | [SevenZipArchive(String[] parts, String password)](#SevenZipArchive-java.lang.String---java.lang.String-) | Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes an entry list can be extracted from the archive. |
 ## Methods
@@ -206,6 +208,76 @@ This constructor does not decompress any entry. See [extractToDirectory(String, 
 | --- | --- | --- |
 | path | java.lang.String | the fully qualified or the relative path to the archive file |
 | password | java.lang.String | optional password for decryption. If file names are encrypted, it must be present |
+
+### SevenZipArchive(InputStream sourceStream, SevenZipLoadOptions options) {#SevenZipArchive-java.io.InputStream-com.aspose.zip.SevenZipLoadOptions-}
+```
+public SevenZipArchive(InputStream sourceStream, SevenZipLoadOptions options)
+```
+
+
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
+
+Extract an encrypted archive. Allow up to 60 seconds to proceed, cancel after that period.
+
+```
+
+     try (CancellationFlag cf = new CancellationFlag()) {
+         SevenZipLoadOptions options = new SevenZipLoadOptions();
+         options.setDecryptionPassword("Top$ecr3t");
+         options.setCancellationFlag(cf);
+         cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
+         try (SevenZipArchive a = new SevenZipArchive(new FileInputStream("archive.7z"), options)) {
+             a.extractToDirectory("C:\\extracted");
+         } catch (IOException ex) {
+         }
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | The source of the archive. |
+| options | [SevenZipLoadOptions](../../com.aspose.zip/sevenziploadoptions) | Options to load existing archive with.
+
+This constructor does not decompress any entry. See [extractToDirectory(String, String)](../../com.aspose.zip/sevenziparchive\#extractToDirectory-String--String-) method for decompressing. |
+
+### SevenZipArchive(String path, SevenZipLoadOptions options) {#SevenZipArchive-java.lang.String-com.aspose.zip.SevenZipLoadOptions-}
+```
+public SevenZipArchive(String path, SevenZipLoadOptions options)
+```
+
+
+Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
+
+Extract an encrypted archive. Allow up to 60 seconds to proceed, cancel after that period.
+
+```
+
+     try (CancellationFlag cf = new CancellationFlag()) {
+         SevenZipLoadOptions options = new SevenZipLoadOptions();
+         options.setDecryptionPassword("Top$ecr3t");
+         options.setCancellationFlag(cf);
+         cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
+         try (SevenZipArchive a = new SevenZipArchive(new FileInputStream("archive.7z"), options)) {
+             a.extractToDirectory("C:\\extracted");
+         } catch (IOException ex) {
+         }
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | The fully qualified or the relative path to the archive file. |
+| options | [SevenZipLoadOptions](../../com.aspose.zip/sevenziploadoptions) | Options to load existing archive with.
+
+This constructor does not decompress any entry. See [extractToDirectory(String, String)](../../com.aspose.zip/sevenziparchive\#extractToDirectory-String--String-) method for decompressing. |
 
 ### SevenZipArchive(String[] parts) {#SevenZipArchive-java.lang.String---}
 ```

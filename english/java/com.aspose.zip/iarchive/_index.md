@@ -3,7 +3,7 @@ title: IArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This interface represents an archive.
 type: docs
-weight: 124
+weight: 135
 url: /java/com.aspose.zip/iarchive/
 ---
 
@@ -53,7 +53,7 @@ public abstract Iterable<IArchiveFileEntry> getFileEntries()
 
 Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive.
 
-Archives for compression only, such as gzip, bzip2, lzip, lzma, xz, z consist of the single record - the archive itself.
+Archives for compression only, such as gzip, bzip2, lzip, lzma, lz4, xz, z consist of the single record - the archive itself.
 
 **Returns:**
 java.lang.Iterable&lt;com.aspose.zip.IArchiveFileEntry&gt; - entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive.

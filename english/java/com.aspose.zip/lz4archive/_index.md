@@ -3,7 +3,7 @@ title: Lz4Archive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZ4 archive file.
 type: docs
-weight: 53
+weight: 58
 url: /java/com.aspose.zip/lz4archive/
 ---
 
@@ -22,7 +22,9 @@ This class represents LZ4 archive file. Use it to extract or compose LZ4 archive
 | Constructor | Description |
 | --- | --- |
 | [Lz4Archive(InputStream sourceStream)](#Lz4Archive-java.io.InputStream-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for decompressing. |
+| [Lz4Archive(InputStream sourceStream, Lz4LoadOptions loadOptions)](#Lz4Archive-java.io.InputStream-com.aspose.zip.Lz4LoadOptions-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for decompressing. |
 | [Lz4Archive(String path)](#Lz4Archive-java.lang.String-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class. |
+| [Lz4Archive(String path, Lz4LoadOptions loadOptions)](#Lz4Archive-java.lang.String-com.aspose.zip.Lz4LoadOptions-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class. |
 | [Lz4Archive()](#Lz4Archive--) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for compressing. |
 | [Lz4Archive(Lz4ArchiveSetting settings)](#Lz4Archive-com.aspose.zip.Lz4ArchiveSetting-) | Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for compressing. |
 ## Methods
@@ -78,6 +80,39 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/lz4archi
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### Lz4Archive(InputStream sourceStream, Lz4LoadOptions loadOptions) {#Lz4Archive-java.io.InputStream-com.aspose.zip.Lz4LoadOptions-}
+```
+public Lz4Archive(InputStream sourceStream, Lz4LoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class prepared for decompressing.
+
+Open an archive from a stream and extract it to a `MemoryStream`
+
+```
+
+     ByteArrayOutputStream ms = new ByteArrayOutputStream();
+     try (Lz4Archive archive = new Lz4Archive(new FileInputStream("archive.lz4"))) {
+         InputStream decompressed = archive.open();
+         byte[] b = new byte[8192];
+         int bytesRead;
+         while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
+             ms.write(b, 0, bytesRead);
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not decompress. See [open()](../../com.aspose.zip/lz4archive\#open--) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | the source of the archive |
+| loadOptions | [Lz4LoadOptions](../../com.aspose.zip/lz4loadoptions) | The options to load archive with. |
+
 ### Lz4Archive(String path) {#Lz4Archive-java.lang.String-}
 ```
 public Lz4Archive(String path)
@@ -109,6 +144,39 @@ This constructor does not decompress. See [open()](../../com.aspose.zip/lz4archi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### Lz4Archive(String path, Lz4LoadOptions loadOptions) {#Lz4Archive-java.lang.String-com.aspose.zip.Lz4LoadOptions-}
+```
+public Lz4Archive(String path, Lz4LoadOptions loadOptions)
+```
+
+
+Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) class.
+
+Open an archive from file by path and extract it to a `MemoryStream`
+
+```
+
+     ByteArrayOutputStream ms = new ByteArrayOutputStream();
+     try (Lz4Archive archive = new Lz4Archive("archive.lz4")) {
+         InputStream decompressed = archive.open();
+         byte[] b = new byte[8192];
+         int bytesRead;
+         while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
+             ms.write(b, 0, bytesRead);
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+This constructor does not decompress. See [open()](../../com.aspose.zip/lz4archive\#open--) method for decompressing.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | the path to the archive file |
+| loadOptions | [Lz4LoadOptions](../../com.aspose.zip/lz4loadoptions) | The options to load archive with. |
 
 ### Lz4Archive() {#Lz4Archive--}
 ```
