@@ -15,3 +15,4 @@ Contains classes which represent Lha archive related entities.
 | :- | :- |
 |[LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/)|This class represents a LHA (.lzh) archive file.|
 |[LhaArchiveEntry](/zip/python-net/aspose.zip.lha/lhaarchiveentry/)|Represents a single file within Lha archive.|
+|[LhaLoadOptions](/zip/python-net/aspose.zip.lha/lhaloadoptions/)|Options with which archive is loaded from a compressed file.|

@@ -15,8 +15,8 @@ The Lz4Archive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Lz4Archive(source_stream)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class prepared for decompressing.|
-|Lz4Archive(path)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class.|
+|Lz4Archive(source_stream, load_options)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class prepared for decompressing.|
+|Lz4Archive(path, load_options)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class.|
 |Lz4Archive(settings)|Initializes a new instance of the [Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/) class prepared for compressing.|
 ## Properties
 | Name | Description |
