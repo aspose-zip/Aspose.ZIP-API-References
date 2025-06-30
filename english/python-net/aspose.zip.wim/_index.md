@@ -18,3 +18,4 @@ Contains classes which represent WIM archive related entities.
 |[WimEntry](/zip/python-net/aspose.zip.wim/wimentry/)|Represents a single file or directory within wim image.|
 |[WimFileEntry](/zip/python-net/aspose.zip.wim/wimfileentry/)|Represents a single file within wim archive.|
 |[WimImage](/zip/python-net/aspose.zip.wim/wimimage/)|Represents a single image within wim archive.|
+|[WimLoadOptions](/zip/python-net/aspose.zip.wim/wimloadoptions/)|Options with which archive is loaded from a compressed file.|

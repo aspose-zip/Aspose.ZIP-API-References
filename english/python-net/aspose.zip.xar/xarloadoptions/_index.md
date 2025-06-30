@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.xar/xarloadoptions/
 
 ## XarLoadOptions class
 
-Options with which archive is loaded from a compressed file.
+Options with which XAR archive is loaded from a compressed file.
 
 The XarLoadOptions type exposes the following members:
 ## Constructors

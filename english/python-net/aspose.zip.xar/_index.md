@@ -24,5 +24,5 @@ Contains classes which represent Xar archive related entities.
 |[XarDirectoryEntry](/zip/python-net/aspose.zip.xar/xardirectoryentry/)|Represents directory entry within xar archive.|
 |[XarEntry](/zip/python-net/aspose.zip.xar/xarentry/)|Represents a single entry within xar archive.|
 |[XarFileEntry](/zip/python-net/aspose.zip.xar/xarfileentry/)|Represents file entry within xar archive.|
-|[XarLoadOptions](/zip/python-net/aspose.zip.xar/xarloadoptions/)|Options with which archive is loaded from a compressed file.|
+|[XarLoadOptions](/zip/python-net/aspose.zip.xar/xarloadoptions/)|Options with which XAR archive is loaded from a compressed file.|
 |[XarSaveOptions](/zip/python-net/aspose.zip.xar/xarsaveoptions/)|Options for saving a xar archive.|

@@ -26,6 +26,7 @@ Contains classes which represent zip archive and common archive related entities
 |[ArchiveLoadOptions](/zip/python-net/aspose.zip/archiveloadoptions/)|Options with which archive is loaded from a compressed file.|
 |[CancelEntryEventArgs](/zip/python-net/aspose.zip/cancelentryeventargs/)|Event arguments for cancelable entry related events.|
 |[EntryEventArgs](/zip/python-net/aspose.zip/entryeventargs/)|Event arguments for entry related events.|
+|[ProgressCancelEventArgs](/zip/python-net/aspose.zip/progresscanceleventargs/)|Class for cancelable event data containing the number of bytes proceeded.|
 |[ProgressEventArgs](/zip/python-net/aspose.zip/progresseventargs/)|Class for event data containing the number of bytes proceeded.|
 ## Enumerations
 | Enumeration | Description |

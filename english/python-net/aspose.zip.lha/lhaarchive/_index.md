@@ -15,8 +15,8 @@ The LhaArchive type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LhaArchive(source_stream)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes an entry list can be extracted from the archive.|
-|LhaArchive(path)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes an entry list can be extracted from the archive.|
+|LhaArchive(source_stream, load_options)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes an entry list can be extracted from the archive.|
+|LhaArchive(path, load_options)|Initializes a new instance of the [LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
