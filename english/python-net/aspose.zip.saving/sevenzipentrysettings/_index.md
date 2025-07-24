@@ -22,6 +22,7 @@ The SevenZipEntrySettings type exposes the following members:
 |compression_settings|Gets settings for compression or decompression routine.|
 |encryption_settings|Gets settings for encryption or decryption. Settings of particular entry may vary.|
 |compress_header|Gets or sets value indicating whether to compress archive header.|
+|solid|Gets or sets value indicating whether to concatenate entries and treat them as a single data block.|
 
 ### See Also
 
