@@ -20,7 +20,7 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 | name | String | The name of the entry. |
 | fileInfo | FileInfo | The metadata of file to be compressed. |
 | openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. Individual compression settings is ignored in case of solid compression, see [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
 ### Return Value
 
@@ -84,7 +84,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | source | Stream | The input stream for the entry. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. Individual compression settings is ignored in case of solid compression, see [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 | fileInfo | FileSystemInfo | The metadata of file or folder to be compressed. |
 
 ### Return Value
@@ -142,7 +142,7 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 | --- | --- | --- |
 | name | String | The name of the entry. |
 | source | Stream | The input stream for the entry. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. Individual compression settings is ignored in case of solid compression, see [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
 ### Return Value
 
@@ -190,7 +190,7 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 | name | String | The name of the entry. |
 | path | String | The fully qualified name of the new file, or the relative file name to be compressed. |
 | openImmediately | Boolean | True, if open the file immediately, otherwise open the file on archive saving. |
-| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. Individual compression settings is ignored in case of solid compression, see [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
 ### Return Value
 
