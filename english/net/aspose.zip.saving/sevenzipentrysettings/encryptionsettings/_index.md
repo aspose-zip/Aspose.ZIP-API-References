@@ -16,7 +16,7 @@ public SevenZipEncryptionSettings EncryptionSettings { get; }
 
 ## Remarks
 
-The [`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings/) is only option of 7Z archives.
+The [`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings/) is only option for 7Z archives.
 
 ### See Also
 
