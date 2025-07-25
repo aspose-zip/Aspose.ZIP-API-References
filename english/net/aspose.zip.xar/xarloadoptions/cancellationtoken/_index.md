@@ -30,7 +30,7 @@ using (CancellationTokenSource cts = new CancellationTokenSource())
     {
         try
         {
-             a.Entries.First().Extract("data.bin");
+             (XarFileEntry)(a.Entries.First()).Extract("data.bin");
         }
         catch(OperationCanceledException)
         {
