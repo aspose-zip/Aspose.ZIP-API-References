@@ -170,7 +170,7 @@ Gets an event that is raised when a portion of raw stream compressed.
 
 Event sender is an [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) instance.
 
-Does not invoke in multithreaded mode for LZMA2 entries.
+Does not invoke in solid mode and in multithreaded mode for LZMA2 entries.
 
 **Returns:**
 [Event](../../com.aspose.zip/event) - an event that is raised when a portion of raw stream compressed
@@ -321,7 +321,7 @@ Sets an event that is raised when a portion of raw stream compressed.
 
 Event sender is an [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) instance.
 
-Does not invoke in multithreaded mode for LZMA2 entries.
+Does not invoke in solid mode and in multithreaded mode for LZMA2 entries.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -28,7 +28,9 @@ Settings used to compress or decompress 7z entries.
 | [getCompressHeader()](#getCompressHeader--) | Gets value indicating whether to compress archive header. |
 | [getCompressionSettings()](#getCompressionSettings--) | Gets settings for compression or decompression routine. |
 | [getEncryptionSettings()](#getEncryptionSettings--) | Gets settings for encryption or decryption. |
+| [getSolid()](#getSolid--) | Gets value indicating whether to concatenate entries and treat them as a single data block. |
 | [setCompressHeader(boolean value)](#setCompressHeader-boolean-) | Sets value indicating whether to compress archive header. |
+| [setSolid(boolean value)](#setSolid-boolean-) | Sets value indicating whether to concatenate entries and treat them as a single data block. |
 ### SevenZipEntrySettings() {#SevenZipEntrySettings--}
 ```
 public SevenZipEntrySettings()
@@ -114,10 +116,22 @@ public final SevenZipEncryptionSettings getEncryptionSettings()
 
 Gets settings for encryption or decryption. Settings of particular entry may vary.
 
-The [SevenZipAESEncryptionSettings](../../com.aspose.zip/sevenzipaesencryptionsettings) is only option of 7z archives.
+The [SevenZipAESEncryptionSettings](../../com.aspose.zip/sevenzipaesencryptionsettings) is only option for 7z archives.
 
 **Returns:**
 [SevenZipEncryptionSettings](../../com.aspose.zip/sevenzipencryptionsettings) - settings for encryption or decryption
+### getSolid() {#getSolid--}
+```
+public final boolean getSolid()
+```
+
+
+Gets value indicating whether to concatenate entries and treat them as a single data block.
+
+Supported only for non-encrypted 7z archives as yet.
+
+**Returns:**
+boolean - value indicating whether to concatenate entries and treat them as a single data block.
 ### setCompressHeader(boolean value) {#setCompressHeader-boolean-}
 ```
 public final void setCompressHeader(boolean value)
@@ -132,4 +146,19 @@ This setting is equivalent `-mhc=on` switch of 7-Zip tool. Currently, it is inco
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | a value indicating whether to compress archive header |
+
+### setSolid(boolean value) {#setSolid-boolean-}
+```
+public final void setSolid(boolean value)
+```
+
+
+Sets value indicating whether to concatenate entries and treat them as a single data block.
+
+Supported only for non-encrypted 7z archives as yet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | value indicating whether to concatenate entries and treat them as a single data block. |
 
