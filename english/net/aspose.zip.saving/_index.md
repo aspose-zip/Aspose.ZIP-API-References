@@ -47,5 +47,6 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [EncryptionMethod](./encryptionmethod/) | Encryption/decryption methods can be used with zip archive. |
 | [ParallelCompressionMode](./parallelcompressionmode/) | Options of usage parallel compression facility. |
 | [SevenZipCompressionMethod](./sevenzipcompressionmethod/) | Methods of compression that 7Z format support. |
+| [ZipDataDescriptorPolicy](./zipdatadescriptorpolicy/) | Options for the Data Descriptor presence. |
 
 

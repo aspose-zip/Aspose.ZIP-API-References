@@ -3,7 +3,7 @@ title: Class WimLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Wim.WimLoadOptions class. Options with which archive is loaded from a compressed file
 type: docs
-weight: 1060
+weight: 1070
 url: /net/aspose.zip.wim/wimloadoptions/
 ---
 ## WimLoadOptions class
