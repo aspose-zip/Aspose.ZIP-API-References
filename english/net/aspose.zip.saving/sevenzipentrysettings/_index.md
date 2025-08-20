@@ -27,7 +27,7 @@ public class SevenZipEntrySettings
 | [CompressHeader](../../aspose.zip.saving/sevenzipentrysettings/compressheader/) { get; set; } | Gets or sets value indicating whether to compress archive header. |
 | [CompressionSettings](../../aspose.zip.saving/sevenzipentrysettings/compressionsettings/) { get; } | Gets settings for compression or decompression routine. |
 | [EncryptionSettings](../../aspose.zip.saving/sevenzipentrysettings/encryptionsettings/) { get; } | Gets settings for encryption or decryption. Settings of particular entry may vary. |
-| [Solid](../../aspose.zip.saving/sevenzipentrysettings/solid/) { get; set; } | Gets or sets a value indicating whether to concatenate entries and treat them as a single data block. |
+| [Solid](../../aspose.zip.saving/sevenzipentrysettings/solid/) { get; set; } | Gets or sets value indicating whether to concatenate entries and treat them as a single data block. |
 
 ### See Also
 

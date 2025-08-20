@@ -3,7 +3,7 @@ title: ArchiveSaveOptions.ParallelOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveSaveOptions property. Gets or sets settings for parallel compression
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip.saving/archivesaveoptions/paralleloptions/
 ---
 ## ArchiveSaveOptions.ParallelOptions property

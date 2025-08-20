@@ -3,7 +3,7 @@ title: Class ZArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Z.ZArchive class. This class represents a Z compress archive file. Use it to compose or extract Z archives
 type: docs
-weight: 1270
+weight: 1280
 url: /net/aspose.zip.z/zarchive/
 ---
 ## ZArchive class

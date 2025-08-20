@@ -3,7 +3,7 @@ title: Class ZArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Z.ZArchiveSaveOptions class. Settings for Zarchive
 type: docs
-weight: 1290
+weight: 1300
 url: /net/aspose.zip.z/zarchivesaveoptions/
 ---
 ## ZArchiveSaveOptions class

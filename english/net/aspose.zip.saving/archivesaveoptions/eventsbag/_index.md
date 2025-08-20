@@ -3,7 +3,7 @@ title: ArchiveSaveOptions.EventsBag
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveSaveOptions property. Gets or sets container of events raising on archive saving
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.saving/archivesaveoptions/eventsbag/
 ---
 ## ArchiveSaveOptions.EventsBag property

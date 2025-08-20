@@ -3,7 +3,7 @@ title: Class XzBcjX86FilterSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.Settings.XzBcjX86FilterSettings class. Settings for xz Bcj X86 filter
 type: docs
-weight: 1210
+weight: 1220
 url: /net/aspose.zip.xz.settings/xzbcjx86filtersettings/
 ---
 ## XzBcjX86FilterSettings class
