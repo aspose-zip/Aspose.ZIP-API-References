@@ -3,7 +3,7 @@ title: ArchiveSaveOptions.Encoding
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveSaveOptions property. Gets or sets encoding for converting file names and other strings to bytes
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.saving/archivesaveoptions/encoding/
 ---
 ## ArchiveSaveOptions.Encoding property
