@@ -3,7 +3,7 @@ title: SevenZipCompressionMethod
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.zip.saving/sevenzipcompressionmethod/
 ---
 
