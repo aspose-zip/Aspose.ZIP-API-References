@@ -180,10 +180,11 @@ Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
 
- var ms = new MemoryStream();
- GzipLoadOptions options = new GzipLoadOptions();
- using (GzipArchive archive = new GzipArchive("archive.gz", options))
-   archive.Extract(ms);
+     ByteArrayOutputStream ms = new ByteArrayOutputStream();
+     GzipLoadOptions options = new GzipLoadOptions();
+     try (GzipArchive archive = new GzipArchive("archive.gz", options)) {
+         archive.extract(ms);
+     }
  
 ```
 
