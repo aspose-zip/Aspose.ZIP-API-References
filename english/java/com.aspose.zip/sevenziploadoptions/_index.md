@@ -44,22 +44,20 @@ You can provide decryption password once on archive extraction.
 
 ```
 
- using (FileStream fs = File.OpenRead("encrypted_archive.7z"))
- {
-     using (var extracted = File.Create("extracted.bin"))
-     {
-         using (SevenZipArchive archive = new SevenZipArchive(fs, new SevenZipLoadOptions() { DecryptionPassword = "p@s$" }))
-         {
-             using (var decompressed = archive.Entries[0].Open())
-             {
-                 byte[] b = new byte[8192];
-                 int bytesRead;
-                 while (0 &lt; (bytesRead = decompressed.Read(b, 0, b.Length)))
-                     extracted.Write(b, 0, bytesRead);
+     try (FileInputStream fs = new FileInputStream("encrypted_archive.7z");
+          FileOutputStream extracted = new FileOutputStream("extracted.bin")) {
+         SevenZipLoadOptions options = new SevenZipLoadOptions();
+         options.setDecryptionPassword("p@s$");
+         try (SevenZipArchive archive = new SevenZipArchive(fs, options);
+              InputStream decompressed = archive.getEntries().get(0).open()) {
+             byte[] b = new byte[8192];
+             int bytesRead;
+             while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
+                 extracted.write(b, 0, bytesRead);
              }
          }
+     } catch (IOException ex) {
      }
- }
  
 ```
 
@@ -113,22 +111,20 @@ You can provide decryption password once on archive extraction.
 
 ```
 
- using (FileStream fs = File.OpenRead("encrypted_archive.7z"))
- {
-     using (var extracted = File.Create("extracted.bin"))
-     {
-         using (SevenZipArchive archive = new SevenZipArchive(fs, new SevenZipLoadOptions() { DecryptionPassword = "p@s$" }))
-         {
-             using (var decompressed = archive.Entries[0].Open())
-             {
-                 byte[] b = new byte[8192];
-                 int bytesRead;
-                 while (0 &lt; (bytesRead = decompressed.Read(b, 0, b.Length)))
-                     extracted.Write(b, 0, bytesRead);
+     try (FileInputStream fs = new FileInputStream("encrypted_archive.7z");
+          FileOutputStream extracted = new FileOutputStream("extracted.bin")) {
+         SevenZipLoadOptions options = new SevenZipLoadOptions();
+         options.setDecryptionPassword("p@s$");
+         try (SevenZipArchive archive = new SevenZipArchive(fs, options);
+              InputStream decompressed = archive.getEntries().get(0).open()) {
+             byte[] b = new byte[8192];
+             int bytesRead;
+             while (0 < (bytesRead = decompressed.read(b, 0, b.length))) {
+                 extracted.write(b, 0, bytesRead);
              }
          }
+     } catch (IOException ex) {
      }
- }
  
 ```
 

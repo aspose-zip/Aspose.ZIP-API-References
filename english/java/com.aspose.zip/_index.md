@@ -156,3 +156,4 @@ url: /java/com.aspose.zip/
 | [SevenZipCompressionMethod](../com.aspose.zip/sevenzipcompressionmethod) | Methods of compression that 7z format support. |
 | [TarFormat](../com.aspose.zip/tarformat) | Enumeration with supported formats of [TarArchive](../com.aspose.zip/tararchive). |
 | [XzCheckType](../com.aspose.zip/xzchecktype) | The enumeration defines checksum calculation approach for xz archive. |
+| [ZipDataDescriptorPolicy](../com.aspose.zip/zipdatadescriptorpolicy) | Options for the Data Descriptor presence. |

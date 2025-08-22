@@ -128,7 +128,23 @@ public final boolean getSolid()
 
 Gets value indicating whether to concatenate entries and treat them as a single data block.
 
-Supported only for non-encrypted 7z archives as yet.
+The following example shows how to compress a directory to solid 7z archive with LZMA2 compression without encryption.
+
+```
+
+     try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
+         SevenZipEntrySettings settings = new SevenZipEntrySettings(new SevenZipLZMACompressionSettings());
+         settings.setSolid(true);
+         try (SevenZipArchive archive = new SevenZipArchive(settings)) {
+             archive.createEntries("C:\\Documents");
+             archive.save(sevenZipFile);
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+Provide `SevenZipEntrySettings` for solid 7z archive on archive instantiation.
 
 **Returns:**
 boolean - value indicating whether to concatenate entries and treat them as a single data block.
@@ -155,7 +171,23 @@ public final void setSolid(boolean value)
 
 Sets value indicating whether to concatenate entries and treat them as a single data block.
 
-Supported only for non-encrypted 7z archives as yet.
+The following example shows how to compress a directory to solid 7z archive with LZMA2 compression without encryption.
+
+```
+
+     try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
+         SevenZipEntrySettings settings = new SevenZipEntrySettings(new SevenZipLZMACompressionSettings());
+         settings.setSolid(true);
+         try (SevenZipArchive archive = new SevenZipArchive(settings)) {
+             archive.createEntries("C:\\Documents");
+             archive.save(sevenZipFile);
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+Provide `SevenZipEntrySettings` for solid 7z archive on archive instantiation.
 
 **Parameters:**
 | Parameter | Type | Description |
