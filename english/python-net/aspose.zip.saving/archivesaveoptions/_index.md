@@ -26,6 +26,7 @@ The ArchiveSaveOptions type exposes the following members:
 |events_bag|Gets or sets container of events raising on archive saving.|
 |close_entry_source|Gets or sets a value indicating whether entries' sources should be closed right after an entry has been compressed.|
 |encryption_options|Gets of sets encryption settings for saving existing zip archive.|
+|data_descriptor_policy|Gets or sets settings for Data Descriptor emission.|
 
 ### See Also
 

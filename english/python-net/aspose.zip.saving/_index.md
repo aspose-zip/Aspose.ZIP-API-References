@@ -46,4 +46,5 @@ Contains classes which are needed for operations entailing saving the archive.
 | :- | :- |
 |[EncryptionMethod](/zip/python-net/aspose.zip.saving/encryptionmethod/)|Encryption/decryption methods can be used with zip archive.|
 |[ParallelCompressionMode](/zip/python-net/aspose.zip.saving/parallelcompressionmode/)|Options of usage parallel compression facility.|
+|[ZipDataDescriptorPolicy](/zip/python-net/aspose.zip.saving/zipdatadescriptorpolicy/)|Options for the Data Descriptor presence.|
 |[SevenZipCompressionMethod](/zip/python-net/aspose.zip.saving/sevenzipcompressionmethod/)|Methods of compression that 7Z format support.|
