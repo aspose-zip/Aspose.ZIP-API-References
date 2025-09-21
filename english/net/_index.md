@@ -25,6 +25,7 @@ is_root: true
 | [Aspose.Zip.Lz4](./aspose.zip.lz4/) | The Lz4 namespace contains classes which represent LZ4 related entities. |
 | [Aspose.Zip.Lzip](./aspose.zip.lzip/) | The Lzip namespace contains classes which represent lzip archive related entities. |
 | [Aspose.Zip.LZMA](./aspose.zip.lzma/) | The LZMA namespace contains classes which represent lzma archive related entities. |
+| [Aspose.Zip.Lzx](./aspose.zip.lzx/) | The Lzx namespace contains classes which represent LZX related entities. |
 | [Aspose.Zip.Rar](./aspose.zip.rar/) | The Rar namespace contains classes which represent RAR archive related entities. |
 | [Aspose.Zip.Saving](./aspose.zip.saving/) | The Saving namespace contains classes which are needed for operations entailing saving the archive. |
 | [Aspose.Zip.SevenZip](./aspose.zip.sevenzip/) | The SevenZip namespace contains classes which represent 7z archive related entities. |

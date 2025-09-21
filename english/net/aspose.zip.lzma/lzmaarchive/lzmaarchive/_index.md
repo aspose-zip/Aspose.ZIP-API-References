@@ -43,7 +43,6 @@ public LzmaArchive(Stream source)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *source* is not seekable. |
 | ArgumentNullException | *source* is null. |
 
 ## Remarks

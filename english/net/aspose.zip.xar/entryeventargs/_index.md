@@ -3,7 +3,7 @@ title: Class EntryEventArgs
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.EntryEventArgs class. Event arguments for entry related events
 type: docs
-weight: 1090
+weight: 1120
 url: /net/aspose.zip.xar/entryeventargs/
 ---
 ## EntryEventArgs class

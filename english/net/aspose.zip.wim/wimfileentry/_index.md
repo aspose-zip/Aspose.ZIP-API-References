@@ -3,7 +3,7 @@ title: Class WimFileEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Wim.WimFileEntry class. Represents a single file within wim archive
 type: docs
-weight: 1050
+weight: 1080
 url: /net/aspose.zip.wim/wimfileentry/
 ---
 ## WimFileEntry class

@@ -3,7 +3,7 @@ title: Class ZstandardSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Zstandard.ZstandardSaveOptions class. Settings for ZStandard archive
 type: docs
-weight: 1330
+weight: 1360
 url: /net/aspose.zip.zstandard/zstandardsaveoptions/
 ---
 ## ZstandardSaveOptions class
