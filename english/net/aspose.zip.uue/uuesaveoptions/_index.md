@@ -3,7 +3,7 @@ title: Class UueSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Uue.UueSaveOptions class. Options for saving an uuencoded file
 type: docs
-weight: 1010
+weight: 1040
 url: /net/aspose.zip.uue/uuesaveoptions/
 ---
 ## UueSaveOptions class

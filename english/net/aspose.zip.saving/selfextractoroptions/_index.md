@@ -3,7 +3,7 @@ title: Class SelfExtractorOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SelfExtractorOptions class. Options for creation of selfextracting executable archive
 type: docs
-weight: 710
+weight: 740
 url: /net/aspose.zip.saving/selfextractoroptions/
 ---
 ## SelfExtractorOptions class

@@ -3,7 +3,7 @@ title: Class XarStoreCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarStoreCompressionSettings class. Settings for Store compression method
 type: docs
-weight: 1190
+weight: 1220
 url: /net/aspose.zip.xar/xarstorecompressionsettings/
 ---
 ## XarStoreCompressionSettings class

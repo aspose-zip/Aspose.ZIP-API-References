@@ -39,8 +39,9 @@ public enum ArchiveFormat
 | Iso | `18` | Iso archive ([`IsoArchive`](../../aspose.zip.iso/isoarchive/)). |
 | Lha | `19` | Lha archive ([`LhaArchive`](../../aspose.zip.lha/lhaarchive/)). |
 | Arj | `20` | Arj archive ([`ArjArchive`](../../aspose.zip.arj/arjarchive/)). |
-| Lz4 | `21` | Arj archive ([`Lz4Archive`](../../aspose.zip.lz4/lz4archive/)). |
+| Lz4 | `21` | Lz4 archive ([`Lz4Archive`](../../aspose.zip.lz4/lz4archive/)). |
 | Uue | `22` | Uue encoded file ([`UueArchive`](../../aspose.zip.uue/uuearchive/)) |
+| Lzx | `23` | Lzx archive ([`LzxArchive`](../../aspose.zip.lzx/lzxarchive/)) |
 
 ### See Also
 
