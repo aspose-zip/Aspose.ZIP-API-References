@@ -3,7 +3,7 @@ title: Class ProgressCancelEventArgs
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ProgressCancelEventArgs class. Class for cancelable event data containing the number of bytes proceeded
 type: docs
-weight: 500
+weight: 530
 url: /net/aspose.zip/progresscanceleventargs/
 ---
 ## ProgressCancelEventArgs class

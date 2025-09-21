@@ -3,7 +3,7 @@ title: Class XarLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.XarLoadOptions class. Options with which XAR archive is loaded from a compressed file
 type: docs
-weight: 1170
+weight: 1200
 url: /net/aspose.zip.xar/xarloadoptions/
 ---
 ## XarLoadOptions class
