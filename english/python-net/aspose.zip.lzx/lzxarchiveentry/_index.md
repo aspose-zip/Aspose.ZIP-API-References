@@ -1,34 +1,35 @@
 ---
-title: LhaArchiveEntry
+title: LzxArchiveEntry
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /python-net/aspose.zip.lha/lhaarchiveentry/
+url: /python-net/aspose.zip.lzx/lzxarchiveentry/
 ---
 
-## LhaArchiveEntry class
+## LzxArchiveEntry class
 
-Represents a single file within Lha archive.
+Represents a single file within LZX archive.
 
-The LhaArchiveEntry type exposes the following members:
+The LzxArchiveEntry type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
 |name|Gets name of the entry.|
+|commentary|Gets the commentary.|
 |length|Gets the length of the entry in bytes.|
+|uncompressed_size|Gets size of the original file.|
+|compressed_size|Gets size of the compressed file.|
 |is_directory|Gets a value indicating whether this entry is a directory.|
-|last_modified|Gets the last modified time of the entry.|
 |modification_time|Gets the last modified time of the entry.|
-|path|Gets the full path to the entry.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(path)|Extracts Lha archive entry to a filesystem by path.|
+|extract(path)|Extracts Lzx archive entry to a filesystem by path.|
 |extract(destination)|Extracts the entry to the stream provided.|
 
 ### See Also
 
-* namespace [aspose.zip.lha](/zip/python-net/aspose.zip.lha/)
+* namespace [aspose.zip.lzx](/zip/python-net/aspose.zip.lzx/)
 * assembly [Aspose.Zip](/zip/python-net/)
 

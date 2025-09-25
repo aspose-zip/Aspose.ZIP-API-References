@@ -11,6 +11,7 @@ url: /python-net/
 | Namespace | Description |
 | :- | :- |
 |[aspose.zip](/zip/python-net/aspose.zip/)|Contains classes which represent zip archive and common archive related entities.|
+|[aspose.zip.lzx](/zip/python-net/aspose.zip.lzx/)|Contains classes which represent LZX archive related entities.|
 |[aspose.zip.lz4](/zip/python-net/aspose.zip.lz4/)|Contains classes which represent Lz4 archive related entities.|
 |[aspose.zip.lha](/zip/python-net/aspose.zip.lha/)|Contains classes which represent Lha archive related entities.|
 |[aspose.zip.uue](/zip/python-net/aspose.zip.uue/)|Contains classes which represent uuencode related entities.|
