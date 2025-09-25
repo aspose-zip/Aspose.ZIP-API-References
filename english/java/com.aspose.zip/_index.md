@@ -69,6 +69,9 @@ url: /java/com.aspose.zip/
 | [LzmaArchive](../com.aspose.zip/lzmaarchive) | This class represents LZMA archive file. |
 | [LzmaArchiveSettings](../com.aspose.zip/lzmaarchivesettings) | Settings for lzma archive. |
 | [LzmaCompressionSettings](../com.aspose.zip/lzmacompressionsettings) | Settings for LZMA compression method. |
+| [LzxArchive](../com.aspose.zip/lzxarchive) | This class represents a LZX (.lzx) archive file. |
+| [LzxArchiveEntry](../com.aspose.zip/lzxarchiveentry) | Represents a single file within LZX archive. |
+| [LzxLoadOptions](../com.aspose.zip/lzxloadoptions) | Options with which archive is loaded from a compressed file. |
 | [MeteredLicense](../com.aspose.zip/meteredlicense) | Provides methods to set metered key. |
 | [PPMdCompressionSettings](../com.aspose.zip/ppmdcompressionsettings) | Settings for PPMd compression method. |
 | [ParallelOptions](../com.aspose.zip/paralleloptions) | Options for parallel compression. |

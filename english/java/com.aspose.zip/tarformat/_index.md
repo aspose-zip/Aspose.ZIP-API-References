@@ -3,7 +3,7 @@ title: TarFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Enumeration with supported formats of .
 type: docs
-weight: 142
+weight: 145
 url: /java/com.aspose.zip/tarformat/
 ---
 

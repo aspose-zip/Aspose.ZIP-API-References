@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 79
+weight: 82
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 
@@ -929,7 +929,7 @@ Saves multi-volume archive to destination directory provided.
 
 This method composes several `(n)` files filename.7z.001, filename.7z.002, ..., filename.7z.(n).
 
-Can not make existing archive multi-volume.
+Cannot make existing archive multi-volume.
 
 **Parameters:**
 | Parameter | Type | Description |

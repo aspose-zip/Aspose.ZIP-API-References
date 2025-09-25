@@ -3,7 +3,7 @@ title: XzLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 126
+weight: 129
 url: /java/com.aspose.zip/xzloadoptions/
 ---
 

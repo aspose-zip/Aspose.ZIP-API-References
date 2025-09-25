@@ -3,7 +3,7 @@ title: XarLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which XAR archive is loaded from a compressed file.
 type: docs
-weight: 116
+weight: 119
 url: /java/com.aspose.zip/xarloadoptions/
 ---
 
