@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 137
+weight: 140
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -28,6 +28,7 @@ Supported archive formats.
 | [Lz4](#Lz4) | Lz4 archive ([Lz4Archive](../../com.aspose.zip/lz4archive)). |
 | [Lzip](#Lzip) | Lzip archive ([LzipArchive](../../com.aspose.zip/lziparchive)). |
 | [Lzma](#Lzma) | Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)). |
+| [Lzx](#Lzx) | Lzx archive ([LzxArchive](../../com.aspose.zip/lzxarchive)). |
 | [Rar](#Rar) | Rar archive ([RarArchive](../../com.aspose.zip/rararchive)). |
 | [SevenZip](#SevenZip) | 7zip archive ([SevenZipArchive](../../com.aspose.zip/sevenziparchive)). |
 | [Shar](#Shar) | Shar archive ([SharArchive](../../com.aspose.zip/shararchive)). |
@@ -126,6 +127,14 @@ public static final ArchiveFormat Lzma
 
 
 Lzma archive ([LzmaArchive](../../com.aspose.zip/lzmaarchive)).
+
+### Lzx {#Lzx}
+```
+public static final ArchiveFormat Lzx
+```
+
+
+Lzx archive ([LzxArchive](../../com.aspose.zip/lzxarchive)).
 
 ### Rar {#Rar}
 ```

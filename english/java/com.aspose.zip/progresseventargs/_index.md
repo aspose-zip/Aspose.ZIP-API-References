@@ -3,7 +3,7 @@ title: ProgressEventArgs
 second_title: Aspose.ZIP for Java API Reference
 description: Class for event data containing the number of bytes proceeded.
 type: docs
-weight: 71
+weight: 74
 url: /java/com.aspose.zip/progresseventargs/
 ---
 
