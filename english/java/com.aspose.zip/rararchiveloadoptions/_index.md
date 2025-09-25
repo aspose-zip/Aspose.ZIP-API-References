@@ -3,7 +3,7 @@ title: RarArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from a compressed file.
 type: docs
-weight: 76
+weight: 79
 url: /java/com.aspose.zip/rararchiveloadoptions/
 ---
 

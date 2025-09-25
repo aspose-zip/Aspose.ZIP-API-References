@@ -1,16 +1,16 @@
 ---
-title: WimLoadOptions
+title: LzxLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 112
-url: /java/com.aspose.zip/wimloadoptions/
+weight: 69
+url: /java/com.aspose.zip/lzxloadoptions/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class WimLoadOptions
+public class LzxLoadOptions
 ```
 
 Options with which archive is loaded from a compressed file.
@@ -18,15 +18,15 @@ Options with which archive is loaded from a compressed file.
 
 | Constructor | Description |
 | --- | --- |
-| [WimLoadOptions()](#WimLoadOptions--) |  |
+| [LzxLoadOptions()](#LzxLoadOptions--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [setCancellationFlag(CancellationFlag value)](#setCancellationFlag-com.aspose.zip.CancellationFlag-) | Sets a cancellation flag used to cancel the extraction operation. |
-### WimLoadOptions() {#WimLoadOptions--}
+### LzxLoadOptions() {#LzxLoadOptions--}
 ```
-public WimLoadOptions()
+public LzxLoadOptions()
 ```
 
 
@@ -38,20 +38,17 @@ public void setCancellationFlag(CancellationFlag value)
 
 Sets a cancellation flag used to cancel the extraction operation.
 
-Cancel WIM archive extraction after a certain time.
+Cancel ISO archive extraction after a certain time.
 
 ```
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
-         WimLoadOptions options = new WimLoadOptions();
+         LzxLoadOptions options = new LzxLoadOptions();
          options.setCancellationFlag(cf);
-         try (WimArchive a = new WimArchive("big.wim", options)) {
+         try (LzxArchive a = new LzxArchive("big.lzx", options)) {
              try {
-                 StreamSupport.stream(a.getImages().get(0).getAllEntries().spliterator(), false)
-                              .filter(entry -> entry instanceof WimFileEntry)
-                              .map(entry -> (WimFileEntry) entry)
-                              .findFirst().ifPresent(entry -> entry.extract("data.bin"));
+                 a.getEntries().get(0).extract("data.bin");
              } catch (OperationCanceledException e) {
                  System.out.println("Extraction was cancelled after 60 seconds");
              }
