@@ -37,6 +37,7 @@ Supported archive formats.
 |ARJ|Arj archive ([ArjArchive](/zip/python-net/aspose.zip.arj/arjarchive/)).|
 |LZ4|Arj archive ([Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/)).|
 |UUE|Uue encoded file ([UueArchive](/zip/python-net/aspose.zip.uue/uuearchive/))|
+|LZX|Uue encoded file ([LzxArchive](/zip/python-net/aspose.zip.lzx/lzxarchive/))|
 
 ### See Also
 
