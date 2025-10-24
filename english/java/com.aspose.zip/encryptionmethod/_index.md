@@ -1,7 +1,7 @@
 ---
 title: EncryptionMethod
 second_title: Aspose.ZIP for Java API Reference
-description: Encryption/decryption methods can be used with zip archive.
+description: Encryption/decryption methods can be used with a ZIP archive.
 type: docs
 weight: 142
 url: /java/com.aspose.zip/encryptionmethod/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum EncryptionMethod extends Enum<EncryptionMethod>
 ```
 
-Encryption/decryption methods can be used with zip archive.
+Encryption/decryption methods can be used with a ZIP archive.
 ## Fields
 
 | Field | Description |

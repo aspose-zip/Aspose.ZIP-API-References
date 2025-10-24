@@ -106,8 +106,7 @@ public final File extract(String path)
 
 Extracts the entry to the filesystem by the path provided.
 
-
-Extract two entries of zip archive, each with own password
+Extract two entries of ZIP archive, each with own password
 
 ```
 
@@ -136,8 +135,7 @@ public final File extract(String path, String password)
 
 Extracts the entry to the filesystem by the path provided.
 
-
-Extract two entries of zip archive, each with own password
+Extract two entries of ZIP archive, each with own password
 
 ```
 
