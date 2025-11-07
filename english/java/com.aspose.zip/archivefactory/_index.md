@@ -37,7 +37,7 @@ Here is an example of how to use the CompressDirectory method:
      String directoryPath = "C:\\path\\to\\your\\directory";
      ArchiveFormat format = ArchiveFormat.Zip;
      ArchiveFactory.compressDirectory(directoryPath, "result", format);
-     // This will create a zip file with the contents of the directory at the specified path.
+     // This will create a ZIP file with the contents of the directory at the specified path.
  
 ```
 

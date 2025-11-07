@@ -1,7 +1,7 @@
 ---
 title: PPMdCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
-description: Settings for PPMd compression method.
+description: Settings for PPMd compression within a ZIP archive.
 type: docs
 weight: 71
 url: /java/com.aspose.zip/ppmdcompressionsettings/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.zip.CompressionSettings](../../com.aspose.zip/comp
 public class PPMdCompressionSettings extends CompressionSettings
 ```
 
-Settings for PPMd compression method.
+Settings for PPMd compression within a ZIP archive.
 
 PPMd is a data compression algorithm developed by Dmitry Shkarin. This algorithm is based on predictive phrase matching on multiple order contexts.
 ## Constructors

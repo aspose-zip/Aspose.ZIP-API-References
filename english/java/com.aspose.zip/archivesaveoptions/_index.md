@@ -1,7 +1,7 @@
 ---
 title: ArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
-description: Options for saving a zip archive.
+description: Options for saving a ZIP archive.
 type: docs
 weight: 20
 url: /java/com.aspose.zip/archivesaveoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ArchiveSaveOptions
 ```
 
-Options for saving a zip archive.
+Options for saving a ZIP archive.
 ## Constructors
 
 | Constructor | Description |
@@ -27,7 +27,7 @@ Options for saving a zip archive.
 | [getCloseEntrySource()](#getCloseEntrySource--) | Gets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [getDataDescriptorPolicy()](#getDataDescriptorPolicy--) | Gets settings for Data Descriptor emission. |
 | [getEncoding()](#getEncoding--) | Gets encoding for converting file names and other strings to bytes. |
-| [getEncryptionOptions()](#getEncryptionOptions--) | Gets encryption settings for saving existing zip archive. |
+| [getEncryptionOptions()](#getEncryptionOptions--) | Gets encryption settings for saving existing ZIP archive. |
 | [getEventsBag()](#getEventsBag--) | Gets container of events raising on archive saving. |
 | [getParallelOptions()](#getParallelOptions--) | Gets settings for parallel compression. |
 | [getSelfExtractorOptions()](#getSelfExtractorOptions--) | Gets settings for self extracted archive. |
@@ -35,7 +35,7 @@ Options for saving a zip archive.
 | [setCloseEntrySource(boolean value)](#setCloseEntrySource-boolean-) | Sets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [setDataDescriptorPolicy(ZipDataDescriptorPolicy value)](#setDataDescriptorPolicy-com.aspose.zip.ZipDataDescriptorPolicy-) | Sets settings for Data Descriptor emission. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets encoding for converting file names and other strings to bytes. |
-| [setEncryptionOptions(EncryptionSettings value)](#setEncryptionOptions-com.aspose.zip.EncryptionSettings-) | Sets encryption settings for saving existing zip archive. |
+| [setEncryptionOptions(EncryptionSettings value)](#setEncryptionOptions-com.aspose.zip.EncryptionSettings-) | Sets encryption settings for saving existing ZIP archive. |
 | [setEventsBag(EventsBag value)](#setEventsBag-com.aspose.zip.EventsBag-) | Sets container of events raising on archive saving. |
 | [setParallelOptions(ParallelOptions value)](#setParallelOptions-com.aspose.zip.ParallelOptions-) | Sets settings for parallel compression. |
 | [setSelfExtractorOptions(SelfExtractorOptions value)](#setSelfExtractorOptions-com.aspose.zip.SelfExtractorOptions-) | Sets settings for self extracted archive. |
@@ -64,7 +64,7 @@ public final boolean getCloseEntrySource()
 Gets a value indicating whether entries' sources should be closed right after an entry has been compressed.
 
 **Returns:**
-boolean - a value indicating whether entries' sources should be closed right after an entry has been compressed
+boolean - a value indicating whether entries' sources should be closed right after an entry has been compressed.
 ### getDataDescriptorPolicy() {#getDataDescriptorPolicy--}
 ```
 public final ZipDataDescriptorPolicy getDataDescriptorPolicy()
@@ -97,7 +97,7 @@ public final EncryptionSettings getEncryptionOptions()
 ```
 
 
-Gets encryption settings for saving existing zip archive.
+Gets encryption settings for saving existing ZIP archive.
 
 ```
 
@@ -116,7 +116,7 @@ Do not use this options for regular composition of encrypted archive, use
 Not compatible with `DataDescriptorPolicy`([getDataDescriptorPolicy](../../com.aspose.zip/archivesaveoptions\#getDataDescriptorPolicy--)/[setDataDescriptorPolicy](../../com.aspose.zip/archivesaveoptions\#setDataDescriptorPolicy-com.aspose.zip.ZipDataDescriptorPolicy-)) having value [ZipDataDescriptorPolicy.ForAllFileEntries](../../com.aspose.zip/zipdatadescriptorpolicy\#ForAllFileEntries)
 
 **Returns:**
-[EncryptionSettings](../../com.aspose.zip/encryptionsettings) - encryption settings for saving existing zip archive.
+[EncryptionSettings](../../com.aspose.zip/encryptionsettings) - encryption settings for saving existing ZIP archive.
 ### getEventsBag() {#getEventsBag--}
 ```
 public final EventsBag getEventsBag()
@@ -175,7 +175,7 @@ Sets a value indicating whether entries' sources should be closed right after an
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether entries' sources should be closed right after an entry has been compressed |
+| value | boolean | a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 
 ### setDataDescriptorPolicy(ZipDataDescriptorPolicy value) {#setDataDescriptorPolicy-com.aspose.zip.ZipDataDescriptorPolicy-}
 ```
@@ -215,7 +215,7 @@ public final void setEncryptionOptions(EncryptionSettings value)
 ```
 
 
-Sets encryption settings for saving existing zip archive.
+Sets encryption settings for saving existing ZIP archive.
 
 ```
 
@@ -236,7 +236,7 @@ Not compatible with `DataDescriptorPolicy`([getDataDescriptorPolicy](../../com.a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EncryptionSettings](../../com.aspose.zip/encryptionsettings) | of sets encryption settings for saving existing zip archive. |
+| value | [EncryptionSettings](../../com.aspose.zip/encryptionsettings) | of sets encryption settings for saving existing ZIP archive. |
 
 ### setEventsBag(EventsBag value) {#setEventsBag-com.aspose.zip.EventsBag-}
 ```

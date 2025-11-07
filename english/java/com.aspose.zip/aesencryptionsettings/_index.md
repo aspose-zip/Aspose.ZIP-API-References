@@ -1,7 +1,7 @@
 ---
 title: AesEncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
-description: Settings for AES encryption or decryption algorithm.
+description: Settings for AES encryption and decryption algorithms within a ZIP archive.
 type: docs
 weight: 10
 url: /java/com.aspose.zip/aesencryptionsettings/
@@ -13,9 +13,7 @@ java.lang.Object, [com.aspose.zip.EncryptionSettings](../../com.aspose.zip/encry
 public class AesEncryptionSettings extends EncryptionSettings
 ```
 
-Settings for AES encryption or decryption algorithm.
-
-See more at https://www.winzip.com/win/en/aes\_info.html
+Settings for AES encryption and decryption algorithms within a ZIP archive.
 ## Constructors
 
 | Constructor | Description |
