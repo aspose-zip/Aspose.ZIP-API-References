@@ -29,8 +29,8 @@ This class represents a zip archive file. Use it to compose, extract, or update 
 | [Archive(String path)](#Archive-java.lang.String-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
 | [Archive(String path, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
 | [Archive(String path, ArchiveLoadOptions loadOptions, ArchiveEntrySettings newEntrySettings)](#Archive-java.lang.String-com.aspose.zip.ArchiveLoadOptions-com.aspose.zip.ArchiveEntrySettings-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
-| [Archive(String mainSegment, String[] segmentsInOrder)](#Archive-java.lang.String-java.lang.String---) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive. |
-| [Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-java.lang.String---com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive. |
+| [Archive(String mainSegment, String[] segmentsInOrder)](#Archive-java.lang.String-java.lang.String---) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume ZIP archive and composes an entry list can be extracted from the archive. |
+| [Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions loadOptions)](#Archive-java.lang.String-java.lang.String---com.aspose.zip.ArchiveLoadOptions-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume ZIP archive and composes an entry list can be extracted from the archive. |
 ## Methods
 
 | Method | Description |
@@ -336,7 +336,7 @@ public Archive(String mainSegment, String[] segmentsInOrder)
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume ZIP archive and composes an entry list can be extracted from the archive.
 
 ```
 
@@ -362,7 +362,7 @@ public Archive(String mainSegment, String[] segmentsInOrder, ArchiveLoadOptions 
 ```
 
 
-Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume zip archive and composes an entry list can be extracted from the archive.
+Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class from multi-volume ZIP archive and composes an entry list can be extracted from the archive.
 
 This sample extract to a directory an archive of three segments.
 

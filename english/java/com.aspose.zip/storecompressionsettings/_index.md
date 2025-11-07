@@ -1,7 +1,7 @@
 ---
 title: StoreCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
-description: Settings for Store compression method.
+description: Settings for Store compression within a ZIP archive.
 type: docs
 weight: 101
 url: /java/com.aspose.zip/storecompressionsettings/
@@ -13,7 +13,7 @@ java.lang.Object, [com.aspose.zip.CompressionSettings](../../com.aspose.zip/comp
 public class StoreCompressionSettings extends CompressionSettings
 ```
 
-Settings for Store compression method.
+Settings for Store compression within a ZIP archive.
 
 This method stores original data as it is.
 ## Constructors

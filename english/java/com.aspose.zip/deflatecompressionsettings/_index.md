@@ -1,7 +1,7 @@
 ---
 title: DeflateCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
-description: Settings for Deflate compression method.
+description: Settings for Deflate compression within a ZIP archive.
 type: docs
 weight: 37
 url: /java/com.aspose.zip/deflatecompressionsettings/
@@ -13,11 +13,9 @@ java.lang.Object, [com.aspose.zip.CompressionSettings](../../com.aspose.zip/comp
 public class DeflateCompressionSettings extends CompressionSettings
 ```
 
-Settings for Deflate compression method.
+Settings for Deflate compression within a ZIP archive.
 
 Deflate is a lossless data compression algorithm that uses a combination of the LZ77 algorithm and Huffman coding.
-
-See standard here: https://tools.ietf.org/html/rfc1951
 ## Constructors
 
 | Constructor | Description |

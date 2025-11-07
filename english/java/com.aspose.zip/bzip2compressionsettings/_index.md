@@ -1,7 +1,7 @@
 ---
 title: Bzip2CompressionSettings
 second_title: Aspose.ZIP for Java API Reference
-description: Settings for Bzip2 compression method.
+description: Settings for Bzip2 compression within a ZIP archive.
 type: docs
 weight: 25
 url: /java/com.aspose.zip/bzip2compressionsettings/
@@ -13,12 +13,9 @@ java.lang.Object, [com.aspose.zip.CompressionSettings](../../com.aspose.zip/comp
 public class Bzip2CompressionSettings extends CompressionSettings
 ```
 
-Settings for Bzip2 compression method.
+Settings for Bzip2 compression within a ZIP archive.
 
-bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding. See more: [Bzip2][]
-
-
-[Bzip2]: https://en.wikipedia.org/wiki/Bzip2
+bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding.
 ## Constructors
 
 | Constructor | Description |
