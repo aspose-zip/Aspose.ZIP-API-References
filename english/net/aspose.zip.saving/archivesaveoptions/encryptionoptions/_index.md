@@ -1,14 +1,14 @@
 ---
 title: ArchiveSaveOptions.EncryptionOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: ArchiveSaveOptions property. Gets of sets encryption settings for saving existing zip archive
+description: ArchiveSaveOptions property. Gets of sets encryption settings for saving existing ZIP archive
 type: docs
 weight: 60
 url: /net/aspose.zip.saving/archivesaveoptions/encryptionoptions/
 ---
 ## ArchiveSaveOptions.EncryptionOptions property
 
-Gets of sets encryption settings for saving existing zip archive.
+Gets of sets encryption settings for saving existing ZIP archive.
 
 ```csharp
 public EncryptionSettings EncryptionOptions { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Zip
 second_title: Aspose.ZIP for .NET API Reference
-description: The Zip namespace contains classes which represent zip archive and common archive related entities
+description: The Zip namespace contains classes which represent ZIP archive and common archive related entities
 type: docs
 weight: 10
 url: /net/aspose.zip/
 ---
-The Zip namespace contains classes which represent zip archive and common archive related entities.
+The Zip namespace contains classes which represent ZIP archive and common archive related entities.
 
 ## Classes
 

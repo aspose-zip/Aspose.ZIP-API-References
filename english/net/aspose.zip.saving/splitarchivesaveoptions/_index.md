@@ -1,14 +1,14 @@
 ---
 title: Class SplitArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Saving.SplitArchiveSaveOptions class. Options for saving a multivolume zip archive
+description: Aspose.Zip.Saving.SplitArchiveSaveOptions class. Options for saving a multivolume ZIP archive
 type: docs
 weight: 850
 url: /net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 ## SplitArchiveSaveOptions class
 
-Options for saving a multi-volume zip archive.
+Options for saving a multi-volume ZIP archive.
 
 ```csharp
 public class SplitArchiveSaveOptions
@@ -18,7 +18,7 @@ public class SplitArchiveSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SplitArchiveSaveOptions](splitarchivesaveoptions/)(string, uint) | Instantiates settings for saving a multi-volume zip archive. |
+| [SplitArchiveSaveOptions](splitarchivesaveoptions/)(string, uint) | Instantiates settings for saving a multi-volume ZIP archive. |
 
 ## Properties
 

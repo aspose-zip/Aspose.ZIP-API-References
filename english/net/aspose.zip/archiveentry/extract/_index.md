@@ -40,7 +40,7 @@ The file info of the composed file.
 
 ## Examples
 
-Extract two entries of zip archive, each with own password
+Extract two entries of ZIP archive, each with own password
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))

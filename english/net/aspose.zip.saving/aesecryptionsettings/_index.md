@@ -1,14 +1,14 @@
 ---
 title: Class AesEcryptionSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Saving.AesEcryptionSettings class. Settings for AES encryption or decryption algorithm
+description: Aspose.Zip.Saving.AesEcryptionSettings class. Settings for AES encryption and decryption algorithms within a ZIP archive
 type: docs
 weight: 600
 url: /net/aspose.zip.saving/aesecryptionsettings/
 ---
 ## AesEcryptionSettings class
 
-Settings for AES encryption or decryption algorithm.
+Settings for AES encryption and decryption algorithms within a ZIP archive.
 
 ```csharp
 public class AesEcryptionSettings : EncryptionSettings
@@ -27,10 +27,6 @@ public class AesEcryptionSettings : EncryptionSettings
 | --- | --- |
 | [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Gets the encryption algorithm. |
 | [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Gets or sets password for encryption or decryption. |
-
-## Remarks
-
-See more at https://www.winzip.com/win/en/aes_info.html
 
 ### See Also
 

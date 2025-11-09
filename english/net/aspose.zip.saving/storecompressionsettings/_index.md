@@ -1,14 +1,14 @@
 ---
 title: Class StoreCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Saving.StoreCompressionSettings class. Settings for Store compression method
+description: Aspose.Zip.Saving.StoreCompressionSettings class. Settings for Store compression within a ZIP archive
 type: docs
 weight: 870
 url: /net/aspose.zip.saving/storecompressionsettings/
 ---
 ## StoreCompressionSettings class
 
-Settings for Store compression method.
+Settings for Store compression within a ZIP archive.
 
 ```csharp
 public class StoreCompressionSettings : CompressionSettings

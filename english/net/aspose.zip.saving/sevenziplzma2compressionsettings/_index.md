@@ -34,7 +34,7 @@ public class SevenZipLZMA2CompressionSettings : SevenZipCompressionSettings
 
 LZMA2 supports multiple runs of compressed LZMA data and uncompressed data.
 
-See more: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+See more: [Lempel–Ziv–Markov chain algorithm](https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm)
 
 ### See Also
 

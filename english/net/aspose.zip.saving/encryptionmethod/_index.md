@@ -1,14 +1,14 @@
 ---
 title: Enum EncryptionMethod
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Saving.EncryptionMethod enum. Encryption/decryption methods can be used with zip archive
+description: Aspose.Zip.Saving.EncryptionMethod enum. Encryption/decryption methods can be used with a ZIP archive
 type: docs
 weight: 660
 url: /net/aspose.zip.saving/encryptionmethod/
 ---
 ## EncryptionMethod enumeration
 
-Encryption/decryption methods can be used with zip archive.
+Encryption/decryption methods can be used with a ZIP archive.
 
 ```csharp
 public enum EncryptionMethod : ushort
