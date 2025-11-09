@@ -1,14 +1,14 @@
 ---
 title: LzmaArchiveSettings.LzmaArchiveSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: LzmaArchiveSettings constructor. Initializes a new instance of the LzmaArchiveSettings class with default dictionary size equals to 16 megabytes
+description: LzmaArchiveSettings constructor. Initializes a new instance of the LzmaArchiveSettings class with default dictionary size equals to 16 megabytes number of fast bytes equal to 32 and literal context bits equal to 3
 type: docs
 weight: 10
 url: /net/aspose.zip.lzma/lzmaarchivesettings/lzmaarchivesettings/
 ---
 ## LzmaArchiveSettings constructor
 
-Initializes a new instance of the [`LzmaArchiveSettings`](../) class with default dictionary size, equals to 16 megabytes.
+Initializes a new instance of the [`LzmaArchiveSettings`](../) class with default dictionary size, equals to 16 megabytes, number of fast bytes equal to 32 and literal context bits equal to 3.
 
 ```csharp
 public LzmaArchiveSettings()

@@ -1,14 +1,14 @@
 ---
 title: ComHelper.OpenZip
 second_title: Aspose.ZIP for .NET API Reference
-description: ComHelper method. Allows a COM application to load a zip archive from a stream
+description: ComHelper method. Allows a COM application to load a ZIP archive from a stream
 type: docs
 weight: 50
 url: /net/aspose.zip/comhelper/openzip/
 ---
 ## OpenZip(Stream) {#openzip}
 
-Allows a COM application to load a zip archive from a stream.
+Allows a COM application to load a ZIP archive from a stream.
 
 ```csharp
 public Archive OpenZip(Stream stream)
@@ -33,7 +33,7 @@ A [`Archive`](../../archive/) object that represents the archive.
 
 ## OpenZip(string) {#openzip_1}
 
-Allows a COM application to load a zip archive from a file.
+Allows a COM application to load a ZIP archive from a file.
 
 ```csharp
 public Archive OpenZip(string fileName)

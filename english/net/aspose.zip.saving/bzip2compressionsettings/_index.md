@@ -1,14 +1,14 @@
 ---
 title: Class Bzip2CompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Saving.Bzip2CompressionSettings class. Settings for Bzip2 compression method
+description: Aspose.Zip.Saving.Bzip2CompressionSettings class. Settings for Bzip2 compression within a ZIP archive
 type: docs
 weight: 630
 url: /net/aspose.zip.saving/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings class
 
-Settings for Bzip2 compression method.
+Settings for Bzip2 compression within a ZIP archive.
 
 ```csharp
 public class Bzip2CompressionSettings : CompressionSettings
@@ -29,7 +29,7 @@ public class Bzip2CompressionSettings : CompressionSettings
 
 ## Remarks
 
-bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding. See more: https://en.wikipedia.org/wiki/Bzip2
+bzip2 compresses files using the Burrows-Wheeler block sorting text compression algorithm, and Huffman coding.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: LzmaArchiveSettings.CompressionProgressed
 second_title: Aspose.ZIP for .NET API Reference
 description: LzmaArchiveSettings event. Raises when a portion of raw stream compressed
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.zip.lzma/lzmaarchivesettings/compressionprogressed/
 ---
 ## LzmaArchiveSettings.CompressionProgressed event

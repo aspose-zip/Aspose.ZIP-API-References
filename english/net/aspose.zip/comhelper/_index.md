@@ -30,8 +30,8 @@ public class ComHelper
 | [OpenGzip](../../aspose.zip/comhelper/opengzip/#opengzip_1)(string) | Allows a COM application to load a gzip archive from a file. |
 | [OpenRar](../../aspose.zip/comhelper/openrar/#openrar)(Stream) | Allows a COM application to load a rar archive from a stream. |
 | [OpenRar](../../aspose.zip/comhelper/openrar/#openrar_1)(string) | Allows a COM application to load a rar archive from a file. |
-| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip)(Stream) | Allows a COM application to load a zip archive from a stream. |
-| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip_1)(string) | Allows a COM application to load a zip archive from a file. |
+| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip)(Stream) | Allows a COM application to load a ZIP archive from a stream. |
+| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip_1)(string) | Allows a COM application to load a ZIP archive from a file. |
 
 ## Remarks
 

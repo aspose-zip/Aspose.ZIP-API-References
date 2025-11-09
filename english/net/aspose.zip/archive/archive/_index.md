@@ -161,7 +161,7 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 
 ## Archive(string, string[], ArchiveLoadOptions) {#constructor_3}
 
-Initializes a new instance of the [`Archive`](../) class from multi-volume zip archive and composes an entry list can be extracted from the archive.
+Initializes a new instance of the [`Archive`](../) class from multi-volume ZIP archive and composes an entry list can be extracted from the archive.
 
 ```csharp
 public Archive(string mainSegment, string[] segmentsInOrder, ArchiveLoadOptions loadOptions = null)

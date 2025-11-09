@@ -1,14 +1,14 @@
 ---
 title: SevenZipLZMACompressionSettings.DictionarySize
 second_title: Aspose.ZIP for .NET API Reference
-description: SevenZipLZMACompressionSettings property. Dictionary history buffer size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set will be chosen accordingly to entry size
+description: SevenZipLZMACompressionSettings property. Dictionary history buffer size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set will be chosen accordingly to entry size. Must be between 4096 and 1073741824 or equal to zero for automatic detection based on entry size
 type: docs
 weight: 20
 url: /net/aspose.zip.saving/sevenziplzmacompressionsettings/dictionarysize/
 ---
 ## SevenZipLZMACompressionSettings.DictionarySize property
 
-Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size.
+Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data is kept in memory. If not set, will be chosen accordingly to entry size. Must be between 4096 and 1073741824, or equal to zero for automatic detection based on entry size.
 
 ```csharp
 public int DictionarySize { get; set; }

@@ -41,7 +41,7 @@ Here is an example of how to use the CompressDirectory method:
 string directoryPath = @"C:\path\to\your\directory";
 ArchiveInfo.ArchiveFormat format = ArchiveInfo.ArchiveFormat.Zip;
 ArchiveFactory.CompressDirectory(directoryPath, "result", format);
-// This will create a zip file with the contents of the directory at the specified path.
+// This will create a ZIP file with the contents of the directory at the specified path.
 ```
 
 ### See Also
