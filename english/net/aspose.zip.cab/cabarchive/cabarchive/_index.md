@@ -14,9 +14,10 @@ Initializes a new instance of the [`CabArchive`](../) class and composes an entr
 public CabArchive(Stream sourceStream, CabLoadOptions loadOptions = null)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| sourceStream | The source of the archive. It must be seekable. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | Stream | The source of the archive. It must be seekable. |
+| loadOptions | CabLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -59,9 +60,10 @@ Initializes a new instance of the [`CabArchive`](../) class and composes an entr
 public CabArchive(string path, CabLoadOptions loadOptions = null)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| path | The path to the archive file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | The path to the archive file. |
+| loadOptions | CabLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 

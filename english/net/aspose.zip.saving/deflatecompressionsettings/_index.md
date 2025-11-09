@@ -1,14 +1,14 @@
 ---
 title: Class DeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Saving.DeflateCompressionSettings class. Settings for Deflate compression method
+description: Aspose.Zip.Saving.DeflateCompressionSettings class. Settings for Deflate compression within a ZIP archive
 type: docs
 weight: 650
 url: /net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class
 
-Settings for Deflate compression method.
+Settings for Deflate compression within a ZIP archive.
 
 ```csharp
 public class DeflateCompressionSettings : CompressionSettings
@@ -23,8 +23,6 @@ public class DeflateCompressionSettings : CompressionSettings
 ## Remarks
 
 Deflate is a lossless data compression algorithm that uses a combination of the LZ77 algorithm and Huffman coding.
-
-See standard here: https://tools.ietf.org/html/rfc1951
 
 ### See Also
 

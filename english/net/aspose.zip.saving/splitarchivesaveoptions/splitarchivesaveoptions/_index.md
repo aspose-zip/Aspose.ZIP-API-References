@@ -1,14 +1,14 @@
 ---
 title: SplitArchiveSaveOptions.SplitArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: SplitArchiveSaveOptions constructor. Instantiates settings for saving a multivolume zip archive
+description: SplitArchiveSaveOptions constructor. Instantiates settings for saving a multivolume ZIP archive
 type: docs
 weight: 10
 url: /net/aspose.zip.saving/splitarchivesaveoptions/splitarchivesaveoptions/
 ---
 ## SplitArchiveSaveOptions constructor
 
-Instantiates settings for saving a multi-volume zip archive.
+Instantiates settings for saving a multi-volume ZIP archive.
 
 ```csharp
 public SplitArchiveSaveOptions(string fileName, uint segmentSize)

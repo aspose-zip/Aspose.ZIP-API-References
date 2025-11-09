@@ -18,13 +18,15 @@ public class LzmaArchiveSettings
 
 | Name | Description |
 | --- | --- |
-| [LzmaArchiveSettings](lzmaarchivesettings/)() | Initializes a new instance of the `LzmaArchiveSettings` class with default dictionary size, equals to 16 megabytes. |
+| [LzmaArchiveSettings](lzmaarchivesettings/)() | Initializes a new instance of the `LzmaArchiveSettings` class with default dictionary size, equals to 16 megabytes, number of fast bytes equal to 32 and literal context bits equal to 3. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [DictionarySize](../../aspose.zip.lzma/lzmaarchivesettings/dictionarysize/) { get; set; } | Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory. If not set, will be chosen accordingly to entry size. |
+| [LiteralContextBits](../../aspose.zip.lzma/lzmaarchivesettings/literalcontextbits/) { get; set; } | Gets or sets the number of literal context bits. |
+| [NumberOfFastBytes](../../aspose.zip.lzma/lzmaarchivesettings/numberoffastbytes/) { get; set; } | Gets or sets the number of bytes used for fast match searching in the LZMA algorithm. |
 
 ## Events
 
@@ -36,7 +38,7 @@ public class LzmaArchiveSettings
 
 The Lempel–Ziv–Markov chain algorithm (LZMA) is an algorithm used to perform lossless data compression. This algorithm uses a dictionary compression scheme somewhat similar to the LZ77 algorithm and features a high compression ratio and a variable compression-dictionary size.
 
-See more: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+See more: [Lempel–Ziv–Markov chain algorithm](https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm)
 
 ### See Also
 

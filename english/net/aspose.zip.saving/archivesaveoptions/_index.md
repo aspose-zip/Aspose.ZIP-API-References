@@ -1,14 +1,14 @@
 ---
 title: Class ArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Saving.ArchiveSaveOptions class. Options for saving a zip archive
+description: Aspose.Zip.Saving.ArchiveSaveOptions class. Options for saving a ZIP archive
 type: docs
 weight: 620
 url: /net/aspose.zip.saving/archivesaveoptions/
 ---
 ## ArchiveSaveOptions class
 
-Options for saving a zip archive.
+Options for saving a ZIP archive.
 
 ```csharp
 public class ArchiveSaveOptions
@@ -28,7 +28,7 @@ public class ArchiveSaveOptions
 | [CloseEntrySource](../../aspose.zip.saving/archivesaveoptions/closeentrysource/) { get; set; } | Gets or sets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [DataDescriptorPolicy](../../aspose.zip.saving/archivesaveoptions/datadescriptorpolicy/) { get; set; } | Gets or sets settings for Data Descriptor emission. |
 | [Encoding](../../aspose.zip.saving/archivesaveoptions/encoding/) { get; set; } | Gets or sets encoding for converting file names and other strings to bytes. |
-| [EncryptionOptions](../../aspose.zip.saving/archivesaveoptions/encryptionoptions/) { get; set; } | Gets of sets encryption settings for saving existing zip archive. |
+| [EncryptionOptions](../../aspose.zip.saving/archivesaveoptions/encryptionoptions/) { get; set; } | Gets of sets encryption settings for saving existing ZIP archive. |
 | [EventsBag](../../aspose.zip.saving/archivesaveoptions/eventsbag/) { get; set; } | Gets or sets container of events raising on archive saving. |
 | [ParallelOptions](../../aspose.zip.saving/archivesaveoptions/paralleloptions/) { get; set; } | Gets or sets settings for parallel compression. |
 | [SelfExtractorOptions](../../aspose.zip.saving/archivesaveoptions/selfextractoroptions/) { get; set; } | Gets or sets settings for self extracted archive. |
