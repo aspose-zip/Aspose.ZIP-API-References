@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/bzip2compressionsettings/
 
 ## Bzip2CompressionSettings class
 
-Settings for Bzip2 compression method.
+Settings for Bzip2 compression within a ZIP archive.
 
 The Bzip2CompressionSettings type exposes the following members:
 ## Constructors

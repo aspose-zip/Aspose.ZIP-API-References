@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/storecompressionsettings/
 
 ## StoreCompressionSettings class
 
-Settings for Store compression method.
+Settings for Store compression within a ZIP archive.
 
 The StoreCompressionSettings type exposes the following members:
 ## Constructors

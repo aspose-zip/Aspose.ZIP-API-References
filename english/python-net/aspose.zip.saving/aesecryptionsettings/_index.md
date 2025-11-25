@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/aesecryptionsettings/
 
 ## AesEcryptionSettings class
 
-Settings for AES encryption or decryption algorithm.
+Settings for AES encryption and decryption algorithms within a ZIP archive.
 
 The AesEcryptionSettings type exposes the following members:
 ## Constructors

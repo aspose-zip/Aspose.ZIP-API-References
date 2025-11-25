@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/ppmdcompressionsettings/
 
 ## PPMdCompressionSettings class
 
-Settings for PPMd compression method.
+Settings for PPMd compression within a ZIP archive.
 
 The PPMdCompressionSettings type exposes the following members:
 ## Constructors

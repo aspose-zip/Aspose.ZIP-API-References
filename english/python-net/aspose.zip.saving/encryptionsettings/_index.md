@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/encryptionsettings/
 
 ## EncryptionSettings class
 
-Base class for settings for several zip encryption methods.
+Base class for settings for several ZIP encryption methods.
 
 The EncryptionSettings type exposes the following members:
 ## Properties

@@ -9,13 +9,15 @@ url: /python-net/aspose.zip.saving/lzmacompressionsettings/
 
 ## LzmaCompressionSettings class
 
-Settings for LZMA compression method.
+Settings for LZMA compression within a ZIP archive.
 
 The LzmaCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LzmaCompressionSettings()|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with default dictionary size, equals to 16 megabytes.|
+|LzmaCompressionSettings()|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with default parameters.|
+|LzmaCompressionSettings(dictionary_size, number_of_fast_bytes, literal_context_bits)|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with specified dictionary size, number of fast bytes and number of literal context bits.|
+|LzmaCompressionSettings(dictionary_size)|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with specified dictionary size, number of fast bytes and number of literal context bits.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -27,6 +29,9 @@ The LzmaCompressionSettings type exposes the following members:
 |xz|An instance of|
 |pp_md|An instance of|
 |zstd|An instance of|
+|dictionary_size|Dictionary (history buffer) size indicates how many bytes of the recently processed uncompressed data are kept in memory.|
+|number_of_fast_bytes|Gets the number of bytes used for fast match searching in the LZMA algorithm.|
+|literal_context_bits|Gets the number of literal context bits.|
 
 ### See Also
 
