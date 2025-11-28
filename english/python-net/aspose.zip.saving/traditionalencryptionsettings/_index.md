@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/traditionalencryptionsettings/
 
 ## TraditionalEncryptionSettings class
 
-Settings for traditional ZipCrypto algorithm.
+Settings for traditional ZipCrypto algorithm within a ZIP archive.
 
 The TraditionalEncryptionSettings type exposes the following members:
 ## Constructors

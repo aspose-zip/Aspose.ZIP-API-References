@@ -9,13 +9,13 @@ url: /python-net/aspose.zip.saving/splitarchivesaveoptions/
 
 ## SplitArchiveSaveOptions class
 
-Options for saving a multi-volume zip archive.
+Options for saving a multi-volume ZIP archive.
 
 The SplitArchiveSaveOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SplitArchiveSaveOptions(file_name, segment_size)|Instantiates settings for saving a multi-volume zip archive.|
+|SplitArchiveSaveOptions(file_name, segment_size)|Instantiates settings for saving a multi-volume ZIP archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

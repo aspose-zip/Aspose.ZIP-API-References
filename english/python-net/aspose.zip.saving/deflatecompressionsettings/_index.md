@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/deflatecompressionsettings/
 
 ## DeflateCompressionSettings class
 
-Settings for Deflate compression method.
+Settings for Deflate compression within a ZIP archive.
 
 The DeflateCompressionSettings type exposes the following members:
 ## Constructors

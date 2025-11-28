@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/encryptionmethod/
 
 ## EncryptionMethod enumeration
 
-Encryption/decryption methods can be used with zip archive.
+Encryption/decryption methods can be used with a ZIP archive.
 
 ## Members
 | Member name | Description |
