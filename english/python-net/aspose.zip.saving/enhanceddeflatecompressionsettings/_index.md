@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 
 ## EnhancedDeflateCompressionSettings class
 
-Settings for Enhanced Deflate compression method.
+Settings for Enhanced Deflate compression within a ZIP archive.
 
 The EnhancedDeflateCompressionSettings type exposes the following members:
 ## Constructors

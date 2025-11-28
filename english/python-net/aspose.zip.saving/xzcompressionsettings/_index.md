@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/xzcompressionsettings/
 
 ## XzCompressionSettings class
 
-Settings for Xz compression method.
+Settings for Xz compression within a ZIP archive.
 
 The XzCompressionSettings type exposes the following members:
 ## Constructors

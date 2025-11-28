@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/zstandardcompressionsettings/
 
 ## ZstandardCompressionSettings class
 
-Settings for Zstandard compression method.
+Settings for Zstandard compression within a ZIP archive.
 
 The ZstandardCompressionSettings type exposes the following members:
 ## Constructors

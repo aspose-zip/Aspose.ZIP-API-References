@@ -35,9 +35,9 @@ Supported archive formats.
 |ISO|Iso archive ([IsoArchive](/zip/python-net/aspose.zip.iso/isoarchive/)).|
 |LHA|Lha archive ([LhaArchive](/zip/python-net/aspose.zip.lha/lhaarchive/)).|
 |ARJ|Arj archive ([ArjArchive](/zip/python-net/aspose.zip.arj/arjarchive/)).|
-|LZ4|Arj archive ([Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/)).|
+|LZ4|Lz4 archive ([Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/)).|
 |UUE|Uue encoded file ([UueArchive](/zip/python-net/aspose.zip.uue/uuearchive/))|
-|LZX|Uue encoded file ([LzxArchive](/zip/python-net/aspose.zip.lzx/lzxarchive/))|
+|LZX|Lzx archive ([LzxArchive](/zip/python-net/aspose.zip.lzx/lzxarchive/))|
 
 ### See Also
 

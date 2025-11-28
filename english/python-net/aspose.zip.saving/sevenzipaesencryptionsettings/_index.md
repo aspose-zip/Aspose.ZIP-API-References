@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.saving/sevenzipaesencryptionsettings/
 
 ## SevenZipAESEncryptionSettings class
 
-Settings for AES encryption or decryption algorithm.
+Settings for AES encryption or decryption algorithm within 7z archive.
 
 The SevenZipAESEncryptionSettings type exposes the following members:
 ## Constructors

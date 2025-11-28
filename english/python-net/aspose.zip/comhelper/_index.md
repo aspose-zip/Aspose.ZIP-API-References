@@ -21,8 +21,8 @@ The ComHelper type exposes the following members:
 | :- | :- |
 |open_gzip(stream)|Allows a COM application to load a gzip archive from a stream.|
 |open_gzip(file_name)|Allows a COM application to load a gzip archive from a file.|
-|open_zip(stream)|Allows a COM application to load a zip archive from a stream.|
-|open_zip(file_name)|Allows a COM application to load a zip archive from a file.|
+|open_zip(stream)|Allows a COM application to load a ZIP archive from a stream.|
+|open_zip(file_name)|Allows a COM application to load a ZIP archive from a file.|
 |open_rar(stream)|Allows a COM application to load a rar archive from a stream.|
 |open_rar(file_name)|Allows a COM application to load a rar archive from a file.|
 |open_bzip2(stream)|Allows a COM application to load a bzip2 archive from a stream.|
