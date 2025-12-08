@@ -3,7 +3,7 @@ title: CabArchive.ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: CabArchive method. Extracts all the files in the archive to the directory provided
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.zip.cab/cabarchive/extracttodirectory/
 ---
 ## CabArchive.ExtractToDirectory method
@@ -30,6 +30,7 @@ public void ExtractToDirectory(string destinationDirectory)
 | IOException | The directory specified by path is a file. -or- The network name is not known. |
 | InvalidDataException | The archive is corrupted. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | The archive is prepared for composition and cannot be extracted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 
 ## Remarks
@@ -41,7 +42,7 @@ If the directory does not exist, it will be created.
 ```csharp
 using (var archive = new CabArchive("archive.cab")) 
 { 
-   archive.ExtractToDirectory("C:\extracted");
+   archive.ExtractToDirectory("C:\\extracted");
 }
 ```
 

@@ -3,7 +3,7 @@ title: Class SevenZipLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipLoadOptions class. Options with which SevenZipArchive is loaded from a compressed file
 type: docs
-weight: 960
+weight: 1010
 url: /net/aspose.zip.sevenzip/sevenziploadoptions/
 ---
 ## SevenZipLoadOptions class

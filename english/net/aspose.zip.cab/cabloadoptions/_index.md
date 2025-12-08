@@ -3,7 +3,7 @@ title: Class CabLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabLoadOptions class. Options with which archive is loaded from a compressed file
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.zip.cab/cabloadoptions/
 ---
 ## CabLoadOptions class

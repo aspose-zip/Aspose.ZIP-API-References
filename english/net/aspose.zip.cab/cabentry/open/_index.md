@@ -24,6 +24,7 @@ The stream that represents the contents of the entry.
 | --- | --- |
 | NotSupportedException | Stream initialization failed due to wrong data. |
 | InvalidDataException | The archive is corrupted. |
+| InvalidOperationException | The entry belongs to an archive prepared for composition. |
 
 ## Remarks
 
