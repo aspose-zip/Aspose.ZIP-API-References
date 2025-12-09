@@ -3,7 +3,7 @@ title: Class SevenZipArchiveEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipArchiveEntryPlain class. SevenZip entry that needs to be compressed without encryption or decompressed without decryption
 type: docs
-weight: 950
+weight: 1000
 url: /net/aspose.zip.sevenzip/sevenziparchiveentryplain/
 ---
 ## SevenZipArchiveEntryPlain class

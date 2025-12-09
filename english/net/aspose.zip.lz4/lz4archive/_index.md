@@ -3,7 +3,7 @@ title: Class Lz4Archive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lz4.Lz4Archive class. This class represents LZ4 archive file. Use it to extract or compose LZ4 archives
 type: docs
-weight: 430
+weight: 480
 url: /net/aspose.zip.lz4/lz4archive/
 ---
 ## Lz4Archive class
