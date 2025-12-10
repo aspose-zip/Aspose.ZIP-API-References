@@ -3,7 +3,7 @@ title: Class CancelEntryEventArgs
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xar.CancelEntryEventArgs class. Event arguments for cancelable entry related events
 type: docs
-weight: 1110
+weight: 1160
 url: /net/aspose.zip.xar/cancelentryeventargs/
 ---
 ## CancelEntryEventArgs class

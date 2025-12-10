@@ -3,7 +3,7 @@ title: Class SevenZipArchiveEntryEncrypted
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipArchiveEntryEncrypted class. SevenZip archive entry that needs to be compressed with encryption or decompressed with decryption
 type: docs
-weight: 940
+weight: 990
 url: /net/aspose.zip.sevenzip/sevenziparchiveentryencrypted/
 ---
 ## SevenZipArchiveEntryEncrypted class

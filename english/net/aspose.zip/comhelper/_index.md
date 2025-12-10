@@ -3,7 +3,7 @@ title: Class ComHelper
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ComHelper class. Provides methods for COM clients to load archives into Aspose.Zip
 type: docs
-weight: 200
+weight: 250
 url: /net/aspose.zip/comhelper/
 ---
 ## ComHelper class

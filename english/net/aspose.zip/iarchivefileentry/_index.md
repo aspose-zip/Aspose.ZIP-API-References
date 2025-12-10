@@ -3,7 +3,7 @@ title: Interface IArchiveFileEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.IArchiveFileEntry interface. This interface represents an archive file entry
 type: docs
-weight: 300
+weight: 350
 url: /net/aspose.zip/iarchivefileentry/
 ---
 ## IArchiveFileEntry interface

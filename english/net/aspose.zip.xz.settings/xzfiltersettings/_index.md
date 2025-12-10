@@ -3,7 +3,7 @@ title: Class XzFilterSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.Settings.XzFilterSettings class. Base class for a set of settings of particular xz format filter
 type: docs
-weight: 1270
+weight: 1320
 url: /net/aspose.zip.xz.settings/xzfiltersettings/
 ---
 ## XzFilterSettings class

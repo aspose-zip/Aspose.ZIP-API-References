@@ -3,7 +3,7 @@ title: Class IsoEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Iso.IsoEntry class. Represents an entry file or directory within an ISO archive
 type: docs
-weight: 340
+weight: 390
 url: /net/aspose.zip.iso/isoentry/
 ---
 ## IsoEntry class

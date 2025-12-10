@@ -3,7 +3,7 @@ title: Class SevenZipBZip2CompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipBZip2CompressionSettings class. Settings for BZip2 compression method within 7z archive
 type: docs
-weight: 760
+weight: 810
 url: /net/aspose.zip.saving/sevenzipbzip2compressionsettings/
 ---
 ## SevenZipBZip2CompressionSettings class

@@ -3,7 +3,7 @@ title: Class IsoSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Iso.IsoSaveOptions class. Options for saving an ISO archive
 type: docs
-weight: 360
+weight: 410
 url: /net/aspose.zip.iso/isosaveoptions/
 ---
 ## IsoSaveOptions class

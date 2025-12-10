@@ -3,7 +3,7 @@ title: Class SevenZipCipher
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Crypto.SevenZipCipher class. Base class for AES cipher used for 7zip encryption
 type: docs
-weight: 240
+weight: 290
 url: /net/aspose.zip.crypto/sevenzipcipher/
 ---
 ## SevenZipCipher class

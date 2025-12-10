@@ -3,7 +3,7 @@ title: Class SevenZipEncryptionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipEncryptionSettings class. Base class for settings for several 7z encryption methods
 type: docs
-weight: 790
+weight: 840
 url: /net/aspose.zip.saving/sevenzipencryptionsettings/
 ---
 ## SevenZipEncryptionSettings class

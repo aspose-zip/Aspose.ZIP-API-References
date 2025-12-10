@@ -1,12 +1,52 @@
 ---
 title: CabArchive.CabArchive
 second_title: Aspose.ZIP for .NET API Reference
-description: CabArchive constructor. Initializes a new instance of the CabArchive class and composes an entry list can be extracted from the archive
+description: CabArchive constructor. Initializes a new instance of the CabArchive class prepared for compressing
 type: docs
 weight: 10
 url: /net/aspose.zip.cab/cabarchive/cabarchive/
 ---
-## CabArchive(Stream, CabLoadOptions) {#constructor}
+## CabArchive(CabEntrySettings) {#constructor}
+
+Initializes a new instance of the [`CabArchive`](../) class prepared for compressing.
+
+```csharp
+public CabArchive(CabEntrySettings settings = null)
+```
+
+## Examples
+
+The following example shows how to compress a file.
+
+```csharp
+using (var archive = new CabArchive())
+{
+    archive.CreateEntry("first.bin", "data.bin");
+    archive.Save("archive.cab");
+}
+```
+
+Compress a file using specific compression settings.
+
+```csharp
+using (var archive = new CabArchive())
+{
+    var settings = new CabEntrySettings(new CabStoreCompressionSettings());
+    archive.CreateEntry("entry.bin", "data.bin", settings);
+    archive.Save("archive.cab");
+}
+```
+
+### See Also
+
+* class [CabEntrySettings](../../cabentrysettings/)
+* class [CabArchive](../)
+* namespace [Aspose.Zip.Cab](../../cabarchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CabArchive(Stream, CabLoadOptions) {#constructor_1}
 
 Initializes a new instance of the [`CabArchive`](../) class and composes an entry list can be extracted from the archive.
 
@@ -25,7 +65,7 @@ public CabArchive(Stream sourceStream, CabLoadOptions loadOptions = null)
 | --- | --- |
 | ArgumentNullException | *sourceStream* is null. |
 | ArgumentException | *sourceStream* is not seekable. |
-| InvalidDataException | *sourceStream* is not valid cab archive. |
+| InvalidDataException | *sourceStream* is not valid CAB archive. |
 | EndOfStreamException | The stream is too short. |
 
 ## Remarks
@@ -39,7 +79,7 @@ The following example shows how to extract all the entries to a directory.
 ```csharp
 using (var archive = new CabArchive(File.OpenRead("archive.cab")))
 { 
-   archive.ExtractToDirectory("C:\extracted");
+   archive.ExtractToDirectory("C:\\extracted");
 }
 ```
 
@@ -52,7 +92,7 @@ using (var archive = new CabArchive(File.OpenRead("archive.cab")))
 
 ---
 
-## CabArchive(string, CabLoadOptions) {#constructor_1}
+## CabArchive(string, CabLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`CabArchive`](../) class and composes an entry list can be extracted from the archive.
 
@@ -75,6 +115,7 @@ public CabArchive(string path, CabLoadOptions loadOptions = null)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
@@ -89,9 +130,9 @@ This constructor does not unpack any entry. See [`Open`](../../cabentry/open/) m
 The following example shows how to extract all the entries to a directory.
 
 ```csharp
-using (var archive = new CabArchive("archive.cab")) 
+using (var archive = new CabArchive("archive.cab")) hj
 { 
-   archive.ExtractToDirectory("C:\extracted");
+   archive.ExtractToDirectory("C:\\extracted");
 }
 ```
 

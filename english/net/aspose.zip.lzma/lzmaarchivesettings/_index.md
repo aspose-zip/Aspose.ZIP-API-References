@@ -3,7 +3,7 @@ title: Class LzmaArchiveSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.LZMA.LzmaArchiveSettings class. Settings for lzma archive
 type: docs
-weight: 380
+weight: 430
 url: /net/aspose.zip.lzma/lzmaarchivesettings/
 ---
 ## LzmaArchiveSettings class

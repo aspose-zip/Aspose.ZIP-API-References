@@ -3,7 +3,7 @@ title: Class ZstandardCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.ZstandardCompressionSettings class. Settings for Zstandard compression within a ZIP archive
 type: docs
-weight: 910
+weight: 960
 url: /net/aspose.zip.saving/zstandardcompressionsettings/
 ---
 ## ZstandardCompressionSettings class

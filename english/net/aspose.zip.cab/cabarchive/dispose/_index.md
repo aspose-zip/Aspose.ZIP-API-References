@@ -3,7 +3,7 @@ title: CabArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: CabArchive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.zip.cab/cabarchive/dispose/
 ---
 ## CabArchive.Dispose method
