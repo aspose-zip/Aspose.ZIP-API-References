@@ -23,6 +23,9 @@ Can be one of these:
 * **[`Bzip2CompressionSettings`](../../bzip2compressionsettings/)**
 * **[`LzmaCompressionSettings`](../../lzmacompressionsettings/)**
 * **[`PPMdCompressionSettings`](../../ppmdcompressionsettings/)**
+* **[`EnhancedDeflateCompressionSettings`](../../enhanceddeflatecompressionsettings/)**
+* **[`XzCompressionSettings`](../../xzcompressionsettings/)**
+* **[`ZstandardCompressionSettings`](../../zstandardcompressionsettings/)**
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Class LhaLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lha.LhaLoadOptions class. Options with which archive is loaded from a compressed file
 type: docs
-weight: 410
+weight: 460
 url: /net/aspose.zip.lha/lhaloadoptions/
 ---
 ## LhaLoadOptions class

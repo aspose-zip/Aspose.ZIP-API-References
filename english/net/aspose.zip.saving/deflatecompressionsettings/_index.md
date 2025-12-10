@@ -3,7 +3,7 @@ title: Class DeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.DeflateCompressionSettings class. Settings for Deflate compression within a ZIP archive
 type: docs
-weight: 650
+weight: 700
 url: /net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class

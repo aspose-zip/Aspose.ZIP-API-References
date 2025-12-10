@@ -3,7 +3,7 @@ title: Class LzxArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lzx.LzxArchive class. This class represents a LZX .lzx archive file
 type: docs
-weight: 490
+weight: 540
 url: /net/aspose.zip.lzx/lzxarchive/
 ---
 ## LzxArchive class

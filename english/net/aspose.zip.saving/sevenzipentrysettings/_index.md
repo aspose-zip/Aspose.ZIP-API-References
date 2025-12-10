@@ -3,7 +3,7 @@ title: Class SevenZipEntrySettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipEntrySettings class. Settings used to compress or decompress 7Z entries
 type: docs
-weight: 800
+weight: 850
 url: /net/aspose.zip.saving/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings class

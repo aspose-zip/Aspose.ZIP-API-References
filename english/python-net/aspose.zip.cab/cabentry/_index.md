@@ -9,7 +9,7 @@ url: /python-net/aspose.zip.cab/cabentry/
 
 ## CabEntry class
 
-Represents a single file within cab archive.
+Represents a single file within CAB archive.
 
 The CabEntry type exposes the following members:
 ## Properties
