@@ -3,7 +3,7 @@ title: Class SevenZipLZMA2CompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipLZMA2CompressionSettings class. Settings for LZMA2 compression method within 7z archive
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.zip.saving/sevenziplzma2compressionsettings/
 ---
 ## SevenZipLZMA2CompressionSettings class

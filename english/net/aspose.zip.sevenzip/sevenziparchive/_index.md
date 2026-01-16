@@ -3,7 +3,7 @@ title: Class SevenZipArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.SevenZip.SevenZipArchive class. This class represents 7z archive file. Use it to compose and extract 7z archives
 type: docs
-weight: 970
+weight: 980
 url: /net/aspose.zip.sevenzip/sevenziparchive/
 ---
 ## SevenZipArchive class
@@ -38,14 +38,15 @@ public class SevenZipArchive : IArchive
 | --- | --- |
 | [CreateEntries](../../aspose.zip.sevenzip/sevenziparchive/createentries/#createentries)(DirectoryInfo, bool) | Adds to the archive all files and directories recursively in the directory given. |
 | [CreateEntries](../../aspose.zip.sevenzip/sevenziparchive/createentries/#createentries_1)(string, bool) | Adds to the archive all files and directories recursively in the directory given. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry_1)(string, Stream, SevenZipEntrySettings) | Create a single entry within the archive. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry)(string, FileInfo, bool, SevenZipEntrySettings) | Create a single entry within the archive. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry_2)(string, Stream, SevenZipEntrySettings, FileSystemInfo) | Create a single entry within the archive. |
-| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry_3)(string, string, bool, SevenZipEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry)(string, Func&lt;Stream&gt;, SevenZipEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry_2)(string, Stream, SevenZipEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry_1)(string, FileInfo, bool, SevenZipEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry_3)(string, Stream, SevenZipEntrySettings, FileSystemInfo) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.sevenzip/sevenziparchive/createentry/#createentry_4)(string, string, bool, SevenZipEntrySettings) | Create a single entry within the archive. |
 | [Dispose](../../aspose.zip.sevenzip/sevenziparchive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExtractToDirectory](../../aspose.zip.sevenzip/sevenziparchive/extracttodirectory/)(string, string) | Extracts all the files in the archive to the directory provided. |
-| [Save](../../aspose.zip.sevenzip/sevenziparchive/save/#save)(Stream) | Saves 7z archive to the stream provided. |
-| [Save](../../aspose.zip.sevenzip/sevenziparchive/save/#save_1)(string) | Saves archive to a destination file provided. |
+| [Save](../../aspose.zip.sevenzip/sevenziparchive/save/#save)(Stream, SevenZipArchiveSaveOptions) | Saves 7z archive to the stream provided. |
+| [Save](../../aspose.zip.sevenzip/sevenziparchive/save/#save_1)(string, SevenZipArchiveSaveOptions) | Saves archive to a destination file provided. |
 | [SaveSplit](../../aspose.zip.sevenzip/sevenziparchive/savesplit/)(string, SplitSevenZipArchiveSaveOptions) | Saves multi-volume archive to destination directory provided. |
 
 ### See Also

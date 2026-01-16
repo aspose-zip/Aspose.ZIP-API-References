@@ -6,7 +6,7 @@ type: docs
 weight: 50
 url: /net/aspose.zip.sevenzip/sevenziparchive/createentry/
 ---
-## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry_1}
 
 Create a single entry within the archive.
 
@@ -31,6 +31,7 @@ Seven Zip entry instance.
 | exception | condition |
 | --- | --- |
 | UnauthorizedAccessException | *fileInfo* is read-only or is a directory. |
+| ArgumentException | The *name* is null or empty. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
@@ -71,7 +72,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_2}
+## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_3}
 
 Create a single entry within the archive.
 
@@ -97,6 +98,7 @@ SevenZip entry instance.
 | --- | --- |
 | InvalidOperationException | Both *source* and *fileInfo* are null or *source* is null and *fileInfo* stands for directory. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentException | The *name* is null or empty. |
 
 ## Remarks
 
@@ -129,7 +131,60 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_1}
+## CreateEntry(string, Func&lt;Stream&gt;, SevenZipEntrySettings) {#createentry}
+
+Create a single entry within the archive.
+
+```csharp
+public SevenZipArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    SevenZipEntrySettings newEntrySettings = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the entry. |
+| streamProvider | Func`1 | The method providing input stream for the entry. |
+| newEntrySettings | SevenZipEntrySettings | Compression and encryption settings used for added [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item. Individual compression settings is ignored in case of solid compression, see [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
+
+### Return Value
+
+SevenZip entry instance.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The archive is instantiated for decompression |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentException | The *name* is null or empty. |
+
+## Examples
+
+Compose archive with LZMA2 compressed encrypted entry.
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
+{
+    using (var archive = new SevenZipArchive())
+    {
+        archive.CreateEntry("entry1.bin", provider, new SevenZipEntrySettings(new SevenZipLZMA2CompressionSettings(), new SevenZipAESEncryptionSettings("test1"))); 
+        archive.Save(sevenZipFile);
+    }
+}
+```
+
+### See Also
+
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_2}
 
 Create a single entry within the archive.
 
@@ -153,6 +208,7 @@ Zip entry instance.
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentException | The *name* is null or empty. |
 
 ## Examples
 
@@ -176,7 +232,7 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 
 ---
 
-## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_3}
+## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_4}
 
 Create a single entry within the archive.
 
@@ -202,7 +258,7 @@ Zip entry instance.
 | --- | --- |
 | ArgumentNullException | *path* is null. |
 | SecurityException | The caller does not have the required permission to access. |
-| ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. |
+| ArgumentException | The *path* is empty, contains only white spaces, or contains invalid characters. - or - The *name* is null or empty. |
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |

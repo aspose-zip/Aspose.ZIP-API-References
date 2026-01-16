@@ -6,17 +6,18 @@ type: docs
 weight: 80
 url: /net/aspose.zip.sevenzip/sevenziparchive/save/
 ---
-## Save(Stream) {#save}
+## Save(Stream, SevenZipArchiveSaveOptions) {#save}
 
 Saves 7z archive to the stream provided.
 
 ```csharp
-public void Save(Stream output)
+public void Save(Stream output, SevenZipArchiveSaveOptions saveOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | output | Stream | Destination stream. |
+| saveOptions | SevenZipArchiveSaveOptions | Options for archive saving. |
 
 ### Exceptions
 
@@ -49,23 +50,25 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 
 ### See Also
 
+* class [SevenZipArchiveSaveOptions](../../../aspose.zip.saving/sevenziparchivesaveoptions/)
 * class [SevenZipArchive](../)
 * namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(string, SevenZipArchiveSaveOptions) {#save_1}
 
 Saves archive to a destination file provided.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, SevenZipArchiveSaveOptions saveOptions = null)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | destinationFileName | String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| saveOptions | SevenZipArchiveSaveOptions | Options for archive saving. |
 
 ### Exceptions
 
@@ -98,6 +101,7 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 
 ### See Also
 
+* class [SevenZipArchiveSaveOptions](../../../aspose.zip.saving/sevenziparchivesaveoptions/)
 * class [SevenZipArchive](../)
 * namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
 * assembly [Aspose.Zip](../../../)

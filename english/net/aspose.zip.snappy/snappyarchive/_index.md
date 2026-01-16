@@ -3,7 +3,7 @@ title: Class SnappyArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Snappy.SnappyArchive class. This class represents a snappy archive file. Use it to compose or extract snappy archives
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.zip.snappy/snappyarchive/
 ---
 ## SnappyArchive class
