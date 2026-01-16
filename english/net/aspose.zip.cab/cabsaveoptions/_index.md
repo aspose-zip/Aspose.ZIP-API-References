@@ -24,6 +24,7 @@ public class CabSaveOptions
 
 | Name | Description |
 | --- | --- |
+| [CloseEntrySource](../../aspose.zip.cab/cabsaveoptions/closeentrysource/) { get; set; } | Gets or sets a value indicating whether entries' sources should be closed right after an entry has been compressed. |
 | [SkipChecksumCalculation](../../aspose.zip.cab/cabsaveoptions/skipchecksumcalculation/) { get; set; } | Gets or sets a value indicating whether to skip checksum calculation when saving the CAB archive. |
 
 ### See Also

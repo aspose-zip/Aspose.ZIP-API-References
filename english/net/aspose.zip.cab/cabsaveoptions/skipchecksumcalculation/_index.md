@@ -3,7 +3,7 @@ title: CabSaveOptions.SkipChecksumCalculation
 second_title: Aspose.ZIP for .NET API Reference
 description: CabSaveOptions property. Gets or sets a value indicating whether to skip checksum calculation when saving the CAB archive
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.cab/cabsaveoptions/skipchecksumcalculation/
 ---
 ## CabSaveOptions.SkipChecksumCalculation property

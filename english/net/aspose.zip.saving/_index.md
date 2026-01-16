@@ -26,6 +26,7 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [PPMdCompressionSettings](./ppmdcompressionsettings/) | Settings for PPMd compression within a ZIP archive. |
 | [SelfExtractorOptions](./selfextractoroptions/) | Options for creation of self-extracting executable archive. |
 | [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings/) | Settings for AES encryption or decryption algorithm within 7z archive. |
+| [SevenZipArchiveSaveOptions](./sevenziparchivesaveoptions/) | Options for saving a 7Z archive. |
 | [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings/) | Settings for BZip2 compression method within 7z archive. |
 | [SevenZipCompressionSettings](./sevenzipcompressionsettings/) | Settings needed for 7z compressor or decompressor to work. |
 | [SevenZipEncryptionSettings](./sevenzipencryptionsettings/) | Base class for settings for several 7z encryption methods. |
