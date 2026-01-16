@@ -34,9 +34,10 @@ public class CabArchive : IArchive
 | --- | --- |
 | [CreateEntries](../../aspose.zip.cab/cabarchive/createentries/#createentries)(DirectoryInfo, bool) | Adds to the archive all files, recursively, from the specified directory. |
 | [CreateEntries](../../aspose.zip.cab/cabarchive/createentries/#createentries_1)(string, bool) | Adds to the archive all files recursively from the specified directory path. |
-| [CreateEntry](../../aspose.zip.cab/cabarchive/createentry/#createentry)(string, FileInfo, CabEntrySettings) | Create a single entry within the archive. |
-| [CreateEntry](../../aspose.zip.cab/cabarchive/createentry/#createentry_1)(string, Stream, CabEntrySettings) | Create a single entry within the archive. |
-| [CreateEntry](../../aspose.zip.cab/cabarchive/createentry/#createentry_2)(string, string, CabEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.cab/cabarchive/createentry/#createentry_1)(string, FileInfo, CabEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.cab/cabarchive/createentry/#createentry)(string, Func&lt;Stream&gt;, CabEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.cab/cabarchive/createentry/#createentry_2)(string, Stream, CabEntrySettings) | Create a single entry within the archive. |
+| [CreateEntry](../../aspose.zip.cab/cabarchive/createentry/#createentry_3)(string, string, CabEntrySettings) | Create a single entry within the archive. |
 | [Dispose](../../aspose.zip.cab/cabarchive/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ExtractToDirectory](../../aspose.zip.cab/cabarchive/extracttodirectory/)(string) | Extracts all the files in the archive to the directory provided. |
 | [Save](../../aspose.zip.cab/cabarchive/save/#save)(Stream, CabSaveOptions) | Saves archive to the stream provided. |

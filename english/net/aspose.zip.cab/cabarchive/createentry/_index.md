@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.zip.cab/cabarchive/createentry/
 ---
-## CreateEntry(string, string, CabEntrySettings) {#createentry_2}
+## CreateEntry(string, string, CabEntrySettings) {#createentry_3}
 
 Create a single entry within the archive.
 
@@ -61,7 +61,7 @@ using (var archive = new CabArchive())
 
 ---
 
-## CreateEntry(string, Stream, CabEntrySettings) {#createentry_1}
+## CreateEntry(string, Stream, CabEntrySettings) {#createentry_2}
 
 Create a single entry within the archive.
 
@@ -118,7 +118,7 @@ using (var archive = new CabArchive())
 
 ---
 
-## CreateEntry(string, FileInfo, CabEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, CabEntrySettings) {#createentry_1}
 
 Create a single entry within the archive.
 
@@ -135,7 +135,7 @@ public CabEntry CreateEntry(string name, FileInfo fileInfo,
 
 ### Return Value
 
-Cab entry instance.
+CAB entry instance.
 
 ### Exceptions
 
@@ -160,6 +160,54 @@ using (var archive = new CabArchive(new CabEntrySettings(new CabMsZipCompression
 {
     var sourceFile = new FileInfo("logs\\log.txt");
     archive.CreateEntry("log.txt", sourceFile);
+    archive.Save("archive.cab");
+}
+```
+
+### See Also
+
+* class [CabEntry](../../cabentry/)
+* class [CabEntrySettings](../../cabentrysettings/)
+* class [CabArchive](../)
+* namespace [Aspose.Zip.Cab](../../cabarchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Func&lt;Stream&gt;, CabEntrySettings) {#createentry}
+
+Create a single entry within the archive.
+
+```csharp
+public CabEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    CabEntrySettings newEntrySettings = null)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the entry. |
+| streamProvider | Func`1 | The method providing input stream for the entry. |
+| newEntrySettings | CabEntrySettings | Compression and encryption settings used for added [`CabEntry`](../../cabentry/) item. |
+
+### Return Value
+
+CAB entry instance.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The archive is instantiated for decompression. - or - The number of folders has been reached the limit. |
+| ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentException | The *name* is null or empty. |
+
+## Examples
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (var archive = new CabArchive(new CabEntrySettings(new CabMsZipCompressionSettings())))
+{    
+    archive.CreateEntry("data.bin", provider);
     archive.Save("archive.cab");
 }
 ```
