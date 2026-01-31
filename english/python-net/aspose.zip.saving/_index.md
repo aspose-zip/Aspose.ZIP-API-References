@@ -31,6 +31,7 @@ Contains classes which are needed for operations entailing saving the archive.
 |[XzCompressionSettings](/zip/python-net/aspose.zip.saving/xzcompressionsettings/)|Settings for Xz compression within a ZIP archive.|
 |[ZstandardCompressionSettings](/zip/python-net/aspose.zip.saving/zstandardcompressionsettings/)|Settings for Zstandard compression within a ZIP archive.|
 |[SevenZipAESEncryptionSettings](/zip/python-net/aspose.zip.saving/sevenzipaesencryptionsettings/)|Settings for AES encryption or decryption algorithm within 7z archive.|
+|[SevenZipArchiveSaveOptions](/zip/python-net/aspose.zip.saving/sevenziparchivesaveoptions/)|Options for saving a 7Z archive.|
 |[SevenZipBZip2CompressionSettings](/zip/python-net/aspose.zip.saving/sevenzipbzip2compressionsettings/)|Settings for BZip2 compression method within 7z archive.|
 |[SevenZipCompressionSettings](/zip/python-net/aspose.zip.saving/sevenzipcompressionsettings/)|Settings needed for 7z compressor or decompressor to work.|
 |[SevenZipEncryptionSettings](/zip/python-net/aspose.zip.saving/sevenzipencryptionsettings/)|Base class for settings for several 7z encryption methods.|
