@@ -20,6 +20,7 @@ The CabSaveOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |skip_checksum_calculation|Gets or sets a value indicating whether to skip checksum calculation when saving the CAB archive.|
+|close_entry_source|Gets or sets a value indicating whether entries' sources should be closed right after an entry has been compressed.|
 
 ### See Also
 
