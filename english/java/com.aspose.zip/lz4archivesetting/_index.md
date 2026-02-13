@@ -3,7 +3,7 @@ title: Lz4ArchiveSetting
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for LZ4 archive composition.
 type: docs
-weight: 59
+weight: 64
 url: /java/com.aspose.zip/lz4archivesetting/
 ---
 

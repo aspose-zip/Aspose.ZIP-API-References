@@ -3,7 +3,7 @@ title: LzmaCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for LZMA compression method.
 type: docs
-weight: 66
+weight: 71
 url: /java/com.aspose.zip/lzmacompressionsettings/
 ---
 

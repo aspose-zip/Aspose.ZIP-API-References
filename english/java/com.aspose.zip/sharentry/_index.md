@@ -3,7 +3,7 @@ title: SharEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within shar archive.
 type: docs
-weight: 97
+weight: 103
 url: /java/com.aspose.zip/sharentry/
 ---
 

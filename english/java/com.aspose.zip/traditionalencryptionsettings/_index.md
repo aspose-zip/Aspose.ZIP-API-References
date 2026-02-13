@@ -3,7 +3,7 @@ title: TraditionalEncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for traditional ZipCrypto algorithm within a ZIP archive.
 type: docs
-weight: 104
+weight: 110
 url: /java/com.aspose.zip/traditionalencryptionsettings/
 ---
 
@@ -57,7 +57,7 @@ Initializes a new instance of the [TraditionalEncryptionSettings](../../com.aspo
 
 ```
 
-    try (Archive archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p�s$", StandardCharsets.US_ASCII)))) {
+    try (Archive archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p?s$", StandardCharsets.US_ASCII)))) {
         archive.createEntry("data.bin", "data.bin");
         archive.save(zipFile);
     }

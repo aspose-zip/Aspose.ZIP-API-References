@@ -3,7 +3,7 @@ title: LhaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a LHA .lzh archive file.
 type: docs
-weight: 53
+weight: 58
 url: /java/com.aspose.zip/lhaarchive/
 ---
 

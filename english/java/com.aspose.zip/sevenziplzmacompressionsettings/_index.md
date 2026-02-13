@@ -3,7 +3,7 @@ title: SevenZipLZMACompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for LZMA compression method within 7z archive.
 type: docs
-weight: 92
+weight: 98
 url: /java/com.aspose.zip/sevenziplzmacompressionsettings/
 ---
 
@@ -50,7 +50,7 @@ Initializes a new instance of the [SevenZipLZMACompressionSettings](../../com.as
      try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings()))) {
          archive.createEntry("data.bin", "data.bin");
          archive.save("result.7z");
- }
+     }
  
 ```
 

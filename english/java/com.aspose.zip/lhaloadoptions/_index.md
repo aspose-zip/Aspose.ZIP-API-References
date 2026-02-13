@@ -3,7 +3,7 @@ title: LhaLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 56
+weight: 61
 url: /java/com.aspose.zip/lhaloadoptions/
 ---
 

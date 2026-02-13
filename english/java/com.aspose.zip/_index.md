@@ -30,9 +30,14 @@ url: /java/com.aspose.zip/
 | [Bzip2CompressionSettings](../com.aspose.zip/bzip2compressionsettings) | Settings for Bzip2 compression within a ZIP archive. |
 | [Bzip2LoadOptions](../com.aspose.zip/bzip2loadoptions) | Options for loading [Bzip2Archive](../com.aspose.zip/bzip2archive). |
 | [Bzip2SaveOptions](../com.aspose.zip/bzip2saveoptions) | Options for saving a bzip2 archive. |
-| [CabArchive](../com.aspose.zip/cabarchive) | This class represents a cab archive file. |
+| [CabArchive](../com.aspose.zip/cabarchive) | This class represents a CAB archive file. |
+| [CabCompressionSettings](../com.aspose.zip/cabcompressionsettings) | Settings needed for CAB compressor to work. |
 | [CabEntry](../com.aspose.zip/cabentry) | Represents a single file within cab archive. |
+| [CabEntrySettings](../com.aspose.zip/cabentrysettings) | Settings that control how a CAB entry is written. |
 | [CabLoadOptions](../com.aspose.zip/cabloadoptions) | Options with which archive is loaded from a compressed file. |
+| [CabMsZipCompressionSettings](../com.aspose.zip/cabmszipcompressionsettings) | Compression settings that encode CAB data blocks using MSZip (deflate) compression. |
+| [CabSaveOptions](../com.aspose.zip/cabsaveoptions) | Options for saving a CAB archive. |
+| [CabStoreCompressionSettings](../com.aspose.zip/cabstorecompressionsettings) | Compression settings that keep CAB data blocks uncompressed. |
 | [CancelEntryEventArgs](../com.aspose.zip/cancelentryeventargs) | Event arguments for cancelable entry related events. |
 | [CancelEntryEventArgsXar](../com.aspose.zip/cancelentryeventargsxar) | Event arguments for cancelable entry related events. |
 | [CancellationFlag](../com.aspose.zip/cancellationflag) | The flag that allows for the cancellation of operations. |
@@ -88,6 +93,7 @@ url: /java/com.aspose.zip/
 | [SevenZipArchiveEntry](../com.aspose.zip/sevenziparchiveentry) | Represents a single file within 7z archive. |
 | [SevenZipArchiveEntryEncrypted](../com.aspose.zip/sevenziparchiveentryencrypted) | SevenZip archive entry that needs to be compressed with encryption or decompressed with decryption. |
 | [SevenZipArchiveEntryPlain](../com.aspose.zip/sevenziparchiveentryplain) | SevenZip entry that needs to be compressed without encryption or decompressed without decryption. |
+| [SevenZipArchiveSaveOptions](../com.aspose.zip/sevenziparchivesaveoptions) | Options for saving a 7Z archive. |
 | [SevenZipBZip2CompressionSettings](../com.aspose.zip/sevenzipbzip2compressionsettings) | Settings for BZip2 compression method within 7z archive. |
 | [SevenZipCipher](../com.aspose.zip/sevenzipcipher) | Base class for AES cipher used for 7-zip encryption. |
 | [SevenZipCompressionSettings](../com.aspose.zip/sevenzipcompressionsettings) | Settings needed for 7z compressor or decompressor to work. |

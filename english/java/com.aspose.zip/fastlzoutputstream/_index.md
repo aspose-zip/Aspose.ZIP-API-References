@@ -3,7 +3,7 @@ title: FastLZOutputStream
 second_title: Aspose.ZIP for Java API Reference
 description: A stream wrapper that compresses data with FastLZ.
 type: docs
-weight: 46
+weight: 51
 url: /java/com.aspose.zip/fastlzoutputstream/
 ---
 

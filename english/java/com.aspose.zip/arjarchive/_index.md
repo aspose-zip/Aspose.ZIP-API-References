@@ -91,7 +91,7 @@ The following example shows how to extract all the entries to a directory.
      try (ArjArchive archive = new ArjArchive("archive.arj")) {
          archive.extractToDirectory("C:\\extracted");
      } catch (IOException ex) {
- }
+     }
  
 ```
 
