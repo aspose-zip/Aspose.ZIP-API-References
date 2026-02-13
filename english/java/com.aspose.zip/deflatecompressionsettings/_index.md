@@ -3,7 +3,7 @@ title: DeflateCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Deflate compression within a ZIP archive.
 type: docs
-weight: 37
+weight: 42
 url: /java/com.aspose.zip/deflatecompressionsettings/
 ---
 

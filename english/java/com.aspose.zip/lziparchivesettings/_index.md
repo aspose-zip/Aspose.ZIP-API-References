@@ -3,7 +3,7 @@ title: LzipArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
 description: The class contains setting of a particular lzip archive.
 type: docs
-weight: 62
+weight: 67
 url: /java/com.aspose.zip/lziparchivesettings/
 ---
 

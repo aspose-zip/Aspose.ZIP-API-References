@@ -3,7 +3,7 @@ title: LzxArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a LZX .lzx archive file.
 type: docs
-weight: 67
+weight: 72
 url: /java/com.aspose.zip/lzxarchive/
 ---
 

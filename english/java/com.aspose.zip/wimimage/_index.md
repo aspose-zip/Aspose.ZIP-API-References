@@ -3,7 +3,7 @@ title: WimImage
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single image within wim archive.
 type: docs
-weight: 111
+weight: 117
 url: /java/com.aspose.zip/wimimage/
 ---
 

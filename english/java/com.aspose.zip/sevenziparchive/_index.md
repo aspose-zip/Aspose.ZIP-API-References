@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 82
+weight: 87
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 
@@ -49,6 +49,8 @@ This class represents 7z archive file. Use it to compose and extract 7z archives
 | [createEntry(String name, String path)](#createEntry-java.lang.String-java.lang.String-) | Creates a single entry within the archive. |
 | [createEntry(String name, String path, boolean openImmediately)](#createEntry-java.lang.String-java.lang.String-boolean-) | Creates a single entry within the archive. |
 | [createEntry(String name, String path, boolean openImmediately, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.lang.String-boolean-com.aspose.zip.SevenZipEntrySettings-) | Creates a single entry within the archive. |
+| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--) | Create a single entry within the archive. |
+| [createEntry(String name, Supplier&lt;InputStream&gt; streamProvider, SevenZipEntrySettings newEntrySettings)](#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--com.aspose.zip.SevenZipEntrySettings-) | Create a single entry within the archive. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [extractToDirectory(String destinationDirectory, String password)](#extractToDirectory-java.lang.String-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
 | [getEntries()](#getEntries--) | Gets entries of [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) type constituting the archive. |
@@ -56,7 +58,9 @@ This class represents 7z archive file. Use it to compose and extract 7z archives
 | [getFormat()](#getFormat--) | Gets the archive format. |
 | [getNewEntrySettings()](#getNewEntrySettings--) | Compression and encryption settings used for newly added [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) items. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves 7z archive to the stream provided. |
+| [save(OutputStream output, SevenZipArchiveSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.SevenZipArchiveSaveOptions-) | Saves 7z archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to a destination file provided. |
+| [save(String destinationFileName, SevenZipArchiveSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.SevenZipArchiveSaveOptions-) | Saves archive to a destination file provided. |
 | [saveSplit(String destinationDirectory, SplitSevenZipArchiveSaveOptions options)](#saveSplit-java.lang.String-com.aspose.zip.SplitSevenZipArchiveSaveOptions-) | Saves multi-volume archive to destination directory provided. |
 ### SevenZipArchive() {#SevenZipArchive--}
 ```
@@ -759,6 +763,75 @@ If the file is opened immediately with `openImmediately` parameter it becomes bl
 
 **Returns:**
 [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) - Zip entry instance
+### createEntry(String name, Supplier&lt;InputStream&gt; streamProvider) {#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--}
+```
+public final SevenZipArchiveEntry createEntry(String name, Supplier<InputStream> streamProvider)
+```
+
+
+Create a single entry within the archive.
+
+Compose archive with LZMA2 compressed encrypted entry.
+
+```
+
+ System.Func&lt;Stream&gt; provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
+ {
+     using (var archive = new SevenZipArchive())
+     {
+         archive.CreateEntry("entry1.bin", provider, new SevenZipEntrySettings(new SevenZipLZMA2CompressionSettings(), new SevenZipAESEncryptionSettings("test1"))); 
+         archive.Save(sevenZipFile);
+     }
+ }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the entry. |
+| streamProvider | java.util.function.Supplier&lt;java.io.InputStream&gt; | The method providing input stream for the entry. |
+
+**Returns:**
+[SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) - SevenZip entry instance.
+### createEntry(String name, Supplier&lt;InputStream&gt; streamProvider, SevenZipEntrySettings newEntrySettings) {#createEntry-java.lang.String-java.util.function.Supplier-java.io.InputStream--com.aspose.zip.SevenZipEntrySettings-}
+```
+public final SevenZipArchiveEntry createEntry(String name, Supplier<InputStream> streamProvider, SevenZipEntrySettings newEntrySettings)
+```
+
+
+Create a single entry within the archive.
+
+Compose archive with LZMA2 compressed encrypted entry.
+
+```
+
+ System.Func&lt;Stream&gt; provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
+ {
+     using (var archive = new SevenZipArchive())
+     {
+         archive.CreateEntry("entry1.bin", provider, new SevenZipEntrySettings(new SevenZipLZMA2CompressionSettings(), new SevenZipAESEncryptionSettings("test1"))); 
+         archive.Save(sevenZipFile);
+     }
+ }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the entry. |
+| streamProvider | java.util.function.Supplier&lt;java.io.InputStream&gt; | The method providing input stream for the entry. |
+| newEntrySettings | [SevenZipEntrySettings](../../com.aspose.zip/sevenzipentrysettings) | Compression and encryption settings used for added [SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) item. Individual compression settings is ignored in case of solid compression, see `SevenZipEntrySettings.Solid`([SevenZipEntrySettings.getSolid](../../com.aspose.zip/sevenzipentrysettings\#getSolid)/[SevenZipEntrySettings.setSolid](../../com.aspose.zip/sevenzipentrysettings\#setSolid)). |
+
+**Returns:**
+[SevenZipArchiveEntry](../../com.aspose.zip/sevenziparchiveentry) - SevenZip entry instance.
 ### extractToDirectory(String destinationDirectory) {#extractToDirectory-java.lang.String-}
 ```
 public final void extractToDirectory(String destinationDirectory)
@@ -881,9 +954,69 @@ Saves 7z archive to the stream provided.
 | --- | --- | --- |
 | output | java.io.OutputStream | destination stream |
 
+### save(OutputStream output, SevenZipArchiveSaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.zip.SevenZipArchiveSaveOptions-}
+```
+public final void save(OutputStream output, SevenZipArchiveSaveOptions saveOptions)
+```
+
+
+Saves 7z archive to the stream provided.
+
+```
+
+     try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
+         try (FileInputStream source = new FileInputStream("data.bin")) {
+             try (SevenZipArchive archive = new SevenZipArchive()) {
+                 archive.createEntry("data", source);
+                 archive.save(sevenZipFile);
+             }
+         }
+     } catch (IOException ex) {
+     }
+ 
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output | java.io.OutputStream | destination stream |
+| saveOptions | [SevenZipArchiveSaveOptions](../../com.aspose.zip/sevenziparchivesaveoptions) | Options for archive saving. |
+
 ### save(String destinationFileName) {#save-java.lang.String-}
 ```
 public final void save(String destinationFileName)
+```
+
+
+Saves archive to a destination file provided.
+
+```
+
+  using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
+  {
+     using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings())))
+     {
+        archive.CreateEntry("data", source);
+        archive.Save("archive.7z");
+     }
+  }
+  
+```
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
+
+It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file. |
+
+### save(String destinationFileName, SevenZipArchiveSaveOptions saveOptions) {#save-java.lang.String-com.aspose.zip.SevenZipArchiveSaveOptions-}
+```
+public final void save(String destinationFileName, SevenZipArchiveSaveOptions saveOptions)
 ```
 
 
@@ -906,7 +1039,8 @@ Saves archive to a destination file provided.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten.
+| destinationFileName | java.lang.String | the path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
+| saveOptions | [SevenZipArchiveSaveOptions](../../com.aspose.zip/sevenziparchivesaveoptions) | Options for archive saving.
 
 It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file. |
 

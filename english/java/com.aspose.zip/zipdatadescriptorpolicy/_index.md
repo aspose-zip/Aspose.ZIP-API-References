@@ -3,7 +3,7 @@ title: ZipDataDescriptorPolicy
 second_title: Aspose.ZIP for Java API Reference
 description: Options for the Data Descriptor presence.
 type: docs
-weight: 147
+weight: 153
 url: /java/com.aspose.zip/zipdatadescriptorpolicy/
 ---
 

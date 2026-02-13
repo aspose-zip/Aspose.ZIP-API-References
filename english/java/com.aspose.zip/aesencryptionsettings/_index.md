@@ -37,6 +37,8 @@ Initializes a new instance of the [AesEncryptionSettings](../../com.aspose.zip/a
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |

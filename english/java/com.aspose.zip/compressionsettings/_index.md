@@ -3,7 +3,7 @@ title: CompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings needed for compressor or decompressor to work.
 type: docs
-weight: 34
+weight: 39
 url: /java/com.aspose.zip/compressionsettings/
 ---
 
