@@ -3,7 +3,7 @@ title: WimFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within wim archive.
 type: docs
-weight: 110
+weight: 116
 url: /java/com.aspose.zip/wimfileentry/
 ---
 

@@ -51,7 +51,6 @@ public final void extract(OutputStream destination)
 
 Extracts the entry to the stream provided.
 
-
 Extract an entry of zip archive with password.
 
 ```
@@ -64,6 +63,8 @@ Extract an entry of zip archive with password.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -78,7 +79,6 @@ public final void extract(OutputStream destination, String password)
 
 Extracts the entry to the stream provided.
 
-
 Extract an entry of zip archive with password.
 
 ```
@@ -91,6 +91,8 @@ Extract an entry of zip archive with password.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,6 +122,8 @@ Extract two entries of ZIP archive, each with own password
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -148,6 +152,8 @@ Extract two entries of ZIP archive, each with own password
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

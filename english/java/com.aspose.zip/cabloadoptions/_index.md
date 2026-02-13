@@ -3,7 +3,7 @@ title: CabLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 30
+weight: 32
 url: /java/com.aspose.zip/cabloadoptions/
 ---
 

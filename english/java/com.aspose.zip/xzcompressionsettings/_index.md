@@ -3,7 +3,7 @@ title: XzCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Xz compression within a ZIP archive.
 type: docs
-weight: 126
+weight: 132
 url: /java/com.aspose.zip/xzcompressionsettings/
 ---
 

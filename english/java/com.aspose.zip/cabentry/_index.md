@@ -3,7 +3,7 @@ title: CabEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within cab archive.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.aspose.zip/cabentry/
 ---
 
@@ -36,7 +36,7 @@ public final void extract(OutputStream destination)
 
 Extracts the entry to the stream provided.
 
-Extract an entry of cab archive.
+Extract an entry of CAB archive.
 
 ```
 

@@ -3,7 +3,7 @@ title: LzipLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 63
+weight: 68
 url: /java/com.aspose.zip/lziploadoptions/
 ---
 

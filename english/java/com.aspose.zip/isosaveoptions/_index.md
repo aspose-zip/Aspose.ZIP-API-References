@@ -3,7 +3,7 @@ title: IsoSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving an ISO archive.
 type: docs
-weight: 52
+weight: 57
 url: /java/com.aspose.zip/isosaveoptions/
 ---
 

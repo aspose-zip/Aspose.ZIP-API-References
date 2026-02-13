@@ -3,7 +3,7 @@ title: LzmaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZMA archive file.
 type: docs
-weight: 64
+weight: 69
 url: /java/com.aspose.zip/lzmaarchive/
 ---
 

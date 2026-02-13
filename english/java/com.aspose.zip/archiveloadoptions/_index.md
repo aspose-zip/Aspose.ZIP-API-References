@@ -73,6 +73,8 @@ You can provide decryption password once on archive extraction.
  
 ```
 
+
+
 **Returns:**
 java.lang.String - the password to decrypt entries
 ### getEncoding() {#getEncoding--}
@@ -98,6 +100,8 @@ Entry name composed using specified encoding regardless of zip file properties.
     }
  
 ```
+
+
 
 **Returns:**
 java.nio.charset.Charset - the encoding for entries' names
@@ -162,6 +166,8 @@ Gets an event that is raised when an entry listed within table of content.
     Archive archive = new Archive("archive.zip", options);
  
 ```
+
+
 
 **Returns:**
 [Event](../../com.aspose.zip/event) - an event that is raised when an entry listed within table of content
@@ -242,6 +248,8 @@ You can provide decryption password once on archive extraction.
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -270,6 +278,8 @@ Entry name composed using specified encoding regardless of zip file properties.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,6 +350,8 @@ Sets an event that is raised when an entry listed within table of content.
     Archive archive = new Archive("archive.zip", options);
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |

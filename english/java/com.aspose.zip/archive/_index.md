@@ -86,6 +86,8 @@ The following example shows how to compress a single file with default settings.
  
 ```
 
+
+
 ### Archive(ArchiveEntrySettings newEntrySettings) {#Archive-com.aspose.zip.ArchiveEntrySettings-}
 ```
 public Archive(ArchiveEntrySettings newEntrySettings)
@@ -108,6 +110,8 @@ The following example shows how to compress a single file with default settings.
      }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,6 +350,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -373,6 +379,8 @@ This sample extract to a directory an archive of three segments.
      }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,6 +419,8 @@ Add to the archive all files and directories recursively in the directory given.
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -435,6 +445,8 @@ Add to the archive all files and directories recursively in the directory given.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -461,6 +473,8 @@ Add to the archive all files and directories recursively in the directory given.
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -484,6 +498,8 @@ Add to the archive all files and directories recursively in the directory given.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,6 +647,8 @@ Creates a single entry within the archive.
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -658,6 +676,8 @@ Creates a single entry within the archive.
      }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -899,6 +919,8 @@ Here is how you can remove all entries except the last one:
  
 ```
 
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -922,6 +944,8 @@ Removes the entry from the entry list by index.
     }
  
 ```
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1120,7 +1144,7 @@ Saves multi-volume archive to the destination directory provided.
 
 This method composes several (n) files filename.z01, filename.z02, ..., filename.z(n-1), filename.zip.
 
-Can not make existing archive multi-volume.
+Cannot make existing archive multi-volume.
 
 **Parameters:**
 | Parameter | Type | Description |
