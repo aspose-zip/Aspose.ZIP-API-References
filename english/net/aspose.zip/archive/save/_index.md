@@ -3,7 +3,7 @@ title: Archive.Save
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive method. Saves archive to the stream provided
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.zip/archive/save/
 ---
 ## Save(Stream, ArchiveSaveOptions) {#save}

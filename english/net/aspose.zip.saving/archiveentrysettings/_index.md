@@ -24,6 +24,7 @@ public class ArchiveEntrySettings
 
 | Name | Description |
 | --- | --- |
+| [Comment](../../aspose.zip.saving/archiveentrysettings/comment/) { get; set; } | Comment for the entry within ZIP archive. |
 | [CompressionSettings](../../aspose.zip.saving/archiveentrysettings/compressionsettings/) { get; } | Gets settings for compression or decompression routine. |
 | [EncryptionSettings](../../aspose.zip.saving/archiveentrysettings/encryptionsettings/) { get; } | Gets settings for encryption or decryption. Settings of particular entry may vary. |
 

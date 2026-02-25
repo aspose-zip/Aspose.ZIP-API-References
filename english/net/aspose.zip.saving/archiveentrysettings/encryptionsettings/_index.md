@@ -3,7 +3,7 @@ title: ArchiveEntrySettings.EncryptionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveEntrySettings property. Gets settings for encryption or decryption. Settings of particular entry may vary
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.saving/archiveentrysettings/encryptionsettings/
 ---
 ## ArchiveEntrySettings.EncryptionSettings property

@@ -3,7 +3,7 @@ title: Archive.NewEntrySettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive property. Compression and encryption settings used for newly added ArchiveEntry items
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip/archive/newentrysettings/
 ---
 ## Archive.NewEntrySettings property
@@ -18,6 +18,7 @@ public ArchiveEntrySettings NewEntrySettings { get; }
 
 | exception | condition |
 | --- | --- |
+| InvalidOperationException | The archive is opened from read-only stream. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also

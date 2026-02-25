@@ -14,6 +14,10 @@ Initializes a new instance of the [`CabArchive`](../) class prepared for compres
 public CabArchive(CabEntrySettings settings = null)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| settings | CabEntrySettings | Compression and encryption settings used for newly added [`CabEntry`](../../cabentry/) items. If not specified, the MSZIP compression would be used. |
+
 ## Examples
 
 The following example shows how to compress a file.

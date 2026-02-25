@@ -3,7 +3,7 @@ title: Archive.ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive method. Extracts all the files in the archive to the directory provided
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip/archive/extracttodirectory/
 ---
 ## Archive.ExtractToDirectory method

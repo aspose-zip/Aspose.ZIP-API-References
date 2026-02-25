@@ -3,7 +3,7 @@ title: ArchiveEntrySettings.CompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: ArchiveEntrySettings property. Gets settings for compression or decompression routine
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.saving/archiveentrysettings/compressionsettings/
 ---
 ## ArchiveEntrySettings.CompressionSettings property
