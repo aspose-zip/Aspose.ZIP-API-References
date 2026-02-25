@@ -3,7 +3,7 @@ title: Archive.CreateEntries
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive method. Add to the archive all files and directories recursively in the directory given
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip/archive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}

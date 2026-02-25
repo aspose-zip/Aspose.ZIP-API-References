@@ -3,7 +3,7 @@ title: Archive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip/archive/dispose/
 ---
 ## Archive.Dispose method

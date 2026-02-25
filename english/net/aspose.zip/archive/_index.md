@@ -27,6 +27,7 @@ public class Archive : IArchive
 
 | Name | Description |
 | --- | --- |
+| [Comment](../../aspose.zip/archive/comment/) { get; } | Gets comment for the whole archive. |
 | [Entries](../../aspose.zip/archive/entries/) { get; } | Gets entries of [`ArchiveEntry`](../archiveentry/) type constituting the archive. |
 | [NewEntrySettings](../../aspose.zip/archive/newentrysettings/) { get; } | Compression and encryption settings used for newly added [`ArchiveEntry`](../archiveentry/) items. |
 
