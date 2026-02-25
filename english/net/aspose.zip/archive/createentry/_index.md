@@ -3,7 +3,7 @@ title: Archive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive method. Create a single entry within the archive
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip/archive/createentry/
 ---
 ## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_4}
@@ -247,7 +247,7 @@ Zip entry instance.
 
 ## Remarks
 
-This method is for .NET Framework 4.0 and above and for .NET Standard 2.0 version.
+This method is for .NET Framework 4.0 and above and for .NET Standard 2.0 and above version.
 
 ## Examples
 

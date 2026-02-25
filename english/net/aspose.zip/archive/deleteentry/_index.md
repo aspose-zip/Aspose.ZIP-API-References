@@ -3,7 +3,7 @@ title: Archive.DeleteEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive method. Removes the first occurrence of the specific entry from the entry list
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip/archive/deleteentry/
 ---
 ## DeleteEntry(ArchiveEntry) {#deleteentry}

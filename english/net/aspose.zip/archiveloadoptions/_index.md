@@ -29,6 +29,7 @@ public class ArchiveLoadOptions
 | [Encoding](../../aspose.zip/archiveloadoptions/encoding/) { get; set; } | Gets or sets the encoding for entries' names. |
 | [EntryExtractionProgressed](../../aspose.zip/archiveloadoptions/entryextractionprogressed/) { get; set; } | Gets or sets the delegate invoked when some bytes have been extracted. |
 | [EntryListed](../../aspose.zip/archiveloadoptions/entrylisted/) { get; set; } | Gets or sets the delegate invoked when an entry listed within table of content. |
+| [ForwardOnly](../../aspose.zip/archiveloadoptions/forwardonly/) { get; set; } | Archive is extracted from read-only stream. |
 | [SkipChecksumVerification](../../aspose.zip/archiveloadoptions/skipchecksumverification/) { get; set; } | Get or set a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. Default is false. |
 
 ### See Also

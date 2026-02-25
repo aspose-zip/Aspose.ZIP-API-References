@@ -3,7 +3,7 @@ title: Archive.SaveSplit
 second_title: Aspose.ZIP for .NET API Reference
 description: Archive method. Saves multivolume archive to destination directory provided
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.zip/archive/savesplit/
 ---
 ## Archive.SaveSplit method
