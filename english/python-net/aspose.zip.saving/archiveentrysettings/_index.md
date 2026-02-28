@@ -21,6 +21,7 @@ The ArchiveEntrySettings type exposes the following members:
 | :- | :- |
 |compression_settings|Gets settings for compression or decompression routine.|
 |encryption_settings|Gets settings for encryption or decryption. Settings of particular entry may vary.|
+|comment|Comment for the entry within ZIP archive.|
 
 ### See Also
 

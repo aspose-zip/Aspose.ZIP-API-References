@@ -22,6 +22,7 @@ The ArchiveLoadOptions type exposes the following members:
 |decryption_password|Gets or sets the password to decrypt entries.|
 |encoding|Gets or sets the encoding for entries' names.|
 |skip_checksum_verification|Get or set a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. Default is false.|
+|forward_only|Archive is extracted from read-only stream.|
 
 ### See Also
 
