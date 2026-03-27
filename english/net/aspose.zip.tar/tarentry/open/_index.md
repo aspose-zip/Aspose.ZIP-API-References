@@ -18,6 +18,13 @@ public Stream Open()
 
 The stream that represents the contents of the entry.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| IOException | An I/O error occurs. |
+
 ## Remarks
 
 Read from the stream to get the original content of a file. See examples section.

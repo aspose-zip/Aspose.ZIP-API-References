@@ -14,6 +14,12 @@ Clears all buffers for this stream and causes any buffered data to be written to
 public override void Flush()
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| IOException | An I/O error occurs. |
+
 ### See Also
 
 * class [FastLZStream](../)

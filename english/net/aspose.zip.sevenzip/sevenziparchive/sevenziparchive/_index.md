@@ -62,6 +62,8 @@ public SevenZipArchive(Stream sourceStream, string password = null)
 | ArgumentException | *sourceStream* is not seekable. |
 | ArgumentNullException | *sourceStream* is null. |
 | NotImplementedException | The archive contains more than one coder. Now only LZMA compression supported. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 
@@ -110,6 +112,7 @@ public SevenZipArchive(string path, string password = null)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 
@@ -152,6 +155,9 @@ public SevenZipArchive(Stream sourceStream, SevenZipLoadOptions options)
 | ArgumentException | *sourceStream* is not seekable. |
 | ArgumentNullException | *sourceStream* is null. |
 | NotImplementedException | The archive contains more than one coder. Now only LZMA compression supported. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| IOException | An I/O error occurs. |
 
 ## Remarks
 
@@ -208,6 +214,7 @@ public SevenZipArchive(string path, SevenZipLoadOptions options)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 
@@ -262,6 +269,10 @@ public SevenZipArchive(string[] parts, string password = null)
 | UnauthorizedAccessException | Access to a file is denied. |
 | PathTooLongException | The specified path to a part, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at a path contains a colon (:) in the middle of the string. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
+| IOException | The file is already open. |
 
 ## Examples
 

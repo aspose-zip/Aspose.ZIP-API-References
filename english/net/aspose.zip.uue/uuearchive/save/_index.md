@@ -79,6 +79,7 @@ public void Save(string destinationFileName, UueSaveOptions saveOptions = null)
 | UnauthorizedAccessException | Access to file *destinationFileName* is denied. |
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
+| InvalidOperationException | The source of data to be archived has not been provided. |
 
 ## Examples
 

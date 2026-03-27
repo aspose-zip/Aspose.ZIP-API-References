@@ -26,6 +26,9 @@ public void Save(string destinationFileName, XarSaveOptions saveOptions = null)
 | ArgumentNullException | *destinationFileName* is null. |
 | InvalidOperationException | Impossible to modify xar archive. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| IOException | An I/O error occurred while opening the file. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | *destinationFileName* specified a file that is read-only. -or- *destinationFileName* specified a directory. -or- The caller does not have the required permission. |
 
 ### See Also
 

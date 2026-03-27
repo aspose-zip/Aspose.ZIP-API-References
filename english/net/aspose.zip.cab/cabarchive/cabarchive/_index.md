@@ -71,6 +71,9 @@ public CabArchive(Stream sourceStream, CabLoadOptions loadOptions = null)
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | *sourceStream* is not valid CAB archive. |
 | EndOfStreamException | The stream is too short. |
+| ObjectDisposedException | Thrown when the stream has been disposed. |
+| IOException | An I/O error occurs. |
+| NotSupportedException | The stream does not support seeking, such as if the stream is constructed from a pipe or console output. |
 
 ## Remarks
 
@@ -124,6 +127,7 @@ public CabArchive(string path, CabLoadOptions loadOptions = null)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | EndOfStreamException | The file is too short. |
+| InvalidDataException | The CAB magic number is invalid or header size doesn't match. |
 
 ## Remarks
 

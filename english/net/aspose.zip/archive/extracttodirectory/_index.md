@@ -30,6 +30,7 @@ public void ExtractToDirectory(string destinationDirectory)
 | IOException | The directory specified by path is a file. -or- The network name is not known. |
 | InvalidDataException | Wrong password has been supplied. - or - Archive is corrupted. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| EndOfStreamException | The stream does not contain enough bytes to read the requested data. |
 
 ## Remarks
 

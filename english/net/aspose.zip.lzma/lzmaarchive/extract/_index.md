@@ -123,6 +123,7 @@ public void Extract(string path)
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | InvalidDataException | The archive is corrupted. |
+| FileNotFoundException | The file is not found. |
 
 ## Examples
 

@@ -72,6 +72,7 @@ Info of the extracted file.
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
 
 ### See Also
 

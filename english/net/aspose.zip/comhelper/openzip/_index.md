@@ -22,6 +22,12 @@ public Archive OpenZip(Stream stream)
 
 A [`Archive`](../../archive/) object that represents the archive.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+
 ### See Also
 
 * class [Archive](../../archive/)
@@ -46,6 +52,18 @@ public Archive OpenZip(string fileName)
 ### Return Value
 
 A [`Archive`](../../archive/) object that represents the archive.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ArgumentException | The file name is empty, contains only white spaces, or contains invalid characters. |
+| ArgumentNullException | *fileName* is `null`. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | Access to *fileName* is denied. |
 
 ### See Also
 

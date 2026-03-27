@@ -27,6 +27,7 @@ The stream that represents the contents of the entry.
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | The archive is in an incorrect state. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
 
 ## Remarks
 

@@ -46,6 +46,10 @@ public XzArchive(Stream source, XzLoadOptions options = null)
 | --- | --- |
 | ArgumentException | *source* is not seekable. |
 | ArgumentNullException | *source* is null. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| IOException | An I/O error occurs. |
+| InvalidDataException | The data is invalid or corrupted. |
 
 ## Remarks
 
@@ -86,6 +90,8 @@ public XzArchive(string path, XzLoadOptions options = null)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
 
 ## Remarks
 

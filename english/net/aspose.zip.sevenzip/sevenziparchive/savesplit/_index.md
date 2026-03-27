@@ -23,18 +23,16 @@ public void SaveSplit(string destinationDirectory, SplitSevenZipArchiveSaveOptio
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | This archive was opened from the existing source. |
 | ArgumentNullException | *destinationDirectory* is null. |
 | SecurityException | The caller does not have the required permission to access the directory. |
 | ArgumentException | *destinationDirectory* contains invalid characters such as ", &gt;, &lt;, or &#x7C;. |
 | PathTooLongException | The specified path exceeds the system-defined maximum length. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 
 This method composes several (`n`) files filename.7z.001, filename.7z.002, ..., filename.7z.(n).
-
-Cannot make existing archive multi-volume.
 
 ## Examples
 

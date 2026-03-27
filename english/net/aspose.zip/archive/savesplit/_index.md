@@ -30,6 +30,7 @@ public void SaveSplit(string destinationDirectory, SplitArchiveSaveOptions optio
 | ArgumentException | *destinationDirectory* contains invalid characters such as ", &gt;, &lt;, or &#x7C;. |
 | PathTooLongException | The specified path exceeds the system-defined maximum length. |
 | ObjectDisposedException | The archive is disposed. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 
 ## Remarks
 

@@ -79,6 +79,10 @@ public void SaveXzCompressed(string path, CpioFormat cpioFormat = CpioFormat.Old
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentNullException | *path* is `null`. |
+| IOException | An I/O error occurs. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
 
 ## Examples
 

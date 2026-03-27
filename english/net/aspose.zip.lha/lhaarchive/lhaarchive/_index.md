@@ -26,6 +26,8 @@ public LhaArchive(Stream sourceStream, LhaLoadOptions loadOptions = null)
 | ArgumentNullException | *sourceStream* is null |
 | ArgumentException | *sourceStream* is unseekable. |
 | InvalidDataException | Inappropriate data found. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown when the object has been disposed. |
 
 ## Remarks
 
@@ -67,6 +69,8 @@ public LhaArchive(string path, LhaLoadOptions loadOptions = null)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | InvalidDataException | The file is corrupted. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown when the object has been disposed. |
 
 ## Remarks
 

@@ -23,6 +23,12 @@ public override long Seek(long offset, SeekOrigin origin)
 
 The new position within the current stream.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotSupportedException | The operation is not supported. |
+
 ### See Also
 
 * class [FastLZStream](../)

@@ -53,6 +53,8 @@ public Bzip2Archive(Stream sourceStream, Bzip2LoadOptions loadOptions = null)
 | --- | --- |
 | EndOfStreamException | Premature stream end. |
 | InvalidDataException | Wrong signature bytes. |
+| IOException | An I/O error occurs. |
+| ArgumentNullException | *sourceStream* is null. |
 
 ## Remarks
 

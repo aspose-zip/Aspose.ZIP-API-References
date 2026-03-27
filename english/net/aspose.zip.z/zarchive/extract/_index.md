@@ -124,6 +124,8 @@ Info of an extracted file.
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | InvalidDataException | Data cannot be decompressed. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
 
 ## Examples
 

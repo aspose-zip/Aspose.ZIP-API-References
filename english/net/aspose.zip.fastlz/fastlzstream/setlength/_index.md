@@ -18,6 +18,12 @@ public override void SetLength(long value)
 | --- | --- | --- |
 | value | Int64 | The desired length of the current stream in bytes. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotSupportedException | The operation is not supported. |
+
 ### See Also
 
 * class [FastLZStream](../)

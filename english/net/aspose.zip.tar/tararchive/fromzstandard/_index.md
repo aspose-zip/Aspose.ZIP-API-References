@@ -30,6 +30,8 @@ An instance of [`TarArchive`](../)
 | --- | --- |
 | IOException | Zstandard stream is corrupted or not readable. |
 | InvalidDataException | Data is corrupted. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ### See Also
 
@@ -70,6 +72,7 @@ An instance of [`TarArchive`](../)
 | FileNotFoundException | The file is not found. |
 | IOException | Zstandard stream is corrupted or not readable. |
 | InvalidDataException | Data is corrupted. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ### See Also
 

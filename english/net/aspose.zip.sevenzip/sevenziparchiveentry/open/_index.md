@@ -28,6 +28,7 @@ The stream that represents the contents of the entry.
 | --- | --- |
 | InvalidOperationException | The archive is not opened for extraction. - or - This entry is a directory. |
 | InvalidDataException | Wrong data within the entry. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 

@@ -30,6 +30,7 @@ public void ExtractToDirectory(string destinationDirectory)
 | IOException | The directory specified by path is a file. -or- The network name is not known. |
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 

@@ -77,6 +77,7 @@ public void Save(Stream stream, IsoSaveOptions saveOptions = null)
 | ArgumentNullException | Thrown when the *stream* is null. |
 | ArgumentException | Thrown when the *stream* is not writable. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| IOException | An I/O error occurs. |
 
 ## Examples
 

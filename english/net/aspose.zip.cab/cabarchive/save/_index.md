@@ -23,7 +23,7 @@ public void Save(Stream outputStream, CabSaveOptions saveOptions = null)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *outputStream* is not writable. |
+| ArgumentException | *outputStream* is not writable and seekable. |
 | ObjectDisposedException | The archive is disposed. |
 | InvalidOperationException | The archive is prepared for extraction and cannot be saved. |
 

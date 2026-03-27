@@ -47,6 +47,9 @@ public LzipArchive(Stream sourceStream, LzipLoadOptions options = null)
 | ArgumentException | *sourceStream* is not seekable. |
 | ArgumentNullException | *sourceStream* is null. |
 | InvalidDataException | Headers do not match lzip type of archive. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| IOException | An I/O error occurs. |
 
 ## Remarks
 
@@ -88,6 +91,7 @@ public LzipArchive(string path, LzipLoadOptions options = null)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | InvalidDataException | Headers do not match lzip type of archive. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 
