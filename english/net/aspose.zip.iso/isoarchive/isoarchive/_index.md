@@ -58,6 +58,10 @@ public IsoArchive(Stream sourceStream, IsoLoadOptions loadOptions = null)
 | ArgumentNullException | *sourceStream* is null. |
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | *sourceStream* is not a valid ISO archive. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| EndOfStreamException | Thrown when the end of the stream is reached unexpectedly. |
+| IOException | An I/O error occurs. |
+| NotSupportedException | The stream does not support reading. |
 
 ## Remarks
 
@@ -110,6 +114,7 @@ public IsoArchive(string path, IsoLoadOptions loadOptions = null)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | EndOfStreamException | The file is too short. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
 
 ## Remarks
 

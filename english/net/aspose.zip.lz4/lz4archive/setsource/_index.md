@@ -100,6 +100,7 @@ public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | This archive is prepared for extraction. |
 
 ## Remarks
 

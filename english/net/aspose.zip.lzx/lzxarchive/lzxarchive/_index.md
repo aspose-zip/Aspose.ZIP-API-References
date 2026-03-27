@@ -28,6 +28,8 @@ public LzxArchive(Stream extractionSource, LzxLoadOptions loadOptions = null)
 | InvalidDataException | Wrong signature for archive. - or - The file is not a LZX archive. |
 | NotImplementedException | Lzx archive contains merged entries. |
 | EndOfStreamException | The *extractionSource* stream is too short. |
+| ObjectDisposedException | Thrown if the stream has been closed. |
+| IOException | An I/O error occurs. |
 
 ## Remarks
 
@@ -71,6 +73,7 @@ public LzxArchive(string path, LzxLoadOptions loadOptions = null)
 | InvalidDataException | The file is corrupted. |
 | NotImplementedException | Lzx archive contains merged entries. |
 | EndOfStreamException | The file is too short. |
+| ObjectDisposedException | Thrown if the stream has been closed. |
 
 ## Remarks
 

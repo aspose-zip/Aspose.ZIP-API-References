@@ -22,6 +22,12 @@ public RarArchive OpenRar(Stream stream)
 
 A [`RarArchive`](../../../aspose.zip.rar/rararchive/) object that represents the archive.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
+
 ### See Also
 
 * class [RarArchive](../../../aspose.zip.rar/rararchive/)
@@ -46,6 +52,19 @@ public RarArchive OpenRar(string fileName)
 ### Return Value
 
 A [`RarArchive`](../../../aspose.zip.rar/rararchive/) object that represents the archive.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | The file name is empty, contains only white spaces, or contains invalid characters. |
+| ArgumentNullException | *fileName* is `null`. |
+| Exception | Thrown when a runtime error occurs. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | Access to *fileName* is denied. |
 
 ### See Also
 

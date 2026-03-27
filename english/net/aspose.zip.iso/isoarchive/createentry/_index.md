@@ -34,6 +34,9 @@ The ISO entry composed.
 | NotSupportedException | File at *filePath* contains a colon (:) in the middle of the string. |
 | IOException | An I/O error occurred while opening the file. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| FileNotFoundException | The file specified in *filePath* was not found. |
+| InvalidOperationException | The archive is not in editing mode. |
 
 ### See Also
 
@@ -66,6 +69,8 @@ The ISO entry composed.
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentNullException | Thrown when an *name* or *source* is null. |
+| InvalidOperationException | The archive is not in editing mode. |
 
 ### See Also
 

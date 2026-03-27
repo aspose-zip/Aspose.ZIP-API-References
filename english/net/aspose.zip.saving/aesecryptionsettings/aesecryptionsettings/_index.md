@@ -56,6 +56,12 @@ public AesEcryptionSettings(EncryptionMethod method)
 | --- | --- | --- |
 | method | EncryptionMethod | Algorithm option indicating block size of cipher. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotSupportedException | *method* is not one of AES128, AES192, or AES256. |
+
 ### See Also
 
 * enum [EncryptionMethod](../../encryptionmethod/)

@@ -32,6 +32,7 @@ public void ExtractToDirectory(string destinationDirectory)
 | InvalidDataException | Wrong password has been supplied. - or - Archive is corrupted. |
 | NotSupportedException | Invalid compression method. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| EndOfStreamException | Thrown when the end of the stream is reached unexpectedly. |
 
 ## Remarks
 

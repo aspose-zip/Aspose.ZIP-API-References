@@ -22,6 +22,13 @@ public Bzip2Archive OpenBzip2(Stream stream)
 
 A [`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive/) object that represents the archive.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| InvalidDataException | Wrong signature bytes. |
+
 ### See Also
 
 * class [Bzip2Archive](../../../aspose.zip.bzip2/bzip2archive/)
@@ -46,6 +53,19 @@ public Bzip2Archive OpenBzip2(string fileName)
 ### Return Value
 
 A [`Bzip2Archive`](../../../aspose.zip.bzip2/bzip2archive/) object that represents the archive.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ArgumentException | The file name is empty, contains only white spaces, or contains invalid characters. |
+| ArgumentNullException | *fileName* is `null`. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
+| InvalidDataException | Wrong signature bytes. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | Access to *fileName* is denied. |
 
 ### See Also
 

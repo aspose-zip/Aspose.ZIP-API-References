@@ -33,6 +33,8 @@ Information about archive instance or null if format was not detected.
 | PathTooLongException | The specified *fileName* exceeds the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *fileName* contains a colon (:) in the middle of the string. |
 | IOException | An I/O error occurred while opening the file. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| FileNotFoundException | The file specified was not found. |
 
 ### See Also
 

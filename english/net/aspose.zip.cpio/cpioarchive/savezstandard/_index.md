@@ -74,6 +74,12 @@ public void SaveZstandard(string path, CpioFormat cpioFormat = CpioFormat.OldAsc
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentException | *path* is a zero-length string, contains only white space, or contains one or more invalid characters as defined by InvalidPathChars. |
+| ArgumentNullException | *path* is `null`. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| IOException | An I/O error occurs. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | The caller does not have the required permission. -or- *path* specified a read-only file or directory. |
 
 ## Examples
 

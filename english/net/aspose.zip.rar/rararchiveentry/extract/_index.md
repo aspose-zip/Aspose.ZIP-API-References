@@ -38,6 +38,7 @@ The file info of the composed file.
 | IOException | The file is already open. |
 | InvalidDataException | Data is corrupted. -or- CRC or MAC verification failed for the entry. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 
@@ -83,6 +84,7 @@ public void Extract(Stream destination, string password = null)
 | ArgumentException | *destination* does not support writing. |
 | InvalidDataException | Data is corrupted. -or- CRC or MAC verification failed for the entry. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 

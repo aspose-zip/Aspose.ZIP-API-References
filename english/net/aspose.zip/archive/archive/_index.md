@@ -61,8 +61,10 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *sourceStream* is not seekable. |
+| ArgumentException | *sourceStream* is not seekable, when loaded without [`ForwardOnly`](../../archiveloadoptions/forwardonly/) set. |
 | InvalidDataException | Encryption header for AES contradicts WinZip compression method. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| NotSupportedException | Thrown when archive is loaded from read-only stream in evaluation mode. |
 
 ## Remarks
 
@@ -126,6 +128,7 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | InvalidDataException | The file is corrupted. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 
@@ -178,6 +181,11 @@ public Archive(string mainSegment, string[] segmentsInOrder, ArchiveLoadOptions 
 | exception | condition |
 | --- | --- |
 | EndOfStreamException | Cannot load ZIP headers because provided files are corrupted. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| FileNotFoundException | The file specified in path was not found. |
+| IOException | An I/O error occurred while opening the file. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | Path specified a directory. -or- The caller does not have the required permission. |
 
 ## Examples
 

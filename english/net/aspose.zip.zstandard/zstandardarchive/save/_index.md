@@ -76,6 +76,10 @@ public void Save(string destinationFileName, ZstandardSaveOptions settings = nul
 | UnauthorizedAccessException | Access to file *destinationFileName* is denied. |
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
+| Exception | Thrown when a runtime error occurs. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| IOException | An I/O error occurred while opening the file. |
+| InvalidOperationException | Source has not been supplied. |
 
 ## Examples
 
@@ -121,6 +125,7 @@ public void Save(FileInfo destination, ZstandardSaveOptions settings = null)
 | ArgumentNullException | *destination* is null. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| InvalidOperationException | Source has not been supplied. |
 
 ## Examples
 

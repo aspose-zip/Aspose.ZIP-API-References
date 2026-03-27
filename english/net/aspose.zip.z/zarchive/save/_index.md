@@ -77,6 +77,7 @@ public void Save(string destinationFileName, ZArchiveSaveOptions settings = null
 | UnauthorizedAccessException | Access to file *destinationFileName* is denied. |
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
+| IOException | An I/O error occurred while opening the file. |
 
 ## Examples
 

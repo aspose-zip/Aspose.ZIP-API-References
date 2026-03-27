@@ -28,6 +28,7 @@ Shar entry instance.
 | --- | --- |
 | ArgumentNullException | *entry* is null. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | This archive is opened for extraction. |
 
 ## Examples
 
@@ -73,6 +74,7 @@ The archive with the entry deleted.
 | --- | --- |
 | ArgumentOutOfRangeException | *entryIndex* is less than 0.-or- *entryIndex* is equal to or greater than `Entries` count. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | This archive is opened for extraction. |
 
 ## Examples
 

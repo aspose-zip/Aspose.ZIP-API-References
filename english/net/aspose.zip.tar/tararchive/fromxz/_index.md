@@ -24,6 +24,17 @@ public static TarArchive FromXz(Stream source)
 
 An instance of [`TarArchive`](../)
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| ArgumentNullException | *source* is null. |
+| IOException | An I/O error occurs. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
+| InvalidOperationException | Archive headers and service information were not read. |
+
 ## Remarks
 
 Tar archive provides facility to extract arbitrary record, so it has to operate seekable stream under the hood.
@@ -65,6 +76,8 @@ An instance of [`TarArchive`](../)
 | NotSupportedException | File at *path* is in an invalid format. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | FileNotFoundException | The file is not found. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| IOException | An I/O error occurred while opening the file. |
 
 ## Remarks
 

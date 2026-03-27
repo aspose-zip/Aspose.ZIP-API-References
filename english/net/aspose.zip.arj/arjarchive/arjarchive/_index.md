@@ -26,6 +26,7 @@ public ArjArchive(Stream extractionSource, ArjLoadOptions loadOptions = null)
 | ArgumentNullException | *extractionSource* is null. |
 | ArgumentException | &gt;*extractionSource* does not support seeking. |
 | InvalidDataException | Wrong signature for archive. - or - The file is not an ARJ archive. |
+| EndOfStreamException | Thrown when the end of the stream is reached before all header bytes or name bytes have been read. |
 | NotSupportedException | The archive is garbled. |
 
 ## Remarks
@@ -67,6 +68,8 @@ public ArjArchive(string path, ArjLoadOptions loadOptions = null)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| EndOfStreamException | Thrown when the end of the stream is reached before all header bytes or name bytes have been read. |
+| InvalidDataException | The ARJ magic number is invalid or the header size is out of range. |
 
 ## Remarks
 

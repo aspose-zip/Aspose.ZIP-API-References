@@ -24,6 +24,7 @@ public void SaveLZMACompressed(Stream output, CpioFormat cpioFormat = CpioFormat
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| NotSupportedException | The stream does not support writing, or the stream is already closed. |
 
 ## Remarks
 
@@ -74,6 +75,12 @@ public void SaveLZMACompressed(string path, CpioFormat cpioFormat = CpioFormat.O
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentNullException | *path* is `null`. |
+| Exception | Thrown when a runtime error occurs. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| IOException | An I/O error occurs. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | The caller does not have the required permission. -or- *path* specified a read-only file or directory. |
 
 ## Remarks
 

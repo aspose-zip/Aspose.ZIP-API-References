@@ -29,6 +29,8 @@ The archive with entries composed.
 | --- | --- |
 | DirectoryNotFoundException | The path to *directory* is invalid, such as being on an unmapped drive. |
 | SecurityException | The caller does not have the required permission to access *directory*. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| ArgumentNullException | *directory* is `null`. |
 
 ## Examples
 
@@ -65,6 +67,15 @@ public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory =
 ### Return Value
 
 The archive with entries composed.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| ArgumentException | *sourceDirectory* contains invalid characters such as ", &lt;, &gt;, or &#x7C;. |
+| ArgumentNullException | *sourceDirectory* is `null`. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
 
 ## Examples
 

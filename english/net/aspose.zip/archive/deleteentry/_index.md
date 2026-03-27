@@ -27,6 +27,7 @@ The archive with the entry deleted.
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | The archive is disposed. |
+| InvalidOperationException | Thrown when the entry deletion is not valid due to the current state of the archive. |
 
 ## Examples
 
@@ -72,6 +73,7 @@ The archive with the entry deleted.
 | --- | --- |
 | ObjectDisposedException | Archive is disposed. |
 | ArgumentOutOfRangeException | *entryIndex* is less than 0.-or- *entryIndex* is equal to or greater than `Entries` count. |
+| InvalidOperationException | Thrown when the entry deletion is not valid due to the current state of the archive. |
 
 ## Examples
 

@@ -18,7 +18,7 @@ public ReadOnlyCollection<ArchiveEntry> Entries { get; }
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | The archive is opened from read-only stream. |
+| InvalidOperationException | The archive is opened from raed only stream. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
 
 ### See Also

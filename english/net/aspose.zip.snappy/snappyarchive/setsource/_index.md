@@ -109,6 +109,8 @@ public void SetSource(string sourcePath)
 | PathTooLongException | The specified *sourcePath*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *sourcePath* contains a colon (:) in the middle of the string. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
 
 ## Examples
 

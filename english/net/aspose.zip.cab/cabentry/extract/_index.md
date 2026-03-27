@@ -39,6 +39,7 @@ The file info of a composed file.
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 | InvalidOperationException | The entry belongs to an archive prepared for composition. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 
@@ -78,6 +79,7 @@ public void Extract(Stream destination)
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 | InvalidOperationException | The entry belongs to an archive prepared for composition. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 

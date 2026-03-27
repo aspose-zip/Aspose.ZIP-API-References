@@ -28,6 +28,7 @@ public static void CompressDirectory(string path, string outputFileName,
 | DirectoryNotFoundException | Thrown if the directory specified by *path* does not exist. |
 | ArgumentException | Thrown if *path* is null or an empty string. |
 | NotSupportedException | Thrown if the specified *archiveFormat* is not supported or recognized. |
+| ArgumentNullException | *path* is `null`. |
 
 ## Remarks
 

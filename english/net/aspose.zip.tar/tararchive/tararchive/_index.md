@@ -52,6 +52,8 @@ public TarArchive(Stream sourceStream)
 | --- | --- |
 | ArgumentException | *sourceStream* is not seekable. |
 | ArgumentNullException | *sourceStream* is null. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 
@@ -101,6 +103,7 @@ public TarArchive(string path)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 

@@ -35,6 +35,7 @@ FileInfo instance containing extracted data.
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| InvalidOperationException | Archive headers and service information were not read. |
 
 ### See Also
 

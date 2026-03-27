@@ -121,6 +121,9 @@ public void Save(string destinationFileName)
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
 | InvalidOperationException | The archive is prepared for extraction. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| FileNotFoundException | The file specified in *destinationFileName* was not found. |
+| IOException | An I/O error occurred while opening the file. |
 
 ## Examples
 

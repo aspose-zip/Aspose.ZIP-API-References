@@ -117,6 +117,8 @@ public void Save(string destinationFileName)
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| FileNotFoundException | The file specified was not found. |
+| IOException | An I/O error occurred while opening the file. |
 
 ## Examples
 

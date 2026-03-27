@@ -31,6 +31,7 @@ Cpio entry instance.
 | ArgumentNullException | *name* is null. |
 | ArgumentException | *name* is empty. |
 | ArgumentNullException | *fileInfo* is null. |
+| ObjectDisposedException | Thrown when the archive has been disposed. |
 
 ## Remarks
 

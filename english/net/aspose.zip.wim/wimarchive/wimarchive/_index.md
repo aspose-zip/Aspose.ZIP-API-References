@@ -26,6 +26,9 @@ public WimArchive(Stream sourceStream, WimLoadOptions loadOptions = null)
 | ArgumentNullException | *sourceStream* is null. |
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | *sourceStream* is not valid wim archive. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| NotSupportedException | Header indicates multipart archive. |
 
 ## Remarks
 
@@ -77,6 +80,8 @@ public WimArchive(string path, WimLoadOptions loadOptions = null)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| InvalidDataException | Header indicates multipart archive. |
 
 ## Remarks
 

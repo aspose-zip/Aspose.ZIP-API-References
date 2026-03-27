@@ -22,6 +22,17 @@ public static IArchive GetArchive(string path)
 
 An [`IArchive`](../../iarchive/) object representing the archive.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *path* is `null`. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| FileNotFoundException | The file specified in *path* was not found. |
+| IOException | An I/O error occurred while opening the file. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | *path* specified a directory. -or- The caller does not have the required permission. |
+
 ### See Also
 
 * interface [IArchive](../../iarchive/)
@@ -46,6 +57,13 @@ public static IArchive GetArchive(Stream stream)
 ### Return Value
 
 An [`IArchive`](../../iarchive/) object representing the archive.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *stream* is not seekable. |
+| ArgumentNullException | *stream* is null. |
 
 ### See Also
 
@@ -72,6 +90,13 @@ public static IArchive GetArchive(Stream stream, string password)
 ### Return Value
 
 An [`IArchive`](../../iarchive/) object representing the archive.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *stream* is not seekable. |
+| ArgumentNullException | *stream* is null. |
 
 ### See Also
 
