@@ -46,6 +46,12 @@ public LzmaCompressionSettings(int dictionarySize, int numberOfFastBytes, int li
 | numberOfFastBytes | Int32 | The number of bytes used for fast match searching in the LZMA algorithm. Can be in the range from 5 to 273. |
 | literalContextBits | Int32 | Sets the number of literal context bits (high bits of previous literal). It can be in range from 0 to 8. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Thrown when either of arguments is outside the allowable range of values. |
+
 ### See Also
 
 * class [LzmaCompressionSettings](../)

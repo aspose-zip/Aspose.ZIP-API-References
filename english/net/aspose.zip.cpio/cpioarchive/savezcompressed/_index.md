@@ -74,6 +74,10 @@ public void SaveZCompressed(string path, CpioFormat cpioFormat = CpioFormat.OldA
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentNullException | *path* is `null`. |
+| DirectoryNotFoundException | The specified path is invalid, (for example, it is on an unmapped drive). |
+| IOException | An I/O error occurs. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
 
 ## Examples
 

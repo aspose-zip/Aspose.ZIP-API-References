@@ -25,6 +25,7 @@ public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
 | --- | --- |
 | ArgumentException | *outputStream* is not writable. |
 | ObjectDisposedException | The archive is disposed. |
+| InvalidOperationException | Thrown when applied encryption to already encrypted entries. |
 
 ## Remarks
 
@@ -78,6 +79,8 @@ public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = nu
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| InvalidOperationException | Thrown when applied encryption to already encrypted entries. |
 
 ## Remarks
 

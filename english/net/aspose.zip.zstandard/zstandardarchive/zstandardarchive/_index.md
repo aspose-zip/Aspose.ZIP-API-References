@@ -47,6 +47,15 @@ public ZstandardArchive(Stream sourceStream, ZstandardLoadOptions options = null
 | sourceStream | Stream | The source of the archive. |
 | options | ZstandardLoadOptions | The options to load archive with. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| EndOfStreamException | Thrown when the end of the stream is reached unexpectedly. |
+| IOException | An I/O error occurs. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
+
 ## Remarks
 
 This constructor does not decompress. See [`Open`](../open/) method for decompressing.
@@ -93,6 +102,11 @@ public ZstandardArchive(string path, ZstandardLoadOptions options = null)
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| EndOfStreamException | Thrown when the end of the stream is reached unexpectedly. |
+| FileNotFoundException | The file is not found. |
+| IOException | The file is already open. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
 
 ## Remarks
 

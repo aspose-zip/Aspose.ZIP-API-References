@@ -85,6 +85,7 @@ Cab entry instance.
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | The archive is prepared for extraction and cannot add entries. |
+| ArgumentNullException | *name* is null. |
 
 ## Examples
 
@@ -148,6 +149,7 @@ CAB entry instance.
 | SecurityException | The caller does not have the required permission to access *fileInfo*. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
 | InvalidOperationException | The archive is prepared for extraction and cannot add entries. |
+| ArgumentNullException | *name* is null. |
 
 ## Remarks
 
@@ -197,7 +199,7 @@ CAB entry instance.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | The archive is instantiated for decompression. - or - The number of folders has been reached the limit. |
+| InvalidOperationException | The archive is instantiated for decompression. - or - The number of files has reached the limit. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
 | ArgumentException | The *name* is null or empty. |
 

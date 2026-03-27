@@ -27,6 +27,11 @@ The file info of a composed file.
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | *path* is null or empty. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| FileNotFoundException | The file is not found. |
+| InvalidDataException | Checksum mismatch for headers or data. - or - Archive is corrupted. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| NotImplementedException | Entry compressed with method 4. |
 
 ## Examples
 
@@ -76,6 +81,9 @@ public void Extract(FileInfo fileInfo)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| InvalidDataException | Checksum mismatch for headers or data. - or - Archive is corrupted. |
+| NotImplementedException | Entry compressed with method 4. |
 
 ## Examples
 
@@ -117,6 +125,7 @@ public void Extract(Stream destination)
 | InvalidDataException | Checksum mismatch for headers or data. - or - Archive is corrupted. |
 | NotImplementedException | Entry compressed with method 4. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
 
 ### See Also
 

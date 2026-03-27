@@ -72,6 +72,7 @@ The archive with entries composed.
 | exception | condition |
 | --- | --- |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| ArgumentNullException | *sourceDirectory* is `null`. |
 
 ## Examples
 

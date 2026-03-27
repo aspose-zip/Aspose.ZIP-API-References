@@ -27,6 +27,8 @@ public Lz4Archive(Stream sourceStream, Lz4LoadOptions loadOptions = null)
 | ArgumentNullException | *sourceStream* is null. |
 | EndOfStreamException | *sourceStream* is too short. |
 | InvalidDataException | The *sourceStream* has wrong signature. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| IOException | An I/O error occurs. |
 
 ## Remarks
 
@@ -76,6 +78,9 @@ public Lz4Archive(string path, Lz4LoadOptions loadOptions = null)
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | EndOfStreamException | The file is too short. |
 | InvalidDataException | Data in the file has the wrong signature. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
+| IOException | The file is already open. |
 
 ## Remarks
 

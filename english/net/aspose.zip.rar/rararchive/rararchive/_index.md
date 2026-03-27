@@ -32,6 +32,7 @@ public RarArchive(string path, RarArchiveLoadOptions loadOptions = null)
 | FileNotFoundException | The file is not found. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
 
 ## Remarks
 
@@ -83,6 +84,7 @@ public RarArchive(Stream sourceStream, RarArchiveLoadOptions loadOptions = null)
 | --- | --- |
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | Wrong signature for archive. - or - The file is not a RAR archive. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 

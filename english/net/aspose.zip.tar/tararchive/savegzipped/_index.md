@@ -80,6 +80,7 @@ public void SaveGzipped(string path, TarFormat? format = default)
 | DirectoryNotFoundException | The specified *path* is invalid, (for example, it is on an unmapped drive). |
 | NotSupportedException | *path* is in an invalid format. |
 | ObjectDisposedException | Archive has been disposed and cannot be used |
+| IOException | An I/O error occurs. |
 
 ## Examples
 

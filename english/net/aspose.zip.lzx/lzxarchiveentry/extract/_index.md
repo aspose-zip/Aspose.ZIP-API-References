@@ -36,6 +36,8 @@ FileSystemInfoInstance containing extracted data.
 | InvalidDataException | Checksum mismatch for headers or data. - or - Archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 | NotSupportedException | Invalid compression method. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| EndOfStreamException | Thrown when the end of the stream is reached unexpectedly. |
 
 ## Examples
 
@@ -78,6 +80,8 @@ public void Extract(Stream destination)
 | ArgumentNullException | Destination stream is null. |
 | NotSupportedException | Invalid compression method. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| EndOfStreamException | Thrown when the end of the stream is reached unexpectedly. |
 
 ### See Also
 

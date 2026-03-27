@@ -38,6 +38,8 @@ An instance of [`TarArchive`](../)
 | FileNotFoundException | The file is not found. |
 | EndOfStreamException | The file is too short. |
 | InvalidDataException | The file has the wrong signature. |
+| IOException | An I/O error occurred while opening the file. |
+| InvalidOperationException | The archive is prepared for composition. |
 
 ## Remarks
 
@@ -77,6 +79,7 @@ An instance of [`TarArchive`](../)
 | ArgumentNullException | *source* is null. |
 | EndOfStreamException | *source* is too short. |
 | InvalidDataException | The *source* has the wrong signature. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 

@@ -31,6 +31,7 @@ Info of an extracted file.
 | NotSupportedException | This LZ4 version is not supported. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | The archive is prepared for composition. |
 
 ### See Also
 

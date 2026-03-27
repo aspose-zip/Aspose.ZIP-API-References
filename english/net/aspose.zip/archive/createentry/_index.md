@@ -36,6 +36,7 @@ Zip entry instance.
 | UnauthorizedAccessException | Access to file *path* is denied. |
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
 
 ## Remarks
 
@@ -85,6 +86,13 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 
 Zip entry instance.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| InvalidOperationException | Thrown when the entry addition is not valid due to the current state of the archive. |
+
 ## Examples
 
 ```csharp
@@ -132,6 +140,8 @@ Zip entry instance.
 | UnauthorizedAccessException | *fileInfo* is read-only or is a directory. |
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| InvalidOperationException | Thrown when the entry addition is not valid due to the current state of the archive. |
 
 ## Remarks
 
@@ -194,6 +204,7 @@ Zip entry instance.
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Both *source* and *fileInfo* are null or *source* is null and *fileInfo* stands for directory. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
 
 ## Remarks
 
@@ -244,6 +255,14 @@ public ArchiveEntry CreateEntry(string name, Func<Stream> streamProvider,
 ### Return Value
 
 Zip entry instance.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
+| ArgumentException | Thrown when *name* is null or empty, or *streamProvider* is null. |
+| InvalidOperationException | Thrown when the archive does not support entry addition. |
 
 ## Remarks
 

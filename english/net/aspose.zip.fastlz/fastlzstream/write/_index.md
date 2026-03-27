@@ -20,6 +20,13 @@ public override void Write(byte[] buffer, int offset, int count)
 | offset | Int32 | The zero-based byte offset in buffer at which to begin copying bytes to the current stream. |
 | count | Int32 | The number of bytes to be written to the current stream. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ObjectDisposedException | Thrown if the stream has been disposed. |
+| ArgumentNullException | *buffer* is `null`. |
+
 ### See Also
 
 * class [FastLZStream](../)

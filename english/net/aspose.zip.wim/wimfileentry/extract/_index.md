@@ -37,6 +37,7 @@ The file info of the composed file.
 | IOException | The file is already open. |
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 
@@ -74,6 +75,7 @@ public void Extract(Stream destination)
 | ArgumentException | *destination* does not support writing. |
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 

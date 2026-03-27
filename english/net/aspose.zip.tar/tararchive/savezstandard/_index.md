@@ -26,6 +26,7 @@ public void SaveZstandard(Stream output, TarFormat? format = default)
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. |
 | ObjectDisposedException | Archive has been disposed and cannot be used |
+| IOException | An I/O error occurs. |
 
 ## Remarks
 

@@ -34,6 +34,8 @@ FileSystemInfoInstance containing extracted data.
 | PathTooLongException | The specified *path*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
 
 ## Examples
 
@@ -73,6 +75,8 @@ public void Extract(Stream destination)
 | --- | --- |
 | ArgumentException | *destination* does not support writing. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
 
 ## Remarks
 
@@ -111,6 +115,7 @@ public void Extract(FileInfo fileInfo)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 

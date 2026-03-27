@@ -35,6 +35,8 @@ The file info of a composed file.
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| FileNotFoundException | The file is not found. |
 
 ## Examples
 
@@ -74,6 +76,7 @@ public void Extract(Stream destination, string password = null)
 | InvalidOperationException | The archive is not opened for extraction. - or - This entry is a directory. |
 | InvalidDataException | Wrong data within the entry. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 

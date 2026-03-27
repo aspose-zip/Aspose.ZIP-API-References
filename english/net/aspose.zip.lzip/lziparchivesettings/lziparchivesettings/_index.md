@@ -19,6 +19,12 @@ public LzipArchiveSettings(int dictionarySize, int maxMemberSize = 62914560)
 | dictionarySize | Int32 | Dictionary size for LZMA compression in bytes. |
 | maxMemberSize | Int32 | Maximum size of one member in lzip archive presented in bytes. The default value is 60 MB. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Thrown when dictionarySize is outside the allowable range of values. |
+
 ### See Also
 
 * class [LzipArchiveSettings](../)

@@ -22,6 +22,14 @@ public GzipArchive OpenGzip(Stream stream)
 
 A [`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) object that represents the archive.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ArgumentNullException | Thrown when an *stream* is null. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
+
 ### See Also
 
 * class [GzipArchive](../../../aspose.zip.gzip/gziparchive/)
@@ -46,6 +54,19 @@ public GzipArchive OpenGzip(string fileName)
 ### Return Value
 
 A [`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) object that represents the archive.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ArgumentException | The file name is empty, contains only white spaces, or contains invalid characters. |
+| ArgumentNullException | *fileName* is `null`. |
+| DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
+| FileNotFoundException | The file is not found. |
+| InvalidDataException | Thrown when the data is invalid or corrupted. |
+| PathTooLongException | The specified path, file name, or both exceed the system-defined maximum length. |
+| UnauthorizedAccessException | Access to *fileName* is denied. |
 
 ### See Also
 

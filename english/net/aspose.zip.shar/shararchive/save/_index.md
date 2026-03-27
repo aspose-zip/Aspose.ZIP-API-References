@@ -31,6 +31,7 @@ public void Save(string destinationFileName)
 | NotSupportedException | *destinationFileName* is in an invalid format. |
 | FileNotFoundException | The file is not found. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | This archive is opened for extraction. |
 
 ## Remarks
 
@@ -73,6 +74,7 @@ public void Save(Stream output)
 | ArgumentNullException | *output* is null. |
 | ArgumentException | *output* is not writable. - or - *output* is the same stream we extract from. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | This archive is opened for extraction. |
 
 ## Remarks
 

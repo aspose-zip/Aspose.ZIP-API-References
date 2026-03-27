@@ -59,6 +59,8 @@ public XarArchive(Stream sourceStream, XarLoadOptions loadOptions = null)
 | ArgumentNullException | *sourceStream* is null. |
 | ArgumentException | *sourceStream* is not seekable. |
 | InvalidDataException | *sourceStream* is not valid xar archive. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 
@@ -111,6 +113,7 @@ public XarArchive(string path, XarLoadOptions loadOptions = null)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | InvalidDataException | File at *path* is not valid xar archive. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 

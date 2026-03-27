@@ -34,6 +34,9 @@ The file info of the composed file.
 | NotSupportedException | File at *path* contains a colon (:) in the middle of the string. |
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
+| FileNotFoundException | The file is not found. |
+| IOException | An I/O error occurred. -or- Another thread may have caused an unexpected change in the position of the operating system's file handle. |
 
 ## Examples
 
@@ -71,6 +74,7 @@ public void Extract(Stream destination)
 | ArgumentException | *destination* does not support writing. |
 | InvalidDataException | The archive is corrupted. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Examples
 

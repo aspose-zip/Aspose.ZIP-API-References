@@ -29,6 +29,8 @@ An instance of [`TarArchive`](../)
 | exception | condition |
 | --- | --- |
 | InvalidDataException | The archive is corrupted. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| ObjectDisposedException | Thrown if the source stream has been disposed. |
 
 ## Remarks
 
@@ -72,6 +74,8 @@ An instance of [`TarArchive`](../)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | FileNotFoundException | The file is not found. |
 | InvalidDataException | The archive is corrupted. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| IOException | An I/O error occurred while opening the file. |
 
 ## Remarks
 

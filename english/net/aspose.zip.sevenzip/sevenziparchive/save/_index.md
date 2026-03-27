@@ -27,6 +27,7 @@ public void Save(Stream output, SevenZipArchiveSaveOptions saveOptions = null)
 | ArgumentNullException | *output* is null. |
 | InvalidOperationException | Encoder failed to compress data. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
 
 ## Remarks
 
@@ -81,6 +82,8 @@ public void Save(string destinationFileName, SevenZipArchiveSaveOptions saveOpti
 | PathTooLongException | The specified *destinationFileName*, file name, or both exceed the system-defined maximum length. For example, on Windows-based platforms, paths must be less than 248 characters, and file names must be less than 260 characters. |
 | NotSupportedException | File at *destinationFileName* contains a colon (:) in the middle of the string. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| EndOfStreamException | Thrown when the end of the stream is reached before the expected number of bytes are read. |
+| InvalidOperationException | Encoder failed to compress data. |
 
 ## Remarks
 

@@ -75,6 +75,7 @@ public void Extract(FileInfo fileInfo)
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| InvalidDataException | The data is invalid or corrupted. |
 
 ## Examples
 
@@ -128,6 +129,7 @@ FileInfo instance containing extracted data.
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | OperationCanceledException | In .NET Framework 4.0 and above: Thrown when the extraction is canceled via the provided cancellation token. |
+| InvalidDataException | The data is invalid or corrupted. |
 
 ## Examples
 

@@ -26,6 +26,7 @@ The stream that represents the contents of the archive.
 | InvalidDataException | Wrong bytes found while initialize decoding. |
 | InvalidOperationException | The archive is prepared for composition. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| IOException | An I/O error occurs. |
 
 ## Remarks
 

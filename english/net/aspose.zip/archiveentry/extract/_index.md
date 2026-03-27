@@ -37,6 +37,7 @@ The file info of the composed file.
 | DirectoryNotFoundException | The specified path is invalid, such as being on an unmapped drive. |
 | IOException | The file is already open. |
 | InvalidDataException | Data is corrupted. -or- CRC or MAC verification failed for the entry. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
 
 ## Examples
 
@@ -81,6 +82,7 @@ public void Extract(Stream destination, string password = null)
 | InvalidDataException | Data is corrupted. -or- CRC or MAC verification failed for the entry. |
 | IOException | The source is corrupted or not readable. |
 | ArgumentException | *destination* does not support writing. |
+| ObjectDisposedException | Thrown if the archive has been disposed. |
 
 ## Examples
 

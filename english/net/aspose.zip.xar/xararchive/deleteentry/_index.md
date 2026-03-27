@@ -28,6 +28,7 @@ Xar entry instance.
 | --- | --- |
 | ArgumentNullException | *entry* is null. |
 | ObjectDisposedException | Archive has been disposed and cannot be used. |
+| InvalidOperationException | The archive is not opened for extraction. |
 
 ## Examples
 
