@@ -3,7 +3,7 @@ title: Aspose.Zip.Lzx
 second_title: Aspose.ZIP for .NET API Reference
 description: The Lzx namespace contains classes which represent LZX related entities
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.zip.lzx/
 ---
 The Lzx namespace contains classes which represent LZX related entities.

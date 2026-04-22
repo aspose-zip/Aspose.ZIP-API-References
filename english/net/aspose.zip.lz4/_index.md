@@ -3,7 +3,7 @@ title: Aspose.Zip.Lz4
 second_title: Aspose.ZIP for .NET API Reference
 description: The Lz4 namespace contains classes which represent LZ4 related entities
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.zip.lz4/
 ---
 The Lz4 namespace contains classes which represent LZ4 related entities.

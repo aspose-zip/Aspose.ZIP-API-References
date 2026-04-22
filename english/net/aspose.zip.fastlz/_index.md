@@ -3,7 +3,7 @@ title: Aspose.Zip.FastLZ
 second_title: Aspose.ZIP for .NET API Reference
 description: The FastLZ namespace contains classes which represent FastLZ related entities
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip.fastlz/
 ---
 The FastLZ namespace contains classes which represent FastLZ related entities.

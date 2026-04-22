@@ -3,7 +3,7 @@ title: Class CabStoreCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabStoreCompressionSettings class. Compression settings that keep CAB data blocks uncompressed
 type: docs
-weight: 230
+weight: 290
 url: /net/aspose.zip.cab/cabstorecompressionsettings/
 ---
 ## CabStoreCompressionSettings class

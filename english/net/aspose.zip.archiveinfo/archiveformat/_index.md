@@ -3,7 +3,7 @@ title: Enum ArchiveFormat
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveInfo.ArchiveFormat enum. Supported archive formats
 type: docs
-weight: 60
+weight: 120
 url: /net/aspose.zip.archiveinfo/archiveformat/
 ---
 ## ArchiveFormat enumeration
@@ -42,6 +42,7 @@ public enum ArchiveFormat
 | Lz4 | `21` | Lz4 archive ([`Lz4Archive`](../../aspose.zip.lz4/lz4archive/)). |
 | Uue | `22` | Uue encoded file ([`UueArchive`](../../aspose.zip.uue/uuearchive/)) |
 | Lzx | `23` | Lzx archive ([`LzxArchive`](../../aspose.zip.lzx/lzxarchive/)) |
+| Apple | `24` | Apple archive ([`AppleArchive`](../../aspose.zip.apple/applearchive/)). |
 
 ### See Also
 

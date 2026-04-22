@@ -3,7 +3,7 @@ title: Aspose.Zip.Cpio
 second_title: Aspose.ZIP for .NET API Reference
 description: The Cpio namespace contains classes which represent cpio archive related entities
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.cpio/
 ---
 The Cpio namespace contains classes which represent cpio archive related entities.

@@ -3,7 +3,7 @@ title: Enum ZipDataDescriptorPolicy
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.ZipDataDescriptorPolicy enum. Options for the Data Descriptor presence
 type: docs
-weight: 960
+weight: 1020
 url: /net/aspose.zip.saving/zipdatadescriptorpolicy/
 ---
 ## ZipDataDescriptorPolicy enumeration
