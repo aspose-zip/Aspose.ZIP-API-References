@@ -3,7 +3,7 @@ title: Aspose.Zip.Bzip2
 second_title: Aspose.ZIP for .NET API Reference
 description: The Bzip2 namespace contains classes which represent bzip2 archive related entities
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.bzip2/
 ---
 The Bzip2 namespace contains classes which represent bzip2 archive related entities.

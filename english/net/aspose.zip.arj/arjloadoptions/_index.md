@@ -3,7 +3,7 @@ title: Class ArjLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Arj.ArjLoadOptions class. Options with which archive is loaded from a compressed file
 type: docs
-weight: 120
+weight: 180
 url: /net/aspose.zip.arj/arjloadoptions/
 ---
 ## ArjLoadOptions class

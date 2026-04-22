@@ -3,7 +3,7 @@ title: Class CabCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabCompressionSettings class. Settings needed for CAB compressor to work
 type: docs
-weight: 170
+weight: 230
 url: /net/aspose.zip.cab/cabcompressionsettings/
 ---
 ## CabCompressionSettings class
