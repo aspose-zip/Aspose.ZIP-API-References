@@ -1,0 +1,17 @@
+name: Trigger ZIP Greece Stage Build
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'greece/**' ]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
+          repository: Aspose/apireference.aspose.com
+          event-type: build-zip-greece-stage

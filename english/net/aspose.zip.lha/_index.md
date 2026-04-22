@@ -3,7 +3,7 @@ title: Aspose.Zip.Lha
 second_title: Aspose.ZIP for .NET API Reference
 description: The Lha namespace contains classes which represent Lha related entities
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.zip.lha/
 ---
 The Lha namespace contains classes which represent Lha related entities.

@@ -3,7 +3,7 @@ title: Class CabSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabSaveOptions class. Options for saving a CAB archive
 type: docs
-weight: 220
+weight: 280
 url: /net/aspose.zip.cab/cabsaveoptions/
 ---
 ## CabSaveOptions class

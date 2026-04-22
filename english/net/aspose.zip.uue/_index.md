@@ -3,7 +3,7 @@ title: Aspose.Zip.Uue
 second_title: Aspose.ZIP for .NET API Reference
 description: The Uue namespace contains classes which represent uuencode related entities
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.zip.uue/
 ---
 The Uue namespace contains classes which represent uuencode related entities.

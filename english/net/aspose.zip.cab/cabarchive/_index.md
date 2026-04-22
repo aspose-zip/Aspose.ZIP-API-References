@@ -3,7 +3,7 @@ title: Class CabArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabArchive class. This class represents a CAB archive file
 type: docs
-weight: 160
+weight: 220
 url: /net/aspose.zip.cab/cabarchive/
 ---
 ## CabArchive class

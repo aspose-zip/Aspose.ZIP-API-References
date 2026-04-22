@@ -3,7 +3,7 @@ title: Aspose.Zip.Arj
 second_title: Aspose.ZIP for .NET API Reference
 description: The Arj namespace contains classes which represent Arj related entities
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.arj/
 ---
 The Arj namespace contains classes which represent Arj related entities.
