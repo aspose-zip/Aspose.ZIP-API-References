@@ -22,6 +22,9 @@ Methods of compression that 7Z format support.
 |BCJ|Technique that improves the compression of machine code.|
 |AES|File is encrypted.|
 |DELTA|File is encoded using Delta converter.|
+|ARM64|Technique that improves the compression of ARM64 machine code.|
+|ARM|Technique that improves the compression of 32-bit ARM machine code.|
+|BCJ2|Technique that improves the compression of x86 machine code using auxiliary streams.|
 
 ### See Also
 
