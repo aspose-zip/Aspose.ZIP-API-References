@@ -38,6 +38,7 @@ Supported archive formats.
 |LZ4|Lz4 archive ([Lz4Archive](/zip/python-net/aspose.zip.lz4/lz4archive/)).|
 |UUE|Uue encoded file ([UueArchive](/zip/python-net/aspose.zip.uue/uuearchive/))|
 |LZX|Lzx archive ([LzxArchive](/zip/python-net/aspose.zip.lzx/lzxarchive/))|
+|APPLE|Apple archive ([AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/)).|
 
 ### See Also
 

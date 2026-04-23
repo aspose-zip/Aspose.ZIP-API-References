@@ -38,3 +38,4 @@ url: /python-net/
 |[aspose.zip.bzip2](/zip/python-net/aspose.zip.bzip2/)|Contains classes which represent bzip2 archive related entities.|
 |[aspose.zip.arj](/zip/python-net/aspose.zip.arj/)|Contains classes which represent arj archive related entities.|
 |[aspose.zip.archiveinfo](/zip/python-net/aspose.zip.archiveinfo/)|Contains classes which represent archive info related entities.|
+|[aspose.zip.apple](/zip/python-net/aspose.zip.apple/)|Contains classes which represent Apple archive related entities.|
