@@ -3,7 +3,7 @@ title: Class EnhancedDeflateCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.EnhancedDeflateCompressionSettings class. Settings for Enhanced Deflate compression within a ZIP archive
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings class

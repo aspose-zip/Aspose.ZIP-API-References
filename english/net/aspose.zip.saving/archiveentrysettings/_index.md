@@ -3,7 +3,7 @@ title: Class ArchiveEntrySettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.ArchiveEntrySettings class. Settings used to compress or decompress entries
 type: docs
-weight: 720
+weight: 740
 url: /net/aspose.zip.saving/archiveentrysettings/
 ---
 ## ArchiveEntrySettings class

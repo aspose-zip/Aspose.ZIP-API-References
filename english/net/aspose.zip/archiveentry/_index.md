@@ -3,7 +3,7 @@ title: Class ArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveEntry class. Represents single file within archive
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.zip/archiveentry/
 ---
 ## ArchiveEntry class

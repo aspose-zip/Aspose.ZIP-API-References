@@ -17,6 +17,8 @@ The Apple namespace contains classes which represent Apple Archive related entit
 | [AppleArchiveEntrySettings](./applearchiveentrysettings/) | Settings used to compose entries inside [`AppleArchive`](../aspose.zip.apple/applearchive/). |
 | [AppleCompressionSettings](./applecompressionsettings/) | Settings needed for Apple Archive entry compression. |
 | [AppleLz4CompressionSettings](./applelz4compressionsettings/) | Settings for LZ4 compression within an Apple Archive (.aar) file. |
+| [AppleLzfseCompressionSettings](./applelzfsecompressionsettings/) | Settings for LZFSE compression within an Apple Archive (.aar) file. |
 | [AppleLzmaCompressionSettings](./applelzmacompressionsettings/) | Settings for LZMA compression within an Apple Archive (.aar) file. |
+| [AppleZlibCompressionSettings](./applezlibcompressionsettings/) | Settings for Zlib compression within an Apple Archive (.aar) file. |
 
 
