@@ -3,7 +3,7 @@ title: Class GzipArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Gzip.GzipArchive class. This class represents a gzip archive file. Use it to compose or extract gzip archives
 type: docs
-weight: 380
+weight: 400
 url: /net/aspose.zip.gzip/gziparchive/
 ---
 ## GzipArchive class
