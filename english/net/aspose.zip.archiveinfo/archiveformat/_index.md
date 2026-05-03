@@ -3,7 +3,7 @@ title: Enum ArchiveFormat
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveInfo.ArchiveFormat enum. Supported archive formats
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.zip.archiveinfo/archiveformat/
 ---
 ## ArchiveFormat enumeration

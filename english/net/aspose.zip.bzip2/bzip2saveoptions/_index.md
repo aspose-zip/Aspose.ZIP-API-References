@@ -3,7 +3,7 @@ title: Class Bzip2SaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Bzip2.Bzip2SaveOptions class. Options for saving a bzip2 archive
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.zip.bzip2/bzip2saveoptions/
 ---
 ## Bzip2SaveOptions class

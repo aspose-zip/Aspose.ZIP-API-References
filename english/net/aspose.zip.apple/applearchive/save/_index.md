@@ -25,7 +25,7 @@ public void Save(Stream output)
 | ObjectDisposedException | The archive has been disposed. |
 | ArgumentNullException | *output* is `null`. |
 | ArgumentException | *output* is not writable. |
-| ArgumentOutOfRangeException | Configured LZ4 block size is not positive. |
+| ArgumentOutOfRangeException | Configured LZ4 or Zlib block size is not positive. |
 | NotSupportedException | Compression settings are missing or unsupported, direct composition uses a non-seekable stream, or entry/archive size exceeds current Apple Archive limits. |
 
 ## Remarks
@@ -59,7 +59,7 @@ public void Save(string destinationFileName)
 | ObjectDisposedException | The archive has been disposed. |
 | ArgumentException | *destinationFileName* is invalid. |
 | ArgumentNullException | *destinationFileName* is `null`. |
-| ArgumentOutOfRangeException | Configured LZ4 block size is not positive. |
+| ArgumentOutOfRangeException | Configured LZ4 or Zlib block size is not positive. |
 | NotSupportedException | Compression settings are missing or unsupported, direct composition uses a non-seekable stream, or entry/archive size exceeds current Apple Archive limits. |
 
 ### See Also
