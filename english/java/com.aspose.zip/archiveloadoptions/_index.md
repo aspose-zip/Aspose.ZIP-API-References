@@ -3,7 +3,7 @@ title: ArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.zip/archiveloadoptions/
 ---
 
@@ -27,12 +27,14 @@ Options with which archive is loaded from a compressed file.
 | [getEncoding()](#getEncoding--) | Gets the encoding for entries' names. |
 | [getEntryExtractionProgressed()](#getEntryExtractionProgressed--) | Gets an event that is raised when some bytes have been extracted. |
 | [getEntryListed()](#getEntryListed--) | Gets an event that is raised when an entry listed within table of content. |
+| [getForwardOnly()](#getForwardOnly--) | Gets the flag that indicating that archive is extracted from read-only stream. |
 | [getSkipChecksumVerification()](#getSkipChecksumVerification--) | Gets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. |
 | [setCancellationFlag(CancellationFlag value)](#setCancellationFlag-com.aspose.zip.CancellationFlag-) | Sets a cancellation flag used to cancel the extraction operation. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | Sets the password to decrypt entries. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding for entries' names. |
 | [setEntryExtractionProgressed(Event&lt;ProgressCancelEventArgs&gt; value)](#setEntryExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressCancelEventArgs--) | Sets an event that is raised when some bytes have been extracted. |
 | [setEntryListed(Event&lt;EntryEventArgs&gt; value)](#setEntryListed-com.aspose.zip.Event-com.aspose.zip.EntryEventArgs--) | Sets an event that is raised when an entry listed within table of content. |
+| [setForwardOnly(boolean value)](#setForwardOnly-boolean-) | Sets the flag that indicating that archive is extracted from read-only stream. |
 | [setSkipChecksumVerification(boolean value)](#setSkipChecksumVerification-boolean-) | Sets a value indicating whether checksum verification of ZIP entries be skipped and mismatch ignored. |
 ### ArchiveLoadOptions() {#ArchiveLoadOptions--}
 ```
@@ -171,6 +173,16 @@ Gets an event that is raised when an entry listed within table of content.
 
 **Returns:**
 [Event](../../com.aspose.zip/event) - an event that is raised when an entry listed within table of content
+### getForwardOnly() {#getForwardOnly--}
+```
+public final boolean getForwardOnly()
+```
+
+
+Gets the flag that indicating that archive is extracted from read-only stream.
+
+**Returns:**
+boolean - true, if archive's stream is rean-only, false elsewhere.
 ### getSkipChecksumVerification() {#getSkipChecksumVerification--}
 ```
 public final boolean getSkipChecksumVerification()
@@ -357,6 +369,19 @@ Sets an event that is raised when an entry listed within table of content.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | com.aspose.zip.Event&lt;com.aspose.zip.EntryEventArgs&gt; | an event that is raised when an entry listed within table of content |
+
+### setForwardOnly(boolean value) {#setForwardOnly-boolean-}
+```
+public final void setForwardOnly(boolean value)
+```
+
+
+Sets the flag that indicating that archive is extracted from read-only stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | true, if archive's stream is rean-only, false elsewhere. |
 
 ### setSkipChecksumVerification(boolean value) {#setSkipChecksumVerification-boolean-}
 ```

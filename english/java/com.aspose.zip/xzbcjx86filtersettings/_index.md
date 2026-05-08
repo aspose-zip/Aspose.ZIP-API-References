@@ -3,7 +3,7 @@ title: XzBcjX86FilterSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for xz Bcj X86 filter.
 type: docs
-weight: 131
+weight: 133
 url: /java/com.aspose.zip/xzbcjx86filtersettings/
 ---
 

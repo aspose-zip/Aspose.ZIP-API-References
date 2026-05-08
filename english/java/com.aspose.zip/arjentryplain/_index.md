@@ -3,7 +3,7 @@ title: ArjEntryPlain
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within ARJ archive.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.aspose.zip/arjentryplain/
 ---
 

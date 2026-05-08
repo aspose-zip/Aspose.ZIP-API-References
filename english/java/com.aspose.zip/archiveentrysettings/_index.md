@@ -25,8 +25,10 @@ Settings used to compress or decompress entries.
 
 | Method | Description |
 | --- | --- |
+| [getComment()](#getComment--) | Gets comment for the entry within ZIP archive. |
 | [getCompressionSettings()](#getCompressionSettings--) | Gets settings for compression or decompression routine. |
 | [getEncryptionSettings()](#getEncryptionSettings--) | Gets settings for encryption or decryption. |
+| [setComment(String value)](#setComment-java.lang.String-) | Comment for the entry within ZIP archive. |
 ### ArchiveEntrySettings() {#ArchiveEntrySettings--}
 ```
 public ArchiveEntrySettings()
@@ -79,6 +81,16 @@ Can be one of these:
  *  [TraditionalEncryptionSettings](../../com.aspose.zip/traditionalencryptionsettings)
  *  [AesEncryptionSettings](../../com.aspose.zip/aesencryptionsettings) |
 
+### getComment() {#getComment--}
+```
+public final String getComment()
+```
+
+
+Gets comment for the entry within ZIP archive.
+
+**Returns:**
+java.lang.String - comment for the entry within ZIP archive.
 ### getCompressionSettings() {#getCompressionSettings--}
 ```
 public final CompressionSettings getCompressionSettings()
@@ -108,3 +120,16 @@ Gets settings for encryption or decryption. Settings of particular entry may var
 
 **Returns:**
 [EncryptionSettings](../../com.aspose.zip/encryptionsettings) - settings for encryption or decryption. Settings of particular entry may vary.
+### setComment(String value) {#setComment-java.lang.String-}
+```
+public final void setComment(String value)
+```
+
+
+Comment for the entry within ZIP archive.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+

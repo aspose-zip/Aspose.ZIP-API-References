@@ -3,7 +3,7 @@ title: CabCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings needed for CAB compressor to work.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.aspose.zip/cabcompressionsettings/
 ---
 

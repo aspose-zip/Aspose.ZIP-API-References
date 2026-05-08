@@ -3,7 +3,7 @@ title: CancellationFlag
 second_title: Aspose.ZIP for Java API Reference
 description: The flag that allows for the cancellation of operations.
 type: docs
-weight: 38
+weight: 39
 url: /java/com.aspose.zip/cancellationflag/
 ---
 
