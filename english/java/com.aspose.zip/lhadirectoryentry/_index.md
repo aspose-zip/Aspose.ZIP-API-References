@@ -3,7 +3,7 @@ title: LhaDirectoryEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents an empty directory inside Lha archive.
 type: docs
-weight: 60
+weight: 62
 url: /java/com.aspose.zip/lhadirectoryentry/
 ---
 

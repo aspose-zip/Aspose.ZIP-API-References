@@ -3,7 +3,7 @@ title: ArchiveFormatInfo
 second_title: Aspose.ZIP for Java API Reference
 description: Represents information about the archive format.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.zip/archiveformatinfo/
 ---
 

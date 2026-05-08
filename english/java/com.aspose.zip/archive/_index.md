@@ -54,9 +54,10 @@ This class represents a zip archive file. Use it to compose, extract, or update 
 | [deleteEntry(ArchiveEntry entry)](#deleteEntry-com.aspose.zip.ArchiveEntry-) | Removes the first occurrence of the specific entry from the entry list. |
 | [deleteEntry(int entryIndex)](#deleteEntry-int-) | Removes the entry from the entry list by index. |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts all the files in the archive to the directory provided. |
+| [getComment()](#getComment--) | Gets comment for the whole archive. |
 | [getEntries()](#getEntries--) | Gets entries of [ArchiveEntry](../../com.aspose.zip/archiveentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the archive. |
-| [getFormat()](#getFormat--) | Gets the archive format. |
+| [getFormat()](#getFormat--) | Gets the archive format (Zip) |
 | [getNewEntrySettings()](#getNewEntrySettings--) | Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves archive to the stream provided. |
 | [save(OutputStream outputStream, ArchiveSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.ArchiveSaveOptions-) | Saves archive to the stream provided. |
@@ -977,6 +978,18 @@ If the directory does not exist, it will be created.
 | --- | --- | --- |
 | destinationDirectory | java.lang.String | The path to the directory to place the extracted files in. |
 
+### getComment() {#getComment--}
+```
+public final String getComment()
+```
+
+
+Gets comment for the whole archive.
+
+If `ArchiveLoadOptions.Encoding`([ArchiveLoadOptions.getEncoding](../../com.aspose.zip/archiveloadoptions\#getEncoding)/[ArchiveLoadOptions.setEncoding](../../com.aspose.zip/archiveloadoptions\#setEncoding)) is provided, is decoded using it. Otherwise, UTF-8 is used.
+
+**Returns:**
+java.lang.String - comment for the whole archive.
 ### getEntries() {#getEntries--}
 ```
 public final List<ArchiveEntry> getEntries()
@@ -1003,10 +1016,10 @@ public final ArchiveFormat getFormat()
 ```
 
 
-Gets the archive format.
+Gets the archive format (Zip)
 
 **Returns:**
-[ArchiveFormat](../../com.aspose.zip/archiveformat) - the archive format
+[ArchiveFormat](../../com.aspose.zip/archiveformat) - Zip archive format.
 ### getNewEntrySettings() {#getNewEntrySettings--}
 ```
 public final ArchiveEntrySettings getNewEntrySettings()
@@ -1016,7 +1029,7 @@ public final ArchiveEntrySettings getNewEntrySettings()
 Compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items.
 
 **Returns:**
-[ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) - compression and encryption settings used for newly added [ArchiveEntry](../../com.aspose.zip/archiveentry) items.
+[ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) - the [ArchiveEntrySettings](../../com.aspose.zip/archiveentrysettings) instance
 ### save(OutputStream outputStream) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream outputStream)

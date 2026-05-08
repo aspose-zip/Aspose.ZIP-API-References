@@ -3,7 +3,7 @@ title: ZArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Zarchive.
 type: docs
-weight: 138
+weight: 140
 url: /java/com.aspose.zip/zarchivesaveoptions/
 ---
 

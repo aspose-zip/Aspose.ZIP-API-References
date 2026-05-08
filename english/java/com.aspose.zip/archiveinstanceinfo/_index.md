@@ -3,7 +3,7 @@ title: ArchiveInstanceInfo
 second_title: Aspose.ZIP for Java API Reference
 description: Represents information about the archive instance.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.aspose.zip/archiveinstanceinfo/
 ---
 

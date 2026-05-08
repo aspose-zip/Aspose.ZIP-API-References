@@ -19,6 +19,7 @@ url: /java/com.aspose.zip/
 | [ArchiveEntryPlain](../com.aspose.zip/archiveentryplain) | Zip entry that needs to be compressed without encryption or decompressed without decryption. |
 | [ArchiveEntrySettings](../com.aspose.zip/archiveentrysettings) | Settings used to compress or decompress entries. |
 | [ArchiveFactory](../com.aspose.zip/archivefactory) | Detects the archive format and creates the appropriate [IArchive](../com.aspose.zip/iarchive) object according to the type of archive. |
+| [ArchiveFormatDetector](../com.aspose.zip/archiveformatdetector) | Detects an archive format and provides other related information. |
 | [ArchiveFormatInfo](../com.aspose.zip/archiveformatinfo) | Represents information about the archive format. |
 | [ArchiveInstanceInfo](../com.aspose.zip/archiveinstanceinfo) | Represents information about the archive instance. |
 | [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which archive is loaded from a compressed file. |
@@ -41,6 +42,7 @@ url: /java/com.aspose.zip/
 | [CancelEntryEventArgs](../com.aspose.zip/cancelentryeventargs) | Event arguments for cancelable entry related events. |
 | [CancelEntryEventArgsXar](../com.aspose.zip/cancelentryeventargsxar) | Event arguments for cancelable entry related events. |
 | [CancellationFlag](../com.aspose.zip/cancellationflag) | The flag that allows for the cancellation of operations. |
+| [ComHelper](../com.aspose.zip/comhelper) | Provides methods for COM clients to load archives into Aspose.Zip. |
 | [CompressionSettings](../com.aspose.zip/compressionsettings) | Settings needed for compressor or decompressor to work. |
 | [CpioArchive](../com.aspose.zip/cpioarchive) | This class represents cpio archive file. |
 | [CpioEntry](../com.aspose.zip/cpioentry) | Represents single file within cpio archive. |
