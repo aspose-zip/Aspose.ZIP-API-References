@@ -3,7 +3,7 @@ title: SevenZipCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings needed for 7z compressor or decompressor to work.
 type: docs
-weight: 94
+weight: 96
 url: /java/com.aspose.zip/sevenzipcompressionsettings/
 ---
 

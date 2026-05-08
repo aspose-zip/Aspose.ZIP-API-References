@@ -3,7 +3,7 @@ title: ProgressCancelEventArgs
 second_title: Aspose.ZIP for Java API Reference
 description: Class for cancelable event data containing the number of bytes proceeded.
 type: docs
-weight: 78
+weight: 80
 url: /java/com.aspose.zip/progresscanceleventargs/
 ---
 

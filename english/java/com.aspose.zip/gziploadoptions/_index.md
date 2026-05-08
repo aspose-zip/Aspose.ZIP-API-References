@@ -3,7 +3,7 @@ title: GzipLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 53
+weight: 55
 url: /java/com.aspose.zip/gziploadoptions/
 ---
 

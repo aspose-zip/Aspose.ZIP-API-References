@@ -3,7 +3,7 @@ title: LzxLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 74
+weight: 76
 url: /java/com.aspose.zip/lzxloadoptions/
 ---
 

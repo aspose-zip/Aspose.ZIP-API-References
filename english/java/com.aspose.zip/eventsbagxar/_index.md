@@ -3,7 +3,7 @@ title: EventsBagXar
 second_title: Aspose.ZIP for Java API Reference
 description: Events container used on  saving.
 type: docs
-weight: 50
+weight: 52
 url: /java/com.aspose.zip/eventsbagxar/
 ---
 
