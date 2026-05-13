@@ -1,22 +1,22 @@
 ---
-title: AppleLz4CompressionSettings
+title: AppleZlibCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
-url: /python-net/aspose.zip.apple/applelz4compressionsettings/
+weight: 80
+url: /python-net/aspose.zip.apple/applezlibcompressionsettings/
 ---
 
-## AppleLz4CompressionSettings class
+## AppleZlibCompressionSettings class
 
-Settings for LZ4 compression within an Apple Archive (.aar) file.
+Settings for Zlib compression within an Apple Archive (.aar) file.
 
-The AppleLz4CompressionSettings type exposes the following members:
+The AppleZlibCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppleLz4CompressionSettings(block_size)|Initializes a new instance of the [AppleLz4CompressionSettings](/zip/python-net/aspose.zip.apple/applelz4compressionsettings/) class.|
-|AppleLz4CompressionSettings()|Initializes a new instance of the [AppleLz4CompressionSettings](/zip/python-net/aspose.zip.apple/applelz4compressionsettings/) class.|
+|AppleZlibCompressionSettings(block_size)|Initializes a new instance of the [AppleZlibCompressionSettings](/zip/python-net/aspose.zip.apple/applezlibcompressionsettings/) class.|
+|AppleZlibCompressionSettings()|Initializes a new instance of the [AppleZlibCompressionSettings](/zip/python-net/aspose.zip.apple/applezlibcompressionsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,7 +24,7 @@ The AppleLz4CompressionSettings type exposes the following members:
 |lzfse|An instance of [AppleLzfseCompressionSettings](/zip/python-net/aspose.zip.apple/applelzfsecompressionsettings/) with default parameters.|
 |lzma|An instance of [AppleLzmaCompressionSettings](/zip/python-net/aspose.zip.apple/applelzmacompressionsettings/) with default parameters.|
 |zlib|An instance of [AppleZlibCompressionSettings](/zip/python-net/aspose.zip.apple/applezlibcompressionsettings/) with default parameters.|
-|block_size|Gets the size of each compressed|
+|block_size|Gets the size of each data block before compression.|
 
 ### See Also
 
