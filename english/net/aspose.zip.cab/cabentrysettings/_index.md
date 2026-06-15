@@ -3,7 +3,7 @@ title: Class CabEntrySettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabEntrySettings class. Settings that control how a CAB entry is written
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.zip.cab/cabentrysettings/
 ---
 ## CabEntrySettings class

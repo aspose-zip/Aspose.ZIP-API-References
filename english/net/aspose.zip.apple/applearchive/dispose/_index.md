@@ -3,7 +3,7 @@ title: AppleArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.apple/applearchive/dispose/
 ---
 ## AppleArchive.Dispose method

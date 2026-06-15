@@ -3,7 +3,7 @@ title: Class AppleZlibCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Apple.AppleZlibCompressionSettings class. Settings for Zlib compression within an Apple Archive .aar file
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.zip.apple/applezlibcompressionsettings/
 ---
 ## AppleZlibCompressionSettings class
