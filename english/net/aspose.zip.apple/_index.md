@@ -13,12 +13,14 @@ The Apple namespace contains classes which represent Apple Archive related entit
 | Class | Description |
 | --- | --- |
 | [AppleArchive](./applearchive/) | This class represents an Apple Archive (.aar) file. Use it to compose Apple Archive files. |
-| [AppleArchiveEntry](./applearchiveentry/) | Represents a single entry within an [`AppleArchive`](../aspose.zip.apple/applearchive/). |
+| [AppleArchiveEntry](./applearchiveentry/) | Represents a file or directory entry within an [`AppleArchive`](../aspose.zip.apple/applearchive/). |
 | [AppleArchiveEntrySettings](./applearchiveentrysettings/) | Settings used to compose entries inside [`AppleArchive`](../aspose.zip.apple/applearchive/). |
+| [AppleArchiveLoadOptions](./applearchiveloadoptions/) | Options with which [`AppleArchive`](../aspose.zip.apple/applearchive/) is loaded from a compressed file. |
 | [AppleCompressionSettings](./applecompressionsettings/) | Settings needed for Apple Archive entry compression. |
 | [AppleLz4CompressionSettings](./applelz4compressionsettings/) | Settings for LZ4 compression within an Apple Archive (.aar) file. |
 | [AppleLzfseCompressionSettings](./applelzfsecompressionsettings/) | Settings for LZFSE compression within an Apple Archive (.aar) file. |
 | [AppleLzmaCompressionSettings](./applelzmacompressionsettings/) | Settings for LZMA compression within an Apple Archive (.aar) file. |
+| [AppleStoreCompressionSettings](./applestorecompressionsettings/) | Settings for store (no compression) within an Apple Archive (.aar) file. |
 | [AppleZlibCompressionSettings](./applezlibcompressionsettings/) | Settings for Zlib compression within an Apple Archive (.aar) file. |
 
 

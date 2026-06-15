@@ -3,7 +3,7 @@ title: Class CabMsZipCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Cab.CabMsZipCompressionSettings class. Compression settings that encode CAB data blocks using MSZip deflate compression
 type: docs
-weight: 290
+weight: 310
 url: /net/aspose.zip.cab/cabmszipcompressionsettings/
 ---
 ## CabMsZipCompressionSettings class

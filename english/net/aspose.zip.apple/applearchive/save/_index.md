@@ -3,7 +3,7 @@ title: AppleArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchive method. Saves archive to the stream provided
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.zip.apple/applearchive/save/
 ---
 ## Save(Stream) {#save}

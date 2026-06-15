@@ -25,6 +25,7 @@ public class AppleArchiveEntrySettings
 | Name | Description |
 | --- | --- |
 | [CompressionSettings](../../aspose.zip.apple/applearchiveentrysettings/compressionsettings/) { get; } | Gets compression settings applied to the composed Apple Archive payload. |
+| [IncludeCrc32Checksum](../../aspose.zip.apple/applearchiveentrysettings/includecrc32checksum/) { get; set; } | Gets or sets a value indicating whether CRC32 checksum fields are included for composed file entries. |
 
 ### See Also
 

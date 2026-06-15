@@ -3,7 +3,7 @@ title: Class ArjArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Arj.ArjArchive class. This class represents an ARJ archive file
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.zip.arj/arjarchive/
 ---
 ## ArjArchive class

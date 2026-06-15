@@ -3,7 +3,7 @@ title: Class ArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveLoadOptions class. Options with which archive is loaded from a compressed file
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.zip/archiveloadoptions/
 ---
 ## ArchiveLoadOptions class

@@ -3,7 +3,7 @@ title: AppleArchive.CreateEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchive method. Creates a single entry within the archive
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.apple/applearchive/createentry/
 ---
 ## CreateEntry(string, string, bool) {#createentry_2}
