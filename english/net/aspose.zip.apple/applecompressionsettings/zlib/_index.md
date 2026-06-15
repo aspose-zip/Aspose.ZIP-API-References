@@ -3,7 +3,7 @@ title: AppleCompressionSettings.Zlib
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleCompressionSettings property. An instance of AppleZlibCompressionSettings with default parameters
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.apple/applecompressionsettings/zlib/
 ---
 ## AppleCompressionSettings.Zlib property

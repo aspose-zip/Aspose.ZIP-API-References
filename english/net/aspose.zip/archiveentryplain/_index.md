@@ -3,7 +3,7 @@ title: Class ArchiveEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveEntryPlain class. Zip entry that needs to be compressed without encryption or decompressed without decryption
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.zip/archiveentryplain/
 ---
 ## ArchiveEntryPlain class

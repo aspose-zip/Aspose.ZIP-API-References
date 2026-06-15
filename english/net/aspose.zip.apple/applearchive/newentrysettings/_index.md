@@ -3,7 +3,7 @@ title: AppleArchive.NewEntrySettings
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchive property. Gets settings used for newly composed entries
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.apple/applearchive/newentrysettings/
 ---
 ## AppleArchive.NewEntrySettings property

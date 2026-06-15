@@ -1,14 +1,14 @@
 ---
 title: Class AppleArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
-description: Aspose.Zip.Apple.AppleArchiveEntry class. Represents a single entry within an AppleArchive
+description: Aspose.Zip.Apple.AppleArchiveEntry class. Represents a file or directory entry within an AppleArchive
 type: docs
 weight: 20
 url: /net/aspose.zip.apple/applearchiveentry/
 ---
 ## AppleArchiveEntry class
 
-Represents a single entry within an [`AppleArchive`](../applearchive/).
+Represents a file or directory entry within an [`AppleArchive`](../applearchive/).
 
 ```csharp
 public sealed class AppleArchiveEntry : IArchiveFileEntry
@@ -18,9 +18,19 @@ public sealed class AppleArchiveEntry : IArchiveFileEntry
 
 | Name | Description |
 | --- | --- |
-| [IsDirectory](../../aspose.zip.apple/applearchiveentry/isdirectory/) { get; } | Gets a value indicating whether this entry is a directory. |
-| [Length](../../aspose.zip.apple/applearchiveentry/length/) { get; } | Gets the length of the entry in bytes. |
-| [Name](../../aspose.zip.apple/applearchiveentry/name/) { get; } | Gets a name of the entry within the archive. |
+| [IsDirectory](../../aspose.zip.apple/applearchiveentry/isdirectory/) { get; } | Gets a value indicating whether the entry represents a directory. |
+| [Length](../../aspose.zip.apple/applearchiveentry/length/) { get; } | Gets the uncompressed length of the entry in bytes. |
+| [Name](../../aspose.zip.apple/applearchiveentry/name/) { get; } | Gets the path of the entry inside the archive. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Open](../../aspose.zip.apple/applearchiveentry/open/)() | Opens the entry for extraction and provides a stream with the entry content. |
+
+## Remarks
+
+An instance of this class can represent either an entry parsed from an existing Apple Archive or an entry added to an archive being composed.
 
 ### See Also
 

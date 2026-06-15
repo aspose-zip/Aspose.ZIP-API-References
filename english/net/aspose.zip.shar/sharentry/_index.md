@@ -3,7 +3,7 @@ title: Class SharEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Shar.SharEntry class. Represents a single file within shar archive
 type: docs
-weight: 1120
+weight: 1140
 url: /net/aspose.zip.shar/sharentry/
 ---
 ## SharEntry class

@@ -3,7 +3,7 @@ title: Class GzipLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Gzip.GzipLoadOptions class. Options for loading GzipArchive
 type: docs
-weight: 410
+weight: 430
 url: /net/aspose.zip.gzip/gziploadoptions/
 ---
 ## GzipLoadOptions class
