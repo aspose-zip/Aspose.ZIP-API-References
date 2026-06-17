@@ -16,10 +16,13 @@ The AppleArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |AppleArchive(new_entry_settings)|Initializes a new instance of the [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/) class with settings used for composed entries.|
+|AppleArchive(source_stream, load_options)|Initializes a new instance of the [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/) class and composes an entry list can be extracted from the archive.|
+|AppleArchive(path, load_options)|Initializes a new instance of the [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
 |entries|Gets entries constituting the archive.|
+|is_solid|Gets a value indicating whether the archive uses solid compression.<br/>            In solid mode, all entry data is compressed as a single stream and<br/>            individual entry extraction is not available. Use|
 |new_entry_settings|Gets settings used for newly composed entries.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |format|Gets the archive format.|

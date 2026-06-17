@@ -9,20 +9,21 @@ url: /python-net/aspose.zip.apple/applearchiveentry/
 
 ## AppleArchiveEntry class
 
-Represents a single entry within an [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).
+Represents a file or directory entry within an [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).
 
 The AppleArchiveEntry type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|name|Gets a name of the entry within the archive.|
-|length|Gets the length of the entry in bytes.|
-|is_directory|Gets a value indicating whether this entry is a directory.|
+|name|Gets the path of the entry inside the archive.|
+|length|Gets the uncompressed length of the entry in bytes.|
+|is_directory|Gets a value indicating whether the entry represents a directory.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |extract(path)|Extracts the entry to the filesystem by the path provided.|
 |extract(destination)|Extracts the entry to the stream provided.|
+|open()|Opens the entry for extraction and provides a stream with the entry content.|
 
 ### See Also
 

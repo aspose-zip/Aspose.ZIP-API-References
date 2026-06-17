@@ -14,10 +14,12 @@ Contains classes which represent Apple archive related entities.
 | Class | Description |
 | :- | :- |
 |[AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/)|This class represents an Apple Archive (.aar) file. Use it to compose Apple Archive files.|
-|[AppleArchiveEntry](/zip/python-net/aspose.zip.apple/applearchiveentry/)|Represents a single entry within an [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).|
+|[AppleArchiveEntry](/zip/python-net/aspose.zip.apple/applearchiveentry/)|Represents a file or directory entry within an [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).|
 |[AppleArchiveEntrySettings](/zip/python-net/aspose.zip.apple/applearchiveentrysettings/)|Settings used to compose entries inside [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).|
+|[AppleArchiveLoadOptions](/zip/python-net/aspose.zip.apple/applearchiveloadoptions/)|Options with which [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/) is loaded from a compressed file.|
 |[AppleCompressionSettings](/zip/python-net/aspose.zip.apple/applecompressionsettings/)|Settings needed for Apple Archive entry compression.|
 |[AppleLz4CompressionSettings](/zip/python-net/aspose.zip.apple/applelz4compressionsettings/)|Settings for LZ4 compression within an Apple Archive (.aar) file.|
 |[AppleLzfseCompressionSettings](/zip/python-net/aspose.zip.apple/applelzfsecompressionsettings/)|Settings for LZFSE compression within an Apple Archive (.aar) file.|
 |[AppleLzmaCompressionSettings](/zip/python-net/aspose.zip.apple/applelzmacompressionsettings/)|Settings for LZMA compression within an Apple Archive (.aar) file.|
+|[AppleStoreCompressionSettings](/zip/python-net/aspose.zip.apple/applestorecompressionsettings/)|Settings for store (no compression) within an Apple Archive (.aar) file.|
 |[AppleZlibCompressionSettings](/zip/python-net/aspose.zip.apple/applezlibcompressionsettings/)|Settings for Zlib compression within an Apple Archive (.aar) file.|

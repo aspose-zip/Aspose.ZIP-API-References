@@ -1,17 +1,21 @@
 ---
-title: AppleCompressionSettings
+title: AppleStoreCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
-url: /python-net/aspose.zip.apple/applecompressionsettings/
+weight: 90
+url: /python-net/aspose.zip.apple/applestorecompressionsettings/
 ---
 
-## AppleCompressionSettings class
+## AppleStoreCompressionSettings class
 
-Settings needed for Apple Archive entry compression.
+Settings for store (no compression) within an Apple Archive (.aar) file.
 
-The AppleCompressionSettings type exposes the following members:
+The AppleStoreCompressionSettings type exposes the following members:
+## Constructors
+| Name | Description |
+| :- | :- |
+|AppleStoreCompressionSettings()|Initializes a new instance of the [AppleStoreCompressionSettings](/zip/python-net/aspose.zip.apple/applestorecompressionsettings/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
