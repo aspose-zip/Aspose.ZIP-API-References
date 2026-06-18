@@ -20,6 +20,7 @@ The AppleArchiveEntrySettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |compression_settings|Gets compression settings applied to the composed Apple Archive payload.|
+|include_crc_32_checksum|Gets or sets a value indicating whether CRC32 checksum fields are included for composed file entries.|
 
 ### See Also
 
