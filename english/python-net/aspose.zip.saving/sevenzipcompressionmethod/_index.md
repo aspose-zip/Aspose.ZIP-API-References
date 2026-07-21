@@ -25,6 +25,8 @@ Methods of compression that 7Z format support.
 |ARM64|Technique that improves the compression of ARM64 machine code.|
 |ARM|Technique that improves the compression of 32-bit ARM machine code.|
 |BCJ2|Technique that improves the compression of x86 machine code using auxiliary streams.|
+|DEFLATE|File is compressed using Deflate.|
+|DEFLATE64|File is compressed using Deflate64(tm).|
 
 ### See Also
 
