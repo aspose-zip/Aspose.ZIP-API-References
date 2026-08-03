@@ -24,7 +24,6 @@ The LhaArchiveEntry type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(path)|Extracts Lha archive entry to a filesystem by path.|
 |extract(destination)|Extracts the entry to the stream provided.|
 
 ### See Also

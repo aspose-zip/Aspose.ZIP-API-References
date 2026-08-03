@@ -3,7 +3,7 @@ title: XarEntry
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 80
 url: /python-net/aspose.zip.xar/xarentry/
 ---
 
