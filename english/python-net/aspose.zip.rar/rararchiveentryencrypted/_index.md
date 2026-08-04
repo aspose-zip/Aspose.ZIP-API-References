@@ -26,9 +26,7 @@ The RarArchiveEntryEncrypted type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(path, password)|Extracts the entry to the filesystem by the path provided.|
 |extract(destination, password)|Extracts the entry to the stream provided.|
-|extract(path)|Extracts the entry to the filesystem by the path provided.|
 |extract(destination)|Extracts the entry to the stream provided.|
 |open(password)|Opens the entry for extraction and provides a stream with decompressed entry content.|
 

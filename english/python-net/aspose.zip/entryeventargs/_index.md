@@ -3,7 +3,7 @@ title: EntryEventArgs
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 90
 url: /python-net/aspose.zip/entryeventargs/
 ---
 

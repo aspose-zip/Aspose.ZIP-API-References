@@ -3,7 +3,7 @@ title: CabEntry
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.zip.cab/cabentry/
 ---
 
@@ -21,9 +21,8 @@ The CabEntry type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(path)|Extracts the entry to the filesystem by the path provided.|
-|extract(destination)|Extracts the entry to the stream provided.|
 |open()|Opens the entry for extraction and provides a stream with entry content.|
+|extract(destination)|Extracts the entry to the stream provided.|
 
 ### See Also
 
