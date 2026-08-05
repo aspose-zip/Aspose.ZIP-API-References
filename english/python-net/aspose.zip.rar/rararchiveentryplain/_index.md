@@ -22,14 +22,11 @@ The RarArchiveEntryPlain type exposes the following members:
 |creation_time|Gets creation date and time.|
 |last_access_time|Gets last access date and time.|
 |is_directory|Gets a value indicating whether the entry represents a directory.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |extract(path, password)|Extracts the entry to the filesystem by the path provided.|
 |extract(destination, password)|Extracts the entry to the stream provided.|
-|extract(path)|Extracts the entry to the filesystem by the path provided.|
-|extract(destination)|Extracts the entry to the stream provided.|
 |open(password)|Opens the entry for extraction and provides a stream with decompressed entry content.|
 
 ### See Also

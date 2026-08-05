@@ -23,14 +23,14 @@ The XzArchive type exposes the following members:
 | :- | :- |
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |format|Gets the archive format.|
-|name|Gets name of the entry.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |extract(destination)|Extracts xz archive to a stream.|
+|extract(file_info)|Extracts xz archive to a file.|
 |extract(path)|Extracts content of the archive to the directory provided.|
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |save(output)|Saves xz archive to the stream provided.|
 |save(destination_file_name)|Saves xz archive to the destination file provided.|

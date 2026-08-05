@@ -3,7 +3,7 @@ title: SevenZipBZip2CompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 160
 url: /python-net/aspose.zip.saving/sevenzipbzip2compressionsettings/
 ---
 
@@ -15,7 +15,7 @@ The SevenZipBZip2CompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SevenZipBZip2CompressionSettings(block_size)|Initializes a new instance of the [SevenZipBZip2CompressionSettings](/zip/python-net/aspose.zip.saving/sevenzipbzip2compressionsettings/) class.|
+|SevenZipBZip2CompressionSettings(block_size)|Initializes a new instance of the SevenZipBZip2CompressionSettings class|
 |SevenZipBZip2CompressionSettings()|Initializes a new instance of the [SevenZipBZip2CompressionSettings](/zip/python-net/aspose.zip.saving/sevenzipbzip2compressionsettings/) class.|
 ## Properties
 | Name | Description |

@@ -23,16 +23,16 @@ The Lz4Archive type exposes the following members:
 | :- | :- |
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |format|Gets the archive format.|
-|name|Gets name of the entry.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |extract(path)|Extracts the archive to the file by path.|
 |extract(destination)|Extracts the archive to the stream provided.|
 |save(output)|Saves lz4 archive to the stream provided.|
+|save(destination)|Saves lz4 archive to destination file provided.|
 |save(destination_file_name)|Saves archive to the destination file provided.|
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(tar_archive, format)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|

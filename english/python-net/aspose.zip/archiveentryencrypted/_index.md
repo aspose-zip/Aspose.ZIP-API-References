@@ -3,7 +3,7 @@ title: ArchiveEntryEncrypted
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 30
 url: /python-net/aspose.zip/archiveentryencrypted/
 ---
 
@@ -24,14 +24,11 @@ The ArchiveEntryEncrypted type exposes the following members:
 |data_source|Source for the entry if the entry was added to the archive, not extracted.|
 |compression_settings|Gets settings for compression or decompression.|
 |encryption_settings|Gets settings for encryption or decryption.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
-|extract(path, password)|Extracts the entry to the stream provided.|
+|extract(path, password)|Extracts the entry to the filesystem by the path provided.|
 |extract(destination, password)|Extracts the entry to the stream provided.|
-|extract(path)|Extracts the entry to the stream provided.|
-|extract(destination)|Extracts the entry to the stream provided.|
 |open(password)|Opens the entry for extraction and provides a stream with decompressed entry content.|
 
 ### See Also
