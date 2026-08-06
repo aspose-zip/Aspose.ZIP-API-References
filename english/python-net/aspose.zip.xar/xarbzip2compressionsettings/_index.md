@@ -3,7 +3,7 @@ title: XarBzip2CompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /python-net/aspose.zip.xar/xarbzip2compressionsettings/
 ---
 
@@ -15,7 +15,7 @@ The XarBzip2CompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|XarBzip2CompressionSettings(block_size)|Initializes a new instance of the [XarBzip2CompressionSettings](/zip/python-net/aspose.zip.xar/xarbzip2compressionsettings/) class.|
+|XarBzip2CompressionSettings(block_size)|Initializes a new instance of the XarBzip2CompressionSettings class|
 |XarBzip2CompressionSettings()|Initializes a new instance of the [XarBzip2CompressionSettings](/zip/python-net/aspose.zip.xar/xarbzip2compressionsettings/) class.|
 ## Properties
 | Name | Description |

@@ -27,11 +27,11 @@ The GzipArchive type exposes the following members:
 |name|Name of the original file.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |format|Gets the archive format.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |set_source(tar_archive)|Sets the content to be compressed within the archive.|
 |extract(destination)|Extracts the archive to the stream provided.|

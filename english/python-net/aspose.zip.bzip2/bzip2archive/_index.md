@@ -23,12 +23,11 @@ The Bzip2Archive type exposes the following members:
 | :- | :- |
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |format|Gets the archive format.|
-|name|Gets name of the entry.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |set_source(tar_archive, format)|Sets the content to be compressed within the archive.|
 |set_source(cpio_archive, format)|Sets the content to be compressed within the archive.|

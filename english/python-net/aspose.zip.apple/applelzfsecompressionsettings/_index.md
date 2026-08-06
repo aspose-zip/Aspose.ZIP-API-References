@@ -15,7 +15,7 @@ The AppleLzfseCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppleLzfseCompressionSettings(block_size)|Initializes a new instance of the [AppleLzfseCompressionSettings](/zip/python-net/aspose.zip.apple/applelzfsecompressionsettings/) class.|
+|AppleLzfseCompressionSettings(block_size)|Initializes a new instance of the AppleLzfseCompressionSettings class|
 |AppleLzfseCompressionSettings()|Initializes a new instance of the [AppleLzfseCompressionSettings](/zip/python-net/aspose.zip.apple/applelzfsecompressionsettings/) class.|
 ## Properties
 | Name | Description |

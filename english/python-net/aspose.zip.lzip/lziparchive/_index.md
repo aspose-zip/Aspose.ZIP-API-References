@@ -24,16 +24,17 @@ The LzipArchive type exposes the following members:
 |settings|Gets the setting of particular lzip archive.|
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |format|Gets the archive format.|
-|name|Gets name of the entry.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |extract(destination)|Extracts lzip archive to a stream.|
+|extract(file_info)|Extracts lzip archive to a file.|
 |extract(path)|Extracts lzip archive to a file by path.|
 |save(output_stream)|Saves lzip archive to the stream provided.|
 |save(destination_file_name)|Saves lzip archive to destination file provided.|
+|save(destination)|Saves lzip archive to destination file provided.|
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 

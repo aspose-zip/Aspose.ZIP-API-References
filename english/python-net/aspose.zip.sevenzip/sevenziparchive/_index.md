@@ -31,13 +31,16 @@ The SevenZipArchive type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
+|create_entry(name, file_info, open_immediately, new_entry_settings)|Create a single entry within the archive.|
+|create_entry(name, source, new_entry_settings, file_info)|Create a single entry within the archive.|
 |create_entry(name, source, new_entry_settings)|Create a single entry within the archive.|
 |create_entry(name, path, open_immediately, new_entry_settings)|Create a single entry within the archive.|
+|create_entries(directory, include_root_directory)|Adds to the archive all files and directories recursively in the directory given.|
+|create_entries(source_directory, include_root_directory)|Adds to the archive all files and directories recursively in the directory given.|
 |save(output, save_options)|Saves 7z archive to the stream provided.|
 |save(destination_file_name, save_options)|Saves archive to a destination file provided.|
 |extract_to_directory(destination_directory, password)|Extracts all the files in the archive to the directory provided.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
-|create_entries(source_directory, include_root_directory)|Adds to the archive all files and directories recursively in the directory given.|
 |save_split(destination_directory, options)|Saves multi-volume archive to destination directory provided.|
 
 ### See Also

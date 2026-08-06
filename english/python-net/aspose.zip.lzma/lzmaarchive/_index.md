@@ -23,16 +23,17 @@ The LzmaArchive type exposes the following members:
 | :- | :- |
 |file_entries|Gets entries of [IArchiveFileEntry](/zip/python-net/aspose.zip/iarchivefileentry/) type constituting the archive.|
 |format|Gets the archive format.|
-|name|Gets name of the entry.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |extract(destination)|Extracts lzma archive to a stream.|
+|extract(file_info)|Extracts lzma archive to a file.|
 |extract(path)|Extracts lzma archive to a file by path.|
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |save(output)|Saves lzma archive to the stream provided.|
+|save(destination)|Saves lzma archive to destination file provided.|
 |save(destination_file_name)|Saves lzma archive to destination file provided.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 

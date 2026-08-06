@@ -18,11 +18,11 @@ The ArjEntryPlain type exposes the following members:
 |name|Gets name of the entry within the archive.|
 |compressed_size|Gets the size of a compressed file.|
 |uncompressed_size|Gets size of an original file.|
-|length|Gets the length of the entry in bytes.|
 ## Methods
 | Name | Description |
 | :- | :- |
 |extract(path)|Extracts the entry to the filesystem by the path provided.|
+|extract(file_info)|Extracts ARJ archive entry to a file.|
 |extract(destination)|Extracts the entry to the stream provided.|
 
 ### See Also
