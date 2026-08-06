@@ -3,7 +3,7 @@ title: XarArchive
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 40
 url: /python-net/aspose.zip.xar/xararchive/
 ---
 
@@ -27,12 +27,14 @@ The XarArchive type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
+|create_entries(source_directory, include_root_directory, compression_settings)|Adds to the archive all the files and directories recursively in the directory given.|
+|create_entries(directory, include_root_directory, compression_settings)|Adds to the archive all the files and directories recursively in the directory given.|
+|create_entry(name, file_info, open_immediately, compression_settings)|Create a single entry within the archive.|
 |create_entry(name, source_path, open_immediately, compression_settings)|Create a single entry within the archive.|
 |create_entry(name, source, compression_settings)|Create a single entry within the archive.|
 |save(destination_file_name, save_options)|Saves archive to the destination file provided.|
 |save(output, save_options)|Saves archive to the stream provided.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
-|create_entries(source_directory, include_root_directory, compression_settings)|Adds to the archive all the files and directories recursively in the directory given.|
 |delete_entry(entry)|Removes the first occurrence of a specific entry from the entry list.|
 
 ### See Also

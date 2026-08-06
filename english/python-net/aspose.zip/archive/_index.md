@@ -3,7 +3,7 @@ title: Archive
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 10
 url: /python-net/aspose.zip/archive/
 ---
 
@@ -32,11 +32,14 @@ The Archive type exposes the following members:
 | :- | :- |
 |create_entry(name, path, open_immediately, new_entry_settings)|Create a single entry within the archive.|
 |create_entry(name, source, new_entry_settings)|Create a single entry within the archive.|
+|create_entry(name, file_info, open_immediately, new_entry_settings)|Create a single entry within the archive.|
+|create_entry(name, source, new_entry_settings, file_info)|Create a single entry within the archive.|
+|create_entries(directory, include_root_directory)|Add to the archive all files and directories recursively in the directory given.|
+|create_entries(source_directory, include_root_directory)|Add to the archive all files and directories recursively in the directory given.|
 |delete_entry(entry)|Removes the first occurrence of the specific entry from the entry list.|
-|delete_entry(entry_index)|Removes the entry from the entry list by index.|
+|delete_entry(entry_index)|  |
 |save(output_stream, save_options)|Saves archive to the stream provided.|
 |save(destination_file_name, save_options)|Saves archive to the destination file provided.|
-|create_entries(source_directory, include_root_directory)|Add to the archive all files and directories recursively in the directory given.|
 |save_split(destination_directory, options)|Saves multi-volume archive to destination directory provided.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 
