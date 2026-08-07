@@ -29,6 +29,7 @@ The Bzip2Archive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |set_source(tar_archive, format)|Sets the content to be compressed within the archive.|
 |set_source(cpio_archive, format)|Sets the content to be compressed within the archive.|

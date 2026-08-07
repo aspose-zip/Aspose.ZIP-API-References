@@ -23,6 +23,7 @@ The ArjEntryPlain type exposes the following members:
 | Name | Description |
 | :- | :- |
 |extract(path)|Extracts the entry to the filesystem by the path provided.|
+|extract(file_info)|Extracts ARJ archive entry to a file.|
 |extract(destination)|Extracts the entry to the stream provided.|
 
 ### See Also
