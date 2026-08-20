@@ -3,7 +3,7 @@ title: Class AppleCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Apple.AppleCompressionSettings class. Settings needed for Apple Archive entry compression
 type: docs
-weight: 50
+weight: 100
 url: /net/aspose.zip.apple/applecompressionsettings/
 ---
 ## AppleCompressionSettings class

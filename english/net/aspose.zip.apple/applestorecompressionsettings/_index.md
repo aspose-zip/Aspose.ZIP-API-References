@@ -3,7 +3,7 @@ title: Class AppleStoreCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Apple.AppleStoreCompressionSettings class. Settings for store no compression within an Apple Archive .aar file
 type: docs
-weight: 90
+weight: 140
 url: /net/aspose.zip.apple/applestorecompressionsettings/
 ---
 ## AppleStoreCompressionSettings class

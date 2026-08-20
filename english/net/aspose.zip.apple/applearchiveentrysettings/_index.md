@@ -3,7 +3,7 @@ title: Class AppleArchiveEntrySettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Apple.AppleArchiveEntrySettings class. Settings used to compose entries inside AppleArchive
 type: docs
-weight: 30
+weight: 80
 url: /net/aspose.zip.apple/applearchiveentrysettings/
 ---
 ## AppleArchiveEntrySettings class

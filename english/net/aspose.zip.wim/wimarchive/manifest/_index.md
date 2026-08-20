@@ -3,7 +3,7 @@ title: WimArchive.Manifest
 second_title: Aspose.ZIP for .NET API Reference
 description: WimArchive property. Gets the embedded manifest describing the file and the contained images
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.wim/wimarchive/manifest/
 ---
 ## WimArchive.Manifest property

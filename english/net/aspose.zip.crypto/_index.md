@@ -3,7 +3,7 @@ title: Aspose.Zip.Crypto
 second_title: Aspose.ZIP for .NET API Reference
 description: The Crypto namespace contains classes for external encryption routines
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.zip.crypto/
 ---
 The Crypto namespace contains classes for external encryption routines.
