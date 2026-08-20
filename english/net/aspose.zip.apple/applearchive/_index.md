@@ -3,7 +3,7 @@ title: Class AppleArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Apple.AppleArchive class. This class represents an Apple Archive .aar file. Use it to compose Apple Archive files
 type: docs
-weight: 10
+weight: 60
 url: /net/aspose.zip.apple/applearchive/
 ---
 ## AppleArchive class

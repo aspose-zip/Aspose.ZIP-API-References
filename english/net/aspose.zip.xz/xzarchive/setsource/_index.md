@@ -3,7 +3,7 @@ title: XzArchive.SetSource
 second_title: Aspose.ZIP for .NET API Reference
 description: XzArchive method. Sets the content to be compressed within the archive
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.xz/xzarchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_1}

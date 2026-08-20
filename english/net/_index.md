@@ -12,6 +12,7 @@ is_root: true
 | Namespace | Description |
 | --- | --- |
 | [Aspose.Zip](./aspose.zip/) | The Zip namespace contains classes which represent ZIP archive and common archive related entities. |
+| [Aspose.Zip.Alz](./aspose.zip.alz/) | The Alz namespace contains classes which represent ALZ related entities. |
 | [Aspose.Zip.Apple](./aspose.zip.apple/) | The Apple namespace contains classes which represent Apple Archive related entities. |
 | [Aspose.Zip.ArchiveInfo](./aspose.zip.archiveinfo/) | The ArchiveInfo namespace contains classes which represent archive info related entities. |
 | [Aspose.Zip.Arj](./aspose.zip.arj/) | The Arj namespace contains classes which represent Arj related entities. |

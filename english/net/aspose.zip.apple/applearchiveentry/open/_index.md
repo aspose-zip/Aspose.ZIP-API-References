@@ -3,7 +3,7 @@ title: AppleArchiveEntry.Open
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchiveEntry method. Opens the entry for extraction and provides a stream with the entry content
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.apple/applearchiveentry/open/
 ---
 ## AppleArchiveEntry.Open method

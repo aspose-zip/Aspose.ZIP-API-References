@@ -3,7 +3,7 @@ title: Class XzArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.XzArchive class. This class represents xz archive file. Use it to compose and extract xz archives
 type: docs
-weight: 1460
+weight: 1520
 url: /net/aspose.zip.xz/xzarchive/
 ---
 ## XzArchive class
@@ -21,6 +21,12 @@ public class XzArchive : IArchive, IArchiveFileEntry
 | [XzArchive](xzarchive/#constructor)(XzArchiveSettings) | Initializes a new instance of the `XzArchive` class and composes the archive in xz format. |
 | [XzArchive](xzarchive/#constructor_1)(Stream, XzLoadOptions) | Initializes a new instance of the `XzArchive` class prepared for decompressing. |
 | [XzArchive](xzarchive/#constructor_2)(string, XzLoadOptions) | Initializes a new instance of the `XzArchive` class prepared for decompressing. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [UncompressedSize](../../aspose.zip.xz/xzarchive/uncompressedsize/) { get; } | Uncompressed size of the file data in bytes. |
 
 ## Methods
 

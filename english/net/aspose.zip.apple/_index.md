@@ -3,7 +3,7 @@ title: Aspose.Zip.Apple
 second_title: Aspose.ZIP for .NET API Reference
 description: The Apple namespace contains classes which represent Apple Archive related entities
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.apple/
 ---
 The Apple namespace contains classes which represent Apple Archive related entities.

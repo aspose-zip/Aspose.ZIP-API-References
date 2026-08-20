@@ -3,7 +3,7 @@ title: Class AppleArchiveEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Apple.AppleArchiveEntry class. Represents a file or directory entry within an AppleArchive
 type: docs
-weight: 20
+weight: 70
 url: /net/aspose.zip.apple/applearchiveentry/
 ---
 ## AppleArchiveEntry class
@@ -26,6 +26,8 @@ public sealed class AppleArchiveEntry : IArchiveFileEntry
 
 | Name | Description |
 | --- | --- |
+| [Extract](../../aspose.zip.apple/applearchiveentry/extract/#extract_1)(Stream) | Extracts the entry to the stream provided. |
+| [Extract](../../aspose.zip.apple/applearchiveentry/extract/#extract)(string) | Extracts the entry to the filesystem by the path provided. |
 | [Open](../../aspose.zip.apple/applearchiveentry/open/)() | Opens the entry for extraction and provides a stream with the entry content. |
 
 ## Remarks

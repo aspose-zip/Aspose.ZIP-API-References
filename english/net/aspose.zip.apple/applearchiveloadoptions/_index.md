@@ -3,7 +3,7 @@ title: Class AppleArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Apple.AppleArchiveLoadOptions class. Options with which AppleArchive is loaded from a compressed file
 type: docs
-weight: 40
+weight: 90
 url: /net/aspose.zip.apple/applearchiveloadoptions/
 ---
 ## AppleArchiveLoadOptions class

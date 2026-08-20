@@ -3,7 +3,7 @@ title: XzArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: XzArchive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.xz/xzarchive/dispose/
 ---
 ## XzArchive.Dispose method

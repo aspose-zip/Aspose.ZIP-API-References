@@ -3,7 +3,7 @@ title: Class WimArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Wim.WimArchive class. This class represents a wim archive file
 type: docs
-weight: 1210
+weight: 1270
 url: /net/aspose.zip.wim/wimarchive/
 ---
 ## WimArchive class
@@ -26,6 +26,7 @@ public class WimArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [BootImageIndex](../../aspose.zip.wim/wimarchive/bootimageindex/) { get; } | Gets the (zero-based) index of the bootable image. |
+| [Entries](../../aspose.zip.wim/wimarchive/entries/) { get; } | Gets entries of [`WimEntry`](../wimentry/) type constituting the archive. |
 | [FileFormatVersion](../../aspose.zip.wim/wimarchive/fileformatversion/) { get; } | Gets the version of the file format. |
 | [Guid](../../aspose.zip.wim/wimarchive/guid/) { get; } | Gets the identifying GUID for the archive. |
 | [Images](../../aspose.zip.wim/wimarchive/images/) { get; } | Gets entries of [`WimImage`](../wimimage/) type constituting the archive. |

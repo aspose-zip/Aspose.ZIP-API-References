@@ -3,7 +3,7 @@ title: Class ArchiveFactory
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.ArchiveFactory class. Detects the archive format and creates the appropriate IArchive object according to the type of archive
 type: docs
-weight: 150
+weight: 200
 url: /net/aspose.zip/archivefactory/
 ---
 ## ArchiveFactory class

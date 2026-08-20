@@ -1,14 +1,14 @@
 ---
 title: RarArchiveLoadOptions.RarArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
-description: RarArchiveLoadOptions constructor. The default constructor
+description: RarArchiveLoadOptions constructor. Initializes a new instance of the RarArchiveLoadOptions class
 type: docs
 weight: 10
 url: /net/aspose.zip.rar/rararchiveloadoptions/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions constructor
 
-The default constructor.
+Initializes a new instance of the [`RarArchiveLoadOptions`](../) class.
 
 ```csharp
 public RarArchiveLoadOptions()

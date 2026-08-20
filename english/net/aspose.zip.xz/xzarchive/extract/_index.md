@@ -3,7 +3,7 @@ title: XzArchive.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: XzArchive method. Extracts xz archive to a stream
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.xz/xzarchive/extract/
 ---
 ## Extract(Stream) {#extract_2}

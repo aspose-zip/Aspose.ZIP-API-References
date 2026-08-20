@@ -3,7 +3,7 @@ title: LzipArchive.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: LzipArchive method. Extracts lzip archive to a stream
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.lzip/lziparchive/extract/
 ---
 ## Extract(Stream) {#extract_1}
