@@ -3,7 +3,7 @@ title: WimArchive.Images
 second_title: Aspose.ZIP for .NET API Reference
 description: WimArchive property. Gets entries of WimImage type constituting the archive
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.wim/wimarchive/images/
 ---
 ## WimArchive.Images property

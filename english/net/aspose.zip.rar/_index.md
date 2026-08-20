@@ -3,7 +3,7 @@ title: Aspose.Zip.Rar
 second_title: Aspose.ZIP for .NET API Reference
 description: The Rar namespace contains classes which represent RAR archive related entities
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.zip.rar/
 ---
 The Rar namespace contains classes which represent RAR archive related entities.
@@ -17,5 +17,10 @@ The Rar namespace contains classes which represent RAR archive related entities.
 | [RarArchiveEntryEncrypted](./rararchiveentryencrypted/) | Zip entry that needs to be decompressed with decryption. |
 | [RarArchiveEntryPlain](./rararchiveentryplain/) | Rar entry that needs to be decompressed without decryption. |
 | [RarArchiveLoadOptions](./rararchiveloadoptions/) | Options with which [`RarArchive`](../aspose.zip.rar/rararchive/) is loaded from a compressed file. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| [RarDictionaryStorageMode](./rardictionarystoragemode/) | Specifies how the RAR decompression dictionary is stored. |
 
 

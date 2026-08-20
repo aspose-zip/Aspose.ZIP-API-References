@@ -3,7 +3,7 @@ title: XzArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
 description: XzArchive method. Saves xz archive to the stream provided
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.xz/xzarchive/save/
 ---
 ## Save(Stream) {#save}

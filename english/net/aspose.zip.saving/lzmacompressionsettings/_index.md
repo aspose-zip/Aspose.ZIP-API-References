@@ -3,7 +3,7 @@ title: Class LzmaCompressionSettings
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.LzmaCompressionSettings class. Settings for LZMA compression within a ZIP archive
 type: docs
-weight: 850
+weight: 910
 url: /net/aspose.zip.saving/lzmacompressionsettings/
 ---
 ## LzmaCompressionSettings class

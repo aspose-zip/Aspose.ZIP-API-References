@@ -3,7 +3,7 @@ title: Enum SevenZipCompressionMethod
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipCompressionMethod enum. Methods of compression that 7Z format support
 type: docs
-weight: 930
+weight: 990
 url: /net/aspose.zip.saving/sevenzipcompressionmethod/
 ---
 ## SevenZipCompressionMethod enumeration
@@ -29,6 +29,10 @@ public enum SevenZipCompressionMethod : ushort
 | Arm64 | `8` | Technique that improves the compression of ARM64 machine code. |
 | Arm | `9` | Technique that improves the compression of 32-bit ARM machine code. |
 | BCJ2 | `10` | Technique that improves the compression of x86 machine code using auxiliary streams. |
+| Deflate | `11` | File is compressed using Deflate. |
+| Deflate64 | `12` | File is compressed using Deflate64(tm). |
+| Swap2 | `13` | Technique that improves the compression swapping bytes. |
+| Swap4 | `14` | Technique that improves the compression swapping bytes. |
 
 ### See Also
 

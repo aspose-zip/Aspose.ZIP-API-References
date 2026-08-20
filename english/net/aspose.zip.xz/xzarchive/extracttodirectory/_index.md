@@ -3,7 +3,7 @@ title: XzArchive.ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: XzArchive method. Extracts content of the archive to the directory provided
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.xz/xzarchive/extracttodirectory/
 ---
 ## XzArchive.ExtractToDirectory method

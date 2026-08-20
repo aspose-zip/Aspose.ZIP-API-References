@@ -3,7 +3,7 @@ title: Aspose.Zip.Cab
 second_title: Aspose.ZIP for .NET API Reference
 description: The Cab namespace contains classes which represent Cab archive related entities
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.cab/
 ---
 The Cab namespace contains classes which represent Cab archive related entities.

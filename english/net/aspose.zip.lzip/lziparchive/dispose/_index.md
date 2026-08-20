@@ -3,7 +3,7 @@ title: LzipArchive.Dispose
 second_title: Aspose.ZIP for .NET API Reference
 description: LzipArchive method. Performs applicationdefined tasks associated with freeing releasing or resetting unmanaged resources
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.lzip/lziparchive/dispose/
 ---
 ## LzipArchive.Dispose method

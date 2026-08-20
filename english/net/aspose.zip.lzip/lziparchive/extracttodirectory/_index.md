@@ -3,7 +3,7 @@ title: LzipArchive.ExtractToDirectory
 second_title: Aspose.ZIP for .NET API Reference
 description: LzipArchive method. Extracts content of the archive to the directory provided
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.zip.lzip/lziparchive/extracttodirectory/
 ---
 ## LzipArchive.ExtractToDirectory method

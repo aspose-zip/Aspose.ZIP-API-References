@@ -3,7 +3,7 @@ title: LzipArchive.SetSource
 second_title: Aspose.ZIP for .NET API Reference
 description: LzipArchive method. Sets the content to be compressed within the archive
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.zip.lzip/lziparchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_1}

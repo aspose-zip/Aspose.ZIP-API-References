@@ -3,7 +3,7 @@ title: WimArchive.Guid
 second_title: Aspose.ZIP for .NET API Reference
 description: WimArchive property. Gets the identifying GUID for the archive
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.wim/wimarchive/guid/
 ---
 ## WimArchive.Guid property

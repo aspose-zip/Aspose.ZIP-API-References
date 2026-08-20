@@ -3,7 +3,7 @@ title: Class LzipLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Lzip.LzipLoadOptions class. Options for loading LzipArchive
 type: docs
-weight: 630
+weight: 680
 url: /net/aspose.zip.lzip/lziploadoptions/
 ---
 ## LzipLoadOptions class

@@ -3,7 +3,7 @@ title: LzipArchive.Save
 second_title: Aspose.ZIP for .NET API Reference
 description: LzipArchive method. Saves lzip archive to the stream provided
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.zip.lzip/lziparchive/save/
 ---
 ## Save(Stream) {#save_1}

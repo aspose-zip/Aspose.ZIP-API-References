@@ -3,7 +3,7 @@ title: Class ArjEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Arj.ArjEntryPlain class. Represents a single file within ARJ archive
 type: docs
-weight: 210
+weight: 260
 url: /net/aspose.zip.arj/arjentryplain/
 ---
 ## ArjEntryPlain class

@@ -3,7 +3,7 @@ title: Aspose.Zip.Lzip
 second_title: Aspose.ZIP for .NET API Reference
 description: The Lzip namespace contains classes which represent lzip archive related entities
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.zip.lzip/
 ---
 The Lzip namespace contains classes which represent lzip archive related entities.

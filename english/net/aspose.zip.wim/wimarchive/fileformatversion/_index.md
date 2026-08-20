@@ -3,7 +3,7 @@ title: WimArchive.FileFormatVersion
 second_title: Aspose.ZIP for .NET API Reference
 description: WimArchive property. Gets the version of the file format
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.wim/wimarchive/fileformatversion/
 ---
 ## WimArchive.FileFormatVersion property
