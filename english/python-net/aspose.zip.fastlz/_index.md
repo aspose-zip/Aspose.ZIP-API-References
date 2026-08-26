@@ -3,7 +3,7 @@ title: aspose.zip.fastlz
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 100
 url: /python-net/aspose.zip.fastlz/
 ---
 

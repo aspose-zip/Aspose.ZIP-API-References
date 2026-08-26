@@ -3,7 +3,7 @@ title: LzmaCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.zip.saving/lzmacompressionsettings/
 ---
 
@@ -16,8 +16,8 @@ The LzmaCompressionSettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |LzmaCompressionSettings()|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with default parameters.|
-|LzmaCompressionSettings(dictionary_size, number_of_fast_bytes, literal_context_bits)|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with specified dictionary size, number of fast bytes and number of literal context bits.|
-|LzmaCompressionSettings(dictionary_size)|Initializes a new instance of the [LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/) class with specified dictionary size, number of fast bytes and number of literal context bits.|
+|LzmaCompressionSettings(dictionary_size, number_of_fast_bytes, literal_context_bits)|Initializes a new instance of the LzmaCompressionSettings class|
+|LzmaCompressionSettings(dictionary_size)|Initializes a new instance of the LzmaCompressionSettings class|
 ## Properties
 | Name | Description |
 | :- | :- |

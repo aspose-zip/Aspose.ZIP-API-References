@@ -3,7 +3,7 @@ title: aspose.zip.arj
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 50
 url: /python-net/aspose.zip.arj/
 ---
 

@@ -3,7 +3,7 @@ title: XarLoadOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 100
 url: /python-net/aspose.zip.xar/xarloadoptions/
 ---
 

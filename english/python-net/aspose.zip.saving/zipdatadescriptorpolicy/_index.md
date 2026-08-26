@@ -3,7 +3,7 @@ title: ZipDataDescriptorPolicy
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.zip.saving/zipdatadescriptorpolicy/
 ---
 
