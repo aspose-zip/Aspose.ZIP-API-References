@@ -3,7 +3,7 @@ title: IsoLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from a compressed file.
 type: docs
-weight: 58
+weight: 73
 url: /java/com.aspose.zip/isoloadoptions/
 ---
 
@@ -42,6 +42,8 @@ Gets an event that is raised when some bytes have been extracted.
 
 ```
 
+``````
+
      long length = 10_000_000;
      IsoLoadOptions loadOptions = new IsoLoadOptions();
      loadOptions.setEntryExtractionProgressed((sender, args) -> {
@@ -66,6 +68,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel ISO archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
@@ -98,6 +102,8 @@ public final void setEntryExtractionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when some bytes have been extracted.
 
 ```
+
+``````
 
      long length = 10_000_000;
      IsoLoadOptions loadOptions = new IsoLoadOptions();

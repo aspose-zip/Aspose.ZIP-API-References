@@ -1,9 +1,9 @@
 ---
 title: ArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
-description: Options with which archive is loaded from a compressed file.
+description: Options with which ZIP archive is loaded from a compressed file.
 type: docs
-weight: 20
+weight: 35
 url: /java/com.aspose.zip/archiveloadoptions/
 ---
 
@@ -13,7 +13,7 @@ java.lang.Object
 public class ArchiveLoadOptions
 ```
 
-Options with which archive is loaded from a compressed file.
+Options with which ZIP archive is loaded from a compressed file.
 ## Constructors
 
 | Constructor | Description |
@@ -55,6 +55,8 @@ You can provide decryption password once on archive extraction.
 
 ```
 
+``````
+
     try (FileInputStream fs = new FileInputStream("encrypted_archive.zip")) {
         try (FileOutputStream extracted = new FileOutputStream("extracted.bin")) {
             ArchiveLoadOptions options = new ArchiveLoadOptions();
@@ -92,6 +94,8 @@ Entry name composed using specified encoding regardless of zip file properties.
 
 ```
 
+``````
+
     try (FileInputStream fs = new FileInputStream("archive.zip")) {
         ArchiveLoadOptions options = new ArchiveLoadOptions();
         options.setEncoding(Charset.forName("MS932"));
@@ -119,6 +123,8 @@ Track the progress of an entry extraction.
 
 ```
 
+``````
+
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryExtractionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
@@ -132,6 +138,8 @@ Track the progress of an entry extraction.
 Cancel an entry extraction after a certain time.
 
 ```
+
+``````
 
      long startTime = System.nanoTime();
      ArchiveLoadOptions options = new ArchiveLoadOptions();
@@ -158,6 +166,8 @@ public final Event<EntryEventArgs> getEntryListed()
 Gets an event that is raised when an entry listed within table of content.
 
 ```
+
+``````
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryListed(new Event<EntryEventArgs>() {
@@ -205,6 +215,8 @@ Cancel ZIP archive extraction after a certain time.
 
 ```
 
+``````
+
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
          ArchiveLoadOptions options = new ArchiveLoadOptions();
@@ -239,6 +251,8 @@ Sets the password to decrypt entries.
 You can provide decryption password once on archive extraction.
 
 ```
+
+``````
 
     try (FileInputStream fs = new FileInputStream("encrypted_archive.zip")) {
         try (FileOutputStream extracted = new FileOutputStream("extracted.bin")) {
@@ -280,6 +294,8 @@ Entry name composed using specified encoding regardless of zip file properties.
 
 ```
 
+``````
+
     try (FileInputStream fs = new FileInputStream("archive.zip")) {
         ArchiveLoadOptions options = new ArchiveLoadOptions();
         options.setEncoding(Charset.forName("MS932"));
@@ -310,6 +326,8 @@ Track the progress of an entry extraction.
 
 ```
 
+``````
+
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryExtractionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
@@ -323,6 +341,8 @@ Track the progress of an entry extraction.
 Cancel an entry extraction after a certain time.
 
 ```
+
+``````
 
      long startTime = System.nanoTime();
      ArchiveLoadOptions options = new ArchiveLoadOptions();
@@ -352,6 +372,8 @@ public final void setEntryListed(Event<EntryEventArgs> value)
 Sets an event that is raised when an entry listed within table of content.
 
 ```
+
+``````
 
     ArchiveLoadOptions options = new ArchiveLoadOptions();
     options.setEntryListed(new Event<EntryEventArgs>() {

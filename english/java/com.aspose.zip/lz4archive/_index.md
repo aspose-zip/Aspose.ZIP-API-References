@@ -3,7 +3,7 @@ title: Lz4Archive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZ4 archive file.
 type: docs
-weight: 65
+weight: 80
 url: /java/com.aspose.zip/lz4archive/
 ---
 
@@ -60,6 +60,8 @@ Open an archive from a stream and extract it to a `MemoryStream`
 
 ```
 
+``````
+
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Lz4Archive archive = new Lz4Archive(new FileInputStream("archive.lz4"))) {
          InputStream decompressed = archive.open();
@@ -91,6 +93,8 @@ Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) 
 Open an archive from a stream and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Lz4Archive archive = new Lz4Archive(new FileInputStream("archive.lz4"))) {
@@ -125,6 +129,8 @@ Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
 
+``````
+
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Lz4Archive archive = new Lz4Archive("archive.lz4")) {
          InputStream decompressed = archive.open();
@@ -156,6 +162,8 @@ Initializes a new instance of the [Lz4Archive](../../com.aspose.zip/lz4archive) 
 Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Lz4Archive archive = new Lz4Archive("archive.lz4")) {
@@ -216,6 +224,8 @@ public final void extract(OutputStream destination)
 Extracts the archive to the stream provided.
 
 ```
+
+``````
 
      OutputStream httpResponseStream = null;
      try (Lz4Archive archive = new Lz4Archive("archive.lz4")) {
@@ -311,6 +321,8 @@ Extracts the archive and copies extracted content to file stream.
 
 ```
 
+``````
+
      try (Lz4Archive archive = new Lz4Archive("archive.lz4")) {
          try (FileOutputStream extracted = new FileOutputStream("data.bin")) {
              InputStream unpacked = archive.open();
@@ -339,6 +351,8 @@ Saves lz4 archive to destination file provided.
 
 ```
 
+``````
+
      try (Lz4Archive archive = new Lz4Archive()) {
          archive.setSource(new File("data.bin"));
          archive.save(new File("archive.lz4"));
@@ -362,6 +376,8 @@ public final void save(OutputStream output)
 Saves lz4 archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream lz4File = new FileOutputStream("archive.lz4")) {
          try (Lz4Archive archive = new Lz4Archive()) {
@@ -390,6 +406,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
      try (Lz4Archive archive = new Lz4Archive()) {
          archive.setSource("data.bin");
          archive.save("archive.lz4");
@@ -413,6 +431,8 @@ public final void setSource(TarArchive tarArchive)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (TarArchive tarArchive = new TarArchive()) {
          tarArchive.createEntry("first.bin", "data1.bin");
@@ -441,6 +461,8 @@ public final void setSource(TarArchive tarArchive, TarFormat format)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (TarArchive tarArchive = new TarArchive()) {
          tarArchive.createEntry("first.bin", "data1.bin");
@@ -473,6 +495,8 @@ Open an archive from a stream and extract it to a `MemoryStream`
 
 ```
 
+``````
+
      try (Lz4Archive archive = new Lz4Archive()) {
          archive.setSource(new File("data.bin"));
          archive.save("archive.lz4");
@@ -496,6 +520,8 @@ public final void setSource(InputStream source)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (Lz4Archive archive = new Lz4Archive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] {
@@ -525,6 +551,8 @@ Sets the content to be compressed within the archive.
 Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      try (Lz4Archive archive = new Lz4Archive()) {
          archive.setSource("data.bin");

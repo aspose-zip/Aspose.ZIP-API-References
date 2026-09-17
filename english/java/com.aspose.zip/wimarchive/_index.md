@@ -3,7 +3,7 @@ title: WimArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a wim archive file.
 type: docs
-weight: 115
+weight: 130
 url: /java/com.aspose.zip/wimarchive/
 ---
 
@@ -32,6 +32,7 @@ This class represents a wim archive file.
 | [close()](#close--) | \{@inheritDoc\} |
 | [extractToDirectory(String destinationDirectory)](#extractToDirectory-java.lang.String-) | Extracts the archive to the file by path. |
 | [getBootImageIndex()](#getBootImageIndex--) | Gets the (zero-based) index of the bootable image. |
+| [getEntries()](#getEntries--) | Gets entries of [WimEntry](../../com.aspose.zip/wimentry) type constituting the archive. |
 | [getFileEntries()](#getFileEntries--) | Gets entries of [IArchiveFileEntry](../../com.aspose.zip/iarchivefileentry) type constituting the wim archive. |
 | [getFileFormatVersion()](#getFileFormatVersion--) | Gets the version of the file format. |
 | [getFormat()](#getFormat--) | Gets the archive format. |
@@ -49,6 +50,8 @@ Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) 
 The following example shows how to extract all of the entries to a directory.
 
 ```
+
+``````
 
      try (WimArchive archive = new WimArchive(new FileInputStream("archive.wim"))) {
          archive.getImages().get_Item(0).extractToDirectory("C:\\extracted");
@@ -75,6 +78,8 @@ Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) 
 The following example shows how to extract all of the entries to a directory.
 
 ```
+
+``````
 
      try (WimArchive archive = new WimArchive(new FileInputStream("archive.wim"))) {
          archive.getImages().get_Item(0).extractToDirectory("C:\\extracted");
@@ -103,6 +108,8 @@ The following example shows how to extract all of the entries to a directory.
 
 ```
 
+``````
+
      try (WimArchive archive = new WimArchive("archive.wim")) {
          archive.getImages().get_Item(0).extractToDirectory("C:\\extracted");
      }
@@ -127,6 +134,8 @@ Initializes a new instance of the [WimArchive](../../com.aspose.zip/wimarchive) 
 The following example shows how to extract all of the entries to a directory.
 
 ```
+
+``````
 
      try (WimArchive archive = new WimArchive("archive.wim")) {
          archive.getImages().get_Item(0).extractToDirectory("C:\\extracted");
@@ -173,6 +182,16 @@ Gets the (zero-based) index of the bootable image.
 
 **Returns:**
 int - the (zero-based) index of the bootable image
+### getEntries() {#getEntries--}
+```
+public final List<WimEntry> getEntries()
+```
+
+
+Gets entries of [WimEntry](../../com.aspose.zip/wimentry) type constituting the archive.
+
+**Returns:**
+java.util.List&lt;com.aspose.zip.WimEntry&gt; - entries constituting the archive
 ### getFileEntries() {#getFileEntries--}
 ```
 public final Iterable<IArchiveFileEntry> getFileEntries()

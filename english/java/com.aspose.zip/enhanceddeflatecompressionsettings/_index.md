@@ -3,7 +3,7 @@ title: EnhancedDeflateCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Enhanced Deflate compression within a ZIP archive.
 type: docs
-weight: 46
+weight: 61
 url: /java/com.aspose.zip/enhanceddeflatecompressionsettings/
 ---
 

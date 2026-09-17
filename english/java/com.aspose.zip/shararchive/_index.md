@@ -3,7 +3,7 @@ title: SharArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a shar archive file.
 type: docs
-weight: 104
+weight: 119
 url: /java/com.aspose.zip/shararchive/
 ---
 
@@ -54,6 +54,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (SharArchive archive = new SharArchive()) {
          archive.createEntry("first.bin", "data.bin");
          archive.save("archive.shar");
@@ -94,6 +96,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream sharFile = new FileOutputStream("archive.shar")) {
          try (SharArchive archive = new SharArchive()) {
              archive.createEntries(new java.io.File("C:\\folder"), false);
@@ -122,6 +126,8 @@ public final SharArchive createEntries(File directory, boolean includeRootDirect
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream sharFile = new FileOutputStream("archive.shar")) {
          try (SharArchive archive = new SharArchive()) {
@@ -153,6 +159,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream sharFile = new FileOutputStream("archive.shar")) {
          try (SharArchive archive = new SharArchive()) {
              archive.createEntries("C:\\folder", false);
@@ -181,6 +189,8 @@ public final SharArchive createEntries(String sourceDirectory, boolean includeRo
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream sharFile = new FileOutputStream("archive.shar")) {
          try (SharArchive archive = new SharArchive()) {
@@ -212,6 +222,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      java.io.File file = new java.io.File("data.bin");
      try (SharArchive archive = new SharArchive()) {
          archive.createEntry("test.bin", file);
@@ -239,6 +251,8 @@ public final SharEntry createEntry(String name, File file, boolean includeRootDi
 Create a single entry within the archive.
 
 ```
+
+``````
 
      java.io.File file = new java.io.File("data.bin");
      try (SharArchive archive = new SharArchive()) {
@@ -269,6 +283,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
      try (SharArchive archive = new SharArchive()) {
          archive.createEntry("data.bin", new FileInputStream("data.bin"));
          archive.save("archive.shar");
@@ -297,6 +313,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
      try (SharArchive archive = new SharArchive()) {
          archive.createEntry("first.bin", "data.bin");
          archive.save("archive.shar");
@@ -323,6 +341,8 @@ public final SharEntry createEntry(String name, String sourcePath, boolean openI
 Create a single entry within the archive.
 
 ```
+
+``````
 
      try (SharArchive archive = new SharArchive()) {
          archive.createEntry("first.bin", "data.bin");
@@ -356,6 +376,8 @@ Here is how you can remove all entries except the last one:
 
 ```
 
+``````
+
      try (SharArchive archive = new SharArchive("archive.shar")) {
          while (archive.getEntries().size() > 1)
              archive.deleteEntry(archive.getEntries().get(0));
@@ -382,6 +404,8 @@ public final SharArchive deleteEntry(int entryIndex)
 Removes the entry from the entry list by index.
 
 ```
+
+``````
 
      try (SharArchive archive = new SharArchive("two_files.shar")) {
          archive.deleteEntry(0);
@@ -419,6 +443,8 @@ Saves archive to the stream provided.
 
 ```
 
+``````
+
      try (FileOutputStream sharFile = new FileOutputStream("archive.shar")) {
          try (SharArchive archive = new SharArchive()) {
              archive.createEntry("entry1", "data.bin");
@@ -445,6 +471,8 @@ public final void save(String destinationFileName)
 Saves archive to the destination file provided.
 
 ```
+
+``````
 
      try (SharArchive archive = new SharArchive()) {
          archive.createEntry("entry1", "data.bin");

@@ -3,7 +3,7 @@ title: WimLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 120
+weight: 135
 url: /java/com.aspose.zip/wimloadoptions/
 ---
 
@@ -41,6 +41,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel WIM archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));

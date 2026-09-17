@@ -3,7 +3,7 @@ title: XzCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Xz compression within a ZIP archive.
 type: docs
-weight: 134
+weight: 149
 url: /java/com.aspose.zip/xzcompressionsettings/
 ---
 
@@ -28,6 +28,8 @@ public XzCompressionSettings()
 Initializes a new instance of the [XzCompressionSettings](../../com.aspose.zip/xzcompressionsettings) class.
 
 ```
+
+``````
 
      try (Archive archive = new Archive(new ArchiveEntrySettings(new XzCompressionSettings()))) {
          archive.createEntry("data.bin", "data.bin");

@@ -3,7 +3,7 @@ title: RarArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 83
+weight: 98
 url: /java/com.aspose.zip/rararchiveentry/
 ---
 
@@ -52,6 +52,8 @@ Extract an entry of rar archive with password.
 
 ```
 
+``````
+
     try (FileInputStream rarFile = new FileInputStream("archive.rar")) {
         try (RarArchive archive = new RarArchive(rarFile)) {
             archive.getEntries().get(0).extract(outputStream, "p@s$");
@@ -80,6 +82,8 @@ Extracts the entry to the stream provided.
 Extract an entry of rar archive with password.
 
 ```
+
+``````
 
     try (FileInputStream rarFile = new FileInputStream("archive.rar")) {
         try (RarArchive archive = new RarArchive(rarFile)) {
@@ -110,6 +114,8 @@ Extracts the entry to the filesystem by the path provided.
 Extract two entries of rar archive.
 
 ```
+
+``````
 
     try (FileInputStream rarFile = new FileInputStream("archive.rar")) {
         try (RarArchive archive = new RarArchive(rarFile)) {
@@ -142,6 +148,8 @@ Extracts the entry to the filesystem by the path provided.
 Extract two entries of rar archive.
 
 ```
+
+``````
 
     try (FileInputStream rarFile = new FileInputStream("archive.rar")) {
         try (RarArchive archive = new RarArchive(rarFile)) {
@@ -192,6 +200,8 @@ public final Event<ProgressEventArgs> getExtractionProgressed()
 Gets an event that is raised when a portion of raw stream extracted.
 
 ```
+
+``````
 
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
@@ -278,6 +288,8 @@ Usage:
 
 ```
 
+``````
+
     InputStream decompressed = entry.open();
     byte[] buffer = new byte[8192];
     int bytesRead;
@@ -302,6 +314,8 @@ Opens the entry for extraction and provides a stream with decompressed entry con
 Usage:
 
 ```
+
+``````
 
     InputStream decompressed = entry.open();
     byte[] buffer = new byte[8192];
@@ -329,6 +343,8 @@ public final void setExtractionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when a portion of raw stream extracted.
 
 ```
+
+``````
 
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {

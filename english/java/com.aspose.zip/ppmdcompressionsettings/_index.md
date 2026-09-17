@@ -3,7 +3,7 @@ title: PPMdCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for PPMd compression within a ZIP archive.
 type: docs
-weight: 78
+weight: 93
 url: /java/com.aspose.zip/ppmdcompressionsettings/
 ---
 
@@ -38,6 +38,8 @@ Initializes a new instance of the [PPMdCompressionSettings](../../com.aspose.zip
 
 ```
 
+``````
+
      try (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressionSettings(4, 10)))) {
          archive.createEntry("data.bin", "data.bin");
          archive.save("zipFile.zip");
@@ -66,6 +68,8 @@ public PPMdCompressionSettings()
 Initializes a new instance of the [PPMdCompressionSettings](../../com.aspose.zip/ppmdcompressionsettings) class with default model order and sub-allocator size.
 
 ```
+
+``````
 
      try (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressionSettings()))) {
          archive.createEntry("data.bin", "data.bin");

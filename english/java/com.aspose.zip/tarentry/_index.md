@@ -3,7 +3,7 @@ title: TarEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within tar archive.
 type: docs
-weight: 111
+weight: 126
 url: /java/com.aspose.zip/tarentry/
 ---
 
@@ -42,6 +42,8 @@ Extract an entry of tar archive.
 
 ```
 
+``````
+
      try (TarArchive archive = new TarArchive("archive.tar")) {
          archive.getEntries().get_Item(0).extract(httpResponseStream);
      }
@@ -64,6 +66,8 @@ public final File extract(String path)
 Extracts the entry to the filesystem by the path provided.
 
 ```
+
+``````
 
      try (TarArchive archive = new TarArchive("archive.tar")) {
          archive.getEntries().get_Item(0).extract("data.bin");
@@ -144,6 +148,8 @@ Opens the entry for extraction and provides a stream with entry content.
 Usage:
 
 ```
+
+``````
 
      InputStream decompressed = entry.open();
      byte[] buffer = new byte[8192];

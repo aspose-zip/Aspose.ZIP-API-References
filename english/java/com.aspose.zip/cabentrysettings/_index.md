@@ -3,7 +3,7 @@ title: CabEntrySettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings that control how a CAB entry is written.
 type: docs
-weight: 32
+weight: 47
 url: /java/com.aspose.zip/cabentrysettings/
 ---
 

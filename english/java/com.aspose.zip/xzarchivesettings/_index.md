@@ -3,7 +3,7 @@ title: XzArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
 description: The class contains a set of setting particular xz archive.
 type: docs
-weight: 132
+weight: 147
 url: /java/com.aspose.zip/xzarchivesettings/
 ---
 
@@ -51,6 +51,8 @@ Initializes a new instance of the [XzArchiveSettings](../../com.aspose.zip/xzarc
 
 ```
 
+``````
+
      try (FileOutputStream xzFile = new FileOutputStream("archive.xz")) {
          XzLZMA2FilterSettings filter = new XzLZMA2FilterSettings(5242880);
          XzArchiveSettings settings = new XzArchiveSettings(new XzFilterSettings[] {filter}, 10485760, XzCheckType.Crc32);
@@ -81,7 +83,7 @@ public final int getCompressionThreads()
 Gets compression thread count. If the value is greater than 1, multithreading compression will be used.
 
 **Returns:**
-int - compression thread count
+int - compression thread count.
 ### getFastSpeed() {#getFastSpeed--}
 ```
 public static XzArchiveSettings getFastSpeed()

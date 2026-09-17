@@ -3,7 +3,7 @@ title: CabSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a CAB archive.
 type: docs
-weight: 35
+weight: 50
 url: /java/com.aspose.zip/cabsaveoptions/
 ---
 

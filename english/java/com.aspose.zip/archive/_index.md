@@ -3,7 +3,7 @@ title: Archive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a zip archive file.
 type: docs
-weight: 11
+weight: 26
 url: /java/com.aspose.zip/archive/
 ---
 
@@ -77,6 +77,8 @@ The following example shows how to compress a single file with default settings.
 
 ```
 
+``````
+
      try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
          try (Archive archive = new Archive()) {
              archive.createEntry("data.bin", "file.dat");
@@ -101,6 +103,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
 The following example shows how to compress a single file with default settings.
 
 ```
+
+``````
 
      try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
          try (Archive archive = new Archive()) {
@@ -130,6 +134,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
 The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
+
+``````
 
      try (FileInputStream fs = new FileInputStream("encrypted.zip")) {
          ByteArrayOutputStream extracted = new ByteArrayOutputStream();
@@ -167,6 +173,8 @@ The following example extracts an encrypted archive, then decompresses first ent
 
 ```
 
+``````
+
      try (FileInputStream fs = new FileInputStream("encrypted.zip")) {
          ByteArrayOutputStream extracted = new ByteArrayOutputStream();
          ArchiveLoadOptions options = new ArchiveLoadOptions();
@@ -203,6 +211,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
 The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
+
+``````
 
      try (FileInputStream fs = new FileInputStream("encrypted.zip")) {
          ByteArrayOutputStream extracted = new ByteArrayOutputStream();
@@ -242,6 +252,8 @@ The following example extracts an encrypted archive, then decompresses first ent
 
 ```
 
+``````
+
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      ArchiveLoadOptions options = new ArchiveLoadOptions();
      options.setDecryptionPassword("p@s$");
@@ -275,6 +287,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
 The following example extracts an encrypted archive, then decompresses first entry to a `ByteArrayOutputStream`.
 
 ```
+
+``````
 
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      ArchiveLoadOptions options = new ArchiveLoadOptions();
@@ -311,6 +325,8 @@ The following example extracts an encrypted archive, then decompresses first ent
 
 ```
 
+``````
+
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      ArchiveLoadOptions options = new ArchiveLoadOptions();
      options.setDecryptionPassword("p@s$");
@@ -345,6 +361,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
 
 ```
 
+``````
+
      try (Archive a = new Archive("archive.zip", new String[] { "archive.z01", "archive.z02" })) {
          a.extractToDirectory("destination");
      }
@@ -374,6 +392,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
 This sample extract to a directory an archive of three segments.
 
 ```
+
+``````
 
      try (Archive a = new Archive("archive.zip", new String[] { "archive.z01", "archive.z02" })) {
          a.extractToDirectory("destination");
@@ -412,6 +432,8 @@ Add to the archive all files and directories recursively in the directory given.
 
 ```
 
+``````
+
     try (Archive archive = new Archive()) {
         java.io.File folder = new java.io.File("C:\\folder");
         archive.createEntries(folder);
@@ -438,6 +460,8 @@ public final Archive createEntries(File directory, boolean includeRootDirectory)
 Add to the archive all files and directories recursively in the directory given.
 
 ```
+
+``````
 
     try (Archive archive = new Archive()) {
         java.io.File folder = new java.io.File("C:\\folder");
@@ -467,6 +491,8 @@ Add to the archive all files and directories recursively in the directory given.
 
 ```
 
+``````
+
     try (Archive archive = new Archive()) {
         archive.createEntries("C:\\folder");
         archive.save("folder.zip");
@@ -492,6 +518,8 @@ public final Archive createEntries(String sourceDirectory, boolean includeRootDi
 Add to the archive all files and directories recursively in the directory given.
 
 ```
+
+``````
 
     try (Archive archive = new Archive()) {
         archive.createEntries("C:\\folder");
@@ -521,6 +549,8 @@ Creates a single entry within the archive.
 Compose archive with entries encrypted with different encryption methods and passwords each.
 
 ```
+
+``````
 
     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
         java.io.File fi1 = new java.io.File("data1.bin");
@@ -558,6 +588,8 @@ Creates a single entry within the archive.
 Compose archive with entries encrypted with different encryption methods and passwords each.
 
 ```
+
+``````
 
     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
         java.io.File fi1 = new java.io.File("data1.bin");
@@ -599,6 +631,8 @@ Compose archive with entries encrypted with different encryption methods and pas
 
 ```
 
+``````
+
     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
         java.io.File fi1 = new java.io.File("data1.bin");
         java.io.File fi2 = new java.io.File("data2.bin");
@@ -638,6 +672,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      try (Archive archive = new Archive(new ArchiveEntrySettings(null, new AesEncryptionSettings("p@s$", EncryptionMethod.AES256)))) {
          archive.createEntry("data.bin", new ByteArrayInputStream(new byte[] {
                  0x00,
@@ -667,6 +703,8 @@ public final ArchiveEntry createEntry(String name, InputStream source, ArchiveEn
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (Archive archive = new Archive(new ArchiveEntrySettings(null, new AesEncryptionSettings("p@s$", EncryptionMethod.AES256)))) {
          archive.createEntry("data.bin", new ByteArrayInputStream(new byte[] {
@@ -700,6 +738,8 @@ Creates a single entry within the archive.
 Compose archive with encrypted entry.
 
 ```
+
+``````
 
     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
         try (Archive archive = new Archive()) {
@@ -736,6 +776,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
          try (Archive archive = new Archive()) {
              archive.createEntry("data.bin", "file.dat");
@@ -765,6 +807,8 @@ public final ArchiveEntry createEntry(String name, String path, boolean openImme
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
          try (Archive archive = new Archive()) {
@@ -798,6 +842,8 @@ public final ArchiveEntry createEntry(String name, String path, boolean openImme
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
          try (Archive archive = new Archive()) {
@@ -834,6 +880,8 @@ Creates a single entry within the archive.
 Compose archive with encrypted entry.
 
 ```
+
+``````
 
      Supplier<InputStream> provider = new Supplier<InputStream>() {
          public InputStream get() {
@@ -872,6 +920,8 @@ Creates a single entry within the archive.
 Compose archive with encrypted entry.
 
 ```
+
+``````
 
      Supplier<InputStream> provider = new Supplier<InputStream>() {
          public InputStream get() {
@@ -912,6 +962,8 @@ Here is how you can remove all entries except the last one:
 
 ```
 
+``````
+
     try (Archive archive = new Archive("archive.zip")) {
         while (archive.getEntries().size() > 1)
             archive.deleteEntry(archive.getEntries().get(0));
@@ -939,6 +991,8 @@ Removes the entry from the entry list by index.
 
 ```
 
+``````
+
     try (Archive archive = new Archive("two_files.zip")) {
         archive.deleteEntry(0);
         archive.save("single_file.zip");
@@ -964,6 +1018,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the archive to the directory provided.
 
 ```
+
+``````
 
     try (Archive archive = new Archive("archive.zip")) {
         archive.extractToDirectory("C:\\extracted");
@@ -1040,6 +1096,8 @@ Saves archive to the stream provided.
 
 ```
 
+``````
+
     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
         try (Archive archive = new Archive()) {
             archive.createEntry("entry.bin", "data.bin");
@@ -1066,6 +1124,8 @@ public final void save(OutputStream outputStream, ArchiveSaveOptions saveOptions
 Saves archive to the stream provided.
 
 ```
+
+``````
 
     try (FileOutputStream zipFile = new FileOutputStream("archive.zip")) {
         try (Archive archive = new Archive()) {
@@ -1095,6 +1155,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
     try (Archive archive = new Archive()) {
         archive.createEntry("entry.bin", "data.bin");
         ArchiveSaveOptions options = new ArchiveSaveOptions();
@@ -1120,6 +1182,8 @@ public final void save(String destinationFileName, ArchiveSaveOptions saveOption
 Saves archive to the destination file provided.
 
 ```
+
+``````
 
     try (Archive archive = new Archive()) {
         archive.createEntry("entry.bin", "data.bin");
@@ -1147,6 +1211,8 @@ public final void saveSplit(String destinationDirectory, SplitArchiveSaveOptions
 Saves multi-volume archive to the destination directory provided.
 
 ```
+
+``````
 
     try (Archive archive = new Archive()) {
         archive.createEntry("entry.bin", "data.bin");

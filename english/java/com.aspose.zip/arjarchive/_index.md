@@ -3,7 +3,7 @@ title: ArjArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents an ARJ archive file.
 type: docs
-weight: 22
+weight: 37
 url: /java/com.aspose.zip/arjarchive/
 ---
 
@@ -88,6 +88,8 @@ The following example shows how to extract all the entries to a directory.
 
 ```
 
+``````
+
      try (ArjArchive archive = new ArjArchive("archive.arj")) {
          archive.extractToDirectory("C:\\extracted");
      } catch (IOException ex) {
@@ -113,6 +115,8 @@ Initializes a new instance of the [ArjArchive](../../com.aspose.zip/arjarchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (ArjArchive archive = new ArjArchive("archive.arj")) {
          archive.extractToDirectory("C:\\extracted");
@@ -148,6 +152,8 @@ Extracts all entries to the specified directory.
 The following example shows how to extract all entries to a directory:
 
 ```
+
+``````
 
      try (ArjArchive archive = new ArjArchive(new FileInputStream("archive.arj"))) {
          archive.extractToDirectory("C:\\extracted");

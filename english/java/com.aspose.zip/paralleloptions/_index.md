@@ -3,7 +3,7 @@ title: ParallelOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for parallel compression.
 type: docs
-weight: 79
+weight: 94
 url: /java/com.aspose.zip/paralleloptions/
 ---
 
@@ -16,6 +16,8 @@ public class ParallelOptions
 Options for parallel compression.
 
 ```
+
+``````
 
     try (Archive archive = new Archive()) {
         archive.createEntries("DirToCompress");

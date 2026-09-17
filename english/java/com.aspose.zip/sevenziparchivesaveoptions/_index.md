@@ -3,7 +3,7 @@ title: SevenZipArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a 7Z archive.
 type: docs
-weight: 93
+weight: 108
 url: /java/com.aspose.zip/sevenziparchivesaveoptions/
 ---
 

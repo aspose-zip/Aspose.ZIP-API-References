@@ -3,7 +3,7 @@ title: ParallelCompressionMode
 second_title: Aspose.ZIP for Java API Reference
 description: Options of usage parallel compression facility.
 type: docs
-weight: 151
+weight: 166
 url: /java/com.aspose.zip/parallelcompressionmode/
 ---
 
@@ -37,6 +37,8 @@ Do compress in parallel. Beware of a drain on memory.
 
 ```
 
+``````
+
     try (Archive archive = new Archive()) {
         archive.createEntry("filename.bin", "filename.bin");
         archive.createEntry("filename1.bin", "filename1.bin");
@@ -62,6 +64,8 @@ Decide whether parallel compression will be used based on the entries. This opti
 
 ```
 
+``````
+
     try (Archive archive = new Archive()) {
         archive.createEntry("filename.bin", "filename.bin");
         archive.createEntry("filename1.bin", "filename1.bin");
@@ -86,6 +90,8 @@ public static final ParallelCompressionMode Never
 Do not compress in parallel.
 
 ```
+
+``````
 
     try (Archive archive = new Archive()) {
         archive.createEntry("filename.bin", "filename.bin");

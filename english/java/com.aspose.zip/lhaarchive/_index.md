@@ -3,7 +3,7 @@ title: LhaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a LHA .lzh archive file.
 type: docs
-weight: 60
+weight: 75
 url: /java/com.aspose.zip/lhaarchive/
 ---
 
@@ -89,6 +89,8 @@ The following example extracts an archive, then decompress first entry to a `Mem
 
 ```
 
+``````
+
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      try (LhaArchive archive = new LhaArchive("sample.lzh")) {
          archive.getEntries().get(0).extract(extracted);
@@ -114,6 +116,8 @@ Initializes a new instance of the [LhaArchive](../../com.aspose.zip/lhaarchive) 
 The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```
+
+``````
 
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      try (LhaArchive archive = new LhaArchive("sample.lzh")) {
@@ -147,6 +151,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files and directories in the archive to the directory provided.
 
 ```
+
+``````
 
      try (LhaArchive archive = new LhaArchive("archive.lzh")) {
          archive.extractToDirectory("C:/extracted");

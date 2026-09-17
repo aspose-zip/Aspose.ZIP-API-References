@@ -3,7 +3,7 @@ title: CpioArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents cpio archive file.
 type: docs
-weight: 42
+weight: 57
 url: /java/com.aspose.zip/cpioarchive/
 ---
 
@@ -86,6 +86,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (CpioArchive archive = new CpioArchive()) {
          archive.createEntry("first.bin", "data.bin");
          archive.save("archive.cpio");
@@ -106,6 +108,8 @@ Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (CpioArchive archive = new CpioArchive(new FileInputStream("archive.cpio"))) {
          archive.extractToDirectory("C:\\extracted");
@@ -132,6 +136,8 @@ Initializes a new instance of the [CpioArchive](../../com.aspose.zip/cpioarchive
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (CpioArchive archive = new CpioArchive("archive.cpio")) {
          archive.extractToDirectory("C:\\extracted");
@@ -165,6 +171,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream cpioFile = new FileOutputStream("archive.cpio")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntries(new java.io.File("C:\\folder"), false);
@@ -193,6 +201,8 @@ public final CpioArchive createEntries(File directory, boolean includeRootDirect
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream cpioFile = new FileOutputStream("archive.cpio")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -224,6 +234,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream cpioFile = new FileOutputStream("archive.cpio")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntries("C:\\folder", false);
@@ -252,6 +264,8 @@ public final CpioArchive createEntries(String sourceDirectory, boolean includeRo
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream cpioFile = new FileOutputStream("archive.cpio")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -283,6 +297,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      java.io.File file = new File("data.bin");
      try (CpioArchive archive = new CpioArchive()) {
          archive.createEntry("test.bin", file);
@@ -310,6 +326,8 @@ public final CpioEntry createEntry(String name, File file, boolean openImmediate
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      java.io.File file = new File("data.bin");
      try (CpioArchive archive = new CpioArchive()) {
@@ -342,6 +360,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      try (CpioArchive archive = new CpioArchive()) {
          archive.createEntry("data.bin", new FileInputStream("data.bin"));
          archive.save("archive.cpio");
@@ -370,6 +390,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      try (CpioArchive archive = new CpioArchive()) {
          archive.createEntry("first.bin", "data.bin");
          archive.save("archive.cpio");
@@ -396,6 +418,8 @@ public final CpioEntry createEntry(String name, String sourcePath, boolean openI
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (CpioArchive archive = new CpioArchive()) {
          archive.createEntry("first.bin", "data.bin");
@@ -429,6 +453,8 @@ Here is how you can remove all entries except the last one:
 
 ```
 
+``````
+
      try (CpioArchive archive = new CpioArchive("archive.cpio")) {
          while (archive.getEntries().size() > 1)
              archive.deleteEntry(archive.getEntries().get(0));
@@ -456,6 +482,8 @@ Removes the entry from the entry list by index.
 
 ```
 
+``````
+
      try (CpioArchive archive = new CpioArchive("two_files.cpio")) {
          archive.deleteEntry(0);
          archive.save("single_file.cpio");
@@ -481,6 +509,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the archive to the directory provided.
 
 ```
+
+``````
 
      try (CpioArchive archive = new CpioArchive("archive.cpio")) {
          archive.extractToDirectory("C:\\extracted");
@@ -538,6 +568,8 @@ Saves archive to the stream provided.
 
 ```
 
+``````
+
      try (FileOutputStream cpioFile = new FileOutputStream("archive.cpio")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry1", "data.bin");
@@ -566,6 +598,8 @@ public final void save(OutputStream output, CpioFormat cpioFormat)
 Saves archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream cpioFile = new FileOutputStream("archive.cpio")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -597,6 +631,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
      try (CpioArchive archive = new CpioArchive()) {
          archive.createEntry("entry1", "data.bin");
          archive.save("archive.cpio");
@@ -622,6 +658,8 @@ public final void save(String destinationFileName, CpioFormat cpioFormat)
 Saves archive to the destination file provided.
 
 ```
+
+``````
 
      try (CpioArchive archive = new CpioArchive()) {
          archive.createEntry("entry1", "data.bin");
@@ -649,6 +687,8 @@ public final void saveGzipped(OutputStream output)
 Saves archive to the stream with gzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.gz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -680,6 +720,8 @@ public final void saveGzipped(OutputStream output, CpioFormat cpioFormat)
 Saves archive to the stream with gzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.gz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -713,6 +755,8 @@ Saves archive to the file by path with gzip compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry.bin", source);
@@ -739,6 +783,8 @@ public final void saveGzipped(String path, CpioFormat cpioFormat)
 Saves archive to the file by path with gzip compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -767,6 +813,8 @@ public final void saveLZMACompressed(OutputStream output)
 Saves the archive to the stream with LZMA compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.lzma")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -798,6 +846,8 @@ public final void saveLZMACompressed(OutputStream output, CpioFormat cpioFormat)
 Saves the archive to the stream with LZMA compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.lzma")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -831,6 +881,8 @@ Saves the archive to the file by path with lzma compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry.bin", source);
@@ -857,6 +909,8 @@ public final void saveLZMACompressed(String path, CpioFormat cpioFormat)
 Saves the archive to the file by path with lzma compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -885,6 +939,8 @@ public final void saveLzipped(OutputStream output)
 Saves archive to the stream with lzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.lz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -916,6 +972,8 @@ public final void saveLzipped(OutputStream output, CpioFormat cpioFormat)
 Saves archive to the stream with lzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.lz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -949,6 +1007,8 @@ Saves archive to the file by path with lzip compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry.bin", source);
@@ -975,6 +1035,8 @@ public final void saveLzipped(String path, CpioFormat cpioFormat)
 Saves archive to the file by path with lzip compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -1003,6 +1065,8 @@ public final void saveXzCompressed(OutputStream output)
 Saves archive to the stream with xz compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.xz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1035,6 +1099,8 @@ Saves archive to the stream with xz compression.
 
 ```
 
+``````
+
      try (FileOutputStream result = new FileOutputStream("result.cpio.xz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
              try (CpioArchive archive = new CpioArchive()) {
@@ -1066,6 +1132,8 @@ public final void saveXzCompressed(OutputStream output, CpioFormat cpioFormat, X
 Saves archive to the stream with xz compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.xz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1100,6 +1168,8 @@ Saves archive to the file by path with xz compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1126,6 +1196,8 @@ public final void saveXzCompressed(String path, CpioFormat cpioFormat)
 Saves archive to the file by path with xz compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -1155,6 +1227,8 @@ Saves archive to the file by path with xz compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1183,6 +1257,8 @@ public final void saveZCompressed(OutputStream output)
 Saves archive to the stream with Z compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.Z")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1214,6 +1290,8 @@ public final void saveZCompressed(OutputStream output, CpioFormat cpioFormat)
 Saves archive to the stream with Z compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.Z")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1247,6 +1325,8 @@ Saves archive to the file by path with Z compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1273,6 +1353,8 @@ public final void saveZCompressed(String path, CpioFormat cpioFormat)
 Saves archive to the file by path with Z compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
@@ -1301,6 +1383,8 @@ public final void saveZstandard(OutputStream output)
 Saves archive to the stream with Zstandard compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.zst")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1332,6 +1416,8 @@ public final void saveZstandard(OutputStream output, CpioFormat cpioFormat)
 Saves archive to the stream with Zstandard compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.cpio.zst")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1365,6 +1451,8 @@ Saves archive to the file by path with Zstandard compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1391,6 +1479,8 @@ public final void saveZstandard(String path, CpioFormat cpioFormat)
 Saves archive to the file by path with Zstandard compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (CpioArchive archive = new CpioArchive()) {

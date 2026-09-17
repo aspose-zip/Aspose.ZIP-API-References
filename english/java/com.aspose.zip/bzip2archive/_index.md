@@ -3,7 +3,7 @@ title: Bzip2Archive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents bzip2 archive file.
 type: docs
-weight: 25
+weight: 40
 url: /java/com.aspose.zip/bzip2archive/
 ---
 
@@ -67,6 +67,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource("data.bin");
          archive.save("archive.bz2");
@@ -87,6 +89,8 @@ Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archi
 Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Bzip2Archive archive = new Bzip2Archive(new FileInputStream("archive.bz2"))) {
@@ -120,6 +124,8 @@ Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archi
 Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Bzip2Archive archive = new Bzip2Archive(new FileInputStream("archive.bz2"))) {
@@ -155,6 +161,8 @@ Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
 
+``````
+
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Bzip2Archive archive = new Bzip2Archive("archive.bz2")) {
          InputStream decompressed = archive.open();
@@ -187,6 +195,8 @@ Initializes a new instance of the [Bzip2Archive](../../com.aspose.zip/bzip2archi
 Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (Bzip2Archive archive = new Bzip2Archive("archive.bz2")) {
@@ -227,6 +237,8 @@ public final void extract(OutputStream destination)
 Extracts the archive to the stream provided.
 
 ```
+
+``````
 
      try (Bzip2Archive archive = new Bzip2Archive("archive.bz2")) {
          archive.extract(httpResponseStream);
@@ -324,6 +336,8 @@ Usage:
 
 ```
 
+``````
+
      try (InputStream decompressed = archive.open()) {
          byte[] buffer = new byte[8192];
          int bytesRead;
@@ -352,6 +366,8 @@ Write compressed data to an output stream.
 
 ```
 
+``````
+
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new File("data.bin"));
          archive.save(outputStream);
@@ -377,6 +393,8 @@ Saves archive to the stream provided.
 Write compressed data to an output stream.
 
 ```
+
+``````
 
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new File("data.bin"));
@@ -405,6 +423,8 @@ Writes compressed data to file.
 
 ```
 
+``````
+
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new File("data.bin"));
          archive.save("data.bz2");
@@ -431,6 +451,8 @@ Writes compressed data to file.
 
 ```
 
+``````
+
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new File("data.bin"));
          archive.save("data.bz2");
@@ -455,6 +477,8 @@ public final void setSource(CpioArchive cpioArchive)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (CpioArchive cpioArchive = new CpioArchive()) {
          cpioArchive.createEntry("first.bin", "data1.bin");
@@ -483,6 +507,8 @@ public final void setSource(CpioArchive cpioArchive, CpioFormat format)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (CpioArchive cpioArchive = new CpioArchive()) {
          cpioArchive.createEntry("first.bin", "data1.bin");
@@ -513,6 +539,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (TarArchive tarArchive = new TarArchive()) {
          tarArchive.createEntry("first.bin", "data1.bin");
          tarArchive.createEntry("second.bin", "data2.bin");
@@ -540,6 +568,8 @@ public final void setSource(TarArchive tarArchive, TarFormat format)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (TarArchive tarArchive = new TarArchive()) {
          tarArchive.createEntry("first.bin", "data1.bin");
@@ -570,6 +600,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new File("data.bin"));
          archive.save("archive.bz2");
@@ -594,6 +626,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] { 0x00, (byte) 0xFF }));
          archive.save("archive.bz2");
@@ -617,6 +651,8 @@ public final void setSource(String path)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (Bzip2Archive archive = new Bzip2Archive()) {
          archive.setSource("data.bin");

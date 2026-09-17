@@ -3,7 +3,7 @@ title: SevenZipLZMA2CompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for LZMA2 compression method within 7z archive.
 type: docs
-weight: 99
+weight: 114
 url: /java/com.aspose.zip/sevenziplzma2compressionsettings/
 ---
 

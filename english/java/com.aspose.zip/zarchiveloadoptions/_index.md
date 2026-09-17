@@ -3,7 +3,7 @@ title: ZArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from a compressed file.
 type: docs
-weight: 139
+weight: 154
 url: /java/com.aspose.zip/zarchiveloadoptions/
 ---
 
@@ -42,6 +42,8 @@ Gets an event that is raised when some bytes have been extracted.
 
 ```
 
+``````
+
      long length = 10_000_000;
      ZArchiveLoadOptions loadOptions = new ZArchiveLoadOptions();
      loadOptions.setExtractionProgressed((sender, args) -> {
@@ -66,6 +68,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel Z archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
@@ -98,6 +102,8 @@ public void setExtractionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when some bytes have been extracted.
 
 ```
+
+``````
 
      long length = 10_000_000;
      ZArchiveLoadOptions loadOptions = new ZArchiveLoadOptions();
