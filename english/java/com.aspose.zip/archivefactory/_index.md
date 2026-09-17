@@ -3,7 +3,7 @@ title: ArchiveFactory
 second_title: Aspose.ZIP for Java API Reference
 description: Detects the archive format and creates the appropriate  object according to the type of archive.
 type: docs
-weight: 16
+weight: 31
 url: /java/com.aspose.zip/archivefactory/
 ---
 
@@ -33,6 +33,8 @@ Compresses the specified directory into an archive file using the provided archi
 Here is an example of how to use the CompressDirectory method:
 
 ```
+
+``````
 
      String directoryPath = "C:\\path\\to\\your\\directory";
      ArchiveFormat format = ArchiveFormat.Zip;

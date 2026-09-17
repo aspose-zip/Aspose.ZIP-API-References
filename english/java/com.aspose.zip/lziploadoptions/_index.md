@@ -3,7 +3,7 @@ title: LzipLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 70
+weight: 85
 url: /java/com.aspose.zip/lziploadoptions/
 ---
 
@@ -43,6 +43,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel lzip archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));

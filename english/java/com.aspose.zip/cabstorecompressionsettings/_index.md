@@ -3,7 +3,7 @@ title: CabStoreCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Compression settings that keep CAB data blocks uncompressed.
 type: docs
-weight: 36
+weight: 51
 url: /java/com.aspose.zip/cabstorecompressionsettings/
 ---
 

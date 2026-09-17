@@ -3,7 +3,7 @@ title: XzArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents xz archive file.
 type: docs
-weight: 131
+weight: 146
 url: /java/com.aspose.zip/xzarchive/
 ---
 
@@ -40,6 +40,7 @@ This class represents xz archive file. Use it to compose and extract xz archives
 | [getFormat()](#getFormat--) | Gets the archive format. |
 | [getLength()](#getLength--) | Gets the length of the entry in bytes. |
 | [getName()](#getName--) | Gets the name of the entry within archive. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets the uncompressed size of the file data in bytes. |
 | [save(OutputStream output)](#save-java.io.OutputStream-) | Saves xz archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves xz archive to the destination file provided. |
 | [setSource(File file)](#setSource-java.io.File-) | Sets the content to be compressed within the archive. |
@@ -146,6 +147,8 @@ Extracts xz archive to a file.
 
 ```
 
+``````
+
      try (FileInputStream xzFile = new FileInputStream("sourceFileName")) {
          try (XzArchive archive = new XzArchive(xzFile)) {
              archive.extract(new File("extracted.bin"));
@@ -171,6 +174,8 @@ public final void extract(OutputStream destination)
 Extracts xz archive to a stream.
 
 ```
+
+``````
 
      try (FileInputStream xzFile = new FileInputStream("sourceFileName")) {
          try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
@@ -199,6 +204,8 @@ public final File extract(String path)
 Extracts xz archive to a file by path.
 
 ```
+
+``````
 
      try (FileInputStream xzFile = new FileInputStream("sourceFileName")) {
          try (XzArchive archive = new XzArchive(xzFile)) {
@@ -273,6 +280,16 @@ Gets the name of the entry within archive.
 
 **Returns:**
 java.lang.String - the name of the entry within archive
+### getUncompressedSize() {#getUncompressedSize--}
+```
+public final long getUncompressedSize()
+```
+
+
+Gets the uncompressed size of the file data in bytes.
+
+**Returns:**
+long - the uncompressed size of the file data in bytes
 ### save(OutputStream output) {#save-java.io.OutputStream-}
 ```
 public final void save(OutputStream output)
@@ -282,6 +299,8 @@ public final void save(OutputStream output)
 Saves xz archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream xzFile = new FileOutputStream("archive.xz")) {
          try (XzArchive archive = new XzArchive()) {
@@ -310,6 +329,8 @@ Saves xz archive to the destination file provided.
 
 ```
 
+``````
+
      try (XzArchive archive = new XzArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("result.xz");
@@ -333,6 +354,8 @@ public final void setSource(File file)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (XzArchive archive = new XzArchive()) {
          archive.setSource(new File("data.bin"));
@@ -358,6 +381,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (XzArchive archive = new XzArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] { 0x00, (byte) 0xFF }));
          archive.save("archive.xz");
@@ -381,6 +406,8 @@ public final void setSource(String sourcePath)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (XzArchive archive = new XzArchive()) {
          archive.setSource("data.bin");

@@ -3,7 +3,7 @@ title: ZArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a Z compress archive file.
 type: docs
-weight: 138
+weight: 153
 url: /java/com.aspose.zip/zarchive/
 ---
 
@@ -139,6 +139,8 @@ Extracts Z archive to a file.
 
 ```
 
+``````
+
      try (FileInputStream zFile = new FileInputStream("sourceFileName")) {
          try (ZArchive archive = new ZArchive(zFile)) {
              archive.extract(new File("extracted.bin"));
@@ -164,6 +166,8 @@ public final void extract(OutputStream destination)
 Extracts Z archive to a stream.
 
 ```
+
+``````
 
      try (FileInputStream zFile = new FileInputStream("sourceFileName")) {
          try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
@@ -192,6 +196,8 @@ public final File extract(String path)
 Extracts Z archive to a file by path.
 
 ```
+
+``````
 
      try (FileInputStream zFile = new FileInputStream("sourceFileName")) {
          try (ZArchive archive = new ZArchive(zFile)) {
@@ -276,6 +282,8 @@ Saves Z archive to the stream provided.
 
 ```
 
+``````
+
      try (FileOutputStream zFile = new FileOutputStream("data.bin.Z")) {
          try (ZArchive archive = new ZArchive()) {
              archive.setSource("data.bin");
@@ -302,6 +310,8 @@ public final void save(OutputStream output, ZArchiveSaveOptions settings)
 Saves Z archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream zFile = new FileOutputStream("data.bin.Z")) {
          try (ZArchive archive = new ZArchive()) {
@@ -331,6 +341,8 @@ Saves Z archive to the destination file provided.
 
 ```
 
+``````
+
      try (ZArchive archive = new ZArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("data.bin.Z");
@@ -354,6 +366,8 @@ public final void save(String destinationFileName, ZArchiveSaveOptions settings)
 Saves Z archive to the destination file provided.
 
 ```
+
+``````
 
      try (ZArchive archive = new ZArchive()) {
          archive.setSource(new File("data.bin"));
@@ -380,6 +394,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (ZArchive archive = new ZArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("data.bin.Z");
@@ -403,6 +419,8 @@ public final void setSource(InputStream source)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (ZArchive archive = new ZArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] {
@@ -430,6 +448,8 @@ public final void setSource(String sourcePath)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (ZArchive archive = new ZArchive()) {
          archive.setSource("data.bin");

@@ -3,7 +3,7 @@ title: XzBcjX86FilterSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for xz Bcj X86 filter.
 type: docs
-weight: 133
+weight: 148
 url: /java/com.aspose.zip/xzbcjx86filtersettings/
 ---
 
@@ -28,6 +28,8 @@ public XzBcjX86FilterSettings()
 Initializes a new instance of the [XzBcjX86FilterSettings](../../com.aspose.zip/xzbcjx86filtersettings). Use it to compress executable files and libraries within [XzArchive](../../com.aspose.zip/xzarchive).
 
 ```
+
+``````
 
      XzLZMA2FilterSettings lzma2 = new XzLZMA2FilterSettings(5242880);
      XzBcjX86FilterSettings bcj = new XzBcjX86FilterSettings();

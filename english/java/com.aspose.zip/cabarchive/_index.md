@@ -3,7 +3,7 @@ title: CabArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a CAB archive file.
 type: docs
-weight: 29
+weight: 44
 url: /java/com.aspose.zip/cabarchive/
 ---
 
@@ -63,6 +63,8 @@ Compress a file using specific compression settings.
 
 ```
 
+``````
+
  CabEntrySettings settings = new CabEntrySettings(new CabStoreCompressionSettings()));
  try (CabArchive archive = new CabArchive(settings))
  {
@@ -92,6 +94,8 @@ The following example shows how to extract all the entries to a directory.
 
 ```
 
+``````
+
      try (CabArchive archive = new CabArchive(new FileInputStream("archive.cab"))) {
          archive.extractToDirectory("C:\\extracted");
      } catch (IOException ex) {
@@ -117,6 +121,8 @@ Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (CabArchive archive = new CabArchive(new FileInputStream("archive.cab"))) {
          archive.extractToDirectory("C:\\extracted");
@@ -145,6 +151,8 @@ The following example shows how to extract all the entries to a directory.
 
 ```
 
+``````
+
      try (CabArchive archive = new CabArchive("archive.cab")) {
          archive.extractToDirectory("C:\\extracted");
      } catch (IOException ex) {
@@ -170,6 +178,8 @@ Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (CabArchive archive = new CabArchive("archive.cab")) {
          archive.extractToDirectory("C:\\extracted");
@@ -204,6 +214,8 @@ Adds to the archive all files, recursively, from the specified directory.
 
 ```
 
+``````
+
  try (var archive = new CabArchive())
  {
      File directory = new File("C:/Logs");
@@ -232,6 +244,8 @@ public final CabArchive createEntries(File directory, boolean includeRootDirecto
 Adds to the archive all files, recursively, from the specified directory.
 
 ```
+
+``````
 
  try (var archive = new CabArchive())
  {
@@ -263,6 +277,8 @@ Adds to the archive all files recursively from the specified directory path.
 
 ```
 
+``````
+
  try (var archive = new CabArchive())
  {
      archive.createEntries("C:/Logs");
@@ -290,6 +306,8 @@ public final CabArchive createEntries(String sourceDirectory, boolean includeRoo
 Adds to the archive all files recursively from the specified directory path.
 
 ```
+
+``````
 
  try (var archive = new CabArchive())
  {
@@ -319,6 +337,8 @@ public final CabEntry createEntry(String name, File fileInfo)
 Create a single entry within the archive.
 
 ```
+
+``````
 
  try (CabArchive archive = new CabArchive())
  {
@@ -351,6 +371,8 @@ public final CabEntry createEntry(String name, File fileInfo, CabEntrySettings n
 Create a single entry within the archive.
 
 ```
+
+``````
 
  try (CabArchive archive = new CabArchive())
  {
@@ -386,6 +408,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
  try (CabArchive archive = new CabArchive(); FileInputStream stream = new FileInputStream("stream-entry.bin"))
  {
      archive.createEntry("stream-entry.bin", stream);
@@ -414,6 +438,8 @@ public final CabEntry createEntry(String name, InputStream source, CabEntrySetti
 Create a single entry within the archive and specific settings.
 
 ```
+
+``````
 
  try (CabArchive archive = new CabArchive(); FileInputStream stream = new FileInputStream("stream-entry.bin"))
  {     
@@ -446,6 +472,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
  try (CabArchive archive = new CabArchive())
  {
      archive.createEntry("entry.bin", "data.bin");
@@ -476,6 +504,8 @@ public final CabEntry createEntry(String name, String path, CabEntrySettings new
 Create a single entry within the archive.
 
 ```
+
+``````
 
  try (CabArchive archive = new CabArchive())
  {
@@ -510,6 +540,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
  try (CabArchive archive = new CabArchive())
  {
      archive.createEntry("log.txt", () -> new FileInputStream("log.txt"));
@@ -538,6 +570,8 @@ public final CabEntry createEntry(String name, Supplier<InputStream> streamProvi
 Create a single entry within the archive.
 
 ```
+
+``````
 
  try (CabArchive archive = new CabArchive())
  {
@@ -569,6 +603,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the archive to the directory provided.
 
 ```
+
+``````
 
      try (CabArchive archive = new CabArchive("archive.cab")) {
          archive.extractToDirectory("C:\\extracted");
@@ -626,6 +662,8 @@ Saves archive to the stream provided.
 
 ```
 
+``````
+
   try (CabArchive archive = new CabArchive(); FileOutputStream cabFile = new FileOutputStream("archive.cab"))
   {
       archive.createEntry("entry.bin", "data.bin");
@@ -653,6 +691,8 @@ public final void save(OutputStream outputStream, CabSaveOptions saveOptions)
 Saves archive to the stream provided with specific options.
 
 ```
+
+``````
 
   try (CabArchive archive = new CabArchive(); FileOutputStream cabFile = new FileOutputStream("archive.cab"))
   {
@@ -685,6 +725,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
   try (CabArchive archive = new CabArchive())
   {
       archive.createEntry("entry.bin", "data.bin");
@@ -712,6 +754,8 @@ public final void save(String destinationFileName, CabSaveOptions saveOptions)
 Saves archive to the destination file provided.
 
 ```
+
+``````
 
   try (CabArchive archive = new CabArchive())
   {

@@ -3,7 +3,7 @@ title: GzipLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 55
+weight: 70
 url: /java/com.aspose.zip/gziploadoptions/
 ---
 
@@ -55,6 +55,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel gzip archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));

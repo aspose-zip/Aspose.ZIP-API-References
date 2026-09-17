@@ -3,7 +3,7 @@ title: WimImage
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single image within wim archive.
 type: docs
-weight: 119
+weight: 134
 url: /java/com.aspose.zip/wimimage/
 ---
 
@@ -32,6 +32,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the image to the directory provided.
 
 ```
+
+``````
 
      try (WimArchive archive = new WimArchive("install.wim")) {
          archive.getImages().get_Item(0).extractToDirectory("C:\\extracted");

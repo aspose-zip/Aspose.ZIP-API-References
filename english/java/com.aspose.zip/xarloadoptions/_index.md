@@ -3,7 +3,7 @@ title: XarLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which XAR archive is loaded from a compressed file.
 type: docs
-weight: 127
+weight: 142
 url: /java/com.aspose.zip/xarloadoptions/
 ---
 
@@ -42,6 +42,8 @@ Gets an event that is raised when some bytes have been extracted.
 
 ```
 
+``````
+
      XarLoadOptions loadOptions = new XarLoadOptions();
      loadOptions.setEntryExtractionProgressed((sender, args) -> {
          int percent = (int)((100 * args.getProceededBytes()) / ((XarFileEntry)sender).getLength());
@@ -65,6 +67,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel XAR archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
@@ -97,6 +101,8 @@ public final void setEntryExtractionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when some bytes have been extracted.
 
 ```
+
+``````
 
      XarLoadOptions loadOptions = new XarLoadOptions();
      loadOptions.setEntryExtractionProgressed((sender, args) -> {

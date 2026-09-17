@@ -13,6 +13,21 @@ url: /java/com.aspose.zip/
 | Class | Description |
 | --- | --- |
 | [AesEncryptionSettings](../com.aspose.zip/aesencryptionsettings) | Settings for AES encryption and decryption algorithms within a ZIP archive. |
+| [AlzArchive](../com.aspose.zip/alzarchive) | Represents an ALZ archive file. |
+| [AlzArchiveLoadOptions](../com.aspose.zip/alzarchiveloadoptions) | Options with which an ALZ archive is loaded from a compressed file. |
+| [AlzEntry](../com.aspose.zip/alzentry) | Represents a file entry in an ALZ archive together with its metadata. |
+| [AlzEntryEncrypted](../com.aspose.zip/alzentryencrypted) | Represents an ALZ entry that is decrypted before decompression. |
+| [AlzEntryPlain](../com.aspose.zip/alzentryplain) | Represents an unencrypted ALZ entry. |
+| [AppleArchive](../com.aspose.zip/applearchive) | This class represents an Apple Archive (.aar) file. |
+| [AppleArchiveEntry](../com.aspose.zip/applearchiveentry) | Represents a file or directory entry within an [AppleArchive](../com.aspose.zip/applearchive). |
+| [AppleArchiveEntrySettings](../com.aspose.zip/applearchiveentrysettings) | Settings used to compose entries inside [AppleArchive](../com.aspose.zip/applearchive). |
+| [AppleArchiveLoadOptions](../com.aspose.zip/applearchiveloadoptions) | Options with which [AppleArchive](../com.aspose.zip/applearchive) is loaded from a compressed file. |
+| [AppleCompressionSettings](../com.aspose.zip/applecompressionsettings) | Settings needed for Apple Archive entry compression. |
+| [AppleLz4CompressionSettings](../com.aspose.zip/applelz4compressionsettings) | Settings for LZ4 compression within an Apple Archive (.aar) file. |
+| [AppleLzfseCompressionSettings](../com.aspose.zip/applelzfsecompressionsettings) | Settings for LZFSE compression within an Apple Archive (.aar) file. |
+| [AppleLzmaCompressionSettings](../com.aspose.zip/applelzmacompressionsettings) | Settings for LZMA compression within an Apple Archive (.aar) file. |
+| [AppleStoreCompressionSettings](../com.aspose.zip/applestorecompressionsettings) | Settings for store (no compression) within an Apple Archive (.aar) file. |
+| [AppleZlibCompressionSettings](../com.aspose.zip/applezlibcompressionsettings) | Settings for Zlib compression within an Apple Archive (.aar) file. |
 | [Archive](../com.aspose.zip/archive) | This class represents a zip archive file. |
 | [ArchiveEntry](../com.aspose.zip/archiveentry) | Represents single file within archive. |
 | [ArchiveEntryEncrypted](../com.aspose.zip/archiveentryencrypted) | Zip entry that needs to be compressed with encryption or decompressed with decryption. |
@@ -22,7 +37,7 @@ url: /java/com.aspose.zip/
 | [ArchiveFormatDetector](../com.aspose.zip/archiveformatdetector) | Detects an archive format and provides other related information. |
 | [ArchiveFormatInfo](../com.aspose.zip/archiveformatinfo) | Represents information about the archive format. |
 | [ArchiveInstanceInfo](../com.aspose.zip/archiveinstanceinfo) | Represents information about the archive instance. |
-| [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which archive is loaded from a compressed file. |
+| [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which ZIP archive is loaded from a compressed file. |
 | [ArchiveSaveOptions](../com.aspose.zip/archivesaveoptions) | Options for saving a ZIP archive. |
 | [ArjArchive](../com.aspose.zip/arjarchive) | This class represents an ARJ archive file. |
 | [ArjEntryPlain](../com.aspose.zip/arjentryplain) | Represents a single file within ARJ archive. |
@@ -164,6 +179,7 @@ url: /java/com.aspose.zip/
 | [CpioFormat](../com.aspose.zip/cpioformat) | Enumeration with supported formats of cpio. |
 | [EncryptionMethod](../com.aspose.zip/encryptionmethod) | Encryption/decryption methods can be used with a ZIP archive. |
 | [ParallelCompressionMode](../com.aspose.zip/parallelcompressionmode) | Options of usage parallel compression facility. |
+| [RarDictionaryStorageMode](../com.aspose.zip/rardictionarystoragemode) | Specifies how the RAR decompression dictionary is stored. |
 | [SevenZipCompressionMethod](../com.aspose.zip/sevenzipcompressionmethod) | Methods of compression that 7z format support. |
 | [TarFormat](../com.aspose.zip/tarformat) | Enumeration with supported formats of [TarArchive](../com.aspose.zip/tararchive). |
 | [XzCheckType](../com.aspose.zip/xzchecktype) | The enumeration defines checksum calculation approach for xz archive. |

@@ -3,7 +3,7 @@ title: LzmaArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZMA archive file.
 type: docs
-weight: 71
+weight: 86
 url: /java/com.aspose.zip/lzmaarchive/
 ---
 
@@ -90,6 +90,8 @@ Initializes a new instance of the [LzmaArchive](../../com.aspose.zip/lzmaarchive
 
 ```
 
+``````
+
      try (FileInputStream sourceLzmaFile = new FileInputStream(sourceFileName)) {
          try (FileOutputStream extractedFile = new FileOutputStream(extractedFileName)) {
              try (LzmaArchive archive = new LzmaArchive(sourceLzmaFile)) {
@@ -127,6 +129,8 @@ Extracts lzma archive to a file.
 
 ```
 
+``````
+
      try (FileInputStream lzmaFile = new FileInputStream(sourceFileName)) {
          try (LzmaArchive archive = new LzmaArchive(lzmaFile)) {
              archive.extract(new File("extracted.bin"));
@@ -153,6 +157,8 @@ public final void extract(OutputStream destination)
 Extracts lzma archive to a stream.
 
 ```
+
+``````
 
      try (FileInputStream sourceLzmaFile = new FileInputStream(sourceFileName)) {
          try (FileOutputStream extractedFile = new FileOutputStream(extractedFileName)) {
@@ -182,6 +188,8 @@ public final File extract(String path)
 Extracts lzma archive to a file by path.
 
 ```
+
+``````
 
      try (FileInputStream lzmaFile = new FileInputStream(sourceFileName)) {
          try (LzmaArchive archive = new LzmaArchive(lzmaFile)) {
@@ -267,6 +275,8 @@ Saves lzma archive to destination file provided.
 
 ```
 
+``````
+
      try (LzmaArchive archive = new LzmaArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save(new File("archive.lzma"));
@@ -290,6 +300,8 @@ public final void save(OutputStream output)
 Saves lzma archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream lzmaFile = new FileOutputStream("archive.lzma")) {
          try (LzmaArchive archive = new LzmaArchive()) {
@@ -319,6 +331,8 @@ Saves lzma archive to destination file provided.
 
 ```
 
+``````
+
      try (LzmaArchive archive = new LzmaArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("result.lzma");
@@ -342,6 +356,8 @@ public final void setSource(File file)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (LzmaArchive archive = new LzmaArchive()) {
          archive.setSource(new File("data.bin"));
@@ -367,6 +383,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (LzmaArchive archive = new LzmaArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] { 0x00, (byte) 0xFF }));
          archive.save("archive.lzma");
@@ -390,6 +408,8 @@ public final void setSource(String sourcePath)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (LzmaArchive archive = new LzmaArchive()) {
          archive.setSource("data.bin");

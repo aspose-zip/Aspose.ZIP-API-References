@@ -3,7 +3,7 @@ title: CpioEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within cpio archive.
 type: docs
-weight: 43
+weight: 58
 url: /java/com.aspose.zip/cpioentry/
 ---
 
@@ -42,6 +42,8 @@ Extract an entry of cpio archive.
 
 ```
 
+``````
+
      try (CpioArchive archive = new CpioArchive("archive.cpio")) {
          archive.getEntries().get(0).extract(httpResponseStream);
      }
@@ -64,6 +66,8 @@ public final File extract(String path)
 Extracts the entry to the filesystem by the path provided.
 
 ```
+
+``````
 
      try (CpioArchive archive = new CpioArchive("archive.cpio")) {
          archive.getEntries().get(0).extract("data.bin");
@@ -141,6 +145,8 @@ Opens the entry for extraction and provides a stream with entry content.
 Usage:
 
 ```
+
+``````
 
      CpioArchive archive = new CpioArchive("archive.cpio");
      CpioEntry entry = archive.getEntries().get(0);

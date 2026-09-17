@@ -3,7 +3,7 @@ title: XarSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a xar archive.
 type: docs
-weight: 128
+weight: 143
 url: /java/com.aspose.zip/xarsaveoptions/
 ---
 

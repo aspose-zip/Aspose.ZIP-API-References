@@ -3,7 +3,7 @@ title: SevenZipAESEncryptionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for AES encryption or decryption algorithm within 7z archive.
 type: docs
-weight: 88
+weight: 103
 url: /java/com.aspose.zip/sevenzipaesencryptionsettings/
 ---
 
@@ -30,6 +30,8 @@ Initializes a new instance of the [SevenZipAESEncryptionSettings](../../com.aspo
 
 ```
 
+``````
+
     try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(null, new SevenZipAESEncryptionSettings("p@s$")))) {
         archive.createEntry("data.bin", "data.bin");
         archive.save("archive.7z");
@@ -53,6 +55,8 @@ public SevenZipAESEncryptionSettings(SevenZipCipher cipher)
 Initializes a new instance of the [SevenZipAESEncryptionSettings](../../com.aspose.zip/sevenzipaesencryptionsettings) class with external cipher.
 
 ```
+
+``````
 
     SevenZipCipher cipher = composeMyCipher();
     try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(null, new SevenZipAESEncryptionSettings(cipher)))) {

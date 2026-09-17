@@ -3,7 +3,7 @@ title: SevenZipPPMdCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for PPMd compression method within 7z archive.
 type: docs
-weight: 102
+weight: 117
 url: /java/com.aspose.zip/sevenzipppmdcompressionsettings/
 ---
 
@@ -37,6 +37,8 @@ Instantiates settings for PPMd compression method within 7z archive.
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipPPMdCompressionSettings(4, 32)))) {
          archive.createEntry("data.bin", "data.bin");
          archive.save("zipFile.zip");
@@ -65,6 +67,8 @@ public SevenZipPPMdCompressionSettings()
 Instantiates settings for PPMd compression method within 7z archive with default model order and sub-allocator size.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipPPMdCompressionSettings()))) {
          archive.createEntry("data.bin", "data.bin");

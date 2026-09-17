@@ -3,7 +3,7 @@ title: IsoArchive
 second_title: Aspose.ZIP for Java API Reference
 description: Represents an ISO archive ISO 9660.
 type: docs
-weight: 56
+weight: 71
 url: /java/com.aspose.zip/isoarchive/
 ---
 
@@ -55,6 +55,8 @@ The following example shows how to create a new empty ISO archive and add files 
 
 ```
 
+``````
+
      // Create a new empty ISO archive
      try (IsoArchive isoArchive = new IsoArchive()) {
          // Add files to the ISO archive
@@ -78,6 +80,8 @@ Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (IsoArchive archive = new IsoArchive(new FileInputStream("archive.iso"))) {
          archive.extractToDirectory("C:\\extracted");
@@ -104,6 +108,8 @@ Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (IsoArchive archive = new IsoArchive(new FileInputStream("archive.iso"))) {
          archive.extractToDirectory("C:\\extracted");
@@ -132,6 +138,8 @@ The following example shows how to extract all the entries to a directory.
 
 ```
 
+``````
+
      try (IsoArchive archive = new IsoArchive("archive.iso")) {
          archive.extractToDirectory("C:\\extracted");
      }
@@ -156,6 +164,8 @@ Initializes a new instance of the [IsoArchive](../../com.aspose.zip/isoarchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (IsoArchive archive = new IsoArchive("archive.iso")) {
          archive.extractToDirectory("C:\\extracted");
@@ -253,6 +263,8 @@ The following example shows how to extract all entries to a directory:
 
 ```
 
+``````
+
      try (IsoArchive archive = new IsoArchive(new FileInputStream("archive.iso"))) {
          archive.extractToDirectory("C:\\extracted");
      } catch (IOException ex) {
@@ -309,6 +321,8 @@ The following example shows how to save an ISO archive to a memory stream:
 
 ```
 
+``````
+
      ByteArrayOutputStream memoryStream = new ByteArrayOutputStream();
      // Create a new empty ISO archive
      try (IsoArchive isoArchive = new IsoArchive()) {
@@ -338,6 +352,8 @@ Saves the ISO image to the specified stream.
 The following example shows how to save an ISO archive to a memory stream:
 
 ```
+
+``````
 
      ByteArrayOutputStream memoryStream = new ByteArrayOutputStream();
      // Create a new empty ISO archive
@@ -370,6 +386,8 @@ The following example shows how to save an ISO archive to a file:
 
 ```
 
+``````
+
      // Create a new empty ISO archive
      try (IsoArchive isoArchive = new IsoArchive()) {
          // Add files to the ISO archive
@@ -398,6 +416,8 @@ Saves the ISO image to the specified path.
 The following example shows how to save an ISO archive to a file:
 
 ```
+
+``````
 
      // Create a new empty ISO archive
      try (IsoArchive isoArchive = new IsoArchive()) {

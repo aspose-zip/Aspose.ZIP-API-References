@@ -3,7 +3,7 @@ title: GzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a gzip archive file.
 type: docs
-weight: 54
+weight: 69
 url: /java/com.aspose.zip/gziparchive/
 ---
 
@@ -62,6 +62,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (GzipArchive archive = new GzipArchive())
      {
          archive.setSource("data.bin");
@@ -83,6 +85,8 @@ Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive
 Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (GzipArchive archive = new GzipArchive(Files.newInputStream(java.nio.file.Paths.get("archive.gz")))) {
@@ -116,6 +120,8 @@ Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive
 Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (GzipArchive archive = new GzipArchive(Files.newInputStream(java.nio.file.Paths.get("archive.gz")))) {
@@ -151,6 +157,8 @@ Open an archive from a stream and extract it to a `MemoryStream`
 
 ```
 
+``````
+
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      GzipLoadOptions options = new GzipLoadOptions();
      try (GzipArchive archive = new GzipArchive(new FileInputStream("archive.gz"), options)) {
@@ -180,6 +188,8 @@ Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
 
+``````
+
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      GzipLoadOptions options = new GzipLoadOptions();
      try (GzipArchive archive = new GzipArchive("archive.gz", options)) {
@@ -207,6 +217,8 @@ Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive
 Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (GzipArchive archive = new GzipArchive("archive.gz")) {
@@ -240,6 +252,8 @@ Initializes a new instance of the [GzipArchive](../../com.aspose.zip/gziparchive
 Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (GzipArchive archive = new GzipArchive("archive.gz")) {
@@ -280,6 +294,8 @@ public final void extract(OutputStream destination)
 Extracts the archive to the stream provided.
 
 ```
+
+``````
 
      try (GzipArchive archive = new GzipArchive("archive.gz")) {
          archive.extract(httpResponseStream);
@@ -390,6 +406,8 @@ Extracts the archive and copies extracted content to file stream.
 
 ```
 
+``````
+
      try (GzipArchive archive = new GzipArchive("archive.gz")) {
          try (FileOutputStream extracted = new FileOutputStream("data.bin")) {
              InputStream unpacked = archive.open();
@@ -421,6 +439,8 @@ Writes compressed data to http response stream.
 
 ```
 
+``````
+
      try (GzipArchive archive = new GzipArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save(httpResponseStream);
@@ -447,6 +467,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
      try (GzipArchive archive = new GzipArchive()) {
          archive.setSource("data.bin");
          archive.save("archive.gz");
@@ -470,6 +492,8 @@ public final void setSource(TarArchive tarArchive)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (TarArchive tarArchive = new TarArchive()) {
          tarArchive.createEntry("first.bin", "data1.bin");
@@ -499,6 +523,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (GzipArchive archive = new GzipArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("archive.gz");
@@ -522,6 +548,8 @@ public final void setSource(InputStream source)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (GzipArchive archive = new GzipArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] {
@@ -551,6 +579,8 @@ Sets the content to be compressed within the archive.
 Open an archive from file by path and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      try (GzipArchive archive = new GzipArchive()) {
          archive.setSource("data.bin");

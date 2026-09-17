@@ -3,7 +3,7 @@ title: SnappyArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a snappy archive file.
 type: docs
-weight: 106
+weight: 121
 url: /java/com.aspose.zip/snappyarchive/
 ---
 
@@ -55,6 +55,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (SnappyArchive archive = new SnappyArchive()) {
          archive.setSource("data.bin");
          archive.save("archive.snappy");
@@ -88,6 +90,8 @@ public SnappyArchive(String path)
 Initializes a new instance of the [SnappyArchive](../../com.aspose.zip/snappyarchive) class prepared for decompressing.
 
 ```
+
+``````
 
       try (FileInputStream sourceSnappyFile = new FileInputStream("sourceFileName")) {
           try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
@@ -125,6 +129,8 @@ Extracts snappy archive to a file.
 
 ```
 
+``````
+
      try (FileInputStream snappyFile = new FileInputStream("sourceFileName")) {
          try (SnappyArchive archive = new SnappyArchive(snappyFile)) {
              archive.extract(new File("extracted.bin"));
@@ -150,6 +156,8 @@ public final void extract(OutputStream destination)
 Extracts snappy archive to a stream.
 
 ```
+
+``````
 
      try (FileInputStream sourceSnappyFile = new FileInputStream("sourceFileName")) {
          try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
@@ -178,6 +186,8 @@ public final File extract(String path)
 Extracts snappy archive to a file by path.
 
 ```
+
+``````
 
      try (FileInputStream snappyFile = new FileInputStream("sourceFileName")) {
          try (SnappyArchive archive = new SnappyArchive(snappyFile)) {
@@ -262,6 +272,8 @@ Saves snappy archive to the destination file provided.
 
 ```
 
+``````
+
      try (SnappyArchive archive = new SnappyArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save(new File("archive.snappy"));
@@ -285,6 +297,8 @@ public final void save(OutputStream output)
 Saves snappy archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream snappyFile = new FileOutputStream("archive.snappy")) {
          try (SnappyArchive archive = new SnappyArchive()) {
@@ -313,6 +327,8 @@ Saves snappy archive to the destination file provided.
 
 ```
 
+``````
+
      try (SnappyArchive archive = new SnappyArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("result.snappy");
@@ -337,6 +353,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (SnappyArchive archive = new SnappyArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("archive.snappy");
@@ -360,6 +378,8 @@ public final void setSource(InputStream source)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (SnappyArchive archive = new SnappyArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] {
@@ -387,6 +407,8 @@ public final void setSource(String sourcePath)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (SnappyArchive archive = new SnappyArchive()) {
          archive.setSource("data.bin");

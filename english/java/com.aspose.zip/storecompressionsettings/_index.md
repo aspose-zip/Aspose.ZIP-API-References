@@ -3,7 +3,7 @@ title: StoreCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Store compression within a ZIP archive.
 type: docs
-weight: 109
+weight: 124
 url: /java/com.aspose.zip/storecompressionsettings/
 ---
 
@@ -30,6 +30,8 @@ public StoreCompressionSettings()
 Initializes a new instance of the [StoreCompressionSettings](../../com.aspose.zip/storecompressionsettings) class.
 
 ```
+
+``````
 
     try (Archive archive = new Archive(new ArchiveEntrySettings(new StoreCompressionSettings()))) {
         archive.createEntry("data.bin", "data.bin");

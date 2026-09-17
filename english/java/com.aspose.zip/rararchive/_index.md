@@ -3,7 +3,7 @@ title: RarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents RAR archive file.
 type: docs
-weight: 82
+weight: 97
 url: /java/com.aspose.zip/rararchive/
 ---
 
@@ -46,6 +46,8 @@ The following example extracts an archive, then decompress first entry to a `Mem
 
 ```
 
+``````
+
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      try (RarArchive archive = new RarArchive("data.rar")) {
          try (InputStream decompressed = archive.getEntries().get(0).open()) {
@@ -77,6 +79,8 @@ Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) 
 The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```
+
+``````
 
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      try (RarArchive archive = new RarArchive("data.rar")) {
@@ -111,6 +115,8 @@ Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) 
 The following example decipher and decompress first entry to a `MemoryStream`.
 
 ```
+
+``````
 
      try (FileInputStream fs = new FileInputStream("encrypted.rar")) {
          ByteArrayOutputStream extracted = new ByteArrayOutputStream();
@@ -148,6 +154,8 @@ Initializes a new instance of the [RarArchive](../../com.aspose.zip/rararchive) 
 The following example decipher and decompress first entry to a `MemoryStream`.
 
 ```
+
+``````
 
      try (FileInputStream fs = new FileInputStream("encrypted.rar")) {
          ByteArrayOutputStream extracted = new ByteArrayOutputStream();
@@ -191,6 +199,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the archive to the directory provided.
 
 ```
+
+``````
 
     try (RarArchive archive = new RarArchive("archive.rar")) {
         archive.extractToDirectory("C:\\extracted");

@@ -3,7 +3,7 @@ title: Bzip2CompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Bzip2 compression within a ZIP archive.
 type: docs
-weight: 26
+weight: 41
 url: /java/com.aspose.zip/bzip2compressionsettings/
 ---
 
@@ -37,6 +37,8 @@ Initializes a new instance of the [Bzip2CompressionSettings](../../com.aspose.zi
 
 ```
 
+``````
+
      try (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings(1)))) {
          archive.createEntry("data.bin", "data.bin");
          archive.save(zipFile);
@@ -60,6 +62,8 @@ public Bzip2CompressionSettings()
 Initializes a new instance of the [Bzip2CompressionSettings](../../com.aspose.zip/bzip2compressionsettings) class with default block size, equals to 9 hundred of kilobytes.
 
 ```
+
+``````
 
      try (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings()))) {
          archive.createEntry("data.bin", "data.bin");

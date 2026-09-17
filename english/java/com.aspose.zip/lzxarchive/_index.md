@@ -3,7 +3,7 @@ title: LzxArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a LZX .lzx archive file.
 type: docs
-weight: 74
+weight: 89
 url: /java/com.aspose.zip/lzxarchive/
 ---
 
@@ -77,6 +77,8 @@ The following example extracts an archive, then decompress first entry to a `Mem
 
 ```
 
+``````
+
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      try (LzxArchive archive = new LzxArchive("sample.lzx")) {
          archive.getEntries().get(0).extract(extracted);
@@ -102,6 +104,8 @@ Initializes a new instance of the [LzxArchive](../../com.aspose.zip/lzxarchive) 
 The following example extracts an archive, then decompress first entry to a `MemoryStream`.
 
 ```
+
+``````
 
      ByteArrayOutputStream extracted = new ByteArrayOutputStream();
      try (LzxArchive archive = new LzxArchive("sample.lzx")) {
@@ -135,6 +139,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files and directories in the archive to the directory provided.
 
 ```
+
+``````
 
      try (LzxArchive archive = new LzxArchive("archive.lzx")) {
          archive.extractToDirectory("C:/extracted");

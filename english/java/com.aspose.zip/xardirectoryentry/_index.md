@@ -3,7 +3,7 @@ title: XarDirectoryEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents directory entry within xar archive.
 type: docs
-weight: 124
+weight: 139
 url: /java/com.aspose.zip/xardirectoryentry/
 ---
 
@@ -32,6 +32,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the current directory to the directory provided.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive("archive.xar")) {
          ((XarDirectoryEntry)archive.getEntries().get(0)).extractToDirectory("C:\\extracted");

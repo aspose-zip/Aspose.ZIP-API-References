@@ -3,7 +3,7 @@ title: ArchiveEntrySettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings used to compress or decompress entries.
 type: docs
-weight: 15
+weight: 30
 url: /java/com.aspose.zip/archiveentrysettings/
 ---
 

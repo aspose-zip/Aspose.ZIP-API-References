@@ -3,7 +3,7 @@ title: LzipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a Lzip archive file.
 type: docs
-weight: 68
+weight: 83
 url: /java/com.aspose.zip/lziparchive/
 ---
 
@@ -41,6 +41,7 @@ This class represents a Lzip archive file. Use it to compose or extract Lzip arc
 | [getLength()](#getLength--) | Gets length. |
 | [getName()](#getName--) | The name of original file. |
 | [getSettings()](#getSettings--) | Gets the setting of particular lzip archive. |
+| [getUncompressedSize()](#getUncompressedSize--) | Gets the uncompressed size of the file data in bytes. |
 | [save(File destination)](#save-java.io.File-) | Saves lzip archive to destination file provided. |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) | Saves lzip archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves lzip archive to destination file provided. |
@@ -78,6 +79,8 @@ Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive
 
 ```
 
+``````
+
      try (FileInputStream sourceLzipFile = new FileInputStream("sourceLzipFile")) {
          try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
              try (LzipArchive archive = new LzipArchive(sourceLzipFile)) {
@@ -105,6 +108,8 @@ public LzipArchive(InputStream sourceStream, LzipLoadOptions options)
 Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing.
 
 ```
+
+``````
 
      try (FileInputStream sourceLzipFile = new FileInputStream("sourceLzipFile")) {
          try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
@@ -135,6 +140,8 @@ Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive
 
 ```
 
+``````
+
      try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
          try (LzipArchive archive = new LzipArchive("sourceLzipFileName")) {
              archive.extract(extractedFile);
@@ -160,6 +167,8 @@ public LzipArchive(String path, LzipLoadOptions options)
 Initializes a new instance of the [LzipArchive](../../com.aspose.zip/lziparchive) class prepared for decompressing.
 
 ```
+
+``````
 
      try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
          try (LzipArchive archive = new LzipArchive("sourceLzipFileName")) {
@@ -196,6 +205,8 @@ Extracts lzip archive to a file.
 
 ```
 
+``````
+
      try (FileInputStream lzipFile = new FileInputStream("sourceFileName")) {
          try (LzipArchive archive = new LzipArchive(lzipFile)) {
              archive.extract(new File("extracted.bin"));
@@ -221,6 +232,8 @@ public final void extract(OutputStream destination)
 Extracts lzip archive to a stream.
 
 ```
+
+``````
 
      try (FileInputStream sourceLzipFile = new FileInputStream("sourceLzipFile")) {
          try (FileOutputStream extractedFile = new FileOutputStream("extractedFileName")) {
@@ -249,6 +262,8 @@ public final File extract(String path)
 Extracts lzip archive to a file by path.
 
 ```
+
+``````
 
      try (FileInputStream lzipFile = new FileInputStream("sourceFileName")) {
          try (LzipArchive archive = new LzipArchive(lzipFile)) {
@@ -333,6 +348,16 @@ Gets the setting of particular lzip archive.
 
 **Returns:**
 [LzipArchiveSettings](../../com.aspose.zip/lziparchivesettings) - the setting of particular lzip archive
+### getUncompressedSize() {#getUncompressedSize--}
+```
+public final long getUncompressedSize()
+```
+
+
+Gets the uncompressed size of the file data in bytes.
+
+**Returns:**
+long - the uncompressed size of the file data in bytes
 ### save(File destination) {#save-java.io.File-}
 ```
 public final void save(File destination)
@@ -342,6 +367,8 @@ public final void save(File destination)
 Saves lzip archive to destination file provided.
 
 ```
+
+``````
 
      try (LzipArchive archive = new LzipArchive()) {
          archive.setSource(new File("data.bin"));
@@ -366,6 +393,8 @@ public final void save(OutputStream outputStream)
 Saves lzip archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream lzFile = new FileOutputStream("archive.lz")) {
          try (LzipArchive archive = new LzipArchive()) {
@@ -394,6 +423,8 @@ Saves lzip archive to destination file provided.
 
 ```
 
+``````
+
      try (LzipArchive archive = new LzipArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("result.lz");
@@ -417,6 +448,8 @@ public final void setSource(File file)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (LzipArchive archive = new LzipArchive()) {
          archive.setSource(new File("data.bin"));
@@ -442,6 +475,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (LzipArchive archive = new LzipArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] {0x00, (byte)0xFF} ));
          archive.save("archive.lz");
@@ -465,6 +500,8 @@ public final void setSource(String path)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (LzipArchive archive = new LzipArchive()) {
          archive.setSource("data.bin");

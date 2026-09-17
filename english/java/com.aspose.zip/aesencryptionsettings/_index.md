@@ -30,6 +30,8 @@ Initializes a new instance of the [AesEncryptionSettings](../../com.aspose.zip/a
 
 ```
 
+``````
+
     try (Archive archive = new Archive(new ArchiveEntrySettings(null, new AesEncryptionSettings("p@s$", EncryptionMethod.AES256)))) {
         archive.createEntry("data.bin", "data.bin");
         archive.save("archive.zip");

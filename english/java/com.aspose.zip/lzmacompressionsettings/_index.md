@@ -3,7 +3,7 @@ title: LzmaCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for LZMA compression method.
 type: docs
-weight: 73
+weight: 88
 url: /java/com.aspose.zip/lzmacompressionsettings/
 ---
 
@@ -44,6 +44,8 @@ public LzmaCompressionSettings()
 Initializes a new instance of the [LzmaCompressionSettings](../../com.aspose.zip/lzmacompressionsettings) class with default parameters.
 
 ```
+
+``````
 
      try (Archive archive = new Archive(new ArchiveEntrySettings(new LzmaCompressionSettings()))) {
          archive.createEntry("data.bin", "data.bin");

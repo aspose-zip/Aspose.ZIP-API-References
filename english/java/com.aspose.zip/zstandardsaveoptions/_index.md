@@ -3,7 +3,7 @@ title: ZstandardSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for ZStandard  archive.
 type: docs
-weight: 144
+weight: 159
 url: /java/com.aspose.zip/zstandardsaveoptions/
 ---
 
@@ -41,6 +41,8 @@ Gets an event that is raised when a portion of raw stream compressed.
 
 ```
 
+``````
+
      File source = new File("huge.bin");
      ZstandardSaveOptions settings = new ZstandardSaveOptions();
      settings.setCompressionProgressed((sender, args) -> {
@@ -62,6 +64,8 @@ public void setCompressionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when a portion of raw stream compressed.
 
 ```
+
+``````
 
      File source = new File("huge.bin");
      ZstandardSaveOptions settings = new ZstandardSaveOptions();

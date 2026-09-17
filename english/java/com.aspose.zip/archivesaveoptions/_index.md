@@ -3,7 +3,7 @@ title: ArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a ZIP archive.
 type: docs
-weight: 21
+weight: 36
 url: /java/com.aspose.zip/archivesaveoptions/
 ---
 
@@ -100,6 +100,8 @@ public final EncryptionSettings getEncryptionOptions()
 Gets encryption settings for saving existing ZIP archive.
 
 ```
+
+``````
 
     try (Archive archive = new Archive("plain.zip")) {
         ArchiveSaveOptions options = new ArchiveSaveOptions();
@@ -218,6 +220,8 @@ public final void setEncryptionOptions(EncryptionSettings value)
 Sets encryption settings for saving existing ZIP archive.
 
 ```
+
+``````
 
     try (Archive archive = new Archive("plain.zip")) {
         ArchiveSaveOptions options = new ArchiveSaveOptions();
