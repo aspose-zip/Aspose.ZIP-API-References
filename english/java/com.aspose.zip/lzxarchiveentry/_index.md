@@ -3,7 +3,7 @@ title: LzxArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within LZX archive.
 type: docs
-weight: 75
+weight: 90
 url: /java/com.aspose.zip/lzxarchiveentry/
 ---
 
@@ -52,6 +52,8 @@ public final File extract(String path)
 Extracts Lzx archive entry to a filesystem by path.
 
 ```
+
+``````
 
      try (FileInputStream lzxFile = new FileInputStream("archive.lzx")) {
          try (LzxArchive archive = new LzxArchive(lzxFile)) {

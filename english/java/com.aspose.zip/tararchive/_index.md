@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a tar archive file.
 type: docs
-weight: 110
+weight: 125
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -105,6 +105,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (TarArchive archive = new TarArchive()) {
              archive.createEntry(first.bin, "data.bin");
              archive.save("archive.tar");
@@ -125,6 +127,8 @@ Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (TarArchive archive = new TarArchive(new FileInputStream("archive.tar"))) {
              archive.extractToDirectory("C:\\extracted");
@@ -152,6 +156,8 @@ Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (TarArchive archive = new TarArchive("archive.tar")) {
          archive.extractToDirectory("C:\\extracted");
@@ -184,6 +190,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream tarFile = new FileOutputStream("archive.tar")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntries(new java.io.File("C:\\folder"), false);
@@ -213,6 +221,8 @@ public final TarArchive createEntries(File directory, boolean includeRootDirecto
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream tarFile = new FileOutputStream("archive.tar")) {
          try (TarArchive archive = new TarArchive()) {
@@ -245,6 +255,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream tarFile = new FileOutputStream("archive.tar")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntries("C:\\folder", false);
@@ -274,6 +286,8 @@ public final TarArchive createEntries(String sourceDirectory, boolean includeRoo
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream tarFile = new FileOutputStream("archive.tar")) {
          try (TarArchive archive = new TarArchive()) {
@@ -306,6 +320,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      File fi = new File("data.bin");
      try (TarArchive archive = new TarArchive()) {
          archive.createEntry("data.bin", fi);
@@ -333,6 +349,8 @@ public final TarEntry createEntry(String name, File file, boolean openImmediatel
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      File fi = new File("data.bin");
      try (TarArchive archive = new TarArchive()) {
@@ -365,6 +383,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      try (TarArchive archive = new TarArchive()) {
          archive.createEntry("bytes", new ByteArrayInputStream(new byte[] {0x00, (byte) 0xFF}));
          archive.save(tarFile);
@@ -391,6 +411,8 @@ public final TarEntry createEntry(String name, InputStream source, File file)
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (TarArchive archive = new TarArchive()) {
          archive.createEntry("bytes", new ByteArrayInputStream(new byte[] {0x00, (byte) 0xFF}));
@@ -420,6 +442,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      try (TarArchive archive = new TarArchive()) {
              archive.createEntry(first.bin, "data.bin");
              archive.save(outputTarFile);
@@ -446,6 +470,8 @@ public final TarEntry createEntry(String name, String path, boolean openImmediat
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (TarArchive archive = new TarArchive()) {
              archive.createEntry(first.bin, "data.bin");
@@ -479,6 +505,8 @@ Here is how you can remove all entries except the last one:
 
 ```
 
+``````
+
      try (TarArchive archive = new TarArchive("archive.tar")) {
          while (archive.getEntries().size() > 1)
              archive.deleteEntry(archive.getEntries().get_Item(0));
@@ -506,6 +534,8 @@ Removes the entry from the entry list by index.
 
 ```
 
+``````
+
      try (TarArchive archive = new TarArchive("two_files.tar")) {
          archive.deleteEntry(0);
          archive.save("single_file.tar");
@@ -531,6 +561,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the archive to the directory provided.
 
 ```
+
+``````
 
      try (TarArchive archive = new TarArchive("archive.tar")) {
          archive.extractToDirectory("C:\\extracted");
@@ -843,6 +875,8 @@ Saves archive to the stream provided.
 
 ```
 
+``````
+
      try (FileOutputStream tarFile = new FileOutputStream("archive.tar")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry1", "data.bin");
@@ -872,6 +906,8 @@ public final void save(OutputStream output, TarFormat format)
 Saves archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream tarFile = new FileOutputStream("archive.tar")) {
          try (TarArchive archive = new TarArchive()) {
@@ -904,6 +940,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
      try (TarArchive archive = new TarArchive()) {
          archive.createEntry("entry1", "data.bin");
          archive.save("myarchive.tar");
@@ -927,6 +965,8 @@ public final void save(String destinationFileName, TarFormat format)
 Saves archive to the destination file provided.
 
 ```
+
+``````
 
      try (TarArchive archive = new TarArchive()) {
          archive.createEntry("entry1", "data.bin");
@@ -952,6 +992,8 @@ public final void saveGzipped(OutputStream output)
 Saves archive to the stream with gzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.gz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -984,6 +1026,8 @@ public final void saveGzipped(OutputStream output, TarFormat format)
 Saves archive to the stream with gzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.gz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1018,6 +1062,8 @@ Saves archive to the file by path with gzip compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1045,6 +1091,8 @@ public final void saveGzipped(String path, TarFormat format)
 Saves archive to the file by path with gzip compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
@@ -1075,6 +1123,8 @@ Saves archive to the stream with LZ4 compression.
 
 ```
 
+``````
+
      try (FileOutputStream result = new FileOutputStream("result.tar.lz4")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
              try (TarArchive archive = new TarArchive()) {
@@ -1103,6 +1153,8 @@ public final void saveLZ4Compressed(OutputStream output, TarFormat format)
 Saves archive to the stream with LZ4 compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.lz4")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1134,6 +1186,8 @@ Saves archive to the file by path with LZ4 compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1160,6 +1214,8 @@ public final void saveLZ4Compressed(String path, TarFormat format)
 Saves archive to the file by path with LZ4 compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
@@ -1188,6 +1244,8 @@ public final void saveLZMACompressed(OutputStream output)
 Saves archive to the stream with LZMA compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.lzma")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1219,6 +1277,8 @@ public final void saveLZMACompressed(OutputStream output, TarFormat format)
 Saves archive to the stream with LZMA compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.lzma")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1252,6 +1312,8 @@ Saves archive to the file by path with lzma compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1278,6 +1340,8 @@ public final void saveLZMACompressed(String path, TarFormat format)
 Saves archive to the file by path with lzma compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
@@ -1306,6 +1370,8 @@ public final void saveLzipped(OutputStream output)
 Saves archive to the stream with lzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.lz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1337,6 +1403,8 @@ public final void saveLzipped(OutputStream output, TarFormat format)
 Saves archive to the stream with lzip compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.lz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1370,6 +1438,8 @@ Saves archive to the file by path with lzip compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1396,6 +1466,8 @@ public final void saveLzipped(String path, TarFormat format)
 Saves archive to the file by path with lzip compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
@@ -1424,6 +1496,8 @@ public final void saveXzCompressed(OutputStream output)
 Saves archive to the stream with xz compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.xz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1456,6 +1530,8 @@ Saves archive to the stream with xz compression.
 
 ```
 
+``````
+
      try (FileOutputStream result = new FileOutputStream("result.tar.xz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
              try (TarArchive archive = new TarArchive()) {
@@ -1487,6 +1563,8 @@ public final void saveXzCompressed(OutputStream output, TarFormat format, XzArch
 Saves archive to the stream with xz compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.xz")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1521,6 +1599,8 @@ Saves archive to the file by path with xz compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1547,6 +1627,8 @@ public final void saveXzCompressed(String path, TarFormat format)
 Saves archive to the file by path with xz compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
@@ -1575,6 +1657,8 @@ public final void saveXzCompressed(String path, TarFormat format, XzArchiveSetti
 Saves archive to the file by path with xz compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
@@ -1605,6 +1689,8 @@ Saves archive to the stream with Z compression.
 
 ```
 
+``````
+
      try (FileOutputStream result = new FileOutputStream("result.tar.Z")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
              try (TarArchive archive = new TarArchive()) {
@@ -1633,6 +1719,8 @@ public final void saveZCompressed(OutputStream output, TarFormat format)
 Saves archive to the stream with Z compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.Z")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1664,6 +1752,8 @@ Saves archive to the file by path with Z compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1690,6 +1780,8 @@ public final void saveZCompressed(String path, TarFormat format)
 Saves archive to the file by path with Z compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
@@ -1718,6 +1810,8 @@ public final void saveZstandard(OutputStream output)
 Saves archive to the stream with Zstandard compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.zst")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1749,6 +1843,8 @@ public final void saveZstandard(OutputStream output, TarFormat format)
 Saves archive to the stream with Zstandard compression.
 
 ```
+
+``````
 
      try (FileOutputStream result = new FileOutputStream("result.tar.zst")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -1782,6 +1878,8 @@ Saves archive to the file by path with Zstandard compression.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {
              archive.createEntry("entry.bin", source);
@@ -1808,6 +1906,8 @@ public final void saveZstandard(String path, TarFormat format)
 Saves archive to the file by path with Zstandard compression.
 
 ```
+
+``````
 
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (TarArchive archive = new TarArchive()) {

@@ -3,7 +3,7 @@ title: LzmaArchiveSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for lzma archive.
 type: docs
-weight: 72
+weight: 87
 url: /java/com.aspose.zip/lzmaarchivesettings/
 ---
 
@@ -48,6 +48,8 @@ Initializes a new instance of the [LzmaArchiveSettings](../../com.aspose.zip/lzm
 
 ```
 
+``````
+
      LzmaArchiveSettings settings = new LzmaArchiveSettings();
      settings.setDictionarySize(1048576);
      try (LzmaArchive archive = new LzmaArchive(settings)) {
@@ -68,6 +70,8 @@ public Event<ProgressEventArgs> getCompressionProgressed()
 Gets an event that is raised when a portion of raw stream compressed.
 
 ```
+
+``````
 
     lzmaArchiveSettings.setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
@@ -126,6 +130,8 @@ public void setCompressionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when a portion of raw stream compressed.
 
 ```
+
+``````
 
     lzmaArchiveSettings.setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {

@@ -3,7 +3,7 @@ title: CabEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within cab archive.
 type: docs
-weight: 31
+weight: 46
 url: /java/com.aspose.zip/cabentry/
 ---
 
@@ -40,6 +40,8 @@ Extract an entry of CAB archive.
 
 ```
 
+``````
+
      try (CabArchive archive = new CabArchive("archive.cab")) {
          archive.getEntries().get(0).extract(httpResponseStream);
      }
@@ -62,6 +64,8 @@ public final File extract(String path)
 Extracts the entry to the filesystem by the path provided.
 
 ```
+
+``````
 
      try (CabArchive archive = new CabArchive("archive.cab")) {
          archive.getEntries().get(0).extract("data.bin");
@@ -119,6 +123,8 @@ Opens the entry for extraction and provides a stream with entry content.
 Usage:
 
 ```
+
+``````
 
      CabArchive archive = new CabArchive("archive.cab");
      CabEntry entry = archive.getEntries().get(0);

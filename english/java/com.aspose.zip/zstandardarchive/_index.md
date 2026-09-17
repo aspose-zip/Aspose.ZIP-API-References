@@ -3,7 +3,7 @@ title: ZstandardArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a Zstandard archive file.
 type: docs
-weight: 141
+weight: 156
 url: /java/com.aspose.zip/zstandardarchive/
 ---
 
@@ -60,6 +60,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource("data.bin");
          archive.save("archive.zst");
@@ -80,6 +82,8 @@ Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstand
 Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (ZstandardArchive archive = new ZstandardArchive(new FileInputStream("archive.zst"))) {
@@ -113,6 +117,8 @@ Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstand
 Open an archive from a stream and extract it to a `ByteArrayOutputStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (ZstandardArchive archive = new ZstandardArchive(new FileInputStream("archive.zst"))) {
@@ -148,6 +154,8 @@ Open an archive from file by path and extract it to a `ByteArrayOutputStream`
 
 ```
 
+``````
+
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (ZstandardArchive archive = new ZstandardArchive("archive.zst")) {
          InputStream decompressed = archive.open();
@@ -180,6 +188,8 @@ Initializes a new instance of the [ZstandardArchive](../../com.aspose.zip/zstand
 Open an archive from file by path and extract it to a `ByteArrayOutputStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (ZstandardArchive archive = new ZstandardArchive("archive.zst")) {
@@ -220,6 +230,8 @@ public final void extract(OutputStream destination)
 Extracts the archive to the stream provided.
 
 ```
+
+``````
 
      try (ZstandardArchive archive = new ZstandardArchive("archive.zst")) {
          archive.extract(httpResponseStream);
@@ -316,6 +328,8 @@ Extracts the archive and copies extracted content to file stream.
 
 ```
 
+``````
+
      try (ZstandardArchive archive = new ZstandardArchive("archive.zst")) {
          try (FileOutputStream extracted = new FileOutputStream("data.bin")) {
              InputStream unpacked = archive.open();
@@ -345,6 +359,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save(new File("archive.zst"));
@@ -368,6 +384,8 @@ public final void save(File destination, ZstandardSaveOptions settings)
 Saves archive to the destination file provided.
 
 ```
+
+``````
 
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new File("data.bin"));
@@ -396,6 +414,8 @@ Write compressed data to http response stream.
 
 ```
 
+``````
+
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save(outputStream);
@@ -422,6 +442,8 @@ Write compressed data to http response stream.
 
 ```
 
+``````
+
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save(outputStream);
@@ -447,6 +469,8 @@ Saves archive to the destination file provided.
 
 ```
 
+``````
+
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("result.zst");
@@ -470,6 +494,8 @@ public final void save(String destinationFileName, ZstandardSaveOptions settings
 Saves archive to the destination file provided.
 
 ```
+
+``````
 
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new File("data.bin"));
@@ -496,6 +522,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("archive.zst");
@@ -519,6 +547,8 @@ public final void setSource(InputStream source)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] {
@@ -546,6 +576,8 @@ public final void setSource(String path)
 Sets the content to be compressed within the archive.
 
 ```
+
+``````
 
      try (ZstandardArchive archive = new ZstandardArchive()) {
          archive.setSource("data.bin");

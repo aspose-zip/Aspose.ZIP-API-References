@@ -3,7 +3,7 @@ title: CabMsZipCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Compression settings that encode CAB data blocks using MSZip deflate compression.
 type: docs
-weight: 34
+weight: 49
 url: /java/com.aspose.zip/cabmszipcompressionsettings/
 ---
 

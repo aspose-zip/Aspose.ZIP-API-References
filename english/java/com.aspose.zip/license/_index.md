@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.ZIP for Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 64
+weight: 79
 url: /java/com.aspose.zip/license/
 ---
 
@@ -19,6 +19,8 @@ Provides methods to license the component.
 In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component jar file:
 
 ```
+
+``````
 
      License license = new License();
      license.setLicense("MyLicense.lic");
@@ -51,6 +53,8 @@ In this example, an attempt will be made to find a license file named MyLicense.
 
 ```
 
+``````
+
      License license = new License();
      license.setLicense("MyLicense.lic");
  
@@ -80,6 +84,8 @@ public void setLicense(InputStream stream)
 Licenses the component.
 
 ```
+
+``````
 
      License license = new License();
      license.setLicense(myStream);
@@ -113,6 +119,8 @@ Library tries to find the license in the following locations:
 In this example, an attempt will be made to find a license file named MyLicense.lic in locations listed above:
 
 ```
+
+``````
 
      License license = new License();
      license.setLicense("MyLicense.lic");

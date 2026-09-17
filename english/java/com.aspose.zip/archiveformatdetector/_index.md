@@ -3,7 +3,7 @@ title: ArchiveFormatDetector
 second_title: Aspose.ZIP for Java API Reference
 description: Detects an archive format and provides other related information.
 type: docs
-weight: 17
+weight: 32
 url: /java/com.aspose.zip/archiveformatdetector/
 ---
 

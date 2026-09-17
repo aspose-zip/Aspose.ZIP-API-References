@@ -3,7 +3,7 @@ title: ArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents single file within archive.
 type: docs
-weight: 12
+weight: 27
 url: /java/com.aspose.zip/archiveentry/
 ---
 
@@ -55,6 +55,8 @@ Extract an entry of zip archive with password.
 
 ```
 
+``````
+
     try (FileInputStream zipFile = new FileInputStream("archive.zip")) {
         try (Archive archive = new Archive(zipFile)) {
             archive.getEntries().get(0).extract(outputStream, "p@s$");
@@ -82,6 +84,8 @@ Extracts the entry to the stream provided.
 Extract an entry of zip archive with password.
 
 ```
+
+``````
 
     try (FileInputStream zipFile = new FileInputStream("archive.zip")) {
         try (Archive archive = new Archive(zipFile)) {
@@ -111,6 +115,8 @@ Extracts the entry to the filesystem by the path provided.
 Extract two entries of ZIP archive, each with own password
 
 ```
+
+``````
 
     try (FileInputStream zipFile = new FileInputStream("archive.zip")) {
         try (Archive archive = new Archive(zipFile)) {
@@ -142,6 +148,8 @@ Extracts the entry to the filesystem by the path provided.
 Extract two entries of ZIP archive, each with own password
 
 ```
+
+``````
 
     try (FileInputStream zipFile = new FileInputStream("archive.zip")) {
         try (Archive archive = new Archive(zipFile)) {
@@ -193,6 +201,8 @@ Gets an event that is raised when a portion of raw stream compressed.
 
 ```
 
+``````
+
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
@@ -239,6 +249,8 @@ In this sample event handler is used for calculation the share of proceeded size
 
 ```
 
+``````
+
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
@@ -250,6 +262,8 @@ In this sample event handler is used for calculation the share of proceeded size
 In this sample event handler is used for cancellation after the first hundred of Mb of entry was extracted.
 
 ```
+
+``````
 
  a.getEntries().get(0).setExtractionProgressed( (s, e) -> { if (e.getProceededBytes() > 100000000) e.setCancel(true); } );
  
@@ -322,6 +336,8 @@ Usage:
 
 ```
 
+``````
+
     InputStream decompressed = entry.open();
     byte[] buffer = new byte[8192];
     int bytesRead;
@@ -346,6 +362,8 @@ Opens the entry for extraction and provides a stream with decompressed entry con
 Usage:
 
 ```
+
+``````
 
     InputStream decompressed = entry.open();
     byte[] buffer = new byte[8192];
@@ -374,6 +392,8 @@ Sets an event that is raised when a portion of raw stream compressed.
 
 ```
 
+``````
+
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / entrySourceFile.length());
@@ -401,6 +421,8 @@ In this sample event handler is used for calculation the share of proceeded size
 
 ```
 
+``````
+
     archive.getEntries().get(0).setExtractionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
             int percent = (int) ((100 * (long) progressEventArgs.getProceededBytes()) / ((ArchiveEntry) sender).getUncompressedSize());
@@ -412,6 +434,8 @@ In this sample event handler is used for calculation the share of proceeded size
 In this sample event handler is used for cancellation after the first hundred of Mb of entry was extracted.
 
 ```
+
+``````
 
  a.getEntries().get(0).setExtractionProgressed( (s, e) -> { if (e.getProceededBytes() > 100000000) e.setCancel(true); } );
  

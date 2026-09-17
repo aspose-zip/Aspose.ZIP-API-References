@@ -3,7 +3,7 @@ title: LhaArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within Lha archive.
 type: docs
-weight: 61
+weight: 76
 url: /java/com.aspose.zip/lhaarchiveentry/
 ---
 
@@ -39,6 +39,8 @@ public final void extract(File file)
 Extracts Lha archive entry to a file.
 
 ```
+
+``````
 
      try (FileInputStream lhaFile = new FileInputStream("archive.lha")) {
          try (LhaArchive archive = new LhaArchive(lhaFile)) {
@@ -80,6 +82,8 @@ public final File extract(String path)
 Extracts Lha archive entry to a filesystem by path.
 
 ```
+
+``````
 
      try (FileInputStream lhaFile = new FileInputStream("archive.lha")) {
          try (LhaArchive archive = new LhaArchive(lhaFile)) {

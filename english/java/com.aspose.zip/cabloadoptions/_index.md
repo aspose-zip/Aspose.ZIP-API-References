@@ -3,7 +3,7 @@ title: CabLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which archive is loaded from a compressed file.
 type: docs
-weight: 33
+weight: 48
 url: /java/com.aspose.zip/cabloadoptions/
 ---
 
@@ -43,6 +43,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel CAB archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));

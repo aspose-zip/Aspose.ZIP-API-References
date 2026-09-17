@@ -3,7 +3,7 @@ title: XarFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents file entry within xar archive.
 type: docs
-weight: 126
+weight: 141
 url: /java/com.aspose.zip/xarfileentry/
 ---
 
@@ -39,6 +39,8 @@ Extract an entry of wim archive.
 
 ```
 
+``````
+
      try (FileOutputStream output = new FileOutputStream("file")){
          try (XarArchive archive = new XarArchive("archive.xar")) {
              ((XarFileEntry)archive.getEntries().get(0)).extract(output);
@@ -65,6 +67,8 @@ Extracts the entry to the filesystem by the path provided.
 
 ```
 
+``````
+
      try (XarArchive archive = new XarArchive("archive.xar")) {
          ((XarFileEntry)archive.getEntries().get(0)).extract("data.bin");
      }
@@ -89,6 +93,8 @@ public final Event<ProgressEventArgs> getCompressionProgressed()
 Gets an event that is raised when a portion of raw stream compressed.
 
 ```
+
+``````
 
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
@@ -124,6 +130,8 @@ Usage:
 
 ```
 
+``````
+
      try (FileOutputStream fileStream = new FileOutputStream("data.bin")) {
          try (InputStream decompressed = entry.open()) {
              byte[] buffer = new byte[8192];
@@ -150,6 +158,8 @@ public final void setCompressionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when a portion of raw stream compressed.
 
 ```
+
+``````
 
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {

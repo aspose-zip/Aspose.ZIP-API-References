@@ -3,7 +3,7 @@ title: SelfExtractorOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for creation of self-extracting executable archive.
 type: docs
-weight: 87
+weight: 102
 url: /java/com.aspose.zip/selfextractoroptions/
 ---
 
@@ -16,6 +16,8 @@ public class SelfExtractorOptions
 Options for creation of self-extracting executable archive.
 
 ```
+
+``````
 
      try (FileOutputStream zipFile = new FileOutputStream("archive.exe")) {
          try (Archive archive = new Archive()) {

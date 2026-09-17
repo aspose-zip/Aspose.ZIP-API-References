@@ -3,7 +3,7 @@ title: ArjEntryPlain
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within ARJ archive.
 type: docs
-weight: 23
+weight: 38
 url: /java/com.aspose.zip/arjentryplain/
 ---
 
@@ -37,6 +37,8 @@ public final void extract(File file)
 Extracts ARJ archive entry to a file.
 
 ```
+
+``````
 
      try (FileInputStream arjFile = new FileInputStream("sourceFileName")) {
          try (ArjArchive archive = new ArjArchive(arjFile)) {
@@ -78,6 +80,8 @@ Extracts the entry to the filesystem by the path provided.
 Extract two entries of rar archive.
 
 ```
+
+``````
 
      try (FileInputStream arjFile = new FileInputStream("archive.arj")) {
          try (ArjArchive archive = new ArjArchive(arjFile)) {

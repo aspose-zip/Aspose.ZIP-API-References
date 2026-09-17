@@ -3,7 +3,7 @@ title: Bzip2LoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 27
+weight: 42
 url: /java/com.aspose.zip/bzip2loadoptions/
 ---
 
@@ -42,6 +42,8 @@ Gets an event that is raised when some bytes have been extracted.
 
 ```
 
+``````
+
      int[] percent = { 0 };
      long originalFileLength = 10_000_000;
 
@@ -67,6 +69,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel Bzip2 archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
@@ -99,6 +103,8 @@ public void setExtractionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when some bytes have been extracted.
 
 ```
+
+``````
 
      int[] percent = { 0 };
      long originalFileLength = 10_000_000;

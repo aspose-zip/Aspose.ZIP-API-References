@@ -3,7 +3,7 @@ title: SevenZipLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from a compressed file.
 type: docs
-weight: 101
+weight: 116
 url: /java/com.aspose.zip/sevenziploadoptions/
 ---
 
@@ -44,6 +44,8 @@ You can provide decryption password once on archive extraction.
 
 ```
 
+``````
+
      try (FileInputStream fs = new FileInputStream("encrypted_archive.7z");
           FileOutputStream extracted = new FileOutputStream("extracted.bin")) {
          SevenZipLoadOptions options = new SevenZipLoadOptions();
@@ -76,6 +78,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel 7Z archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
@@ -110,6 +114,8 @@ Sets the password to decrypt entries and entry names.
 You can provide decryption password once on archive extraction.
 
 ```
+
+``````
 
      try (FileInputStream fs = new FileInputStream("encrypted_archive.7z");
           FileOutputStream extracted = new FileOutputStream("extracted.bin")) {

@@ -3,7 +3,7 @@ title: Lz4LoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for loading .
 type: docs
-weight: 67
+weight: 82
 url: /java/com.aspose.zip/lz4loadoptions/
 ---
 
@@ -41,6 +41,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel lz4 archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));

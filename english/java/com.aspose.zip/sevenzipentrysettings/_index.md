@@ -3,7 +3,7 @@ title: SevenZipEntrySettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings used to compress or decompress 7z entries.
 type: docs
-weight: 98
+weight: 113
 url: /java/com.aspose.zip/sevenzipentrysettings/
 ---
 
@@ -132,6 +132,8 @@ The following example shows how to compress a directory to solid 7z archive with
 
 ```
 
+``````
+
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          SevenZipEntrySettings settings = new SevenZipEntrySettings(new SevenZipLZMACompressionSettings());
          settings.setSolid(true);
@@ -174,6 +176,8 @@ Sets value indicating whether to concatenate entries and treat them as a single 
 The following example shows how to compress a directory to solid 7z archive with LZMA2 compression without encryption.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          SevenZipEntrySettings settings = new SevenZipEntrySettings(new SevenZipLZMACompressionSettings());

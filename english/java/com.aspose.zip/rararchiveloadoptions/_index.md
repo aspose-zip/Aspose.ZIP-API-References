@@ -3,7 +3,7 @@ title: RarArchiveLoadOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options with which  is loaded from a compressed file.
 type: docs
-weight: 86
+weight: 101
 url: /java/com.aspose.zip/rararchiveloadoptions/
 ---
 
@@ -24,8 +24,12 @@ Options with which [RarArchive](../../com.aspose.zip/rararchive) is loaded from 
 | Method | Description |
 | --- | --- |
 | [getDecryptionPassword()](#getDecryptionPassword--) | Gets the password to decrypt entries and entry names. |
+| [getDictionaryStorageMode()](#getDictionaryStorageMode--) | Gets how the RAR decompression dictionary is stored. |
+| [getTemporaryDirectory()](#getTemporaryDirectory--) | Gets the directory used for temporary dictionary files. |
 | [setCancellationFlag(CancellationFlag value)](#setCancellationFlag-com.aspose.zip.CancellationFlag-) | Sets a cancellation flag used to cancel the extraction operation. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | Sets the password to decrypt entries and entry names. |
+| [setDictionaryStorageMode(RarDictionaryStorageMode value)](#setDictionaryStorageMode-com.aspose.zip.RarDictionaryStorageMode-) | Sets how the RAR decompression dictionary is stored. |
+| [setTemporaryDirectory(String value)](#setTemporaryDirectory-java.lang.String-) | Sets the directory used for temporary dictionary files. |
 ### RarArchiveLoadOptions() {#RarArchiveLoadOptions--}
 ```
 public RarArchiveLoadOptions()
@@ -43,6 +47,8 @@ Gets the password to decrypt entries and entry names.
 You can provide decryption password once on archive extraction.
 
 ```
+
+``````
 
     try (FileInputStream fs = new FileInputStream("encrypted_archive.rar")) {
         try (FileOutputStream extracted = new FileOutputStream("extracted.bin")) {
@@ -66,6 +72,26 @@ You can provide decryption password once on archive extraction.
 
 **Returns:**
 java.lang.String - the password to decrypt entries and entry names.
+### getDictionaryStorageMode() {#getDictionaryStorageMode--}
+```
+public final RarDictionaryStorageMode getDictionaryStorageMode()
+```
+
+
+Gets how the RAR decompression dictionary is stored.
+
+**Returns:**
+[RarDictionaryStorageMode](../../com.aspose.zip/rardictionarystoragemode) - the dictionary storage mode
+### getTemporaryDirectory() {#getTemporaryDirectory--}
+```
+public final String getTemporaryDirectory()
+```
+
+
+Gets the directory used for temporary dictionary files.
+
+**Returns:**
+java.lang.String - the temporary directory; the system temporary directory is used by default
 ### setCancellationFlag(CancellationFlag value) {#setCancellationFlag-com.aspose.zip.CancellationFlag-}
 ```
 public void setCancellationFlag(CancellationFlag value)
@@ -77,6 +103,8 @@ Sets a cancellation flag used to cancel the extraction operation.
 Cancel RAR archive extraction after a certain time.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
@@ -112,6 +140,8 @@ You can provide decryption password once on archive extraction.
 
 ```
 
+``````
+
     try (FileInputStream fs = new FileInputStream("encrypted_archive.rar")) {
         try (FileOutputStream extracted = new FileOutputStream("extracted.bin")) {
             RarArchiveLoadOptions options = new RarArchiveLoadOptions();
@@ -136,4 +166,30 @@ You can provide decryption password once on archive extraction.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | the password to decrypt entries and entry names. |
+
+### setDictionaryStorageMode(RarDictionaryStorageMode value) {#setDictionaryStorageMode-com.aspose.zip.RarDictionaryStorageMode-}
+```
+public final void setDictionaryStorageMode(RarDictionaryStorageMode value)
+```
+
+
+Sets how the RAR decompression dictionary is stored.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [RarDictionaryStorageMode](../../com.aspose.zip/rardictionarystoragemode) | the dictionary storage mode |
+
+### setTemporaryDirectory(String value) {#setTemporaryDirectory-java.lang.String-}
+```
+public final void setTemporaryDirectory(String value)
+```
+
+
+Sets the directory used for temporary dictionary files. A null or empty value selects the system temporary directory.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | the temporary directory |
 

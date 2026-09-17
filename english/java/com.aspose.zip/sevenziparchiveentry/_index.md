@@ -3,7 +3,7 @@ title: SevenZipArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within 7z archive.
 type: docs
-weight: 90
+weight: 105
 url: /java/com.aspose.zip/sevenziparchiveentry/
 ---
 
@@ -50,6 +50,8 @@ Extract an entry of zip archive with password.
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.getEntries().get(0).extract(httpResponseStream);
      }
@@ -75,6 +77,8 @@ Extract an entry of zip archive with password.
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.getEntries().get(0).extract(httpResponseStream);
      }
@@ -98,6 +102,8 @@ public final File extract(String path)
 Extracts the entry to the filesystem by the path provided.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.getEntries().get(0).extract("data.bin");
@@ -123,6 +129,8 @@ public final File extract(String path, String password)
 Extracts the entry to the filesystem by the path provided.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.getEntries().get(0).extract("data.bin");
@@ -159,6 +167,8 @@ public final Event<ProgressEventArgs> getCompressionProgressed()
 Gets an event that is raised when a portion of raw stream compressed.
 
 ```
+
+``````
 
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {
@@ -246,6 +256,8 @@ Usage:
 
 ```
 
+``````
+
      SevenZipArchive archive = new SevenZipArchive("archive.7z");
      SevenZipArchiveEntry entry = archive.getEntries().get(0);
      try (FileOutputStream fileStream = new FileOutputStream("data.bin")) {
@@ -276,6 +288,8 @@ Opens the entry for extraction and provides a stream with entry content.
 Usage:
 
 ```
+
+``````
 
      SevenZipArchive archive = new SevenZipArchive("archive.7z");
      SevenZipArchiveEntry entry = archive.getEntries().get(0);
@@ -310,6 +324,8 @@ public final void setCompressionProgressed(Event<ProgressEventArgs> value)
 Sets an event that is raised when a portion of raw stream compressed.
 
 ```
+
+``````
 
     archive.getEntries().get(0).setCompressionProgressed(new Event<ProgressEventArgs>() {
         public void invoke(Object sender, ProgressEventArgs progressEventArgs) {

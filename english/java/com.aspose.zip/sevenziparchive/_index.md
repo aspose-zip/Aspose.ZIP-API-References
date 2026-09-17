@@ -3,7 +3,7 @@ title: SevenZipArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents 7z archive file.
 type: docs
-weight: 89
+weight: 104
 url: /java/com.aspose.zip/sevenziparchive/
 ---
 
@@ -74,6 +74,8 @@ The following example shows how to compress a single file with default settings:
 
 ```
 
+``````
+
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (SevenZipArchive archive = new SevenZipArchive()) {
              archive.createEntry("data.bin", "file.dat");
@@ -97,6 +99,8 @@ Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenzi
 The following example shows how to compress a single file with default settings: LZMA compression without encryption.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (SevenZipArchive archive = new SevenZipArchive()) {
@@ -125,6 +129,8 @@ Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenzi
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive(new FileInputStream("archive.7z"))) {
          archive.extractToDirectory("C:\\extracted");
      } catch (FileNotFoundException ex) {
@@ -148,6 +154,8 @@ public SevenZipArchive(InputStream sourceStream, String password)
 Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive(new FileInputStream("archive.7z"))) {
          archive.extractToDirectory("C:\\extracted");
@@ -174,6 +182,8 @@ Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenzi
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.extractToDirectory("C:\\extracted");
      } catch (FileNotFoundException ex) {
@@ -197,6 +207,8 @@ public SevenZipArchive(String path, String password)
 Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class and composes an entry list can be extracted from the archive.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.extractToDirectory("C:\\extracted");
@@ -224,6 +236,8 @@ Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenzi
 Extract an encrypted archive. Allow up to 60 seconds to proceed, cancel after that period.
 
 ```
+
+``````
 
      try (CancellationFlag cf = new CancellationFlag()) {
          SevenZipLoadOptions options = new SevenZipLoadOptions();
@@ -260,6 +274,8 @@ Extract an encrypted archive. Allow up to 60 seconds to proceed, cancel after th
 
 ```
 
+``````
+
      try (CancellationFlag cf = new CancellationFlag()) {
          SevenZipLoadOptions options = new SevenZipLoadOptions();
          options.setDecryptionPassword("Top$ecr3t");
@@ -293,6 +309,8 @@ Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenzi
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive(new String[] { "multi.7z.001", "multi.7z.002", "multi.7z.003" } )) {
          archive.extractToDirectory("C:\\extracted");
      }
@@ -315,6 +333,8 @@ public SevenZipArchive(String[] parts, String password)
 Initializes a new instance of the [SevenZipArchive](../../com.aspose.zip/sevenziparchive) class from multi-volume 7z archive and composes an entry list can be extracted from the archive.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive(new String[] { "multi.7z.001", "multi.7z.002", "multi.7z.003" } )) {
          archive.extractToDirectory("C:\\extracted");
@@ -348,6 +368,8 @@ Adds to the archive all files and directories recursively in the directory given
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive()) {
          File folder = new File("C:\\folder");
          archive.createEntries(folder);
@@ -374,6 +396,8 @@ public final SevenZipArchive createEntries(File directory, boolean includeRootDi
 Adds to the archive all files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive()) {
          File folder = new File("C:\\folder");
@@ -405,6 +429,8 @@ Compose 7z archive with LZMA compression.
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings()))) {
          archive.createEntries("C:\\folder");
          archive.save("folder.7z");
@@ -432,6 +458,8 @@ Adds to the archive all files and directories recursively in the directory given
 Compose 7z archive with LZMA compression.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings()))) {
          archive.createEntries("C:\\folder");
@@ -461,6 +489,8 @@ Creates a single entry within the archive.
 Compose archive with entries encrypted with different passwords each.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          File fi1 = new File("data1.bin");
@@ -499,6 +529,8 @@ Creates a single entry within the archive.
 Compose archive with entries encrypted with different passwords each.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          File fi1 = new File("data1.bin");
@@ -540,6 +572,8 @@ Creates a single entry within the archive.
 Compose archive with entries encrypted with different passwords each.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          File fi1 = new File("data1.bin");
@@ -583,6 +617,8 @@ Compose 7z archive with LZMA compression and encryption of all entries.
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings(), new SevenZipAESEncryptionSettings("p@s$")))) {
          archive.createEntry("data.bin", new ByteArrayInputStream(new byte[] {0x00, (byte)0xFF} ));
          archive.save("archive.7z");
@@ -611,6 +647,8 @@ Creates a single entry within the archive.
 Compose 7z archive with LZMA compression and encryption of all entries.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings(), new SevenZipAESEncryptionSettings("p@s$")))) {
          archive.createEntry("data.bin", new ByteArrayInputStream(new byte[] {0x00, (byte)0xFF} ));
@@ -641,6 +679,8 @@ Creates a single entry within the archive.
 Compose archive with LZMA compressed encrypted entry.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (SevenZipArchive archive = new SevenZipArchive()) {
@@ -676,6 +716,8 @@ Creates a single entry within the archive.
 
 ```
 
+``````
+
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings()))) {
              archive.createEntry("data.bin", "file.dat");
@@ -705,6 +747,8 @@ public final SevenZipArchiveEntry createEntry(String name, String path, boolean 
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings()))) {
@@ -738,6 +782,8 @@ public final SevenZipArchiveEntry createEntry(String name, String path, boolean 
 Creates a single entry within the archive.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings()))) {
@@ -775,6 +821,8 @@ Compose archive with LZMA2 compressed encrypted entry.
 
 ```
 
+``````
+
  System.Func&lt;Stream&gt; provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
  using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
  {
@@ -809,6 +857,8 @@ Compose archive with LZMA2 compressed encrypted entry.
 
 ```
 
+``````
+
  System.Func&lt;Stream&gt; provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
  using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
  {
@@ -842,6 +892,8 @@ Extracts all the files in the archive to the directory provided.
 
 ```
 
+``````
+
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.extractToDirectory("C:\\extracted");
      }
@@ -866,6 +918,8 @@ public final void extractToDirectory(String destinationDirectory, String passwor
 Extracts all the files in the archive to the directory provided.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive("archive.7z")) {
          archive.extractToDirectory("C:\\extracted");
@@ -935,6 +989,8 @@ Saves 7z archive to the stream provided.
 
 ```
 
+``````
+
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
              try (SevenZipArchive archive = new SevenZipArchive()) {
@@ -963,6 +1019,8 @@ public final void save(OutputStream output, SevenZipArchiveSaveOptions saveOptio
 Saves 7z archive to the stream provided.
 
 ```
+
+``````
 
      try (FileOutputStream sevenZipFile = new FileOutputStream("archive.7z")) {
          try (FileInputStream source = new FileInputStream("data.bin")) {
@@ -994,6 +1052,8 @@ Saves archive to a destination file provided.
 
 ```
 
+``````
+
   using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
   {
      using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings())))
@@ -1024,6 +1084,8 @@ Saves archive to a destination file provided.
 
 ```
 
+``````
+
      try (FileInputStream source = new FileInputStream("data.bin")) {
          try (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings()))) {
              archive.createEntry("data", source);
@@ -1053,6 +1115,8 @@ public final void saveSplit(String destinationDirectory, SplitSevenZipArchiveSav
 Saves multi-volume archive to destination directory provided.
 
 ```
+
+``````
 
      try (SevenZipArchive archive = new SevenZipArchive()) {
          archive.createEntry("entry.bin", "data.bin");

@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 148
+weight: 163
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -18,6 +18,8 @@ Supported archive formats.
 
 | Field | Description |
 | --- | --- |
+| [Alz](#Alz) | ALZ archive ([AlzArchive](../../com.aspose.zip/alzarchive)). |
+| [Apple](#Apple) | Apple archive (Aspose.Zip.Apple.AppleArchive). |
 | [Arj](#Arj) | Arj archive ([ArjArchive](../../com.aspose.zip/arjarchive)). |
 | [Bzip2](#Bzip2) | Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)). |
 | [Cab](#Cab) | Cab archive ([CabArchive](../../com.aspose.zip/cabarchive)). |
@@ -48,6 +50,22 @@ Supported archive formats.
 | --- | --- |
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [values()](#values--) |  |
+### Alz {#Alz}
+```
+public static final ArchiveFormat Alz
+```
+
+
+ALZ archive ([AlzArchive](../../com.aspose.zip/alzarchive)).
+
+### Apple {#Apple}
+```
+public static final ArchiveFormat Apple
+```
+
+
+Apple archive (Aspose.Zip.Apple.AppleArchive).
+
 ### Arj {#Arj}
 ```
 public static final ArchiveFormat Arj

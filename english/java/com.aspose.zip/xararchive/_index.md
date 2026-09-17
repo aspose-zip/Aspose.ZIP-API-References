@@ -3,7 +3,7 @@ title: XarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a xar archive file.
 type: docs
-weight: 121
+weight: 136
 url: /java/com.aspose.zip/xararchive/
 ---
 
@@ -67,6 +67,8 @@ The following example shows how to compress a file.
 
 ```
 
+``````
+
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("first.bin", "data.bin");
          archive.save("archive.xar");
@@ -87,6 +89,8 @@ Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) 
 The following example shows how to compress a file.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("first.bin", "data.bin");
@@ -114,6 +118,8 @@ The following example shows how to extract all the entries to a directory.
 
 ```
 
+``````
+
      try (XarArchive archive = new XarArchive(new FileInputStream("archive.xar"))) {
          archive.extractToDirectory("C:\\extracted");
      } catch (IOException ex) {
@@ -139,6 +145,8 @@ Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive(new FileInputStream("archive.xar"))) {
          archive.extractToDirectory("C:\\extracted");
@@ -167,6 +175,8 @@ The following example shows how to extract all the entries to a directory.
 
 ```
 
+``````
+
      try (XarArchive archive = new XarArchive("archive.xar")) {
          archive.extractToDirectory("C:\\extracted");
      }
@@ -191,6 +201,8 @@ Initializes a new instance of the [XarArchive](../../com.aspose.zip/xararchive) 
 The following example shows how to extract all the entries to a directory.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive("archive.xar")) {
          archive.extractToDirectory("C:\\extracted");
@@ -224,6 +236,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream xarFile = new FileOutputStream("archive.xar")) {
          try (XarArchive archive = new XarArchive()) {
              archive.createEntries(new java.io.File("C:\\folder"), false);
@@ -252,6 +266,8 @@ public final XarArchive createEntries(File directory, boolean includeRootDirecto
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream xarFile = new FileOutputStream("archive.xar")) {
          try (XarArchive archive = new XarArchive()) {
@@ -282,6 +298,8 @@ public final XarArchive createEntries(File directory, boolean includeRootDirecto
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream xarFile = new FileOutputStream("archive.xar")) {
          try (XarArchive archive = new XarArchive()) {
@@ -314,6 +332,8 @@ Adds to the archive all the files and directories recursively in the directory g
 
 ```
 
+``````
+
      try (FileOutputStream xarFile = new FileOutputStream("archive.xar")) {
          try (XarArchive archive = new XarArchive()) {
              archive.createEntries("C:\\folder", false);
@@ -342,6 +362,8 @@ public final XarArchive createEntries(String sourceDirectory, boolean includeRoo
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream xarFile = new FileOutputStream("archive.xar")) {
          try (XarArchive archive = new XarArchive()) {
@@ -372,6 +394,8 @@ public final XarArchive createEntries(String sourceDirectory, boolean includeRoo
 Adds to the archive all the files and directories recursively in the directory given.
 
 ```
+
+``````
 
      try (FileOutputStream xarFile = new FileOutputStream("archive.xar")) {
          try (XarArchive archive = new XarArchive()) {
@@ -404,6 +428,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
      java.io.File file = new java.io.File("data.bin");
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("test.bin", file);
@@ -431,6 +457,8 @@ public final XarEntry createEntry(String name, File file, boolean openImmediatel
 Create a single entry within the archive.
 
 ```
+
+``````
 
      java.io.File file = new java.io.File("data.bin");
      try (XarArchive archive = new XarArchive()) {
@@ -460,6 +488,8 @@ public final XarEntry createEntry(String name, File file, boolean openImmediatel
 Create a single entry within the archive.
 
 ```
+
+``````
 
      java.io.File file = new java.io.File("data.bin");
      try (XarArchive archive = new XarArchive()) {
@@ -491,6 +521,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("data.bin", new FileInputStream("data.bin"));
          archive.save("archive.xar");
@@ -518,6 +550,8 @@ public final XarEntry createEntry(String name, InputStream source, XarCompressio
 Create a single entry within the archive.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("data.bin", new FileInputStream("data.bin"));
@@ -548,6 +582,8 @@ Create a single entry within the archive.
 
 ```
 
+``````
+
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("first.bin", "data.bin");
          archive.save("archive.xar");
@@ -574,6 +610,8 @@ public final XarEntry createEntry(String name, String sourcePath, boolean openIm
 Create a single entry within the archive.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("first.bin", "data.bin");
@@ -604,6 +642,8 @@ public final XarEntry createEntry(String name, String sourcePath, boolean openIm
 Create a single entry within the archive.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive()) {
          archive.createEntry("first.bin", "data.bin");
@@ -638,6 +678,8 @@ Here is how you can remove all entries except the last one:
 
 ```
 
+``````
+
      try (XarArchive archive = new XarArchive("archive.xar")) {
          while (archive.getEntries().size() > 1)
              archive.deleteEntry(archive.getEntries().get(0));
@@ -664,6 +706,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the archive to the directory provided.
 
 ```
+
+``````
 
      try (XarArchive archive = new XarArchive("archive.xar")) {
          archive.extractToDirectory("C:\\extracted");

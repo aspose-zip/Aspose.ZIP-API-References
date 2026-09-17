@@ -3,7 +3,7 @@ title: WimDirectoryEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single directory within wim archive.
 type: docs
-weight: 116
+weight: 131
 url: /java/com.aspose.zip/wimdirectoryentry/
 ---
 
@@ -32,6 +32,8 @@ public final void extractToDirectory(String destinationDirectory)
 Extracts all the files in the current directory to the directory provided.
 
 ```
+
+``````
 
      try (WimArchive archive = new WimArchive("archive.wim")) {
          archive.getImages().get_Item(0).getRootDirectory().extractToDirectory("C:\\extracted");

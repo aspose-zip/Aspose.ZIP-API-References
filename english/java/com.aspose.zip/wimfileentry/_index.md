@@ -3,7 +3,7 @@ title: WimFileEntry
 second_title: Aspose.ZIP for Java API Reference
 description: Represents a single file within wim archive.
 type: docs
-weight: 118
+weight: 133
 url: /java/com.aspose.zip/wimfileentry/
 ---
 
@@ -37,6 +37,8 @@ Extract an entry of wim archive.
 
 ```
 
+``````
+
      try (WimArchive archive = new WimArchive("archive.wim")) {
          archive.getImages().get_Item(0).getRootDirectory().getFiles().get(0).extract(httpResponseStream);
      }
@@ -59,6 +61,8 @@ public final File extract(String path)
 Extracts the entry to the filesystem by the path provided.
 
 ```
+
+``````
 
      try (WimArchive archive = new WimArchive("archive.wim")) {
          archive.getImages().get_Item(0).getRootDirectory().getFiles().get(0).extract("data.bin");
@@ -96,6 +100,8 @@ Opens the entry for extraction and provides a stream with entry content.
 Usage:
 
 ```
+
+``````
 
      try (FileOutputStream fileStream = new FileOutputStream("data.bin")) {
          try (InputStream decompressed = entry.open()) {

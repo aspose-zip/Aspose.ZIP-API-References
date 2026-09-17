@@ -3,7 +3,7 @@ title: UueArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents uuencoded file.
 type: docs
-weight: 113
+weight: 128
 url: /java/com.aspose.zip/uuearchive/
 ---
 
@@ -56,6 +56,8 @@ The following example shows how to uuencode file.
 
 ```
 
+``````
+
      try (UueArchive archive = new UueArchive()) {
          archive.setSource("data.bin");
          archive.save("archive.uue");
@@ -76,6 +78,8 @@ Initializes a new instance of the [UueArchive](../../com.aspose.zip/uuearchive) 
 Open an archive from a stream and extract it to a `MemoryStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (UueArchive archive = new UueArchive(new FileInputStream("archive.001"))) {
@@ -108,6 +112,8 @@ Initializes a new instance of the [UueArchive](../../com.aspose.zip/uuearchive) 
 Open an archive from file by path and decode it to a `MemoryStream`
 
 ```
+
+``````
 
      ByteArrayOutputStream ms = new ByteArrayOutputStream();
      try (UueArchive archive = new UueArchive(new FileInputStream("archive.uue"))) {
@@ -146,6 +152,8 @@ public final void extract(OutputStream destination)
 Extracts the archive to the stream provided.
 
 ```
+
+``````
 
      try (UueArchive archive = new UueArchive("archive.uue")) {
          archive.extract(httpResponseStream);
@@ -242,6 +250,8 @@ Usage:
 
 ```
 
+``````
+
      try (InputStream decompressed = archive.open()) {
          byte[] buffer = new byte[8192];
          int bytesRead;
@@ -269,6 +279,8 @@ Write compressed data to http response stream.
 
 ```
 
+``````
+
      try (UueArchive archive = new UueArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save(outputStream);
@@ -294,6 +306,8 @@ Saves archive to the stream provided.
 Write compressed data to http response stream.
 
 ```
+
+``````
 
      try (UueArchive archive = new UueArchive()) {
          archive.setSource(new File("data.bin"));
@@ -322,6 +336,8 @@ Write encoded data to file.
 
 ```
 
+``````
+
      try (UueArchive archive = new UueArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("data.uue");
@@ -348,6 +364,8 @@ Write encoded data to file.
 
 ```
 
+``````
+
      try (UueArchive archive = new UueArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("data.uue");
@@ -373,6 +391,8 @@ Sets the content to be compressed within the archive.
 
 ```
 
+``````
+
      try (UueArchive archive = new UueArchive()) {
          archive.setSource(new File("data.bin"));
          archive.save("archive.uue");
@@ -396,6 +416,8 @@ public final void setSource(InputStream source)
 Sets the content to be encoded within the archive.
 
 ```
+
+``````
 
      try (UueArchive archive = new UueArchive()) {
          archive.setSource(new ByteArrayInputStream(new byte[] {
@@ -423,6 +445,8 @@ public final void setSource(String path)
 Sets the content to be encoded within the archive.
 
 ```
+
+``````
 
      try (UueArchive archive = new UueArchive()) {
          archive.setSource("data.bin");
