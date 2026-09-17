@@ -32,6 +32,7 @@ The GzipArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(path)|Sets the content to be compressed within the archive.|
 |set_source(tar_archive)|Sets the content to be compressed within the archive.|
 |extract(destination)|Extracts the archive to the stream provided.|

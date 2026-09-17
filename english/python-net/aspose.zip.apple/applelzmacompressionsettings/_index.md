@@ -15,8 +15,8 @@ The AppleLzmaCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppleLzmaCompressionSettings(block_size, dictionary_size)|Initializes a new instance of the [AppleLzmaCompressionSettings](/zip/python-net/aspose.zip.apple/applelzmacompressionsettings/) class.|
-|AppleLzmaCompressionSettings(block_size, dictionary_size, fast_bytes)|Initializes a new instance of the [AppleLzmaCompressionSettings](/zip/python-net/aspose.zip.apple/applelzmacompressionsettings/) class.|
+|AppleLzmaCompressionSettings(block_size, dictionary_size)|Initializes a new instance of the AppleLzmaCompressionSettings class|
+|AppleLzmaCompressionSettings(block_size, dictionary_size, fast_bytes)|Initializes a new instance of the AppleLzmaCompressionSettings class|
 |AppleLzmaCompressionSettings()|Initializes a new instance of the [AppleLzmaCompressionSettings](/zip/python-net/aspose.zip.apple/applelzmacompressionsettings/) class.|
 ## Properties
 | Name | Description |

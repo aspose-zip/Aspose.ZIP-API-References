@@ -3,7 +3,7 @@ title: Bzip2CompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.zip.saving/bzip2compressionsettings/
 ---
 
@@ -15,7 +15,7 @@ The Bzip2CompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Bzip2CompressionSettings(block_size)|Initializes a new instance of the [Bzip2CompressionSettings](/zip/python-net/aspose.zip.saving/bzip2compressionsettings/) class.|
+|Bzip2CompressionSettings(block_size)|Initializes a new instance of the Bzip2CompressionSettings class|
 |Bzip2CompressionSettings()|Initializes a new instance of the [Bzip2CompressionSettings](/zip/python-net/aspose.zip.saving/bzip2compressionsettings/) class.|
 ## Properties
 | Name | Description |

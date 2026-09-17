@@ -3,7 +3,7 @@ title: SevenZipPPMdCompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 220
 url: /python-net/aspose.zip.saving/sevenzipppmdcompressionsettings/
 ---
 
@@ -15,7 +15,7 @@ The SevenZipPPMdCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|SevenZipPPMdCompressionSettings(max_order, suballocator_size)|Instantiates settings for PPMd compression method within 7z archive.|
+|SevenZipPPMdCompressionSettings(max_order, suballocator_size)|Initializes a new instance of the SevenZipPPMdCompressionSettings class|
 |SevenZipPPMdCompressionSettings()|Instantiates settings for PPMd compression method within 7z archive.|
 ## Properties
 | Name | Description |

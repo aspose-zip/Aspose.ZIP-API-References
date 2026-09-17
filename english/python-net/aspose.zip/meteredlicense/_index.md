@@ -3,7 +3,7 @@ title: MeteredLicense
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 130
 url: /python-net/aspose.zip/meteredlicense/
 ---
 

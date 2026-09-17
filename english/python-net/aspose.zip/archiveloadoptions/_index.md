@@ -3,13 +3,13 @@ title: ArchiveLoadOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 60
 url: /python-net/aspose.zip/archiveloadoptions/
 ---
 
 ## ArchiveLoadOptions class
 
-Options with which archive is loaded from a compressed file.
+Options with which ZIP archive is loaded from a compressed file.
 
 The ArchiveLoadOptions type exposes the following members:
 ## Constructors

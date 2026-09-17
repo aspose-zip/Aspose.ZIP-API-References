@@ -3,7 +3,7 @@ title: SevenZipLZMACompressionSettings
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 210
 url: /python-net/aspose.zip.saving/sevenziplzmacompressionsettings/
 ---
 
@@ -16,8 +16,8 @@ The SevenZipLZMACompressionSettings type exposes the following members:
 | Name | Description |
 | :- | :- |
 |SevenZipLZMACompressionSettings()|Initializes a new instance of the [SevenZipLZMACompressionSettings](/zip/python-net/aspose.zip.saving/sevenziplzmacompressionsettings/) class with default parameters.|
-|SevenZipLZMACompressionSettings(dictionary_size, number_of_fast_bytes, literal_context_bits)|Initializes a new instance of the [SevenZipLZMACompressionSettings](/zip/python-net/aspose.zip.saving/sevenziplzmacompressionsettings/) class with specified dictionary size, number of fast bytes and number of literal context bits.|
-|SevenZipLZMACompressionSettings(dictionary_size)|Initializes a new instance of the [SevenZipLZMACompressionSettings](/zip/python-net/aspose.zip.saving/sevenziplzmacompressionsettings/) class with specified dictionary size, number of fast bytes and number of literal context bits.|
+|SevenZipLZMACompressionSettings(dictionary_size, number_of_fast_bytes, literal_context_bits)|Initializes a new instance of the SevenZipLZMACompressionSettings class|
+|SevenZipLZMACompressionSettings(dictionary_size)|Initializes a new instance of the SevenZipLZMACompressionSettings class|
 ## Properties
 | Name | Description |
 | :- | :- |

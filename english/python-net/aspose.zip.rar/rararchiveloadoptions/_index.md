@@ -15,11 +15,13 @@ The RarArchiveLoadOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|RarArchiveLoadOptions()|Initializes a new instance of the RarArchiveLoadOptions class|
+|RarArchiveLoadOptions()|Initializes a new instance of the [RarArchiveLoadOptions](/zip/python-net/aspose.zip.rar/rararchiveloadoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
 |decryption_password|Gets or sets the password to decrypt entries and entry names.|
+|dictionary_storage_mode|Gets or sets how the RAR decompression dictionary is stored.|
+|temporary_directory|Gets or sets the directory used for temporary dictionary files.|
 
 ### See Also
 

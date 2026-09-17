@@ -27,8 +27,13 @@ The TarArchive type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
+|create_entry(name, source, file_info)|Create a single entry within the archive.|
+|create_entry(name, file_info, open_immediately)|Create a single entry within the archive.|
+|create_entry(name, path, open_immediately)|Create a single entry within the archive.|
+|create_entries(directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
+|create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
 |delete_entry(entry)|Removes the first occurrence of a specific entry from the entry list.|
-|delete_entry(entry_index)|Removes the entry from the entry list by index.|
+|delete_entry(entry_index)|  |
 |save(output, format)|  |
 |save(destination_file_name, format)|  |
 |save_gzipped(output, format)|  |
@@ -59,8 +64,6 @@ The TarArchive type exposes the following members:
 |from_xz(path)|Extracts supplied xz format archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |from_z(source)|Extracts supplied Zstandard archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
 |from_z(path)|Extracts supplied Zstandard archive and composes [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) from extracted data.|
-|create_entry(name, path, open_immediately)|Create a single entry within the archive.|
-|create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 
 ### See Also

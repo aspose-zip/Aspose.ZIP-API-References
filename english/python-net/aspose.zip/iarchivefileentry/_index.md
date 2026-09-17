@@ -3,7 +3,7 @@ title: IArchiveFileEntry
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 110
 url: /python-net/aspose.zip/iarchivefileentry/
 ---
 

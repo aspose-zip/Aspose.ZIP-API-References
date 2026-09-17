@@ -15,7 +15,7 @@ The AppleLz4CompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppleLz4CompressionSettings(block_size)|Initializes a new instance of the [AppleLz4CompressionSettings](/zip/python-net/aspose.zip.apple/applelz4compressionsettings/) class.|
+|AppleLz4CompressionSettings(block_size)|Initializes a new instance of the AppleLz4CompressionSettings class|
 |AppleLz4CompressionSettings()|Initializes a new instance of the [AppleLz4CompressionSettings](/zip/python-net/aspose.zip.apple/applelz4compressionsettings/) class.|
 ## Properties
 | Name | Description |

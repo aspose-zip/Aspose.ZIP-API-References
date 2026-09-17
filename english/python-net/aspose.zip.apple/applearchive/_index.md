@@ -31,8 +31,10 @@ The AppleArchive type exposes the following members:
 | :- | :- |
 |create_entry(name, path, open_immediately)|Creates a single entry within the archive.|
 |create_entry(name, source)|Creates a single entry within the archive.|
+|create_entry(name, file_info, open_immediately)|Creates a single entry within the archive.|
 |save(output)|Saves archive to the stream provided.|
 |save(destination_file_name)|Saves archive to a destination file provided.|
+|create_entries(directory, include_root_directory)|Adds to the archive all files and directories recursively in the directory given.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 
 ### See Also

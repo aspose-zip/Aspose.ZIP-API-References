@@ -3,7 +3,7 @@ title: CancelEntryEventArgs
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 70
 url: /python-net/aspose.zip/cancelentryeventargs/
 ---
 
