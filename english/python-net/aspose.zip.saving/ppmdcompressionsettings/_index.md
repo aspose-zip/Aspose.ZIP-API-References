@@ -15,7 +15,7 @@ The PPMdCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PPMdCompressionSettings(model_order, suballocator_size)|Initializes a new instance of the [PPMdCompressionSettings](/zip/python-net/aspose.zip.saving/ppmdcompressionsettings/) class.|
+|PPMdCompressionSettings(model_order, suballocator_size)|Initializes a new instance of the PPMdCompressionSettings class|
 |PPMdCompressionSettings()|Initializes a new instance of the [PPMdCompressionSettings](/zip/python-net/aspose.zip.saving/ppmdcompressionsettings/) class.|
 ## Properties
 | Name | Description |

@@ -3,7 +3,7 @@ title: SevenZipCompressionMethod
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 320
 url: /python-net/aspose.zip.saving/sevenzipcompressionmethod/
 ---
 
@@ -27,6 +27,8 @@ Methods of compression that 7Z format support.
 |BCJ2|Technique that improves the compression of x86 machine code using auxiliary streams.|
 |DEFLATE|File is compressed using Deflate.|
 |DEFLATE64|File is compressed using Deflate64(tm).|
+|SWAP2|Technique that improves the compression swapping bytes.|
+|SWAP4|Technique that improves the compression swapping bytes.|
 
 ### See Also
 

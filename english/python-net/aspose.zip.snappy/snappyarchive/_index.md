@@ -29,10 +29,13 @@ The SnappyArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |extract(destination)|Extracts snappy archive to a stream.|
+|extract(file_info)|Extracts snappy archive to a file.|
 |extract(path)|Extracts snappy archive to a file by path.|
 |set_source(source)|Sets the content to be compressed within the archive.|
+|set_source(file_info)|Sets the content to be compressed within the archive.|
 |set_source(source_path)|Sets the content to be compressed within the archive.|
 |save(output)|Saves snappy archive to the stream provided.|
+|save(destination)|Saves snappy archive to the destination file provided.|
 |save(destination_file_name)|Saves snappy archive to a destination file provided.|
 |extract_to_directory(destination_directory)|Extracts content of the archive to the directory provided.|
 

@@ -29,9 +29,11 @@ The CabArchive type exposes the following members:
 | :- | :- |
 |create_entry(name, path, new_entry_settings)|Create a single entry within the archive.|
 |create_entry(name, source, new_entry_settings)|Create a single entry within the archive.|
+|create_entry(name, file_info, new_entry_settings)|Create a single entry within the archive.|
+|create_entries(directory, include_root_directory)|Adds to the archive all files, recursively, from the specified directory.|
+|create_entries(source_directory, include_root_directory)|Adds to the archive all files recursively from the specified directory path.|
 |save(output_stream, save_options)|Saves archive to the stream provided.|
 |save(destination_file_name, save_options)|Saves archive to the destination file provided.|
-|create_entries(source_directory, include_root_directory)|Adds to the archive all files recursively from the specified directory path.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 
 ### See Also

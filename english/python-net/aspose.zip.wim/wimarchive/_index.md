@@ -21,6 +21,7 @@ The WimArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |images|Gets entries of [WimImage](/zip/python-net/aspose.zip.wim/wimimage/) type constituting the archive.|
+|entries|Gets entries of [WimEntry](/zip/python-net/aspose.zip.wim/wimentry/) type constituting the archive.|
 |guid|Gets the identifying GUID for the archive.|
 |boot_image_index|Gets the (zero-based) index of the bootable image.|
 |file_format_version|Gets the version of the file format.|

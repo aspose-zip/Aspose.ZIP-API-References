@@ -15,7 +15,7 @@ The AppleZlibCompressionSettings type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|AppleZlibCompressionSettings(block_size)|Initializes a new instance of the [AppleZlibCompressionSettings](/zip/python-net/aspose.zip.apple/applezlibcompressionsettings/) class.|
+|AppleZlibCompressionSettings(block_size)|Initializes a new instance of the AppleZlibCompressionSettings class|
 |AppleZlibCompressionSettings()|Initializes a new instance of the [AppleZlibCompressionSettings](/zip/python-net/aspose.zip.apple/applezlibcompressionsettings/) class.|
 ## Properties
 | Name | Description |

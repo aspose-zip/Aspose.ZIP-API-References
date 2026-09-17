@@ -27,10 +27,13 @@ The CpioArchive type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
+|create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
+|create_entries(directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
+|create_entry(name, file_info, open_immediately)|Create a single entry within the archive.|
 |create_entry(name, source_path, open_immediately)|Create a single entry within the archive.|
 |create_entry(name, source)|Create a single entry within the archive.|
 |delete_entry(entry)|Removes the first occurrence of a specific entry from the entry list.|
-|delete_entry(entry_index)|Removes the entry from the entry list by index.|
+|delete_entry(entry_index)|  |
 |save(destination_file_name, cpio_format)|Saves archive to a destination file provided.|
 |save(output, cpio_format)|Saves archive to the stream provided.|
 |save_gzipped(output, cpio_format)|Saves archive to the stream with gzip compression.|
@@ -45,7 +48,6 @@ The CpioArchive type exposes the following members:
 |save_z_compressed(path, cpio_format)|Saves archive to the path by path with Z compression.|
 |save_zstandard(output, cpio_format)|Saves archive to the stream with Zstandard compression.|
 |save_zstandard(path, cpio_format)|Saves archive to the file by path with Zstandard compression.|
-|create_entries(source_directory, include_root_directory)|Adds to the archive all the files and directories recursively in the directory given.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 
 ### See Also
