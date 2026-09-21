@@ -3,7 +3,7 @@ title: Class XzLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.Settings.XzLoadOptions class. Options for loading XzArchive
 type: docs
-weight: 1510
+weight: 1570
 url: /net/aspose.zip.xz.settings/xzloadoptions/
 ---
 ## XzLoadOptions class

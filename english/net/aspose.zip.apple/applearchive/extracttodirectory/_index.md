@@ -23,7 +23,8 @@ public void ExtractToDirectory(string destinationDirectory)
 | exception | condition |
 | --- | --- |
 | EndOfStreamException | The stream ends unexpectedly during extraction of a solid archive. |
-| InvalidDataException | The archive data is malformed or contains invalid entries in a solid archive. |
+| InvalidDataException | The archive data is malformed, or a symbolic link is unsafe. |
+| PlatformNotSupportedException | Symbolic-link creation is not supported by the current runtime. |
 
 ### See Also
 

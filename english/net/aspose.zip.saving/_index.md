@@ -3,7 +3,7 @@ title: Aspose.Zip.Saving
 second_title: Aspose.ZIP for .NET API Reference
 description: The Saving namespace contains classes which are needed for operations entailing saving the archive
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.zip.saving/
 ---
 The Saving namespace contains classes which are needed for operations entailing saving the archive.
@@ -41,6 +41,11 @@ The Saving namespace contains classes which are needed for operations entailing 
 | [TraditionalEncryptionSettings](./traditionalencryptionsettings/) | Settings for traditional ZipCrypto algorithm within a ZIP archive. |
 | [XzCompressionSettings](./xzcompressionsettings/) | Settings for Xz compression within a ZIP archive. |
 | [ZstandardCompressionSettings](./zstandardcompressionsettings/) | Settings for Zstandard compression within a ZIP archive. |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| [IVolumeStreamProvider](./ivolumestreamprovider/) | Provider of streams for multi-volume archive composition. |
 ## Enumeration
 
 | Enumeration | Description |

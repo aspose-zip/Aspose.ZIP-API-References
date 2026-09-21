@@ -44,6 +44,7 @@ public enum ArchiveFormat
 | Lzx | `23` | Lzx archive ([`LzxArchive`](../../aspose.zip.lzx/lzxarchive/)) |
 | Apple | `24` | Apple archive ([`AppleArchive`](../../aspose.zip.apple/applearchive/)). |
 | Alz | `25` | Apple archive ([`AlzArchive`](../../aspose.zip.alz/alzarchive/)). |
+| Egg | `26` | Egg archive ([`EggArchive`](../../aspose.zip.egg/eggarchive/)). |
 
 ### See Also
 

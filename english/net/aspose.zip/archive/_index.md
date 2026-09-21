@@ -48,7 +48,8 @@ public class Archive : IArchive
 | [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory/)(string) | Extracts all the files in the archive to the directory provided. |
 | [Save](../../aspose.zip/archive/save/#save)(Stream, ArchiveSaveOptions) | Saves archive to the stream provided. |
 | [Save](../../aspose.zip/archive/save/#save_1)(string, ArchiveSaveOptions) | Saves archive to the destination file provided. |
-| [SaveSplit](../../aspose.zip/archive/savesplit/)(string, SplitArchiveSaveOptions) | Saves multi-volume archive to destination directory provided. |
+| [SaveSplit](../../aspose.zip/archive/savesplit/#savesplit)(IVolumeStreamProvider, SplitArchiveSaveOptions) | Saves a multi-volume archive to streams supplied by a volume provider. |
+| [SaveSplit](../../aspose.zip/archive/savesplit/#savesplit_1)(string, SplitArchiveSaveOptions) | Saves multi-volume archive to destination directory provided. |
 
 ### See Also
 

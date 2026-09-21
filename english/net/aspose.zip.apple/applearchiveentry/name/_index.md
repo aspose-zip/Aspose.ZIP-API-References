@@ -3,7 +3,7 @@ title: AppleArchiveEntry.Name
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchiveEntry property. Gets the path of the entry inside the archive
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.zip.apple/applearchiveentry/name/
 ---
 ## AppleArchiveEntry.Name property
