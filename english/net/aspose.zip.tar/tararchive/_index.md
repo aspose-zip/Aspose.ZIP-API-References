@@ -3,7 +3,7 @@ title: Class TarArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Tar.TarArchive class. This class represents a tar archive file. Use it to compose extract or update tar archives
 type: docs
-weight: 1220
+weight: 1270
 url: /net/aspose.zip.tar/tararchive/
 ---
 ## TarArchive class
@@ -19,8 +19,8 @@ public class TarArchive : IArchive
 | Name | Description |
 | --- | --- |
 | [TarArchive](tararchive/#constructor)() | Initializes a new instance of the `TarArchive` class. |
-| [TarArchive](tararchive/#constructor_1)(Stream) | Initializes a new instance of the [`Archive`](../../aspose.zip/archive/) class and composes an entry list can be extracted from the archive. |
-| [TarArchive](tararchive/#constructor_2)(string) | Initializes a new instance of the `TarArchive` class and composes an entry list can be extracted from the archive. |
+| [TarArchive](tararchive/#constructor_1)(Stream, TarLoadOptions) | Initializes a new instance of the `TarArchive` class and composes an entry list can be extracted from the archive. |
+| [TarArchive](tararchive/#constructor_2)(string, TarLoadOptions) | Initializes a new instance of the `TarArchive` class and composes an entry list can be extracted from the archive. |
 
 ## Properties
 

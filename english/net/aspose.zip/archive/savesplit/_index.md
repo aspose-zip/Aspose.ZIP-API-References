@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /net/aspose.zip/archive/savesplit/
 ---
-## Archive.SaveSplit method
+## SaveSplit(string, SplitArchiveSaveOptions) {#savesplit_1}
 
 Saves multi-volume archive to destination directory provided.
 
@@ -50,6 +50,56 @@ using (Archive archive = new Archive())
 
 ### See Also
 
+* class [SplitArchiveSaveOptions](../../../aspose.zip.saving/splitarchivesaveoptions/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## SaveSplit(IVolumeStreamProvider, SplitArchiveSaveOptions) {#savesplit}
+
+Saves a multi-volume archive to streams supplied by a volume provider.
+
+```csharp
+public void SaveSplit(IVolumeStreamProvider volumeStreamProvider, SplitArchiveSaveOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| volumeStreamProvider | IVolumeStreamProvider | The provider of destination streams for the archive volumes. |
+| options | SplitArchiveSaveOptions | Options for archive saving. [`FileName`](../../../aspose.zip.saving/splitarchivesaveoptions/filename/) is ignored. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *volumeStreamProvider* or *options* is null. |
+| InvalidOperationException | This archive was opened from an existing source, or the provider returns a null or non-writable stream. |
+| NotSupportedException | The archive uses XZ compression. |
+| ObjectDisposedException | The archive is disposed. |
+
+## Remarks
+
+The supplied streams do not need to support seeking.
+
+Each completed volume is flushed, passed to [`VolumeCompleted`](../../../aspose.zip.saving/ivolumestreamprovider/volumecompleted/), and then disposed.
+
+Cannot make an existing archive multi-volume. XZ compression is not supported by this overload because it requires seeking.
+
+## Examples
+
+```csharp
+using (Archive archive = new Archive())
+{
+    archive.CreateEntry("entry.bin", "data.bin");
+    archive.SaveSplit(provider,  new SplitArchiveSaveOptions("volume", 65536));
+}
+```
+
+### See Also
+
+* interface [IVolumeStreamProvider](../../../aspose.zip.saving/ivolumestreamprovider/)
 * class [SplitArchiveSaveOptions](../../../aspose.zip.saving/splitarchivesaveoptions/)
 * class [Archive](../)
 * namespace [Aspose.Zip](../../archive/)

@@ -3,7 +3,7 @@ title: Aspose.Zip.Gzip
 second_title: Aspose.ZIP for .NET API Reference
 description: The Gzip namespace contains classes which represent gzip archive
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.zip.gzip/
 ---
 The Gzip namespace contains classes which represent gzip archive.
