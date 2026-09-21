@@ -13,7 +13,7 @@ The Apple namespace contains classes which represent Apple Archive related entit
 | Class | Description |
 | --- | --- |
 | [AppleArchive](./applearchive/) | This class represents an Apple Archive (.aar) file. Use it to compose Apple Archive files. |
-| [AppleArchiveEntry](./applearchiveentry/) | Represents a file or directory entry within an [`AppleArchive`](../aspose.zip.apple/applearchive/). |
+| [AppleArchiveEntry](./applearchiveentry/) | Represents a filesystem entry within an [`AppleArchive`](../aspose.zip.apple/applearchive/). |
 | [AppleArchiveEntrySettings](./applearchiveentrysettings/) | Settings used to compose entries inside [`AppleArchive`](../aspose.zip.apple/applearchive/). |
 | [AppleArchiveLoadOptions](./applearchiveloadoptions/) | Options with which [`AppleArchive`](../aspose.zip.apple/applearchive/) is loaded from a compressed file. |
 | [AppleCompressionSettings](./applecompressionsettings/) | Settings needed for Apple Archive entry compression. |

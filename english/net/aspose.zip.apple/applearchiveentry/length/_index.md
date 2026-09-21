@@ -3,7 +3,7 @@ title: AppleArchiveEntry.Length
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchiveEntry property. Gets the uncompressed length of the entry in bytes
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.zip.apple/applearchiveentry/length/
 ---
 ## AppleArchiveEntry.Length property

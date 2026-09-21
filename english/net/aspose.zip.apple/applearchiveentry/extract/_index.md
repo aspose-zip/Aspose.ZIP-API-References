@@ -3,7 +3,7 @@ title: AppleArchiveEntry.Extract
 second_title: Aspose.ZIP for .NET API Reference
 description: AppleArchiveEntry method. Extracts the entry to the filesystem by the path provided
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.zip.apple/applearchiveentry/extract/
 ---
 ## Extract(string) {#extract}

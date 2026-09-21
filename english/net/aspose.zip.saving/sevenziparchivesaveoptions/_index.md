@@ -3,7 +3,7 @@ title: Class SevenZipArchiveSaveOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipArchiveSaveOptions class. Options for saving a 7Z archive
 type: docs
-weight: 970
+weight: 1020
 url: /net/aspose.zip.saving/sevenziparchivesaveoptions/
 ---
 ## SevenZipArchiveSaveOptions class

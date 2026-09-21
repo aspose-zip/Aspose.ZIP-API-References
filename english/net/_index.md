@@ -20,6 +20,7 @@ is_root: true
 | [Aspose.Zip.Cab](./aspose.zip.cab/) | The Cab namespace contains classes which represent Cab archive related entities. |
 | [Aspose.Zip.Cpio](./aspose.zip.cpio/) | The Cpio namespace contains classes which represent cpio archive related entities. |
 | [Aspose.Zip.Crypto](./aspose.zip.crypto/) | The Crypto namespace contains classes for external encryption routines. |
+| [Aspose.Zip.Egg](./aspose.zip.egg/) | The Egg namespace contains classes which represent EGG related entities. |
 | [Aspose.Zip.FastLZ](./aspose.zip.fastlz/) | The FastLZ namespace contains classes which represent FastLZ related entities. |
 | [Aspose.Zip.Gzip](./aspose.zip.gzip/) | The Gzip namespace contains classes which represent gzip archive. |
 | [Aspose.Zip.Iso](./aspose.zip.iso/) | The Iso namespace contains classes which represent ISO related entities. |

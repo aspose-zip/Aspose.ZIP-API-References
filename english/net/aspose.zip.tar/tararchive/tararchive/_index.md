@@ -34,17 +34,17 @@ using (var archive = new TarArchive())
 
 ---
 
-## TarArchive(Stream) {#constructor_1}
+## TarArchive(Stream, TarLoadOptions) {#constructor_1}
 
-Initializes a new instance of the [`Archive`](../../../aspose.zip/archive/) class and composes an entry list can be extracted from the archive.
+Initializes a new instance of the [`TarArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public TarArchive(Stream sourceStream)
+public TarArchive(Stream sourceStream, TarLoadOptions loadOptions = null)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceStream | Stream | The source of the archive. It must be seekable. |
+| Parameter | Description |
+| --- | --- |
+| sourceStream | The source of the archive. It must be seekable. |
 
 ### Exceptions
 
@@ -72,23 +72,24 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 
 ### See Also
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
 * namespace [Aspose.Zip.Tar](../../tararchive/)
 * assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(string) {#constructor_2}
+## TarArchive(string, TarLoadOptions) {#constructor_2}
 
 Initializes a new instance of the [`TarArchive`](../) class and composes an entry list can be extracted from the archive.
 
 ```csharp
-public TarArchive(string path)
+public TarArchive(string path, TarLoadOptions loadOptions = null)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | String | The path to the archive file. |
+| Parameter | Description |
+| --- | --- |
+| path | The path to the archive file. |
 
 ### Exceptions
 
@@ -114,7 +115,7 @@ This constructor does not unpack any entry. See [`Open`](../../tarentry/open/) m
 The following example shows how to extract all the entries to a directory.
 
 ```csharp
-using (var archive = new TarArchive("archive.tar")) 
+using (var archive = new TarArchive("archive.tar", new TarLoadOptions() { CancellationToken = cancellationToken }))
 { 
    archive.ExtractToDirectory("C:\extracted");
 }
@@ -122,6 +123,7 @@ using (var archive = new TarArchive("archive.tar"))
 
 ### See Also
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
 * namespace [Aspose.Zip.Tar](../../tararchive/)
 * assembly [Aspose.Zip](../../../)
