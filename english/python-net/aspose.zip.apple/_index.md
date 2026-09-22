@@ -14,7 +14,7 @@ Contains classes which represent Apple archive related entities.
 | Class | Description |
 | :- | :- |
 |[AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/)|This class represents an Apple Archive (.aar) file. Use it to compose Apple Archive files.|
-|[AppleArchiveEntry](/zip/python-net/aspose.zip.apple/applearchiveentry/)|Represents a file or directory entry within an [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).|
+|[AppleArchiveEntry](/zip/python-net/aspose.zip.apple/applearchiveentry/)|Represents a filesystem entry within an [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).|
 |[AppleArchiveEntrySettings](/zip/python-net/aspose.zip.apple/applearchiveentrysettings/)|Settings used to compose entries inside [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/).|
 |[AppleArchiveLoadOptions](/zip/python-net/aspose.zip.apple/applearchiveloadoptions/)|Options with which [AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/) is loaded from a compressed file.|
 |[AppleCompressionSettings](/zip/python-net/aspose.zip.apple/applecompressionsettings/)|Settings needed for Apple Archive entry compression.|

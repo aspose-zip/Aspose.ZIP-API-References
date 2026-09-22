@@ -3,7 +3,7 @@ title: SplitArchiveSaveOptions
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 
@@ -16,6 +16,7 @@ The SplitArchiveSaveOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |SplitArchiveSaveOptions(file_name, segment_size)|Instantiates settings for saving a multi-volume ZIP archive.|
+|SplitArchiveSaveOptions(segment_size)|Instantiates settings for saving a multi-volume ZIP archive.|
 ## Properties
 | Name | Description |
 | :- | :- |

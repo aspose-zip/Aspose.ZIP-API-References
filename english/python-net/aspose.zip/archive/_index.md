@@ -41,6 +41,7 @@ The Archive type exposes the following members:
 |save(output_stream, save_options)|Saves archive to the stream provided.|
 |save(destination_file_name, save_options)|Saves archive to the destination file provided.|
 |save_split(destination_directory, options)|Saves multi-volume archive to destination directory provided.|
+|save_split(volume_stream_provider, options)|Saves a multi-volume archive to streams supplied by a volume provider.|
 |extract_to_directory(destination_directory)|Extracts all the files in the archive to the directory provided.|
 
 ### See Also

@@ -15,7 +15,7 @@ Specifies how the RAR decompression dictionary is stored.
 | Member name | Description |
 | :- | :- |
 |IN_MEMORY|Store the dictionary in lazily allocated managed memory segments.|
-|TEMPORARY_FILE|Store evicted dictionary pages in a temporary file and retain a bounded page cache in memory.|
+|TEMPORARY_FILE|Store the dictionary in a memory-mapped temporary file. Memory residency is managed by the operating system.|
 
 ### See Also
 

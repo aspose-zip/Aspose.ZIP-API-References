@@ -3,7 +3,7 @@ title: aspose.zip.saving
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.zip.saving/
 ---
 
@@ -22,6 +22,7 @@ Contains classes which are needed for operations entailing saving the archive.
 |[EncryptionSettings](/zip/python-net/aspose.zip.saving/encryptionsettings/)|Base class for settings for several ZIP encryption methods.|
 |[EnhancedDeflateCompressionSettings](/zip/python-net/aspose.zip.saving/enhanceddeflatecompressionsettings/)|Settings for Enhanced Deflate compression within a ZIP archive.|
 |[EventsBag](/zip/python-net/aspose.zip.saving/eventsbag/)|Events container used on [Archive](/zip/python-net/aspose.zip/archive/) saving.|
+|[IVolumeStreamProvider](/zip/python-net/aspose.zip.saving/ivolumestreamprovider/)|Provider of streams for multi-volume archive composition.|
 |[LzmaCompressionSettings](/zip/python-net/aspose.zip.saving/lzmacompressionsettings/)|Settings for LZMA compression within a ZIP archive.|
 |[PPMdCompressionSettings](/zip/python-net/aspose.zip.saving/ppmdcompressionsettings/)|Settings for PPMd compression within a ZIP archive.|
 |[ParallelOptions](/zip/python-net/aspose.zip.saving/paralleloptions/)|Options for parallel compression.|

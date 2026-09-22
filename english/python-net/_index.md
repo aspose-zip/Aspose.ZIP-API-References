@@ -19,6 +19,7 @@ url: /python-net/
 |[aspose.zip.cab](/zip/python-net/aspose.zip.cab/)|Contains classes which represent Cab archive related entities.|
 |[aspose.zip.cpio](/zip/python-net/aspose.zip.cpio/)|Contains classes which represent cpio archive related entities.|
 |[aspose.zip.crypto](/zip/python-net/aspose.zip.crypto/)|Contains classes for external encryption routines.|
+|[aspose.zip.egg](/zip/python-net/aspose.zip.egg/)|Contains classes which represent EGG archive related entities.|
 |[aspose.zip.fastlz](/zip/python-net/aspose.zip.fastlz/)|namespace contains classes which represent FastLZ related entities.|
 |[aspose.zip.gzip](/zip/python-net/aspose.zip.gzip/)|Contains classes which represent gzip archive.|
 |[aspose.zip.iso](/zip/python-net/aspose.zip.iso/)|Contains classes which represent Iso archive related entities.|

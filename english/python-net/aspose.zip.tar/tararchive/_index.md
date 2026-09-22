@@ -16,8 +16,8 @@ The TarArchive type exposes the following members:
 | Name | Description |
 | :- | :- |
 |TarArchive()|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class.|
-|TarArchive(source_stream)|Initializes a new instance of the [Archive](/zip/python-net/aspose.zip/archive/) class and composes an entry list can be extracted from the archive.|
-|TarArchive(path)|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class and composes an entry list can be extracted from the archive.|
+|TarArchive(source_stream, load_options)|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class and composes an entry list can be extracted from the archive.|
+|TarArchive(path, load_options)|Initializes a new instance of the [TarArchive](/zip/python-net/aspose.zip.tar/tararchive/) class and composes an entry list can be extracted from the archive.|
 ## Properties
 | Name | Description |
 | :- | :- |
