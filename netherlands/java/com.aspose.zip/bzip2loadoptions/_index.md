@@ -1,0 +1,125 @@
+---
+title: "Bzip2LoadOptions"
+second_title: "Aspose.ZIP voor Java API-referentie"
+description: "Opties voor het laden."
+type: docs
+weight: 42
+url: /nl/java/com.aspose.zip/bzip2loadoptions/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class Bzip2LoadOptions
+```
+
+Opties voor het laden van [Bzip2Archive](../../com.aspose.zip/bzip2archive). Bevat een gebeurtenis die bij extractie wordt opgewekt.
+## Constructors
+
+| Constructor | Beschrijving |
+| --- | --- |
+| [Bzip2LoadOptions()](#Bzip2LoadOptions--) |  |
+## Methoden
+
+| Methode | Beschrijving |
+| --- | --- |
+| [getExtractionProgressed()](#getExtractionProgressed--) | Haalt een gebeurtenis op die wordt geactiveerd wanneer enkele bytes zijn geëxtraheerd. |
+| [setCancellationFlag(CancellationFlag value)](#setCancellationFlag-com.aspose.zip.CancellationFlag-) | Stelt een annuleringsvlag in die wordt gebruikt om de extractie‑bewerking te annuleren. |
+| [setExtractionProgressed(Event&lt;ProgressEventArgs&gt; value)](#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--) | Stelt een gebeurtenis in die wordt geactiveerd wanneer enkele bytes zijn geëxtraheerd. |
+### Bzip2LoadOptions() {#Bzip2LoadOptions--}
+```
+public Bzip2LoadOptions()
+```
+
+
+### getExtractionProgressed() {#getExtractionProgressed--}
+```
+public Event<ProgressEventArgs> getExtractionProgressed()
+```
+
+
+Haalt een gebeurtenis op die wordt geactiveerd wanneer enkele bytes zijn geëxtraheerd.
+
+```
+
+``````
+
+int[] percent = { 0 };
+long originalFileLength = 10_000_000;
+
+Bzip2LoadOptions loadOptions = new Bzip2LoadOptions();
+loadOptions.setExtractionProgressed((sender, args) -> {
+percent[0] = (int)((100 * (double)args.getProceededBytes()) / originalFileLength);
+});
+ 
+```
+
+Event sender is the [Bzip2Archive](../../com.aspose.zip/bzip2archive) instance which extraction is progressed. The `ProgressEventArgs.getProceededBytes()`([ProgressEventArgs.getProceededBytes()](../../com.aspose.zip/progresseventargs\#getProceededBytes--)) is the number of bytes after extraction.
+
+**Returns:**
+[Event](../../com.aspose.zip/event) - an event that is raised when some bytes have been extracted
+### setCancellationFlag(CancellationFlag value) {#setCancellationFlag-com.aspose.zip.CancellationFlag-}
+```
+public void setCancellationFlag(CancellationFlag value)
+```
+
+
+Sets a cancellation flag used to cancel the extraction operation.
+
+Cancel Bzip2 archive extraction after a certain time.
+
+```
+
+``````
+
+     try (CancellationFlag cf = new CancellationFlag()) {
+         cf.cancelAfter(TimeUnit.SECONDS.toMillis(60));
+         Bzip2LoadOptions options = new Bzip2LoadOptions();
+         options.setCancellationFlag(cf);
+         try (Bzip2Archive a = new Bzip2Archive("big.bz2", options)) {
+             try {
+                 a.extract("data.bin");
+             } catch (OperationCanceledException e) {
+                 System.out.println("Extraction was cancelled after 60 seconds");
+             }
+         }
+     }
+ 
+```
+
+Annulering resulteert meestal in het niet extraheren van sommige gegevens.
+
+**Parameters:**
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| value | [CancellationFlag](../../com.aspose.zip/cancellationflag) | een annuleringsvlag die wordt gebruikt om de extractie‑operatie te annuleren. |
+
+### setExtractionProgressed(Event&lt;ProgressEventArgs&gt; value) {#setExtractionProgressed-com.aspose.zip.Event-com.aspose.zip.ProgressEventArgs--}
+```
+public void setExtractionProgressed(Event<ProgressEventArgs> value)
+```
+
+
+Stelt een gebeurtenis in die wordt geactiveerd wanneer enkele bytes zijn geëxtraheerd.
+
+```
+
+``````
+
+int[] percent = { 0 };
+long originalFileLength = 10_000_000;
+
+Bzip2LoadOptions loadOptions = new Bzip2LoadOptions();
+loadOptions.setExtractionProgressed((sender, args) -> {
+percent[0] = (int)((100 * (double)args.getProceededBytes()) / originalFileLength);
+});
+ 
+```
+
+Event sender is the [Bzip2Archive](../../com.aspose.zip/bzip2archive) instance which extraction is progressed. The `ProgressEventArgs.getProceededBytes()`([ProgressEventArgs.getProceededBytes()](../../com.aspose.zip/progresseventargs\#getProceededBytes--)) is the number of bytes after extraction.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | com.aspose.zip.Event&lt;com.aspose.zip.ProgressEventArgs&gt; | an event that is raised when some bytes have been extracted |
+
