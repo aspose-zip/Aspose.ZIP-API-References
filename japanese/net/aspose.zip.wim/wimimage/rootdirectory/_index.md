@@ -1,14 +1,14 @@
 ---
-title: WimImage.RootDirectory
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimImage 財産. イメージのルート ディレクトリ エントリを取得します
+title: "WimImage.RootDirectory"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimImage プロパティ。イメージのルートディレクトリ エントリを取得します"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.wim/wimimage/rootdirectory/
 ---
 ## WimImage.RootDirectory property
 
-イメージのルート ディレクトリ エントリを取得します。
+イメージのルートディレクトリエントリを取得します。
 
 ```csharp
 public WimDirectoryEntry RootDirectory { get; }
@@ -18,7 +18,7 @@ public WimDirectoryEntry RootDirectory { get; }
 
 * class [WimDirectoryEntry](../../wimdirectoryentry/)
 * class [WimImage](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimimage/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimimage/)
+* assembly [Aspose.Zip](../../../)
 
 

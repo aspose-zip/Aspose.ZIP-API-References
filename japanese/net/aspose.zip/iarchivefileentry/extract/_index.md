@@ -1,51 +1,68 @@
 ---
-title: IArchiveFileEntry.Extract
-second_title: Aspose.ZIP for .NET API リファレンス
-description: IArchiveFileEntry 方法. 提供されたパスによってファイルシステムへのエントリを抽出します.
+title: "IArchiveFileEntry.Extract"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "IArchiveFileEntry メソッド。指定されたパスにエントリをファイルシステムへ抽出します"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip/iarchivefileentry/extract/
 ---
 ## Extract(string) {#extract}
 
-提供されたパスによってファイルシステムへのエントリを抽出します.
+エントリを提供されたパスでファイルシステムに抽出します。
 
 ```csharp
 public FileInfo Extract(string path)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | 宛先ファイルへのパス。ファイルが既に存在する場合は、上書きされます。 |
+| path | String | 宛先ファイルへのパスです。ファイルが既に存在する場合、上書きされます。 |
 
 ### 戻り値
 
-FileInfo抽出されたデータを含むインスタンス。
+抽出されたデータを含む FileInfo インスタンス。
+
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
 
 ### 関連項目
 
 * interface [IArchiveFileEntry](../)
-* 名前空間 [Aspose.Zip](../../iarchivefileentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(Stream) {#extract_1}
 
-提供されたストリームにエントリを抽出します。
+エントリを提供されたストリームに抽出します。
 
 ```csharp
 public void Extract(Stream destination)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destination | Stream | 宛先ストリーム。書き込み可能である必要があります。 |
+| 宛先 | Stream | 宛先ストリーム。書き込み可能である必要があります。 |
+
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ArgumentException | *destination* は書き込みをサポートしていません。 |
 
 ### 関連項目
 
 * interface [IArchiveFileEntry](../)
-* 名前空間 [Aspose.Zip](../../iarchivefileentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: CompressionSettings.Xz
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CompressionSettings 財産. のインスタンスXzデフォルトパラメータ付き.
+title: "CompressionSettings.Xz"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CompressionSettings プロパティ。デフォルトパラメータを持つ XzCompressionSettings のインスタンスです。"
 type: docs
-weight: 60
+weight: 70
 url: /ja/net/aspose.zip.saving/compressionsettings/xz/
 ---
 ## CompressionSettings.Xz property
 
-のインスタンス`Xz`デフォルトパラメータ付き.
+`XzCompressionSettings` のインスタンス（デフォルト パラメーター）。
 
 ```csharp
 public static XzCompressionSettings Xz { get; }
@@ -18,7 +18,7 @@ public static XzCompressionSettings Xz { get; }
 
 * class [XzCompressionSettings](../../xzcompressionsettings/)
 * class [CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

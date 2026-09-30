@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.Entries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CpioArchive 財産. のエントリを取得しますCpioEntryアーカイブを構成するタイプ.
+title: "CpioArchive.Entries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CpioArchive プロパティ。アーカイブを構成する CpioEntry 型のエントリを取得します。"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.cpio/cpioarchive/entries/
 ---
 ## CpioArchive.Entries property
 
-のエントリを取得します[`CpioEntry`](../../cpioentry/)アーカイブを構成するタイプ.
+アーカイブを構成する [`CpioEntry`](../../cpioentry/) 型のエントリを取得します。
 
 ```csharp
 public ReadOnlyCollection<CpioEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<CpioEntry> Entries { get; }
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

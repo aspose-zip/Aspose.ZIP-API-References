@@ -1,14 +1,14 @@
 ---
-title: SharArchive.Entries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SharArchive 財産. のエントリを取得しますSharEntryアーカイブを構成するタイプ.
+title: "SharArchive.Entries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SharArchive プロパティ。アーカイブを構成する SharEntry 型のエントリを取得します。"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.shar/shararchive/entries/
 ---
 ## SharArchive.Entries property
 
-のエントリを取得します[`SharEntry`](../../sharentry/)アーカイブを構成するタイプ.
+[`SharEntry`](../../sharentry/) 型のエントリを取得し、アーカイブを構成します。
 
 ```csharp
 public ReadOnlyCollection<SharEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<SharEntry> Entries { get; }
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* 名前空間 [Aspose.Zip.Shar](../../shararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

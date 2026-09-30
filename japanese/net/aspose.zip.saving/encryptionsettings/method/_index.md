@@ -1,7 +1,7 @@
 ---
-title: EncryptionSettings.Method
-second_title: Aspose.ZIP for .NET API リファレンス
-description: EncryptionSettings 財産. 暗号化アルゴリズムを取得します
+title: "EncryptionSettings.Method"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "EncryptionSettings プロパティ。暗号化アルゴリズムを取得します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/encryptionsettings/method/
@@ -18,7 +18,7 @@ public EncryptionMethod Method { get; }
 
 * enum [EncryptionMethod](../../encryptionmethod/)
 * class [EncryptionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../encryptionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../encryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

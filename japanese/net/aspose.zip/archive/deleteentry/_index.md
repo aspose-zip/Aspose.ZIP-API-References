@@ -1,30 +1,37 @@
 ---
-title: Archive.DeleteEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Archive 方法. エントリ リストから特定のエントリの最初の出現を削除します
+title: "Archive.DeleteEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Archive メソッドです。エントリリストから特定のエントリの最初の出現を削除します。"
 type: docs
-weight: 60
+weight: 70
 url: /ja/net/aspose.zip/archive/deleteentry/
 ---
 ## DeleteEntry(ArchiveEntry) {#deleteentry}
 
-エントリ リストから特定のエントリの最初の出現を削除します。
+エントリリストから特定のエントリの最初の出現を削除します。
 
 ```csharp
 public Archive DeleteEntry(ArchiveEntry entry)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entry | ArchiveEntry | エントリ リストから削除するエントリ。 |
+| エントリ | ArchiveEntry | エントリリストから削除するエントリです。 |
 
 ### 戻り値
 
-エントリが削除されたアーカイブ。
+エントリが削除されたアーカイブです。
 
-### 例
+### 例外
 
-最後のエントリを除くすべてのエントリを削除する方法は次のとおりです。
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されました。 |
+| InvalidOperationException | アーカイブの現在の状態によりエントリの削除が無効な場合にスローされます。 |
+
+## 例
+
+最後のエントリを除くすべてのエントリを削除する方法は次のとおりです:
 
 ```csharp
 using (var archive = new Archive("archive.zip"))
@@ -39,34 +46,36 @@ using (var archive = new Archive("archive.zip"))
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-インデックスによってエントリ リストからエントリを削除します。
+インデックスでエントリリストからエントリを削除します。
 
 ```csharp
 public Archive DeleteEntry(int entryIndex)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entryIndex | Int32 | 削除するエントリのゼロから始まるインデックス。 |
+| entryIndex | Int32 | 削除するエントリのゼロベースインデックスです。 |
 
 ### 戻り値
 
-エントリが削除されたアーカイブ。
+エントリが削除されたアーカイブです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*は 0 未満です。-または-*entryIndex*等しいかより大きい`エントリー`カウント。 |
+| ObjectDisposedException | Archive は破棄されました。 |
+| ArgumentOutOfRangeException | *entryIndex* が 0 未満です。-または- *entryIndex* が `Entries` の数以上です。 |
+| InvalidOperationException | アーカイブの現在の状態によりエントリの削除が無効な場合にスローされます。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new TarArchive("two_files.zip"))
@@ -79,7 +88,7 @@ using (var archive = new TarArchive("two_files.zip"))
 ### 関連項目
 
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class EnhancedDeflateCompressionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.EnhancedDeflateCompressionSettings クラス. Enhanced Deflate 圧縮方式の設定
+title: "クラス EnhancedDeflateCompressionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.EnhancedDeflateCompressionSettings クラス。ZIP アーカイブ内の拡張 Deflate 圧縮の設定"
 type: docs
-weight: 440
+weight: 930
 url: /ja/net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings class
 
-Enhanced Deflate 圧縮方式の設定。
+ZIP アーカイブ内の Enhanced Deflate 圧縮の設定。
 
 ```csharp
 public class EnhancedDeflateCompressionSettings : CompressionSettings
@@ -18,12 +18,12 @@ public class EnhancedDeflateCompressionSettings : CompressionSettings
 
 | 名前 | 説明 |
 | --- | --- |
-| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | の新しいインスタンスを初期化します`EnhancedDeflateCompressionSettings`class. |
+| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | `EnhancedDeflateCompressionSettings` クラスの新しいインスタンスを初期化します。 |
 
 ### 関連項目
 
 * class [CompressionSettings](../compressionsettings/)
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

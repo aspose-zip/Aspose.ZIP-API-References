@@ -1,14 +1,14 @@
 ---
-title: Class XzCompressionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.XzCompressionSettings クラス. Xz圧縮方式の設定.
+title: "クラス XzCompressionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.XzCompressionSettings クラス。ZIP アーカイブ内の Xz 圧縮の設定。"
 type: docs
-weight: 650
+weight: 1160
 url: /ja/net/aspose.zip.saving/xzcompressionsettings/
 ---
 ## XzCompressionSettings class
 
-Xz圧縮方式の設定.
+ZIP アーカイブ内の Xz 圧縮の設定。
 
 ```csharp
 public class XzCompressionSettings : CompressionSettings
@@ -18,12 +18,12 @@ public class XzCompressionSettings : CompressionSettings
 
 | 名前 | 説明 |
 | --- | --- |
-| [XzCompressionSettings](xzcompressionsettings/)() | の新しいインスタンスを初期化します`XzCompressionSettings`class. |
+| [XzCompressionSettings](xzcompressionsettings/)() | `XzCompressionSettings` クラスの新しいインスタンスを初期化します。 |
 
 ### 関連項目
 
 * class [CompressionSettings](../compressionsettings/)
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

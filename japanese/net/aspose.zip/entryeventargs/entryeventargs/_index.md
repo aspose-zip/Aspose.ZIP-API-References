@@ -1,28 +1,28 @@
 ---
-title: EntryEventArgs.EntryEventArgs
-second_title: Aspose.ZIP for .NET API リファレンス
-description: EntryEventArgs コンストラクタ. の新しいインスタンスを初期化しますEntryEventArgsclass.
+title: "EntryEventArgs.EntryEventArgs"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "EntryEventArgs コンストラクタ。EntryEventArgs クラスの新しいインスタンスを初期化します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip/entryeventargs/entryeventargs/
 ---
 ## EntryEventArgs constructor
 
-の新しいインスタンスを初期化します[`EntryEventArgs`](../)class.
+[`EntryEventArgs`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public EntryEventArgs(ArchiveEntry entry)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entry | ArchiveEntry | イベントが発生するアーカイブ エントリ。 |
+| エントリ | ArchiveEntry | イベントが発生するアーカイブエントリです。 |
 
 ### 関連項目
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [EntryEventArgs](../)
-* 名前空間 [Aspose.Zip](../../entryeventargs/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../entryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

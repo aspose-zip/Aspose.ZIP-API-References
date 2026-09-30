@@ -1,22 +1,22 @@
 ---
-title: RarArchiveLoadOptions.DecryptionPassword
-second_title: Aspose.ZIP for .NET API リファレンス
-description: RarArchiveLoadOptions 財産. エントリおよびエントリ名を復号化するためのパスワードを取得または設定します
+title: "RarArchiveLoadOptions.DecryptionPassword"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "RarArchiveLoadOptions プロパティ。エントリとエントリ名を復号するためのパスワードを取得または設定します"
 type: docs
-weight: 20
+weight: 30
 url: /ja/net/aspose.zip.rar/rararchiveloadoptions/decryptionpassword/
 ---
 ## RarArchiveLoadOptions.DecryptionPassword property
 
-エントリおよびエントリ名を復号化するためのパスワードを取得または設定します。
+エントリとエントリ名を復号化するためのパスワードを取得または設定します。
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### 例
+## 例
 
-アーカイブの抽出時に一度だけ復号化パスワードを提供できます。
+アーカイブ抽出時に復号化パスワードを一度だけ提供できます。
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
@@ -42,7 +42,7 @@ using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
 
 * method [Open](../../rararchiveentry/open/)
 * class [RarArchiveLoadOptions](../)
-* 名前空間 [Aspose.Zip.Rar](../../rararchiveloadoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

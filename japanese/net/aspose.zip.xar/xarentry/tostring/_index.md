@@ -1,7 +1,7 @@
 ---
-title: XarEntry.ToString
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XarEntry 方法. 
+title: "XarEntry.ToString"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XarEntry メソッドです。"
 type: docs
 weight: 80
 url: /ja/net/aspose.zip.xar/xarentry/tostring/
@@ -15,7 +15,7 @@ public override string ToString()
 ### 関連項目
 
 * class [XarEntry](../)
-* 名前空間 [Aspose.Zip.Xar](../../xarentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

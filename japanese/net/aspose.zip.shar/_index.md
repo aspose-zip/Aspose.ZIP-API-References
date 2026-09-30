@@ -1,18 +1,18 @@
 ---
-title: Aspose.Zip.Shar
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Shar名前空間にはshar アーカイブ関連エンティティを表すクラスが含まれています
+title: "Aspose.Zip.Shar"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Shar 名前空間には、shar アーカイブに関連するエンティティを表すクラスが含まれています。"
 type: docs
-weight: 130
+weight: 220
 url: /ja/net/aspose.zip.shar/
 ---
-Shar名前空間には、shar アーカイブ関連エンティティを表すクラスが含まれています。
+Shar 名前空間には、shar アーカイブに関連するエンティティを表すクラスが含まれています。
 
 ## クラス
 
 | クラス | 説明 |
 | --- | --- |
-| [SharArchive](./shararchive/) | このクラスは、shar アーカイブ ファイルを表します。 |
+| [SharArchive](./shararchive/) | このクラスは shar アーカイブ ファイルを表します。 |
 | [SharEntry](./sharentry/) | shar アーカイブ内の単一ファイルを表します。 |
 
 

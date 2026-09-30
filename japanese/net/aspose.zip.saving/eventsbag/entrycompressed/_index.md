@@ -1,9 +1,9 @@
 ---
-title: EventsBag.EntryCompressed
-second_title: Aspose.ZIP for .NET API リファレンス
-description: EventsBag イベント. アーカイブ エントリが圧縮された後に発生します
+title: "EventsBag.EntryCompressed"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "EventsBag イベント。アーカイブエントリが圧縮された後に発生します"
 type: docs
-weight: 20
+weight: 30
 url: /ja/net/aspose.zip.saving/eventsbag/entrycompressed/
 ---
 ## EventsBag.EntryCompressed event
@@ -18,7 +18,7 @@ public event EventHandler<CancelEntryEventArgs> EntryCompressed;
 
 * class [CancelEntryEventArgs](../../../aspose.zip/cancelentryeventargs/)
 * class [EventsBag](../)
-* 名前空間 [Aspose.Zip.Saving](../../eventsbag/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
 
 

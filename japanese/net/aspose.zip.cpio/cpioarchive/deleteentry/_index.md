@@ -1,7 +1,7 @@
 ---
-title: CpioArchive.DeleteEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CpioArchive 方法. エントリ リストから特定のエントリの最初の出現を削除します
+title: "CpioArchive.DeleteEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CpioArchive メソッド。エントリリストから特定のエントリの最初の出現を削除します。"
 type: docs
 weight: 50
 url: /ja/net/aspose.zip.cpio/cpioarchive/deleteentry/
@@ -14,23 +14,24 @@ url: /ja/net/aspose.zip.cpio/cpioarchive/deleteentry/
 public CpioArchive DeleteEntry(CpioEntry entry)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entry | CpioEntry | エントリ リストから削除するエントリ。 |
+| エントリ | CpioEntry | エントリリストから削除するエントリです。 |
 
 ### 戻り値
 
-Cpio エントリ インスタンス。
+Cpio エントリのインスタンス。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *entry*無効である。 |
+| ArgumentNullException | *entry* は null です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
+## 例
 
-最後のエントリを除くすべてのエントリを削除する方法は次のとおりです。
+最後のエントリを除くすべてのエントリを削除する方法は次のとおりです:
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))
@@ -45,34 +46,35 @@ using (var archive = new CpioArchive("archive.cpio"))
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-インデックスによってエントリ リストからエントリを削除します。
+インデックスでエントリリストからエントリを削除します。
 
 ```csharp
 public CpioArchive DeleteEntry(int entryIndex)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entryIndex | Int32 | 削除するエントリのゼロから始まるインデックス。 |
+| entryIndex | Int32 | 削除するエントリのゼロベースインデックスです。 |
 
 ### 戻り値
 
-エントリが削除されたアーカイブ。
+エントリが削除されたアーカイブです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*は 0 未満です。-または-*entryIndex*等しいかより大きい`エントリー`カウント。 |
+| ArgumentOutOfRangeException | *entryIndex* が 0 未満です。-または- *entryIndex* が `Entries` の数以上です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new CpioArchive("two_files.cpio"))
@@ -85,7 +87,7 @@ using (var archive = new CpioArchive("two_files.cpio"))
 ### 関連項目
 
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

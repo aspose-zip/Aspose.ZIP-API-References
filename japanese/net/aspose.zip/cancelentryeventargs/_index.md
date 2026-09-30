@@ -1,14 +1,14 @@
 ---
-title: Class CancelEntryEventArgs
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.CancelEntryEventArgs クラス. キャンセル可能エントリー関連イベントのイベント引数
+title: "クラス CancelEntryEventArgs"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.CancelEntryEventArgs クラス。キャンセル可能なエントリ関連イベントの引数"
 type: docs
-weight: 140
+weight: 390
 url: /ja/net/aspose.zip/cancelentryeventargs/
 ---
 ## CancelEntryEventArgs class
 
-キャンセル可能エントリー関連イベントのイベント引数。
+キャンセル可能なエントリ関連イベントのイベント引数です。
 
 ```csharp
 public class CancelEntryEventArgs : EntryEventArgs
@@ -18,19 +18,19 @@ public class CancelEntryEventArgs : EntryEventArgs
 
 | 名前 | 説明 |
 | --- | --- |
-| [CancelEntryEventArgs](cancelentryeventargs/)(ArchiveEntry) | の新しいインスタンスを初期化します`CancelEntryEventArgs`class. |
+| [CancelEntryEventArgs](cancelentryeventargs/)(ArchiveEntry) | `CancelEntryEventArgs` クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Cancel](../../aspose.zip/cancelentryeventargs/cancel/) { get; set; } | イベントをキャンセルするかどうかを示す値を取得または設定します。 |
-| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | イベントが発生したアーカイブ エントリを取得します。 |
+| [Cancel](../../aspose.zip/cancelentryeventargs/cancel/) { get; set; } | イベントをキャンセルすべきかどうかを示す値を取得または設定します。 |
+| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | イベントが発生した対象のアーカイブ エントリを取得します。 |
 
 ### 関連項目
 
 * class [EntryEventArgs](../entryeventargs/)
-* 名前空間 [Aspose.Zip](../../aspose.zip/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

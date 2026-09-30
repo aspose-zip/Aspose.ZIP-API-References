@@ -1,93 +1,103 @@
 ---
-title: LzipArchive.LzipArchive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: LzipArchive コンストラクタ. の新しいインスタンスを初期化しますLzipArchive .
+title: "LzipArchive.LzipArchive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "LzipArchive コンストラクタ。LzipArchive の新しいインスタンスを初期化します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.lzip/lziparchive/lziparchive/
 ---
 ## LzipArchive(LzipArchiveSettings) {#constructor}
 
-の新しいインスタンスを初期化します[`LzipArchive`](../) .
+[`LzipArchive`](../) の新しいインスタンスを初期化します。
 
 ```csharp
 public LzipArchive(LzipArchiveSettings settings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| settings | LzipArchiveSettings | 辞書サイズの定義による特定の lzip アーカイブの設定。 |
+| 設定 | LzipArchiveSettings | 特定の lzip アーカイブの設定で、辞書サイズを定義します。 |
 
 ### 関連項目
 
 * class [LzipArchiveSettings](../../lziparchivesettings/)
 * class [LzipArchive](../)
-* 名前空間 [Aspose.Zip.Lzip](../../lziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## LzipArchive(Stream) {#constructor_1}
+## LzipArchive(Stream, LzipLoadOptions) {#constructor_1}
 
-の新しいインスタンスを初期化します[`LzipArchive`](../)解凍用に準備されたクラス.
+[`LzipArchive`](../) クラスの新しいインスタンスを初期化し、解凍のために準備します。
 
 ```csharp
-public LzipArchive(Stream sourceStream)
+public LzipArchive(Stream sourceStream, LzipLoadOptions options = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourceStream | Stream | アーカイブのソース。 |
+| sourceStream | Stream | アーカイブのソースです。 |
+| オプション | LzipLoadOptions | アーカイブを読み込む際のオプション。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentException | *sourceStream*はシークできません。 |
-| ArgumentNullException | *sourceStream*無効である。 |
-| InvalidDataException | ヘッダーがアーカイブの lzip タイプと一致しません。 |
+| ArgumentException | *sourceStream* はシーク可能ではありません。 |
+| ArgumentNullException | *sourceStream* が null です。 |
+| InvalidDataException | ヘッダーが lzip タイプのアーカイブと一致しません。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
+| ObjectDisposedException | ソースストリームが破棄された場合にスローされます。 |
+| IOException | I/O エラーが発生しました。 |
 
-### 備考
+## 備考
 
-このコンストラクターは解凍しません。見る[`Extract`](../extract/)解凍方法.
+このコンストラクタは解凍しません。解凍については [`Extract`](../extract/) メソッドをご参照ください。
 
 ### 関連項目
 
+* class [LzipLoadOptions](../../lziploadoptions/)
 * class [LzipArchive](../)
-* 名前空間 [Aspose.Zip.Lzip](../../lziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## LzipArchive(string) {#constructor_2}
+## LzipArchive(string, LzipLoadOptions) {#constructor_2}
 
-の新しいインスタンスを初期化します[`LzipArchive`](../)解凍用に準備されたクラス.
+[`LzipArchive`](../) クラスの新しいインスタンスを初期化し、解凍のために準備します。
 
 ```csharp
-public LzipArchive(string path)
+public LzipArchive(string path, LzipLoadOptions options = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | アーカイブのソースへのパス。 |
+| path | String | アーカイブのソースへのパスです。 |
+| オプション | LzipLoadOptions | アーカイブを読み込む際のオプション。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
-| InvalidDataException | ヘッダーがアーカイブの lzip タイプと一致しません。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| InvalidDataException | ヘッダーが lzip タイプのアーカイブと一致しません。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
 
-### 備考
+## 備考
 
-このコンストラクターは解凍しません。見る[`Extract`](../extract/)解凍方法.
+このコンストラクタは解凍しません。解凍については [`Extract`](../extract/) メソッドをご参照ください。
 
-### 例
+## 例
 
 ```csharp
 using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
@@ -101,8 +111,9 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
 
 ### 関連項目
 
+* class [LzipLoadOptions](../../lziploadoptions/)
 * class [LzipArchive](../)
-* 名前空間 [Aspose.Zip.Lzip](../../lziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: WimEntry.IsDirectory
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimEntry 財産. エントリがディレクトリを表すかどうかを示す値を取得します
+title: "WimEntry.IsDirectory"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimEntry プロパティ。エントリがディレクトリを表すかどうかを示す値を取得します"
 type: docs
 weight: 100
 url: /ja/net/aspose.zip.wim/wimentry/isdirectory/
@@ -17,7 +17,7 @@ public bool IsDirectory { get; }
 ### 関連項目
 
 * class [WimEntry](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

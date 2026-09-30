@@ -1,36 +1,40 @@
 ---
-title: WimArchive.WimArchive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimArchive コンストラクタ. の新しいインスタンスを初期化しますWimArchiveクラスと構成エントリのリストはアーカイブから抽出できます
+title: "WimArchive.WimArchive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimArchive コンストラクタ。WimArchive クラスの新しいインスタンスを初期化し、アーカイブから抽出可能なエントリリストを構成します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.wim/wimarchive/wimarchive/
 ---
-## WimArchive(Stream) {#constructor}
+## WimArchive(Stream, WimLoadOptions) {#constructor}
 
-の新しいインスタンスを初期化します[`WimArchive`](../)クラスと構成エントリのリストは、アーカイブから抽出できます。
+新しいインスタンスの [`WimArchive`](../) クラスを初期化し、アーカイブから抽出可能なエントリリストを構成します。
 
 ```csharp
-public WimArchive(Stream sourceStream)
+public WimArchive(Stream sourceStream, WimLoadOptions loadOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourceStream | Stream | アーカイブのソース。シーク可能である必要があります。 |
+| sourceStream | Stream | アーカイブのソースです。シーク可能である必要があります。 |
+| loadOptions | WimLoadOptions | 既存のアーカイブを読み込むためのオプションです。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *sourceStream*無効である。 |
-| ArgumentException | *sourceStream*はシークできません。 |
-| InvalidDataException | *sourceStream*有効な wim アーカイブではありません。 |
+| ArgumentNullException | *sourceStream* が null です。 |
+| ArgumentException | *sourceStream* はシーク可能ではありません。 |
+| InvalidDataException | *sourceStream* は有効な wim アーカイブではありません。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
+| ObjectDisposedException | ソースストリームが破棄された場合にスローされます。 |
+| NotSupportedException | ヘッダーはマルチパート アーカイブであることを示しています。 |
 
-### 備考
+## 備考
 
-このコンストラクターはエントリをアンパックしません。見る[`Open`](../../wimfileentry/open/)解凍方法.
+このコンストラクタはエントリを展開しません。展開については [`Open`](../../wimfileentry/open/) メソッドをご参照ください。
 
-### 例
+## 例
 
 次の例は、すべてのエントリをディレクトリに抽出する方法を示しています。
 
@@ -43,40 +47,47 @@ using (var archive = new WimArchive(File.OpenRead("archive.wim")))
 
 ### 関連項目
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## WimArchive(string) {#constructor_1}
+## WimArchive(string, WimLoadOptions) {#constructor_1}
 
-の新しいインスタンスを初期化します[`WimArchive`](../)クラスと構成エントリのリストは、アーカイブから抽出できます。
+新しいインスタンスの [`WimArchive`](../) クラスを初期化し、アーカイブから抽出可能なエントリリストを構成します。
 
 ```csharp
-public WimArchive(string path)
+public WimArchive(string path, WimLoadOptions loadOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | path | String | アーカイブ ファイルへのパス。 |
+| loadOptions | WimLoadOptions | 既存のアーカイブを読み込むためのオプションです。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
+| InvalidDataException | ヘッダーはマルチパート アーカイブであることを示しています。 |
 
-### 備考
+## 備考
 
-このコンストラクターはエントリをアンパックしません。見る[`Open`](../../wimfileentry/open/)解凍方法.
+このコンストラクタはエントリを展開しません。展開については [`Open`](../../wimfileentry/open/) メソッドをご参照ください。
 
-### 例
+## 例
 
 次の例は、すべてのエントリをディレクトリに抽出する方法を示しています。
 
@@ -89,8 +100,9 @@ using (var archive = new WimArchive("archive.wim"))
 
 ### 関連項目
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

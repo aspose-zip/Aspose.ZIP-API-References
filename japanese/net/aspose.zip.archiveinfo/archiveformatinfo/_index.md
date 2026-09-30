@@ -1,9 +1,9 @@
 ---
-title: Class ArchiveFormatInfo
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.ArchiveInfo.ArchiveFormatInfo クラス. アーカイブ形式に関する情報を表します
+title: "クラス ArchiveFormatInfo"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.ArchiveInfo.ArchiveFormatInfo クラス。アーカイブ形式に関する情報を表します"
 type: docs
-weight: 70
+weight: 220
 url: /ja/net/aspose.zip.archiveinfo/archiveformatinfo/
 ---
 ## ArchiveFormatInfo class
@@ -29,7 +29,7 @@ public abstract class ArchiveFormatInfo
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
+* assembly [Aspose.Zip](../../)
 
 

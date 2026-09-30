@@ -1,14 +1,14 @@
 ---
-title: TarArchive.Entries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarArchive 財産. のエントリを取得しますTarEntryアーカイブを構成するタイプ.
+title: "TarArchive.Entries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarArchive プロパティ。アーカイブを構成する TarEntry 型のエントリを取得します"
 type: docs
-weight: 60
+weight: 90
 url: /ja/net/aspose.zip.tar/tararchive/entries/
 ---
 ## TarArchive.Entries property
 
-のエントリを取得します[`TarEntry`](../../tarentry/)アーカイブを構成するタイプ.
+アーカイブを構成する [`TarEntry`](../../tarentry/) 型のエントリを取得します。
 
 ```csharp
 public ReadOnlyCollection<TarEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<TarEntry> Entries { get; }
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

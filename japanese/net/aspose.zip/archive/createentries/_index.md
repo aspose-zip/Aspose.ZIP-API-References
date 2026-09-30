@@ -1,9 +1,9 @@
 ---
-title: Archive.CreateEntries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Archive 方法. 指定されたディレクトリ内のすべてのファイルとディレクトリを再帰的にアーカイブに追加します
+title: "Archive.CreateEntries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Archive メソッド。指定されたディレクトリ内のすべてのファイルとディレクトリを再帰的にアーカイブに追加します。"
 type: docs
-weight: 40
+weight: 50
 url: /ja/net/aspose.zip/archive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
@@ -14,23 +14,25 @@ url: /ja/net/aspose.zip/archive/createentries/
 public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | directory | DirectoryInfo | 圧縮するディレクトリ。 |
-| includeRootDirectory | Boolean | ルート ディレクトリ自体を含めるかどうかを示します。 |
+| includeRootDirectory | Boolean | ルートディレクトリ自体を含めるかどうかを示します。 |
 
 ### 戻り値
 
-エントリが作成されたアーカイブ。
+エントリが構成されたアーカイブです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| DirectoryNotFoundException | への道*directory*マップされていないドライブ上にあるなど、無効です。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません*directory*. |
+| DirectoryNotFoundException | *directory* へのパスが無効です。たとえば、マッピングされていないドライブ上にある場合などです。 |
+| SecurityException | 呼び出し元は *directory* へアクセスするための必要な権限を持っていません。 |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
+| ArgumentNullException | *directory* は `null` です。 |
 
-### 例
+## 例
 
 ```csharp
 using (Archive archive = new Archive())
@@ -44,8 +46,8 @@ using (Archive archive = new Archive())
 ### 関連項目
 
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -57,16 +59,25 @@ using (Archive archive = new Archive())
 public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | sourceDirectory | String | 圧縮するディレクトリ。 |
-| includeRootDirectory | Boolean | ルート ディレクトリ自体を含めるかどうかを示します。 |
+| includeRootDirectory | Boolean | ルートディレクトリ自体を含めるかどうかを示します。 |
 
 ### 戻り値
 
-エントリが作成されたアーカイブ。
+エントリが構成されたアーカイブです。
 
-### 例
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
+| ArgumentException | *sourceDirectory* に "、&lt;、&gt;、または &#x7C; のような無効な文字が含まれています。 |
+| ArgumentNullException | *sourceDirectory* は `null` です。 |
+| PathTooLongException | 指定されたパス、ファイル名、またはその両方がシステムで定義された最大長を超えています。 |
+
+## 例
 
 ```csharp
 using (Archive archive = new Archive())
@@ -79,7 +90,7 @@ using (Archive archive = new Archive())
 ### 関連項目
 
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

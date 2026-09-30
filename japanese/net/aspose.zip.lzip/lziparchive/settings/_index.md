@@ -1,7 +1,7 @@
 ---
-title: LzipArchive.Settings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: LzipArchive 財産. 特定の lzip アーカイブの設定を取得します
+title: "LzipArchive.Settings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "LzipArchive プロパティ。特定の lzip アーカイブの設定を取得します。"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.lzip/lziparchive/settings/
@@ -14,11 +14,17 @@ url: /ja/net/aspose.zip.lzip/lziparchive/settings/
 public LzipArchiveSettings Settings { get; }
 ```
 
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+
 ### 関連項目
 
 * class [LzipArchiveSettings](../../lziparchivesettings/)
 * class [LzipArchive](../)
-* 名前空間 [Aspose.Zip.Lzip](../../lziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

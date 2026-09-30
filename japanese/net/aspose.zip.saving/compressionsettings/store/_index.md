@@ -1,14 +1,14 @@
 ---
-title: CompressionSettings.Store
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CompressionSettings 財産. のインスタンス圧縮設定の保存デフォルトパラメータ付き.
+title: "CompressionSettings.Store"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CompressionSettings プロパティ。デフォルトパラメータを持つ StoreCompressionSettings のインスタンスです。"
 type: docs
-weight: 50
+weight: 60
 url: /ja/net/aspose.zip.saving/compressionsettings/store/
 ---
 ## CompressionSettings.Store property
 
-のインスタンス`圧縮設定の保存`デフォルトパラメータ付き.
+`StoreCompressionSettings` のインスタンス（デフォルト パラメーター）。
 
 ```csharp
 public static StoreCompressionSettings Store { get; }
@@ -18,7 +18,7 @@ public static StoreCompressionSettings Store { get; }
 
 * class [StoreCompressionSettings](../../storecompressionsettings/)
 * class [CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

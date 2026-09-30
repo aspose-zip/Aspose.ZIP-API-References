@@ -1,7 +1,7 @@
 ---
-title: TarEntry.Length
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarEntry 財産. エントリの長さをバイト単位で取得します
+title: "TarEntry.Length"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarEntry プロパティ。エントリの長さ（バイト単位）を取得します"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.tar/tarentry/length/
@@ -17,7 +17,7 @@ public long Length { get; }
 ### 関連項目
 
 * class [TarEntry](../)
-* 名前空間 [Aspose.Zip.Tar](../../tarentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

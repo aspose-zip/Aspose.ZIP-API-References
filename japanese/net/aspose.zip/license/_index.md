@@ -1,35 +1,35 @@
 ---
-title: Class License
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.License クラス. コンポーネントのライセンスを取得する方法を提供します
+title: "クラス License"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.License クラス。コンポーネントにライセンスを付与するメソッドを提供します。"
 type: docs
-weight: 260
+weight: 660
 url: /ja/net/aspose.zip/license/
 ---
 ## License class
 
-コンポーネントのライセンスを取得する方法を提供します。
+コンポーネントをライセンスするためのメソッドを提供します。
 
 ```csharp
-public class License
+public sealed class License
 ```
 
 ## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [License](license/)() | の新しいインスタンスを初期化します`License`クラス。 |
+| [License](license/)() | `License` クラスの新しいインスタンスを初期化します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetLicense](../../aspose.zip/license/setlicense/#setlicense)(Stream) | コンポーネントのライセンスを取得します。 |
-| [SetLicense](../../aspose.zip/license/setlicense/#setlicense_1)(string) | コンポーネントのライセンスを取得します。 |
+| [SetLicense](../../aspose.zip/license/setlicense/#setlicense)(Stream) | コンポーネントにライセンスを付与します。 |
+| [SetLicense](../../aspose.zip/license/setlicense/#setlicense_1)(string) | コンポーネントにライセンスを付与します。 |
 
-### 例
+## 例
 
-この例では、 を含むフォルダーで MyLicense.lic という名前のライセンス ファイルを見つけようとします。 呼び出しアセンブリを含むフォルダー内のコンポーネント、 エントリ アセンブリのフォルダー内、および呼び出しアセンブリの埋め込みリソース内のコンポーネント.
+この例では、コンポーネントが含まれるフォルダー、呼び出しアセンブリが含まれるフォルダー、エントリ アセンブリのフォルダー、そして呼び出しアセンブリの埋め込みリソース内で、MyLicense.lic という名前のライセンス ファイルを検索しようとします。
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-コンポーネント jar ファイル:
+コンポーネントの jar ファイル:
 
 ```csharp
 License license = new License();
@@ -53,7 +53,7 @@ license.setLicense("MyLicense.lic");
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip](../../aspose.zip/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

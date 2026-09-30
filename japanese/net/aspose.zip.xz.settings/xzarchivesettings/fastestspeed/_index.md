@@ -1,14 +1,14 @@
 ---
-title: XzArchiveSettings.FastestSpeed
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XzArchiveSettings 財産. のインスタンスを取得しますXzArchiveSettingsclass 辞書サイズは LZMA2 フィルターで 65536 バイトブロック サイズは 1 メガバイトCRC32 チェックサム.
+title: "XzArchiveSettings.FastestSpeed"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XzArchiveSettings プロパティ。LZMA2 フィルターで辞書サイズが 65536 バイト、ブロックサイズが 1 メガバイト、CRC32 チェックサムの XzArchiveSettings クラスのインスタンスを取得します。"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.xz.settings/xzarchivesettings/fastestspeed/
 ---
 ## XzArchiveSettings.FastestSpeed property
 
-のインスタンスを取得します[`XzArchiveSettings`](../)class 辞書サイズは LZMA2 フィルターで 65536 バイト、ブロック サイズは 1 メガバイト、CRC32 チェックサム.
+LZMA2 フィルターで辞書サイズが 65536 バイト、ブロックサイズが 1 メガバイト、CRC32 チェックサムの [`XzArchiveSettings`](../) クラスのインスタンスを取得します。
 
 ```csharp
 public static XzArchiveSettings FastestSpeed { get; }
@@ -17,7 +17,7 @@ public static XzArchiveSettings FastestSpeed { get; }
 ### 関連項目
 
 * class [XzArchiveSettings](../)
-* 名前空間 [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class EncryptionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.EncryptionSettings クラス. 複数の zip 暗号化方式の設定の基本クラス
+title: "クラス EncryptionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.EncryptionSettings クラス。複数の ZIP 暗号化方式の設定の基底クラス"
 type: docs
-weight: 430
+weight: 920
 url: /ja/net/aspose.zip.saving/encryptionsettings/
 ---
 ## EncryptionSettings class
 
-複数の zip 暗号化方式の設定の基本クラス。
+複数の ZIP 暗号化方式の設定のための基底クラス。
 
 ```csharp
 public abstract class EncryptionSettings
@@ -23,7 +23,7 @@ public abstract class EncryptionSettings
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 
