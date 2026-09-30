@@ -1,24 +1,31 @@
 ---
-title: Archive.Entries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Archive 財産. のエントリを取得しますArchiveEntryアーカイブを構成するタイプ.
+title: "Archive.Entries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Archive プロパティ。アーカイブを構成する ArchiveEntry 型のエントリを取得します。"
 type: docs
-weight: 20
+weight: 30
 url: /ja/net/aspose.zip/archive/entries/
 ---
 ## Archive.Entries property
 
-のエントリを取得します[`ArchiveEntry`](../../archiveentry/)アーカイブを構成するタイプ.
+アーカイブを構成する [`ArchiveEntry`](../../archiveentry/) 型のエントリを取得します。
 
 ```csharp
 public ReadOnlyCollection<ArchiveEntry> Entries { get; }
 ```
 
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| InvalidOperationException | アーカイブは読み取り専用ストリームから開かれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+
 ### 関連項目
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

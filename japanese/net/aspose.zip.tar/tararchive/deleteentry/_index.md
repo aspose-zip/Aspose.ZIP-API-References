@@ -1,9 +1,9 @@
 ---
-title: TarArchive.DeleteEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarArchive 方法. エントリ リストから特定のエントリの最初の出現を削除します
+title: "TarArchive.DeleteEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarArchive メソッド。エントリリストから特定のエントリの最初の出現を削除します"
 type: docs
-weight: 90
+weight: 120
 url: /ja/net/aspose.zip.tar/tararchive/deleteentry/
 ---
 ## DeleteEntry(TarEntry) {#deleteentry}
@@ -14,17 +14,23 @@ url: /ja/net/aspose.zip.tar/tararchive/deleteentry/
 public TarArchive DeleteEntry(TarEntry entry)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entry | TarEntry | エントリ リストから削除するエントリ。 |
+| エントリ | TarEntry | エントリリストから削除するエントリです。 |
 
 ### 戻り値
 
-エントリが削除されたアーカイブ。
+エントリが削除されたアーカイブです。
 
-### 例
+### 例外
 
-最後のエントリを除くすべてのエントリを削除する方法は次のとおりです。
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません |
+
+## 例
+
+最後のエントリを除くすべてのエントリを削除する方法は次のとおりです:
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -39,34 +45,35 @@ using (var archive = new TarArchive("archive.tar"))
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-インデックスによってエントリ リストからエントリを削除します。
+インデックスでエントリリストからエントリを削除します。
 
 ```csharp
 public TarArchive DeleteEntry(int entryIndex)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entryIndex | Int32 | 削除するエントリのゼロから始まるインデックス。 |
+| entryIndex | Int32 | 削除するエントリのゼロベースインデックスです。 |
 
 ### 戻り値
 
-エントリが削除されたアーカイブ。
+エントリが削除されたアーカイブです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*は 0 未満です。-または-*entryIndex*等しいかより大きい`エントリー`カウント。 |
+| ArgumentOutOfRangeException | *entryIndex* が 0 未満です。-または- *entryIndex* が `Entries` の数以上です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new TarArchive("two_files.tar"))
@@ -79,7 +86,7 @@ using (var archive = new TarArchive("two_files.tar"))
 ### 関連項目
 
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

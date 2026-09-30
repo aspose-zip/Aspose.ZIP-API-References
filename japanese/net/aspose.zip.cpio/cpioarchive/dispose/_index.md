@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.Dispose
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CpioArchive 方法. アンマネージ リソースの解放解放またはリセットに関連するアプリケーション定義のタスクを実行します
+title: "CpioArchive.Dispose"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CpioArchive メソッド。アンマネージドリソースの解放、リリース、またはリセットに関連するアプリケーション定義のタスクを実行します"
 type: docs
 weight: 60
 url: /ja/net/aspose.zip.cpio/cpioarchive/dispose/
 ---
 ## CpioArchive.Dispose method
 
-アンマネージ リソースの解放、解放、またはリセットに関連するアプリケーション定義のタスクを実行します。
+アンマネージド リソースの解放、リリース、またはリセットに関連するアプリケーション定義のタスクを実行します。
 
 ```csharp
 public void Dispose()
@@ -17,7 +17,7 @@ public void Dispose()
 ### 関連項目
 
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

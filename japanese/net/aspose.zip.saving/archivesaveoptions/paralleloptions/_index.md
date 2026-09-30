@@ -1,9 +1,9 @@
 ---
-title: ArchiveSaveOptions.ParallelOptions
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveSaveOptions 財産. 並列圧縮の設定を取得または設定します
+title: "ArchiveSaveOptions.ParallelOptions"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveSaveOptions プロパティ。並列圧縮の設定を取得または設定します"
 type: docs
-weight: 50
+weight: 80
 url: /ja/net/aspose.zip.saving/archivesaveoptions/paralleloptions/
 ---
 ## ArchiveSaveOptions.ParallelOptions property
@@ -14,15 +14,15 @@ url: /ja/net/aspose.zip.saving/archivesaveoptions/paralleloptions/
 public ParallelOptions ParallelOptions { get; set; }
 ```
 
-### 備考
+## 備考
 
-複数のアーカイブ エントリを圧縮しながら複数の CPU コアを利用する場合に割り当てます。
+複数のアーカイブエントリを圧縮する際に、複数の CPU コアを利用したい場合はこれを設定してください。
 
 ### 関連項目
 
 * class [ParallelOptions](../../paralleloptions/)
 * class [ArchiveSaveOptions](../)
-* 名前空間 [Aspose.Zip.Saving](../../archivesaveoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

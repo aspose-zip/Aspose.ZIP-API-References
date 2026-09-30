@@ -1,14 +1,14 @@
 ---
-title: MeteredLicense.MeteredLicense
-second_title: Aspose.ZIP for .NET API リファレンス
-description: MeteredLicense コンストラクタ. このクラスの新しいインスタンスを初期化します
+title: "MeteredLicense.MeteredLicense"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "MeteredLicense コンストラクタ。デフォルトコンストラクタです。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip/meteredlicense/meteredlicense/
 ---
 ## MeteredLicense constructor
 
-このクラスの新しいインスタンスを初期化します。
+デフォルト コンストラクタです。
 
 ```csharp
 public MeteredLicense()
@@ -17,7 +17,7 @@ public MeteredLicense()
 ### 関連項目
 
 * class [MeteredLicense](../)
-* 名前空間 [Aspose.Zip](../../meteredlicense/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

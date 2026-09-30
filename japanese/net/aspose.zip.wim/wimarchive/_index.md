@@ -1,9 +1,9 @@
 ---
-title: Class WimArchive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Wim.WimArchive クラス. このクラスは wim アーカイブ ファイルを表します
+title: "クラス WimArchive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Wim.WimArchive クラス。このクラスは wim アーカイブ ファイルを表します。"
 type: docs
-weight: 760
+weight: 1330
 url: /ja/net/aspose.zip.wim/wimarchive/
 ---
 ## WimArchive class
@@ -18,29 +18,31 @@ public class WimArchive : IArchive
 
 | 名前 | 説明 |
 | --- | --- |
-| [WimArchive](wimarchive/#constructor)(Stream) | の新しいインスタンスを初期化します`WimArchive`クラスと構成エントリのリストは、アーカイブから抽出できます。 |
-| [WimArchive](wimarchive/#constructor_1)(string) | の新しいインスタンスを初期化します`WimArchive`クラスと構成エントリのリストは、アーカイブから抽出できます。 |
+| [WimArchive](wimarchive/#constructor)(Stream, WimLoadOptions) | `WimArchive` クラスの新しいインスタンスを初期化し、アーカイブから抽出できるエントリリストを構成します。 |
+| [WimArchive](wimarchive/#constructor_1)(string, WimLoadOptions) | `WimArchive` クラスの新しいインスタンスを初期化し、アーカイブから抽出できるエントリリストを構成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [BootImageIndex](../../aspose.zip.wim/wimarchive/bootimageindex/) { get; } | ブータブル イメージの (ゼロから始まる) インデックスを取得します。 |
+| [BootImageIndex](../../aspose.zip.wim/wimarchive/bootimageindex/) { get; } | 起動可能イメージの (0 ベース) インデックスを取得します。 |
+| [Entries](../../aspose.zip.wim/wimarchive/entries/) { get; } | アーカイブを構成する [`WimEntry`](../wimentry/) 型のエントリを取得します。 |
 | [FileFormatVersion](../../aspose.zip.wim/wimarchive/fileformatversion/) { get; } | ファイル形式のバージョンを取得します。 |
 | [Guid](../../aspose.zip.wim/wimarchive/guid/) { get; } | アーカイブの識別 GUID を取得します。 |
-| [Images](../../aspose.zip.wim/wimarchive/images/) { get; } | のエントリを取得します[`WimImage`](../wimimage/)アーカイブを構成するタイプ. |
-| [Manifest](../../aspose.zip.wim/wimarchive/manifest/) { get; } | ファイルと含まれている画像を説明する埋め込みマニフェストを取得します。 |
+| [Images](../../aspose.zip.wim/wimarchive/images/) { get; } | アーカイブを構成する [`WimImage`](../wimimage/) 型のエントリを取得します。 |
+| [Manifest](../../aspose.zip.wim/wimarchive/manifest/) { get; } | ファイルと含まれるイメージを記述する埋め込みマニフェストを取得します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Dispose](../../aspose.zip.wim/wimarchive/dispose/)() | アンマネージ リソースの解放、解放、またはリセットに関連するアプリケーション定義のタスクを実行します。 |
+| [Dispose](../../aspose.zip.wim/wimarchive/dispose/)() | アンマネージド リソースの解放、リリース、またはリセットに関連するアプリケーション定義のタスクを実行します。 |
+| [ExtractToDirectory](../../aspose.zip.wim/wimarchive/extracttodirectory/)(string) | パスで指定されたファイルへアーカイブを抽出します。 |
 
 ### 関連項目
 
 * interface [IArchive](../../aspose.zip/iarchive/)
-* 名前空間 [Aspose.Zip.Wim](../../aspose.zip.wim/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Wim](../../aspose.zip.wim/)
+* assembly [Aspose.Zip](../../)
 
 

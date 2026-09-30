@@ -1,14 +1,14 @@
 ---
-title: ArchiveSaveOptions.ArchiveSaveOptions
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveSaveOptions コンストラクタ. デフォルトのコンストラクター
+title: "ArchiveSaveOptions.ArchiveSaveOptions"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveSaveOptions コンストラクタ。デフォルトコンストラクタです。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/archivesaveoptions/archivesaveoptions/
 ---
 ## ArchiveSaveOptions constructor
 
-デフォルトのコンストラクター。
+デフォルト コンストラクタです。
 
 ```csharp
 public ArchiveSaveOptions()
@@ -17,7 +17,7 @@ public ArchiveSaveOptions()
 ### 関連項目
 
 * class [ArchiveSaveOptions](../)
-* 名前空間 [Aspose.Zip.Saving](../../archivesaveoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

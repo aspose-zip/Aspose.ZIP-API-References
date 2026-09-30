@@ -1,14 +1,14 @@
 ---
-title: RarArchive.Entries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: RarArchive 財産. のエントリを取得しますRarArchiveEntry rar アーカイブを構成するタイプ.
+title: "RarArchive.Entries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "RarArchive プロパティ。RAR アーカイブを構成する RarArchiveEntry 型のエントリを取得します"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.rar/rararchive/entries/
 ---
 ## RarArchive.Entries property
 
-のエントリを取得します[`RarArchiveEntry`](../../rararchiveentry/) rar アーカイブを構成するタイプ.
+`[`RarArchiveEntry`](../../rararchiveentry/)` 型のエントリを取得し、rar アーカイブを構成します。
 
 ```csharp
 public ReadOnlyCollection<RarArchiveEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<RarArchiveEntry> Entries { get; }
 
 * class [RarArchiveEntry](../../rararchiveentry/)
 * class [RarArchive](../)
-* 名前空間 [Aspose.Zip.Rar](../../rararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

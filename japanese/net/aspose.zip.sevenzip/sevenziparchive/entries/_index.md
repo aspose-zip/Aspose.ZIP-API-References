@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive.Entries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SevenZipArchive 財産. のエントリを取得しますSevenZipArchiveEntryアーカイブを構成するタイプ.
+title: "SevenZipArchive.Entries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SevenZipArchive プロパティ。アーカイブを構成する SevenZipArchiveEntry 型のエントリを取得します。"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.sevenzip/sevenziparchive/entries/
 ---
 ## SevenZipArchive.Entries property
 
-のエントリを取得します[`SevenZipArchiveEntry`](../../sevenziparchiveentry/)アーカイブを構成するタイプ.
+アーカイブを構成する [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) 型のエントリを取得します。
 
 ```csharp
 public ReadOnlyCollection<SevenZipArchiveEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<SevenZipArchiveEntry> Entries { get; }
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipArchive](../)
-* 名前空間 [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

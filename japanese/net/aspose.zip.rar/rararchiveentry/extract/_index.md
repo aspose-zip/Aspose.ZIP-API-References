@@ -1,43 +1,48 @@
 ---
-title: RarArchiveEntry.Extract
-second_title: Aspose.ZIP for .NET API リファレンス
-description: RarArchiveEntry 方法. 提供されたパスによってファイルシステムへのエントリを抽出します.
+title: "RarArchiveEntry.Extract"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "RarArchiveEntry メソッド。指定されたパスでエントリをファイルシステムに抽出します"
 type: docs
 weight: 90
 url: /ja/net/aspose.zip.rar/rararchiveentry/extract/
 ---
 ## Extract(string, string) {#extract}
 
-提供されたパスによってファイルシステムへのエントリを抽出します.
+エントリを提供されたパスでファイルシステムに抽出します。
 
 ```csharp
 public FileInfo Extract(string path, string password = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | 宛先ファイルへのパス。ファイルが既に存在する場合は、上書きされます。 |
-| password | String | 復号化のためのオプションのパスワード。 |
+| path | String | 宛先ファイルへのパスです。ファイルが既に存在する場合、上書きされます。 |
+| password | String | 復号化用のオプションのパスワードです。 |
 
 ### 戻り値
 
-合成ファイルのファイル情報。
+構成されたファイルのファイル情報です。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
-| InvalidDataException | エントリの CRC または MAC 検証が失敗しました。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| InvalidDataException | データが破損しています。-または- エントリの CRC または MAC 検証に失敗しました。 |
+| OperationCanceledException | .NET Framework 4.0 以降: 提供されたキャンセルトークンによって抽出がキャンセルされた場合にスローされます。 |
+| ObjectDisposedException | ソースストリームが破棄された場合にスローされます。 |
 
-### 例
+## 例
 
-rar アーカイブの 2 つのエントリを抽出します。
+RAR アーカイブから 2 つのエントリを抽出します。
 
 ```csharp
 using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
@@ -53,34 +58,37 @@ using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
 ### 関連項目
 
 * class [RarArchiveEntry](../)
-* 名前空間 [Aspose.Zip.Rar](../../rararchiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(Stream, string) {#extract_1}
 
-提供されたストリームにエントリを抽出します。
+エントリを提供されたストリームに抽出します。
 
 ```csharp
 public void Extract(Stream destination, string password = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destination | Stream | 宛先ストリーム。書き込み可能である必要があります。 |
-| password | String | 復号化のためのオプションのパスワード。 |
+| 宛先 | Stream | 宛先ストリーム。書き込み可能である必要があります。 |
+| password | String | 復号化用のオプションのパスワードです。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| InvalidDataException | エントリの CRC または MAC 検証が失敗しました。 |
-| ArgumentException | *destination*書き込みをサポートしていません。 |
+| InvalidDataException | エントリの CRC または MAC 検証に失敗しました。 |
+| ArgumentException | *destination* は書き込みをサポートしていません。 |
+| InvalidDataException | データが破損しています。-または- エントリの CRC または MAC 検証に失敗しました。 |
+| OperationCanceledException | .NET Framework 4.0 以降: 提供されたキャンセルトークンによって抽出がキャンセルされた場合にスローされます。 |
+| ObjectDisposedException | ソースストリームが破棄された場合にスローされます。 |
 
-### 例
+## 例
 
-パスワード付きの rar アーカイブのエントリを抽出します。
+パスワードを使用して RAR アーカイブのエントリを抽出します。
 
 ```csharp
 using (FileStream rarFile = File.Open("archive.zip", FileMode.Open))
@@ -95,7 +103,7 @@ using (FileStream rarFile = File.Open("archive.zip", FileMode.Open))
 ### 関連項目
 
 * class [RarArchiveEntry](../)
-* 名前空間 [Aspose.Zip.Rar](../../rararchiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

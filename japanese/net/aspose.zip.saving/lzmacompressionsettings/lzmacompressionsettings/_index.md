@@ -1,20 +1,20 @@
 ---
-title: LzmaCompressionSettings.LzmaCompressionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: LzmaCompressionSettings コンストラクタ. の新しいインスタンスを初期化しますLzmaCompressionSettingsデフォルトのディクショナリ サイズを持つクラスで16 メガバイトに相当します
+title: "LzmaCompressionSettings.LzmaCompressionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "LzmaCompressionSettings コンストラクタ。デフォルトパラメータで LzmaCompressionSettings クラスの新しいインスタンスを初期化します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/lzmacompressionsettings/lzmacompressionsettings/
 ---
-## LzmaCompressionSettings constructor
+## LzmaCompressionSettings() {#constructor}
 
-の新しいインスタンスを初期化します[`LzmaCompressionSettings`](../)デフォルトのディクショナリ サイズを持つクラスで、16 メガバイトに相当します。
+デフォルトパラメータで [`LzmaCompressionSettings`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public LzmaCompressionSettings()
 ```
 
-### 例
+## 例
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new LzmaCompressionSettings())))
@@ -27,7 +27,55 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new LzmaCompressio
 ### 関連項目
 
 * class [LzmaCompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../lzmacompressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../lzmacompressionsettings/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## LzmaCompressionSettings(int, int, int) {#constructor_2}
+
+指定された辞書サイズ、ファストバイト数、リテラルコンテキストビット数で [`LzmaCompressionSettings`](../) クラスの新しいインスタンスを初期化します。
+
+```csharp
+public LzmaCompressionSettings(int dictionarySize, int numberOfFastBytes, int literalContextBits)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| dictionarySize | Int32 | 辞書（履歴バッファ）のサイズ（バイト単位）。4096 から 1073741824 の範囲で指定する必要があります。 |
+| numberOfFastBytes | Int32 | LZMA アルゴリズムにおける高速マッチ検索に使用されるバイト数。5 から 273 の範囲で指定できます。 |
+| literalContextBits | Int32 | リテラルコンテキストビット数（前のリテラルの上位ビット）を設定します。範囲は0から8までです。 |
+
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ArgumentOutOfRangeException | 引数のいずれかが許容範囲外の場合にスローされます。 |
+
+### 関連項目
+
+* class [LzmaCompressionSettings](../)
+* namespace [Aspose.Zip.Saving](../../lzmacompressionsettings/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## LzmaCompressionSettings(int) {#constructor_1}
+
+指定された辞書サイズ、デフォルトの高速バイト数が32、リテラルコンテキストビット数が3で、[`LzmaCompressionSettings`](../) クラスの新しいインスタンスを初期化します。
+
+```csharp
+public LzmaCompressionSettings(int dictionarySize)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| dictionarySize | Int32 | 辞書（履歴バッファ）のサイズ（バイト単位）。4096 から 1073741824 の範囲で指定する必要があります。 |
+
+### 関連項目
+
+* class [LzmaCompressionSettings](../)
+* namespace [Aspose.Zip.Saving](../../lzmacompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

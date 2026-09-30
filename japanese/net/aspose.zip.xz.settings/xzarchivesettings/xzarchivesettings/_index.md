@@ -1,54 +1,54 @@
 ---
-title: XzArchiveSettings.XzArchiveSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XzArchiveSettings コンストラクタ. の新しいインスタンスを初期化しますXzArchiveSettings単一の LZMA2 圧縮を使用するクラス.
+title: "XzArchiveSettings.XzArchiveSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XzArchiveSettings コンストラクタ。単一の LZMA2 圧縮を使用して XzArchiveSettings クラスの新しいインスタンスを初期化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.xz.settings/xzarchivesettings/xzarchivesettings/
 ---
 ## XzArchiveSettings() {#constructor}
 
-の新しいインスタンスを初期化します[`XzArchiveSettings`](../)単一の LZMA2 圧縮を使用するクラス.
+[`XzArchiveSettings`](../) クラスの新しいインスタンスを単一の LZMA2 圧縮で初期化します。
 
 ```csharp
 public XzArchiveSettings()
 ```
 
-### 備考
+## 備考
 
-LZMA2 フィルタ サイズのデフォルト辞書は 16 メガバイト、デフォルト ブロック サイズは 64 メガバイト、デフォルト チェックサム タイプは CRC32 です。
+LZMA2 フィルタのデフォルト辞書サイズは 16 メガバイト、デフォルトブロックサイズは 64 メガバイト、デフォルトのチェックサムタイプは CRC32 です。
 
 ### 関連項目
 
 * class [XzArchiveSettings](../)
-* 名前空間 [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## XzArchiveSettings(XzFilterSettings[], long, XzCheckType) {#constructor_1}
 
-の新しいインスタンスを初期化します[`XzArchiveSettings`](../)カスタム パラメータを持つクラス.
+[`XzArchiveSettings`](../) クラスの新しいインスタンスをカスタムパラメータで初期化します。
 
 ```csharp
 public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType checkType)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| filters | XzFilterSettings[] | 作成するために順次適用されるフィルター (コンプレッサー)[`XzArchive`](../../../aspose.zip.xz/xzarchive/) .単体でも可[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) またはペア[`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings/)と[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) |
-| blockSize | Int64 | xz アーカイブ ブロックのサイズ。 |
-| checkType | XzCheckType | 非圧縮データのチェックサム計算のタイプ。 |
+| filters | XzFilterSettings[] | [`XzArchive`](../../../aspose.zip.xz/xzarchive/) を作成するために順次適用されるフィルタ（圧縮器）です。単一の [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) または [`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings/) と [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) のペアのいずれかにできます。 |
+| blockSize | Int64 | xz アーカイブブロックのサイズ。 |
+| checkType | XzCheckType | 非圧縮データのチェックサム計算タイプ。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | *blockSize*負です。 |
-| ArgumentNullException | *filters*無効である |
-| ArgumentException | *filters*フィルタが 1 つ未満または 2 つを超えるか、最後のフィルタがありません[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/). |
+| ArgumentOutOfRangeException | *blockSize* が負の値です。 |
+| ArgumentNullException | *filters* が null です。 |
+| ArgumentException | *filters* に 1 個未満または 2 個を超えるフィルターが含まれているか、最後のフィルターが [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) ではありません。 |
 
-### 例
+## 例
 
 ```csharp
 using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
@@ -68,7 +68,7 @@ using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
 * class [XzFilterSettings](../../xzfiltersettings/)
 * enum [XzCheckType](../../xzchecktype/)
 * class [XzArchiveSettings](../)
-* 名前空間 [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

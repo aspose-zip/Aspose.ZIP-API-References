@@ -1,14 +1,14 @@
 ---
-title: Class ComHelper
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.ComHelper クラス. COM クライアントがアーカイブを Aspose.Zip. にロードするためのメソッドを提供します
+title: "クラス ComHelper"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.ComHelper クラス。COM クライアントがアーカイブを Aspose.Zip にロードするためのメソッドを提供します。"
 type: docs
-weight: 150
+weight: 400
 url: /ja/net/aspose.zip/comhelper/
 ---
 ## ComHelper class
 
-COM クライアントがアーカイブを Aspose.Zip. にロードするためのメソッドを提供します。
+COM クライアントが Aspose.Zip にアーカイブをロードするためのメソッドを提供します。
 
 ```csharp
 public class ComHelper
@@ -27,19 +27,19 @@ public class ComHelper
 | [OpenBzip2](../../aspose.zip/comhelper/openbzip2/#openbzip2)(Stream) | COM アプリケーションがストリームから bzip2 アーカイブをロードできるようにします。 |
 | [OpenBzip2](../../aspose.zip/comhelper/openbzip2/#openbzip2_1)(string) | COM アプリケーションがファイルから bzip2 アーカイブをロードできるようにします。 |
 | [OpenGzip](../../aspose.zip/comhelper/opengzip/#opengzip)(Stream) | COM アプリケーションがストリームから gzip アーカイブをロードできるようにします。 |
-| [OpenGzip](../../aspose.zip/comhelper/opengzip/#opengzip_1)(string) | COM アプリケーションがファイルから gzip アーカイブをロードできるようにします。 |
-| [OpenRar](../../aspose.zip/comhelper/openrar/#openrar)(Stream) | COM アプリケーションがストリームから rar アーカイブをロードできるようにします。 |
-| [OpenRar](../../aspose.zip/comhelper/openrar/#openrar_1)(string) | COM アプリケーションがファイルから rar アーカイブをロードできるようにします。 |
-| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip)(Stream) | COM アプリケーションがストリームから zip アーカイブをロードできるようにします。 |
-| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip_1)(string) | COM アプリケーションがファイルから zip アーカイブをロードできるようにします。 |
+| [OpenGzip](../../aspose.zip/comhelper/opengzip/#opengzip_1)(string) | COM アプリケーションがファイルから gzip アーカイブを読み込むことを許可します。 |
+| [OpenRar](../../aspose.zip/comhelper/openrar/#openrar)(Stream) | COM アプリケーションがストリームから rar アーカイブを読み込むことを許可します。 |
+| [OpenRar](../../aspose.zip/comhelper/openrar/#openrar_1)(string) | COM アプリケーションがファイルから rar アーカイブを読み込むことを許可します。 |
+| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip)(Stream) | COM アプリケーションがストリームから ZIP アーカイブを読み込むことを許可します。 |
+| [OpenZip](../../aspose.zip/comhelper/openzip/#openzip_1)(string) | COM アプリケーションがファイルから ZIP アーカイブを読み込むことを許可します。 |
 
-### 備考
+## 備考
 
-ComHelper クラスを使用して、ファイルまたはストリームからアーカイブをロードします。 特定のクラスは、新しいアーカイブを作成するデフォルト コンストラクターを提供します また、ファイルまたはストリームからアーカイブをロードするオーバーロード コンストラクターも提供します。 Aspose.Zip を使用している場合.NET アプリケーションから、すべての archives コンストラクターを直接使用できますが、COM アプリケーションから Aspose.Zip を使用している場合、 デフォルトのアーカイブ コンストラクターのみが利用可能です.
+ファイルまたはストリームからアーカイブを読み込むには ComHelper クラスを使用します。特定のクラスは新しいアーカイブを作成するデフォルトコンストラクタを提供し、さらにファイルまたはストリームからアーカイブを読み込むためのオーバーロードされたコンストラクタも提供します。.NET アプリケーションで Aspose.Zip を使用している場合、すべてのアーカイブコンストラクタを直接利用できますが、COM アプリケーションで Aspose.Zip を使用している場合はデフォルトのアーカイブコンストラクタのみが利用可能です。
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip](../../aspose.zip/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

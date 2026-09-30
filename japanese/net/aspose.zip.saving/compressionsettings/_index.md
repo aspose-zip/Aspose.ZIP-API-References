@@ -1,14 +1,14 @@
 ---
-title: Class CompressionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.CompressionSettings クラス. コンプレッサまたはデコンプレッサが機能するために必要な設定.
+title: "クラス CompressionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.CompressionSettings クラス。圧縮器または解凍器が機能するために必要な設定です。"
 type: docs
-weight: 400
+weight: 890
 url: /ja/net/aspose.zip.saving/compressionsettings/
 ---
 ## CompressionSettings class
 
-コンプレッサまたはデコンプレッサが機能するために必要な設定.
+圧縮器または解凍器が動作するために必要な設定。
 
 ```csharp
 public abstract class CompressionSettings
@@ -18,16 +18,18 @@ public abstract class CompressionSettings
 
 | 名前 | 説明 |
 | --- | --- |
-| static [Bzip2](../../aspose.zip.saving/compressionsettings/bzip2/) { get; } | のインスタンス`Bzip2CompressionSettings`デフォルトパラメータ付き. |
-| static [Deflate](../../aspose.zip.saving/compressionsettings/deflate/) { get; } | のインスタンス`DeflateCompressionSettings`デフォルトパラメータ付き. |
-| static [Lzma](../../aspose.zip.saving/compressionsettings/lzma/) { get; } | のインスタンス`Lzma圧縮設定`デフォルトパラメータ付き. |
-| static [PPMd](../../aspose.zip.saving/compressionsettings/ppmd/) { get; } | のインスタンス`PPMdCompressionSettings`デフォルトパラメータ付き. |
-| static [Store](../../aspose.zip.saving/compressionsettings/store/) { get; } | のインスタンス`圧縮設定の保存`デフォルトパラメータ付き. |
-| static [Xz](../../aspose.zip.saving/compressionsettings/xz/) { get; } | のインスタンス`Xz`デフォルトパラメータ付き. |
+| static [Bzip2](../../aspose.zip.saving/compressionsettings/bzip2/) { get; } | `Bzip2CompressionSettings` のインスタンス（デフォルト パラメーター）。 |
+| static [Deflate](../../aspose.zip.saving/compressionsettings/deflate/) { get; } | `DeflateCompressionSettings` のインスタンス（デフォルト パラメーター）。 |
+| static [EnhancedDeflate](../../aspose.zip.saving/compressionsettings/enhanceddeflate/) { get; } | `EnhancedDeflateCompressionSettings` のインスタンス（デフォルト パラメーター）。 |
+| static [Lzma](../../aspose.zip.saving/compressionsettings/lzma/) { get; } | `LzmaCompressionSettings` のインスタンス（デフォルト パラメーター）。 |
+| static [PPMd](../../aspose.zip.saving/compressionsettings/ppmd/) { get; } | `PPMdCompressionSettings` のインスタンス（デフォルト パラメーター）。 |
+| static [Store](../../aspose.zip.saving/compressionsettings/store/) { get; } | `StoreCompressionSettings` のインスタンス（デフォルト パラメーター）。 |
+| static [Xz](../../aspose.zip.saving/compressionsettings/xz/) { get; } | `XzCompressionSettings` のインスタンス（デフォルト パラメーター）。 |
+| static [Zstd](../../aspose.zip.saving/compressionsettings/zstd/) { get; } | `ZstandardCompressionSettings` のインスタンス（デフォルト パラメーター）。 |
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

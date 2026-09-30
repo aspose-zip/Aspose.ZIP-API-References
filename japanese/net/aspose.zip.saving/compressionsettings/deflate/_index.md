@@ -1,14 +1,14 @@
 ---
-title: CompressionSettings.Deflate
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CompressionSettings 財産. のインスタンスDeflateCompressionSettingsデフォルトパラメータ付き.
+title: "CompressionSettings.Deflate"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CompressionSettings プロパティ。デフォルトパラメータを持つ DeflateCompressionSettings のインスタンスです。"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.saving/compressionsettings/deflate/
 ---
 ## CompressionSettings.Deflate property
 
-のインスタンス`DeflateCompressionSettings`デフォルトパラメータ付き.
+`DeflateCompressionSettings` のインスタンス（デフォルト パラメーター）。
 
 ```csharp
 public static DeflateCompressionSettings Deflate { get; }
@@ -18,7 +18,7 @@ public static DeflateCompressionSettings Deflate { get; }
 
 * class [DeflateCompressionSettings](../../deflatecompressionsettings/)
 * class [CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,18 +1,18 @@
 ---
-title: Aspose.Zip.LZMA
-second_title: Aspose.ZIP for .NET API リファレンス
-description: LZMA名前空間にはlzma アーカイブ関連エンティティを表すクラスが含まれています
+title: "Aspose.Zip.LZMA"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "LZMA 名前空間には、lzma アーカイブに関連するエンティティを表すクラスが含まれています。"
 type: docs
-weight: 90
+weight: 170
 url: /ja/net/aspose.zip.lzma/
 ---
-LZMA名前空間には、lzma アーカイブ関連エンティティを表すクラスが含まれています。
+LZMA 名前空間には、lzma アーカイブ関連エンティティを表すクラスが含まれています。
 
 ## クラス
 
 | クラス | 説明 |
 | --- | --- |
-| [LzmaArchive](./lzmaarchive/) | このクラスは、LZMA アーカイブ ファイルを表します。 LZMA アーカイブの作成または抽出に使用します。 |
-| [LzmaArchiveSettings](./lzmaarchivesettings/) | lzma アーカイブ内の LZMA 圧縮方法の設定。 |
+| [LzmaArchive](./lzmaarchive/) | このクラスは LMA アーカイブファイルを表します。LMA アーカイブの作成または抽出に使用してください。 |
+| [LzmaArchiveSettings](./lzmaarchivesettings/) | lzma アーカイブの設定です。 |
 
 

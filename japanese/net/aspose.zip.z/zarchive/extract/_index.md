@@ -1,7 +1,7 @@
 ---
-title: ZArchive.Extract
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ZArchive 方法. Z アーカイブをストリームに抽出します
+title: "ZArchive.Extract"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ZArchive メソッド。Z アーカイブをストリームに抽出します"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.z/zarchive/extract/
@@ -14,17 +14,18 @@ Z アーカイブをストリームに抽出します。
 public void Extract(Stream destination)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destination | Stream | 解凍されたデータを格納するためのストリーム。 |
+| 宛先 | Stream | 解凍データを格納するストリーム。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| InvalidDataException | データは解凍できません。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| InvalidDataException | データを解凍できません。 |
 
-### 例
+## 例
 
 ```csharp
 using (FileStream zFile = File.Open(sourceFileName, FileMode.Open))
@@ -42,8 +43,8 @@ using (FileStream zFile = File.Open(sourceFileName, FileMode.Open))
 ### 関連項目
 
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -55,24 +56,26 @@ Z アーカイブをファイルに抽出します。
 public void Extract(FileInfo fileInfo)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fileInfo | FileInfo | 解凍されたデータを格納するための FileInfo。 |
+| fileInfo | FileInfo | 解凍データを格納するための FileInfo。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| SecurityException | 呼び出し元には、ファイルを開くために必要な権限がありません*fileInfo*. |
-| ArgumentException | ファイル パスが空であるか、空白のみが含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| SecurityException | 呼び出し元には *fileInfo* を開くために必要な権限がありません。 |
+| ArgumentException | ファイルパスが空、または空白文字のみが含まれています。 |
 | FileNotFoundException | ファイルが見つかりません。 |
-| UnauthorizedAccessException | ファイルへのパスが読み取り専用であるか、ディレクトリです。 |
-| ArgumentNullException | *fileInfo*無効である。 |
-| DirectoryNotFoundException | 指定されたパスは、マップされていないドライブ上にあるなど、無効です。 |
-| IOException | ファイルは既に開いています。 |
-| InvalidDataException | データは解凍できません。 |
+| UnauthorizedAccessException | ファイルへのパスが読み取り専用、またはディレクトリです。 |
+| ArgumentNullException | *fileInfo* が null です。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| InvalidDataException | データを解凍できません。 |
+| OperationCanceledException | .NET Framework 4.0 以降: 提供されたキャンセルトークンによって抽出がキャンセルされた場合にスローされます。 |
 
-### 例
+## 例
 
 ```csharp
 using (FileStream zFile = File.Open(sourceFileName, FileMode.Open))
@@ -87,36 +90,44 @@ using (FileStream zFile = File.Open(sourceFileName, FileMode.Open))
 ### 関連項目
 
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(string) {#extract}
 
-Z アーカイブをパスでファイルに抽出します。
+パスで指定されたファイルに Z アーカイブを抽出します。
 
 ```csharp
 public FileInfo Extract(string path)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | 解凍されたデータを保存するファイルへのパス。 |
+| path | String | 解凍データを格納するファイルへのパス。 |
+
+### 戻り値
+
+抽出されたファイルの情報。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
-| InvalidDataException | データは解凍できません。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| InvalidDataException | データを解凍できません。 |
+| OperationCanceledException | .NET Framework 4.0 以降: 提供されたキャンセルトークンによって抽出がキャンセルされた場合にスローされます。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| FileNotFoundException | ファイルが見つかりません。 |
 
-### 例
+## 例
 
 ```csharp
 using (FileStream zFile = File.Open(sourceFileName, FileMode.Open))
@@ -131,7 +142,7 @@ using (FileStream zFile = File.Open(sourceFileName, FileMode.Open))
 ### 関連項目
 
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

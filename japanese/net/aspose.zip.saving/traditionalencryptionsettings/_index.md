@@ -1,14 +1,14 @@
 ---
-title: Class TraditionalEncryptionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.TraditionalEncryptionSettings クラス. 従来の ZipCrypto アルゴリズムの設定
+title: "クラス TraditionalEncryptionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.TraditionalEncryptionSettings クラス。ZIP アーカイブ内の従来の ZipCrypto アルゴリズムの設定"
 type: docs
-weight: 640
+weight: 1150
 url: /ja/net/aspose.zip.saving/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings class
 
-従来の ZipCrypto アルゴリズムの設定。
+ZIP アーカイブ内の従来の ZipCrypto アルゴリズムの設定。
 
 ```csharp
 public class TraditionalEncryptionSettings : EncryptionSettings
@@ -18,9 +18,9 @@ public class TraditionalEncryptionSettings : EncryptionSettings
 
 | 名前 | 説明 |
 | --- | --- |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor)() | の新しいインスタンスを初期化します`TraditionalEncryptionSettings`パスワードなしのクラス. |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_1)(string) | の新しいインスタンスを初期化します`TraditionalEncryptionSettings`class. |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_2)(string, Encoding) | の新しいインスタンスを初期化します`TraditionalEncryptionSettings`ユーザー定義のエンコーディングを持つクラス. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor)() | `TraditionalEncryptionSettings` クラスの新しいインスタンスをパスワードなしで初期化します。 |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_1)(string) | `TraditionalEncryptionSettings` クラスの新しいインスタンスを初期化します。 |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_2)(string, Encoding) | ユーザー定義のエンコーディングを使用して `TraditionalEncryptionSettings` クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
@@ -29,14 +29,14 @@ public class TraditionalEncryptionSettings : EncryptionSettings
 | [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | 暗号化アルゴリズムを取得します。 |
 | [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | 暗号化または復号化のためのパスワードを取得または設定します。 |
 
-### 備考
+## 備考
 
-ZIP 形式の説明でセクション 6.0 を参照してください: https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT
+セクション 6.0 を [ZIP format description](https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT) で参照してください。
 
 ### 関連項目
 
 * class [EncryptionSettings](../encryptionsettings/)
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchive.CreateEntries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SevenZipArchive 方法. 指定されたディレクトリ内のすべてのファイルとディレクトリを再帰的にアーカイブに追加します
+title: "SevenZipArchive.CreateEntries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SevenZipArchive メソッド。指定されたディレクトリ内のすべてのファイルとディレクトリを再帰的にアーカイブに追加します"
 type: docs
 weight: 40
 url: /ja/net/aspose.zip.sevenzip/sevenziparchive/createentries/
@@ -14,23 +14,24 @@ url: /ja/net/aspose.zip.sevenzip/sevenziparchive/createentries/
 public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | directory | DirectoryInfo | 圧縮するディレクトリ。 |
-| includeRootDirectory | Boolean | ルート ディレクトリ自体を含めるかどうかを示します。 |
+| includeRootDirectory | Boolean | ルートディレクトリ自体を含めるかどうかを示します。 |
 
 ### 戻り値
 
-エントリが作成されたアーカイブ。
+エントリが構成されたアーカイブです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| DirectoryNotFoundException | への道*directory*マップされていないドライブ上にあるなど、無効です。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません*directory*. |
+| DirectoryNotFoundException | *directory* へのパスが無効です。たとえば、マッピングされていないドライブ上にある場合などです。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| SecurityException | 呼び出し元は *directory* へアクセスするための必要な権限を持っていません。 |
 
-### 例
+## 例
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive())
@@ -44,8 +45,8 @@ using (SevenZipArchive archive = new SevenZipArchive())
 ### 関連項目
 
 * class [SevenZipArchive](../)
-* 名前空間 [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -57,18 +58,25 @@ using (SevenZipArchive archive = new SevenZipArchive())
 public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | sourceDirectory | String | 圧縮するディレクトリ。 |
-| includeRootDirectory | Boolean | ルート ディレクトリ自体を含めるかどうかを示します。 |
+| includeRootDirectory | Boolean | ルートディレクトリ自体を含めるかどうかを示します。 |
 
 ### 戻り値
 
-エントリが作成されたアーカイブ。
+エントリが構成されたアーカイブです。
 
-### 例
+### 例外
 
-LZMA2 圧縮で 7z アーカイブを作成します。
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| ArgumentNullException | *sourceDirectory* は `null` です。 |
+
+## 例
+
+LZMA2 圧縮を使用した 7z アーカイブを作成します。
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings())))
@@ -81,7 +89,7 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
 ### 関連項目
 
 * class [SevenZipArchive](../)
-* 名前空間 [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

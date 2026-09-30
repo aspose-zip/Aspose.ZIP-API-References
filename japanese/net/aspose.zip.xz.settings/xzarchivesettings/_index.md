@@ -1,14 +1,14 @@
 ---
-title: Class XzArchiveSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Xz.Settings.XzArchiveSettings クラス. クラスには特定の xz アーカイブの設定のセットが含まれています
+title: "クラス XzArchiveSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Xz.Settings.XzArchiveSettings クラス。このクラスは特定の xz アーカイブの設定セットを含みます"
 type: docs
-weight: 850
+weight: 1520
 url: /ja/net/aspose.zip.xz.settings/xzarchivesettings/
 ---
 ## XzArchiveSettings class
 
-クラスには、特定の xz アーカイブの設定のセットが含まれています。
+このクラスは特定の xz アーカイブの設定セットを含みます。
 
 ```csharp
 public class XzArchiveSettings
@@ -18,22 +18,23 @@ public class XzArchiveSettings
 
 | 名前 | 説明 |
 | --- | --- |
-| [XzArchiveSettings](xzarchivesettings/#constructor)() | の新しいインスタンスを初期化します`XzArchiveSettings`単一の LZMA2 圧縮を使用するクラス. |
-| [XzArchiveSettings](xzarchivesettings/#constructor_1)(XzFilterSettings[], long, XzCheckType) | の新しいインスタンスを初期化します`XzArchiveSettings`カスタム パラメータを持つクラス. |
+| [XzArchiveSettings](xzarchivesettings/#constructor)() | `XzArchiveSettings` クラスの新しいインスタンスを、単一の LZMA2 圧縮を使用して初期化します。 |
+| [XzArchiveSettings](xzarchivesettings/#constructor_1)(XzFilterSettings[], long, XzCheckType) | `XzArchiveSettings` クラスの新しいインスタンスをカスタム パラメータで初期化します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| static [FastestSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastestspeed/) { get; } | のインスタンスを取得します`XzArchiveSettings`class 辞書サイズは LZMA2 フィルターで 65536 バイト、ブロック サイズは 1 メガバイト、CRC32 チェックサム. |
-| static [FastSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastspeed/) { get; } | のインスタンスを取得します`XzArchiveSettings` class 辞書サイズは LZMA2 フィルターで 1 メガバイト、ブロック サイズは 4 メガバイト、CRC32 チェックサム. |
-| static [HighCompression](../../aspose.zip.xz.settings/xzarchivesettings/highcompression/) { get; } | のインスタンスを取得します`XzArchiveSettings` class 辞書サイズは LZMA2 フィルターで 32 メガバイト、ブロック サイズは 128 メガバイト、CRC32 チェックサム. |
-| static [MaximumCompression](../../aspose.zip.xz.settings/xzarchivesettings/maximumcompression/) { get; } | のインスタンスを取得します`XzArchiveSettings`class 辞書サイズは LZMA2 フィルターで 64 メガバイト、ブロック サイズは 256 メガバイト、CRC32 チェックサム. |
-| static [Normal](../../aspose.zip.xz.settings/xzarchivesettings/normal/) { get; } | のインスタンスを取得します`XzArchiveSettings` class 辞書サイズは LZMA2 フィルターで 16 メガバイト、ブロック サイズは 64 メガバイト、CRC32 チェックサム. |
+| static [FastestSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastestspeed/) { get; } | `XzArchiveSettings` クラスのインスタンスを取得します（辞書サイズが 65536 バイト、LZMA2 フィルタ、ブロックサイズが 1 メガバイト、CRC32 チェックサム）。 |
+| static [FastSpeed](../../aspose.zip.xz.settings/xzarchivesettings/fastspeed/) { get; } | `XzArchiveSettings` クラスのインスタンスを取得します（辞書サイズが 1 メガバイト、LZMA2 フィルタ、ブロックサイズが 4 メガバイト、CRC32 チェックサム）。 |
+| static [HighCompression](../../aspose.zip.xz.settings/xzarchivesettings/highcompression/) { get; } | `XzArchiveSettings` クラスのインスタンスを取得します（辞書サイズが 32 メガバイト、LZMA2 フィルタ、ブロックサイズが 128 メガバイト、CRC32 チェックサム）。 |
+| static [MaximumCompression](../../aspose.zip.xz.settings/xzarchivesettings/maximumcompression/) { get; } | `XzArchiveSettings` クラスのインスタンスを取得します（辞書サイズが 64 メガバイト、LZMA2 フィルタ、ブロックサイズが 256 メガバイト、CRC32 チェックサム）。 |
+| static [Normal](../../aspose.zip.xz.settings/xzarchivesettings/normal/) { get; } | `XzArchiveSettings` クラスのインスタンスを取得します（辞書サイズが 16 メガバイト、LZMA2 フィルタ、ブロックサイズが 64 メガバイト、CRC32 チェックサム）。 |
+| [CompressionThreads](../../aspose.zip.xz.settings/xzarchivesettings/compressionthreads/) { get; set; } | 圧縮スレッド数を取得または設定します。値が 1 より大きい場合、マルチスレッド圧縮が使用されます。 |
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
+* assembly [Aspose.Zip](../../)
 
 

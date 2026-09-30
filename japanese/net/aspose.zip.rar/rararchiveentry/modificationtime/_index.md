@@ -1,7 +1,7 @@
 ---
-title: RarArchiveEntry.ModificationTime
-second_title: Aspose.ZIP for .NET API リファレンス
-description: RarArchiveEntry 財産. 最終更新日時を取得します
+title: "RarArchiveEntry.ModificationTime"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "RarArchiveEntry プロパティ。最終更新日時を取得します"
 type: docs
 weight: 50
 url: /ja/net/aspose.zip.rar/rararchiveentry/modificationtime/
@@ -17,7 +17,7 @@ public DateTime ModificationTime { get; }
 ### 関連項目
 
 * class [RarArchiveEntry](../)
-* 名前空間 [Aspose.Zip.Rar](../../rararchiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

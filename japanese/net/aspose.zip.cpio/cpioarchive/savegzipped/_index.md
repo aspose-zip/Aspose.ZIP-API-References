@@ -1,7 +1,7 @@
 ---
-title: CpioArchive.SaveGzipped
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CpioArchive 方法. gzip 圧縮でアーカイブをストリームに保存します
+title: "CpioArchive.SaveGzipped"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CpioArchive メソッド。gzip 圧縮でストリームにアーカイブを保存します。"
 type: docs
 weight: 90
 url: /ja/net/aspose.zip.cpio/cpioarchive/savegzipped/
@@ -14,23 +14,24 @@ gzip 圧縮でアーカイブをストリームに保存します。
 public void SaveGzipped(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| output | Stream | 宛先ストリーム。 |
+| output | Stream | 出力ストリーム。 |
 | cpioFormat | CpioFormat | cpio ヘッダー形式を定義します。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *output*無効である。 |
-| ArgumentException | *output*書き込み不可です。 |
+| ArgumentNullException | *output* は null です。 |
+| ArgumentException | *output* は書き込み可能ではありません。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 備考
+## 備考
 
-*output*書き込み可能でなければなりません。
+*output* must be writable.
 
-### 例
+## 例
 
 ```csharp
 using (FileStream result = File.OpenWrite("result.cpio.gz"))
@@ -50,25 +51,37 @@ using (FileStream result = File.OpenWrite("result.cpio.gz"))
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SaveGzipped(string, CpioFormat) {#savegzipped_1}
 
-アーカイブを gzip 圧縮のパスでファイルに保存します。
+gzip 圧縮でパスで指定されたファイルにアーカイブを保存します。
 
 ```csharp
 public void SaveGzipped(string path, CpioFormat cpioFormat = CpioFormat.OldAscii)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | 作成するアーカイブのパス。指定したファイル名が既存のファイルを指している場合、上書きされます。 |
+| path | String | 作成するアーカイブのパス。指定されたファイル名が既存のファイルを指す場合、上書きされます。 |
 | cpioFormat | CpioFormat | cpio ヘッダー形式を定義します。 |
 
-### 例
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| ArgumentException | *path* は長さゼロの文字列であるか、空白文字のみを含むか、InvalidPathChars で定義された 1 つ以上の無効な文字を含んでいます。 |
+| ArgumentNullException | *path* は `null` です。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | I/O エラーが発生しました。 |
+| PathTooLongException | 指定されたパス、ファイル名、またはその両方がシステムで定義された最大長を超えています。 |
+| UnauthorizedAccessException | 呼び出し元に必要な権限がありません。-または- *path* が読み取り専用のファイルまたはディレクトリを指定しました。 |
+
+## 例
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -85,7 +98,7 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

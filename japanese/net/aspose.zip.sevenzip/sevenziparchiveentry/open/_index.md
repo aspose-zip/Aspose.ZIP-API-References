@@ -1,49 +1,54 @@
 ---
-title: SevenZipArchiveEntry.Open
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SevenZipArchiveEntry 方法. エントリを抽出用に開きストリームにエントリ コンテンツを提供します
+title: "SevenZipArchiveEntry.Open"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SevenZipArchiveEntry メソッド。エントリを抽出用に開き、エントリ内容のストリームを提供します。"
 type: docs
 weight: 90
 url: /ja/net/aspose.zip.sevenzip/sevenziparchiveentry/open/
 ---
 ## SevenZipArchiveEntry.Open method
 
-エントリを抽出用に開き、ストリームにエントリ コンテンツを提供します。
+エントリを抽出用に開き、エントリの内容を含むストリームを提供します。
 
 ```csharp
 public Stream Open(string password = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| password | String | 復号化のためのオプションのパスワード。 |
+| password | String | 復号化用のオプションのパスワードです。 |
 
 ### 戻り値
 
-エントリの内容を表すストリーム。
+エントリの内容を表すストリームです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| InvalidOperationException | アーカイブは抽出用に開かれません。 - または - このエントリはディレクトリです。 |
-| InvalidDataException | エントリ内のデータが間違っています。 |
+| InvalidOperationException | アーカイブが抽出用に開かれていません。 - または - このエントリはディレクトリです。 |
+| InvalidDataException | エントリ内のデータが正しくありません。 |
+| ObjectDisposedException | ソースストリームが破棄された場合にスローされます。 |
 
-### 備考
+## 備考
 
-ストリームから読み取り、ファイルの元のコンテンツを取得します。例のセクションを参照してください。
+ストリームから読み取り、ファイルの元の内容を取得します。例のセクションをご覧ください。
 
-### 例
+## 例
 
-使用法:
+使用方法:
 
-.NET 4.0 以降 - Stream.CopyTo メソッドを使用:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 以降 - Stream.CopyTo メソッドを使用します:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 以前 - バイトを手動でコピー:
+.NET 3.5 以前 - バイトを手動でコピーします:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -52,14 +57,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
 ### 関連項目
 
 * class [SevenZipArchiveEntry](../)
-* 名前空間 [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

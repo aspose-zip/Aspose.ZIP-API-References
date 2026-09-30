@@ -1,9 +1,9 @@
 ---
-title: CpioArchive.SaveXzCompressed
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CpioArchive 方法. xz 圧縮でアーカイブをストリームに保存します
+title: "CpioArchive.SaveXzCompressed"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CpioArchive メソッド。xz 圧縮でストリームにアーカイブを保存します。"
 type: docs
-weight: 100
+weight: 120
 url: /ja/net/aspose.zip.cpio/cpioarchive/savexzcompressed/
 ---
 ## SaveXzCompressed(Stream, CpioFormat, XzArchiveSettings) {#savexzcompressed}
@@ -15,24 +15,25 @@ public void SaveXzCompressed(Stream output, CpioFormat cpioFormat = CpioFormat.O
     XzArchiveSettings settings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| output | Stream | 宛先ストリーム。 |
+| output | Stream | 出力ストリーム。 |
 | cpioFormat | CpioFormat | cpio ヘッダー形式を定義します。 |
-| settings | XzArchiveSettings | 特定の xz アーカイブの設定のセット: 辞書サイズ、ブロック サイズ、チェック タイプ。 |
+| 設定 | XzArchiveSettings | 特定の xz アーカイブの設定セット：辞書サイズ、ブロックサイズ、チェックタイプ。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *output*無効である。 |
-| ArgumentException | *output*書き込み不可です。 |
+| ArgumentNullException | *output* は null です。 |
+| ArgumentException | *output* は書き込み可能ではありません。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 備考
+## 備考
 
-*output*ストリームは書き込み可能である必要があります。
+*output*The stream must be writable.
 
-### 例
+## 例
 
 ```csharp
 using (FileStream result = File.OpenWrite("result.cpio.xz"))
@@ -53,27 +54,37 @@ using (FileStream result = File.OpenWrite("result.cpio.xz"))
 * enum [CpioFormat](../../cpioformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SaveXzCompressed(string, CpioFormat, XzArchiveSettings) {#savexzcompressed_1}
 
-xz 圧縮でパスごとにアーカイブをパスに保存します。
+xz 圧縮でパスで指定されたパスにアーカイブを保存します。
 
 ```csharp
 public void SaveXzCompressed(string path, CpioFormat cpioFormat = CpioFormat.OldAscii, 
     XzArchiveSettings settings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | 作成するアーカイブのパス。指定したファイル名が既存のファイルを指している場合、上書きされます。 |
+| path | String | 作成するアーカイブのパス。指定されたファイル名が既存のファイルを指す場合、上書きされます。 |
 | cpioFormat | CpioFormat | cpio ヘッダー形式を定義します。 |
-| settings | XzArchiveSettings | 特定の xz アーカイブの設定のセット: 辞書サイズ、ブロック サイズ、チェック タイプ。 |
+| 設定 | XzArchiveSettings | 特定の xz アーカイブの設定セット：辞書サイズ、ブロックサイズ、チェックタイプ。 |
 
-### 例
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| ArgumentNullException | *path* は `null` です。 |
+| IOException | I/O エラーが発生しました。 |
+| InvalidDataException | データが無効または破損している場合にスローされます。 |
+| PathTooLongException | 指定されたパス、ファイル名、またはその両方がシステムで定義された最大長を超えています。 |
+
+## 例
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -91,7 +102,7 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 * enum [CpioFormat](../../cpioformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [CpioArchive](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

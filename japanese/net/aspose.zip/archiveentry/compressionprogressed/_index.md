@@ -1,24 +1,24 @@
 ---
-title: ArchiveEntry.CompressionProgressed
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveEntry イベント. raw ストリームの一部が圧縮されたときに発生します
+title: "ArchiveEntry.CompressionProgressed"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveEntry イベント。生ストリームの一部が圧縮されたときに発生します"
 type: docs
-weight: 80
+weight: 90
 url: /ja/net/aspose.zip/archiveentry/compressionprogressed/
 ---
 ## ArchiveEntry.CompressionProgressed event
 
-raw ストリームの一部が圧縮されたときに発生します。
+生ストリームの一部が圧縮されたときに発生します。
 
 ```csharp
 public event EventHandler<ProgressEventArgs> CompressionProgressed;
 ```
 
-### 備考
+## 備考
 
-イベント送信者は[`ArchiveEntry`](../)実例。
+イベント送信者は [`ArchiveEntry`](../) インスタンスです。
 
-### 例
+## 例
 
 ```csharp
 archive.Entries[0].CompressionProgressed += (s, e) => { int percent = (int)((100 * (long)e.ProceededBytes) / entrySourceStream.Length); };
@@ -28,7 +28,7 @@ archive.Entries[0].CompressionProgressed += (s, e) => { int percent = (int)((100
 
 * class [ProgressEventArgs](../../progresseventargs/)
 * class [ArchiveEntry](../)
-* 名前空間 [Aspose.Zip](../../archiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: SharArchive.CreateEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SharArchive 方法. アーカイブ内に単一のエントリを作成します
+title: "SharArchive.CreateEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SharArchive メソッド。アーカイブ内に単一のエントリを作成します"
 type: docs
 weight: 40
 url: /ja/net/aspose.zip.shar/shararchive/createentry/
@@ -14,29 +14,31 @@ url: /ja/net/aspose.zip.shar/shararchive/createentry/
 public SharEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
 | fileInfo | FileInfo | 圧縮するファイルまたはフォルダーのメタデータ。 |
-| openImmediately | Boolean | ファイルをすぐに開く場合は true、それ以外の場合はアーカイブ保存時にファイルを開きます。 |
+| openImmediately | Boolean | ファイルをすぐに開く場合は True、そうでなければアーカイブ保存時にファイルを開きます。 |
 
 ### 戻り値
 
-Shar エントリ インスタンス。
+Shar エントリのインスタンスです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *name*無効である。 |
-| ArgumentException | *name*空です。 |
-| ArgumentNullException | *fileInfo*無効である。 |
+| ArgumentNullException | *name* が null です。 |
+| ArgumentException | *name* が空です。 |
+| ArgumentNullException | *fileInfo* が null です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| InvalidOperationException | このアーカイブは抽出用に開かれています。 |
 
-### 備考
+## 備考
 
-ファイルがすぐに開かれた場合*openImmediately*パラメータは、アーカイブが破棄されるまでブロックされます。
+*openImmediately* パラメータでファイルをすぐに開くと、アーカイブが破棄されるまでブロックされます。
 
-### 例
+## 例
 
 ```csharp
 FileInfo fileInfo = new FileInfo("data.bin");
@@ -51,8 +53,8 @@ using (var archive = new SharArchive())
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* 名前空間 [Aspose.Zip.Shar](../../shararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -64,34 +66,36 @@ using (var archive = new SharArchive())
 public SharEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
-| sourcePath | String | 圧縮するファイルへのパス。 |
-| openImmediately | Boolean | ファイルをすぐに開く場合は true、それ以外の場合はアーカイブ保存時にファイルを開きます。 |
+| sourcePath | String | 圧縮対象ファイルへのパス。 |
+| openImmediately | Boolean | ファイルをすぐに開く場合は True、そうでなければアーカイブ保存時にファイルを開きます。 |
 
 ### 戻り値
 
-Shar エントリ インスタンス。
+Shar エントリのインスタンスです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *sourcePath*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*sourcePath*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 - または - の一部としてのファイル名*name*、100 シンボルを超えています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*sourcePath*否定された。 |
-| PathTooLongException | 指定された*sourcePath*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 - また -*name* shar には長すぎます。 |
-| NotSupportedException | ファイル*sourcePath*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *sourcePath* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *sourcePath* が空、または空白のみ、または無効な文字が含まれています。 - または - *name* の一部であるファイル名が 100 文字を超えています。 |
+| UnauthorizedAccessException | *sourcePath* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *sourcePath*、ファイル名、またはその両方がシステム定義の最大長を超えています。例えば、Windows プラットフォームではパスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 - または - *name* が shar に対して長すぎます。 |
+| NotSupportedException | *sourcePath* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| InvalidOperationException | このアーカイブは抽出用に開かれています。 |
 
-### 備考
+## 備考
 
-エントリ名は、*name*パラメータ。で提供されているファイル名*sourcePath*パラメータは、エントリ名には影響しません。
+エントリ名は *name* パラメータ内でのみ設定されます。*sourcePath* パラメータで提供されたファイル名はエントリ名に影響しません。
 
-ファイルがすぐに開かれた場合*openImmediately*パラメータは、アーカイブが破棄されるまでブロックされます。
+*openImmediately* パラメータでファイルをすぐに開くと、アーカイブが破棄されるまでブロックされます。
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new SharArchive())
@@ -105,8 +109,8 @@ using (var archive = new SharArchive())
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* 名前空間 [Aspose.Zip.Shar](../../shararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -118,24 +122,26 @@ using (var archive = new SharArchive())
 public SharEntry CreateEntry(string name, Stream source)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
 | source | Stream | エントリの入力ストリーム。 |
 
 ### 戻り値
 
-Shar エントリ インスタンス。
+Shar エントリのインスタンスです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *name*無効である。 |
-| ArgumentNullException | *source*無効である。 |
-| ArgumentException | *name*空です。 |
+| ArgumentNullException | *name* が null です。 |
+| ArgumentNullException | *source* が null です。 |
+| ArgumentException | *name* が空です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| InvalidOperationException | このアーカイブは抽出用に開かれています。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new SharArchive())
@@ -149,7 +155,7 @@ using (var archive = new SharArchive())
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* 名前空間 [Aspose.Zip.Shar](../../shararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

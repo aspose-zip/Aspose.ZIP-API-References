@@ -1,32 +1,32 @@
 ---
-title: WimImage.GetEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimImage 方法. のエントリを取得しますWimEntry指定されたパスのタイプ.
+title: "WimImage.GetEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimImage メソッド。指定されたパスに対する WimEntry 型のエントリを取得します"
 type: docs
 weight: 50
 url: /ja/net/aspose.zip.wim/wimimage/getentry/
 ---
 ## WimImage.GetEntry method
 
-のエントリを取得します[`WimEntry`](../../wimentry/)指定されたパスのタイプ.
+指定されたパスに対する [`WimEntry`](../../wimentry/) 型のエントリを取得します。
 
 ```csharp
 public WimEntry GetEntry(string path)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | ファイルまたはディレクトリのパス。 |
+| path | String | ファイルまたはディレクトリのパスです。 |
 
 ### 戻り値
 
-のエントリー[`WimEntry`](../../wimentry/)タイプ。
+[`WimEntry`](../../wimentry/) 型のエントリです。
 
 ### 関連項目
 
 * class [WimEntry](../../wimentry/)
 * class [WimImage](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimimage/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimimage/)
+* assembly [Aspose.Zip](../../../)
 
 

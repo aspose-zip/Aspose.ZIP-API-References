@@ -1,14 +1,14 @@
 ---
-title: WimDirectoryEntry.FilesAndDirectories
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimDirectoryEntry 財産. のエントリを取得しますWimEntryディレクトリを構成する型.
+title: "WimDirectoryEntry.FilesAndDirectories"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimDirectoryEntry プロパティ。ディレクトリを構成する WimEntry 型のエントリを取得します"
 type: docs
 weight: 40
 url: /ja/net/aspose.zip.wim/wimdirectoryentry/filesanddirectories/
 ---
 ## WimDirectoryEntry.FilesAndDirectories property
 
-のエントリを取得します[`WimEntry`](../../wimentry/)ディレクトリを構成する型.
+ディレクトリを構成する [`WimEntry`](../../wimentry/) 型のエントリを取得します。
 
 ```csharp
 public IEnumerable<WimEntry> FilesAndDirectories { get; }
@@ -18,7 +18,7 @@ public IEnumerable<WimEntry> FilesAndDirectories { get; }
 
 * class [WimEntry](../../wimentry/)
 * class [WimDirectoryEntry](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimdirectoryentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimdirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

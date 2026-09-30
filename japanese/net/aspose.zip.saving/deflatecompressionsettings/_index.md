@@ -1,14 +1,14 @@
 ---
-title: Class DeflateCompressionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.DeflateCompressionSettings クラス. Deflate 圧縮方式の設定.
+title: "クラス DeflateCompressionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.DeflateCompressionSettings クラス。ZIP アーカイブ内の Deflate 圧縮の設定"
 type: docs
-weight: 410
+weight: 900
 url: /ja/net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class
 
-Deflate 圧縮方式の設定.
+ZIP アーカイブ内の Deflate 圧縮の設定。
 
 ```csharp
 public class DeflateCompressionSettings : CompressionSettings
@@ -18,18 +18,16 @@ public class DeflateCompressionSettings : CompressionSettings
 
 | 名前 | 説明 |
 | --- | --- |
-| [DeflateCompressionSettings](deflatecompressionsettings/)() | の新しいインスタンスを初期化します`DeflateCompressionSettings`class. |
+| [DeflateCompressionSettings](deflatecompressionsettings/)() | `DeflateCompressionSettings` クラスの新しいインスタンスを初期化します。 |
 
-### 備考
+## 備考
 
-Deflate は、LZ77 アルゴリズムとハフマン コーディングの組み合わせを使用する可逆データ圧縮アルゴリズムです。
-
-ここで標準を参照してください: https://tools.ietf.org/html/rfc1951
+Deflate は、LZ77 アルゴリズムとハフマン符号化の組み合わせを使用するロスレスデータ圧縮アルゴリズムです。
 
 ### 関連項目
 
 * class [CompressionSettings](../compressionsettings/)
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

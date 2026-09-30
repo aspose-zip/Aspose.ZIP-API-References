@@ -1,14 +1,14 @@
 ---
-title: WimDirectoryEntry.AllEntries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimDirectoryEntry 財産. のすべてのエントリを取得しますWimEntryディレクトリを再帰的に構成する型.
+title: "WimDirectoryEntry.AllEntries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimDirectoryEntry プロパティ。ディレクトリを再帰的に構成する WimEntry 型のすべてのエントリを取得します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.wim/wimdirectoryentry/allentries/
 ---
 ## WimDirectoryEntry.AllEntries property
 
-のすべてのエントリを取得します[`WimEntry`](../../wimentry/)ディレクトリを再帰的に構成する型.
+ディレクトリを再帰的に構成する [`WimEntry`](../../wimentry/) 型のすべてのエントリを取得します。
 
 ```csharp
 public IEnumerable<WimEntry> AllEntries { get; }
@@ -18,7 +18,7 @@ public IEnumerable<WimEntry> AllEntries { get; }
 
 * class [WimEntry](../../wimentry/)
 * class [WimDirectoryEntry](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimdirectoryentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimdirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

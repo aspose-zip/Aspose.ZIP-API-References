@@ -1,22 +1,22 @@
 ---
-title: Bzip2Archive.Bzip2Archive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Bzip2Archive コンストラクタ. の新しいインスタンスを初期化しますBzip2Archive圧縮用に準備されたクラス.
+title: "Bzip2Archive.Bzip2Archive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Bzip2Archive コンストラクタ。圧縮用に準備された Bzip2Archive クラスの新しいインスタンスを初期化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.bzip2/bzip2archive/bzip2archive/
 ---
 ## Bzip2Archive() {#constructor}
 
-の新しいインスタンスを初期化します[`Bzip2Archive`](../)圧縮用に準備されたクラス.
+圧縮用に準備された [`Bzip2Archive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public Bzip2Archive()
 ```
 
-### 例
+## 例
 
-次の例は、ファイルを圧縮する方法を示しています。
+以下の例はファイルを圧縮する方法を示しています。
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -29,30 +29,40 @@ using (Bzip2Archive archive = new Bzip2Archive())
 ### 関連項目
 
 * class [Bzip2Archive](../)
-* 名前空間 [Aspose.Zip.Bzip2](../../bzip2archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Bzip2Archive(Stream) {#constructor_1}
+## Bzip2Archive(Stream, Bzip2LoadOptions) {#constructor_1}
 
-の新しいインスタンスを初期化します[`Bzip2Archive`](../)解凍用に準備されたクラス.
+解凍用に準備された [`Bzip2Archive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
-public Bzip2Archive(Stream sourceStream)
+public Bzip2Archive(Stream sourceStream, Bzip2LoadOptions loadOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourceStream | Stream | アーカイブのソース。 |
+| sourceStream | Stream | アーカイブのソースです。 |
+| loadOptions | Bzip2LoadOptions | アーカイブをロードするためのオプションです。 |
 
-### 備考
+### 例外
 
-このコンストラクターは解凍しません。見る[`Open`](../open/)解凍方法.
+| 例外 | 条件 |
+| --- | --- |
+| EndOfStreamException | ストリームが早期に終了しました。 |
+| InvalidDataException | 署名バイトが正しくありません。 |
+| IOException | I/O エラーが発生しました。 |
+| ArgumentNullException | *sourceStream* が null です。 |
 
-### 例
+## 備考
 
-ストリームからアーカイブを開き、`メモリーストリーム`
+このコンストラクタは解凍しません。解凍するには[`Open`](../open/)メソッドをご覧ください。
+
+## 例
+
+ストリームからアーカイブを開き、`MemoryStream` に抽出します
 
 ```csharp
 var ms = new MemoryStream();
@@ -62,42 +72,49 @@ using (Bzip2Archive archive = new Bzip2Archive(File.OpenRead("archive.bz2")))
 
 ### 関連項目
 
+* class [Bzip2LoadOptions](../../bzip2loadoptions/)
 * class [Bzip2Archive](../)
-* 名前空間 [Aspose.Zip.Bzip2](../../bzip2archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Bzip2Archive(string) {#constructor_2}
+## Bzip2Archive(string, Bzip2LoadOptions) {#constructor_2}
 
-の新しいインスタンスを初期化します[`Bzip2Archive`](../)解凍用に準備されたクラス.
+解凍用に準備された [`Bzip2Archive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
-public Bzip2Archive(string path)
+public Bzip2Archive(string path, Bzip2LoadOptions loadOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | path | String | アーカイブ ファイルへのパス。 |
+| loadOptions | Bzip2LoadOptions | アーカイブをロードするためのオプションです。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| EndOfStreamException | ストリームが早期に終了しました。 |
+| InvalidDataException | 署名バイトが正しくありません。 |
 
-### 備考
+## 備考
 
-このコンストラクターは解凍しません。見る[`Open`](../open/)解凍方法.
+このコンストラクタは解凍しません。解凍するには[`Open`](../open/)メソッドをご覧ください。
 
-### 例
+## 例
 
-パスでファイルからアーカイブを開き、それを`メモリーストリーム`
+パスで指定したファイルからアーカイブを開き、`MemoryStream` に抽出します。
 
 ```csharp
 var ms = new MemoryStream();
@@ -107,8 +124,9 @@ using (Bzip2Archive archive = new Bzip2Archive("archive.bz2"))
 
 ### 関連項目
 
+* class [Bzip2LoadOptions](../../bzip2loadoptions/)
 * class [Bzip2Archive](../)
-* 名前空間 [Aspose.Zip.Bzip2](../../bzip2archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

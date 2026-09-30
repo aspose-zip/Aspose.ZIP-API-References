@@ -1,35 +1,36 @@
 ---
-title: SnappyArchive.Save
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SnappyArchive 方法. スナップ アーカイブを提供されたストリームに保存します
+title: "SnappyArchive.Save"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SnappyArchive メソッド。提供されたストリームに Snappy アーカイブを保存します。"
 type: docs
-weight: 40
+weight: 50
 url: /ja/net/aspose.zip.snappy/snappyarchive/save/
 ---
 ## Save(Stream) {#save_1}
 
-スナップ アーカイブを提供されたストリームに保存します。
+提供されたストリームにスナッピーアーカイブを保存します。
 
 ```csharp
 public void Save(Stream output)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| output | Stream | 宛先ストリーム。 |
+| output | Stream | 出力ストリーム。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentException | *output*シークをサポートしていません。 |
-| ArgumentNullException | *output*無効である。 |
+| ArgumentException | *output* はシークをサポートしていません。 |
+| ArgumentNullException | *output* は null です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 備考
+## 備考
 
-*output*シーク可能である必要があります。
+*output* must be seekable.
 
-### 例
+## 例
 
 ```csharp
 using (FileStream snappyFile = File.Open("archive.snappy", FileMode.Create))
@@ -45,36 +46,37 @@ using (FileStream snappyFile = File.Open("archive.snappy", FileMode.Create))
 ### 関連項目
 
 * class [SnappyArchive](../)
-* 名前空間 [Aspose.Zip.Snappy](../../snappyarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(FileInfo) {#save}
 
-指定された宛先ファイルにスナップ アーカイブを保存します。
+提供された宛先ファイルにスナッピーアーカイブを保存します。
 
 ```csharp
 public void Save(FileInfo destination)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destination | FileInfo | 宛先ストリームとして開かれる FileInfo。 |
+| 宛先 | FileInfo | FileInfo。宛先ストリームとして開かれます。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| SecurityException | 呼び出し元には、ファイルを開くために必要な権限がありません*destination*. |
-| ArgumentException | ファイル パスが空であるか、空白のみが含まれています。 |
+| SecurityException | 呼び出し元は *destination* を開くために必要な権限を持っていません。 |
+| ArgumentException | ファイルパスが空、または空白文字のみが含まれています。 |
 | FileNotFoundException | ファイルが見つかりません。 |
-| UnauthorizedAccessException | ファイルへのパスが読み取り専用であるか、ディレクトリです。 |
-| ArgumentNullException | *destination*無効である。 |
-| DirectoryNotFoundException | 指定されたパスは、マップされていないドライブ上にあるなど、無効です。 |
-| IOException | ファイルは既に開いています。 |
+| UnauthorizedAccessException | ファイルへのパスが読み取り専用、またはディレクトリです。 |
+| ArgumentNullException | *destination* が null です。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new SnappyArchive()) 
@@ -87,35 +89,38 @@ using (var archive = new SnappyArchive())
 ### 関連項目
 
 * class [SnappyArchive](../)
-* 名前空間 [Aspose.Zip.Snappy](../../snappyarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string) {#save_2}
 
-指定された宛先ファイルにスナップ アーカイブを保存します。
+提供された宛先ファイルにスナッピーアーカイブを保存します。
 
 ```csharp
 public void Save(string destinationFileName)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destinationFileName | String | 作成するアーカイブのパス。指定したファイル名が既存のファイルを指している場合、上書きされます。 |
+| destinationFileName | String | 作成するアーカイブのパス。指定されたファイル名が既存のファイルを指す場合、上書きされます。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*destinationFileName*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*destinationFileName*否定された。 |
-| PathTooLongException | 指定された*destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*destinationFileName*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *destinationFileName* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *destinationFileName* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *destinationFileName* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *destinationFileName* のファイルに文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| FileNotFoundException | 指定されたファイルが見つかりませんでした。 |
+| IOException | ファイルを開く際に I/O エラーが発生しました。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new SnappyArchive()) 
@@ -128,7 +133,7 @@ using (var archive = new SnappyArchive())
 ### 関連項目
 
 * class [SnappyArchive](../)
-* 名前空間 [Aspose.Zip.Snappy](../../snappyarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

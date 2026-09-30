@@ -1,7 +1,7 @@
 ---
-title: ArchiveFormatInfo.ToString
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveFormatInfo 方法. 
+title: "ArchiveFormatInfo.ToString"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveFormatInfo メソッド。"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.archiveinfo/archiveformatinfo/tostring/
@@ -15,7 +15,7 @@ public override string ToString()
 ### 関連項目
 
 * class [ArchiveFormatInfo](../)
-* 名前空間 [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

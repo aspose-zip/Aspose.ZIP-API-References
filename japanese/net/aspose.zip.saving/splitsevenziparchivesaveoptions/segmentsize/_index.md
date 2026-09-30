@@ -1,7 +1,7 @@
 ---
-title: SplitSevenZipArchiveSaveOptions.SegmentSize
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SplitSevenZipArchiveSaveOptions 財産. セグメントのサイズを取得します
+title: "SplitSevenZipArchiveSaveOptions.SegmentSize"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SplitSevenZipArchiveSaveOptions プロパティ。セグメントのサイズを取得します。"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.saving/splitsevenziparchivesaveoptions/segmentsize/
@@ -17,7 +17,7 @@ public uint SegmentSize { get; }
 ### 関連項目
 
 * class [SplitSevenZipArchiveSaveOptions](../)
-* 名前空間 [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,25 +1,25 @@
 ---
-title: LzmaArchiveSettings.LzmaArchiveSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: LzmaArchiveSettings コンストラクタ. の新しいインスタンスを初期化しますLzmaArchiveSettingsデフォルトのディクショナリ サイズを持つクラスで16 メガバイトに相当します
+title: "LzmaArchiveSettings.LzmaArchiveSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "LzmaArchiveSettings コンストラクタ。デフォルトの辞書サイズが 16 メガバイト、ファストバイト数が 32、リテラルコンテキストビットが 3 の LzmaArchiveSettings クラスの新しいインスタンスを初期化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.lzma/lzmaarchivesettings/lzmaarchivesettings/
 ---
 ## LzmaArchiveSettings constructor
 
-の新しいインスタンスを初期化します[`LzmaArchiveSettings`](../)デフォルトのディクショナリ サイズを持つクラスで、16 メガバイトに相当します。
+デフォルトの辞書サイズが 16 メガバイト、ファストバイト数が 32、リテラルコンテキストビットが 3 の [`LzmaArchiveSettings`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public LzmaArchiveSettings()
 ```
 
-### 例
+## 例
 
 ```csharp
-using (LzmaArchive archive = new LzmaArchive(new LzmaArchiveSettings() { DictionarySize = 1048576 } )
+using (LzmaArchive archive = new LzmaArchive(new LzmaArchiveSettings() { DictionarySize = 1048576 })
 {
-    archive.SetSource("data.bin);
+    archive.SetSource("data.bin");
     archive.Save(lzmaFile);
 }
 ```
@@ -27,7 +27,7 @@ using (LzmaArchive archive = new LzmaArchive(new LzmaArchiveSettings() { Diction
 ### 関連項目
 
 * class [LzmaArchiveSettings](../)
-* 名前空間 [Aspose.Zip.LZMA](../../lzmaarchivesettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 
