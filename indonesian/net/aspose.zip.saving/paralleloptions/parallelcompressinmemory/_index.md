@@ -1,24 +1,24 @@
 ---
-title: ParallelOptions.ParallelCompressInMemory
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ParallelOptions Properti. Mendapat atau menetapkan nilai yang menunjukkan bagaimana pendekatan paralel digunakan.
+title: "ParallelOptions.ParallelCompressInMemory"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ParallelOptions. Mendapatkan atau mengatur nilai yang menunjukkan bagaimana pendekatan paralel akan digunakan"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.saving/paralleloptions/parallelcompressinmemory/
 ---
 ## ParallelOptions.ParallelCompressInMemory property
 
-Mendapat atau menetapkan nilai yang menunjukkan bagaimana pendekatan paralel digunakan.
+Mendapatkan atau mengatur nilai yang menunjukkan bagaimana pendekatan paralel akan digunakan.
 
 ```csharp
 public ParallelCompressionMode ParallelCompressInMemory { get; set; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * enum [ParallelCompressionMode](../../parallelcompressionmode/)
 * class [ParallelOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../paralleloptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

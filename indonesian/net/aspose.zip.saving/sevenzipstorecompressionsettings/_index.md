@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipStoreCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.SevenZipStoreCompressionSettings kelas. Pengaturan untuk metode kompresi Penyimpanan dalam arsip 7z.
+title: "Kelas SevenZipStoreCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.SevenZipStoreCompressionSettings. Pengaturan untuk metode kompresi Store dalam arsip 7z."
 type: docs
-weight: 600
+weight: 1110
 url: /id/net/aspose.zip.saving/sevenzipstorecompressionsettings/
 ---
 ## SevenZipStoreCompressionSettings class
 
-Pengaturan untuk metode kompresi Penyimpanan dalam arsip 7z.
+Pengaturan untuk metode kompresi Store dalam arsip 7z.
 
 ```csharp
 public class SevenZipStoreCompressionSettings : SevenZipCompressionSettings
@@ -16,24 +16,24 @@ public class SevenZipStoreCompressionSettings : SevenZipCompressionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [SevenZipStoreCompressionSettings](sevenzipstorecompressionsettings/)() | Konstruktor default. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| override [Method](../../aspose.zip.saving/sevenzipstorecompressionsettings/method/) { get; } | Mendapat metode kompresi atau dekompresi. |
+| override [Method](../../aspose.zip.saving/sevenzipstorecompressionsettings/method/) { get; } | Mendapatkan metode kompresi atau dekompresi. |
 
-### Perkataan
+## Catatan
 
 Metode ini menyimpan data asli apa adanya.
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipCompressionSettings](../sevenzipcompressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

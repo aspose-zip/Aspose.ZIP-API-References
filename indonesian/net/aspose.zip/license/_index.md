@@ -1,9 +1,9 @@
 ---
-title: Class License
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.License kelas. Menyediakan metode untuk melisensikan komponen.
+title: "Kelas License"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.License. Menyediakan metode untuk melisensikan komponen"
 type: docs
-weight: 260
+weight: 660
 url: /id/net/aspose.zip/license/
 ---
 ## License class
@@ -11,25 +11,25 @@ url: /id/net/aspose.zip/license/
 Menyediakan metode untuk melisensikan komponen.
 
 ```csharp
-public class License
+public sealed class License
 ```
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [License](license/)() | Menginisialisasi instance baru dari`License` kelas. |
+| [License](license/)() | Menginisialisasi instance baru dari kelas `License`. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [SetLicense](../../aspose.zip/license/setlicense/#setlicense)(Stream) | Lisensi komponen. |
-| [SetLicense](../../aspose.zip/license/setlicense/#setlicense_1)(string) | Lisensi komponen. |
+| [SetLicense](../../aspose.zip/license/setlicense/#setlicense)(Stream) | Melisensikan komponen. |
+| [SetLicense](../../aspose.zip/license/setlicense/#setlicense_1)(string) | Melisensikan komponen. |
 
-### Contoh
+## Contoh
 
-Dalam contoh ini, upaya akan dilakukan untuk menemukan file lisensi bernama MyLicense.lic di folder yang berisi  komponen, di folder yang berisi rakitan pemanggil, di folder rakitan entri, lalu di sumber daya tertanam rakitan pemanggil.
+Dalam contoh ini, akan dicoba untuk menemukan berkas lisensi bernama MyLicense.lic di folder yang berisi komponen, di folder yang berisi assembly pemanggil, di folder assembly entri, dan kemudian di sumber daya tersemat dari assembly pemanggil.
 
 ```csharp
 [C#]
@@ -44,16 +44,16 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-file jar komponen:
+berkas jar komponen:
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip](../../aspose.zip/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

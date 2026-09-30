@@ -1,23 +1,23 @@
 ---
-title: XzArchiveSettings.HighCompression
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XzArchiveSettings Properti. Mendapat instance dariXzArchiveSettings class dengan ukuran kamus sama dengan 32 megabyte di filter LZMA2 ukuran blok sama dengan 128 megabyte dan checksum CRC32.
+title: "XzArchiveSettings.HighCompression"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti XzArchiveSettings. Mendapatkan instance dari kelas XzArchiveSettings dengan ukuran kamus sebesar 32 megabyte pada filter LZMA2, ukuran blok sebesar 128 megabyte, dan checksum CRC32"
 type: docs
 weight: 40
 url: /id/net/aspose.zip.xz.settings/xzarchivesettings/highcompression/
 ---
 ## XzArchiveSettings.HighCompression property
 
-Mendapat instance dari[`XzArchiveSettings`](../) class dengan ukuran kamus sama dengan 32 megabyte di filter LZMA2, ukuran blok sama dengan 128 megabyte dan checksum CRC32.
+Mendapatkan instance dari kelas [`XzArchiveSettings`](../) dengan ukuran kamus sebesar 32 megabyte pada filter LZMA2, ukuran blok sebesar 128 megabyte, dan checksum CRC32.
 
 ```csharp
 public static XzArchiveSettings HighCompression { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchiveSettings](../)
-* ruang nama [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

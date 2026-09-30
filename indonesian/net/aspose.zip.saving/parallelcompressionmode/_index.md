@@ -1,14 +1,14 @@
 ---
-title: Enum ParallelCompressionMode
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.ParallelCompressionMode enum. Pilihan penggunaan fasilitas kompresi paralel.
+title: "Enum ParallelCompressionMode"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Enum Aspose.Zip.Saving.ParallelCompressionMode. Opsi penggunaan fasilitas kompresi paralel"
 type: docs
-weight: 480
+weight: 980
 url: /id/net/aspose.zip.saving/parallelcompressionmode/
 ---
 ## ParallelCompressionMode enumeration
 
-Pilihan penggunaan fasilitas kompresi paralel.
+Opsi penggunaan fasilitas kompresi paralel.
 
 ```csharp
 public enum ParallelCompressionMode
@@ -16,15 +16,15 @@ public enum ParallelCompressionMode
 
 ### Nilai
 
-| Nama | Nilai | Keterangan |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Never | `0` | Jangan kompres secara paralel. |
-| Always | `1` | Lakukan kompres secara paralel. Hati-hati kehabisan memori. |
-| Auto | `2` | Putuskan apakah menggunakan kompresi paralel atau tidak pada entri. Opsi ini hanya dapat mengompresi beberapa entri secara paralel. |
+| Always | `1` | Lakukan kompresi secara paralel. Waspadai konsumsi memori yang tinggi. |
+| Auto | `2` | Tentukan apakah kompresi paralel akan digunakan berdasarkan entri. Opsi ini dapat mengompresi secara paralel hanya beberapa entri. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

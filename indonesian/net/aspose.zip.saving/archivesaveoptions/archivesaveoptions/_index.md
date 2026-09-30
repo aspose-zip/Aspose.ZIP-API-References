@@ -1,7 +1,7 @@
 ---
-title: ArchiveSaveOptions.ArchiveSaveOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveSaveOptions konstruktor. Konstruktor default.
+title: "ArchiveSaveOptions.ArchiveSaveOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor ArchiveSaveOptions. Konstruktor default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/archivesaveoptions/archivesaveoptions/
@@ -14,10 +14,10 @@ Konstruktor default.
 public ArchiveSaveOptions()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveSaveOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../archivesaveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ArchiveEntry.Name
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveEntry Properti. Mendapat nama entri dalam arsip.
+title: "ArchiveEntry.Name"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveEntry. Mengembalikan nama entri di dalam arsip"
 type: docs
-weight: 60
+weight: 70
 url: /id/net/aspose.zip/archiveentry/name/
 ---
 ## ArchiveEntry.Name property
 
-Mendapat nama entri dalam arsip.
+Mendapatkan nama entri dalam arsip.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../)
-* ruang nama [Aspose.Zip](../../archiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

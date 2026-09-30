@@ -1,24 +1,24 @@
 ---
-title: CompressionSettings.Lzma
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CompressionSettings Properti. Contoh dariPengaturan Kompresi Lzma dengan parameter default.
+title: "CompressionSettings.Lzma"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CompressionSettings. Sebuah instance dari LzmaCompressionSettings dengan parameter default"
 type: docs
-weight: 30
+weight: 40
 url: /id/net/aspose.zip.saving/compressionsettings/lzma/
 ---
 ## CompressionSettings.Lzma property
 
-Contoh dari`Pengaturan Kompresi Lzma` dengan parameter default.
+Sebuah instance dari `LzmaCompressionSettings` dengan parameter default.
 
 ```csharp
 public static LzmaCompressionSettings Lzma { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzmaCompressionSettings](../../lzmacompressionsettings/)
 * class [CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

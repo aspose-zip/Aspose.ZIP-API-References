@@ -1,23 +1,23 @@
 ---
-title: PPMdCompressionSettings.ModelOrder
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: PPMdCompressionSettings Properti. Mendapat urutan model.
+title: "PPMdCompressionSettings.ModelOrder"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti PPMdCompressionSettings. Mendapatkan urutan model"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.saving/ppmdcompressionsettings/modelorder/
 ---
 ## PPMdCompressionSettings.ModelOrder property
 
-Mendapat urutan model.
+Mendapatkan urutan model.
 
 ```csharp
 public int ModelOrder { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [PPMdCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

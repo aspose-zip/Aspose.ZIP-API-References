@@ -1,17 +1,19 @@
 ---
-title: Aspose.Zip.Z
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuZ namespace berisi kelas yang mewakili entitas terkait arsip Z.
+title: "Aspose.Zip.Z"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Z berisi kelas yang mewakili entitas terkait arsip Z."
 type: docs
-weight: 200
+weight: 300
 url: /id/net/aspose.zip.z/
 ---
-ItuZ namespace berisi kelas yang mewakili entitas terkait arsip Z.
+Namespace Z berisi kelas yang mewakili entitas terkait arsip Z.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [ZArchive](./zarchive/) | Kelas ini mewakili file arsip Z (kompres). Gunakan untuk menyusun atau mengekstrak arsip Z. |
+| [ZArchive](./zarchive/) | Kelas ini mewakili file arsip Z (compress). Gunakan untuk menyusun atau mengekstrak arsip Z. |
+| [ZArchiveLoadOptions](./zarchiveloadoptions/) | Opsi dengan mana [`ZArchive`](../aspose.zip.z/zarchive/) dimuat dari file terkompresi. Berisi acara yang dipicu saat ekstraksi. |
+| [ZArchiveSaveOptions](./zarchivesaveoptions/) | Pengaturan untuk Zarchive. |
 
 

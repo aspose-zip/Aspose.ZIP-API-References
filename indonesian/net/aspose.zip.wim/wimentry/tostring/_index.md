@@ -1,7 +1,7 @@
 ---
-title: WimEntry.ToString
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimEntry metode. 
+title: "WimEntry.ToString"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "WimEntry metode."
 type: docs
 weight: 160
 url: /id/net/aspose.zip.wim/wimentry/tostring/
@@ -12,10 +12,10 @@ url: /id/net/aspose.zip.wim/wimentry/tostring/
 public override string ToString()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [WimEntry](../)
-* ruang nama [Aspose.Zip.Wim](../../wimentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

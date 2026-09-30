@@ -1,24 +1,24 @@
 ---
-title: XarEntry.Parent
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarEntry Properti. Mendapatkan direktori induk tempat entri tersebut berada.
+title: "XarEntry.Parent"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti XarEntry. Mendapatkan direktori induk tempat entri berada."
 type: docs
 weight: 70
 url: /id/net/aspose.zip.xar/xarentry/parent/
 ---
 ## XarEntry.Parent property
 
-Mendapatkan direktori induk tempat entri tersebut berada.
+Mendapatkan direktori induk tempat entri berada.
 
 ```csharp
 public XarDirectoryEntry Parent { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XarDirectoryEntry](../../xardirectoryentry/)
 * class [XarEntry](../)
-* ruang nama [Aspose.Zip.Xar](../../xarentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

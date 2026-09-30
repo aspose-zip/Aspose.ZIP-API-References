@@ -1,14 +1,14 @@
 ---
-title: Enum CpioFormat
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Cpio.CpioFormat enum. Enumerasi dengan format cpio. yang didukung
+title: "Enum CpioFormat"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Enum Aspose.Zip.Cpio.CpioFormat. Enumerasi dengan format cpio yang didukung"
 type: docs
-weight: 180
+weight: 430
 url: /id/net/aspose.zip.cpio/cpioformat/
 ---
 ## CpioFormat enumeration
 
-Enumerasi dengan format cpio. yang didukung
+Enumerasi dengan format cpio yang didukung.
 
 ```csharp
 public enum CpioFormat
@@ -16,16 +16,16 @@ public enum CpioFormat
 
 ### Nilai
 
-| Nama | Nilai | Keterangan |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | OldBinary | `0` | Format Biner Lama. |
 | OldAscii | `1` | Format ASCII Portabel. |
 | NewAscii | `2` | Format ASCII Baru. |
-| NewAsciiCrc | `3` | Format CRC ASCII Baru. |
+| NewAsciiCrc | `3` | Format ASCII CRC Baru. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: TarArchive.TarArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: TarArchive konstruktor. Menginisialisasi instance baru dariTarArchive kelas.
+title: "TarArchive.TarArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor TarArchive. Menginisialisasi sebuah instance baru dari kelas TarArchive"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.tar/tararchive/tararchive/
 ---
 ## TarArchive() {#constructor}
 
-Menginisialisasi instance baru dari[`TarArchive`](../) kelas.
+Menginisialisasi sebuah instance baru dari kelas [`TarArchive`](../).
 
 ```csharp
 public TarArchive()
 ```
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengompres file.
+Contoh berikut menunjukkan cara mengompres sebuah file.
 
 ```csharp
 using (var archive = new TarArchive())
@@ -26,39 +26,42 @@ using (var archive = new TarArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(Stream) {#constructor_1}
+## TarArchive(Stream, TarLoadOptions) {#constructor_1}
 
-Menginisialisasi instance baru dari[`Archive`](../../../aspose.zip/archive/) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi sebuah instance baru dari kelas [`TarArchive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
 
 ```csharp
-public TarArchive(Stream sourceStream)
+public TarArchive(Stream sourceStream, TarLoadOptions loadOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
-| --- | --- | --- |
-| sourceStream | Stream | Sumber arsip. Itu harus dicari. |
+| Parameter | Deskripsi |
+| --- | --- |
+| sourceStream | Sumber arsip. Harus dapat di-seek. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidDataException | *sourceStream* tidak dapat dicari. |
+| ArgumentException | *sourceStream* tidak dapat dipindahkan. |
+| ArgumentNullException | *sourceStream* bernilai null. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak membongkar entri apa pun. Melihat[`Open`](../../tarentry/open/)metode unpacking.
+Konstruktor ini tidak mengekstrak entri apa pun. Lihat metode [`Open`](../../tarentry/open/) untuk melakukan unpacking.
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengekstrak semua entri ke direktori.
+Contoh berikut menunjukkan cara mengekstrak semua entri ke sebuah direktori.
 
 ```csharp
 using (var archive = new TarArchive(File.OpenRead("archive.tar")))
@@ -67,56 +70,62 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(string) {#constructor_2}
+## TarArchive(string, TarLoadOptions) {#constructor_2}
 
-Menginisialisasi instance baru dari[`TarArchive`](../) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi sebuah instance baru dari kelas [`TarArchive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
 
 ```csharp
-public TarArchive(string path)
+public TarArchive(string path, TarLoadOptions loadOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
-| --- | --- | --- |
-| path | String | Path ke file arsip. |
+| Parameter | Deskripsi |
+| --- | --- |
+| path | Jalur ke berkas arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak membongkar entri apa pun. Melihat[`Open`](../../tarentry/open/)metode unpacking.
+Konstruktor ini tidak mengekstrak entri apa pun. Lihat metode [`Open`](../../tarentry/open/) untuk melakukan unpacking.
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengekstrak semua entri ke direktori.
+Contoh berikut menunjukkan cara mengekstrak semua entri ke sebuah direktori.
 
 ```csharp
-using (var archive = new TarArchive("archive.tar")) 
+using (var archive = new TarArchive("archive.tar", new TarLoadOptions() { CancellationToken = cancellationToken }))
 { 
    archive.ExtractToDirectory("C:\extracted");
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

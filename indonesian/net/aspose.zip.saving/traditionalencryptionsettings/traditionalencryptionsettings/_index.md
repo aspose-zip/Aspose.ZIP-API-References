@@ -1,24 +1,24 @@
 ---
-title: TraditionalEncryptionSettings.TraditionalEncryptionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: TraditionalEncryptionSettings konstruktor. Menginisialisasi instance baru dariTraditionalEncryptionSettings kelas.
+title: "TraditionalEncryptionSettings.TraditionalEncryptionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor TraditionalEncryptionSettings. Menginisialisasi instance baru dari kelas TraditionalEncryptionSettings"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/traditionalencryptionsettings/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings(string) {#constructor_1}
 
-Menginisialisasi instance baru dari[`TraditionalEncryptionSettings`](../) kelas.
+Menginisialisasi instance baru dari kelas [`TraditionalEncryptionSettings`](../).
 
 ```csharp
 public TraditionalEncryptionSettings(string password)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | password | String | Kata sandi untuk enkripsi. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p@s$"))))
@@ -28,32 +28,32 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TraditionalEncryptionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings(string, Encoding) {#constructor_2}
 
-Menginisialisasi instance baru dari[`TraditionalEncryptionSettings`](../) kelas dengan pengkodean yang ditentukan pengguna.
+Menginisialisasi instance baru dari kelas [`TraditionalEncryptionSettings`](../) dengan encoding yang ditentukan pengguna.
 
 ```csharp
 public TraditionalEncryptionSettings(string password, Encoding encoding)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | password | String | Kata sandi untuk enkripsi. |
-| encoding | Encoding | Pengkodean untuk karakter kata sandi. |
+| encoding | Pengkodean | Pengkodean untuk karakter kata sandi. |
 
-### Perkataan
+## Catatan
 
-Penggunaan konstruktor ini tidak disarankan. Mengatur pengkodean dapat bertentangan dengan standar dan menghasilkan arsip yang tidak kompatibel.
+Penggunaan konstruktor ini tidak disarankan. Menetapkan pengkodean dapat bertentangan dengan standar dan menghasilkan arsip yang tidak kompatibel.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p£s$", System.Text.Encoding.ASCII))))
@@ -63,26 +63,26 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TraditionalEncryptionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings() {#constructor}
 
-Menginisialisasi instance baru dari[`TraditionalEncryptionSettings`](../)kelas tanpa password.
+Menginisialisasi instance baru dari kelas [`TraditionalEncryptionSettings`](../) tanpa kata sandi.
 
 ```csharp
 public TraditionalEncryptionSettings()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TraditionalEncryptionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

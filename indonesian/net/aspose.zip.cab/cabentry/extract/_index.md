@@ -1,39 +1,47 @@
 ---
-title: CabEntry.Extract
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CabEntry metode. Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+title: "CabEntry.Extract"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "CabEntry metode. Mengekstrak entri ke sistem berkas menggunakan jalur yang diberikan"
 type: docs
-weight: 30
+weight: 40
 url: /id/net/aspose.zip.cab/cabentry/extract/
 ---
 ## Extract(string) {#extract}
 
-Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+Mengekstrak entri ke sistem file menggunakan jalur yang disediakan.
 
 ```csharp
 public FileInfo Extract(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Jalur ke file tujuan. Jika file sudah ada, itu akan ditimpa. |
+| path | String | Jalur ke file tujuan. Jika file sudah ada, akan ditimpa. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Info file dari file yang dibuat.
+Info file dari file yang disusun.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| NotSupportedException | Inisialisasi aliran gagal karena data yang salah. |
+| InvalidDataException | Arsip rusak. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
+| InvalidOperationException | Entri tersebut termasuk dalam arsip yang disiapkan untuk komposisi. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new CabArchive("archive.cab"))
@@ -42,11 +50,11 @@ using (var archive = new CabArchive("archive.cab"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CabEntry](../)
-* ruang nama [Aspose.Zip.Cab](../../cabentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -58,19 +66,24 @@ Mengekstrak entri ke aliran yang disediakan.
 public void Extract(Stream destination)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destination | Stream | Aliran tujuan. Harus dapat ditulis. |
+| tujuan | Stream | Stream tujuan. Harus dapat ditulis. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | ArgumentException | *destination* tidak mendukung penulisan. |
+| NotSupportedException | Inisialisasi aliran gagal karena data yang salah. |
+| InvalidDataException | Arsip rusak. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
+| InvalidOperationException | Entri tersebut termasuk dalam arsip yang disiapkan untuk komposisi. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Contoh
+## Contoh
 
-Ekstrak entri arsip taksi.
+Ekstrak sebuah entri dari arsip CAB.
 
 ```csharp
 using (var archive = new CabArchive("archive.cab"))
@@ -79,10 +92,10 @@ using (var archive = new CabArchive("archive.cab"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CabEntry](../)
-* ruang nama [Aspose.Zip.Cab](../../cabentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

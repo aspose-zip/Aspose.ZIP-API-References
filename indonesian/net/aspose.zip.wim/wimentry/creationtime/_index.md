@@ -1,7 +1,7 @@
 ---
-title: WimEntry.CreationTime
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimEntry Properti. Mendapatkan waktu pembuatan file atau direktori.
+title: "WimEntry.CreationTime"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "WimEntry properti. Mendapatkan waktu pembuatan file atau direktori"
 type: docs
 weight: 40
 url: /id/net/aspose.zip.wim/wimentry/creationtime/
@@ -14,10 +14,10 @@ Mendapatkan waktu pembuatan file atau direktori.
 public DateTime CreationTime { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [WimEntry](../)
-* ruang nama [Aspose.Zip.Wim](../../wimentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

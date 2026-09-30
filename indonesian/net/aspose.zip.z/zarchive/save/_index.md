@@ -1,35 +1,37 @@
 ---
-title: ZArchive.Save
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ZArchive metode. Menyimpan arsip xz ke aliran yang disediakan.
+title: "ZArchive.Save"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode ZArchive. Menyimpan arsip xz ke stream yang diberikan"
 type: docs
-weight: 40
+weight: 50
 url: /id/net/aspose.zip.z/zarchive/save/
 ---
-## Save(Stream) {#save}
+## Save(Stream, ZArchiveSaveOptions) {#save}
 
-Menyimpan arsip xz ke aliran yang disediakan.
+Menyimpan arsip xz ke stream yang disediakan.
 
 ```csharp
-public void Save(Stream output)
+public void Save(Stream output, ZArchiveSaveOptions settings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | output | Stream | Aliran tujuan. |
+| pengaturan | ZArchiveSaveOptions | Pengaturan opsional untuk komposisi arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 | ArgumentException | *output* tidak mendukung pencarian. |
-| ArgumentNullException | *output* adalah nol. |
+| ArgumentNullException | *output* adalah null. |
 
-### Perkataan
+## Catatan
 
-*output* harus dapat dicari.
+*output* must be seekable.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
@@ -42,38 +44,42 @@ using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
-* ruang nama [Aspose.Zip.Z](../../zarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(string, ZArchiveSaveOptions) {#save_1}
 
 Menyimpan arsip Z ke file tujuan yang disediakan.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, ZArchiveSaveOptions settings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationFileName | String | + Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
+| destinationFileName | String | +Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
+| pengaturan | ZArchiveSaveOptions | Pengaturan opsional untuk komposisi arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*destinationFileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*destinationFileName* ditolak. |
-| PathTooLongException | Yang ditentukan*destinationFileName*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*destinationFileName* berisi titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentNullException | *destinationFileName* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *destinationFileName* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *destinationFileName* ditolak. |
+| PathTooLongException | *destinationFileName* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File di *destinationFileName* berisi tanda titik dua (:) di tengah string. |
+| IOException | Terjadi kesalahan I/O saat membuka file. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -83,10 +89,11 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
-* ruang nama [Aspose.Zip.Z](../../zarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

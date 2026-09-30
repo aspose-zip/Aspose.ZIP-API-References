@@ -1,18 +1,19 @@
 ---
-title: Aspose.Zip.Bzip2
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuBzip2 namespace berisi kelas yang mewakili entitas terkait arsip bzip2.
+title: "Aspose.Zip.Bzip2"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Bzip2 berisi kelas yang mewakili entitas terkait arsip bzip2"
 type: docs
-weight: 30
+weight: 60
 url: /id/net/aspose.zip.bzip2/
 ---
-ItuBzip2 namespace berisi kelas yang mewakili entitas terkait arsip bzip2.
+Namespace Bzip2 berisi kelas yang mewakili entitas terkait arsip bzip2.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [Bzip2Archive](./bzip2archive/) | Kelas ini mewakili file arsip bzip2. Gunakan untuk menyusun atau mengekstrak arsip bzip2. |
+| [Bzip2Archive](./bzip2archive/) | Kelas ini mewakili file arsip bzip2. Gunakan untuk membuat atau mengekstrak arsip bzip2. |
+| [Bzip2LoadOptions](./bzip2loadoptions/) | Opsi untuk memuat [`Bzip2Archive`](../aspose.zip.bzip2/bzip2archive/). Berisi peristiwa yang dipicu saat ekstraksi. |
 | [Bzip2SaveOptions](./bzip2saveoptions/) | Opsi untuk menyimpan arsip bzip2. |
 
 

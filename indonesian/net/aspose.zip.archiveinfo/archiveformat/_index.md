@@ -1,9 +1,9 @@
 ---
-title: Enum ArchiveFormat
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.ArchiveInfo.ArchiveFormat enum. Format arsip yang didukung.
+title: "Enum ArchiveFormat"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Enum Aspose.Zip.ArchiveInfo.ArchiveFormat. Format arsip yang didukung"
 type: docs
-weight: 60
+weight: 210
 url: /id/net/aspose.zip.archiveinfo/archiveformat/
 ---
 ## ArchiveFormat enumeration
@@ -16,28 +16,39 @@ public enum ArchiveFormat
 
 ### Nilai
 
-| Nama | Nilai | Keterangan |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Zip | `0` | Arsip zip ([`Archive`](../../aspose.zip/archive/) ). |
-| Rar | `1` | Arsip rar ([`RarArchive`](../../aspose.zip.rar/rararchive/) ). |
-| SevenZip | `2` | 7zip arsip ([`SevenZipArchive`](../../aspose.zip.sevenzip/sevenziparchive/) ). |
-| Bzip2 | `3` | arsip Bzip2 ([`Bzip2Archive`](../../aspose.zip.bzip2/bzip2archive/) ). |
-| Cab | `4` | Arsip taksi ([`CabArchive`](../../aspose.zip.cab/cabarchive/) ). |
-| Cpio | `5` | Arsip cpio ([`CpioArchive`](../../aspose.zip.cpio/cpioarchive/) ). |
-| Gzip | `6` | Arsip Gzip ([`GzipArchive`](../../aspose.zip.gzip/gziparchive/) ). |
-| Lzip | `7` | arsip Lzip ([`LzipArchive`](../../aspose.zip.lzip/lziparchive/) ). |
-| Lzma | `8` | Arsip Lzma ([`LzmaArchive`](../../aspose.zip.lzma/lzmaarchive/) ). |
-| Shar | `9` | Arsip Shar ([`SharArchive`](../../aspose.zip.shar/shararchive/) ). |
-| Snappy | `10` | Arsip Snappy ([`SnappyArchive`](../../aspose.zip.snappy/snappyarchive/) ). |
-| Tar | `11` | Arsip tar ([`TarArchive`](../../aspose.zip.tar/tararchive/) ). |
-| Wim | `12` | arsip Wim ([`WimArchive`](../../aspose.zip.wim/wimarchive/) ). |
-| Xar | `13` | arsip Xar ([`XarArchive`](../../aspose.zip.xar/xararchive/) ). |
-| Xz | `14` | arsip Xz ([`XzArchive`](../../aspose.zip.xz/xzarchive/) ). |
-| Z | `15` | Z arsip ([`ZArchive`](../../aspose.zip.z/zarchive/) ). |
+| Unknown | `0` | Format tidak dikenal. |
+| Zip | `1` | Arsip Zip ([`Archive`](../../aspose.zip/archive/)). |
+| Rar | `2` | Arsip Rar ([`RarArchive`](../../aspose.zip.rar/rararchive/)). |
+| SevenZip | `3` | Arsip 7zip ([`SevenZipArchive`](../../aspose.zip.sevenzip/sevenziparchive/)). |
+| Bzip2 | `4` | Arsip Bzip2 ([`Bzip2Archive`](../../aspose.zip.bzip2/bzip2archive/)). |
+| Cab | `5` | Arsip Cab ([`CabArchive`](../../aspose.zip.cab/cabarchive/)). |
+| Cpio | `6` | Arsip Cpio ([`CpioArchive`](../../aspose.zip.cpio/cpioarchive/)). |
+| Gzip | `7` | Arsip Gzip ([`GzipArchive`](../../aspose.zip.gzip/gziparchive/)). |
+| Lzip | `8` | Arsip Lzip ([`LzipArchive`](../../aspose.zip.lzip/lziparchive/)). |
+| Lzma | `9` | Arsip Lzma ([`LzmaArchive`](../../aspose.zip.lzma/lzmaarchive/)). |
+| Shar | `10` | Arsip Shar ([`SharArchive`](../../aspose.zip.shar/shararchive/)). |
+| Snappy | `11` | Arsip Snappy ([`SnappyArchive`](../../aspose.zip.snappy/snappyarchive/)). |
+| Tar | `12` | Arsip Tar ([`TarArchive`](../../aspose.zip.tar/tararchive/)). |
+| Wim | `13` | Arsip Wim ([`WimArchive`](../../aspose.zip.wim/wimarchive/)). |
+| Xar | `14` | Arsip Xar ([`XarArchive`](../../aspose.zip.xar/xararchive/)). |
+| Xz | `15` | Arsip Xz ([`XzArchive`](../../aspose.zip.xz/xzarchive/)). |
+| Z | `16` | Arsip Z ([`ZArchive`](../../aspose.zip.z/zarchive/)). |
+| Zstandard | `17` | Arsip Zstandard ([`ZstandardArchive`](../../aspose.zip.zstandard/zstandardarchive/)). |
+| Iso | `18` | Arsip Iso ([`IsoArchive`](../../aspose.zip.iso/isoarchive/)). |
+| Lha | `19` | Arsip Lha ([`LhaArchive`](../../aspose.zip.lha/lhaarchive/)). |
+| Arj | `20` | Arsip Arj ([`ArjArchive`](../../aspose.zip.arj/arjarchive/)). |
+| Lz4 | `21` | Arsip Lz4 ([`Lz4Archive`](../../aspose.zip.lz4/lz4archive/)). |
+| Uue | `22` | File terkode Uue ([`UueArchive`](../../aspose.zip.uue/uuearchive/)) |
+| Lzx | `23` | Arsip Lzx ([`LzxArchive`](../../aspose.zip.lzx/lzxarchive/)) |
+| Apple | `24` | Arsip Apple ([`AppleArchive`](../../aspose.zip.apple/applearchive/)). |
+| Alz | `25` | Arsip Apple ([`AlzArchive`](../../aspose.zip.alz/alzarchive/)). |
+| Egg | `26` | Arsip Egg ([`EggArchive`](../../aspose.zip.egg/eggarchive/)). |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
+* assembly [Aspose.Zip](../../)
 
 

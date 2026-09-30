@@ -1,30 +1,32 @@
 ---
-title: XzArchive.Extract
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XzArchive metode. Mengekstrak arsip xz ke aliran.
+title: "XzArchive.Extract"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode XzArchive. Mengekstrak arsip xz ke aliran"
 type: docs
-weight: 30
+weight: 40
 url: /id/net/aspose.zip.xz/xzarchive/extract/
 ---
 ## Extract(Stream) {#extract_2}
 
-Mengekstrak arsip xz ke aliran.
+Mengekstrak arsip xz ke sebuah aliran.
 
 ```csharp
 public void Extract(Stream destination)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destination | Stream | Stream untuk menyimpan data yang didekompresi. |
+| tujuan | Stream | Aliran untuk menyimpan data yang didekompresi. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Tajuk arsip dan informasi layanan tidak dibaca. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Header arsip dan informasi layanan tidak dibaca. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream xzFile = File.Open(sourceFileName, FileMode.Open))
@@ -39,40 +41,43 @@ using (FileStream xzFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(FileInfo) {#extract_1}
 
-Ekstrak arsip xz ke file.
+Mengekstrak arsip xz ke sebuah file.
 
 ```csharp
 public void Extract(FileInfo fileInfo)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fileInfo | FileInfo | FileInfo untuk menyimpan data yang didekompresi. |
+| fileInfo | FileInfo | FileInfo untuk menyimpan data yang telah didekompresi. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Tajuk arsip dan informasi layanan tidak dibaca. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk membuka*fileInfo*. |
-| ArgumentException | Jalur file kosong atau hanya berisi spasi putih. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Header arsip dan informasi layanan tidak dibaca. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk membuka *fileInfo*. |
+| ArgumentException | Path file kosong atau hanya berisi spasi. |
 | FileNotFoundException | Berkas tidak ditemukan. |
-| UnauthorizedAccessException | Path ke file bersifat read-only atau direktori. |
-| ArgumentNullException | *fileInfo* adalah nol. |
-| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
-| IOException | File sudah terbuka. |
+| UnauthorizedAccessException | Path ke file bersifat read-only atau merupakan direktori. |
+| ArgumentNullException | *fileInfo* bernilai null. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
+| InvalidDataException | Data tidak valid atau rusak. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream xzFile = File.Open(sourceFileName, FileMode.Open))
@@ -84,39 +89,49 @@ using (FileStream xzFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(string) {#extract}
 
-Ekstrak arsip xz ke file dengan jalur.
+Mengekstrak arsip xz ke file berdasarkan jalur.
 
 ```csharp
 public FileInfo Extract(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke file yang akan menyimpan data yang didekompresi. |
+| path | String | Jalur ke file yang akan menyimpan data terdekompresi. |
+
+### Nilai Kembalian
+
+Instansi FileInfo yang berisi data yang diekstrak.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Tajuk arsip dan informasi layanan tidak dibaca. |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Header arsip dan informasi layanan tidak dibaca. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
+| InvalidDataException | Data tidak valid atau rusak. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream xzFile = File.Open(sourceFileName, FileMode.Open))
@@ -128,10 +143,10 @@ using (FileStream xzFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

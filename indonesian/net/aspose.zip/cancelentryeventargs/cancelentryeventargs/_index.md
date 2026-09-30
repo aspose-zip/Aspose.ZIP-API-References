@@ -1,28 +1,28 @@
 ---
-title: CancelEntryEventArgs.CancelEntryEventArgs
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CancelEntryEventArgs konstruktor. Menginisialisasi instance baru dariCancelEntryEventArgs kelas.
+title: "CancelEntryEventArgs.CancelEntryEventArgs"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor CancelEntryEventArgs. Menginisialisasi instance baru dari kelas CancelEntryEventArgs"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/cancelentryeventargs/cancelentryeventargs/
 ---
 ## CancelEntryEventArgs constructor
 
-Menginisialisasi instance baru dari[`CancelEntryEventArgs`](../) kelas.
+Menginisialisasi instance baru dari kelas [`CancelEntryEventArgs`](../).
 
 ```csharp
 public CancelEntryEventArgs(ArchiveEntry entry)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entry | ArchiveEntry | Arsipkan entri untuk acara tersebut. |
+| entri | ArchiveEntry | Entri arsip yang menjadi sumber event. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [CancelEntryEventArgs](../)
-* ruang nama [Aspose.Zip](../../cancelentryeventargs/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../cancelentryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,27 +1,27 @@
 ---
-title: ArchiveSaveOptions.Encoding
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveSaveOptions Properti. Mendapat atau menyetel penyandian untuk mengonversi nama file dan string lain menjadi byte.
+title: "ArchiveSaveOptions.Encoding"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveSaveOptions. Mendapatkan atau mengatur encoding untuk mengonversi nama file dan string lainnya menjadi byte"
 type: docs
-weight: 30
+weight: 50
 url: /id/net/aspose.zip.saving/archivesaveoptions/encoding/
 ---
 ## ArchiveSaveOptions.Encoding property
 
-Mendapat atau menyetel penyandian untuk mengonversi nama file dan string lain menjadi byte.
+Mendapatkan atau mengatur enkoding untuk mengonversi nama file dan string lainnya menjadi byte.
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Perkataan
+## Catatan
 
 Jika tidak disetel, kode halaman 437 akan digunakan.
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveSaveOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../archivesaveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

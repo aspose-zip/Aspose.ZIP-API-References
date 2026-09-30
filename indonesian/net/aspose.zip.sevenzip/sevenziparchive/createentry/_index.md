@@ -1,12 +1,12 @@
 ---
-title: SevenZipArchive.CreateEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchive metode. Buat satu entri dalam arsip.
+title: "SevenZipArchive.CreateEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SevenZipArchive. Membuat satu entri di dalam arsip"
 type: docs
 weight: 50
 url: /id/net/aspose.zip.sevenzip/sevenziparchive/createentry/
 ---
-## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry_1}
 
 Buat satu entri dalam arsip.
 
@@ -15,34 +15,36 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
     bool openImmediately = false, SevenZipEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
 | fileInfo | FileInfo | Metadata file yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
-| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) barang. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
+| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) yang ditambahkan. Pengaturan kompresi individual diabaikan dalam kasus kompresi solid, lihat [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Seven Zip.
+Instansi entri Seven Zip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| UnauthorizedAccessException | *fileInfo* bersifat read-only atau direktori. |
-| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
-| IOException | File sudah terbuka. |
+| UnauthorizedAccessException | *fileInfo* bersifat read-only atau merupakan direktori. |
+| ArgumentException | *name* adalah null atau kosong. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*fileInfo* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan pada parameter *fileInfo* tidak memengaruhi nama entri.
 
-Jika file segera dibuka dengan*openImmediately* parameter itu menjadi diblokir sampai arsip disimpan.
+Jika file dibuka segera dengan parameter *openImmediately* maka akan diblokir sampai arsip disimpan.
 
-### Contoh
+## Contoh
 
-Buat arsip dengan entri yang dienkripsi masing-masing dengan kata sandi yang berbeda.
+Buat arsip dengan entri yang dienkripsi dengan kata sandi yang berbeda masing‑masing.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -60,17 +62,17 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_2}
+## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_3}
 
 Buat satu entri dalam arsip.
 
@@ -79,32 +81,34 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
     SevenZipEntrySettings newEntrySettings, FileSystemInfo fileInfo)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| source | Stream | Aliran input untuk entri. |
-| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) barang. |
+| source | Stream | Aliran masukan untuk entri. |
+| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) yang ditambahkan. Pengaturan kompresi individual diabaikan dalam kasus kompresi solid, lihat [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 | fileInfo | FileSystemInfo | Metadata file atau folder yang akan dikompresi. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Instance entri SevenZip.
+Instansi entri SevenZip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Keduanya*source* Dan*fileInfo* adalah nol atau*source*adalah nol dan*fileInfo* singkatan dari direktori. |
+| InvalidOperationException | Baik *source* maupun *fileInfo* bernilai null atau *source* null dan *fileInfo* mengacu pada direktori. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentException | *name* adalah null atau kosong. |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*fileInfo* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan pada parameter *fileInfo* tidak memengaruhi nama entri.
 
-*fileInfo* dapat merujuk keDirectoryInfo jika entri adalah direktori.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### Contoh
+## Contoh
 
-Buat arsip dengan entri terenkripsi terkompresi LZMA2.
+Buat arsip dengan entri terenkripsi yang dikompresi LZMA2.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -117,17 +121,70 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_1}
+## CreateEntry(string, Func&lt;Stream&gt;, SevenZipEntrySettings) {#createentry}
+
+Buat satu entri dalam arsip.
+
+```csharp
+public SevenZipArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    SevenZipEntrySettings newEntrySettings = null)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| name | String | Nama entri. |
+| streamProvider | Func`1 | Metode yang menyediakan aliran masukan untuk entri. |
+| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) yang ditambahkan. Pengaturan kompresi individual diabaikan dalam kasus kompresi solid, lihat [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
+
+### Nilai Kembalian
+
+Instansi entri SevenZip.
+
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| InvalidOperationException | Arsip diinstansiasi untuk dekompresi |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentException | *name* adalah null atau kosong. |
+
+## Contoh
+
+Buat arsip dengan entri terenkripsi yang dikompresi LZMA2.
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
+{
+    using (var archive = new SevenZipArchive())
+    {
+        archive.CreateEntry("entry1.bin", provider, new SevenZipEntrySettings(new SevenZipLZMA2CompressionSettings(), new SevenZipAESEncryptionSettings("test1"))); 
+        archive.Save(sevenZipFile);
+    }
+}
+```
+
+### Lihat Juga
+
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_2}
 
 Buat satu entri dalam arsip.
 
@@ -136,17 +193,24 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
     SevenZipEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| source | Stream | Aliran input untuk entri. |
-| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) barang. |
+| source | Stream | Aliran masukan untuk entri. |
+| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) yang ditambahkan. Pengaturan kompresi individual diabaikan dalam kasus kompresi solid, lihat [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri zip.
+Instansi entri Zip.
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentException | *name* adalah null atau kosong. |
+
+## Contoh
 
 Buat arsip 7z dengan kompresi LZMA2 dan enkripsi semua entri.
 
@@ -158,17 +222,17 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_3}
+## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_4}
 
 Buat satu entri dalam arsip.
 
@@ -177,35 +241,36 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
     SevenZipEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| path | String | Nama file baru yang sepenuhnya memenuhi syarat, atau nama file relatif yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
-| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) barang. |
+| path | String | Nama lengkap dari file baru, atau nama file relatif yang akan dikompres. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
+| newEntrySettings | SevenZipEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) yang ditambahkan. Pengaturan kompresi individual diabaikan dalam kasus kompresi solid, lihat [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri zip.
+Instansi entri Zip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. - atau - *name* adalah null atau kosong. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*path* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan dalam parameter *path* tidak memengaruhi nama entri.
 
-Jika file segera dibuka dengan*openImmediately* parameter itu menjadi diblokir sampai arsip disimpan.
+Jika file dibuka segera dengan parameter *openImmediately* maka akan diblokir sampai arsip disimpan.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -218,12 +283,12 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

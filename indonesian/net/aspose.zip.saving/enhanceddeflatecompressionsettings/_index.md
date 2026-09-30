@@ -1,14 +1,14 @@
 ---
-title: Class EnhancedDeflateCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.EnhancedDeflateCompressionSettings kelas. Setelan untuk metode kompresi Enhanced Deflate.
+title: "Kelas EnhancedDeflateCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.EnhancedDeflateCompressionSettings. Pengaturan untuk kompresi Enhanced Deflate dalam arsip ZIP"
 type: docs
-weight: 440
+weight: 930
 url: /id/net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings class
 
-Setelan untuk metode kompresi Enhanced Deflate.
+Pengaturan untuk kompresi Enhanced Deflate dalam arsip ZIP.
 
 ```csharp
 public class EnhancedDeflateCompressionSettings : CompressionSettings
@@ -16,14 +16,14 @@ public class EnhancedDeflateCompressionSettings : CompressionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | Menginisialisasi instance baru dari`EnhancedDeflateCompressionSettings` kelas. |
+| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | Menginisialisasi instance baru dari kelas `EnhancedDeflateCompressionSettings`. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [CompressionSettings](../compressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

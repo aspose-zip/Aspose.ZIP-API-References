@@ -1,94 +1,107 @@
 ---
-title: XzArchive.XzArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XzArchive konstruktor. Menginisialisasi instance baru dariXzArchive kelas dan menyusun arsip dalam format xz.
+title: "XzArchive.XzArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor XzArchive. Menginisialisasi instance baru dari kelas XzArchive dan menyusun arsip dalam format xz"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.xz/xzarchive/xzarchive/
 ---
 ## XzArchive(XzArchiveSettings) {#constructor}
 
-Menginisialisasi instance baru dari[`XzArchive`](../) kelas dan menyusun arsip dalam format xz.
+Menginisialisasi instance baru dari kelas [`XzArchive`](../) dan menyusun arsip dalam format xz.
 
 ```csharp
 public XzArchive(XzArchiveSettings settings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| settings | XzArchiveSettings | Kumpulan pengaturan arsip xz tertentu: ukuran kamus, ukuran blok, jenis cek. |
+| pengaturan | XzArchiveSettings | Kumpulan pengaturan arsip xz tertentu: ukuran kamus, ukuran blok, tipe pemeriksaan. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## XzArchive(Stream) {#constructor_1}
+## XzArchive(Stream, XzLoadOptions) {#constructor_1}
 
-Menginisialisasi instance baru dari[`XzArchive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi instance baru dari kelas [`XzArchive`](../) yang dipersiapkan untuk dekompresi.
 
 ```csharp
-public XzArchive(Stream source)
+public XzArchive(Stream source, XzLoadOptions options = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | source | Stream | Sumber arsip. |
+| opsi | XzLoadOptions | Opsi untuk memuat arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | ArgumentException | *source* tidak dapat dicari. |
-| ArgumentNullException | *source* adalah nol. |
+| ArgumentNullException | *source* bernilai null. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
+| IOException | Terjadi kesalahan I/O. |
+| InvalidDataException | Data tidak valid atau rusak. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Extract`](../extract/) metode dekompresi.
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Extract`](../extract/) untuk dekompresi.
 
-### Lihat juga
+### Lihat Juga
 
+* class [XzLoadOptions](../../../aspose.zip.xz.settings/xzloadoptions/)
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## XzArchive(string) {#constructor_2}
+## XzArchive(string, XzLoadOptions) {#constructor_2}
 
-Menginisialisasi instance baru dari[`XzArchive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi instance baru dari kelas [`XzArchive`](../) yang dipersiapkan untuk dekompresi.
 
 ```csharp
-public XzArchive(string path)
+public XzArchive(string path, XzLoadOptions options = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke sumber arsip. |
+| path | String | Jalur ke sumber arsip. |
+| opsi | XzLoadOptions | Opsi untuk memuat arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| InvalidDataException | Dilemparkan ketika data tidak valid atau rusak. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Extract`](../extract/) metode dekompresi.
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Extract`](../extract/) untuk dekompresi.
 
-### Lihat juga
+### Lihat Juga
 
+* class [XzLoadOptions](../../../aspose.zip.xz.settings/xzloadoptions/)
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

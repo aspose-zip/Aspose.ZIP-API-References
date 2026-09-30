@@ -1,76 +1,78 @@
 ---
-title: ArchiveInstanceInfo.GetArchiveFormatInfo
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveInstanceInfo metode. Mendapat info format arsip.
+title: "ArchiveInstanceInfo.GetArchiveFormatInfo"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode ArchiveInstanceInfo. Mendapatkan info format arsip"
 type: docs
 weight: 50
 url: /id/net/aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveformatinfo/
 ---
 ## GetArchiveFormatInfo(string) {#getarchiveformatinfo_1}
 
-Mendapat info format arsip.
+Mendapatkan info format arsip.
 
 ```csharp
 public static ArchiveFormatInfo GetArchiveFormatInfo(string fileName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fileName | String | Nama file dari file arsip. |
+| fileName | String | Nama file arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Informasi tentang format arsip atau null jika format tidak terdeteksi.
+Informasi tentang format arsip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *fileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*fileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*fileName* ditolak. |
-| PathTooLongException | Yang ditentukan*fileName* melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*fileName* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *fileName* adalah null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | Nama file *fileName* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *fileName* ditolak. |
+| PathTooLongException | Nama file *fileName* yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File pada *fileName* berisi titik dua (:) di tengah string. |
 | IOException | Terjadi kesalahan I/O saat membuka file. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, (misalnya, berada pada drive yang tidak dipetakan). |
+| FileNotFoundException | File yang ditentukan tidak ditemukan. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveFormatInfo](../../archiveformatinfo/)
 * class [ArchiveInstanceInfo](../)
-* ruang nama [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## GetArchiveFormatInfo(Stream) {#getarchiveformatinfo}
 
-Mendapat info format arsip.
+Mendapatkan info format arsip.
 
 ```csharp
 public static ArchiveFormatInfo GetArchiveFormatInfo(Stream stream)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | Stream | Aliran file arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Informasi tentang format arsip atau null jika format tidak terdeteksi.
+Informasi tentang format arsip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *stream* adalah nol. |
-| ArgumentException | *stream* tidak dapat dicari. |
+| ArgumentNullException | *stream* bernilai null. |
+| ArgumentException | *stream* tidak dapat di-seek. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveFormatInfo](../../archiveformatinfo/)
 * class [ArchiveInstanceInfo](../)
-* ruang nama [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: CpioEntry.IsDirectory
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioEntry Properti. Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+title: "CpioEntry.IsDirectory"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CpioEntry. Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.cpio/cpioentry/isdirectory/
 ---
 ## CpioEntry.IsDirectory property
 
-Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori.
 
 ```csharp
 public bool IsDirectory { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioEntry](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

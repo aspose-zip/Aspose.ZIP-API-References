@@ -1,14 +1,14 @@
 ---
-title: Class CompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.CompressionSettings kelas. Pengaturan diperlukan agar kompresor atau dekompresor berfungsi.
+title: "Kelas CompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.CompressionSettings. Pengaturan yang diperlukan agar kompresor atau dekompresor berfungsi"
 type: docs
-weight: 400
+weight: 890
 url: /id/net/aspose.zip.saving/compressionsettings/
 ---
 ## CompressionSettings class
 
-Pengaturan diperlukan agar kompresor atau dekompresor berfungsi.
+Pengaturan yang diperlukan agar kompresor atau dekompresor berfungsi.
 
 ```csharp
 public abstract class CompressionSettings
@@ -16,18 +16,20 @@ public abstract class CompressionSettings
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| static [Bzip2](../../aspose.zip.saving/compressionsettings/bzip2/) { get; } | Contoh dari`Pengaturan Kompresi Bzip2` dengan parameter default. |
-| static [Deflate](../../aspose.zip.saving/compressionsettings/deflate/) { get; } | Contoh dari`Setelan Kompresi Mengempis` dengan parameter default. |
-| static [Lzma](../../aspose.zip.saving/compressionsettings/lzma/) { get; } | Contoh dari`Pengaturan Kompresi Lzma` dengan parameter default. |
-| static [PPMd](../../aspose.zip.saving/compressionsettings/ppmd/) { get; } | Contoh dari`Pengaturan Kompresi PPMd` dengan parameter default. |
-| static [Store](../../aspose.zip.saving/compressionsettings/store/) { get; } | Contoh dari`Menyimpan Pengaturan Kompresi` dengan parameter default. |
-| static [Xz](../../aspose.zip.saving/compressionsettings/xz/) { get; } | Contoh dari`Xz` dengan parameter default. |
+| static [Bzip2](../../aspose.zip.saving/compressionsettings/bzip2/) { get; } | Sebuah instance dari `Bzip2CompressionSettings` dengan parameter default. |
+| static [Deflate](../../aspose.zip.saving/compressionsettings/deflate/) { get; } | Sebuah instance dari `DeflateCompressionSettings` dengan parameter default. |
+| static [EnhancedDeflate](../../aspose.zip.saving/compressionsettings/enhanceddeflate/) { get; } | Sebuah instance dari `EnhancedDeflateCompressionSettings` dengan parameter default. |
+| static [Lzma](../../aspose.zip.saving/compressionsettings/lzma/) { get; } | Sebuah instance dari `LzmaCompressionSettings` dengan parameter default. |
+| static [PPMd](../../aspose.zip.saving/compressionsettings/ppmd/) { get; } | Sebuah instance dari `PPMdCompressionSettings` dengan parameter default. |
+| static [Store](../../aspose.zip.saving/compressionsettings/store/) { get; } | Sebuah instance dari `StoreCompressionSettings` dengan parameter default. |
+| static [Xz](../../aspose.zip.saving/compressionsettings/xz/) { get; } | Sebuah instance dari `XzCompressionSettings` dengan parameter default. |
+| static [Zstd](../../aspose.zip.saving/compressionsettings/zstd/) { get; } | Sebuah instance dari `ZstandardCompressionSettings` dengan parameter default. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,24 +1,30 @@
 ---
-title: ZArchive.SetSource
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ZArchive metode. Mengatur konten yang akan dikompresi dalam arsip.
+title: "ZArchive.SetSource"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode ZArchive. Menetapkan konten yang akan dikompresi dalam arsip"
 type: docs
-weight: 50
+weight: 60
 url: /id/net/aspose.zip.z/zarchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_1}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(Stream source)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| source | Stream | Aliran input untuk arsip. |
+| source | Stream | Stream input untuk arsip. |
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+## Contoh
 
 ```csharp
 using (var archive = new ZArchive())
@@ -28,39 +34,40 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ZArchive](../)
-* ruang nama [Aspose.Zip.Z](../../zarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fileInfo | FileInfo | FileInfo yang akan dibuka sebagai input stream. |
+| fileInfo | FileInfo | FileInfo yang akan dibuka sebagai aliran masukan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk membuka*fileInfo*. |
-| ArgumentException | Jalur file kosong atau hanya berisi spasi putih. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk membuka *fileInfo*. |
+| ArgumentException | Path file kosong atau hanya berisi spasi. |
 | FileNotFoundException | Berkas tidak ditemukan. |
-| UnauthorizedAccessException | Path ke file bersifat read-only atau direktori. |
-| ArgumentNullException | *fileInfo* adalah nol. |
-| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
-| IOException | File sudah terbuka. |
+| UnauthorizedAccessException | Path ke file bersifat read-only atau merupakan direktori. |
+| ArgumentNullException | *fileInfo* bernilai null. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -70,38 +77,42 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ZArchive](../)
-* ruang nama [Aspose.Zip.Z](../../zarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_2}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(string sourcePath)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| sourcePath | String | Path ke file yang akan dibuka sebagai input stream. |
+| sourcePath | String | Jalur ke file yang akan dibuka sebagai aliran masukan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *sourcePath* adalah null atau string kosong. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses sumber daya. |
-| ArgumentException | Itu*sourcePath* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*sourcePath* ditolak. |
-| PathTooLongException | Yang ditentukan*sourcePath*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*sourcePath* berisi titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentNullException | *sourcePath* bernilai null atau string kosong. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses sumber daya. |
+| ArgumentException | Path *sourcePath* kosong, hanya berisi spasi putih, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *sourcePath* ditolak. |
+| PathTooLongException | Path *sourcePath* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, path harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File di *sourcePath* mengandung tanda titik dua (:) di tengah string. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| IOException | Berkas sudah terbuka. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -111,10 +122,10 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ZArchive](../)
-* ruang nama [Aspose.Zip.Z](../../zarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,51 +1,55 @@
 ---
-title: CabArchive.ExtractToDirectory
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CabArchive metode. Ekstrak semua file dalam arsip ke direktori yang disediakan.
+title: "CabArchive.ExtractToDirectory"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode CabArchive. Mengekstrak semua file dalam arsip ke direktori yang disediakan."
 type: docs
-weight: 40
+weight: 60
 url: /id/net/aspose.zip.cab/cabarchive/extracttodirectory/
 ---
 ## CabArchive.ExtractToDirectory method
 
-Ekstrak semua file dalam arsip ke direktori yang disediakan.
+Mengekstrak semua file dalam arsip ke direktori yang disediakan.
 
 ```csharp
 public void ExtractToDirectory(string destinationDirectory)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationDirectory | String | Jalur ke direktori untuk menempatkan file yang diekstraksi. |
+| destinationDirectory | String | Jalur ke direktori tempat menempatkan file yang diekstrak. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | jalan adalah nol |
-| PathTooLongException | Jalur yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses direktori yang ada. |
-| NotSupportedException | Jika direktori tidak ada, path berisi karakter titik dua (:) yang bukan merupakan bagian dari label drive ("C:\"). |
-| ArgumentException | path adalah string dengan panjang nol, hanya berisi spasi putih, atau berisi satu atau beberapa karakter yang tidak valid. Anda dapat meminta karakter yang tidak valid dengan menggunakan metode System.IO.Path.GetInvalidPathChars. -or- path diawali dengan, atau berisi, hanya karakter titik dua (:). |
-| IOException | Direktori yang ditentukan oleh path adalah file. -atau- Nama jaringan tidak diketahui. |
+| ArgumentNullException | jalur bernilai null |
+| PathTooLongException | Jalur, nama file, atau keduanya yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses direktori yang ada. |
+| NotSupportedException | Jika direktori tidak ada, sebuah path berisi karakter titik dua (:) yang bukan bagian dari label drive ("C:\"). |
+| ArgumentException | jalur adalah string dengan panjang nol, hanya berisi spasi putih, atau berisi satu atau lebih karakter tidak valid. Anda dapat memeriksa karakter tidak valid dengan menggunakan metode System.IO.Path.GetInvalidPathChars. -atau- jalur diawali dengan, atau hanya berisi, karakter titik dua (:). |
+| IOException | Direktori yang ditentukan oleh jalur adalah sebuah file. -atau- Nama jaringan tidak dikenal. |
+| InvalidDataException | Arsip rusak. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Arsip telah disiapkan untuk komposisi dan tidak dapat diekstrak. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
 
-### Perkataan
+## Catatan
 
-Jika direktori tidak ada, itu akan dibuat.
+Jika direktori tidak ada, maka akan dibuat.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new CabArchive("archive.cab")) 
 { 
-   archive.ExtractToDirectory("C:\extracted");
+   archive.ExtractToDirectory("C:\\extracted");
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CabArchive](../)
-* ruang nama [Aspose.Zip.Cab](../../cabarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

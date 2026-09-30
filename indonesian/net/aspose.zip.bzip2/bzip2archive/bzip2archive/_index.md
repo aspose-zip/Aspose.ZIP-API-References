@@ -1,22 +1,22 @@
 ---
-title: Bzip2Archive.Bzip2Archive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Bzip2Archive konstruktor. Menginisialisasi instance baru dariBzip2Archive kelas disiapkan untuk mengompresi.
+title: "Bzip2Archive.Bzip2Archive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor Bzip2Archive. Menginisialisasi sebuah instance baru dari kelas Bzip2Archive yang disiapkan untuk kompresi."
 type: docs
 weight: 10
 url: /id/net/aspose.zip.bzip2/bzip2archive/bzip2archive/
 ---
 ## Bzip2Archive() {#constructor}
 
-Menginisialisasi instance baru dari[`Bzip2Archive`](../) kelas disiapkan untuk mengompresi.
+Menginisialisasi sebuah instance baru dari kelas [`Bzip2Archive`](../) yang disiapkan untuk kompresi.
 
 ```csharp
 public Bzip2Archive()
 ```
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengompres file.
+Contoh berikut menunjukkan cara mengompres sebuah file.
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -26,33 +26,43 @@ using (Bzip2Archive archive = new Bzip2Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Bzip2Archive(Stream) {#constructor_1}
+## Bzip2Archive(Stream, Bzip2LoadOptions) {#constructor_1}
 
-Menginisialisasi instance baru dari[`Bzip2Archive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi sebuah instance baru dari kelas [`Bzip2Archive`](../) yang disiapkan untuk dekompresi.
 
 ```csharp
-public Bzip2Archive(Stream sourceStream)
+public Bzip2Archive(Stream sourceStream, Bzip2LoadOptions loadOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | sourceStream | Stream | Sumber arsip. |
+| loadOptions | Bzip2LoadOptions | Opsi untuk memuat arsip. |
 
-### Perkataan
+### Pengecualian
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Open`](../open/) metode dekompresi.
+| exception | kondisi |
+| --- | --- |
+| EndOfStreamException | Akhir aliran terlalu dini. |
+| InvalidDataException | Byte tanda tangan salah. |
+| IOException | Terjadi kesalahan I/O. |
+| ArgumentNullException | *sourceStream* bernilai null. |
 
-### Contoh
+## Catatan
 
-Buka arsip dari aliran dan ekstrak ke a`MemoryStream`
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Open`](../open/) untuk dekompresi.
+
+## Contoh
+
+Buka arsip dari stream dan ekstrak ke `MemoryStream`
 
 ```csharp
 var ms = new MemoryStream();
@@ -60,44 +70,51 @@ using (Bzip2Archive archive = new Bzip2Archive(File.OpenRead("archive.bz2")))
   archive.Open().CopyTo(ms);
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [Bzip2LoadOptions](../../bzip2loadoptions/)
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Bzip2Archive(string) {#constructor_2}
+## Bzip2Archive(string, Bzip2LoadOptions) {#constructor_2}
 
-Menginisialisasi instance baru dari[`Bzip2Archive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi sebuah instance baru dari kelas [`Bzip2Archive`](../) yang disiapkan untuk dekompresi.
 
 ```csharp
-public Bzip2Archive(string path)
+public Bzip2Archive(string path, Bzip2LoadOptions loadOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke file arsip. |
+| path | String | Jalur ke berkas arsip. |
+| loadOptions | Bzip2LoadOptions | Opsi untuk memuat arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| EndOfStreamException | Akhir aliran terlalu dini. |
+| InvalidDataException | Byte tanda tangan salah. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Open`](../open/) metode dekompresi.
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Open`](../open/) untuk dekompresi.
 
-### Contoh
+## Contoh
 
-Buka arsip dari file dengan jalur dan ekstrak ke a`MemoryStream`
+Buka arsip dari file dengan jalur dan ekstrak ke `MemoryStream`
 
 ```csharp
 var ms = new MemoryStream();
@@ -105,10 +122,11 @@ using (Bzip2Archive archive = new Bzip2Archive("archive.bz2"))
   archive.Open().CopyTo(ms);
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [Bzip2LoadOptions](../../bzip2loadoptions/)
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

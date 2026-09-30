@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchiveEntry.Open
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchiveEntry metode. Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri.
+title: "SevenZipArchiveEntry.Open"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SevenZipArchiveEntry. Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri"
 type: docs
 weight: 90
 url: /id/net/aspose.zip.sevenzip/sevenziparchiveentry/open/
@@ -14,36 +14,41 @@ Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri.
 public Stream Open(string password = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| password | String | Kata sandi opsional untuk dekripsi. |
+| password | String | Password opsional untuk dekripsi. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Aliran yang mewakili konten entri.
+Stream yang mewakili isi entri.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | InvalidOperationException | Arsip tidak dibuka untuk ekstraksi. - atau - Entri ini adalah direktori. |
-| InvalidDataException | Data yang salah dalam entri. |
+| InvalidDataException | Data salah dalam entri. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Perkataan
+## Catatan
 
-Baca dari aliran untuk mendapatkan konten asli file. Lihat bagian contoh.
+Baca dari *stream* untuk mendapatkan konten asli sebuah file. Lihat bagian contoh.
 
-### Contoh
+## Contoh
 
 Penggunaan:
 
-.NET 4.0 dan lebih tinggi - gunakan metode Stream.CopyTo:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 ke atas - gunakan metode Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 dan sebelumnya - salin byte secara manual:
+.NET 3.5 ke bawah - salin byte secara manual:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -52,14 +57,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

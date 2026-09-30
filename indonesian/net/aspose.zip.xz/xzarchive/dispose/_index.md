@@ -1,23 +1,23 @@
 ---
-title: XzArchive.Dispose
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XzArchive metode. Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan melepaskan atau menyetel ulang sumber daya yang tidak dikelola.
+title: "XzArchive.Dispose"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode XzArchive. Melakukan tugas yang didefinisikan aplikasi terkait dengan membebaskan, melepaskan, atau mengatur ulang sumber daya yang tidak dikelola"
 type: docs
-weight: 20
+weight: 30
 url: /id/net/aspose.zip.xz/xzarchive/dispose/
 ---
 ## XzArchive.Dispose method
 
-Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau menyetel ulang sumber daya yang tidak dikelola.
+Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau mereset sumber daya yang tidak dikelola.
 
 ```csharp
 public void Dispose()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

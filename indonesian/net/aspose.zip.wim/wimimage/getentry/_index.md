@@ -1,32 +1,32 @@
 ---
-title: WimImage.GetEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimImage metode. Mendapat entri dariWimEntry ketik untuk jalur tertentu.
+title: "WimImage.GetEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode WimImage. Mendapatkan entri berjenis WimEntry untuk jalur tertentu"
 type: docs
 weight: 50
 url: /id/net/aspose.zip.wim/wimimage/getentry/
 ---
 ## WimImage.GetEntry method
 
-Mendapat entri dari[`WimEntry`](../../wimentry/) ketik untuk jalur tertentu.
+Mendapatkan entri berjenis [`WimEntry`](../../wimentry/) untuk jalur tertentu.
 
 ```csharp
 public WimEntry GetEntry(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | path | String | Jalur file atau direktori. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Masuknya[`WimEntry`](../../wimentry/) jenis.
+Entri berjenis [`WimEntry`](../../wimentry/).
 
-### Lihat juga
+### Lihat Juga
 
 * class [WimEntry](../../wimentry/)
 * class [WimImage](../)
-* ruang nama [Aspose.Zip.Wim](../../wimimage/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimimage/)
+* assembly [Aspose.Zip](../../../)
 
 

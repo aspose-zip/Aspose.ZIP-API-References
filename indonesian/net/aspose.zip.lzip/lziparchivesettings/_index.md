@@ -1,14 +1,14 @@
 ---
-title: Class LzipArchiveSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Lzip.LzipArchiveSettings kelas. Kelas berisi pengaturan arsip lzip tertentu.
+title: "Class LzipArchiveSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Aspose.Zip.Lzip.LzipArchiveSettings class. Kelas ini berisi pengaturan untuk arsip lzip tertentu"
 type: docs
-weight: 280
+weight: 710
 url: /id/net/aspose.zip.lzip/lziparchivesettings/
 ---
 ## LzipArchiveSettings class
 
-Kelas berisi pengaturan arsip lzip tertentu.
+Kelas ini berisi pengaturan untuk arsip lzip tertentu.
 
 ```csharp
 public class LzipArchiveSettings
@@ -16,25 +16,26 @@ public class LzipArchiveSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [LzipArchiveSettings](lziparchivesettings/)(int, int) | Menginisialisasi instance baru dari`LzipArchiveSettings` dengan ukuran kamus tertentu. |
+| [LzipArchiveSettings](lziparchivesettings/)(int, int) | Menginisialisasi instance baru dari `LzipArchiveSettings` dengan ukuran kamus tertentu. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed/) { get; } | Mendapat instance dari`LzipArchiveSettings` class dengan ukuran kamus sama dengan 65536 byte di filter LZMA. |
-| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed/) { get; } | Mendapat instance dari`LzipArchiveSettings` class dengan ukuran kamus sama dengan 1 megabyte di filter LZMA. |
-| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression/) { get; } | Mendapat instance dari`LzipArchiveSettings` class dengan ukuran kamus sama dengan 32 megabyte di filter LZMA. |
-| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression/) { get; } | Mendapat instance dari`LzipArchiveSettings` class dengan ukuran kamus sama dengan 64 megabyte di filter LZMA. |
-| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal/) { get; } | Mendapat instance dari`LzipArchiveSettings` class dengan ukuran kamus sama dengan 16 megabyte di filter LZMA. |
-| [DictionarySize](../../aspose.zip.lzip/lziparchivesettings/dictionarysize/) { get; } | Mendapat ukuran kamus yang digunakan oleh kompresi LZMA. |
-| [MaxMemberSize](../../aspose.zip.lzip/lziparchivesettings/maxmembersize/) { get; } | Mendapat ukuran maksimum satu anggota dalam arsip lzip yang disajikan dalam byte. |
+| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed/) { get; } | Mendapatkan instance dari kelas `LzipArchiveSettings` dengan ukuran kamus sebesar 65536 byte dalam filter LZMA. |
+| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed/) { get; } | Mendapatkan instance dari kelas `LzipArchiveSettings` dengan ukuran kamus sebesar 1 megabyte dalam filter LZMA. |
+| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression/) { get; } | Mendapatkan instance dari kelas `LzipArchiveSettings` dengan ukuran kamus sebesar 32 megabyte dalam filter LZMA. |
+| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression/) { get; } | Mendapatkan instance dari kelas `LzipArchiveSettings` dengan ukuran kamus sebesar 64 megabyte dalam filter LZMA. |
+| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal/) { get; } | Mendapatkan instance dari kelas `LzipArchiveSettings` dengan ukuran kamus sebesar 16 megabyte dalam filter LZMA. |
+| [CompressionThreads](../../aspose.zip.lzip/lziparchivesettings/compressionthreads/) { get; set; } | Mendapatkan atau mengatur jumlah thread kompresi. Jika nilai lebih besar dari 1, kompresi multithreading akan digunakan. |
+| [DictionarySize](../../aspose.zip.lzip/lziparchivesettings/dictionarysize/) { get; } | Mendapatkan ukuran kamus yang digunakan oleh kompresi LZMA. |
+| [MaxMemberSize](../../aspose.zip.lzip/lziparchivesettings/maxmembersize/) { get; } | Mendapatkan ukuran maksimum satu anggota dalam arsip lzip yang disajikan dalam byte. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Lzip](../../aspose.zip.lzip/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Lzip](../../aspose.zip.lzip/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,74 +1,76 @@
 ---
-title: ArchiveInstanceInfo.GetArchiveInstanceInfo
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveInstanceInfo metode. Mendapat info instance arsip.
+title: "ArchiveInstanceInfo.GetArchiveInstanceInfo"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode ArchiveInstanceInfo. Mengembalikan info instance arsip"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveinstanceinfo/
 ---
 ## GetArchiveInstanceInfo(string) {#getarchiveinstanceinfo_1}
 
-Mendapat info instance arsip.
+Mendapatkan info instance arsip.
 
 ```csharp
 public static ArchiveInstanceInfo GetArchiveInstanceInfo(string fileName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fileName | String | Nama file dari file arsip. |
+| fileName | String | Nama file arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
 Informasi tentang instance arsip atau null jika format tidak terdeteksi.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *fileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*fileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*fileName* ditolak. |
-| PathTooLongException | Yang ditentukan*fileName* melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*fileName* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *fileName* adalah null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | Nama file *fileName* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *fileName* ditolak. |
+| PathTooLongException | Nama file *fileName* yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File pada *fileName* berisi titik dua (:) di tengah string. |
 | IOException | Terjadi kesalahan I/O saat membuka file. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, (misalnya, berada pada drive yang tidak dipetakan). |
+| FileNotFoundException | File yang ditentukan tidak ditemukan. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveInstanceInfo](../)
-* ruang nama [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## GetArchiveInstanceInfo(Stream) {#getarchiveinstanceinfo}
 
-Mendapat info instance arsip.
+Mendapatkan info instance arsip.
 
 ```csharp
 public static ArchiveInstanceInfo GetArchiveInstanceInfo(Stream stream)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | Stream | Aliran file arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
 Informasi tentang instance arsip atau null jika format tidak terdeteksi.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *stream* adalah nol. |
-| ArgumentException | *stream* tidak dapat dicari. |
+| ArgumentNullException | *stream* bernilai null. |
+| ArgumentException | *stream* tidak dapat di-seek. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveInstanceInfo](../)
-* ruang nama [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

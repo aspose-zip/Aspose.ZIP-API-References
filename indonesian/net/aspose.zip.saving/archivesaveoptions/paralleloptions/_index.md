@@ -1,28 +1,28 @@
 ---
-title: ArchiveSaveOptions.ParallelOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveSaveOptions Properti. Mendapatkan atau menyetel setelan untuk kompresi paralel.
+title: "ArchiveSaveOptions.ParallelOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveSaveOptions. Mendapatkan atau mengatur pengaturan untuk kompresi paralel"
 type: docs
-weight: 50
+weight: 80
 url: /id/net/aspose.zip.saving/archivesaveoptions/paralleloptions/
 ---
 ## ArchiveSaveOptions.ParallelOptions property
 
-Mendapatkan atau menyetel setelan untuk kompresi paralel.
+Mendapatkan atau mengatur pengaturan untuk kompresi paralel.
 
 ```csharp
 public ParallelOptions ParallelOptions { get; set; }
 ```
 
-### Perkataan
+## Catatan
 
-Tetapkan jika Anda ingin menggunakan beberapa inti CPU sambil mengompresi beberapa entri arsip.
+Tetapkan jika Anda ingin memanfaatkan beberapa inti CPU saat mengompresi beberapa entri arsip.
 
-### Lihat juga
+### Lihat Juga
 
 * class [ParallelOptions](../../paralleloptions/)
 * class [ArchiveSaveOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../archivesaveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

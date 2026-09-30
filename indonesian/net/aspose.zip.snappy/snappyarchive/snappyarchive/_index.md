@@ -1,98 +1,101 @@
 ---
-title: SnappyArchive.SnappyArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SnappyArchive konstruktor. Menginisialisasi instance baru dariSnappyArchive kelas disiapkan untuk mengompresi.
+title: "SnappyArchive.SnappyArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor SnappyArchive. Menginisialisasi instance baru dari kelas SnappyArchive yang disiapkan untuk kompresi"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.snappy/snappyarchive/snappyarchive/
 ---
 ## SnappyArchive() {#constructor}
 
-Menginisialisasi instance baru dari[`SnappyArchive`](../) kelas disiapkan untuk mengompresi.
+Menginisialisasi instance baru dari kelas [`SnappyArchive`](../) yang disiapkan untuk kompresi.
 
 ```csharp
 public SnappyArchive()
 ```
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengompres file.
+Contoh berikut menunjukkan cara mengompres sebuah file.
 
 ```csharp
 using (SnappyArchive archive = new SnappyArchive()) 
 {
     archive.SetSource("data.bin");
-    archive.Save("archive.snapy");
+    archive.Save("archive.snappy");
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SnappyArchive](../)
-* ruang nama [Aspose.Zip.Snappy](../../snappyarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SnappyArchive(Stream) {#constructor_1}
 
-Menginisialisasi instance baru dari[`SnappyArchive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi instance baru dari kelas [`SnappyArchive`](../) yang disiapkan untuk dekompresi.
 
 ```csharp
 public SnappyArchive(Stream source)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | source | Stream | Sumber arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | ArgumentException | *source* tidak dapat dicari. |
-| ArgumentNullException | *source* adalah nol. |
+| ArgumentNullException | *source* bernilai null. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Extract`](../extract/) metode dekompresi.
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Extract`](../extract/) untuk dekompresi.
 
-### Lihat juga
+### Lihat Juga
 
 * class [SnappyArchive](../)
-* ruang nama [Aspose.Zip.Snappy](../../snappyarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SnappyArchive(string) {#constructor_2}
 
-Menginisialisasi instance baru dari[`SnappyArchive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi instance baru dari kelas [`SnappyArchive`](../) yang disiapkan untuk dekompresi.
 
 ```csharp
 public SnappyArchive(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke sumber arsip. |
+| path | String | Jalur ke sumber arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Extract`](../extract/) metode dekompresi.
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Extract`](../extract/) untuk dekompresi.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
@@ -104,10 +107,10 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
    }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SnappyArchive](../)
-* ruang nama [Aspose.Zip.Snappy](../../snappyarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

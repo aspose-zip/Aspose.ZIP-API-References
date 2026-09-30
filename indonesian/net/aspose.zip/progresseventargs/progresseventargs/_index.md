@@ -1,27 +1,27 @@
 ---
-title: ProgressEventArgs.ProgressEventArgs
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ProgressEventArgs konstruktor. Menginisialisasi instance baru dariProgressEventArgs kelas.
+title: "ProgressEventArgs.ProgressEventArgs"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor ProgressEventArgs. Menginisialisasi sebuah instance baru dari kelas ProgressEventArgs."
 type: docs
 weight: 10
 url: /id/net/aspose.zip/progresseventargs/progresseventargs/
 ---
 ## ProgressEventArgs constructor
 
-Menginisialisasi instance baru dari[`ProgressEventArgs`](../) kelas.
+Menginisialisasi sebuah instance baru dari kelas [`ProgressEventArgs`](../).
 
 ```csharp
 public ProgressEventArgs(ulong proceededBytes)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| proceededBytes | UInt64 | Jumlah byte melanjutkan. |
+| proceededBytes | UInt64 | Jumlah byte yang diproses. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ProgressEventArgs](../)
-* ruang nama [Aspose.Zip](../../progresseventargs/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../progresseventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

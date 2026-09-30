@@ -1,9 +1,9 @@
 ---
-title: CabEntry.Open
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CabEntry metode. Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri.
+title: "CabEntry.Open"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "CabEntry metode. Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri"
 type: docs
-weight: 40
+weight: 50
 url: /id/net/aspose.zip.cab/cabentry/open/
 ---
 ## CabEntry.Open method
@@ -14,25 +14,39 @@ Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri.
 public Stream Open()
 ```
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Aliran yang mewakili konten entri.
+Stream yang mewakili isi entri.
 
-### Perkataan
+### Pengecualian
 
-Baca dari aliran untuk mendapatkan konten asli file. Lihat bagian contoh.
+| exception | kondisi |
+| --- | --- |
+| NotSupportedException | Inisialisasi aliran gagal karena data yang salah. |
+| InvalidDataException | Arsip rusak. |
+| InvalidOperationException | Entri tersebut termasuk dalam arsip yang disiapkan untuk komposisi. |
+| ObjectDisposedException | Dilemparkan jika sumber telah dibuang. |
+| IOException | Terjadi kesalahan I/O. |
 
-### Contoh
+## Catatan
+
+Baca dari *stream* untuk mendapatkan konten asli sebuah file. Lihat bagian contoh.
+
+## Contoh
 
 Penggunaan:
 
-.NET 4.0 dan lebih tinggi - gunakan metode Stream.CopyTo:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 ke atas - gunakan metode Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 dan sebelumnya - salin byte secara manual:
+.NET 3.5 ke bawah - salin byte secara manual:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +55,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
-### Lihat juga
+### Lihat Juga
 
 * class [CabEntry](../)
-* ruang nama [Aspose.Zip.Cab](../../cabentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

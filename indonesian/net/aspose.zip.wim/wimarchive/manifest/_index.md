@@ -1,23 +1,29 @@
 ---
-title: WimArchive.Manifest
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimArchive Properti. Mendapat manifes tersemat yang mendeskripsikan file dan gambar yang ada di dalamnya.
+title: "WimArchive.Manifest"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti WimArchive. Mendapatkan manifest tersemat yang menjelaskan file dan gambar yang terkandung"
 type: docs
-weight: 60
+weight: 70
 url: /id/net/aspose.zip.wim/wimarchive/manifest/
 ---
 ## WimArchive.Manifest property
 
-Mendapat manifes tersemat yang mendeskripsikan file dan gambar yang ada di dalamnya.
+Mendapatkan manifes tersemat yang menjelaskan file dan gambar yang terkandung.
 
 ```csharp
 public string Manifest { get; }
 ```
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+### Lihat Juga
 
 * class [WimArchive](../)
-* ruang nama [Aspose.Zip.Wim](../../wimarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

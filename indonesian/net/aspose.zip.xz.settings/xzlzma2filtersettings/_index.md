@@ -1,14 +1,14 @@
 ---
-title: Class XzLZMA2FilterSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Xz.Settings.XzLZMA2FilterSettings kelas. Set pengaturan untuk filter xz LZMA2.
+title: "Kelas XzLZMA2FilterSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Xz.Settings.XzLZMA2FilterSettings. Sekumpulan pengaturan untuk filter xz LZMA2"
 type: docs
-weight: 890
+weight: 1560
 url: /id/net/aspose.zip.xz.settings/xzlzma2filtersettings/
 ---
 ## XzLZMA2FilterSettings class
 
-Set pengaturan untuk filter xz LZMA2.
+Sekumpulan pengaturan untuk filter xz LZMA2.
 
 ```csharp
 public sealed class XzLZMA2FilterSettings : XzFilterSettings
@@ -16,20 +16,20 @@ public sealed class XzLZMA2FilterSettings : XzFilterSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [XzLZMA2FilterSettings](xzlzma2filtersettings/)(uint) | Menginisialisasi instance baru dari`XzLZMA2FilterSettings` . |
+| [XzLZMA2FilterSettings](xzlzma2filtersettings/)(uint) | Menginisialisasi instance baru dari `XzLZMA2FilterSettings`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [DictionarySize](../../aspose.zip.xz.settings/xzlzma2filtersettings/dictionarysize/) { get; } | Ukuran kamus digunakan oleh filter LZMA2. |
+| [DictionarySize](../../aspose.zip.xz.settings/xzlzma2filtersettings/dictionarysize/) { get; } | Ukuran kamus yang digunakan oleh filter LZMA2. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzFilterSettings](../xzfiltersettings/)
-* ruang nama [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
+* assembly [Aspose.Zip](../../)
 
 
