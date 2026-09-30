@@ -1,23 +1,23 @@
 ---
-title: TarArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: TarArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "TarArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод TarArchive. Выполняет определённые приложением задачи, связанные со освобождением, высвобождением или сбросом неуправляемых ресурсов."
 type: docs
-weight: 100
+weight: 130
 url: /ru/net/aspose.zip.tar/tararchive/dispose/
 ---
 ## TarArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

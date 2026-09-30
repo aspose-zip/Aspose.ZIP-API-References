@@ -1,23 +1,23 @@
 ---
-title: WimEntry.FullPath
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает полный путь записи в образе.
+title: "WimEntry.FullPath"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "WimEntry свойство. Возвращает полный путь к записи в образе"
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.wim/wimentry/fullpath/
 ---
 ## WimEntry.FullPath property
 
-Получает полный путь записи в образе.
+Получает полный путь записи внутри образа.
 
 ```csharp
 public string FullPath { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

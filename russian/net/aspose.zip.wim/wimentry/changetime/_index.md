@@ -1,7 +1,7 @@
 ---
-title: WimEntry.ChangeTime
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает время последнего изменения файла или каталога.
+title: "WimEntry.ChangeTime"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "WimEntry свойство. Возвращает последнее время изменения файла или каталога"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.wim/wimentry/changetime/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.wim/wimentry/changetime/
 public DateTime ChangeTime { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

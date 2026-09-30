@@ -1,14 +1,14 @@
 ---
-title: MeteredLicense.GetConsumptionCredit
-second_title: Aspose.ZIP для справочника API .NET
-description: MeteredLicense метод. Получает потребительский кредит.
+title: "MeteredLicense.GetConsumptionCredit"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод MeteredLicense. Получает кредит потребления"
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip/meteredlicense/getconsumptioncredit/
 ---
 ## MeteredLicense.GetConsumptionCredit method
 
-Получает потребительский кредит.
+Получает кредит потребления.
 
 ```csharp
 public static decimal GetConsumptionCredit()
@@ -16,12 +16,12 @@ public static decimal GetConsumptionCredit()
 
 ### Возвращаемое значение
 
-объем потребления
+Возвращает количество потреблённых кредитных баллов.
 
-### Смотрите также
+### См. также
 
 * class [MeteredLicense](../)
-* пространство имен [Aspose.Zip](../../meteredlicense/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

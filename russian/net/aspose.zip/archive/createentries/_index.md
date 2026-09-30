@@ -1,14 +1,14 @@
 ---
-title: Archive.CreateEntries
-second_title: Aspose.ZIP для справочника API .NET
-description: Archive метод. Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+title: "Archive.CreateEntries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод архива. Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога."
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.zip/archive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
@@ -17,20 +17,22 @@ public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | directory | DirectoryInfo | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
-Архив с записями составлен.
+Архив с составленными записями.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| DirectoryNotFoundException | Путь к*directory* недействителен, например, находится на несопоставленном диске. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*directory*. |
+| DirectoryNotFoundException | Путь к *directory* недействителен, например, находится на несвязанном диске. |
+| SecurityException | Вызвавший процесс не имеет необходимого разрешения для доступа к *directory*. |
+| ObjectDisposedException | Выбрасывается, если архив был освобождён. |
+| ArgumentNullException | *directory* равен `null`. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive())
@@ -41,17 +43,17 @@ using (Archive archive = new Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
@@ -60,13 +62,22 @@ public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory =
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceDirectory | String | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
-Архив с записями составлен.
+Архив с составленными записями.
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Выбрасывается, если архив был освобождён. |
+| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt;, или &#x7C;. |
+| ArgumentNullException | *sourceDirectory* равно `null`. |
+| PathTooLongException | Указанный путь, имя файла или их комбинация превышают системно определённую максимальную длину. |
+
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive())
@@ -76,10 +87,10 @@ using (Archive archive = new Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

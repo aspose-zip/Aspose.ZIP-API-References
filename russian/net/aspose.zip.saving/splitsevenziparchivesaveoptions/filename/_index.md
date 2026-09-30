@@ -1,23 +1,23 @@
 ---
-title: SplitSevenZipArchiveSaveOptions.FileName
-second_title: Aspose.ZIP для справочника API .NET
-description: SplitSevenZipArchiveSaveOptions свойство. Получает имена сегментов без расширения.
+title: "SplitSevenZipArchiveSaveOptions.FileName"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SplitSevenZipArchiveSaveOptions. Возвращает имя сегментов без расширения"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.saving/splitsevenziparchivesaveoptions/filename/
 ---
 ## SplitSevenZipArchiveSaveOptions.FileName property
 
-Получает имена сегментов без расширения.
+Получает имя сегментов без расширения.
 
 ```csharp
 public string FileName { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SplitSevenZipArchiveSaveOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

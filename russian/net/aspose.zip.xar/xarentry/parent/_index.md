@@ -1,24 +1,24 @@
 ---
-title: XarEntry.Parent
-second_title: Aspose.ZIP для справочника API .NET
-description: XarEntry свойство. Получает родительский каталог которому принадлежит запись.
+title: "XarEntry.Parent"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство XarEntry. Возвращает родительский каталог, к которому принадлежит элемент"
 type: docs
 weight: 70
 url: /ru/net/aspose.zip.xar/xarentry/parent/
 ---
 ## XarEntry.Parent property
 
-Получает родительский каталог, которому принадлежит запись.
+Получает родительский каталог, к которому относится запись.
 
 ```csharp
 public XarDirectoryEntry Parent { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XarDirectoryEntry](../../xardirectoryentry/)
 * class [XarEntry](../)
-* пространство имен [Aspose.Zip.Xar](../../xarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class ZArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Z.ZArchive сорт. Этот класс представляет файл архива Z сжатие. Используйте его для создания или извлечения Zархивов.
+title: "Класс ZArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Z.ZArchive. Этот класс представляет файл Z‑сжатого архива. Используйте его для создания или извлечения Z‑архивов"
 type: docs
-weight: 910
+weight: 1590
 url: /ru/net/aspose.zip.z/zarchive/
 ---
 ## ZArchive class
 
-Этот класс представляет файл архива Z (сжатие). Используйте его для создания или извлечения Z-архивов.
+Этот класс представляет файл архива Z (compress). Используйте его для создания или извлечения архивов Z.
 
 ```csharp
 public class ZArchive : IArchive, IArchiveFileEntry
@@ -18,33 +18,34 @@ public class ZArchive : IArchive, IArchiveFileEntry
 
 | Имя | Описание |
 | --- | --- |
-| [ZArchive](zarchive/#constructor)() | Инициализирует новый экземпляр`ZArchive` класс подготовлен к сжатию. |
-| [ZArchive](zarchive/#constructor_1)(Stream) | Инициализирует новый экземпляр`ZArchive` класс подготовлен к распаковке. |
-| [ZArchive](zarchive/#constructor_2)(string) | Инициализирует новый экземпляр`ZArchive` класс подготовлен к распаковке. |
+| [ZArchive](zarchive/#constructor)() | Инициализирует новый экземпляр класса `ZArchive`, подготовленный для сжатия. |
+| [ZArchive](zarchive/#constructor_1)(Stream, ZArchiveLoadOptions) | Инициализирует новый экземпляр класса `ZArchive`, подготовленный для распаковки. |
+| [ZArchive](zarchive/#constructor_2)(string, ZArchiveLoadOptions) | Инициализирует новый экземпляр класса `ZArchive`, подготовленный для распаковки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.z/zarchive/dispose/)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.zip.z/zarchive/dispose/)() | Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [Extract](../../aspose.zip.z/zarchive/extract/#extract_1)(FileInfo) | Извлекает архив Z в файл. |
 | [Extract](../../aspose.zip.z/zarchive/extract/#extract_2)(Stream) | Извлекает архив Z в поток. |
 | [Extract](../../aspose.zip.z/zarchive/extract/#extract)(string) | Извлекает архив Z в файл по пути. |
-| [Save](../../aspose.zip.z/zarchive/save/#save)(Stream) | Сохраняет архив xz в указанный поток. |
-| [Save](../../aspose.zip.z/zarchive/save/#save_1)(string) | Сохраняет Z-архив в указанный целевой файл. |
-| [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource)(FileInfo) | Задает сжатие содержимого внутри архива. |
-| [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_1)(Stream) | Задает сжатие содержимого внутри архива. |
-| [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_2)(string) | Задает сжатие содержимого внутри архива. |
+| [ExtractToDirectory](../../aspose.zip.z/zarchive/extracttodirectory/)(string) | Извлекает содержимое архива в указанную директорию. |
+| [Save](../../aspose.zip.z/zarchive/save/#save)(Stream, ZArchiveSaveOptions) | Сохраняет архив xz в указанный поток. |
+| [Save](../../aspose.zip.z/zarchive/save/#save_1)(string, ZArchiveSaveOptions) | Сохраняет архив Z в указанный файл назначения. |
+| [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource)(FileInfo) | Устанавливает содержимое, которое будет сжато в архиве. |
+| [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_1)(Stream) | Устанавливает содержимое, которое будет сжато в архиве. |
+| [SetSource](../../aspose.zip.z/zarchive/setsource/#setsource_2)(string) | Устанавливает содержимое, которое будет сжато в архиве. |
 
-### Примечания
+## Примечания
 
-См. https://docs.fileformat.com/compression/z/
+Смотрите https://docs.fileformat.com/compression/z/
 
-### Смотрите также
+### См. также
 
 * interface [IArchive](../../aspose.zip/iarchive/)
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* пространство имен [Aspose.Zip.Z](../../aspose.zip.z/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Z](../../aspose.zip.z/)
+* assembly [Aspose.Zip](../../)
 
 

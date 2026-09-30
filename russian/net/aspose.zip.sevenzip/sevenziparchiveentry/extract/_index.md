@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchiveEntry.Extract
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchiveEntry метод. Извлекает запись в файловую систему по указанному пути.
+title: "SevenZipArchiveEntry.Extract"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SevenZipArchiveEntry. Извлекает запись в файловую систему по указанному пути"
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/extract/
@@ -16,25 +16,29 @@ public FileInfo Extract(string path, string password = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к файлу назначения. Если файл уже существует, он будет перезаписан. |
+| path | String | Путь к целевому файлу. Если файл уже существует, он будет перезаписан. |
 | password | String | Необязательный пароль для расшифровки. |
 
 ### Возвращаемое значение
 
-Информация о файле составленного файла.
+Информация о файле составного файла.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| InvalidDataException | Архив повреждён. |
+| OperationCanceledException | В .NET Framework 4.0 и выше: Выбрасывается, когда извлечение отменяется с помощью предоставленного токена отмены. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
+| FileNotFoundException | Файл не найден. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new SevenZipArchive("archive.7z"))
@@ -43,11 +47,11 @@ using (var archive = new SevenZipArchive("archive.7z"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -61,7 +65,7 @@ public void Extract(Stream destination, string password = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destination | Stream | Целевой поток. Должен быть доступен для записи. |
+| назначение | Stream | Поток назначения. Должен поддерживать запись. |
 | password | String | Необязательный пароль для расшифровки. |
 
 ### Исключения
@@ -69,12 +73,14 @@ public void Extract(Stream destination, string password = null)
 | исключение | условие |
 | --- | --- |
 | ArgumentException | *destination* не поддерживает запись. |
-| InvalidOperationException | Архив не открывается для извлечения. - или - Эта запись является каталогом. |
-| InvalidDataException | Неверные данные в записи. |
+| InvalidOperationException | Архив не открыт для извлечения. - или - Эта запись является каталогом. |
+| InvalidDataException | Неправильные данные в записи. |
+| OperationCanceledException | В .NET Framework 4.0 и выше: Выбрасывается, когда извлечение отменяется с помощью предоставленного токена отмены. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
 
-### Примеры
+## Примеры
 
-Извлеките запись zip-архива с паролем.
+Извлеките элемент zip‑архива с паролем.
 
 ```csharp
 using (var archive = new SevenZipArchive("archive.7z"))
@@ -83,10 +89,10 @@ using (var archive = new SevenZipArchive("archive.7z"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

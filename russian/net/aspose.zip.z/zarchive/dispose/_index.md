@@ -1,23 +1,23 @@
 ---
-title: ZArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: ZArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "ZArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод ZArchive. Выполняет определённые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.z/zarchive/dispose/
 ---
 ## ZArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

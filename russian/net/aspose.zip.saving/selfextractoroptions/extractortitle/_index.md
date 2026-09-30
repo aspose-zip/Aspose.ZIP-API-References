@@ -1,23 +1,23 @@
 ---
-title: SelfExtractorOptions.ExtractorTitle
-second_title: Aspose.ZIP для справочника API .NET
-description: SelfExtractorOptions свойство. Получает или устанавливает заголовок окна экстрактора.
+title: "SelfExtractorOptions.ExtractorTitle"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "SelfExtractorOptions свойство. Получает или задает заголовок окна извлекателя"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.saving/selfextractoroptions/extractortitle/
 ---
 ## SelfExtractorOptions.ExtractorTitle property
 
-Получает или устанавливает заголовок окна экстрактора.
+Возвращает или задает заголовок окна извлекателя.
 
 ```csharp
 public string ExtractorTitle { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SelfExtractorOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../selfextractoroptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../selfextractoroptions/)
+* assembly [Aspose.Zip](../../../)
 
 

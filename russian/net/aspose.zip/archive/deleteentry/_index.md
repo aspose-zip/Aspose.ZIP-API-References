@@ -1,14 +1,14 @@
 ---
-title: Archive.DeleteEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: Archive метод. Удаляет первое вхождение определенной записи из списка записей.
+title: "Archive.DeleteEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод Archive. Удаляет первое вхождение указанного элемента из списка элементов"
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.zip/archive/deleteentry/
 ---
 ## DeleteEntry(ArchiveEntry) {#deleteentry}
 
-Удаляет первое вхождение определенной записи из списка записей.
+Удаляет первое вхождение указанной записи из списка записей.
 
 ```csharp
 public Archive DeleteEntry(ArchiveEntry entry)
@@ -16,15 +16,22 @@ public Archive DeleteEntry(ArchiveEntry entry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entry | ArchiveEntry | Запись, которую необходимо удалить из списка записей. |
+| запись | ArchiveEntry | Элемент, который нужно удалить из списка элементов. |
 
 ### Возвращаемое значение
 
-Архив с записью удален.
+Архив с удалённым элементом.
 
-### Примеры
+### Исключения
 
-Вот как вы можете удалить все записи, кроме последней:
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Архив освобождён. |
+| InvalidOperationException | Выбрасывается, когда удаление элемента недопустимо из‑за текущего состояния архива. |
+
+## Примеры
+
+Вот как можно удалить все элементы, кроме последнего:
 
 ```csharp
 using (var archive = new Archive("archive.zip"))
@@ -35,12 +42,12 @@ using (var archive = new Archive("archive.zip"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -54,19 +61,21 @@ public Archive DeleteEntry(int entryIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entryIndex | Int32 | Отсчитываемый от нуля индекс удаляемой записи. |
+| entryIndex | Int32 | Нулевой индекс элемента, который нужно удалить. |
 
 ### Возвращаемое значение
 
-Архив с записью удален.
+Архив с удалённым элементом.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или-*entryIndex* равно или больше, чем`Записи` считать. |
+| ObjectDisposedException | Archive освобождён. |
+| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или- *entryIndex* равно или больше количества `Entries` count. |
+| InvalidOperationException | Выбрасывается, когда удаление элемента недопустимо из‑за текущего состояния архива. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new TarArchive("two_files.zip"))
@@ -76,10 +85,10 @@ using (var archive = new TarArchive("two_files.zip"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: ArchiveFactory.GetArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveFactory метод. Определяет формат архива и создает соответствующийIArchiveобъект в соответствии с типом архива указанным по заданному пути.
+title: "ArchiveFactory.GetArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод ArchiveFactory. Определяет формат архива и создает соответствующий объект IArchive в соответствии с типом архива, указанным в заданном пути"
 type: docs
-weight: 10
+weight: 20
 url: /ru/net/aspose.zip/archivefactory/getarchive/
 ---
-## GetArchive(string) {#getarchive_1}
+## GetArchive(string) {#getarchive_2}
 
-Определяет формат архива и создает соответствующий[`IArchive`](../../iarchive/)объект в соответствии с типом архива, указанным по заданному пути.
+Определяет формат архива и создает соответствующий объект [`IArchive`](../../iarchive/) в соответствии с типом архива, указанным в заданном пути.
 
 ```csharp
 public static IArchive GetArchive(string path)
@@ -16,24 +16,35 @@ public static IArchive GetArchive(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к архиву для анализа. |
+| path | String | Путь к архиву, который будет проанализирован. |
 
 ### Возвращаемое значение
 
-Ан[`IArchive`](../../iarchive/) объект, представляющий архив.
+Объект [`IArchive`](../../iarchive/), представляющий архив.
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | *path* равно `null`. |
+| DirectoryNotFoundException | Указанный путь недействителен (например, он находится на не смонтированном диске). |
+| FileNotFoundException | Файл, указанный в *path*, не найден. |
+| IOException | Во время открытия файла произошла ошибка ввода/вывода. |
+| PathTooLongException | Указанный путь, имя файла или их комбинация превышают системно определённую максимальную длину. |
+| UnauthorizedAccessException | *path* указывает на каталог. -или- У вызывающего нет необходимых прав. |
+
+### См. также
 
 * interface [IArchive](../../iarchive/)
 * class [ArchiveFactory](../)
-* пространство имен [Aspose.Zip](../../archivefactory/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archivefactory/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## GetArchive(Stream) {#getarchive}
 
-Определяет формат архива и создает соответствующий[`IArchive`](../../iarchive/) объект в соответствии с типом архива, указанным данным потоком.
+Определяет формат архива и создает соответствующий объект [`IArchive`](../../iarchive/) в соответствии с типом архива, указанным в заданном потоке.
 
 ```csharp
 public static IArchive GetArchive(Stream stream)
@@ -41,17 +52,57 @@ public static IArchive GetArchive(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, содержащий архивные данные. Это должно быть доступно для поиска. |
+| stream | Stream | Поток, содержащий данные архива. Он должен поддерживать перемещение. |
 
 ### Возвращаемое значение
 
-Ан[`IArchive`](../../iarchive/) объект, представляющий архив.
+Объект [`IArchive`](../../iarchive/), представляющий архив.
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentException | *stream* не поддерживает поиск. |
+| ArgumentNullException | *stream* равно null. |
+
+### См. также
 
 * interface [IArchive](../../iarchive/)
 * class [ArchiveFactory](../)
-* пространство имен [Aspose.Zip](../../archivefactory/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archivefactory/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GetArchive(Stream, string) {#getarchive_1}
+
+Определяет формат архива и создает соответствующий объект [`IArchive`](../../iarchive/) в соответствии с типом зашифрованного архива, указанного в заданном потоке.
+
+```csharp
+public static IArchive GetArchive(Stream stream, string password)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| stream | Stream | Поток, содержащий данные архива. Он должен поддерживать перемещение. |
+| password | String | Пароль для расшифровки зашифрованного архива. |
+
+### Возвращаемое значение
+
+Объект [`IArchive`](../../iarchive/), представляющий архив.
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentException | *stream* не поддерживает поиск. |
+| ArgumentNullException | *stream* равно null. |
+
+### См. также
+
+* interface [IArchive](../../iarchive/)
+* class [ArchiveFactory](../)
+* namespace [Aspose.Zip](../../archivefactory/)
+* assembly [Aspose.Zip](../../../)
 
 

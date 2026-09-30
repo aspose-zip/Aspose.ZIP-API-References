@@ -1,9 +1,9 @@
 ---
-title: Interface IArchiveFileEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.IArchiveFileEntry интерфейс. Этот интерфейс представляет запись файла архива.
+title: "Интерфейс IArchiveFileEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Интерфейс Aspose.Zip.IArchiveFileEntry. Этот интерфейс представляет запись файла архива"
 type: docs
-weight: 230
+weight: 540
 url: /ru/net/aspose.zip/iarchivefileentry/
 ---
 ## IArchiveFileEntry interface
@@ -14,7 +14,7 @@ url: /ru/net/aspose.zip/iarchivefileentry/
 public interface IArchiveFileEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
@@ -28,9 +28,9 @@ public interface IArchiveFileEntry
 | [Extract](../../aspose.zip/iarchivefileentry/extract/#extract_1)(Stream) | Извлекает запись в предоставленный поток. |
 | [Extract](../../aspose.zip/iarchivefileentry/extract/#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

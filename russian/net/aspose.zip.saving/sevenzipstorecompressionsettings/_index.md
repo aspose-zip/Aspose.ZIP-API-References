@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipStoreCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.SevenZipStoreCompressionSettings сорт. Настройки метода сжатия Store в архиве 7z.
+title: "Класс SevenZipStoreCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.SevenZipStoreCompressionSettings. Параметры метода сжатия Store внутри 7z‑архива"
 type: docs
-weight: 600
+weight: 1110
 url: /ru/net/aspose.zip.saving/sevenzipstorecompressionsettings/
 ---
 ## SevenZipStoreCompressionSettings class
 
-Настройки метода сжатия Store в архиве 7z.
+Настройки метода хранения (Store) в архиве 7z.
 
 ```csharp
 public class SevenZipStoreCompressionSettings : SevenZipCompressionSettings
@@ -20,20 +20,20 @@ public class SevenZipStoreCompressionSettings : SevenZipCompressionSettings
 | --- | --- |
 | [SevenZipStoreCompressionSettings](sevenzipstorecompressionsettings/)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | override [Method](../../aspose.zip.saving/sevenzipstorecompressionsettings/method/) { get; } | Получает метод сжатия или распаковки. |
 
-### Примечания
+## Примечания
 
-Этот метод сохраняет исходные данные как есть.
+Этот метод сохраняет исходные данные в их оригинальном виде.
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCompressionSettings](../sevenzipcompressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

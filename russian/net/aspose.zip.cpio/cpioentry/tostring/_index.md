@@ -1,7 +1,7 @@
 ---
-title: CpioEntry.ToString
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioEntry метод. 
+title: "CpioEntry.ToString"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CpioEntry."
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.cpio/cpioentry/tostring/
@@ -12,10 +12,10 @@ url: /ru/net/aspose.zip.cpio/cpioentry/tostring/
 public override string ToString()
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

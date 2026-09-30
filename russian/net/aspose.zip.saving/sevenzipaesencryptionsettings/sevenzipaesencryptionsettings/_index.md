@@ -1,14 +1,14 @@
 ---
-title: SevenZipAESEncryptionSettings.SevenZipAESEncryptionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipAESEncryptionSettings строитель. Инициализирует новый экземплярSevenZipAESEncryptionSettings класс.
+title: "SevenZipAESEncryptionSettings.SevenZipAESEncryptionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор SevenZipAESEncryptionSettings. Инициализирует новый экземпляр класса SevenZipAESEncryptionSettings"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/sevenzipaesencryptionsettings/sevenzipaesencryptionsettings/
 ---
 ## SevenZipAESEncryptionSettings(string) {#constructor_1}
 
-Инициализирует новый экземпляр[`SevenZipAESEncryptionSettings`](../) класс.
+Инициализирует новый экземпляр класса [`SevenZipAESEncryptionSettings`](../).
 
 ```csharp
 public SevenZipAESEncryptionSettings(string password)
@@ -18,7 +18,7 @@ public SevenZipAESEncryptionSettings(string password)
 | --- | --- | --- |
 | password | String | Пароль для шифрования или дешифрования. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new SevenZipAESEncryptionSettings("p@s$"))))
@@ -28,17 +28,17 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new Sev
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipAESEncryptionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipAESEncryptionSettings(SevenZipCipher) {#constructor}
 
-Инициализирует новый экземпляр[`SevenZipAESEncryptionSettings`](../) класс с внешним шифром.
+Инициализирует новый экземпляр класса [`SevenZipAESEncryptionSettings`](../) с внешним шифром.
 
 ```csharp
 public SevenZipAESEncryptionSettings(SevenZipCipher cipher)
@@ -46,9 +46,9 @@ public SevenZipAESEncryptionSettings(SevenZipCipher cipher)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cipher | SevenZipCipher | Пользовательская реализация AES. |
+| шифр | SevenZipCipher | Пользовательская реализация AES. |
 
-### Примеры
+## Примеры
 
 ```csharp
 SevenZipCipher cipher = ComposeMyCipher();
@@ -59,11 +59,11 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new Sev
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCipher](../../../aspose.zip.crypto/sevenzipcipher/)
 * class [SevenZipAESEncryptionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

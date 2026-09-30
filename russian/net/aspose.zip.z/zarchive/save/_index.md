@@ -1,35 +1,37 @@
 ---
-title: ZArchive.Save
-second_title: Aspose.ZIP для справочника API .NET
-description: ZArchive метод. Сохраняет архив xz в указанный поток.
+title: "ZArchive.Save"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод ZArchive. Сохраняет xz‑архив в указанный поток"
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.zip.z/zarchive/save/
 ---
-## Save(Stream) {#save}
+## Save(Stream, ZArchiveSaveOptions) {#save}
 
 Сохраняет архив xz в указанный поток.
 
 ```csharp
-public void Save(Stream output)
+public void Save(Stream output, ZArchiveSaveOptions settings = null)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| output | Stream | Целевой поток. |
+| output | Stream | Поток назначения. |
+| настройки | ZArchiveSaveOptions | Необязательные параметры для составления архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *output* не поддерживает поиск. |
-| ArgumentNullException | *output* нулевой. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentException | *output* не поддерживает перемотку. |
+| ArgumentNullException | *output* равен null. |
 
-### Примечания
+## Примечания
 
-*output* должен быть доступен для поиска.
+*output* must be seekable.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
@@ -42,38 +44,42 @@ using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(string, ZArchiveSaveOptions) {#save_1}
 
-Сохраняет Z-архив в указанный целевой файл.
+Сохраняет архив Z в указанный файл назначения.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, ZArchiveSaveOptions settings = null)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFileName | String | +Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
+| destinationFileName | String | +Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
+| настройки | ZArchiveSaveOptions | Необязательные параметры для составления архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
-| PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentNullException | *destinationFileName* равно null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *destinationFileName* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *destinationFileName* запрещён. |
+| PathTooLongException | Указанный *destinationFileName*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл в *destinationFileName* содержит двоеточие (:) в середине строки. |
+| IOException | Во время открытия файла произошла ошибка ввода/вывода. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -83,10 +89,11 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

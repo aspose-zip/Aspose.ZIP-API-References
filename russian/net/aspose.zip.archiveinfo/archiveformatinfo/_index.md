@@ -1,9 +1,9 @@
 ---
-title: Class ArchiveFormatInfo
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.ArchiveInfo.ArchiveFormatInfo сорт. Представляет информацию о формате архива.
+title: "Класс ArchiveFormatInfo"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.ArchiveInfo.ArchiveFormatInfo. Представляет информацию о формате архива"
 type: docs
-weight: 70
+weight: 220
 url: /ru/net/aspose.zip.archiveinfo/archiveformatinfo/
 ---
 ## ArchiveFormatInfo class
@@ -14,12 +14,12 @@ url: /ru/net/aspose.zip.archiveinfo/archiveformatinfo/
 public abstract class ArchiveFormatInfo
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Class](../../aspose.zip.archiveinfo/archiveformatinfo/class/) { get; } | Получает класс, представляющий файл архива. |
-| abstract [Format](../../aspose.zip.archiveinfo/archiveformatinfo/format/) { get; } | Получает формат архива. |
+| abstract [Class](../../aspose.zip.archiveinfo/archiveformatinfo/class/) { get; } | Возвращает класс, представляющий файл архива. |
+| abstract [Format](../../aspose.zip.archiveinfo/archiveformatinfo/format/) { get; } | Возвращает формат архива. |
 
 ## Методы
 
@@ -27,9 +27,9 @@ public abstract class ArchiveFormatInfo
 | --- | --- |
 | override [ToString](../../aspose.zip.archiveinfo/archiveformatinfo/tostring/)() |  |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
+* assembly [Aspose.Zip](../../)
 
 

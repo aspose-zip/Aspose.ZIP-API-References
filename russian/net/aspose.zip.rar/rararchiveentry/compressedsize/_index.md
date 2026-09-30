@@ -1,7 +1,7 @@
 ---
-title: RarArchiveEntry.CompressedSize
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveEntry свойство. Получает размер сжатого файла.
+title: "RarArchiveEntry.CompressedSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "RarArchiveEntry свойство. Получает размер сжатого файла"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.rar/rararchiveentry/compressedsize/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.rar/rararchiveentry/compressedsize/
 public ulong CompressedSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [RarArchiveEntry](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: SevenZipCipher.InputBlockSize
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipCipher свойство. Получает размер входного блока.
+title: "SevenZipCipher.InputBlockSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipCipher. Возвращает размер входного блока."
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.crypto/sevenzipcipher/inputblocksize/
 ---
 ## SevenZipCipher.InputBlockSize property
 
-Получает размер входного блока.
+Возвращает размер входного блока.
 
 ```csharp
 public abstract int InputBlockSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCipher](../)
-* пространство имен [Aspose.Zip.Crypto](../../sevenzipcipher/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Crypto](../../sevenzipcipher/)
+* assembly [Aspose.Zip](../../../)
 
 

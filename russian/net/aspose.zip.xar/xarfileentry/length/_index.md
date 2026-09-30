@@ -1,7 +1,7 @@
 ---
-title: XarFileEntry.Length
-second_title: Aspose.ZIP для справочника API .NET
-description: XarFileEntry свойство. Получает длину записи в байтах.
+title: "XarFileEntry.Length"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство XarFileEntry. Возвращает длину записи в байтах"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xar/xarfileentry/length/
@@ -11,13 +11,13 @@ url: /ru/net/aspose.zip.xar/xarfileentry/length/
 Получает длину записи в байтах.
 
 ```csharp
-public abstract long Length { get; }
+public long Length { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XarFileEntry](../)
-* пространство имен [Aspose.Zip.Xar](../../xarfileentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarfileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ArchiveEntryEncrypted.EncryptionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntryEncrypted свойство. Получает настройки для шифрования или дешифрования.
+title: "ArchiveEntryEncrypted.EncryptionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveEntryEncrypted. Получает параметры шифрования или дешифрования"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/archiveentryencrypted/encryptionsettings/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.zip/archiveentryencrypted/encryptionsettings/
 public EncryptionSettings EncryptionSettings { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [EncryptionSettings](../../../aspose.zip.saving/encryptionsettings/)
 * class [ArchiveEntryEncrypted](../)
-* пространство имен [Aspose.Zip](../../archiveentryencrypted/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentryencrypted/)
+* assembly [Aspose.Zip](../../../)
 
 

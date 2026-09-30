@@ -1,7 +1,7 @@
 ---
-title: WimEntry.CreationTime
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает время создания файла или каталога.
+title: "WimEntry.CreationTime"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "WimEntry свойство. Возвращает время создания файла или каталога"
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.wim/wimentry/creationtime/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.wim/wimentry/creationtime/
 public DateTime CreationTime { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

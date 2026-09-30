@@ -1,23 +1,23 @@
 ---
-title: SevenZipCipher.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipCipher метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "SevenZipCipher.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SevenZipCipher. Выполняет определённые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов"
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.crypto/sevenzipcipher/dispose/
 ---
 ## SevenZipCipher.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public abstract void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCipher](../)
-* пространство имен [Aspose.Zip.Crypto](../../sevenzipcipher/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Crypto](../../sevenzipcipher/)
+* assembly [Aspose.Zip](../../../)
 
 

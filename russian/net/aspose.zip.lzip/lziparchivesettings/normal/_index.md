@@ -1,23 +1,23 @@
 ---
-title: LzipArchiveSettings.Normal
-second_title: Aspose.ZIP для справочника API .NET
-description: LzipArchiveSettings свойство. Получает экземплярLzipArchiveSettings class с размером словаря 16 мегабайт в фильтре LZMA.
+title: "LzipArchiveSettings.Normal"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство LzipArchiveSettings. Возвращает экземпляр класса LzipArchiveSettings с размером словаря 16 мегабайт в фильтре LZMA"
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.lzip/lziparchivesettings/normal/
 ---
 ## LzipArchiveSettings.Normal property
 
-Получает экземпляр[`LzipArchiveSettings`](../) class с размером словаря 16 мегабайт в фильтре LZMA.
+Возвращает экземпляр класса [`LzipArchiveSettings`](../) с размером словаря 16 мегабайт в фильтре LZMA.
 
 ```csharp
 public static LzipArchiveSettings Normal { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [LzipArchiveSettings](../)
-* пространство имен [Aspose.Zip.Lzip](../../lziparchivesettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: LzipArchive.SetSource
-second_title: Aspose.ZIP для справочника API .NET
-description: LzipArchive метод. Задает сжатие содержимого внутри архива.
+title: "LzipArchive.SetSource"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод LzipArchive. Устанавливает содержимое, которое будет сжато в архиве"
 type: docs
-weight: 60
+weight: 80
 url: /ru/net/aspose.zip.lzip/lziparchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_1}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(Stream source)
@@ -22,9 +22,10 @@ public void SetSource(Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *source* поток недоступен. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentException | Поток *source* не поддерживает поиск. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new LzipArchive())
@@ -34,17 +35,17 @@ using (var archive = new LzipArchive())
 
 ```
 
-### Смотрите также
+### См. также
 
 * class [LzipArchive](../)
-* пространство имен [Aspose.Zip.Lzip](../../lziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
@@ -58,15 +59,16 @@ public void SetSource(FileInfo fileInfo)
 
 | исключение | условие |
 | --- | --- |
-| SecurityException | У вызывающего абонента нет необходимых разрешений для открытия*fileInfo*. |
-| ArgumentException | Путь к файлу пуст или содержит только пробелы. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| SecurityException | У вызывающего нет необходимого разрешения для открытия *fileInfo*. |
+| ArgumentException | Путь к файлу пустой или содержит только пробелы. |
 | FileNotFoundException | Файл не найден. |
 | UnauthorizedAccessException | Путь к файлу доступен только для чтения или является каталогом. |
-| ArgumentNullException | *fileInfo* нулевой. |
-| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
+| ArgumentNullException | *fileInfo* равен null. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
 | IOException | Файл уже открыт. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new LzipArchive()) 
@@ -76,17 +78,17 @@ using (var archive = new LzipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [LzipArchive](../)
-* пространство имен [Aspose.Zip.Lzip](../../lziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_2}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(string path)
@@ -94,20 +96,24 @@ public void SetSource(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к сжимаемому файлу.. |
+| path | String | Путь к файлу, который будет сжат. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| FileNotFoundException | Файл не найден. |
+| IOException | Файл уже открыт. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new LzipArchive()) 
@@ -117,10 +123,10 @@ using (var archive = new LzipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [LzipArchive](../)
-* пространство имен [Aspose.Zip.Lzip](../../lziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

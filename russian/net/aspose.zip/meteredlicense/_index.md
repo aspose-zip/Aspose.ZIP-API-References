@@ -1,14 +1,14 @@
 ---
-title: Class MeteredLicense
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.MeteredLicense сорт. Предоставляет методы для установки измеренного ключа.
+title: "Класс MeteredLicense"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.MeteredLicense. Предоставляет методы для установки измеряемого ключа."
 type: docs
-weight: 290
+weight: 760
 url: /ru/net/aspose.zip/meteredlicense/
 ---
 ## MeteredLicense class
 
-Предоставляет методы для установки измеренного ключа.
+Предоставляет методы для установки измеряемого ключа.
 
 ```csharp
 public class MeteredLicense
@@ -18,31 +18,44 @@ public class MeteredLicense
 
 | Имя | Описание |
 | --- | --- |
-| [MeteredLicense](meteredlicense/)() | Инициализирует новый экземпляр этого класса. |
+| [MeteredLicense](meteredlicense/)() | Конструктор по умолчанию. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetMeteredKey](../../aspose.zip/meteredlicense/setmeteredkey/)(string, string) | Устанавливает измеренный открытый и закрытый ключ. |
-| static [GetConsumptionCredit](../../aspose.zip/meteredlicense/getconsumptioncredit/)() | Получает потребительский кредит. |
+| [ResetMeteredKey](../../aspose.zip/meteredlicense/resetmeteredkey/)() | Удаляет ранее установленную лицензию. |
+| [SetMeteredKey](../../aspose.zip/meteredlicense/setmeteredkey/)(string, string) | Устанавливает публичный и приватный измеряемые ключи. |
+| static [GetConsumptionCredit](../../aspose.zip/meteredlicense/getconsumptioncredit/)() | Получает кредит потребления. |
+| static [GetConsumptionQuantity](../../aspose.zip/meteredlicense/getconsumptionquantity/)() | Получает размер файла потребления. |
 
-### Примечания
+## Примеры
 
-Важно: с лимитной лицензией нельзя создавать самораспаковывающиеся zip-архивы.
-
-### Примеры
-
-В этом примере будет предпринята попытка установить лимитный открытый и закрытый ключ.
+В этом примере будет предпринята попытка установить публичный и приватный измеряемый ключ.
 
 ```csharp
-MeteredLicense matered = new MeteredLicense();
-matered.SetMeteredKey("PublicKey", "PrivateKey");
+[C#]
+
+Metered metered = new Metered();
+metered.SetMeteredKey("PublicKey", "PrivateKey");
+
+
+[Visual Basic]
+
+Dim metered As Metered = New Metered
+metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-### Смотрите также
+файл jar компонента:
 
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+```csharp
+Metered metered = new Metered();
+metered.setMeteredKey("PublicKey", "PrivateKey");
+```
+
+### См. также
+
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

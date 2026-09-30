@@ -1,9 +1,9 @@
 ---
-title: ArchiveSaveOptions.Encoding
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveSaveOptions свойство. Получает или задает кодировку для преобразования имен файлов и других строк в байты.
+title: "ArchiveSaveOptions.Encoding"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveSaveOptions. Получает или задает кодировку для преобразования имён файлов и других строк в байты"
 type: docs
-weight: 30
+weight: 50
 url: /ru/net/aspose.zip.saving/archivesaveoptions/encoding/
 ---
 ## ArchiveSaveOptions.Encoding property
@@ -14,14 +14,14 @@ url: /ru/net/aspose.zip.saving/archivesaveoptions/encoding/
 public Encoding Encoding { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Если не задано, будет использоваться кодовая страница 437.
+Если не задано, будет использована кодовая страница 437.
 
-### Смотрите также
+### См. также
 
 * class [ArchiveSaveOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../archivesaveoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

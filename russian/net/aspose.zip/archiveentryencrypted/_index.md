@@ -1,31 +1,32 @@
 ---
-title: Class ArchiveEntryEncrypted
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.ArchiveEntryEncrypted сорт. ZIPзапись которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки.
+title: "Класс ArchiveEntryEncrypted"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Aspose.Zip.ArchiveEntryEncrypted class. Запись Zip, которую необходимо сжать с шифрованием или распаковать с дешифрованием"
 type: docs
-weight: 30
+weight: 180
 url: /ru/net/aspose.zip/archiveentryencrypted/
 ---
 ## ArchiveEntryEncrypted class
 
-ZIP-запись, которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки.
+Запись Zip, которую необходимо сжать с шифрованием или распаковать с дешифрованием.
 
 ```csharp
 public sealed class ArchiveEntryEncrypted : ArchiveEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Comment](../../aspose.zip/archiveentry/comment/) { get; } | Получает комментарий к записи в архиве. |
-| [CompressedSize](../../aspose.zip/archiveentry/compressedsize/) { get; } | Получает размер сжатого файла. |
-| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings/) { get; } | Получает параметры сжатия или распаковки. |
+| [Comment](../../aspose.zip/archiveentry/comment/) { get; } | Возвращает комментарий записи в архиве. |
+| [CompressedSize](../../aspose.zip/archiveentry/compressedsize/) { get; } | Возвращает размер сжатого файла. |
+| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings/) { get; } | Возвращает настройки сжатия или распаковки. |
+| [DataSource](../../aspose.zip/archiveentry/datasource/) { get; } | Источник записи, если запись была добавлена в архив, а не извлечена. |
 | [EncryptionSettings](../../aspose.zip/archiveentryencrypted/encryptionsettings/) { get; } | Получает настройки для шифрования или дешифрования. |
-| [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
-| [ModificationTime](../../aspose.zip/archiveentry/modificationtime/) { get; set; } | Получает или устанавливает дату и время последнего изменения. |
-| [Name](../../aspose.zip/archiveentry/name/) { get; } | Получает имя записи в архиве. |
-| [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize/) { get; } | Получает размер исходного файла. |
+| [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Возвращает значение, указывающее, является ли запись каталогом. |
+| [ModificationTime](../../aspose.zip/archiveentry/modificationtime/) { get; set; } | Получает или задаёт дату и время последнего изменения. |
+| [Name](../../aspose.zip/archiveentry/name/) { get; } | Возвращает имя записи в архиве. |
+| [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize/) { get; } | Возвращает размер оригинального файла. |
 
 ## Методы
 
@@ -39,13 +40,13 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| event [CompressionProgressed](../../aspose.zip/archiveentry/compressionprogressed/) | Возникает при сжатии части необработанного потока. |
-| event [ExtractionProgressed](../../aspose.zip/archiveentry/extractionprogressed/) | Возникает при извлечении части необработанного потока. |
+| event [CompressionProgressed](../../aspose.zip/archiveentry/compressionprogressed/) | Вызывается, когда часть необработанного потока сжата. |
+| event [ExtractionProgressed](../../aspose.zip/archiveentry/extractionprogressed/) | Вызывается, когда часть необработанного потока извлечена. |
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../archiveentry/)
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

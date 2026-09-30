@@ -1,7 +1,7 @@
 ---
-title: WimImage.RootDirectory
-second_title: Aspose.ZIP для справочника API .NET
-description: WimImage свойство. Получает запись корневого каталога образа.
+title: "WimImage.RootDirectory"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimImage. Возвращает запись корневого каталога образа"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.wim/wimimage/rootdirectory/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.zip.wim/wimimage/rootdirectory/
 public WimDirectoryEntry RootDirectory { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimDirectoryEntry](../../wimdirectoryentry/)
 * class [WimImage](../)
-* пространство имен [Aspose.Zip.Wim](../../wimimage/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimimage/)
+* assembly [Aspose.Zip](../../../)
 
 

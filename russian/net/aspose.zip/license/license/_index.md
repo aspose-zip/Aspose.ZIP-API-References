@@ -1,22 +1,22 @@
 ---
-title: License.License
-second_title: Aspose.ZIP для справочника API .NET
-description: License строитель. Инициализирует новый экземплярLicense сорт.
+title: "License.License"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор License. Инициализирует новый экземпляр класса License"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/license/license/
 ---
 ## License constructor
 
-Инициализирует новый экземпляр[`License`](../) сорт.
+Инициализирует новый экземпляр класса [`License`](../).
 
 ```csharp
 public License()
 ```
 
-### Примеры
+## Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей  компонент в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке входной сборки и затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]
@@ -38,10 +38,10 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Смотрите также
+### См. также
 
 * class [License](../)
-* пространство имен [Aspose.Zip](../../license/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../license/)
+* assembly [Aspose.Zip](../../../)
 
 

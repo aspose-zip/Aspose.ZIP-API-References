@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveFactory
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.ArchiveFactory сорт. Определяет формат архива и создает соответствующийIArchive объект по типу архива.
+title: "Класс ArchiveFactory"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Aspose.Zip.ArchiveFactory class. Обнаруживает формат архива и создает соответствующий объект IArchive в соответствии с типом архива"
 type: docs
-weight: 50
+weight: 200
 url: /ru/net/aspose.zip/archivefactory/
 ---
 ## ArchiveFactory class
 
-Определяет формат архива и создает соответствующий[`IArchive`](../iarchive/) объект по типу архива.
+Обнаруживает формат архива и создает соответствующий объект [`IArchive`](../iarchive/) в соответствии с типом архива.
 
 ```csharp
 public static class ArchiveFactory
@@ -18,12 +18,14 @@ public static class ArchiveFactory
 
 | Имя | Описание |
 | --- | --- |
-| static [GetArchive](../../aspose.zip/archivefactory/getarchive/#getarchive)(Stream) | Определяет формат архива и создает соответствующий[`IArchive`](../iarchive/) объект в соответствии с типом архива, указанным данным потоком. |
-| static [GetArchive](../../aspose.zip/archivefactory/getarchive/#getarchive_1)(string) | Определяет формат архива и создает соответствующий[`IArchive`](../iarchive/)объект в соответствии с типом архива, указанным по заданному пути. |
+| static [CompressDirectory](../../aspose.zip/archivefactory/compressdirectory/)(string, string, ArchiveFormat) | Сжимает указанную директорию в файл архива, используя предоставленный формат архива. |
+| static [GetArchive](../../aspose.zip/archivefactory/getarchive/#getarchive)(Stream) | Обнаруживает формат архива и создает соответствующий объект [`IArchive`](../iarchive/) в соответствии с типом архива, указанным заданным потоком. |
+| static [GetArchive](../../aspose.zip/archivefactory/getarchive/#getarchive_2)(string) | Обнаруживает формат архива и создает соответствующий объект [`IArchive`](../iarchive/) в соответствии с типом архива, указанным заданным путем. |
+| static [GetArchive](../../aspose.zip/archivefactory/getarchive/#getarchive_1)(Stream, string) | Обнаруживает формат архива и создает соответствующий объект [`IArchive`](../iarchive/) в соответствии с типом зашифрованного архива, указанным заданным потоком. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

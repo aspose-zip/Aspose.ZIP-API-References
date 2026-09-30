@@ -1,20 +1,20 @@
 ---
-title: SnappyArchive.SnappyArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: SnappyArchive строитель. Инициализирует новый экземплярSnappyArchive класс подготовлен к сжатию.
+title: "SnappyArchive.SnappyArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор SnappyArchive. Инициализирует новый экземпляр класса SnappyArchive, подготовленный для сжатия"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.snappy/snappyarchive/snappyarchive/
 ---
 ## SnappyArchive() {#constructor}
 
-Инициализирует новый экземпляр[`SnappyArchive`](../) класс подготовлен к сжатию.
+Инициализирует новый экземпляр класса [`SnappyArchive`](../), подготовленный для сжатия.
 
 ```csharp
 public SnappyArchive()
 ```
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как сжать файл.
 
@@ -22,21 +22,21 @@ public SnappyArchive()
 using (SnappyArchive archive = new SnappyArchive()) 
 {
     archive.SetSource("data.bin");
-    archive.Save("archive.snapy");
+    archive.Save("archive.snappy");
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SnappyArchive](../)
-* пространство имен [Aspose.Zip.Snappy](../../snappyarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SnappyArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр[`SnappyArchive`](../) класс подготовлен к распаковке.
+Инициализирует новый экземпляр класса [`SnappyArchive`](../), подготовленный для распаковки.
 
 ```csharp
 public SnappyArchive(Stream source)
@@ -50,24 +50,24 @@ public SnappyArchive(Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *source* не доступен для поиска. |
-| ArgumentNullException | *source* нулевой. |
+| ArgumentException | *source* не поддерживает поиск. |
+| ArgumentNullException | *source* равен null. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывается. Видеть[`Extract`](../extract/) метод распаковки.
+Этот конструктор не распаковывает. См. метод [`Extract`](../extract/) для распаковки.
 
-### Смотрите также
+### См. также
 
 * class [SnappyArchive](../)
-* пространство имен [Aspose.Zip.Snappy](../../snappyarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SnappyArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр[`SnappyArchive`](../) класс подготовлен к распаковке.
+Инициализирует новый экземпляр класса [`SnappyArchive`](../), подготовленный для распаковки.
 
 ```csharp
 public SnappyArchive(string path)
@@ -81,18 +81,21 @@ public SnappyArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывается. Видеть[`Extract`](../extract/) метод распаковки.
+Этот конструктор не распаковывает. См. метод [`Extract`](../extract/) для распаковки.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
@@ -104,10 +107,10 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
    }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SnappyArchive](../)
-* пространство имен [Aspose.Zip.Snappy](../../snappyarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

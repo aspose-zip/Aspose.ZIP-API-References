@@ -1,23 +1,23 @@
 ---
-title: RarArchiveEntry.Name
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveEntry свойство. Получает имя записи в архиве.
+title: "RarArchiveEntry.Name"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "RarArchiveEntry свойство. Получает имя элемента внутри архива"
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.rar/rararchiveentry/name/
 ---
 ## RarArchiveEntry.Name property
 
-Получает имя записи в архиве.
+Возвращает имя записи в архиве.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [RarArchiveEntry](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

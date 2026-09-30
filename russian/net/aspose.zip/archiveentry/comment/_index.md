@@ -1,23 +1,23 @@
 ---
-title: ArchiveEntry.Comment
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntry свойство. Получает комментарий к записи в архиве.
+title: "ArchiveEntry.Comment"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveEntry. Возвращает комментарий элемента в архиве"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/archiveentry/comment/
 ---
 ## ArchiveEntry.Comment property
 
-Получает комментарий к записи в архиве.
+Возвращает комментарий записи в архиве.
 
 ```csharp
 public string Comment { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../)
-* пространство имен [Aspose.Zip](../../archiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

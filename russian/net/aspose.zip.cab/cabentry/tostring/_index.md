@@ -1,9 +1,9 @@
 ---
-title: CabEntry.ToString
-second_title: Aspose.ZIP для справочника API .NET
-description: CabEntry метод. 
+title: "CabEntry.ToString"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CabEntry."
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.zip.cab/cabentry/tostring/
 ---
 ## CabEntry.ToString method
@@ -12,10 +12,10 @@ url: /ru/net/aspose.zip.cab/cabentry/tostring/
 public override string ToString()
 ```
 
-### Смотрите также
+### См. также
 
 * class [CabEntry](../)
-* пространство имен [Aspose.Zip.Cab](../../cabentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ArchiveEntry.UncompressedSize
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntry свойство. Получает размер исходного файла.
+title: "ArchiveEntry.UncompressedSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveEntry. Возвращает размер оригинального файла"
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.zip/archiveentry/uncompressedsize/
 ---
 ## ArchiveEntry.UncompressedSize property
 
-Получает размер исходного файла.
+Возвращает размер оригинального файла.
 
 ```csharp
 public ulong UncompressedSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../)
-* пространство имен [Aspose.Zip](../../archiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

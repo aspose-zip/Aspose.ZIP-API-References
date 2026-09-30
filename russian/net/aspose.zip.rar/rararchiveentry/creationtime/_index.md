@@ -1,7 +1,7 @@
 ---
-title: RarArchiveEntry.CreationTime
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveEntry свойство. Получает дату и время создания.
+title: "RarArchiveEntry.CreationTime"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "RarArchiveEntry свойство. Получает дату и время создания"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.rar/rararchiveentry/creationtime/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.rar/rararchiveentry/creationtime/
 public DateTime CreationTime { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [RarArchiveEntry](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: RarArchiveEntry.Open
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveEntry метод. Открывает запись для извлечения и предоставляет поток с распакованным содержимым записи.
+title: "RarArchiveEntry.Open"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод RarArchiveEntry. Открывает запись для извлечения и предоставляет поток с распакованным содержимым записи"
 type: docs
 weight: 100
 url: /ru/net/aspose.zip.rar/rararchiveentry/open/
@@ -16,19 +16,23 @@ public Stream Open(string password = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| password | String | Необязательный пароль для расшифровки. Он также может быть установлен в пределах[`DecryptionPassword`](../../rararchiveloadoptions/decryptionpassword/). |
+| password | String | Необязательный пароль для расшифровки. Его также можно задать в [`DecryptionPassword`](../../rararchiveloadoptions/decryptionpassword/). |
 
 ### Возвращаемое значение
 
 Поток, представляющий содержимое записи.
 
-### Примечания
+## Примечания
 
 Прочитайте из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
 
-### Примеры
+## Примеры
 
 Использование:
+
+```csharp
+Stream decompressed = entry.Open();
+```
 
 .NET 4.0 и выше — используйте метод Stream.CopyTo:
 
@@ -36,7 +40,7 @@ public Stream Open(string password = null)
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 и более ранние версии — копировать байты вручную:
+.NET 3.5 и ниже — копируйте байты вручную:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -45,14 +49,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
-### Смотрите также
+### См. также
 
 * class [RarArchiveEntry](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

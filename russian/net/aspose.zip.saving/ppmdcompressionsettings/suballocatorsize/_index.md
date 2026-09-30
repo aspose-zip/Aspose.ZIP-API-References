@@ -1,23 +1,23 @@
 ---
-title: PPMdCompressionSettings.SuballocatorSize
-second_title: Aspose.ZIP для справочника API .NET
-description: PPMdCompressionSettings свойство. Получает размер вспомогательного распределителя в МБ.
+title: "PPMdCompressionSettings.SuballocatorSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство PPMdCompressionSettings. Возвращает размер субаллокации в МБ"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/
 ---
 ## PPMdCompressionSettings.SuballocatorSize property
 
-Получает размер вспомогательного распределителя в МБ.
+Получает размер субаллокации в МБ.
 
 ```csharp
 public int SuballocatorSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PPMdCompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Class LzipArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Lzip.LzipArchive сорт. Этот класс представляет файл архива Lzip. Используйте его для создания или извлечения архивов Lzip.
+title: "Класс LzipArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Lzip.LzipArchive. Этот класс представляет файл Lzip-архива. Используйте его для создания или извлечения Lzip-архивов"
 type: docs
-weight: 270
+weight: 700
 url: /ru/net/aspose.zip.lzip/lziparchive/
 ---
 ## LzipArchive class
@@ -18,36 +18,38 @@ public class LzipArchive : IArchive, IArchiveFileEntry
 
 | Имя | Описание |
 | --- | --- |
-| [LzipArchive](lziparchive/#constructor)(LzipArchiveSettings) | Инициализирует новый экземпляр`LzipArchive` . |
-| [LzipArchive](lziparchive/#constructor_1)(Stream) | Инициализирует новый экземпляр`LzipArchive` класс подготовлен к распаковке. |
-| [LzipArchive](lziparchive/#constructor_2)(string) | Инициализирует новый экземпляр`LzipArchive` класс подготовлен к распаковке. |
+| [LzipArchive](lziparchive/#constructor)(LzipArchiveSettings) | Инициализирует новый экземпляр `LzipArchive`. |
+| [LzipArchive](lziparchive/#constructor_1)(Stream, LzipLoadOptions) | Инициализирует новый экземпляр класса `LzipArchive`, подготовленный для распаковки. |
+| [LzipArchive](lziparchive/#constructor_2)(string, LzipLoadOptions) | Инициализирует новый экземпляр класса `LzipArchive`, подготовленный для распаковки. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Settings](../../aspose.zip.lzip/lziparchive/settings/) { get; } | Получает настройки конкретного архива lzip. |
+| [Settings](../../aspose.zip.lzip/lziparchive/settings/) { get; } | Получает настройки конкретного lzip-архива. |
+| [UncompressedSize](../../aspose.zip.lzip/lziparchive/uncompressedsize/) { get; } | Несжатый размер данных файла в байтах. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.lzip/lziparchive/dispose/)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.zip.lzip/lziparchive/dispose/)() | Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [Extract](../../aspose.zip.lzip/lziparchive/extract/#extract)(FileInfo) | Извлекает lzip-архив в файл. |
 | [Extract](../../aspose.zip.lzip/lziparchive/extract/#extract_1)(Stream) | Извлекает lzip-архив в поток. |
-| [Extract](../../aspose.zip.lzip/lziparchive/extract/#extract_2)(string) | Извлекает архив lzip в файл по пути. |
-| [Save](../../aspose.zip.lzip/lziparchive/save/#save)(FileInfo) | Сохраняет архив lzip в указанный файл назначения. |
+| [Extract](../../aspose.zip.lzip/lziparchive/extract/#extract_2)(string) | Извлекает lzip-архив в файл по пути. |
+| [ExtractToDirectory](../../aspose.zip.lzip/lziparchive/extracttodirectory/)(string) | Извлекает содержимое архива в указанную директорию. |
+| [Save](../../aspose.zip.lzip/lziparchive/save/#save)(FileInfo) | Сохраняет lzip-архив в указанный файл назначения. |
 | [Save](../../aspose.zip.lzip/lziparchive/save/#save_1)(Stream) | Сохраняет lzip-архив в указанный поток. |
-| [Save](../../aspose.zip.lzip/lziparchive/save/#save_2)(string) | Сохраняет архив lzip в указанный файл назначения. |
-| [SetSource](../../aspose.zip.lzip/lziparchive/setsource/#setsource)(FileInfo) | Задает сжатие содержимого внутри архива. |
-| [SetSource](../../aspose.zip.lzip/lziparchive/setsource/#setsource_1)(Stream) | Задает сжатие содержимого внутри архива. |
-| [SetSource](../../aspose.zip.lzip/lziparchive/setsource/#setsource_2)(string) | Задает сжатие содержимого внутри архива. |
+| [Save](../../aspose.zip.lzip/lziparchive/save/#save_2)(string) | Сохраняет lzip-архив в указанный файл назначения. |
+| [SetSource](../../aspose.zip.lzip/lziparchive/setsource/#setsource)(FileInfo) | Устанавливает содержимое, которое будет сжато в архиве. |
+| [SetSource](../../aspose.zip.lzip/lziparchive/setsource/#setsource_1)(Stream) | Устанавливает содержимое, которое будет сжато в архиве. |
+| [SetSource](../../aspose.zip.lzip/lziparchive/setsource/#setsource_2)(string) | Устанавливает содержимое, которое будет сжато в архиве. |
 
-### Смотрите также
+### См. также
 
 * interface [IArchive](../../aspose.zip/iarchive/)
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* пространство имен [Aspose.Zip.Lzip](../../aspose.zip.lzip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Lzip](../../aspose.zip.lzip/)
+* assembly [Aspose.Zip](../../)
 
 

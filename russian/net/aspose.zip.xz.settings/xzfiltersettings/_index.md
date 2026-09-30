@@ -1,9 +1,9 @@
 ---
-title: Class XzFilterSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Xz.Settings.XzFilterSettings сорт. Базовый класс для набора настроек конкретного фильтра формата xz.
+title: "Класс XzFilterSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Aspose.Zip.Xz.Settings.XzFilterSettings класс. Базовый класс для набора настроек конкретного фильтра формата xz"
 type: docs
-weight: 880
+weight: 1550
 url: /ru/net/aspose.zip.xz.settings/xzfiltersettings/
 ---
 ## XzFilterSettings class
@@ -14,9 +14,9 @@ url: /ru/net/aspose.zip.xz.settings/xzfiltersettings/
 public abstract class XzFilterSettings
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
+* assembly [Aspose.Zip](../../)
 
 

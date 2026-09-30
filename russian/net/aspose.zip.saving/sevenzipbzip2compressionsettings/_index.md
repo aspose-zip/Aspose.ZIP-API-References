@@ -1,9 +1,9 @@
 ---
-title: Class SevenZipBZip2CompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.SevenZipBZip2CompressionSettings сорт. Настройки метода сжатия BZip2 в архиве 7z.
+title: "Класс SevenZipBZip2CompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.SevenZipBZip2CompressionSettings. Параметры метода сжатия BZip2 внутри 7z‑архива"
 type: docs
-weight: 520
+weight: 1030
 url: /ru/net/aspose.zip.saving/sevenzipbzip2compressionsettings/
 ---
 ## SevenZipBZip2CompressionSettings class
@@ -18,26 +18,26 @@ public class SevenZipBZip2CompressionSettings : SevenZipCompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor)() | Инициализирует новый экземпляр`SevenZipBZip2CompressionSettings` класс с размером блока по умолчанию, равным 9 сотням килобайт. |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor_1)(int) | Инициализирует новый экземпляр`SevenZipBZip2CompressionSettings` класс. |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor)() | Инициализирует новый экземпляр класса `SevenZipBZip2CompressionSettings` с размером блока по умолчанию, равным 9 сотням килобайт. |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor_1)(int) | Инициализирует новый экземпляр класса `SevenZipBZip2CompressionSettings`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [BlockSize](../../aspose.zip.saving/sevenzipbzip2compressionsettings/blocksize/) { get; } | Размер блока в сотнях килобайт. |
 | override [Method](../../aspose.zip.saving/sevenzipbzip2compressionsettings/method/) { get; } | Получает метод сжатия или распаковки. |
 
-### Примечания
+## Примечания
 
-Bzip2 сжимает файлы, используя алгоритм сжатия текста с блочной сортировкой Берроуза-Уилера и кодирование Хаффмана.
+Bzip2 сжимает файлы, используя алгоритм блочного сортирования текста Burrows-Wheeler и кодирование Хаффмана.
 
-Подробнее: https://en.wikipedia.org/wiki/Bzip2
+Смотрите подробнее: https://en.wikipedia.org/wiki/Bzip2
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCompressionSettings](../sevenzipcompressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

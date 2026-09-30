@@ -1,7 +1,7 @@
 ---
-title: SplitSevenZipArchiveSaveOptions.SegmentSize
-second_title: Aspose.ZIP для справочника API .NET
-description: SplitSevenZipArchiveSaveOptions свойство. Получает размер сегмента.
+title: "SplitSevenZipArchiveSaveOptions.SegmentSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SplitSevenZipArchiveSaveOptions. Возвращает размер сегмента"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.saving/splitsevenziparchivesaveoptions/segmentsize/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.saving/splitsevenziparchivesaveoptions/segmentsize/
 public uint SegmentSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SplitSevenZipArchiveSaveOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

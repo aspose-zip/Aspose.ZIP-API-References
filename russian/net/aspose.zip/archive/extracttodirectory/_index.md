@@ -1,9 +1,9 @@
 ---
-title: Archive.ExtractToDirectory
-second_title: Aspose.ZIP для справочника API .NET
-description: Archive метод. Извлекает все файлы из архива в указанный каталог.
+title: "Archive.ExtractToDirectory"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод Archive. Извлекает все файлы из архива в указанную директорию."
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.zip/archive/extracttodirectory/
 ---
 ## Archive.ExtractToDirectory method
@@ -16,25 +16,27 @@ public void ExtractToDirectory(string destinationDirectory)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationDirectory | String | Путь к каталогу для размещения извлеченных файлов. |
+| destinationDirectory | String | Путь к директории, в которую следует поместить извлечённые файлы. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationDirectory* нулевой. |
-| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа к существующему каталогу. |
-| NotSupportedException | Если каталог не существует, путь содержит символ двоеточия (:), который не является частью метки диска ("C:\"). |
-| ArgumentException | *destinationDirectory*представляет собой строку нулевой длины, содержащую только пробел или один или несколько недопустимых символов. Вы можете запросить недопустимые символы с помощью метода System.IO.Path.GetInvalidPathChars. -или- путь имеет префикс или содержит только символ двоеточия (:). |
-| IOException | Каталог, указанный путем, является файлом. -или- Имя сети неизвестно. |
-| InvalidDataException | Введен неверный пароль. |
+| ArgumentNullException | *destinationDirectory* равно null. |
+| PathTooLongException | Указанный путь, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| SecurityException | Вызвавший процесс не имеет необходимого разрешения для доступа к существующей директории. |
+| NotSupportedException | Если директория не существует, путь содержит символ двоеточия (:), который не является частью метки диска (\"C:\\"). |
+| ArgumentException | *destinationDirectory* является строкой нулевой длины, содержит только пробелы или содержит один или несколько недопустимых символов. Вы можете получить список недопустимых символов, используя метод System.IO.Path.GetInvalidPathChars. -or- путь начинается с двоеточия (:) или содержит только двоеточие. |
+| IOException | Указанный в пути объект является файлом, а не директорией. -or- Сетевое имя неизвестно. |
+| InvalidDataException | Указан неверный пароль. - or - Архив повреждён. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| EndOfStreamException | Поток не содержит достаточного количества байтов для чтения запрошенных данных. |
 
-### Примечания
+## Примечания
 
-Если каталог не существует, он будет создан.
+Если директория не существует, она будет создана.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new Archive("archive.zip")) 
@@ -43,10 +45,10 @@ using (var archive = new Archive("archive.zip"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

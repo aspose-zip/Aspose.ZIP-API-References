@@ -1,9 +1,9 @@
 ---
-title: Class SelfExtractorOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.SelfExtractorOptions сорт. Параметры создания самораспаковывающегося исполняемого архива.
+title: "Класс SelfExtractorOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.SelfExtractorOptions. Параметры создания самораспаковывающегося исполняемого архива"
 type: docs
-weight: 500
+weight: 1000
 url: /ru/net/aspose.zip.saving/selfextractoroptions/
 ---
 ## SelfExtractorOptions class
@@ -20,20 +20,16 @@ public class SelfExtractorOptions
 | --- | --- |
 | [SelfExtractorOptions](selfextractoroptions/)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CloseWindowOnExtraction](../../aspose.zip.saving/selfextractoroptions/closewindowonextraction/) { get; set; } | Получает или задает значение, указывающее, должно ли окно экстрактора закрываться при извлечении или нет. |
-| [ExtractorTitle](../../aspose.zip.saving/selfextractoroptions/extractortitle/) { get; set; } | Получает или устанавливает заголовок окна экстрактора. |
-| [RunAfterExtraction](../../aspose.zip.saving/selfextractoroptions/runafterextraction/) { get; set; } | Получает или задает программу, которая будет выполняться после завершения извлечения архива. |
-| [TitleIcon](../../aspose.zip.saving/selfextractoroptions/titleicon/) { get; set; } | Получает или задает путь к значку заголовка для главных окон приложения экстрактора. |
+| [CloseWindowOnExtraction](../../aspose.zip.saving/selfextractoroptions/closewindowonextraction/) { get; set; } | Возвращает или задает значение, указывающее, должно ли окно извлекателя закрываться после распаковки. |
+| [ExtractorTitle](../../aspose.zip.saving/selfextractoroptions/extractortitle/) { get; set; } | Возвращает или задает заголовок окна извлекателя. |
+| [RunAfterExtraction](../../aspose.zip.saving/selfextractoroptions/runafterextraction/) { get; set; } | Возвращает или задает программу, которая будет выполнена после завершения извлечения архива. |
+| [TitleIcon](../../aspose.zip.saving/selfextractoroptions/titleicon/) { get; set; } | Возвращает или задает путь к значку заголовка для главных окон приложения‑извлекателя. |
 
-### Примечания
-
-Самораспаковывающийся архив нельзя составить с лимитной лицензией:[`MeteredLicense`](../../aspose.zip/meteredlicense/) .
-
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.exe", FileMode.Create))
@@ -41,15 +37,15 @@ using (FileStream zipFile = File.Open("archive.exe", FileMode.Create))
     using (var archive = new Archive())
     {
         archive.CreateEntry("entry.bin", "data.bin");
-        var sfxOptions = new SelfExtractorOptions() { ExtractorTitle = "Extractor", CloseWindowOnExtraction = true, TitleIcon = "C:\pictorgam.ico" };
+        var sfxOptions = new SelfExtractorOptions() { ExtractorTitle = "Extractor", CloseWindowOnExtraction = true, TitleIcon = "C:\pictogram.ico" };
         archive.Save(zipFile, new ArchiveSaveOptions() { SelfExtractorOptions = sfxOptions });
     }
 }
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: TarArchive.SaveXzCompressed
-second_title: Aspose.ZIP для справочника API .NET
-description: TarArchive метод. Сохраняет архив в поток со сжатием xz.
+title: "TarArchive.SaveXzCompressed"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод TarArchive. Сохраняет архив в поток с xz‑сжатием"
 type: docs
-weight: 150
+weight: 200
 url: /ru/net/aspose.zip.tar/tararchive/savexzcompressed/
 ---
 ## SaveXzCompressed(Stream, TarFormat?, XzArchiveSettings) {#savexzcompressed}
 
-Сохраняет архив в поток со сжатием xz.
+Сохраняет архив в поток с xz‑сжатием.
 
 ```csharp
 public void SaveXzCompressed(Stream output, TarFormat? format = default, 
@@ -17,22 +17,24 @@ public void SaveXzCompressed(Stream output, TarFormat? format = default,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| output | Stream | Целевой поток. |
-| format | Nullable`1 | Определяет формат заголовка tar. Нулевое значение будет рассматриваться как USTar, когда это возможно. |
-| settings | XzArchiveSettings | Набор настроек конкретного архива xz: размер словаря, размер блока, тип проверки. |
+| output | Stream | Поток назначения. |
+| формат | Nullable`1 | Определяет формат заголовка tar. Значение null будет рассматриваться как USTar, когда это возможно. |
+| настройки | XzArchiveSettings | Набор параметров конкретного xz‑архива: размер словаря, размер блока, тип проверки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output* нулевой. |
+| ArgumentNullException | *output* равен null. |
 | ArgumentException | *output* не доступен для записи. |
+| ObjectDisposedException | Архив был освобождён и не может быть использован |
+| IOException | Произошла ошибка ввода/вывода. |
 
-### Примечания
+## Примечания
 
-*output*Поток должен быть доступен для записи.
+*output*The stream must be writable.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream result = File.OpenWrite("result.tar.xz"))
@@ -48,19 +50,19 @@ using (FileStream result = File.OpenWrite("result.tar.xz"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TarFormat](../../tarformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SaveXzCompressed(string, TarFormat?, XzArchiveSettings) {#savexzcompressed_1}
 
-Сохраняет архив в путь по пути со сжатием xz.
+Сохраняет архив по указанному пути с xz‑сжатием.
 
 ```csharp
 public void SaveXzCompressed(string path, TarFormat? format = default, 
@@ -69,11 +71,24 @@ public void SaveXzCompressed(string path, TarFormat? format = default,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
-| format | Nullable`1 | Определяет формат заголовка tar. Нулевое значение будет рассматриваться как USTar, когда это возможно. |
-| settings | XzArchiveSettings | Набор настроек конкретного архива xz: размер словаря, размер блока, тип проверки. |
+| path | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
+| формат | Nullable`1 | Определяет формат заголовка tar. Значение null будет рассматриваться как USTar, когда это возможно. |
+| настройки | XzArchiveSettings | Набор параметров конкретного xz‑архива: размер словаря, размер блока, тип проверки. |
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| UnauthorizedAccessException | У вызывающего нет необходимого разрешения. -или- *path* указывает на файл или каталог только для чтения. |
+| ArgumentException | *path* является строкой нулевой длины, содержит только пробелы или содержит один или несколько недопустимых символов, определённых в InvalidPathChars. |
+| ArgumentNullException | *path* имеет значение null. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| DirectoryNotFoundException | Указанный *path* недействителен (например, находится на неподключённом диске). |
+| NotSupportedException | *path* имеет недопустимый формат. |
+| ObjectDisposedException | Архив был освобождён и не может быть использован |
+| IOException | Произошла ошибка ввода/вывода. |
+
+## Примеры
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -86,12 +101,12 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TarFormat](../../tarformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

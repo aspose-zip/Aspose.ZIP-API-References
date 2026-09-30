@@ -1,23 +1,23 @@
 ---
-title: WimDirectoryEntry.Directories
-second_title: Aspose.ZIP для справочника API .NET
-description: WimDirectoryEntry свойство. Получает записиWimDirectoryEntry тип составляющий каталог.
+title: "WimDirectoryEntry.Directories"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimDirectoryEntry. Возвращает элементы типа WimDirectoryEntry, составляющие каталог"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.wim/wimdirectoryentry/directories/
 ---
 ## WimDirectoryEntry.Directories property
 
-Получает записи[`WimDirectoryEntry`](../) тип, составляющий каталог.
+Возвращает элементы типа [`WimDirectoryEntry`](../) , составляющие каталог.
 
 ```csharp
 public ReadOnlyCollection<WimDirectoryEntry> Directories { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimDirectoryEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimdirectoryentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimdirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

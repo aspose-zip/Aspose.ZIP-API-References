@@ -1,20 +1,20 @@
 ---
-title: XzCompressionSettings.XzCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: XzCompressionSettings строитель. Инициализирует новый экземплярXzCompressionSettings класс.
+title: "XzCompressionSettings.XzCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор XzCompressionSettings. Инициализирует новый экземпляр класса XzCompressionSettings"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/xzcompressionsettings/xzcompressionsettings/
 ---
 ## XzCompressionSettings constructor
 
-Инициализирует новый экземпляр[`XzCompressionSettings`](../) класс.
+Инициализирует новый экземпляр класса [`XzCompressionSettings`](../).
 
 ```csharp
 public XzCompressionSettings()
 ```
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new XzCompressionSettings())))
@@ -24,10 +24,10 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new XzCompressionS
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XzCompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../xzcompressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../xzcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: SharArchive.DeleteEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: SharArchive метод. Удаляет первое вхождение определенной записи из списка записей.
+title: "SharArchive.DeleteEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SharArchive. Удаляет первое вхождение конкретной записи из списка записей"
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.shar/shararchive/deleteentry/
 ---
 ## DeleteEntry(SharEntry) {#deleteentry}
 
-Удаляет первое вхождение определенной записи из списка записей.
+Удаляет первое вхождение конкретной записи из списка записей.
 
 ```csharp
 public SharArchive DeleteEntry(SharEntry entry)
@@ -16,21 +16,23 @@ public SharArchive DeleteEntry(SharEntry entry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entry | SharEntry | Запись, которую необходимо удалить из списка записей. |
+| запись | SharEntry | Элемент, который нужно удалить из списка элементов. |
 
 ### Возвращаемое значение
 
-Экземпляр записи Shar.
+Экземпляр элемента Shar.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *entry* нулевой. |
+| ArgumentNullException | *entry* равно null. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| InvalidOperationException | Этот архив открыт для извлечения. |
 
-### Примеры
+## Примеры
 
-Вот как вы можете удалить все записи, кроме последней:
+Вот как можно удалить все элементы, кроме последнего:
 
 ```csharp
 using (var archive = new SharArchive("archive.shar"))
@@ -41,12 +43,12 @@ using (var archive = new SharArchive("archive.shar"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* пространство имен [Aspose.Zip.Shar](../../shararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -60,19 +62,21 @@ public SharArchive DeleteEntry(int entryIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entryIndex | Int32 | Отсчитываемый от нуля индекс удаляемой записи. |
+| entryIndex | Int32 | Нулевой индекс элемента, который нужно удалить. |
 
 ### Возвращаемое значение
 
-Архив с записью удален.
+Архив с удалённым элементом.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или-*entryIndex* равно или больше, чем`Записи` считать. |
+| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или- *entryIndex* равно или больше количества `Entries` count. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| InvalidOperationException | Этот архив открыт для извлечения. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new SharArchive("two_files.shar"))
@@ -82,10 +86,10 @@ using (var archive = new SharArchive("two_files.shar"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SharArchive](../)
-* пространство имен [Aspose.Zip.Shar](../../shararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

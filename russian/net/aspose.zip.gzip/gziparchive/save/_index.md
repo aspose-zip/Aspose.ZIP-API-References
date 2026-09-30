@@ -1,14 +1,14 @@
 ---
-title: GzipArchive.Save
-second_title: Aspose.ZIP для справочника API .NET
-description: GzipArchive метод. Сохраняет архив в указанный поток.
+title: "GzipArchive.Save"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод GzipArchive. Сохраняет архив в предоставленный поток"
 type: docs
-weight: 60
+weight: 80
 url: /ru/net/aspose.zip.gzip/gziparchive/save/
 ---
 ## Save(Stream) {#save}
 
-Сохраняет архив в указанный поток.
+Сохраняет архив в предоставленный поток.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -16,22 +16,23 @@ public void Save(Stream outputStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| outputStream | Stream | Целевой поток. |
+| outputStream | Stream | Поток назначения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *outputStream* не доступен для записи. |
-| InvalidOperationException | Источник не предоставлен. |
+| ArgumentException | *outputStream* недоступен для записи. |
+| InvalidOperationException | Источник не был предоставлен. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примечания
+## Примечания
 
-*outputStream*должен быть доступен для записи.
+*outputStream* must be writable.
 
-### Примеры
+## Примеры
 
-Записывает сжатые данные в поток ответов http.
+Записывает сжатые данные в поток HTTP‑ответа.
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -41,11 +42,11 @@ using (var archive = new GzipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [GzipArchive](../)
-* пространство имен [Aspose.Zip.Gzip](../../gziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -59,20 +60,21 @@ public void Save(string destinationFileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFileName | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
+| destinationFileName | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
-| PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *destinationFileName* равно null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *destinationFileName* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *destinationFileName* запрещён. |
+| PathTooLongException | Указанный *destinationFileName*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл в *destinationFileName* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new GzipArchive())
@@ -82,10 +84,10 @@ using (var archive = new GzipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [GzipArchive](../)
-* пространство имен [Aspose.Zip.Gzip](../../gziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

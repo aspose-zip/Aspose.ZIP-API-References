@@ -1,9 +1,9 @@
 ---
-title: ArchiveLoadOptions.DecryptionPassword
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveLoadOptions свойство. Получает или задает пароль для расшифровки записей.
+title: "ArchiveLoadOptions.DecryptionPassword"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveLoadOptions. Возвращает или задает пароль для расшифровки записей"
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.zip/archiveloadoptions/decryptionpassword/
 ---
 ## ArchiveLoadOptions.DecryptionPassword property
@@ -14,16 +14,16 @@ url: /ru/net/aspose.zip/archiveloadoptions/decryptionpassword/
 public string DecryptionPassword { get; set; }
 ```
 
-### Примеры
+## Примеры
 
-Вы можете указать пароль для расшифровки один раз при распаковке архива.
+Вы можете указать пароль для расшифровки один раз при извлечении архива.
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.zip"))
 {
     using (var extracted = File.Create("extracted.bin"))
     {
-        using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
+        using (var archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
         {
             using (var decompressed = archive.Entries[0].Open())
             {
@@ -38,11 +38,11 @@ using (FileStream fs = File.OpenRead("encrypted_archive.zip"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * method [Open](../../archiveentry/open/)
 * class [ArchiveLoadOptions](../)
-* пространство имен [Aspose.Zip](../../archiveloadoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 
