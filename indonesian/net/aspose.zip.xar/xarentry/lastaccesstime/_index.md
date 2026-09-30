@@ -1,23 +1,23 @@
 ---
-title: XarEntry.LastAccessTime
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarEntry Properti. Mendapat waktu akses terakhir dari file atau direktori.
+title: "XarEntry.LastAccessTime"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "XarEntry properti. Mendapatkan waktu akses terakhir dari file atau direktori"
 type: docs
 weight: 40
 url: /id/net/aspose.zip.xar/xarentry/lastaccesstime/
 ---
 ## XarEntry.LastAccessTime property
 
-Mendapat waktu akses terakhir dari file atau direktori.
+Mendapatkan waktu akses terakhir file atau direktori.
 
 ```csharp
 public DateTime LastAccessTime { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XarEntry](../)
-* ruang nama [Aspose.Zip.Xar](../../xarentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

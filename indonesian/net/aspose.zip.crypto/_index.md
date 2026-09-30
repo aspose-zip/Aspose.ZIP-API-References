@@ -1,17 +1,17 @@
 ---
-title: Aspose.Zip.Crypto
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuCrypto namespace berisi kelas untuk rutinitas enkripsi eksternal.
+title: "Aspose.Zip.Crypto"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Crypto berisi kelas untuk rutin enkripsi eksternal."
 type: docs
-weight: 60
+weight: 90
 url: /id/net/aspose.zip.crypto/
 ---
-ItuCrypto namespace berisi kelas untuk rutinitas enkripsi eksternal.
+Namespace Crypto berisi kelas untuk prosedur enkripsi eksternal.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [SevenZipCipher](./sevenzipcipher/) | Kelas dasar untuk sandi AES yang digunakan untuk enkripsi 7-zip. |
+| [SevenZipCipher](./sevenzipcipher/) | Kelas dasar untuk cipher AES yang digunakan untuk enkripsi 7-zip. |
 
 

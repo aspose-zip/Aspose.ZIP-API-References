@@ -1,28 +1,28 @@
 ---
-title: SevenZipEntrySettings.EncryptionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipEntrySettings Properti. Mendapat pengaturan untuk enkripsi atau dekripsi. Pengaturan entri tertentu dapat bervariasi.
+title: "SevenZipEntrySettings.EncryptionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipEntrySettings. Mendapatkan pengaturan untuk enkripsi atau dekripsi. Pengaturan untuk entri tertentu dapat bervariasi."
 type: docs
-weight: 30
+weight: 40
 url: /id/net/aspose.zip.saving/sevenzipentrysettings/encryptionsettings/
 ---
 ## SevenZipEntrySettings.EncryptionSettings property
 
-Mendapat pengaturan untuk enkripsi atau dekripsi. Pengaturan entri tertentu dapat bervariasi.
+Mendapatkan pengaturan untuk enkripsi atau dekripsi. Pengaturan untuk entri tertentu dapat bervariasi.
 
 ```csharp
 public SevenZipEncryptionSettings EncryptionSettings { get; }
 ```
 
-### Perkataan
+## Catatan
 
-Itu[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings/) hanya pilihan arsip 7Z.
+[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings/) adalah satu-satunya opsi untuk arsip 7Z.
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipEncryptionSettings](../../sevenzipencryptionsettings/)
 * class [SevenZipEntrySettings](../)
-* ruang nama [Aspose.Zip.Saving](../../sevenzipentrysettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

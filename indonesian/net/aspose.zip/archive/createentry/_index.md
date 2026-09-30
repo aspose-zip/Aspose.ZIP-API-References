@@ -1,12 +1,12 @@
 ---
-title: Archive.CreateEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Archive metode. Buat satu entri dalam arsip.
+title: "Archive.CreateEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode Archive. Membuat satu entri di dalam arsip."
 type: docs
-weight: 50
+weight: 60
 url: /id/net/aspose.zip/archive/createentry/
 ---
-## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_3}
+## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_4}
 
 Buat satu entri dalam arsip.
 
@@ -15,35 +15,36 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| path | String | Nama file baru yang sepenuhnya memenuhi syarat, atau nama file relatif yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
-| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`ArchiveEntry`](../../archiveentry/) barang. |
+| path | String | Nama lengkap dari file baru, atau nama file relatif yang akan dikompres. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang ditambahkan. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri zip.
+Instansi entri Zip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| ObjectDisposedException | Dilempar jika arsip telah dibuang. |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*path* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan dalam parameter *path* tidak memengaruhi nama entri.
 
-Jika file segera dibuka dengan*openImmediately* parameter itu menjadi diblokir sampai arsip disimpan.
+Jika file dibuka segera dengan parameter *openImmediately* maka akan diblokir sampai arsip disimpan.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -56,17 +57,17 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_1}
+## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_2}
 
 Buat satu entri dalam arsip.
 
@@ -75,17 +76,24 @@ public ArchiveEntry CreateEntry(string name, Stream source,
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| source | Stream | Aliran input untuk entri. |
-| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`ArchiveEntry`](../../archiveentry/) barang. |
+| source | Stream | Aliran masukan untuk entri. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang ditambahkan. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri zip.
+Instansi entri Zip.
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Dilempar jika arsip telah dibuang. |
+| InvalidOperationException | Dilemparkan ketika penambahan entri tidak valid karena keadaan arsip saat ini. |
+
+## Contoh
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryptionSettings("p@s$", EncryptionMethod.AES256))))
@@ -95,17 +103,17 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry_1}
 
 Buat satu entri dalam arsip.
 
@@ -114,34 +122,36 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
 | fileInfo | FileInfo | Metadata file yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
-| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`ArchiveEntry`](../../archiveentry/) barang. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang ditambahkan. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri zip.
+Instansi entri Zip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| UnauthorizedAccessException | *fileInfo* bersifat read-only atau direktori. |
-| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
-| IOException | File sudah terbuka. |
+| UnauthorizedAccessException | *fileInfo* bersifat read-only atau merupakan direktori. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| ObjectDisposedException | Dilempar jika arsip telah dibuang. |
+| InvalidOperationException | Dilemparkan ketika penambahan entri tidak valid karena keadaan arsip saat ini. |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*fileInfo* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan pada parameter *fileInfo* tidak memengaruhi nama entri.
 
-Jika file segera dibuka dengan*openImmediately* parameter itu menjadi diblokir sampai arsip disimpan.
+Jika file dibuka segera dengan parameter *openImmediately* maka akan diblokir sampai arsip disimpan.
 
-### Contoh
+## Contoh
 
-Buat arsip dengan entri yang dienkripsi dengan metode enkripsi dan kata sandi yang berbeda.
+Susun arsip dengan entri yang dienkripsi menggunakan metode enkripsi dan kata sandi yang berbeda masing‑masing.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -159,17 +169,17 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_2}
+## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_3}
 
 Buat satu entri dalam arsip.
 
@@ -178,32 +188,33 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
     FileSystemInfo fileInfo)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| source | Stream | Aliran input untuk entri. |
-| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk ditambahkan[`ArchiveEntry`](../../archiveentry/) barang. |
+| source | Stream | Aliran masukan untuk entri. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang ditambahkan. |
 | fileInfo | FileSystemInfo | Metadata file atau folder yang akan dikompresi. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri zip.
+Instansi entri Zip.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Keduanya*source* Dan*fileInfo* adalah nol atau*source*adalah nol dan*fileInfo* singkatan dari direktori. |
+| InvalidOperationException | Baik *source* maupun *fileInfo* bernilai null atau *source* null dan *fileInfo* mengacu pada direktori. |
+| ObjectDisposedException | Dilempar jika arsip telah dibuang. |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*fileInfo* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan pada parameter *fileInfo* tidak memengaruhi nama entri.
 
-*fileInfo* dapat merujuk keDirectoryInfo jika entri adalah direktori.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### Contoh
+## Contoh
 
-Buat arsip dengan entri terenkripsi.
+Susun arsip dengan entri terenkripsi.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -216,12 +227,69 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Func&lt;Stream&gt;, ArchiveEntrySettings) {#createentry}
+
+Buat satu entri dalam arsip.
+
+```csharp
+public ArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    ArchiveEntrySettings newEntrySettings = null)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| name | String | Nama entri. |
+| streamProvider | Func`1 | Metode yang menyediakan aliran masukan untuk entri. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang ditambahkan. |
+
+### Nilai Kembalian
+
+Instansi entri Zip.
+
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Dilempar jika arsip telah dibuang. |
+| ArgumentException | Dilempar ketika *name* bernilai null atau kosong, atau *streamProvider* bernilai null. |
+| InvalidOperationException | Dilempar ketika arsip tidak mendukung penambahan entri. |
+
+## Catatan
+
+Metode ini untuk .NET Framework 4.0 ke atas dan untuk versi .NET Standard 2.0 ke atas.
+
+## Contoh
+
+Susun arsip dengan entri terenkripsi.
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
+{
+    using (var archive = new Archive())
+    {
+        archive.CreateEntry("entry1.bin", provider, new ArchiveEntrySettings(new DeflateCompressionSettings(), new TraditionalEncryptionSettings("pass1")))); 
+        archive.Save(zipFile);
+    }
+}
+```
+
+### Lihat Juga
+
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

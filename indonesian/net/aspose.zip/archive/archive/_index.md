@@ -1,24 +1,24 @@
 ---
-title: Archive.Archive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Archive konstruktor. Menginisialisasi instance baru dariArchive kelas dengan pengaturan opsional untuk entrientrinya.
+title: "Archive.Archive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Archive constructor. Menginisialisasi instance baru dari kelas Archive dengan pengaturan opsional untuk entri-entrinya"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-Menginisialisasi instance baru dari[`Archive`](../) kelas dengan pengaturan opsional untuk entri-entrinya.
+Menginisialisasi instance baru dari kelas [`Archive`](../) dengan pengaturan opsional untuk entri-entrinya.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk yang baru ditambahkan[`ArchiveEntry`](../../archiveentry/) items. Jika tidak ditentukan, kompresi Deflate paling umum tanpa enkripsi akan digunakan. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang baru ditambahkan. Jika tidak ditentukan, kompresi Deflate yang paling umum tanpa enkripsi akan digunakan. |
 
-### Contoh
+## Contoh
 
 Contoh berikut menunjukkan cara mengompres satu file dengan pengaturan default.
 
@@ -33,44 +33,46 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-Menginisialisasi instance baru dari[`Archive`](../) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi instance baru dari kelas [`Archive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | sourceStream | Stream | Sumber arsip. |
 | loadOptions | ArchiveLoadOptions | Opsi untuk memuat arsip yang ada. |
-| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk yang baru ditambahkan[`ArchiveEntry`](../../archiveentry/) items. Jika tidak ditentukan, kompresi Deflate paling umum tanpa enkripsi akan digunakan. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang baru ditambahkan. Jika tidak ditentukan, kompresi Deflate yang paling umum tanpa enkripsi akan digunakan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentException | *sourceStream* tidak dapat dicari. |
+| ArgumentException | *sourceStream* tidak dapat dipindai, ketika dimuat tanpa mengatur [`ForwardOnly`](../../archiveloadoptions/forwardonly/). |
 | InvalidDataException | Header enkripsi untuk AES bertentangan dengan metode kompresi WinZip. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| NotSupportedException | Dilempar ketika arsip dimuat dari aliran hanya-baca dalam mode evaluasi. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak mendekompres entri apa pun. Melihat[`Open`](../../archiveentry/open/) metode dekompresi.
+Konstruktor ini tidak mendekompresi entri apa pun. Lihat metode [`Open`](../../archiveentry/open/) untuk mendekompresi.
 
-### Contoh
+## Contoh
 
-Contoh berikut mengekstrak arsip terenkripsi, lalu mendekompres entri pertama ke a`MemoryStream`.
+Contoh berikut mengekstrak arsip yang terenkripsi, lalu mendekompresi entri pertama ke `MemoryStream`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.zip");
@@ -87,49 +89,54 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveLoadOptions](../../archiveloadoptions/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-Menginisialisasi instance baru dari[`Archive`](../) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi instance baru dari kelas [`Archive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Jalur yang sepenuhnya memenuhi syarat atau relatif ke file arsip. |
+| path | String | Jalur lengkap atau relatif ke file arsip. |
 | loadOptions | ArchiveLoadOptions | Opsi untuk memuat arsip yang ada. |
-| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi digunakan untuk yang baru ditambahkan[`ArchiveEntry`](../../archiveentry/) items. Jika tidak ditentukan, kompresi Deflate paling umum tanpa enkripsi akan digunakan. |
+| newEntrySettings | ArchiveEntrySettings | Pengaturan kompresi dan enkripsi yang digunakan untuk item [`ArchiveEntry`](../../archiveentry/) yang baru ditambahkan. Jika tidak ditentukan, kompresi Deflate yang paling umum tanpa enkripsi akan digunakan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| InvalidDataException | File tersebut rusak. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak mendekompres entri apa pun. Melihat[`Open`](../../archiveentry/open/) metode dekompresi.
+Konstruktor ini tidak mendekompresi entri apa pun. Lihat metode [`Open`](../../archiveentry/open/) untuk mendekompresi.
 
-### Contoh
+## Contoh
 
-Contoh berikut mengekstrak arsip terenkripsi, lalu mendekompres entri pertama ke a`MemoryStream`.
+Contoh berikut mengekstrak arsip yang terenkripsi, lalu mendekompresi entri pertama ke `MemoryStream`.
 
 ```csharp
 var extracted = new MemoryStream();
@@ -145,12 +152,57 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveLoadOptions](../../archiveloadoptions/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## Archive(string, string[], ArchiveLoadOptions) {#constructor_3}
+
+Menginisialisasi instance baru dari kelas [`Archive`](../) dari arsip ZIP multi-volume dan menyusun daftar entri yang dapat diekstrak dari arsip.
+
+```csharp
+public Archive(string mainSegment, string[] segmentsInOrder, ArchiveLoadOptions loadOptions = null)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| mainSegment | String | Jalur ke segmen terakhir arsip multi-volume dengan direktori pusat. |
+| segmentsInOrder | String[] | Jalur ke setiap segmen kecuali yang terakhir dari arsip zip multi-volume dengan memperhatikan urutan. |
+| loadOptions | ArchiveLoadOptions | Opsi untuk memuat arsip yang ada. |
+
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| EndOfStreamException | Tidak dapat memuat header ZIP karena file yang disediakan rusak. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, (misalnya, berada pada drive yang tidak dipetakan). |
+| FileNotFoundException | File yang ditentukan dalam jalur tidak ditemukan. |
+| IOException | Terjadi kesalahan I/O saat membuka file. |
+| PathTooLongException | Jalur, nama file, atau keduanya yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. |
+| UnauthorizedAccessException | Jalur yang ditentukan adalah sebuah direktori. -atau- Pemanggil tidak memiliki izin yang diperlukan. |
+
+## Contoh
+
+Contoh ini mengekstrak ke sebuah direktori arsip yang terdiri dari tiga segmen.
+
+```csharp
+using (Archive a = new Archive("archive.zip", new string[] { "archive.z01", "archive.z02" }))
+{
+    a.ExtractToDirectory("destination");
+}
+```
+
+### Lihat Juga
+
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

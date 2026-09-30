@@ -1,14 +1,14 @@
 ---
-title: Class EncryptionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.EncryptionSettings kelas. Kelas dasar untuk pengaturan beberapa metode enkripsi zip.
+title: "Kelas EncryptionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.EncryptionSettings. Kelas dasar untuk pengaturan beberapa metode enkripsi ZIP"
 type: docs
-weight: 430
+weight: 920
 url: /id/net/aspose.zip.saving/encryptionsettings/
 ---
 ## EncryptionSettings class
 
-Kelas dasar untuk pengaturan beberapa metode enkripsi zip.
+Kelas dasar untuk pengaturan beberapa metode enkripsi ZIP.
 
 ```csharp
 public abstract class EncryptionSettings
@@ -16,14 +16,14 @@ public abstract class EncryptionSettings
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Mendapat algoritma enkripsi. |
-| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Mendapatkan atau menyetel kata sandi untuk enkripsi atau dekripsi. |
+| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Mendapatkan algoritma enkripsi. |
+| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Mendapatkan atau mengatur kata sandi untuk enkripsi atau dekripsi. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

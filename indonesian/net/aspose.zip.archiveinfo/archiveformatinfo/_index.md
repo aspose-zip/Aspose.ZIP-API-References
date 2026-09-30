@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveFormatInfo
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.ArchiveInfo.ArchiveFormatInfo kelas. Menampilkan informasi tentang format arsip.
+title: "Kelas ArchiveFormatInfo"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.ArchiveInfo.ArchiveFormatInfo. Mewakili informasi tentang format arsip"
 type: docs
-weight: 70
+weight: 220
 url: /id/net/aspose.zip.archiveinfo/archiveformatinfo/
 ---
 ## ArchiveFormatInfo class
 
-Menampilkan informasi tentang format arsip.
+Mewakili informasi tentang format arsip.
 
 ```csharp
 public abstract class ArchiveFormatInfo
@@ -16,20 +16,20 @@ public abstract class ArchiveFormatInfo
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| abstract [Class](../../aspose.zip.archiveinfo/archiveformatinfo/class/) { get; } | Mendapat kelas yang mewakili file arsip. |
+| abstract [Class](../../aspose.zip.archiveinfo/archiveformatinfo/class/) { get; } | Mendapatkan kelas yang mewakili file arsip. |
 | abstract [Format](../../aspose.zip.archiveinfo/archiveformatinfo/format/) { get; } | Mendapatkan format arsip. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | override [ToString](../../aspose.zip.archiveinfo/archiveformatinfo/tostring/)() |  |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class MeteredLicense
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.MeteredLicense kelas. Menyediakan metode untuk menyetel kunci terukur.
+title: "Kelas MeteredLicense"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.MeteredLicense. Menyediakan metode untuk mengatur kunci bermeter."
 type: docs
-weight: 290
+weight: 760
 url: /id/net/aspose.zip/meteredlicense/
 ---
 ## MeteredLicense class
 
-Menyediakan metode untuk menyetel kunci terukur.
+Menyediakan metode untuk mengatur kunci bermeter.
 
 ```csharp
 public class MeteredLicense
@@ -16,33 +16,46 @@ public class MeteredLicense
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [MeteredLicense](meteredlicense/)() | Menginisialisasi instance baru dari kelas ini. |
+| [MeteredLicense](meteredlicense/)() | Konstruktor default. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [SetMeteredKey](../../aspose.zip/meteredlicense/setmeteredkey/)(string, string) | Menetapkan kunci publik dan pribadi terukur. |
-| static [GetConsumptionCredit](../../aspose.zip/meteredlicense/getconsumptioncredit/)() | Mendapat kredit konsumsi. |
+| [ResetMeteredKey](../../aspose.zip/meteredlicense/resetmeteredkey/)() | Menghapus lisensi yang sebelumnya disiapkan. |
+| [SetMeteredKey](../../aspose.zip/meteredlicense/setmeteredkey/)(string, string) | Mengatur kunci publik dan privat bermeter. |
+| static [GetConsumptionCredit](../../aspose.zip/meteredlicense/getconsumptioncredit/)() | Mendapatkan kredit konsumsi. |
+| static [GetConsumptionQuantity](../../aspose.zip/meteredlicense/getconsumptionquantity/)() | Mendapatkan ukuran file konsumsi. |
 
-### Perkataan
+## Contoh
 
-Penting: dengan lisensi terukur, Anda tidak dapat membuat arsip zip yang dapat diekstrak sendiri.
-
-### Contoh
-
-Dalam contoh ini, upaya akan dilakukan untuk menyetel kunci publik dan pribadi terukur.
+Dalam contoh ini, akan dicoba untuk mengatur kunci publik dan privat bermeter
 
 ```csharp
-MeteredLicense matered = new MeteredLicense();
-matered.SetMeteredKey("PublicKey", "PrivateKey");
+[C#]
+
+Metered metered = new Metered();
+metered.SetMeteredKey("PublicKey", "PrivateKey");
+
+
+[Visual Basic]
+
+Dim metered As Metered = New Metered
+metered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-### Lihat juga
+berkas jar komponen:
 
-* ruang nama [Aspose.Zip](../../aspose.zip/)
-* perakitan [Aspose.Zip](../../)
+```csharp
+Metered metered = new Metered();
+metered.setMeteredKey("PublicKey", "PrivateKey");
+```
+
+### Lihat Juga
+
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

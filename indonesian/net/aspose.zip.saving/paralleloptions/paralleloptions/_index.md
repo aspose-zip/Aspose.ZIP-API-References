@@ -1,7 +1,7 @@
 ---
-title: ParallelOptions.ParallelOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ParallelOptions konstruktor. Konstruktor default.
+title: "ParallelOptions.ParallelOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor ParallelOptions. Konstruktor default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/paralleloptions/paralleloptions/
@@ -14,10 +14,10 @@ Konstruktor default.
 public ParallelOptions()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ParallelOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../paralleloptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

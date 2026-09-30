@@ -1,14 +1,14 @@
 ---
-title: Class EventsBag
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.EventsBag kelas. Kontainer acara digunakanArchive hemat.
+title: "Kelas EventsBag"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.EventsBag. Kontainer peristiwa yang digunakan saat penyimpanan Arsip"
 type: docs
-weight: 450
+weight: 940
 url: /id/net/aspose.zip.saving/eventsbag/
 ---
 ## EventsBag class
 
-Kontainer acara digunakan[`Archive`](../../aspose.zip/archive/) hemat.
+Kontainer peristiwa yang digunakan saat penyimpanan [`Archive`](../../aspose.zip/archive/).
 
 ```csharp
 public sealed class EventsBag
@@ -16,20 +16,21 @@ public sealed class EventsBag
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [EventsBag](eventsbag/)() | Konstruktor default. |
 
-## Acara
+## Peristiwa
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | Muncul setelah entri arsip dikompresi. |
+| event [EntryAccessed](../../aspose.zip.saving/eventsbag/entryaccessed/) | Dipanggil sebelum entri arsip dikompresi. |
+| event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | Dipanggil setelah entri arsip telah dikompresi. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveSaveOptions](../archivesaveoptions/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

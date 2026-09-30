@@ -1,9 +1,9 @@
 ---
-title: Class SevenZipArchiveEntryEncrypted
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.SevenZip.SevenZipArchiveEntryEncrypted kelas. Entri arsip SevenZip yang perlu dikompresi dengan enkripsi atau didekompresi dengan dekripsi.
+title: "Kelas SevenZipArchiveEntryEncrypted"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.SevenZip.SevenZipArchiveEntryEncrypted. Entri arsip SevenZip yang perlu dikompresi dengan enkripsi atau didekompresi dengan dekripsi"
 type: docs
-weight: 680
+weight: 1210
 url: /id/net/aspose.zip.sevenzip/sevenziparchiveentryencrypted/
 ---
 ## SevenZipArchiveEntryEncrypted class
@@ -16,33 +16,33 @@ public class SevenZipArchiveEntryEncrypted : SevenZipArchiveEntry
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize/) { get; } | Mendapat ukuran file terkompresi. |
-| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings/) { get; } | Mendapat pengaturan untuk kompresi atau dekompresi. |
-| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/) { get; } | Mendapat nilai yang menunjukkan apakah entri mewakili direktori. |
-| [ModificationTime](../../aspose.zip.sevenzip/sevenziparchiveentry/modificationtime/) { get; } | Mendapatkan tanggal dan waktu terakhir diubah. |
-| [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name/) { get; } | Mendapat nama entri dalam arsip. |
-| [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/) { get; } | Mendapat ukuran file asli. |
+| [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize/) { get; } | Mendapatkan ukuran file terkompresi. |
+| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings/) { get; } | Mendapatkan pengaturan untuk kompresi atau dekompresi. |
+| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/) { get; } | Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori. |
+| [ModificationTime](../../aspose.zip.sevenzip/sevenziparchiveentry/modificationtime/) { get; } | Mendapatkan tanggal dan waktu terakhir dimodifikasi. |
+| [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name/) { get; } | Mendapatkan nama entri dalam arsip. |
+| [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/) { get; } | Mendapatkan ukuran file asli. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [Extract](../../aspose.zip.sevenzip/sevenziparchiveentry/extract/)(Stream, string) | Mengekstrak entri ke aliran yang disediakan. |
-| [Extract](../../aspose.zip.sevenzip/sevenziparchiveentry/extract/)(string, string) | Mengekstrak entri ke sistem file dengan jalur yang disediakan. |
+| [Extract](../../aspose.zip.sevenzip/sevenziparchiveentry/extract/)(string, string) | Mengekstrak entri ke sistem file menggunakan jalur yang disediakan. |
 | [Open](../../aspose.zip.sevenzip/sevenziparchiveentry/open/)(string) | Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri. |
 
-## Acara
+## Peristiwa
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| event [CompressionProgressed](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionprogressed/) | Muncul saat sebagian aliran mentah dikompresi. |
+| event [CompressionProgressed](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionprogressed/) | Dipicu ketika sebagian aliran mentah dikompresi. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../sevenziparchiveentry/)
-* ruang nama [Aspose.Zip.SevenZip](../../aspose.zip.sevenzip/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.SevenZip](../../aspose.zip.sevenzip/)
+* assembly [Aspose.Zip](../../)
 
 

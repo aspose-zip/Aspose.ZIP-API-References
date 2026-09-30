@@ -1,20 +1,20 @@
 ---
-title: DeflateCompressionSettings.DeflateCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: DeflateCompressionSettings konstruktor. Menginisialisasi instance baru dariDeflateCompressionSettings kelas.
+title: "DeflateCompressionSettings.DeflateCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor DeflateCompressionSettings. Menginisialisasi sebuah instance baru dari kelas DeflateCompressionSettings"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/deflatecompressionsettings/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings constructor
 
-Menginisialisasi instance baru dari[`DeflateCompressionSettings`](../) kelas.
+Menginisialisasi sebuah instance baru dari kelas [`DeflateCompressionSettings`](../).
 
 ```csharp
 public DeflateCompressionSettings()
 ```
 
-### Contoh
+## Contoh
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new DeflateCompressionSettings())))
@@ -24,10 +24,10 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new DeflateCompres
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [DeflateCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../deflatecompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../deflatecompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

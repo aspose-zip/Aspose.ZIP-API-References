@@ -1,9 +1,9 @@
 ---
-title: Class SevenZipPPMdCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.SevenZipPPMdCompressionSettings kelas. Pengaturan untuk metode kompresi PPMd dalam arsip 7z.
+title: "Kelas SevenZipPPMdCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.SevenZipPPMdCompressionSettings. Pengaturan untuk metode kompresi PPMd dalam arsip 7z"
 type: docs
-weight: 590
+weight: 1100
 url: /id/net/aspose.zip.saving/sevenzipppmdcompressionsettings/
 ---
 ## SevenZipPPMdCompressionSettings class
@@ -16,23 +16,23 @@ public sealed class SevenZipPPMdCompressionSettings : SevenZipCompressionSetting
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor)() | Instansi pengaturan untuk metode kompresi PPMd dalam arsip 7z dengan urutan model default dan ukuran sub-alokator. |
-| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor_1)(byte, int) | Instansiasi pengaturan untuk metode kompresi PPMd dalam arsip 7z. |
+| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor)() | Membuat instance pengaturan untuk metode kompresi PPMd dalam arsip 7z dengan urutan model default dan ukuran sub-allocator. |
+| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor_1)(byte, int) | Membuat instance pengaturan untuk metode kompresi PPMd dalam arsip 7z. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [MaxOrder](../../aspose.zip.saving/sevenzipppmdcompressionsettings/maxorder/) { get; } | Mendapat pesanan maksimum. |
-| override [Method](../../aspose.zip.saving/sevenzipppmdcompressionsettings/method/) { get; } | Mendapat metode kompresi atau dekompresi. |
-| [SuballocatorSize](../../aspose.zip.saving/sevenzipppmdcompressionsettings/suballocatorsize/) { get; } | Mendapat ukuran sub-allocator dalam MB. |
+| [MaxOrder](../../aspose.zip.saving/sevenzipppmdcompressionsettings/maxorder/) { get; } | Mendapatkan urutan maksimum. |
+| override [Method](../../aspose.zip.saving/sevenzipppmdcompressionsettings/method/) { get; } | Mendapatkan metode kompresi atau dekompresi. |
+| [SuballocatorSize](../../aspose.zip.saving/sevenzipppmdcompressionsettings/suballocatorsize/) { get; } | Mendapatkan ukuran sub-allocator dalam MB. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipCompressionSettings](../sevenzipcompressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

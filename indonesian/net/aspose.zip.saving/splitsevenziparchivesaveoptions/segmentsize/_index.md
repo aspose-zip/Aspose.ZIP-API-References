@@ -1,7 +1,7 @@
 ---
-title: SplitSevenZipArchiveSaveOptions.SegmentSize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SplitSevenZipArchiveSaveOptions Properti. Mendapatkan ukuran segmen.
+title: "SplitSevenZipArchiveSaveOptions.SegmentSize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SplitSevenZipArchiveSaveOptions. Mendapatkan ukuran segmen"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.saving/splitsevenziparchivesaveoptions/segmentsize/
@@ -14,10 +14,10 @@ Mendapatkan ukuran segmen.
 public uint SegmentSize { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SplitSevenZipArchiveSaveOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

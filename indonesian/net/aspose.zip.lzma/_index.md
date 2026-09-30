@@ -1,18 +1,18 @@
 ---
-title: Aspose.Zip.LZMA
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuLZMAnamespace berisi kelas yang mewakili entitas terkait arsip lzma.
+title: "Aspose.Zip.LZMA"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace LZMA berisi kelas yang mewakili entitas terkait arsip lzma"
 type: docs
-weight: 90
+weight: 170
 url: /id/net/aspose.zip.lzma/
 ---
-ItuLZMAnamespace berisi kelas yang mewakili entitas terkait arsip lzma.
+Namespace LZMA berisi kelas yang mewakili entitas terkait arsip lzma.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [LzmaArchive](./lzmaarchive/) | Kelas ini mewakili file arsip LZMA. Gunakan untuk menyusun atau mengekstrak arsip LZMA. |
-| [LzmaArchiveSettings](./lzmaarchivesettings/) | Pengaturan untuk metode kompresi LZMA dalam arsip lzma. |
+| [LzmaArchive](./lzmaarchive/) | Kelas ini mewakili file arsip LZMA. Gunakan untuk membuat atau mengekstrak arsip LZMA. |
+| [LzmaArchiveSettings](./lzmaarchivesettings/) | Pengaturan untuk arsip lzma. |
 
 

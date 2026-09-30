@@ -1,23 +1,24 @@
 ---
-title: Aspose.Zip.Tar
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuTarnamespace berisi kelas yang mewakili entitas terkait arsip tar.
+title: "Aspose.Zip.Tar"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Tar berisi kelas yang mewakili entitas terkait arsip tar"
 type: docs
-weight: 150
+weight: 240
 url: /id/net/aspose.zip.tar/
 ---
-ItuTarnamespace berisi kelas yang mewakili entitas terkait arsip tar.
+Namespace Tar berisi kelas yang mewakili entitas terkait arsip tar.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [TarArchive](./tararchive/) | Kelas ini mewakili file arsip tar. Gunakan untuk menyusun, mengekstrak, atau memperbarui arsip tar. |
-| [TarEntry](./tarentry/) | Merupakan file tunggal dalam arsip tar. |
-## Pencacahan
+| [TarArchive](./tararchive/) | Kelas ini mewakili file arsip tar. Gunakan untuk membuat, mengekstrak, atau memperbarui arsip tar. |
+| [TarEntry](./tarentry/) | Mewakili satu file dalam arsip tar. |
+| [TarLoadOptions](./tarloadoptions/) | Opsi dengan mana [`TarArchive`](../aspose.zip.tar/tararchive/) dimuat dari file terkompresi. |
+## Enumerasi
 
-| Pencacahan | Keterangan |
+| Enumerasi | Deskripsi |
 | --- | --- |
-| [TarFormat](./tarformat/) | Pencacahan dengan format yang didukung[`TarArchive`](../aspose.zip.tar/tararchive/) . |
+| [TarFormat](./tarformat/) | Enumerasi dengan format yang didukung oleh [`TarArchive`](../aspose.zip.tar/tararchive/). |
 
 

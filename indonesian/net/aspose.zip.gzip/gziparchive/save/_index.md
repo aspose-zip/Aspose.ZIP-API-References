@@ -1,9 +1,9 @@
 ---
-title: GzipArchive.Save
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: GzipArchive metode. Menyimpan arsip ke aliran yang disediakan.
+title: "GzipArchive.Save"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode GzipArchive. Menyimpan arsip ke aliran yang disediakan"
 type: docs
-weight: 60
+weight: 80
 url: /id/net/aspose.zip.gzip/gziparchive/save/
 ---
 ## Save(Stream) {#save}
@@ -14,22 +14,23 @@ Menyimpan arsip ke aliran yang disediakan.
 public void Save(Stream outputStream)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | outputStream | Stream | Aliran tujuan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | ArgumentException | *outputStream* tidak dapat ditulis. |
-| InvalidOperationException | Sumber belum diberikan. |
+| InvalidOperationException | Sumber belum disediakan. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Perkataan
+## Catatan
 
-*outputStream*harus dapat ditulis.
+*outputStream* must be writable.
 
-### Contoh
+## Contoh
 
 Menulis data terkompresi ke aliran respons http.
 
@@ -41,11 +42,11 @@ using (var archive = new GzipArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [GzipArchive](../)
-* ruang nama [Aspose.Zip.Gzip](../../gziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -57,22 +58,23 @@ Menyimpan arsip ke file tujuan yang disediakan.
 public void Save(string destinationFileName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
+| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*destinationFileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*destinationFileName* ditolak. |
-| PathTooLongException | Yang ditentukan*destinationFileName*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*destinationFileName* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *destinationFileName* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *destinationFileName* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *destinationFileName* ditolak. |
+| PathTooLongException | *destinationFileName* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File di *destinationFileName* berisi tanda titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new GzipArchive())
@@ -82,10 +84,10 @@ using (var archive = new GzipArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [GzipArchive](../)
-* ruang nama [Aspose.Zip.Gzip](../../gziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

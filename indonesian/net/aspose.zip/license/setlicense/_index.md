@@ -1,50 +1,50 @@
 ---
-title: License.SetLicense
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: License metode. Lisensi komponen.
+title: "License.SetLicense"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode License. Memberi lisensi pada komponen."
 type: docs
 weight: 20
 url: /id/net/aspose.zip/license/setlicense/
 ---
 ## SetLicense(string) {#setlicense_1}
 
-Lisensi komponen.
+Melisensikan komponen.
 
 ```csharp
 public void SetLicense(string licenseName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| licenseName | String | Dapat berupa nama file lengkap atau pendek atau nama sumber daya tersemat. Gunakan string kosong untuk beralih ke mode evaluasi. |
+| licenseName | String | Dapat berupa nama file lengkap atau singkat atau nama sumber daya tersemat. Gunakan string kosong untuk beralih ke mode evaluasi. |
 
-### Perkataan
+## Catatan
 
 Mencoba menemukan lisensi di lokasi berikut:
 
 1. Jalur eksplisit.
 
-2. Folder yang berisi rakitan komponen Aspose.
+2. Folder yang berisi assembly komponen Aspose.
 
-3. Folder yang berisi rakitan panggilan klien.
+3. Folder yang berisi assembly pemanggil klien.
 
-4. Folder yang berisi rakitan entri (startup).
+4. Folder yang berisi assembly entri (startup).
 
-5. Sumber daya tertanam dalam perakitan panggilan klien.
+5. Sumber daya tersemat dalam assembly pemanggil klien.
 
-**Catatan:**Di .NET Compact Framework, mencoba menemukan lisensi hanya di lokasi berikut:
+**Note:**On the .NET Compact Framework, tries to find the license only in these locations:
 
 1. Jalur eksplisit.
 
-2. Sumber daya tertanam dalam perakitan panggilan klien.
+2. Sumber daya tersemat dalam assembly pemanggil klien.
 
 2. Folder yang berisi file JAR komponen Aspose.
 
-3. Folder yang berisi file JAR panggilan klien.
+3. Folder yang berisi file JAR pemanggil klien.
 
-### Contoh
+## Contoh
 
-Dalam contoh ini, upaya akan dilakukan untuk menemukan file lisensi bernama MyLicense.lic di folder yang berisi  komponen, di folder yang berisi rakitan pemanggil, di folder rakitan entri, lalu di sumber daya tertanam rakitan pemanggil.
+Dalam contoh ini, akan dicoba untuk menemukan berkas lisensi bernama MyLicense.lic di folder yang berisi komponen, di folder yang berisi assembly pemanggil, di folder assembly entri, dan kemudian di sumber daya tersemat dari assembly pemanggil.
 
 ```csharp
 [C#]
@@ -53,38 +53,38 @@ License license = new License();
 license.SetLicense("MyLicense.lic");
 ```
 
-file jar komponen:
+berkas jar komponen:
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [License](../)
-* ruang nama [Aspose.Zip](../../license/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../license/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetLicense(Stream) {#setlicense}
 
-Lisensi komponen.
+Melisensikan komponen.
 
 ```csharp
 public void SetLicense(Stream stream)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | stream | Stream | Aliran yang berisi lisensi. |
 
-### Perkataan
+## Catatan
 
 Gunakan metode ini untuk memuat lisensi dari aliran.
 
-### Contoh
+## Contoh
 
 ```csharp
 [C#]
@@ -102,10 +102,10 @@ License license = new License();
 license.setLicense(myStream);
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [License](../)
-* ruang nama [Aspose.Zip](../../license/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../license/)
+* assembly [Aspose.Zip](../../../)
 
 

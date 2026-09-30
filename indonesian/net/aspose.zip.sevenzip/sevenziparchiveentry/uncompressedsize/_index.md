@@ -1,23 +1,23 @@
 ---
-title: SevenZipArchiveEntry.UncompressedSize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchiveEntry Properti. Mendapat ukuran file asli.
+title: "SevenZipArchiveEntry.UncompressedSize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipArchiveEntry. Mengembalikan ukuran file asli"
 type: docs
 weight: 60
 url: /id/net/aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/
 ---
 ## SevenZipArchiveEntry.UncompressedSize property
 
-Mendapat ukuran file asli.
+Mendapatkan ukuran file asli.
 
 ```csharp
 public ulong UncompressedSize { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

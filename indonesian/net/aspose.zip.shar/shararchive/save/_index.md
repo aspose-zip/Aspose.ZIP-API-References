@@ -1,7 +1,7 @@
 ---
-title: SharArchive.Save
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SharArchive metode. Menyimpan arsip ke file tujuan yang disediakan.
+title: "SharArchive.Save"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SharArchive. Menyimpan arsip ke file tujuan yang diberikan"
 type: docs
 weight: 70
 url: /id/net/aspose.zip.shar/shararchive/save/
@@ -14,27 +14,30 @@ Menyimpan arsip ke file tujuan yang disediakan.
 public void Save(string destinationFileName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
+| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentException | *destinationFileName* adalah string dengan panjang nol, hanya berisi spasi putih, atau berisi satu atau beberapa karakter tidak valid seperti yang ditentukan oleh System.IO.Path.InvalidPathChars. |
-| ArgumentNullException | *destinationFileName* adalah nol. |
-| PathTooLongException | Yang ditentukan*destinationFileName*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| DirectoryNotFoundException | Yang ditentukan*destinationFileName* tidak valid, (misalnya, ada di drive yang belum dipetakan). |
+| ArgumentException | *destinationFileName* adalah string dengan panjang nol, hanya berisi spasi putih, atau berisi satu atau lebih karakter tidak valid sebagaimana didefinisikan oleh System.IO.Path.InvalidPathChars. |
+| ArgumentNullException | *destinationFileName* bernilai null. |
+| PathTooLongException | *destinationFileName* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| DirectoryNotFoundException | *destinationFileName* yang ditentukan tidak valid, (misalnya, berada pada drive yang tidak dipetakan). |
 | IOException | Terjadi kesalahan I/O saat membuka file. |
-| UnauthorizedAccessException | *destinationFileName* ditentukan file yang read-only dan akses tidak Baca.-atau- path ditentukan direktori.-atau- Penelepon tidak memiliki izin yang diperlukan. |
-| NotSupportedException | *destinationFileName* dalam format yang tidak valid. |
+| UnauthorizedAccessException | *destinationFileName* menentukan file yang hanya-baca dan akses tidak dapat dibaca.-or- jalur menentukan direktori.-or- Pemanggil tidak memiliki izin yang diperlukan. |
+| NotSupportedException | *destinationFileName* berada dalam format yang tidak valid. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Arsip ini dibuka untuk ekstraksi. |
 
-### Perkataan
+## Catatan
 
-Dimungkinkan untuk menyimpan arsip ke jalur yang sama saat diambil dari. Namun, ini tidak disarankan karena pendekatan ini menggunakan penyalinan ke file sementara.
+Dimungkinkan untuk menyimpan arsip ke jalur yang sama dengan tempat ia dimuat. Namun, ini tidak disarankan karena pendekatan ini menggunakan penyalinan ke file sementara.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new SharArchive())
@@ -44,11 +47,11 @@ using (var archive = new SharArchive())
 }       
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharArchive](../)
-* ruang nama [Aspose.Zip.Shar](../../shararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -60,22 +63,24 @@ Menyimpan arsip ke aliran yang disediakan.
 public void Save(Stream output)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | output | Stream | Aliran tujuan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *output* adalah nol. |
-| ArgumentException | *output* tidak dapat ditulis. - atau -*output* adalah aliran yang sama kita ekstrak dari. |
+| ArgumentNullException | *output* adalah null. |
+| ArgumentException | *output* tidak dapat ditulis. - atau - *output* adalah aliran yang sama kita ekstrak darinya. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Arsip ini dibuka untuk ekstraksi. |
 
-### Perkataan
+## Catatan
 
-*output*harus dapat ditulis.
+*output* must be writable.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream sharFile = File.Open("archive.shar", FileMode.Create))
@@ -88,10 +93,10 @@ using (FileStream sharFile = File.Open("archive.shar", FileMode.Create))
 }       
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharArchive](../)
-* ruang nama [Aspose.Zip.Shar](../../shararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class StoreCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.StoreCompressionSettings kelas. Setelan untuk metode kompresi Penyimpanan.
+title: "Kelas StoreCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.StoreCompressionSettings. Pengaturan untuk kompresi Store dalam arsip ZIP"
 type: docs
-weight: 630
+weight: 1140
 url: /id/net/aspose.zip.saving/storecompressionsettings/
 ---
 ## StoreCompressionSettings class
 
-Setelan untuk metode kompresi Penyimpanan.
+Pengaturan untuk kompresi Store dalam arsip ZIP.
 
 ```csharp
 public class StoreCompressionSettings : CompressionSettings
@@ -16,18 +16,18 @@ public class StoreCompressionSettings : CompressionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [StoreCompressionSettings](storecompressionsettings/)() | Menginisialisasi instance baru dari`StoreCompressionSettings` kelas. |
+| [StoreCompressionSettings](storecompressionsettings/)() | Menginisialisasi sebuah instance baru dari kelas `StoreCompressionSettings`. |
 
-### Perkataan
+## Catatan
 
 Metode ini menyimpan data asli apa adanya.
 
-### Lihat juga
+### Lihat Juga
 
 * class [CompressionSettings](../compressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

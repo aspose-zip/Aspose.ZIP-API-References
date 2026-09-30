@@ -1,30 +1,31 @@
 ---
-title: LzipArchive.SetSource
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: LzipArchive metode. Mengatur konten yang akan dikompresi dalam arsip.
+title: "LzipArchive.SetSource"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode LzipArchive. Mengatur konten yang akan dikompresi dalam arsip"
 type: docs
-weight: 60
+weight: 80
 url: /id/net/aspose.zip.lzip/lziparchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_1}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(Stream source)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| source | Stream | Aliran input untuk arsip. |
+| source | Stream | Stream input untuk arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentException | Itu*source* aliran tidak dapat dicari. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentException | Aliran *source* tidak dapat dicari. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new LzipArchive())
@@ -34,39 +35,40 @@ using (var archive = new LzipArchive())
 
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzipArchive](../)
-* ruang nama [Aspose.Zip.Lzip](../../lziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fileInfo | FileInfo | FileInfo yang akan dibuka sebagai input stream. |
+| fileInfo | FileInfo | FileInfo yang akan dibuka sebagai aliran masukan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk membuka*fileInfo*. |
-| ArgumentException | Jalur file kosong atau hanya berisi spasi putih. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk membuka *fileInfo*. |
+| ArgumentException | Path file kosong atau hanya berisi spasi. |
 | FileNotFoundException | Berkas tidak ditemukan. |
-| UnauthorizedAccessException | Path ke file bersifat read-only atau direktori. |
-| ArgumentNullException | *fileInfo* adalah nol. |
-| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
-| IOException | File sudah terbuka. |
+| UnauthorizedAccessException | Path ke file bersifat read-only atau merupakan direktori. |
+| ArgumentNullException | *fileInfo* bernilai null. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new LzipArchive()) 
@@ -76,38 +78,42 @@ using (var archive = new LzipArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzipArchive](../)
-* ruang nama [Aspose.Zip.Lzip](../../lziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_2}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke file yang akan dikompresi.. |
+| path | String | Jalur ke file yang akan dikompres. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| IOException | Berkas sudah terbuka. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new LzipArchive()) 
@@ -117,10 +123,10 @@ using (var archive = new LzipArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzipArchive](../)
-* ruang nama [Aspose.Zip.Lzip](../../lziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

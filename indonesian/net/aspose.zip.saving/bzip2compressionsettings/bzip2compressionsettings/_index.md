@@ -1,30 +1,30 @@
 ---
-title: Bzip2CompressionSettings.Bzip2CompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Bzip2CompressionSettings konstruktor. Menginisialisasi instance baru dariBzip2CompressionSettings kelas.
+title: "Bzip2CompressionSettings.Bzip2CompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor Bzip2CompressionSettings. Menginisialisasi instance baru dari kelas Bzip2CompressionSettings"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/bzip2compressionsettings/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings(int) {#constructor_1}
 
-Menginisialisasi instance baru dari[`Bzip2CompressionSettings`](../) kelas.
+Menginisialisasi instance baru dari kelas [`Bzip2CompressionSettings`](../).
 
 ```csharp
 public Bzip2CompressionSettings(int blockSize)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | blockSize | Int32 | Ukuran blok dalam ratusan kilobyte. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentOutOfRangeException | Ukuran blok tidak antara 1 dan 9. |
+| ArgumentOutOfRangeException | Ukuran blok tidak berada di antara 1 dan 9. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings(1))))
@@ -34,23 +34,23 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Bzip2CompressionSettings() {#constructor}
 
-Menginisialisasi instance baru dari[`Bzip2CompressionSettings`](../) kelas dengan ukuran blok default, sama dengan 9 ratus kilobyte.
+Menginisialisasi instance baru dari kelas [`Bzip2CompressionSettings`](../) dengan ukuran blok default, yaitu 9 ratus kilobyte.
 
 ```csharp
 public Bzip2CompressionSettings()
 ```
 
-### Contoh
+## Contoh
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings())))
@@ -60,10 +60,10 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

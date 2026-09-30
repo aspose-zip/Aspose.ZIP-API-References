@@ -1,24 +1,24 @@
 ---
-title: TarArchive.Entries
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: TarArchive Properti. Mendapat entri dariTarEntry ketik merupakan arsip.
+title: "TarArchive.Entries"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti TarArchive. Mendapatkan entri berjenis TarEntry yang membentuk arsip"
 type: docs
-weight: 60
+weight: 90
 url: /id/net/aspose.zip.tar/tararchive/entries/
 ---
 ## TarArchive.Entries property
 
-Mendapat entri dari[`TarEntry`](../../tarentry/) ketik merupakan arsip.
+Mendapatkan entri berjenis [`TarEntry`](../../tarentry/) yang membentuk arsip.
 
 ```csharp
 public ReadOnlyCollection<TarEntry> Entries { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

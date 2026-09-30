@@ -1,39 +1,40 @@
 ---
-title: CpioArchive.CreateEntries
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioArchive metode. Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+title: "CpioArchive.CreateEntries"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode CpioArchive. Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.cpio/cpioarchive/createentries/
 ---
 ## CreateEntries(string, bool) {#createentries_1}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public CpioArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| sourceDirectory | String | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| sourceDirectory | String | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Cpio.
+Instansi entri Cpio.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *sourceDirectory* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses*sourceDirectory*. |
-| ArgumentException | *sourceDirectory* berisi karakter yang tidak valid seperti ", &lt;, &gt;, atau &#x7C;. |
-| PathTooLongException | Jalur yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. Jalur yang ditentukan, nama file, atau keduanya terlalu panjang. |
-| IOException | *sourceDirectory* singkatan dari file, bukan direktori. |
+| ArgumentNullException | *sourceDirectory* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses *sourceDirectory*. |
+| ArgumentException | *sourceDirectory* berisi karakter tidak valid seperti ", &lt;, &gt;, atau &#x7C;. |
+| PathTooLongException | Jalur, nama file, atau keduanya yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. Jalur, nama file, atau keduanya yang ditentukan terlalu panjang. |
+| IOException | *sourceDirectory* berarti sebuah file, bukan sebuah direktori. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
@@ -46,40 +47,41 @@ using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public CpioArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| directory | DirectoryInfo | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| directory | DirectoryInfo | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Cpio.
+Instansi entri Cpio.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *directory* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses*directory*. |
-| IOException | *directory* singkatan dari file, bukan direktori. |
+| ArgumentNullException | *directory* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses *directory*. |
+| IOException | *directory* berarti sebuah file, bukan sebuah direktori. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
@@ -92,10 +94,10 @@ using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

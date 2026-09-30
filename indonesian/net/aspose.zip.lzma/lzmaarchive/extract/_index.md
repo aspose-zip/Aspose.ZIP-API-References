@@ -1,33 +1,34 @@
 ---
-title: LzmaArchive.Extract
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: LzmaArchive metode. Mengekstrak arsip lzma ke aliran.
+title: "LzmaArchive.Extract"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "LzmaArchive method. Mengekstrak arsip lzma ke sebuah aliran"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.lzma/lzmaarchive/extract/
 ---
 ## Extract(Stream) {#extract_1}
 
-Mengekstrak arsip lzma ke aliran.
+Mengekstrak arsip lzma ke sebuah stream.
 
 ```csharp
 public void Extract(Stream destination)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destination | Stream | Stream untuk menyimpan data yang didekompresi. |
+| tujuan | Stream | Aliran untuk menyimpan data yang didekompresi. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Tajuk arsip dan informasi layanan tidak dibaca. |
-| InvalidDataException | Kesalahan dalam data di header atau checksum. |
-| ArgumentNullException | Aliran tujuan adalah nol. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Header arsip dan informasi layanan tidak dibaca. |
+| InvalidDataException | Arsip rusak. |
+| ArgumentNullException | Aliran tujuan bernilai null. |
 | ArgumentException | Aliran tujuan tidak mendukung penulisan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream sourceLzmaFile = File.Open(sourceFileName, FileMode.Open))
@@ -42,40 +43,42 @@ using (FileStream sourceLzmaFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzmaArchive](../)
-* ruang nama [Aspose.Zip.LZMA](../../lzmaarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(FileInfo) {#extract}
 
-Ekstrak arsip lzma ke file.
+Mengekstrak arsip lzma ke sebuah file.
 
 ```csharp
 public void Extract(FileInfo fileInfo)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| fileInfo | FileInfo | FileInfo untuk menyimpan data yang didekompresi. |
+| fileInfo | FileInfo | FileInfo untuk menyimpan data yang telah didekompresi. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Tajuk arsip dan informasi layanan tidak dibaca. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk membuka*fileInfo*. |
-| ArgumentException | Jalur file kosong atau hanya berisi spasi putih. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Header arsip dan informasi layanan tidak dibaca. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk membuka *fileInfo*. |
+| ArgumentException | Path file kosong atau hanya berisi spasi. |
 | FileNotFoundException | Berkas tidak ditemukan. |
-| UnauthorizedAccessException | Path ke file bersifat read-only atau direktori. |
-| ArgumentNullException | *fileInfo* adalah nol. |
-| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
-| IOException | File sudah terbuka. |
+| UnauthorizedAccessException | Path ke file bersifat read-only atau merupakan direktori. |
+| ArgumentNullException | *fileInfo* bernilai null. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| InvalidDataException | Arsip rusak. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream lzmaFile = File.Open(sourceFileName, FileMode.Open))
@@ -87,39 +90,42 @@ using (FileStream lzmaFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzmaArchive](../)
-* ruang nama [Aspose.Zip.LZMA](../../lzmaarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(string) {#extract_2}
 
-Ekstrak arsip lzma ke file dengan jalur.
+Mengekstrak arsip lzma ke file berdasarkan path.
 
 ```csharp
 public void Extract(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke file yang akan menyimpan data yang didekompresi. |
+| path | String | Jalur ke file yang akan menyimpan data terdekompresi. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Tajuk arsip dan informasi layanan tidak dibaca. |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Header arsip dan informasi layanan tidak dibaca. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| InvalidDataException | Arsip rusak. |
+| FileNotFoundException | Berkas tidak ditemukan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream lzmaFile = File.Open(sourceFileName, FileMode.Open))
@@ -131,10 +137,10 @@ using (FileStream lzmaFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzmaArchive](../)
-* ruang nama [Aspose.Zip.LZMA](../../lzmaarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: CpioArchive.CpioArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioArchive konstruktor. Menginisialisasi instance baru dariCpioArchive kelas.
+title: "CpioArchive.CpioArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor CpioArchive. Menginisialisasi instansi baru dari kelas CpioArchive"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.cpio/cpioarchive/cpioarchive/
 ---
 ## CpioArchive() {#constructor}
 
-Menginisialisasi instance baru dari[`CpioArchive`](../) kelas.
+Menginisialisasi instansi baru dari kelas [`CpioArchive`](../).
 
 ```csharp
 public CpioArchive()
 ```
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengompres file.
+Contoh berikut menunjukkan cara mengompres sebuah file.
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -26,41 +26,44 @@ using (var archive = new CpioArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CpioArchive(Stream) {#constructor_1}
 
-Menginisialisasi instance baru dari[`CpioArchive`](../) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi instansi baru dari kelas [`CpioArchive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
 
 ```csharp
 public CpioArchive(Stream sourceStream)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| sourceStream | Stream | Sumber arsip. Itu harus dicari. |
+| sourceStream | Stream | Sumber arsip. Harus dapat di-seek. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *sourceStream* adalah nol. |
-| ArgumentException | *sourceStream* tidak dapat dicari. |
+| ArgumentNullException | *sourceStream* bernilai null. |
+| ArgumentException | *sourceStream* tidak dapat dipindahkan. |
 | InvalidDataException | *sourceStream* bukan arsip cpio yang valid. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum semua byte header atau byte nama dibaca. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
+| IOException | Terjadi kesalahan I/O. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak membongkar entri apa pun. Melihat[`Open`](../../cpioentry/open/)metode unpacking.
+Konstruktor ini tidak mengekstrak entri apa pun. Lihat metode [`Open`](../../cpioentry/open/) untuk mengekstrak.
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengekstrak semua entri ke direktori.
+Contoh berikut menunjukkan cara mengekstrak semua entri ke sebuah direktori.
 
 ```csharp
 using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
@@ -69,44 +72,50 @@ using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CpioArchive(string) {#constructor_2}
 
-Menginisialisasi instance baru dari[`CpioArchive`](../) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi instansi baru dari kelas [`CpioArchive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
 
 ```csharp
 public CpioArchive(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke file arsip. |
+| path | String | Jalur ke berkas arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum semua byte header atau byte nama dibaca. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
+| InvalidDataException | Dilemparkan ketika data tidak valid atau rusak. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak membongkar entri apa pun. Melihat[`Open`](../../cpioentry/open/)metode unpacking.
+Konstruktor ini tidak mengekstrak entri apa pun. Lihat metode [`Open`](../../cpioentry/open/) untuk mengekstrak.
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengekstrak semua entri ke direktori.
+Contoh berikut menunjukkan cara mengekstrak semua entri ke sebuah direktori.
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio")) 
@@ -115,10 +124,10 @@ using (var archive = new CpioArchive("archive.cpio"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

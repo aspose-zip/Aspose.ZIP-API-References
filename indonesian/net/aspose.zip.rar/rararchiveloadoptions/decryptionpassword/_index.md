@@ -1,22 +1,22 @@
 ---
-title: RarArchiveLoadOptions.DecryptionPassword
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: RarArchiveLoadOptions Properti. Mendapatkan atau menyetel kata sandi untuk mendekripsi entri dan nama entri.
+title: "RarArchiveLoadOptions.DecryptionPassword"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti RarArchiveLoadOptions. Mendapatkan atau mengatur kata sandi untuk mendekripsi entri dan nama entri."
 type: docs
-weight: 20
+weight: 30
 url: /id/net/aspose.zip.rar/rararchiveloadoptions/decryptionpassword/
 ---
 ## RarArchiveLoadOptions.DecryptionPassword property
 
-Mendapatkan atau menyetel kata sandi untuk mendekripsi entri dan nama entri.
+Mendapatkan atau mengatur kata sandi untuk mendekripsi entri dan nama entri.
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Contoh
+## Contoh
 
-Anda dapat memberikan kata sandi dekripsi satu kali pada ekstraksi arsip.
+Anda dapat memberikan kata sandi dekripsi satu kali saat ekstraksi arsip.
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
@@ -38,11 +38,11 @@ using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * method [Open](../../rararchiveentry/open/)
 * class [RarArchiveLoadOptions](../)
-* ruang nama [Aspose.Zip.Rar](../../rararchiveloadoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

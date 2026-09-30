@@ -1,34 +1,42 @@
 ---
-title: ArchiveEntry.ExtractionProgressed
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveEntry peristiwa. Muncul saat sebagian aliran mentah diekstrak.
+title: "ArchiveEntry.ExtractionProgressed"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Event ArchiveEntry. Dipicu ketika sebagian aliran mentah telah diekstrak"
 type: docs
-weight: 90
+weight: 100
 url: /id/net/aspose.zip/archiveentry/extractionprogressed/
 ---
 ## ArchiveEntry.ExtractionProgressed event
 
-Muncul saat sebagian aliran mentah diekstrak.
+Dipicu ketika sebagian aliran mentah diekstrak.
 
 ```csharp
-public event EventHandler<ProgressEventArgs> ExtractionProgressed;
+public event EventHandler<ProgressCancelEventArgs> ExtractionProgressed;
 ```
 
-### Perkataan
+## Catatan
 
-Pengirim acara adalah[`ArchiveEntry`](../) contoh.
+Pengirim event adalah sebuah instance [`ArchiveEntry`](../). Dimungkinkan untuk membatalkan ekstraksi.
 
-### Contoh
+## Contoh
+
+Dalam contoh ini, penangan acara digunakan untuk menghitung bagian ukuran yang diproses dalam persen.
 
 ```csharp
-archive.Entries[0].ExtractionProgressed += (s, e) => {  int percent = (int)((100 * e.ProceededBytes) / ((ArchiveEntry)s).UncompressedSize); };
+a.Entries[0].ExtractionProgressed += (s, e) => {  int percent = (int)((100 * e.ProceededBytes) / ((ArchiveEntry)s).UncompressedSize); };
 ```
 
-### Lihat juga
+Dalam contoh ini, penangan acara digunakan untuk pembatalan setelah seratus Mb pertama dari entri diekstrak.
 
-* class [ProgressEventArgs](../../progresseventargs/)
+```csharp
+a.Entries[0].ExtractionProgressed += (s, e) => { if (e.ProceededBytes > 100000000) e.Cancel = true; };
+```
+
+### Lihat Juga
+
+* class [ProgressCancelEventArgs](../../progresscanceleventargs/)
 * class [ArchiveEntry](../)
-* ruang nama [Aspose.Zip](../../archiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,38 +1,74 @@
 ---
-title: XarArchive.XarArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarArchive konstruktor. Menginisialisasi instance baru dariXarArchive kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+title: "XarArchive.XarArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor XarArchive. Menginisialisasi sebuah instance baru dari kelas XarArchive."
 type: docs
 weight: 10
 url: /id/net/aspose.zip.xar/xararchive/xararchive/
 ---
-## XarArchive(Stream) {#constructor}
+## XarArchive(XarCompressionSettings) {#constructor}
 
-Menginisialisasi instance baru dari[`XarArchive`](../) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi sebuah instance baru dari kelas [`XarArchive`](../).
 
 ```csharp
-public XarArchive(Stream sourceStream)
+public XarArchive(XarCompressionSettings defaultCompressionSettings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| sourceStream | Stream | Sumber arsip. Itu harus dicari. |
+| defaultCompressionSettings | XarCompressionSettings | Pengaturan kompresi default, diterapkan pada semua entri dalam arsip. |
+
+## Contoh
+
+Contoh berikut menunjukkan cara mengompres sebuah file.
+
+```csharp
+using (var archive = new XarArchive())
+{
+    archive.CreateEntry("first.bin", "data.bin");
+    archive.Save("archive.xar");
+}
+```
+
+### Lihat Juga
+
+* class [XarCompressionSettings](../../xarcompressionsettings/)
+* class [XarArchive](../)
+* namespace [Aspose.Zip.Xar](../../xararchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## XarArchive(Stream, XarLoadOptions) {#constructor_1}
+
+Menginisialisasi sebuah instance baru dari kelas [`XarArchive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
+
+```csharp
+public XarArchive(Stream sourceStream, XarLoadOptions loadOptions = null)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| sourceStream | Stream | Sumber arsip. Harus dapat di-seek. |
+| loadOptions | XarLoadOptions | Opsi untuk memuat arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *sourceStream* adalah nol. |
-| ArgumentException | *sourceStream* tidak dapat dicari. |
+| ArgumentNullException | *sourceStream* bernilai null. |
+| ArgumentException | *sourceStream* tidak dapat dipindahkan. |
 | InvalidDataException | *sourceStream* bukan arsip xar yang valid. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak membongkar entri apa pun. Melihat[`Open`](../../xarfileentry/open/)metode unpacking.
+Konstruktor ini tidak mengekstrak entri apa pun. Lihat metode [`Open`](../../xarfileentry/open/) untuk mengekstrak.
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengekstrak semua entri ke direktori.
+Contoh berikut menunjukkan cara mengekstrak semua entri ke sebuah direktori.
 
 ```csharp
 using (var archive = new XarArchive(File.OpenRead("archive.xar")))
@@ -41,44 +77,51 @@ using (var archive = new XarArchive(File.OpenRead("archive.xar")))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [XarLoadOptions](../../xarloadoptions/)
 * class [XarArchive](../)
-* ruang nama [Aspose.Zip.Xar](../../xararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## XarArchive(string) {#constructor_1}
+## XarArchive(string, XarLoadOptions) {#constructor_2}
 
-Menginisialisasi instance baru dari[`XarArchive`](../) kelas dan menulis daftar entri dapat diekstraksi dari arsip.
+Menginisialisasi sebuah instance baru dari kelas [`XarArchive`](../) dan menyusun daftar entri yang dapat diekstrak dari arsip.
 
 ```csharp
-public XarArchive(string path)
+public XarArchive(string path, XarLoadOptions loadOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke file arsip. |
+| path | String | Jalur ke berkas arsip. |
+| loadOptions | XarLoadOptions | Opsi untuk memuat arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| InvalidDataException | File di *path* bukan arsip xar yang valid. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak membongkar entri apa pun. Melihat[`Open`](../../xarfileentry/open/)metode unpacking.
+Konstruktor ini tidak mengekstrak entri apa pun. Lihat metode [`Open`](../../xarfileentry/open/) untuk mengekstrak.
 
-### Contoh
+## Contoh
 
-Contoh berikut menunjukkan cara mengekstrak semua entri ke direktori.
+Contoh berikut menunjukkan cara mengekstrak semua entri ke sebuah direktori.
 
 ```csharp
 using (var archive = new XarArchive("archive.xar")) 
@@ -87,10 +130,11 @@ using (var archive = new XarArchive("archive.xar"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [XarLoadOptions](../../xarloadoptions/)
 * class [XarArchive](../)
-* ruang nama [Aspose.Zip.Xar](../../xararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

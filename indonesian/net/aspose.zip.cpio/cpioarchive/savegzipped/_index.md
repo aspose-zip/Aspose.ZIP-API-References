@@ -1,7 +1,7 @@
 ---
-title: CpioArchive.SaveGzipped
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioArchive metode. Menyimpan arsip ke aliran dengan kompresi gzip.
+title: "CpioArchive.SaveGzipped"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "CpioArchive metode. Menyimpan arsip ke aliran dengan kompresi gzip"
 type: docs
 weight: 90
 url: /id/net/aspose.zip.cpio/cpioarchive/savegzipped/
@@ -14,23 +14,24 @@ Menyimpan arsip ke aliran dengan kompresi gzip.
 public void SaveGzipped(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | output | Stream | Aliran tujuan. |
-| cpioFormat | CpioFormat | Mendefinisikan format tajuk cpio. |
+| cpioFormat | CpioFormat | Mendefinisikan format header cpio. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *output* adalah nol. |
+| ArgumentNullException | *output* adalah null. |
 | ArgumentException | *output* tidak dapat ditulis. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Perkataan
+## Catatan
 
-*output*harus dapat ditulis.
+*output* must be writable.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream result = File.OpenWrite("result.cpio.gz"))
@@ -46,29 +47,41 @@ using (FileStream result = File.OpenWrite("result.cpio.gz"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SaveGzipped(string, CpioFormat) {#savegzipped_1}
 
-Menyimpan arsip ke file dengan jalur dengan kompresi gzip.
+Menyimpan arsip ke file berdasarkan jalur dengan kompresi gzip.
 
 ```csharp
 public void SaveGzipped(string path, CpioFormat cpioFormat = CpioFormat.OldAscii)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
-| cpioFormat | CpioFormat | Mendefinisikan format tajuk cpio. |
+| path | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
+| cpioFormat | CpioFormat | Mendefinisikan format header cpio. |
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentException | *path* adalah string dengan panjang nol, hanya berisi spasi, atau berisi satu atau lebih karakter tidak valid sebagaimana didefinisikan oleh InvalidPathChars. |
+| ArgumentNullException | *path* adalah `null`. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, (misalnya, berada pada drive yang tidak dipetakan). |
+| IOException | Terjadi kesalahan I/O. |
+| PathTooLongException | Jalur, nama file, atau keduanya yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. |
+| UnauthorizedAccessException | Pemanggil tidak memiliki izin yang diperlukan. -atau- *path* menunjukkan file atau direktori hanya-baca. |
+
+## Contoh
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -81,11 +94,11 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

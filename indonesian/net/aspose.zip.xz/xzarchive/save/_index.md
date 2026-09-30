@@ -1,35 +1,36 @@
 ---
-title: XzArchive.Save
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XzArchive metode. Menyimpan arsip xz ke aliran yang disediakan.
+title: "XzArchive.Save"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode XzArchive. Menyimpan arsip xz ke aliran yang diberikan"
 type: docs
-weight: 40
+weight: 60
 url: /id/net/aspose.zip.xz/xzarchive/save/
 ---
 ## Save(Stream) {#save}
 
-Menyimpan arsip xz ke aliran yang disediakan.
+Menyimpan arsip xz ke stream yang disediakan.
 
 ```csharp
 public void Save(Stream output)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | output | Stream | Aliran tujuan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 | ArgumentException | *output* tidak mendukung pencarian. |
-| ArgumentNullException | *output* adalah nol. |
+| ArgumentNullException | *output* adalah null. |
 
-### Perkataan
+## Catatan
 
-*output* harus dapat dicari.
+*output* must be seekable.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
@@ -42,38 +43,41 @@ using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string) {#save_1}
 
-Menyimpan arsip xz ke file tujuan yang disediakan.
+Menyimpan arsip xz ke file tujuan yang diberikan.
 
 ```csharp
 public void Save(string destinationFileName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
+| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*destinationFileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*destinationFileName* ditolak. |
-| PathTooLongException | Yang ditentukan*destinationFileName*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*destinationFileName* berisi titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentNullException | *destinationFileName* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *destinationFileName* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *destinationFileName* ditolak. |
+| PathTooLongException | *destinationFileName* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File di *destinationFileName* berisi tanda titik dua (:) di tengah string. |
+| IOException | Terjadi kesalahan I/O saat membuka file. |
+| InvalidDataException | Dilemparkan ketika data tidak valid atau rusak. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new XzArchive()) 
@@ -83,10 +87,10 @@ using (var archive = new XzArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzArchive](../)
-* ruang nama [Aspose.Zip.Xz](../../xzarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

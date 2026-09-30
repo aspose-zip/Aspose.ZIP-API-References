@@ -1,29 +1,29 @@
 ---
-title: ArchiveEntrySettings.EncryptionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveEntrySettings Properti. Mendapat pengaturan untuk enkripsi atau dekripsi. Pengaturan entri tertentu dapat bervariasi.
+title: "ArchiveEntrySettings.EncryptionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveEntrySettings. Mendapatkan pengaturan untuk enkripsi atau dekripsi. Pengaturan untuk entri tertentu dapat bervariasi."
 type: docs
-weight: 30
+weight: 40
 url: /id/net/aspose.zip.saving/archiveentrysettings/encryptionsettings/
 ---
 ## ArchiveEntrySettings.EncryptionSettings property
 
-Mendapat pengaturan untuk enkripsi atau dekripsi. Pengaturan entri tertentu dapat bervariasi.
+Mendapatkan pengaturan untuk enkripsi atau dekripsi. Pengaturan untuk entri tertentu dapat bervariasi.
 
 ```csharp
 public EncryptionSettings EncryptionSettings { get; }
 ```
 
-### Perkataan
+## Catatan
 
 * **[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings/)**
 * **[`AesEcryptionSettings`](../../aesecryptionsettings/)**
 
-### Lihat juga
+### Lihat Juga
 
 * class [EncryptionSettings](../../encryptionsettings/)
 * class [ArchiveEntrySettings](../)
-* ruang nama [Aspose.Zip.Saving](../../archiveentrysettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archiveentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

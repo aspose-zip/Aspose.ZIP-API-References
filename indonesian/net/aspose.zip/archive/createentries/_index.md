@@ -1,36 +1,38 @@
 ---
-title: Archive.CreateEntries
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Archive metode. Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+title: "Archive.CreateEntries"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode arsip. Tambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan."
 type: docs
-weight: 40
+weight: 50
 url: /id/net/aspose.zip/archive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Tambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| directory | DirectoryInfo | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| directory | DirectoryInfo | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri disusun.
+Arsip dengan entri yang telah disusun.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| DirectoryNotFoundException | Jalan menuju*directory* tidak valid, seperti berada di drive yang belum dipetakan. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses*directory*. |
+| DirectoryNotFoundException | Jalur ke *directory* tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses *directory*. |
+| ObjectDisposedException | Dilempar jika arsip telah dibuang. |
+| ArgumentNullException | *directory* bernilai `null`. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (Archive archive = new Archive())
@@ -41,32 +43,41 @@ using (Archive archive = new Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Tambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| sourceDirectory | String | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| sourceDirectory | String | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri disusun.
+Arsip dengan entri yang telah disusun.
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Dilempar jika arsip telah dibuang. |
+| ArgumentException | *sourceDirectory* berisi karakter tidak valid seperti ", &lt;, &gt;, atau &#x7C;. |
+| ArgumentNullException | *sourceDirectory* adalah `null`. |
+| PathTooLongException | Jalur, nama file, atau keduanya yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. |
+
+## Contoh
 
 ```csharp
 using (Archive archive = new Archive())
@@ -76,10 +87,10 @@ using (Archive archive = new Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

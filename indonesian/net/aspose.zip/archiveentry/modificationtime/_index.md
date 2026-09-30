@@ -1,23 +1,23 @@
 ---
-title: ArchiveEntry.ModificationTime
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveEntry Properti. Mendapat atau menyetel tanggal dan waktu terakhir diubah.
+title: "ArchiveEntry.ModificationTime"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveEntry. Mendapatkan atau mengatur tanggal dan waktu terakhir dimodifikasi"
 type: docs
-weight: 50
+weight: 60
 url: /id/net/aspose.zip/archiveentry/modificationtime/
 ---
 ## ArchiveEntry.ModificationTime property
 
-Mendapat atau menyetel tanggal dan waktu terakhir diubah.
+Mendapatkan atau mengatur tanggal dan waktu terakhir diubah.
 
 ```csharp
 public DateTime ModificationTime { get; set; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../)
-* ruang nama [Aspose.Zip](../../archiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

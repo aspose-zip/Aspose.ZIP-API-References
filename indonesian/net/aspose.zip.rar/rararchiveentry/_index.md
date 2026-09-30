@@ -1,14 +1,14 @@
 ---
-title: Class RarArchiveEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Rar.RarArchiveEntry kelas. Merupakan file tunggal dalam arsip.
+title: "Kelas RarArchiveEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Rar.RarArchiveEntry. Mewakili satu file tunggal dalam arsip"
 type: docs
-weight: 320
+weight: 800
 url: /id/net/aspose.zip.rar/rararchiveentry/
 ---
 ## RarArchiveEntry class
 
-Merupakan file tunggal dalam arsip.
+Mewakili satu berkas dalam arsip.
 
 ```csharp
 public abstract class RarArchiveEntry : IArchiveFileEntry
@@ -16,38 +16,38 @@ public abstract class RarArchiveEntry : IArchiveFileEntry
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize/) { get; } | Mendapat ukuran file terkompresi. |
-| [CreationTime](../../aspose.zip.rar/rararchiveentry/creationtime/) { get; } | Mendapat tanggal dan waktu pembuatan. |
-| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Mendapat nilai yang menunjukkan apakah entri mewakili direktori. |
-| [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime/) { get; } | Mendapat tanggal dan waktu akses terakhir. |
-| [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime/) { get; } | Mendapatkan tanggal dan waktu terakhir diubah. |
-| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Mendapat nama entri dalam arsip. |
-| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Mendapat ukuran file asli. |
+| [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize/) { get; } | Mendapatkan ukuran file terkompresi. |
+| [CreationTime](../../aspose.zip.rar/rararchiveentry/creationtime/) { get; } | Mendapatkan tanggal dan waktu pembuatan. |
+| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori. |
+| [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime/) { get; } | Mendapatkan tanggal dan waktu akses terakhir. |
+| [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime/) { get; } | Mendapatkan tanggal dan waktu terakhir dimodifikasi. |
+| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Mendapatkan nama entri dalam arsip. |
+| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Mendapatkan ukuran file asli. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [Extract](../../aspose.zip.rar/rararchiveentry/extract/#extract_1)(Stream, string) | Mengekstrak entri ke aliran yang disediakan. |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract/#extract)(string, string) | Mengekstrak entri ke sistem file dengan jalur yang disediakan. |
-| [Open](../../aspose.zip.rar/rararchiveentry/open/)(string) | Membuka entri untuk ekstraksi dan menyediakan streaming dengan konten entri yang didekompresi. |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract/#extract)(string, string) | Mengekstrak entri ke sistem file menggunakan jalur yang disediakan. |
+| [Open](../../aspose.zip.rar/rararchiveentry/open/)(string) | Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri yang didekompresi. |
 
-## Acara
+## Peristiwa
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | Muncul saat sebagian aliran mentah diekstrak. |
+| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | Dipicu ketika sebagian aliran mentah diekstrak. |
 
-### Perkataan
+## Catatan
 
-Cast a`RarArchiveEntry` contoh ke[`RarArchiveEntryEncrypted`](../rararchiveentryencrypted/) untuk menentukan apakah entri dienkripsi atau tidak.
+Ubah tipe instance `RarArchiveEntry` menjadi [`RarArchiveEntryEncrypted`](../rararchiveentryencrypted/) untuk menentukan apakah entri terenkripsi atau tidak.
 
-### Lihat juga
+### Lihat Juga
 
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* ruang nama [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

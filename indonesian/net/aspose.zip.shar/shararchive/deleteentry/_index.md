@@ -1,36 +1,38 @@
 ---
-title: SharArchive.DeleteEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SharArchive metode. Menghapus kejadian pertama dari entri tertentu dari daftar entri.
+title: "SharArchive.DeleteEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SharArchive. Menghapus kemunculan pertama dari entri spesifik dari daftar entri"
 type: docs
 weight: 50
 url: /id/net/aspose.zip.shar/shararchive/deleteentry/
 ---
 ## DeleteEntry(SharEntry) {#deleteentry}
 
-Menghapus kejadian pertama dari entri tertentu dari daftar entri.
+Menghapus kemunculan pertama dari entri tertentu dalam daftar entri.
 
 ```csharp
 public SharArchive DeleteEntry(SharEntry entry)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entry | SharEntry | Entri untuk dihapus dari daftar entri. |
+| entri | SharEntry | Entri yang akan dihapus dari daftar entri. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Shar.
+Instance entri Shar.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *entry* adalah nol. |
+| ArgumentNullException | *entry* bernilai null. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Arsip ini dibuka untuk ekstraksi. |
 
-### Contoh
+## Contoh
 
-Inilah cara Anda dapat menghapus semua entri kecuali yang terakhir:
+Berikut cara Anda dapat menghapus semua entri kecuali yang terakhir:
 
 ```csharp
 using (var archive = new SharArchive("archive.shar"))
@@ -41,38 +43,40 @@ using (var archive = new SharArchive("archive.shar"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* ruang nama [Aspose.Zip.Shar](../../shararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Menghapus entri dari daftar entri menurut indeks.
+Menghapus entri dari daftar entri berdasarkan indeks.
 
 ```csharp
 public SharArchive DeleteEntry(int entryIndex)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entryIndex | Int32 | Indeks entri berbasis nol yang akan dihapus. |
+| entryIndex | Int32 | Indeks berbasis nol dari entri yang akan dihapus. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri dihapus.
+Arsip dengan entri yang dihapus.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* kurang dari 0,-atau-*entryIndex* sama dengan atau lebih besar dari`Entri` menghitung. |
+| ArgumentOutOfRangeException | *entryIndex* kurang dari 0.-atau- *entryIndex* sama dengan atau lebih besar dari jumlah `Entries` count. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Arsip ini dibuka untuk ekstraksi. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new SharArchive("two_files.shar"))
@@ -82,10 +86,10 @@ using (var archive = new SharArchive("two_files.shar"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharArchive](../)
-* ruang nama [Aspose.Zip.Shar](../../shararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

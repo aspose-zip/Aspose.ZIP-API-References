@@ -1,7 +1,7 @@
 ---
-title: XarEntry.LastWriteTime
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarEntry Properti. Mendapatkan waktu modifikasi file atau direktori.
+title: "XarEntry.LastWriteTime"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti XarEntry. Mendapatkan waktu modifikasi file atau direktori."
 type: docs
 weight: 50
 url: /id/net/aspose.zip.xar/xarentry/lastwritetime/
@@ -14,10 +14,10 @@ Mendapatkan waktu modifikasi file atau direktori.
 public DateTime LastWriteTime { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XarEntry](../)
-* ruang nama [Aspose.Zip.Xar](../../xarentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

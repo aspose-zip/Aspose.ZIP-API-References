@@ -1,7 +1,7 @@
 ---
-title: SevenZipStoreCompressionSettings.SevenZipStoreCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipStoreCompressionSettings konstruktor. Konstruktor default.
+title: "SevenZipStoreCompressionSettings.SevenZipStoreCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor SevenZipStoreCompressionSettings. Konstruktor default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/sevenzipstorecompressionsettings/sevenzipstorecompressionsettings/
@@ -14,10 +14,10 @@ Konstruktor default.
 public SevenZipStoreCompressionSettings()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipStoreCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../sevenzipstorecompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipstorecompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

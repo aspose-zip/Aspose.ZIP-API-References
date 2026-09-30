@@ -1,23 +1,23 @@
 ---
-title: LzipArchiveSettings.FastestSpeed
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: LzipArchiveSettings Properti. Mendapat instance dariLzipArchiveSettings class dengan ukuran kamus sama dengan 65536 byte di filter LZMA.
+title: "LzipArchiveSettings.FastestSpeed"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti LzipArchiveSettings. Mendapatkan instance dari kelas LzipArchiveSettings dengan ukuran kamus sebesar 65536 byte dalam filter LZMA"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.lzip/lziparchivesettings/fastestspeed/
 ---
 ## LzipArchiveSettings.FastestSpeed property
 
-Mendapat instance dari[`LzipArchiveSettings`](../) class dengan ukuran kamus sama dengan 65536 byte di filter LZMA.
+Mendapatkan instance dari kelas [`LzipArchiveSettings`](../) dengan ukuran kamus sebesar 65536 byte dalam filter LZMA.
 
 ```csharp
 public static LzipArchiveSettings FastestSpeed { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzipArchiveSettings](../)
-* ruang nama [Aspose.Zip.Lzip](../../lziparchivesettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

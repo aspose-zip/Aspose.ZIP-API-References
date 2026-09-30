@@ -1,22 +1,22 @@
 ---
-title: License.License
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: License konstruktor. Menginisialisasi instance baru dariLicense kelas.
+title: "License.License"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor License. Menginisialisasi sebuah instance baru dari kelas License"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/license/license/
 ---
 ## License constructor
 
-Menginisialisasi instance baru dari[`License`](../) kelas.
+Menginisialisasi sebuah instance baru dari kelas [`License`](../).
 
 ```csharp
 public License()
 ```
 
-### Contoh
+## Contoh
 
-Dalam contoh ini, upaya akan dilakukan untuk menemukan file lisensi bernama MyLicense.lic di folder yang berisi  komponen, di folder yang berisi rakitan pemanggil, di folder rakitan entri, lalu di sumber daya tertanam rakitan pemanggil.
+Dalam contoh ini, akan dicoba untuk menemukan berkas lisensi bernama MyLicense.lic di folder yang berisi komponen, di folder yang berisi assembly pemanggil, di folder assembly entri, dan kemudian di sumber daya tersemat dari assembly pemanggil.
 
 ```csharp
 [C#]
@@ -31,17 +31,17 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-file jar komponen:
+berkas jar komponen:
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [License](../)
-* ruang nama [Aspose.Zip](../../license/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../license/)
+* assembly [Aspose.Zip](../../../)
 
 

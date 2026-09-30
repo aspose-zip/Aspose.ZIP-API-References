@@ -1,9 +1,9 @@
 ---
-title: Class ProgressEventArgs
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.ProgressEventArgs kelas. Kelas untuk data peristiwa yang berisi jumlah byte yang diproses.
+title: "Kelas ProgressEventArgs"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.ProgressEventArgs. Kelas untuk data acara yang berisi jumlah byte yang diproses"
 type: docs
-weight: 300
+weight: 780
 url: /id/net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class
@@ -16,19 +16,19 @@ public class ProgressEventArgs : EventArgs
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [ProgressEventArgs](progresseventargs/)(ulong) | Menginisialisasi instance baru dari`ProgressEventArgs` kelas. |
+| [ProgressEventArgs](progresseventargs/)(ulong) | Menginisialisasi sebuah instance baru dari kelas `ProgressEventArgs`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [ProceededBytes](../../aspose.zip/progresseventargs/proceededbytes/) { get; } | Mendapatkan jumlah byte yang diproses. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip](../../aspose.zip/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

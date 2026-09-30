@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveEntrySettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.ArchiveEntrySettings kelas. Pengaturan yang digunakan untuk mengompres atau mendekompresi entri.
+title: "Kelas ArchiveEntrySettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.ArchiveEntrySettings. Pengaturan yang digunakan untuk mengompresi atau mendekompresi entri."
 type: docs
-weight: 370
+weight: 860
 url: /id/net/aspose.zip.saving/archiveentrysettings/
 ---
 ## ArchiveEntrySettings class
 
-Pengaturan yang digunakan untuk mengompres atau mendekompresi entri.
+Pengaturan yang digunakan untuk mengompresi atau mendekompresi entri.
 
 ```csharp
 public class ArchiveEntrySettings
@@ -16,20 +16,21 @@ public class ArchiveEntrySettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [ArchiveEntrySettings](archiveentrysettings/)(CompressionSettings, EncryptionSettings) | Menginisialisasi instance baru dari`ArchiveEntrySettings` kelas. |
+| [ArchiveEntrySettings](archiveentrysettings/)(CompressionSettings, EncryptionSettings) | Menginisialisasi instance baru dari kelas `ArchiveEntrySettings`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [CompressionSettings](../../aspose.zip.saving/archiveentrysettings/compressionsettings/) { get; } | Mendapat pengaturan untuk rutin kompresi atau dekompresi. |
-| [EncryptionSettings](../../aspose.zip.saving/archiveentrysettings/encryptionsettings/) { get; } | Mendapat pengaturan untuk enkripsi atau dekripsi. Pengaturan entri tertentu dapat bervariasi. |
+| [Comment](../../aspose.zip.saving/archiveentrysettings/comment/) { get; set; } | Komentar untuk entri dalam arsip ZIP. |
+| [CompressionSettings](../../aspose.zip.saving/archiveentrysettings/compressionsettings/) { get; } | Mendapatkan pengaturan untuk rutin kompresi atau dekompresi. |
+| [EncryptionSettings](../../aspose.zip.saving/archiveentrysettings/encryptionsettings/) { get; } | Mendapatkan pengaturan untuk enkripsi atau dekripsi. Pengaturan untuk entri tertentu dapat bervariasi. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

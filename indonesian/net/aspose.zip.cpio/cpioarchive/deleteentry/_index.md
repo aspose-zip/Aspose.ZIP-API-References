@@ -1,36 +1,37 @@
 ---
-title: CpioArchive.DeleteEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioArchive metode. Menghapus kejadian pertama dari entri tertentu dari daftar entri.
+title: "CpioArchive.DeleteEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "CpioArchive metode. Menghapus kemunculan pertama dari entri spesifik dari daftar entri"
 type: docs
 weight: 50
 url: /id/net/aspose.zip.cpio/cpioarchive/deleteentry/
 ---
 ## DeleteEntry(CpioEntry) {#deleteentry}
 
-Menghapus kejadian pertama dari entri tertentu dari daftar entri.
+Menghapus kemunculan pertama dari entri tertentu dalam daftar entri.
 
 ```csharp
 public CpioArchive DeleteEntry(CpioEntry entry)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entry | CpioEntry | Entri untuk dihapus dari daftar entri. |
+| entri | CpioEntry | Entri yang akan dihapus dari daftar entri. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Cpio.
+Instansi entri Cpio.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *entry* adalah nol. |
+| ArgumentNullException | *entry* bernilai null. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Contoh
 
-Inilah cara Anda dapat menghapus semua entri kecuali yang terakhir:
+Berikut cara Anda dapat menghapus semua entri kecuali yang terakhir:
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))
@@ -41,38 +42,39 @@ using (var archive = new CpioArchive("archive.cpio"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Menghapus entri dari daftar entri menurut indeks.
+Menghapus entri dari daftar entri berdasarkan indeks.
 
 ```csharp
 public CpioArchive DeleteEntry(int entryIndex)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entryIndex | Int32 | Indeks entri berbasis nol yang akan dihapus. |
+| entryIndex | Int32 | Indeks berbasis nol dari entri yang akan dihapus. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri dihapus.
+Arsip dengan entri yang dihapus.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* kurang dari 0,-atau-*entryIndex* sama dengan atau lebih besar dari`Entri` menghitung. |
+| ArgumentOutOfRangeException | *entryIndex* kurang dari 0.-atau- *entryIndex* sama dengan atau lebih besar dari jumlah `Entries` count. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new CpioArchive("two_files.cpio"))
@@ -82,10 +84,10 @@ using (var archive = new CpioArchive("two_files.cpio"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

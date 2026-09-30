@@ -1,7 +1,7 @@
 ---
-title: SevenZipBZip2CompressionSettings.BlockSize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipBZip2CompressionSettings Properti. Ukuran blok dalam ratusan kilobyte.
+title: "SevenZipBZip2CompressionSettings.BlockSize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipBZip2CompressionSettings. Ukuran blok dalam ratusan kilobyte"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.saving/sevenzipbzip2compressionsettings/blocksize/
@@ -14,10 +14,10 @@ Ukuran blok dalam ratusan kilobyte.
 public int BlockSize { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipBZip2CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../sevenzipbzip2compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipbzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: SharArchive.CreateEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SharArchive metode. Buat satu entri dalam arsip.
+title: "SharArchive.CreateEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SharArchive. Membuat satu entri dalam arsip"
 type: docs
 weight: 40
 url: /id/net/aspose.zip.shar/shararchive/createentry/
@@ -14,29 +14,31 @@ Buat satu entri dalam arsip.
 public SharEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
 | fileInfo | FileInfo | Metadata file atau folder yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Shar.
+Instance entri Shar.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *name* adalah nol. |
+| ArgumentNullException | *name* bernilai null. |
 | ArgumentException | *name* kosong. |
-| ArgumentNullException | *fileInfo* adalah nol. |
+| ArgumentNullException | *fileInfo* bernilai null. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | arsip ini dibuka untuk ekstraksi. |
 
-### Perkataan
+## Catatan
 
-Jika file segera dibuka dengan*openImmediately*parameter itu menjadi diblokir sampai arsip dibuang.
+Jika file dibuka segera dengan parameter *openImmediately*, file akan diblokir sampai arsip dibuang.
 
-### Contoh
+## Contoh
 
 ```csharp
 FileInfo fileInfo = new FileInfo("data.bin");
@@ -47,12 +49,12 @@ using (var archive = new SharArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* ruang nama [Aspose.Zip.Shar](../../shararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -64,34 +66,36 @@ Buat satu entri dalam arsip.
 public SharEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| sourcePath | String | Path ke file yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
+| sourcePath | String | Jalur ke file yang akan dikompres. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Shar.
+Instance entri Shar.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *sourcePath* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*sourcePath* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. - atau - Nama file, sebagai bagian dari*name*, melebihi 100 simbol. |
-| UnauthorizedAccessException | Akses ke file*sourcePath* ditolak. |
-| PathTooLongException | Yang ditentukan*sourcePath* , nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. - atau -*name* terlalu panjang untuk shar. |
-| NotSupportedException | Berkas di*sourcePath* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *sourcePath* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *sourcePath* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. - atau - Nama file, sebagai bagian dari *name*, melebihi 100 simbol. |
+| UnauthorizedAccessException | Akses ke file *sourcePath* ditolak. |
+| PathTooLongException | *sourcePath* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. - atau - *name* terlalu panjang untuk shar. |
+| NotSupportedException | File di *sourcePath* mengandung tanda titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Arsip ini dibuka untuk ekstraksi. |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*sourcePath* parameter tidak mempengaruhi nama entri.
+Nama entri hanya ditetapkan melalui parameter *name*. Nama file yang diberikan dalam parameter *sourcePath* tidak memengaruhi nama entri.
 
-Jika file segera dibuka dengan*openImmediately*parameter itu menjadi diblokir sampai arsip dibuang.
+Jika file dibuka segera dengan parameter *openImmediately*, file akan diblokir sampai arsip dibuang.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new SharArchive())
@@ -101,12 +105,12 @@ using (var archive = new SharArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* ruang nama [Aspose.Zip.Shar](../../shararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -118,24 +122,26 @@ Buat satu entri dalam arsip.
 public SharEntry CreateEntry(string name, Stream source)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| source | Stream | Aliran input untuk entri. |
+| source | Stream | Aliran masukan untuk entri. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri Shar.
+Instance entri Shar.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *name* adalah nol. |
-| ArgumentNullException | *source* adalah nol. |
+| ArgumentNullException | *name* bernilai null. |
+| ArgumentNullException | *source* bernilai null. |
 | ArgumentException | *name* kosong. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Arsip ini dibuka untuk ekstraksi. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new SharArchive())
@@ -145,11 +151,11 @@ using (var archive = new SharArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* ruang nama [Aspose.Zip.Shar](../../shararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

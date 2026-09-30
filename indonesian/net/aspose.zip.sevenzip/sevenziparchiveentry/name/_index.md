@@ -1,23 +1,23 @@
 ---
-title: SevenZipArchiveEntry.Name
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchiveEntry Properti. Mendapat nama entri dalam arsip.
+title: "SevenZipArchiveEntry.Name"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipArchiveEntry. Mengembalikan nama entri di dalam arsip"
 type: docs
 weight: 50
 url: /id/net/aspose.zip.sevenzip/sevenziparchiveentry/name/
 ---
 ## SevenZipArchiveEntry.Name property
 
-Mendapat nama entri dalam arsip.
+Mendapatkan nama entri dalam arsip.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

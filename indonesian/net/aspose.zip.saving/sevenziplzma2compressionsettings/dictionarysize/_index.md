@@ -1,27 +1,27 @@
 ---
-title: SevenZipLZMA2CompressionSettings.DictionarySize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipLZMA2CompressionSettings Properti. Ukuran kamus history buffer menunjukkan berapa banyak byte dari data terkompresi yang baru diproses yang disimpan di memori.
+title: "SevenZipLZMA2CompressionSettings.DictionarySize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipLZMA2CompressionSettings. Ukuran buffer riwayat kamus menunjukkan berapa byte data tidak terkompresi yang baru diproses disimpan dalam memori."
 type: docs
-weight: 20
+weight: 30
 url: /id/net/aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize/
 ---
 ## SevenZipLZMA2CompressionSettings.DictionarySize property
 
-Ukuran kamus (history buffer) menunjukkan berapa banyak byte dari data terkompresi yang baru diproses yang disimpan di memori.
+Ukuran kamus (buffer riwayat) menunjukkan berapa byte data tidak terkompresi yang baru-baru ini diproses yang disimpan dalam memori.
 
 ```csharp
 public int DictionarySize { get; }
 ```
 
-### Perkataan
+## Catatan
 
-Semakin besar kamusnya, biasanya semakin baik rasio kompresinya, tetapi kamus yang lebih besar dari data yang tidak terkompresi adalah pemborosan RAM.
+Semakin besar kamus, biasanya rasio kompresi semakin baik - tetapi kamus yang lebih besar daripada data tidak terkompresi merupakan pemborosan RAM.
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipLZMA2CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: Bzip2CompressionSettings.BlockSize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Bzip2CompressionSettings Properti. Ukuran blok dalam ratusan kilobyte.
+title: "Bzip2CompressionSettings.BlockSize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti Bzip2CompressionSettings. Ukuran blok dalam ratusan kilobyte"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.saving/bzip2compressionsettings/blocksize/
@@ -14,10 +14,10 @@ Ukuran blok dalam ratusan kilobyte.
 public int BlockSize { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

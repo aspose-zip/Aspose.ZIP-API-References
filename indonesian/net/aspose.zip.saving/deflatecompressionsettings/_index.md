@@ -1,14 +1,14 @@
 ---
-title: Class DeflateCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.DeflateCompressionSettings kelas. Pengaturan untuk metode kompresi Deflate.
+title: "Kelas DeflateCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.DeflateCompressionSettings. Pengaturan untuk kompresi Deflate dalam arsip ZIP"
 type: docs
-weight: 410
+weight: 900
 url: /id/net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class
 
-Pengaturan untuk metode kompresi Deflate.
+Pengaturan untuk kompresi Deflate dalam arsip ZIP.
 
 ```csharp
 public class DeflateCompressionSettings : CompressionSettings
@@ -16,20 +16,18 @@ public class DeflateCompressionSettings : CompressionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [DeflateCompressionSettings](deflatecompressionsettings/)() | Menginisialisasi instance baru dari`DeflateCompressionSettings` kelas. |
+| [DeflateCompressionSettings](deflatecompressionsettings/)() | Menginisialisasi sebuah instance baru dari kelas `DeflateCompressionSettings`. |
 
-### Perkataan
+## Catatan
 
 Deflate adalah algoritma kompresi data lossless yang menggunakan kombinasi algoritma LZ77 dan pengkodean Huffman.
 
-Lihat standar di sini: https://tools.ietf.org/html/rfc1951
-
-### Lihat juga
+### Lihat Juga
 
 * class [CompressionSettings](../compressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

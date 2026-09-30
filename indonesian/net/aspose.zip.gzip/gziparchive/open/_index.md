@@ -1,9 +1,9 @@
 ---
-title: GzipArchive.Open
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: GzipArchive metode. Membuka arsip untuk ekstraksi dan menyediakan aliran dengan konten arsip.
+title: "GzipArchive.Open"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode GzipArchive. Membuka arsip untuk ekstraksi dan menyediakan aliran dengan konten arsip"
 type: docs
-weight: 50
+weight: 70
 url: /id/net/aspose.zip.gzip/gziparchive/open/
 ---
 ## GzipArchive.Open method
@@ -14,42 +14,50 @@ Membuka arsip untuk ekstraksi dan menyediakan aliran dengan konten arsip.
 public Stream Open()
 ```
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Aliran yang mewakili konten arsip.
+Stream yang mewakili isi arsip.
 
-### Perkataan
+### Pengecualian
 
-Baca dari aliran untuk mendapatkan konten asli file. Lihat bagian contoh.
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Catatan
 
-Ekstrak arsip dan salin konten yang diekstraksi ke aliran file.
+Baca dari *stream* untuk mendapatkan konten asli sebuah file. Lihat bagian contoh.
 
-Anda dapat menggunakan metode Stream.CopyTo untuk .NET 4.0 dan lebih tinggi:
+## Contoh
 
-```csharp
-unpacked.CopyTo(extracted);
-```
+Mengekstrak arsip dan menyalin konten yang diekstrak ke aliran file.
 
 ```csharp
 using (var archive = new GzipArchive("archive.gz"))
 {
     using (var extracted = File.Create("data.bin"))
     {
-        var unpacked = archive.Open();
-        byte[] b = new byte[8192];
-        int bytesRead;
-        while (0 < (bytesRead = unpacked.Read(b, 0, b.Length)))
-            extracted.Write(b, 0, bytesRead);
+        using(var unpacked = archive.Open())
+        {
+            byte[] b = new byte[8192];
+            int bytesRead;
+            while (0 < (bytesRead = unpacked.Read(b, 0, b.Length)))
+                extracted.Write(b, 0, bytesRead);
+        }
     }            
 }
 ```
 
-### Lihat juga
+Anda dapat menggunakan metode Stream.CopyTo untuk .NET 4.0 ke atas:
+
+```csharp
+unpacked.CopyTo(extracted);
+```
+
+### Lihat Juga
 
 * class [GzipArchive](../)
-* ruang nama [Aspose.Zip.Gzip](../../gziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 
