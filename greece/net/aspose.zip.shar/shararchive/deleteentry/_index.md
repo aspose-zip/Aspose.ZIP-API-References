@@ -1,14 +1,14 @@
 ---
-title: SharArchive.DeleteEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SharArchive μέθοδος. Καταργεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρισης από τη λίστα καταχωρήσεων.
+title: "SharArchive.DeleteEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "SharArchive method. Αφαιρεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρησης από τη λίστα καταχωρήσεων"
 type: docs
 weight: 50
 url: /el/net/aspose.zip.shar/shararchive/deleteentry/
 ---
 ## DeleteEntry(SharEntry) {#deleteentry}
 
-Καταργεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρισης από τη λίστα καταχωρήσεων.
+Αφαιρεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρησης από τη λίστα καταχωρήσεων.
 
 ```csharp
 public SharArchive DeleteEntry(SharEntry entry)
@@ -16,21 +16,23 @@ public SharArchive DeleteEntry(SharEntry entry)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| entry | SharEntry | Η καταχώρηση προς κατάργηση από τη λίστα καταχωρήσεων. |
+| καταχώρηση | SharEntry | Η καταχώρηση που θα αφαιρεθεί από τη λίστα καταχωρήσεων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής Shar.
+Παράδειγμα καταχώρησης Shar.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *entry* είναι μηδενικό. |
+| ArgumentNullException | *entry* είναι null. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| InvalidOperationException | Αυτό το αρχείο είναι ανοιχτό για εξαγωγή. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Δείτε πώς μπορείτε να αφαιρέσετε όλες τις καταχωρήσεις εκτός από την τελευταία:
+Ακολουθεί ο τρόπος για να αφαιρέσετε όλες τις καταχωρήσεις εκτός από την τελευταία:
 
 ```csharp
 using (var archive = new SharArchive("archive.shar"))
@@ -45,14 +47,14 @@ using (var archive = new SharArchive("archive.shar"))
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Shar](../../shararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Αφαιρεί την καταχώρηση από τη λίστα καταχωρήσεων κατά ευρετήριο.
+Αφαιρεί την καταχώρηση από τη λίστα καταχωρίσεων με βάση το δείκτη.
 
 ```csharp
 public SharArchive DeleteEntry(int entryIndex)
@@ -60,19 +62,21 @@ public SharArchive DeleteEntry(int entryIndex)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| entryIndex | Int32 | Το μηδενικό ευρετήριο της καταχώρισης προς κατάργηση. |
+| entryIndex | Int32 | Ο μηδενικός δείκτης της καταχώρησης που θα αφαιρεθεί. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αρχείο με την καταχώρηση διαγράφηκε.
+Το αρχείο με τη διαγραμμένη καταχώρηση.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* είναι μικρότερο από 0.-ή-*entryIndex* είναι ίσο ή μεγαλύτερο από`Συμμετοχές` μετρώ. |
+| ArgumentOutOfRangeException | *entryIndex* είναι μικρότερο του 0.-ή- *entryIndex* είναι ίσο ή μεγαλύτερο από τον αριθμό των `Entries` count. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| InvalidOperationException | Αυτό το αρχείο είναι ανοιχτό για εξαγωγή. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new SharArchive("two_files.shar"))
@@ -85,7 +89,7 @@ using (var archive = new SharArchive("two_files.shar"))
 ### Δείτε επίσης
 
 * class [SharArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Shar](../../shararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

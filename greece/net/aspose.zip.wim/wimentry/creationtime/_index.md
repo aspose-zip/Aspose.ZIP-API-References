@@ -1,14 +1,14 @@
 ---
-title: WimEntry.CreationTime
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimEntry ιδιοκτησία. Λαμβάνει το χρόνο δημιουργίας του αρχείου ή του καταλόγου.
+title: "WimEntry.CreationTime"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "WimEntry ιδιότητα. Λαμβάνει το χρόνο δημιουργίας του αρχείου ή του φακέλου"
 type: docs
 weight: 40
 url: /el/net/aspose.zip.wim/wimentry/creationtime/
 ---
 ## WimEntry.CreationTime property
 
-Λαμβάνει το χρόνο δημιουργίας του αρχείου ή του καταλόγου.
+Λαμβάνει την ώρα δημιουργίας του αρχείου ή του φακέλου.
 
 ```csharp
 public DateTime CreationTime { get; }
@@ -17,7 +17,7 @@ public DateTime CreationTime { get; }
 ### Δείτε επίσης
 
 * class [WimEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

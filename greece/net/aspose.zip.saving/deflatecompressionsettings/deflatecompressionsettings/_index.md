@@ -1,20 +1,20 @@
 ---
-title: DeflateCompressionSettings.DeflateCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: DeflateCompressionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουDeflateCompressionSettings τάξη.
+title: "DeflateCompressionSettings.DeflateCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής DeflateCompressionSettings. Δημιουργεί ένα νέο παράδειγμα της κλάσης DeflateCompressionSettings."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/deflatecompressionsettings/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings constructor
 
-Αρχικοποιεί μια νέα παρουσία του[`DeflateCompressionSettings`](../) τάξη.
+Δημιουργεί ένα νέο παράδειγμα της κλάσης [`DeflateCompressionSettings`](../).
 
 ```csharp
 public DeflateCompressionSettings()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new DeflateCompressionSettings())))
@@ -27,7 +27,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new DeflateCompres
 ### Δείτε επίσης
 
 * class [DeflateCompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../deflatecompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../deflatecompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

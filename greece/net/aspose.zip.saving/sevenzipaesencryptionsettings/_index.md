@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipAESEncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.SevenZipAESEncryptionSettings τάξη. Ρυθμίσεις για αλγόριθμο κρυπτογράφησης ή αποκρυπτογράφησης AES.
+title: "Κλάση SevenZipAESEncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.SevenZipAESEncryptionSettings. Ρυθμίσεις για τον αλγόριθμο κρυπτογράφησης ή αποκρυπτογράφησης AES εντός αρχείου 7z."
 type: docs
-weight: 510
+weight: 1010
 url: /el/net/aspose.zip.saving/sevenzipaesencryptionsettings/
 ---
 ## SevenZipAESEncryptionSettings class
 
-Ρυθμίσεις για αλγόριθμο κρυπτογράφησης ή αποκρυπτογράφησης AES.
+Ρυθμίσεις για αλγόριθμο κρυπτογράφησης ή αποκρυπτογράφησης AES μέσα σε αρχείο 7z.
 
 ```csharp
 public class SevenZipAESEncryptionSettings : SevenZipEncryptionSettings
@@ -16,21 +16,22 @@ public class SevenZipAESEncryptionSettings : SevenZipEncryptionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings/#constructor)(SevenZipCipher) | Αρχικοποιεί μια νέα παρουσία του`SevenZipAESEncryptionSettings` τάξη με εξωτερικό κρυπτογράφηση. |
-| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία του`SevenZipAESEncryptionSettings` τάξη. |
+| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings/#constructor)(SevenZipCipher) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `SevenZipAESEncryptionSettings` με εξωτερικό κρυπτογράφημα. |
+| [SevenZipAESEncryptionSettings](sevenzipaesencryptionsettings/#constructor_1)(string) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `SevenZipAESEncryptionSettings`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Password](../../aspose.zip.saving/sevenzipencryptionsettings/password/) { get; set; } | Λαμβάνει ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
+| [EncryptHeader](../../aspose.zip.saving/sevenzipencryptionsettings/encryptheader/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει κρυπτογράφηση κεφαλίδας. |
+| [Password](../../aspose.zip.saving/sevenzipencryptionsettings/password/) { get; set; } | Αποκτά ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
 
 ### Δείτε επίσης
 
 * class [SevenZipEncryptionSettings](../sevenzipencryptionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

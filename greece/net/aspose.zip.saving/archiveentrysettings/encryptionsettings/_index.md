@@ -1,20 +1,20 @@
 ---
-title: ArchiveEntrySettings.EncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveEntrySettings ιδιοκτησία. Λαμβάνει ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρισης ενδέχεται να διαφέρουν.
+title: "ArchiveEntrySettings.EncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveEntrySettings. Λαμβάνει τις ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρησης μπορεί να διαφέρουν."
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip.saving/archiveentrysettings/encryptionsettings/
 ---
 ## ArchiveEntrySettings.EncryptionSettings property
 
-Λαμβάνει ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρισης ενδέχεται να διαφέρουν.
+Αποκτά ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρησης μπορεί να διαφέρουν.
 
 ```csharp
 public EncryptionSettings EncryptionSettings { get; }
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
 * **[`TraditionalEncryptionSettings`](../../traditionalencryptionsettings/)**
 * **[`AesEcryptionSettings`](../../aesecryptionsettings/)**
@@ -23,7 +23,7 @@ public EncryptionSettings EncryptionSettings { get; }
 
 * class [EncryptionSettings](../../encryptionsettings/)
 * class [ArchiveEntrySettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../archiveentrysettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archiveentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

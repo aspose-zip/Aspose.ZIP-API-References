@@ -1,14 +1,14 @@
 ---
-title: Class RarArchive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Rar.RarArchive τάξη. Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχειοθέτησης RAR. Χρησιμοποιήστε το για εξαγωγή αρχείων RAR.
+title: "Κλάση RarArchive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Rar.RarArchive κλάση. Αυτή η κλάση αντιπροσωπεύει ένα αρχείο RAR. Χρησιμοποιήστε την για να εξάγετε αρχεία RAR."
 type: docs
-weight: 310
+weight: 790
 url: /el/net/aspose.zip.rar/rararchive/
 ---
 ## RarArchive class
 
-Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχειοθέτησης RAR. Χρησιμοποιήστε το για εξαγωγή αρχείων RAR.
+Αυτή η κλάση αντιπροσωπεύει ένα αρχείο RAR. Χρησιμοποιήστε την για την εξαγωγή αρχείων RAR.
 
 ```csharp
 public class RarArchive : IArchive
@@ -16,28 +16,28 @@ public class RarArchive : IArchive
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [RarArchive](rararchive/#constructor)(Stream, RarArchiveLoadOptions) | Αρχικοποιεί μια νέα παρουσία του`RarArchive` Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο. |
-| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Αρχικοποιεί μια νέα παρουσία του`RarArchive` Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο. |
+| [RarArchive](rararchive/#constructor)(Stream, RarArchiveLoadOptions) | Αρχικοποιεί μια νέα παρουσία της κλάσης `RarArchive` και συνθέτει μια λίστα καταχωρήσεων που μπορεί να εξαχθεί από το αρχείο. |
+| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Αρχικοποιεί μια νέα παρουσία της κλάσης `RarArchive` και συνθέτει μια λίστα καταχωρήσεων που μπορεί να εξαχθεί από το αρχείο. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Entries](../../aspose.zip.rar/rararchive/entries/) { get; } | Λαμβάνει καταχωρήσεις του[`RarArchiveEntry`](../rararchiveentry/) τύπος που αποτελεί το αρχείο rar. |
+| [Entries](../../aspose.zip.rar/rararchive/entries/) { get; } | Λαμβάνει τις καταχωρήσεις τύπου [`RarArchiveEntry`](../rararchiveentry/) που αποτελούν το αρχείο RAR. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Dispose](../../aspose.zip.rar/rararchive/dispose/)() | Εκτελεί εργασίες που καθορίζονται από την εφαρμογή που σχετίζονται με την απελευθέρωση, την απελευθέρωση ή την επαναφορά μη διαχειριζόμενων πόρων. |
-| [ExtractToDirectory](../../aspose.zip.rar/rararchive/extracttodirectory/#extracttodirectory)(string) | Εξάγει όλα τα αρχεία στο αρχείο στον παρεχόμενο κατάλογο. |
+| [Dispose](../../aspose.zip.rar/rararchive/dispose/)() | Εκτελεί εργασίες ορισμένες από την εφαρμογή που σχετίζονται με την απελευθέρωση, την αποδέσμευση ή την επαναφορά μη διαχειριζόμενων πόρων. |
+| [ExtractToDirectory](../../aspose.zip.rar/rararchive/extracttodirectory/#extracttodirectory)(string) | Εξάγει όλα τα αρχεία στην αρχειοθήκη στον παρεχόμενο κατάλογο. |
 
 ### Δείτε επίσης
 
 * interface [IArchive](../../aspose.zip/iarchive/)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

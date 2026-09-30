@@ -1,14 +1,14 @@
 ---
-title: Archive.CreateEntries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Archive μέθοδος. Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται.
+title: "Archive.CreateEntries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος Archive. Προσθέτει στο αρχείο όλα τα αρχεία και τους φακέλους αναδρομικά στον δοσμένο φάκελο."
 type: docs
-weight: 40
+weight: 50
 url: /el/net/aspose.zip/archive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται.
+Προσθέτει στην αρχειοθήκη όλα τα αρχεία και τους καταλόγους αναδρομικά στον δοσμένο κατάλογο.
 
 ```csharp
 public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
@@ -16,21 +16,23 @@ public Archive CreateEntries(DirectoryInfo directory, bool includeRootDirectory 
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| directory | DirectoryInfo | Κατάλογος για συμπίεση. |
-| includeRootDirectory | Boolean | Υποδεικνύει εάν θα συμπεριληφθεί ο ίδιος ο ριζικός κατάλογος ή όχι. |
+| directory | DirectoryInfo | Φάκελος προς συμπίεση. |
+| includeRootDirectory | Boolean | Δείχνει αν θα συμπεριληφθεί ο ριζικός φάκελος ή όχι. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αρχείο με τις καταχωρήσεις που έχουν συντεθεί.
+Το αρχείο με τις συντεθειμένες καταχωρήσεις.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| DirectoryNotFoundException | Το μονοπάτι προς*directory* δεν είναι έγκυρο, όπως είναι σε μη αντιστοιχισμένη μονάδα δίσκου. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης*directory*. |
+| DirectoryNotFoundException | Η διαδρομή προς *directory* είναι άκυρη, όπως όταν βρίσκεται σε μη συνδεδεμένο δίσκο. |
+| SecurityException | Ο καλούντας δεν διαθέτει την απαιτούμενη άδεια πρόσβασης στο *directory*. |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
+| ArgumentNullException | *directory* είναι `null`. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (Archive archive = new Archive())
@@ -44,14 +46,14 @@ using (Archive archive = new Archive())
 ### Δείτε επίσης
 
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται.
+Προσθέτει στην αρχειοθήκη όλα τα αρχεία και τους καταλόγους αναδρομικά στον δοσμένο κατάλογο.
 
 ```csharp
 public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
@@ -59,14 +61,23 @@ public Archive CreateEntries(string sourceDirectory, bool includeRootDirectory =
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| sourceDirectory | String | Κατάλογος για συμπίεση. |
-| includeRootDirectory | Boolean | Υποδεικνύει εάν θα συμπεριληφθεί ο ίδιος ο ριζικός κατάλογος ή όχι. |
+| sourceDirectory | String | Φάκελος προς συμπίεση. |
+| includeRootDirectory | Boolean | Δείχνει αν θα συμπεριληφθεί ο ριζικός φάκελος ή όχι. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αρχείο με τις καταχωρήσεις που έχουν συντεθεί.
+Το αρχείο με τις συντεθειμένες καταχωρήσεις.
 
-### Παραδείγματα
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
+| ArgumentException | *sourceDirectory* περιέχει μη έγκυρους χαρακτήρες όπως ", &lt;, &gt;, ή &#x7C;. |
+| ArgumentNullException | *sourceDirectory* είναι `null`. |
+| PathTooLongException | Η καθορισμένη διαδρομή, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. |
+
+## Παραδείγματα
 
 ```csharp
 using (Archive archive = new Archive())
@@ -79,7 +90,7 @@ using (Archive archive = new Archive())
 ### Δείτε επίσης
 
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

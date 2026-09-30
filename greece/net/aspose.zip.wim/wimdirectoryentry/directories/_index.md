@@ -1,14 +1,14 @@
 ---
-title: WimDirectoryEntry.Directories
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimDirectoryEntry ιδιοκτησία. Λαμβάνει καταχωρήσεις τουWimDirectoryEntry τύπος που αποτελεί τον κατάλογο.
+title: "WimDirectoryEntry.Directories"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα WimDirectoryEntry. Λαμβάνει καταχωρήσεις τύπου WimDirectoryEntry που αποτελούν τον κατάλογο"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.wim/wimdirectoryentry/directories/
 ---
 ## WimDirectoryEntry.Directories property
 
-Λαμβάνει καταχωρήσεις του[`WimDirectoryEntry`](../) τύπος που αποτελεί τον κατάλογο.
+Λαμβάνει καταχωρήσεις τύπου [`WimDirectoryEntry`](../) που αποτελούν τον κατάλογο.
 
 ```csharp
 public ReadOnlyCollection<WimDirectoryEntry> Directories { get; }
@@ -17,7 +17,7 @@ public ReadOnlyCollection<WimDirectoryEntry> Directories { get; }
 ### Δείτε επίσης
 
 * class [WimDirectoryEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimdirectoryentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimdirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

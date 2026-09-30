@@ -1,17 +1,18 @@
 ---
-title: Aspose.Zip.Gzip
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ΤοGzip Ο χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν το αρχείο gzip.
+title: "Aspose.Zip.Gzip"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ο χώρος ονομάτων Gzip περιέχει κλάσεις που αντιπροσωπεύουν το αρχείο gzip."
 type: docs
-weight: 70
+weight: 120
 url: /el/net/aspose.zip.gzip/
 ---
-ΤοGzip Ο χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν το αρχείο gzip.
+Ο χώρος ονομάτων Gzip περιέχει κλάσεις που αντιπροσωπεύουν το αρχείο gzip.
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [GzipArchive](./gziparchive/) | Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχειοθέτησης gzip. Χρησιμοποιήστε το για να συνθέσετε ή να εξαγάγετε αρχεία gzip. |
+| [GzipArchive](./gziparchive/) | Αυτή η κλάση αντιπροσωπεύει ένα αρχείο gzip. Χρησιμοποιήστε την για τη δημιουργία ή την εξαγωγή αρχείων gzip. |
+| [GzipLoadOptions](./gziploadoptions/) | Επιλογές για τη φόρτωση του [`GzipArchive`](../aspose.zip.gzip/gziparchive/). |
 
 

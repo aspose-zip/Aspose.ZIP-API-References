@@ -1,29 +1,29 @@
 ---
-title: ArchiveLoadOptions.DecryptionPassword
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveLoadOptions ιδιοκτησία. Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση των εγγραφών.
+title: "ArchiveLoadOptions.DecryptionPassword"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveLoadOptions. Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση των καταχωρήσεων"
 type: docs
-weight: 20
+weight: 30
 url: /el/net/aspose.zip/archiveloadoptions/decryptionpassword/
 ---
 ## ArchiveLoadOptions.DecryptionPassword property
 
-Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση των εγγραφών.
+Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση των καταχωρίσεων.
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
-Μπορείτε να δώσετε κωδικό αποκρυπτογράφησης μία φορά κατά την εξαγωγή αρχείου.
+Μπορείτε να παρέχετε τον κωδικό αποκρυπτογράφησης μία φορά κατά την εξαγωγή του αρχείου.
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.zip"))
 {
     using (var extracted = File.Create("extracted.bin"))
     {
-        using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
+        using (var archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
         {
             using (var decompressed = archive.Entries[0].Open())
             {
@@ -42,7 +42,7 @@ using (FileStream fs = File.OpenRead("encrypted_archive.zip"))
 
 * method [Open](../../archiveentry/open/)
 * class [ArchiveLoadOptions](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveloadoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

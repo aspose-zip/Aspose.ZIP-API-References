@@ -1,28 +1,28 @@
 ---
-title: SevenZipEntrySettings.EncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipEntrySettings ιδιοκτησία. Λαμβάνει ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρισης ενδέχεται να διαφέρουν.
+title: "SevenZipEntrySettings.EncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipEntrySettings. Λαμβάνει τις ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρησης μπορεί να διαφέρουν."
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip.saving/sevenzipentrysettings/encryptionsettings/
 ---
 ## SevenZipEntrySettings.EncryptionSettings property
 
-Λαμβάνει ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρισης ενδέχεται να διαφέρουν.
+Αποκτά ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρησης μπορεί να διαφέρουν.
 
 ```csharp
 public SevenZipEncryptionSettings EncryptionSettings { get; }
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings/) είναι μόνο η επιλογή των αρχείων 7Z.
+Το [`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptsettings/) είναι η μοναδική επιλογή για αρχεία 7Z.
 
 ### Δείτε επίσης
 
 * class [SevenZipEncryptionSettings](../../sevenzipencryptionsettings/)
 * class [SevenZipEntrySettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipentrysettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

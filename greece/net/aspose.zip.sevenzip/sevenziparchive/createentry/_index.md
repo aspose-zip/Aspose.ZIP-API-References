@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive.CreateEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipArchive μέθοδος. Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+title: "SevenZipArchive.CreateEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος SevenZipArchive. Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη"
 type: docs
 weight: 50
 url: /el/net/aspose.zip.sevenzip/sevenziparchive/createentry/
 ---
-## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, bool, SevenZipEntrySettings) {#createentry_1}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo, 
@@ -17,32 +17,34 @@ public SevenZipArchiveEntry CreateEntry(string name, FileInfo fileInfo,
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
-| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου που πρόκειται να συμπιεστούν. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
-| newEntrySettings | SevenZipEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) είδος. |
+| name | String | Το όνομα της καταχώρησης. |
+| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου που θα συμπιεστεί. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
+| newEntrySettings | SevenZipEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`SevenZipArchiveEntry`](../../sevenziparchiveentry/). Οι ατομικές ρυθμίσεις συμπίεσης αγνοούνται σε περίπτωση συμπαγούς συμπίεσης, δείτε [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισόδου επτά Zip.
+Παράδειγμα αντικειμένου Seven Zip.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| UnauthorizedAccessException | *fileInfo* είναι μόνο για ανάγνωση ή είναι κατάλογος. |
-| DirectoryNotFoundException | Η καθορισμένη διαδρομή δεν είναι έγκυρη, όπως είναι σε μη αντιστοιχισμένη μονάδα δίσκου. |
+| UnauthorizedAccessException | *fileInfo* είναι μόνο για ανάγνωση ή είναι ένας φάκελος. |
+| ArgumentException | Το *name* είναι null ή κενό. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
 | IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*fileInfo* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *fileInfo* δεν επηρεάζει το όνομα της καταχώρησης.
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately* η παράμετρος αποκλείεται μέχρι να αποθηκευτεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να αποθηκευτεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Σύνθεση αρχείου με καταχωρήσεις κρυπτογραφημένες με διαφορετικούς κωδικούς πρόσβασης η καθεμία.
+Δημιουργήστε μια αρχειοθήκη με καταχωρήσεις κρυπτογραφημένες με διαφορετικούς κωδικούς πρόσβασης.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -65,14 +67,14 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_2}
+## CreateEntry(string, Stream, SevenZipEntrySettings, FileSystemInfo) {#createentry_3}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, Stream source, 
@@ -81,30 +83,32 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
+| name | String | Το όνομα της καταχώρησης. |
 | source | Stream | Η ροή εισόδου για την καταχώρηση. |
-| newEntrySettings | SevenZipEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) είδος. |
-| fileInfo | FileSystemInfo | Τα μεταδεδομένα του αρχείου ή του φακέλου που πρόκειται να συμπιεστούν. |
+| newEntrySettings | SevenZipEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`SevenZipArchiveEntry`](../../sevenziparchiveentry/). Οι ατομικές ρυθμίσεις συμπίεσης αγνοούνται σε περίπτωση συμπαγούς συμπίεσης, δείτε [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
+| fileInfo | FileSystemInfo | Τα μεταδεδομένα του αρχείου ή φακέλου που θα συμπιεστεί. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής SevenZip.
+Παράδειγμα αντικειμένου SevenZip.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidOperationException | Και τα δυο*source* και*fileInfo* είναι μηδενικά ή*source*είναι μηδενικό και*fileInfo* σημαίνει κατάλογος. |
+| InvalidOperationException | Τόσο *source* όσο και *fileInfo* είναι `null` ή *source* είναι `null` και *fileInfo* αντιπροσωπεύει φάκελο. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentException | Το *name* είναι null ή κενό. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*fileInfo* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *fileInfo* δεν επηρεάζει το όνομα της καταχώρησης.
 
-*fileInfo* μπορεί να αναφέρεται σεDirectoryInfo εάν η καταχώρηση είναι κατάλογος.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Σύνθεση αρχείου με συμπιεσμένη κρυπτογραφημένη καταχώρηση LZMA2.
+Δημιουργήστε μια αρχειοθήκη με καταχώρηση κρυπτογραφημένη και συμπιεσμένη με LZMA2.
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -122,14 +126,67 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_1}
+## CreateEntry(string, Func&lt;Stream&gt;, SevenZipEntrySettings) {#createentry}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
+
+```csharp
+public SevenZipArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    SevenZipEntrySettings newEntrySettings = null)
+```
+
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| name | String | Το όνομα της καταχώρησης. |
+| streamProvider | Func`1 | Η μέθοδος που παρέχει ροή εισόδου για την καταχώρηση. |
+| newEntrySettings | SevenZipEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`SevenZipArchiveEntry`](../../sevenziparchiveentry/). Οι ατομικές ρυθμίσεις συμπίεσης αγνοούνται σε περίπτωση συμπαγούς συμπίεσης, δείτε [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
+
+### Τιμή Επιστροφής
+
+Παράδειγμα αντικειμένου SevenZip.
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| InvalidOperationException | Η αρχειοθήκη δημιουργείται για αποσυμπίεση |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentException | Το *name* είναι null ή κενό. |
+
+## Παραδείγματα
+
+Δημιουργήστε μια αρχειοθήκη με καταχώρηση κρυπτογραφημένη και συμπιεσμένη με LZMA2.
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
+{
+    using (var archive = new SevenZipArchive())
+    {
+        archive.CreateEntry("entry1.bin", provider, new SevenZipEntrySettings(new SevenZipLZMA2CompressionSettings(), new SevenZipAESEncryptionSettings("test1"))); 
+        archive.Save(sevenZipFile);
+    }
+}
+```
+
+### Δείτε επίσης
+
+* class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
+* class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
+* class [SevenZipArchive](../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Stream, SevenZipEntrySettings) {#createentry_2}
+
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, Stream source, 
@@ -138,17 +195,24 @@ public SevenZipArchiveEntry CreateEntry(string name, Stream source,
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
+| name | String | Το όνομα της καταχώρησης. |
 | source | Stream | Η ροή εισόδου για την καταχώρηση. |
-| newEntrySettings | SevenZipEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) είδος. |
+| newEntrySettings | SevenZipEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`SevenZipArchiveEntry`](../../sevenziparchiveentry/). Οι ατομικές ρυθμίσεις συμπίεσης αγνοούνται σε περίπτωση συμπαγούς συμπίεσης, δείτε [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισόδου zip.
+Παράδειγμα καταχώρησης Zip.
 
-### Παραδείγματα
+### Εξαιρέσεις
 
-Σύνθεση αρχείου 7z με συμπίεση LZMA2 και κρυπτογράφηση όλων των καταχωρήσεων.
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentException | Το *name* είναι null ή κενό. |
+
+## Παραδείγματα
+
+Δημιουργήστε μια αρχειοθήκη 7z με συμπίεση LZMA2 και κρυπτογράφηση όλων των καταχωρήσεων.
 
 ```csharp
 using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMA2CompressionSettings(), new SevenZipAESEncryptionSettings("p@s$"))))
@@ -163,14 +227,14 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipL
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_3}
+## CreateEntry(string, string, bool, SevenZipEntrySettings) {#createentry_4}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmediately = false, 
@@ -179,33 +243,34 @@ public SevenZipArchiveEntry CreateEntry(string name, string path, bool openImmed
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
-| path | String | Το πλήρως αναγνωρισμένο όνομα του νέου αρχείου ή το σχετικό όνομα αρχείου που πρόκειται να συμπιεστεί. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
-| newEntrySettings | SevenZipEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) είδος. |
+| name | String | Το όνομα της καταχώρησης. |
+| διαδρομή | String | Το πλήρως προσδιορισμένο όνομα του νέου αρχείου, ή το σχετικό όνομα αρχείου που θα συμπιεστεί. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
+| newEntrySettings | SevenZipEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`SevenZipArchiveEntry`](../../sevenziparchiveentry/). Οι ατομικές ρυθμίσεις συμπίεσης αγνοούνται σε περίπτωση συμπαγούς συμπίεσης, δείτε [`Solid`](../../../aspose.zip.saving/sevenzipentrysettings/solid/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισόδου zip.
+Παράδειγμα καταχώρησης Zip.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *path* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. - ή - Το *name* είναι null ή κενό. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*path* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *path* δεν επηρεάζει το όνομα της καταχώρησης.
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately* η παράμετρος αποκλείεται μέχρι να αποθηκευτεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να αποθηκευτεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -223,7 +288,7 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

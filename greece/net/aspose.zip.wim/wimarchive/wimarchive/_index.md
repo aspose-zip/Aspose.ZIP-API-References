@@ -1,38 +1,42 @@
 ---
-title: WimArchive.WimArchive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimArchive κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουWimArchive Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο.
+title: "WimArchive.WimArchive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "WimArchive κατασκευαστής. Αρχικοποιεί μια νέα παρουσία της κλάσης WimArchive και συνθέτει μια λίστα καταχωρήσεων που μπορούν να εξαχθούν από το αρχείο"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.wim/wimarchive/wimarchive/
 ---
-## WimArchive(Stream) {#constructor}
+## WimArchive(Stream, WimLoadOptions) {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`WimArchive`](../) Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`WimArchive`](../) και συνθέτει μια λίστα καταχωρήσεων που μπορούν να εξαχθούν από το αρχείο.
 
 ```csharp
-public WimArchive(Stream sourceStream)
+public WimArchive(Stream sourceStream, WimLoadOptions loadOptions = null)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| sourceStream | Stream | Η πηγή του αρχείου. Πρέπει να είναι αναζητήσιμο. |
+| sourceStream | Stream | Η πηγή του αρχείου. Πρέπει να είναι δυνατότητα αναζήτησης. |
+| loadOptions | WimLoadOptions | Επιλογές για τη φόρτωση υπάρχοντος αρχείου. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *sourceStream* είναι μηδενικό. |
-| ArgumentException | *sourceStream* δεν είναι αναζητήσιμο. |
+| ArgumentNullException | *sourceStream* είναι null. |
+| ArgumentException | *sourceStream* δεν είναι δυνατόν να γίνει αναζήτηση. |
 | InvalidDataException | *sourceStream* δεν είναι έγκυρο αρχείο wim. |
+| EndOfStreamException | Εκτοξεύεται όταν το τέλος της ροής επιτυγχάνεται πριν διαβαστούν ο αριθμός των αναμενόμενων byte. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
+| NotSupportedException | Η κεφαλίδα υποδεικνύει αρχείο πολλαπλών τμημάτων. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτός ο κατασκευαστής δεν αποσυσκευάζει καμία καταχώρηση. Βλέπω[`Open`](../../wimfileentry/open/)μέθοδος αποσυσκευασίας.
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει καμία καταχώρηση. Δείτε τη μέθοδο [`Open`](../../wimfileentry/open/) για αποσυμπίεση.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να εξαγάγετε όλες τις εγγραφές σε έναν κατάλογο.
+Το παρακάτω παράδειγμα δείχνει πώς να εξάγετε όλες τις καταχωρήσεις σε έναν φάκελο.
 
 ```csharp
 using (var archive = new WimArchive(File.OpenRead("archive.wim")))
@@ -43,42 +47,49 @@ using (var archive = new WimArchive(File.OpenRead("archive.wim")))
 
 ### Δείτε επίσης
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## WimArchive(string) {#constructor_1}
+## WimArchive(string, WimLoadOptions) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`WimArchive`](../) Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`WimArchive`](../) και συνθέτει μια λίστα καταχωρήσεων που μπορούν να εξαχθούν από το αρχείο.
 
 ```csharp
-public WimArchive(string path)
+public WimArchive(string path, WimLoadOptions loadOptions = null)
 ```
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο αρχειοθέτησης. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο αρχειοθήκης. |
+| loadOptions | WimLoadOptions | Επιλογές για τη φόρτωση υπάρχοντος αρχείου. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| EndOfStreamException | Εκτοξεύεται όταν το τέλος της ροής επιτυγχάνεται πριν διαβαστούν ο αριθμός των αναμενόμενων byte. |
+| InvalidDataException | Η κεφαλίδα υποδεικνύει αρχείο πολλαπλών τμημάτων. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτός ο κατασκευαστής δεν αποσυσκευάζει καμία καταχώρηση. Βλέπω[`Open`](../../wimfileentry/open/)μέθοδος αποσυσκευασίας.
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει καμία καταχώρηση. Δείτε τη μέθοδο [`Open`](../../wimfileentry/open/) για αποσυμπίεση.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να εξαγάγετε όλες τις εγγραφές σε έναν κατάλογο.
+Το παρακάτω παράδειγμα δείχνει πώς να εξάγετε όλες τις καταχωρήσεις σε έναν φάκελο.
 
 ```csharp
 using (var archive = new WimArchive("archive.wim")) 
@@ -89,8 +100,9 @@ using (var archive = new WimArchive("archive.wim"))
 
 ### Δείτε επίσης
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

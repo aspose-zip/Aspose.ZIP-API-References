@@ -1,14 +1,14 @@
 ---
-title: IArchiveFileEntry.Extract
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: IArchiveFileEntry μέθοδος. Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+title: "IArchiveFileEntry.Extract"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος IArchiveFileEntry. Εξάγει την καταχώρηση στο σύστημα αρχείων με τη διαδρομή που παρέχεται"
 type: docs
 weight: 30
 url: /el/net/aspose.zip/iarchivefileentry/extract/
 ---
 ## Extract(string) {#extract}
 
-Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή.
 
 ```csharp
 public FileInfo Extract(string path)
@@ -16,23 +16,34 @@ public FileInfo Extract(string path)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-FileInfo παράδειγμα που περιέχει εξαγόμενα δεδομένα.
+Παράδειγμα FileInfo που περιέχει τα εξαγόμενα δεδομένα.
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
 
 ### Δείτε επίσης
 
 * interface [IArchiveFileEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../iarchivefileentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(Stream) {#extract_1}
 
-Εξάγει την καταχώρηση στη ροή που παρέχεται.
+Εξάγει την καταχώρηση στη δοθείσα ροή.
 
 ```csharp
 public void Extract(Stream destination)
@@ -40,12 +51,18 @@ public void Extract(Stream destination)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμο. |
+| προορισμός | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμη. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentException | *destination* δεν υποστηρίζει εγγραφή. |
 
 ### Δείτε επίσης
 
 * interface [IArchiveFileEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../iarchivefileentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

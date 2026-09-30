@@ -1,14 +1,14 @@
 ---
-title: TarEntry.Extract
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: TarEntry μέθοδος. Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+title: "TarEntry.Extract"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "TarEntry μέθοδος. Εξάγει την καταχώριση στο σύστημα αρχείων με τη διαδρομή που παρέχεται"
 type: docs
-weight: 40
+weight: 60
 url: /el/net/aspose.zip.tar/tarentry/extract/
 ---
 ## Extract(string) {#extract}
 
-Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή.
 
 ```csharp
 public FileSystemInfo Extract(string path)
@@ -16,24 +16,28 @@ public FileSystemInfo Extract(string path)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Οι πληροφορίες αρχείου του σύνθετου αρχείου.
+Οι πληροφορίες του συντιθέμενου αρχείου.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -45,14 +49,14 @@ using (var archive = new TarArchive("archive.tar"))
 ### Δείτε επίσης
 
 * class [TarEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tarentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(Stream) {#extract_1}
 
-Εξάγει την καταχώρηση στη ροή που παρέχεται.
+Εξάγει την καταχώρηση στη δοθείσα ροή.
 
 ```csharp
 public void Extract(Stream destination)
@@ -60,17 +64,18 @@ public void Extract(Stream destination)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμο. |
+| προορισμός | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμη. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentException | *destination* δεν υποστηρίζει τη γραφή. |
+| ArgumentException | *destination* δεν υποστηρίζει εγγραφή. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εξαγωγή μιας καταχώρησης αρχείου πίσσας.
+Εξάγετε μια καταχώριση του αρχείου tar.
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -82,7 +87,7 @@ using (var archive = new TarArchive("archive.tar"))
 ### Δείτε επίσης
 
 * class [TarEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tarentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

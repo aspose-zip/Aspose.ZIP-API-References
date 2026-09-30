@@ -1,14 +1,14 @@
 ---
-title: XarEntry.CreationTime
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XarEntry ιδιοκτησία. Λαμβάνει το χρόνο δημιουργίας του αρχείου ή του καταλόγου.
+title: "XarEntry.CreationTime"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα XarEntry. Λαμβάνει την ώρα δημιουργίας του αρχείου ή του φακέλου"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.xar/xarentry/creationtime/
 ---
 ## XarEntry.CreationTime property
 
-Λαμβάνει το χρόνο δημιουργίας του αρχείου ή του καταλόγου.
+Λαμβάνει την ώρα δημιουργίας του αρχείου ή του φακέλου.
 
 ```csharp
 public DateTime CreationTime { get; }
@@ -17,7 +17,7 @@ public DateTime CreationTime { get; }
 ### Δείτε επίσης
 
 * class [XarEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Xar](../../xarentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

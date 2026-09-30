@@ -1,9 +1,9 @@
 ---
-title: MeteredLicense.GetConsumptionCredit
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: MeteredLicense μέθοδος. Λαμβάνει πίστωση κατανάλωσης.
+title: "MeteredLicense.GetConsumptionCredit"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος MeteredLicense. Λαμβάνει την πίστωση κατανάλωσης"
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip/meteredlicense/getconsumptioncredit/
 ---
 ## MeteredLicense.GetConsumptionCredit method
@@ -14,14 +14,14 @@ url: /el/net/aspose.zip/meteredlicense/getconsumptioncredit/
 public static decimal GetConsumptionCredit()
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-ποσότητα κατανάλωσης
+Επιστρέφει τον αριθμό των καταναλωμένων πόντων πίστωσης.
 
 ### Δείτε επίσης
 
 * class [MeteredLicense](../)
-* χώρος ονομάτων [Aspose.Zip](../../meteredlicense/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

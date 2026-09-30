@@ -1,22 +1,22 @@
 ---
-title: RarArchiveLoadOptions.DecryptionPassword
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchiveLoadOptions ιδιοκτησία. Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση εγγραφών και ονομάτων καταχώρισης.
+title: "RarArchiveLoadOptions.DecryptionPassword"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα RarArchiveLoadOptions. Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση των καταχωρήσεων και των ονομάτων τους"
 type: docs
-weight: 20
+weight: 30
 url: /el/net/aspose.zip.rar/rararchiveloadoptions/decryptionpassword/
 ---
 ## RarArchiveLoadOptions.DecryptionPassword property
 
-Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση εγγραφών και ονομάτων καταχώρισης.
+Λαμβάνει ή ορίζει τον κωδικό πρόσβασης για την αποκρυπτογράφηση των καταχωρήσεων και των ονομάτων καταχωρήσεων.
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
-Μπορείτε να δώσετε κωδικό αποκρυπτογράφησης μία φορά κατά την εξαγωγή αρχείου.
+Μπορείτε να παρέχετε τον κωδικό αποκρυπτογράφησης μία φορά κατά την εξαγωγή του αρχείου.
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
@@ -42,7 +42,7 @@ using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
 
 * method [Open](../../rararchiveentry/open/)
 * class [RarArchiveLoadOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveloadoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

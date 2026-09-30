@@ -1,9 +1,9 @@
 ---
-title: LzipArchive.Save
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: LzipArchive μέθοδος. Αποθηκεύει το αρχείο lzip στη ροή που παρέχεται.
+title: "LzipArchive.Save"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος LzipArchive. Αποθηκεύει το αρχείο lzip στην παρεχόμενη ροή."
 type: docs
-weight: 50
+weight: 70
 url: /el/net/aspose.zip.lzip/lziparchive/save/
 ---
 ## Save(Stream) {#save_1}
@@ -20,16 +20,18 @@ public void Save(Stream outputStream)
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 | ArgumentException | *outputStream* δεν υποστηρίζει την αναζήτηση. |
-| ArgumentNullException | *outputStream* είναι μηδενικό. |
+| ArgumentNullException | *outputStream* είναι null. |
+| IOException | Παρουσιάστηκε σφάλμα I/O. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-*outputStream* πρέπει να είναι αναζητήσιμο.
+*outputStream* must be seekable.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream lzFile = File.Open("archive.lz", FileMode.Create))
@@ -45,14 +47,14 @@ using (FileStream lzFile = File.Open("archive.lz", FileMode.Create))
 ### Δείτε επίσης
 
 * class [LzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string) {#save_2}
 
-Αποθηκεύει το αρχείο lzip στο παρεχόμενο αρχείο προορισμού.
+Αποθηκεύει το αρχείο lzip στο προσαρτημένο αρχείο προορισμού.
 
 ```csharp
 public void Save(string destinationFileName)
@@ -60,20 +62,22 @@ public void Save(string destinationFileName)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου παραπέμπει σε ένα υπάρχον αρχείο, θα αντικατασταθεί. |
+| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου δείχνει σε υπάρχον αρχείο, θα αντικατασταθεί. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*destinationFileName* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*destinationFileName* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*destinationFileName*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*destinationFileName* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentNullException | *destinationFileName* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *destinationFileName* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *destinationFileName* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *destinationFileName*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες στα Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *destinationFileName* περιέχει άνω-κάθετο (: ) στη μέση της συμβολοσειράς. |
+| IOException | Παρουσιάστηκε σφάλμα I/O κατά το άνοιγμα του αρχείου. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new LzipArchive()) 
@@ -86,14 +90,14 @@ using (var archive = new LzipArchive())
 ### Δείτε επίσης
 
 * class [LzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(FileInfo) {#save}
 
-Αποθηκεύει το αρχείο lzip στο παρεχόμενο αρχείο προορισμού.
+Αποθηκεύει το αρχείο lzip στο προσαρτημένο αρχείο προορισμού.
 
 ```csharp
 public void Save(FileInfo destination)
@@ -101,21 +105,22 @@ public void Save(FileInfo destination)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | FileInfo | FileInfo που θα ανοίξει ως ροή προορισμού. |
+| προορισμός | FileInfo | FileInfo, το οποίο θα ανοιχτεί ως ροή προορισμού. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια για να ανοίξει το*destination*. |
-| ArgumentException | Η διαδρομή αρχείου είναι κενή ή περιέχει μόνο λευκά κενά. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| SecurityException | Το πρόγραμμα που καλεί δεν έχει την απαιτούμενη άδεια για το άνοιγμα του *destination*. |
+| ArgumentException | Η διαδρομή του αρχείου είναι κενή ή περιέχει μόνο κενά διαστήματα. |
 | FileNotFoundException | Το αρχείο δεν βρέθηκε. |
 | UnauthorizedAccessException | Η διαδρομή προς το αρχείο είναι μόνο για ανάγνωση ή είναι κατάλογος. |
-| ArgumentNullException | *destination* είναι μηδενικό. |
-| DirectoryNotFoundException | Η καθορισμένη διαδρομή δεν είναι έγκυρη, όπως είναι σε μη αντιστοιχισμένη μονάδα δίσκου. |
+| ArgumentNullException | *destination* είναι null. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
 | IOException | Το αρχείο είναι ήδη ανοιχτό. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new LzipArchive()) 
@@ -128,7 +133,7 @@ using (var archive = new LzipArchive())
 ### Δείτε επίσης
 
 * class [LzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

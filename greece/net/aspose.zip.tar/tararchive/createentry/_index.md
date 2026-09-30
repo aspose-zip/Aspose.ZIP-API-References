@@ -1,14 +1,14 @@
 ---
-title: TarArchive.CreateEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: TarArchive μέθοδος. Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+title: "TarArchive.CreateEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος TarArchive. Δημιουργεί μια μοναδική καταχώρηση μέσα στο αρχείο"
 type: docs
-weight: 80
+weight: 110
 url: /el/net/aspose.zip.tar/tararchive/createentry/
 ---
 ## CreateEntry(string, Stream, FileSystemInfo) {#createentry_1}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo = null)
@@ -16,28 +16,29 @@ public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo 
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
+| name | String | Το όνομα της καταχώρησης. |
 | source | Stream | Η ροή εισόδου για την καταχώρηση. |
-| fileInfo | FileSystemInfo | Τα μεταδεδομένα του αρχείου ή του φακέλου που πρόκειται να συμπιεστούν. |
+| fileInfo | FileSystemInfo | Τα μεταδεδομένα του αρχείου ή φακέλου που θα συμπιεστεί. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής πίσσας.
+Παράδειγμα καταχώρησης Tar.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| PathTooLongException | *name* είναι πολύ μεγάλη για την πίσσα από το πρότυπο IEEE 1003.1-1998. |
-| ArgumentException | Όνομα αρχείου, ως μέρος του*name*, υπερβαίνει τα 100 σύμβολα. |
+| PathTooLongException | *name* είναι πολύ μεγάλο για tar σύμφωνα με το πρότυπο IEEE 1003.1-1998. |
+| ArgumentException | Το όνομα αρχείου, ως μέρος του *name*, υπερβαίνει τα 100 σύμβολα. |
+| ObjectDisposedException | Το αρχείο έχει απελευθερωθεί και δεν μπορεί να χρησιμοποιηθεί |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*fileInfo* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *fileInfo* δεν επηρεάζει το όνομα της καταχώρησης.
 
-*fileInfo* μπορεί να αναφέρεται σεDirectoryInfo εάν η καταχώρηση είναι κατάλογος.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new TarArchive())
@@ -51,14 +52,14 @@ using (var archive = new TarArchive())
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -66,30 +67,31 @@ public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
-| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου ή του φακέλου που πρόκειται να συμπιεστούν. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
+| name | String | Το όνομα της καταχώρησης. |
+| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου ή φακέλου που θα συμπιεστεί. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής πίσσας.
+Παράδειγμα καταχώρησης Tar.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| PathTooLongException | *name* είναι πολύ μεγάλη για την πίσσα από το πρότυπο IEEE 1003.1-1998. |
-| ArgumentException | Όνομα αρχείου, ως μέρος του*name*, υπερβαίνει τα 100 σύμβολα. |
+| PathTooLongException | *name* είναι πολύ μεγάλο για tar σύμφωνα με το πρότυπο IEEE 1003.1-1998. |
+| ArgumentException | Το όνομα αρχείου, ως μέρος του *name*, υπερβαίνει τα 100 σύμβολα. |
+| ObjectDisposedException | Το αρχείο έχει απελευθερωθεί και δεν μπορεί να χρησιμοποιηθεί |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*fileInfo* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *fileInfo* δεν επηρεάζει το όνομα της καταχώρησης.
 
-*fileInfo* μπορεί να αναφέρεται σεDirectoryInfo εάν η καταχώρηση είναι κατάλογος.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately*η παράμετρος αποκλείεται μέχρι να διατεθεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να απελευθερωθεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 FileInfo fi = new FileInfo("data.bin");
@@ -104,14 +106,14 @@ using (var archive = new TarArchive())
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public TarEntry CreateEntry(string name, string path, bool openImmediately = false)
@@ -119,32 +121,33 @@ public TarEntry CreateEntry(string name, string path, bool openImmediately = fal
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
-| path | String | Διαδρομή προς το αρχείο που θα συμπιεστεί. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
+| name | String | Το όνομα της καταχώρησης. |
+| διαδρομή | String | Διαδρομή προς το αρχείο που θα συμπιεστεί. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής πίσσας.
+Παράδειγμα καταχώρησης Tar.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. - ή - Όνομα αρχείου, ως μέρος του*name*, υπερβαίνει τα 100 σύμβολα. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path* , όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. - ή -*name* είναι πολύ μεγάλη για την πίσσα από το πρότυπο IEEE 1003.1-1998. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *path* είναι κενό, περιέχει μόνο κενά ή περιέχει μη έγκυρους χαρακτήρες. - ή - Το όνομα αρχείου, ως μέρος του *name*, υπερβαίνει τα 100 σύμβολα. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες Windows, τα μονοπάτια πρέπει να είναι μικρότερα από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. - ή - *name* είναι πολύ μεγάλο για tar σύμφωνα με το πρότυπο IEEE 1003.1-1998. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει απελευθερωθεί και δεν μπορεί να χρησιμοποιηθεί |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*path* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *path* δεν επηρεάζει το όνομα της καταχώρησης.
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately*η παράμετρος αποκλείεται μέχρι να διατεθεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να απελευθερωθεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new TarArchive())
@@ -158,7 +161,7 @@ using (var archive = new TarArchive())
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

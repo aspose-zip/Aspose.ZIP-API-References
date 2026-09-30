@@ -1,14 +1,14 @@
 ---
-title: GzipArchive.SetSource
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: GzipArchive μέθοδος. Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου.
+title: "GzipArchive.SetSource"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "GzipArchive μέθοδος. Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο"
 type: docs
-weight: 70
+weight: 90
 url: /el/net/aspose.zip.gzip/gziparchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_2}
 
-Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου.
+Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο.
 
 ```csharp
 public void SetSource(Stream source)
@@ -18,7 +18,13 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | Η ροή εισόδου για το αρχείο. |
 
-### Παραδείγματα
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+
+## Παραδείγματα
 
 ```csharp
 using (var archive = new GzipArchive())
@@ -31,14 +37,14 @@ using (var archive = new GzipArchive())
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource_1}
 
-Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου.
+Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
@@ -46,11 +52,15 @@ public void SetSource(FileInfo fileInfo)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileInfo | FileInfo | Η αναφορά σε ένα αρχείο που πρόκειται να συμπιεστεί. |
+| fileInfo | FileInfo | Η αναφορά σε ένα αρχείο που θα συμπιεστεί. |
 
-### Παραδείγματα
+### Εξαιρέσεις
 
-Ανοίξτε ένα αρχείο από μια ροή και εξαγάγετε το σε ένα`MemoryStream`
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+
+## Παραδείγματα
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -63,14 +73,14 @@ using (var archive = new GzipArchive())
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_3}
 
-Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου.
+Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο.
 
 ```csharp
 public void SetSource(string path)
@@ -78,22 +88,21 @@ public void SetSource(string path)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Διαδρομή προς το αρχείο που θα συμπιεστεί. |
+| διαδρομή | String | Διαδρομή προς το αρχείο που θα συμπιεστεί. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
-
-Ανοίξτε ένα αρχείο από αρχείο προς διαδρομή και εξαγάγετε το στο a`MemoryStream`
+## Παραδείγματα
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -106,14 +115,14 @@ using (var archive = new GzipArchive())
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(TarArchive) {#setsource}
 
-Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου.
+Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο.
 
 ```csharp
 public void SetSource(TarArchive tarArchive)
@@ -121,13 +130,19 @@ public void SetSource(TarArchive tarArchive)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| tarArchive | TarArchive | Αρχείο πίσσας για συμπίεση. |
+| tarArchive | TarArchive | Αρχείο Tar προς συμπίεση. |
 
-### Παρατηρήσεις
+### Εξαιρέσεις
 
-Χρησιμοποιήστε αυτήν τη μέθοδο για να δημιουργήσετε κοινό αρχείο tar.gz.
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
+## Παρατηρήσεις
+
+Χρησιμοποιήστε αυτή τη μέθοδο για να δημιουργήσετε ένα ενιαίο αρχείο tar.gz.
+
+## Παραδείγματα
 
 ```csharp
 using (var tarArchive = new TarArchive())
@@ -146,7 +161,7 @@ using (var tarArchive = new TarArchive())
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive/)
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

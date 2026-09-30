@@ -1,24 +1,24 @@
 ---
-title: RarArchiveEntry.ExtractionProgressed
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchiveEntry Εκδήλωση. Αυξάνεται όταν εξάγεται ένα τμήμα της ακατέργαστης ροής.
+title: "RarArchiveEntry.ExtractionProgressed"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Γεγονός RarArchiveEntry. Ενεργοποιείται όταν εξάγεται ένα τμήμα του ακατέργαστου ρεύματος"
 type: docs
 weight: 80
 url: /el/net/aspose.zip.rar/rararchiveentry/extractionprogressed/
 ---
 ## RarArchiveEntry.ExtractionProgressed event
 
-Αυξάνεται όταν εξάγεται ένα τμήμα της ακατέργαστης ροής.
+Ενεργοποιείται όταν ένα τμήμα ακατέργαστης ροής εξάγεται.
 
 ```csharp
 public event EventHandler<ProgressEventArgs> ExtractionProgressed;
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Ο αποστολέας συμβάντος είναι ένας[`RarArchiveEntry`](../) παράδειγμα.
+Ο αποστολέας του γεγονότος είναι μια παρουσία του [`RarArchiveEntry`](../).
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 archive.Entries[0].ExtractionProgressed += (s, e) => {  int percent = (int)((100 * e.ProceededBytes) / ((RarArchiveEntry)s).UncompressedSize); };
@@ -28,7 +28,7 @@ archive.Entries[0].ExtractionProgressed += (s, e) => {  int percent = (int)((100
 
 * class [ProgressEventArgs](../../../aspose.zip/progresseventargs/)
 * class [RarArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

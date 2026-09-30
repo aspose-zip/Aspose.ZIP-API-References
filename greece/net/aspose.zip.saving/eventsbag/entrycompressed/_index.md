@@ -1,14 +1,14 @@
 ---
-title: EventsBag.EntryCompressed
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: EventsBag Εκδήλωση. Αυξάνεται μετά τη συμπίεση μιας καταχώρησης αρχείου.
+title: "EventsBag.EntryCompressed"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Συμβάν EventsBag. Ενεργοποιείται μετά τη συμπίεση μιας καταχώρησης αρχείου."
 type: docs
-weight: 20
+weight: 30
 url: /el/net/aspose.zip.saving/eventsbag/entrycompressed/
 ---
 ## EventsBag.EntryCompressed event
 
-Αυξάνεται μετά τη συμπίεση μιας καταχώρησης αρχείου.
+Ενεργοποιείται μετά τη συμπίεση μιας καταχώρησης αρχείου.
 
 ```csharp
 public event EventHandler<CancelEntryEventArgs> EntryCompressed;
@@ -18,7 +18,7 @@ public event EventHandler<CancelEntryEventArgs> EntryCompressed;
 
 * class [CancelEntryEventArgs](../../../aspose.zip/cancelentryeventargs/)
 * class [EventsBag](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../eventsbag/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
 
 

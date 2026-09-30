@@ -1,24 +1,30 @@
 ---
-title: CabArchive.Entries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CabArchive ιδιοκτησία. Λαμβάνει καταχωρήσεις τουCabEntry τύπος που αποτελεί το αρχείο.
+title: "CabArchive.Entries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "CabArchive ιδιότητα. Παίρνει καταχωρήσεις τύπου CabEntry που αποτελούν το αρχείο"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.cab/cabarchive/entries/
 ---
 ## CabArchive.Entries property
 
-Λαμβάνει καταχωρήσεις του[`CabEntry`](../../cabentry/) τύπος που αποτελεί το αρχείο.
+Παίρνει καταχωρήσεις τύπου [`CabEntry`](../../cabentry/) που αποτελούν το αρχείο.
 
 ```csharp
 public ReadOnlyCollection<CabEntry> Entries { get; }
 ```
 
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+
 ### Δείτε επίσης
 
 * class [CabEntry](../../cabentry/)
 * class [CabArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cab](../../cabarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

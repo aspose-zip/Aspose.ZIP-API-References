@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchiveEntry.UncompressedSize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipArchiveEntry ιδιοκτησία. Παίρνει το μέγεθος του αρχικού αρχείου.
+title: "SevenZipArchiveEntry.UncompressedSize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipArchiveEntry. Επιστρέφει το μέγεθος ενός αρχικού αρχείου"
 type: docs
 weight: 60
 url: /el/net/aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/
 ---
 ## SevenZipArchiveEntry.UncompressedSize property
 
-Παίρνει το μέγεθος του αρχικού αρχείου.
+Λαμβάνει το μέγεθος ενός αρχικού αρχείου.
 
 ```csharp
 public ulong UncompressedSize { get; }
@@ -17,7 +17,7 @@ public ulong UncompressedSize { get; }
 ### Δείτε επίσης
 
 * class [SevenZipArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 
