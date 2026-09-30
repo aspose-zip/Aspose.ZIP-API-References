@@ -1,22 +1,22 @@
 ---
-title: Aspose.Zip.ArchiveInfo
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveInfo пространство имен содержит классы которые представляют объекты связанные с архивной информацией.
+title: "Aspose.Zip.ArchiveInfo"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Пространство имен ArchiveInfo содержит классы, представляющие сущности, связанные с информацией об архиве."
 type: docs
-weight: 20
+weight: 40
 url: /ru/net/aspose.zip.archiveinfo/
 ---
-ArchiveInfo пространство имен содержит классы, которые представляют объекты, связанные с архивной информацией.
+Пространство имён ArchiveInfo содержит классы, представляющие сущности, связанные с информацией об архиве.
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
 | [ArchiveFormatInfo](./archiveformatinfo/) | Представляет информацию о формате архива. |
 | [ArchiveInstanceInfo](./archiveinstanceinfo/) | Представляет информацию об экземпляре архива. |
-## перечисление
+## Перечисление
 
-| перечисление | Описание |
+| Перечисление | Описание |
 | --- | --- |
 | [ArchiveFormat](./archiveformat/) | Поддерживаемые форматы архивов. |
 

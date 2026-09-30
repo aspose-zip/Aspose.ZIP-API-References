@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.CreateEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioArchive метод. Создать одну запись в архиве.
+title: "CpioArchive.CreateEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CpioArchive. Создаёт одну запись в архиве."
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.cpio/cpioarchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Создать одну запись в архиве.
+Создаёт одну запись внутри архива.
 
 ```csharp
 public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -18,7 +18,7 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 | --- | --- | --- |
 | name | String | Имя записи. |
 | fileInfo | FileInfo | Метаданные файла или папки для сжатия. |
-| openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
+| openImmediately | Boolean | True, если файл открывается сразу, иначе файл открывается при сохранении архива. |
 
 ### Возвращаемое значение
 
@@ -28,15 +28,16 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *name* нулевой. |
+| ArgumentNullException | *name* равен null. |
 | ArgumentException | *name* пусто. |
-| ArgumentNullException | *fileInfo* нулевой. |
+| ArgumentNullException | *fileInfo* равен null. |
+| ObjectDisposedException | Выбрасывается, когда архив был освобождён. |
 
-### Примечания
+## Примечания
 
-Если файл открывается сразу с помощью*openImmediately*параметр блокируется до тех пор, пока архив не будет удален.
+Если файл открыт сразу с параметром *openImmediately*, он будет заблокирован до освобождения архива.
 
-### Примеры
+## Примеры
 
 ```csharp
 FileInfo fileInfo = new FileInfo("data.bin");
@@ -47,18 +48,18 @@ using (var archive = new CpioArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Создать одну запись в архиве.
+Создаёт одну запись внутри архива.
 
 ```csharp
 public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
@@ -67,8 +68,8 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя записи. |
-| sourcePath | String | Путь к сжимаемому файлу. |
-| openImmediately | Boolean | Истинно, если открыть файл сразу, в противном случае открыть файл при сохранении архива. |
+| sourcePath | String | Путь к файлу, который будет сжат. |
+| openImmediately | Boolean | True, если файл открывается сразу, иначе файл открывается при сохранении архива. |
 
 ### Возвращаемое значение
 
@@ -78,20 +79,21 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourcePath* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *sourcePath* пуст, содержит только пробелы или содержит недопустимые символы. - или - Имя файла, как часть*name*, превышает 100 символов. |
-| UnauthorizedAccessException | Доступ к файлу*sourcePath* отказано. |
-| PathTooLongException | Указанный*sourcePath* , имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. - или -*name* слишком длинный для cpio. |
-| NotSupportedException | Файл в*sourcePath* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *sourcePath* равен null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | Путь *sourcePath* пуст, содержит только пробелы или содержит недопустимые символы. - or - Имя файла, как часть *name*, превышает 100 символов. |
+| UnauthorizedAccessException | Доступ к файлу *sourcePath* запрещён. |
+| PathTooLongException | Указанный *sourcePath*, имя файла или оба превышают системно‑определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. - или - *name* слишком длинное для cpio. |
+| NotSupportedException | Файл по пути *sourcePath* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примечания
+## Примечания
 
-Имя записи устанавливается исключительно в пределах*name* параметр. Имя файла, указанное в*sourcePath* параметр не влияет на имя записи.
+Имя элемента задаётся исключительно параметром *name*. Имя файла, переданное в параметре *sourcePath*, не влияет на имя элемента.
 
-Если файл открывается сразу с помощью*openImmediately*параметр блокируется до тех пор, пока архив не будет удален.
+Если файл открыт сразу с параметром *openImmediately*, он будет заблокирован до освобождения архива.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -101,18 +103,18 @@ using (var archive = new CpioArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, Stream) {#createentry_1}
 
-Создать одну запись в архиве.
+Создаёт одну запись внутри архива.
 
 ```csharp
 public CpioEntry CreateEntry(string name, Stream source)
@@ -131,11 +133,12 @@ public CpioEntry CreateEntry(string name, Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *name* нулевой. |
-| ArgumentNullException | *source* нулевой. |
+| ArgumentNullException | *name* равен null. |
+| ArgumentNullException | *source* равен null. |
 | ArgumentException | *name* пусто. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -145,11 +148,11 @@ using (var archive = new CpioArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

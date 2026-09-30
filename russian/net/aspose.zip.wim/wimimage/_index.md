@@ -1,37 +1,37 @@
 ---
-title: Class WimImage
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Wim.WimImage сорт. Представляет один образ в wimархиве.
+title: "Класс WimImage"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Wim.WimImage. Представляет один образ внутри архива wim."
 type: docs
-weight: 800
+weight: 1370
 url: /ru/net/aspose.zip.wim/wimimage/
 ---
 ## WimImage class
 
-Представляет один образ в wim-архиве.
+Представляет отдельный образ внутри архива wim.
 
 ```csharp
 public sealed class WimImage
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AllEntries](../../aspose.zip.wim/wimimage/allentries/) { get; } | Получает записи[`WimEntry`](../wimentry/)тип, составляющий изображение рекурсивно. |
-| [Parent](../../aspose.zip.wim/wimimage/parent/) { get; } | Получает архив, которому принадлежит изображение. |
+| [AllEntries](../../aspose.zip.wim/wimimage/allentries/) { get; } | Получает записи типа [`WimEntry`](../wimentry/), рекурсивно составляющие образ. |
+| [Parent](../../aspose.zip.wim/wimimage/parent/) { get; } | Получает архив, к которому относится образ. |
 | [RootDirectory](../../aspose.zip.wim/wimimage/rootdirectory/) { get; } | Получает запись корневого каталога образа. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ExtractToDirectory](../../aspose.zip.wim/wimimage/extracttodirectory/)(string) | Извлекает все файлы образа в указанный каталог. |
-| [GetEntry](../../aspose.zip.wim/wimimage/getentry/)(string) | Получает запись[`WimEntry`](../wimentry/) тип для заданного пути. |
+| [ExtractToDirectory](../../aspose.zip.wim/wimimage/extracttodirectory/)(string) | Извлекает все файлы из образа в указанный каталог. |
+| [GetEntry](../../aspose.zip.wim/wimimage/getentry/)(string) | Получает запись типа [`WimEntry`](../wimentry/) для заданного пути. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Wim](../../aspose.zip.wim/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Wim](../../aspose.zip.wim/)
+* assembly [Aspose.Zip](../../)
 
 

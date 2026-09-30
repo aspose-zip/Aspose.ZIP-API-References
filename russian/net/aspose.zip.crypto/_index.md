@@ -1,17 +1,17 @@
 ---
-title: Aspose.Zip.Crypto
-second_title: Aspose.ZIP для справочника API .NET
-description: Crypto namespace содержит классы для внешних процедур шифрования.
+title: "Aspose.Zip.Crypto"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Пространство имен Crypto содержит классы для внешних процедур шифрования."
 type: docs
-weight: 60
+weight: 90
 url: /ru/net/aspose.zip.crypto/
 ---
-Crypto namespace содержит классы для внешних процедур шифрования.
+Пространство имён Crypto содержит классы для внешних процедур шифрования.
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
-| [SevenZipCipher](./sevenzipcipher/) | Базовый класс для шифрования AES, используемого для шифрования 7-zip. |
+| [SevenZipCipher](./sevenzipcipher/) | Базовый класс для шифра AES, используемого для шифрования 7-zip. |
 
 

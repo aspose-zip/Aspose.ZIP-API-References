@@ -1,9 +1,9 @@
 ---
-title: ArchiveEntry.Extract
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntry метод. Извлекает запись в файловую систему по указанному пути.
+title: "ArchiveEntry.Extract"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод ArchiveEntry. Извлекает элемент в файловую систему по указанному пути"
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.zip/archiveentry/extract/
 ---
 ## Extract(string, string) {#extract}
@@ -16,28 +16,32 @@ public FileInfo Extract(string path, string password = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к файлу назначения. Если файл уже существует, он будет перезаписан. |
+| path | String | Путь к целевому файлу. Если файл уже существует, он будет перезаписан. |
 | password | String | Необязательный пароль для расшифровки. |
 
 ### Возвращаемое значение
 
-Информация о файле составленного файла.
+Информация о составленном файле.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
-| InvalidDataException | Ошибка проверки CRC или MAC для записи. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
+| InvalidDataException | Данные повреждены. -или- проверка CRC или MAC для элемента не удалась. |
+| ObjectDisposedException | Выбрасывается, если архив был освобождён. |
 
-### Примеры
+## Примеры
 
-Извлеките две записи zip-архива, каждая со своим паролем
+Извлеките два элемента ZIP‑архива, каждый со своим паролем
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
@@ -50,11 +54,11 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../)
-* пространство имен [Aspose.Zip](../../archiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -68,19 +72,21 @@ public void Extract(Stream destination, string password = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destination | Stream | Целевой поток. Должен быть доступен для записи. |
+| назначение | Stream | Поток назначения. Должен поддерживать запись. |
 | password | String | Необязательный пароль для расшифровки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidDataException | Ошибка проверки CRC или MAC для записи. |
+| InvalidDataException | Данные повреждены. -или- проверка CRC или MAC для элемента не удалась. |
+| IOException | Источник повреждён или недоступен для чтения. |
 | ArgumentException | *destination* не поддерживает запись. |
+| ObjectDisposedException | Выбрасывается, если архив был освобождён. |
 
-### Примеры
+## Примеры
 
-Извлеките запись zip-архива с паролем.
+Извлеките элемент zip‑архива с паролем.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
@@ -92,10 +98,10 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../)
-* пространство имен [Aspose.Zip](../../archiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

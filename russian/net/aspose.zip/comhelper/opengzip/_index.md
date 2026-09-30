@@ -1,14 +1,14 @@
 ---
-title: ComHelper.OpenGzip
-second_title: Aspose.ZIP для справочника API .NET
-description: ComHelper метод. Позволяет приложению COM загружать gzipархив из потока.
+title: "ComHelper.OpenGzip"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод ComHelper. Позволяет COM‑приложению загрузить gzip‑архив из потока"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip/comhelper/opengzip/
 ---
 ## OpenGzip(Stream) {#opengzip}
 
-Позволяет приложению COM загружать gzip-архив из потока.
+Позволяет COM‑приложению загрузить архив gzip из потока.
 
 ```csharp
 public GzipArchive OpenGzip(Stream stream)
@@ -16,24 +16,32 @@ public GzipArchive OpenGzip(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Объект потока .NET, содержащий загружаемый архив. |
+| stream | Stream | Объект .NET‑потока, содержащий архив для загрузки. |
 
 ### Возвращаемое значение
 
-А[`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) объект, представляющий архив.
+Объект [`GzipArchive`](../../../aspose.zip.gzip/gziparchive/), представляющий архив.
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+| ArgumentNullException | Выбрасывается, когда *stream* равен null. |
+| InvalidDataException | Выбрасывается, когда данные недействительны или повреждены. |
+
+### См. также
 
 * class [GzipArchive](../../../aspose.zip.gzip/gziparchive/)
 * class [ComHelper](../)
-* пространство имен [Aspose.Zip](../../comhelper/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## OpenGzip(string) {#opengzip_1}
 
-Позволяет приложению COM загружать архив gzip из файла.
+Позволяет COM‑приложению загрузить gzip‑архив из файла.
 
 ```csharp
 public GzipArchive OpenGzip(string fileName)
@@ -45,13 +53,26 @@ public GzipArchive OpenGzip(string fileName)
 
 ### Возвращаемое значение
 
-А[`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) объект, представляющий архив.
+Объект [`GzipArchive`](../../../aspose.zip.gzip/gziparchive/), представляющий архив.
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+| ArgumentException | Имя файла пустое, содержит только пробелы или содержит недопустимые символы. |
+| ArgumentNullException | *fileName* равно `null`. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| FileNotFoundException | Файл не найден. |
+| InvalidDataException | Выбрасывается, когда данные недействительны или повреждены. |
+| PathTooLongException | Указанный путь, имя файла или их комбинация превышают системно определённую максимальную длину. |
+| UnauthorizedAccessException | Доступ к *fileName* запрещён. |
+
+### См. также
 
 * class [GzipArchive](../../../aspose.zip.gzip/gziparchive/)
 * class [ComHelper](../)
-* пространство имен [Aspose.Zip](../../comhelper/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 

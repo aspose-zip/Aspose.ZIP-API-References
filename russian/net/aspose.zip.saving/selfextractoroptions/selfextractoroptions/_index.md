@@ -1,7 +1,7 @@
 ---
-title: SelfExtractorOptions.SelfExtractorOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: SelfExtractorOptions строитель. Конструктор по умолчанию.
+title: "SelfExtractorOptions.SelfExtractorOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "SelfExtractorOptions конструктор. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/selfextractoroptions/selfextractoroptions/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.saving/selfextractoroptions/selfextractoroptions/
 public SelfExtractorOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [SelfExtractorOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../selfextractoroptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../selfextractoroptions/)
+* assembly [Aspose.Zip](../../../)
 
 

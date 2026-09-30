@@ -1,14 +1,14 @@
 ---
-title: Class EntryEventArgs
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.EntryEventArgs сорт. Аргументы событий для событий связанных с записью.
+title: "Класс EntryEventArgs"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Aspose.Zip.EntryEventArgs class. Аргументы события для событий, связанных с записью"
 type: docs
-weight: 200
+weight: 490
 url: /ru/net/aspose.zip/entryeventargs/
 ---
 ## EntryEventArgs class
 
-Аргументы событий для событий, связанных с записью.
+Аргументы события для связанных с записью событий.
 
 ```csharp
 public class EntryEventArgs : EventArgs
@@ -18,18 +18,18 @@ public class EntryEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [EntryEventArgs](entryeventargs/)(ArchiveEntry) | Инициализирует новый экземпляр`EntryEventArgs` класс. |
+| [EntryEventArgs](entryeventargs/)(ArchiveEntry) | Инициализирует новый экземпляр класса `EntryEventArgs`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Получает запись архива, для которой возникает событие. |
+| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Получает запись архива, для которой вызывается событие. |
 
-### Смотрите также
+### См. также
 
 * property [EntryListed](../archiveloadoptions/entrylisted/)
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

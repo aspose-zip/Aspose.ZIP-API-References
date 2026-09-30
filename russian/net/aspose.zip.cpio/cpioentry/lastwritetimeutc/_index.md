@@ -1,7 +1,7 @@
 ---
-title: CpioEntry.LastWriteTimeUtc
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioEntry свойство. Получает время последней записи.
+title: "CpioEntry.LastWriteTimeUtc"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CpioEntry. Возвращает время последней записи"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.cpio/cpioentry/lastwritetimeutc/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.cpio/cpioentry/lastwritetimeutc/
 public DateTime LastWriteTimeUtc { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

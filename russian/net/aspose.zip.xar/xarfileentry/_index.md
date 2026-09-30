@@ -1,46 +1,52 @@
 ---
-title: Class XarFileEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Xar.XarFileEntry сорт. Представляет запись файла в архиве xar.
+title: "Класс XarFileEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Xar.XarFileEntry. Представляет запись файла внутри архива xar."
 type: docs
-weight: 840
+weight: 1470
 url: /ru/net/aspose.zip.xar/xarfileentry/
 ---
 ## XarFileEntry class
 
-Представляет запись файла в архиве xar.
+Представляет файловую запись внутри архива xar.
 
 ```csharp
-public abstract class XarFileEntry : XarEntry, IArchiveFileEntry
+public sealed class XarFileEntry : XarEntry, IArchiveFileEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [CreationTime](../../aspose.zip.xar/xarentry/creationtime/) { get; } | Получает время создания файла или каталога. |
-| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Получает полный путь записи в архиве. |
-| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
+| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Получает полный путь к записи внутри архива. |
+| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Возвращает значение, указывающее, является ли запись каталогом. |
 | [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime/) { get; } | Получает время последнего доступа к файлу или каталогу. |
-| [LastWriteTime](../../aspose.zip.xar/xarentry/lastwritetime/) { get; } | Получает время модификации файла или каталога. |
-| abstract [Length](../../aspose.zip.xar/xarfileentry/length/) { get; } | Получает длину записи в байтах. |
-| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Получает имя записи в архиве. |
-| [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Получает родительский каталог, которому принадлежит запись. |
+| [Length](../../aspose.zip.xar/xarfileentry/length/) { get; } | Получает длину записи в байтах. |
+| [ModificationTime](../../aspose.zip.xar/xarentry/modificationtime/) { get; } | Получает время изменения файла или каталога. |
+| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Возвращает имя записи в архиве. |
+| [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Получает родительский каталог, к которому относится запись. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract_1)(Stream) | Извлекает запись в предоставленный поток. |
-| abstract [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
-| abstract [Open](../../aspose.zip.xar/xarfileentry/open/)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
+| [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract_1)(Stream) | Извлекает запись в предоставленный поток. |
+| [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
+| [Open](../../aspose.zip.xar/xarfileentry/open/)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 | override [ToString](../../aspose.zip.xar/xarentry/tostring/)() |  |
 
-### Смотрите также
+## События
+
+| Имя | Описание |
+| --- | --- |
+| event [CompressionProgressed](../../aspose.zip.xar/xarfileentry/compressionprogressed/) | Вызывается, когда часть необработанного потока сжата. |
+
+### См. также
 
 * class [XarEntry](../xarentry/)
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* пространство имен [Aspose.Zip.Xar](../../aspose.zip.xar/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xar](../../aspose.zip.xar/)
+* assembly [Aspose.Zip](../../)
 
 

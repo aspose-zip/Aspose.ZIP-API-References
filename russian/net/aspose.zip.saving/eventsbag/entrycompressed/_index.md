@@ -1,24 +1,24 @@
 ---
-title: EventsBag.EntryCompressed
-second_title: Aspose.ZIP для справочника API .NET
-description: EventsBag событие. Возникает после сжатия записи архива.
+title: "EventsBag.EntryCompressed"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Событие EventsBag. Вызывается после того, как запись архива была сжата"
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.zip.saving/eventsbag/entrycompressed/
 ---
 ## EventsBag.EntryCompressed event
 
-Возникает после сжатия записи архива.
+Вызывается после сжатия записи архива.
 
 ```csharp
 public event EventHandler<CancelEntryEventArgs> EntryCompressed;
 ```
 
-### Смотрите также
+### См. также
 
 * class [CancelEntryEventArgs](../../../aspose.zip/cancelentryeventargs/)
 * class [EventsBag](../)
-* пространство имен [Aspose.Zip.Saving](../../eventsbag/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
 
 

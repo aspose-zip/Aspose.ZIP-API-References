@@ -1,14 +1,14 @@
 ---
-title: Class SharEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Shar.SharEntry сорт. Представляет один файл в общем архиве.
+title: "Класс SharEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Shar.SharEntry. Представляет отдельный файл внутри архива shar."
 type: docs
-weight: 710
+weight: 1250
 url: /ru/net/aspose.zip.shar/sharentry/
 ---
 ## SharEntry class
 
-Представляет один файл в общем архиве.
+Представляет отдельный файл внутри архива shar.
 
 ```csharp
 public class SharEntry
@@ -20,9 +20,9 @@ public class SharEntry
 | --- | --- |
 | override [ToString](../../aspose.zip.shar/sharentry/tostring/)() | Возвращает строку, представляющую текущую запись. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Shar](../../aspose.zip.shar/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Shar](../../aspose.zip.shar/)
+* assembly [Aspose.Zip](../../)
 
 

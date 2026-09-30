@@ -1,7 +1,7 @@
 ---
-title: CpioEntry.Length
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioEntry свойство. Получает длину записи в байтах.
+title: "CpioEntry.Length"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CpioEntry. Возвращает длину записи в байтах"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.cpio/cpioentry/length/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.cpio/cpioentry/length/
 public long Length { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

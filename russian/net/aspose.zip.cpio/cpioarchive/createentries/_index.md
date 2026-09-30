@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.CreateEntries
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioArchive метод. Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+title: "CpioArchive.CreateEntries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CpioArchive. Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога."
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.cpio/cpioarchive/createentries/
 ---
 ## CreateEntries(string, bool) {#createentries_1}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public CpioArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
@@ -17,7 +17,7 @@ public CpioArchive CreateEntries(string sourceDirectory, bool includeRootDirecto
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceDirectory | String | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
@@ -27,13 +27,14 @@ public CpioArchive CreateEntries(string sourceDirectory, bool includeRootDirecto
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceDirectory* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*sourceDirectory*. |
-| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt; или &#x7C;. |
-| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. Указанный путь, имя файла или оба слишком длинные. |
-| IOException | *sourceDirectory* означает файл, а не каталог. |
+| ArgumentNullException | *sourceDirectory* имеет значение null. |
+| SecurityException | У вызывающего нет необходимого разрешения для доступа к *sourceDirectory*. |
+| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt;, или &#x7C;. |
+| PathTooLongException | Указанный путь, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. Указанный путь, имя файла или оба слишком длинные. |
+| IOException | *sourceDirectory* обозначает файл, а не каталог. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
@@ -46,17 +47,17 @@ using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public CpioArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
@@ -65,7 +66,7 @@ public CpioArchive CreateEntries(DirectoryInfo directory, bool includeRootDirect
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | directory | DirectoryInfo | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
@@ -75,11 +76,12 @@ public CpioArchive CreateEntries(DirectoryInfo directory, bool includeRootDirect
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *directory* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*directory*. |
-| IOException | *directory* означает файл, а не каталог. |
+| ArgumentNullException | *directory* равно null. |
+| SecurityException | Вызвавший процесс не имеет необходимого разрешения для доступа к *directory*. |
+| IOException | *directory* обозначает файл, а не каталог. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
@@ -92,10 +94,10 @@ using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

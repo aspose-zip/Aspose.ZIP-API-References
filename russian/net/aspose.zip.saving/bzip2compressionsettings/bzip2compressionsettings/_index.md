@@ -1,14 +1,14 @@
 ---
-title: Bzip2CompressionSettings.Bzip2CompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Bzip2CompressionSettings строитель. Инициализирует новый экземплярBzip2CompressionSettings класс.
+title: "Bzip2CompressionSettings.Bzip2CompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Bzip2CompressionSettings конструктор. Инициализирует новый экземпляр класса Bzip2CompressionSettings"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/bzip2compressionsettings/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings(int) {#constructor_1}
 
-Инициализирует новый экземпляр[`Bzip2CompressionSettings`](../) класс.
+Инициализирует новый экземпляр класса [`Bzip2CompressionSettings`](../).
 
 ```csharp
 public Bzip2CompressionSettings(int blockSize)
@@ -22,9 +22,9 @@ public Bzip2CompressionSettings(int blockSize)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Размер блока не находится между 1 и 9. |
+| ArgumentOutOfRangeException | Размер блока не находится в диапазоне от 1 до 9. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings(1))))
@@ -34,23 +34,23 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2CompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Bzip2CompressionSettings() {#constructor}
 
-Инициализирует новый экземпляр[`Bzip2CompressionSettings`](../) класс с размером блока по умолчанию, равным 9 сотням килобайт.
+Инициализирует новый экземпляр класса [`Bzip2CompressionSettings`](../) с размером блока по умолчанию, равным 9 сотням килобайт.
 
 ```csharp
 public Bzip2CompressionSettings()
 ```
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings())))
@@ -60,10 +60,10 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2CompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

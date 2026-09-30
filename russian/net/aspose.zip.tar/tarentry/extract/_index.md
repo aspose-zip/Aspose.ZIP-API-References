@@ -1,9 +1,9 @@
 ---
-title: TarEntry.Extract
-second_title: Aspose.ZIP для справочника API .NET
-description: TarEntry метод. Извлекает запись в файловую систему по указанному пути.
+title: "TarEntry.Extract"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод TarEntry. Извлекает элемент в файловую систему по указанному пути"
 type: docs
-weight: 40
+weight: 60
 url: /ru/net/aspose.zip.tar/tarentry/extract/
 ---
 ## Extract(string) {#extract}
@@ -16,24 +16,28 @@ public FileSystemInfo Extract(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к файлу назначения. Если файл уже существует, он будет перезаписан. |
+| path | String | Путь к целевому файлу. Если файл уже существует, он будет перезаписан. |
 
 ### Возвращаемое значение
 
-Информация о файле составленного файла.
+Информация о составленном файле.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -42,11 +46,11 @@ using (var archive = new TarArchive("archive.tar"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarEntry](../)
-* пространство имен [Aspose.Zip.Tar](../../tarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -60,17 +64,18 @@ public void Extract(Stream destination)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destination | Stream | Целевой поток. Должен быть доступен для записи. |
+| назначение | Stream | Поток назначения. Должен поддерживать запись. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentException | *destination* не поддерживает запись. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
 
-### Примеры
+## Примеры
 
-Извлеките запись из архива tar.
+Извлечь элемент из tar‑архива.
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -79,10 +84,10 @@ using (var archive = new TarArchive("archive.tar"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarEntry](../)
-* пространство имен [Aspose.Zip.Tar](../../tarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

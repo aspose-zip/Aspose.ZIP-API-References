@@ -1,23 +1,23 @@
 ---
-title: LzipArchiveSettings.MaxMemberSize
-second_title: Aspose.ZIP для справочника API .NET
-description: LzipArchiveSettings свойство. Получает максимальный размер одного элемента в архиве lzip представленный в байтах.
+title: "LzipArchiveSettings.MaxMemberSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство LzipArchiveSettings. Возвращает максимальный размер одного элемента в lzip-архиве в байтах"
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.zip.lzip/lziparchivesettings/maxmembersize/
 ---
 ## LzipArchiveSettings.MaxMemberSize property
 
-Получает максимальный размер одного элемента в архиве lzip, представленный в байтах.
+Получает максимальный размер одного элемента в lzip-архиве, представленный в байтах.
 
 ```csharp
 public long MaxMemberSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [LzipArchiveSettings](../)
-* пространство имен [Aspose.Zip.Lzip](../../lziparchivesettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

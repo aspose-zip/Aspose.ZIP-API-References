@@ -1,14 +1,14 @@
 ---
-title: Class EventsBag
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.EventsBag сорт. Контейнер событий используемый наArchive сохранение.
+title: "Класс EventsBag"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.EventsBag. Контейнер событий, используемый при сохранении архива"
 type: docs
-weight: 450
+weight: 940
 url: /ru/net/aspose.zip.saving/eventsbag/
 ---
 ## EventsBag class
 
-Контейнер событий, используемый на[`Archive`](../../aspose.zip/archive/) сохранение.
+Контейнер событий, используемый при сохранении [`Archive`](../../aspose.zip/archive/).
 
 ```csharp
 public sealed class EventsBag
@@ -24,12 +24,13 @@ public sealed class EventsBag
 
 | Имя | Описание |
 | --- | --- |
-| event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | Возникает после сжатия записи архива. |
+| event [EntryAccessed](../../aspose.zip.saving/eventsbag/entryaccessed/) | Вызывается перед тем, как запись архива будет сжата. |
+| event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | Вызывается после сжатия записи архива. |
 
-### Смотрите также
+### См. также
 
 * class [ArchiveSaveOptions](../archivesaveoptions/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,23 +1,29 @@
 ---
-title: WimArchive.Guid
-second_title: Aspose.ZIP для справочника API .NET
-description: WimArchive свойство. Получает идентификатор GUID для архива.
+title: "WimArchive.Guid"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimArchive. Возвращает идентифицирующий GUID архива"
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.zip.wim/wimarchive/guid/
 ---
 ## WimArchive.Guid property
 
-Получает идентификатор GUID для архива.
+Получает идентифицирующий GUID архива.
 
 ```csharp
 public Guid Guid { get; }
 ```
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+### См. также
 
 * class [WimArchive](../)
-* пространство имен [Aspose.Zip.Wim](../../wimarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

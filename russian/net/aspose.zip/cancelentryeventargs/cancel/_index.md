@@ -1,7 +1,7 @@
 ---
-title: CancelEntryEventArgs.Cancel
-second_title: Aspose.ZIP для справочника API .NET
-description: CancelEntryEventArgs свойство. Получает или задает значение указывающее следует ли отменить событие.
+title: "CancelEntryEventArgs.Cancel"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CancelEntryEventArgs. Получает или задает значение, указывающее, следует ли отменить событие"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip/cancelentryeventargs/cancel/
@@ -16,12 +16,12 @@ public bool Cancel { get; set; }
 
 ### Возвращаемое значение
 
-Истинно, если событие нужно отменить; в противном случае ложно.
+True, если событие следует отменить; иначе — false.
 
-### Смотрите также
+### См. также
 
 * class [CancelEntryEventArgs](../)
-* пространство имен [Aspose.Zip](../../cancelentryeventargs/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../cancelentryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

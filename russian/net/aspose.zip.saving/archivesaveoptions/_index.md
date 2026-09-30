@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveSaveOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.ArchiveSaveOptions сорт. Варианты сохранения zipархива.
+title: "Класс ArchiveSaveOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.ArchiveSaveOptions. Параметры сохранения ZIP‑архива"
 type: docs
-weight: 380
+weight: 870
 url: /ru/net/aspose.zip.saving/archivesaveoptions/
 ---
 ## ArchiveSaveOptions class
 
-Варианты сохранения zip-архива.
+Параметры сохранения архива ZIP.
 
 ```csharp
 public class ArchiveSaveOptions
@@ -20,19 +20,22 @@ public class ArchiveSaveOptions
 | --- | --- |
 | [ArchiveSaveOptions](archivesaveoptions/)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ArchiveComment](../../aspose.zip.saving/archivesaveoptions/archivecomment/) { get; set; } | Получает или задает необязательный комментарий для файла Zip. |
+| [ArchiveComment](../../aspose.zip.saving/archivesaveoptions/archivecomment/) { get; set; } | Получает или задает необязательный комментарий для Zip‑файла. |
+| [CloseEntrySource](../../aspose.zip.saving/archivesaveoptions/closeentrysource/) { get; set; } | Получает или задает значение, указывающее, следует ли закрывать источники записей сразу после сжатия записи. |
+| [DataDescriptorPolicy](../../aspose.zip.saving/archivesaveoptions/datadescriptorpolicy/) { get; set; } | Получает или задает настройки генерации дескриптора данных. |
 | [Encoding](../../aspose.zip.saving/archivesaveoptions/encoding/) { get; set; } | Получает или задает кодировку для преобразования имен файлов и других строк в байты. |
-| [EventsBag](../../aspose.zip.saving/archivesaveoptions/eventsbag/) { get; set; } | Получает или задает контейнер событий, возникающих при сохранении архива. |
-| [ParallelOptions](../../aspose.zip.saving/archivesaveoptions/paralleloptions/) { get; set; } | Получает или задает параметры параллельного сжатия. |
-| [SelfExtractorOptions](../../aspose.zip.saving/archivesaveoptions/selfextractoroptions/) { get; set; } | Получает или устанавливает параметры самораспаковывающегося архива. |
+| [EncryptionOptions](../../aspose.zip.saving/archivesaveoptions/encryptionoptions/) { get; set; } | Получает или задает настройки шифрования для сохранения существующего ZIP‑архива. |
+| [EventsBag](../../aspose.zip.saving/archivesaveoptions/eventsbag/) { get; set; } | Получает или задает контейнер событий, вызываемых при сохранении архива. |
+| [ParallelOptions](../../aspose.zip.saving/archivesaveoptions/paralleloptions/) { get; set; } | Получает или задает настройки параллельного сжатия. |
+| [SelfExtractorOptions](../../aspose.zip.saving/archivesaveoptions/selfextractoroptions/) { get; set; } | Получает или задает настройки самораспаковывающегося архива. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

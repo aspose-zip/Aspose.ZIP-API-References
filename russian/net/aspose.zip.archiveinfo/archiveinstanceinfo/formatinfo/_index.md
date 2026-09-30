@@ -1,24 +1,24 @@
 ---
-title: ArchiveInstanceInfo.FormatInfo
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveInstanceInfo свойство. Получает информацию о формате архива.
+title: "ArchiveInstanceInfo.FormatInfo"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveInstanceInfo. Возвращает информацию о формате архива."
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.archiveinfo/archiveinstanceinfo/formatinfo/
 ---
 ## ArchiveInstanceInfo.FormatInfo property
 
-Получает информацию о формате архива.
+Возвращает информацию о формате архива.
 
 ```csharp
 public ArchiveFormatInfo FormatInfo { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveFormatInfo](../../archiveformatinfo/)
 * class [ArchiveInstanceInfo](../)
-* пространство имен [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

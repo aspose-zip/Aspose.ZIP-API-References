@@ -1,22 +1,22 @@
 ---
-title: RarArchiveLoadOptions.DecryptionPassword
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveLoadOptions свойство. Получает или задает пароль для расшифровки записей и имен записей.
+title: "RarArchiveLoadOptions.DecryptionPassword"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство RarArchiveLoadOptions. Получает или задает пароль для расшифровки записей и их имён."
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.zip.rar/rararchiveloadoptions/decryptionpassword/
 ---
 ## RarArchiveLoadOptions.DecryptionPassword property
 
-Получает или задает пароль для расшифровки записей и имен записей.
+Получает или задает пароль для дешифрования записей и имен записей.
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Примеры
+## Примеры
 
-Вы можете указать пароль для расшифровки один раз при распаковке архива.
+Вы можете указать пароль для расшифровки один раз при извлечении архива.
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
@@ -38,11 +38,11 @@ using (FileStream fs = File.OpenRead("encrypted_archive.rar"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * method [Open](../../rararchiveentry/open/)
 * class [RarArchiveLoadOptions](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveloadoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class StoreCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.StoreCompressionSettings сорт. Настройки метода сжатия Store.
+title: "Класс StoreCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.StoreCompressionSettings. Параметры сжатия Store в ZIP‑архиве"
 type: docs
-weight: 630
+weight: 1140
 url: /ru/net/aspose.zip.saving/storecompressionsettings/
 ---
 ## StoreCompressionSettings class
 
-Настройки метода сжатия Store.
+Настройки метода хранения (Store) в архиве ZIP.
 
 ```csharp
 public class StoreCompressionSettings : CompressionSettings
@@ -18,16 +18,16 @@ public class StoreCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [StoreCompressionSettings](storecompressionsettings/)() | Инициализирует новый экземпляр`StoreCompressionSettings` класс. |
+| [StoreCompressionSettings](storecompressionsettings/)() | Инициализирует новый экземпляр класса `StoreCompressionSettings`. |
 
-### Примечания
+## Примечания
 
-Этот метод сохраняет исходные данные как есть.
+Этот метод сохраняет исходные данные в их оригинальном виде.
 
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../compressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

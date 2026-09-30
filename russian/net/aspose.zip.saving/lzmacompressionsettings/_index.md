@@ -1,14 +1,14 @@
 ---
-title: Class LzmaCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.LzmaCompressionSettings сорт. Настройки метода сжатия LZMA.
+title: "Класс LzmaCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.LzmaCompressionSettings. Настройки сжатия LZMA в ZIP‑архиве"
 type: docs
-weight: 460
+weight: 960
 url: /ru/net/aspose.zip.saving/lzmacompressionsettings/
 ---
 ## LzmaCompressionSettings class
 
-Настройки метода сжатия LZMA.
+Настройки сжатия LZMA в архиве ZIP.
 
 ```csharp
 public class LzmaCompressionSettings : CompressionSettings
@@ -18,18 +18,28 @@ public class LzmaCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [LzmaCompressionSettings](lzmacompressionsettings/)() | Инициализирует новый экземпляр`LzmaCompressionSettings`class с размером словаря по умолчанию, равным 16 мегабайтам. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor)() | Инициализирует новый экземпляр класса `LzmaCompressionSettings` с параметрами по умолчанию. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor_1)(int) | Инициализирует новый экземпляр класса `LzmaCompressionSettings` с указанным размером словаря, количеством быстрых байтов по умолчанию, равным 32, и числом битов контекста литералов, равным 3. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor_2)(int, int, int) | Инициализирует новый экземпляр класса `LzmaCompressionSettings` с указанным размером словаря, количеством быстрых байтов и количеством битов литерального контекста. |
 
-### Примечания
+## Свойства
 
-Цепной алгоритм Лемпеля-Зива-Маркова (LZMA) — это алгоритм, используемый для сжатия данных без потерь. Этот алгоритм использует схему сжатия словаря, несколько похожую на алгоритм LZ77, и отличается высокой степенью сжатия и переменным размером словаря сжатия.
+| Имя | Описание |
+| --- | --- |
+| [DictionarySize](../../aspose.zip.saving/lzmacompressionsettings/dictionarysize/) { get; } | Размер словаря (буфера истории) указывает, сколько байтов недавно обработанных несжатых данных хранится в памяти. |
+| [LiteralContextBits](../../aspose.zip.saving/lzmacompressionsettings/literalcontextbits/) { get; } | Возвращает количество битов литерального контекста. |
+| [NumberOfFastBytes](../../aspose.zip.saving/lzmacompressionsettings/numberoffastbytes/) { get; } | Возвращает количество байтов, используемых для быстрого поиска совпадений в алгоритме LZMA. |
 
-Подробнее: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+## Примечания
 
-### Смотрите также
+Алгоритм Лемпеля‑Зив‑Маркова (LZMA) — это алгоритм, используемый для выполнения без потерь сжатия данных. Этот алгоритм использует схему словарного сжатия, несколько похожую на алгоритм LZ77, и обладает высоким коэффициентом сжатия и переменным размером словаря сжатия.
+
+Смотрите подробнее: [Алгоритм Лемпеля‑Зив‑Маркова](https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm)
+
+### См. также
 
 * class [CompressionSettings](../compressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

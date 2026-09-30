@@ -1,14 +1,14 @@
 ---
-title: TraditionalEncryptionSettings.TraditionalEncryptionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: TraditionalEncryptionSettings строитель. Инициализирует новый экземплярTraditionalEncryptionSettings класс.
+title: "TraditionalEncryptionSettings.TraditionalEncryptionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор TraditionalEncryptionSettings. Инициализирует новый экземпляр класса TraditionalEncryptionSettings"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/traditionalencryptionsettings/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings(string) {#constructor_1}
 
-Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../) класс.
+Инициализирует новый экземпляр класса [`TraditionalEncryptionSettings`](../).
 
 ```csharp
 public TraditionalEncryptionSettings(string password)
@@ -18,7 +18,7 @@ public TraditionalEncryptionSettings(string password)
 | --- | --- | --- |
 | password | String | Пароль для шифрования. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p@s$"))))
@@ -28,17 +28,17 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TraditionalEncryptionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings(string, Encoding) {#constructor_2}
 
-Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../) класс с пользовательской кодировкой.
+Инициализирует новый экземпляр класса [`TraditionalEncryptionSettings`](../) с пользовательской кодировкой.
 
 ```csharp
 public TraditionalEncryptionSettings(string password, Encoding encoding)
@@ -47,13 +47,13 @@ public TraditionalEncryptionSettings(string password, Encoding encoding)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | password | String | Пароль для шифрования. |
-| encoding | Encoding | Кодировка символов пароля. |
+| кодировка | Кодировка | Кодировка символов пароля. |
 
-### Примечания
+## Примечания
 
-Использование этого конструктора не рекомендуется. Установка кодировки может противоречить стандарту и создавать несовместимый архив.
+Использование этого конструктора не рекомендуется. Установка кодировки может противоречить стандарту и привести к несовместимому архиву.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p£s$", System.Text.Encoding.ASCII))))
@@ -63,26 +63,26 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TraditionalEncryptionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings() {#constructor}
 
-Инициализирует новый экземпляр[`TraditionalEncryptionSettings`](../)класс без пароля.
+Создаёт новый экземпляр класса [`TraditionalEncryptionSettings`](../) без пароля.
 
 ```csharp
 public TraditionalEncryptionSettings()
 ```
 
-### Смотрите также
+### См. также
 
 * class [TraditionalEncryptionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

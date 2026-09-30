@@ -1,24 +1,30 @@
 ---
-title: XarArchive.Entries
-second_title: Aspose.ZIP для справочника API .NET
-description: XarArchive свойство. Получает записиXarEntry тип составляющий архив.
+title: "XarArchive.Entries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство XarArchive. Возвращает элементы типа XarEntry, составляющие архив"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.xar/xararchive/entries/
 ---
 ## XarArchive.Entries property
 
-Получает записи[`XarEntry`](../../xarentry/) тип составляющий архив.
+Возвращает элементы типа [`XarEntry`](../../xarentry/), составляющие архив.
 
 ```csharp
 public IEnumerable<XarEntry> Entries { get; }
 ```
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+### См. также
 
 * class [XarEntry](../../xarentry/)
 * class [XarArchive](../)
-* пространство имен [Aspose.Zip.Xar](../../xararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

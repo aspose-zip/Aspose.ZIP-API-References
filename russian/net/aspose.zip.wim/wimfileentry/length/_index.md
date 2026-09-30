@@ -1,7 +1,7 @@
 ---
-title: WimFileEntry.Length
-second_title: Aspose.ZIP для справочника API .NET
-description: WimFileEntry свойство. Получает длину записи в байтах.
+title: "WimFileEntry.Length"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimFileEntry. Получает длину записи в байтах."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.wim/wimfileentry/length/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.wim/wimfileentry/length/
 public long Length { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimFileEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimfileentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimfileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

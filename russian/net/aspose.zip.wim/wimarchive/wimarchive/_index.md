@@ -1,36 +1,40 @@
 ---
-title: WimArchive.WimArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: WimArchive строитель. Инициализирует новый экземплярWimArchive список записей классов и композиций можно извлечь из архива.
+title: "WimArchive.WimArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор WimArchive. Инициализирует новый экземпляр класса WimArchive и формирует список записей, которые могут быть извлечены из архива"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.wim/wimarchive/wimarchive/
 ---
-## WimArchive(Stream) {#constructor}
+## WimArchive(Stream, WimLoadOptions) {#constructor}
 
-Инициализирует новый экземпляр[`WimArchive`](../) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`WimArchive`](../) и формирует список записей, которые могут быть извлечены из архива.
 
 ```csharp
-public WimArchive(Stream sourceStream)
+public WimArchive(Stream sourceStream, WimLoadOptions loadOptions = null)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceStream | Stream | Источник архива. Он должен быть доступен для поиска. |
+| sourceStream | Stream | Источник архива. Должен поддерживать поиск. |
+| loadOptions | WimLoadOptions | Параметры загрузки существующего архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceStream* нулевой. |
-| ArgumentException | *sourceStream* не доступен для поиска. |
-| InvalidDataException | *sourceStream* недействительный wim-архив. |
+| ArgumentNullException | *sourceStream* имеет значение null. |
+| ArgumentException | *sourceStream* не поддерживает перемещение. |
+| InvalidDataException | *sourceStream* не является действительным wim-архивом. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
+| NotSupportedException | Заголовок указывает на многотомный архив. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../wimfileentry/open/)способ распаковки.
+Этот конструктор не распаковывает ни одну запись. См. метод [`Open`](../../wimfileentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как извлечь все записи в каталог.
 
@@ -41,42 +45,49 @@ using (var archive = new WimArchive(File.OpenRead("archive.wim")))
 }
 ```
 
-### Смотрите также
+### См. также
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
-* пространство имен [Aspose.Zip.Wim](../../wimarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## WimArchive(string) {#constructor_1}
+## WimArchive(string, WimLoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр[`WimArchive`](../) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`WimArchive`](../) и формирует список записей, которые могут быть извлечены из архива.
 
 ```csharp
-public WimArchive(string path)
+public WimArchive(string path, WimLoadOptions loadOptions = null)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Путь к файлу архива. |
+| loadOptions | WimLoadOptions | Параметры загрузки существующего архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+| InvalidDataException | Заголовок указывает на многотомный архив. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../wimfileentry/open/)способ распаковки.
+Этот конструктор не распаковывает ни одну запись. См. метод [`Open`](../../wimfileentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как извлечь все записи в каталог.
 
@@ -87,10 +98,11 @@ using (var archive = new WimArchive("archive.wim"))
 }
 ```
 
-### Смотрите также
+### См. также
 
+* class [WimLoadOptions](../../wimloadoptions/)
 * class [WimArchive](../)
-* пространство имен [Aspose.Zip.Wim](../../wimarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

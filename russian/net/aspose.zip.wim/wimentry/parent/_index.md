@@ -1,24 +1,24 @@
 ---
-title: WimEntry.Parent
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает родительский каталог которому принадлежит запись.
+title: "WimEntry.Parent"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimEntry. Возвращает родительский каталог, к которому принадлежит запись"
 type: docs
 weight: 140
 url: /ru/net/aspose.zip.wim/wimentry/parent/
 ---
 ## WimEntry.Parent property
 
-Получает родительский каталог, которому принадлежит запись.
+Получает родительский каталог, к которому относится запись.
 
 ```csharp
 public WimDirectoryEntry Parent { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimDirectoryEntry](../../wimdirectoryentry/)
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,28 +1,28 @@
 ---
-title: Class CpioEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Cpio.CpioEntry сорт. Представляет один файл в архиве cpio.
+title: "Класс CpioEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Cpio.CpioEntry. Представляет отдельный файл в архиве cpio"
 type: docs
-weight: 170
+weight: 420
 url: /ru/net/aspose.zip.cpio/cpioentry/
 ---
 ## CpioEntry class
 
-Представляет один файл в архиве cpio.
+Представляет отдельный файл внутри архива cpio.
 
 ```csharp
 public sealed class CpioEntry : IArchiveFileEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [IsDirectory](../../aspose.zip.cpio/cpioentry/isdirectory/) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
+| [IsDirectory](../../aspose.zip.cpio/cpioentry/isdirectory/) { get; } | Возвращает значение, указывающее, является ли запись каталогом. |
 | [LastWriteTimeUtc](../../aspose.zip.cpio/cpioentry/lastwritetimeutc/) { get; } | Получает время последней записи. |
 | [Length](../../aspose.zip.cpio/cpioentry/length/) { get; } | Получает длину записи в байтах. |
-| [Name](../../aspose.zip.cpio/cpioentry/name/) { get; } | Получает имя записи в архиве. |
-| [Parent](../../aspose.zip.cpio/cpioentry/parent/) { get; } | Получает архив, которому принадлежит запись. |
+| [Name](../../aspose.zip.cpio/cpioentry/name/) { get; } | Возвращает имя записи в архиве. |
+| [Parent](../../aspose.zip.cpio/cpioentry/parent/) { get; } | Получает архив, к которому принадлежит запись. |
 
 ## Методы
 
@@ -33,10 +33,10 @@ public sealed class CpioEntry : IArchiveFileEntry
 | [Open](../../aspose.zip.cpio/cpioentry/open/)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 | override [ToString](../../aspose.zip.cpio/cpioentry/tostring/)() |  |
 
-### Смотрите также
+### См. также
 
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* пространство имен [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
+* assembly [Aspose.Zip](../../)
 
 

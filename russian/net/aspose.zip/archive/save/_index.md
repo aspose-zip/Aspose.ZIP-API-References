@@ -1,14 +1,14 @@
 ---
-title: Archive.Save
-second_title: Aspose.ZIP для справочника API .NET
-description: Archive метод. Сохраняет архив в указанный поток.
+title: "Archive.Save"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод Archive. Сохраняет архив в предоставленный поток."
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.zip/archive/save/
 ---
 ## Save(Stream, ArchiveSaveOptions) {#save}
 
-Сохраняет архив в указанный поток.
+Сохраняет архив в предоставленный поток.
 
 ```csharp
 public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
@@ -16,20 +16,22 @@ public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| outputStream | Stream | Целевой поток. |
-| saveOptions | ArchiveSaveOptions | Варианты сохранения архива. |
+| outputStream | Stream | Поток назначения. |
+| saveOptions | ArchiveSaveOptions | Параметры сохранения архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *outputStream* не доступен для записи. |
+| ArgumentException | *outputStream* недоступен для записи. |
+| ObjectDisposedException | Архив освобождён. |
+| InvalidOperationException | Выбрасывается, когда применяется шифрование к уже зашифрованным записям. |
 
-### Примечания
+## Примечания
 
-*outputStream*должен быть доступен для записи.
+*outputStream* must be writable.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -42,12 +44,12 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveSaveOptions](../../../aspose.zip.saving/archivesaveoptions/)
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -61,25 +63,30 @@ public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = nu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFileName | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
-| saveOptions | ArchiveSaveOptions | Варианты сохранения архива. |
+| destinationFileName | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
+| saveOptions | ArchiveSaveOptions | Параметры сохранения архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
-| PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows длина пути должна быть менее 248 символов, а длина имени файла — менее 260 символов. |
-| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *destinationFileName* равно null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *destinationFileName* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *destinationFileName* запрещён. |
+| PathTooLongException | Указанный *destinationFileName*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл в *destinationFileName* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
+| ObjectDisposedException | Выбрасывается, если архив был освобождён. |
+| InvalidOperationException | Выбрасывается, когда применяется шифрование к уже зашифрованным записям. |
 
-### Примечания
+## Примечания
 
-Архив можно сохранить по тому же пути, по которому он был загружен из . Однако делать это не рекомендуется, поскольку при таком подходе используется копирование во временный файл.
+Можно сохранить архив в тот же путь, из которого он был загружен. Однако это не рекомендуется, потому что такой подход использует копирование во временный файл.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new Archive())
@@ -89,11 +96,11 @@ using (var archive = new Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveSaveOptions](../../../aspose.zip.saving/archivesaveoptions/)
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

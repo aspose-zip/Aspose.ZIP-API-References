@@ -1,23 +1,23 @@
 ---
-title: RarArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "RarArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "RarArchive метод. Выполняет определённые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.rar/rararchive/dispose/
 ---
 ## RarArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [RarArchive](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

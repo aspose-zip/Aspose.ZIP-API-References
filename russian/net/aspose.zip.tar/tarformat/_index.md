@@ -1,30 +1,30 @@
 ---
-title: Enum TarFormat
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Tar.TarFormat перечисление. Перечисление с поддерживаемыми форматамиTarArchive .
+title: "Перечисление TarFormat"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Перечисление Aspose.Zip.Tar.TarFormat. Перечисление поддерживаемых форматов TarArchive"
 type: docs
-weight: 750
+weight: 1290
 url: /ru/net/aspose.zip.tar/tarformat/
 ---
 ## TarFormat enumeration
 
-Перечисление с поддерживаемыми форматами[`TarArchive`](../tararchive/) .
+Перечисление поддерживаемых форматов [`TarArchive`](../tararchive/).
 
 ```csharp
 public enum TarFormat
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| UsTar | `0` | Формат расширяет блок заголовка из формата v7. Широко распространен и поддерживается во многих утилитах для Windows. |
-| Gnu | `1` | GNU tar основан на ранней версии POSIX.1. Этот формат реализован как формат tar по умолчанию во многих системах Linux. |
-| Pax | `2` | Формат, определенный в стандарте POSIX.1-2001. |
+| UsTar | `0` | Формат расширяет блок заголовка из формата v7. Широко распространён и поддерживается во многих утилитах для Windows. |
+| Gnu | `1` | GNU tar основан на раннем проекте POSIX.1. Этот формат реализован как формат tar по умолчанию во многих системах Linux. |
+| Pax | `2` | Формат, определённый в стандарте POSIX.1-2001. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Tar](../../aspose.zip.tar/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Tar](../../aspose.zip.tar/)
+* assembly [Aspose.Zip](../../)
 
 

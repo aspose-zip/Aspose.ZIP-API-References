@@ -1,23 +1,23 @@
 ---
-title: SevenZipArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "SevenZipArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SevenZipArchive. Выполняет определённые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов"
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/dispose/
 ---
 ## SevenZipArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchive](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

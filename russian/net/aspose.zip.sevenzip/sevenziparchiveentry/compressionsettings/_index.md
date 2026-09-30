@@ -1,24 +1,24 @@
 ---
-title: SevenZipArchiveEntry.CompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchiveEntry свойство. Получает параметры сжатия или распаковки.
+title: "SevenZipArchiveEntry.CompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipArchiveEntry. Получает настройки сжатия или распаковки"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings/
 ---
 ## SevenZipArchiveEntry.CompressionSettings property
 
-Получает параметры сжатия или распаковки.
+Возвращает настройки сжатия или распаковки.
 
 ```csharp
 public SevenZipCompressionSettings CompressionSettings { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCompressionSettings](../../../aspose.zip.saving/sevenzipcompressionsettings/)
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

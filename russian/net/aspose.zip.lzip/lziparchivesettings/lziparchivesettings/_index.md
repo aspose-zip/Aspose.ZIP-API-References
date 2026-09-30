@@ -1,14 +1,14 @@
 ---
-title: LzipArchiveSettings.LzipArchiveSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: LzipArchiveSettings строитель. Инициализирует новый экземплярLzipArchiveSettings с определенным размером словаря.
+title: "LzipArchiveSettings.LzipArchiveSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор LzipArchiveSettings. Инициализирует новый экземпляр LzipArchiveSettings с определённым размером словаря"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.lzip/lziparchivesettings/lziparchivesettings/
 ---
 ## LzipArchiveSettings constructor
 
-Инициализирует новый экземпляр[`LzipArchiveSettings`](../) с определенным размером словаря.
+Инициализирует новый экземпляр [`LzipArchiveSettings`](../) с определённым размером словаря.
 
 ```csharp
 public LzipArchiveSettings(int dictionarySize, int maxMemberSize = 62914560)
@@ -17,12 +17,18 @@ public LzipArchiveSettings(int dictionarySize, int maxMemberSize = 62914560)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dictionarySize | Int32 | Размер словаря для сжатия LZMA в байтах. |
-| maxMemberSize | Int32 | Максимальный размер одного члена в архиве lzip в байтах. Значение по умолчанию — 60 МБ. |
+| maxMemberSize | Int32 | Максимальный размер одного элемента в lzip-архиве в байтах. Значение по умолчанию — 60 МБ. |
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentOutOfRangeException | Выбрасывается, когда dictionarySize находится за пределами допустимого диапазона значений. |
+
+### См. также
 
 * class [LzipArchiveSettings](../)
-* пространство имен [Aspose.Zip.Lzip](../../lziparchivesettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

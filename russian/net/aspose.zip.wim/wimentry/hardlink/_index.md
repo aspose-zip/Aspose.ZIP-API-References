@@ -1,7 +1,7 @@
 ---
-title: WimEntry.HardLink
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает идентификатор жесткой ссылки файла или каталога.
+title: "WimEntry.HardLink"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimEntry. Возвращает идентификатор жесткой ссылки файла или каталога"
 type: docs
 weight: 70
 url: /ru/net/aspose.zip.wim/wimentry/hardlink/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.wim/wimentry/hardlink/
 public long HardLink { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

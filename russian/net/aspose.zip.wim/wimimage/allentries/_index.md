@@ -1,24 +1,24 @@
 ---
-title: WimImage.AllEntries
-second_title: Aspose.ZIP для справочника API .NET
-description: WimImage свойство. Получает записиWimEntryтип составляющий изображение рекурсивно.
+title: "WimImage.AllEntries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimImage. Возвращает элементы типа WimEntry, рекурсивно составляющие образ"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.wim/wimimage/allentries/
 ---
 ## WimImage.AllEntries property
 
-Получает записи[`WimEntry`](../../wimentry/)тип, составляющий изображение рекурсивно.
+Возвращает элементы типа [`WimEntry`](../../wimentry/), рекурсивно составляющие образ.
 
 ```csharp
 public IEnumerable<WimEntry> AllEntries { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../../wimentry/)
 * class [WimImage](../)
-* пространство имен [Aspose.Zip.Wim](../../wimimage/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimimage/)
+* assembly [Aspose.Zip](../../../)
 
 

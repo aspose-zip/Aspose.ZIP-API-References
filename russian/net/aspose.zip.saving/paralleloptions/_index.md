@@ -1,14 +1,14 @@
 ---
-title: Class ParallelOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.ParallelOptions сорт. Опции для параллельного сжатия.
+title: "Класс ParallelOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.ParallelOptions. Параметры параллельного сжатия"
 type: docs
-weight: 490
+weight: 990
 url: /ru/net/aspose.zip.saving/paralleloptions/
 ---
 ## ParallelOptions class
 
-Опции для параллельного сжатия.
+Параметры параллельного сжатия.
 
 ```csharp
 public class ParallelOptions
@@ -20,30 +20,30 @@ public class ParallelOptions
 | --- | --- |
 | [ParallelOptions](paralleloptions/)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize/) { get; set; } | Получает или задает оценку памяти в мегабайтах, доступную для размещения сжатых записей без свопинга на диск. Это значение имеет смысл, только если[`ParallelCompressInMemory`](./parallelcompressinmemory/) настройка находится вAuto режим. |
-| [ParallelCompressInMemory](../../aspose.zip.saving/paralleloptions/parallelcompressinmemory/) { get; set; } | Получает или задает значение, указывающее, как следует использовать параллельный подход. |
+| [AvailableMemorySize](../../aspose.zip.saving/paralleloptions/availablememorysize/) { get; set; } | Получает или задает оценку памяти в мегабайтах, доступную для размещения сжатых записей без выгрузки на диск. Это значение имеет смысл только если параметр [`ParallelCompressInMemory`](./parallelcompressinmemory/) находится в режиме Auto. |
+| [ParallelCompressInMemory](../../aspose.zip.saving/paralleloptions/parallelcompressinmemory/) { get; set; } | Получает или задает значение, указывающее, как использовать параллельный подход. |
 
-### Примечания
+## Примечания
 
-Эти параметры управляют одновременным сжатием несколькими ядрами ЦП.
+Эти параметры управляют одновременным сжатием несколькими ядрами процессора.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new Archive())
 {
     archive.CreateEntries("DirToCompress");
-    archive.Save("archive.zip", new ArchiveSaveOptions() { ParallelOptions = new ParallelOptions { ParallelCompressInMemory = mode, AvailableMemorySize = 4000 } });
+    archive.Save("archive.zip", new ArchiveSaveOptions() { ParallelOptions = new ParallelOptions { ParallelCompressInMemory = ParallelCompressionMode.Auto, AvailableMemorySize = 4000 } });
 }
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

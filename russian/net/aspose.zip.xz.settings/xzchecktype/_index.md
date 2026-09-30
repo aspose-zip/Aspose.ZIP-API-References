@@ -1,9 +1,9 @@
 ---
-title: Enum XzCheckType
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Xz.Settings.XzCheckType перечисление. Перечисление определяет подход к вычислению контрольной суммы для архива xz.
+title: "Перечисление XzCheckType"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Aspose.Zip.Xz.Settings.XzCheckType перечисление. Перечисление определяет подход к вычислению контрольной суммы для xz-архива"
 type: docs
-weight: 870
+weight: 1540
 url: /ru/net/aspose.zip.xz.settings/xzchecktype/
 ---
 ## XzCheckType enumeration
@@ -14,17 +14,17 @@ url: /ru/net/aspose.zip.xz.settings/xzchecktype/
 public enum XzCheckType : byte
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| None | `0` | Контрольная сумма не будет рассчитана. |
-| Crc32 | `1` | Контрольная сумма будет рассчитана с использованием алгоритма CRC32. |
-| Crc64 | `4` | Контрольная сумма будет рассчитана с использованием алгоритма CRC64. |
+| None | `0` | Контрольная сумма не будет вычислена. |
+| Crc32 | `1` | Контрольная сумма будет вычислена с использованием алгоритма CRC32. |
+| Crc64 | `4` | Контрольная сумма будет вычислена с использованием алгоритма CRC64. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,89 +1,96 @@
 ---
-title: ZArchive.ZArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: ZArchive строитель. Инициализирует новый экземплярZArchive класс подготовлен к сжатию.
+title: "ZArchive.ZArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор ZArchive. Инициализирует новый экземпляр класса ZArchive, подготовленный для сжатия"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.z/zarchive/zarchive/
 ---
 ## ZArchive() {#constructor}
 
-Инициализирует новый экземпляр[`ZArchive`](../) класс подготовлен к сжатию.
+Инициализирует новый экземпляр класса [`ZArchive`](../), подготовленного для сжатия.
 
 ```csharp
 public ZArchive()
 ```
 
-### Смотрите также
+### См. также
 
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## ZArchive(Stream) {#constructor_1}
+## ZArchive(Stream, ZArchiveLoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр[`ZArchive`](../) класс подготовлен к распаковке.
+Инициализирует новый экземпляр класса [`ZArchive`](../), подготовленного для распаковки.
 
 ```csharp
-public ZArchive(Stream source)
+public ZArchive(Stream source, ZArchiveLoadOptions loadOptions = null)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | source | Stream | Источник архива. |
+| loadOptions | ZArchiveLoadOptions | Параметры загрузки архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *source* не доступен для поиска. |
-| ArgumentNullException | *source* нулевой. |
+| ArgumentException | *source* не поддерживает поиск. |
+| ArgumentNullException | *source* равен null. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывается. Видеть[`Extract`](../extract/) метод распаковки.
+Этот конструктор не распаковывает. См. метод [`Extract`](../extract/) для распаковки.
 
-### Смотрите также
+### См. также
 
+* class [ZArchiveLoadOptions](../../zarchiveloadoptions/)
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## ZArchive(string) {#constructor_2}
+## ZArchive(string, ZArchiveLoadOptions) {#constructor_2}
 
-Инициализирует новый экземпляр[`ZArchive`](../) класс подготовлен к распаковке.
+Инициализирует новый экземпляр класса [`ZArchive`](../), подготовленного для распаковки.
 
 ```csharp
-public ZArchive(string path)
+public ZArchive(string path, ZArchiveLoadOptions loadOptions = null)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Путь к источнику архива. |
+| loadOptions | ZArchiveLoadOptions | Параметры загрузки архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывается. Видеть[`Extract`](../extract/) метод распаковки.
+Этот конструктор не распаковывает. См. метод [`Extract`](../extract/) для распаковки.
 
-### Смотрите также
+### См. также
 
+* class [ZArchiveLoadOptions](../../zarchiveloadoptions/)
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

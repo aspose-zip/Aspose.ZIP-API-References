@@ -1,14 +1,14 @@
 ---
-title: EntryEventArgs.EntryEventArgs
-second_title: Aspose.ZIP для справочника API .NET
-description: EntryEventArgs строитель. Инициализирует новый экземплярEntryEventArgs класс.
+title: "EntryEventArgs.EntryEventArgs"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор EntryEventArgs. Инициализирует новый экземпляр класса EntryEventArgs"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/entryeventargs/entryeventargs/
 ---
 ## EntryEventArgs constructor
 
-Инициализирует новый экземпляр[`EntryEventArgs`](../) класс.
+Инициализирует новый экземпляр класса [`EntryEventArgs`](../).
 
 ```csharp
 public EntryEventArgs(ArchiveEntry entry)
@@ -16,13 +16,13 @@ public EntryEventArgs(ArchiveEntry entry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entry | ArchiveEntry | Архивная запись, для которой возникает событие. |
+| запись | ArchiveEntry | Запись архива, для которой вызывается событие. |
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [EntryEventArgs](../)
-* пространство имен [Aspose.Zip](../../entryeventargs/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../entryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 
