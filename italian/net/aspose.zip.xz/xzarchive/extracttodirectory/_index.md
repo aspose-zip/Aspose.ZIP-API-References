@@ -1,0 +1,44 @@
+---
+title: "XzArchive.ExtractToDirectory"
+second_title: "Riferimento API Aspose.ZIP per .NET"
+description: "Metodo XzArchive. Estrae il contenuto dell'archivio nella directory fornita"
+type: docs
+weight: 50
+url: /it/net/aspose.zip.xz/xzarchive/extracttodirectory/
+---
+## XzArchive.ExtractToDirectory method
+
+Estrae il contenuto dell'archivio nella directory fornita.
+
+```csharp
+public void ExtractToDirectory(string destinationDirectory)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| destinationDirectory | String | Il percorso della directory in cui posizionare i file estratti. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ObjectDisposedException | L'archivio è stato eliminato e non può essere utilizzato. |
+| ArgumentNullException | *destinationDirectory* è null. |
+| PathTooLongException | Il percorso specificato, il nome file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, su piattaforme Windows, i percorsi devono essere inferiori a 248 caratteri e i nomi file devono essere inferiori a 260 caratteri. |
+| SecurityException | Il chiamante non dispone dell'autorizzazione necessaria per accedere alla directory esistente. |
+| NotSupportedException | Se la directory non esiste, il percorso contiene un carattere due punti (:) che non fa parte di un'etichetta di unità (\"C:\\\") |
+| ArgumentException | *destinationDirectory* è una stringa di lunghezza zero, contiene solo spazi bianchi o contiene uno o più caratteri non validi. È possibile verificare i caratteri non validi utilizzando il metodo System.IO.Path.GetInvalidPathChars. -or- il percorso è prefissato da, o contiene, solo un carattere due punti (:). |
+| IOException | La directory specificata dal percorso è un file. -or- Il nome di rete non è noto. |
+| OperationCanceledException | In .NET Framework 4.0 e versioni successive: Generata quando l'estrazione è annullata tramite il token di cancellazione fornito. |
+
+## Osservazioni
+
+Se la directory non esiste, verrà creata.
+
+### Vedi anche
+
+* class [XzArchive](../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
+
+
