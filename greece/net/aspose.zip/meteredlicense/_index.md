@@ -1,14 +1,14 @@
 ---
-title: Class MeteredLicense
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.MeteredLicense τάξη. Παρέχει μεθόδους για να ορίσετε μετρημένο κλειδί.
+title: "Κλάση MeteredLicense"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.MeteredLicense κλάση. Παρέχει μεθόδους για ορισμό κλειδιού με μέτρηση"
 type: docs
-weight: 290
+weight: 760
 url: /el/net/aspose.zip/meteredlicense/
 ---
 ## MeteredLicense class
 
-Παρέχει μεθόδους για να ορίσετε μετρημένο κλειδί.
+Παρέχει μεθόδους για τον ορισμό κλειδιού μέτρησης.
 
 ```csharp
 public class MeteredLicense
@@ -16,33 +16,46 @@ public class MeteredLicense
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [MeteredLicense](meteredlicense/)() | Αρχικοποιεί μια νέα παρουσία αυτής της κλάσης. |
+| [MeteredLicense](meteredlicense/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [SetMeteredKey](../../aspose.zip/meteredlicense/setmeteredkey/)(string, string) | Ορίζει το μετρημένο δημόσιο και ιδιωτικό κλειδί. |
+| [ResetMeteredKey](../../aspose.zip/meteredlicense/resetmeteredkey/)() | Αφαιρεί την προηγουμένως ρυθμισμένη άδεια. |
+| [SetMeteredKey](../../aspose.zip/meteredlicense/setmeteredkey/)(string, string) | Ορίζει δημόσια και ιδιωτικά κλειδιά με μέτρηση. |
 | static [GetConsumptionCredit](../../aspose.zip/meteredlicense/getconsumptioncredit/)() | Λαμβάνει πίστωση κατανάλωσης. |
+| static [GetConsumptionQuantity](../../aspose.zip/meteredlicense/getconsumptionquantity/)() | Λαμβάνει το μέγεθος αρχείου κατανάλωσης. |
 
-### Παρατηρήσεις
+## Παραδείγματα
 
-Σημαντικό: με μετρημένη άδεια δεν μπορείτε να συνθέσετε αυτοεξαγόμενα αρχεία zip.
-
-### Παραδείγματα
-
-Σε αυτό το παράδειγμα, θα γίνει μια προσπάθεια να οριστεί μετρημένο δημόσιο και ιδιωτικό κλειδί.
+Σε αυτό το παράδειγμα, θα γίνει προσπάθεια να οριστούν δημόσιο και ιδιωτικό κλειδιά με μέτρηση
 
 ```csharp
-MeteredLicense matered = new MeteredLicense();
-matered.SetMeteredKey("PublicKey", "PrivateKey");
+[C#]
+
+Metered metered = new Metered();
+metered.SetMeteredKey("PublicKey", "PrivateKey");
+
+
+[Visual Basic]
+
+Dim metered As Metered = New Metered
+metered.SetMeteredKey("PublicKey", "PrivateKey")
+```
+
+το αρχείο jar του στοιχείου:
+
+```csharp
+Metered metered = new Metered();
+metered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip](../../aspose.zip/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

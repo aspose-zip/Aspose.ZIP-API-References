@@ -1,14 +1,14 @@
 ---
-title: RarArchiveEntry.IsDirectory
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchiveEntry ιδιοκτησία. Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο.
+title: "RarArchiveEntry.IsDirectory"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα RarArchiveEntry. Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει έναν φάκελο"
 type: docs
 weight: 30
 url: /el/net/aspose.zip.rar/rararchiveentry/isdirectory/
 ---
 ## RarArchiveEntry.IsDirectory property
 
-Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο.
+Επιστρέφει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει κατάλογο.
 
 ```csharp
 public bool IsDirectory { get; }
@@ -17,7 +17,7 @@ public bool IsDirectory { get; }
 ### Δείτε επίσης
 
 * class [RarArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

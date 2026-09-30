@@ -1,7 +1,7 @@
 ---
-title: CpioArchive.SaveGzipped
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CpioArchive μέθοδος. Αποθηκεύει το αρχείο στη ροή με συμπίεση gzip.
+title: "CpioArchive.SaveGzipped"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "CpioArchive μέθοδος. Αποθηκεύει το αρχείο στη ροή με συμπίεση gzip"
 type: docs
 weight: 90
 url: /el/net/aspose.zip.cpio/cpioarchive/savegzipped/
@@ -17,20 +17,21 @@ public void SaveGzipped(Stream output, CpioFormat cpioFormat = CpioFormat.OldAsc
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | output | Stream | Ροή προορισμού. |
-| cpioFormat | CpioFormat | Καθορίζει τη μορφή κεφαλίδας cpio. |
+| cpioFormat | CpioFormat | Ορίζει τη μορφή κεφαλίδας cpio. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *output* είναι μηδενικό. |
+| ArgumentNullException | *output* είναι null. |
 | ArgumentException | *output* δεν είναι εγγράψιμο. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-*output*πρέπει να είναι εγγράψιμο.
+*output* must be writable.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream result = File.OpenWrite("result.cpio.gz"))
@@ -50,14 +51,14 @@ using (FileStream result = File.OpenWrite("result.cpio.gz"))
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SaveGzipped(string, CpioFormat) {#savegzipped_1}
 
-Αποθηκεύει το αρχείο στο αρχείο κατά διαδρομή με συμπίεση gzip.
+Αποθηκεύει το αρχείο στο αρχείο μέσω διαδρομής με συμπίεση gzip.
 
 ```csharp
 public void SaveGzipped(string path, CpioFormat cpioFormat = CpioFormat.OldAscii)
@@ -65,10 +66,22 @@ public void SaveGzipped(string path, CpioFormat cpioFormat = CpioFormat.OldAscii
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου παραπέμπει σε ένα υπάρχον αρχείο, θα αντικατασταθεί. |
-| cpioFormat | CpioFormat | Καθορίζει τη μορφή κεφαλίδας cpio. |
+| διαδρομή | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου δείχνει σε υπάρχον αρχείο, θα αντικατασταθεί. |
+| cpioFormat | CpioFormat | Ορίζει τη μορφή κεφαλίδας cpio. |
 
-### Παραδείγματα
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentException | *path* είναι συμβολοσειρά μηδενικού μήκους, περιέχει μόνο κενά ή περιέχει έναν ή περισσότερους μη έγκυρους χαρακτήρες όπως ορίζονται από InvalidPathChars. |
+| ArgumentNullException | *path* είναι `null`. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη (για παράδειγμα, βρίσκεται σε μη αντιστοιχισμένο δίσκο). |
+| IOException | Παρουσιάστηκε σφάλμα I/O. |
+| PathTooLongException | Η καθορισμένη διαδρομή, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. |
+| UnauthorizedAccessException | Ο καλών δεν διαθέτει την απαιτούμενη άδεια. -ή- *path* καθόρισε ένα αρχείο ή φάκελο μόνο για ανάγνωση. |
+
+## Παραδείγματα
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -85,7 +98,7 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class SharEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Shar.SharEntry τάξη. Αντιπροσωπεύει μεμονωμένο αρχείο μέσα στο κοινό αρχείο.
+title: "Κλάση SharEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Shar.SharEntry κλάση. Αντιπροσωπεύει ένα μεμονωμένο αρχείο μέσα σε αρχείο shar."
 type: docs
-weight: 710
+weight: 1250
 url: /el/net/aspose.zip.shar/sharentry/
 ---
 ## SharEntry class
 
-Αντιπροσωπεύει μεμονωμένο αρχείο μέσα στο κοινό αρχείο.
+Αντιπροσωπεύει ένα μεμονωμένο αρχείο μέσα σε αρχείο shar.
 
 ```csharp
 public class SharEntry
@@ -16,13 +16,13 @@ public class SharEntry
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | override [ToString](../../aspose.zip.shar/sharentry/tostring/)() | Επιστρέφει μια συμβολοσειρά που αντιπροσωπεύει την τρέχουσα καταχώρηση. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.Shar](../../aspose.zip.shar/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Shar](../../aspose.zip.shar/)
+* assembly [Aspose.Zip](../../)
 
 

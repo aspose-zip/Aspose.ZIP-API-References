@@ -1,14 +1,14 @@
 ---
-title: Class LzmaArchiveSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.LZMA.LzmaArchiveSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης LZMA εντός του αρχείου lzma.
+title: "Κλάση LzmaArchiveSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.LZMA.LzmaArchiveSettings κλάση. Ρυθμίσεις για το αρχείο lzma"
 type: docs
-weight: 250
+weight: 620
 url: /el/net/aspose.zip.lzma/lzmaarchivesettings/
 ---
 ## LzmaArchiveSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης LZMA εντός του αρχείου lzma.
+Ρυθμίσεις για το αρχείο lzma.
 
 ```csharp
 public class LzmaArchiveSettings
@@ -16,25 +16,33 @@ public class LzmaArchiveSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [LzmaArchiveSettings](lzmaarchivesettings/)() | Αρχικοποιεί μια νέα παρουσία του`LzmaArchiveSettings`κλάση με προεπιλεγμένο μέγεθος λεξικού, ισούται με 16 megabyte. |
+| [LzmaArchiveSettings](lzmaarchivesettings/)() | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης `LzmaArchiveSettings` με προεπιλεγμένο μέγεθος λεξικού, ίσο με 16 megabytes, αριθμό γρήγορων bytes ίσο με 32 και bits κυριολεκτικού πλαισίου ίσα με 3. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [DictionarySize](../../aspose.zip.lzma/lzmaarchivesettings/dictionarysize/) { get; set; } | Το μέγεθος λεξικού (buffer ιστορικού) υποδεικνύει πόσα byte από τα πρόσφατα επεξεργασμένα ασυμπίεστα δεδομένα διατηρούνται στη μνήμη. Εάν δεν οριστεί, θα επιλεγεί ανάλογα με το μέγεθος καταχώρισης. |
+| [DictionarySize](../../aspose.zip.lzma/lzmaarchivesettings/dictionarysize/) { get; set; } | Το μέγεθος του λεξικού (buffer ιστορικού) υποδεικνύει πόσα bytes των πρόσφατα επεξεργασμένων ασυμπίεστων δεδομένων διατηρούνται στη μνήμη. Εάν δεν οριστεί, θα επιλεγεί ανάλογα με το μέγεθος της εγγραφής. |
+| [LiteralContextBits](../../aspose.zip.lzma/lzmaarchivesettings/literalcontextbits/) { get; set; } | Λαμβάνει ή ορίζει τον αριθμό των bits κυριολεκτικού πλαισίου. |
+| [NumberOfFastBytes](../../aspose.zip.lzma/lzmaarchivesettings/numberoffastbytes/) { get; set; } | Λαμβάνει ή ορίζει τον αριθμό των byte που χρησιμοποιούνται για γρήγορη αναζήτηση αντιστοιχίας στον αλγόριθμο LZMA. |
 
-### Παρατηρήσεις
+## Συμβάντα
 
-Ο αλγόριθμος αλυσίδας Lempel–Ziv–Markov (LZMA) είναι ένας αλγόριθμος που χρησιμοποιείται για την εκτέλεση συμπίεσης δεδομένων χωρίς απώλειες. Αυτός ο αλγόριθμος χρησιμοποιεί ένα σχήμα συμπίεσης λεξικού κάπως παρόμοιο με τον αλγόριθμο LZ77 και διαθέτει υψηλή αναλογία συμπίεσης και μεταβλητή συμπίεση μεγέθους.
+| Όνομα | Περιγραφή |
+| --- | --- |
+| event [CompressionProgressed](../../aspose.zip.lzma/lzmaarchivesettings/compressionprogressed/) | Ενεργοποιείται όταν ένα τμήμα ακατέργαστης ροής συμπιέζεται. |
 
-Δείτε περισσότερα: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+## Παρατηρήσεις
+
+Ο αλγόριθμος Lempel–Ziv–Markov chain (LZMA) είναι ένας αλγόριθμος που χρησιμοποιείται για την εκτέλεση ασυμπίεστης συμπίεσης δεδομένων. Αυτός ο αλγόριθμος χρησιμοποιεί ένα σχήμα συμπίεσης λεξικού κάπως παρόμοιο με τον αλγόριθμο LZ77 και προσφέρει υψηλό λόγο συμπίεσης και μεταβλητό μέγεθος λεξικού συμπίεσης.
+
+Δείτε περισσότερα: [αλγόριθμος Lempel–Ziv–Markov chain](https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm)
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.LZMA](../../aspose.zip.lzma/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.LZMA](../../aspose.zip.lzma/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class ProgressEventArgs
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.ProgressEventArgs τάξη. Κατηγορία για δεδομένα συμβάντων που περιέχουν τον αριθμό των byte που πραγματοποιήθηκαν.
+title: "Κλάση ProgressEventArgs"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.ProgressEventArgs. Κλάση για δεδομένα συμβάντος που περιέχουν τον αριθμό των επεξεργασμένων byte."
 type: docs
-weight: 300
+weight: 780
 url: /el/net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class
 
-Κατηγορία για δεδομένα συμβάντων που περιέχουν τον αριθμό των byte που πραγματοποιήθηκαν.
+Κλάση για δεδομένα συμβάντος που περιέχει τον αριθμό των επεξεργασμένων byte.
 
 ```csharp
 public class ProgressEventArgs : EventArgs
@@ -16,19 +16,19 @@ public class ProgressEventArgs : EventArgs
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ProgressEventArgs](progresseventargs/)(ulong) | Αρχικοποιεί μια νέα παρουσία του`ProgressEventArgs` τάξη. |
+| [ProgressEventArgs](progresseventargs/)(ulong) | Αρχικοποιεί μια νέα παρουσία της κλάσης `ProgressEventArgs`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ProceededBytes](../../aspose.zip/progresseventargs/proceededbytes/) { get; } | Λαμβάνει τον αριθμό των byte που έχουν προχωρήσει. |
+| [ProceededBytes](../../aspose.zip/progresseventargs/proceededbytes/) { get; } | Επιστρέφει τον αριθμό των επεξεργασμένων byte. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip](../../aspose.zip/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

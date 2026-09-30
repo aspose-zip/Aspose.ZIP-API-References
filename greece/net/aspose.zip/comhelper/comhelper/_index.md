@@ -1,7 +1,7 @@
 ---
-title: ComHelper.ComHelper
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ComHelper κατασκευαστής. Αρχικοποιεί μια νέα παρουσία αυτής της κλάσης.
+title: "ComHelper.ComHelper"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής ComHelper. Αρχικοποιεί μια νέα παρουσία αυτής της κλάσης."
 type: docs
 weight: 10
 url: /el/net/aspose.zip/comhelper/comhelper/
@@ -17,7 +17,7 @@ public ComHelper()
 ### Δείτε επίσης
 
 * class [ComHelper](../)
-* χώρος ονομάτων [Aspose.Zip](../../comhelper/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 

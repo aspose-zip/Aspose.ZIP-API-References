@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipPPMdCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.SevenZipPPMdCompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης PPMd εντός αρχείου 7z.
+title: "Κλάση SevenZipPPMdCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.SevenZipPPMdCompressionSettings. Ρυθμίσεις για τη μέθοδο συμπίεσης PPMd μέσα σε αρχείο 7z"
 type: docs
-weight: 590
+weight: 1100
 url: /el/net/aspose.zip.saving/sevenzipppmdcompressionsettings/
 ---
 ## SevenZipPPMdCompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης PPMd εντός αρχείου 7z.
+Ρυθμίσεις για τη μέθοδο συμπίεσης PPMd μέσα σε αρχείο 7z.
 
 ```csharp
 public sealed class SevenZipPPMdCompressionSettings : SevenZipCompressionSettings
@@ -16,23 +16,23 @@ public sealed class SevenZipPPMdCompressionSettings : SevenZipCompressionSetting
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor)() | Δημιουργεί τις ρυθμίσεις για τη μέθοδο συμπίεσης PPMd εντός αρχείου 7z με προεπιλεγμένη σειρά μοντέλου και μέγεθος υποκατανεμητή. |
-| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor_1)(byte, int) | Δημιουργεί τις ρυθμίσεις για τη μέθοδο συμπίεσης PPMd εντός αρχείου 7z. |
+| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor)() | Δημιουργεί παραδείγματα ρυθμίσεων για τη μέθοδο συμπίεσης PPMd μέσα σε αρχείο 7z με προεπιλεγμένη σειρά μοντέλου και μέγεθος υπο-κατανεμητή. |
+| [SevenZipPPMdCompressionSettings](sevenzipppmdcompressionsettings/#constructor_1)(byte, int) | Δημιουργεί παραδείγματα ρυθμίσεων για τη μέθοδο συμπίεσης PPMd μέσα σε αρχείο 7z. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [MaxOrder](../../aspose.zip.saving/sevenzipppmdcompressionsettings/maxorder/) { get; } | Λαμβάνει τη μέγιστη παραγγελία. |
-| override [Method](../../aspose.zip.saving/sevenzipppmdcompressionsettings/method/) { get; } | Λαμβάνει μέθοδο συμπίεσης ή αποσυμπίεσης. |
-| [SuballocatorSize](../../aspose.zip.saving/sevenzipppmdcompressionsettings/suballocatorsize/) { get; } | Λαμβάνει το μέγεθος δευτερεύοντος εκχωρητή σε MB. |
+| [MaxOrder](../../aspose.zip.saving/sevenzipppmdcompressionsettings/maxorder/) { get; } | Λαμβάνει τη μέγιστη σειρά. |
+| override [Method](../../aspose.zip.saving/sevenzipppmdcompressionsettings/method/) { get; } | Λαμβάνει τη μέθοδο συμπίεσης ή αποσυμπίεσης. |
+| [SuballocatorSize](../../aspose.zip.saving/sevenzipppmdcompressionsettings/suballocatorsize/) { get; } | Λαμβάνει το μέγεθος του υπο-κατανεμητή σε MB. |
 
 ### Δείτε επίσης
 
 * class [SevenZipCompressionSettings](../sevenzipcompressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

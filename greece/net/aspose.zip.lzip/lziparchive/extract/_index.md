@@ -1,9 +1,9 @@
 ---
-title: LzipArchive.Extract
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: LzipArchive μέθοδος. Εξάγει το αρχείο lzip σε μια ροή.
+title: "LzipArchive.Extract"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "LzipArchive μέθοδος. Εξάγει το lzip αρχείο σε μια ροή"
 type: docs
-weight: 40
+weight: 50
 url: /el/net/aspose.zip.lzip/lziparchive/extract/
 ---
 ## Extract(Stream) {#extract_1}
@@ -16,37 +16,39 @@ public void Extract(Stream destination)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | Stream | Ροή για αποθήκευση αποσυμπιεσμένων δεδομένων. |
+| προορισμός | Stream | Ροή για την αποθήκευση αποσυμπιεσμένων δεδομένων. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidOperationException | Οι κεφαλίδες αρχειοθέτησης και οι πληροφορίες υπηρεσίας δεν διαβάστηκαν. |
-| InvalidDataException | Σφάλμα στα δεδομένα στην κεφαλίδα ή στο άθροισμα ελέγχου. |
-| ArgumentNullException | Η ροή προορισμού είναι μηδενική. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| InvalidOperationException | Οι κεφαλίδες του αρχείου και οι πληροφορίες υπηρεσίας δεν διαβάστηκαν. |
+| InvalidDataException | Σφάλμα στα δεδομένα στην κεφαλίδα ή στο checksum. |
+| ArgumentNullException | Η ροή προορισμού είναι null. |
 | ArgumentException | Η ροή προορισμού δεν υποστηρίζει εγγραφή. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream sourceLzipFile = File.Open(sourceFileName, FileMode.Open))
 {
    using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
-    {
+   {
         using (var archive = new LzipArchive(sourceLzipFile))
         {
                archive.Extract(extractedFile);
-           }
-       }
+        }
+   }
 }
 ```
 
 ### Δείτε επίσης
 
 * class [LzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -64,18 +66,20 @@ public void Extract(FileInfo fileInfo)
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidOperationException | Οι κεφαλίδες αρχειοθέτησης και οι πληροφορίες υπηρεσίας δεν διαβάστηκαν. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια για να ανοίξει το*fileInfo*. |
-| ArgumentException | Η διαδρομή αρχείου είναι κενή ή περιέχει μόνο λευκά κενά. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| InvalidOperationException | Οι κεφαλίδες του αρχείου και οι πληροφορίες υπηρεσίας δεν διαβάστηκαν. |
+| SecurityException | Το πρόγραμμα που καλεί δεν έχει την απαιτούμενη άδεια για το άνοιγμα του *fileInfo*. |
+| ArgumentException | Η διαδρομή του αρχείου είναι κενή ή περιέχει μόνο κενά διαστήματα. |
 | FileNotFoundException | Το αρχείο δεν βρέθηκε. |
 | UnauthorizedAccessException | Η διαδρομή προς το αρχείο είναι μόνο για ανάγνωση ή είναι κατάλογος. |
-| ArgumentNullException | *fileInfo* είναι μηδενικό. |
-| DirectoryNotFoundException | Η καθορισμένη διαδρομή δεν είναι έγκυρη, όπως είναι σε μη αντιστοιχισμένη μονάδα δίσκου. |
+| ArgumentNullException | *fileInfo* είναι null. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
 | IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
@@ -90,14 +94,14 @@ using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
 ### Δείτε επίσης
 
 * class [LzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(string) {#extract_2}
 
-Εξάγει το αρχείο lzip σε ένα αρχείο κατά διαδρομή.
+Εξάγει το αρχείο lzip σε αρχείο με βάση τη διαδρομή.
 
 ```csharp
 public void Extract(string path)
@@ -105,26 +109,29 @@ public void Extract(string path)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Διαδρομή προς το αρχείο που θα αποθηκεύει αποσυμπιεσμένα δεδομένα. |
+| διαδρομή | String | Διαδρομή προς το αρχείο που θα αποθηκεύσει τα αποσυμπιεσμένα δεδομένα. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidOperationException | Οι κεφαλίδες αρχειοθέτησης και οι πληροφορίες υπηρεσίας δεν διαβάστηκαν. |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| InvalidOperationException | Οι κεφαλίδες του αρχείου και οι πληροφορίες υπηρεσίας δεν διαβάστηκαν. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
 {
-    using (var archive = new LzipArchive(xzFile))
+    using (var archive = new LzipArchive(lzipFile))
     {
         archive.Extract("extracted.bin");
     }
@@ -134,7 +141,7 @@ using (FileStream lzipFile = File.Open(sourceFileName, FileMode.Open))
 ### Δείτε επίσης
 
 * class [LzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

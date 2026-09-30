@@ -1,14 +1,14 @@
 ---
-title: Class XzFilterSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Xz.Settings.XzFilterSettings τάξη. Βασική κλάση για σύνολο ρυθμίσεων συγκεκριμένου φίλτρου μορφής xz.
+title: "Κλάση XzFilterSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Xz.Settings.XzFilterSettings κλάση. Βασική κλάση για ένα σύνολο ρυθμίσεων ενός συγκεκριμένου φίλτρου μορφής xz"
 type: docs
-weight: 880
+weight: 1550
 url: /el/net/aspose.zip.xz.settings/xzfiltersettings/
 ---
 ## XzFilterSettings class
 
-Βασική κλάση για σύνολο ρυθμίσεων συγκεκριμένου φίλτρου μορφής xz.
+Βασική κλάση για ένα σύνολο ρυθμίσεων του συγκεκριμένου φίλτρου μορφής xz.
 
 ```csharp
 public abstract class XzFilterSettings
@@ -16,7 +16,7 @@ public abstract class XzFilterSettings
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
+* assembly [Aspose.Zip](../../)
 
 

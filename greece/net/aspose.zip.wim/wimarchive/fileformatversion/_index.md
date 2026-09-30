@@ -1,9 +1,9 @@
 ---
-title: WimArchive.FileFormatVersion
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimArchive ιδιοκτησία. Λαμβάνει την έκδοση της μορφής αρχείου.
+title: "WimArchive.FileFormatVersion"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "WimArchive ιδιότητα. Λαμβάνει την έκδοση της μορφής αρχείου"
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip.wim/wimarchive/fileformatversion/
 ---
 ## WimArchive.FileFormatVersion property
@@ -14,10 +14,16 @@ url: /el/net/aspose.zip.wim/wimarchive/fileformatversion/
 public int FileFormatVersion { get; }
 ```
 
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+
 ### Δείτε επίσης
 
 * class [WimArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

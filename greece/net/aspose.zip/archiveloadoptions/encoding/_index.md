@@ -1,27 +1,27 @@
 ---
-title: ArchiveLoadOptions.Encoding
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveLoadOptions ιδιοκτησία. Λαμβάνει ή ορίζει την κωδικοποίηση για τα ονόματα των καταχωρήσεων.
+title: "ArchiveLoadOptions.Encoding"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveLoadOptions. Λαμβάνει ή ορίζει την κωδικοποίηση για τα ονόματα των καταχωρήσεων"
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip/archiveloadoptions/encoding/
 ---
 ## ArchiveLoadOptions.Encoding property
 
-Λαμβάνει ή ορίζει την κωδικοποίηση για τα ονόματα των καταχωρήσεων.
+Λαμβάνει ή ορίζει την κωδικοποίηση για τα ονόματα των καταχωρίσεων.
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
-Όνομα καταχώρισης που συντέθηκε με χρήση καθορισμένης κωδικοποίησης ανεξάρτητα από τις ιδιότητες του αρχείου zip.
+Το όνομα της καταχώρησης δημιουργείται χρησιμοποιώντας την καθορισμένη κωδικοποίηση ανεξάρτητα από τις ιδιότητες του αρχείου zip.
 
 ```csharp
 using (FileStream fs = File.OpenRead("archive.zip"))
 {      
-    using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
+    using (var archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
     {
         string name = archive.Entries[0].Name;
     }    
@@ -31,7 +31,7 @@ using (FileStream fs = File.OpenRead("archive.zip"))
 ### Δείτε επίσης
 
 * class [ArchiveLoadOptions](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveloadoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

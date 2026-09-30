@@ -1,20 +1,29 @@
 ---
-title: Aspose.Zip.Xar
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ΤοXar Ο χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν οντότητες που σχετίζονται με το αρχείο Xar.
+title: "Aspose.Zip.Xar"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ο χώρος ονομάτων Xar περιέχει κλάσεις που αντιπροσωπεύουν οντότητες σχετικές με το αρχείο Xar."
 type: docs
-weight: 170
+weight: 270
 url: /el/net/aspose.zip.xar/
 ---
-ΤοXar Ο χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν οντότητες που σχετίζονται με το αρχείο Xar.
+Το χώρο ονομάτων Xar περιέχει κλάσεις που αντιπροσωπεύουν οντότητες σχετικές με το αρχείο Xar.
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [XarArchive](./xararchive/) | Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχείου xar. |
-| [XarDirectoryEntry](./xardirectoryentry/) | Αντιπροσωπεύει την καταχώριση καταλόγου μέσα στο αρχείο xar. |
-| [XarEntry](./xarentry/) | Αντιπροσωπεύει μία καταχώρηση στο αρχείο xar. |
-| [XarFileEntry](./xarfileentry/) | Αντιπροσωπεύει την καταχώριση αρχείου μέσα στο αρχείο xar. |
+| [CancelEntryEventArgs](./cancelentryeventargs/) | Παράμετροι συμβάντος για ακυρώσιμα συμβάντα σχετιζόμενα με καταχωρήσεις. |
+| [EntryEventArgs](./entryeventargs/) | Παράμετροι συμβάντος για συμβάντα σχετιζόμενα με καταχωρήσεις. |
+| [EventsBag](./eventsbag/) | Κοντέινερ γεγονότων που χρησιμοποιείται κατά την αποθήκευση του [`XarArchive`](../aspose.zip.xar/xararchive/). |
+| [XarArchive](./xararchive/) | Αυτή η κλάση αντιπροσωπεύει ένα αρχείο αρχειοθήκης xar. |
+| [XarBzip2CompressionSettings](./xarbzip2compressionsettings/) | Ρυθμίσεις για τη μέθοδο συμπίεσης Bzip2. |
+| [XarCompressionSettings](./xarcompressionsettings/) | Ρυθμίσεις που απαιτούνται για τη λειτουργία του συμπιεστή. |
+| [XarDirectoryEntry](./xardirectoryentry/) | Αντιπροσωπεύει την καταχώρηση καταλόγου μέσα σε αρχειοθήκη xar. |
+| [XarEntry](./xarentry/) | Αντιπροσωπεύει μια μοναδική καταχώρηση μέσα σε αρχειοθήκη xar. |
+| [XarFileEntry](./xarfileentry/) | Αντιπροσωπεύει την καταχώρηση αρχείου μέσα σε αρχειοθήκη xar. |
+| [XarLoadOptions](./xarloadoptions/) | Επιλογές με τις οποίες η αρχειοθήκη XAR φορτώνεται από ένα συμπιεσμένο αρχείο. |
+| [XarSaveOptions](./xarsaveoptions/) | Επιλογές για αποθήκευση μιας αρχειοθήκης xar. |
+| [XarStoreCompressionSettings](./xarstorecompressionsettings/) | Ρυθμίσεις για τη μέθοδο συμπίεσης Store. |
+| [XarZlibCompressionSettings](./xarzlibcompressionsettings/) | Ρυθμίσεις για τη μέθοδο συμπίεσης Zlib. |
 
 

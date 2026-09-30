@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveEntryEncrypted
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.ArchiveEntryEncrypted τάξη. Καταχώρηση zip που πρέπει να συμπιεστεί με κρυπτογράφηση ή να αποσυμπιεστεί με αποκρυπτογράφηση.
+title: "Κλάση ArchiveEntryEncrypted"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.ArchiveEntryEncrypted κλάση. Καταχώρηση Zip που χρειάζεται να συμπιεστεί με κρυπτογράφηση ή να αποσυμπιεστεί με αποκρυπτογράφηση"
 type: docs
-weight: 30
+weight: 180
 url: /el/net/aspose.zip/archiveentryencrypted/
 ---
 ## ArchiveEntryEncrypted class
 
-Καταχώρηση zip που πρέπει να συμπιεστεί με κρυπτογράφηση ή να αποσυμπιεστεί με αποκρυπτογράφηση.
+Καταχώρηση Zip που πρέπει να συμπιεστεί με κρυπτογράφηση ή να αποσυμπιεστεί με αποκρυπτογράφηση.
 
 ```csharp
 public sealed class ArchiveEntryEncrypted : ArchiveEntry
@@ -16,36 +16,37 @@ public sealed class ArchiveEntryEncrypted : ArchiveEntry
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Comment](../../aspose.zip/archiveentry/comment/) { get; } | Λαμβάνει σχόλιο για την καταχώρηση μέσα στο αρχείο. |
-| [CompressedSize](../../aspose.zip/archiveentry/compressedsize/) { get; } | Παίρνει το μέγεθος του συμπιεσμένου αρχείου. |
-| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings/) { get; } | Λαμβάνει ρυθμίσεις για συμπίεση ή αποσυμπίεση. |
+| [Comment](../../aspose.zip/archiveentry/comment/) { get; } | Επιστρέφει το σχόλιο της καταχώρησης μέσα στο αρχείο. |
+| [CompressedSize](../../aspose.zip/archiveentry/compressedsize/) { get; } | Επιστρέφει το μέγεθος του συμπιεσμένου αρχείου. |
+| [CompressionSettings](../../aspose.zip/archiveentry/compressionsettings/) { get; } | Επιστρέφει τις ρυθμίσεις για συμπίεση ή αποσυμπίεση. |
+| [DataSource](../../aspose.zip/archiveentry/datasource/) { get; } | Πηγή για την καταχώρηση εάν η καταχώρηση προστέθηκε στο αρχείο, χωρίς εξαγωγή. |
 | [EncryptionSettings](../../aspose.zip/archiveentryencrypted/encryptionsettings/) { get; } | Λαμβάνει ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. |
-| [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο. |
-| [ModificationTime](../../aspose.zip/archiveentry/modificationtime/) { get; set; } | Λαμβάνει ή ορίζει την ημερομηνία και την ώρα της τελευταίας τροποποίησης. |
-| [Name](../../aspose.zip/archiveentry/name/) { get; } | Λαμβάνει το όνομα της καταχώρησης μέσα στο αρχείο. |
-| [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize/) { get; } | Παίρνει το μέγεθος του αρχικού αρχείου. |
+| [IsDirectory](../../aspose.zip/archiveentry/isdirectory/) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει κατάλογο. |
+| [ModificationTime](../../aspose.zip/archiveentry/modificationtime/) { get; set; } | Λαμβάνει ή ορίζει την ημερομηνία και ώρα τελευταίας τροποποίησης. |
+| [Name](../../aspose.zip/archiveentry/name/) { get; } | Επιστρέφει το όνομα της καταχώρησης μέσα στο αρχείο. |
+| [UncompressedSize](../../aspose.zip/archiveentry/uncompressedsize/) { get; } | Επιστρέφει το μέγεθος του αρχικού αρχείου. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Extract](../../aspose.zip/archiveentry/extract/)(Stream, string) | Εξάγει την καταχώρηση στη ροή που παρέχεται. |
-| [Extract](../../aspose.zip/archiveentry/extract/)(string, string) | Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται. |
-| [Open](../../aspose.zip/archiveentry/open/)(string) | Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με αποσυμπιεσμένο περιεχόμενο καταχώρισης. |
+| [Extract](../../aspose.zip/archiveentry/extract/)(Stream, string) | Εξάγει την καταχώρηση στη δοθείσα ροή. |
+| [Extract](../../aspose.zip/archiveentry/extract/)(string, string) | Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή. |
+| [Open](../../aspose.zip/archiveentry/open/)(string) | Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με το αποσυμπιεσμένο περιεχόμενο της καταχώρησης. |
 
-## Εκδηλώσεις
+## Συμβάντα
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| event [CompressionProgressed](../../aspose.zip/archiveentry/compressionprogressed/) | Αυξάνεται όταν συμπιέζεται ένα τμήμα της ακατέργαστης ροής. |
-| event [ExtractionProgressed](../../aspose.zip/archiveentry/extractionprogressed/) | Αυξάνεται όταν εξάγεται ένα τμήμα της ακατέργαστης ροής. |
+| event [CompressionProgressed](../../aspose.zip/archiveentry/compressionprogressed/) | Ενεργοποιείται όταν ένα τμήμα ακατέργαστης ροής συμπιέζεται. |
+| event [ExtractionProgressed](../../aspose.zip/archiveentry/extractionprogressed/) | Ενεργοποιείται όταν ένα τμήμα ακατέργαστης ροής εξάγεται. |
 
 ### Δείτε επίσης
 
 * class [ArchiveEntry](../archiveentry/)
-* χώρος ονομάτων [Aspose.Zip](../../aspose.zip/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

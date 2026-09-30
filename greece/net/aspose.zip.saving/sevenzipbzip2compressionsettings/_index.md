@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipBZip2CompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.SevenZipBZip2CompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης BZip2 εντός αρχείου 7z.
+title: "Κλάση SevenZipBZip2CompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.SevenZipBZip2CompressionSettings. Ρυθμίσεις για τη μέθοδο συμπίεσης BZip2 μέσα σε αρχείο 7z"
 type: docs
-weight: 520
+weight: 1030
 url: /el/net/aspose.zip.saving/sevenzipbzip2compressionsettings/
 ---
 ## SevenZipBZip2CompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης BZip2 εντός αρχείου 7z.
+Ρυθμίσεις για τη μέθοδο συμπίεσης BZip2 μέσα σε αρχείο 7z.
 
 ```csharp
 public class SevenZipBZip2CompressionSettings : SevenZipCompressionSettings
@@ -16,28 +16,28 @@ public class SevenZipBZip2CompressionSettings : SevenZipCompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`SevenZipBZip2CompressionSettings` κλάση με προεπιλεγμένο μέγεθος μπλοκ, ισούται με 9 εκατοντάδες kilobyte. |
-| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor_1)(int) | Αρχικοποιεί μια νέα παρουσία του`SevenZipBZip2CompressionSettings` τάξη. |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `SevenZipBZip2CompressionSettings` με προεπιλεγμένο μέγεθος μπλοκ, ίσο με 9 εκατοντάδες kilobytes. |
+| [SevenZipBZip2CompressionSettings](sevenzipbzip2compressionsettings/#constructor_1)(int) | Αρχικοποιεί μια νέα παρουσία της κλάσης `SevenZipBZip2CompressionSettings`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BlockSize](../../aspose.zip.saving/sevenzipbzip2compressionsettings/blocksize/) { get; } | Μέγεθος μπλοκ σε εκατοντάδες kilobyte. |
-| override [Method](../../aspose.zip.saving/sevenzipbzip2compressionsettings/method/) { get; } | Λαμβάνει μέθοδο συμπίεσης ή αποσυμπίεσης. |
+| [BlockSize](../../aspose.zip.saving/sevenzipbzip2compressionsettings/blocksize/) { get; } | Μέγεθος μπλοκ σε εκατοντάδες kilobytes. |
+| override [Method](../../aspose.zip.saving/sevenzipbzip2compressionsettings/method/) { get; } | Λαμβάνει τη μέθοδο συμπίεσης ή αποσυμπίεσης. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το Bzip2 συμπιέζει αρχεία χρησιμοποιώντας τον αλγόριθμο συμπίεσης κειμένου ταξινόμησης μπλοκ Burrows-Wheeler και κωδικοποίηση Huffman.
+Το Bzip2 συμπιέζει αρχεία χρησιμοποιώντας τον αλγόριθμο συμπίεσης κειμένου με ταξινόμηση μπλοκ Burrows‑Wheeler και την κωδικοποίηση Huffman.
 
 Δείτε περισσότερα: https://en.wikipedia.org/wiki/Bzip2
 
 ### Δείτε επίσης
 
 * class [SevenZipCompressionSettings](../sevenzipcompressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

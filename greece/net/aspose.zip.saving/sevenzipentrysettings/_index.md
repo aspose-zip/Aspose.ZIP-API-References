@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipEntrySettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.SevenZipEntrySettings τάξη. Ρυθμίσεις που χρησιμοποιούνται για συμπίεση ή αποσυμπίεση καταχωρήσεων 7Z.
+title: "Κλάση SevenZipEntrySettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Saving.SevenZipEntrySettings class. Ρυθμίσεις που χρησιμοποιούνται για τη συμπίεση ή αποσυμπίεση καταχωρήσεων 7Z"
 type: docs
-weight: 560
+weight: 1070
 url: /el/net/aspose.zip.saving/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings class
 
-Ρυθμίσεις που χρησιμοποιούνται για συμπίεση ή αποσυμπίεση καταχωρήσεων 7Z.
+Ρυθμίσεις που χρησιμοποιούνται για τη συμπίεση ή αποσυμπίεση καταχωρήσεων 7Z.
 
 ```csharp
 public class SevenZipEntrySettings
@@ -16,20 +16,22 @@ public class SevenZipEntrySettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [SevenZipEntrySettings](sevenzipentrysettings/)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | Αρχικοποιεί μια νέα παρουσία του`SevenZipEntrySettings` τάξη. |
+| [SevenZipEntrySettings](sevenzipentrysettings/)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | Αρχικοποιεί μια νέα παρουσία της κλάσης `SevenZipEntrySettings`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CompressionSettings](../../aspose.zip.saving/sevenzipentrysettings/compressionsettings/) { get; } | Λαμβάνει ρυθμίσεις για τη ρουτίνα συμπίεσης ή αποσυμπίεσης. |
-| [EncryptionSettings](../../aspose.zip.saving/sevenzipentrysettings/encryptionsettings/) { get; } | Λαμβάνει ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρισης ενδέχεται να διαφέρουν. |
+| [CompressHeader](../../aspose.zip.saving/sevenzipentrysettings/compressheader/) { get; set; } | Αποκτά ή ορίζει τιμή που υποδεικνύει εάν θα συμπιεστεί η κεφαλίδα του αρχείου. |
+| [CompressionSettings](../../aspose.zip.saving/sevenzipentrysettings/compressionsettings/) { get; } | Αποκτά ρυθμίσεις για τη διαδικασία συμπίεσης ή αποσυμπίεσης. |
+| [EncryptionSettings](../../aspose.zip.saving/sevenzipentrysettings/encryptionsettings/) { get; } | Αποκτά ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση. Οι ρυθμίσεις μιας συγκεκριμένης καταχώρησης μπορεί να διαφέρουν. |
+| [Solid](../../aspose.zip.saving/sevenzipentrysettings/solid/) { get; set; } | Αποκτά ή ορίζει τιμή που υποδεικνύει εάν θα συνενωθούν οι καταχωρήσεις και θα αντιμετωπίζονται ως ένα ενιαίο μπλοκ δεδομένων. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

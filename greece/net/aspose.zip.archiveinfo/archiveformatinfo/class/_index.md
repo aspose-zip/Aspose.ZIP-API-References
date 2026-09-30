@@ -1,14 +1,14 @@
 ---
-title: ArchiveFormatInfo.Class
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveFormatInfo ιδιοκτησία. Λαμβάνει την κλάση που αντιπροσωπεύει το αρχείο αρχειοθέτησης.
+title: "ArchiveFormatInfo.Class"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveFormatInfo. Επιστρέφει την κλάση που αντιπροσωπεύει το αρχείο αρχειοθέτησης"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.archiveinfo/archiveformatinfo/class/
 ---
 ## ArchiveFormatInfo.Class property
 
-Λαμβάνει την κλάση που αντιπροσωπεύει το αρχείο αρχειοθέτησης.
+Λαμβάνει την κλάση που αντιπροσωπεύει το αρχείο του αρχείου.
 
 ```csharp
 public abstract Type Class { get; }
@@ -17,7 +17,7 @@ public abstract Type Class { get; }
 ### Δείτε επίσης
 
 * class [ArchiveFormatInfo](../)
-* χώρος ονομάτων [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

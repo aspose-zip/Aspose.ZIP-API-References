@@ -1,14 +1,14 @@
 ---
-title: XarDirectoryEntry.AllEntries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XarDirectoryEntry ιδιοκτησία. Λαμβάνει όλες τις καταχωρήσεις τουXarEntry τύπος που αποτελεί τον κατάλογο αναδρομικά.
+title: "XarDirectoryEntry.AllEntries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα XarDirectoryEntry. Λαμβάνει όλες τις καταχωρήσεις τύπου XarEntry που αποτελούν τον κατάλογο αναδρομικά"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.xar/xardirectoryentry/allentries/
 ---
 ## XarDirectoryEntry.AllEntries property
 
-Λαμβάνει όλες τις καταχωρήσεις του[`XarEntry`](../../xarentry/) τύπος που αποτελεί τον κατάλογο αναδρομικά.
+Λαμβάνει όλες τις καταχωρήσεις τύπου [`XarEntry`](../../xarentry/) που αποτελούν τον κατάλογο αναδρομικά.
 
 ```csharp
 public IEnumerable<XarEntry> AllEntries { get; }
@@ -18,7 +18,7 @@ public IEnumerable<XarEntry> AllEntries { get; }
 
 * class [XarEntry](../../xarentry/)
 * class [XarDirectoryEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Xar](../../xardirectoryentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xardirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: EncryptionSettings.Method
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: EncryptionSettings ιδιοκτησία. Λαμβάνει τον αλγόριθμο κρυπτογράφησης.
+title: "EncryptionSettings.Method"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα EncryptionSettings. Επιστρέφει τον αλγόριθμο κρυπτογράφησης"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/encryptionsettings/method/
 ---
 ## EncryptionSettings.Method property
 
-Λαμβάνει τον αλγόριθμο κρυπτογράφησης.
+Αποκτά τον αλγόριθμο κρυπτογράφησης.
 
 ```csharp
 public EncryptionMethod Method { get; }
@@ -18,7 +18,7 @@ public EncryptionMethod Method { get; }
 
 * enum [EncryptionMethod](../../encryptionmethod/)
 * class [EncryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../encryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../encryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

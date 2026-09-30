@@ -1,14 +1,14 @@
 ---
-title: Class XzCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.XzCompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης Xz.
+title: "Κλάση XzCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Saving.XzCompressionSettings κλάση. Ρυθμίσεις για τη συμπίεση Xz μέσα σε αρχείο ZIP."
 type: docs
-weight: 650
+weight: 1160
 url: /el/net/aspose.zip.saving/xzcompressionsettings/
 ---
 ## XzCompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης Xz.
+Ρυθμίσεις για τη συμπίεση Xz μέσα σε αρχείο ZIP.
 
 ```csharp
 public class XzCompressionSettings : CompressionSettings
@@ -16,14 +16,14 @@ public class XzCompressionSettings : CompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [XzCompressionSettings](xzcompressionsettings/)() | Αρχικοποιεί μια νέα παρουσία του`XzCompressionSettings` τάξη. |
+| [XzCompressionSettings](xzcompressionsettings/)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `XzCompressionSettings`. |
 
 ### Δείτε επίσης
 
 * class [CompressionSettings](../compressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

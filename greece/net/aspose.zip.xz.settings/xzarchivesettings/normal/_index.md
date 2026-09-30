@@ -1,14 +1,14 @@
 ---
-title: XzArchiveSettings.Normal
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XzArchiveSettings ιδιοκτησία. Παίρνει την παρουσία τουXzArchiveSettings class με μέγεθος λεξικού ισούται με 16 megabyte στο φίλτρο LZMA2 μέγεθος μπλοκ ίσο με 64 megabyte και άθροισμα ελέγχου CRC32.
+title: "XzArchiveSettings.Normal"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα XzArchiveSettings. Λαμβάνει την παρουσία της κλάσης XzArchiveSettings με μέγεθος λεξικού ίσο με 16 megabytes στο φίλτρο LZMA2, μέγεθος μπλοκ ίσο με 64 megabytes και άθροισμα ελέγχου CRC32."
 type: docs
 weight: 60
 url: /el/net/aspose.zip.xz.settings/xzarchivesettings/normal/
 ---
 ## XzArchiveSettings.Normal property
 
-Παίρνει την παρουσία του[`XzArchiveSettings`](../) class με μέγεθος λεξικού ισούται με 16 megabyte στο φίλτρο LZMA2, μέγεθος μπλοκ ίσο με 64 megabyte και άθροισμα ελέγχου CRC32.
+Λαμβάνει την παρουσία της κλάσης [`XzArchiveSettings`](../) με μέγεθος λεξικού ίσο με 16 megabytes στο φίλτρο LZMA2, μέγεθος μπλοκ ίσο με 64 megabytes και άθροισμα ελέγχου CRC32.
 
 ```csharp
 public static XzArchiveSettings Normal { get; }
@@ -17,7 +17,7 @@ public static XzArchiveSettings Normal { get; }
 ### Δείτε επίσης
 
 * class [XzArchiveSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

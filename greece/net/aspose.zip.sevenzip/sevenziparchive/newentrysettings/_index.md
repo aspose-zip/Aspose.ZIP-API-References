@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive.NewEntrySettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipArchive ιδιοκτησία. Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για νέα προσθήκηSevenZipArchiveEntry αντικείμενα.
+title: "SevenZipArchive.NewEntrySettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipArchive. Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για νέα στοιχεία SevenZipArchiveEntry"
 type: docs
 weight: 30
 url: /el/net/aspose.zip.sevenzip/sevenziparchive/newentrysettings/
 ---
 ## SevenZipArchive.NewEntrySettings property
 
-Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για νέα προσθήκη[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) αντικείμενα.
+Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για νέα στοιχεία [`SevenZipArchiveEntry`](../../sevenziparchiveentry/).
 
 ```csharp
 public SevenZipEntrySettings NewEntrySettings { get; }
@@ -18,7 +18,7 @@ public SevenZipEntrySettings NewEntrySettings { get; }
 
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

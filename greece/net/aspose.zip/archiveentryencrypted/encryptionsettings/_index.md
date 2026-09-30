@@ -1,7 +1,7 @@
 ---
-title: ArchiveEntryEncrypted.EncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveEntryEncrypted ιδιοκτησία. Λαμβάνει ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση.
+title: "ArchiveEntryEncrypted.EncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveEntryEncrypted. Λαμβάνει τις ρυθμίσεις για κρυπτογράφηση ή αποκρυπτογράφηση"
 type: docs
 weight: 10
 url: /el/net/aspose.zip/archiveentryencrypted/encryptionsettings/
@@ -18,7 +18,7 @@ public EncryptionSettings EncryptionSettings { get; }
 
 * class [EncryptionSettings](../../../aspose.zip.saving/encryptionsettings/)
 * class [ArchiveEntryEncrypted](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveentryencrypted/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentryencrypted/)
+* assembly [Aspose.Zip](../../../)
 
 

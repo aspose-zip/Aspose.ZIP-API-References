@@ -1,14 +1,14 @@
 ---
-title: SplitSevenZipArchiveSaveOptions.SplitSevenZipArchiveSaveOptions
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SplitSevenZipArchiveSaveOptions κατασκευαστής. Δημιουργεί τις ρυθμίσεις για την αποθήκευση ενός αρχείου πολλών τόμων 7z.
+title: "SplitSevenZipArchiveSaveOptions.SplitSevenZipArchiveSaveOptions"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής SplitSevenZipArchiveSaveOptions. Δημιουργεί ρυθμίσεις για την αποθήκευση ενός πολυτόμου αρχείου 7z"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/splitsevenziparchivesaveoptions/splitsevenziparchivesaveoptions/
 ---
 ## SplitSevenZipArchiveSaveOptions constructor
 
-Δημιουργεί τις ρυθμίσεις για την αποθήκευση ενός αρχείου πολλών τόμων 7z.
+Δημιουργεί τις ρυθμίσεις για την αποθήκευση ενός πολυτόμου αρχείου 7z.
 
 ```csharp
 public SplitSevenZipArchiveSaveOptions(string fileName, uint segmentSize)
@@ -16,25 +16,25 @@ public SplitSevenZipArchiveSaveOptions(string fileName, uint segmentSize)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| fileName | String | Όνομα για τόμους. Μπορεί να είναι με ή χωρίς επέκταση .7z. |
-| segmentSize | UInt32 | Μέγεθος όγκου. |
+| fileName | String | Όνομα για τους τόμους. Μπορεί να είναι με ή χωρίς την επέκταση .7z. |
+| segmentSize | UInt32 | Μέγεθος του τόμου. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentOutOfRangeException | *segmentSize* είναι λιγότερο από 100. |
+| ArgumentOutOfRangeException | *segmentSize* είναι μικρότερο από 100. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Ορισμένοι τόμοι μπορεί να είναι μικρότεροι από*segmentSize*. Στις περισσότερες περιπτώσεις το τελευταίο τμήμα θα είναι μικρότερο, αλλά σπάνια μπορεί να είναι και τα κανονικά τμήματα.
+Ορισμένοι τόμοι μπορεί να είναι μικρότεροι από το *segmentSize*. Στις περισσότερες περιπτώσεις, το τελευταίο τμήμα θα είναι μικρότερο, αλλά σπάνια τα κανονικά τμήματα μπορεί να είναι επίσης.
 
-Τα ονόματα των αρχείων θα είναι τα εξής:*fileName* .7z.001,*fileName* .7z.002, ...,*fileName*.7z.(n).
+Τα ονόματα των αρχείων θα είναι ως εξής: *fileName*.7z.001, *fileName*.7z.002, ..., *fileName*.7z.(n).
 
 ### Δείτε επίσης
 
 * class [SplitSevenZipArchiveSaveOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

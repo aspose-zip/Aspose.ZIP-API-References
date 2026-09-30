@@ -1,14 +1,14 @@
 ---
-title: RarArchiveLoadOptions.RarArchiveLoadOptions
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchiveLoadOptions κατασκευαστής. Ο προεπιλεγμένος κατασκευαστής.
+title: "RarArchiveLoadOptions.RarArchiveLoadOptions"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής RarArchiveLoadOptions. Αρχικοποιεί μια νέα παρουσία της κλάσης RarArchiveLoadOptions"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.rar/rararchiveloadoptions/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions constructor
 
-Ο προεπιλεγμένος κατασκευαστής.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`RarArchiveLoadOptions`](../).
 
 ```csharp
 public RarArchiveLoadOptions()
@@ -17,7 +17,7 @@ public RarArchiveLoadOptions()
 ### Δείτε επίσης
 
 * class [RarArchiveLoadOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveloadoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

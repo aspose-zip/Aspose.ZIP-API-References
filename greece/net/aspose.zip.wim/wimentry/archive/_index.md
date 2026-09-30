@@ -1,14 +1,14 @@
 ---
-title: WimEntry.Archive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimEntry ιδιοκτησία. Παίρνει το αρχείο στο οποίο ανήκει η καταχώρηση.
+title: "WimEntry.Archive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "WimEntry ιδιότητα. Λαμβάνει το αρχείο στο οποίο ανήκει η καταχώρηση"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.wim/wimentry/archive/
 ---
 ## WimEntry.Archive property
 
-Παίρνει το αρχείο στο οποίο ανήκει η καταχώρηση.
+Λαμβάνει το αρχείο στο οποίο ανήκει η καταχώρηση.
 
 ```csharp
 public WimArchive Archive { get; }
@@ -18,7 +18,7 @@ public WimArchive Archive { get; }
 
 * class [WimArchive](../../wimarchive/)
 * class [WimEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

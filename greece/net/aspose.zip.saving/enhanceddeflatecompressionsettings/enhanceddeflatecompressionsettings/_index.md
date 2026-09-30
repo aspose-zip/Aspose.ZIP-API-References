@@ -1,14 +1,14 @@
 ---
-title: EnhancedDeflateCompressionSettings.EnhancedDeflateCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: EnhancedDeflateCompressionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουEnhancedDeflateCompressionSettings τάξη.
+title: "EnhancedDeflateCompressionSettings.EnhancedDeflateCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής EnhancedDeflateCompressionSettings. Αρχικοποιεί μια νέα παρουσία της κλάσης EnhancedDeflateCompressionSettings."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/enhanceddeflatecompressionsettings/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings constructor
 
-Αρχικοποιεί μια νέα παρουσία του[`EnhancedDeflateCompressionSettings`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`EnhancedDeflateCompressionSettings`](../).
 
 ```csharp
 public EnhancedDeflateCompressionSettings()
@@ -17,7 +17,7 @@ public EnhancedDeflateCompressionSettings()
 ### Δείτε επίσης
 
 * class [EnhancedDeflateCompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../enhanceddeflatecompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../enhanceddeflatecompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

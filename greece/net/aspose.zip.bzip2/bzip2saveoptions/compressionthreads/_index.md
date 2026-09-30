@@ -1,7 +1,7 @@
 ---
-title: Bzip2SaveOptions.CompressionThreads
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Bzip2SaveOptions ιδιοκτησία. Λαμβάνει ή ορίζει τον αριθμό των νημάτων συμπίεσης. Εάν η τιμή είναι μεγαλύτερη από 1 θα χρησιμοποιηθεί συμπίεση πολλαπλών νημάτων.
+title: "Bzip2SaveOptions.CompressionThreads"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα Bzip2SaveOptions. Λαμβάνει ή ορίζει τον αριθμό των νημάτων συμπίεσης. Εάν η τιμή είναι μεγαλύτερη από 1, θα χρησιμοποιηθεί συμπίεση πολλαπλών νημάτων."
 type: docs
 weight: 30
 url: /el/net/aspose.zip.bzip2/bzip2saveoptions/compressionthreads/
@@ -14,10 +14,16 @@ url: /el/net/aspose.zip.bzip2/bzip2saveoptions/compressionthreads/
 public int CompressionThreads { get; set; }
 ```
 
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentOutOfRangeException | Ο αριθμός των νημάτων είναι μεγαλύτερος από 100 ή μικρότερος από 1. |
+
 ### Δείτε επίσης
 
 * class [Bzip2SaveOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

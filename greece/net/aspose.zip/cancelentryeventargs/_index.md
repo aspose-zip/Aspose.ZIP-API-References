@@ -1,14 +1,14 @@
 ---
-title: Class CancelEntryEventArgs
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.CancelEntryEventArgs τάξη. Ορίσματα συμβάντος για συμβάντα που σχετίζονται με ακυρώσιμη καταχώρηση.
+title: "Κλάση CancelEntryEventArgs"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.CancelEntryEventArgs κλάση. Ορίσματα συμβάντος για συμβάντα σχετιζόμενα με ακυρώσιμες καταχωρήσεις."
 type: docs
-weight: 140
+weight: 390
 url: /el/net/aspose.zip/cancelentryeventargs/
 ---
 ## CancelEntryEventArgs class
 
-Ορίσματα συμβάντος για συμβάντα που σχετίζονται με ακυρώσιμη καταχώρηση.
+Παράμετροι συμβάντος για ακυρώσιμα συμβάντα σχετιζόμενα με καταχωρήσεις.
 
 ```csharp
 public class CancelEntryEventArgs : EntryEventArgs
@@ -16,21 +16,21 @@ public class CancelEntryEventArgs : EntryEventArgs
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CancelEntryEventArgs](cancelentryeventargs/)(ArchiveEntry) | Αρχικοποιεί μια νέα παρουσία του`CancelEntryEventArgs` τάξη. |
+| [CancelEntryEventArgs](cancelentryeventargs/)(ArchiveEntry) | Αρχικοποιεί μια νέα παρουσία της κλάσης `CancelEntryEventArgs`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Cancel](../../aspose.zip/cancelentryeventargs/cancel/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το συμβάν πρέπει να ακυρωθεί. |
-| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Λαμβάνει την καταχώριση αρχείου για την οποία έχει δημιουργηθεί το συμβάν. |
+| [Cancel](../../aspose.zip/cancelentryeventargs/cancel/) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει αν το συμβάν πρέπει να ακυρωθεί. |
+| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Λαμβάνει την καταχώρηση του αρχείου για την οποία ενεργοποιείται το συμβάν. |
 
 ### Δείτε επίσης
 
 * class [EntryEventArgs](../entryeventargs/)
-* χώρος ονομάτων [Aspose.Zip](../../aspose.zip/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

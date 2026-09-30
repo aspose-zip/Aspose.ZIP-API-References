@@ -1,14 +1,14 @@
 ---
-title: Class RarArchiveEntryEncrypted
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Rar.RarArchiveEntryEncrypted τάξη. Καταχώρηση zip που πρέπει να αποσυμπιεστεί με αποκρυπτογράφηση.
+title: "Κλάση RarArchiveEntryEncrypted"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Rar.RarArchiveEntryEncrypted κλάση. Καταχώρηση Zip που χρειάζεται αποσυμπίεση με αποκρυπτογράφηση."
 type: docs
-weight: 330
+weight: 810
 url: /el/net/aspose.zip.rar/rararchiveentryencrypted/
 ---
 ## RarArchiveEntryEncrypted class
 
-Καταχώρηση zip που πρέπει να αποσυμπιεστεί με αποκρυπτογράφηση.
+Καταχώρηση Zip που χρειάζεται να αποσυμπιεστεί με αποκρυπτογράφηση.
 
 ```csharp
 public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
@@ -16,34 +16,34 @@ public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize/) { get; } | Παίρνει το μέγεθος του συμπιεσμένου αρχείου. |
-| [CreationTime](../../aspose.zip.rar/rararchiveentry/creationtime/) { get; } | Λαμβάνει ημερομηνία και ώρα δημιουργίας. |
-| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο. |
-| [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime/) { get; } | Λαμβάνει ημερομηνία και ώρα τελευταίας πρόσβασης. |
-| [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime/) { get; } | Λαμβάνει ημερομηνία και ώρα τελευταίας τροποποίησης. |
-| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Λαμβάνει το όνομα της καταχώρησης μέσα στο αρχείο. |
-| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Παίρνει το μέγεθος του αρχικού αρχείου. |
+| [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize/) { get; } | Λαμβάνει το μέγεθος ενός συμπιεσμένου αρχείου. |
+| [CreationTime](../../aspose.zip.rar/rararchiveentry/creationtime/) { get; } | Λαμβάνει την ημερομηνία και ώρα δημιουργίας. |
+| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει κατάλογο. |
+| [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime/) { get; } | Λαμβάνει την ημερομηνία και ώρα τελευταίας πρόσβασης. |
+| [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime/) { get; } | Λαμβάνει την ημερομηνία και ώρα τελευταίας τροποποίησης. |
+| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Επιστρέφει το όνομα της καταχώρησης μέσα στο αρχείο. |
+| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Λαμβάνει το μέγεθος ενός αρχικού αρχείου. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(Stream, string) | Εξάγει την καταχώρηση στη ροή που παρέχεται. |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(string, string) | Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται. |
-| [Open](../../aspose.zip.rar/rararchiveentry/open/)(string) | Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με αποσυμπιεσμένο περιεχόμενο καταχώρισης. |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(Stream, string) | Εξάγει την καταχώρηση στη δοθείσα ροή. |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(string, string) | Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή. |
+| [Open](../../aspose.zip.rar/rararchiveentry/open/)(string) | Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με το αποσυμπιεσμένο περιεχόμενο της καταχώρησης. |
 
-## Εκδηλώσεις
+## Συμβάντα
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | Αυξάνεται όταν εξάγεται ένα τμήμα της ακατέργαστης ροής. |
+| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | Ενεργοποιείται όταν ένα τμήμα ακατέργαστης ροής εξάγεται. |
 
 ### Δείτε επίσης
 
 * class [RarArchiveEntry](../rararchiveentry/)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

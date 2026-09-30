@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive.Entries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipArchive ιδιοκτησία. Λαμβάνει καταχωρήσεις τουSevenZipArchiveEntry τύπος που αποτελεί το αρχείο.
+title: "SevenZipArchive.Entries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "SevenZipArchive ιδιότητα. Παίρνει καταχωρήσεις τύπου SevenZipArchiveEntry που αποτελούν το αρχείο"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.sevenzip/sevenziparchive/entries/
 ---
 ## SevenZipArchive.Entries property
 
-Λαμβάνει καταχωρήσεις του[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) τύπος που αποτελεί το αρχείο.
+Παίρνει καταχωρήσεις τύπου [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) που αποτελούν το αρχείο.
 
 ```csharp
 public ReadOnlyCollection<SevenZipArchiveEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<SevenZipArchiveEntry> Entries { get; }
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

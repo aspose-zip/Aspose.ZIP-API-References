@@ -1,9 +1,9 @@
 ---
-title: LzipArchiveSettings.DictionarySize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: LzipArchiveSettings ιδιοκτησία. Λαμβάνει το μέγεθος του λεξικού που χρησιμοποιείται από τη συμπίεση LZMA.
+title: "LzipArchiveSettings.DictionarySize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα LzipArchiveSettings. Λαμβάνει το μέγεθος του λεξικού που χρησιμοποιείται από τη συμπίεση LZMA"
 type: docs
-weight: 70
+weight: 80
 url: /el/net/aspose.zip.lzip/lziparchivesettings/dictionarysize/
 ---
 ## LzipArchiveSettings.DictionarySize property
@@ -17,7 +17,7 @@ public int DictionarySize { get; }
 ### Δείτε επίσης
 
 * class [LzipArchiveSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchivesettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

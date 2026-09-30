@@ -1,7 +1,7 @@
 ---
-title: EventsBag.EventsBag
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: EventsBag κατασκευαστής. Ο προεπιλεγμένος κατασκευαστής.
+title: "EventsBag.EventsBag"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής EventsBag. Ο προεπιλεγμένος κατασκευαστής"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/eventsbag/eventsbag/
@@ -17,7 +17,7 @@ public EventsBag()
 ### Δείτε επίσης
 
 * class [EventsBag](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../eventsbag/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
 
 

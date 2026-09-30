@@ -1,14 +1,14 @@
 ---
-title: XzArchive.Save
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XzArchive μέθοδος. Αποθηκεύει το αρχείο xz στην παρεχόμενη ροή.
+title: "XzArchive.Save"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος XzArchive. Αποθηκεύει το αρχείο xz στη δοθείσα ροή"
 type: docs
-weight: 40
+weight: 60
 url: /el/net/aspose.zip.xz/xzarchive/save/
 ---
 ## Save(Stream) {#save}
 
-Αποθηκεύει το αρχείο xz στην παρεχόμενη ροή.
+Αποθηκεύει το xz archive στη δοθείσα ροή.
 
 ```csharp
 public void Save(Stream output)
@@ -20,16 +20,17 @@ public void Save(Stream output)
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentException | *output* δεν υποστηρίζει την αναζήτηση. |
-| ArgumentNullException | *output* είναι μηδενικό. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentException | *output* δεν υποστηρίζει αναζήτηση. |
+| ArgumentNullException | *output* είναι null. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-*output* πρέπει να είναι αναζητήσιμο.
+*output* must be seekable.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
@@ -45,14 +46,14 @@ using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
 ### Δείτε επίσης
 
 * class [XzArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Xz](../../xzarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string) {#save_1}
 
-Αποθηκεύει το αρχείο xz στο παρεχόμενο αρχείο προορισμού.
+Αποθηκεύει το αρχείο xz στο προσαρμοσμένο αρχείο προορισμού.
 
 ```csharp
 public void Save(string destinationFileName)
@@ -60,20 +61,23 @@ public void Save(string destinationFileName)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου παραπέμπει σε ένα υπάρχον αρχείο, θα αντικατασταθεί. |
+| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου δείχνει σε υπάρχον αρχείο, θα αντικατασταθεί. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*destinationFileName* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*destinationFileName* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*destinationFileName*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*destinationFileName* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentNullException | *destinationFileName* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *destinationFileName* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *destinationFileName* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *destinationFileName*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες στα Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *destinationFileName* περιέχει άνω-κάθετο (: ) στη μέση της συμβολοσειράς. |
+| IOException | Παρουσιάστηκε σφάλμα I/O κατά το άνοιγμα του αρχείου. |
+| InvalidDataException | Εκτοπίζεται όταν τα δεδομένα είναι μη έγκυρα ή κατεστραμμένα. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new XzArchive()) 
@@ -86,7 +90,7 @@ using (var archive = new XzArchive())
 ### Δείτε επίσης
 
 * class [XzArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Xz](../../xzarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

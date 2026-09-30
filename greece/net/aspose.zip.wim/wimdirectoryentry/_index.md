@@ -1,14 +1,14 @@
 ---
-title: Class WimDirectoryEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Wim.WimDirectoryEntry τάξη. Αντιπροσωπεύει έναν μοναδικό κατάλογο μέσα στο αρχείο wim.
+title: "Κλάση WimDirectoryEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Wim.WimDirectoryEntry κλάση. Αντιπροσωπεύει έναν μοναδικό φάκελο μέσα σε αρχείο wim."
 type: docs
-weight: 770
+weight: 1340
 url: /el/net/aspose.zip.wim/wimdirectoryentry/
 ---
 ## WimDirectoryEntry class
 
-Αντιπροσωπεύει έναν μοναδικό κατάλογο μέσα στο αρχείο wim.
+Αντιπροσωπεύει έναν μοναδικό φάκελο μέσα στην αρχειοθήκη wim.
 
 ```csharp
 public sealed class WimDirectoryEntry : WimEntry
@@ -16,39 +16,39 @@ public sealed class WimDirectoryEntry : WimEntry
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AllEntries](../../aspose.zip.wim/wimdirectoryentry/allentries/) { get; } | Λαμβάνει όλες τις καταχωρήσεις του[`WimEntry`](../wimentry/) τύπος που αποτελεί τον κατάλογο αναδρομικά. |
-| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams/) { get; } | Λαμβάνει τα ονόματα των εναλλακτικών ροών δεδομένων για ένα αρχείο ή κατάλογο. |
-| [Archive](../../aspose.zip.wim/wimentry/archive/) { get; } | Παίρνει το αρχείο στο οποίο ανήκει η καταχώρηση. |
-| [ChangeTime](../../aspose.zip.wim/wimentry/changetime/) { get; } | Δείχνει την τελευταία φορά που άλλαξε το αρχείο ή ο κατάλογος. |
-| [CreationTime](../../aspose.zip.wim/wimentry/creationtime/) { get; } | Λαμβάνει το χρόνο δημιουργίας του αρχείου ή του καταλόγου. |
-| [Directories](../../aspose.zip.wim/wimdirectoryentry/directories/) { get; } | Λαμβάνει καταχωρήσεις του`WimDirectoryEntry` τύπος που αποτελεί τον κατάλογο. |
-| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes/) { get; } | Λαμβάνει τα χαρακτηριστικά αρχείου ή καταλόγου. |
-| [Files](../../aspose.zip.wim/wimdirectoryentry/files/) { get; } | Λαμβάνει καταχωρήσεις του[`WimFileEntry`](../wimfileentry/) τύπος που αποτελεί τον κατάλογο. |
-| [FilesAndDirectories](../../aspose.zip.wim/wimdirectoryentry/filesanddirectories/) { get; } | Λαμβάνει καταχωρήσεις του[`WimEntry`](../wimentry/) τύπος που αποτελεί τον κατάλογο. |
-| [FullPath](../../aspose.zip.wim/wimentry/fullpath/) { get; } | Λαμβάνει την πλήρη διαδρομή της καταχώρισης μέσα στην εικόνα. |
-| [HardLink](../../aspose.zip.wim/wimentry/hardlink/) { get; } | Λαμβάνει το αναγνωριστικό σκληρού συνδέσμου του αρχείου ή του καταλόγου. |
-| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks/) { get; } | Βρίσκει εάν το αρχείο ή ο κατάλογος είναι γνωστός με άλλα ονόματα. |
-| [Image](../../aspose.zip.wim/wimentry/image/) { get; } | Λαμβάνει την εικόνα στην οποία ανήκει η καταχώριση. |
-| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο. |
-| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime/) { get; } | Λαμβάνει τον τελευταίο χρόνο πρόσβασης του αρχείου ή του καταλόγου. |
-| [LastWriteTime](../../aspose.zip.wim/wimentry/lastwritetime/) { get; } | Λαμβάνει το χρόνο τροποποίησης του αρχείου ή του καταλόγου. |
-| [Name](../../aspose.zip.wim/wimentry/name/) { get; } | Λαμβάνει το όνομα της καταχώρισης μέσα στην εικόνα. |
-| [Parent](../../aspose.zip.wim/wimentry/parent/) { get; } | Λαμβάνει τον γονικό κατάλογο στον οποίο ανήκει η καταχώρηση. |
-| [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | Λαμβάνει σύντομο όνομα της καταχώρισης μέσα στην εικόνα. |
+| [AllEntries](../../aspose.zip.wim/wimdirectoryentry/allentries/) { get; } | Λαμβάνει όλες τις καταχωρήσεις τύπου [`WimEntry`](../wimentry/) που αποτελούν τον φάκελο αναδρομικά. |
+| [AlternateDataStreams](../../aspose.zip.wim/wimentry/alternatedatastreams/) { get; } | Λαμβάνει τα ονόματα των εναλλακτικών ροών δεδομένων για ένα αρχείο ή φάκελο. |
+| [Archive](../../aspose.zip.wim/wimentry/archive/) { get; } | Λαμβάνει το αρχείο στο οποίο ανήκει η καταχώρηση. |
+| [ChangeTime](../../aspose.zip.wim/wimentry/changetime/) { get; } | Λαμβάνει την τελευταία φορά που το αρχείο ή ο φάκελος άλλαξε. |
+| [CreationTime](../../aspose.zip.wim/wimentry/creationtime/) { get; } | Λαμβάνει την ώρα δημιουργίας του αρχείου ή του φακέλου. |
+| [Directories](../../aspose.zip.wim/wimdirectoryentry/directories/) { get; } | Λαμβάνει καταχωρήσεις τύπου `WimDirectoryEntry` που αποτελούν τον φάκελο. |
+| [FileAttributes](../../aspose.zip.wim/wimentry/fileattributes/) { get; } | Λαμβάνει τα χαρακτηριστικά του αρχείου ή του φακέλου. |
+| [Files](../../aspose.zip.wim/wimdirectoryentry/files/) { get; } | Λαμβάνει καταχωρήσεις τύπου [`WimFileEntry`](../wimfileentry/) που αποτελούν τον φάκελο. |
+| [FilesAndDirectories](../../aspose.zip.wim/wimdirectoryentry/filesanddirectories/) { get; } | Λαμβάνει καταχωρήσεις τύπου [`WimEntry`](../wimentry/) που αποτελούν τον κατάλογο. |
+| [FullPath](../../aspose.zip.wim/wimentry/fullpath/) { get; } | Λαμβάνει μια πλήρη διαδρομή της καταχώρησης μέσα στην εικόνα. |
+| [HardLink](../../aspose.zip.wim/wimentry/hardlink/) { get; } | Λαμβάνει το αναγνωριστικό hardlink του αρχείου ή του φακέλου. |
+| [HasHardLinks](../../aspose.zip.wim/wimentry/hashardlinks/) { get; } | Λαμβάνει εάν το αρχείο ή ο φάκελος είναι γνωστό με άλλα ονόματα. |
+| [Image](../../aspose.zip.wim/wimentry/image/) { get; } | Λαμβάνει την εικόνα στην οποία ανήκει η καταχώρηση. |
+| [IsDirectory](../../aspose.zip.wim/wimentry/isdirectory/) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει κατάλογο. |
+| [LastAccessTime](../../aspose.zip.wim/wimentry/lastaccesstime/) { get; } | Λαμβάνει την τελευταία ώρα πρόσβασης του αρχείου ή του φακέλου. |
+| [ModificationTime](../../aspose.zip.wim/wimentry/modificationtime/) { get; } | Λαμβάνει την ώρα τροποποίησης του αρχείου ή του καταλόγου. |
+| [Name](../../aspose.zip.wim/wimentry/name/) { get; } | Λαμβάνει το όνομα της καταχώρησης μέσα στην εικόνα. |
+| [Parent](../../aspose.zip.wim/wimentry/parent/) { get; } | Λαμβάνει τον γονικό φάκελο στον οποίο ανήκει η καταχώρηση. |
+| [ShortName](../../aspose.zip.wim/wimentry/shortname/) { get; } | Λαμβάνει το σύντομο όνομα της καταχώρησης μέσα στην εικόνα. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ExtractToDirectory](../../aspose.zip.wim/wimdirectoryentry/extracttodirectory/)(string) | Εξάγει όλα τα αρχεία στον τρέχοντα κατάλογο στον παρεχόμενο κατάλογο. |
+| [ExtractToDirectory](../../aspose.zip.wim/wimdirectoryentry/extracttodirectory/)(string) | Αποσυμπιέζει όλα τα αρχεία στον τρέχοντα κατάλογο στον παρεχόμενο κατάλογο. |
 | override [ToString](../../aspose.zip.wim/wimentry/tostring/)() |  |
 
 ### Δείτε επίσης
 
 * class [WimEntry](../wimentry/)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../aspose.zip.wim/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Wim](../../aspose.zip.wim/)
+* assembly [Aspose.Zip](../../)
 
 

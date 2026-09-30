@@ -1,14 +1,14 @@
 ---
-title: CompressionSettings.PPMd
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CompressionSettings ιδιοκτησία. Ένα στιγμιότυπο τουΡυθμίσεις PPMdCompression με προεπιλεγμένες παραμέτρους.
+title: "CompressionSettings.PPMd"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα CompressionSettings. Ένα στιγμιότυπο του PPMdCompressionSettings με προεπιλεγμένες παραμέτρους"
 type: docs
-weight: 40
+weight: 50
 url: /el/net/aspose.zip.saving/compressionsettings/ppmd/
 ---
 ## CompressionSettings.PPMd property
 
-Ένα στιγμιότυπο του`Ρυθμίσεις PPMdCompression` με προεπιλεγμένες παραμέτρους.
+Ένα στιγμιότυπο του `PPMdCompressionSettings` με προεπιλεγμένες παραμέτρους.
 
 ```csharp
 public static PPMdCompressionSettings PPMd { get; }
@@ -18,7 +18,7 @@ public static PPMdCompressionSettings PPMd { get; }
 
 * class [PPMdCompressionSettings](../../ppmdcompressionsettings/)
 * class [CompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../compressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Bzip2SaveOptions.BlockSize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Bzip2SaveOptions ιδιοκτησία. Μέγεθος μπλοκ σε εκατοντάδες kilobyte.
+title: "Bzip2SaveOptions.BlockSize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα Bzip2SaveOptions. Μέγεθος μπλοκ σε εκατοντάδες kilobytes."
 type: docs
 weight: 20
 url: /el/net/aspose.zip.bzip2/bzip2saveoptions/blocksize/
 ---
 ## Bzip2SaveOptions.BlockSize property
 
-Μέγεθος μπλοκ σε εκατοντάδες kilobyte.
+Μέγεθος μπλοκ σε εκατοντάδες kilobytes.
 
 ```csharp
 public int BlockSize { get; }
@@ -17,7 +17,7 @@ public int BlockSize { get; }
 ### Δείτε επίσης
 
 * class [Bzip2SaveOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

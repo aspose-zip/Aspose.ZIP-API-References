@@ -1,14 +1,14 @@
 ---
-title: Bzip2Archive.Extract
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Bzip2Archive μέθοδος. Εξάγει το αρχείο στη ροή που παρέχεται.
+title: "Bzip2Archive.Extract"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Bzip2Archive method. Εξάγει το αρχείο στην παρεχόμενη ροή."
 type: docs
 weight: 30
 url: /el/net/aspose.zip.bzip2/bzip2archive/extract/
 ---
-## Bzip2Archive.Extract method
+## Extract(Stream) {#extract_1}
 
-Εξάγει το αρχείο στη ροή που παρέχεται.
+Εξάγει το αρχείο στο παρεχόμενο ρεύμα.
 
 ```csharp
 public void Extract(Stream destination)
@@ -16,15 +16,17 @@ public void Extract(Stream destination)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμο. |
+| προορισμός | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμη. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentException | *destination* δεν υποστηρίζει τη γραφή. |
+| ArgumentException | *destination* δεν υποστηρίζει εγγραφή. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive("archive.bz2"))
@@ -36,7 +38,47 @@ using (Bzip2Archive archive = new Bzip2Archive("archive.bz2"))
 ### Δείτε επίσης
 
 * class [Bzip2Archive](../)
-* χώρος ονομάτων [Aspose.Zip.Bzip2](../../bzip2archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## Extract(string) {#extract}
+
+Εξάγει το αρχείο στο αρχείο με βάση τη διαδρομή.
+
+```csharp
+public FileInfo Extract(string path)
+```
+
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| διαδρομή | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
+
+### Τιμή Επιστροφής
+
+Πληροφορίες του εξαγόμενου αρχείου.
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
+
+### Δείτε επίσης
+
+* class [Bzip2Archive](../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: RarArchiveEntry.Open
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchiveEntry μέθοδος. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με αποσυμπιεσμένο περιεχόμενο καταχώρισης.
+title: "RarArchiveEntry.Open"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "RarArchiveEntry μέθοδος. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ροή με αποσυμπιεσμένο περιεχόμενο της καταχώρησης."
 type: docs
 weight: 100
 url: /el/net/aspose.zip.rar/rararchiveentry/open/
 ---
 ## RarArchiveEntry.Open method
 
-Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με αποσυμπιεσμένο περιεχόμενο καταχώρισης.
+Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με το αποσυμπιεσμένο περιεχόμενο της καταχώρησης.
 
 ```csharp
 public Stream Open(string password = null)
@@ -16,27 +16,31 @@ public Stream Open(string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. Μπορεί επίσης να ρυθμιστεί μέσα[`DecryptionPassword`](../../rararchiveloadoptions/decryptionpassword/). |
+| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. Μπορεί επίσης να οριστεί μέσα στο [`DecryptionPassword`](../../rararchiveloadoptions/decryptionpassword/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Η ροή που αντιπροσωπεύει τα περιεχόμενα της καταχώρισης.
+Το stream που αντιπροσωπεύει τα περιεχόμενα της καταχώρησης.
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Διαβάστε από τη ροή για να λάβετε το αρχικό περιεχόμενο του αρχείου. Δείτε την ενότητα με παραδείγματα.
+Διαβάστε από το stream για να λάβετε το αρχικό περιεχόμενο ενός αρχείου. Δείτε την ενότητα παραδειγμάτων.
 
-### Παραδείγματα
+## Παραδείγματα
 
 Χρήση:
 
-.NET 4.0 και νεότερη έκδοση - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 και νεότερο - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 και παλαιότερες εκδόσεις - αντιγραφή byte με μη αυτόματο τρόπο:
+.NET 3.5 και παλαιότερο - αντιγράψτε τα bytes χειροκίνητα:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -45,14 +49,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
 ### Δείτε επίσης
 
 * class [RarArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

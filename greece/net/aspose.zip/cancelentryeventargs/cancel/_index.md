@@ -1,27 +1,27 @@
 ---
-title: CancelEntryEventArgs.Cancel
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CancelEntryEventArgs ιδιοκτησία. Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το συμβάν πρέπει να ακυρωθεί.
+title: "CancelEntryEventArgs.Cancel"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα CancelEntryEventArgs. Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το γεγονός πρέπει να ακυρωθεί"
 type: docs
 weight: 20
 url: /el/net/aspose.zip/cancelentryeventargs/cancel/
 ---
 ## CancelEntryEventArgs.Cancel property
 
-Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το συμβάν πρέπει να ακυρωθεί.
+Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει αν το συμβάν πρέπει να ακυρωθεί.
 
 ```csharp
 public bool Cancel { get; set; }
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Σωστό εάν η εκδήλωση πρέπει να ακυρωθεί. διαφορετικά, ψευδής.
+Αληθές εάν το γεγονός πρέπει να ακυρωθεί· διαφορετικά, ψευδές.
 
 ### Δείτε επίσης
 
 * class [CancelEntryEventArgs](../)
-* χώρος ονομάτων [Aspose.Zip](../../cancelentryeventargs/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../cancelentryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,38 +1,48 @@
 ---
-title: Bzip2Archive.Open
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Bzip2Archive μέθοδος. Ανοίγει το αρχείο για εξαγωγή και παρέχει μια ροή με περιεχόμενο αρχειοθέτησης.
+title: "Bzip2Archive.Open"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος Bzip2Archive. Ανοίγει το αρχείο για εξαγωγή και παρέχει ένα ρεύμα με το περιεχόμενο του αρχείου."
 type: docs
-weight: 40
+weight: 50
 url: /el/net/aspose.zip.bzip2/bzip2archive/open/
 ---
 ## Bzip2Archive.Open method
 
-Ανοίγει το αρχείο για εξαγωγή και παρέχει μια ροή με περιεχόμενο αρχειοθέτησης.
+Ανοίγει το αρχείο για εξαγωγή και παρέχει μια ροή με το περιεχόμενο του αρχείου.
 
 ```csharp
 public Stream Open()
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Η ροή που αντιπροσωπεύει τα περιεχόμενα του αρχείου.
+Η ροή που αντιπροσωπεύει το περιεχόμενο του αρχείου.
 
-### Παρατηρήσεις
+### Εξαιρέσεις
 
-Διαβάστε από τη ροή για να λάβετε το αρχικό περιεχόμενο του αρχείου. Δείτε την ενότητα παραδειγμάτων.
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
+## Παρατηρήσεις
+
+Διαβάστε από το ρεύμα για να λάβετε το αρχικό περιεχόμενο του αρχείου. Δείτε την ενότητα παραδειγμάτων.
+
+## Παραδείγματα
 
 Χρήση:
 
-.NET 4.0 και νεότερη έκδοση - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
+```csharp
+Stream decompressed = archive.Open();
+```
+
+.NET 4.0 και νεότερο - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 και παλαιότερες εκδόσεις - αντιγραφή byte με μη αυτόματο τρόπο:
+.NET 3.5 και παλαιότερο - αντιγράψτε τα bytes χειροκίνητα:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +51,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = archive.Open();
-```
-
 ### Δείτε επίσης
 
 * class [Bzip2Archive](../)
-* χώρος ονομάτων [Aspose.Zip.Bzip2](../../bzip2archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

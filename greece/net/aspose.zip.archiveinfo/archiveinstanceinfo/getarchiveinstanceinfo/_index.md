@@ -1,14 +1,14 @@
 ---
-title: ArchiveInstanceInfo.GetArchiveInstanceInfo
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveInstanceInfo μέθοδος. Λαμβάνει πληροφορίες παρουσίας αρχείου.
+title: "ArchiveInstanceInfo.GetArchiveInstanceInfo"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος ArchiveInstanceInfo. Επιστρέφει πληροφορίες στιγμιότυπου αρχείου"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveinstanceinfo/
 ---
 ## GetArchiveInstanceInfo(string) {#getarchiveinstanceinfo_1}
 
-Λαμβάνει πληροφορίες παρουσίας αρχείου.
+Λαμβάνει πληροφορίες στιγμιότυπου του αρχείου.
 
 ```csharp
 public static ArchiveInstanceInfo GetArchiveInstanceInfo(string fileName)
@@ -18,33 +18,35 @@ public static ArchiveInstanceInfo GetArchiveInstanceInfo(string fileName)
 | --- | --- | --- |
 | fileName | String | Το όνομα αρχείου του αρχείου αρχειοθέτησης. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Πληροφορίες σχετικά με την παρουσία αρχειοθέτησης ή μηδενική εάν δεν εντοπίστηκε μορφή.
+Πληροφορίες σχετικά με το στιγμιότυπο του αρχείου ή null εάν δεν εντοπίστηκε μορφή
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *fileName* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*fileName* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*fileName* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*fileName* υπερβαίνει το καθορισμένο από το σύστημα μέγιστο μήκος. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*fileName* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *fileName* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *fileName* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *fileName* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *fileName* υπερβαίνει το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *fileName* περιέχει άνω-κάτω τελεία (:) στη μέση της συμβολοσειράς. |
 | IOException | Παρουσιάστηκε σφάλμα I/O κατά το άνοιγμα του αρχείου. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη (για παράδειγμα, βρίσκεται σε μη αντιστοιχισμένο δίσκο). |
+| FileNotFoundException | Το καθορισμένο αρχείο δεν βρέθηκε. |
 
 ### Δείτε επίσης
 
 * class [ArchiveInstanceInfo](../)
-* χώρος ονομάτων [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## GetArchiveInstanceInfo(Stream) {#getarchiveinstanceinfo}
 
-Λαμβάνει πληροφορίες παρουσίας αρχείου.
+Λαμβάνει πληροφορίες στιγμιότυπου του αρχείου.
 
 ```csharp
 public static ArchiveInstanceInfo GetArchiveInstanceInfo(Stream stream)
@@ -52,23 +54,23 @@ public static ArchiveInstanceInfo GetArchiveInstanceInfo(Stream stream)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| stream | Stream | Η ροή του αρχείου αρχείου. |
+| stream | Stream | Η ροή του αρχείου αρχειοθήκης. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Πληροφορίες σχετικά με την παρουσία αρχειοθέτησης ή μηδενική εάν δεν εντοπίστηκε μορφή.
+Πληροφορίες σχετικά με το στιγμιότυπο του αρχείου ή null εάν δεν εντοπίστηκε μορφή
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *stream* είναι μηδενικό. |
-| ArgumentException | *stream* δεν είναι αναζητήσιμο. |
+| ArgumentNullException | *stream* είναι null. |
+| ArgumentException | *stream* δεν είναι δυνατόν να γίνει αναζήτηση. |
 
 ### Δείτε επίσης
 
 * class [ArchiveInstanceInfo](../)
-* χώρος ονομάτων [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

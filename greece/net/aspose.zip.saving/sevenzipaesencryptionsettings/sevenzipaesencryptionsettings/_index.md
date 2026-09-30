@@ -1,14 +1,14 @@
 ---
-title: SevenZipAESEncryptionSettings.SevenZipAESEncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipAESEncryptionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουSevenZipAESEncryptionSettings τάξη.
+title: "SevenZipAESEncryptionSettings.SevenZipAESEncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής SevenZipAESEncryptionSettings. Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης SevenZipAESEncryptionSettings"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/sevenzipaesencryptionsettings/sevenzipaesencryptionsettings/
 ---
 ## SevenZipAESEncryptionSettings(string) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`SevenZipAESEncryptionSettings`](../) τάξη.
+Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης [`SevenZipAESEncryptionSettings`](../).
 
 ```csharp
 public SevenZipAESEncryptionSettings(string password)
@@ -18,7 +18,7 @@ public SevenZipAESEncryptionSettings(string password)
 | --- | --- | --- |
 | password | String | Κωδικός πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new SevenZipAESEncryptionSettings("p@s$"))))
@@ -31,14 +31,14 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new Sev
 ### Δείτε επίσης
 
 * class [SevenZipAESEncryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipAESEncryptionSettings(SevenZipCipher) {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`SevenZipAESEncryptionSettings`](../) τάξη με εξωτερικό κρυπτογράφηση.
+Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης [`SevenZipAESEncryptionSettings`](../) με εξωτερικό κρυπτογράφο.
 
 ```csharp
 public SevenZipAESEncryptionSettings(SevenZipCipher cipher)
@@ -46,9 +46,9 @@ public SevenZipAESEncryptionSettings(SevenZipCipher cipher)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| cipher | SevenZipCipher | Προσαρμοσμένη εφαρμογή AES. |
+| κρυπτογράφημα | SevenZipCipher | Προσαρμοσμένη υλοποίηση AES. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 SevenZipCipher cipher = ComposeMyCipher();
@@ -63,7 +63,7 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new Sev
 
 * class [SevenZipCipher](../../../aspose.zip.crypto/sevenzipcipher/)
 * class [SevenZipAESEncryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipaesencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

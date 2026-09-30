@@ -1,20 +1,20 @@
 ---
-title: StoreCompressionSettings.StoreCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: StoreCompressionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουStoreCompressionSettings τάξη.
+title: "StoreCompressionSettings.StoreCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής StoreCompressionSettings. Αρχικοποιεί μια νέα παρουσία της κλάσης StoreCompressionSettings"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/storecompressionsettings/storecompressionsettings/
 ---
 ## StoreCompressionSettings constructor
 
-Αρχικοποιεί μια νέα παρουσία του[`StoreCompressionSettings`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`StoreCompressionSettings`](../).
 
 ```csharp
 public StoreCompressionSettings()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new StoreCompressionSettings())))
@@ -27,7 +27,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new StoreCompressi
 ### Δείτε επίσης
 
 * class [StoreCompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../storecompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../storecompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: ArchiveLoadOptions.ArchiveLoadOptions
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveLoadOptions κατασκευαστής. Ο προεπιλεγμένος κατασκευαστής.
+title: "ArchiveLoadOptions.ArchiveLoadOptions"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής ArchiveLoadOptions. Ο προεπιλεγμένος κατασκευαστής"
 type: docs
 weight: 10
 url: /el/net/aspose.zip/archiveloadoptions/archiveloadoptions/
@@ -17,7 +17,7 @@ public ArchiveLoadOptions()
 ### Δείτε επίσης
 
 * class [ArchiveLoadOptions](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveloadoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

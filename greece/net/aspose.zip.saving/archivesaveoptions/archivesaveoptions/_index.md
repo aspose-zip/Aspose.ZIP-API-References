@@ -1,7 +1,7 @@
 ---
-title: ArchiveSaveOptions.ArchiveSaveOptions
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveSaveOptions κατασκευαστής. Ο προεπιλεγμένος κατασκευαστής.
+title: "ArchiveSaveOptions.ArchiveSaveOptions"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "ArchiveSaveOptions κατασκευαστής. Ο προεπιλεγμένος κατασκευαστής"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/archivesaveoptions/archivesaveoptions/
@@ -17,7 +17,7 @@ public ArchiveSaveOptions()
 ### Δείτε επίσης
 
 * class [ArchiveSaveOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../archivesaveoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

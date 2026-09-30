@@ -1,14 +1,14 @@
 ---
-title: SevenZipPPMdCompressionSettings.MaxOrder
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipPPMdCompressionSettings ιδιοκτησία. Λαμβάνει τη μέγιστη παραγγελία.
+title: "SevenZipPPMdCompressionSettings.MaxOrder"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipPPMdCompressionSettings. Λαμβάνει τη μέγιστη τάξη"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.saving/sevenzipppmdcompressionsettings/maxorder/
 ---
 ## SevenZipPPMdCompressionSettings.MaxOrder property
 
-Λαμβάνει τη μέγιστη παραγγελία.
+Λαμβάνει τη μέγιστη σειρά.
 
 ```csharp
 public byte MaxOrder { get; }
@@ -17,7 +17,7 @@ public byte MaxOrder { get; }
 ### Δείτε επίσης
 
 * class [SevenZipPPMdCompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

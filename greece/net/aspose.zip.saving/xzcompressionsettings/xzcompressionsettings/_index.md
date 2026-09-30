@@ -1,20 +1,20 @@
 ---
-title: XzCompressionSettings.XzCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XzCompressionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουXzCompressionSettings τάξη.
+title: "XzCompressionSettings.XzCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής XzCompressionSettings. Αρχικοποιεί μια νέα παρουσία της κλάσης XzCompressionSettings."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/xzcompressionsettings/xzcompressionsettings/
 ---
 ## XzCompressionSettings constructor
 
-Αρχικοποιεί μια νέα παρουσία του[`XzCompressionSettings`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`XzCompressionSettings`](../).
 
 ```csharp
 public XzCompressionSettings()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new XzCompressionSettings())))
@@ -27,7 +27,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new XzCompressionS
 ### Δείτε επίσης
 
 * class [XzCompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../xzcompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../xzcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

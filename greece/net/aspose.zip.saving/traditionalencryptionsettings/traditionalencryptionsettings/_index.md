@@ -1,14 +1,14 @@
 ---
-title: TraditionalEncryptionSettings.TraditionalEncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: TraditionalEncryptionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουTraditionalEncryptionSettings τάξη.
+title: "TraditionalEncryptionSettings.TraditionalEncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής TraditionalEncryptionSettings. Αρχικοποιεί μια νέα παρουσία της κλάσης TraditionalEncryptionSettings."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/traditionalencryptionsettings/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings(string) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`TraditionalEncryptionSettings`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`TraditionalEncryptionSettings`](../).
 
 ```csharp
 public TraditionalEncryptionSettings(string password)
@@ -18,7 +18,7 @@ public TraditionalEncryptionSettings(string password)
 | --- | --- | --- |
 | password | String | Κωδικός πρόσβασης για κρυπτογράφηση. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p@s$"))))
@@ -31,14 +31,14 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 ### Δείτε επίσης
 
 * class [TraditionalEncryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings(string, Encoding) {#constructor_2}
 
-Αρχικοποιεί μια νέα παρουσία του[`TraditionalEncryptionSettings`](../) κλάση με κωδικοποίηση καθορισμένη από το χρήστη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`TraditionalEncryptionSettings`](../) με κωδικοποίηση που ορίζεται από τον χρήστη.
 
 ```csharp
 public TraditionalEncryptionSettings(string password, Encoding encoding)
@@ -47,13 +47,13 @@ public TraditionalEncryptionSettings(string password, Encoding encoding)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | password | String | Κωδικός πρόσβασης για κρυπτογράφηση. |
-| encoding | Encoding | Κωδικοποίηση για χαρακτήρες κωδικού πρόσβασης. |
+| κωδικοποίηση | Κωδικοποίηση | Κωδικοποίηση για χαρακτήρες κωδικού πρόσβασης. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Η χρήση αυτού του κατασκευαστή αποθαρρύνεται. Η ρύθμιση της κωδικοποίησης μπορεί να έρχεται σε αντίθεση με το πρότυπο και να δημιουργήσει μη συμβατό αρχείο.
+Η χρήση αυτού του κατασκευαστή δεν συνιστάται. Η ρύθμιση της κωδικοποίησης μπορεί να αντιτίθεται στο πρότυπο και να παράγει ασυμβίβαστο αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p£s$", System.Text.Encoding.ASCII))))
@@ -66,14 +66,14 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 ### Δείτε επίσης
 
 * class [TraditionalEncryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings() {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`TraditionalEncryptionSettings`](../)τάξη χωρίς κωδικό πρόσβασης.
+Δημιουργεί ένα νέο στιγμιότυπο της κλάσης [`TraditionalEncryptionSettings`](../) χωρίς κωδικό πρόσβασης.
 
 ```csharp
 public TraditionalEncryptionSettings()
@@ -82,7 +82,7 @@ public TraditionalEncryptionSettings()
 ### Δείτε επίσης
 
 * class [TraditionalEncryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

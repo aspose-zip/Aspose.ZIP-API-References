@@ -1,7 +1,7 @@
 ---
-title: WimImage.Parent
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimImage ιδιοκτησία. Λαμβάνει το αρχείο στο οποίο ανήκει η εικόνα.
+title: "WimImage.Parent"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "WimImage ιδιότητα. Λαμβάνει το αρχείο στο οποίο ανήκει η εικόνα"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.wim/wimimage/parent/
@@ -18,7 +18,7 @@ public WimArchive Parent { get; }
 
 * class [WimArchive](../../wimarchive/)
 * class [WimImage](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimimage/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimimage/)
+* assembly [Aspose.Zip](../../../)
 
 

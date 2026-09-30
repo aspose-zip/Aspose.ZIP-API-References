@@ -1,14 +1,14 @@
 ---
-title: RarArchiveEntry.UncompressedSize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchiveEntry ιδιοκτησία. Παίρνει το μέγεθος του αρχικού αρχείου.
+title: "RarArchiveEntry.UncompressedSize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα RarArchiveEntry. Λαμβάνει το μέγεθος ενός αρχικού αρχείου"
 type: docs
 weight: 70
 url: /el/net/aspose.zip.rar/rararchiveentry/uncompressedsize/
 ---
 ## RarArchiveEntry.UncompressedSize property
 
-Παίρνει το μέγεθος του αρχικού αρχείου.
+Λαμβάνει το μέγεθος ενός αρχικού αρχείου.
 
 ```csharp
 public ulong UncompressedSize { get; }
@@ -17,7 +17,7 @@ public ulong UncompressedSize { get; }
 ### Δείτε επίσης
 
 * class [RarArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

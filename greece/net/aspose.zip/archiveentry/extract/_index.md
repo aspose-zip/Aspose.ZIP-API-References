@@ -1,14 +1,14 @@
 ---
-title: ArchiveEntry.Extract
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveEntry μέθοδος. Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+title: "ArchiveEntry.Extract"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος ArchiveEntry. Εξάγει την καταχώρηση στο σύστημα αρχείων με τη διαδρομή που παρέχεται"
 type: docs
-weight: 100
+weight: 110
 url: /el/net/aspose.zip/archiveentry/extract/
 ---
 ## Extract(string, string) {#extract}
 
-Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή.
 
 ```csharp
 public FileInfo Extract(string path, string password = null)
@@ -16,28 +16,32 @@ public FileInfo Extract(string path, string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
+| password | String | Προαιρετικό password για αποκρυπτογράφηση. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Οι πληροφορίες αρχείου του σύνθετου αρχείου.
+Οι πληροφορίες του συντιθέμενου αρχείου.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
-| InvalidDataException | Η επαλήθευση CRC ή MAC απέτυχε για την καταχώριση. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| InvalidDataException | Τα δεδομένα είναι κατεστραμμένα. -ή- Η επαλήθευση CRC ή MAC απέτυχε για την καταχώρηση. |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εξαγάγετε δύο καταχωρήσεις του αρχείου zip, η καθεμία με τον δικό της κωδικό πρόσβασης
+Εξάγετε δύο καταχωρήσεις του αρχείου ZIP, η κάθε μία με τον δικό της κωδικό πρόσβασης
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
@@ -53,14 +57,14 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
 ### Δείτε επίσης
 
 * class [ArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(Stream, string) {#extract_1}
 
-Εξάγει την καταχώρηση στη ροή που παρέχεται.
+Εξάγει την καταχώρηση στη δοθείσα ροή.
 
 ```csharp
 public void Extract(Stream destination, string password = null)
@@ -68,19 +72,21 @@ public void Extract(Stream destination, string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμο. |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. |
+| προορισμός | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμη. |
+| password | String | Προαιρετικό password για αποκρυπτογράφηση. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidDataException | Η επαλήθευση CRC ή MAC απέτυχε για την καταχώριση. |
-| ArgumentException | *destination* δεν υποστηρίζει τη γραφή. |
+| InvalidDataException | Τα δεδομένα είναι κατεστραμμένα. -ή- Η επαλήθευση CRC ή MAC απέτυχε για την καταχώρηση. |
+| IOException | Η πηγή είναι κατεστραμμένη ή μη αναγνώσιμη. |
+| ArgumentException | *destination* δεν υποστηρίζει εγγραφή. |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εξαγωγή μιας καταχώρησης αρχείου zip με κωδικό πρόσβασης.
+Εξάγετε μια καταχώρηση του αρχείου zip με κωδικό πρόσβασης.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
@@ -95,7 +101,7 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Open))
 ### Δείτε επίσης
 
 * class [ArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 
