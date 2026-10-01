@@ -1,0 +1,35 @@
+---
+title: "ZstandardCompressionSettings"
+second_title: "Referencia de API de Aspose.Zip para Python a través de .NET"
+description: 
+type: docs
+weight: 290
+url: /es/python-net/aspose.zip.saving/zstandardcompressionsettings/
+---
+
+## ZstandardCompressionSettings class
+
+Configuración para la compresión Zstandard dentro de un archivo ZIP.
+
+El tipo ZstandardCompressionSettings expone los siguientes miembros:
+## Constructores
+| Nombre | Descripción |
+| :- | :- |
+| ZstandardCompressionSettings() | Inicializa una nueva instancia de la clase ZstandardCompressionSettings |
+## Propiedades
+| Nombre | Descripción |
+| :- | :- |
+| bzip2 | Una instancia de |
+| deflate | Una instancia de |
+| enhanced_deflate | Una instancia de |
+| store | Una instancia de |
+| lzma | Una instancia de |
+| xz | Una instancia de |
+| pp_md | Una instancia de |
+| zstd | Una instancia de |
+
+### Ver también
+
+* namespace [aspose.zip.saving](/zip/python-net/aspose.zip.saving/)
+* assembly [Aspose.Zip](/zip/python-net/)
+
