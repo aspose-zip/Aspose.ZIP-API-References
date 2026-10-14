@@ -1,7 +1,7 @@
 ---
-title: WimArchive.BootImageIndex
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimArchive Properti. Mendapatkan indeks berbasis nol dari gambar yang dapat diboot.
+title: "WimArchive.BootImageIndex"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti WimArchive. Mendapatkan indeks berbasis nol dari gambar yang dapat di-boot"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.wim/wimarchive/bootimageindex/
@@ -14,10 +14,16 @@ Mendapatkan indeks (berbasis nol) dari gambar yang dapat di-boot.
 public int BootImageIndex { get; }
 ```
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+### Lihat Juga
 
 * class [WimArchive](../)
-* ruang nama [Aspose.Zip.Wim](../../wimarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,36 +1,39 @@
 ---
-title: SevenZipArchive.Save
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchive metode. Menyimpan arsip 7z ke aliran yang disediakan.
+title: "SevenZipArchive.Save"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SevenZipArchive. Menyimpan arsip 7z ke aliran yang diberikan."
 type: docs
 weight: 80
 url: /id/net/aspose.zip.sevenzip/sevenziparchive/save/
 ---
-## Save(Stream) {#save}
+## Save(Stream, SevenZipArchiveSaveOptions) {#save}
 
 Menyimpan arsip 7z ke aliran yang disediakan.
 
 ```csharp
-public void Save(Stream output)
+public void Save(Stream output, SevenZipArchiveSaveOptions saveOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | output | Stream | Aliran tujuan. |
+| saveOptions | SevenZipArchiveSaveOptions | Opsi untuk penyimpanan arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | ArgumentException | *output* tidak mendukung pencarian. |
-| ArgumentNullException | *output* adalah nol. |
+| ArgumentNullException | *output* adalah null. |
 | InvalidOperationException | Encoder gagal mengompresi data. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
 
-### Perkataan
+## Catatan
 
-*output* harus dapat dicari.
+*output* must be seekable.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
@@ -46,42 +49,47 @@ using (FileStream sevenZipFile = File.Open("archive.7z", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [SevenZipArchiveSaveOptions](../../../aspose.zip.saving/sevenziparchivesaveoptions/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(string, SevenZipArchiveSaveOptions) {#save_1}
 
 Menyimpan arsip ke file tujuan yang disediakan.
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, SevenZipArchiveSaveOptions saveOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
+| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
+| saveOptions | SevenZipArchiveSaveOptions | Opsi untuk penyimpanan arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*destinationFileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*destinationFileName* ditolak. |
-| PathTooLongException | Yang ditentukan*destinationFileName*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*destinationFileName* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *destinationFileName* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *destinationFileName* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *destinationFileName* ditolak. |
+| PathTooLongException | *destinationFileName* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File di *destinationFileName* berisi tanda titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| InvalidOperationException | Encoder gagal mengompresi data. |
 
-### Perkataan
+## Catatan
 
-Dimungkinkan untuk menyimpan arsip ke jalur yang sama saat diambil dari. Namun, ini tidak disarankan karena pendekatan ini menggunakan penyalinan ke file sementara.
+Dimungkinkan untuk menyimpan arsip ke jalur yang sama dengan tempat ia dimuat. Namun, ini tidak disarankan karena pendekatan ini menggunakan penyalinan ke file sementara.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -94,10 +102,11 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [SevenZipArchiveSaveOptions](../../../aspose.zip.saving/sevenziparchivesaveoptions/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

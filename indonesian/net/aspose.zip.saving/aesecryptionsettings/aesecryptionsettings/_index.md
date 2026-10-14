@@ -1,31 +1,31 @@
 ---
-title: AesEcryptionSettings.AesEcryptionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: AesEcryptionSettings konstruktor. Menginisialisasi instance baru dariAesEcryptionSettings kelas.
+title: "AesEcryptionSettings.AesEcryptionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor AesEcryptionSettings. Menginisialisasi sebuah instance baru dari kelas AesEcryptionSettings."
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/aesecryptionsettings/aesecryptionsettings/
 ---
 ## AesEcryptionSettings(string, EncryptionMethod) {#constructor_1}
 
-Menginisialisasi instance baru dari[`AesEcryptionSettings`](../) kelas.
+Menginisialisasi sebuah instance baru dari kelas [`AesEcryptionSettings`](../).
 
 ```csharp
 public AesEcryptionSettings(string password, EncryptionMethod method)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | password | String | Kata sandi untuk enkripsi atau dekripsi. |
-| method | EncryptionMethod | Opsi algoritma yang menunjukkan ukuran blok cipher. |
+| metode | EncryptionMethod | Opsi algoritma yang menunjukkan ukuran blok cipher. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| NotSupportedException | *method* bukan salah satu dariAES128 ,AES192 , atauAES256. |
+| NotSupportedException | *method* bukan salah satu dari AES128, AES192, atau AES256. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryptionSettings("p@s$", EncryptionMethod.AES256))))
@@ -35,32 +35,38 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * enum [EncryptionMethod](../../encryptionmethod/)
 * class [AesEcryptionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../aesecryptionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../aesecryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## AesEcryptionSettings(EncryptionMethod) {#constructor}
 
-Menginisialisasi instance baru dari[`AesEcryptionSettings`](../)kelas tanpa password.
+Menginisialisasi sebuah instance baru dari kelas [`AesEcryptionSettings`](../) tanpa kata sandi.
 
 ```csharp
 public AesEcryptionSettings(EncryptionMethod method)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| method | EncryptionMethod | Opsi algoritma yang menunjukkan ukuran blok cipher. |
+| metode | EncryptionMethod | Opsi algoritma yang menunjukkan ukuran blok cipher. |
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| NotSupportedException | *method* bukan salah satu dari AES128, AES192, atau AES256. |
+
+### Lihat Juga
 
 * enum [EncryptionMethod](../../encryptionmethod/)
 * class [AesEcryptionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../aesecryptionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../aesecryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

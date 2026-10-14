@@ -1,7 +1,7 @@
 ---
-title: GzipArchive.Name
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: GzipArchive Properti. Nama file asli.
+title: "GzipArchive.Name"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti GzipArchive. Nama file asli"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.gzip/gziparchive/name/
@@ -14,10 +14,16 @@ Nama file asli.
 public string Name { get; }
 ```
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+### Lihat Juga
 
 * class [GzipArchive](../)
-* ruang nama [Aspose.Zip.Gzip](../../gziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

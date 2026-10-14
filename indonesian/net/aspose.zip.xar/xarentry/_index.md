@@ -1,14 +1,14 @@
 ---
-title: Class XarEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Xar.XarEntry kelas. Merupakan entri tunggal dalam arsip xar.
+title: "Kelas XarEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Xar.XarEntry. Mewakili satu entri dalam arsip xar"
 type: docs
-weight: 830
+weight: 1460
 url: /id/net/aspose.zip.xar/xarentry/
 ---
 ## XarEntry class
 
-Merupakan entri tunggal dalam arsip xar.
+Mewakili satu entri dalam arsip xar.
 
 ```csharp
 public abstract class XarEntry
@@ -16,25 +16,25 @@ public abstract class XarEntry
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [CreationTime](../../aspose.zip.xar/xarentry/creationtime/) { get; } | Mendapatkan waktu pembuatan file atau direktori. |
-| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Mendapat path lengkap dari entri di dalam arsip. |
-| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Mendapat nilai yang menunjukkan apakah entri mewakili direktori. |
-| [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime/) { get; } | Mendapat waktu akses terakhir dari file atau direktori. |
-| [LastWriteTime](../../aspose.zip.xar/xarentry/lastwritetime/) { get; } | Mendapatkan waktu modifikasi file atau direktori. |
-| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Mendapat nama entri dalam arsip. |
-| [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Mendapatkan direktori induk tempat entri tersebut berada. |
+| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Mendapatkan jalur lengkap dari entri dalam arsip. |
+| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori. |
+| [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime/) { get; } | Mendapatkan waktu akses terakhir file atau direktori. |
+| [ModificationTime](../../aspose.zip.xar/xarentry/modificationtime/) { get; } | Mendapatkan waktu modifikasi file atau direktori. |
+| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Mendapatkan nama entri dalam arsip. |
+| [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Mendapatkan direktori induk tempat entri berada. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | override [ToString](../../aspose.zip.xar/xarentry/tostring/)() |  |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Xar](../../aspose.zip.xar/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xar](../../aspose.zip.xar/)
+* assembly [Aspose.Zip](../../)
 
 

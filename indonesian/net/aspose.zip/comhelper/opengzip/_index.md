@@ -1,7 +1,7 @@
 ---
-title: ComHelper.OpenGzip
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ComHelper metode. Mengizinkan aplikasi COM memuat arsip gzip dari aliran.
+title: "ComHelper.OpenGzip"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode ComHelper. Memungkinkan aplikasi COM untuk memuat arsip gzip dari aliran"
 type: docs
 weight: 30
 url: /id/net/aspose.zip/comhelper/opengzip/
@@ -14,44 +14,65 @@ Mengizinkan aplikasi COM memuat arsip gzip dari aliran.
 public GzipArchive OpenGzip(Stream stream)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| stream | Stream | Objek aliran .NET yang berisi arsip untuk dimuat. |
+| stream | Stream | Objek aliran .NET yang berisi arsip yang akan dimuat. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-A[`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) objek yang mewakili arsip.
+Objek [`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) yang mewakili arsip.
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| ArgumentNullException | Dilempar ketika *stream* bernilai null. |
+| InvalidDataException | Dilemparkan ketika data tidak valid atau rusak. |
+
+### Lihat Juga
 
 * class [GzipArchive](../../../aspose.zip.gzip/gziparchive/)
 * class [ComHelper](../)
-* ruang nama [Aspose.Zip](../../comhelper/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## OpenGzip(string) {#opengzip_1}
 
-Mengizinkan aplikasi COM memuat arsip gzip dari sebuah file.
+Mengizinkan aplikasi COM untuk memuat arsip gzip dari sebuah file.
 
 ```csharp
 public GzipArchive OpenGzip(string fileName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | fileName | String | Nama file arsip yang akan dimuat. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-A[`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) objek yang mewakili arsip.
+Objek [`GzipArchive`](../../../aspose.zip.gzip/gziparchive/) yang mewakili arsip.
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| ArgumentException | Nama file kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| ArgumentNullException | *fileName* adalah `null`. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| InvalidDataException | Dilemparkan ketika data tidak valid atau rusak. |
+| PathTooLongException | Jalur, nama file, atau keduanya yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. |
+| UnauthorizedAccessException | Akses ke *fileName* ditolak. |
+
+### Lihat Juga
 
 * class [GzipArchive](../../../aspose.zip.gzip/gziparchive/)
 * class [ComHelper](../)
-* ruang nama [Aspose.Zip](../../comhelper/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 

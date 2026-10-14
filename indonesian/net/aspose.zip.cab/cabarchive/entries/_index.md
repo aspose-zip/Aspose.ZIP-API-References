@@ -1,24 +1,30 @@
 ---
-title: CabArchive.Entries
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CabArchive Properti. Mendapat entri dariCabEntry ketik merupakan arsip.
+title: "CabArchive.Entries"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CabArchive. Mendapatkan entri tipe CabEntry yang membentuk arsip."
 type: docs
 weight: 20
 url: /id/net/aspose.zip.cab/cabarchive/entries/
 ---
 ## CabArchive.Entries property
 
-Mendapat entri dari[`CabEntry`](../../cabentry/) ketik merupakan arsip.
+Mendapatkan entri tipe [`CabEntry`](../../cabentry/) yang membentuk arsip.
 
 ```csharp
 public ReadOnlyCollection<CabEntry> Entries { get; }
 ```
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+### Lihat Juga
 
 * class [CabEntry](../../cabentry/)
 * class [CabArchive](../)
-* ruang nama [Aspose.Zip.Cab](../../cabarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

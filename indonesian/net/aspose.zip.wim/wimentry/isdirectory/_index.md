@@ -1,23 +1,23 @@
 ---
-title: WimEntry.IsDirectory
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimEntry Properti. Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+title: "WimEntry.IsDirectory"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "WimEntry properti. Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori"
 type: docs
 weight: 100
 url: /id/net/aspose.zip.wim/wimentry/isdirectory/
 ---
 ## WimEntry.IsDirectory property
 
-Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori.
 
 ```csharp
 public bool IsDirectory { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [WimEntry](../)
-* ruang nama [Aspose.Zip.Wim](../../wimentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

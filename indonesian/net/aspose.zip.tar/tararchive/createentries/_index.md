@@ -1,29 +1,35 @@
 ---
-title: TarArchive.CreateEntries
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: TarArchive metode. Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+title: "TarArchive.CreateEntries"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode TarArchive. Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan"
 type: docs
-weight: 70
+weight: 100
 url: /id/net/aspose.zip.tar/tararchive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public TarArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| directory | DirectoryInfo | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| directory | DirectoryInfo | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri disusun.
+Arsip dengan entri yang telah disusun.
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan |
+
+## Contoh
 
 ```csharp
 using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
@@ -36,41 +42,42 @@ using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public TarArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| sourceDirectory | String | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| sourceDirectory | String | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri disusun.
+Arsip dengan entri yang telah disusun.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *sourceDirectory* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses*sourceDirectory*. |
-| ArgumentException | *sourceDirectory* berisi karakter yang tidak valid seperti ", &lt;, &gt;, atau &#x7C;. |
-| PathTooLongException | Jalur yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. Jalur yang ditentukan, nama file, atau keduanya terlalu panjang. |
+| ArgumentNullException | *sourceDirectory* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses *sourceDirectory*. |
+| ArgumentException | *sourceDirectory* berisi karakter tidak valid seperti ", &lt;, &gt;, atau &#x7C;. |
+| PathTooLongException | Jalur, nama file, atau keduanya yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. Jalur, nama file, atau keduanya yang ditentukan terlalu panjang. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
@@ -83,10 +90,10 @@ using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

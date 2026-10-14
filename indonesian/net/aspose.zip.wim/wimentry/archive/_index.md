@@ -1,7 +1,7 @@
 ---
-title: WimEntry.Archive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimEntry Properti. Mendapatkan arsip tempat entri tersebut berada.
+title: "WimEntry.Archive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "WimEntry properti. Mendapatkan arsip tempat entri berada"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.wim/wimentry/archive/
@@ -14,11 +14,11 @@ Mendapatkan arsip tempat entri tersebut berada.
 public WimArchive Archive { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [WimArchive](../../wimarchive/)
 * class [WimEntry](../)
-* ruang nama [Aspose.Zip.Wim](../../wimentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: Aspose.Zip.ArchiveInfo
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuArchiveInfo namespace berisi kelas yang mewakili entitas terkait info arsip.
+title: "Aspose.Zip.ArchiveInfo"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace ArchiveInfo berisi kelas yang mewakili entitas terkait info arsip."
 type: docs
-weight: 20
+weight: 40
 url: /id/net/aspose.zip.archiveinfo/
 ---
-ItuArchiveInfo namespace berisi kelas yang mewakili entitas terkait info arsip.
+Namespace ArchiveInfo berisi kelas yang mewakili entitas terkait informasi arsip.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [ArchiveFormatInfo](./archiveformatinfo/) | Menampilkan informasi tentang format arsip. |
-| [ArchiveInstanceInfo](./archiveinstanceinfo/) | Menampilkan informasi tentang instance arsip. |
-## Pencacahan
+| [ArchiveFormatInfo](./archiveformatinfo/) | Mewakili informasi tentang format arsip. |
+| [ArchiveInstanceInfo](./archiveinstanceinfo/) | Mewakili informasi tentang instansi arsip. |
+## Enumerasi
 
-| Pencacahan | Keterangan |
+| Enumerasi | Deskripsi |
 | --- | --- |
 | [ArchiveFormat](./archiveformat/) | Format arsip yang didukung. |
 

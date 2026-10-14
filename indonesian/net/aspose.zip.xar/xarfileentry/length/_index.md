@@ -1,7 +1,7 @@
 ---
-title: XarFileEntry.Length
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarFileEntry Properti. Mendapatkan panjang entri dalam byte.
+title: "XarFileEntry.Length"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "XarFileEntry property. Mendapatkan panjang entri dalam byte"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.xar/xarfileentry/length/
@@ -11,13 +11,13 @@ url: /id/net/aspose.zip.xar/xarfileentry/length/
 Mendapatkan panjang entri dalam byte.
 
 ```csharp
-public abstract long Length { get; }
+public long Length { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XarFileEntry](../)
-* ruang nama [Aspose.Zip.Xar](../../xarfileentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarfileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,27 +1,27 @@
 ---
-title: ParallelOptions.AvailableMemorySize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ParallelOptions Properti. Mendapat atau menyetel perkiraan memori dalam megabyte yang tersedia untuk mengakomodasi entri terkompresi tanpa menukar ke disk. Nilai ini hanya masuk akal jikaParallelCompressInMemory pengaturan sudah masukAuto mode.
+title: "ParallelOptions.AvailableMemorySize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ParallelOptions. Mendapatkan atau mengatur perkiraan memori dalam megabyte yang tersedia untuk menampung entri terkompresi tanpa pertukaran ke disk. Nilai ini hanya masuk akal jika pengaturan ParallelCompressInMemory berada dalam mode Otomatis"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.saving/paralleloptions/availablememorysize/
 ---
 ## ParallelOptions.AvailableMemorySize property
 
-Mendapat atau menyetel perkiraan memori dalam megabyte yang tersedia untuk mengakomodasi entri terkompresi tanpa menukar ke disk. Nilai ini hanya masuk akal jika[`ParallelCompressInMemory`](../parallelcompressinmemory/) pengaturan sudah masukAuto mode.
+Mendapatkan atau mengatur perkiraan memori dalam megabyte yang tersedia untuk menampung entri terkompresi tanpa pertukaran ke disk. Nilai ini hanya masuk akal jika pengaturan [`ParallelCompressInMemory`](../parallelcompressinmemory/) berada dalam mode Otomatis.
 
 ```csharp
 public int AvailableMemorySize { get; set; }
 ```
 
-### Perkataan
+## Catatan
 
-Nilai ini digunakan untuk menghitung ukuran entri terbesar yang dapat dikompresi secara paralel dengan yang lain. Semua entri di atas ambang yang dihitung akan dikompresi secara berurutan. Aman untuk dimiliki`AvailableMemorySize` properti sebesar RAM gratis dan bahkan lebih besar. Secara default diasumsikan Anda memiliki setidaknya 200MB per inti CPU.
+Nilai ini digunakan untuk menghitung ukuran maksimum entri yang dapat dikompresi secara paralel dengan yang lain. Semua entri di atas ambang batas yang dihitung akan dikompresi secara berurutan. Aman untuk memiliki properti `AvailableMemorySize` sebesar RAM bebas bahkan lebih besar. Secara default, diasumsikan Anda memiliki setidaknya 200 MB per inti CPU.
 
-### Lihat juga
+### Lihat Juga
 
 * class [ParallelOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../paralleloptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

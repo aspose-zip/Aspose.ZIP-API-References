@@ -1,37 +1,37 @@
 ---
-title: SevenZipPPMdCompressionSettings.SevenZipPPMdCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipPPMdCompressionSettings konstruktor. Instansiasi pengaturan untuk metode kompresi PPMd dalam arsip 7z.
+title: "SevenZipPPMdCompressionSettings.SevenZipPPMdCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor SevenZipPPMdCompressionSettings. Membuat instansi pengaturan untuk metode kompresi PPMd dalam arsip 7z"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/sevenzipppmdcompressionsettings/sevenzipppmdcompressionsettings/
 ---
 ## SevenZipPPMdCompressionSettings(byte, int) {#constructor_1}
 
-Instansiasi pengaturan untuk metode kompresi PPMd dalam arsip 7z.
+Membuat instance pengaturan untuk metode kompresi PPMd dalam arsip 7z.
 
 ```csharp
 public SevenZipPPMdCompressionSettings(byte maxOrder, int suballocatorSize)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| maxOrder | Byte | Pesanan maksimum. |
-| suballocatorSize | Int32 | Ukuran memori dalam MB suballocator dapat dikonsumsi. |
+| maxOrder | Byte | Urutan maksimum. |
+| suballocatorSize | Int32 | Ukuran memori dalam MB yang dapat dikonsumsi oleh suballocator. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxOrder* tidak antara 2 dan 32, atau*suballocatorSize* bukan antara 1 dan 1024. |
+| ArgumentOutOfRangeException | *maxOrder* tidak berada di antara 2 dan 32, atau *suballocatorSize* tidak berada di antara 1 dan 1024. |
 
-### Perkataan
+## Catatan
 
-Pesanan model yang lebih besar hampir pasti menghasilkan kompresi yang lebih baik dan tentu saja lebih banyak penggunaan memori dan CPU.
+Urutan model yang lebih besar hampir pasti menghasilkan kompresi yang lebih baik dan pasti menggunakan lebih banyak memori serta CPU.
 
-Algoritme PPMd mungkin membutuhkan banyak memori, terutama bila digunakan pada file besar dan/atau digunakan dengan urutan model besar. Jika ppmd membutuhkan lebih banyak memori daripada yang Anda berikan, kompresi akan lebih buruk.
+Algoritma PPMd mungkin memerlukan banyak memori, terutama ketika digunakan pada file besar dan/atau dengan urutan model yang besar. Jika ppmd membutuhkan memori lebih banyak daripada yang Anda berikan, kompresi akan menjadi lebih buruk.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipPPMdCompressionSettings(4, 32))))
@@ -41,27 +41,27 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
  }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipPPMdCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipPPMdCompressionSettings() {#constructor}
 
-Instansi pengaturan untuk metode kompresi PPMd dalam arsip 7z dengan urutan model default dan ukuran sub-alokator.
+Membuat instance pengaturan untuk metode kompresi PPMd dalam arsip 7z dengan urutan model default dan ukuran sub-allocator.
 
 ```csharp
 public SevenZipPPMdCompressionSettings()
 ```
 
-### Perkataan
+## Catatan
 
-Urutan model default adalah 6 dan ukuran sub-alokator adalah 16 MB.
+Urutan model default adalah 6 dan ukuran sub-allocator adalah 16MB.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipPPMdCompressionSettings())))
@@ -71,10 +71,10 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
  }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipPPMdCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

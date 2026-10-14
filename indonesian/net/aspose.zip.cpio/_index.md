@@ -1,23 +1,23 @@
 ---
-title: Aspose.Zip.Cpio
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuCpio namespace berisi kelas yang mewakili entitas terkait arsip cpio.
+title: "Aspose.Zip.Cpio"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Cpio berisi kelas yang mewakili entitas terkait arsip cpio"
 type: docs
-weight: 50
+weight: 80
 url: /id/net/aspose.zip.cpio/
 ---
-ItuCpio namespace berisi kelas yang mewakili entitas terkait arsip cpio.
+Namespace Cpio berisi kelas yang mewakili entitas terkait arsip cpio.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
 | [CpioArchive](./cpioarchive/) | Kelas ini mewakili file arsip cpio. |
-| [CpioEntry](./cpioentry/) | Merupakan file tunggal dalam arsip cpio. |
-## Pencacahan
+| [CpioEntry](./cpioentry/) | Mewakili satu file dalam arsip cpio. |
+## Enumerasi
 
-| Pencacahan | Keterangan |
+| Enumerasi | Deskripsi |
 | --- | --- |
-| [CpioFormat](./cpioformat/) | Enumerasi dengan format cpio. yang didukung |
+| [CpioFormat](./cpioformat/) | Enumerasi dengan format cpio yang didukung. |
 
 

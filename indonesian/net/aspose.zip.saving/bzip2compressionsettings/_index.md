@@ -1,14 +1,14 @@
 ---
-title: Class Bzip2CompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.Bzip2CompressionSettings kelas. Pengaturan untuk metode kompresi Bzip2.
+title: "Kelas Bzip2CompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.Bzip2CompressionSettings. Pengaturan untuk kompresi Bzip2 dalam arsip ZIP"
 type: docs
-weight: 390
+weight: 880
 url: /id/net/aspose.zip.saving/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings class
 
-Pengaturan untuk metode kompresi Bzip2.
+Pengaturan untuk kompresi Bzip2 dalam arsip ZIP.
 
 ```csharp
 public class Bzip2CompressionSettings : CompressionSettings
@@ -16,25 +16,25 @@ public class Bzip2CompressionSettings : CompressionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor)() | Menginisialisasi instance baru dari`Bzip2CompressionSettings` kelas dengan ukuran blok default, sama dengan 9 ratus kilobyte. |
-| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor_1)(int) | Menginisialisasi instance baru dari`Bzip2CompressionSettings` kelas. |
+| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor)() | Menginisialisasi instance baru dari kelas `Bzip2CompressionSettings` dengan ukuran blok default, setara dengan 9 ratus kilobyte. |
+| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor_1)(int) | Menginisialisasi instance baru dari kelas `Bzip2CompressionSettings`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [BlockSize](../../aspose.zip.saving/bzip2compressionsettings/blocksize/) { get; } | Ukuran blok dalam ratusan kilobyte. |
 
-### Perkataan
+## Catatan
 
-bzip2 mengompres file menggunakan algoritma kompresi teks pengurutan blok Burrows-Wheeler, dan pengkodean Huffman. Lihat selengkapnya: https://en.wikipedia.org/wiki/Bzip2
+bzip2 mengompresi file menggunakan algoritma kompresi teks penyortiran blok Burrows-Wheeler, dan pengkodean Huffman.
 
-### Lihat juga
+### Lihat Juga
 
 * class [CompressionSettings](../compressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

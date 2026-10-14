@@ -1,23 +1,29 @@
 ---
-title: WimArchive.Guid
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimArchive Properti. Mendapatkan GUID pengenal untuk arsip.
+title: "WimArchive.Guid"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti WimArchive. Mendapatkan GUID pengidentifikasi untuk arsip"
 type: docs
-weight: 40
+weight: 50
 url: /id/net/aspose.zip.wim/wimarchive/guid/
 ---
 ## WimArchive.Guid property
 
-Mendapatkan GUID pengenal untuk arsip.
+Mendapatkan GUID identifikasi untuk arsip.
 
 ```csharp
 public Guid Guid { get; }
 ```
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+### Lihat Juga
 
 * class [WimArchive](../)
-* ruang nama [Aspose.Zip.Wim](../../wimarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

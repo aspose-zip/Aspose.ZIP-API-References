@@ -1,30 +1,30 @@
 ---
-title: Bzip2SaveOptions.Bzip2SaveOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Bzip2SaveOptions konstruktor. Menginisialisasi instance baru dariBzip2SaveOptions kelas.
+title: "Bzip2SaveOptions.Bzip2SaveOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor Bzip2SaveOptions. Menginisialisasi instance baru dari kelas Bzip2SaveOptions"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.bzip2/bzip2saveoptions/bzip2saveoptions/
 ---
 ## Bzip2SaveOptions(int) {#constructor_1}
 
-Menginisialisasi instance baru dari[`Bzip2SaveOptions`](../) kelas.
+Menginisialisasi instance baru dari kelas [`Bzip2SaveOptions`](../).
 
 ```csharp
 public Bzip2SaveOptions(int blockSize)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | blockSize | Int32 | Ukuran blok dalam ratusan kilobyte. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentOutOfRangeException | Ukuran blok tidak dalam rentang yang valid. |
+| ArgumentOutOfRangeException | Ukuran blok tidak berada dalam rentang yang valid. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream result = File.Open("archive.bz2"))
@@ -37,23 +37,23 @@ using (FileStream result = File.Open("archive.bz2"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2SaveOptions](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Bzip2SaveOptions() {#constructor}
 
-Menginisialisasi instance baru dari[`Bzip2SaveOptions`](../) kelas dengan ukuran blok default, sama dengan 9 ratus kilobyte.
+Menginisialisasi instance baru dari kelas [`Bzip2SaveOptions`](../) dengan ukuran blok default, yaitu 9 ratus kilobyte.
 
 ```csharp
 public Bzip2SaveOptions()
 ```
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream result = File.Open("archive.bz2"))
@@ -66,10 +66,10 @@ using (FileStream result = File.Open("archive.bz2"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2SaveOptions](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

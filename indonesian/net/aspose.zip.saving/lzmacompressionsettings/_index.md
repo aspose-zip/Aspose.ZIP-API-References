@@ -1,14 +1,14 @@
 ---
-title: Class LzmaCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.LzmaCompressionSettings kelas. Pengaturan untuk metode kompresi LZMA.
+title: "Kelas LzmaCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.LzmaCompressionSettings. Pengaturan untuk kompresi LZMA dalam arsip ZIP"
 type: docs
-weight: 460
+weight: 960
 url: /id/net/aspose.zip.saving/lzmacompressionsettings/
 ---
 ## LzmaCompressionSettings class
 
-Pengaturan untuk metode kompresi LZMA.
+Pengaturan untuk kompresi LZMA dalam arsip ZIP.
 
 ```csharp
 public class LzmaCompressionSettings : CompressionSettings
@@ -16,20 +16,30 @@ public class LzmaCompressionSettings : CompressionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [LzmaCompressionSettings](lzmacompressionsettings/)() | Menginisialisasi instance baru dari`LzmaCompressionSettings`kelas dengan ukuran kamus default, sama dengan 16 megabyte. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor)() | Menginisialisasi sebuah instance baru dari kelas `LzmaCompressionSettings` dengan parameter default. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor_1)(int) | Menginisialisasi sebuah instance baru dari kelas `LzmaCompressionSettings` dengan ukuran kamus yang ditentukan, jumlah fast bytes default sebesar 32, dan jumlah literal context bits sebesar 3. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor_2)(int, int, int) | Menginisialisasi instance baru dari kelas `LzmaCompressionSettings` dengan ukuran kamus yang ditentukan, jumlah byte cepat, dan jumlah bit konteks literal. |
 
-### Perkataan
+## Properti
 
-Algoritma rantai Lempel–Ziv–Markov (LZMA) adalah algoritme yang digunakan untuk melakukan kompresi data lossless. Algoritme ini menggunakan skema kompresi kamus yang agak mirip dengan algoritme LZ77 dan menampilkan rasio kompresi tinggi dan ukuran kamus kompresi variabel.
+| Nama | Deskripsi |
+| --- | --- |
+| [DictionarySize](../../aspose.zip.saving/lzmacompressionsettings/dictionarysize/) { get; } | Ukuran kamus (buffer riwayat) menunjukkan berapa byte data tidak terkompresi yang baru-baru ini diproses yang disimpan dalam memori. |
+| [LiteralContextBits](../../aspose.zip.saving/lzmacompressionsettings/literalcontextbits/) { get; } | Mendapatkan jumlah bit konteks literal. |
+| [NumberOfFastBytes](../../aspose.zip.saving/lzmacompressionsettings/numberoffastbytes/) { get; } | Mendapatkan jumlah byte yang digunakan untuk pencarian kecocokan cepat dalam algoritma LZMA. |
 
-Lihat selengkapnya: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+## Catatan
 
-### Lihat juga
+Algoritma Lempel–Ziv–Markov chain (LZMA) adalah algoritma yang digunakan untuk melakukan kompresi data tanpa kehilangan. Algoritma ini menggunakan skema kompresi kamus yang agak mirip dengan algoritma LZ77 dan memiliki rasio kompresi tinggi serta ukuran kamus kompresi yang dapat diubah.
+
+Lihat selengkapnya: [Lempel–Ziv–Markov chain algorithm](https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm)
+
+### Lihat Juga
 
 * class [CompressionSettings](../compressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

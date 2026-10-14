@@ -1,24 +1,24 @@
 ---
-title: WimDirectoryEntry.Files
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimDirectoryEntry Properti. Mendapat entri dariWimFileEntry ketik merupakan directory.
+title: "WimDirectoryEntry.Files"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti WimDirectoryEntry. Mengambil entri tipe WimFileEntry yang membentuk direktori"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.wim/wimdirectoryentry/files/
 ---
 ## WimDirectoryEntry.Files property
 
-Mendapat entri dari[`WimFileEntry`](../../wimfileentry/) ketik merupakan directory.
+Mengambil entri tipe [`WimFileEntry`](../../wimfileentry/) yang membentuk direktori.
 
 ```csharp
 public ReadOnlyCollection<WimFileEntry> Files { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [WimFileEntry](../../wimfileentry/)
 * class [WimDirectoryEntry](../)
-* ruang nama [Aspose.Zip.Wim](../../wimdirectoryentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimdirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

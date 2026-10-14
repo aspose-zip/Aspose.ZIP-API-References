@@ -1,9 +1,9 @@
 ---
-title: TarArchive.CreateEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: TarArchive metode. Buat satu entri dalam arsip.
+title: "TarArchive.CreateEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode TarArchive. Membuat satu entri dalam arsip"
 type: docs
-weight: 80
+weight: 110
 url: /id/net/aspose.zip.tar/tararchive/createentry/
 ---
 ## CreateEntry(string, Stream, FileSystemInfo) {#createentry_1}
@@ -14,30 +14,31 @@ Buat satu entri dalam arsip.
 public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| source | Stream | Aliran input untuk entri. |
+| source | Stream | Aliran masukan untuk entri. |
 | fileInfo | FileSystemInfo | Metadata file atau folder yang akan dikompresi. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri tar.
+Instansi entri Tar.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| PathTooLongException | *name* terlalu panjang untuk tar pada standar IEEE 1003.1-1998. |
-| ArgumentException | Nama file, sebagai bagian dari*name*, melebihi 100 simbol. |
+| PathTooLongException | *name* terlalu panjang untuk tar menurut standar IEEE 1003.1-1998. |
+| ArgumentException | Nama file, sebagai bagian dari *name*, melebihi 100 simbol. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*fileInfo* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan pada parameter *fileInfo* tidak memengaruhi nama entri.
 
-*fileInfo* dapat merujuk keDirectoryInfo jika entri adalah direktori.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new TarArchive())
@@ -47,12 +48,12 @@ using (var archive = new TarArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -64,32 +65,33 @@ Buat satu entri dalam arsip.
 public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
 | fileInfo | FileInfo | Metadata file atau folder yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri tar.
+Instansi entri Tar.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| PathTooLongException | *name* terlalu panjang untuk tar pada standar IEEE 1003.1-1998. |
-| ArgumentException | Nama file, sebagai bagian dari*name*, melebihi 100 simbol. |
+| PathTooLongException | *name* terlalu panjang untuk tar menurut standar IEEE 1003.1-1998. |
+| ArgumentException | Nama file, sebagai bagian dari *name*, melebihi 100 simbol. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*fileInfo* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan pada parameter *fileInfo* tidak memengaruhi nama entri.
 
-*fileInfo* dapat merujuk keDirectoryInfo jika entri adalah direktori.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-Jika file segera dibuka dengan*openImmediately*parameter itu menjadi diblokir sampai arsip dibuang.
+Jika file dibuka segera dengan parameter *openImmediately*, file akan diblokir sampai arsip dibuang.
 
-### Contoh
+## Contoh
 
 ```csharp
 FileInfo fi = new FileInfo("data.bin");
@@ -100,12 +102,12 @@ using (var archive = new TarArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -117,34 +119,35 @@ Buat satu entri dalam arsip.
 public TarEntry CreateEntry(string name, string path, bool openImmediately = false)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | name | String | Nama entri. |
-| path | String | Path ke file yang akan dikompresi. |
-| openImmediately | Boolean | Benar jika langsung buka file, jika tidak buka file di penyimpanan arsip. |
+| path | String | Jalur ke file yang akan dikompres. |
+| openImmediately | Boolean | True, jika membuka file segera, jika tidak membuka file saat menyimpan arsip. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Contoh entri tar.
+Instansi entri Tar.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. - atau - Nama file, sebagai bagian dari*name*, melebihi 100 simbol. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path* , nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. - atau -*name* terlalu panjang untuk tar pada standar IEEE 1003.1-1998. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. - atau - Nama file, sebagai bagian dari *name*, melebihi 100 simbol. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. - atau - *name* terlalu panjang untuk tar menurut standar IEEE 1003.1-1998. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan |
 
-### Perkataan
+## Catatan
 
-Nama entri hanya diatur di dalam*name* parameter. Nama file yang disediakan di*path* parameter tidak mempengaruhi nama entri.
+Nama entri hanya diatur melalui parameter *name*. Nama file yang diberikan dalam parameter *path* tidak memengaruhi nama entri.
 
-Jika file segera dibuka dengan*openImmediately*parameter itu menjadi diblokir sampai arsip dibuang.
+Jika file dibuka segera dengan parameter *openImmediately*, file akan diblokir sampai arsip dibuang.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new TarArchive())
@@ -154,11 +157,11 @@ using (var archive = new TarArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

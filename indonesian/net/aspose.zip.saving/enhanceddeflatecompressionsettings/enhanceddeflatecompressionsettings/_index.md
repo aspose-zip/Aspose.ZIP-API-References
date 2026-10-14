@@ -1,23 +1,23 @@
 ---
-title: EnhancedDeflateCompressionSettings.EnhancedDeflateCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: EnhancedDeflateCompressionSettings konstruktor. Menginisialisasi instance baru dariEnhancedDeflateCompressionSettings kelas.
+title: "EnhancedDeflateCompressionSettings.EnhancedDeflateCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor EnhancedDeflateCompressionSettings. Menginisialisasi instance baru dari kelas EnhancedDeflateCompressionSettings"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/enhanceddeflatecompressionsettings/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings constructor
 
-Menginisialisasi instance baru dari[`EnhancedDeflateCompressionSettings`](../) kelas.
+Menginisialisasi instance baru dari kelas [`EnhancedDeflateCompressionSettings`](../).
 
 ```csharp
 public EnhancedDeflateCompressionSettings()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [EnhancedDeflateCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../enhanceddeflatecompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../enhanceddeflatecompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

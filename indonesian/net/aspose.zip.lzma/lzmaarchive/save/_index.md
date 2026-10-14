@@ -1,35 +1,36 @@
 ---
-title: LzmaArchive.Save
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: LzmaArchive metode. Menyimpan arsip lzma ke aliran yang disediakan.
+title: "LzmaArchive.Save"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode LzmaArchive. Menyimpan arsip lzma ke aliran yang disediakan"
 type: docs
-weight: 40
+weight: 50
 url: /id/net/aspose.zip.lzma/lzmaarchive/save/
 ---
 ## Save(Stream) {#save_1}
 
-Menyimpan arsip lzma ke aliran yang disediakan.
+Menyimpan arsip lzma ke stream yang diberikan.
 
 ```csharp
 public void Save(Stream output)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | output | Stream | Aliran tujuan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 | ArgumentException | *output* tidak mendukung pencarian. |
-| ArgumentNullException | *output* adalah nol. |
+| ArgumentNullException | *output* adalah null. |
 
-### Perkataan
+## Catatan
 
-*output* harus dapat dicari.
+*output* must be seekable.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream lzmaFile = File.Open("archive.lzma", FileMode.Create))
@@ -42,39 +43,40 @@ using (FileStream lzmaFile = File.Open("archive.lzma", FileMode.Create))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzmaArchive](../)
-* ruang nama [Aspose.Zip.LZMA](../../lzmaarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(FileInfo) {#save}
 
-Menyimpan arsip lzma ke file tujuan yang disediakan.
+Menyimpan arsip lzma ke file tujuan yang diberikan.
 
 ```csharp
 public void Save(FileInfo destination)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destination | FileInfo | FileInfo yang akan dibuka sebagai aliran tujuan. |
+| tujuan | FileInfo | FileInfo, yang akan dibuka sebagai aliran tujuan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk membuka*destination*. |
-| ArgumentException | Jalur file kosong atau hanya berisi spasi putih. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk membuka *destination*. |
+| ArgumentException | Path file kosong atau hanya berisi spasi. |
 | FileNotFoundException | Berkas tidak ditemukan. |
-| UnauthorizedAccessException | Path ke file bersifat read-only atau direktori. |
-| ArgumentNullException | *destination* adalah nol. |
-| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
-| IOException | File sudah terbuka. |
+| UnauthorizedAccessException | Path ke file bersifat read-only atau merupakan direktori. |
+| ArgumentNullException | *destination* bernilai null. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new LzmaArchive()) 
@@ -84,38 +86,41 @@ using (var archive = new LzmaArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzmaArchive](../)
-* ruang nama [Aspose.Zip.LZMA](../../lzmaarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string) {#save_2}
 
-Menyimpan arsip lzma ke file tujuan yang disediakan.
+Menyimpan arsip lzma ke file tujuan yang diberikan.
 
 ```csharp
 public void Save(string destinationFileName)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
+| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*destinationFileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*destinationFileName* ditolak. |
-| PathTooLongException | Yang ditentukan*destinationFileName*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*destinationFileName* berisi titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentNullException | *destinationFileName* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *destinationFileName* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *destinationFileName* ditolak. |
+| PathTooLongException | *destinationFileName* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File di *destinationFileName* berisi tanda titik dua (:) di tengah string. |
+| FileNotFoundException | File yang ditentukan dalam *path* tidak ditemukan. |
+| IOException | Terjadi kesalahan I/O saat membuka file. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new LzmaArchive()) 
@@ -125,10 +130,10 @@ using (var archive = new LzmaArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzmaArchive](../)
-* ruang nama [Aspose.Zip.LZMA](../../lzmaarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: Class RarArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Rar.RarArchive kelas. Kelas ini mewakili file arsip RAR. Gunakan untuk mengekstrak arsip RAR.
+title: "Kelas RarArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Rar.RarArchive. Kelas ini mewakili file arsip RAR. Gunakan untuk mengekstrak arsip RAR"
 type: docs
-weight: 310
+weight: 790
 url: /id/net/aspose.zip.rar/rararchive/
 ---
 ## RarArchive class
@@ -16,28 +16,28 @@ public class RarArchive : IArchive
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [RarArchive](rararchive/#constructor)(Stream, RarArchiveLoadOptions) | Menginisialisasi instance baru dari`RarArchive` kelas dan menulis daftar entri dapat diekstraksi dari arsip. |
-| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Menginisialisasi instance baru dari`RarArchive` kelas dan menulis daftar entri dapat diekstraksi dari arsip. |
+| [RarArchive](rararchive/#constructor)(Stream, RarArchiveLoadOptions) | Menginisialisasi instance baru dari kelas `RarArchive` dan menyusun daftar entri yang dapat diekstrak dari arsip. |
+| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Menginisialisasi instance baru dari kelas `RarArchive` dan menyusun daftar entri yang dapat diekstrak dari arsip. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Entries](../../aspose.zip.rar/rararchive/entries/) { get; } | Mendapat entri dari[`RarArchiveEntry`](../rararchiveentry/) ketik merupakan arsip rar. |
+| [Entries](../../aspose.zip.rar/rararchive/entries/) { get; } | Mendapatkan entri tipe [`RarArchiveEntry`](../rararchiveentry/) yang membentuk arsip rar. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Dispose](../../aspose.zip.rar/rararchive/dispose/)() | Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau menyetel ulang sumber daya yang tidak dikelola. |
-| [ExtractToDirectory](../../aspose.zip.rar/rararchive/extracttodirectory/#extracttodirectory)(string) | Ekstrak semua file dalam arsip ke direktori yang disediakan. |
+| [Dispose](../../aspose.zip.rar/rararchive/dispose/)() | Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau mereset sumber daya yang tidak dikelola. |
+| [ExtractToDirectory](../../aspose.zip.rar/rararchive/extracttodirectory/#extracttodirectory)(string) | Mengekstrak semua file dalam arsip ke direktori yang disediakan. |
 
-### Lihat juga
+### Lihat Juga
 
 * interface [IArchive](../../aspose.zip/iarchive/)
-* ruang nama [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

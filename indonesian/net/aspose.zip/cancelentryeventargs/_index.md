@@ -1,14 +1,14 @@
 ---
-title: Class CancelEntryEventArgs
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.CancelEntryEventArgs kelas. Argumen acara untuk acara terkait entri yang dapat dibatalkan.
+title: "Kelas CancelEntryEventArgs"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.CancelEntryEventArgs. Argumen peristiwa untuk peristiwa terkait entri yang dapat dibatalkan"
 type: docs
-weight: 140
+weight: 390
 url: /id/net/aspose.zip/cancelentryeventargs/
 ---
 ## CancelEntryEventArgs class
 
-Argumen acara untuk acara terkait entri yang dapat dibatalkan.
+Argumen peristiwa untuk peristiwa terkait entri yang dapat dibatalkan.
 
 ```csharp
 public class CancelEntryEventArgs : EntryEventArgs
@@ -16,21 +16,21 @@ public class CancelEntryEventArgs : EntryEventArgs
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [CancelEntryEventArgs](cancelentryeventargs/)(ArchiveEntry) | Menginisialisasi instance baru dari`CancelEntryEventArgs` kelas. |
+| [CancelEntryEventArgs](cancelentryeventargs/)(ArchiveEntry) | Menginisialisasi instance baru dari kelas `CancelEntryEventArgs`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Cancel](../../aspose.zip/cancelentryeventargs/cancel/) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah acara harus dibatalkan. |
-| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Mendapatkan entri arsip tempat acara dimunculkan. |
+| [Cancel](../../aspose.zip/cancelentryeventargs/cancel/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah peristiwa harus dibatalkan. |
+| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Mendapatkan entri arsip yang menjadi sumber peristiwa. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [EntryEventArgs](../entryeventargs/)
-* ruang nama [Aspose.Zip](../../aspose.zip/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchive.SaveSplit
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchive metode. Menyimpan arsip multivolume ke direktori tujuan yang disediakan.
+title: "SevenZipArchive.SaveSplit"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SevenZipArchive. Menyimpan arsip multivolume ke direktori tujuan yang diberikan"
 type: docs
 weight: 90
 url: /id/net/aspose.zip.sevenzip/sevenziparchive/savesplit/
@@ -14,28 +14,27 @@ Menyimpan arsip multi-volume ke direktori tujuan yang disediakan.
 public void SaveSplit(string destinationDirectory, SplitSevenZipArchiveSaveOptions options)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationDirectory | String | Jalur ke direktori tempat segmen arsip dibuat. |
-| options | SplitSevenZipArchiveSaveOptions | Opsi untuk menyimpan arsip, termasuk nama file. |
+| destinationDirectory | String | Jalur ke direktori tempat segmen arsip akan dibuat. |
+| opsi | SplitSevenZipArchiveSaveOptions | Opsi untuk menyimpan arsip, termasuk nama file. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidOperationException | Arsip ini dibuka dari sumber yang ada. |
-| ArgumentNullException | *destinationDirectory* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses direktori. |
-| ArgumentException | *destinationDirectory* berisi karakter yang tidak valid seperti ", &gt;, &lt;, atau &#x7C;. |
-| PathTooLongException | Jalur yang ditentukan melebihi panjang maksimum yang ditentukan sistem. |
+| ArgumentNullException | *destinationDirectory* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses direktori. |
+| ArgumentException | *destinationDirectory* berisi karakter tidak valid seperti \", &gt;, &lt;, atau &#x7C;. |
+| PathTooLongException | Jalur yang ditentukan melebihi panjang maksimum yang ditetapkan sistem. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
 
-### Perkataan
+## Catatan
 
-Metode ini menyusun beberapa (`N`) file namafile.7z.001, namafile.7z.002, ..., namafile.7z.(n).
+Metode ini menyusun beberapa file (`n`) seperti filename.7z.001, filename.7z.002, ..., filename.7z.(n).
 
-Tidak dapat membuat arsip multi-volume yang ada.
-
-### Contoh
+## Contoh
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive())
@@ -45,11 +44,11 @@ using (SevenZipArchive archive = new SevenZipArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SplitSevenZipArchiveSaveOptions](../../../aspose.zip.saving/splitsevenziparchivesaveoptions/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

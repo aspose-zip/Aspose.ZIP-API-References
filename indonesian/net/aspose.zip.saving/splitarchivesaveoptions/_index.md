@@ -1,14 +1,14 @@
 ---
-title: Class SplitArchiveSaveOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.SplitArchiveSaveOptions kelas. Opsi untuk menyimpan arsip zip multivolume.
+title: "Kelas SplitArchiveSaveOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.SplitArchiveSaveOptions. Opsi untuk menyimpan arsip ZIP multivolume"
 type: docs
-weight: 610
+weight: 1120
 url: /id/net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 ## SplitArchiveSaveOptions class
 
-Opsi untuk menyimpan arsip zip multivolume.
+Opsi untuk menyimpan arsip ZIP multi-volume.
 
 ```csharp
 public class SplitArchiveSaveOptions
@@ -16,21 +16,25 @@ public class SplitArchiveSaveOptions
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [SplitArchiveSaveOptions](splitarchivesaveoptions/)(string, uint) | Pengaturan instantiate untuk menyimpan arsip zip multi-volume. |
+| [SplitArchiveSaveOptions](splitarchivesaveoptions/#constructor_1)(uint) | Membuat instance pengaturan untuk menyimpan arsip ZIP multi-volume. |
+| [SplitArchiveSaveOptions](splitarchivesaveoptions/#constructor)(string, uint) | Membuat instance pengaturan untuk menyimpan arsip ZIP multi-volume. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Encoding](../../aspose.zip.saving/splitarchivesaveoptions/encoding/) { get; set; } | Mendapat atau menyetel penyandian untuk mengonversi nama file dan string lain menjadi byte. |
-| [FileName](../../aspose.zip.saving/splitarchivesaveoptions/filename/) { get; } | Mendapat nama segmen tanpa ekstensi. |
+| [ArchiveComment](../../aspose.zip.saving/splitarchivesaveoptions/archivecomment/) { get; set; } | Mendapatkan atau mengatur komentar opsional untuk file Zip. |
+| [CloseEntrySource](../../aspose.zip.saving/splitarchivesaveoptions/closeentrysource/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah sumber entri harus ditutup segera setelah entri dikompresi. |
+| [Encoding](../../aspose.zip.saving/splitarchivesaveoptions/encoding/) { get; set; } | Mendapatkan atau mengatur enkoding untuk mengonversi nama file dan string lainnya menjadi byte. |
+| [EventsBag](../../aspose.zip.saving/splitarchivesaveoptions/eventsbag/) { get; set; } | Mendapatkan atau mengatur kontainer peristiwa yang dipicu saat menyimpan arsip. |
+| [FileName](../../aspose.zip.saving/splitarchivesaveoptions/filename/) { get; } | Mendapatkan nama segmen tanpa ekstensi. |
 | [SegmentSize](../../aspose.zip.saving/splitarchivesaveoptions/segmentsize/) { get; } | Mendapatkan ukuran segmen. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

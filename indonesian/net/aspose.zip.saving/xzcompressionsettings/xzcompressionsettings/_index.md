@@ -1,20 +1,20 @@
 ---
-title: XzCompressionSettings.XzCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XzCompressionSettings konstruktor. Menginisialisasi instance baru dariXzCompressionSettings kelas.
+title: "XzCompressionSettings.XzCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor XzCompressionSettings. Menginisialisasi instance baru dari kelas XzCompressionSettings"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/xzcompressionsettings/xzcompressionsettings/
 ---
 ## XzCompressionSettings constructor
 
-Menginisialisasi instance baru dari[`XzCompressionSettings`](../) kelas.
+Menginisialisasi instance baru dari kelas [`XzCompressionSettings`](../).
 
 ```csharp
 public XzCompressionSettings()
 ```
 
-### Contoh
+## Contoh
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new XzCompressionSettings())))
@@ -24,10 +24,10 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new XzCompressionS
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../xzcompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../xzcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

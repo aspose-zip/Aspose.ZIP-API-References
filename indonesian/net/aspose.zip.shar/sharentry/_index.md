@@ -1,14 +1,14 @@
 ---
-title: Class SharEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Shar.SharEntry kelas. Merupakan file tunggal dalam arsip shar.
+title: "Kelas SharEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Shar.SharEntry. Mewakili satu file dalam arsip shar."
 type: docs
-weight: 710
+weight: 1250
 url: /id/net/aspose.zip.shar/sharentry/
 ---
 ## SharEntry class
 
-Merupakan file tunggal dalam arsip shar.
+Mewakili satu file dalam arsip shar.
 
 ```csharp
 public class SharEntry
@@ -16,13 +16,13 @@ public class SharEntry
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | override [ToString](../../aspose.zip.shar/sharentry/tostring/)() | Mengembalikan string yang mewakili entri saat ini. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Shar](../../aspose.zip.shar/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Shar](../../aspose.zip.shar/)
+* assembly [Aspose.Zip](../../)
 
 

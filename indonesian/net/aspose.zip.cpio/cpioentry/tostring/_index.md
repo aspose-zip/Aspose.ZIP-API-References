@@ -1,7 +1,7 @@
 ---
-title: CpioEntry.ToString
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioEntry metode. 
+title: "CpioEntry.ToString"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode CpioEntry."
 type: docs
 weight: 80
 url: /id/net/aspose.zip.cpio/cpioentry/tostring/
@@ -12,10 +12,10 @@ url: /id/net/aspose.zip.cpio/cpioentry/tostring/
 public override string ToString()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioEntry](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

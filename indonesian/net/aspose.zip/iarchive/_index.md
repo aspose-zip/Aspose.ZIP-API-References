@@ -1,9 +1,9 @@
 ---
-title: Interface IArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.IArchive antarmuka. Antarmuka ini mewakili sebuah arsip.
+title: "Antarmuka IArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Antarmuka Aspose.Zip.IArchive. Antarmuka ini mewakili sebuah arsip"
 type: docs
-weight: 220
+weight: 530
 url: /id/net/aspose.zip/iarchive/
 ---
 ## IArchive interface
@@ -16,13 +16,20 @@ public interface IArchive : IDisposable
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [FileEntries](../../aspose.zip/iarchive/fileentries/) { get; } | Mendapat entri dari[`IArchiveFileEntry`](../iarchivefileentry/) ketik merupakan arsip. |
+| [FileEntries](../../aspose.zip/iarchive/fileentries/) { get; } | Mendapatkan entri tipe [`IArchiveFileEntry`](../iarchivefileentry/) yang membentuk arsip. |
+| [Format](../../aspose.zip/iarchive/format/) { get; } | Mendapatkan format arsip. |
 
-### Lihat juga
+## Metode
 
-* ruang nama [Aspose.Zip](../../aspose.zip/)
-* perakitan [Aspose.Zip](../../)
+| Nama | Deskripsi |
+| --- | --- |
+| [ExtractToDirectory](../../aspose.zip/iarchive/extracttodirectory/)(string) | Mengekstrak semua file dalam arsip ke direktori yang disediakan. |
+
+### Lihat Juga
+
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

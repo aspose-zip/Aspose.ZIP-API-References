@@ -1,24 +1,24 @@
 ---
-title: XarDirectoryEntry.FilesAndDirectories
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarDirectoryEntry Properti. Mendapat entri dariXarEntry ketik merupakan directory.
+title: "XarDirectoryEntry.FilesAndDirectories"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti XarDirectoryEntry. Mendapatkan entri berjenis XarEntry yang membentuk direktori"
 type: docs
 weight: 40
 url: /id/net/aspose.zip.xar/xardirectoryentry/filesanddirectories/
 ---
 ## XarDirectoryEntry.FilesAndDirectories property
 
-Mendapat entri dari[`XarEntry`](../../xarentry/) ketik merupakan directory.
+Mendapatkan entri berjenis [`XarEntry`](../../xarentry/) yang membentuk direktori.
 
 ```csharp
 public IEnumerable<XarEntry> FilesAndDirectories { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XarEntry](../../xarentry/)
 * class [XarDirectoryEntry](../)
-* ruang nama [Aspose.Zip.Xar](../../xardirectoryentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xardirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

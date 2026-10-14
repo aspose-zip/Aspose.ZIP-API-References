@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipEntrySettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.SevenZipEntrySettings kelas. Pengaturan yang digunakan untuk mengompres atau mendekompresi entri 7Z.
+title: "Kelas SevenZipEntrySettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.SevenZipEntrySettings. Pengaturan yang digunakan untuk mengompres atau mendekompres entri 7Z"
 type: docs
-weight: 560
+weight: 1070
 url: /id/net/aspose.zip.saving/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings class
 
-Pengaturan yang digunakan untuk mengompres atau mendekompresi entri 7Z.
+Pengaturan yang digunakan untuk mengompresi atau mendekompresi entri 7Z.
 
 ```csharp
 public class SevenZipEntrySettings
@@ -16,20 +16,22 @@ public class SevenZipEntrySettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [SevenZipEntrySettings](sevenzipentrysettings/)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | Menginisialisasi instance baru dari`SevenZipEntrySettings` kelas. |
+| [SevenZipEntrySettings](sevenzipentrysettings/)(SevenZipCompressionSettings, SevenZipEncryptionSettings) | Menginisialisasi instance baru dari kelas `SevenZipEntrySettings`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [CompressionSettings](../../aspose.zip.saving/sevenzipentrysettings/compressionsettings/) { get; } | Mendapat pengaturan untuk rutin kompresi atau dekompresi. |
-| [EncryptionSettings](../../aspose.zip.saving/sevenzipentrysettings/encryptionsettings/) { get; } | Mendapat pengaturan untuk enkripsi atau dekripsi. Pengaturan entri tertentu dapat bervariasi. |
+| [CompressHeader](../../aspose.zip.saving/sevenzipentrysettings/compressheader/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah header arsip akan dikompres. |
+| [CompressionSettings](../../aspose.zip.saving/sevenzipentrysettings/compressionsettings/) { get; } | Mendapatkan pengaturan untuk rutin kompresi atau dekompresi. |
+| [EncryptionSettings](../../aspose.zip.saving/sevenzipentrysettings/encryptionsettings/) { get; } | Mendapatkan pengaturan untuk enkripsi atau dekripsi. Pengaturan untuk entri tertentu dapat bervariasi. |
+| [Solid](../../aspose.zip.saving/sevenzipentrysettings/solid/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah entri akan digabungkan dan diperlakukan sebagai satu blok data. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

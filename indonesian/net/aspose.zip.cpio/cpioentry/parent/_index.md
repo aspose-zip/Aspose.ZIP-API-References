@@ -1,7 +1,7 @@
 ---
-title: CpioEntry.Parent
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioEntry Properti. Mendapatkan arsip tempat entri tersebut berada.
+title: "CpioEntry.Parent"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CpioEntry. Mendapatkan arsip tempat entri berada"
 type: docs
 weight: 50
 url: /id/net/aspose.zip.cpio/cpioentry/parent/
@@ -14,11 +14,11 @@ Mendapatkan arsip tempat entri tersebut berada.
 public CpioArchive Parent { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../../cpioarchive/)
 * class [CpioEntry](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

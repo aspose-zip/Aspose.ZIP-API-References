@@ -1,23 +1,23 @@
 ---
-title: ArchiveInstanceInfo.AreFileNamesEncrypted
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveInstanceInfo Properti. Mendapat nilai yang menunjukkan apakah nama entri file arsip dienkripsi.
+title: "ArchiveInstanceInfo.AreFileNamesEncrypted"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveInstanceInfo. Mengembalikan nilai yang menunjukkan apakah nama file entri dalam arsip dienkripsi"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.archiveinfo/archiveinstanceinfo/arefilenamesencrypted/
 ---
 ## ArchiveInstanceInfo.AreFileNamesEncrypted property
 
-Mendapat nilai yang menunjukkan apakah nama entri (file) arsip dienkripsi.
+Mendapatkan nilai yang menunjukkan apakah nama entri (file) dalam arsip dienkripsi.
 
 ```csharp
 public bool AreFileNamesEncrypted { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveInstanceInfo](../)
-* ruang nama [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveinstanceinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

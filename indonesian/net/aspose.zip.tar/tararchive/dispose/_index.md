@@ -1,23 +1,23 @@
 ---
-title: TarArchive.Dispose
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: TarArchive metode. Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan melepaskan atau menyetel ulang sumber daya yang tidak dikelola.
+title: "TarArchive.Dispose"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode TarArchive. Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau mengatur ulang sumber daya yang tidak dikelola."
 type: docs
-weight: 100
+weight: 130
 url: /id/net/aspose.zip.tar/tararchive/dispose/
 ---
 ## TarArchive.Dispose method
 
-Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau menyetel ulang sumber daya yang tidak dikelola.
+Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau mereset sumber daya yang tidak dikelola.
 
 ```csharp
 public void Dispose()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarArchive](../)
-* ruang nama [Aspose.Zip.Tar](../../tararchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

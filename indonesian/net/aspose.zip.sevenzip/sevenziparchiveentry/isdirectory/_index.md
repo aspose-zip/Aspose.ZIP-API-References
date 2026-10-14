@@ -1,23 +1,23 @@
 ---
-title: SevenZipArchiveEntry.IsDirectory
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchiveEntry Properti. Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+title: "SevenZipArchiveEntry.IsDirectory"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipArchiveEntry. Mengembalikan nilai yang menunjukkan apakah entri mewakili sebuah direktori"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/
 ---
 ## SevenZipArchiveEntry.IsDirectory property
 
-Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori.
 
 ```csharp
 public bool IsDirectory { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

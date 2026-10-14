@@ -1,23 +1,23 @@
 ---
-title: MeteredLicense.MeteredLicense
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: MeteredLicense konstruktor. Menginisialisasi instance baru dari kelas ini.
+title: "MeteredLicense.MeteredLicense"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor MeteredLicense. Konstruktor default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/meteredlicense/meteredlicense/
 ---
 ## MeteredLicense constructor
 
-Menginisialisasi instance baru dari kelas ini.
+Konstruktor default.
 
 ```csharp
 public MeteredLicense()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [MeteredLicense](../)
-* ruang nama [Aspose.Zip](../../meteredlicense/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

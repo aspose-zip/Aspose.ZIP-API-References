@@ -1,23 +1,23 @@
 ---
-title: SevenZipCipher.InputBlockSize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipCipher Properti. Mendapat ukuran blok masukan.
+title: "SevenZipCipher.InputBlockSize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipCipher. Mendapatkan ukuran blok input."
 type: docs
 weight: 30
 url: /id/net/aspose.zip.crypto/sevenzipcipher/inputblocksize/
 ---
 ## SevenZipCipher.InputBlockSize property
 
-Mendapat ukuran blok masukan.
+Mendapatkan ukuran blok masukan.
 
 ```csharp
 public abstract int InputBlockSize { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipCipher](../)
-* ruang nama [Aspose.Zip.Crypto](../../sevenzipcipher/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Crypto](../../sevenzipcipher/)
+* assembly [Aspose.Zip](../../../)
 
 

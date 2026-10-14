@@ -1,14 +1,14 @@
 ---
-title: Class AesEcryptionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.AesEcryptionSettings kelas. Pengaturan untuk algoritma enkripsi atau dekripsi AES.
+title: "Kelas AesEcryptionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.AesEcryptionSettings. Pengaturan untuk algoritma enkripsi dan dekripsi AES dalam arsip ZIP."
 type: docs
-weight: 360
+weight: 850
 url: /id/net/aspose.zip.saving/aesecryptionsettings/
 ---
 ## AesEcryptionSettings class
 
-Pengaturan untuk algoritma enkripsi atau dekripsi AES.
+Pengaturan untuk algoritma enkripsi dan dekripsi AES dalam arsip ZIP.
 
 ```csharp
 public class AesEcryptionSettings : EncryptionSettings
@@ -16,26 +16,22 @@ public class AesEcryptionSettings : EncryptionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [AesEcryptionSettings](aesecryptionsettings/#constructor)(EncryptionMethod) | Menginisialisasi instance baru dari`AesEcryptionSettings`kelas tanpa password. |
-| [AesEcryptionSettings](aesecryptionsettings/#constructor_1)(string, EncryptionMethod) | Menginisialisasi instance baru dari`AesEcryptionSettings` kelas. |
+| [AesEcryptionSettings](aesecryptionsettings/#constructor)(EncryptionMethod) | Menginisialisasi instance baru dari kelas `AesEcryptionSettings` tanpa kata sandi. |
+| [AesEcryptionSettings](aesecryptionsettings/#constructor_1)(string, EncryptionMethod) | Menginisialisasi instance baru dari kelas `AesEcryptionSettings`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Mendapat algoritma enkripsi. |
-| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Mendapatkan atau menyetel kata sandi untuk enkripsi atau dekripsi. |
+| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Mendapatkan algoritma enkripsi. |
+| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Mendapatkan atau mengatur kata sandi untuk enkripsi atau dekripsi. |
 
-### Perkataan
-
-Lihat selengkapnya di https://www.winzip.com/win/en/aes_info.html
-
-### Lihat juga
+### Lihat Juga
 
 * class [EncryptionSettings](../encryptionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

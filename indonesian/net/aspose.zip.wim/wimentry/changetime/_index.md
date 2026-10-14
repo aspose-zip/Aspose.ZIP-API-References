@@ -1,23 +1,23 @@
 ---
-title: WimEntry.ChangeTime
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimEntry Properti. Mendapatkan terakhir kali file atau direktori diubah.
+title: "WimEntry.ChangeTime"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "WimEntry properti. Mendapatkan waktu terakhir file atau direktori diubah"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.wim/wimentry/changetime/
 ---
 ## WimEntry.ChangeTime property
 
-Mendapatkan terakhir kali file atau direktori diubah.
+Mendapatkan waktu terakhir file atau direktori diubah.
 
 ```csharp
 public DateTime ChangeTime { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [WimEntry](../)
-* ruang nama [Aspose.Zip.Wim](../../wimentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

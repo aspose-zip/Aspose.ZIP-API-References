@@ -1,20 +1,20 @@
 ---
-title: XzBcjX86FilterSettings.XzBcjX86FilterSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XzBcjX86FilterSettings konstruktor. Menginisialisasi instance baru dariXzBcjX86FilterSettings . Gunakan untuk mengompres file dan pustaka yang dapat dieksekusi di dalamnyaXzArchive .
+title: "XzBcjX86FilterSettings.XzBcjX86FilterSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor XzBcjX86FilterSettings. Menginisialisasi sebuah instance baru dari XzBcjX86FilterSettings. Gunakan untuk mengompresi file eksekusi dan pustaka dalam XzArchive"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.xz.settings/xzbcjx86filtersettings/xzbcjx86filtersettings/
 ---
 ## XzBcjX86FilterSettings constructor
 
-Menginisialisasi instance baru dari[`XzBcjX86FilterSettings`](../) . Gunakan untuk mengompres file dan pustaka yang dapat dieksekusi di dalamnya[`XzArchive`](../../../aspose.zip.xz/xzarchive/) .
+Menginisialisasi instance baru dari [`XzBcjX86FilterSettings`](../). Gunakan untuk mengompresi file eksekusi dan pustaka dalam [`XzArchive`](../../../aspose.zip.xz/xzarchive/).
 
 ```csharp
 public XzBcjX86FilterSettings()
 ```
 
-### Contoh
+## Contoh
 
 ```csharp
 XzLZMA2FilterSettings lzma2 = new XzLZMA2FilterSettings(5242880);
@@ -27,10 +27,10 @@ using (XzArchive archive = new XzArchive(settings))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XzBcjX86FilterSettings](../)
-* ruang nama [Aspose.Zip.Xz.Settings](../../xzbcjx86filtersettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzbcjx86filtersettings/)
+* assembly [Aspose.Zip](../../../)
 
 

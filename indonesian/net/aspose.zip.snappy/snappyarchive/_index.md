@@ -1,14 +1,14 @@
 ---
-title: Class SnappyArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Snappy.SnappyArchive kelas. Kelas ini mewakili file arsip tajam. Gunakan untuk menyusun atau mengekstrak arsip tajam.
+title: "Kelas SnappyArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Snappy.SnappyArchive. Kelas ini mewakili file arsip snappy. Gunakan untuk menyusun atau mengekstrak arsip snappy"
 type: docs
-weight: 720
+weight: 1260
 url: /id/net/aspose.zip.snappy/snappyarchive/
 ---
 ## SnappyArchive class
 
-Kelas ini mewakili file arsip tajam. Gunakan untuk menyusun atau mengekstrak arsip tajam.
+Kelas ini mewakili file arsip snappy. Gunakan untuk membuat atau mengekstrak arsip snappy.
 
 ```csharp
 public class SnappyArchive : IArchive, IArchiveFileEntry
@@ -16,32 +16,33 @@ public class SnappyArchive : IArchive, IArchiveFileEntry
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [SnappyArchive](snappyarchive/#constructor)() | Menginisialisasi instance baru dari`SnappyArchive` kelas disiapkan untuk mengompresi. |
-| [SnappyArchive](snappyarchive/#constructor_1)(Stream) | Menginisialisasi instance baru dari`SnappyArchive` kelas disiapkan untuk dekompresi. |
-| [SnappyArchive](snappyarchive/#constructor_2)(string) | Menginisialisasi instance baru dari`SnappyArchive` kelas disiapkan untuk dekompresi. |
+| [SnappyArchive](snappyarchive/#constructor)() | Menginisialisasi instance baru dari kelas `SnappyArchive` yang disiapkan untuk kompresi. |
+| [SnappyArchive](snappyarchive/#constructor_1)(Stream) | Menginisialisasi instance baru dari kelas `SnappyArchive` yang disiapkan untuk dekompresi. |
+| [SnappyArchive](snappyarchive/#constructor_2)(string) | Menginisialisasi instance baru dari kelas `SnappyArchive` yang disiapkan untuk dekompresi. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Dispose](../../aspose.zip.snappy/snappyarchive/dispose/)() | Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau menyetel ulang sumber daya yang tidak dikelola. |
-| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract_1)(FileInfo) | Mengekstrak arsip snappy ke file. |
-| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract_2)(Stream) | Mengekstrak arsip tajam ke aliran. |
-| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract)(string) | Mengekstrak arsip tajam ke file dengan jalur. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save/#save)(FileInfo) | Menyimpan arsip tajam ke file tujuan yang disediakan. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_1)(Stream) | Menyimpan arsip tajam ke aliran yang disediakan. |
-| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_2)(string) | Menyimpan arsip tajam ke file tujuan yang disediakan. |
-| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource)(FileInfo) | Mengatur konten yang akan dikompresi dalam arsip. |
-| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_1)(Stream) | Mengatur konten yang akan dikompresi dalam arsip. |
-| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_2)(string) | Mengatur konten yang akan dikompresi dalam arsip. |
+| [Dispose](../../aspose.zip.snappy/snappyarchive/dispose/)() | Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau mereset sumber daya yang tidak dikelola. |
+| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract_1)(FileInfo) | Mengekstrak arsip snappy ke sebuah file. |
+| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract_2)(Stream) | Mengekstrak arsip snappy ke sebuah aliran. |
+| [Extract](../../aspose.zip.snappy/snappyarchive/extract/#extract)(string) | Mengekstrak arsip snappy ke file berdasarkan jalur. |
+| [ExtractToDirectory](../../aspose.zip.snappy/snappyarchive/extracttodirectory/)(string) | Mengekstrak konten arsip ke direktori yang diberikan. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save)(FileInfo) | Menyimpan arsip snappy ke file tujuan yang diberikan. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_1)(Stream) | Menyimpan arsip snappy ke aliran yang diberikan. |
+| [Save](../../aspose.zip.snappy/snappyarchive/save/#save_2)(string) | Menyimpan arsip snappy ke file tujuan yang diberikan. |
+| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource)(FileInfo) | Menetapkan konten yang akan dikompresi dalam arsip. |
+| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_1)(Stream) | Menetapkan konten yang akan dikompresi dalam arsip. |
+| [SetSource](../../aspose.zip.snappy/snappyarchive/setsource/#setsource_2)(string) | Menetapkan konten yang akan dikompresi dalam arsip. |
 
-### Lihat juga
+### Lihat Juga
 
 * interface [IArchive](../../aspose.zip/iarchive/)
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* ruang nama [Aspose.Zip.Snappy](../../aspose.zip.snappy/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Snappy](../../aspose.zip.snappy/)
+* assembly [Aspose.Zip](../../)
 
 

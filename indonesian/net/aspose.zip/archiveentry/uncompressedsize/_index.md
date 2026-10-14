@@ -1,23 +1,23 @@
 ---
-title: ArchiveEntry.UncompressedSize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveEntry Properti. Mendapat ukuran file asli.
+title: "ArchiveEntry.UncompressedSize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveEntry. Mengembalikan ukuran file asli"
 type: docs
-weight: 70
+weight: 80
 url: /id/net/aspose.zip/archiveentry/uncompressedsize/
 ---
 ## ArchiveEntry.UncompressedSize property
 
-Mendapat ukuran file asli.
+Mendapatkan ukuran file asli.
 
 ```csharp
 public ulong UncompressedSize { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../)
-* ruang nama [Aspose.Zip](../../archiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

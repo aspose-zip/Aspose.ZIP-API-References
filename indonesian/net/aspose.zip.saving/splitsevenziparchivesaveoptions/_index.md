@@ -1,14 +1,14 @@
 ---
-title: Class SplitSevenZipArchiveSaveOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.SplitSevenZipArchiveSaveOptions kelas. Opsi untuk menyimpan arsip multivolume 7zip.
+title: "Kelas SplitSevenZipArchiveSaveOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.SplitSevenZipArchiveSaveOptions. Opsi untuk menyimpan arsip 7zip multivolume"
 type: docs
-weight: 620
+weight: 1130
 url: /id/net/aspose.zip.saving/splitsevenziparchivesaveoptions/
 ---
 ## SplitSevenZipArchiveSaveOptions class
 
-Opsi untuk menyimpan arsip multi-volume 7-zip.
+Opsi untuk menyimpan arsip 7-zip multi-volume.
 
 ```csharp
 public class SplitSevenZipArchiveSaveOptions
@@ -16,20 +16,20 @@ public class SplitSevenZipArchiveSaveOptions
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [SplitSevenZipArchiveSaveOptions](splitsevenziparchivesaveoptions/)(string, uint) | Instansi pengaturan untuk menyimpan arsip 7z multi-volume. |
+| [SplitSevenZipArchiveSaveOptions](splitsevenziparchivesaveoptions/)(string, uint) | Membuat instance pengaturan untuk menyimpan arsip 7z multi-volume. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [FileName](../../aspose.zip.saving/splitsevenziparchivesaveoptions/filename/) { get; } | Mendapat nama segmen tanpa ekstensi. |
+| [FileName](../../aspose.zip.saving/splitsevenziparchivesaveoptions/filename/) { get; } | Mendapatkan nama segmen tanpa ekstensi. |
 | [SegmentSize](../../aspose.zip.saving/splitsevenziparchivesaveoptions/segmentsize/) { get; } | Mendapatkan ukuran segmen. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: SevenZipPPMdCompressionSettings.SuballocatorSize
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipPPMdCompressionSettings Properti. Mendapat ukuran suballocator dalam MB.
+title: "SevenZipPPMdCompressionSettings.SuballocatorSize"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipPPMdCompressionSettings. Mendapatkan ukuran suballocator dalam MB"
 type: docs
 weight: 40
 url: /id/net/aspose.zip.saving/sevenzipppmdcompressionsettings/suballocatorsize/
 ---
 ## SevenZipPPMdCompressionSettings.SuballocatorSize property
 
-Mendapat ukuran sub-allocator dalam MB.
+Mendapatkan ukuran sub-allocator dalam MB.
 
 ```csharp
 public int SuballocatorSize { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipPPMdCompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

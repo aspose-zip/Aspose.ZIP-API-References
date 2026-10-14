@@ -1,43 +1,48 @@
 ---
-title: RarArchiveEntry.Extract
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: RarArchiveEntry metode. Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+title: "RarArchiveEntry.Extract"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode RarArchiveEntry. Mengekstrak entri ke sistem file menggunakan jalur yang diberikan"
 type: docs
 weight: 90
 url: /id/net/aspose.zip.rar/rararchiveentry/extract/
 ---
 ## Extract(string, string) {#extract}
 
-Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+Mengekstrak entri ke sistem file menggunakan jalur yang disediakan.
 
 ```csharp
 public FileInfo Extract(string path, string password = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Jalur ke file tujuan. Jika file sudah ada, itu akan ditimpa. |
-| password | String | Kata sandi opsional untuk dekripsi. |
+| path | String | Jalur ke file tujuan. Jika file sudah ada, akan ditimpa. |
+| password | String | Password opsional untuk dekripsi. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Info file dari file yang dibuat.
+Info file dari file yang disusun.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
-| InvalidDataException | Verifikasi CRC atau MAC gagal untuk masuk. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| InvalidDataException | Data rusak. -atau- verifikasi CRC atau MAC gagal untuk entri. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Contoh
+## Contoh
 
-Ekstrak dua entri arsip rar.
+Ekstrak dua entri dari arsip rar.
 
 ```csharp
 using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
@@ -50,11 +55,11 @@ using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [RarArchiveEntry](../)
-* ruang nama [Aspose.Zip.Rar](../../rararchiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -66,21 +71,24 @@ Mengekstrak entri ke aliran yang disediakan.
 public void Extract(Stream destination, string password = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destination | Stream | Aliran tujuan. Harus dapat ditulis. |
-| password | String | Kata sandi opsional untuk dekripsi. |
+| tujuan | Stream | Stream tujuan. Harus dapat ditulis. |
+| password | String | Password opsional untuk dekripsi. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| InvalidDataException | Verifikasi CRC atau MAC gagal untuk masuk. |
+| InvalidDataException | Verifikasi CRC atau MAC gagal untuk entri. |
 | ArgumentException | *destination* tidak mendukung penulisan. |
+| InvalidDataException | Data rusak. -atau- verifikasi CRC atau MAC gagal untuk entri. |
+| OperationCanceledException | Di .NET Framework 4.0 ke atas: Dilempar ketika ekstraksi dibatalkan melalui token pembatalan yang disediakan. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Contoh
+## Contoh
 
-Ekstrak entri arsip rar dengan kata sandi.
+Ekstrak sebuah entri arsip rar dengan kata sandi.
 
 ```csharp
 using (FileStream rarFile = File.Open("archive.zip", FileMode.Open))
@@ -92,10 +100,10 @@ using (FileStream rarFile = File.Open("archive.zip", FileMode.Open))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [RarArchiveEntry](../)
-* ruang nama [Aspose.Zip.Rar](../../rararchiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

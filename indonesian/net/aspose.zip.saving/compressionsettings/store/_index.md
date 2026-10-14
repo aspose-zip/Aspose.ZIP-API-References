@@ -1,24 +1,24 @@
 ---
-title: CompressionSettings.Store
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CompressionSettings Properti. Contoh dariMenyimpan Pengaturan Kompresi dengan parameter default.
+title: "CompressionSettings.Store"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CompressionSettings. Sebuah instance dari StoreCompressionSettings dengan parameter default"
 type: docs
-weight: 50
+weight: 60
 url: /id/net/aspose.zip.saving/compressionsettings/store/
 ---
 ## CompressionSettings.Store property
 
-Contoh dari`Menyimpan Pengaturan Kompresi` dengan parameter default.
+Sebuah instance dari `StoreCompressionSettings` dengan parameter default.
 
 ```csharp
 public static StoreCompressionSettings Store { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [StoreCompressionSettings](../../storecompressionsettings/)
 * class [CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

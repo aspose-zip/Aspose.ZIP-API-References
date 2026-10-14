@@ -1,24 +1,30 @@
 ---
-title: WimArchive.Images
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: WimArchive Properti. Mendapat entri dariWimImage ketik merupakan arsip.
+title: "WimArchive.Images"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti WimArchive. Mendapatkan entri tipe WimImage yang membentuk arsip"
 type: docs
-weight: 50
+weight: 60
 url: /id/net/aspose.zip.wim/wimarchive/images/
 ---
 ## WimArchive.Images property
 
-Mendapat entri dari[`WimImage`](../../wimimage/) ketik merupakan arsip.
+Mendapatkan entri tipe [`WimImage`](../../wimimage/) yang membentuk arsip.
 
 ```csharp
 public ReadOnlyCollection<WimImage> Images { get; }
 ```
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+### Lihat Juga
 
 * class [WimImage](../../wimimage/)
 * class [WimArchive](../)
-* ruang nama [Aspose.Zip.Wim](../../wimarchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: ArchiveEntry.Comment
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveEntry Properti. Mendapat komentar dari entri dalam arsip.
+title: "ArchiveEntry.Comment"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveEntry. Mengembalikan komentar entri di dalam arsip"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/archiveentry/comment/
 ---
 ## ArchiveEntry.Comment property
 
-Mendapat komentar dari entri dalam arsip.
+Mendapatkan komentar dari entri dalam arsip.
 
 ```csharp
 public string Comment { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../)
-* ruang nama [Aspose.Zip](../../archiveentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

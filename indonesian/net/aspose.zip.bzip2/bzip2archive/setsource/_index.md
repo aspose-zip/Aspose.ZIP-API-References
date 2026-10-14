@@ -1,24 +1,30 @@
 ---
-title: Bzip2Archive.SetSource
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Bzip2Archive metode. Mengatur konten yang akan dikompresi dalam arsip.
+title: "Bzip2Archive.SetSource"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode Bzip2Archive. Menetapkan konten yang akan dikompresi dalam arsip"
 type: docs
-weight: 60
+weight: 70
 url: /id/net/aspose.zip.bzip2/bzip2archive/setsource/
 ---
 ## SetSource(Stream) {#setsource_3}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(Stream source)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| source | Stream | Aliran input untuk arsip. |
+| source | Stream | Stream input untuk arsip. |
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+
+## Contoh
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -28,27 +34,33 @@ using (Bzip2Archive archive = new Bzip2Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource_2}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | fileInfo | FileInfo | Referensi ke file yang akan dikompresi. |
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan |
+
+## Contoh
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -58,38 +70,39 @@ using (Bzip2Archive archive = new Bzip2Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_4}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke file yang akan dikompresi. |
+| path | String | Jalur ke file yang akan dikompres. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -99,32 +112,38 @@ using (Bzip2Archive archive = new Bzip2Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(TarArchive, TarFormat) {#setsource_1}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| tarArchive | TarArchive | Arsip tar untuk dikompresi. |
-| format | TarFormat | Mendefinisikan format tajuk tar. |
+| tarArchive | TarArchive | Arsip Tar yang akan dikompres. |
+| format | TarFormat | Mendefinisikan format header tar. |
 
-### Perkataan
+### Pengecualian
 
-Gunakan metode ini untuk menyusun arsip tar.bz2 bersama.
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Catatan
+
+Gunakan metode ini untuk membuat arsip tar.bz2 gabungan.
+
+## Contoh
 
 ```csharp
 using (var tarArchive = new TarArchive())
@@ -139,34 +158,40 @@ using (var tarArchive = new TarArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive/)
 * enum [TarFormat](../../../aspose.zip.tar/tarformat/)
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(CpioArchive, CpioFormat) {#setsource}
 
-Mengatur konten yang akan dikompresi dalam arsip.
+Menetapkan konten yang akan dikompresi dalam arsip.
 
 ```csharp
 public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.OldAscii)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| cpioArchive | CpioArchive | Arsip Cpio untuk dikompresi. |
-| format | CpioFormat | Mendefinisikan format tajuk cpio. |
+| cpioArchive | CpioArchive | Arsip Cpio yang akan dikompresi. |
+| format | CpioFormat | Mendefinisikan format header cpio. |
 
-### Perkataan
+### Pengecualian
 
-Gunakan metode ini untuk membuat arsip bersama cpio.bz2.
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Contoh
+## Catatan
+
+Gunakan metode ini untuk membuat arsip cpio.bz2 gabungan.
+
+## Contoh
 
 ```csharp
 using (var cpioArchive = new CpioArchive())
@@ -181,12 +206,12 @@ using (var cpioArchive = new CpioArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioArchive](../../../aspose.zip.cpio/cpioarchive/)
 * enum [CpioFormat](../../../aspose.zip.cpio/cpioformat/)
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

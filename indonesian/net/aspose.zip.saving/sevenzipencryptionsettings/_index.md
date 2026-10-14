@@ -1,9 +1,9 @@
 ---
-title: Class SevenZipEncryptionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.SevenZipEncryptionSettings kelas. Kelas dasar untuk pengaturan beberapa metode enkripsi 7z.
+title: "Kelas SevenZipEncryptionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.SevenZipEncryptionSettings. Kelas dasar untuk pengaturan beberapa metode enkripsi 7z"
 type: docs
-weight: 550
+weight: 1060
 url: /id/net/aspose.zip.saving/sevenzipencryptionsettings/
 ---
 ## SevenZipEncryptionSettings class
@@ -16,17 +16,18 @@ public abstract class SevenZipEncryptionSettings
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Password](../../aspose.zip.saving/sevenzipencryptionsettings/password/) { get; set; } | Mendapatkan atau menyetel kata sandi untuk enkripsi atau dekripsi. |
+| [EncryptHeader](../../aspose.zip.saving/sevenzipencryptionsettings/encryptheader/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan enkripsi header. |
+| [Password](../../aspose.zip.saving/sevenzipencryptionsettings/password/) { get; set; } | Mendapatkan atau mengatur kata sandi untuk enkripsi atau dekripsi. |
 
-### Perkataan
+## Catatan
 
-AES-256 adalah satu-satunya metode enkripsi yang mungkin untuk arsip 7z. Sehingga[`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings/) adalah satu-satunya implementasi.
+AES-256 adalah satu-satunya metode enkripsi yang memungkinkan untuk arsip 7z. Jadi [`SevenZipAESEncryptionSettings`](../sevenzipaesencryptionsettings/) adalah satu-satunya implementasi.
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

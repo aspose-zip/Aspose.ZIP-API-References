@@ -1,14 +1,14 @@
 ---
-title: Class WimImage
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Wim.WimImage kelas. Merupakan gambar tunggal dalam arsip wim.
+title: "Kelas WimImage"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Aspose.Zip.Wim.WimImage class. Mewakili satu gambar dalam arsip wim"
 type: docs
-weight: 800
+weight: 1370
 url: /id/net/aspose.zip.wim/wimimage/
 ---
 ## WimImage class
 
-Merupakan gambar tunggal dalam arsip wim.
+Mewakili satu citra dalam arsip wim.
 
 ```csharp
 public sealed class WimImage
@@ -16,22 +16,22 @@ public sealed class WimImage
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [AllEntries](../../aspose.zip.wim/wimimage/allentries/) { get; } | Mendapat entri dari[`WimEntry`](../wimentry/)ketik merupakan gambar secara rekursif. |
-| [Parent](../../aspose.zip.wim/wimimage/parent/) { get; } | Mendapatkan arsip milik gambar. |
-| [RootDirectory](../../aspose.zip.wim/wimimage/rootdirectory/) { get; } | Mendapat entri direktori root dari gambar. |
+| [AllEntries](../../aspose.zip.wim/wimimage/allentries/) { get; } | Mendapatkan entri tipe [`WimEntry`](../wimentry/) yang membentuk gambar secara rekursif. |
+| [Parent](../../aspose.zip.wim/wimimage/parent/) { get; } | Mendapatkan arsip tempat gambar tersebut berada. |
+| [RootDirectory](../../aspose.zip.wim/wimimage/rootdirectory/) { get; } | Mendapatkan entri direktori root dari gambar. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [ExtractToDirectory](../../aspose.zip.wim/wimimage/extracttodirectory/)(string) | Ekstrak semua file yang ada di gambar ke direktori yang disediakan. |
-| [GetEntry](../../aspose.zip.wim/wimimage/getentry/)(string) | Mendapat entri dari[`WimEntry`](../wimentry/) ketik untuk jalur tertentu. |
+| [ExtractToDirectory](../../aspose.zip.wim/wimimage/extracttodirectory/)(string) | Mengekstrak semua file dalam gambar ke direktori yang diberikan. |
+| [GetEntry](../../aspose.zip.wim/wimimage/getentry/)(string) | Mendapatkan entri tipe [`WimEntry`](../wimentry/) untuk jalur tertentu. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Wim](../../aspose.zip.wim/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Wim](../../aspose.zip.wim/)
+* assembly [Aspose.Zip](../../)
 
 

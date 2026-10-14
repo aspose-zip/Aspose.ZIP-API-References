@@ -1,14 +1,14 @@
 ---
-title: Class XzArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Xz.XzArchive kelas. Kelas ini mewakili file arsip xz. Gunakan untuk menyusun dan mengekstrak arsip xz.
+title: "Kelas XzArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Xz.XzArchive. Kelas ini mewakili file arsip xz. Gunakan untuk membuat dan mengekstrak arsip xz."
 type: docs
-weight: 900
+weight: 1580
 url: /id/net/aspose.zip.xz/xzarchive/
 ---
 ## XzArchive class
 
-Kelas ini mewakili file arsip xz. Gunakan untuk menyusun dan mengekstrak arsip xz.
+Kelas ini mewakili file arsip xz. Gunakan untuk membuat dan mengekstrak arsip xz.
 
 ```csharp
 public class XzArchive : IArchive, IArchiveFileEntry
@@ -16,31 +16,38 @@ public class XzArchive : IArchive, IArchiveFileEntry
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [XzArchive](xzarchive/#constructor_1)(Stream) | Menginisialisasi instance baru dari`XzArchive` kelas disiapkan untuk dekompresi. |
-| [XzArchive](xzarchive/#constructor_2)(string) | Menginisialisasi instance baru dari`XzArchive` kelas disiapkan untuk dekompresi. |
-| [XzArchive](xzarchive/#constructor)(XzArchiveSettings) | Menginisialisasi instance baru dari`XzArchive` kelas dan menyusun arsip dalam format xz. |
+| [XzArchive](xzarchive/#constructor)(XzArchiveSettings) | Menginisialisasi instance baru dari kelas `XzArchive` dan menyusun arsip dalam format xz. |
+| [XzArchive](xzarchive/#constructor_1)(Stream, XzLoadOptions) | Menginisialisasi instance baru dari kelas `XzArchive` yang disiapkan untuk dekompresi. |
+| [XzArchive](xzarchive/#constructor_2)(string, XzLoadOptions) | Menginisialisasi instance baru dari kelas `XzArchive` yang disiapkan untuk dekompresi. |
+
+## Properti
+
+| Nama | Deskripsi |
+| --- | --- |
+| [UncompressedSize](../../aspose.zip.xz/xzarchive/uncompressedsize/) { get; } | Ukuran data file yang tidak terkompresi dalam byte. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [Dispose](../../aspose.zip.xz/xzarchive/dispose/)() | Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau menyetel ulang sumber daya yang tidak dikelola. |
-| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_1)(FileInfo) | Ekstrak arsip xz ke file. |
-| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_2)(Stream) | Mengekstrak arsip xz ke aliran. |
-| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract)(string) | Ekstrak arsip xz ke file dengan jalur. |
-| [Save](../../aspose.zip.xz/xzarchive/save/#save)(Stream) | Menyimpan arsip xz ke aliran yang disediakan. |
-| [Save](../../aspose.zip.xz/xzarchive/save/#save_1)(string) | Menyimpan arsip xz ke file tujuan yang disediakan. |
-| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource)(FileInfo) | Mengatur konten yang akan dikompresi dalam arsip. |
-| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_1)(Stream) | Mengatur konten yang akan dikompresi dalam arsip. |
-| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_2)(string) | Mengatur konten yang akan dikompresi dalam arsip. |
+| [Dispose](../../aspose.zip.xz/xzarchive/dispose/)() | Melakukan tugas yang ditentukan aplikasi terkait dengan membebaskan, melepaskan, atau mereset sumber daya yang tidak dikelola. |
+| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_1)(FileInfo) | Mengekstrak arsip xz ke sebuah file. |
+| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_2)(Stream) | Mengekstrak arsip xz ke sebuah aliran. |
+| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract)(string) | Mengekstrak arsip xz ke file berdasarkan jalur. |
+| [ExtractToDirectory](../../aspose.zip.xz/xzarchive/extracttodirectory/)(string) | Mengekstrak konten arsip ke direktori yang diberikan. |
+| [Save](../../aspose.zip.xz/xzarchive/save/#save)(Stream) | Menyimpan arsip xz ke stream yang disediakan. |
+| [Save](../../aspose.zip.xz/xzarchive/save/#save_1)(string) | Menyimpan arsip xz ke file tujuan yang diberikan. |
+| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource)(FileInfo) | Menetapkan konten yang akan dikompresi dalam arsip. |
+| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_1)(Stream) | Menetapkan konten yang akan dikompresi dalam arsip. |
+| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_2)(string) | Menetapkan konten yang akan dikompresi dalam arsip. |
 
-### Lihat juga
+### Lihat Juga
 
 * interface [IArchive](../../aspose.zip/iarchive/)
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* ruang nama [Aspose.Zip.Xz](../../aspose.zip.xz/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz](../../aspose.zip.xz/)
+* assembly [Aspose.Zip](../../)
 
 

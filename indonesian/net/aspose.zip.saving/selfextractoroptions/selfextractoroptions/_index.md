@@ -1,7 +1,7 @@
 ---
-title: SelfExtractorOptions.SelfExtractorOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SelfExtractorOptions konstruktor. Konstruktor default.
+title: "SelfExtractorOptions.SelfExtractorOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor SelfExtractorOptions. Konstruktor default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/selfextractoroptions/selfextractoroptions/
@@ -14,10 +14,10 @@ Konstruktor default.
 public SelfExtractorOptions()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SelfExtractorOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../selfextractoroptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../selfextractoroptions/)
+* assembly [Aspose.Zip](../../../)
 
 

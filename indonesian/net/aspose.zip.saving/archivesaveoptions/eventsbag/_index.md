@@ -1,24 +1,24 @@
 ---
-title: ArchiveSaveOptions.EventsBag
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveSaveOptions Properti. Mendapat atau menyetel penampung acara yang muncul saat penyimpanan arsip.
+title: "ArchiveSaveOptions.EventsBag"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveSaveOptions. Mendapatkan atau mengatur kontainer peristiwa yang muncul saat menyimpan arsip"
 type: docs
-weight: 40
+weight: 70
 url: /id/net/aspose.zip.saving/archivesaveoptions/eventsbag/
 ---
 ## ArchiveSaveOptions.EventsBag property
 
-Mendapat atau menyetel penampung acara yang muncul saat penyimpanan arsip.
+Mendapatkan atau mengatur kontainer peristiwa yang dipicu saat menyimpan arsip.
 
 ```csharp
 public EventsBag EventsBag { get; set; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [EventsBag](../../eventsbag/)
 * class [ArchiveSaveOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../archivesaveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

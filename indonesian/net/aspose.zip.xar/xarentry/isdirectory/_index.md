@@ -1,23 +1,23 @@
 ---
-title: XarEntry.IsDirectory
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarEntry Properti. Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+title: "XarEntry.IsDirectory"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti XarEntry. Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori."
 type: docs
 weight: 30
 url: /id/net/aspose.zip.xar/xarentry/isdirectory/
 ---
 ## XarEntry.IsDirectory property
 
-Mendapat nilai yang menunjukkan apakah entri mewakili direktori.
+Mendapatkan nilai yang menunjukkan apakah entri mewakili sebuah direktori.
 
 ```csharp
 public bool IsDirectory { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XarEntry](../)
-* ruang nama [Aspose.Zip.Xar](../../xarentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

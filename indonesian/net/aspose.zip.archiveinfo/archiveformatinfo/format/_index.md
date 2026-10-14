@@ -1,7 +1,7 @@
 ---
-title: ArchiveFormatInfo.Format
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveFormatInfo Properti. Mendapatkan format arsip.
+title: "ArchiveFormatInfo.Format"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveFormatInfo. Mendapatkan format arsip"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.archiveinfo/archiveformatinfo/format/
@@ -14,11 +14,11 @@ Mendapatkan format arsip.
 public abstract ArchiveFormat Format { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * enum [ArchiveFormat](../../archiveformat/)
 * class [ArchiveFormatInfo](../)
-* ruang nama [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

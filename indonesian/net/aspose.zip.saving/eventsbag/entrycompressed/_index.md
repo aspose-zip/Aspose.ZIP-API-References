@@ -1,24 +1,24 @@
 ---
-title: EventsBag.EntryCompressed
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: EventsBag peristiwa. Muncul setelah entri arsip dikompresi.
+title: "EventsBag.EntryCompressed"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Event EventsBag. Dikeluarkan setelah entri arsip telah dikompresi"
 type: docs
-weight: 20
+weight: 30
 url: /id/net/aspose.zip.saving/eventsbag/entrycompressed/
 ---
 ## EventsBag.EntryCompressed event
 
-Muncul setelah entri arsip dikompresi.
+Dipanggil setelah entri arsip telah dikompresi.
 
 ```csharp
 public event EventHandler<CancelEntryEventArgs> EntryCompressed;
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CancelEntryEventArgs](../../../aspose.zip/cancelentryeventargs/)
 * class [EventsBag](../)
-* ruang nama [Aspose.Zip.Saving](../../eventsbag/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
 
 

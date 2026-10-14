@@ -1,7 +1,7 @@
 ---
-title: ComHelper.ComHelper
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ComHelper konstruktor. Menginisialisasi instance baru dari kelas ini.
+title: "ComHelper.ComHelper"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor ComHelper. Menginisialisasi instance baru dari kelas ini"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/comhelper/comhelper/
@@ -14,10 +14,10 @@ Menginisialisasi instance baru dari kelas ini.
 public ComHelper()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ComHelper](../)
-* ruang nama [Aspose.Zip](../../comhelper/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 

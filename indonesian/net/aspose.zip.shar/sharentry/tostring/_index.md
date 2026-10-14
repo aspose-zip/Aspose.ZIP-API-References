@@ -1,7 +1,7 @@
 ---
-title: SharEntry.ToString
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SharEntry metode. Mengembalikan string yang mewakili entri saat ini.
+title: "SharEntry.ToString"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SharEntry. Mengembalikan string yang mewakili entri saat ini"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.shar/sharentry/tostring/
@@ -14,14 +14,14 @@ Mengembalikan string yang mewakili entri saat ini.
 public override string ToString()
 ```
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Sebuah string yang mewakili entri saat ini.
+String yang mewakili entri saat ini.
 
-### Lihat juga
+### Lihat Juga
 
 * class [SharEntry](../)
-* ruang nama [Aspose.Zip.Shar](../../sharentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../sharentry/)
+* assembly [Aspose.Zip](../../../)
 
 

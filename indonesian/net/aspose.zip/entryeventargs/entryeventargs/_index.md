@@ -1,28 +1,28 @@
 ---
-title: EntryEventArgs.EntryEventArgs
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: EntryEventArgs konstruktor. Menginisialisasi instance baru dariEntryEventArgs kelas.
+title: "EntryEventArgs.EntryEventArgs"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor EntryEventArgs. Menginisialisasi instance baru dari kelas EntryEventArgs"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/entryeventargs/entryeventargs/
 ---
 ## EntryEventArgs constructor
 
-Menginisialisasi instance baru dari[`EntryEventArgs`](../) kelas.
+Menginisialisasi instance baru dari kelas [`EntryEventArgs`](../).
 
 ```csharp
 public EntryEventArgs(ArchiveEntry entry)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entry | ArchiveEntry | Arsipkan entri untuk acara tersebut. |
+| entri | ArchiveEntry | Entri arsip yang menjadi sumber event. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [EntryEventArgs](../)
-* ruang nama [Aspose.Zip](../../entryeventargs/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../entryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

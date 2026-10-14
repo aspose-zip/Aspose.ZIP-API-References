@@ -1,7 +1,7 @@
 ---
-title: CabEntry.Length
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CabEntry Properti. Mendapatkan panjang entri dalam byte.
+title: "CabEntry.Length"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CabEntry. Mendapatkan panjang entri dalam byte"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.cab/cabentry/length/
@@ -14,10 +14,10 @@ Mendapatkan panjang entri dalam byte.
 public uint Length { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CabEntry](../)
-* ruang nama [Aspose.Zip.Cab](../../cabentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

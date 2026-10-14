@@ -1,34 +1,37 @@
 ---
-title: ArchiveEntrySettings.CompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveEntrySettings Properti. Mendapat pengaturan untuk rutin kompresi atau dekompresi.
+title: "ArchiveEntrySettings.CompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveEntrySettings. Mendapatkan pengaturan untuk rutin kompresi atau dekompresi."
 type: docs
-weight: 20
+weight: 30
 url: /id/net/aspose.zip.saving/archiveentrysettings/compressionsettings/
 ---
 ## ArchiveEntrySettings.CompressionSettings property
 
-Mendapat pengaturan untuk rutin kompresi atau dekompresi.
+Mendapatkan pengaturan untuk rutin kompresi atau dekompresi.
 
 ```csharp
 public CompressionSettings CompressionSettings { get; }
 ```
 
-### Perkataan
+## Catatan
 
-Bisa jadi salah satunya:
+Bisa menjadi salah satu dari berikut ini:
 
 * **[`DeflateCompressionSettings`](../../deflatecompressionsettings/)**
 * **[`StoreCompressionSettings`](../../storecompressionsettings/)**
 * **[`Bzip2CompressionSettings`](../../bzip2compressionsettings/)**
 * **[`LzmaCompressionSettings`](../../lzmacompressionsettings/)**
 * **[`PPMdCompressionSettings`](../../ppmdcompressionsettings/)**
+* **[`EnhancedDeflateCompressionSettings`](../../enhanceddeflatecompressionsettings/)**
+* **[`XzCompressionSettings`](../../xzcompressionsettings/)**
+* **[`ZstandardCompressionSettings`](../../zstandardcompressionsettings/)**
 
-### Lihat juga
+### Lihat Juga
 
 * class [CompressionSettings](../../compressionsettings/)
 * class [ArchiveEntrySettings](../)
-* ruang nama [Aspose.Zip.Saving](../../archiveentrysettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archiveentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

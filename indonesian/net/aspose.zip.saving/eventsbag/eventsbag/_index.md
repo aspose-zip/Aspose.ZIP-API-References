@@ -1,7 +1,7 @@
 ---
-title: EventsBag.EventsBag
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: EventsBag konstruktor. Konstruktor default.
+title: "EventsBag.EventsBag"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor EventsBag. Konstruktor default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/eventsbag/eventsbag/
@@ -14,10 +14,10 @@ Konstruktor default.
 public EventsBag()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [EventsBag](../)
-* ruang nama [Aspose.Zip.Saving](../../eventsbag/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,36 +1,37 @@
 ---
-title: SevenZipArchive.CreateEntries
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchive metode. Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+title: "SevenZipArchive.CreateEntries"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode SevenZipArchive. Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan"
 type: docs
 weight: 40
 url: /id/net/aspose.zip.sevenzip/sevenziparchive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| directory | DirectoryInfo | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| directory | DirectoryInfo | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri disusun.
+Arsip dengan entri yang telah disusun.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| DirectoryNotFoundException | Jalan menuju*directory* tidak valid, seperti berada di drive yang belum dipetakan. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses*directory*. |
+| DirectoryNotFoundException | Jalur ke *directory* tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses *directory*. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive())
@@ -41,32 +42,39 @@ using (SevenZipArchive archive = new SevenZipArchive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Menambahkan ke arsip semua file dan direktori secara rekursif di direktori yang diberikan.
+Menambahkan ke arsip semua file dan direktori secara rekursif dalam direktori yang diberikan.
 
 ```csharp
 public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| sourceDirectory | String | Direktori untuk dikompres. |
-| includeRootDirectory | Boolean | Menunjukkan apakah akan menyertakan direktori root itu sendiri atau tidak. |
+| sourceDirectory | String | Direktori yang akan dikompresi. |
+| includeRootDirectory | Boolean | Menunjukkan apakah menyertakan direktori akar itu sendiri atau tidak. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri disusun.
+Arsip dengan entri yang telah disusun.
 
-### Contoh
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| ArgumentNullException | *sourceDirectory* adalah `null`. |
+
+## Contoh
 
 Buat arsip 7z dengan kompresi LZMA2.
 
@@ -78,10 +86,10 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

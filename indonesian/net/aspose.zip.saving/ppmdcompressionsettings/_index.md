@@ -1,14 +1,14 @@
 ---
-title: Class PPMdCompressionSettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.PPMdCompressionSettings kelas. Pengaturan untuk metode kompresi PPMd.
+title: "Kelas PPMdCompressionSettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.PPMdCompressionSettings. Pengaturan untuk kompresi PPMd dalam arsip ZIP"
 type: docs
-weight: 470
+weight: 970
 url: /id/net/aspose.zip.saving/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings class
 
-Pengaturan untuk metode kompresi PPMd.
+Pengaturan untuk kompresi PPMd dalam arsip ZIP.
 
 ```csharp
 public class PPMdCompressionSettings : CompressionSettings
@@ -16,26 +16,26 @@ public class PPMdCompressionSettings : CompressionSettings
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor)() | Menginisialisasi instance baru dari`PPMdCompressionSettings` kelas dengan urutan model default dan ukuran sub-allocator. |
-| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor_1)(int, int) | Menginisialisasi instance baru dari`PPMdCompressionSettings` kelas. |
+| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor)() | Menginisialisasi instance baru dari kelas `PPMdCompressionSettings` dengan urutan model default dan ukuran sub-allocator. |
+| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor_1)(int, int) | Menginisialisasi instance baru dari kelas `PPMdCompressionSettings`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [ModelOrder](../../aspose.zip.saving/ppmdcompressionsettings/modelorder/) { get; } | Mendapat urutan model. |
-| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/) { get; } | Mendapat ukuran sub-allocator dalam MB. |
+| [ModelOrder](../../aspose.zip.saving/ppmdcompressionsettings/modelorder/) { get; } | Mendapatkan urutan model. |
+| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/) { get; } | Mendapatkan ukuran sub-allocator dalam MB. |
 
-### Perkataan
+## Catatan
 
-PPMd adalah algoritme kompresi data yang dikembangkan oleh Dmitry Shkarin. Algoritma ini didasarkan pada pencocokan frasa prediktif pada konteks urutan ganda.
+PPMd adalah algoritma kompresi data yang dikembangkan oleh Dmitry Shkarin. Algoritma ini didasarkan pada pencocokan frasa prediktif pada konteks urutan berganda.
 
-### Lihat juga
+### Lihat Juga
 
 * class [CompressionSettings](../compressionsettings/)
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

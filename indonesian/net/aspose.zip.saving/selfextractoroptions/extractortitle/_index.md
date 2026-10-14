@@ -1,23 +1,23 @@
 ---
-title: SelfExtractorOptions.ExtractorTitle
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SelfExtractorOptions Properti. Mendapat atau menyetel judul jendela ekstraktor.
+title: "SelfExtractorOptions.ExtractorTitle"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SelfExtractorOptions. Mendapatkan atau mengatur judul jendela ekstraktor"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.saving/selfextractoroptions/extractortitle/
 ---
 ## SelfExtractorOptions.ExtractorTitle property
 
-Mendapat atau menyetel judul jendela ekstraktor.
+Mendapatkan atau mengatur judul jendela ekstraktor.
 
 ```csharp
 public string ExtractorTitle { get; set; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SelfExtractorOptions](../)
-* ruang nama [Aspose.Zip.Saving](../../selfextractoroptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../selfextractoroptions/)
+* assembly [Aspose.Zip](../../../)
 
 

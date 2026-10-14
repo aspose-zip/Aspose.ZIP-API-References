@@ -1,9 +1,9 @@
 ---
-title: Bzip2Archive.Save
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Bzip2Archive metode. Menyimpan arsip ke aliran yang disediakan.
+title: "Bzip2Archive.Save"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode Bzip2Archive. Menyimpan arsip ke aliran yang diberikan."
 type: docs
-weight: 50
+weight: 60
 url: /id/net/aspose.zip.bzip2/bzip2archive/save/
 ---
 ## Save(Stream, Bzip2SaveOptions) {#save}
@@ -14,28 +14,29 @@ Menyimpan arsip ke aliran yang disediakan.
 public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | outputStream | Stream | Aliran tujuan. |
 | saveOptions | Bzip2SaveOptions | Opsi untuk menyimpan arsip bzip2. Jika tidak ditentukan, ukuran blok 900 Kb akan digunakan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | InvalidOperationException | Sumber data yang akan diarsipkan belum disediakan. |
 | ArgumentException | *outputStream* tidak dapat ditulis. |
-| UnauthorizedAccessException | Sumber file bersifat read-only atau berupa direktori. |
-| DirectoryNotFoundException | Jalur sumber file yang ditentukan tidak valid, seperti berada di drive yang belum dipetakan. |
+| UnauthorizedAccessException | Sumber file bersifat read-only atau merupakan direktori. |
+| DirectoryNotFoundException | Jalur sumber file yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
 | IOException | Sumber File sudah terbuka. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
 
-### Perkataan
+## Catatan
 
-*outputStream*harus dapat ditulis.
+*outputStream* must be writable.
 
-### Contoh
+## Contoh
 
-Menulis data terkompresi ke aliran respons http.
+Tulis data terkompresi ke aliran respons http.
 
 ```csharp
 using (var archive = new Bzip2Archive()) 
@@ -45,12 +46,12 @@ using (var archive = new Bzip2Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2SaveOptions](../../bzip2saveoptions/)
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -62,23 +63,25 @@ Menyimpan arsip ke file tujuan yang disediakan.
 public void Save(string destinationFileName, Bzip2SaveOptions saveOptions = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan menunjuk ke file yang sudah ada, itu akan ditimpa. |
+| destinationFileName | String | Jalur arsip yang akan dibuat. Jika nama file yang ditentukan mengarah ke file yang sudah ada, file tersebut akan ditimpa. |
 | saveOptions | Bzip2SaveOptions | Opsi untuk menyimpan arsip bzip2. Jika tidak ditentukan, ukuran blok 900 Kb akan digunakan. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*destinationFileName* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*destinationFileName* ditolak. |
-| PathTooLongException | Yang ditentukan*destinationFileName*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*destinationFileName* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *destinationFileName* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *destinationFileName* kosong, hanya berisi spasi, atau mengandung karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke file *destinationFileName* ditolak. |
+| PathTooLongException | *destinationFileName* yang ditentukan, nama file, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
+| NotSupportedException | File di *destinationFileName* berisi tanda titik dua (:) di tengah string. |
+| ObjectDisposedException | Arsip telah dibuang dan tidak dapat digunakan. |
+| InvalidOperationException | Sumber data yang akan diarsipkan belum disediakan. |
 
-### Contoh
+## Contoh
 
 Menulis data terkompresi ke file.
 
@@ -90,11 +93,11 @@ using (var archive = new Bzip2Archive())
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2SaveOptions](../../bzip2saveoptions/)
 * class [Bzip2Archive](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

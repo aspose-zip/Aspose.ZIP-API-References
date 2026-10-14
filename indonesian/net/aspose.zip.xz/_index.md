@@ -1,17 +1,17 @@
 ---
-title: Aspose.Zip.Xz
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuXz namespace berisi kelas yang mewakili entitas terkait arsip xz.
+title: "Aspose.Zip.Xz"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Xz berisi kelas yang mewakili entitas terkait arsip xz"
 type: docs
-weight: 180
+weight: 280
 url: /id/net/aspose.zip.xz/
 ---
-ItuXz namespace berisi kelas yang mewakili entitas terkait arsip xz.
+Namespace Xz berisi kelas yang mewakili entitas terkait arsip xz.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [XzArchive](./xzarchive/) | Kelas ini mewakili file arsip xz. Gunakan untuk menyusun dan mengekstrak arsip xz. |
+| [XzArchive](./xzarchive/) | Kelas ini mewakili file arsip xz. Gunakan untuk membuat dan mengekstrak arsip xz. |
 
 

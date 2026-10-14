@@ -1,7 +1,7 @@
 ---
-title: XarEntry.CreationTime
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: XarEntry Properti. Mendapatkan waktu pembuatan file atau direktori.
+title: "XarEntry.CreationTime"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti XarEntry. Mendapatkan waktu pembuatan file atau direktori."
 type: docs
 weight: 10
 url: /id/net/aspose.zip.xar/xarentry/creationtime/
@@ -14,10 +14,10 @@ Mendapatkan waktu pembuatan file atau direktori.
 public DateTime CreationTime { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [XarEntry](../)
-* ruang nama [Aspose.Zip.Xar](../../xarentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

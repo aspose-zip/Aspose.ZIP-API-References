@@ -1,24 +1,24 @@
 ---
-title: SevenZipArchive.Entries
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchive Properti. Mendapat entri dariSevenZipArchiveEntry ketik merupakan arsip.
+title: "SevenZipArchive.Entries"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipArchive. Mendapatkan entri tipe SevenZipArchiveEntry yang membentuk arsip"
 type: docs
 weight: 20
 url: /id/net/aspose.zip.sevenzip/sevenziparchive/entries/
 ---
 ## SevenZipArchive.Entries property
 
-Mendapat entri dari[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) ketik merupakan arsip.
+Mendapatkan entri tipe [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) yang membentuk arsip.
 
 ```csharp
 public ReadOnlyCollection<SevenZipArchiveEntry> Entries { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

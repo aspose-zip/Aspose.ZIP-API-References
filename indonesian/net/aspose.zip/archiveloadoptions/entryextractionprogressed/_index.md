@@ -1,35 +1,48 @@
 ---
-title: ArchiveLoadOptions.EntryExtractionProgressed
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveLoadOptions Properti. Mendapatkan atau menyetel delegasi yang dipanggil saat beberapa byte telah diekstrak.
+title: "ArchiveLoadOptions.EntryExtractionProgressed"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveLoadOptions. Mendapatkan atau mengatur delegasi yang dipanggil ketika beberapa byte telah diekstrak"
 type: docs
-weight: 40
+weight: 50
 url: /id/net/aspose.zip/archiveloadoptions/entryextractionprogressed/
 ---
 ## ArchiveLoadOptions.EntryExtractionProgressed property
 
-Mendapatkan atau menyetel delegasi yang dipanggil saat beberapa byte telah diekstrak.
+Mendapatkan atau mengatur delegasi yang dipanggil ketika beberapa byte telah diekstrak.
 
 ```csharp
-public EventHandler<ProgressEventArgs> EntryExtractionProgressed { get; set; }
+public EventHandler<ProgressCancelEventArgs> EntryExtractionProgressed { get; set; }
 ```
 
-### Perkataan
+## Catatan
 
-Pengirim acara adalah[`ArchiveEntry`](../../archiveentry/) contoh yang ekstraksi maju.
+Pengirim acara adalah instance [`ArchiveEntry`](../../archiveentry/) yang ekstraksinya sedang diproses.
 
-### Contoh
+## Contoh
+
+Lacak kemajuan ekstraksi sebuah entri.
 
 ```csharp
-Archive archive = new Archive("archive.zip", 
+var archive = new Archive("archive.zip", 
 new ArchiveLoadOptions() { EntryExtractionProgressed = (s, e) => { int percent = (int)((100 * e.ProceededBytes) / ((ArchiveEntry)s).UncompressedSize); } })                 
 ```
 
-### Lihat juga
+Batalkan ekstraksi entri setelah waktu tertentu.
 
-* class [ProgressEventArgs](../../progresseventargs/)
+```csharp
+Stopwatch watch = Stopwatch.StartNew();
+using (Archive a = new Archive("big.zip", new ArchiveLoadOptions() {
+    EntryExtractionProgressed = (s, e) => { if (watch.ElapsedMilliseconds > 1000) e.Cancel = true; } }))
+{
+    a.Entries[0].Extract("first.bin");
+}
+```
+
+### Lihat Juga
+
+* class [ProgressCancelEventArgs](../../progresscanceleventargs/)
 * class [ArchiveLoadOptions](../)
-* ruang nama [Aspose.Zip](../../archiveloadoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

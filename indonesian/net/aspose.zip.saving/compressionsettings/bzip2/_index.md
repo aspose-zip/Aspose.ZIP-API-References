@@ -1,24 +1,24 @@
 ---
-title: CompressionSettings.Bzip2
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CompressionSettings Properti. Contoh dariPengaturan Kompresi Bzip2 dengan parameter default.
+title: "CompressionSettings.Bzip2"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CompressionSettings. Sebuah instance dari Bzip2CompressionSettings dengan parameter default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.saving/compressionsettings/bzip2/
 ---
 ## CompressionSettings.Bzip2 property
 
-Contoh dari`Pengaturan Kompresi Bzip2` dengan parameter default.
+Sebuah instance dari `Bzip2CompressionSettings` dengan parameter default.
 
 ```csharp
 public static Bzip2CompressionSettings Bzip2 { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Bzip2CompressionSettings](../../bzip2compressionsettings/)
 * class [CompressionSettings](../)
-* ruang nama [Aspose.Zip.Saving](../../compressionsettings/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

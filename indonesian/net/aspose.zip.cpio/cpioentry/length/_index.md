@@ -1,7 +1,7 @@
 ---
-title: CpioEntry.Length
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioEntry Properti. Mendapatkan panjang entri dalam byte.
+title: "CpioEntry.Length"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti CpioEntry. Mendapatkan panjang entri dalam byte"
 type: docs
 weight: 30
 url: /id/net/aspose.zip.cpio/cpioentry/length/
@@ -14,10 +14,10 @@ Mendapatkan panjang entri dalam byte.
 public long Length { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioEntry](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

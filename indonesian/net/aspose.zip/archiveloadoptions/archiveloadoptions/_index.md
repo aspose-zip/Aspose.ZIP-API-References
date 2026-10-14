@@ -1,7 +1,7 @@
 ---
-title: ArchiveLoadOptions.ArchiveLoadOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveLoadOptions konstruktor. Konstruktor default.
+title: "ArchiveLoadOptions.ArchiveLoadOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor ArchiveLoadOptions. Konstruktor default"
 type: docs
 weight: 10
 url: /id/net/aspose.zip/archiveloadoptions/archiveloadoptions/
@@ -14,10 +14,10 @@ Konstruktor default.
 public ArchiveLoadOptions()
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveLoadOptions](../)
-* ruang nama [Aspose.Zip](../../archiveloadoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

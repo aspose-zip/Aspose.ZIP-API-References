@@ -1,9 +1,9 @@
 ---
-title: TarEntry.Open
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: TarEntry metode. Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri.
+title: "TarEntry.Open"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode TarEntry. Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri"
 type: docs
-weight: 50
+weight: 70
 url: /id/net/aspose.zip.tar/tarentry/open/
 ---
 ## TarEntry.Open method
@@ -14,25 +14,36 @@ Membuka entri untuk ekstraksi dan menyediakan aliran dengan konten entri.
 public Stream Open()
 ```
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Aliran yang mewakili konten entri.
+Stream yang mewakili isi entri.
 
-### Perkataan
+### Pengecualian
 
-Baca dari aliran untuk mendapatkan konten asli file. Lihat bagian contoh.
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
+| IOException | Terjadi kesalahan I/O. |
 
-### Contoh
+## Catatan
+
+Baca dari *stream* untuk mendapatkan konten asli sebuah file. Lihat bagian contoh.
+
+## Contoh
 
 Penggunaan:
 
-.NET 4.0 dan lebih tinggi - gunakan metode Stream.CopyTo:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 ke atas - gunakan metode Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 dan sebelumnya - salin byte secara manual:
+.NET 3.5 ke bawah - salin byte secara manual:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +52,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
-### Lihat juga
+### Lihat Juga
 
 * class [TarEntry](../)
-* ruang nama [Aspose.Zip.Tar](../../tarentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

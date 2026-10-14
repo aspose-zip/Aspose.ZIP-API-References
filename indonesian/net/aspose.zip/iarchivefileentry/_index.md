@@ -1,14 +1,14 @@
 ---
-title: Interface IArchiveFileEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.IArchiveFileEntry antarmuka. Antarmuka ini mewakili entri file arsip.
+title: "Antarmuka IArchiveFileEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Antarmuka Aspose.Zip.IArchiveFileEntry. Antarmuka ini mewakili entri file arsip"
 type: docs
-weight: 230
+weight: 540
 url: /id/net/aspose.zip/iarchivefileentry/
 ---
 ## IArchiveFileEntry interface
 
-Antarmuka ini mewakili entri file arsip.
+Antarmuka ini mewakili entri berkas arsip.
 
 ```csharp
 public interface IArchiveFileEntry
@@ -16,21 +16,21 @@ public interface IArchiveFileEntry
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [Length](../../aspose.zip/iarchivefileentry/length/) { get; } | Mendapatkan panjang entri dalam byte. |
-| [Name](../../aspose.zip/iarchivefileentry/name/) { get; } | Mendapat nama entri. |
+| [Name](../../aspose.zip/iarchivefileentry/name/) { get; } | Mendapatkan nama entri. |
 
 ## Metode
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [Extract](../../aspose.zip/iarchivefileentry/extract/#extract_1)(Stream) | Mengekstrak entri ke aliran yang disediakan. |
-| [Extract](../../aspose.zip/iarchivefileentry/extract/#extract)(string) | Mengekstrak entri ke sistem file dengan jalur yang disediakan. |
+| [Extract](../../aspose.zip/iarchivefileentry/extract/#extract)(string) | Mengekstrak entri ke sistem file menggunakan jalur yang disediakan. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip](../../aspose.zip/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

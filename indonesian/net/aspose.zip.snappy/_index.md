@@ -1,17 +1,17 @@
 ---
-title: Aspose.Zip.Snappy
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuSnappy namespace berisi kelas untuk manipulasi data terkompresi Snappy.
+title: "Aspose.Zip.Snappy"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Snappy berisi kelas untuk manipulasi data terkompresi Snappy"
 type: docs
-weight: 140
+weight: 230
 url: /id/net/aspose.zip.snappy/
 ---
-ItuSnappy namespace berisi kelas untuk manipulasi data terkompresi Snappy.
+Namespace Snappy berisi kelas untuk manipulasi data terkompresi Snappy.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [SnappyArchive](./snappyarchive/) | Kelas ini mewakili file arsip tajam. Gunakan untuk menyusun atau mengekstrak arsip tajam. |
+| [SnappyArchive](./snappyarchive/) | Kelas ini mewakili file arsip snappy. Gunakan untuk membuat atau mengekstrak arsip snappy. |
 
 

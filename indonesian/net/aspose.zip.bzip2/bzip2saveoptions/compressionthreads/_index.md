@@ -1,23 +1,29 @@
 ---
-title: Bzip2SaveOptions.CompressionThreads
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Bzip2SaveOptions Properti. Mendapat atau menyetel jumlah utas kompresi. Jika nilainya lebih besar dari 1 kompresi multithreading akan digunakan.
+title: "Bzip2SaveOptions.CompressionThreads"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti Bzip2SaveOptions. Mendapatkan atau mengatur jumlah thread kompresi. Jika nilai lebih besar dari 1, kompresi multithreading akan digunakan."
 type: docs
 weight: 30
 url: /id/net/aspose.zip.bzip2/bzip2saveoptions/compressionthreads/
 ---
 ## Bzip2SaveOptions.CompressionThreads property
 
-Mendapat atau menyetel jumlah utas kompresi. Jika nilainya lebih besar dari 1, kompresi multithreading akan digunakan.
+Mendapatkan atau mengatur jumlah thread kompresi. Jika nilai lebih besar dari 1, kompresi multithreading akan digunakan.
 
 ```csharp
 public int CompressionThreads { get; set; }
 ```
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ArgumentOutOfRangeException | Jumlah thread lebih dari 100 atau kurang dari 1. |
+
+### Lihat Juga
 
 * class [Bzip2SaveOptions](../)
-* ruang nama [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

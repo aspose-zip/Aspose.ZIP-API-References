@@ -1,14 +1,14 @@
 ---
-title: Class RarArchiveLoadOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Rar.RarArchiveLoadOptions kelas. Opsi yang dengannyaRarArchive dimuat dari file terkompresi.
+title: "Kelas RarArchiveLoadOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Rar.RarArchiveLoadOptions. Opsi dengan mana RarArchive dimuat dari file terkompresi"
 type: docs
-weight: 350
+weight: 830
 url: /id/net/aspose.zip.rar/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions class
 
-Opsi yang dengannya[`RarArchive`](../rararchive/) dimuat dari file terkompresi.
+Opsi dengan mana [`RarArchive`](../rararchive/) dimuat dari file terkompresi.
 
 ```csharp
 public class RarArchiveLoadOptions
@@ -16,19 +16,22 @@ public class RarArchiveLoadOptions
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [RarArchiveLoadOptions](rararchiveloadoptions/)() | Konstruktor default. |
+| [RarArchiveLoadOptions](rararchiveloadoptions/)() | Menginisialisasi instance baru dari kelas `RarArchiveLoadOptions`. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [DecryptionPassword](../../aspose.zip.rar/rararchiveloadoptions/decryptionpassword/) { get; set; } | Mendapatkan atau menyetel kata sandi untuk mendekripsi entri dan nama entri. |
+| [CancellationToken](../../aspose.zip.rar/rararchiveloadoptions/cancellationtoken/) { get; set; } | Mendapatkan atau mengatur token pembatalan yang digunakan untuk membatalkan operasi ekstraksi. |
+| [DecryptionPassword](../../aspose.zip.rar/rararchiveloadoptions/decryptionpassword/) { get; set; } | Mendapatkan atau mengatur kata sandi untuk mendekripsi entri dan nama entri. |
+| [DictionaryStorageMode](../../aspose.zip.rar/rararchiveloadoptions/dictionarystoragemode/) { get; set; } | Mendapatkan atau mengatur bagaimana kamus dekompresi RAR disimpan. |
+| [TemporaryDirectory](../../aspose.zip.rar/rararchiveloadoptions/temporarydirectory/) { get; set; } | Mendapatkan atau mengatur direktori yang digunakan untuk file kamus sementara. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

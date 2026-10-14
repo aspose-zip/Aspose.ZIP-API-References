@@ -1,37 +1,37 @@
 ---
-title: ArchiveLoadOptions.Encoding
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ArchiveLoadOptions Properti. Mendapat atau mengatur pengkodean untuk nama entri.
+title: "ArchiveLoadOptions.Encoding"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti ArchiveLoadOptions. Mendapatkan atau mengatur encoding untuk nama entri"
 type: docs
-weight: 30
+weight: 40
 url: /id/net/aspose.zip/archiveloadoptions/encoding/
 ---
 ## ArchiveLoadOptions.Encoding property
 
-Mendapat atau mengatur pengkodean untuk nama entri.
+Mendapatkan atau mengatur pengkodean untuk nama entri.
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Contoh
+## Contoh
 
-Nama entri disusun menggunakan pengkodean yang ditentukan terlepas dari properti file zip.
+Nama entri disusun menggunakan encoding yang ditentukan terlepas dari properti file zip.
 
 ```csharp
 using (FileStream fs = File.OpenRead("archive.zip"))
 {      
-    using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
+    using (var archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
     {
         string name = archive.Entries[0].Name;
     }    
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveLoadOptions](../)
-* ruang nama [Aspose.Zip](../../archiveloadoptions/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,93 +1,103 @@
 ---
-title: LzipArchive.LzipArchive
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: LzipArchive konstruktor. Menginisialisasi instance baru dariLzipArchive .
+title: "LzipArchive.LzipArchive"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Konstruktor LzipArchive. Menginisialisasi instance baru dari LzipArchive"
 type: docs
 weight: 10
 url: /id/net/aspose.zip.lzip/lziparchive/lziparchive/
 ---
 ## LzipArchive(LzipArchiveSettings) {#constructor}
 
-Menginisialisasi instance baru dari[`LzipArchive`](../) .
+Menginisialisasi instance baru dari [`LzipArchive`](../).
 
 ```csharp
 public LzipArchive(LzipArchiveSettings settings = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| settings | LzipArchiveSettings | Pengaturan arsip lzip tertentu dengan definisi ukuran kamus. |
+| pengaturan | LzipArchiveSettings | Pengaturan arsip lzip tertentu dengan definisi ukuran kamus. |
 
-### Lihat juga
+### Lihat Juga
 
 * class [LzipArchiveSettings](../../lziparchivesettings/)
 * class [LzipArchive](../)
-* ruang nama [Aspose.Zip.Lzip](../../lziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## LzipArchive(Stream) {#constructor_1}
+## LzipArchive(Stream, LzipLoadOptions) {#constructor_1}
 
-Menginisialisasi instance baru dari[`LzipArchive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi instance baru dari kelas [`LzipArchive`](../) yang dipersiapkan untuk dekompresi.
 
 ```csharp
-public LzipArchive(Stream sourceStream)
+public LzipArchive(Stream sourceStream, LzipLoadOptions options = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | sourceStream | Stream | Sumber arsip. |
+| opsi | LzipLoadOptions | Opsi untuk memuat arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentException | *sourceStream* tidak dapat dicari. |
-| ArgumentNullException | *sourceStream* adalah nol. |
-| InvalidDataException | Header tidak cocok dengan jenis arsip lzip. |
+| ArgumentException | *sourceStream* tidak dapat dipindahkan. |
+| ArgumentNullException | *sourceStream* bernilai null. |
+| InvalidDataException | Header tidak cocok dengan tipe arsip lzip. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
+| IOException | Terjadi kesalahan I/O. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Extract`](../extract/) metode dekompresi.
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Extract`](../extract/) untuk dekompresi.
 
-### Lihat juga
+### Lihat Juga
 
+* class [LzipLoadOptions](../../lziploadoptions/)
 * class [LzipArchive](../)
-* ruang nama [Aspose.Zip.Lzip](../../lziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## LzipArchive(string) {#constructor_2}
+## LzipArchive(string, LzipLoadOptions) {#constructor_2}
 
-Menginisialisasi instance baru dari[`LzipArchive`](../) kelas disiapkan untuk dekompresi.
+Menginisialisasi instance baru dari kelas [`LzipArchive`](../) yang dipersiapkan untuk dekompresi.
 
 ```csharp
-public LzipArchive(string path)
+public LzipArchive(string path, LzipLoadOptions options = null)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Path ke sumber arsip. |
+| path | String | Jalur ke sumber arsip. |
+| opsi | LzipLoadOptions | Opsi untuk memuat arsip. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
-| InvalidDataException | Header tidak cocok dengan jenis arsip lzip. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| InvalidDataException | Header tidak cocok dengan tipe arsip lzip. |
+| EndOfStreamException | Dilemparkan ketika akhir aliran tercapai sebelum jumlah byte yang diharapkan dibaca. |
 
-### Perkataan
+## Catatan
 
-Konstruktor ini tidak melakukan dekompresi. Melihat[`Extract`](../extract/) metode dekompresi.
+Konstruktor ini tidak melakukan dekompresi. Lihat metode [`Extract`](../extract/) untuk dekompresi.
 
-### Contoh
+## Contoh
 
 ```csharp
 using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
@@ -99,10 +109,11 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
    }
 ```
 
-### Lihat juga
+### Lihat Juga
 
+* class [LzipLoadOptions](../../lziploadoptions/)
 * class [LzipArchive](../)
-* ruang nama [Aspose.Zip.Lzip](../../lziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

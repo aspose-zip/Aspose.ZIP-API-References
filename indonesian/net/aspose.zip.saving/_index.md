@@ -1,50 +1,58 @@
 ---
-title: Aspose.Zip.Saving
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: ItuSaving namespace berisi kelaskelas yang diperlukan untuk operasi yang memerlukan penyimpanan arsip.
+title: "Aspose.Zip.Saving"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Namespace Saving berisi kelas yang diperlukan untuk operasi yang melibatkan penyimpanan arsip."
 type: docs
-weight: 110
+weight: 200
 url: /id/net/aspose.zip.saving/
 ---
-ItuSaving namespace berisi kelas-kelas yang diperlukan untuk operasi yang memerlukan penyimpanan arsip.
+Namespace Saving berisi kelas yang diperlukan untuk operasi yang melibatkan penyimpanan arsip.
 
 ## Kelas
 
-| Kelas | Keterangan |
+| Kelas | Deskripsi |
 | --- | --- |
-| [AesEcryptionSettings](./aesecryptionsettings/) | Pengaturan untuk algoritma enkripsi atau dekripsi AES. |
-| [ArchiveEntrySettings](./archiveentrysettings/) | Pengaturan yang digunakan untuk mengompres atau mendekompresi entri. |
-| [ArchiveSaveOptions](./archivesaveoptions/) | Opsi untuk menyimpan arsip zip. |
-| [Bzip2CompressionSettings](./bzip2compressionsettings/) | Pengaturan untuk metode kompresi Bzip2. |
-| [CompressionSettings](./compressionsettings/) | Pengaturan diperlukan agar kompresor atau dekompresor berfungsi. |
-| [DeflateCompressionSettings](./deflatecompressionsettings/) | Pengaturan untuk metode kompresi Deflate. |
-| [EncryptionSettings](./encryptionsettings/) | Kelas dasar untuk pengaturan beberapa metode enkripsi zip. |
-| [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings/) | Setelan untuk metode kompresi Enhanced Deflate. |
-| [EventsBag](./eventsbag/) | Kontainer acara digunakan[`Archive`](../aspose.zip/archive/) hemat. |
-| [LzmaCompressionSettings](./lzmacompressionsettings/) | Pengaturan untuk metode kompresi LZMA. |
+| [AesEcryptionSettings](./aesecryptionsettings/) | Pengaturan untuk algoritma enkripsi dan dekripsi AES dalam arsip ZIP. |
+| [ArchiveEntrySettings](./archiveentrysettings/) | Pengaturan yang digunakan untuk mengompresi atau mendekompresi entri. |
+| [ArchiveSaveOptions](./archivesaveoptions/) | Opsi untuk menyimpan arsip ZIP. |
+| [Bzip2CompressionSettings](./bzip2compressionsettings/) | Pengaturan untuk kompresi Bzip2 dalam arsip ZIP. |
+| [CompressionSettings](./compressionsettings/) | Pengaturan yang diperlukan agar kompresor atau dekompresor berfungsi. |
+| [DeflateCompressionSettings](./deflatecompressionsettings/) | Pengaturan untuk kompresi Deflate dalam arsip ZIP. |
+| [EncryptionSettings](./encryptionsettings/) | Kelas dasar untuk pengaturan beberapa metode enkripsi ZIP. |
+| [EnhancedDeflateCompressionSettings](./enhanceddeflatecompressionsettings/) | Pengaturan untuk kompresi Enhanced Deflate dalam arsip ZIP. |
+| [EventsBag](./eventsbag/) | Kontainer peristiwa yang digunakan saat menyimpan [`Archive`](../aspose.zip/archive/). |
+| [LzmaCompressionSettings](./lzmacompressionsettings/) | Pengaturan untuk kompresi LZMA dalam arsip ZIP. |
 | [ParallelOptions](./paralleloptions/) | Opsi untuk kompresi paralel. |
-| [PPMdCompressionSettings](./ppmdcompressionsettings/) | Pengaturan untuk metode kompresi PPMd. |
-| [SelfExtractorOptions](./selfextractoroptions/) | Opsi untuk membuat arsip yang dapat dieksekusi yang dapat diekstrak sendiri. |
-| [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings/) | Pengaturan untuk algoritma enkripsi atau dekripsi AES. |
+| [PPMdCompressionSettings](./ppmdcompressionsettings/) | Pengaturan untuk kompresi PPMd dalam arsip ZIP. |
+| [SelfExtractorOptions](./selfextractoroptions/) | Opsi untuk pembuatan arsip eksekutabel yang dapat mengekstrak sendiri. |
+| [SevenZipAESEncryptionSettings](./sevenzipaesencryptionsettings/) | Pengaturan untuk algoritma enkripsi atau dekripsi AES dalam arsip 7z. |
+| [SevenZipArchiveSaveOptions](./sevenziparchivesaveoptions/) | Opsi untuk menyimpan arsip 7Z. |
 | [SevenZipBZip2CompressionSettings](./sevenzipbzip2compressionsettings/) | Pengaturan untuk metode kompresi BZip2 dalam arsip 7z. |
-| [SevenZipCompressionSettings](./sevenzipcompressionsettings/) | Diperlukan pengaturan agar kompresor atau dekompresor 7z berfungsi. |
+| [SevenZipCompressionSettings](./sevenzipcompressionsettings/) | Pengaturan yang diperlukan agar kompresor atau dekompresor 7z berfungsi. |
 | [SevenZipEncryptionSettings](./sevenzipencryptionsettings/) | Kelas dasar untuk pengaturan beberapa metode enkripsi 7z. |
-| [SevenZipEntrySettings](./sevenzipentrysettings/) | Pengaturan yang digunakan untuk mengompres atau mendekompresi entri 7Z. |
+| [SevenZipEntrySettings](./sevenzipentrysettings/) | Pengaturan yang digunakan untuk mengompresi atau mendekompresi entri 7Z. |
 | [SevenZipLZMA2CompressionSettings](./sevenziplzma2compressionsettings/) | Pengaturan untuk metode kompresi LZMA2 dalam arsip 7z. |
 | [SevenZipLZMACompressionSettings](./sevenziplzmacompressionsettings/) | Pengaturan untuk metode kompresi LZMA dalam arsip 7z. |
 | [SevenZipPPMdCompressionSettings](./sevenzipppmdcompressionsettings/) | Pengaturan untuk metode kompresi PPMd dalam arsip 7z. |
-| [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings/) | Pengaturan untuk metode kompresi Penyimpanan dalam arsip 7z. |
-| [SplitArchiveSaveOptions](./splitarchivesaveoptions/) | Opsi untuk menyimpan arsip zip multivolume. |
-| [SplitSevenZipArchiveSaveOptions](./splitsevenziparchivesaveoptions/) | Opsi untuk menyimpan arsip multi-volume 7-zip. |
-| [StoreCompressionSettings](./storecompressionsettings/) | Setelan untuk metode kompresi Penyimpanan. |
-| [TraditionalEncryptionSettings](./traditionalencryptionsettings/) | Pengaturan untuk algoritme ZipCrypto tradisional. |
-| [XzCompressionSettings](./xzcompressionsettings/) | Pengaturan untuk metode kompresi Xz. |
-## Pencacahan
+| [SevenZipStoreCompressionSettings](./sevenzipstorecompressionsettings/) | Pengaturan untuk metode kompresi Store dalam arsip 7z. |
+| [SplitArchiveSaveOptions](./splitarchivesaveoptions/) | Opsi untuk menyimpan arsip ZIP multi-volume. |
+| [SplitSevenZipArchiveSaveOptions](./splitsevenziparchivesaveoptions/) | Opsi untuk menyimpan arsip 7-zip multi-volume. |
+| [StoreCompressionSettings](./storecompressionsettings/) | Pengaturan untuk kompresi Store dalam arsip ZIP. |
+| [TraditionalEncryptionSettings](./traditionalencryptionsettings/) | Pengaturan untuk algoritma ZipCrypto tradisional dalam arsip ZIP. |
+| [XzCompressionSettings](./xzcompressionsettings/) | Pengaturan untuk kompresi Xz dalam arsip ZIP. |
+| [ZstandardCompressionSettings](./zstandardcompressionsettings/) | Pengaturan untuk kompresi Zstandard dalam arsip ZIP. |
+## Antarmuka
 
-| Pencacahan | Keterangan |
+| Antarmuka | Deskripsi |
 | --- | --- |
-| [EncryptionMethod](./encryptionmethod/) | Metode enkripsi/dekripsi dapat digunakan dengan arsip zip. |
-| [ParallelCompressionMode](./parallelcompressionmode/) | Pilihan penggunaan fasilitas kompresi paralel. |
+| [IVolumeStreamProvider](./ivolumestreamprovider/) | Penyedia aliran untuk komposisi arsip multi-volume. |
+## Enumerasi
+
+| Enumerasi | Deskripsi |
+| --- | --- |
+| [EncryptionMethod](./encryptionmethod/) | Metode enkripsi/dekripsi dapat digunakan dengan arsip ZIP. |
+| [ParallelCompressionMode](./parallelcompressionmode/) | Opsi penggunaan fasilitas kompresi paralel. |
 | [SevenZipCompressionMethod](./sevenzipcompressionmethod/) | Metode kompresi yang didukung format 7Z. |
+| [ZipDataDescriptorPolicy](./zipdatadescriptorpolicy/) | Opsi untuk keberadaan Data Descriptor. |
 
 

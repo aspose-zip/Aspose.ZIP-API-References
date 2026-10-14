@@ -1,24 +1,24 @@
 ---
-title: SevenZipArchive.NewEntrySettings
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: SevenZipArchive Properti. Pengaturan kompresi dan enkripsi digunakan untuk yang baru ditambahkanSevenZipArchiveEntry item.
+title: "SevenZipArchive.NewEntrySettings"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti SevenZipArchive. Pengaturan kompresi dan enkripsi yang digunakan untuk item SevenZipArchiveEntry yang baru ditambahkan."
 type: docs
 weight: 30
 url: /id/net/aspose.zip.sevenzip/sevenziparchive/newentrysettings/
 ---
 ## SevenZipArchive.NewEntrySettings property
 
-Pengaturan kompresi dan enkripsi digunakan untuk yang baru ditambahkan[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) item.
+Pengaturan kompresi dan enkripsi yang digunakan untuk item [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) yang baru ditambahkan.
 
 ```csharp
 public SevenZipEntrySettings NewEntrySettings { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* ruang nama [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

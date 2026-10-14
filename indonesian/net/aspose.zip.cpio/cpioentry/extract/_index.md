@@ -1,39 +1,43 @@
 ---
-title: CpioEntry.Extract
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: CpioEntry metode. Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+title: "CpioEntry.Extract"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode CpioEntry. Mengekstrak entri ke sistem berkas menggunakan jalur yang diberikan"
 type: docs
 weight: 60
 url: /id/net/aspose.zip.cpio/cpioentry/extract/
 ---
 ## Extract(string) {#extract}
 
-Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+Mengekstrak entri ke sistem file menggunakan jalur yang disediakan.
 
 ```csharp
 public FileSystemInfo Extract(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Jalur ke file tujuan. Jika file sudah ada, itu akan ditimpa. |
+| path | String | Jalur ke file tujuan. Jika file sudah ada, akan ditimpa. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Info file dari file yang dibuat.
+Info file dari file yang disusun.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentNullException | *path* adalah nol. |
-| SecurityException | Penelepon tidak memiliki izin yang diperlukan untuk mengakses. |
-| ArgumentException | Itu*path* kosong, hanya berisi spasi putih, atau berisi karakter yang tidak valid. |
-| UnauthorizedAccessException | Akses ke file*path* ditolak. |
-| PathTooLongException | Yang ditentukan*path*, nama file, atau keduanya melebihi panjang maksimum yang ditentukan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama file harus kurang dari 260 karakter. |
-| NotSupportedException | Berkas di*path* berisi titik dua (:) di tengah string. |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+| FileNotFoundException | Berkas tidak ditemukan. |
+| DirectoryNotFoundException | Jalur yang ditentukan tidak valid, misalnya berada pada drive yang tidak dipetakan. |
+| IOException | Berkas sudah terbuka. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))
@@ -42,11 +46,11 @@ using (var archive = new CpioArchive("archive.cpio"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioEntry](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -58,19 +62,21 @@ Mengekstrak entri ke aliran yang disediakan.
 public void Extract(Stream destination)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destination | Stream | Aliran tujuan. Harus dapat ditulis. |
+| tujuan | Stream | Stream tujuan. Harus dapat ditulis. |
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
 | ArgumentException | *destination* tidak mendukung penulisan. |
+| ObjectDisposedException | Dilemparkan jika aliran sumber telah dibuang. |
+| IOException | Terjadi kesalahan I/O. |
 
-### Contoh
+## Contoh
 
-Ekstrak entri arsip cpio.
+Ekstrak sebuah entri dari arsip cpio.
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))
@@ -79,10 +85,10 @@ using (var archive = new CpioArchive("archive.cpio"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [CpioEntry](../)
-* ruang nama [Aspose.Zip.Cpio](../../cpioentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

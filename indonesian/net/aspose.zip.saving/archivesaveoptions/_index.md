@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveSaveOptions
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Aspose.Zip.Saving.ArchiveSaveOptions kelas. Opsi untuk menyimpan arsip zip.
+title: "Kelas ArchiveSaveOptions"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Kelas Aspose.Zip.Saving.ArchiveSaveOptions. Opsi untuk menyimpan arsip ZIP"
 type: docs
-weight: 380
+weight: 870
 url: /id/net/aspose.zip.saving/archivesaveoptions/
 ---
 ## ArchiveSaveOptions class
 
-Opsi untuk menyimpan arsip zip.
+Opsi untuk menyimpan arsip ZIP.
 
 ```csharp
 public class ArchiveSaveOptions
@@ -16,23 +16,26 @@ public class ArchiveSaveOptions
 
 ## Konstruktor
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
 | [ArchiveSaveOptions](archivesaveoptions/)() | Konstruktor default. |
 
 ## Properti
 
-| Nama | Keterangan |
+| Nama | Deskripsi |
 | --- | --- |
-| [ArchiveComment](../../aspose.zip.saving/archivesaveoptions/archivecomment/) { get; set; } | Mendapat atau menyetel komentar opsional untuk file Zip. |
-| [Encoding](../../aspose.zip.saving/archivesaveoptions/encoding/) { get; set; } | Mendapat atau menyetel penyandian untuk mengonversi nama file dan string lain menjadi byte. |
-| [EventsBag](../../aspose.zip.saving/archivesaveoptions/eventsbag/) { get; set; } | Mendapat atau menyetel penampung acara yang muncul saat penyimpanan arsip. |
-| [ParallelOptions](../../aspose.zip.saving/archivesaveoptions/paralleloptions/) { get; set; } | Mendapatkan atau menyetel setelan untuk kompresi paralel. |
-| [SelfExtractorOptions](../../aspose.zip.saving/archivesaveoptions/selfextractoroptions/) { get; set; } | Mendapatkan atau menyetel pengaturan untuk arsip yang diekstrak sendiri. |
+| [ArchiveComment](../../aspose.zip.saving/archivesaveoptions/archivecomment/) { get; set; } | Mendapatkan atau mengatur komentar opsional untuk file Zip. |
+| [CloseEntrySource](../../aspose.zip.saving/archivesaveoptions/closeentrysource/) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah sumber entri harus ditutup segera setelah entri dikompresi. |
+| [DataDescriptorPolicy](../../aspose.zip.saving/archivesaveoptions/datadescriptorpolicy/) { get; set; } | Mendapatkan atau mengatur pengaturan untuk emisi Data Descriptor. |
+| [Encoding](../../aspose.zip.saving/archivesaveoptions/encoding/) { get; set; } | Mendapatkan atau mengatur enkoding untuk mengonversi nama file dan string lainnya menjadi byte. |
+| [EncryptionOptions](../../aspose.zip.saving/archivesaveoptions/encryptionoptions/) { get; set; } | Mendapatkan atau mengatur pengaturan enkripsi untuk menyimpan arsip ZIP yang ada. |
+| [EventsBag](../../aspose.zip.saving/archivesaveoptions/eventsbag/) { get; set; } | Mendapatkan atau mengatur kontainer peristiwa yang dipicu saat menyimpan arsip. |
+| [ParallelOptions](../../aspose.zip.saving/archivesaveoptions/paralleloptions/) { get; set; } | Mendapatkan atau mengatur pengaturan untuk kompresi paralel. |
+| [SelfExtractorOptions](../../aspose.zip.saving/archivesaveoptions/selfextractoroptions/) { get; set; } | Mendapatkan atau mengatur pengaturan untuk arsip yang dapat mengekstrak sendiri. |
 
-### Lihat juga
+### Lihat Juga
 
-* ruang nama [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* perakitan [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

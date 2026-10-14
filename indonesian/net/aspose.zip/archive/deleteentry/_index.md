@@ -1,30 +1,37 @@
 ---
-title: Archive.DeleteEntry
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: Archive metode. Menghapus kejadian pertama dari entri tertentu dari daftar entri.
+title: "Archive.DeleteEntry"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode Archive. Menghapus kemunculan pertama entri spesifik dari daftar entri."
 type: docs
-weight: 60
+weight: 70
 url: /id/net/aspose.zip/archive/deleteentry/
 ---
 ## DeleteEntry(ArchiveEntry) {#deleteentry}
 
-Menghapus kejadian pertama dari entri tertentu dari daftar entri.
+Menghapus kemunculan pertama dari entri spesifik dari daftar entri.
 
 ```csharp
 public Archive DeleteEntry(ArchiveEntry entry)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entry | ArchiveEntry | Entri untuk dihapus dari daftar entri. |
+| entri | ArchiveEntry | Entri yang akan dihapus dari daftar entri. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri dihapus.
+Arsip dengan entri yang dihapus.
 
-### Contoh
+### Pengecualian
 
-Inilah cara Anda dapat menghapus semua entri kecuali yang terakhir:
+| exception | kondisi |
+| --- | --- |
+| ObjectDisposedException | Arsip telah dibuang. |
+| InvalidOperationException | Dilemparkan ketika penghapusan entri tidak valid karena keadaan arsip saat ini. |
+
+## Contoh
+
+Berikut cara Anda dapat menghapus semua entri kecuali yang terakhir:
 
 ```csharp
 using (var archive = new Archive("archive.zip"))
@@ -35,38 +42,40 @@ using (var archive = new Archive("archive.zip"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Menghapus entri dari daftar entri menurut indeks.
+Menghapus entri dari daftar entri berdasarkan indeks.
 
 ```csharp
 public Archive DeleteEntry(int entryIndex)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| entryIndex | Int32 | Indeks entri berbasis nol yang akan dihapus. |
+| entryIndex | Int32 | Indeks berbasis nol dari entri yang akan dihapus. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-Arsip dengan entri dihapus.
+Arsip dengan entri yang dihapus.
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| exception | kondisi |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* kurang dari 0,-atau-*entryIndex* sama dengan atau lebih besar dari`Entri` menghitung. |
+| ObjectDisposedException | Archive telah dibuang. |
+| ArgumentOutOfRangeException | *entryIndex* kurang dari 0.-atau- *entryIndex* sama dengan atau lebih besar dari jumlah `Entries` count. |
+| InvalidOperationException | Dilemparkan ketika penghapusan entri tidak valid karena keadaan arsip saat ini. |
 
-### Contoh
+## Contoh
 
 ```csharp
 using (var archive = new TarArchive("two_files.zip"))
@@ -76,10 +85,10 @@ using (var archive = new TarArchive("two_files.zip"))
 }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * class [Archive](../)
-* ruang nama [Aspose.Zip](../../archive/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: IArchiveFileEntry.Length
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: IArchiveFileEntry Properti. Mendapatkan panjang entri dalam byte.
+title: "IArchiveFileEntry.Length"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Properti IArchiveFileEntry. Mendapatkan panjang entri dalam byte."
 type: docs
 weight: 10
 url: /id/net/aspose.zip/iarchivefileentry/length/
@@ -14,10 +14,10 @@ Mendapatkan panjang entri dalam byte.
 public long? Length { get; }
 ```
 
-### Lihat juga
+### Lihat Juga
 
 * interface [IArchiveFileEntry](../)
-* ruang nama [Aspose.Zip](../../iarchivefileentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

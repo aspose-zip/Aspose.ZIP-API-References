@@ -1,32 +1,32 @@
 ---
-title: MeteredLicense.SetMeteredKey
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: MeteredLicense metode. Menetapkan kunci publik dan pribadi terukur.
+title: "MeteredLicense.SetMeteredKey"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode MeteredLicense. Mengatur kunci publik dan privat bermeter"
 type: docs
-weight: 20
+weight: 30
 url: /id/net/aspose.zip/meteredlicense/setmeteredkey/
 ---
 ## MeteredLicense.SetMeteredKey method
 
-Menetapkan kunci publik dan pribadi terukur.
+Mengatur kunci publik dan privat bermeter.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
 | publicKey | String | Kunci publik. |
-| privateKey | String | Kunci pribadi. |
+| privateKey | String | Kunci privat. |
 
-### Perkataan
+## Catatan
 
-Jika Anda membeli lisensi terukur, saat memulai aplikasi, API ini harus dipanggil, biasanya, ini sudah cukup. Namun, jika selalu gagal mengunggah data konsumsi dan melebihi 24 jam, lisensi akan disetel ke status evaluasi, untuk menghindari kasus tersebut, Anda harus memeriksa status lisensi secara berkala, jika status evaluasi, hubungi API ini lagi.
+Jika Anda membeli lisensi bermeter, API ini harus dipanggil saat aplikasi dimulai, biasanya ini sudah cukup. Namun, jika metered gagal mengunggah data konsumsi selama periode 24 jam, lisensi akan diatur ke status evaluasi. Untuk menghindari hal tersebut, Anda harus secara teratur memeriksa status lisensi. Jika statusnya masih evaluasi, panggil kembali API ini.
 
-### Lihat juga
+### Lihat Juga
 
 * class [MeteredLicense](../)
-* ruang nama [Aspose.Zip](../../meteredlicense/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

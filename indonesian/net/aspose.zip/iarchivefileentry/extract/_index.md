@@ -1,32 +1,43 @@
 ---
-title: IArchiveFileEntry.Extract
-second_title: Aspose.ZIP untuk Referensi .NET API
-description: IArchiveFileEntry metode. Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+title: "IArchiveFileEntry.Extract"
+second_title: "Aspose.ZIP untuk Referensi API .NET"
+description: "Metode IArchiveFileEntry. Mengekstrak entri ke sistem berkas menggunakan jalur yang diberikan."
 type: docs
 weight: 30
 url: /id/net/aspose.zip/iarchivefileentry/extract/
 ---
 ## Extract(string) {#extract}
 
-Mengekstrak entri ke sistem file dengan jalur yang disediakan.
+Mengekstrak entri ke sistem file menggunakan jalur yang disediakan.
 
 ```csharp
 public FileInfo Extract(string path)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| path | String | Jalur ke file tujuan. Jika file sudah ada, itu akan ditimpa. |
+| path | String | Jalur ke file tujuan. Jika file sudah ada, akan ditimpa. |
 
-### Nilai Pengembalian
+### Nilai Kembalian
 
-FileInfo contoh yang berisi data yang diekstrak.
+Instansi FileInfo yang berisi data yang diekstrak.
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ArgumentNullException | *path* bernilai null. |
+| SecurityException | Pemanggil tidak memiliki izin yang diperlukan untuk mengakses. |
+| ArgumentException | *path* kosong, hanya berisi spasi, atau berisi karakter tidak valid. |
+| UnauthorizedAccessException | Akses ke berkas *path* ditolak. |
+| PathTooLongException | *path* yang ditentukan, nama berkas, atau keduanya melebihi panjang maksimum yang ditetapkan sistem. Misalnya, pada platform berbasis Windows, jalur harus kurang dari 248 karakter, dan nama berkas harus kurang dari 260 karakter. |
+| NotSupportedException | Berkas di *path* mengandung titik dua (:) di tengah string. |
+
+### Lihat Juga
 
 * interface [IArchiveFileEntry](../)
-* ruang nama [Aspose.Zip](../../iarchivefileentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -38,14 +49,20 @@ Mengekstrak entri ke aliran yang disediakan.
 public void Extract(Stream destination)
 ```
 
-| Parameter | Jenis | Keterangan |
+| Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| destination | Stream | Aliran tujuan. Harus dapat ditulis. |
+| tujuan | Stream | Stream tujuan. Harus dapat ditulis. |
 
-### Lihat juga
+### Pengecualian
+
+| exception | kondisi |
+| --- | --- |
+| ArgumentException | *destination* tidak mendukung penulisan. |
+
+### Lihat Juga
 
 * interface [IArchiveFileEntry](../)
-* ruang nama [Aspose.Zip](../../iarchivefileentry/)
-* perakitan [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 
