@@ -1,0 +1,106 @@
+---
+title: "TarArchive.SaveLZ4Compressed"
+second_title: "Riferimento API Aspose.ZIP per .NET"
+description: "Metodo TarArchive. Salva l'archivio nello stream con compressione LZ4"
+type: docs
+weight: 170
+url: /it/net/aspose.zip.tar/tararchive/savelz4compressed/
+---
+## SaveLZ4Compressed(Stream, TarFormat?) {#savelz4compressed}
+
+Salva l'archivio nello stream con compressione LZ4.
+
+```csharp
+public void SaveLZ4Compressed(Stream output, TarFormat? format = default)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| output | Stream | Stream di destinazione. |
+| formato | Nullable`1 | Definisce il formato dell'intestazione tar. Il valore null sarà trattato come USTar quando possibile. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentNullException | *output* è nullo. |
+| ArgumentException | *output* non è scrivibile. |
+| ObjectDisposedException | L'archivio è stato eliminato e non può essere usato |
+| IOException | Si è verificato un errore di I/O. |
+
+## Osservazioni
+
+*output* must be writable.
+
+## Esempi
+
+```csharp
+using (FileStream result = File.OpenWrite("result.tar.lz4"))
+{
+    using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
+    {
+        using (var archive = new TarArchive())
+        {
+            archive.CreateEntry("entry.bin", source);
+            archive.SaveLZ4Compressed(result);
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* enum [TarFormat](../../tarformat/)
+* class [TarArchive](../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## SaveLZ4Compressed(string, TarFormat?) {#savelz4compressed_1}
+
+Salva l'archivio nel file specificato dal percorso con compressione LZ4.
+
+```csharp
+public void SaveLZ4Compressed(string path, TarFormat? format = default)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| percorso | String | Il percorso dell'archivio da creare. Se il nome file specificato punta a un file esistente, verrà sovrascritto. |
+| formato | Nullable`1 | Definisce il formato dell'intestazione tar. Il valore null sarà trattato come USTar quando possibile. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| UnauthorizedAccessException | Il chiamante non dispone dell'autorizzazione richiesta. -oppure- *path* specifica un file o una directory di sola lettura. |
+| ArgumentException | *path* è una stringa di lunghezza zero, contiene solo spazi bianchi, o contiene uno o più caratteri non validi come definiti da InvalidPathChars. |
+| ArgumentNullException | *path* è nullo. |
+| PathTooLongException | Il *path* specificato, il nome del file o entrambi superano la lunghezza massima definita dal sistema. Ad esempio, su piattaforme Windows, i percorsi devono essere inferiori a 248 caratteri e i nomi dei file devono essere inferiori a 260 caratteri. |
+| DirectoryNotFoundException | Il *path* specificato non è valido, (ad esempio, si trova su un'unità non mappata). |
+| NotSupportedException | *path* è in un formato non valido. |
+| ObjectDisposedException | L'archivio è stato eliminato e non può essere usato |
+| IOException | Si è verificato un errore di I/O. |
+
+## Esempi
+
+```csharp
+using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
+{
+    using (var archive = new TarArchive())
+    {
+        archive.CreateEntry("entry.bin", source);
+        archive.SaveLZ4Compressed("result.tar.lz4");
+    }
+}
+```
+
+### Vedi anche
+
+* enum [TarFormat](../../tarformat/)
+* class [TarArchive](../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
+
+
