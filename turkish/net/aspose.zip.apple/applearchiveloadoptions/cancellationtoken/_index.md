@@ -1,0 +1,76 @@
+---
+title: "AppleArchiveLoadOptions.CancellationToken"
+second_title: "Aspose.ZIP için .NET API Referansı"
+description: "AppleArchiveLoadOptions özelliği. Çıkarma işlemini iptal etmek için kullanılan bir iptal belirtecini alır veya ayarlar"
+type: docs
+weight: 20
+url: /tr/net/aspose.zip.apple/applearchiveloadoptions/cancellationtoken/
+---
+## AppleArchiveLoadOptions.CancellationToken property
+
+Çıkarma işlemini iptal etmek için kullanılan bir iptal belirtecini alır veya ayarlar.
+
+```csharp
+public CancellationToken CancellationToken { get; set; }
+```
+
+## Açıklamalar
+
+Bu özellik .NET Framework 4.0 ve üzeri için mevcuttur.
+
+## Örnekler
+
+Belirli bir süreden sonra Apple Archive çıkarma işlemini iptal et.
+
+```csharp
+using (System.Threading.CancellationTokenSource cts = new System.Threading.CancellationTokenSource())
+{
+    cts.CancelAfter(System.TimeSpan.FromSeconds(60)); 
+    using (var a = new AppleArchive("big.aar", new AppleArchiveLoadOptions() { CancellationToken = cts.Token }))
+    {
+        try
+        {
+             a.ExtractToDirectory("destination");
+        }
+        catch(System.OperationCanceledException)
+        {
+            Console.WriteLine("Extraction was cancelled after 60 seconds");
+        }
+    }
+}
+```
+
+`Task` ile kullanım
+
+```csharp
+System.Threading.CancellationTokenSource cts = new System.Threading.CancellationTokenSource();
+cts.CancelAfter(System.TimeSpan.FromSeconds(60));
+System.Threading.Tasks.Task t = System.Threading.Tasks.Task.Run(delegate()
+{
+    var loadOptions = new AppleArchiveLoadOptions() { CancellationToken = cts.Token };
+    using (var a = new AppleArchive("big.aar", loadOptions))
+    {
+         a.ExtractToDirectory("destination");
+    }
+}, cts.Token);
+
+t.ContinueWith(delegate(System.Threading.Tasks.Task antecedent)
+{
+     if (antecedent.IsCanceled)
+     {
+         Console.WriteLine("Extraction was cancelled after 60 seconds");
+     }
+
+     cts.Dispose();
+});
+```
+
+İptal, genellikle bazı verilerin çıkarılmamasına neden olur.
+
+### Ayrıca Bakınız
+
+* class [AppleArchiveLoadOptions](../)
+* namespace [Aspose.Zip.Apple](../../applearchiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
+
+
