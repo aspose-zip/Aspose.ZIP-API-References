@@ -1,0 +1,24 @@
+---
+title: "EventsBag.EntryAccessed"
+second_title: "مرجع API لـ Aspose.ZIP لـ .NET"
+description: "حدث EventsBag. يتم إطلاقه قبل ضغط عنصر الأرشيف"
+type: docs
+weight: 20
+url: /ar/net/aspose.zip.iso/eventsbag/entryaccessed/
+---
+## EventsBag.EntryAccessed event
+
+يُطلق قبل ضغط عنصر الأرشيف.
+
+```csharp
+public event EventHandler<EntryEventArgs> EntryAccessed;
+```
+
+### انظر أيضًا
+
+* class [EntryEventArgs](../../entryeventargs/)
+* class [EventsBag](../)
+* namespace [Aspose.Zip.Iso](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
+
+
