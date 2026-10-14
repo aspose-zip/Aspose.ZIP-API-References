@@ -1,7 +1,7 @@
 ---
-title: Bzip2CompressionSettings.BlockSize
-second_title: Aspose.ZIP для справочника API .NET
-description: Bzip2CompressionSettings свойство. Размер блока в сотнях килобайт.
+title: "Bzip2CompressionSettings.BlockSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство Bzip2CompressionSettings. Размер блока в сотнях килобайт"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.saving/bzip2compressionsettings/blocksize/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.saving/bzip2compressionsettings/blocksize/
 public int BlockSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2CompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

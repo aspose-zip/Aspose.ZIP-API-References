@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchiveEntry.ModificationTime
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchiveEntry свойство. Получает дату и время последнего изменения.
+title: "SevenZipArchiveEntry.ModificationTime"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipArchiveEntry. Возвращает дату и время последнего изменения"
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/modificationtime/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/modificationtime/
 public DateTime ModificationTime { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

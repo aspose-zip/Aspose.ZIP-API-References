@@ -1,30 +1,30 @@
 ---
-title: Class RarArchiveEntryEncrypted
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Rar.RarArchiveEntryEncrypted сорт. Zipзапись которую необходимо распаковать с расшифровкой.
+title: "Класс RarArchiveEntryEncrypted"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Rar.RarArchiveEntryEncrypted. Запись Zip, которую необходимо распаковать с расшифровкой"
 type: docs
-weight: 330
+weight: 810
 url: /ru/net/aspose.zip.rar/rararchiveentryencrypted/
 ---
 ## RarArchiveEntryEncrypted class
 
-Zip-запись, которую необходимо распаковать с расшифровкой.
+Запись Zip, которую необходимо распаковать с расшифровкой.
 
 ```csharp
 public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [CompressedSize](../../aspose.zip.rar/rararchiveentry/compressedsize/) { get; } | Получает размер сжатого файла. |
 | [CreationTime](../../aspose.zip.rar/rararchiveentry/creationtime/) { get; } | Получает дату и время создания. |
-| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
+| [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | Возвращает значение, указывающее, является ли запись каталогом. |
 | [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime/) { get; } | Получает дату и время последнего доступа. |
 | [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime/) { get; } | Получает дату и время последнего изменения. |
-| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Получает имя записи в архиве. |
-| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Получает размер исходного файла. |
+| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | Возвращает имя записи в архиве. |
+| [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | Получает размер оригинального файла. |
 
 ## Методы
 
@@ -38,12 +38,12 @@ public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | Возникает при извлечении части необработанного потока. |
+| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | Вызывается, когда часть необработанного потока извлечена. |
 
-### Смотрите также
+### См. также
 
 * class [RarArchiveEntry](../rararchiveentry/)
-* пространство имен [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

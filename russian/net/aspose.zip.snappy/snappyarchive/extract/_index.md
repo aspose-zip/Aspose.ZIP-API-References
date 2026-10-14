@@ -1,14 +1,14 @@
 ---
-title: SnappyArchive.Extract
-second_title: Aspose.ZIP для справочника API .NET
-description: SnappyArchive метод. Извлекает архив snappy в поток.
+title: "SnappyArchive.Extract"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SnappyArchive. Извлекает snappy‑архив в поток"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.snappy/snappyarchive/extract/
 ---
 ## Extract(Stream) {#extract_2}
 
-Извлекает архив snappy в поток.
+Извлекает snappy-архив в поток.
 
 ```csharp
 public void Extract(Stream destination)
@@ -16,18 +16,19 @@ public void Extract(Stream destination)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destination | Stream | Поток для хранения распакованных данных. |
+| назначение | Stream | Поток для хранения распакованных данных. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Заголовки архива и служебная информация не читались. |
-| InvalidDataException | Ошибка данных в заголовке или контрольной сумме. |
-| ArgumentNullException | Целевой поток равен нулю. |
-| ArgumentException | Целевой поток не поддерживает запись. |
+| InvalidOperationException | Заголовки архива и служебная информация не были прочитаны. |
+| InvalidDataException | Ошибка в данных заголовка или контрольной суммы. |
+| ArgumentNullException | Поток назначения равен null. |
+| ArgumentException | Поток назначения не поддерживает запись. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream sourceSnappyFile = File.Open(sourceFileName, FileMode.Open))
@@ -42,17 +43,17 @@ using (FileStream sourceSnappyFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SnappyArchive](../)
-* пространство имен [Aspose.Zip.Snappy](../../snappyarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(FileInfo) {#extract_1}
 
-Извлекает архив snappy в файл.
+Извлекает snappy-архив в файл.
 
 ```csharp
 public void Extract(FileInfo fileInfo)
@@ -66,16 +67,17 @@ public void Extract(FileInfo fileInfo)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Заголовки архива и служебная информация не читались. |
-| SecurityException | У вызывающего абонента нет необходимых разрешений для открытия*fileInfo*. |
-| ArgumentException | Путь к файлу пуст или содержит только пробелы. |
+| InvalidOperationException | Заголовки архива и служебная информация не были прочитаны. |
+| SecurityException | У вызывающего нет необходимого разрешения для открытия *fileInfo*. |
+| ArgumentException | Путь к файлу пустой или содержит только пробелы. |
 | FileNotFoundException | Файл не найден. |
 | UnauthorizedAccessException | Путь к файлу доступен только для чтения или является каталогом. |
-| ArgumentNullException | *fileInfo* нулевой. |
-| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
+| ArgumentNullException | *fileInfo* равен null. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
 | IOException | Файл уже открыт. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream snappyFile = File.Open(sourceFileName, FileMode.Open))
@@ -87,17 +89,17 @@ using (FileStream snappyFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SnappyArchive](../)
-* пространство имен [Aspose.Zip.Snappy](../../snappyarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(string) {#extract}
 
-Извлекает архив snappy в файл по пути.
+Извлекает snappy-архив в файл по пути.
 
 ```csharp
 public FileInfo Extract(string path)
@@ -107,19 +109,26 @@ public FileInfo Extract(string path)
 | --- | --- | --- |
 | path | String | Путь к файлу, в котором будут храниться распакованные данные. |
 
+### Возвращаемое значение
+
+Экземпляр FileInfo, содержащий извлечённые данные.
+
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Заголовки архива и служебная информация не читались. |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| InvalidOperationException | Заголовки архива и служебная информация не были прочитаны. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| FileNotFoundException | Файл не найден. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream snappyFile = File.Open(sourceFileName, FileMode.Open))
@@ -131,10 +140,10 @@ using (FileStream snappyFile = File.Open(sourceFileName, FileMode.Open))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SnappyArchive](../)
-* пространство имен [Aspose.Zip.Snappy](../../snappyarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

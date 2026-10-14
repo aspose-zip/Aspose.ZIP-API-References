@@ -1,24 +1,24 @@
 ---
-title: ArchiveEntry.CompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntry свойство. Получает параметры сжатия или распаковки.
+title: "ArchiveEntry.CompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveEntry. Возвращает настройки сжатия или распаковки."
 type: docs
 weight: 30
 url: /ru/net/aspose.zip/archiveentry/compressionsettings/
 ---
 ## ArchiveEntry.CompressionSettings property
 
-Получает параметры сжатия или распаковки.
+Возвращает настройки сжатия или распаковки.
 
 ```csharp
 public CompressionSettings CompressionSettings { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../../../aspose.zip.saving/compressionsettings/)
 * class [ArchiveEntry](../)
-* пространство имен [Aspose.Zip](../../archiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

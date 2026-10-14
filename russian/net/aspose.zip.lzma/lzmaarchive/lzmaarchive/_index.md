@@ -1,14 +1,14 @@
 ---
-title: LzmaArchive.LzmaArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: LzmaArchive строитель. Инициализирует новый экземплярLzmaArchive class и составляет архив в формате lzma.
+title: "LzmaArchive.LzmaArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор LzmaArchive. Инициализирует новый экземпляр класса LzmaArchive и создает архив в формате lzma."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.lzma/lzmaarchive/lzmaarchive/
 ---
 ## LzmaArchive(LzmaArchiveSettings) {#constructor}
 
-Инициализирует новый экземпляр[`LzmaArchive`](../) class и составляет архив в формате lzma.
+Инициализирует новый экземпляр класса [`LzmaArchive`](../) и создает архив в формате lzma.
 
 ```csharp
 public LzmaArchive(LzmaArchiveSettings settings = null)
@@ -16,20 +16,20 @@ public LzmaArchive(LzmaArchiveSettings settings = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| settings | LzmaArchiveSettings | Набор настроек конкретного архива lzma. |
+| настройки | LzmaArchiveSettings | Набор настроек конкретного lzma-архива. |
 
-### Смотрите также
+### См. также
 
 * class [LzmaArchiveSettings](../../lzmaarchivesettings/)
 * class [LzmaArchive](../)
-* пространство имен [Aspose.Zip.LZMA](../../lzmaarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## LzmaArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр[`LzmaArchive`](../) класс подготовлен к распаковке.
+Инициализирует новый экземпляр класса [`LzmaArchive`](../), подготовленный для распаковки.
 
 ```csharp
 public LzmaArchive(Stream source)
@@ -43,24 +43,23 @@ public LzmaArchive(Stream source)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *source* не доступен для поиска. |
-| ArgumentNullException | *source* нулевой. |
+| ArgumentNullException | *source* равен null. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывается. Видеть[`Extract`](../extract/) метод распаковки.
+Этот конструктор не распаковывает. См. метод [`Extract`](../extract/) для распаковки.
 
-### Смотрите также
+### См. также
 
 * class [LzmaArchive](../)
-* пространство имен [Aspose.Zip.LZMA](../../lzmaarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## LzmaArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр[`LzmaArchive`](../) класс подготовлен к распаковке.
+Инициализирует новый экземпляр класса [`LzmaArchive`](../), подготовленный для распаковки.
 
 ```csharp
 public LzmaArchive(string path)
@@ -74,18 +73,21 @@ public LzmaArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| FileNotFoundException | Файл не найден. |
+| IOException | Файл уже открыт. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывается. Видеть[`Extract`](../extract/) метод распаковки.
+Этот конструктор не распаковывает. См. метод [`Extract`](../extract/) для распаковки.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
@@ -94,13 +96,13 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
     {
          archive.Extract(extractedFile);
     }
-   }
+}
 ```
 
-### Смотрите также
+### См. также
 
 * class [LzmaArchive](../)
-* пространство имен [Aspose.Zip.LZMA](../../lzmaarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.LZMA](../../lzmaarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

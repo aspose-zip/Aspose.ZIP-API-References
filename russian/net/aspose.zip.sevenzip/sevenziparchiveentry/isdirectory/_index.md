@@ -1,23 +1,23 @@
 ---
-title: SevenZipArchiveEntry.IsDirectory
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchiveEntry свойство. Получает значение указывающее представляет ли запись каталог.
+title: "SevenZipArchiveEntry.IsDirectory"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipArchiveEntry. Возвращает значение, указывающее, представляет ли запись каталог"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/
 ---
 ## SevenZipArchiveEntry.IsDirectory property
 
-Получает значение, указывающее, представляет ли запись каталог.
+Возвращает значение, указывающее, является ли запись каталогом.
 
 ```csharp
 public bool IsDirectory { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

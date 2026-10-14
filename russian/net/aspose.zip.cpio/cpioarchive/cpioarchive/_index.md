@@ -1,20 +1,20 @@
 ---
-title: CpioArchive.CpioArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioArchive строитель. Инициализирует новый экземплярCpioArchive класс.
+title: "CpioArchive.CpioArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор CpioArchive. Инициализирует новый экземпляр класса CpioArchive."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.cpio/cpioarchive/cpioarchive/
 ---
 ## CpioArchive() {#constructor}
 
-Инициализирует новый экземпляр[`CpioArchive`](../) класс.
+Инициализирует новый экземпляр класса [`CpioArchive`](../).
 
 ```csharp
 public CpioArchive()
 ```
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как сжать файл.
 
@@ -26,17 +26,17 @@ using (var archive = new CpioArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CpioArchive(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр[`CpioArchive`](../) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`CpioArchive`](../) и формирует список записей, который может быть извлечён из архива.
 
 ```csharp
 public CpioArchive(Stream sourceStream)
@@ -44,21 +44,24 @@ public CpioArchive(Stream sourceStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceStream | Stream | Источник архива. Он должен быть доступен для поиска. |
+| sourceStream | Stream | Источник архива. Должен поддерживать поиск. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceStream* нулевой. |
-| ArgumentException | *sourceStream* не доступен для поиска. |
-| InvalidDataException | *sourceStream* недействительный архив cpio. |
+| ArgumentNullException | *sourceStream* имеет значение null. |
+| ArgumentException | *sourceStream* не поддерживает перемещение. |
+| InvalidDataException | *sourceStream* не является действительным архивом cpio. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до того, как все байты заголовка или имени были прочитаны. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
+| IOException | Произошла ошибка ввода/вывода. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../cpioentry/open/)способ распаковки.
+Этот конструктор не распаковывает ни одну запись. См. метод [`Open`](../../cpioentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как извлечь все записи в каталог.
 
@@ -69,17 +72,17 @@ using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CpioArchive(string) {#constructor_2}
 
-Инициализирует новый экземпляр[`CpioArchive`](../) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`CpioArchive`](../) и формирует список записей, который может быть извлечён из архива.
 
 ```csharp
 public CpioArchive(string path)
@@ -93,18 +96,24 @@ public CpioArchive(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до того, как все байты заголовка или имени были прочитаны. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
+| InvalidDataException | Выбрасывается, когда данные недействительны или повреждены. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../cpioentry/open/)способ распаковки.
+Этот конструктор не распаковывает ни одну запись. См. метод [`Open`](../../cpioentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как извлечь все записи в каталог.
 
@@ -115,10 +124,10 @@ using (var archive = new CpioArchive("archive.cpio"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

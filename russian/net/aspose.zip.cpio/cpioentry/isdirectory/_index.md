@@ -1,23 +1,23 @@
 ---
-title: CpioEntry.IsDirectory
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioEntry свойство. Получает значение указывающее представляет ли запись каталог.
+title: "CpioEntry.IsDirectory"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CpioEntry. Возвращает значение, указывающее, является ли запись каталогом"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.cpio/cpioentry/isdirectory/
 ---
 ## CpioEntry.IsDirectory property
 
-Получает значение, указывающее, представляет ли запись каталог.
+Возвращает значение, указывающее, является ли запись каталогом.
 
 ```csharp
 public bool IsDirectory { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,25 +1,26 @@
 ---
-title: Class CabEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Cab.CabEntry сорт. Представляет один файл в CABархиве.
+title: "Класс CabEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Cab.CabEntry. Представляет отдельный файл внутри CAB-архива."
 type: docs
-weight: 130
+weight: 330
 url: /ru/net/aspose.zip.cab/cabentry/
 ---
 ## CabEntry class
 
-Представляет один файл в CAB-архиве.
+Представляет отдельный файл внутри архива CAB.
 
 ```csharp
 public sealed class CabEntry : IArchiveFileEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [Length](../../aspose.zip.cab/cabentry/length/) { get; } | Получает длину записи в байтах. |
-| [Name](../../aspose.zip.cab/cabentry/name/) { get; } | Получает имя записи в архиве. |
+| [ModificationTime](../../aspose.zip.cab/cabentry/modificationtime/) { get; } | Получает дату и время последнего изменения. |
+| [Name](../../aspose.zip.cab/cabentry/name/) { get; } | Возвращает имя записи в архиве. |
 
 ## Методы
 
@@ -30,10 +31,10 @@ public sealed class CabEntry : IArchiveFileEntry
 | [Open](../../aspose.zip.cab/cabentry/open/)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 | override [ToString](../../aspose.zip.cab/cabentry/tostring/)() |  |
 
-### Смотрите также
+### См. также
 
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* пространство имен [Aspose.Zip.Cab](../../aspose.zip.cab/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Cab](../../aspose.zip.cab/)
+* assembly [Aspose.Zip](../../)
 
 

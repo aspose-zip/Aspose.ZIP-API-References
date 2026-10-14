@@ -1,14 +1,14 @@
 ---
-title: PPMdCompressionSettings.PPMdCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: PPMdCompressionSettings строитель. Инициализирует новый экземплярPPMdCompressionSettings класс.
+title: "PPMdCompressionSettings.PPMdCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор PPMdCompressionSettings. Инициализирует новый экземпляр класса PPMdCompressionSettings"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/ppmdcompressionsettings/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр[`PPMdCompressionSettings`](../) класс.
+Инициализирует новый экземпляр класса [`PPMdCompressionSettings`](../).
 
 ```csharp
 public PPMdCompressionSettings(int modelOrder, int suballocatorSize)
@@ -16,22 +16,22 @@ public PPMdCompressionSettings(int modelOrder, int suballocatorSize)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| modelOrder | Int32 | Заказ модели. |
-| suballocatorSize | Int32 | Размер памяти в субраспределителе МБ может потребляться. |
+| modelOrder | Int32 | Порядок модели. |
+| suballocatorSize | Int32 | Размер памяти в МБ, который может потреблять субаллокация. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *modelOrder* не находится между 2 и 16. - или -*suballocatorSize* не находится между 1 и 256. |
+| ArgumentOutOfRangeException | *modelOrder* не находится в диапазоне от 2 до 16. - или - *suballocatorSize* не находится в диапазоне от 1 до 256. |
 
-### Примечания
+## Примечания
 
-Более крупные порядки моделей почти наверняка приводят к лучшему сжатию и, безусловно, к большему использованию памяти и ЦП.
+Более высокие порядки модели почти наверняка приводят к лучшему сжатию и, безусловно, к большему использованию памяти и процессора.
 
-Алгоритму PPMd может потребоваться много памяти, особенно при использовании с большими файлами и/или с большим заказом моделей. Если ppmd требуется больше памяти, чем вы ему даете, сжатие будет хуже.
+Алгоритм PPMd может требовать много памяти, особенно при работе с большими файлами и/или при использовании большого порядка модели. Если ppmd потребует больше памяти, чем вы предоставляете, сжатие будет хуже.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressionSettings(4, 10))))
@@ -41,27 +41,27 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressio
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PPMdCompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## PPMdCompressionSettings() {#constructor}
 
-Инициализирует новый экземпляр[`PPMdCompressionSettings`](../) класс с порядком модели по умолчанию и размером вспомогательного распределителя.
+Инициализирует новый экземпляр класса [`PPMdCompressionSettings`](../) с порядком модели по умолчанию и размером субаллокации.
 
 ```csharp
 public PPMdCompressionSettings()
 ```
 
-### Примечания
+## Примечания
 
-Порядок моделей по умолчанию — 8, а размер вспомогательного распределителя — 50 МБ.
+Порядок модели по умолчанию равен 8, а размер субаллокации — 50 МБ.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressionSettings())))
@@ -71,10 +71,10 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new PPMdCompressio
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PPMdCompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: IArchiveFileEntry.Name
-second_title: Aspose.ZIP для справочника API .NET
-description: IArchiveFileEntry свойство. Получает имя записи.
+title: "IArchiveFileEntry.Name"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство IArchiveFileEntry. Возвращает имя записи."
 type: docs
 weight: 20
 url: /ru/net/aspose.zip/iarchivefileentry/name/
@@ -14,14 +14,14 @@ url: /ru/net/aspose.zip/iarchivefileentry/name/
 public string Name { get; }
 ```
 
-### Примечания
+## Примечания
 
-Архивы только для сжатия, такие как gzip, bzip2, lzip, lzma, xz, z, имеют имя «File.bin», если в заголовках нет другого имени.
+Архивы только для сжатия, такие как gzip, bzip2, lzip, lzma, xz, z, имеют имя "File.bin", если в заголовках не найдено другое имя.
 
-### Смотрите также
+### См. также
 
 * interface [IArchiveFileEntry](../)
-* пространство имен [Aspose.Zip](../../iarchivefileentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

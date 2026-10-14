@@ -1,14 +1,14 @@
 ---
-title: ZArchive.SetSource
-second_title: Aspose.ZIP для справочника API .NET
-description: ZArchive метод. Задает сжатие содержимого внутри архива.
+title: "ZArchive.SetSource"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод ZArchive. Устанавливает содержимое, которое будет сжато в архиве"
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.zip.z/zarchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_1}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(Stream source)
@@ -18,7 +18,13 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | Входной поток для архива. |
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+## Примеры
 
 ```csharp
 using (var archive = new ZArchive())
@@ -28,17 +34,17 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
@@ -52,15 +58,16 @@ public void SetSource(FileInfo fileInfo)
 
 | исключение | условие |
 | --- | --- |
-| SecurityException | У вызывающего абонента нет необходимых разрешений для открытия*fileInfo*. |
-| ArgumentException | Путь к файлу пуст или содержит только пробелы. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| SecurityException | У вызывающего нет необходимого разрешения для открытия *fileInfo*. |
+| ArgumentException | Путь к файлу пустой или содержит только пробелы. |
 | FileNotFoundException | Файл не найден. |
 | UnauthorizedAccessException | Путь к файлу доступен только для чтения или является каталогом. |
-| ArgumentNullException | *fileInfo* нулевой. |
-| DirectoryNotFoundException | Указанный путь недействителен, например, находится на несопоставленном диске. |
+| ArgumentNullException | *fileInfo* равен null. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
 | IOException | Файл уже открыт. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -70,17 +77,17 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_2}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(string sourcePath)
@@ -94,14 +101,18 @@ public void SetSource(string sourcePath)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourcePath* является нулевым или пустой строкой. |
-| SecurityException | Вызывающий объект не имеет необходимых разрешений для доступа к ресурсу. |
-| ArgumentException | *sourcePath* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*sourcePath* отказано. |
-| PathTooLongException | Указанный*sourcePath*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*sourcePath* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentNullException | *sourcePath* имеет значение null или пустую строку. |
+| SecurityException | У вызывающего нет необходимого разрешения для доступа к ресурсу. |
+| ArgumentException | Значение *sourcePath* пусто, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *sourcePath* запрещён. |
+| PathTooLongException | Указанный *sourcePath*, имя файла или оба превышают системно‑определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по пути *sourcePath* содержит двоеточие (:) в середине строки. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| FileNotFoundException | Файл не найден. |
+| IOException | Файл уже открыт. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -111,10 +122,10 @@ using (var archive = new ZArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ZArchive](../)
-* пространство имен [Aspose.Zip.Z](../../zarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

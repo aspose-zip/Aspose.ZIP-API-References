@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchive.SaveSplit
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchive метод. Сохраняет многотомный архив в указанный каталог назначения.
+title: "SevenZipArchive.SaveSplit"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SevenZipArchive. Сохраняет многотомный архив в указанную целевую директорию"
 type: docs
 weight: 90
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/savesplit/
@@ -16,26 +16,25 @@ public void SaveSplit(string destinationDirectory, SplitSevenZipArchiveSaveOptio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationDirectory | String | Путь к каталогу, в котором будут создаваться сегменты архива. |
-| options | SplitSevenZipArchiveSaveOptions | Варианты сохранения архива, включая имя файла. |
+| destinationDirectory | String | Путь к директории, в которой будут создаваться сегменты архива. |
+| параметры | SplitSevenZipArchiveSaveOptions | Параметры сохранения архива, включая имя файла. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Этот архив был открыт из существующего источника. |
-| ArgumentNullException | *destinationDirectory* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа к каталогу. |
-| ArgumentException | *destinationDirectory* содержит недопустимые символы, такие как ", &gt;, &lt; или &#x7C;. |
-| PathTooLongException | Указанный путь превышает максимальную длину, определенную системой. |
+| ArgumentNullException | *destinationDirectory* равно null. |
+| SecurityException | Вызвавший процесс не имеет необходимого разрешения для доступа к директории. |
+| ArgumentException | *destinationDirectory* содержит недопустимые символы, такие как \", &gt;, &lt;, или &#x7C;. |
+| PathTooLongException | Указанный путь превышает системно определённую максимальную длину. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
 
-### Примечания
+## Примечания
 
-Этот метод состоит из нескольких (`н`) файлы имя_файла.7z.001, имя_файла.7z.002, ..., имя_файла.7z.(n).
+Этот метод собирает несколько (`n`) файлов filename.7z.001, filename.7z.002, ..., filename.7z.(n).
 
-Невозможно сделать существующий архив многотомным.
-
-### Примеры
+## Примеры
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive())
@@ -45,11 +44,11 @@ using (SevenZipArchive archive = new SevenZipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SplitSevenZipArchiveSaveOptions](../../../aspose.zip.saving/splitsevenziparchivesaveoptions/)
 * class [SevenZipArchive](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

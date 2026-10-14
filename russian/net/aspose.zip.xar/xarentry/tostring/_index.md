@@ -1,7 +1,7 @@
 ---
-title: XarEntry.ToString
-second_title: Aspose.ZIP для справочника API .NET
-description: XarEntry метод. 
+title: "XarEntry.ToString"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод XarEntry."
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.xar/xarentry/tostring/
@@ -12,10 +12,10 @@ url: /ru/net/aspose.zip.xar/xarentry/tostring/
 public override string ToString()
 ```
 
-### Смотрите также
+### См. также
 
 * class [XarEntry](../)
-* пространство имен [Aspose.Zip.Xar](../../xarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

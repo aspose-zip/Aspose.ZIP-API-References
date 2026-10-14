@@ -1,7 +1,7 @@
 ---
-title: SharEntry.ToString
-second_title: Aspose.ZIP для справочника API .NET
-description: SharEntry метод. Возвращает строку представляющую текущую запись.
+title: "SharEntry.ToString"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SharEntry. Возвращает строку, представляющую текущий элемент"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.shar/sharentry/tostring/
@@ -16,12 +16,12 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-Строка, представляющая текущую запись.
+Строка, представляющая текущий элемент.
 
-### Смотрите также
+### См. также
 
 * class [SharEntry](../)
-* пространство имен [Aspose.Zip.Shar](../../sharentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../sharentry/)
+* assembly [Aspose.Zip](../../../)
 
 

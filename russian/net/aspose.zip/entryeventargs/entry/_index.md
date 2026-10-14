@@ -1,24 +1,24 @@
 ---
-title: EntryEventArgs.Entry
-second_title: Aspose.ZIP для справочника API .NET
-description: EntryEventArgs свойство. Получает запись архива для которой возникает событие.
+title: "EntryEventArgs.Entry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство EntryEventArgs. Получает запись архива, для которой вызывается событие"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip/entryeventargs/entry/
 ---
 ## EntryEventArgs.Entry property
 
-Получает запись архива, для которой возникает событие.
+Получает запись архива, для которой вызывается событие.
 
 ```csharp
 public ArchiveEntry Entry { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [EntryEventArgs](../)
-* пространство имен [Aspose.Zip](../../entryeventargs/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../entryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

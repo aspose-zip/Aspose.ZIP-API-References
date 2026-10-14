@@ -1,9 +1,9 @@
 ---
-title: XzArchive.Save
-second_title: Aspose.ZIP для справочника API .NET
-description: XzArchive метод. Сохраняет архив xz в указанный поток.
+title: "XzArchive.Save"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод XzArchive. Сохраняет xz‑архив в предоставленный поток"
 type: docs
-weight: 40
+weight: 60
 url: /ru/net/aspose.zip.xz/xzarchive/save/
 ---
 ## Save(Stream) {#save}
@@ -16,20 +16,21 @@ public void Save(Stream output)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| output | Stream | Целевой поток. |
+| output | Stream | Поток назначения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *output* не поддерживает поиск. |
-| ArgumentNullException | *output* нулевой. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentException | *output* не поддерживает перемотку. |
+| ArgumentNullException | *output* равен null. |
 
-### Примечания
+## Примечания
 
-*output* должен быть доступен для поиска.
+*output* must be seekable.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
@@ -42,11 +43,11 @@ using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XzArchive](../)
-* пространство имен [Aspose.Zip.Xz](../../xzarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -60,20 +61,23 @@ public void Save(string destinationFileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFileName | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
+| destinationFileName | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
-| PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentNullException | *destinationFileName* равно null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *destinationFileName* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *destinationFileName* запрещён. |
+| PathTooLongException | Указанный *destinationFileName*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл в *destinationFileName* содержит двоеточие (:) в середине строки. |
+| IOException | Во время открытия файла произошла ошибка ввода/вывода. |
+| InvalidDataException | Выбрасывается, когда данные недействительны или повреждены. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new XzArchive()) 
@@ -83,10 +87,10 @@ using (var archive = new XzArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XzArchive](../)
-* пространство имен [Aspose.Zip.Xz](../../xzarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

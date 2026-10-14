@@ -1,23 +1,23 @@
 ---
-title: SevenZipCipher.CanReuseTransform
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipCipher свойство. Получает значение указывающее можно ли повторно использовать текущее преобразование.
+title: "SevenZipCipher.CanReuseTransform"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipCipher. Возвращает значение, указывающее, можно ли повторно использовать текущую трансформацию"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.crypto/sevenzipcipher/canreusetransform/
 ---
 ## SevenZipCipher.CanReuseTransform property
 
-Получает значение, указывающее, можно ли повторно использовать текущее преобразование.
+Возвращает значение, указывающее, может ли текущая трансформация быть переиспользована.
 
 ```csharp
 public abstract bool CanReuseTransform { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCipher](../)
-* пространство имен [Aspose.Zip.Crypto](../../sevenzipcipher/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Crypto](../../sevenzipcipher/)
+* assembly [Aspose.Zip](../../../)
 
 

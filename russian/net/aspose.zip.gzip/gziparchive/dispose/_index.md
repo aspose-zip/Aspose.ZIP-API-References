@@ -1,23 +1,23 @@
 ---
-title: GzipArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: GzipArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "GzipArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод GzipArchive. Выполняет определённые приложением задачи, связанные со освобождением, высвобождением или сбросом неуправляемых ресурсов"
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip.gzip/gziparchive/dispose/
 ---
 ## GzipArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [GzipArchive](../)
-* пространство имен [Aspose.Zip.Gzip](../../gziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

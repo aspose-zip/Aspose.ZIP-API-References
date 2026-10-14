@@ -1,28 +1,28 @@
 ---
-title: ArchiveSaveOptions.SelfExtractorOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveSaveOptions свойство. Получает или устанавливает параметры самораспаковывающегося архива.
+title: "ArchiveSaveOptions.SelfExtractorOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveSaveOptions. Получает или задает параметры самораспаковывающегося архива"
 type: docs
-weight: 60
+weight: 90
 url: /ru/net/aspose.zip.saving/archivesaveoptions/selfextractoroptions/
 ---
 ## ArchiveSaveOptions.SelfExtractorOptions property
 
-Получает или устанавливает параметры самораспаковывающегося архива.
+Получает или задает настройки самораспаковывающегося архива.
 
 ```csharp
 public SelfExtractorOptions SelfExtractorOptions { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Назначьте его, если вам нужно составить исполняемую программу для извлечения архива без установки какого-либо программного обеспечения на целевом компьютере.
+Назначьте его, если вам нужно создать исполняемую программу для извлечения архива без установки какого-либо программного обеспечения на целевом компьютере.
 
-### Смотрите также
+### См. также
 
 * class [SelfExtractorOptions](../../selfextractoroptions/)
 * class [ArchiveSaveOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../archivesaveoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: LzipArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: LzipArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "LzipArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод LzipArchive. Выполняет определённые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов"
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip.lzip/lziparchive/dispose/
 ---
 ## LzipArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [LzipArchive](../)
-* пространство имен [Aspose.Zip.Lzip](../../lziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

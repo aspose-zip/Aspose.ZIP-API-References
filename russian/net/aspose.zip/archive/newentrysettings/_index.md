@@ -1,24 +1,31 @@
 ---
-title: Archive.NewEntrySettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Archive свойство. Параметры сжатия и шифрования используемые для вновь добавленныхArchiveEntry предметы.
+title: "Archive.NewEntrySettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство Archive. Параметры сжатия и шифрования, используемые для недавно добавленных элементов ArchiveEntry"
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip/archive/newentrysettings/
 ---
 ## Archive.NewEntrySettings property
 
-Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry/) предметы.
+Параметры сжатия и шифрования, используемые для недавно добавленных элементов [`ArchiveEntry`](../../archiveentry/).
 
 ```csharp
 public ArchiveEntrySettings NewEntrySettings { get; }
 ```
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| InvalidOperationException | Архив открыт из потока только для чтения. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+### См. также
 
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

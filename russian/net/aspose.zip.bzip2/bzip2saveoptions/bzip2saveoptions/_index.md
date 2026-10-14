@@ -1,14 +1,14 @@
 ---
-title: Bzip2SaveOptions.Bzip2SaveOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: Bzip2SaveOptions строитель. Инициализирует новый экземплярBzip2SaveOptions класс.
+title: "Bzip2SaveOptions.Bzip2SaveOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор Bzip2SaveOptions. Инициализирует новый экземпляр класса Bzip2SaveOptions"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.bzip2/bzip2saveoptions/bzip2saveoptions/
 ---
 ## Bzip2SaveOptions(int) {#constructor_1}
 
-Инициализирует новый экземпляр[`Bzip2SaveOptions`](../) класс.
+Инициализирует новый экземпляр класса [`Bzip2SaveOptions`](../).
 
 ```csharp
 public Bzip2SaveOptions(int blockSize)
@@ -22,9 +22,9 @@ public Bzip2SaveOptions(int blockSize)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Размер блока не находится в допустимом диапазоне. |
+| ArgumentOutOfRangeException | Размер блока находится вне допустимого диапазона. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream result = File.Open("archive.bz2"))
@@ -37,23 +37,23 @@ using (FileStream result = File.Open("archive.bz2"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2SaveOptions](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Bzip2SaveOptions() {#constructor}
 
-Инициализирует новый экземпляр[`Bzip2SaveOptions`](../) класс с размером блока по умолчанию, равным 9 сотням килобайт.
+Инициализирует новый экземпляр класса [`Bzip2SaveOptions`](../) с размером блока по умолчанию, равным 9 сотням килобайт.
 
 ```csharp
 public Bzip2SaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream result = File.Open("archive.bz2"))
@@ -66,10 +66,10 @@ using (FileStream result = File.Open("archive.bz2"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2SaveOptions](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2saveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class XzCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.XzCompressionSettings сорт. Настройки для метода сжатия Xz.
+title: "Класс XzCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.XzCompressionSettings. Настройки сжатия Xz внутри ZIP‑архива"
 type: docs
-weight: 650
+weight: 1160
 url: /ru/net/aspose.zip.saving/xzcompressionsettings/
 ---
 ## XzCompressionSettings class
 
-Настройки для метода сжатия Xz.
+Настройки сжатия Xz в архиве ZIP.
 
 ```csharp
 public class XzCompressionSettings : CompressionSettings
@@ -18,12 +18,12 @@ public class XzCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [XzCompressionSettings](xzcompressionsettings/)() | Инициализирует новый экземпляр`XzCompressionSettings` класс. |
+| [XzCompressionSettings](xzcompressionsettings/)() | Инициализирует новый экземпляр класса `XzCompressionSettings`. |
 
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../compressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

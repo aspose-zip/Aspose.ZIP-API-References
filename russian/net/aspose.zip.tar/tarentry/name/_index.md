@@ -1,9 +1,9 @@
 ---
-title: TarEntry.Name
-second_title: Aspose.ZIP для справочника API .NET
-description: TarEntry свойство. Получает или задает имя записи в архиве.
+title: "TarEntry.Name"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство TarEntry. Получает или задает имя элемента в архиве"
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip.tar/tarentry/name/
 ---
 ## TarEntry.Name property
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.tar/tarentry/name/
 public string Name { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarEntry](../)
-* пространство имен [Aspose.Zip.Tar](../../tarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

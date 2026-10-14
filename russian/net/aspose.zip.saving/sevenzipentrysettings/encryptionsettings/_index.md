@@ -1,28 +1,28 @@
 ---
-title: SevenZipEntrySettings.EncryptionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipEntrySettings свойство. Получает настройки для шифрования или дешифрования. Настройки конкретной записи могут различаться.
+title: "SevenZipEntrySettings.EncryptionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipEntrySettings. Возвращает параметры шифрования или дешифрования. Параметры конкретного элемента могут различаться."
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip.saving/sevenzipentrysettings/encryptionsettings/
 ---
 ## SevenZipEntrySettings.EncryptionSettings property
 
-Получает настройки для шифрования или дешифрования. Настройки конкретной записи могут различаться.
+Получает параметры для шифрования или дешифрования. Параметры конкретной записи могут различаться.
 
 ```csharp
 public SevenZipEncryptionSettings EncryptionSettings { get; }
 ```
 
-### Примечания
+## Примечания
 
-[`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings/) это единственный вариант архивов 7Z.
+Эта [`SevenZipAESEncryptionSettings`](../../sevenzipaesencryptionsettings/) — единственный вариант для архивов 7Z.
 
-### Смотрите также
+### См. также
 
 * class [SevenZipEncryptionSettings](../../sevenzipencryptionsettings/)
 * class [SevenZipEntrySettings](../)
-* пространство имен [Aspose.Zip.Saving](../../sevenzipentrysettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

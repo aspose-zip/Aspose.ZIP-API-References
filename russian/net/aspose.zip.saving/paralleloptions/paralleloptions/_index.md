@@ -1,7 +1,7 @@
 ---
-title: ParallelOptions.ParallelOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: ParallelOptions строитель. Конструктор по умолчанию.
+title: "ParallelOptions.ParallelOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор ParallelOptions. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/paralleloptions/paralleloptions/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.saving/paralleloptions/paralleloptions/
 public ParallelOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [ParallelOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../paralleloptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

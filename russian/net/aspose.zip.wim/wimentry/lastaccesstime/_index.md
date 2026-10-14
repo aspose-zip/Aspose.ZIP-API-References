@@ -1,7 +1,7 @@
 ---
-title: WimEntry.LastAccessTime
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает время последнего доступа к файлу или каталогу.
+title: "WimEntry.LastAccessTime"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimEntry. Возвращает время последнего доступа к файлу или каталогу"
 type: docs
 weight: 110
 url: /ru/net/aspose.zip.wim/wimentry/lastaccesstime/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.wim/wimentry/lastaccesstime/
 public DateTime LastAccessTime { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

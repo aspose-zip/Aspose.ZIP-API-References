@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.DeleteEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioArchive метод. Удаляет первое вхождение определенной записи из списка записей.
+title: "CpioArchive.DeleteEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CpioArchive. Удаляет первое вхождение конкретной записи из списка записей."
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.cpio/cpioarchive/deleteentry/
 ---
 ## DeleteEntry(CpioEntry) {#deleteentry}
 
-Удаляет первое вхождение определенной записи из списка записей.
+Удаляет первое вхождение конкретной записи из списка записей.
 
 ```csharp
 public CpioArchive DeleteEntry(CpioEntry entry)
@@ -16,7 +16,7 @@ public CpioArchive DeleteEntry(CpioEntry entry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entry | CpioEntry | Запись, которую необходимо удалить из списка записей. |
+| запись | CpioEntry | Элемент, который нужно удалить из списка элементов. |
 
 ### Возвращаемое значение
 
@@ -26,11 +26,12 @@ public CpioArchive DeleteEntry(CpioEntry entry)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *entry* нулевой. |
+| ArgumentNullException | *entry* равно null. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
-Вот как вы можете удалить все записи, кроме последней:
+Вот как можно удалить все элементы, кроме последнего:
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))
@@ -41,12 +42,12 @@ using (var archive = new CpioArchive("archive.cpio"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -60,19 +61,20 @@ public CpioArchive DeleteEntry(int entryIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entryIndex | Int32 | Отсчитываемый от нуля индекс удаляемой записи. |
+| entryIndex | Int32 | Нулевой индекс элемента, который нужно удалить. |
 
 ### Возвращаемое значение
 
-Архив с записью удален.
+Архив с удалённым элементом.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или-*entryIndex* равно или больше, чем`Записи` считать. |
+| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или- *entryIndex* равно или больше количества `Entries` count. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new CpioArchive("two_files.cpio"))
@@ -82,10 +84,10 @@ using (var archive = new CpioArchive("two_files.cpio"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

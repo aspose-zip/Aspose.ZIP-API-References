@@ -1,27 +1,27 @@
 ---
-title: ParallelOptions.AvailableMemorySize
-second_title: Aspose.ZIP для справочника API .NET
-description: ParallelOptions свойство. Получает или задает оценку памяти в мегабайтах доступную для размещения сжатых записей без свопинга на диск. Это значение имеет смысл только еслиParallelCompressInMemory настройка находится вAuto режим.
+title: "ParallelOptions.AvailableMemorySize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ParallelOptions. Получает или задаёт оценку памяти в мегабайтах, доступную для размещения сжатых записей без выгрузки на диск. Это значение имеет смысл только если настройка ParallelCompressInMemory находится в режиме Auto."
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.saving/paralleloptions/availablememorysize/
 ---
 ## ParallelOptions.AvailableMemorySize property
 
-Получает или задает оценку памяти в мегабайтах, доступную для размещения сжатых записей без свопинга на диск. Это значение имеет смысл, только если[`ParallelCompressInMemory`](../parallelcompressinmemory/) настройка находится вAuto режим.
+Получает или задаёт оценку памяти в мегабайтах, доступную для размещения сжатых записей без выгрузки на диск. Это значение имеет смысл только если настройка [`ParallelCompressInMemory`](../parallelcompressinmemory/) находится в режиме Auto.
 
 ```csharp
 public int AvailableMemorySize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Это значение используется для расчета максимального размера записи, которая может быть сжата параллельно с другими. Все записи выше расчетного порога будут сжаты последовательно. Безопасно иметь`AvailableMemorySize` свойство размером с свободную оперативную память и даже больше. По умолчанию предполагается, что у вас есть не менее 200 МБ на ядро ЦП.
+Это значение используется для расчёта максимального размера записи, которую можно сжимать параллельно с другими. Все записи, превышающие вычисленный порог, будут сжиматься последовательно. Безопасно задавать свойство `AvailableMemorySize` настолько большим, насколько свободно ОЗУ, и даже больше. По умолчанию считается, что у вас есть минимум 200 МБ на каждый ядро процессора.
 
-### Смотрите также
+### См. также
 
 * class [ParallelOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../paralleloptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

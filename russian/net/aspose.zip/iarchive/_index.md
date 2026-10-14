@@ -1,28 +1,35 @@
 ---
-title: Interface IArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.IArchive интерфейс. Этот интерфейс представляет собой архив.
+title: "Интерфейс IArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Интерфейс Aspose.Zip.IArchive. Этот интерфейс представляет архив."
 type: docs
-weight: 220
+weight: 530
 url: /ru/net/aspose.zip/iarchive/
 ---
 ## IArchive interface
 
-Этот интерфейс представляет собой архив.
+Этот интерфейс представляет архив.
 
 ```csharp
 public interface IArchive : IDisposable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [FileEntries](../../aspose.zip/iarchive/fileentries/) { get; } | Получает записи[`IArchiveFileEntry`](../iarchivefileentry/) тип составляющий архив. |
+| [FileEntries](../../aspose.zip/iarchive/fileentries/) { get; } | Получает элементы типа [`IArchiveFileEntry`](../iarchivefileentry/), составляющие архив. |
+| [Format](../../aspose.zip/iarchive/format/) { get; } | Возвращает формат архива. |
 
-### Смотрите также
+## Методы
 
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+| Имя | Описание |
+| --- | --- |
+| [ExtractToDirectory](../../aspose.zip/iarchive/extracttodirectory/)(string) | Извлекает все файлы из архива в указанный каталог. |
+
+### См. также
+
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

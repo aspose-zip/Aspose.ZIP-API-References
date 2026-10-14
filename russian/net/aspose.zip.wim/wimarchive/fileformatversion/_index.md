@@ -1,9 +1,9 @@
 ---
-title: WimArchive.FileFormatVersion
-second_title: Aspose.ZIP для справочника API .NET
-description: WimArchive свойство. Получает версию формата файла.
+title: "WimArchive.FileFormatVersion"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimArchive. Возвращает версию формата файла"
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip.wim/wimarchive/fileformatversion/
 ---
 ## WimArchive.FileFormatVersion property
@@ -14,10 +14,16 @@ url: /ru/net/aspose.zip.wim/wimarchive/fileformatversion/
 public int FileFormatVersion { get; }
 ```
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+### См. также
 
 * class [WimArchive](../)
-* пространство имен [Aspose.Zip.Wim](../../wimarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

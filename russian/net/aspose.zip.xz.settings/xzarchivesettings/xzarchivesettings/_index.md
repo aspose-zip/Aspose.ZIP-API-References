@@ -1,34 +1,34 @@
 ---
-title: XzArchiveSettings.XzArchiveSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: XzArchiveSettings строитель. Инициализирует новый экземплярXzArchiveSettings класс использующий однократное сжатие LZMA2.
+title: "XzArchiveSettings.XzArchiveSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор XzArchiveSettings. Инициализирует новый экземпляр класса XzArchiveSettings, используя одиночное сжатие LZMA2."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xz.settings/xzarchivesettings/xzarchivesettings/
 ---
 ## XzArchiveSettings() {#constructor}
 
-Инициализирует новый экземпляр[`XzArchiveSettings`](../) класс, использующий однократное сжатие LZMA2.
+Инициализирует новый экземпляр класса [`XzArchiveSettings`](../), используя одиночное сжатие LZMA2.
 
 ```csharp
 public XzArchiveSettings()
 ```
 
-### Примечания
+## Примечания
 
-Размер словаря по умолчанию в фильтре LZMA2 равен 16 мегабайт, размер блока по умолчанию равен 64 мегабайтам, тип контрольной суммы по умолчанию - CRC32.
+Размер словаря по умолчанию в фильтре LZMA2 равен 16 мегабайтам, размер блока по умолчанию — 64 мегабайта, тип контрольной суммы по умолчанию — CRC32.
 
-### Смотрите также
+### См. также
 
 * class [XzArchiveSettings](../)
-* пространство имен [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## XzArchiveSettings(XzFilterSettings[], long, XzCheckType) {#constructor_1}
 
-Инициализирует новый экземпляр[`XzArchiveSettings`](../) класс с пользовательскими параметрами.
+Инициализирует новый экземпляр класса [`XzArchiveSettings`](../) с пользовательскими параметрами.
 
 ```csharp
 public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType checkType)
@@ -36,19 +36,19 @@ public XzArchiveSettings(XzFilterSettings[] filters, long blockSize, XzCheckType
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filters | XzFilterSettings[] | Фильтры (компрессоры), применяемые последовательно для создания[`XzArchive`](../../../aspose.zip.xz/xzarchive/) . Он может быть либо одиночным[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) или пара[`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings/) и[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) |
-| blockSize | Int64 | Размер блока архива xz. |
+| filters | XzFilterSettings[] | Фильтры (компрессоры), которые последовательно применяются для создания [`XzArchive`](../../../aspose.zip.xz/xzarchive/). Это может быть один [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/) или пара [`XzBcjX86FilterSettings`](../../xzbcjx86filtersettings/) и [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/). |
+| blockSize | Int64 | Размер блока xz-архива. |
 | checkType | XzCheckType | Тип вычисления контрольной суммы для несжатых данных. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *blockSize* отрицательно. |
-| ArgumentNullException | *filters* нулевой |
-| ArgumentException | *filters* имеет менее одного или более двух фильтров, или последний фильтр не[`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/). |
+| ArgumentOutOfRangeException | *blockSize* отрицателен. |
+| ArgumentNullException | *filters* равен null |
+| ArgumentException | *filters* содержит менее одного или более двух фильтров, либо последний фильтр не является [`XzLZMA2FilterSettings`](../../xzlzma2filtersettings/). |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
@@ -63,12 +63,12 @@ using (FileStream xzFile = File.Open("archive.xz", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XzFilterSettings](../../xzfiltersettings/)
 * enum [XzCheckType](../../xzchecktype/)
 * class [XzArchiveSettings](../)
-* пространство имен [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzarchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: SevenZipLZMA2CompressionSettings.DictionarySize
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipLZMA2CompressionSettings свойство. Размер словаря буфера истории указывает сколько байтов недавно обработанных несжатых данных хранится в памяти.
+title: "SevenZipLZMA2CompressionSettings.DictionarySize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipLZMA2CompressionSettings. Размер буфера истории словаря указывает, сколько байтов недавно обработанных несжатых данных хранится в памяти."
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize/
 ---
 ## SevenZipLZMA2CompressionSettings.DictionarySize property
@@ -14,14 +14,14 @@ url: /ru/net/aspose.zip.saving/sevenziplzma2compressionsettings/dictionarysize/
 public int DictionarySize { get; }
 ```
 
-### Примечания
+## Примечания
 
-Чем больше словарь, тем обычно лучше степень сжатия, но словари большего размера, чем несжатые данные, являются пустой тратой оперативной памяти.
+Чем больше словарь, тем обычно лучше коэффициент сжатия — но словари, превышающие размер несжатых данных, являются пустой тратой ОЗУ.
 
-### Смотрите также
+### См. также
 
 * class [SevenZipLZMA2CompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

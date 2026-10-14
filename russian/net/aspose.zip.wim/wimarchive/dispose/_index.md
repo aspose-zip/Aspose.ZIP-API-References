@@ -1,23 +1,23 @@
 ---
-title: WimArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: WimArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "WimArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод WimArchive. Выполняет определённые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов"
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.zip.wim/wimarchive/dispose/
 ---
 ## WimArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimArchive](../)
-* пространство имен [Aspose.Zip.Wim](../../wimarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

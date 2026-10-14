@@ -1,23 +1,23 @@
 ---
-title: TarEntry.IsDirectory
-second_title: Aspose.ZIP для справочника API .NET
-description: TarEntry свойство. Получает значение указывающее представляет ли запись каталог.
+title: "TarEntry.IsDirectory"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство TarEntry. Возвращает значение, указывающее, является ли элемент каталогом"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.tar/tarentry/isdirectory/
 ---
 ## TarEntry.IsDirectory property
 
-Получает значение, указывающее, представляет ли запись каталог.
+Возвращает значение, указывающее, является ли запись каталогом.
 
 ```csharp
 public bool IsDirectory { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarEntry](../)
-* пространство имен [Aspose.Zip.Tar](../../tarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

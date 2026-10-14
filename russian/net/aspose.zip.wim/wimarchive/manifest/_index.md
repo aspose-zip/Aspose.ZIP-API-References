@@ -1,23 +1,29 @@
 ---
-title: WimArchive.Manifest
-second_title: Aspose.ZIP для справочника API .NET
-description: WimArchive свойство. Получает встроенный манифест описывающий файл и содержащиеся в нем изображения.
+title: "WimArchive.Manifest"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimArchive. Получает встроенный манифест, описывающий файл и содержащиеся изображения"
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.zip.wim/wimarchive/manifest/
 ---
 ## WimArchive.Manifest property
 
-Получает встроенный манифест, описывающий файл и содержащиеся в нем изображения.
+Получает встроенный манифест, описывающий файл и содержащиеся образы.
 
 ```csharp
 public string Manifest { get; }
 ```
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+### См. также
 
 * class [WimArchive](../)
-* пространство имен [Aspose.Zip.Wim](../../wimarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

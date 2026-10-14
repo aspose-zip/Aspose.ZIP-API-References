@@ -1,28 +1,28 @@
 ---
-title: IArchive.FileEntries
-second_title: Aspose.ZIP для справочника API .NET
-description: IArchive свойство. Получает записиIArchiveFileEntry тип составляющий архив.
+title: "IArchive.FileEntries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство IArchive. Получает элементы типа IArchiveFileEntry, составляющие архив"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/iarchive/fileentries/
 ---
 ## IArchive.FileEntries property
 
-Получает записи[`IArchiveFileEntry`](../../iarchivefileentry/) тип составляющий архив.
+Получает элементы типа [`IArchiveFileEntry`](../../iarchivefileentry/), составляющие архив.
 
 ```csharp
 public IEnumerable<IArchiveFileEntry> FileEntries { get; }
 ```
 
-### Примечания
+## Примечания
 
-Архивы только для сжатия, такие как gzip, bzip2, lzip, lzma, xz, z состоят из одной записи - самого архива.
+Архивы только для сжатия, такие как gzip, bzip2, lzip, lzma, lz4, xz, z, состоят из единственной записи — самого архива.
 
-### Смотрите также
+### См. также
 
 * interface [IArchiveFileEntry](../../iarchivefileentry/)
 * interface [IArchive](../)
-* пространство имен [Aspose.Zip](../../iarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

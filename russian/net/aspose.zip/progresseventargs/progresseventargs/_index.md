@@ -1,14 +1,14 @@
 ---
-title: ProgressEventArgs.ProgressEventArgs
-second_title: Aspose.ZIP для справочника API .NET
-description: ProgressEventArgs строитель. Инициализирует новый экземплярProgressEventArgs класс.
+title: "ProgressEventArgs.ProgressEventArgs"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор ProgressEventArgs. Инициализирует новый экземпляр класса ProgressEventArgs."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/progresseventargs/progresseventargs/
 ---
 ## ProgressEventArgs constructor
 
-Инициализирует новый экземпляр[`ProgressEventArgs`](../) класс.
+Инициализирует новый экземпляр класса [`ProgressEventArgs`](../).
 
 ```csharp
 public ProgressEventArgs(ulong proceededBytes)
@@ -18,10 +18,10 @@ public ProgressEventArgs(ulong proceededBytes)
 | --- | --- | --- |
 | proceededBytes | UInt64 | Количество обработанных байтов. |
 
-### Смотрите также
+### См. также
 
 * class [ProgressEventArgs](../)
-* пространство имен [Aspose.Zip](../../progresseventargs/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../progresseventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

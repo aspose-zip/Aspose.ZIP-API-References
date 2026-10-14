@@ -1,26 +1,28 @@
 ---
-title: Class TarEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Tar.TarEntry сорт. Представляет один файл в архиве tar.
+title: "Класс TarEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Tar.TarEntry. Представляет отдельный файл внутри tar-архива"
 type: docs
-weight: 740
+weight: 1280
 url: /ru/net/aspose.zip.tar/tarentry/
 ---
 ## TarEntry class
 
-Представляет один файл в архиве tar.
+Представляет отдельный файл в архиве tar.
 
 ```csharp
 public class TarEntry : IArchiveFileEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [IsDirectory](../../aspose.zip.tar/tarentry/isdirectory/) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
+| [IsDirectory](../../aspose.zip.tar/tarentry/isdirectory/) { get; } | Возвращает значение, указывающее, является ли запись каталогом. |
 | [Length](../../aspose.zip.tar/tarentry/length/) { get; } | Получить длину записи в байтах. |
+| [ModificationTime](../../aspose.zip.tar/tarentry/modificationtime/) { get; } | Получает время изменения файла или каталога. |
 | [Name](../../aspose.zip.tar/tarentry/name/) { get; set; } | Получает или задает имя записи в архиве. |
+| [UncompressedSize](../../aspose.zip.tar/tarentry/uncompressedsize/) { get; } | Получает размер оригинального файла. |
 
 ## Методы
 
@@ -30,10 +32,10 @@ public class TarEntry : IArchiveFileEntry
 | [Extract](../../aspose.zip.tar/tarentry/extract/#extract)(string) | Извлекает запись в файловую систему по указанному пути. |
 | [Open](../../aspose.zip.tar/tarentry/open/)() | Открывает запись для извлечения и предоставляет поток с содержимым записи. |
 
-### Смотрите также
+### См. также
 
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* пространство имен [Aspose.Zip.Tar](../../aspose.zip.tar/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Tar](../../aspose.zip.tar/)
+* assembly [Aspose.Zip](../../)
 
 

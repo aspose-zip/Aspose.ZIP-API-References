@@ -1,20 +1,20 @@
 ---
-title: StoreCompressionSettings.StoreCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: StoreCompressionSettings строитель. Инициализирует новый экземплярStoreCompressionSettings класс.
+title: "StoreCompressionSettings.StoreCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор StoreCompressionSettings. Инициализирует новый экземпляр класса StoreCompressionSettings"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/storecompressionsettings/storecompressionsettings/
 ---
 ## StoreCompressionSettings constructor
 
-Инициализирует новый экземпляр[`StoreCompressionSettings`](../) класс.
+Инициализирует новый экземпляр класса [`StoreCompressionSettings`](../).
 
 ```csharp
 public StoreCompressionSettings()
 ```
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new StoreCompressionSettings())))
@@ -24,10 +24,10 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new StoreCompressi
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [StoreCompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../storecompressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../storecompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

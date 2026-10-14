@@ -1,14 +1,14 @@
 ---
-title: Class AesEcryptionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.AesEcryptionSettings сорт. Настройки алгоритма шифрования или дешифрования AES.
+title: "Класс AesEcryptionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.AesEcryptionSettings. Параметры для алгоритмов шифрования и расшифровки AES внутри ZIP‑архива"
 type: docs
-weight: 360
+weight: 850
 url: /ru/net/aspose.zip.saving/aesecryptionsettings/
 ---
 ## AesEcryptionSettings class
 
-Настройки алгоритма шифрования или дешифрования AES.
+Настройки алгоритмов шифрования и дешифрования AES в архиве ZIP.
 
 ```csharp
 public class AesEcryptionSettings : EncryptionSettings
@@ -18,24 +18,20 @@ public class AesEcryptionSettings : EncryptionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [AesEcryptionSettings](aesecryptionsettings/#constructor)(EncryptionMethod) | Инициализирует новый экземпляр`AesEcryptionSettings`класс без пароля. |
-| [AesEcryptionSettings](aesecryptionsettings/#constructor_1)(string, EncryptionMethod) | Инициализирует новый экземпляр`AesEcryptionSettings` класс. |
+| [AesEcryptionSettings](aesecryptionsettings/#constructor)(EncryptionMethod) | Инициализирует новый экземпляр класса `AesEcryptionSettings` без пароля. |
+| [AesEcryptionSettings](aesecryptionsettings/#constructor_1)(string, EncryptionMethod) | Инициализирует новый экземпляр класса `AesEcryptionSettings`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Получает алгоритм шифрования. |
-| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Получает или устанавливает пароль для шифрования или дешифрования. |
+| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Возвращает алгоритм шифрования. |
+| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Получает или задает пароль для шифрования или дешифрования. |
 
-### Примечания
-
-Подробнее см. на https://www.winzip.com/win/en/aes_info.html
-
-### Смотрите также
+### См. также
 
 * class [EncryptionSettings](../encryptionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

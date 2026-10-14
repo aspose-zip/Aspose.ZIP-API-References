@@ -1,7 +1,7 @@
 ---
-title: CabEntry.Length
-second_title: Aspose.ZIP для справочника API .NET
-description: CabEntry свойство. Получает длину записи в байтах.
+title: "CabEntry.Length"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CabEntry. Возвращает длину записи в байтах"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.cab/cabentry/length/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.cab/cabentry/length/
 public uint Length { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CabEntry](../)
-* пространство имен [Aspose.Zip.Cab](../../cabentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

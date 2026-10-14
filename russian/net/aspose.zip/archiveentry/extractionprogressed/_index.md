@@ -1,34 +1,42 @@
 ---
-title: ArchiveEntry.ExtractionProgressed
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntry событие. Возникает при извлечении части необработанного потока.
+title: "ArchiveEntry.ExtractionProgressed"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Событие ArchiveEntry. Вызывается, когда извлечена часть необработанного потока"
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.zip/archiveentry/extractionprogressed/
 ---
 ## ArchiveEntry.ExtractionProgressed event
 
-Возникает при извлечении части необработанного потока.
+Вызывается, когда часть необработанного потока извлечена.
 
 ```csharp
-public event EventHandler<ProgressEventArgs> ExtractionProgressed;
+public event EventHandler<ProgressCancelEventArgs> ExtractionProgressed;
 ```
 
-### Примечания
+## Примечания
 
-Отправителем события является[`ArchiveEntry`](../) пример.
+Отправитель события — экземпляр [`ArchiveEntry`](../). Можно отменить извлечение.
 
-### Примеры
+## Примеры
+
+В этом примере обработчик события используется для расчёта доли обработанного размера в процентах.
 
 ```csharp
-archive.Entries[0].ExtractionProgressed += (s, e) => {  int percent = (int)((100 * e.ProceededBytes) / ((ArchiveEntry)s).UncompressedSize); };
+a.Entries[0].ExtractionProgressed += (s, e) => {  int percent = (int)((100 * e.ProceededBytes) / ((ArchiveEntry)s).UncompressedSize); };
 ```
 
-### Смотрите также
+В этом примере обработчик события используется для отмены после извлечения первых сотен мегабайт элемента.
 
-* class [ProgressEventArgs](../../progresseventargs/)
+```csharp
+a.Entries[0].ExtractionProgressed += (s, e) => { if (e.ProceededBytes > 100000000) e.Cancel = true; };
+```
+
+### См. также
+
+* class [ProgressCancelEventArgs](../../progresscanceleventargs/)
 * class [ArchiveEntry](../)
-* пространство имен [Aspose.Zip](../../archiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

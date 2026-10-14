@@ -1,14 +1,14 @@
 ---
-title: Archive.Archive
-second_title: Aspose.ZIP для справочника API .NET
-description: Archive строитель. Инициализирует новый экземплярArchive класс с необязательными настройками для его записей.
+title: "Archive.Archive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор Archive. Инициализирует новый экземпляр класса Archive с необязательными настройками для его элементов."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-Инициализирует новый экземпляр[`Archive`](../) класс с необязательными настройками для его записей.
+Инициализирует новый экземпляр класса [`Archive`](../) с необязательными настройками для его элементов.
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
@@ -16,9 +16,9 @@ public Archive(ArchiveEntrySettings newEntrySettings = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry/) items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| newEntrySettings | ArchiveEntrySettings | Настройки сжатия и шифрования, используемые для вновь добавленных элементов [`ArchiveEntry`](../../archiveentry/). Если не указано, будет использовано наиболее распространённое сжатие Deflate без шифрования. |
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как сжать один файл с настройками по умолчанию.
 
@@ -33,18 +33,18 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-Инициализирует новый экземпляр[`Archive`](../) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`Archive`](../) и формирует список элементов, который может быть извлечён из архива.
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
@@ -54,23 +54,25 @@ public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceStream | Stream | Источник архива. |
-| loadOptions | ArchiveLoadOptions | Опции для загрузки существующего архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry/) items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| loadOptions | ArchiveLoadOptions | Параметры загрузки существующего архива. |
+| newEntrySettings | ArchiveEntrySettings | Настройки сжатия и шифрования, используемые для вновь добавленных элементов [`ArchiveEntry`](../../archiveentry/). Если не указано, будет использовано наиболее распространённое сжатие Deflate без шифрования. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *sourceStream* не доступен для поиска. |
-| InvalidDataException | Заголовок шифрования для AES противоречит методу сжатия WinZip. |
+| ArgumentException | *sourceStream* не поддерживает перемещение, если загружен без установленного [`ForwardOnly`](../../archiveloadoptions/forwardonly/). |
+| InvalidDataException | Заголовок шифрования AES противоречит методу сжатия WinZip. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+| NotSupportedException | Выбрасывается, когда архив загружается из потока только для чтения в режиме оценки. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open/) метод распаковки.
+Этот конструктор не распаковывает ни один элемент. См. метод [`Open`](../../archiveentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
-В следующем примере извлекается зашифрованный архив, затем распаковывается первая запись в`ПамятьПоток`.
+В следующем примере извлекается зашифрованный архив, затем первая запись распаковывается в `MemoryStream`.
 
 ```csharp
 var fs = File.OpenRead("encrypted.zip");
@@ -87,19 +89,19 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveLoadOptions](../../archiveloadoptions/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-Инициализирует новый экземпляр[`Archive`](../) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`Archive`](../) и формирует список элементов, который может быть извлечён из архива.
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
@@ -109,27 +111,32 @@ public Archive(string path, ArchiveLoadOptions loadOptions = null,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Полный или относительный путь к файлу архива. |
-| loadOptions | ArchiveLoadOptions | Опции для загрузки существующего архива. |
-| newEntrySettings | ArchiveEntrySettings | Параметры сжатия и шифрования, используемые для вновь добавленных[`ArchiveEntry`](../../archiveentry/) items. Если не указано иное, будет использоваться наиболее распространенное сжатие Deflate без шифрования. |
+| loadOptions | ArchiveLoadOptions | Параметры загрузки существующего архива. |
+| newEntrySettings | ArchiveEntrySettings | Настройки сжатия и шифрования, используемые для вновь добавленных элементов [`ArchiveEntry`](../../archiveentry/). Если не указано, будет использовано наиболее распространённое сжатие Deflate без шифрования. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
+| InvalidDataException | Файл повреждён. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакие записи. Видеть[`Open`](../../archiveentry/open/) метод распаковки.
+Этот конструктор не распаковывает ни один элемент. См. метод [`Open`](../../archiveentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
-В следующем примере извлекается зашифрованный архив, затем распаковывается первая запись в`ПамятьПоток`.
+В следующем примере извлекается зашифрованный архив, затем первая запись распаковывается в `MemoryStream`.
 
 ```csharp
 var extracted = new MemoryStream();
@@ -145,12 +152,57 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveLoadOptions](../../archiveloadoptions/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* пространство имен [Aspose.Zip](../../archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## Archive(string, string[], ArchiveLoadOptions) {#constructor_3}
+
+Инициализирует новый экземпляр класса [`Archive`](../) из многотомного ZIP-архива и формирует список элементов, который может быть извлечён из архива.
+
+```csharp
+public Archive(string mainSegment, string[] segmentsInOrder, ArchiveLoadOptions loadOptions = null)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| mainSegment | String | Путь к последнему сегменту многотомного архива с центральным каталогом. |
+| segmentsInOrder | String[] | Пути к каждому сегменту, кроме последнего, многотомного zip-архива в правильном порядке. |
+| loadOptions | ArchiveLoadOptions | Параметры загрузки существующего архива. |
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| EndOfStreamException | Не удалось загрузить заголовки ZIP, потому что предоставленные файлы повреждены. |
+| DirectoryNotFoundException | Указанный путь недействителен (например, он находится на не смонтированном диске). |
+| FileNotFoundException | Файл, указанный в пути, не найден. |
+| IOException | Во время открытия файла произошла ошибка ввода/вывода. |
+| PathTooLongException | Указанный путь, имя файла или их комбинация превышают системно определённую максимальную длину. |
+| UnauthorizedAccessException | Указанный путь является каталогом. -или- У вызывающего отсутствует необходимое разрешение. |
+
+## Примеры
+
+Этот пример извлекает в каталог архив из трёх сегментов.
+
+```csharp
+using (Archive a = new Archive("archive.zip", new string[] { "archive.z01", "archive.z02" }))
+{
+    a.ExtractToDirectory("destination");
+}
+```
+
+### См. также
+
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

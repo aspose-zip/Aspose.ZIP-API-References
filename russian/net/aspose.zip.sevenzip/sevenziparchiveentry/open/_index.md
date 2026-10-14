@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchiveEntry.Open
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchiveEntry метод. Открывает запись для извлечения и предоставляет поток с содержимым записи.
+title: "SevenZipArchiveEntry.Open"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SevenZipArchiveEntry. Открывает запись для извлечения и предоставляет поток с содержимым записи"
 type: docs
 weight: 90
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/open/
@@ -26,16 +26,21 @@ public Stream Open(string password = null)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Архив не открывается для извлечения. - или - Эта запись является каталогом. |
-| InvalidDataException | Неверные данные в записи. |
+| InvalidOperationException | Архив не открыт для извлечения. - или - Эта запись является каталогом. |
+| InvalidDataException | Неправильные данные в записи. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
 
-### Примечания
+## Примечания
 
-Прочитать из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
+Прочитайте из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
 
-### Примеры
+## Примеры
 
 Использование:
+
+```csharp
+Stream decompressed = entry.Open();
+```
 
 .NET 4.0 и выше — используйте метод Stream.CopyTo:
 
@@ -43,7 +48,7 @@ public Stream Open(string password = null)
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 и более ранние версии — копировать байты вручную:
+.NET 3.5 и ниже — копируйте байты вручную:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -52,14 +57,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

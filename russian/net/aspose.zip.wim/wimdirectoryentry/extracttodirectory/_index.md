@@ -1,7 +1,7 @@
 ---
-title: WimDirectoryEntry.ExtractToDirectory
-second_title: Aspose.ZIP для справочника API .NET
-description: WimDirectoryEntry метод. Извлекает все файлы из текущего каталога в указанный каталог.
+title: "WimDirectoryEntry.ExtractToDirectory"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод WimDirectoryEntry. Извлекает все файлы из текущего каталога в указанный каталог"
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.wim/wimdirectoryentry/extracttodirectory/
@@ -16,24 +16,27 @@ public void ExtractToDirectory(string destinationDirectory)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationDirectory | String | Путь к каталогу для размещения извлеченных файлов. |
+| destinationDirectory | String | Путь к директории, в которую следует поместить извлечённые файлы. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | путь нулевой |
-| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа к существующему каталогу. |
-| NotSupportedException | Если каталог не существует, путь содержит символ двоеточия (:), который не является частью метки диска ("C:\"). |
-| ArgumentException | path представляет собой строку нулевой длины, содержащую только пробел или один или несколько недопустимых символов. Вы можете запросить недопустимые символы с помощью метода System.IO.Path.GetInvalidPathChars. -или- путь имеет префикс или содержит только символ двоеточия (:). |
-| IOException | Каталог, указанный путем, является файлом. -или- Имя сети неизвестно. |
+| ArgumentNullException | путь равен null |
+| PathTooLongException | Указанный путь, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| SecurityException | Вызвавший процесс не имеет необходимого разрешения для доступа к существующей директории. |
+| NotSupportedException | Если директория не существует, путь содержит символ двоеточия (:), который не является частью метки диска (\"C:\\"). |
+| ArgumentException | path является строкой нулевой длины, содержит только пробелы или содержит один или несколько недопустимых символов. Вы можете получить недопустимые символы, используя метод System.IO.Path.GetInvalidPathChars. -или- path начинается с двоеточия или содержит только символ двоеточия (:). |
+| IOException | Указанный в пути объект является файлом, а не директорией. -or- Сетевое имя неизвестно. |
+| InvalidDataException | Архив повреждён. |
+| OperationCanceledException | В .NET Framework 4.0 и выше: Выбрасывается, когда извлечение отменяется с помощью предоставленного токена отмены. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
 
-### Примечания
+## Примечания
 
-Если каталог не существует, он будет создан.
+Если директория не существует, она будет создана.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new WimArchive("archive.wim")) 
@@ -42,10 +45,10 @@ using (var archive = new WimArchive("archive.wim"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimDirectoryEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimdirectoryentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimdirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

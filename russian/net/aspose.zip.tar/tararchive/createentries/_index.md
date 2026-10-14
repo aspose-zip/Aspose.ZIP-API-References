@@ -1,14 +1,14 @@
 ---
-title: TarArchive.CreateEntries
-second_title: Aspose.ZIP для справочника API .NET
-description: TarArchive метод. Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+title: "TarArchive.CreateEntries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод TarArchive. Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога"
 type: docs
-weight: 70
+weight: 100
 url: /ru/net/aspose.zip.tar/tararchive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public TarArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
@@ -17,13 +17,19 @@ public TarArchive CreateEntries(DirectoryInfo directory, bool includeRootDirecto
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | directory | DirectoryInfo | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
-Архив с записями составлен.
+Архив с составленными записями.
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Архив был освобождён и не может быть использован |
+
+## Примеры
 
 ```csharp
 using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
@@ -36,17 +42,17 @@ using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public TarArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
@@ -55,22 +61,23 @@ public TarArchive CreateEntries(string sourceDirectory, bool includeRootDirector
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceDirectory | String | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
-Архив с записями составлен.
+Архив с составленными записями.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceDirectory* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*sourceDirectory*. |
-| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt; или &#x7C;. |
-| PathTooLongException | Указанный путь, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. Указанный путь, имя файла или оба слишком длинные. |
+| ArgumentNullException | *sourceDirectory* имеет значение null. |
+| SecurityException | У вызывающего нет необходимого разрешения для доступа к *sourceDirectory*. |
+| ArgumentException | *sourceDirectory* содержит недопустимые символы, такие как ", &lt;, &gt;, или &#x7C;. |
+| PathTooLongException | Указанный путь, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. Указанный путь, имя файла или оба слишком длинные. |
+| ObjectDisposedException | Архив был освобождён и не может быть использован |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
@@ -83,10 +90,10 @@ using (FileStream tarFile = File.Open("archive.tar", FileMode.Create))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

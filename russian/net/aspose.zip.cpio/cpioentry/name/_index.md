@@ -1,23 +1,23 @@
 ---
-title: CpioEntry.Name
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioEntry свойство. Получает имя записи в архиве.
+title: "CpioEntry.Name"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CpioEntry. Возвращает имя записи в архиве"
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.cpio/cpioentry/name/
 ---
 ## CpioEntry.Name property
 
-Получает имя записи в архиве.
+Возвращает имя записи в архиве.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioEntry](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

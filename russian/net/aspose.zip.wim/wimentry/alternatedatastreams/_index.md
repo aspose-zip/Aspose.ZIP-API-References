@@ -1,7 +1,7 @@
 ---
-title: WimEntry.AlternateDataStreams
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает имена альтернативных потоков данных для файла или каталога.
+title: "WimEntry.AlternateDataStreams"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство WimEntry. Возвращает имена альтернативных потоков данных для файла или каталога"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.wim/wimentry/alternatedatastreams/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.wim/wimentry/alternatedatastreams/
 public string[] AlternateDataStreams { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

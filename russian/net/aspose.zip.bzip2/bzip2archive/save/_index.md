@@ -1,14 +1,14 @@
 ---
-title: Bzip2Archive.Save
-second_title: Aspose.ZIP для справочника API .NET
-description: Bzip2Archive метод. Сохраняет архив в указанный поток.
+title: "Bzip2Archive.Save"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод Bzip2Archive. Сохраняет архив в предоставленный поток."
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.zip.bzip2/bzip2archive/save/
 ---
 ## Save(Stream, Bzip2SaveOptions) {#save}
 
-Сохраняет архив в указанный поток.
+Сохраняет архив в предоставленный поток.
 
 ```csharp
 public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
@@ -16,26 +16,27 @@ public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| outputStream | Stream | Целевой поток. |
-| saveOptions | Bzip2SaveOptions | Варианты сохранения архива bzip2. Если не указано иное, будет использоваться размер блока 900 КБ. |
+| outputStream | Stream | Поток назначения. |
+| saveOptions | Bzip2SaveOptions | Параметры сохранения bzip2‑архива. Если не указано, будет использован размер блока 900 КБ. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Источник данных для архивирования не указан. |
-| ArgumentException | *outputStream* не доступен для записи. |
+| InvalidOperationException | Источник данных для архивирования не был предоставлен. |
+| ArgumentException | *outputStream* недоступен для записи. |
 | UnauthorizedAccessException | Источник файла доступен только для чтения или является каталогом. |
-| DirectoryNotFoundException | Указанный путь к источнику файла является недопустимым, например, он находится на несопоставленном диске. |
+| DirectoryNotFoundException | Указанный путь к источнику файла недействителен, например, находится на несвязанном диске. |
 | IOException | Источник файла уже открыт. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примечания
+## Примечания
 
-*outputStream*должен быть доступен для записи.
+*outputStream* must be writable.
 
-### Примеры
+## Примеры
 
-Записывает сжатые данные в поток ответов http.
+Записать сжатые данные в поток ответа http.
 
 ```csharp
 using (var archive = new Bzip2Archive()) 
@@ -45,12 +46,12 @@ using (var archive = new Bzip2Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2SaveOptions](../../bzip2saveoptions/)
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -64,21 +65,23 @@ public void Save(string destinationFileName, Bzip2SaveOptions saveOptions = null
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFileName | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
-| saveOptions | Bzip2SaveOptions | Варианты сохранения архива bzip2. Если не указано иное, будет использоваться размер блока 900 КБ. |
+| destinationFileName | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
+| saveOptions | Bzip2SaveOptions | Параметры сохранения bzip2‑архива. Если не указано, будет использован размер блока 900 КБ. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *destinationFileName* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*destinationFileName* отказано. |
-| PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*destinationFileName* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *destinationFileName* равно null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *destinationFileName* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *destinationFileName* запрещён. |
+| PathTooLongException | Указанный *destinationFileName*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл в *destinationFileName* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| InvalidOperationException | Источник данных для архивирования не был предоставлен. |
 
-### Примеры
+## Примеры
 
 Записывает сжатые данные в файл.
 
@@ -90,11 +93,11 @@ using (var archive = new Bzip2Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2SaveOptions](../../bzip2saveoptions/)
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

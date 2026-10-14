@@ -1,23 +1,23 @@
 ---
-title: ArchiveEntry.Name
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntry свойство. Получает имя записи в архиве.
+title: "ArchiveEntry.Name"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveEntry. Возвращает имя элемента в архиве"
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.zip/archiveentry/name/
 ---
 ## ArchiveEntry.Name property
 
-Получает имя записи в архиве.
+Возвращает имя записи в архиве.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveEntry](../)
-* пространство имен [Aspose.Zip](../../archiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

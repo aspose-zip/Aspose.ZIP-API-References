@@ -1,24 +1,24 @@
 ---
-title: TarArchive.Entries
-second_title: Aspose.ZIP для справочника API .NET
-description: TarArchive свойство. Получает записиTarEntry тип составляющий архив.
+title: "TarArchive.Entries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство TarArchive. Возвращает элементы типа TarEntry, составляющие архив"
 type: docs
-weight: 60
+weight: 90
 url: /ru/net/aspose.zip.tar/tararchive/entries/
 ---
 ## TarArchive.Entries property
 
-Получает записи[`TarEntry`](../../tarentry/) тип составляющий архив.
+Возвращает элементы типа [`TarEntry`](../../tarentry/), составляющие архив.
 
 ```csharp
 public ReadOnlyCollection<TarEntry> Entries { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

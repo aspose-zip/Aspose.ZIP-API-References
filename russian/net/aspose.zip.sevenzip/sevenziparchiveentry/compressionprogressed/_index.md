@@ -1,34 +1,36 @@
 ---
-title: SevenZipArchiveEntry.CompressionProgressed
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchiveEntry событие. Возникает при сжатии части необработанного потока.
+title: "SevenZipArchiveEntry.CompressionProgressed"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Событие SevenZipArchiveEntry. Вызывается, когда часть необработанного потока сжата"
 type: docs
 weight: 70
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/compressionprogressed/
 ---
 ## SevenZipArchiveEntry.CompressionProgressed event
 
-Возникает при сжатии части необработанного потока.
+Вызывается, когда часть необработанного потока сжата.
 
 ```csharp
 public event EventHandler<ProgressEventArgs> CompressionProgressed;
 ```
 
-### Примечания
+## Примечания
 
-Отправителем события является[`SevenZipArchiveEntry`](../) пример.
+Отправитель события — экземпляр [`SevenZipArchiveEntry`](../).
 
-### Примеры
+Не вызывается в solid‑режиме и в многопоточном режиме для записей LZMA2.
+
+## Примеры
 
 ```csharp
 archive.Entries[0].CompressionProgressed += (s, e) => { int percent = (int)((100 * (long)e.ProceededBytes) / entrySourceStream.Length); };
 ```
 
-### Смотрите также
+### См. также
 
 * class [ProgressEventArgs](../../../aspose.zip/progresseventargs/)
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

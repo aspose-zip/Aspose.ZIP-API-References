@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveEntrySettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.ArchiveEntrySettings сорт. Настройки используемые для сжатия или распаковки записей.
+title: "Класс ArchiveEntrySettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.ArchiveEntrySettings. Параметры, используемые для сжатия или распаковки записей"
 type: docs
-weight: 370
+weight: 860
 url: /ru/net/aspose.zip.saving/archiveentrysettings/
 ---
 ## ArchiveEntrySettings class
 
-Настройки, используемые для сжатия или распаковки записей.
+Настройки, используемые для сжатия или распаковки элементов.
 
 ```csharp
 public class ArchiveEntrySettings
@@ -18,18 +18,19 @@ public class ArchiveEntrySettings
 
 | Имя | Описание |
 | --- | --- |
-| [ArchiveEntrySettings](archiveentrysettings/)(CompressionSettings, EncryptionSettings) | Инициализирует новый экземпляр`ArchiveEntrySettings` класс. |
+| [ArchiveEntrySettings](archiveentrysettings/)(CompressionSettings, EncryptionSettings) | Инициализирует новый экземпляр класса `ArchiveEntrySettings`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CompressionSettings](../../aspose.zip.saving/archiveentrysettings/compressionsettings/) { get; } | Получает настройки для процедуры сжатия или распаковки. |
-| [EncryptionSettings](../../aspose.zip.saving/archiveentrysettings/encryptionsettings/) { get; } | Получает настройки для шифрования или дешифрования. Настройки конкретной записи могут различаться. |
+| [Comment](../../aspose.zip.saving/archiveentrysettings/comment/) { get; set; } | Комментарий к записи внутри ZIP‑архива. |
+| [CompressionSettings](../../aspose.zip.saving/archiveentrysettings/compressionsettings/) { get; } | Получает параметры для процедуры сжатия или распаковки. |
+| [EncryptionSettings](../../aspose.zip.saving/archiveentrysettings/encryptionsettings/) { get; } | Получает параметры для шифрования или дешифрования. Параметры конкретной записи могут различаться. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

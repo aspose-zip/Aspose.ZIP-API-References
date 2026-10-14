@@ -1,14 +1,14 @@
 ---
-title: Class TraditionalEncryptionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.TraditionalEncryptionSettings сорт. Настройки для традиционного алгоритма ZipCrypto.
+title: "Класс TraditionalEncryptionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.TraditionalEncryptionSettings. Параметры традиционного алгоритма ZipCrypto в ZIP‑архиве"
 type: docs
-weight: 640
+weight: 1150
 url: /ru/net/aspose.zip.saving/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings class
 
-Настройки для традиционного алгоритма ZipCrypto.
+Настройки традиционного алгоритма ZipCrypto в архиве ZIP.
 
 ```csharp
 public class TraditionalEncryptionSettings : EncryptionSettings
@@ -18,25 +18,25 @@ public class TraditionalEncryptionSettings : EncryptionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor)() | Инициализирует новый экземпляр`TraditionalEncryptionSettings`класс без пароля. |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_1)(string) | Инициализирует новый экземпляр`TraditionalEncryptionSettings` класс. |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_2)(string, Encoding) | Инициализирует новый экземпляр`TraditionalEncryptionSettings` класс с пользовательской кодировкой. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor)() | Инициализирует новый экземпляр класса `TraditionalEncryptionSettings` без пароля. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_1)(string) | Инициализирует новый экземпляр класса `TraditionalEncryptionSettings`. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_2)(string, Encoding) | Инициализирует новый экземпляр класса `TraditionalEncryptionSettings` с пользовательским кодированием. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Получает алгоритм шифрования. |
-| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Получает или устанавливает пароль для шифрования или дешифрования. |
+| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Возвращает алгоритм шифрования. |
+| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Получает или задает пароль для шифрования или дешифрования. |
 
-### Примечания
+## Примечания
 
-См. раздел 6.0 в описании формата ZIP: https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT
+См. раздел 6.0 в [описании формата ZIP](https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT)
 
-### Смотрите также
+### См. также
 
 * class [EncryptionSettings](../encryptionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

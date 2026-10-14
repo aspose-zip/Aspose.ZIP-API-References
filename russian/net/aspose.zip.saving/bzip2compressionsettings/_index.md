@@ -1,14 +1,14 @@
 ---
-title: Class Bzip2CompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.Bzip2CompressionSettings сорт. Настройки метода сжатия Bzip2.
+title: "Класс Bzip2CompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.Bzip2CompressionSettings. Параметры сжатия Bzip2 внутри ZIP‑архива"
 type: docs
-weight: 390
+weight: 880
 url: /ru/net/aspose.zip.saving/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings class
 
-Настройки метода сжатия Bzip2.
+Настройки сжатия Bzip2 в архиве ZIP.
 
 ```csharp
 public class Bzip2CompressionSettings : CompressionSettings
@@ -18,23 +18,23 @@ public class Bzip2CompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor)() | Инициализирует новый экземпляр`Bzip2CompressionSettings` класс с размером блока по умолчанию, равным 9 сотням килобайт. |
-| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor_1)(int) | Инициализирует новый экземпляр`Bzip2CompressionSettings` класс. |
+| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor)() | Инициализирует новый экземпляр класса `Bzip2CompressionSettings` с размером блока по умолчанию, равным 9 сотням килобайт. |
+| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor_1)(int) | Инициализирует новый экземпляр класса `Bzip2CompressionSettings`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [BlockSize](../../aspose.zip.saving/bzip2compressionsettings/blocksize/) { get; } | Размер блока в сотнях килобайт. |
 
-### Примечания
+## Примечания
 
-bzip2 сжимает файлы, используя алгоритм сжатия текста с блочной сортировкой Берроуза-Уилера и кодирование Хаффмана. Подробнее: https://en.wikipedia.org/wiki/Bzip2
+bzip2 сжимает файлы, используя алгоритм блочного сортирования текста Burrows‑Wheeler и кодирование Хаффмана.
 
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../compressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

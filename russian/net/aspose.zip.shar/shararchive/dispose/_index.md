@@ -1,23 +1,23 @@
 ---
-title: SharArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: SharArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "SharArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SharArchive. Выполняет задачи, определённые приложением, связанные со освобождением, высвобождением или сбросом неуправляемых ресурсов"
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.shar/shararchive/dispose/
 ---
 ## SharArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [SharArchive](../)
-* пространство имен [Aspose.Zip.Shar](../../shararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

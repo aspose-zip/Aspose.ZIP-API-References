@@ -1,23 +1,23 @@
 ---
-title: PPMdCompressionSettings.ModelOrder
-second_title: Aspose.ZIP для справочника API .NET
-description: PPMdCompressionSettings свойство. Получает порядок модели.
+title: "PPMdCompressionSettings.ModelOrder"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство PPMdCompressionSettings. Возвращает порядок модели"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.saving/ppmdcompressionsettings/modelorder/
 ---
 ## PPMdCompressionSettings.ModelOrder property
 
-Получает порядок модели.
+Возвращает порядок модели.
 
 ```csharp
 public int ModelOrder { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [PPMdCompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../ppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

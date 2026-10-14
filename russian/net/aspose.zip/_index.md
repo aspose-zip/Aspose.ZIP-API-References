@@ -1,34 +1,35 @@
 ---
-title: Aspose.Zip
-second_title: Aspose.ZIP для справочника API .NET
-description: Zip пространство имен содержит классы которые представляют zipархив и общие объекты связанные с архивом.
+title: "Aspose.Zip"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Пространство имён Zip содержит классы, представляющие ZIP‑архив и общие связанные с архивом сущности."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/
 ---
-Zip пространство имен содержит классы, которые представляют zip-архив и общие объекты, связанные с архивом.
+Пространство имён Zip содержит классы, представляющие ZIP‑архив и общие связанные с архивом сущности.
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
-| [Archive](./archive/) | Этот класс представляет файл zip-архива. Используйте его для создания, извлечения или обновления zip-архивов. |
-| [ArchiveEntry](./archiveentry/) | Представляет один файл в архиве. |
-| [ArchiveEntryEncrypted](./archiveentryencrypted/) | ZIP-запись, которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки. |
-| [ArchiveEntryPlain](./archiveentryplain/) | ZIP-запись, которую необходимо сжать без шифрования или распаковать без расшифровки. |
-| [ArchiveFactory](./archivefactory/) | Определяет формат архива и создает соответствующий[`IArchive`](../aspose.zip/iarchive/) объект по типу архива. |
-| [ArchiveLoadOptions](./archiveloadoptions/) | Параметры загрузки архива из сжатого файла. |
-| [CancelEntryEventArgs](./cancelentryeventargs/) | Аргументы событий для событий, связанных с отменяемой записью. |
-| [ComHelper](./comhelper/) | Предоставляет COM-клиентам методы для загрузки архивов в Aspose.Zip. |
-| [EntryEventArgs](./entryeventargs/) | Аргументы событий для событий, связанных с записью. |
-| [License](./license/) | Предоставляет методы лицензирования компонента. |
-| [MeteredLicense](./meteredlicense/) | Предоставляет методы для установки измеренного ключа. |
+| [Archive](./archive/) | Этот класс представляет файл zip‑архива. Используйте его для создания, извлечения или обновления zip‑архивов. |
+| [ArchiveEntry](./archiveentry/) | Представляет отдельный файл в архиве. |
+| [ArchiveEntryEncrypted](./archiveentryencrypted/) | Запись Zip, которую необходимо сжать с шифрованием или распаковать с дешифрованием. |
+| [ArchiveEntryPlain](./archiveentryplain/) | Запись Zip, которую необходимо сжать без шифрования или распаковать без дешифрования. |
+| [ArchiveFactory](./archivefactory/) | Определяет формат архива и создаёт соответствующий объект [`IArchive`](../aspose.zip/iarchive/) в зависимости от типа архива. |
+| [ArchiveLoadOptions](./archiveloadoptions/) | Параметры, с помощью которых ZIP‑архив загружается из сжатого файла. |
+| [CancelEntryEventArgs](./cancelentryeventargs/) | Аргументы события для отменяемых событий, связанных с записью. |
+| [ComHelper](./comhelper/) | Предоставляет методы для COM‑клиентов для загрузки архивов в Aspose.Zip. |
+| [EntryEventArgs](./entryeventargs/) | Аргументы события для связанных с записью событий. |
+| [License](./license/) | Предоставляет методы для лицензирования компонента. |
+| [MeteredLicense](./meteredlicense/) | Предоставляет методы для установки измеряемого ключа. |
+| [ProgressCancelEventArgs](./progresscanceleventargs/) | Класс для отменяемых данных события, содержащих количество обработанных байтов. |
 | [ProgressEventArgs](./progresseventargs/) | Класс для данных события, содержащих количество обработанных байтов. |
 ## Интерфейсы
 
 | Интерфейс | Описание |
 | --- | --- |
-| [IArchive](./iarchive/) | Этот интерфейс представляет собой архив. |
+| [IArchive](./iarchive/) | Этот интерфейс представляет архив. |
 | [IArchiveFileEntry](./iarchivefileentry/) | Этот интерфейс представляет запись файла архива. |
 
 

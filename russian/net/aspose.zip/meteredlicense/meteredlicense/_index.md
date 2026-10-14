@@ -1,23 +1,23 @@
 ---
-title: MeteredLicense.MeteredLicense
-second_title: Aspose.ZIP для справочника API .NET
-description: MeteredLicense строитель. Инициализирует новый экземпляр этого класса.
+title: "MeteredLicense.MeteredLicense"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор MeteredLicense. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/meteredlicense/meteredlicense/
 ---
 ## MeteredLicense constructor
 
-Инициализирует новый экземпляр этого класса.
+Конструктор по умолчанию.
 
 ```csharp
 public MeteredLicense()
 ```
 
-### Смотрите также
+### См. также
 
 * class [MeteredLicense](../)
-* пространство имен [Aspose.Zip](../../meteredlicense/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

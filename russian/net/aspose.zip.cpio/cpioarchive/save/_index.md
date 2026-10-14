@@ -1,7 +1,7 @@
 ---
-title: CpioArchive.Save
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioArchive метод. Сохраняет архив в указанный файл назначения.
+title: "CpioArchive.Save"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CpioArchive. Сохраняет архив в указанный файл назначения."
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.cpio/cpioarchive/save/
@@ -16,26 +16,27 @@ public void Save(string destinationFileName, CpioFormat cpioFormat = CpioFormat.
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFileName | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
+| destinationFileName | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
 | cpioFormat | CpioFormat | Определяет формат заголовка cpio. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *destinationFileName* представляет собой строку нулевой длины, содержащую только пробелы или один или несколько недопустимых символов, как определено в System.IO.Path.InvalidPathChars. |
-| ArgumentNullException | *destinationFileName* нулевой. |
-| PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| DirectoryNotFoundException | Указанный*destinationFileName* недействителен (например, он находится на несопоставленном диске). |
-| IOException | Ошибка ввода-вывода при открытии файла. |
-| UnauthorizedAccessException | *destinationFileName* указан файл, доступный только для чтения, и доступ не для чтения.-или- путь указан к каталогу.-или- у вызывающего абонента нет необходимых разрешений. |
+| ArgumentException | *destinationFileName* — строка нулевой длины, содержит только пробелы или содержит один или несколько недопустимых символов, определённых в System.IO.Path.InvalidPathChars. |
+| ArgumentNullException | *destinationFileName* равно null. |
+| PathTooLongException | Указанный *destinationFileName*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| DirectoryNotFoundException | Указанный *destinationFileName* недействителен (например, он находится на не смонтированном диске). |
+| IOException | Во время открытия файла произошла ошибка ввода/вывода. |
+| UnauthorizedAccessException | *destinationFileName*Указан файл только для чтения и доступ не является чтением.-или- путь указывает на каталог.-или- вызывающий процесс не имеет необходимых прав. |
 | NotSupportedException | *destinationFileName* имеет недопустимый формат. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примечания
+## Примечания
 
-Архив можно сохранить по тому же пути, по которому он был загружен из . Однако делать это не рекомендуется, поскольку при таком подходе используется копирование во временный файл.
+Можно сохранить архив в тот же путь, из которого он был загружен. Однако это не рекомендуется, потому что такой подход использует копирование во временный файл.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -45,18 +46,18 @@ using (var archive = new CpioArchive())
 }       
 ```
 
-### Смотрите также
+### См. также
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(Stream, CpioFormat) {#save}
 
-Сохраняет архив в указанный поток.
+Сохраняет архив в предоставленный поток.
 
 ```csharp
 public void Save(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii)
@@ -64,21 +65,22 @@ public void Save(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| output | Stream | Целевой поток. |
+| output | Stream | Поток назначения. |
 | cpioFormat | CpioFormat | Определяет формат заголовка cpio. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output* нулевой. |
-| ArgumentException | *output* не доступен для записи. - или -*output* это тот же поток, из которого мы извлекаем. - ИЛИ - Невозможно сохранить архив в*cpioFormat* из-за ограничений формата. |
+| ArgumentNullException | *output* равен null. |
+| ArgumentException | *output* не доступен для записи. - или - *output* является тем же потоком, из которого мы извлекаем. - ИЛИ - Невозможно сохранить архив в *cpioFormat* из‑за ограничений формата. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примечания
+## Примечания
 
-*output*должен быть доступен для записи.
+*output* must be writable.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
@@ -91,11 +93,11 @@ using (FileStream cpioFile = File.Open("archive.cpio", FileMode.Create))
 }       
 ```
 
-### Смотрите также
+### См. также
 
 * enum [CpioFormat](../../cpioformat/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

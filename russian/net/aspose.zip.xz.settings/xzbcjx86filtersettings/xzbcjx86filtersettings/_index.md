@@ -1,20 +1,20 @@
 ---
-title: XzBcjX86FilterSettings.XzBcjX86FilterSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: XzBcjX86FilterSettings строитель. Инициализирует новый экземплярXzBcjX86FilterSettings . Используйте его для сжатия исполняемых файлов и библиотек внутриXzArchive .
+title: "XzBcjX86FilterSettings.XzBcjX86FilterSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор XzBcjX86FilterSettings. Инициализирует новый экземпляр XzBcjX86FilterSettings. Используйте его для сжатия исполняемых файлов и библиотек внутри XzArchive"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xz.settings/xzbcjx86filtersettings/xzbcjx86filtersettings/
 ---
 ## XzBcjX86FilterSettings constructor
 
-Инициализирует новый экземпляр[`XzBcjX86FilterSettings`](../) . Используйте его для сжатия исполняемых файлов и библиотек внутри[`XzArchive`](../../../aspose.zip.xz/xzarchive/) .
+Инициализирует новый экземпляр [`XzBcjX86FilterSettings`](../). Используйте его для сжатия исполняемых файлов и библиотек внутри [`XzArchive`](../../../aspose.zip.xz/xzarchive/).
 
 ```csharp
 public XzBcjX86FilterSettings()
 ```
 
-### Примеры
+## Примеры
 
 ```csharp
 XzLZMA2FilterSettings lzma2 = new XzLZMA2FilterSettings(5242880);
@@ -27,10 +27,10 @@ using (XzArchive archive = new XzArchive(settings))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XzBcjX86FilterSettings](../)
-* пространство имен [Aspose.Zip.Xz.Settings](../../xzbcjx86filtersettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzbcjx86filtersettings/)
+* assembly [Aspose.Zip](../../../)
 
 

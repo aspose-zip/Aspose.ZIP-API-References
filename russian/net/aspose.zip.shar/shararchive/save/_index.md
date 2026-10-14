@@ -1,7 +1,7 @@
 ---
-title: SharArchive.Save
-second_title: Aspose.ZIP для справочника API .NET
-description: SharArchive метод. Сохраняет архив в указанный файл назначения.
+title: "SharArchive.Save"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SharArchive. Сохраняет архив в указанный файл назначения"
 type: docs
 weight: 70
 url: /ru/net/aspose.zip.shar/shararchive/save/
@@ -16,25 +16,28 @@ public void Save(string destinationFileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFileName | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
+| destinationFileName | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *destinationFileName* представляет собой строку нулевой длины, содержащую только пробелы или один или несколько недопустимых символов, как определено в System.IO.Path.InvalidPathChars. |
-| ArgumentNullException | *destinationFileName* нулевой. |
-| PathTooLongException | Указанный*destinationFileName*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| DirectoryNotFoundException | Указанный*destinationFileName* недействителен (например, он находится на несопоставленном диске). |
-| IOException | Ошибка ввода-вывода при открытии файла. |
-| UnauthorizedAccessException | *destinationFileName* указан файл, доступный только для чтения, и доступ не для чтения.-или- путь указан к каталогу.-или- у вызывающего абонента нет необходимых разрешений. |
+| ArgumentException | *destinationFileName* — строка нулевой длины, содержит только пробелы или содержит один или несколько недопустимых символов, определённых в System.IO.Path.InvalidPathChars. |
+| ArgumentNullException | *destinationFileName* равно null. |
+| PathTooLongException | Указанный *destinationFileName*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| DirectoryNotFoundException | Указанный *destinationFileName* недействителен (например, он находится на не смонтированном диске). |
+| IOException | Во время открытия файла произошла ошибка ввода/вывода. |
+| UnauthorizedAccessException | *destinationFileName* указывает файл, который только для чтения, и доступ не является чтением. — или — путь указывает на каталог. — или — вызывающий процесс не имеет необходимых прав. |
 | NotSupportedException | *destinationFileName* имеет недопустимый формат. |
+| FileNotFoundException | Файл не найден. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| InvalidOperationException | Этот архив открыт для извлечения. |
 
-### Примечания
+## Примечания
 
-Архив можно сохранить по тому же пути, по которому он был загружен из . Однако делать это не рекомендуется, поскольку при таком подходе используется копирование во временный файл.
+Можно сохранить архив в тот же путь, из которого он был загружен. Однако это не рекомендуется, потому что такой подход использует копирование во временный файл.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new SharArchive())
@@ -44,17 +47,17 @@ using (var archive = new SharArchive())
 }       
 ```
 
-### Смотрите также
+### См. также
 
 * class [SharArchive](../)
-* пространство имен [Aspose.Zip.Shar](../../shararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(Stream) {#save}
 
-Сохраняет архив в указанный поток.
+Сохраняет архив в предоставленный поток.
 
 ```csharp
 public void Save(Stream output)
@@ -62,20 +65,22 @@ public void Save(Stream output)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| output | Stream | Целевой поток. |
+| output | Stream | Поток назначения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output* нулевой. |
-| ArgumentException | *output* не доступен для записи. - или -*output* это тот же поток, из которого мы извлекаем. |
+| ArgumentNullException | *output* равен null. |
+| ArgumentException | *output* недоступен для записи. - или - *output* является тем же потоком, из которого мы извлекаем. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| InvalidOperationException | Этот архив открыт для извлечения. |
 
-### Примечания
+## Примечания
 
-*output*должен быть доступен для записи.
+*output* must be writable.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream sharFile = File.Open("archive.shar", FileMode.Create))
@@ -88,10 +93,10 @@ using (FileStream sharFile = File.Open("archive.shar", FileMode.Create))
 }       
 ```
 
-### Смотрите также
+### См. также
 
 * class [SharArchive](../)
-* пространство имен [Aspose.Zip.Shar](../../shararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

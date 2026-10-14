@@ -1,14 +1,14 @@
 ---
-title: TarArchive.DeleteEntry
-second_title: Aspose.ZIP для справочника API .NET
-description: TarArchive метод. Удаляет первое вхождение определенной записи из списка записей.
+title: "TarArchive.DeleteEntry"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод TarArchive. Удаляет первое вхождение конкретного элемента из списка записей"
 type: docs
-weight: 90
+weight: 120
 url: /ru/net/aspose.zip.tar/tararchive/deleteentry/
 ---
 ## DeleteEntry(TarEntry) {#deleteentry}
 
-Удаляет первое вхождение определенной записи из списка записей.
+Удаляет первое вхождение конкретной записи из списка записей.
 
 ```csharp
 public TarArchive DeleteEntry(TarEntry entry)
@@ -16,15 +16,21 @@ public TarArchive DeleteEntry(TarEntry entry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entry | TarEntry | Запись, которую необходимо удалить из списка записей. |
+| запись | TarEntry | Элемент, который нужно удалить из списка элементов. |
 
 ### Возвращаемое значение
 
-Архив с записью удален.
+Архив с удалённым элементом.
 
-### Примеры
+### Исключения
 
-Вот как вы можете удалить все записи, кроме последней:
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Архив был освобождён и не может быть использован |
+
+## Примеры
+
+Вот как можно удалить все элементы, кроме последнего:
 
 ```csharp
 using (var archive = new TarArchive("archive.tar"))
@@ -35,12 +41,12 @@ using (var archive = new TarArchive("archive.tar"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -54,19 +60,20 @@ public TarArchive DeleteEntry(int entryIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entryIndex | Int32 | Отсчитываемый от нуля индекс удаляемой записи. |
+| entryIndex | Int32 | Нулевой индекс элемента, который нужно удалить. |
 
 ### Возвращаемое значение
 
-Архив с записью удален.
+Архив с удалённым элементом.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или-*entryIndex* равно или больше, чем`Записи` считать. |
+| ArgumentOutOfRangeException | *entryIndex* меньше 0.-или- *entryIndex* равно или больше количества `Entries` count. |
+| ObjectDisposedException | Архив был освобождён и не может быть использован |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (var archive = new TarArchive("two_files.tar"))
@@ -76,10 +83,10 @@ using (var archive = new TarArchive("two_files.tar"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

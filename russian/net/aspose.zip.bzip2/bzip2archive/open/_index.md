@@ -1,9 +1,9 @@
 ---
-title: Bzip2Archive.Open
-second_title: Aspose.ZIP для справочника API .NET
-description: Bzip2Archive метод. Открывает архив для извлечения и предоставляет поток с содержимым архива.
+title: "Bzip2Archive.Open"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод Bzip2Archive. Открывает архив для извлечения и предоставляет поток с содержимым архива."
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.zip.bzip2/bzip2archive/open/
 ---
 ## Bzip2Archive.Open method
@@ -18,13 +18,23 @@ public Stream Open()
 
 Поток, представляющий содержимое архива.
 
-### Примечания
+### Исключения
 
-Прочитать из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примечания
+
+Чтение из потока позволяет получить оригинальное содержимое файла. См. раздел примеров.
+
+## Примеры
 
 Использование:
+
+```csharp
+Stream decompressed = archive.Open();
+```
 
 .NET 4.0 и выше — используйте метод Stream.CopyTo:
 
@@ -32,7 +42,7 @@ public Stream Open()
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 и более ранние версии — копировать байты вручную:
+.NET 3.5 и ниже — копируйте байты вручную:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +51,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = archive.Open();
-```
-
-### Смотрите также
+### См. также
 
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: IArchiveFileEntry.Length
-second_title: Aspose.ZIP для справочника API .NET
-description: IArchiveFileEntry свойство. Получает длину записи в байтах.
+title: "IArchiveFileEntry.Length"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство IArchiveFileEntry. Возвращает длину записи в байтах."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/iarchivefileentry/length/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip/iarchivefileentry/length/
 public long? Length { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * interface [IArchiveFileEntry](../)
-* пространство имен [Aspose.Zip](../../iarchivefileentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

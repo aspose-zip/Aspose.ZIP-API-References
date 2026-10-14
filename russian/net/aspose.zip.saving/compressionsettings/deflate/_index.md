@@ -1,24 +1,24 @@
 ---
-title: CompressionSettings.Deflate
-second_title: Aspose.ZIP для справочника API .NET
-description: CompressionSettings свойство. ЭкземплярDeflateCompressionSettings с параметрами по умолчанию.
+title: "CompressionSettings.Deflate"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CompressionSettings. Экземпляр DeflateCompressionSettings с параметрами по умолчанию"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.saving/compressionsettings/deflate/
 ---
 ## CompressionSettings.Deflate property
 
-Экземпляр`DeflateCompressionSettings` с параметрами по умолчанию.
+Экземпляр `DeflateCompressionSettings` с параметрами по умолчанию.
 
 ```csharp
 public static DeflateCompressionSettings Deflate { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [DeflateCompressionSettings](../../deflatecompressionsettings/)
 * class [CompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../compressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

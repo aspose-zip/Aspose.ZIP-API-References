@@ -1,24 +1,24 @@
 ---
-title: Class License
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.License сорт. Предоставляет методы лицензирования компонента.
+title: "Класс License"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.License. Предоставляет методы для лицензирования компонента."
 type: docs
-weight: 260
+weight: 660
 url: /ru/net/aspose.zip/license/
 ---
 ## License class
 
-Предоставляет методы лицензирования компонента.
+Предоставляет методы для лицензирования компонента.
 
 ```csharp
-public class License
+public sealed class License
 ```
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [License](license/)() | Инициализирует новый экземпляр`License` сорт. |
+| [License](license/)() | Инициализирует новый экземпляр класса `License`. |
 
 ## Методы
 
@@ -27,9 +27,9 @@ public class License
 | [SetLicense](../../aspose.zip/license/setlicense/#setlicense)(Stream) | Лицензирует компонент. |
 | [SetLicense](../../aspose.zip/license/setlicense/#setlicense_1)(string) | Лицензирует компонент. |
 
-### Примеры
+## Примеры
 
-В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей  компонент в папке, содержащей вызывающую сборку, в папке входной сборки, а затем во встроенных ресурсах вызывающей сборки.
+В этом примере будет предпринята попытка найти файл лицензии с именем MyLicense.lic в папке, содержащей компонент, в папке, содержащей вызывающую сборку, в папке входной сборки и затем во встроенных ресурсах вызывающей сборки.
 
 ```csharp
 [C#]
@@ -51,9 +51,9 @@ License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

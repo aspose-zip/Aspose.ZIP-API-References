@@ -1,14 +1,14 @@
 ---
-title: Class SplitSevenZipArchiveSaveOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.SplitSevenZipArchiveSaveOptions сорт. Варианты сохранения многотомного архива 7zip.
+title: "Класс SplitSevenZipArchiveSaveOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.SplitSevenZipArchiveSaveOptions. Параметры сохранения многотомного 7‑zip архива"
 type: docs
-weight: 620
+weight: 1130
 url: /ru/net/aspose.zip.saving/splitsevenziparchivesaveoptions/
 ---
 ## SplitSevenZipArchiveSaveOptions class
 
-Варианты сохранения многотомного архива 7-zip.
+Параметры сохранения многотомного архива 7-zip.
 
 ```csharp
 public class SplitSevenZipArchiveSaveOptions
@@ -18,18 +18,18 @@ public class SplitSevenZipArchiveSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [SplitSevenZipArchiveSaveOptions](splitsevenziparchivesaveoptions/)(string, uint) | Задает настройки для сохранения многотомного архива 7z. |
+| [SplitSevenZipArchiveSaveOptions](splitsevenziparchivesaveoptions/)(string, uint) | Создаёт параметры для сохранения многотомного 7z‑архива. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [FileName](../../aspose.zip.saving/splitsevenziparchivesaveoptions/filename/) { get; } | Получает имена сегментов без расширения. |
+| [FileName](../../aspose.zip.saving/splitsevenziparchivesaveoptions/filename/) { get; } | Получает имя сегментов без расширения. |
 | [SegmentSize](../../aspose.zip.saving/splitsevenziparchivesaveoptions/segmentsize/) { get; } | Получает размер сегмента. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

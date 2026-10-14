@@ -1,9 +1,9 @@
 ---
-title: Class ProgressEventArgs
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.ProgressEventArgs сорт. Класс для данных события содержащих количество обработанных байтов.
+title: "Класс ProgressEventArgs"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.ProgressEventArgs. Класс данных события, содержащий количество обработанных байтов"
 type: docs
-weight: 300
+weight: 780
 url: /ru/net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class
@@ -18,17 +18,17 @@ public class ProgressEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [ProgressEventArgs](progresseventargs/)(ulong) | Инициализирует новый экземпляр`ProgressEventArgs` класс. |
+| [ProgressEventArgs](progresseventargs/)(ulong) | Инициализирует новый экземпляр класса `ProgressEventArgs`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ProceededBytes](../../aspose.zip/progresseventargs/proceededbytes/) { get; } | Получает количество обработанных байтов. |
+| [ProceededBytes](../../aspose.zip/progresseventargs/proceededbytes/) { get; } | Возвращает количество обработанных байтов. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip](../../aspose.zip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

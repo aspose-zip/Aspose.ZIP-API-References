@@ -1,18 +1,18 @@
 ---
-title: Aspose.Zip.LZMA
-second_title: Aspose.ZIP для справочника API .NET
-description: LZMAпространство имен содержит классы которые представляют объекты связанные с архивом lzma.
+title: "Aspose.Zip.LZMA"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Пространство имён LZMA содержит классы, представляющие сущности, связанные с архивами lzma."
 type: docs
-weight: 90
+weight: 170
 url: /ru/net/aspose.zip.lzma/
 ---
-LZMAпространство имен содержит классы, которые представляют объекты, связанные с архивом lzma.
+Пространство имён LZMA содержит классы, представляющие сущности, связанные с архивом lzma.
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
 | [LzmaArchive](./lzmaarchive/) | Этот класс представляет файл архива LZMA. Используйте его для создания или извлечения архивов LZMA. |
-| [LzmaArchiveSettings](./lzmaarchivesettings/) | Настройки метода сжатия LZMA в архиве lzma. |
+| [LzmaArchiveSettings](./lzmaarchivesettings/) | Настройки архива lzma. |
 
 

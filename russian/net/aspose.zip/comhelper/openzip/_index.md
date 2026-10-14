@@ -1,14 +1,14 @@
 ---
-title: ComHelper.OpenZip
-second_title: Aspose.ZIP для справочника API .NET
-description: ComHelper метод. Позволяет приложению COM загружать zipархив из потока.
+title: "ComHelper.OpenZip"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод ComHelper. Позволяет COM‑приложению загрузить ZIP‑архив из потока."
 type: docs
 weight: 50
 url: /ru/net/aspose.zip/comhelper/openzip/
 ---
 ## OpenZip(Stream) {#openzip}
 
-Позволяет приложению COM загружать zip-архив из потока.
+Позволяет COM‑приложению загрузить ZIP‑архив из потока.
 
 ```csharp
 public Archive OpenZip(Stream stream)
@@ -16,24 +16,30 @@ public Archive OpenZip(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Объект потока .NET, содержащий загружаемый архив. |
+| stream | Stream | Объект .NET‑потока, содержащий архив для загрузки. |
 
 ### Возвращаемое значение
 
-А[`Archive`](../../archive/) объект, представляющий архив.
+Объект [`Archive`](../../archive/), представляющий архив.
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+
+### См. также
 
 * class [Archive](../../archive/)
 * class [ComHelper](../)
-* пространство имен [Aspose.Zip](../../comhelper/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## OpenZip(string) {#openzip_1}
 
-Позволяет приложению COM загружать zip-архив из файла.
+Позволяет COM‑приложению загрузить ZIP‑архив из файла.
 
 ```csharp
 public Archive OpenZip(string fileName)
@@ -45,13 +51,25 @@ public Archive OpenZip(string fileName)
 
 ### Возвращаемое значение
 
-А[`Archive`](../../archive/) объект, представляющий архив.
+Объект [`Archive`](../../archive/), представляющий архив.
 
-### Смотрите также
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+| ArgumentException | Имя файла пустое, содержит только пробелы или содержит недопустимые символы. |
+| ArgumentNullException | *fileName* равно `null`. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| FileNotFoundException | Файл не найден. |
+| PathTooLongException | Указанный путь, имя файла или их комбинация превышают системно определённую максимальную длину. |
+| UnauthorizedAccessException | Доступ к *fileName* запрещён. |
+
+### См. также
 
 * class [Archive](../../archive/)
 * class [ComHelper](../)
-* пространство имен [Aspose.Zip](../../comhelper/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 

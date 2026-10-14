@@ -1,20 +1,20 @@
 ---
-title: TarArchive.TarArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: TarArchive строитель. Инициализирует новый экземплярTarArchive класс.
+title: "TarArchive.TarArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор TarArchive. Инициализирует новый экземпляр класса TarArchive"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.tar/tararchive/tararchive/
 ---
 ## TarArchive() {#constructor}
 
-Инициализирует новый экземпляр[`TarArchive`](../) класс.
+Инициализирует новый экземпляр класса [`TarArchive`](../).
 
 ```csharp
 public TarArchive()
 ```
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как сжать файл.
 
@@ -26,37 +26,40 @@ using (var archive = new TarArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(Stream) {#constructor_1}
+## TarArchive(Stream, TarLoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр[`Archive`](../../../aspose.zip/archive/) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`TarArchive`](../) и формирует список записей, которые можно извлечь из архива.
 
 ```csharp
-public TarArchive(Stream sourceStream)
+public TarArchive(Stream sourceStream, TarLoadOptions loadOptions = null)
 ```
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| sourceStream | Stream | Источник архива. Он должен быть доступен для поиска. |
+| Параметр | Описание |
+| --- | --- |
+| sourceStream | Источник архива. Должен поддерживать поиск. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidDataException | *sourceStream* не доступен для поиска. |
+| ArgumentException | *sourceStream* не поддерживает перемещение. |
+| ArgumentNullException | *sourceStream* имеет значение null. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../tarentry/open/)способ распаковки.
+Этот конструктор не распаковывает ни одну запись. См. метод [`Open`](../../tarentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как извлечь все записи в каталог.
 
@@ -67,56 +70,62 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 }
 ```
 
-### Смотрите также
+### См. также
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(string) {#constructor_2}
+## TarArchive(string, TarLoadOptions) {#constructor_2}
 
-Инициализирует новый экземпляр[`TarArchive`](../) список записей классов и композиций можно извлечь из архива.
+Инициализирует новый экземпляр класса [`TarArchive`](../) и формирует список записей, которые можно извлечь из архива.
 
 ```csharp
-public TarArchive(string path)
+public TarArchive(string path, TarLoadOptions loadOptions = null)
 ```
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| path | String | Путь к файлу архива. |
+| Параметр | Описание |
+| --- | --- |
+| path | Путь к файлу архива. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| FileNotFoundException | Файл не найден. |
+| DirectoryNotFoundException | Указанный путь недействителен, например, находится на не смонтированном диске. |
+| IOException | Файл уже открыт. |
+| EndOfStreamException | Выбрасывается, когда конец потока достигается до чтения ожидаемого количества байтов. |
 
-### Примечания
+## Примечания
 
-Этот конструктор не распаковывает никакую запись. Видеть[`Open`](../../tarentry/open/)способ распаковки.
+Этот конструктор не распаковывает ни одну запись. См. метод [`Open`](../../tarentry/open/) для распаковки.
 
-### Примеры
+## Примеры
 
 В следующем примере показано, как извлечь все записи в каталог.
 
 ```csharp
-using (var archive = new TarArchive("archive.tar")) 
+using (var archive = new TarArchive("archive.tar", new TarLoadOptions() { CancellationToken = cancellationToken }))
 { 
    archive.ExtractToDirectory("C:\extracted");
 }
 ```
 
-### Смотрите также
+### См. также
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* пространство имен [Aspose.Zip.Tar](../../tararchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

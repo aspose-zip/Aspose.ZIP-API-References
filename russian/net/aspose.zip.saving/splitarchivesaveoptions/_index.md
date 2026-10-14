@@ -1,14 +1,14 @@
 ---
-title: Class SplitArchiveSaveOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.SplitArchiveSaveOptions сорт. Варианты сохранения многотомного zipархива.
+title: "Класс SplitArchiveSaveOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.SplitArchiveSaveOptions. Параметры сохранения многотомного ZIP‑архива"
 type: docs
-weight: 610
+weight: 1120
 url: /ru/net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 ## SplitArchiveSaveOptions class
 
-Варианты сохранения многотомного zip-архива.
+Параметры сохранения многотомного архива ZIP.
 
 ```csharp
 public class SplitArchiveSaveOptions
@@ -18,19 +18,23 @@ public class SplitArchiveSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [SplitArchiveSaveOptions](splitarchivesaveoptions/)(string, uint) | Задает настройки для сохранения многотомного zip-архива. |
+| [SplitArchiveSaveOptions](splitarchivesaveoptions/#constructor_1)(uint) | Создает экземпляр настроек для сохранения многотомного ZIP-архива. |
+| [SplitArchiveSaveOptions](splitarchivesaveoptions/#constructor)(string, uint) | Создает экземпляр настроек для сохранения многотомного ZIP-архива. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
+| [ArchiveComment](../../aspose.zip.saving/splitarchivesaveoptions/archivecomment/) { get; set; } | Получает или задает необязательный комментарий для Zip‑файла. |
+| [CloseEntrySource](../../aspose.zip.saving/splitarchivesaveoptions/closeentrysource/) { get; set; } | Получает или задает значение, указывающее, следует ли закрывать источники записей сразу после сжатия записи. |
 | [Encoding](../../aspose.zip.saving/splitarchivesaveoptions/encoding/) { get; set; } | Получает или задает кодировку для преобразования имен файлов и других строк в байты. |
-| [FileName](../../aspose.zip.saving/splitarchivesaveoptions/filename/) { get; } | Получает имена сегментов без расширения. |
+| [EventsBag](../../aspose.zip.saving/splitarchivesaveoptions/eventsbag/) { get; set; } | Получает или задает контейнер событий, вызываемых при сохранении архива. |
+| [FileName](../../aspose.zip.saving/splitarchivesaveoptions/filename/) { get; } | Получает имя сегментов без расширения. |
 | [SegmentSize](../../aspose.zip.saving/splitarchivesaveoptions/segmentsize/) { get; } | Получает размер сегмента. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

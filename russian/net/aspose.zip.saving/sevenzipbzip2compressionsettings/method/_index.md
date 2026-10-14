@@ -1,7 +1,7 @@
 ---
-title: SevenZipBZip2CompressionSettings.Method
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipBZip2CompressionSettings свойство. Получает метод сжатия или распаковки.
+title: "SevenZipBZip2CompressionSettings.Method"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipBZip2CompressionSettings. Возвращает метод сжатия или распаковки"
 type: docs
 weight: 30
 url: /ru/net/aspose.zip.saving/sevenzipbzip2compressionsettings/method/
@@ -14,11 +14,11 @@ url: /ru/net/aspose.zip.saving/sevenzipbzip2compressionsettings/method/
 public override SevenZipCompressionMethod Method { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [SevenZipCompressionMethod](../../sevenzipcompressionmethod/)
 * class [SevenZipBZip2CompressionSettings](../)
-* пространство имен [Aspose.Zip.Saving](../../sevenzipbzip2compressionsettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipbzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

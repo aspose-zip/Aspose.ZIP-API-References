@@ -1,24 +1,24 @@
 ---
-title: ArchiveFormatInfo.Format
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveFormatInfo свойство. Получает формат архива.
+title: "ArchiveFormatInfo.Format"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveFormatInfo. Возвращает формат архива."
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.archiveinfo/archiveformatinfo/format/
 ---
 ## ArchiveFormatInfo.Format property
 
-Получает формат архива.
+Возвращает формат архива.
 
 ```csharp
 public abstract ArchiveFormat Format { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [ArchiveFormat](../../archiveformat/)
 * class [ArchiveFormatInfo](../)
-* пространство имен [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../archiveformatinfo/)
+* assembly [Aspose.Zip](../../../)
 
 

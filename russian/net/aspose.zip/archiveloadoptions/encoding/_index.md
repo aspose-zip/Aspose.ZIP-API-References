@@ -1,37 +1,37 @@
 ---
-title: ArchiveLoadOptions.Encoding
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveLoadOptions свойство. Получает или задает кодировку имен записей.
+title: "ArchiveLoadOptions.Encoding"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveLoadOptions. Возвращает или задает кодировку для имён записей"
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.zip/archiveloadoptions/encoding/
 ---
 ## ArchiveLoadOptions.Encoding property
 
-Получает или задает кодировку имен записей.
+Получает или задает кодировку для имён записей.
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
-Имя записи, составленное с использованием указанной кодировки независимо от свойств zip-файла.
+Имя записи формируется с использованием указанной кодировки независимо от свойств zip‑файла.
 
 ```csharp
 using (FileStream fs = File.OpenRead("archive.zip"))
 {      
-    using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
+    using (var archive = new Archive(fs, new ArchiveLoadOptions() { Encoding = System.Text.Encoding.GetEncoding(932) }))
     {
         string name = archive.Entries[0].Name;
     }    
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveLoadOptions](../)
-* пространство имен [Aspose.Zip](../../archiveloadoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

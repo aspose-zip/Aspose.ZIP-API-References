@@ -1,14 +1,14 @@
 ---
-title: Class EnhancedDeflateCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.EnhancedDeflateCompressionSettings сорт. Настройки для метода сжатия Enhanced Deflate.
+title: "Класс EnhancedDeflateCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.EnhancedDeflateCompressionSettings. Параметры улучшенного сжатия Deflate в ZIP‑архиве"
 type: docs
-weight: 440
+weight: 930
 url: /ru/net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings class
 
-Настройки для метода сжатия Enhanced Deflate.
+Настройки улучшенного сжатия Deflate в архиве ZIP.
 
 ```csharp
 public class EnhancedDeflateCompressionSettings : CompressionSettings
@@ -18,12 +18,12 @@ public class EnhancedDeflateCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | Инициализирует новый экземпляр`EnhancedDeflateCompressionSettings` класс. |
+| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | Инициализирует новый экземпляр класса `EnhancedDeflateCompressionSettings`. |
 
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../compressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

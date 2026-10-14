@@ -1,14 +1,14 @@
 ---
-title: Class PPMdCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.PPMdCompressionSettings сорт. Настройки метода сжатия PPMd.
+title: "Класс PPMdCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.PPMdCompressionSettings. Параметры сжатия PPMd в ZIP‑архиве"
 type: docs
-weight: 470
+weight: 970
 url: /ru/net/aspose.zip.saving/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings class
 
-Настройки метода сжатия PPMd.
+Настройки сжатия PPMd в архиве ZIP.
 
 ```csharp
 public class PPMdCompressionSettings : CompressionSettings
@@ -18,24 +18,24 @@ public class PPMdCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor)() | Инициализирует новый экземпляр`PPMdCompressionSettings` класс с порядком модели по умолчанию и размером вспомогательного распределителя. |
-| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor_1)(int, int) | Инициализирует новый экземпляр`PPMdCompressionSettings` класс. |
+| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor)() | Инициализирует новый экземпляр класса `PPMdCompressionSettings` с порядком модели по умолчанию и размером субаллокации. |
+| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor_1)(int, int) | Инициализирует новый экземпляр класса `PPMdCompressionSettings`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ModelOrder](../../aspose.zip.saving/ppmdcompressionsettings/modelorder/) { get; } | Получает порядок модели. |
-| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/) { get; } | Получает размер вспомогательного распределителя в МБ. |
+| [ModelOrder](../../aspose.zip.saving/ppmdcompressionsettings/modelorder/) { get; } | Возвращает порядок модели. |
+| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/) { get; } | Получает размер субаллокации в МБ. |
 
-### Примечания
+## Примечания
 
-PPMd — это алгоритм сжатия данных, разработанный Дмитрием Шкариным. Этот алгоритм основан на прогнозирующем сопоставлении фраз в нескольких контекстах заказа.
+PPMd — это алгоритм сжатия данных, разработанный Дмитрием Шкарином. Этот алгоритм основан на предиктивном сопоставлении фраз в контекстах разных порядков.
 
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../compressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

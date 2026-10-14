@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchiveEntry.CompressedSize
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchiveEntry свойство. Получает размер сжатого файла.
+title: "SevenZipArchiveEntry.CompressedSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipArchiveEntry. Возвращает размер сжатого файла"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/compressedsize/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentry/compressedsize/
 public ulong CompressedSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

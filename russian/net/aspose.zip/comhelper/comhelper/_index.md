@@ -1,7 +1,7 @@
 ---
-title: ComHelper.ComHelper
-second_title: Aspose.ZIP для справочника API .NET
-description: ComHelper строитель. Инициализирует новый экземпляр этого класса.
+title: "ComHelper.ComHelper"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор ComHelper. Инициализирует новый экземпляр этого класса"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip/comhelper/comhelper/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip/comhelper/comhelper/
 public ComHelper()
 ```
 
-### Смотрите также
+### См. также
 
 * class [ComHelper](../)
-* пространство имен [Aspose.Zip](../../comhelper/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../comhelper/)
+* assembly [Aspose.Zip](../../../)
 
 

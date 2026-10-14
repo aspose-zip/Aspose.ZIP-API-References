@@ -1,20 +1,20 @@
 ---
-title: ArchiveEntrySettings.CompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveEntrySettings свойство. Получает настройки для процедуры сжатия или распаковки.
+title: "ArchiveEntrySettings.CompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство ArchiveEntrySettings. Возвращает настройки для процедуры сжатия или распаковки."
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.zip.saving/archiveentrysettings/compressionsettings/
 ---
 ## ArchiveEntrySettings.CompressionSettings property
 
-Получает настройки для процедуры сжатия или распаковки.
+Получает параметры для процедуры сжатия или распаковки.
 
 ```csharp
 public CompressionSettings CompressionSettings { get; }
 ```
 
-### Примечания
+## Примечания
 
 Может быть одним из следующих:
 
@@ -23,12 +23,15 @@ public CompressionSettings CompressionSettings { get; }
 * **[`Bzip2CompressionSettings`](../../bzip2compressionsettings/)**
 * **[`LzmaCompressionSettings`](../../lzmacompressionsettings/)**
 * **[`PPMdCompressionSettings`](../../ppmdcompressionsettings/)**
+* **[`EnhancedDeflateCompressionSettings`](../../enhanceddeflatecompressionsettings/)**
+* **[`XzCompressionSettings`](../../xzcompressionsettings/)**
+* **[`ZstandardCompressionSettings`](../../zstandardcompressionsettings/)**
 
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../../compressionsettings/)
 * class [ArchiveEntrySettings](../)
-* пространство имен [Aspose.Zip.Saving](../../archiveentrysettings/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archiveentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class RarArchiveLoadOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Rar.RarArchiveLoadOptions сорт. Опции с которымиRarArchive загружается из сжатого файла.
+title: "Класс RarArchiveLoadOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Rar.RarArchiveLoadOptions. Параметры, с помощью которых RarArchive загружается из сжатого файла"
 type: docs
-weight: 350
+weight: 830
 url: /ru/net/aspose.zip.rar/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions class
 
-Опции, с которыми[`RarArchive`](../rararchive/) загружается из сжатого файла.
+Параметры, с помощью которых [`RarArchive`](../rararchive/) загружается из сжатого файла.
 
 ```csharp
 public class RarArchiveLoadOptions
@@ -18,17 +18,20 @@ public class RarArchiveLoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [RarArchiveLoadOptions](rararchiveloadoptions/)() | Конструктор по умолчанию. |
+| [RarArchiveLoadOptions](rararchiveloadoptions/)() | Инициализирует новый экземпляр класса `RarArchiveLoadOptions`. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [DecryptionPassword](../../aspose.zip.rar/rararchiveloadoptions/decryptionpassword/) { get; set; } | Получает или задает пароль для расшифровки записей и имен записей. |
+| [CancellationToken](../../aspose.zip.rar/rararchiveloadoptions/cancellationtoken/) { get; set; } | Получает или задает токен отмены, используемый для отмены операции извлечения. |
+| [DecryptionPassword](../../aspose.zip.rar/rararchiveloadoptions/decryptionpassword/) { get; set; } | Получает или задает пароль для дешифрования записей и имен записей. |
+| [DictionaryStorageMode](../../aspose.zip.rar/rararchiveloadoptions/dictionarystoragemode/) { get; set; } | Получает или задает способ хранения словаря распаковки RAR. |
+| [TemporaryDirectory](../../aspose.zip.rar/rararchiveloadoptions/temporarydirectory/) { get; set; } | Получает или задает каталог, используемый для временных файлов словаря. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

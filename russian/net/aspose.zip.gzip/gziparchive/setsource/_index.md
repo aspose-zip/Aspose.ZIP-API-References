@@ -1,14 +1,14 @@
 ---
-title: GzipArchive.SetSource
-second_title: Aspose.ZIP для справочника API .NET
-description: GzipArchive метод. Задает сжатие содержимого внутри архива.
+title: "GzipArchive.SetSource"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод GzipArchive. Устанавливает содержимое, которое будет сжато в архиве"
 type: docs
-weight: 70
+weight: 90
 url: /ru/net/aspose.zip.gzip/gziparchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_2}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(Stream source)
@@ -18,7 +18,13 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | Входной поток для архива. |
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+## Примеры
 
 ```csharp
 using (var archive = new GzipArchive())
@@ -28,17 +34,17 @@ using (var archive = new GzipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [GzipArchive](../)
-* пространство имен [Aspose.Zip.Gzip](../../gziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource_1}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
@@ -46,11 +52,15 @@ public void SetSource(FileInfo fileInfo)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileInfo | FileInfo | Ссылка на файл, который нужно сжать. |
+| fileInfo | FileInfo | Ссылка на файл, который будет сжат. |
 
-### Примеры
+### Исключения
 
-Откройте архив из потока и распакуйте его в`ПамятьПоток`
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+## Примеры
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -60,17 +70,17 @@ using (var archive = new GzipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [GzipArchive](../)
-* пространство имен [Aspose.Zip.Gzip](../../gziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_3}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(string path)
@@ -78,22 +88,21 @@ public void SetSource(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к сжимаемому файлу. |
+| path | String | Путь к файлу, который будет сжат. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
-
-Откройте архив из файла по пути и извлеките его в`ПамятьПоток`
+## Примеры
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -103,17 +112,17 @@ using (var archive = new GzipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [GzipArchive](../)
-* пространство имен [Aspose.Zip.Gzip](../../gziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(TarArchive) {#setsource}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(TarArchive tarArchive)
@@ -121,13 +130,19 @@ public void SetSource(TarArchive tarArchive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tarArchive | TarArchive | Архив Tar для сжатия. |
+| tarArchive | TarArchive | Tar‑архив, который будет сжат. |
 
-### Примечания
+### Исключения
 
-Используйте этот метод для создания совместного архива tar.gz.
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примечания
+
+Используйте этот метод для создания совместного tar.gz архива.
+
+## Примеры
 
 ```csharp
 using (var tarArchive = new TarArchive())
@@ -142,11 +157,11 @@ using (var tarArchive = new TarArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive/)
 * class [GzipArchive](../)
-* пространство имен [Aspose.Zip.Gzip](../../gziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

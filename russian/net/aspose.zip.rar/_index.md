@@ -1,21 +1,26 @@
 ---
-title: Aspose.Zip.Rar
-second_title: Aspose.ZIP для справочника API .NET
-description: Rarпространство имен содержит классы представляющие объекты связанные с архивом RAR.
+title: "Aspose.Zip.Rar"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Пространство имён Rar содержит классы, представляющие сущности, связанные с архивами RAR."
 type: docs
-weight: 100
+weight: 190
 url: /ru/net/aspose.zip.rar/
 ---
-Rarпространство имен содержит классы, представляющие объекты, связанные с архивом RAR.
+Пространство имён Rar содержит классы, представляющие сущности, связанные с архивом RAR.
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
 | [RarArchive](./rararchive/) | Этот класс представляет файл архива RAR. Используйте его для извлечения архивов RAR. |
-| [RarArchiveEntry](./rararchiveentry/) | Представляет один файл в архиве. |
-| [RarArchiveEntryEncrypted](./rararchiveentryencrypted/) | Zip-запись, которую необходимо распаковать с расшифровкой. |
+| [RarArchiveEntry](./rararchiveentry/) | Представляет отдельный файл в архиве. |
+| [RarArchiveEntryEncrypted](./rararchiveentryencrypted/) | Запись Zip, которую необходимо распаковать с расшифровкой. |
 | [RarArchiveEntryPlain](./rararchiveentryplain/) | Запись Rar, которую необходимо распаковать без расшифровки. |
-| [RarArchiveLoadOptions](./rararchiveloadoptions/) | Опции, с которыми[`RarArchive`](../aspose.zip.rar/rararchive/) загружается из сжатого файла. |
+| [RarArchiveLoadOptions](./rararchiveloadoptions/) | Параметры, с помощью которых [`RarArchive`](../aspose.zip.rar/rararchive/) загружается из сжатого файла. |
+## Перечисление
+
+| Перечисление | Описание |
+| --- | --- |
+| [RarDictionaryStorageMode](./rardictionarystoragemode/) | Указывает, как хранится словарь распаковки RAR. |
 
 

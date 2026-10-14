@@ -1,7 +1,7 @@
 ---
-title: XarEntry.CreationTime
-second_title: Aspose.ZIP для справочника API .NET
-description: XarEntry свойство. Получает время создания файла или каталога.
+title: "XarEntry.CreationTime"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство XarEntry. Возвращает время создания файла или каталога"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.xar/xarentry/creationtime/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.xar/xarentry/creationtime/
 public DateTime CreationTime { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XarEntry](../)
-* пространство имен [Aspose.Zip.Xar](../../xarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

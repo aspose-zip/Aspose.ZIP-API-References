@@ -1,23 +1,23 @@
 ---
-title: CpioArchive.Dispose
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioArchive метод. Выполняет определяемые приложением задачи связанные с освобождением высвобождением или сбросом неуправляемых ресурсов.
+title: "CpioArchive.Dispose"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CpioArchive. Выполняет определённые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов."
 type: docs
 weight: 60
 url: /ru/net/aspose.zip.cpio/cpioarchive/dispose/
 ---
 ## CpioArchive.Dispose method
 
-Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
+Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов.
 
 ```csharp
 public void Dispose()
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

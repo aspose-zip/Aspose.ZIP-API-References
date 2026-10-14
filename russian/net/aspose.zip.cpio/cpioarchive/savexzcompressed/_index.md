@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.SaveXzCompressed
-second_title: Aspose.ZIP для справочника API .NET
-description: CpioArchive метод. Сохраняет архив в поток со сжатием xz.
+title: "CpioArchive.SaveXzCompressed"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CpioArchive. Сохраняет архив в поток с xz‑сжатием."
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/aspose.zip.cpio/cpioarchive/savexzcompressed/
 ---
 ## SaveXzCompressed(Stream, CpioFormat, XzArchiveSettings) {#savexzcompressed}
 
-Сохраняет архив в поток со сжатием xz.
+Сохраняет архив в поток с xz‑сжатием.
 
 ```csharp
 public void SaveXzCompressed(Stream output, CpioFormat cpioFormat = CpioFormat.OldAscii, 
@@ -17,22 +17,23 @@ public void SaveXzCompressed(Stream output, CpioFormat cpioFormat = CpioFormat.O
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| output | Stream | Целевой поток. |
+| output | Stream | Поток назначения. |
 | cpioFormat | CpioFormat | Определяет формат заголовка cpio. |
-| settings | XzArchiveSettings | Набор настроек конкретного архива xz: размер словаря, размер блока, тип проверки. |
+| настройки | XzArchiveSettings | Набор параметров конкретного xz‑архива: размер словаря, размер блока, тип проверки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *output* нулевой. |
+| ArgumentNullException | *output* равен null. |
 | ArgumentException | *output* не доступен для записи. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примечания
+## Примечания
 
-*output*Поток должен быть доступен для записи.
+*output*The stream must be writable.
 
-### Примеры
+## Примеры
 
 ```csharp
 using (FileStream result = File.OpenWrite("result.cpio.xz"))
@@ -48,19 +49,19 @@ using (FileStream result = File.OpenWrite("result.cpio.xz"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [CpioFormat](../../cpioformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SaveXzCompressed(string, CpioFormat, XzArchiveSettings) {#savexzcompressed_1}
 
-Сохраняет архив в путь по пути со сжатием xz.
+Сохраняет архив по указанному пути с xz‑сжатием.
 
 ```csharp
 public void SaveXzCompressed(string path, CpioFormat cpioFormat = CpioFormat.OldAscii, 
@@ -69,11 +70,21 @@ public void SaveXzCompressed(string path, CpioFormat cpioFormat = CpioFormat.Old
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь создаваемого архива. Если указанное имя файла указывает на существующий файл, он будет перезаписан. |
+| path | String | Путь к создаваемому архиву. Если указанный файл уже существует, он будет перезаписан. |
 | cpioFormat | CpioFormat | Определяет формат заголовка cpio. |
-| settings | XzArchiveSettings | Набор настроек конкретного архива xz: размер словаря, размер блока, тип проверки. |
+| настройки | XzArchiveSettings | Набор параметров конкретного xz‑архива: размер словаря, размер блока, тип проверки. |
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentNullException | *path* равно `null`. |
+| IOException | Произошла ошибка ввода/вывода. |
+| InvalidDataException | Выбрасывается, когда данные недействительны или повреждены. |
+| PathTooLongException | Указанный путь, имя файла или их комбинация превышают системно определённую максимальную длину. |
+
+## Примеры
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -86,12 +97,12 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [CpioFormat](../../cpioformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [CpioArchive](../)
-* пространство имен [Aspose.Zip.Cpio](../../cpioarchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

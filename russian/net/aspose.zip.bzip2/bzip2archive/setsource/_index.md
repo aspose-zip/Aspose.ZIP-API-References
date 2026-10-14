@@ -1,14 +1,14 @@
 ---
-title: Bzip2Archive.SetSource
-second_title: Aspose.ZIP для справочника API .NET
-description: Bzip2Archive метод. Задает сжатие содержимого внутри архива.
+title: "Bzip2Archive.SetSource"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод Bzip2Archive. Устанавливает содержимое, которое будет сжато в архиве."
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.zip.bzip2/bzip2archive/setsource/
 ---
 ## SetSource(Stream) {#setsource_3}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(Stream source)
@@ -18,7 +18,13 @@ public void SetSource(Stream source)
 | --- | --- | --- |
 | source | Stream | Входной поток для архива. |
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+
+## Примеры
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -28,17 +34,17 @@ using (Bzip2Archive archive = new Bzip2Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource_2}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
@@ -46,9 +52,15 @@ public void SetSource(FileInfo fileInfo)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileInfo | FileInfo | Ссылка на файл, который нужно сжать. |
+| fileInfo | FileInfo | Ссылка на файл, который будет сжат. |
 
-### Примеры
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Архив был освобождён и не может быть использован |
+
+## Примеры
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -58,17 +70,17 @@ using (Bzip2Archive archive = new Bzip2Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_4}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(string path)
@@ -76,20 +88,21 @@ public void SetSource(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь к сжимаемому файлу. |
+| path | String | Путь к файлу, который будет сжат. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path* нулевой. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения на доступ. |
-| ArgumentException | *path* пуст, содержит только пробелы или содержит недопустимые символы. |
-| UnauthorizedAccessException | Доступ к файлу*path* отказано. |
-| PathTooLongException | Указанный*path*, имя файла или оба превышают максимальную длину, определенную системой. Например, на платформах Windows пути должны содержать менее 248 символов, а имена файлов — менее 260 символов. |
-| NotSupportedException | Файл в*path* содержит двоеточие (:) в середине строки. |
+| ArgumentNullException | *path* имеет значение null. |
+| SecurityException | Вызвавший не имеет необходимого разрешения для доступа. |
+| ArgumentException | *path* пустой, содержит только пробелы или содержит недопустимые символы. |
+| UnauthorizedAccessException | Доступ к файлу *path* запрещён. |
+| PathTooLongException | Указанный *path*, имя файла или оба превышают системно определённую максимальную длину. Например, на платформах Windows пути должны быть короче 248 символов, а имена файлов — короче 260 символов. |
+| NotSupportedException | Файл по адресу *path* содержит двоеточие (:) в середине строки. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (Bzip2Archive archive = new Bzip2Archive()) 
@@ -99,17 +112,17 @@ using (Bzip2Archive archive = new Bzip2Archive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(TarArchive, TarFormat) {#setsource_1}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
@@ -117,14 +130,20 @@ public void SetSource(TarArchive tarArchive, TarFormat format = TarFormat.UsTar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tarArchive | TarArchive | Архив Tar для сжатия. |
-| format | TarFormat | Определяет формат заголовка tar. |
+| tarArchive | TarArchive | Tar‑архив, который будет сжат. |
+| формат | TarFormat | Определяет формат заголовка tar. |
 
-### Примечания
+### Исключения
 
-Используйте этот метод для составления совместного архива tar.bz2.
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примечания
+
+Используйте этот метод для создания объединённого архива tar.bz2.
+
+## Примеры
 
 ```csharp
 using (var tarArchive = new TarArchive())
@@ -139,19 +158,19 @@ using (var tarArchive = new TarArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive/)
 * enum [TarFormat](../../../aspose.zip.tar/tarformat/)
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(CpioArchive, CpioFormat) {#setsource}
 
-Задает сжатие содержимого внутри архива.
+Устанавливает содержимое, которое будет сжато в архиве.
 
 ```csharp
 public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.OldAscii)
@@ -159,14 +178,20 @@ public void SetSource(CpioArchive cpioArchive, CpioFormat format = CpioFormat.Ol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cpioArchive | CpioArchive | Архив Cpio нужно сжать. |
-| format | CpioFormat | Определяет формат заголовка cpio. |
+| cpioArchive | CpioArchive | Архив Cpio для сжатия. |
+| формат | CpioFormat | Определяет формат заголовка cpio. |
 
-### Примечания
+### Исключения
 
-Используйте этот метод для создания совместного архива cpio.bz2.
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
 
-### Примеры
+## Примечания
+
+Используйте этот метод для создания объединённого архива cpio.bz2.
+
+## Примеры
 
 ```csharp
 using (var cpioArchive = new CpioArchive())
@@ -181,12 +206,12 @@ using (var cpioArchive = new CpioArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CpioArchive](../../../aspose.zip.cpio/cpioarchive/)
 * enum [CpioFormat](../../../aspose.zip.cpio/cpioformat/)
 * class [Bzip2Archive](../)
-* пространство имен [Aspose.Zip.Bzip2](../../bzip2archive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

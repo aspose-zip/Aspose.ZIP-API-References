@@ -1,23 +1,23 @@
 ---
-title: WimEntry.ShortName
-second_title: Aspose.ZIP для справочника API .NET
-description: WimEntry свойство. Получает короткое имя записи в изображении.
+title: "WimEntry.ShortName"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "WimEntry свойство. Возвращает короткое имя записи в образе"
 type: docs
 weight: 150
 url: /ru/net/aspose.zip.wim/wimentry/shortname/
 ---
 ## WimEntry.ShortName property
 
-Получает короткое имя записи в изображении.
+Получает короткое имя записи внутри образа.
 
 ```csharp
 public string ShortName { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [WimEntry](../)
-* пространство имен [Aspose.Zip.Wim](../../wimentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimentry/)
+* assembly [Aspose.Zip](../../../)
 
 

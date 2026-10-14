@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive.CreateEntries
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchive метод. Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+title: "SevenZipArchive.CreateEntries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод SevenZipArchive. Рекурсивно добавляет в архив все файлы и каталоги из указанного каталога."
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
@@ -17,20 +17,21 @@ public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDi
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | directory | DirectoryInfo | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
-Архив с записями составлен.
+Архив с составленными записями.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| DirectoryNotFoundException | Путь к*directory* недействителен, например, находится на несопоставленном диске. |
-| SecurityException | У вызывающего абонента нет необходимого разрешения для доступа*directory*. |
+| DirectoryNotFoundException | Путь к *directory* недействителен, например, находится на несвязанном диске. |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| SecurityException | Вызвавший процесс не имеет необходимого разрешения для доступа к *directory*. |
 
-### Примеры
+## Примеры
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive())
@@ -41,17 +42,17 @@ using (SevenZipArchive archive = new SevenZipArchive())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchive](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Добавляет в архив все файлы и каталоги рекурсивно в заданном каталоге.
+Добавляет в архив все файлы и каталоги рекурсивно из указанного каталога.
 
 ```csharp
 public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
@@ -60,15 +61,22 @@ public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDir
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceDirectory | String | Каталог для сжатия. |
-| includeRootDirectory | Boolean | Указывает, включать ли сам корневой каталог или нет. |
+| includeRootDirectory | Boolean | Указывает, включать ли корневой каталог сам по себе. |
 
 ### Возвращаемое значение
 
-Архив с записями составлен.
+Архив с составленными записями.
 
-### Примеры
+### Исключения
 
-Собрать архив 7z со сжатием LZMA2.
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Экземпляр архива был освобождён и не может быть использован. |
+| ArgumentNullException | *sourceDirectory* равно `null`. |
+
+## Примеры
+
+Создайте 7z‑архив с сжатием LZMA2.
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings())))
@@ -78,10 +86,10 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
 }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchive](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

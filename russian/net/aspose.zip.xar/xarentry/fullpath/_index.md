@@ -1,23 +1,23 @@
 ---
-title: XarEntry.FullPath
-second_title: Aspose.ZIP для справочника API .NET
-description: XarEntry свойство. Получает полный путь записи в архиве.
+title: "XarEntry.FullPath"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство XarEntry. Возвращает полный путь к элементу в архиве"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.xar/xarentry/fullpath/
 ---
 ## XarEntry.FullPath property
 
-Получает полный путь записи в архиве.
+Получает полный путь к записи внутри архива.
 
 ```csharp
 public string FullPath { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [XarEntry](../)
-* пространство имен [Aspose.Zip.Xar](../../xarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

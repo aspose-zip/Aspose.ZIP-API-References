@@ -1,23 +1,23 @@
 ---
-title: SevenZipCipher.OutputBlockSize
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipCipher свойство. Получает размер выходного блока.
+title: "SevenZipCipher.OutputBlockSize"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipCipher. Возвращает размер выходного блока"
 type: docs
 weight: 40
 url: /ru/net/aspose.zip.crypto/sevenzipcipher/outputblocksize/
 ---
 ## SevenZipCipher.OutputBlockSize property
 
-Получает размер выходного блока.
+Возвращает размер выходного блока.
 
 ```csharp
 public abstract int OutputBlockSize { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipCipher](../)
-* пространство имен [Aspose.Zip.Crypto](../../sevenzipcipher/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Crypto](../../sevenzipcipher/)
+* assembly [Aspose.Zip](../../../)
 
 

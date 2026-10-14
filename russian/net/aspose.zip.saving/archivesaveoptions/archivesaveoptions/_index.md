@@ -1,7 +1,7 @@
 ---
-title: ArchiveSaveOptions.ArchiveSaveOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: ArchiveSaveOptions строитель. Конструктор по умолчанию.
+title: "ArchiveSaveOptions.ArchiveSaveOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор ArchiveSaveOptions. Конструктор по умолчанию"
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.saving/archivesaveoptions/archivesaveoptions/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.saving/archivesaveoptions/archivesaveoptions/
 public ArchiveSaveOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [ArchiveSaveOptions](../)
-* пространство имен [Aspose.Zip.Saving](../../archivesaveoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

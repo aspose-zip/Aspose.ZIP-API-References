@@ -1,7 +1,7 @@
 ---
-title: RarArchiveEntry.ModificationTime
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveEntry свойство. Получает дату и время последнего изменения.
+title: "RarArchiveEntry.ModificationTime"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "RarArchiveEntry свойство. Получает дату и время последнего изменения"
 type: docs
 weight: 50
 url: /ru/net/aspose.zip.rar/rararchiveentry/modificationtime/
@@ -14,10 +14,10 @@ url: /ru/net/aspose.zip.rar/rararchiveentry/modificationtime/
 public DateTime ModificationTime { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [RarArchiveEntry](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

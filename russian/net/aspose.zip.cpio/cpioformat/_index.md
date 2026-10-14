@@ -1,31 +1,31 @@
 ---
-title: Enum CpioFormat
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Cpio.CpioFormat перечисление. Перечисление с поддерживаемыми форматами cpio.
+title: "Перечисление CpioFormat"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Перечисление Aspose.Zip.Cpio.CpioFormat. Перечисление поддерживаемых форматов cpio."
 type: docs
-weight: 180
+weight: 430
 url: /ru/net/aspose.zip.cpio/cpioformat/
 ---
 ## CpioFormat enumeration
 
-Перечисление с поддерживаемыми форматами cpio.
+Перечисление поддерживаемых форматов cpio.
 
 ```csharp
 public enum CpioFormat
 ```
 
-### Ценности
+### Значения
 
-| Имя | Ценность | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| OldBinary | `0` | Старый двоичный формат. |
-| OldAscii | `1` | Переносимый формат ASCII. |
-| NewAscii | `2` | Новый формат ASCII. |
-| NewAsciiCrc | `3` | Новый формат ASCII CRC. |
+| OldBinary | `0` | Старый бинарный формат. |
+| OldAscii | `1` | Портативный ASCII‑формат. |
+| NewAscii | `2` | Новый ASCII‑формат. |
+| NewAsciiCrc | `3` | Новый ASCII‑CRC формат. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
+* assembly [Aspose.Zip](../../)
 
 

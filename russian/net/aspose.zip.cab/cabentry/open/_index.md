@@ -1,9 +1,9 @@
 ---
-title: CabEntry.Open
-second_title: Aspose.ZIP для справочника API .NET
-description: CabEntry метод. Открывает запись для извлечения и предоставляет поток с содержимым записи.
+title: "CabEntry.Open"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод CabEntry. Открывает запись для извлечения и предоставляет поток с содержимым записи"
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.zip.cab/cabentry/open/
 ---
 ## CabEntry.Open method
@@ -18,13 +18,27 @@ public Stream Open()
 
 Поток, представляющий содержимое записи.
 
-### Примечания
+### Исключения
 
-Прочитать из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
+| исключение | условие |
+| --- | --- |
+| NotSupportedException | Инициализация потока не удалась из‑за неверных данных. |
+| InvalidDataException | Архив повреждён. |
+| InvalidOperationException | Запись принадлежит архиву, подготовленному для компоновки. |
+| ObjectDisposedException | Выбрасывается, если источник был освобождён. |
+| IOException | Произошла ошибка ввода/вывода. |
 
-### Примеры
+## Примечания
+
+Прочитайте из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
+
+## Примеры
 
 Использование:
+
+```csharp
+Stream decompressed = entry.Open();
+```
 
 .NET 4.0 и выше — используйте метод Stream.CopyTo:
 
@@ -32,7 +46,7 @@ public Stream Open()
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 и более ранние версии — копировать байты вручную:
+.NET 3.5 и ниже — копируйте байты вручную:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +55,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
-### Смотрите также
+### См. также
 
 * class [CabEntry](../)
-* пространство имен [Aspose.Zip.Cab](../../cabentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

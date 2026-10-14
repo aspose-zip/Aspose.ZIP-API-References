@@ -1,23 +1,23 @@
 ---
-title: RarArchiveLoadOptions.RarArchiveLoadOptions
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveLoadOptions строитель. Конструктор по умолчанию.
+title: "RarArchiveLoadOptions.RarArchiveLoadOptions"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Конструктор RarArchiveLoadOptions. Инициализирует новый экземпляр класса RarArchiveLoadOptions."
 type: docs
 weight: 10
 url: /ru/net/aspose.zip.rar/rararchiveloadoptions/rararchiveloadoptions/
 ---
 ## RarArchiveLoadOptions constructor
 
-Конструктор по умолчанию.
+Инициализирует новый экземпляр класса [`RarArchiveLoadOptions`](../).
 
 ```csharp
 public RarArchiveLoadOptions()
 ```
 
-### Смотрите также
+### См. также
 
 * class [RarArchiveLoadOptions](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveloadoptions/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

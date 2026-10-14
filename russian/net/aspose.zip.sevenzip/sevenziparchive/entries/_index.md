@@ -1,24 +1,24 @@
 ---
-title: SevenZipArchive.Entries
-second_title: Aspose.ZIP для справочника API .NET
-description: SevenZipArchive свойство. Получает записиSevenZipArchiveEntry тип составляющий архив.
+title: "SevenZipArchive.Entries"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство SevenZipArchive. Получает записи типа SevenZipArchiveEntry, составляющие архив"
 type: docs
 weight: 20
 url: /ru/net/aspose.zip.sevenzip/sevenziparchive/entries/
 ---
 ## SevenZipArchive.Entries property
 
-Получает записи[`SevenZipArchiveEntry`](../../sevenziparchiveentry/) тип составляющий архив.
+Получает записи типа [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) , составляющие архив.
 
 ```csharp
 public ReadOnlyCollection<SevenZipArchiveEntry> Entries { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../../sevenziparchiveentry/)
 * class [SevenZipArchive](../)
-* пространство имен [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: CabEntry.Name
-second_title: Aspose.ZIP для справочника API .NET
-description: CabEntry свойство. Получает имя записи в архиве.
+title: "CabEntry.Name"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Свойство CabEntry. Возвращает имя записи в архиве"
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.zip.cab/cabentry/name/
 ---
 ## CabEntry.Name property
 
-Получает имя записи в архиве.
+Возвращает имя записи в архиве.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * class [CabEntry](../)
-* пространство имен [Aspose.Zip.Cab](../../cabentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

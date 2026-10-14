@@ -1,29 +1,29 @@
 ---
-title: Class SevenZipArchiveEntryEncrypted
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.SevenZip.SevenZipArchiveEntryEncrypted сорт. Запись архива SevenZip которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки.
+title: "Класс SevenZipArchiveEntryEncrypted"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Aspose.Zip.SevenZip.SevenZipArchiveEntryEncrypted class. Запись архива SevenZip, которую необходимо сжать с шифрованием или распаковать с дешифрованием"
 type: docs
-weight: 680
+weight: 1210
 url: /ru/net/aspose.zip.sevenzip/sevenziparchiveentryencrypted/
 ---
 ## SevenZipArchiveEntryEncrypted class
 
-Запись архива SevenZip, которую необходимо сжать с помощью шифрования или распаковать с помощью расшифровки.
+Элемент архива SevenZip, который необходимо сжать с шифрованием или распаковать с дешифрованием.
 
 ```csharp
 public class SevenZipArchiveEntryEncrypted : SevenZipArchiveEntry
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
 | [CompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/compressedsize/) { get; } | Получает размер сжатого файла. |
-| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings/) { get; } | Получает параметры сжатия или распаковки. |
-| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/) { get; } | Получает значение, указывающее, представляет ли запись каталог. |
+| [CompressionSettings](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionsettings/) { get; } | Возвращает настройки сжатия или распаковки. |
+| [IsDirectory](../../aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/) { get; } | Возвращает значение, указывающее, является ли запись каталогом. |
 | [ModificationTime](../../aspose.zip.sevenzip/sevenziparchiveentry/modificationtime/) { get; } | Получает дату и время последнего изменения. |
-| [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name/) { get; } | Получает имя записи в архиве. |
-| [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/) { get; } | Получает размер исходного файла. |
+| [Name](../../aspose.zip.sevenzip/sevenziparchiveentry/name/) { get; } | Возвращает имя записи в архиве. |
+| [UncompressedSize](../../aspose.zip.sevenzip/sevenziparchiveentry/uncompressedsize/) { get; } | Получает размер оригинального файла. |
 
 ## Методы
 
@@ -37,12 +37,12 @@ public class SevenZipArchiveEntryEncrypted : SevenZipArchiveEntry
 
 | Имя | Описание |
 | --- | --- |
-| event [CompressionProgressed](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionprogressed/) | Возникает при сжатии части необработанного потока. |
+| event [CompressionProgressed](../../aspose.zip.sevenzip/sevenziparchiveentry/compressionprogressed/) | Вызывается, когда часть необработанного потока сжата. |
 
-### Смотрите также
+### См. также
 
 * class [SevenZipArchiveEntry](../sevenziparchiveentry/)
-* пространство имен [Aspose.Zip.SevenZip](../../aspose.zip.sevenzip/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.SevenZip](../../aspose.zip.sevenzip/)
+* assembly [Aspose.Zip](../../)
 
 

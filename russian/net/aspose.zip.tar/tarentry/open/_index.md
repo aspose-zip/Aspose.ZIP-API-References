@@ -1,9 +1,9 @@
 ---
-title: TarEntry.Open
-second_title: Aspose.ZIP для справочника API .NET
-description: TarEntry метод. Открывает запись для извлечения и предоставляет поток с содержимым записи.
+title: "TarEntry.Open"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Метод TarEntry. Открывает элемент для извлечения и предоставляет поток с содержимым элемента"
 type: docs
-weight: 50
+weight: 70
 url: /ru/net/aspose.zip.tar/tarentry/open/
 ---
 ## TarEntry.Open method
@@ -18,13 +18,24 @@ public Stream Open()
 
 Поток, представляющий содержимое записи.
 
-### Примечания
+### Исключения
 
-Прочитать из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
+| исключение | условие |
+| --- | --- |
+| ObjectDisposedException | Выбрасывается, если исходный поток был освобождён. |
+| IOException | Произошла ошибка ввода/вывода. |
 
-### Примеры
+## Примечания
+
+Прочитайте из потока, чтобы получить исходное содержимое файла. См. раздел примеров.
+
+## Примеры
 
 Использование:
+
+```csharp
+Stream decompressed = entry.Open();
+```
 
 .NET 4.0 и выше — используйте метод Stream.CopyTo:
 
@@ -32,7 +43,7 @@ public Stream Open()
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 и более ранние версии — копировать байты вручную:
+.NET 3.5 и ниже — копируйте байты вручную:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +52,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
-### Смотрите также
+### См. также
 
 * class [TarEntry](../)
-* пространство имен [Aspose.Zip.Tar](../../tarentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

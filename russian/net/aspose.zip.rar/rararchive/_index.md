@@ -1,9 +1,9 @@
 ---
-title: Class RarArchive
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Rar.RarArchive сорт. Этот класс представляет файл архива RAR. Используйте его для извлечения архивов RAR.
+title: "Класс RarArchive"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Rar.RarArchive. Этот класс представляет файл архива RAR. Используйте его для извлечения архивов RAR"
 type: docs
-weight: 310
+weight: 790
 url: /ru/net/aspose.zip.rar/rararchive/
 ---
 ## RarArchive class
@@ -18,26 +18,26 @@ public class RarArchive : IArchive
 
 | Имя | Описание |
 | --- | --- |
-| [RarArchive](rararchive/#constructor)(Stream, RarArchiveLoadOptions) | Инициализирует новый экземпляр`RarArchive` список записей классов и композиций можно извлечь из архива. |
-| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Инициализирует новый экземпляр`RarArchive` список записей классов и композиций можно извлечь из архива. |
+| [RarArchive](rararchive/#constructor)(Stream, RarArchiveLoadOptions) | Инициализирует новый экземпляр класса `RarArchive` и формирует список записей, которые можно извлечь из архива. |
+| [RarArchive](rararchive/#constructor_1)(string, RarArchiveLoadOptions) | Инициализирует новый экземпляр класса `RarArchive` и формирует список записей, которые можно извлечь из архива. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Entries](../../aspose.zip.rar/rararchive/entries/) { get; } | Получает записи[`RarArchiveEntry`](../rararchiveentry/) тип, составляющий архив rar. |
+| [Entries](../../aspose.zip.rar/rararchive/entries/) { get; } | Получает записи типа [`RarArchiveEntry`](../rararchiveentry/), составляющие архив rar. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.zip.rar/rararchive/dispose/)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.zip.rar/rararchive/dispose/)() | Выполняет задачи, определённые приложением, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [ExtractToDirectory](../../aspose.zip.rar/rararchive/extracttodirectory/#extracttodirectory)(string) | Извлекает все файлы из архива в указанный каталог. |
 
-### Смотрите также
+### См. также
 
 * interface [IArchive](../../aspose.zip/iarchive/)
-* пространство имен [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

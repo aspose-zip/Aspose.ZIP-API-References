@@ -1,14 +1,14 @@
 ---
-title: Class DeflateCompressionSettings
-second_title: Aspose.ZIP для справочника API .NET
-description: Aspose.Zip.Saving.DeflateCompressionSettings сорт. Настройки метода сжатия Deflate.
+title: "Класс DeflateCompressionSettings"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "Класс Aspose.Zip.Saving.DeflateCompressionSettings. Параметры для сжатия Deflate в ZIP‑архиве"
 type: docs
-weight: 410
+weight: 900
 url: /ru/net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class
 
-Настройки метода сжатия Deflate.
+Настройки сжатия Deflate в архиве ZIP.
 
 ```csharp
 public class DeflateCompressionSettings : CompressionSettings
@@ -18,18 +18,16 @@ public class DeflateCompressionSettings : CompressionSettings
 
 | Имя | Описание |
 | --- | --- |
-| [DeflateCompressionSettings](deflatecompressionsettings/)() | Инициализирует новый экземпляр`DeflateCompressionSettings` класс. |
+| [DeflateCompressionSettings](deflatecompressionsettings/)() | Инициализирует новый экземпляр класса `DeflateCompressionSettings`. |
 
-### Примечания
+## Примечания
 
-Deflate — это алгоритм сжатия данных без потерь, в котором используется комбинация алгоритма LZ77 и кодирования Хаффмана.
+Deflate — это алгоритм без потерь сжатия данных, использующий комбинацию алгоритма LZ77 и кодирования Хаффмана.
 
-См. стандарт здесь: https://tools.ietf.org/html/rfc1951
-
-### Смотрите также
+### См. также
 
 * class [CompressionSettings](../compressionsettings/)
-* пространство имен [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* сборка [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

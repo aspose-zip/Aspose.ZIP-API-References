@@ -1,34 +1,34 @@
 ---
-title: RarArchiveEntry.ExtractionProgressed
-second_title: Aspose.ZIP для справочника API .NET
-description: RarArchiveEntry событие. Возникает при извлечении части необработанного потока.
+title: "RarArchiveEntry.ExtractionProgressed"
+second_title: "Aspose.ZIP for .NET API Справочник"
+description: "RarArchiveEntry событие. Вызывается, когда извлечена часть необработанного потока"
 type: docs
 weight: 80
 url: /ru/net/aspose.zip.rar/rararchiveentry/extractionprogressed/
 ---
 ## RarArchiveEntry.ExtractionProgressed event
 
-Возникает при извлечении части необработанного потока.
+Вызывается, когда часть необработанного потока извлечена.
 
 ```csharp
 public event EventHandler<ProgressEventArgs> ExtractionProgressed;
 ```
 
-### Примечания
+## Примечания
 
-Отправителем события является[`RarArchiveEntry`](../) пример.
+Отправитель события — экземпляр [`RarArchiveEntry`](../).
 
-### Примеры
+## Примеры
 
 ```csharp
 archive.Entries[0].ExtractionProgressed += (s, e) => {  int percent = (int)((100 * e.ProceededBytes) / ((RarArchiveEntry)s).UncompressedSize); };
 ```
 
-### Смотрите также
+### См. также
 
 * class [ProgressEventArgs](../../../aspose.zip/progresseventargs/)
 * class [RarArchiveEntry](../)
-* пространство имен [Aspose.Zip.Rar](../../rararchiveentry/)
-* сборка [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 
