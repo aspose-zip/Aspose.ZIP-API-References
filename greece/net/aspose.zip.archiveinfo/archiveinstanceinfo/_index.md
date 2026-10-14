@@ -1,14 +1,14 @@
 ---
-title: Class ArchiveInstanceInfo
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.ArchiveInfo.ArchiveInstanceInfo τάξη. Αντιπροσωπεύει πληροφορίες σχετικά με την παρουσία αρχειοθέτησης.
+title: "Κλάση ArchiveInstanceInfo"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.ArchiveInfo.ArchiveInstanceInfo class. Αντιπροσωπεύει πληροφορίες σχετικά με το στιγμιότυπο του αρχείου"
 type: docs
-weight: 80
+weight: 230
 url: /el/net/aspose.zip.archiveinfo/archiveinstanceinfo/
 ---
 ## ArchiveInstanceInfo class
 
-Αντιπροσωπεύει πληροφορίες σχετικά με την παρουσία αρχειοθέτησης.
+Αντιπροσωπεύει πληροφορίες σχετικά με το στιγμιότυπο του αρχείου.
 
 ```csharp
 public sealed class ArchiveInstanceInfo
@@ -16,24 +16,24 @@ public sealed class ArchiveInstanceInfo
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AreFileNamesEncrypted](../../aspose.zip.archiveinfo/archiveinstanceinfo/arefilenamesencrypted/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν τα ονόματα των εγγραφών (αρχείων) του αρχείου είναι κρυπτογραφημένα. |
-| [FormatInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/formatinfo/) { get; } | Λαμβάνει τις πληροφορίες μορφής αρχείου. |
+| [AreFileNamesEncrypted](../../aspose.zip.archiveinfo/archiveinstanceinfo/arefilenamesencrypted/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν τα ονόματα των καταχωρίσεων (αρχείων) του αρχείου είναι κρυπτογραφημένα. |
+| [FormatInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/formatinfo/) { get; } | Λαμβάνει τις πληροφορίες μορφής του αρχείου. |
 | [IsContentEncrypted](../../aspose.zip.archiveinfo/archiveinstanceinfo/iscontentencrypted/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το περιεχόμενο του αρχείου είναι κρυπτογραφημένο. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| static [GetArchiveInstanceInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveinstanceinfo/#getarchiveinstanceinfo)(Stream) | Λαμβάνει πληροφορίες παρουσίας αρχείου. |
-| static [GetArchiveInstanceInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveinstanceinfo/#getarchiveinstanceinfo_1)(string) | Λαμβάνει πληροφορίες παρουσίας αρχείου. |
+| static [GetArchiveInstanceInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveinstanceinfo/#getarchiveinstanceinfo)(Stream) | Λαμβάνει πληροφορίες στιγμιότυπου του αρχείου. |
+| static [GetArchiveInstanceInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveinstanceinfo/#getarchiveinstanceinfo_1)(string) | Λαμβάνει πληροφορίες στιγμιότυπου του αρχείου. |
 | static [GetArchiveFormatInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveformatinfo/#getarchiveformatinfo)(Stream) | Λαμβάνει πληροφορίες μορφής αρχείου. |
 | static [GetArchiveFormatInfo](../../aspose.zip.archiveinfo/archiveinstanceinfo/getarchiveformatinfo/#getarchiveformatinfo_1)(string) | Λαμβάνει πληροφορίες μορφής αρχείου. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.ArchiveInfo](../../aspose.zip.archiveinfo/)
+* assembly [Aspose.Zip](../../)
 
 

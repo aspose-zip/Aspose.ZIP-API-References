@@ -1,7 +1,7 @@
 ---
-title: ParallelOptions.ParallelOptions
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ParallelOptions κατασκευαστής. Ο προεπιλεγμένος κατασκευαστής.
+title: "ParallelOptions.ParallelOptions"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής ParallelOptions. Ο προεπιλεγμένος κατασκευαστής"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/paralleloptions/paralleloptions/
@@ -17,7 +17,7 @@ public ParallelOptions()
 ### Δείτε επίσης
 
 * class [ParallelOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../paralleloptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

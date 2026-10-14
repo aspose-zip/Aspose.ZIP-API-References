@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchiveEntry.Open
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipArchiveEntry μέθοδος. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με περιεχόμενο καταχώρισης.
+title: "SevenZipArchiveEntry.Open"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "SevenZipArchiveEntry μέθοδος. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ένα ρεύμα με το περιεχόμενο της καταχώρησης"
 type: docs
 weight: 90
 url: /el/net/aspose.zip.sevenzip/sevenziparchiveentry/open/
 ---
 ## SevenZipArchiveEntry.Open method
 
-Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με περιεχόμενο καταχώρισης.
+Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ένα ρεύμα με το περιεχόμενο της καταχώρησης.
 
 ```csharp
 public Stream Open(string password = null)
@@ -16,34 +16,39 @@ public Stream Open(string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. |
+| password | String | Προαιρετικό password για αποκρυπτογράφηση. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Η ροή που αντιπροσωπεύει τα περιεχόμενα της καταχώρισης.
+Το stream που αντιπροσωπεύει τα περιεχόμενα της καταχώρησης.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidOperationException | Το αρχείο δεν ανοίγει για εξαγωγή. - ή - Αυτή η καταχώρηση είναι ένας κατάλογος. |
+| InvalidOperationException | Το αρχείο δεν είναι ανοικτό για εξαγωγή. - ή - Αυτή η καταχώρηση είναι κατάλογος. |
 | InvalidDataException | Λάθος δεδομένα μέσα στην καταχώρηση. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Διαβάστε από τη ροή για να λάβετε το αρχικό περιεχόμενο του αρχείου. Δείτε την ενότητα παραδειγμάτων.
+Διαβάστε από το stream για να λάβετε το αρχικό περιεχόμενο ενός αρχείου. Δείτε την ενότητα παραδειγμάτων.
 
-### Παραδείγματα
+## Παραδείγματα
 
 Χρήση:
 
-.NET 4.0 και νεότερη έκδοση - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 και νεότερο - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 και παλαιότερες εκδόσεις - αντιγραφή byte με μη αυτόματο τρόπο:
+.NET 3.5 και παλαιότερο - αντιγράψτε τα bytes χειροκίνητα:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -52,14 +57,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
 ### Δείτε επίσης
 
 * class [SevenZipArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

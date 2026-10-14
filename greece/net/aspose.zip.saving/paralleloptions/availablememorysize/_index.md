@@ -1,27 +1,27 @@
 ---
-title: ParallelOptions.AvailableMemorySize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ParallelOptions ιδιοκτησία. Λαμβάνει ή ορίζει εκτίμηση μνήμης σε megabyte διαθέσιμα για την υποδοχή συμπιεσμένων καταχωρήσεων χωρίς εναλλαγή στο δίσκο. Αυτή η τιμή έχει νόημα μόνο εάνParallelCompressInMemory η ρύθμιση είναι μέσαAuto mode.
+title: "ParallelOptions.AvailableMemorySize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ParallelOptions. Λαμβάνει ή ορίζει εκτίμηση μνήμης σε megabytes που είναι διαθέσιμη για να φιλοξενήσει συμπιεσμένες καταχωρίσεις χωρίς εναλλαγή σε δίσκο. Αυτή η τιμή έχει νόημα μόνο εάν η ρύθμιση ParallelCompressInMemory είναι σε λειτουργία Auto"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.saving/paralleloptions/availablememorysize/
 ---
 ## ParallelOptions.AvailableMemorySize property
 
-Λαμβάνει ή ορίζει εκτίμηση μνήμης σε megabyte διαθέσιμα για την υποδοχή συμπιεσμένων καταχωρήσεων χωρίς εναλλαγή στο δίσκο. Αυτή η τιμή έχει νόημα μόνο εάν[`ParallelCompressInMemory`](../parallelcompressinmemory/) η ρύθμιση είναι μέσαAuto mode.
+Λαμβάνει ή ορίζει εκτίμηση μνήμης σε megabytes που είναι διαθέσιμη για να φιλοξενήσει συμπιεσμένες καταχωρίσεις χωρίς εναλλαγή σε δίσκο. Αυτή η τιμή έχει νόημα μόνο εάν η ρύθμιση [`ParallelCompressInMemory`](../parallelcompressinmemory/) είναι σε λειτουργία Auto.
 
 ```csharp
 public int AvailableMemorySize { get; set; }
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτή η τιμή χρησιμοποιείται για τον υπολογισμό του μεγαλύτερου μεγέθους καταχώρισης που μπορεί να συμπιεστεί παράλληλα με άλλες. Όλες οι εγγραφές πάνω από το υπολογιζόμενο όριο θα συμπιεστούν διαδοχικά. Είναι ασφαλές να έχετε`AvailableMemorySize` ιδιοκτησία τόσο μεγάλη όσο η δωρεάν μνήμη RAM και ακόμη μεγαλύτερη. Από προεπιλογή, υποτίθεται ότι έχετε τουλάχιστον 200 MB ανά πυρήνα CPU.
+Αυτή η τιμή χρησιμοποιείται για τον υπολογισμό του μέγιστου μεγέθους μιας καταχώρισης που μπορεί να συμπιεστεί παράλληλα με άλλες. Όλες οι καταχωρίσεις πάνω από το υπολογισμένο όριο θα συμπιεστούν διαδοχικά. Είναι ασφαλές να έχετε την ιδιότητα `AvailableMemorySize` τόσο μεγάλη όσο η ελεύθερη RAM και ακόμη μεγαλύτερη. Από προεπιλογή, υποτίθεται ότι έχετε τουλάχιστον 200 MB ανά πυρήνα CPU.
 
 ### Δείτε επίσης
 
 * class [ParallelOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../paralleloptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

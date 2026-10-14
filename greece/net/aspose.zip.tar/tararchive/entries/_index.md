@@ -1,14 +1,14 @@
 ---
-title: TarArchive.Entries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: TarArchive ιδιοκτησία. Λαμβάνει καταχωρήσεις τουTarEntry τύπος που αποτελεί το αρχείο.
+title: "TarArchive.Entries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "TarArchive ιδιότητα. Λαμβάνει τις καταχωρίσεις τύπου TarEntry που αποτελούν το αρχείο."
 type: docs
-weight: 60
+weight: 90
 url: /el/net/aspose.zip.tar/tararchive/entries/
 ---
 ## TarArchive.Entries property
 
-Λαμβάνει καταχωρήσεις του[`TarEntry`](../../tarentry/) τύπος που αποτελεί το αρχείο.
+Λαμβάνει καταχωρίσεις τύπου [`TarEntry`](../../tarentry/) που αποτελούν το αρχείο.
 
 ```csharp
 public ReadOnlyCollection<TarEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<TarEntry> Entries { get; }
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

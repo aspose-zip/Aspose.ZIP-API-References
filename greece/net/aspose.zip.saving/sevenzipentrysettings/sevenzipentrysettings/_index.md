@@ -1,14 +1,14 @@
 ---
-title: SevenZipEntrySettings.SevenZipEntrySettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipEntrySettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουSevenZipEntrySettings τάξη.
+title: "SevenZipEntrySettings.SevenZipEntrySettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής SevenZipEntrySettings. Δημιουργεί ένα νέο στιγμιότυπο της κλάσης SevenZipEntrySettings"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/sevenzipentrysettings/sevenzipentrysettings/
 ---
 ## SevenZipEntrySettings constructor
 
-Αρχικοποιεί μια νέα παρουσία του[`SevenZipEntrySettings`](../) τάξη.
+Δημιουργεί ένα νέο στιγμιότυπο της κλάσης [`SevenZipEntrySettings`](../).
 
 ```csharp
 public SevenZipEntrySettings(SevenZipCompressionSettings compressionSettings = null, 
@@ -17,15 +17,15 @@ public SevenZipEntrySettings(SevenZipCompressionSettings compressionSettings = n
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| compressionSettings | SevenZipCompressionSettings | Ρυθμίσεις για συμπίεση. Pass null για τις προεπιλεγμένες ρυθμίσεις LZMA. |
-| encryptionSettings | SevenZipEncryptionSettings | Ρυθμίσεις για κρυπτογράφηση. Περάστε το null εάν δεν χρειάζεται κρυπτογράφηση ή αποκρυπτογράφηση. |
+| compressionSettings | SevenZipCompressionSettings | Ρυθμίσεις για συμπίεση. Περάστε null για τις προεπιλεγμένες ρυθμίσεις LZMA. |
+| encryptionSettings | SevenZipEncryptionSettings | Ρυθμίσεις για κρυπτογράφηση. Περάστε null αν δεν χρειάζεται κρυπτογράφηση ή αποκρυπτογράφηση. |
 
 ### Δείτε επίσης
 
 * class [SevenZipCompressionSettings](../../sevenzipcompressionsettings/)
 * class [SevenZipEncryptionSettings](../../sevenzipencryptionsettings/)
 * class [SevenZipEntrySettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipentrysettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,18 +1,19 @@
 ---
-title: Aspose.Zip.Lzip
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ΤοLzipΟ χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν οντότητες που σχετίζονται με το αρχείο lzip.
+title: "Aspose.Zip.Lzip"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ο χώρος ονομάτων Lzip περιέχει κλάσεις που αντιπροσωπεύουν οντότητες σχετικές με το αρχείο lzip."
 type: docs
-weight: 80
+weight: 160
 url: /el/net/aspose.zip.lzip/
 ---
-ΤοLzipΟ χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν οντότητες που σχετίζονται με το αρχείο lzip.
+Ο χώρος ονομάτων Lzip περιέχει κλάσεις που αντιπροσωπεύουν οντότητες σχετικές με αρχείο lzip.
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [LzipArchive](./lziparchive/) | Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχειοθέτησης Lzip. Χρησιμοποιήστε το για να συνθέσετε ή να εξαγάγετε αρχεία Lzip. |
-| [LzipArchiveSettings](./lziparchivesettings/) | Η τάξη περιέχει τη ρύθμιση του συγκεκριμένου αρχείου lzip. |
+| [LzipArchive](./lziparchive/) | Αυτή η κλάση αντιπροσωπεύει ένα αρχείο Lzip. Χρησιμοποιήστε την για τη δημιουργία ή την εξαγωγή αρχείων Lzip. |
+| [LzipArchiveSettings](./lziparchivesettings/) | Η κλάση περιέχει τις ρυθμίσεις ενός συγκεκριμένου αρχείου lzip. |
+| [LzipLoadOptions](./lziploadoptions/) | Επιλογές για τη φόρτωση του [`LzipArchive`](../aspose.zip.lzip/lziparchive/). |
 
 

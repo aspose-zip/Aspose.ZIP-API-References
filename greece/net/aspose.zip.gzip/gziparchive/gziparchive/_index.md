@@ -1,22 +1,22 @@
 ---
-title: GzipArchive.GzipArchive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: GzipArchive κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουGzipArchive τάξη προετοιμασμένη για συμπίεση.
+title: "GzipArchive.GzipArchive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής GzipArchive. Δημιουργεί ένα νέο αντικείμενο της κλάσης GzipArchive προετοιμασμένο για συμπίεση"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.gzip/gziparchive/gziparchive/
 ---
 ## GzipArchive() {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`GzipArchive`](../) τάξη προετοιμασμένη για συμπίεση.
+Δημιουργεί ένα νέο αντικείμενο της κλάσης [`GzipArchive`](../) προετοιμασμένο για συμπίεση.
 
 ```csharp
 public GzipArchive()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να συμπιέσετε ένα αρχείο.
+Το παρακάτω παράδειγμα δείχνει πώς να συμπιέσετε ένα αρχείο.
 
 ```csharp
 using (GzipArchive archive = new GzipArchive()) 
@@ -29,14 +29,14 @@ using (GzipArchive archive = new GzipArchive())
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## GzipArchive(Stream, bool) {#constructor_1}
+## GzipArchive(Stream, bool) {#constructor_2}
 
-Αρχικοποιεί μια νέα παρουσία του[`GzipArchive`](../) τάξη προετοιμασμένη για αποσυμπίεση.
+Δημιουργεί ένα νέο αντικείμενο της κλάσης [`GzipArchive`](../) προετοιμασμένο για αποσυμπίεση.
 
 ```csharp
 public GzipArchive(Stream sourceStream, bool parseHeader = false)
@@ -45,15 +45,23 @@ public GzipArchive(Stream sourceStream, bool parseHeader = false)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | sourceStream | Stream | Η πηγή του αρχείου. |
-| parseHeader | Boolean | Εάν θα αναλυθεί η κεφαλίδα ροής για να καταλάβουμε ιδιότητες, συμπεριλαμβανομένου του ονόματος. Είναι λογικό μόνο για ροή με δυνατότητα αναζήτησης. |
+| parseHeader | Boolean | Καθορίζει αν θα γίνει ανάλυση της κεφαλίδας της ροής για να εξαχθούν ιδιότητες, συμπεριλαμβανομένου του ονόματος. Έχει νόημα μόνο για ροή με δυνατότητα αναζήτησης. |
 
-### Παρατηρήσεις
+### Εξαιρέσεις
 
-Αυτός ο κατασκευαστής δεν αποσυμπιέζεται. Βλέπω[`Open`](../open/) μέθοδος αποσυμπίεσης.
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentNullException | *sourceStream* είναι null. |
+| EndOfStreamException | *sourceStream* είναι πολύ σύντομο. |
+| InvalidDataException | Το *sourceStream* έχει λανθασμένη υπογραφή. |
 
-### Παραδείγματα
+## Παρατηρήσεις
 
-Ανοίξτε ένα αρχείο από μια ροή και εξαγάγετε το σε ένα`MemoryStream`
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει. Δείτε τη μέθοδο [`Open`](../open/) για αποσυμπίεση.
+
+## Παραδείγματα
+
+Ανοίξτε ένα αρχείο από μια ροή και εξάγετέ το σε ένα `MemoryStream`
 
 ```csharp
 var ms = new MemoryStream();
@@ -64,14 +72,109 @@ using (GzipArchive archive = new GzipArchive(File.OpenRead("archive.gz")))
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## GzipArchive(string, bool) {#constructor_2}
+## GzipArchive(Stream, GzipLoadOptions) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`GzipArchive`](../) τάξη.
+Δημιουργεί ένα νέο αντικείμενο της κλάσης [`GzipArchive`](../) προετοιμασμένο για αποσυμπίεση.
+
+```csharp
+public GzipArchive(Stream sourceStream, GzipLoadOptions options)
+```
+
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| sourceStream | Stream | Η πηγή του αρχείου. |
+| επιλογές | GzipLoadOptions | Επιλογές για τη φόρτωση του αρχείου. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentNullException | *sourceStream* είναι null. |
+| EndOfStreamException | *sourceStream* είναι πολύ σύντομο. |
+| InvalidDataException | Το *sourceStream* έχει λανθασμένη υπογραφή. |
+
+## Παρατηρήσεις
+
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει. Δείτε τη μέθοδο [`Open`](../open/) για αποσυμπίεση.
+
+## Παραδείγματα
+
+Ανοίξτε ένα αρχείο από μια ροή και εξάγετέ το σε ένα `MemoryStream`
+
+```csharp
+var ms = new MemoryStream();
+GzipLoadOptions options = new GzipLoadOptions();
+using (GzipArchive archive = new GzipArchive(File.OpenRead("archive.gz"), options))
+  archive.Extract(ms);
+```
+
+### Δείτε επίσης
+
+* class [GzipLoadOptions](../../gziploadoptions/)
+* class [GzipArchive](../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GzipArchive(string, GzipLoadOptions) {#constructor_3}
+
+Δημιουργεί ένα νέο αντικείμενο της κλάσης [`GzipArchive`](../) προετοιμασμένο για αποσυμπίεση.
+
+```csharp
+public GzipArchive(string path, GzipLoadOptions options)
+```
+
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| διαδρομή | String | Η διαδρομή προς το αρχείο αρχειοθήκης. |
+| επιλογές | GzipLoadOptions | Επιλογές για τη φόρτωση του αρχείου. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Ο καλών δεν διαθέτει τα απαιτούμενα δικαιώματα πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| EndOfStreamException | Το αρχείο είναι πολύ μικρό. |
+| InvalidDataException | Τα δεδομένα στο αρχείο έχουν λανθασμένη υπογραφή. |
+
+## Παρατηρήσεις
+
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει. Δείτε τη μέθοδο [`Open`](../open/) για αποσυμπίεση.
+
+## Παραδείγματα
+
+Ανοίξτε ένα αρχείο από διαδρομή και εξάγετε το σε ένα `MemoryStream`
+
+```csharp
+var ms = new MemoryStream();
+GzipLoadOptions options = new GzipLoadOptions();
+using (GzipArchive archive = new GzipArchive("archive.gz", options))
+  archive.Extract(ms);
+```
+
+### Δείτε επίσης
+
+* class [GzipLoadOptions](../../gziploadoptions/)
+* class [GzipArchive](../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GzipArchive(string, bool) {#constructor_4}
+
+Δημιουργεί ένα νέο αντικείμενο της κλάσης [`GzipArchive`](../) προετοιμασμένο για αποσυμπίεση.
 
 ```csharp
 public GzipArchive(string path, bool parseHeader = false)
@@ -79,27 +182,29 @@ public GzipArchive(string path, bool parseHeader = false)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο αρχειοθέτησης. |
-| parseHeader | Boolean | Εάν θα αναλυθεί η κεφαλίδα ροής για να καταλάβουμε ιδιότητες, συμπεριλαμβανομένου του ονόματος. Είναι λογικό μόνο για ροή με δυνατότητα αναζήτησης. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο αρχειοθήκης. |
+| parseHeader | Boolean | Καθορίζει αν θα γίνει ανάλυση της κεφαλίδας της ροής για να εξαχθούν ιδιότητες, συμπεριλαμβανομένου του ονόματος. Έχει νόημα μόνο για ροή με δυνατότητα αναζήτησης. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| EndOfStreamException | Το αρχείο είναι πολύ μικρό. |
+| InvalidDataException | Τα δεδομένα στο αρχείο έχουν λανθασμένη υπογραφή. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτός ο κατασκευαστής δεν αποσυμπιέζεται. Βλέπω[`Open`](../open/) μέθοδος αποσυμπίεσης.
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει. Δείτε τη μέθοδο [`Open`](../open/) για αποσυμπίεση.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Ανοίξτε ένα αρχείο από αρχείο προς διαδρομή και εξαγάγετε το στο a`MemoryStream`
+Ανοίξτε ένα αρχείο από διαδρομή και εξάγετε το σε ένα `MemoryStream`
 
 ```csharp
 var ms = new MemoryStream();
@@ -110,7 +215,7 @@ using (GzipArchive archive = new GzipArchive("archive.gz"))
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

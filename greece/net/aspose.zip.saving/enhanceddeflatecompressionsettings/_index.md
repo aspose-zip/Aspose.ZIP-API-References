@@ -1,14 +1,14 @@
 ---
-title: Class EnhancedDeflateCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.EnhancedDeflateCompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης Enhanced Deflate.
+title: "Κλάση EnhancedDeflateCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.EnhancedDeflateCompressionSettings. Ρυθμίσεις για τη βελτιωμένη συμπίεση Deflate μέσα σε αρχείο ZIP"
 type: docs
-weight: 440
+weight: 930
 url: /el/net/aspose.zip.saving/enhanceddeflatecompressionsettings/
 ---
 ## EnhancedDeflateCompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης Enhanced Deflate.
+Ρυθμίσεις για τη βελτιωμένη συμπίεση Deflate μέσα σε ένα αρχείο ZIP.
 
 ```csharp
 public class EnhancedDeflateCompressionSettings : CompressionSettings
@@ -16,14 +16,14 @@ public class EnhancedDeflateCompressionSettings : CompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | Αρχικοποιεί μια νέα παρουσία του`EnhancedDeflateCompressionSettings` τάξη. |
+| [EnhancedDeflateCompressionSettings](enhanceddeflatecompressionsettings/)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `EnhancedDeflateCompressionSettings`. |
 
 ### Δείτε επίσης
 
 * class [CompressionSettings](../compressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

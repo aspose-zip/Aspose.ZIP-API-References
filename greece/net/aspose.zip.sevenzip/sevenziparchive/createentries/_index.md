@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive.CreateEntries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipArchive μέθοδος. Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται.
+title: "SevenZipArchive.CreateEntries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος SevenZipArchive. Προσθέτει στην αρχειοθήκη όλα τα αρχεία και καταλόγους αναδρομικά από τον δοσμένο κατάλογο"
 type: docs
 weight: 40
 url: /el/net/aspose.zip.sevenzip/sevenziparchive/createentries/
 ---
 ## CreateEntries(DirectoryInfo, bool) {#createentries}
 
-Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται.
+Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον δοθέντα κατάλογο.
 
 ```csharp
 public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDirectory = true)
@@ -16,21 +16,22 @@ public SevenZipArchive CreateEntries(DirectoryInfo directory, bool includeRootDi
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| directory | DirectoryInfo | Κατάλογος για συμπίεση. |
-| includeRootDirectory | Boolean | Υποδεικνύει εάν θα συμπεριληφθεί ο ίδιος ο ριζικός κατάλογος ή όχι. |
+| directory | DirectoryInfo | Φάκελος προς συμπίεση. |
+| includeRootDirectory | Boolean | Δείχνει αν θα συμπεριληφθεί ο ριζικός φάκελος ή όχι. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αρχείο με τις καταχωρήσεις που έχουν συντεθεί.
+Το αρχείο με τις συντεθειμένες καταχωρήσεις.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| DirectoryNotFoundException | Το μονοπάτι προς*directory* δεν είναι έγκυρο, όπως είναι σε μη αντιστοιχισμένη μονάδα δίσκου. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης*directory*. |
+| DirectoryNotFoundException | Η διαδρομή προς *directory* είναι άκυρη, όπως όταν βρίσκεται σε μη συνδεδεμένο δίσκο. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| SecurityException | Ο καλούντας δεν διαθέτει την απαιτούμενη άδεια πρόσβασης στο *directory*. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive())
@@ -44,14 +45,14 @@ using (SevenZipArchive archive = new SevenZipArchive())
 ### Δείτε επίσης
 
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntries(string, bool) {#createentries_1}
 
-Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται.
+Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον δοθέντα κατάλογο.
 
 ```csharp
 public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDirectory = true)
@@ -59,16 +60,23 @@ public SevenZipArchive CreateEntries(string sourceDirectory, bool includeRootDir
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| sourceDirectory | String | Κατάλογος για συμπίεση. |
-| includeRootDirectory | Boolean | Υποδεικνύει εάν θα συμπεριληφθεί ο ίδιος ο ριζικός κατάλογος ή όχι. |
+| sourceDirectory | String | Φάκελος προς συμπίεση. |
+| includeRootDirectory | Boolean | Δείχνει αν θα συμπεριληφθεί ο ριζικός φάκελος ή όχι. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αρχείο με τις καταχωρήσεις που έχουν συντεθεί.
+Το αρχείο με τις συντεθειμένες καταχωρήσεις.
 
-### Παραδείγματα
+### Εξαιρέσεις
 
-Σύνθεση αρχείου 7z με συμπίεση LZMA2.
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| ArgumentNullException | *sourceDirectory* είναι `null`. |
+
+## Παραδείγματα
+
+Δημιουργήστε μια αρχειοθήκη 7z με συμπίεση LZMA2.
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipLZMACompressionSettings())))
@@ -81,7 +89,7 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
 ### Δείτε επίσης
 
 * class [SevenZipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

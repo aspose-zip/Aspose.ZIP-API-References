@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.DeleteEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CpioArchive μέθοδος. Καταργεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρισης από τη λίστα καταχωρήσεων.
+title: "CpioArchive.DeleteEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "CpioArchive μέθοδος. Αφαιρεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρησης από τη λίστα καταχωρήσεων"
 type: docs
 weight: 50
 url: /el/net/aspose.zip.cpio/cpioarchive/deleteentry/
 ---
 ## DeleteEntry(CpioEntry) {#deleteentry}
 
-Καταργεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρισης από τη λίστα καταχωρήσεων.
+Αφαιρεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρησης από τη λίστα καταχωρήσεων.
 
 ```csharp
 public CpioArchive DeleteEntry(CpioEntry entry)
@@ -16,21 +16,22 @@ public CpioArchive DeleteEntry(CpioEntry entry)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| entry | CpioEntry | Η καταχώρηση προς κατάργηση από τη λίστα καταχωρήσεων. |
+| καταχώρηση | CpioEntry | Η καταχώρηση που θα αφαιρεθεί από τη λίστα καταχωρήσεων. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής Cpio.
+Παράδειγμα καταχώρησης Cpio.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *entry* είναι μηδενικό. |
+| ArgumentNullException | *entry* είναι null. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Δείτε πώς μπορείτε να αφαιρέσετε όλες τις καταχωρήσεις εκτός από την τελευταία:
+Ακολουθεί ο τρόπος για να αφαιρέσετε όλες τις καταχωρήσεις εκτός από την τελευταία:
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio"))
@@ -45,14 +46,14 @@ using (var archive = new CpioArchive("archive.cpio"))
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-Αφαιρεί την καταχώρηση από τη λίστα καταχωρήσεων κατά ευρετήριο.
+Αφαιρεί την καταχώρηση από τη λίστα καταχωρίσεων με βάση το δείκτη.
 
 ```csharp
 public CpioArchive DeleteEntry(int entryIndex)
@@ -60,19 +61,20 @@ public CpioArchive DeleteEntry(int entryIndex)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| entryIndex | Int32 | Το μηδενικό ευρετήριο της καταχώρισης προς κατάργηση. |
+| entryIndex | Int32 | Ο μηδενικός δείκτης της καταχώρησης που θα αφαιρεθεί. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Το αρχείο με την καταχώρηση διαγράφηκε.
+Το αρχείο με τη διαγραμμένη καταχώρηση.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex* είναι μικρότερο από 0.-ή-*entryIndex* είναι ίσο ή μεγαλύτερο από`Συμμετοχές` μετρώ. |
+| ArgumentOutOfRangeException | *entryIndex* είναι μικρότερο του 0.-ή- *entryIndex* είναι ίσο ή μεγαλύτερο από τον αριθμό των `Entries` count. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new CpioArchive("two_files.cpio"))
@@ -85,7 +87,7 @@ using (var archive = new CpioArchive("two_files.cpio"))
 ### Δείτε επίσης
 
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

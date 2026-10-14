@@ -1,14 +1,14 @@
 ---
-title: Class EncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.EncryptionSettings τάξη. Βασική κλάση για ρυθμίσεις για πολλές μεθόδους κρυπτογράφησης zip.
+title: "Κλάση EncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.EncryptionSettings. Βασική κλάση για τις ρυθμίσεις διαφόρων μεθόδων κρυπτογράφησης ZIP"
 type: docs
-weight: 430
+weight: 920
 url: /el/net/aspose.zip.saving/encryptionsettings/
 ---
 ## EncryptionSettings class
 
-Βασική κλάση για ρυθμίσεις για πολλές μεθόδους κρυπτογράφησης zip.
+Βασική κλάση για τις ρυθμίσεις πολλών μεθόδων κρυπτογράφησης ZIP.
 
 ```csharp
 public abstract class EncryptionSettings
@@ -16,14 +16,14 @@ public abstract class EncryptionSettings
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Λαμβάνει τον αλγόριθμο κρυπτογράφησης. |
-| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Λαμβάνει ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
+| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Αποκτά τον αλγόριθμο κρυπτογράφησης. |
+| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Αποκτά ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

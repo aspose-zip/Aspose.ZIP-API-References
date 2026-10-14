@@ -1,14 +1,14 @@
 ---
-title: Class Bzip2CompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.Bzip2CompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης Bzip2.
+title: "Κλάση Bzip2CompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.Bzip2CompressionSettings. Ρυθμίσεις για τη συμπίεση Bzip2 μέσα σε ένα αρχείο ZIP"
 type: docs
-weight: 390
+weight: 880
 url: /el/net/aspose.zip.saving/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης Bzip2.
+Ρυθμίσεις για τη συμπίεση Bzip2 μέσα σε ένα αρχείο ZIP.
 
 ```csharp
 public class Bzip2CompressionSettings : CompressionSettings
@@ -16,25 +16,25 @@ public class Bzip2CompressionSettings : CompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`Bzip2CompressionSettings` κλάση με προεπιλεγμένο μέγεθος μπλοκ, ισούται με 9 εκατοντάδες kilobyte. |
-| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor_1)(int) | Αρχικοποιεί μια νέα παρουσία του`Bzip2CompressionSettings` τάξη. |
+| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `Bzip2CompressionSettings` με προεπιλεγμένο μέγεθος μπλοκ, ίσο με 9 εκατοντάδες kilobytes. |
+| [Bzip2CompressionSettings](bzip2compressionsettings/#constructor_1)(int) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Bzip2CompressionSettings`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [BlockSize](../../aspose.zip.saving/bzip2compressionsettings/blocksize/) { get; } | Μέγεθος μπλοκ σε εκατοντάδες kilobyte. |
+| [BlockSize](../../aspose.zip.saving/bzip2compressionsettings/blocksize/) { get; } | Μέγεθος μπλοκ σε εκατοντάδες kilobytes. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το bzip2 συμπιέζει αρχεία χρησιμοποιώντας τον αλγόριθμο συμπίεσης κειμένου ταξινόμησης μπλοκ Burrows-Wheeler και κωδικοποίηση Huffman. Δείτε περισσότερα: https://en.wikipedia.org/wiki/Bzip2
+Το bzip2 συμπιέζει αρχεία χρησιμοποιώντας τον αλγόριθμο συμπίεσης κειμένου Burrows-Wheeler με ταξινόμηση μπλοκ, και την κωδικοποίηση Huffman.
 
 ### Δείτε επίσης
 
 * class [CompressionSettings](../compressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

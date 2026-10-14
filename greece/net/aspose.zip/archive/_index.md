@@ -1,14 +1,14 @@
 ---
-title: Class Archive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Archive τάξη. Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχείου zip. Χρησιμοποιήστε το για να συνθέσετε να εξαγάγετε ή να ενημερώσετε αρχεία zip.
+title: "Κλάση Archive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Archive. Αυτή η κλάση αντιπροσωπεύει ένα αρχείο zip. Χρησιμοποιήστε την για να δημιουργήσετε, να εξάγετε ή να ενημερώσετε αρχεία zip."
 type: docs
-weight: 10
+weight: 160
 url: /el/net/aspose.zip/archive/
 ---
 ## Archive class
 
-Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχείου zip. Χρησιμοποιήστε το για να συνθέσετε, να εξαγάγετε ή να ενημερώσετε αρχεία zip.
+Αυτή η κλάση αναπαριστά ένα αρχείο zip. Χρησιμοποιήστε την για σύνθεση, εξαγωγή ή ενημέρωση αρχείων zip.
 
 ```csharp
 public class Archive : IArchive
@@ -16,41 +16,45 @@ public class Archive : IArchive
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Archive](archive/#constructor)(ArchiveEntrySettings) | Αρχικοποιεί μια νέα παρουσία του`Archive` τάξη με προαιρετικές ρυθμίσεις για τις καταχωρήσεις της. |
-| [Archive](archive/#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Αρχικοποιεί μια νέα παρουσία του`Archive` Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο. |
-| [Archive](archive/#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Αρχικοποιεί μια νέα παρουσία του`Archive` Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο. |
+| [Archive](archive/#constructor)(ArchiveEntrySettings) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Archive` με προαιρετικές ρυθμίσεις για τις καταχωρίσεις της. |
+| [Archive](archive/#constructor_1)(Stream, ArchiveLoadOptions, ArchiveEntrySettings) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Archive` και δημιουργεί μια λίστα καταχωρίσεων που μπορεί να εξαχθεί από την αρχειοθήκη. |
+| [Archive](archive/#constructor_2)(string, ArchiveLoadOptions, ArchiveEntrySettings) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Archive` και δημιουργεί μια λίστα καταχωρίσεων που μπορεί να εξαχθεί από την αρχειοθήκη. |
+| [Archive](archive/#constructor_3)(string, string[], ArchiveLoadOptions) | Αρχικοποιεί μια νέα παρουσία της κλάσης `Archive` από πολυ-τόμευση αρχείο ZIP και δημιουργεί μια λίστα καταχωρίσεων που μπορεί να εξαχθεί από την αρχειοθήκη. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Entries](../../aspose.zip/archive/entries/) { get; } | Λαμβάνει καταχωρήσεις του[`ArchiveEntry`](../archiveentry/) τύπος που αποτελεί το αρχείο. |
-| [NewEntrySettings](../../aspose.zip/archive/newentrysettings/) { get; } | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για νέα προσθήκη[`ArchiveEntry`](../archiveentry/) αντικείμενα. |
+| [Comment](../../aspose.zip/archive/comment/) { get; } | Λαμβάνει το σχόλιο για ολόκληρη την αρχειοθήκη. |
+| [Entries](../../aspose.zip/archive/entries/) { get; } | Λαμβάνει τις καταχωρίσεις τύπου [`ArchiveEntry`](../archiveentry/) που αποτελούν την αρχειοθήκη. |
+| [NewEntrySettings](../../aspose.zip/archive/newentrysettings/) { get; } | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για πρόσφατα προστιθέμενα στοιχεία [`ArchiveEntry`](../archiveentry/). |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CreateEntries](../../aspose.zip/archive/createentries/#createentries)(DirectoryInfo, bool) | Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται. |
-| [CreateEntries](../../aspose.zip/archive/createentries/#createentries_1)(string, bool) | Προσθέτει στο αρχείο όλα τα αρχεία και τους καταλόγους αναδρομικά στον κατάλογο που δίνεται. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_1)(string, Stream, ArchiveEntrySettings) | Δημιουργία μίας καταχώρησης μέσα στο αρχείο. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry)(string, FileInfo, bool, ArchiveEntrySettings) | Δημιουργία μίας καταχώρησης μέσα στο αρχείο. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_2)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Δημιουργία μίας καταχώρησης μέσα στο αρχείο. |
-| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_3)(string, string, bool, ArchiveEntrySettings) | Δημιουργία μίας καταχώρησης μέσα στο αρχείο. |
-| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry)(ArchiveEntry) | Καταργεί την πρώτη εμφάνιση μιας συγκεκριμένης καταχώρισης από τη λίστα καταχωρήσεων. |
-| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry_1)(int) | Αφαιρεί την καταχώρηση από τη λίστα καταχωρήσεων κατά ευρετήριο. |
-| [Dispose](../../aspose.zip/archive/dispose/)() | Εκτελεί εργασίες που καθορίζονται από την εφαρμογή που σχετίζονται με την απελευθέρωση, την απελευθέρωση ή την επαναφορά μη διαχειριζόμενων πόρων. |
-| [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory/)(string) | Εξάγει όλα τα αρχεία στο αρχείο στον παρεχόμενο κατάλογο. |
-| [Save](../../aspose.zip/archive/save/#save)(Stream, ArchiveSaveOptions) | Αποθηκεύει το αρχείο στη ροή που παρέχεται. |
-| [Save](../../aspose.zip/archive/save/#save_1)(string, ArchiveSaveOptions) | Αποθηκεύει το αρχείο στο παρεχόμενο αρχείο προορισμού. |
-| [SaveSplit](../../aspose.zip/archive/savesplit/)(string, SplitArchiveSaveOptions) | Αποθηκεύει το αρχείο πολλών τόμων στον παρεχόμενο κατάλογο προορισμού. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries)(DirectoryInfo, bool) | Προσθέτει στην αρχειοθήκη όλα τα αρχεία και τους καταλόγους αναδρομικά στον δοσμένο κατάλογο. |
+| [CreateEntries](../../aspose.zip/archive/createentries/#createentries_1)(string, bool) | Προσθέτει στην αρχειοθήκη όλα τα αρχεία και τους καταλόγους αναδρομικά στον δοσμένο κατάλογο. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry)(string, Func&lt;Stream&gt;, ArchiveEntrySettings) | Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_2)(string, Stream, ArchiveEntrySettings) | Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_1)(string, FileInfo, bool, ArchiveEntrySettings) | Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_3)(string, Stream, ArchiveEntrySettings, FileSystemInfo) | Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη. |
+| [CreateEntry](../../aspose.zip/archive/createentry/#createentry_4)(string, string, bool, ArchiveEntrySettings) | Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη. |
+| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry)(ArchiveEntry) | Αφαιρεί την πρώτη εμφάνιση της συγκεκριμένης καταχώρησης από τη λίστα καταχωρίσεων. |
+| [DeleteEntry](../../aspose.zip/archive/deleteentry/#deleteentry_1)(int) | Αφαιρεί την καταχώρηση από τη λίστα καταχωρίσεων με βάση το δείκτη. |
+| [Dispose](../../aspose.zip/archive/dispose/)() | Εκτελεί εργασίες ορισμένες από την εφαρμογή που σχετίζονται με την απελευθέρωση, την αποδέσμευση ή την επαναφορά μη διαχειριζόμενων πόρων. |
+| [ExtractToDirectory](../../aspose.zip/archive/extracttodirectory/)(string) | Εξάγει όλα τα αρχεία στην αρχειοθήκη στον παρεχόμενο κατάλογο. |
+| [Save](../../aspose.zip/archive/save/#save)(Stream, ArchiveSaveOptions) | Αποθηκεύει την αρχειοθήκη στη δοθείσα ροή. |
+| [Save](../../aspose.zip/archive/save/#save_1)(string, ArchiveSaveOptions) | Αποθηκεύει την αρχειοθήκη στο παρεχόμενο αρχείο προορισμού |
+| [SaveSplit](../../aspose.zip/archive/savesplit/#savesplit)(IVolumeStreamProvider, SplitArchiveSaveOptions) | Αποθηκεύει ένα αρχείο πολλαπλών τόμων σε ροές που παρέχονται από έναν πάροχο τόμων. |
+| [SaveSplit](../../aspose.zip/archive/savesplit/#savesplit_1)(string, SplitArchiveSaveOptions) | Αποθηκεύει το αρχείο πολλαπλών τόμων στον παρεχόμενο φάκελο προορισμού. |
 
 ### Δείτε επίσης
 
 * interface [IArchive](../iarchive/)
-* χώρος ονομάτων [Aspose.Zip](../../aspose.zip/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class DeflateCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.DeflateCompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης Deflate.
+title: "Κλάση DeflateCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.DeflateCompressionSettings. Ρυθμίσεις για τη συμπίεση Deflate μέσα σε ένα αρχείο ZIP"
 type: docs
-weight: 410
+weight: 900
 url: /el/net/aspose.zip.saving/deflatecompressionsettings/
 ---
 ## DeflateCompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης Deflate.
+Ρυθμίσεις για τη συμπίεση Deflate μέσα σε ένα αρχείο ZIP.
 
 ```csharp
 public class DeflateCompressionSettings : CompressionSettings
@@ -16,20 +16,18 @@ public class DeflateCompressionSettings : CompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [DeflateCompressionSettings](deflatecompressionsettings/)() | Αρχικοποιεί μια νέα παρουσία του`DeflateCompressionSettings` τάξη. |
+| [DeflateCompressionSettings](deflatecompressionsettings/)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `DeflateCompressionSettings`. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το Deflate είναι ένας αλγόριθμος συμπίεσης δεδομένων χωρίς απώλειες που χρησιμοποιεί έναν συνδυασμό του αλγορίθμου LZ77 και της κωδικοποίησης Huffman.
-
-Δείτε το πρότυπο εδώ: https://tools.ietf.org/html/rfc1951
+Το Deflate είναι ένας αλγόριθμος συμπίεσης δεδομένων χωρίς απώλειες που χρησιμοποιεί συνδυασμό του αλγορίθμου LZ77 και της κωδικοποίησης Huffman.
 
 ### Δείτε επίσης
 
 * class [CompressionSettings](../compressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

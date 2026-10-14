@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.Entries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CpioArchive ιδιοκτησία. Λαμβάνει καταχωρήσεις τουCpioEntry τύπος που αποτελεί το αρχείο.
+title: "CpioArchive.Entries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "CpioArchive ιδιότητα. Λαμβάνει τις καταχωρήσεις τύπου CpioEntry που αποτελούν το αρχείο"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.cpio/cpioarchive/entries/
 ---
 ## CpioArchive.Entries property
 
-Λαμβάνει καταχωρήσεις του[`CpioEntry`](../../cpioentry/) τύπος που αποτελεί το αρχείο.
+Λαμβάνει τις καταχωρήσεις τύπου [`CpioEntry`](../../cpioentry/) που αποτελούν το αρχείο.
 
 ```csharp
 public ReadOnlyCollection<CpioEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<CpioEntry> Entries { get; }
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

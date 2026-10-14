@@ -1,14 +1,14 @@
 ---
-title: ArchiveEntry.IsDirectory
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveEntry ιδιοκτησία. Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο.
+title: "ArchiveEntry.IsDirectory"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveEntry. Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει έναν φάκελο"
 type: docs
-weight: 40
+weight: 50
 url: /el/net/aspose.zip/archiveentry/isdirectory/
 ---
 ## ArchiveEntry.IsDirectory property
 
-Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο.
+Επιστρέφει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει κατάλογο.
 
 ```csharp
 public bool IsDirectory { get; }
@@ -17,7 +17,7 @@ public bool IsDirectory { get; }
 ### Δείτε επίσης
 
 * class [ArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

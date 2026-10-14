@@ -1,14 +1,14 @@
 ---
-title: AesEcryptionSettings.AesEcryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: AesEcryptionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουAesEcryptionSettings τάξη.
+title: "AesEcryptionSettings.AesEcryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής AesEcryptionSettings. Αρχικοποιεί μια νέα παρουσία της κλάσης AesEcryptionSettings."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/aesecryptionsettings/aesecryptionsettings/
 ---
 ## AesEcryptionSettings(string, EncryptionMethod) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`AesEcryptionSettings`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`AesEcryptionSettings`](../).
 
 ```csharp
 public AesEcryptionSettings(string password, EncryptionMethod method)
@@ -17,15 +17,15 @@ public AesEcryptionSettings(string password, EncryptionMethod method)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | password | String | Κωδικός πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
-| method | EncryptionMethod | Επιλογή αλγόριθμου που υποδεικνύει το μέγεθος του μπλοκ κρυπτογράφησης. |
+| μέθοδος | EncryptionMethod | Επιλογή αλγορίθμου που υποδεικνύει το μέγεθος μπλοκ του κρυπτογράφηματος. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| NotSupportedException | *method* δεν είναι ένα απόAES128 ,AES192 , ήAES256. |
+| NotSupportedException | *method* δεν είναι ένα από τα AES128, AES192 ή AES256. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryptionSettings("p@s$", EncryptionMethod.AES256))))
@@ -39,14 +39,14 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 
 * enum [EncryptionMethod](../../encryptionmethod/)
 * class [AesEcryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aesecryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../aesecryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## AesEcryptionSettings(EncryptionMethod) {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`AesEcryptionSettings`](../)τάξη χωρίς κωδικό πρόσβασης.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`AesEcryptionSettings`](../) χωρίς κωδικό πρόσβασης.
 
 ```csharp
 public AesEcryptionSettings(EncryptionMethod method)
@@ -54,13 +54,19 @@ public AesEcryptionSettings(EncryptionMethod method)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| method | EncryptionMethod | Επιλογή αλγόριθμου που υποδεικνύει το μέγεθος του μπλοκ κρυπτογράφησης. |
+| μέθοδος | EncryptionMethod | Επιλογή αλγορίθμου που υποδεικνύει το μέγεθος μπλοκ του κρυπτογράφηματος. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| NotSupportedException | *method* δεν είναι ένα από τα AES128, AES192 ή AES256. |
 
 ### Δείτε επίσης
 
 * enum [EncryptionMethod](../../encryptionmethod/)
 * class [AesEcryptionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aesecryptionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../aesecryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

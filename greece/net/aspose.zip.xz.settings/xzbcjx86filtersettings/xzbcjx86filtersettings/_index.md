@@ -1,20 +1,20 @@
 ---
-title: XzBcjX86FilterSettings.XzBcjX86FilterSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XzBcjX86FilterSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουXzBcjX86FilterSettings . Χρησιμοποιήστε το για να συμπιέσετε εκτελέσιμα αρχεία και βιβλιοθήκες μέσαXzArchive .
+title: "XzBcjX86FilterSettings.XzBcjX86FilterSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "XzBcjX86FilterSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία του XzBcjX86FilterSettings. Χρησιμοποιήστε το για να συμπιέσετε εκτελέσιμα αρχεία και βιβλιοθήκες μέσα στο XzArchive"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.xz.settings/xzbcjx86filtersettings/xzbcjx86filtersettings/
 ---
 ## XzBcjX86FilterSettings constructor
 
-Αρχικοποιεί μια νέα παρουσία του[`XzBcjX86FilterSettings`](../) . Χρησιμοποιήστε το για να συμπιέσετε εκτελέσιμα αρχεία και βιβλιοθήκες μέσα[`XzArchive`](../../../aspose.zip.xz/xzarchive/) .
+Αρχικοποιεί μια νέα παρουσία του [`XzBcjX86FilterSettings`](../). Χρησιμοποιήστε το για να συμπιέσετε εκτελέσιμα αρχεία και βιβλιοθήκες μέσα στο [`XzArchive`](../../../aspose.zip.xz/xzarchive/).
 
 ```csharp
 public XzBcjX86FilterSettings()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 XzLZMA2FilterSettings lzma2 = new XzLZMA2FilterSettings(5242880);
@@ -30,7 +30,7 @@ using (XzArchive archive = new XzArchive(settings))
 ### Δείτε επίσης
 
 * class [XzBcjX86FilterSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Xz.Settings](../../xzbcjx86filtersettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzbcjx86filtersettings/)
+* assembly [Aspose.Zip](../../../)
 
 

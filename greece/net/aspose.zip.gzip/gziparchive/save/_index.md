@@ -1,14 +1,14 @@
 ---
-title: GzipArchive.Save
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: GzipArchive μέθοδος. Αποθηκεύει το αρχείο στη ροή που παρέχεται.
+title: "GzipArchive.Save"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "GzipArchive μέθοδος. Αποθηκεύει το αρχείο στη δοθείσα ροή"
 type: docs
-weight: 60
+weight: 80
 url: /el/net/aspose.zip.gzip/gziparchive/save/
 ---
 ## Save(Stream) {#save}
 
-Αποθηκεύει το αρχείο στη ροή που παρέχεται.
+Αποθηκεύει την αρχειοθήκη στη δοθείσα ροή.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -20,18 +20,19 @@ public void Save(Stream outputStream)
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
 | ArgumentException | *outputStream* δεν είναι εγγράψιμο. |
-| InvalidOperationException | Η πηγή δεν έχει παρασχεθεί. |
+| InvalidOperationException | Δεν έχει παρασχεθεί η πηγή. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-*outputStream*πρέπει να είναι εγγράψιμο.
+*outputStream* must be writable.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εγγράφει συμπιεσμένα δεδομένα στη ροή απόκρισης http.
+Γράφει τα συμπιεσμένα δεδομένα στη ροή απόκρισης http.
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -44,14 +45,14 @@ using (var archive = new GzipArchive())
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string) {#save_1}
 
-Αποθηκεύει το αρχείο στο παρεχόμενο αρχείο προορισμού.
+Αποθηκεύει την αρχειοθήκη στο παρεχόμενο αρχείο προορισμού
 
 ```csharp
 public void Save(string destinationFileName)
@@ -59,20 +60,21 @@ public void Save(string destinationFileName)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου παραπέμπει σε ένα υπάρχον αρχείο, θα αντικατασταθεί. |
+| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου δείχνει σε υπάρχον αρχείο, θα αντικατασταθεί. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*destinationFileName* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*destinationFileName* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*destinationFileName*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*destinationFileName* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *destinationFileName* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *destinationFileName* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *destinationFileName* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *destinationFileName*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες στα Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *destinationFileName* περιέχει άνω-κάθετο (: ) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new GzipArchive())
@@ -85,7 +87,7 @@ using (var archive = new GzipArchive())
 ### Δείτε επίσης
 
 * class [GzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Gzip](../../gziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

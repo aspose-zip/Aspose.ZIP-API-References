@@ -1,38 +1,52 @@
 ---
-title: CabEntry.Open
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CabEntry μέθοδος. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με περιεχόμενο καταχώρισης.
+title: "CabEntry.Open"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος CabEntry. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ένα stream με το περιεχόμενο της καταχώρησης"
 type: docs
-weight: 40
+weight: 50
 url: /el/net/aspose.zip.cab/cabentry/open/
 ---
 ## CabEntry.Open method
 
-Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με περιεχόμενο καταχώρισης.
+Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ένα ρεύμα με το περιεχόμενο της καταχώρησης.
 
 ```csharp
 public Stream Open()
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Η ροή που αντιπροσωπεύει τα περιεχόμενα της καταχώρισης.
+Το stream που αντιπροσωπεύει τα περιεχόμενα της καταχώρησης.
 
-### Παρατηρήσεις
+### Εξαιρέσεις
 
-Διαβάστε από τη ροή για να λάβετε το αρχικό περιεχόμενο του αρχείου. Δείτε την ενότητα παραδειγμάτων.
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| NotSupportedException | Η αρχικοποίηση του Stream απέτυχε λόγω λανθασμένων δεδομένων. |
+| InvalidDataException | Το αρχείο είναι κατεστραμμένο. |
+| InvalidOperationException | Η καταχώρηση ανήκει σε ένα αρχείο που έχει προετοιμαστεί για σύνθεση. |
+| ObjectDisposedException | Εκτοπίζεται εάν η πηγή έχει διαγραφεί. |
+| IOException | Παρουσιάστηκε σφάλμα I/O. |
 
-### Παραδείγματα
+## Παρατηρήσεις
+
+Διαβάστε από το stream για να λάβετε το αρχικό περιεχόμενο ενός αρχείου. Δείτε την ενότητα παραδειγμάτων.
+
+## Παραδείγματα
 
 Χρήση:
 
-.NET 4.0 και νεότερη έκδοση - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 και νεότερο - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 και παλαιότερες εκδόσεις - αντιγραφή byte με μη αυτόματο τρόπο:
+.NET 3.5 και παλαιότερο - αντιγράψτε τα bytes χειροκίνητα:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +55,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
 ### Δείτε επίσης
 
 * class [CabEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Cab](../../cabentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,22 +1,22 @@
 ---
-title: Enum XzCheckType
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Xz.Settings.XzCheckType αρίθμηση. Η απαρίθμηση ορίζει την προσέγγιση υπολογισμού του αθροίσματος ελέγχου για το αρχείο xz.
+title: "Απαρίθμηση XzCheckType"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Xz.Settings.XzCheckType enum. Η απαρίθμηση ορίζει την προσέγγιση υπολογισμού αθροίσματος ελέγχου για το αρχείο xz"
 type: docs
-weight: 870
+weight: 1540
 url: /el/net/aspose.zip.xz.settings/xzchecktype/
 ---
 ## XzCheckType enumeration
 
-Η απαρίθμηση ορίζει την προσέγγιση υπολογισμού του αθροίσματος ελέγχου για το αρχείο xz.
+Η απαρίθμηση ορίζει την προσέγγιση υπολογισμού αθροίσματος ελέγχου για αρχεία xz.
 
 ```csharp
 public enum XzCheckType : byte
 ```
 
-### Αξίες
+### Τιμές
 
-| Ονομα | αξία | Περιγραφή |
+| Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
 | None | `0` | Το άθροισμα ελέγχου δεν θα υπολογιστεί. |
 | Crc32 | `1` | Το άθροισμα ελέγχου θα υπολογιστεί χρησιμοποιώντας τον αλγόριθμο CRC32. |
@@ -24,7 +24,7 @@ public enum XzCheckType : byte
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
+* assembly [Aspose.Zip](../../)
 
 

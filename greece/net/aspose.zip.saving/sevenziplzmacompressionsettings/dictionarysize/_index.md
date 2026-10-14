@@ -1,27 +1,27 @@
 ---
-title: SevenZipLZMACompressionSettings.DictionarySize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipLZMACompressionSettings ιδιοκτησία. Το μέγεθος λεξικού buffer ιστορικού υποδεικνύει πόσα byte από τα πρόσφατα επεξεργασμένα ασυμπίεστα δεδομένα διατηρούνται στη μνήμη. Εάν δεν οριστεί θα επιλεγεί ανάλογα με το μέγεθος καταχώρισης.
+title: "SevenZipLZMACompressionSettings.DictionarySize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipLZMACompressionSettings. Το μέγεθος του buffer ιστορικού λεξικού υποδεικνύει πόσα bytes των πρόσφατα επεξεργασμένων ασυμπίεστων δεδομένων διατηρούνται στη μνήμη. Εάν δεν οριστεί, θα επιλεγεί ανάλογα με το μέγεθος της καταχώρησης. Πρέπει να είναι μεταξύ 4096 και 1073741824 ή ίσο με μηδέν για αυτόματη ανίχνευση βάσει του μεγέθους της καταχώρησης."
 type: docs
 weight: 20
 url: /el/net/aspose.zip.saving/sevenziplzmacompressionsettings/dictionarysize/
 ---
 ## SevenZipLZMACompressionSettings.DictionarySize property
 
-Το μέγεθος λεξικού (buffer ιστορικού) υποδεικνύει πόσα byte από τα πρόσφατα επεξεργασμένα ασυμπίεστα δεδομένα διατηρούνται στη μνήμη. Εάν δεν οριστεί, θα επιλεγεί ανάλογα με το μέγεθος καταχώρισης.
+Το μέγεθος λεξικού (history buffer) υποδεικνύει πόσα bytes των πρόσφατα επεξεργασμένων ασυμπίεστων δεδομένων διατηρούνται στη μνήμη. Εάν δεν οριστεί, θα επιλεγεί ανάλογα με το μέγεθος της εγγραφής. Πρέπει να είναι μεταξύ 4096 και 1073741824, ή ίσο με μηδέν για αυτόματη ανίχνευση βάσει του μεγέθους της εγγραφής.
 
 ```csharp
 public int DictionarySize { get; set; }
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Όσο μεγαλύτερο είναι το λεξικό, τόσο καλύτερη είναι συνήθως η αναλογία συμπίεσης, αλλά τα λεξικά μεγαλύτερα από τα ασυμπίεστα δεδομένα είναι σπατάλη μνήμης RAM.
+Όσο μεγαλύτερο είναι το λεξικό, συνήθως τόσο καλύτερος είναι ο λόγος συμπίεσης - αλλά τα λεξικά μεγαλύτερα από τα ασυμπίεστα δεδομένα είναι σπατάλη μνήμης RAM.
 
 ### Δείτε επίσης
 
 * class [SevenZipLZMACompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenziplzmacompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenziplzmacompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

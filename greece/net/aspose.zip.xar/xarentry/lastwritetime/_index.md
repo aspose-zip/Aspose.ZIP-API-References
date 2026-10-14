@@ -1,14 +1,14 @@
 ---
-title: XarEntry.LastWriteTime
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XarEntry ιδιοκτησία. Λαμβάνει το χρόνο τροποποίησης του αρχείου ή του καταλόγου.
+title: "XarEntry.LastWriteTime"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα XarEntry. Λαμβάνει την ώρα τροποποίησης του αρχείου ή του φακέλου"
 type: docs
 weight: 50
 url: /el/net/aspose.zip.xar/xarentry/lastwritetime/
 ---
 ## XarEntry.LastWriteTime property
 
-Λαμβάνει το χρόνο τροποποίησης του αρχείου ή του καταλόγου.
+Λαμβάνει την ώρα τροποποίησης του αρχείου ή του καταλόγου.
 
 ```csharp
 public DateTime LastWriteTime { get; }
@@ -17,7 +17,7 @@ public DateTime LastWriteTime { get; }
 ### Δείτε επίσης
 
 * class [XarEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Xar](../../xarentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

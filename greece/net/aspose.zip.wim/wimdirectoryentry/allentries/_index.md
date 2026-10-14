@@ -1,14 +1,14 @@
 ---
-title: WimDirectoryEntry.AllEntries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimDirectoryEntry ιδιοκτησία. Λαμβάνει όλες τις καταχωρήσεις τουWimEntry τύπος που αποτελεί τον κατάλογο αναδρομικά.
+title: "WimDirectoryEntry.AllEntries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα WimDirectoryEntry. Λαμβάνει όλες τις καταχωρήσεις τύπου WimEntry που αποτελούν τον κατάλογο αναδρομικά"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.wim/wimdirectoryentry/allentries/
 ---
 ## WimDirectoryEntry.AllEntries property
 
-Λαμβάνει όλες τις καταχωρήσεις του[`WimEntry`](../../wimentry/) τύπος που αποτελεί τον κατάλογο αναδρομικά.
+Λαμβάνει όλες τις καταχωρήσεις τύπου [`WimEntry`](../../wimentry/) που αποτελούν τον κατάλογο αναδρομικά.
 
 ```csharp
 public IEnumerable<WimEntry> AllEntries { get; }
@@ -18,7 +18,7 @@ public IEnumerable<WimEntry> AllEntries { get; }
 
 * class [WimEntry](../../wimentry/)
 * class [WimDirectoryEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimdirectoryentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimdirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

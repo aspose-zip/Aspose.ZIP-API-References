@@ -1,24 +1,30 @@
 ---
-title: WimArchive.Images
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: WimArchive ιδιοκτησία. Λαμβάνει καταχωρήσεις τουWimImage τύπος που αποτελεί το αρχείο.
+title: "WimArchive.Images"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "WimArchive ιδιότητα. Επιστρέφει καταχωρήσεις τύπου WimImage που αποτελούν το αρχείο."
 type: docs
-weight: 50
+weight: 60
 url: /el/net/aspose.zip.wim/wimarchive/images/
 ---
 ## WimArchive.Images property
 
-Λαμβάνει καταχωρήσεις του[`WimImage`](../../wimimage/) τύπος που αποτελεί το αρχείο.
+Επιστρέφει καταχωρήσεις τύπου [`WimImage`](../../wimimage/) που αποτελούν το αρχείο.
 
 ```csharp
 public ReadOnlyCollection<WimImage> Images { get; }
 ```
 
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+
 ### Δείτε επίσης
 
 * class [WimImage](../../wimimage/)
 * class [WimArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Wim](../../wimarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: Class LzmaCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.LzmaCompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης LZMA.
+title: "Κλάση LzmaCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.LzmaCompressionSettings. Ρυθμίσεις για συμπίεση LZMA εντός αρχείου ZIP."
 type: docs
-weight: 460
+weight: 960
 url: /el/net/aspose.zip.saving/lzmacompressionsettings/
 ---
 ## LzmaCompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης LZMA.
+Ρυθμίσεις για τη συμπίεση LZMA μέσα σε ένα αρχείο ZIP.
 
 ```csharp
 public class LzmaCompressionSettings : CompressionSettings
@@ -16,20 +16,30 @@ public class LzmaCompressionSettings : CompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [LzmaCompressionSettings](lzmacompressionsettings/)() | Αρχικοποιεί μια νέα παρουσία του`LzmaCompressionSettings`κλάση με προεπιλεγμένο μέγεθος λεξικού, ισούται με 16 megabyte. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor)() | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `LzmaCompressionSettings` με προεπιλεγμένες παραμέτρους. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor_1)(int) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης `LzmaCompressionSettings` με καθορισμένο μέγεθος λεξικού, προεπιλεγμένο αριθμό γρήγορων bytes ίσο με 32 και αριθμό bits κυριολεκτικού πλαισίου ίσο με 3. |
+| [LzmaCompressionSettings](lzmacompressionsettings/#constructor_2)(int, int, int) | Αρχικοποιεί μια νέα παρουσία της κλάσης `LzmaCompressionSettings` με καθορισμένο μέγεθος λεξικού, αριθμό γρήγορων byte και αριθμό κυριολεκτικών bits περιβάλλοντος. |
 
-### Παρατηρήσεις
+## Ιδιότητες
 
-Ο αλγόριθμος αλυσίδας Lempel–Ziv–Markov (LZMA) είναι ένας αλγόριθμος που χρησιμοποιείται για την εκτέλεση συμπίεσης δεδομένων χωρίς απώλειες. Αυτός ο αλγόριθμος χρησιμοποιεί ένα σχήμα συμπίεσης λεξικού κάπως παρόμοιο με τον αλγόριθμο LZ77 και διαθέτει υψηλή αναλογία συμπίεσης και μεταβλητή συμπίεση μεγέθους.
+| Όνομα | Περιγραφή |
+| --- | --- |
+| [DictionarySize](../../aspose.zip.saving/lzmacompressionsettings/dictionarysize/) { get; } | Το μέγεθος του λεξικού (buffer ιστορικού) υποδεικνύει πόσα byte των πρόσφατα επεξεργασμένων ασυμπίεστων δεδομένων διατηρούνται στη μνήμη. |
+| [LiteralContextBits](../../aspose.zip.saving/lzmacompressionsettings/literalcontextbits/) { get; } | Επιστρέφει τον αριθμό των κυριολεκτικών bits περιβάλλοντος. |
+| [NumberOfFastBytes](../../aspose.zip.saving/lzmacompressionsettings/numberoffastbytes/) { get; } | Επιστρέφει τον αριθμό των byte που χρησιμοποιούνται για γρήγορη αναζήτηση αντιστοιχίας στον αλγόριθμο LZMA. |
 
-Δείτε περισσότερα: https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm
+## Παρατηρήσεις
+
+Ο αλγόριθμος Lempel–Ziv–Markov chain (LZMA) είναι ένας αλγόριθμος που χρησιμοποιείται για την εκτέλεση ασυμπίεστης συμπίεσης δεδομένων. Αυτός ο αλγόριθμος χρησιμοποιεί ένα σχήμα συμπίεσης λεξικού κάπως παρόμοιο με τον αλγόριθμο LZ77 και προσφέρει υψηλό λόγο συμπίεσης και μεταβλητό μέγεθος λεξικού συμπίεσης.
+
+Δείτε περισσότερα: [αλγόριθμος Lempel–Ziv–Markov chain](https://en.wikipedia.org/wiki/Lempel–Ziv–Markov_chain_algorithm)
 
 ### Δείτε επίσης
 
 * class [CompressionSettings](../compressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

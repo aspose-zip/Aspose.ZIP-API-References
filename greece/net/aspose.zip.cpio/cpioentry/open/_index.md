@@ -1,38 +1,50 @@
 ---
-title: CpioEntry.Open
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CpioEntry μέθοδος. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με περιεχόμενο καταχώρισης.
+title: "CpioEntry.Open"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος CpioEntry. Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ένα ρεύμα με το περιεχόμενο της καταχώρησης"
 type: docs
 weight: 70
 url: /el/net/aspose.zip.cpio/cpioentry/open/
 ---
 ## CpioEntry.Open method
 
-Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με περιεχόμενο καταχώρισης.
+Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ένα ρεύμα με το περιεχόμενο της καταχώρησης.
 
 ```csharp
 public Stream Open()
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Η ροή που αντιπροσωπεύει τα περιεχόμενα της καταχώρισης.
+Το stream που αντιπροσωπεύει τα περιεχόμενα της καταχώρησης.
 
-### Παρατηρήσεις
+### Εξαιρέσεις
 
-Διαβάστε από τη ροή για να λάβετε το αρχικό περιεχόμενο του αρχείου. Δείτε την ενότητα παραδειγμάτων.
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
+| IOException | Παρουσιάστηκε σφάλμα I/O. |
+| InvalidOperationException | Αυτή η καταχώρηση δημιουργείται για τη δημιουργία ενός αρχείου αλλά δεν προορίζεται για ανάγνωση. |
 
-### Παραδείγματα
+## Παρατηρήσεις
+
+Διαβάστε από το stream για να λάβετε το αρχικό περιεχόμενο ενός αρχείου. Δείτε την ενότητα παραδειγμάτων.
+
+## Παραδείγματα
 
 Χρήση:
 
-.NET 4.0 και νεότερη έκδοση - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 και νεότερο - χρησιμοποιήστε τη μέθοδο Stream.CopyTo:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 και παλαιότερες εκδόσεις - αντιγραφή byte με μη αυτόματο τρόπο:
+.NET 3.5 και παλαιότερο - αντιγράψτε τα bytes χειροκίνητα:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +53,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
 ### Δείτε επίσης
 
 * class [CpioEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

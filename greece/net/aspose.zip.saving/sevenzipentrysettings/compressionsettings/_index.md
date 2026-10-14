@@ -1,14 +1,14 @@
 ---
-title: SevenZipEntrySettings.CompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipEntrySettings ιδιοκτησία. Λαμβάνει ρυθμίσεις για τη ρουτίνα συμπίεσης ή αποσυμπίεσης.
+title: "SevenZipEntrySettings.CompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipEntrySettings. Λαμβάνει τις ρυθμίσεις για τη διαδικασία συμπίεσης ή αποσυμπίεσης"
 type: docs
-weight: 20
+weight: 30
 url: /el/net/aspose.zip.saving/sevenzipentrysettings/compressionsettings/
 ---
 ## SevenZipEntrySettings.CompressionSettings property
 
-Λαμβάνει ρυθμίσεις για τη ρουτίνα συμπίεσης ή αποσυμπίεσης.
+Αποκτά ρυθμίσεις για τη διαδικασία συμπίεσης ή αποσυμπίεσης.
 
 ```csharp
 public SevenZipCompressionSettings CompressionSettings { get; }
@@ -18,7 +18,7 @@ public SevenZipCompressionSettings CompressionSettings { get; }
 
 * class [SevenZipCompressionSettings](../../sevenzipcompressionsettings/)
 * class [SevenZipEntrySettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipentrysettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: ArchiveEntry.ModificationTime
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveEntry ιδιοκτησία. Λαμβάνει ή ορίζει την ημερομηνία και την ώρα της τελευταίας τροποποίησης.
+title: "ArchiveEntry.ModificationTime"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveEntry. Λαμβάνει ή ορίζει την ημερομηνία και ώρα τελευταίας τροποποίησης"
 type: docs
-weight: 50
+weight: 60
 url: /el/net/aspose.zip/archiveentry/modificationtime/
 ---
 ## ArchiveEntry.ModificationTime property
 
-Λαμβάνει ή ορίζει την ημερομηνία και την ώρα της τελευταίας τροποποίησης.
+Λαμβάνει ή ορίζει την ημερομηνία και ώρα τελευταίας τροποποίησης.
 
 ```csharp
 public DateTime ModificationTime { get; set; }
@@ -17,7 +17,7 @@ public DateTime ModificationTime { get; set; }
 ### Δείτε επίσης
 
 * class [ArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: LzipArchive.Dispose
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: LzipArchive μέθοδος. Εκτελεί εργασίες που καθορίζονται από την εφαρμογή που σχετίζονται με την απελευθέρωση την απελευθέρωση ή την επαναφορά μη διαχειριζόμενων πόρων.
+title: "LzipArchive.Dispose"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος LzipArchive. Εκτελεί εργασίες ορισμένες από την εφαρμογή που σχετίζονται με την απελευθέρωση, την αποδέσμευση ή την επαναφορά μη διαχειριζόμενων πόρων."
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip.lzip/lziparchive/dispose/
 ---
 ## LzipArchive.Dispose method
 
-Εκτελεί εργασίες που καθορίζονται από την εφαρμογή που σχετίζονται με την απελευθέρωση, την απελευθέρωση ή την επαναφορά μη διαχειριζόμενων πόρων.
+Εκτελεί εργασίες ορισμένες από την εφαρμογή που σχετίζονται με την απελευθέρωση, την αποδέσμευση ή την επαναφορά μη διαχειριζόμενων πόρων.
 
 ```csharp
 public void Dispose()
@@ -17,7 +17,7 @@ public void Dispose()
 ### Δείτε επίσης
 
 * class [LzipArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Lzip](../../lziparchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

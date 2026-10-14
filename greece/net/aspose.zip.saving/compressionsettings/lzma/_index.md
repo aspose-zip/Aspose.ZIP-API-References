@@ -1,14 +1,14 @@
 ---
-title: CompressionSettings.Lzma
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CompressionSettings ιδιοκτησία. Ένα στιγμιότυπο τουLzmaCompressionSettings με προεπιλεγμένες παραμέτρους.
+title: "CompressionSettings.Lzma"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα CompressionSettings. Ένα στιγμιότυπο του LzmaCompressionSettings με προεπιλεγμένες παραμέτρους"
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip.saving/compressionsettings/lzma/
 ---
 ## CompressionSettings.Lzma property
 
-Ένα στιγμιότυπο του`LzmaCompressionSettings` με προεπιλεγμένες παραμέτρους.
+Ένα στιγμιότυπο του `LzmaCompressionSettings` με προεπιλεγμένες παραμέτρους.
 
 ```csharp
 public static LzmaCompressionSettings Lzma { get; }
@@ -18,7 +18,7 @@ public static LzmaCompressionSettings Lzma { get; }
 
 * class [LzmaCompressionSettings](../../lzmacompressionsettings/)
 * class [CompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../compressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

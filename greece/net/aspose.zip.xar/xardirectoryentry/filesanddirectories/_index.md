@@ -1,14 +1,14 @@
 ---
-title: XarDirectoryEntry.FilesAndDirectories
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XarDirectoryEntry ιδιοκτησία. Λαμβάνει καταχωρήσεις τουXarEntry τύπος που αποτελεί τον κατάλογο.
+title: "XarDirectoryEntry.FilesAndDirectories"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα XarDirectoryEntry. Λαμβάνει καταχωρήσεις τύπου XarEntry που αποτελούν τον κατάλογο"
 type: docs
 weight: 40
 url: /el/net/aspose.zip.xar/xardirectoryentry/filesanddirectories/
 ---
 ## XarDirectoryEntry.FilesAndDirectories property
 
-Λαμβάνει καταχωρήσεις του[`XarEntry`](../../xarentry/) τύπος που αποτελεί τον κατάλογο.
+Λαμβάνει καταχωρήσεις τύπου [`XarEntry`](../../xarentry/) που αποτελούν τον κατάλογο.
 
 ```csharp
 public IEnumerable<XarEntry> FilesAndDirectories { get; }
@@ -18,7 +18,7 @@ public IEnumerable<XarEntry> FilesAndDirectories { get; }
 
 * class [XarEntry](../../xarentry/)
 * class [XarDirectoryEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Xar](../../xardirectoryentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xardirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

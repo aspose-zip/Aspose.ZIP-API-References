@@ -1,7 +1,7 @@
 ---
-title: SelfExtractorOptions.SelfExtractorOptions
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SelfExtractorOptions κατασκευαστής. Ο προεπιλεγμένος κατασκευαστής.
+title: "SelfExtractorOptions.SelfExtractorOptions"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής SelfExtractorOptions. Ο προεπιλεγμένος κατασκευαστής."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/selfextractoroptions/selfextractoroptions/
@@ -17,7 +17,7 @@ public SelfExtractorOptions()
 ### Δείτε επίσης
 
 * class [SelfExtractorOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../selfextractoroptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../selfextractoroptions/)
+* assembly [Aspose.Zip](../../../)
 
 

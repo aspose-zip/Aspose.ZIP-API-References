@@ -1,14 +1,14 @@
 ---
-title: ProgressEventArgs.ProceededBytes
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ProgressEventArgs ιδιοκτησία. Λαμβάνει τον αριθμό των byte που έχουν προχωρήσει.
+title: "ProgressEventArgs.ProceededBytes"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ProgressEventArgs. Επιστρέφει τον αριθμό των bytes που προχωρήθηκαν"
 type: docs
 weight: 20
 url: /el/net/aspose.zip/progresseventargs/proceededbytes/
 ---
 ## ProgressEventArgs.ProceededBytes property
 
-Λαμβάνει τον αριθμό των byte που έχουν προχωρήσει.
+Επιστρέφει τον αριθμό των επεξεργασμένων byte.
 
 ```csharp
 public ulong ProceededBytes { get; }
@@ -17,7 +17,7 @@ public ulong ProceededBytes { get; }
 ### Δείτε επίσης
 
 * class [ProgressEventArgs](../)
-* χώρος ονομάτων [Aspose.Zip](../../progresseventargs/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../progresseventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

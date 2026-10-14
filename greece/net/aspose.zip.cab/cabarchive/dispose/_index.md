@@ -1,14 +1,14 @@
 ---
-title: CabArchive.Dispose
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CabArchive μέθοδος. Εκτελεί εργασίες που καθορίζονται από την εφαρμογή που σχετίζονται με την απελευθέρωση την απελευθέρωση ή την επαναφορά μη διαχειριζόμενων πόρων.
+title: "CabArchive.Dispose"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "CabArchive μέθοδος. Εκτελεί εργασίες που ορίζονται από την εφαρμογή σχετικές με την απελευθέρωση, την αποδέσμευση ή την επαναφορά μη διαχειριζόμενων πόρων"
 type: docs
-weight: 30
+weight: 50
 url: /el/net/aspose.zip.cab/cabarchive/dispose/
 ---
 ## CabArchive.Dispose method
 
-Εκτελεί εργασίες που καθορίζονται από την εφαρμογή που σχετίζονται με την απελευθέρωση, την απελευθέρωση ή την επαναφορά μη διαχειριζόμενων πόρων.
+Εκτελεί εργασίες ορισμένες από την εφαρμογή που σχετίζονται με την απελευθέρωση, την αποδέσμευση ή την επαναφορά μη διαχειριζόμενων πόρων.
 
 ```csharp
 public void Dispose()
@@ -17,7 +17,7 @@ public void Dispose()
 ### Δείτε επίσης
 
 * class [CabArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cab](../../cabarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

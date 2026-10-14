@@ -1,9 +1,9 @@
 ---
-title: ArchiveSaveOptions.ParallelOptions
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveSaveOptions ιδιοκτησία. Λαμβάνει ή ορίζει ρυθμίσεις για παράλληλη συμπίεση.
+title: "ArchiveSaveOptions.ParallelOptions"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "ArchiveSaveOptions ιδιότητα. Λαμβάνει ή ορίζει ρυθμίσεις για παράλληλη συμπίεση"
 type: docs
-weight: 50
+weight: 80
 url: /el/net/aspose.zip.saving/archivesaveoptions/paralleloptions/
 ---
 ## ArchiveSaveOptions.ParallelOptions property
@@ -14,15 +14,15 @@ url: /el/net/aspose.zip.saving/archivesaveoptions/paralleloptions/
 public ParallelOptions ParallelOptions { get; set; }
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Εκχωρήστε το εάν θέλετε να χρησιμοποιήσετε πολλούς πυρήνες CPU ενώ συμπιέζετε πολλές εγγραφές αρχειοθέτησης.
+Ορίστε το αν θέλετε να χρησιμοποιήσετε πολλούς πυρήνες CPU ενώ συμπιέζετε πολλές καταχωρήσεις αρχείου.
 
 ### Δείτε επίσης
 
 * class [ParallelOptions](../../paralleloptions/)
 * class [ArchiveSaveOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../archivesaveoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

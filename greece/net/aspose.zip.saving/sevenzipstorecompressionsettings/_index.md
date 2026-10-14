@@ -1,14 +1,14 @@
 ---
-title: Class SevenZipStoreCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.SevenZipStoreCompressionSettings τάξη. Ρυθμίσεις για μέθοδο συμπίεσης αποθήκευσης εντός αρχείου 7z.
+title: "Κλάση SevenZipStoreCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.SevenZipStoreCompressionSettings. Ρυθμίσεις για τη μέθοδο συμπίεσης Store μέσα σε αρχείο 7z"
 type: docs
-weight: 600
+weight: 1110
 url: /el/net/aspose.zip.saving/sevenzipstorecompressionsettings/
 ---
 ## SevenZipStoreCompressionSettings class
 
-Ρυθμίσεις για μέθοδο συμπίεσης αποθήκευσης εντός αρχείου 7z.
+Ρυθμίσεις για τη μέθοδο συμπίεσης Store μέσα σε αρχείο 7z.
 
 ```csharp
 public class SevenZipStoreCompressionSettings : SevenZipCompressionSettings
@@ -16,24 +16,24 @@ public class SevenZipStoreCompressionSettings : SevenZipCompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [SevenZipStoreCompressionSettings](sevenzipstorecompressionsettings/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| override [Method](../../aspose.zip.saving/sevenzipstorecompressionsettings/method/) { get; } | Λαμβάνει μέθοδο συμπίεσης ή αποσυμπίεσης. |
+| override [Method](../../aspose.zip.saving/sevenzipstorecompressionsettings/method/) { get; } | Λαμβάνει τη μέθοδο συμπίεσης ή αποσυμπίεσης. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτή η μέθοδος αποθηκεύει τα αρχικά δεδομένα ως έχουν.
+Αυτή η μέθοδος αποθηκεύει τα αρχικά δεδομένα όπως είναι.
 
 ### Δείτε επίσης
 
 * class [SevenZipCompressionSettings](../sevenzipcompressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

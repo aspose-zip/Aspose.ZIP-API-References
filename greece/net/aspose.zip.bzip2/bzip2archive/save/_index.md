@@ -1,14 +1,14 @@
 ---
-title: Bzip2Archive.Save
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Bzip2Archive μέθοδος. Αποθηκεύει το αρχείο στη ροή που παρέχεται.
+title: "Bzip2Archive.Save"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Bzip2Archive method. Αποθηκεύει το αρχείο στην παρεχόμενη ροή."
 type: docs
-weight: 50
+weight: 60
 url: /el/net/aspose.zip.bzip2/bzip2archive/save/
 ---
 ## Save(Stream, Bzip2SaveOptions) {#save}
 
-Αποθηκεύει το αρχείο στη ροή που παρέχεται.
+Αποθηκεύει την αρχειοθήκη στη δοθείσα ροή.
 
 ```csharp
 public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
@@ -17,25 +17,26 @@ public void Save(Stream outputStream, Bzip2SaveOptions saveOptions = null)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | outputStream | Stream | Ροή προορισμού. |
-| saveOptions | Bzip2SaveOptions | Επιλογές για την αποθήκευση ενός αρχείου bzip2. Εάν δεν καθορίζεται, θα χρησιμοποιηθεί μέγεθος μπλοκ 900 Kb. |
+| saveOptions | Bzip2SaveOptions | Επιλογές για την αποθήκευση ενός αρχείου bzip2. Εάν δεν καθοριστεί, θα χρησιμοποιηθεί μέγεθος μπλοκ 900 Kb. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidOperationException | Η πηγή των δεδομένων που πρόκειται να αρχειοθετηθούν δεν έχει παρασχεθεί. |
+| InvalidOperationException | Η πηγή των δεδομένων που θα αρχειοθετηθούν δεν έχει παρασχεθεί. |
 | ArgumentException | *outputStream* δεν είναι εγγράψιμο. |
-| UnauthorizedAccessException | Η πηγή αρχείου είναι μόνο για ανάγνωση ή είναι κατάλογος. |
-| DirectoryNotFoundException | Η καθορισμένη διαδρομή προέλευσης αρχείου δεν είναι έγκυρη, όπως είναι σε μη αντιστοιχισμένη μονάδα δίσκου. |
-| IOException | Η πηγή αρχείου είναι ήδη ανοιχτή. |
+| UnauthorizedAccessException | Η πηγή του αρχείου είναι μόνο για ανάγνωση ή είναι κατάλογος. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή πηγής αρχείου είναι άκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Η πηγή του αρχείου είναι ήδη ανοιχτή. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-*outputStream*πρέπει να είναι εγγράψιμο.
+*outputStream* must be writable.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εγγράφει συμπιεσμένα δεδομένα στη ροή απόκρισης http.
+Γράψτε τα συμπιεσμένα δεδομένα στο ρεύμα απόκρισης http.
 
 ```csharp
 using (var archive = new Bzip2Archive()) 
@@ -49,14 +50,14 @@ using (var archive = new Bzip2Archive())
 
 * class [Bzip2SaveOptions](../../bzip2saveoptions/)
 * class [Bzip2Archive](../)
-* χώρος ονομάτων [Aspose.Zip.Bzip2](../../bzip2archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string, Bzip2SaveOptions) {#save_1}
 
-Αποθηκεύει το αρχείο στο παρεχόμενο αρχείο προορισμού.
+Αποθηκεύει το αρχείο σε προορισμένο αρχείο που παρέχεται.
 
 ```csharp
 public void Save(string destinationFileName, Bzip2SaveOptions saveOptions = null)
@@ -64,23 +65,25 @@ public void Save(string destinationFileName, Bzip2SaveOptions saveOptions = null
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου παραπέμπει σε ένα υπάρχον αρχείο, θα αντικατασταθεί. |
-| saveOptions | Bzip2SaveOptions | Επιλογές για την αποθήκευση ενός αρχείου bzip2. Εάν δεν καθορίζεται, θα χρησιμοποιηθεί μέγεθος μπλοκ 900 Kb. |
+| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου δείχνει σε υπάρχον αρχείο, θα αντικατασταθεί. |
+| saveOptions | Bzip2SaveOptions | Επιλογές για την αποθήκευση ενός αρχείου bzip2. Εάν δεν καθοριστεί, θα χρησιμοποιηθεί μέγεθος μπλοκ 900 Kb. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*destinationFileName* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*destinationFileName* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*destinationFileName*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*destinationFileName* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *destinationFileName* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *destinationFileName* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *destinationFileName* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *destinationFileName*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες στα Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *destinationFileName* περιέχει άνω-κάθετο (: ) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
+| InvalidOperationException | Η πηγή των δεδομένων που θα αρχειοθετηθούν δεν έχει παρασχεθεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Γράφει συμπιεσμένα δεδομένα στο αρχείο.
+Γράφει τα συμπιεσμένα δεδομένα σε αρχείο.
 
 ```csharp
 using (var archive = new Bzip2Archive()) 
@@ -94,7 +97,7 @@ using (var archive = new Bzip2Archive())
 
 * class [Bzip2SaveOptions](../../bzip2saveoptions/)
 * class [Bzip2Archive](../)
-* χώρος ονομάτων [Aspose.Zip.Bzip2](../../bzip2archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

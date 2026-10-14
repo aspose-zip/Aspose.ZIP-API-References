@@ -1,18 +1,18 @@
 ---
-title: Aspose.Zip.LZMA
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ΤοLZMAΟ χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν οντότητες που σχετίζονται με το αρχείο lzma.
+title: "Aspose.Zip.LZMA"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ο χώρος ονομάτων LZMA περιέχει κλάσεις που αντιπροσωπεύουν οντότητες σχετικές με το αρχείο lzma."
 type: docs
-weight: 90
+weight: 170
 url: /el/net/aspose.zip.lzma/
 ---
-ΤοLZMAΟ χώρος ονομάτων περιέχει κλάσεις που αντιπροσωπεύουν οντότητες που σχετίζονται με το αρχείο lzma.
+Ο χώρος ονομάτων LZMA περιέχει κλάσεις που αντιπροσωπεύουν οντότητες σχετικές με αρχείο lzma.
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [LzmaArchive](./lzmaarchive/) | Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχειοθέτησης LZMA. Χρησιμοποιήστε το για να συνθέσετε ή να εξαγάγετε αρχεία LZMA. |
-| [LzmaArchiveSettings](./lzmaarchivesettings/) | Ρυθμίσεις για τη μέθοδο συμπίεσης LZMA εντός του αρχείου lzma. |
+| [LzmaArchive](./lzmaarchive/) | Αυτή η κλάση αντιπροσωπεύει ένα αρχείο LZMA. Χρησιμοποιήστε την για τη δημιουργία ή την εξαγωγή αρχείων LZMA. |
+| [LzmaArchiveSettings](./lzmaarchivesettings/) | Ρυθμίσεις για το αρχείο lzma. |
 
 

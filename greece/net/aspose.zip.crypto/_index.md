@@ -1,17 +1,17 @@
 ---
-title: Aspose.Zip.Crypto
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ΤοCrypto Ο χώρος ονομάτων περιέχει κλάσεις για εξωτερικές ρουτίνες κρυπτογράφησης.
+title: "Aspose.Zip.Crypto"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ο χώρος ονομάτων Crypto περιέχει κλάσεις για εξωτερικές ρουτίνες κρυπτογράφησης."
 type: docs
-weight: 60
+weight: 90
 url: /el/net/aspose.zip.crypto/
 ---
-ΤοCrypto Ο χώρος ονομάτων περιέχει κλάσεις για εξωτερικές ρουτίνες κρυπτογράφησης.
+Ο χώρος ονομάτων Crypto περιέχει κλάσεις για εξωτερικές διαδικασίες κρυπτογράφησης.
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [SevenZipCipher](./sevenzipcipher/) | Βασική κλάση για κρυπτογράφηση AES που χρησιμοποιείται για κρυπτογράφηση 7 zip. |
+| [SevenZipCipher](./sevenzipcipher/) | Βασική κλάση για τον κρυπτογράφο AES που χρησιμοποιείται για την κρυπτογράφηση 7-zip. |
 
 

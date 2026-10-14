@@ -1,14 +1,14 @@
 ---
-title: SevenZipLZMA2CompressionSettings.FastBytes
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipLZMA2CompressionSettings ιδιοκτησία. Λαμβάνει τον αριθμό των στοιχείων ελέγχου των γρήγορων byte που χρησιμοποιούνται από τον συμπιεστή LZMA2.
+title: "SevenZipLZMA2CompressionSettings.FastBytes"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "SevenZipLZMA2CompressionSettings ιδιότητα. Λαμβάνει τον αριθμό ελέγχου των γρήγορων bytes που χρησιμοποιεί ο συμπιεστής LZMA2"
 type: docs
-weight: 30
+weight: 40
 url: /el/net/aspose.zip.saving/sevenziplzma2compressionsettings/fastbytes/
 ---
 ## SevenZipLZMA2CompressionSettings.FastBytes property
 
-Λαμβάνει τον αριθμό των στοιχείων ελέγχου των γρήγορων byte που χρησιμοποιούνται από τον συμπιεστή LZMA2.
+Επιστρέφει τον αριθμό ελέγχου των γρήγορων byte που χρησιμοποιεί ο συμπιεστής LZMA2.
 
 ```csharp
 public int FastBytes { get; }
@@ -17,7 +17,7 @@ public int FastBytes { get; }
 ### Δείτε επίσης
 
 * class [SevenZipLZMA2CompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenziplzma2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

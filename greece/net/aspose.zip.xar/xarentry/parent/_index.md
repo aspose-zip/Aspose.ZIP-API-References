@@ -1,14 +1,14 @@
 ---
-title: XarEntry.Parent
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XarEntry ιδιοκτησία. Λαμβάνει τον γονικό κατάλογο στον οποίο ανήκει η καταχώρηση.
+title: "XarEntry.Parent"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα XarEntry. Λαμβάνει τον γονικό φάκελο στον οποίο ανήκει η καταχώριση"
 type: docs
 weight: 70
 url: /el/net/aspose.zip.xar/xarentry/parent/
 ---
 ## XarEntry.Parent property
 
-Λαμβάνει τον γονικό κατάλογο στον οποίο ανήκει η καταχώρηση.
+Λαμβάνει τον γονικό φάκελο στον οποίο ανήκει η καταχώρηση.
 
 ```csharp
 public XarDirectoryEntry Parent { get; }
@@ -18,7 +18,7 @@ public XarDirectoryEntry Parent { get; }
 
 * class [XarDirectoryEntry](../../xardirectoryentry/)
 * class [XarEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Xar](../../xarentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

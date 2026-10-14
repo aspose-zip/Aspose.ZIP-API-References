@@ -1,14 +1,14 @@
 ---
-title: Bzip2CompressionSettings.Bzip2CompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Bzip2CompressionSettings κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουBzip2CompressionSettings τάξη.
+title: "Bzip2CompressionSettings.Bzip2CompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής Bzip2CompressionSettings. Αρχικοποιεί ένα νέο αντικείμενο της κλάσης Bzip2CompressionSettings"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/bzip2compressionsettings/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings(int) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`Bzip2CompressionSettings`](../) τάξη.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`Bzip2CompressionSettings`](../).
 
 ```csharp
 public Bzip2CompressionSettings(int blockSize)
@@ -16,15 +16,15 @@ public Bzip2CompressionSettings(int blockSize)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| blockSize | Int32 | Μέγεθος μπλοκ σε εκατοντάδες kilobyte. |
+| blockSize | Int32 | Μέγεθος μπλοκ σε εκατοντάδες kilobytes. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentOutOfRangeException | Το μέγεθος του μπλοκ δεν είναι μεταξύ 1 και 9. |
+| ArgumentOutOfRangeException | Το μέγεθος του τμήματος δεν είναι μεταξύ 1 και 9. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings(1))))
@@ -37,20 +37,20 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 ### Δείτε επίσης
 
 * class [Bzip2CompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Bzip2CompressionSettings() {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`Bzip2CompressionSettings`](../) κλάση με προεπιλεγμένο μέγεθος μπλοκ, ισούται με 9 εκατοντάδες kilobyte.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`Bzip2CompressionSettings`](../) με προεπιλεγμένο μέγεθος τμήματος, ίσο με 9 εκατοντάδες kilobytes.
 
 ```csharp
 public Bzip2CompressionSettings()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings())))
@@ -63,7 +63,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 ### Δείτε επίσης
 
 * class [Bzip2CompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

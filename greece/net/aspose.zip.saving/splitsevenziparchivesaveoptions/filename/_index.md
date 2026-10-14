@@ -1,7 +1,7 @@
 ---
-title: SplitSevenZipArchiveSaveOptions.FileName
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SplitSevenZipArchiveSaveOptions ιδιοκτησία. Λαμβάνει το όνομα των τμημάτων χωρίς επέκταση.
+title: "SplitSevenZipArchiveSaveOptions.FileName"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SplitSevenZipArchiveSaveOptions. Επιστρέφει το όνομα των τμημάτων χωρίς επέκταση"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.saving/splitsevenziparchivesaveoptions/filename/
@@ -17,7 +17,7 @@ public string FileName { get; }
 ### Δείτε επίσης
 
 * class [SplitSevenZipArchiveSaveOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

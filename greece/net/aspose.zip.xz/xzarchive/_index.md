@@ -1,14 +1,14 @@
 ---
-title: Class XzArchive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Xz.XzArchive τάξη. Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχειοθέτησης xz. Χρησιμοποιήστε το για να συνθέσετε και να εξαγάγετε αρχεία xz.
+title: "Κλάση XzArchive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Xz.XzArchive κλάση. Αυτή η κλάση αντιπροσωπεύει αρχείο συμπιεσμένου xz. Χρησιμοποιήστε την για τη δημιουργία και την αποσυμπίεση αρχείων xz."
 type: docs
-weight: 900
+weight: 1580
 url: /el/net/aspose.zip.xz/xzarchive/
 ---
 ## XzArchive class
 
-Αυτή η κλάση αντιπροσωπεύει το αρχείο αρχειοθέτησης xz. Χρησιμοποιήστε το για να συνθέσετε και να εξαγάγετε αρχεία xz.
+Αυτή η κλάση αντιπροσωπεύει αρχείο xz. Χρησιμοποιήστε την για να δημιουργήσετε και να εξάγετε αρχεία xz.
 
 ```csharp
 public class XzArchive : IArchive, IArchiveFileEntry
@@ -16,31 +16,38 @@ public class XzArchive : IArchive, IArchiveFileEntry
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [XzArchive](xzarchive/#constructor_1)(Stream) | Αρχικοποιεί μια νέα παρουσία του`XzArchive` τάξη προετοιμασμένη για αποσυμπίεση. |
-| [XzArchive](xzarchive/#constructor_2)(string) | Αρχικοποιεί μια νέα παρουσία του`XzArchive` τάξη προετοιμασμένη για αποσυμπίεση. |
-| [XzArchive](xzarchive/#constructor)(XzArchiveSettings) | Αρχικοποιεί μια νέα παρουσία του`XzArchive` τάξη και συνθέτει το αρχείο σε μορφή xz. |
+| [XzArchive](xzarchive/#constructor)(XzArchiveSettings) | Αρχικοποιεί μια νέα παρουσία της κλάσης `XzArchive` και δημιουργεί το αρχείο σε μορφή xz. |
+| [XzArchive](xzarchive/#constructor_1)(Stream, XzLoadOptions) | Αρχικοποιεί μια νέα παρουσία της κλάσης `XzArchive` προετοιμασμένη για αποσυμπίεση. |
+| [XzArchive](xzarchive/#constructor_2)(string, XzLoadOptions) | Αρχικοποιεί μια νέα παρουσία της κλάσης `XzArchive` προετοιμασμένη για αποσυμπίεση. |
+
+## Ιδιότητες
+
+| Όνομα | Περιγραφή |
+| --- | --- |
+| [UncompressedSize](../../aspose.zip.xz/xzarchive/uncompressedsize/) { get; } | Μη συμπιεσμένο μέγεθος των δεδομένων του αρχείου σε byte. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Dispose](../../aspose.zip.xz/xzarchive/dispose/)() | Εκτελεί εργασίες που καθορίζονται από την εφαρμογή που σχετίζονται με την απελευθέρωση, την απελευθέρωση ή την επαναφορά μη διαχειριζόμενων πόρων. |
-| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_1)(FileInfo) | Εξάγει το αρχείο xz σε ένα αρχείο. |
-| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_2)(Stream) | Εξάγει το αρχείο xz σε μια ροή. |
-| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract)(string) | Εξάγει το αρχείο xz σε ένα αρχείο κατά διαδρομή. |
-| [Save](../../aspose.zip.xz/xzarchive/save/#save)(Stream) | Αποθηκεύει το αρχείο xz στην παρεχόμενη ροή. |
-| [Save](../../aspose.zip.xz/xzarchive/save/#save_1)(string) | Αποθηκεύει το αρχείο xz στο παρεχόμενο αρχείο προορισμού. |
-| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource)(FileInfo) | Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου. |
-| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_1)(Stream) | Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου. |
-| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_2)(string) | Ορίζει το περιεχόμενο που θα συμπιέζεται εντός του αρχείου. |
+| [Dispose](../../aspose.zip.xz/xzarchive/dispose/)() | Εκτελεί εργασίες ορισμένες από την εφαρμογή που σχετίζονται με την απελευθέρωση, την αποδέσμευση ή την επαναφορά μη διαχειριζόμενων πόρων. |
+| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_1)(FileInfo) | Αποσυμπιέζει το αρχείο xz σε αρχείο. |
+| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract_2)(Stream) | Αποσυμπιέζει το αρχείο xz σε ροή. |
+| [Extract](../../aspose.zip.xz/xzarchive/extract/#extract)(string) | Αποσυμπιέζει το αρχείο xz σε αρχείο με βάση τη διαδρομή. |
+| [ExtractToDirectory](../../aspose.zip.xz/xzarchive/extracttodirectory/)(string) | Εξάγει το περιεχόμενο του αρχείου στον παρεχόμενο φάκελο. |
+| [Save](../../aspose.zip.xz/xzarchive/save/#save)(Stream) | Αποθηκεύει το xz archive στη δοθείσα ροή. |
+| [Save](../../aspose.zip.xz/xzarchive/save/#save_1)(string) | Αποθηκεύει το αρχείο xz στο προσαρμοσμένο αρχείο προορισμού. |
+| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource)(FileInfo) | Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο. |
+| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_1)(Stream) | Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο. |
+| [SetSource](../../aspose.zip.xz/xzarchive/setsource/#setsource_2)(string) | Ορίζει το περιεχόμενο που θα συμπιεστεί μέσα στο αρχείο. |
 
 ### Δείτε επίσης
 
 * interface [IArchive](../../aspose.zip/iarchive/)
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* χώρος ονομάτων [Aspose.Zip.Xz](../../aspose.zip.xz/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz](../../aspose.zip.xz/)
+* assembly [Aspose.Zip](../../)
 
 

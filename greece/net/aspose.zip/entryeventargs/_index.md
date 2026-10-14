@@ -1,14 +1,14 @@
 ---
-title: Class EntryEventArgs
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.EntryEventArgs τάξη. Ορίσματα συμβάντος για συμβάντα που σχετίζονται με την καταχώριση.
+title: "Κλάση EntryEventArgs"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.EntryEventArgs κλάση. Ορίσματα συμβάντος για συμβάντα σχετιζόμενα με καταχωρήσεις"
 type: docs
-weight: 200
+weight: 490
 url: /el/net/aspose.zip/entryeventargs/
 ---
 ## EntryEventArgs class
 
-Ορίσματα συμβάντος για συμβάντα που σχετίζονται με την καταχώριση.
+Παράμετροι συμβάντος για συμβάντα σχετιζόμενα με καταχωρήσεις.
 
 ```csharp
 public class EntryEventArgs : EventArgs
@@ -16,20 +16,20 @@ public class EntryEventArgs : EventArgs
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [EntryEventArgs](entryeventargs/)(ArchiveEntry) | Αρχικοποιεί μια νέα παρουσία του`EntryEventArgs` τάξη. |
+| [EntryEventArgs](entryeventargs/)(ArchiveEntry) | Αρχικοποιεί μια νέα παρουσία της κλάσης `EntryEventArgs`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Λαμβάνει την καταχώριση αρχείου για την οποία έχει δημιουργηθεί το συμβάν. |
+| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | Λαμβάνει την καταχώρηση του αρχείου για την οποία ενεργοποιείται το συμβάν. |
 
 ### Δείτε επίσης
 
 * property [EntryListed](../archiveloadoptions/entrylisted/)
-* χώρος ονομάτων [Aspose.Zip](../../aspose.zip/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

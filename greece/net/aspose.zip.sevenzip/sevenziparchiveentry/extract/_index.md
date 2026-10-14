@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchiveEntry.Extract
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipArchiveEntry μέθοδος. Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+title: "SevenZipArchiveEntry.Extract"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος SevenZipArchiveEntry. Εξάγει την καταχώρηση στο σύστημα αρχείων με τη διαδρομή που παρέχεται"
 type: docs
 weight: 80
 url: /el/net/aspose.zip.sevenzip/sevenziparchiveentry/extract/
 ---
 ## Extract(string, string) {#extract}
 
-Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή.
 
 ```csharp
 public FileInfo Extract(string path, string password = null)
@@ -16,25 +16,29 @@ public FileInfo Extract(string path, string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
+| password | String | Προαιρετικό password για αποκρυπτογράφηση. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Οι πληροφορίες αρχείου του σύνθετου αρχείου.
+Οι πληροφορίες αρχείου ενός σύνθετου αρχείου.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| InvalidDataException | Το αρχείο είναι κατεστραμμένο. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new SevenZipArchive("archive.7z"))
@@ -46,14 +50,14 @@ using (var archive = new SevenZipArchive("archive.7z"))
 ### Δείτε επίσης
 
 * class [SevenZipArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(Stream, string) {#extract_1}
 
-Εξάγει την καταχώρηση στη ροή που παρέχεται.
+Εξάγει την καταχώρηση στη δοθείσα ροή.
 
 ```csharp
 public void Extract(Stream destination, string password = null)
@@ -61,20 +65,22 @@ public void Extract(Stream destination, string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμο. |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. |
+| προορισμός | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμη. |
+| password | String | Προαιρετικό password για αποκρυπτογράφηση. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentException | *destination* δεν υποστηρίζει τη γραφή. |
-| InvalidOperationException | Το αρχείο δεν ανοίγει για εξαγωγή. - ή - Αυτή η καταχώρηση είναι ένας κατάλογος. |
+| ArgumentException | *destination* δεν υποστηρίζει εγγραφή. |
+| InvalidOperationException | Το αρχείο δεν είναι ανοικτό για εξαγωγή. - ή - Αυτή η καταχώρηση είναι κατάλογος. |
 | InvalidDataException | Λάθος δεδομένα μέσα στην καταχώρηση. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εξαγωγή μιας καταχώρησης αρχείου zip με κωδικό πρόσβασης.
+Εξάγετε μια καταχώρηση του αρχείου zip με κωδικό πρόσβασης.
 
 ```csharp
 using (var archive = new SevenZipArchive("archive.7z"))
@@ -86,7 +92,7 @@ using (var archive = new SevenZipArchive("archive.7z"))
 ### Δείτε επίσης
 
 * class [SevenZipArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

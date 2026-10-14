@@ -1,14 +1,14 @@
 ---
-title: TarEntry.IsDirectory
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: TarEntry ιδιοκτησία. Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο.
+title: "TarEntry.IsDirectory"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "TarEntry ιδιότητα. Λαμβάνει μια τιμή που υποδεικνύει αν η καταχώριση αντιπροσωπεύει κατάλογο"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.tar/tarentry/isdirectory/
 ---
 ## TarEntry.IsDirectory property
 
-Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο.
+Επιστρέφει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει κατάλογο.
 
 ```csharp
 public bool IsDirectory { get; }
@@ -17,7 +17,7 @@ public bool IsDirectory { get; }
 ### Δείτε επίσης
 
 * class [TarEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tarentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

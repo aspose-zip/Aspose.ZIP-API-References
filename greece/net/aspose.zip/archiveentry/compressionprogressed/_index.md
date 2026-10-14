@@ -1,24 +1,24 @@
 ---
-title: ArchiveEntry.CompressionProgressed
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveEntry Εκδήλωση. Αυξάνεται όταν συμπιέζεται ένα τμήμα της ακατέργαστης ροής.
+title: "ArchiveEntry.CompressionProgressed"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Συμβάν ArchiveEntry. Ενεργοποιείται όταν ένα τμήμα του ακατέργαστου ρεύματος συμπιέζεται"
 type: docs
-weight: 80
+weight: 90
 url: /el/net/aspose.zip/archiveentry/compressionprogressed/
 ---
 ## ArchiveEntry.CompressionProgressed event
 
-Αυξάνεται όταν συμπιέζεται ένα τμήμα της ακατέργαστης ροής.
+Ενεργοποιείται όταν ένα τμήμα ακατέργαστης ροής συμπιέζεται.
 
 ```csharp
 public event EventHandler<ProgressEventArgs> CompressionProgressed;
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Ο αποστολέας συμβάντος είναι ένας[`ArchiveEntry`](../) παράδειγμα.
+Ο αποστολέας του συμβάντος είναι μια παρουσία του [`ArchiveEntry`](../).
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 archive.Entries[0].CompressionProgressed += (s, e) => { int percent = (int)((100 * (long)e.ProceededBytes) / entrySourceStream.Length); };
@@ -28,7 +28,7 @@ archive.Entries[0].CompressionProgressed += (s, e) => { int percent = (int)((100
 
 * class [ProgressEventArgs](../../progresseventargs/)
 * class [ArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

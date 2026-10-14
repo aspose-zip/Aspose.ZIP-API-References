@@ -1,23 +1,23 @@
 ---
-title: XarFileEntry.Length
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: XarFileEntry ιδιοκτησία. Λαμβάνει το μήκος της καταχώρισης σε byte.
+title: "XarFileEntry.Length"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα XarFileEntry. Λαμβάνει το μήκος της καταχώρησης σε byte"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.xar/xarfileentry/length/
 ---
 ## XarFileEntry.Length property
 
-Λαμβάνει το μήκος της καταχώρισης σε byte.
+Λαμβάνει το μήκος της καταχώρησης σε byte.
 
 ```csharp
-public abstract long Length { get; }
+public long Length { get; }
 ```
 
 ### Δείτε επίσης
 
 * class [XarFileEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Xar](../../xarfileentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarfileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,31 +1,31 @@
 ---
-title: Enum CpioFormat
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Cpio.CpioFormat αρίθμηση. Απαρίθμηση με υποστηριζόμενες μορφές cpio.
+title: "Απαρίθμηση CpioFormat"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Απαρίθμηση Aspose.Zip.Cpio.CpioFormat. Καταγραφή με υποστηριζόμενες μορφές του cpio"
 type: docs
-weight: 180
+weight: 430
 url: /el/net/aspose.zip.cpio/cpioformat/
 ---
 ## CpioFormat enumeration
 
-Απαρίθμηση με υποστηριζόμενες μορφές cpio.
+Απαρίθμηση με τις υποστηριζόμενες μορφές του cpio
 
 ```csharp
 public enum CpioFormat
 ```
 
-### Αξίες
+### Τιμές
 
-| Ονομα | αξία | Περιγραφή |
+| Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| OldBinary | `0` | Παλιά δυαδική μορφή. |
-| OldAscii | `1` | Φορητή μορφή ASCII. |
-| NewAscii | `2` | Νέα μορφή ASCII. |
-| NewAsciiCrc | `3` | Νέα μορφή ASCII CRC. |
+| OldBinary | `0` | Παλιό δυαδικό μορφότυπο. |
+| OldAscii | `1` | Φορητό μορφότυπο ASCII. |
+| NewAscii | `2` | Νέο μορφότυπο ASCII. |
+| NewAsciiCrc | `3` | Νέο μορφότυπο ASCII CRC. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Cpio](../../aspose.zip.cpio/)
+* assembly [Aspose.Zip](../../)
 
 

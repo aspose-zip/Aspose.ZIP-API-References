@@ -1,46 +1,52 @@
 ---
-title: Class XarFileEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Xar.XarFileEntry τάξη. Αντιπροσωπεύει την καταχώριση αρχείου μέσα στο αρχείο xar.
+title: "Κλάση XarFileEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Xar.XarFileEntry κλάση. Αντιπροσωπεύει καταχώρηση αρχείου μέσα σε αρχειοθήκη xar."
 type: docs
-weight: 840
+weight: 1470
 url: /el/net/aspose.zip.xar/xarfileentry/
 ---
 ## XarFileEntry class
 
-Αντιπροσωπεύει την καταχώριση αρχείου μέσα στο αρχείο xar.
+Αντιπροσωπεύει την καταχώρηση αρχείου μέσα σε αρχειοθήκη xar.
 
 ```csharp
-public abstract class XarFileEntry : XarEntry, IArchiveFileEntry
+public sealed class XarFileEntry : XarEntry, IArchiveFileEntry
 ```
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [CreationTime](../../aspose.zip.xar/xarentry/creationtime/) { get; } | Λαμβάνει το χρόνο δημιουργίας του αρχείου ή του καταλόγου. |
-| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Λαμβάνει την πλήρη διαδρομή της καταχώρησης μέσα στο αρχείο. |
-| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει τον κατάλογο. |
-| [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime/) { get; } | Λαμβάνει τον τελευταίο χρόνο πρόσβασης του αρχείου ή του καταλόγου. |
-| [LastWriteTime](../../aspose.zip.xar/xarentry/lastwritetime/) { get; } | Λαμβάνει το χρόνο τροποποίησης του αρχείου ή του καταλόγου. |
-| abstract [Length](../../aspose.zip.xar/xarfileentry/length/) { get; } | Λαμβάνει το μήκος της καταχώρισης σε byte. |
-| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Λαμβάνει το όνομα της καταχώρησης μέσα στο αρχείο. |
-| [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Λαμβάνει τον γονικό κατάλογο στον οποίο ανήκει η καταχώρηση. |
+| [CreationTime](../../aspose.zip.xar/xarentry/creationtime/) { get; } | Λαμβάνει την ώρα δημιουργίας του αρχείου ή του φακέλου. |
+| [FullPath](../../aspose.zip.xar/xarentry/fullpath/) { get; } | Λαμβάνει την πλήρη διαδρομή της καταχώρησης μέσα στην αρχειοθήκη. |
+| [IsDirectory](../../aspose.zip.xar/xarentry/isdirectory/) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η καταχώρηση αντιπροσωπεύει κατάλογο. |
+| [LastAccessTime](../../aspose.zip.xar/xarentry/lastaccesstime/) { get; } | Λαμβάνει την τελευταία ώρα πρόσβασης του αρχείου ή του φακέλου. |
+| [Length](../../aspose.zip.xar/xarfileentry/length/) { get; } | Λαμβάνει το μήκος της καταχώρησης σε byte. |
+| [ModificationTime](../../aspose.zip.xar/xarentry/modificationtime/) { get; } | Λαμβάνει την ώρα τροποποίησης του αρχείου ή του καταλόγου. |
+| [Name](../../aspose.zip.xar/xarentry/name/) { get; } | Επιστρέφει το όνομα της καταχώρησης μέσα στο αρχείο. |
+| [Parent](../../aspose.zip.xar/xarentry/parent/) { get; } | Λαμβάνει τον γονικό φάκελο στον οποίο ανήκει η καταχώρηση. |
 
 ## Μέθοδοι
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| abstract [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract_1)(Stream) | Εξάγει την καταχώρηση στη ροή που παρέχεται. |
-| abstract [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract)(string) | Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται. |
-| abstract [Open](../../aspose.zip.xar/xarfileentry/open/)() | Ανοίγει την καταχώρηση για εξαγωγή και παρέχει μια ροή με περιεχόμενο καταχώρισης. |
+| [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract_1)(Stream) | Εξάγει την καταχώρηση στη δοθείσα ροή. |
+| [Extract](../../aspose.zip.xar/xarfileentry/extract/#extract)(string) | Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή. |
+| [Open](../../aspose.zip.xar/xarfileentry/open/)() | Ανοίγει την καταχώρηση για εξαγωγή και παρέχει ένα ρεύμα με το περιεχόμενο της καταχώρησης. |
 | override [ToString](../../aspose.zip.xar/xarentry/tostring/)() |  |
+
+## Συμβάντα
+
+| Όνομα | Περιγραφή |
+| --- | --- |
+| event [CompressionProgressed](../../aspose.zip.xar/xarfileentry/compressionprogressed/) | Ενεργοποιείται όταν ένα τμήμα ακατέργαστης ροής συμπιέζεται. |
 
 ### Δείτε επίσης
 
 * class [XarEntry](../xarentry/)
 * interface [IArchiveFileEntry](../../aspose.zip/iarchivefileentry/)
-* χώρος ονομάτων [Aspose.Zip.Xar](../../aspose.zip.xar/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xar](../../aspose.zip.xar/)
+* assembly [Aspose.Zip](../../)
 
 

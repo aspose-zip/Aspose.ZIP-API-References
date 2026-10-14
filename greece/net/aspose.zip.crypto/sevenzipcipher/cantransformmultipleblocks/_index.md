@@ -1,14 +1,14 @@
 ---
-title: SevenZipCipher.CanTransformMultipleBlocks
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipCipher ιδιοκτησία. Λαμβάνει μια τιμή που υποδεικνύει εάν μπορούν να μετασχηματιστούν πολλά μπλοκ.
+title: "SevenZipCipher.CanTransformMultipleBlocks"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipCipher. Επιστρέφει μια τιμή που υποδεικνύει εάν μπορούν να μετασχηματιστούν πολλαπλά μπλοκ"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.crypto/sevenzipcipher/cantransformmultipleblocks/
 ---
 ## SevenZipCipher.CanTransformMultipleBlocks property
 
-Λαμβάνει μια τιμή που υποδεικνύει εάν μπορούν να μετασχηματιστούν πολλά μπλοκ.
+Λαμβάνει μια τιμή που υποδεικνύει εάν μπορούν να μετατραπούν πολλαπλά μπλοκ.
 
 ```csharp
 public abstract bool CanTransformMultipleBlocks { get; }
@@ -17,7 +17,7 @@ public abstract bool CanTransformMultipleBlocks { get; }
 ### Δείτε επίσης
 
 * class [SevenZipCipher](../)
-* χώρος ονομάτων [Aspose.Zip.Crypto](../../sevenzipcipher/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Crypto](../../sevenzipcipher/)
+* assembly [Aspose.Zip](../../../)
 
 

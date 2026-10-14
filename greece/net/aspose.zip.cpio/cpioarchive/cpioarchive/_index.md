@@ -1,22 +1,22 @@
 ---
-title: CpioArchive.CpioArchive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CpioArchive κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουCpioArchive τάξη.
+title: "CpioArchive.CpioArchive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής CpioArchive. Αρχικοποιεί ένα νέο αντικείμενο της κλάσης CpioArchive."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.cpio/cpioarchive/cpioarchive/
 ---
 ## CpioArchive() {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`CpioArchive`](../) τάξη.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`CpioArchive`](../).
 
 ```csharp
 public CpioArchive()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει τον τρόπο συμπίεσης ενός αρχείου.
+Το παρακάτω παράδειγμα δείχνει πώς να συμπιέσετε ένα αρχείο.
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -29,14 +29,14 @@ using (var archive = new CpioArchive())
 ### Δείτε επίσης
 
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CpioArchive(Stream) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`CpioArchive`](../) Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`CpioArchive`](../) και συνθέτει μια λίστα καταχωρήσεων που μπορεί να εξαχθεί από το αρχείο.
 
 ```csharp
 public CpioArchive(Stream sourceStream)
@@ -44,23 +44,26 @@ public CpioArchive(Stream sourceStream)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| sourceStream | Stream | Η πηγή του αρχείου. Πρέπει να είναι αναζητήσιμο. |
+| sourceStream | Stream | Η πηγή του αρχείου. Πρέπει να είναι δυνατότητα αναζήτησης. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *sourceStream* είναι μηδενικό. |
-| ArgumentException | *sourceStream* δεν είναι αναζητήσιμο. |
+| ArgumentNullException | *sourceStream* είναι null. |
+| ArgumentException | *sourceStream* δεν είναι δυνατόν να γίνει αναζήτηση. |
 | InvalidDataException | *sourceStream* δεν είναι έγκυρο αρχείο cpio. |
+| EndOfStreamException | Εκτοξεύεται όταν το τέλος της ροής επιτυγχάνεται πριν διαβαστούν όλα τα byte της κεφαλίδας ή του ονόματος. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
+| IOException | Παρουσιάστηκε σφάλμα I/O. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτός ο κατασκευαστής δεν αποσυσκευάζει καμία καταχώρηση. Βλέπω[`Open`](../../cpioentry/open/)μέθοδος αποσυσκευασίας.
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει καμία καταχώρηση. Δείτε τη μέθοδο [`Open`](../../cpioentry/open/) για αποσυμπίεση.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να εξαγάγετε όλες τις εγγραφές σε έναν κατάλογο.
+Το παρακάτω παράδειγμα δείχνει πώς να εξάγετε όλες τις καταχωρήσεις σε έναν φάκελο.
 
 ```csharp
 using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
@@ -72,14 +75,14 @@ using (var archive = new CpioArchive(File.OpenRead("archive.cpio")))
 ### Δείτε επίσης
 
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CpioArchive(string) {#constructor_2}
 
-Αρχικοποιεί μια νέα παρουσία του[`CpioArchive`](../) Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`CpioArchive`](../) και συνθέτει μια λίστα καταχωρήσεων που μπορεί να εξαχθεί από το αρχείο.
 
 ```csharp
 public CpioArchive(string path)
@@ -87,26 +90,32 @@ public CpioArchive(string path)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο αρχειοθέτησης. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο αρχειοθήκης. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| EndOfStreamException | Εκτοξεύεται όταν το τέλος της ροής επιτυγχάνεται πριν διαβαστούν όλα τα byte της κεφαλίδας ή του ονόματος. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
+| InvalidDataException | Εκτοπίζεται όταν τα δεδομένα είναι μη έγκυρα ή κατεστραμμένα. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτός ο κατασκευαστής δεν αποσυσκευάζει καμία καταχώρηση. Βλέπω[`Open`](../../cpioentry/open/)μέθοδος αποσυσκευασίας.
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει καμία καταχώρηση. Δείτε τη μέθοδο [`Open`](../../cpioentry/open/) για αποσυμπίεση.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να εξαγάγετε όλες τις εγγραφές σε έναν κατάλογο.
+Το παρακάτω παράδειγμα δείχνει πώς να εξάγετε όλες τις καταχωρήσεις σε έναν φάκελο.
 
 ```csharp
 using (var archive = new CpioArchive("archive.cpio")) 
@@ -118,7 +127,7 @@ using (var archive = new CpioArchive("archive.cpio"))
 ### Δείτε επίσης
 
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

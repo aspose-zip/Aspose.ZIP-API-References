@@ -1,14 +1,14 @@
 ---
-title: SevenZipPPMdCompressionSettings.SevenZipPPMdCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipPPMdCompressionSettings κατασκευαστής. Δημιουργεί τις ρυθμίσεις για τη μέθοδο συμπίεσης PPMd εντός αρχείου 7z.
+title: "SevenZipPPMdCompressionSettings.SevenZipPPMdCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής SevenZipPPMdCompressionSettings. Δημιουργεί ρυθμίσεις για τη μέθοδο συμπίεσης PPMd μέσα σε αρχείο 7z."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.saving/sevenzipppmdcompressionsettings/sevenzipppmdcompressionsettings/
 ---
 ## SevenZipPPMdCompressionSettings(byte, int) {#constructor_1}
 
-Δημιουργεί τις ρυθμίσεις για τη μέθοδο συμπίεσης PPMd εντός αρχείου 7z.
+Δημιουργεί παραδείγματα ρυθμίσεων για τη μέθοδο συμπίεσης PPMd μέσα σε αρχείο 7z.
 
 ```csharp
 public SevenZipPPMdCompressionSettings(byte maxOrder, int suballocatorSize)
@@ -16,22 +16,22 @@ public SevenZipPPMdCompressionSettings(byte maxOrder, int suballocatorSize)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| maxOrder | Byte | Μέγιστη παραγγελία. |
-| suballocatorSize | Int32 | Το μέγεθος μνήμης σε υποκατανομέα MB μπορεί να καταναλώσει. |
+| maxOrder | Byte | Μέγιστη τάξη. |
+| suballocatorSize | Int32 | Μέγεθος μνήμης σε MB που μπορεί να καταναλώσει ο suballocator. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxOrder* δεν είναι μεταξύ 2 και 32 ή*suballocatorSize* δεν είναι μεταξύ 1 και 1024. |
+| ArgumentOutOfRangeException | *maxOrder* δεν είναι μεταξύ 2 και 32, ή *suballocatorSize* δεν είναι μεταξύ 1 και 1024. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Μεγαλύτερες παραγγελίες μοντέλων σχεδόν σίγουρα έχουν ως αποτέλεσμα καλύτερη συμπίεση και σίγουρα περισσότερη μνήμη και χρήση CPU.
+Μεγαλύτερες τάξεις μοντέλου σχεδόν σίγουρα οδηγούν σε καλύτερη συμπίεση και σίγουρα σε μεγαλύτερη χρήση μνήμης και CPU.
 
-Ο αλγόριθμος PPMd μπορεί να χρειάζεται πολλή μνήμη, ειδικά όταν χρησιμοποιείται σε μεγάλα αρχεία ή/και χρησιμοποιείται με μεγάλη σειρά μοντέλων. Εάν το ppmd χρειάζεται περισσότερη μνήμη από αυτή που του δίνετε, η συμπίεση θα είναι χειρότερη.
+Ο αλγόριθμος PPMd μπορεί να χρειάζεται πολύ μνήμη, ειδικά όταν χρησιμοποιείται σε μεγάλα αρχεία και/ή με μεγάλη τάξη μοντέλου. Εάν το ppmd χρειάζεται περισσότερη μνήμη από ό,τι του παρέχετε, η συμπίεση θα είναι χειρότερη.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipPPMdCompressionSettings(4, 32))))
@@ -44,24 +44,24 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
 ### Δείτε επίσης
 
 * class [SevenZipPPMdCompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SevenZipPPMdCompressionSettings() {#constructor}
 
-Δημιουργεί τις ρυθμίσεις για τη μέθοδο συμπίεσης PPMd εντός αρχείου 7z με προεπιλεγμένη σειρά μοντέλου και μέγεθος υποκατανεμητή.
+Δημιουργεί παραδείγματα ρυθμίσεων για τη μέθοδο συμπίεσης PPMd μέσα σε αρχείο 7z με προεπιλεγμένη σειρά μοντέλου και μέγεθος υπο-κατανεμητή.
 
 ```csharp
 public SevenZipPPMdCompressionSettings()
 ```
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Η προεπιλεγμένη παραγγελία μοντέλου είναι 6 και το μέγεθος του δευτερεύοντος εκχωρητή είναι 16 MB.
+Η προεπιλεγμένη τάξη μοντέλου είναι 6 και το μέγεθος του sub-allocator είναι 16 MB.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(new SevenZipPPMdCompressionSettings())))
@@ -74,7 +74,7 @@ using (SevenZipArchive archive = new SevenZipArchive(new SevenZipEntrySettings(n
 ### Δείτε επίσης
 
 * class [SevenZipPPMdCompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipppmdcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

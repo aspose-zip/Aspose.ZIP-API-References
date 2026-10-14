@@ -1,7 +1,7 @@
 ---
-title: SharEntry.ToString
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SharEntry μέθοδος. Επιστρέφει μια συμβολοσειρά που αντιπροσωπεύει την τρέχουσα καταχώρηση.
+title: "SharEntry.ToString"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος SharEntry. Επιστρέφει μια συμβολοσειρά που αντιπροσωπεύει την τρέχουσα καταχώρηση."
 type: docs
 weight: 10
 url: /el/net/aspose.zip.shar/sharentry/tostring/
@@ -14,14 +14,14 @@ url: /el/net/aspose.zip.shar/sharentry/tostring/
 public override string ToString()
 ```
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
 Μια συμβολοσειρά που αντιπροσωπεύει την τρέχουσα καταχώρηση.
 
 ### Δείτε επίσης
 
 * class [SharEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Shar](../../sharentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../sharentry/)
+* assembly [Aspose.Zip](../../../)
 
 

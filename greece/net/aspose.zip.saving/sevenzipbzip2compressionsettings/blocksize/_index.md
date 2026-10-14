@@ -1,14 +1,14 @@
 ---
-title: SevenZipBZip2CompressionSettings.BlockSize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SevenZipBZip2CompressionSettings ιδιοκτησία. Μέγεθος μπλοκ σε εκατοντάδες kilobyte.
+title: "SevenZipBZip2CompressionSettings.BlockSize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SevenZipBZip2CompressionSettings. Μέγεθος τμήματος σε εκατοντάδες kilobytes"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.saving/sevenzipbzip2compressionsettings/blocksize/
 ---
 ## SevenZipBZip2CompressionSettings.BlockSize property
 
-Μέγεθος μπλοκ σε εκατοντάδες kilobyte.
+Μέγεθος μπλοκ σε εκατοντάδες kilobytes.
 
 ```csharp
 public int BlockSize { get; }
@@ -17,7 +17,7 @@ public int BlockSize { get; }
 ### Δείτε επίσης
 
 * class [SevenZipBZip2CompressionSettings](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../sevenzipbzip2compressionsettings/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipbzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

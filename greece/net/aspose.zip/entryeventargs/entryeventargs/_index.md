@@ -1,14 +1,14 @@
 ---
-title: EntryEventArgs.EntryEventArgs
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: EntryEventArgs κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουEntryEventArgs τάξη.
+title: "EntryEventArgs.EntryEventArgs"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής EntryEventArgs. Αρχικοποιεί μια νέα παρουσία της κλάσης EntryEventArgs"
 type: docs
 weight: 10
 url: /el/net/aspose.zip/entryeventargs/entryeventargs/
 ---
 ## EntryEventArgs constructor
 
-Αρχικοποιεί μια νέα παρουσία του[`EntryEventArgs`](../) τάξη.
+Αρχικοποιεί μια νέα παρουσία της κλάσης [`EntryEventArgs`](../).
 
 ```csharp
 public EntryEventArgs(ArchiveEntry entry)
@@ -16,13 +16,13 @@ public EntryEventArgs(ArchiveEntry entry)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| entry | ArchiveEntry | Καταχώριση αρχείου για την οποία προέρχεται το συμβάν. |
+| καταχώρηση | ArchiveEntry | Καταχώρηση αρχείου για την οποία ενεργοποιείται το συμβάν. |
 
 ### Δείτε επίσης
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [EntryEventArgs](../)
-* χώρος ονομάτων [Aspose.Zip](../../entryeventargs/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../entryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

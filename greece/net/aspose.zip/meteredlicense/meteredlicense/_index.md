@@ -1,14 +1,14 @@
 ---
-title: MeteredLicense.MeteredLicense
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: MeteredLicense κατασκευαστής. Αρχικοποιεί μια νέα παρουσία αυτής της κλάσης.
+title: "MeteredLicense.MeteredLicense"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής MeteredLicense. Ο προεπιλεγμένος κατασκευαστής"
 type: docs
 weight: 10
 url: /el/net/aspose.zip/meteredlicense/meteredlicense/
 ---
 ## MeteredLicense constructor
 
-Αρχικοποιεί μια νέα παρουσία αυτής της κλάσης.
+Ο προεπιλεγμένος κατασκευαστής.
 
 ```csharp
 public MeteredLicense()
@@ -17,7 +17,7 @@ public MeteredLicense()
 ### Δείτε επίσης
 
 * class [MeteredLicense](../)
-* χώρος ονομάτων [Aspose.Zip](../../meteredlicense/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

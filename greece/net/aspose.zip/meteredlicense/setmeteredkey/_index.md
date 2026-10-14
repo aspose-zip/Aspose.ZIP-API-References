@@ -1,14 +1,14 @@
 ---
-title: MeteredLicense.SetMeteredKey
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: MeteredLicense μέθοδος. Ορίζει το μετρημένο δημόσιο και ιδιωτικό κλειδί.
+title: "MeteredLicense.SetMeteredKey"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος MeteredLicense. Ορίζει τα δημόσια και ιδιωτικά κλειδιά μετρητή"
 type: docs
-weight: 20
+weight: 30
 url: /el/net/aspose.zip/meteredlicense/setmeteredkey/
 ---
 ## MeteredLicense.SetMeteredKey method
 
-Ορίζει το μετρημένο δημόσιο και ιδιωτικό κλειδί.
+Ορίζει δημόσια και ιδιωτικά κλειδιά με μέτρηση.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -19,14 +19,14 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | Το δημόσιο κλειδί. |
 | privateKey | String | Το ιδιωτικό κλειδί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Εάν αγοράσετε μετρημένη άδεια, κατά την έναρξη της εφαρμογής, αυτό το API θα πρέπει να καλείται, κανονικά, αυτό είναι αρκετό. Ωστόσο, εάν πάντα αποτυγχάνει η αποστολή δεδομένων κατανάλωσης και υπερβαίνει τις 24 ώρες, η άδεια θα οριστεί σε κατάσταση αξιολόγησης, για να αποφευχθεί τέτοια περίπτωση, θα πρέπει να ελέγχετε τακτικά την κατάσταση της άδειας, εάν είναι κατάσταση αξιολόγησης, καλέστε ξανά αυτό το API.
+Εάν αγοράσετε μια metered license, αυτό το API πρέπει να κληθεί κατά την εκκίνηση της εφαρμογής· συνήθως αυτό είναι αρκετό. Ωστόσο, εάν η metered αποτύχει να ανεβάσει τα δεδομένα κατανάλωσης κατά τη διάρκεια μιας περιόδου 24 ωρών, η άδεια θα οριστεί σε κατάσταση αξιολόγησης. Για να αποφύγετε αυτή την περίπτωση, θα πρέπει να ελέγχετε τακτικά την κατάσταση της άδειας. Εάν είναι σε κατάσταση αξιολόγησης, καλέστε ξανά αυτό το API.
 
 ### Δείτε επίσης
 
 * class [MeteredLicense](../)
-* χώρος ονομάτων [Aspose.Zip](../../meteredlicense/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

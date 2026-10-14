@@ -1,14 +1,14 @@
 ---
-title: RarArchive.Entries
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchive ιδιοκτησία. Λαμβάνει καταχωρήσεις τουRarArchiveEntry τύπος που αποτελεί το αρχείο rar.
+title: "RarArchive.Entries"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα RarArchive. Λαμβάνει καταχωρήσεις τύπου RarArchiveEntry που αποτελούν το αρχείο rar"
 type: docs
 weight: 20
 url: /el/net/aspose.zip.rar/rararchive/entries/
 ---
 ## RarArchive.Entries property
 
-Λαμβάνει καταχωρήσεις του[`RarArchiveEntry`](../../rararchiveentry/) τύπος που αποτελεί το αρχείο rar.
+Λαμβάνει καταχωρήσεις τύπου [`RarArchiveEntry`](../../rararchiveentry/) που αποτελούν το αρχείο rar.
 
 ```csharp
 public ReadOnlyCollection<RarArchiveEntry> Entries { get; }
@@ -18,7 +18,7 @@ public ReadOnlyCollection<RarArchiveEntry> Entries { get; }
 
 * class [RarArchiveEntry](../../rararchiveentry/)
 * class [RarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

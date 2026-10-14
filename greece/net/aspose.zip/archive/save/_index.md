@@ -1,14 +1,14 @@
 ---
-title: Archive.Save
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Archive μέθοδος. Αποθηκεύει το αρχείο στη ροή που παρέχεται.
+title: "Archive.Save"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος Archive. Αποθηκεύει το αρχείο στη δοθείσα ροή."
 type: docs
-weight: 90
+weight: 100
 url: /el/net/aspose.zip/archive/save/
 ---
 ## Save(Stream, ArchiveSaveOptions) {#save}
 
-Αποθηκεύει το αρχείο στη ροή που παρέχεται.
+Αποθηκεύει την αρχειοθήκη στη δοθείσα ροή.
 
 ```csharp
 public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
@@ -17,19 +17,21 @@ public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
 | outputStream | Stream | Ροή προορισμού. |
-| saveOptions | ArchiveSaveOptions | Επιλογές για αποθήκευση αρχείου. |
+| saveOptions | ArchiveSaveOptions | Επιλογές για την αποθήκευση του αρχείου. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
 | ArgumentException | *outputStream* δεν είναι εγγράψιμο. |
+| ObjectDisposedException | Το αρχείο έχει απελευθερωθεί. |
+| InvalidOperationException | Εκτοξεύεται όταν εφαρμόζεται κρυπτογράφηση σε ήδη κρυπτογραφημένες καταχωρήσεις. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-*outputStream*πρέπει να είναι εγγράψιμο.
+*outputStream* must be writable.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -46,14 +48,14 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 * class [ArchiveSaveOptions](../../../aspose.zip.saving/archivesaveoptions/)
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string, ArchiveSaveOptions) {#save_1}
 
-Αποθηκεύει το αρχείο στο παρεχόμενο αρχείο προορισμού.
+Αποθηκεύει την αρχειοθήκη στο παρεχόμενο αρχείο προορισμού
 
 ```csharp
 public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = null)
@@ -61,25 +63,30 @@ public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = nu
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου παραπέμπει σε ένα υπάρχον αρχείο, θα αντικατασταθεί. |
-| saveOptions | ArchiveSaveOptions | Επιλογές για αποθήκευση αρχείου. |
+| destinationFileName | String | Η διαδρομή του αρχείου που θα δημιουργηθεί. Εάν το καθορισμένο όνομα αρχείου δείχνει σε υπάρχον αρχείο, θα αντικατασταθεί. |
+| saveOptions | ArchiveSaveOptions | Επιλογές για την αποθήκευση του αρχείου. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *destinationFileName* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*destinationFileName* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*destinationFileName* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*destinationFileName*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*destinationFileName* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *destinationFileName* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *destinationFileName* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *destinationFileName* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *destinationFileName*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες στα Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *destinationFileName* περιέχει άνω-κάθετο (: ) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
+| InvalidOperationException | Εκτοξεύεται όταν εφαρμόζεται κρυπτογράφηση σε ήδη κρυπτογραφημένες καταχωρήσεις. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Είναι δυνατό να αποθηκεύσετε ένα αρχείο στην ίδια διαδρομή από το οποίο φορτώθηκε. Ωστόσο, αυτό δεν συνιστάται επειδή αυτή η προσέγγιση χρησιμοποιεί αντιγραφή σε προσωρινό αρχείο.
+Είναι δυνατόν να αποθηκεύσετε ένα αρχείο στην ίδια διαδρομή από την οποία φορτώθηκε. Ωστόσο, αυτό δεν συνιστάται επειδή αυτή η προσέγγιση χρησιμοποιεί αντιγραφή σε προσωρινό αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new Archive())
@@ -93,7 +100,7 @@ using (var archive = new Archive())
 
 * class [ArchiveSaveOptions](../../../aspose.zip.saving/archivesaveoptions/)
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

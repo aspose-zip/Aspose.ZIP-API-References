@@ -1,22 +1,22 @@
 ---
-title: TarArchive.TarArchive
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: TarArchive κατασκευαστής. Αρχικοποιεί μια νέα παρουσία τουTarArchive τάξη.
+title: "TarArchive.TarArchive"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κατασκευαστής TarArchive. Αρχικοποιεί ένα νέο αντικείμενο της κλάσης TarArchive"
 type: docs
 weight: 10
 url: /el/net/aspose.zip.tar/tararchive/tararchive/
 ---
 ## TarArchive() {#constructor}
 
-Αρχικοποιεί μια νέα παρουσία του[`TarArchive`](../) τάξη.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`TarArchive`](../).
 
 ```csharp
 public TarArchive()
 ```
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει τον τρόπο συμπίεσης ενός αρχείου.
+Το παρακάτω παράδειγμα δείχνει πώς να συμπιέσετε ένα αρχείο.
 
 ```csharp
 using (var archive = new TarArchive())
@@ -29,36 +29,39 @@ using (var archive = new TarArchive())
 ### Δείτε επίσης
 
 * class [TarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(Stream) {#constructor_1}
+## TarArchive(Stream, TarLoadOptions) {#constructor_1}
 
-Αρχικοποιεί μια νέα παρουσία του[`Archive`](../../../aspose.zip/archive/) Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`TarArchive`](../) και δημιουργεί μια λίστα καταχωρήσεων που μπορεί να εξαχθεί από το αρχείο.
 
 ```csharp
-public TarArchive(Stream sourceStream)
+public TarArchive(Stream sourceStream, TarLoadOptions loadOptions = null)
 ```
 
-| Παράμετρος | Τύπος | Περιγραφή |
-| --- | --- | --- |
-| sourceStream | Stream | Η πηγή του αρχείου. Πρέπει να είναι αναζητήσιμο. |
+| Παράμετρος | Περιγραφή |
+| --- | --- |
+| sourceStream | Η πηγή του αρχείου. Πρέπει να είναι δυνατότητα αναζήτησης. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidDataException | *sourceStream* δεν είναι αναζητήσιμο. |
+| ArgumentException | *sourceStream* δεν είναι δυνατόν να γίνει αναζήτηση. |
+| ArgumentNullException | *sourceStream* είναι null. |
+| EndOfStreamException | Εκτοξεύεται όταν το τέλος της ροής επιτυγχάνεται πριν διαβαστούν ο αριθμός των αναμενόμενων byte. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτός ο κατασκευαστής δεν αποσυσκευάζει καμία καταχώρηση. Βλέπω[`Open`](../../tarentry/open/)μέθοδος αποσυσκευασίας.
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει καμία καταχώρηση. Δείτε τη μέθοδο [`Open`](../../tarentry/open/) για αποσυμπίεση.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να εξαγάγετε όλες τις εγγραφές σε έναν κατάλογο.
+Το παρακάτω παράδειγμα δείχνει πώς να εξάγετε όλες τις καταχωρήσεις σε έναν φάκελο.
 
 ```csharp
 using (var archive = new TarArchive(File.OpenRead("archive.tar")))
@@ -69,45 +72,50 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 
 ### Δείτε επίσης
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(string) {#constructor_2}
+## TarArchive(string, TarLoadOptions) {#constructor_2}
 
-Αρχικοποιεί μια νέα παρουσία του[`TarArchive`](../) Η λίστα καταχωρήσεων κλάσης και σύνθεσης μπορεί να εξαχθεί από το αρχείο.
+Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`TarArchive`](../) και δημιουργεί μια λίστα καταχωρήσεων που μπορεί να εξαχθεί από το αρχείο.
 
 ```csharp
-public TarArchive(string path)
+public TarArchive(string path, TarLoadOptions loadOptions = null)
 ```
 
-| Παράμετρος | Τύπος | Περιγραφή |
-| --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο αρχειοθέτησης. |
+| Παράμετρος | Περιγραφή |
+| --- | --- |
+| διαδρομή | Η διαδρομή προς το αρχείο αρχειοθήκης. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| EndOfStreamException | Εκτοξεύεται όταν το τέλος της ροής επιτυγχάνεται πριν διαβαστούν ο αριθμός των αναμενόμενων byte. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Αυτός ο κατασκευαστής δεν αποσυσκευάζει καμία καταχώρηση. Βλέπω[`Open`](../../tarentry/open/)μέθοδος αποσυσκευασίας.
+Αυτός ο κατασκευαστής δεν αποσυμπιέζει καμία καταχώρηση. Δείτε τη μέθοδο [`Open`](../../tarentry/open/) για αποσυμπίεση.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Το ακόλουθο παράδειγμα δείχνει πώς να εξαγάγετε όλες τις εγγραφές σε έναν κατάλογο.
+Το παρακάτω παράδειγμα δείχνει πώς να εξάγετε όλες τις καταχωρήσεις σε έναν φάκελο.
 
 ```csharp
-using (var archive = new TarArchive("archive.tar")) 
+using (var archive = new TarArchive("archive.tar", new TarLoadOptions() { CancellationToken = cancellationToken }))
 { 
    archive.ExtractToDirectory("C:\extracted");
 }
@@ -115,8 +123,9 @@ using (var archive = new TarArchive("archive.tar"))
 
 ### Δείτε επίσης
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Tar](../../tararchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

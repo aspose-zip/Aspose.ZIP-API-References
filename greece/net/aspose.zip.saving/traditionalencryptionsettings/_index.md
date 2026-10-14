@@ -1,14 +1,14 @@
 ---
-title: Class TraditionalEncryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.TraditionalEncryptionSettings τάξη. Ρυθμίσεις για τον παραδοσιακό αλγόριθμο ZipCrypto.
+title: "Κλάση TraditionalEncryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Aspose.Zip.Saving.TraditionalEncryptionSettings class. Ρυθμίσεις για τον παραδοσιακό αλγόριθμο ZipCrypto μέσα σε ένα αρχείο ZIP"
 type: docs
-weight: 640
+weight: 1150
 url: /el/net/aspose.zip.saving/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings class
 
-Ρυθμίσεις για τον παραδοσιακό αλγόριθμο ZipCrypto.
+Ρυθμίσεις για τον παραδοσιακό αλγόριθμο ZipCrypto μέσα σε αρχείο ZIP.
 
 ```csharp
 public class TraditionalEncryptionSettings : EncryptionSettings
@@ -16,27 +16,27 @@ public class TraditionalEncryptionSettings : EncryptionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`TraditionalEncryptionSettings`τάξη χωρίς κωδικό πρόσβασης. |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία του`TraditionalEncryptionSettings` τάξη. |
-| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_2)(string, Encoding) | Αρχικοποιεί μια νέα παρουσία του`TraditionalEncryptionSettings` κλάση με κωδικοποίηση καθορισμένη από το χρήστη. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `TraditionalEncryptionSettings` χωρίς κωδικό πρόσβασης. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_1)(string) | Αρχικοποιεί μια νέα παρουσία της κλάσης `TraditionalEncryptionSettings`. |
+| [TraditionalEncryptionSettings](traditionalencryptionsettings/#constructor_2)(string, Encoding) | Αρχικοποιεί μια νέα παρουσία της κλάσης `TraditionalEncryptionSettings` με κωδικοποίηση καθορισμένη από το χρήστη. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Λαμβάνει τον αλγόριθμο κρυπτογράφησης. |
-| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Λαμβάνει ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
+| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Αποκτά τον αλγόριθμο κρυπτογράφησης. |
+| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Αποκτά ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Δείτε την ενότητα 6.0 στην περιγραφή μορφής ZIP: https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT
+Δείτε την ενότητα 6.0 στο [περιγραφή μορφής ZIP](https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT)
 
 ### Δείτε επίσης
 
 * class [EncryptionSettings](../encryptionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

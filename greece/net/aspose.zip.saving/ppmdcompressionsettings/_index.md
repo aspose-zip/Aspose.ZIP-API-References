@@ -1,14 +1,14 @@
 ---
-title: Class PPMdCompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.PPMdCompressionSettings τάξη. Ρυθμίσεις για τη μέθοδο συμπίεσης PPMd.
+title: "Κλάση PPMdCompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.PPMdCompressionSettings. Ρυθμίσεις για τη συμπίεση PPMd μέσα σε ένα αρχείο ZIP"
 type: docs
-weight: 470
+weight: 970
 url: /el/net/aspose.zip.saving/ppmdcompressionsettings/
 ---
 ## PPMdCompressionSettings class
 
-Ρυθμίσεις για τη μέθοδο συμπίεσης PPMd.
+Ρυθμίσεις για τη συμπίεση PPMd μέσα σε ένα αρχείο ZIP.
 
 ```csharp
 public class PPMdCompressionSettings : CompressionSettings
@@ -16,26 +16,26 @@ public class PPMdCompressionSettings : CompressionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία του`PPMdCompressionSettings` κλάση με προεπιλεγμένη σειρά μοντέλου και μέγεθος υποκατανεμητή. |
-| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor_1)(int, int) | Αρχικοποιεί μια νέα παρουσία του`PPMdCompressionSettings` τάξη. |
+| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor)() | Αρχικοποιεί μια νέα παρουσία της κλάσης `PPMdCompressionSettings` με προεπιλεγμένη σειρά μοντέλου και μέγεθος υπο-κατανεμητή. |
+| [PPMdCompressionSettings](ppmdcompressionsettings/#constructor_1)(int, int) | Αρχικοποιεί μια νέα παρουσία της κλάσης `PPMdCompressionSettings`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [ModelOrder](../../aspose.zip.saving/ppmdcompressionsettings/modelorder/) { get; } | Παίρνει την παραγγελία του μοντέλου. |
-| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/) { get; } | Λαμβάνει το μέγεθος δευτερεύοντος εκχωρητή σε MB. |
+| [ModelOrder](../../aspose.zip.saving/ppmdcompressionsettings/modelorder/) { get; } | Επιστρέφει τη σειρά του μοντέλου. |
+| [SuballocatorSize](../../aspose.zip.saving/ppmdcompressionsettings/suballocatorsize/) { get; } | Λαμβάνει το μέγεθος του υπο-κατανεμητή σε MB. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Ο PPMd είναι ένας αλγόριθμος συμπίεσης δεδομένων που αναπτύχθηκε από τον Dmitry Shkarin. Αυτός ο αλγόριθμος βασίζεται σε προγνωστική αντιστοίχιση φράσεων σε περιβάλλοντα πολλαπλών παραγγελιών.
+Το PPMd είναι ένας αλγόριθμος συμπίεσης δεδομένων που αναπτύχθηκε από τον Dmitry Shkarin. Αυτός ο αλγόριθμος βασίζεται στην προβλεπτική αντιστοίχιση φράσεων σε πολλαπλά συμφραζόμενα σειράς.
 
 ### Δείτε επίσης
 
 * class [CompressionSettings](../compressionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

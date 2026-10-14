@@ -1,14 +1,14 @@
 ---
-title: Class AesEcryptionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.AesEcryptionSettings τάξη. Ρυθμίσεις για αλγόριθμο κρυπτογράφησης ή αποκρυπτογράφησης AES.
+title: "Κλάση AesEcryptionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.AesEcryptionSettings. Ρυθμίσεις για αλγορίθμους κρυπτογράφησης και αποκρυπτογράφησης AES μέσα σε αρχείο ZIP"
 type: docs
-weight: 360
+weight: 850
 url: /el/net/aspose.zip.saving/aesecryptionsettings/
 ---
 ## AesEcryptionSettings class
 
-Ρυθμίσεις για αλγόριθμο κρυπτογράφησης ή αποκρυπτογράφησης AES.
+Ρυθμίσεις για αλγορίθμους κρυπτογράφησης και αποκρυπτογράφησης AES μέσα σε ένα αρχείο ZIP.
 
 ```csharp
 public class AesEcryptionSettings : EncryptionSettings
@@ -16,26 +16,22 @@ public class AesEcryptionSettings : EncryptionSettings
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AesEcryptionSettings](aesecryptionsettings/#constructor)(EncryptionMethod) | Αρχικοποιεί μια νέα παρουσία του`AesEcryptionSettings`τάξη χωρίς κωδικό πρόσβασης. |
-| [AesEcryptionSettings](aesecryptionsettings/#constructor_1)(string, EncryptionMethod) | Αρχικοποιεί μια νέα παρουσία του`AesEcryptionSettings` τάξη. |
+| [AesEcryptionSettings](aesecryptionsettings/#constructor)(EncryptionMethod) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης `AesEcryptionSettings` χωρίς κωδικό πρόσβασης. |
+| [AesEcryptionSettings](aesecryptionsettings/#constructor_1)(string, EncryptionMethod) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης `AesEcryptionSettings`. |
 
 ## Ιδιότητες
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Λαμβάνει τον αλγόριθμο κρυπτογράφησης. |
-| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Λαμβάνει ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
-
-### Παρατηρήσεις
-
-Δείτε περισσότερα στη διεύθυνση https://www.winzip.com/win/en/aes_info.html
+| [Method](../../aspose.zip.saving/encryptionsettings/method/) { get; } | Αποκτά τον αλγόριθμο κρυπτογράφησης. |
+| [Password](../../aspose.zip.saving/encryptionsettings/password/) { get; set; } | Αποκτά ή ορίζει κωδικό πρόσβασης για κρυπτογράφηση ή αποκρυπτογράφηση. |
 
 ### Δείτε επίσης
 
 * class [EncryptionSettings](../encryptionsettings/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

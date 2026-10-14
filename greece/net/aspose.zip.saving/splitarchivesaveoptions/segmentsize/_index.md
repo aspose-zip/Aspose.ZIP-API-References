@@ -1,14 +1,14 @@
 ---
-title: SplitArchiveSaveOptions.SegmentSize
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: SplitArchiveSaveOptions ιδιοκτησία. Παίρνει το μέγεθος του τμήματος.
+title: "SplitArchiveSaveOptions.SegmentSize"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα SplitArchiveSaveOptions. Λαμβάνει το μέγεθος του τμήματος."
 type: docs
-weight: 40
+weight: 70
 url: /el/net/aspose.zip.saving/splitarchivesaveoptions/segmentsize/
 ---
 ## SplitArchiveSaveOptions.SegmentSize property
 
-Παίρνει το μέγεθος του τμήματος.
+Λαμβάνει το μέγεθος του τμήματος.
 
 ```csharp
 public uint SegmentSize { get; }
@@ -17,7 +17,7 @@ public uint SegmentSize { get; }
 ### Δείτε επίσης
 
 * class [SplitArchiveSaveOptions](../)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../splitarchivesaveoptions/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitarchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

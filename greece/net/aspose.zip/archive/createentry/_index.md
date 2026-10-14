@@ -1,14 +1,14 @@
 ---
-title: Archive.CreateEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Archive μέθοδος. Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+title: "Archive.CreateEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος Archive. Δημιουργεί μία μοναδική καταχώρηση μέσα στο αρχείο"
 type: docs
-weight: 50
+weight: 60
 url: /el/net/aspose.zip/archive/createentry/
 ---
-## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_3}
+## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_4}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, string path, bool openImmediately = false, 
@@ -17,33 +17,34 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
-| path | String | Το πλήρως αναγνωρισμένο όνομα του νέου αρχείου ή το σχετικό όνομα αρχείου που πρόκειται να συμπιεστεί. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
-| newEntrySettings | ArchiveEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`ArchiveEntry`](../../archiveentry/) είδος. |
+| name | String | Το όνομα της καταχώρησης. |
+| διαδρομή | String | Το πλήρως προσδιορισμένο όνομα του νέου αρχείου, ή το σχετικό όνομα αρχείου που θα συμπιεστεί. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
+| newEntrySettings | ArchiveEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`ArchiveEntry`](../../archiveentry/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισόδου zip.
+Παράδειγμα καταχώρησης Zip.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*path* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *path* δεν επηρεάζει το όνομα της καταχώρησης.
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately* η παράμετρος αποκλείεται μέχρι να αποθηκευτεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να αποθηκευτεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -61,14 +62,14 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_1}
+## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_2}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, 
@@ -77,15 +78,22 @@ public ArchiveEntry CreateEntry(string name, Stream source,
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
+| name | String | Το όνομα της καταχώρησης. |
 | source | Stream | Η ροή εισόδου για την καταχώρηση. |
-| newEntrySettings | ArchiveEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`ArchiveEntry`](../../archiveentry/) είδος. |
+| newEntrySettings | ArchiveEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`ArchiveEntry`](../../archiveentry/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισόδου zip.
+Παράδειγμα καταχώρησης Zip.
 
-### Παραδείγματα
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
+| InvalidOperationException | Εκτοξεύεται όταν η προσθήκη της καταχώρησης δεν είναι έγκυρη λόγω της τρέχουσας κατάστασης του αρχείου. |
+
+## Παραδείγματα
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryptionSettings("p@s$", EncryptionMethod.AES256))))
@@ -100,14 +108,14 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry_1}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false, 
@@ -116,32 +124,34 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
-| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου που πρόκειται να συμπιεστούν. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
-| newEntrySettings | ArchiveEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`ArchiveEntry`](../../archiveentry/) είδος. |
+| name | String | Το όνομα της καταχώρησης. |
+| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου που θα συμπιεστεί. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
+| newEntrySettings | ArchiveEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`ArchiveEntry`](../../archiveentry/). |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισόδου zip.
+Παράδειγμα καταχώρησης Zip.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| UnauthorizedAccessException | *fileInfo* είναι μόνο για ανάγνωση ή είναι κατάλογος. |
-| DirectoryNotFoundException | Η καθορισμένη διαδρομή δεν είναι έγκυρη, όπως είναι σε μη αντιστοιχισμένη μονάδα δίσκου. |
+| UnauthorizedAccessException | *fileInfo* είναι μόνο για ανάγνωση ή είναι ένας φάκελος. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
 | IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
+| InvalidOperationException | Εκτοξεύεται όταν η προσθήκη της καταχώρησης δεν είναι έγκυρη λόγω της τρέχουσας κατάστασης του αρχείου. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*fileInfo* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *fileInfo* δεν επηρεάζει το όνομα της καταχώρησης.
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately* η παράμετρος αποκλείεται μέχρι να αποθηκευτεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να αποθηκευτεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Σύνθεση αρχείου με καταχωρήσεις κρυπτογραφημένες με διαφορετικές μεθόδους κρυπτογράφησης και κωδικούς πρόσβασης το καθένα.
+Δημιουργήστε αρχείο με καταχωρήσεις κρυπτογραφημένες με διαφορετικές μεθόδους κρυπτογράφησης και κωδικούς πρόσβασης για κάθε μία.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -164,14 +174,14 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_2}
+## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_3}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings newEntrySettings, 
@@ -180,30 +190,31 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
+| name | String | Το όνομα της καταχώρησης. |
 | source | Stream | Η ροή εισόδου για την καταχώρηση. |
-| newEntrySettings | ArchiveEntrySettings | Προστέθηκαν ρυθμίσεις συμπίεσης και κρυπτογράφησης[`ArchiveEntry`](../../archiveentry/) είδος. |
-| fileInfo | FileSystemInfo | Τα μεταδεδομένα του αρχείου ή του φακέλου που πρόκειται να συμπιεστούν. |
+| newEntrySettings | ArchiveEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`ArchiveEntry`](../../archiveentry/). |
+| fileInfo | FileSystemInfo | Τα μεταδεδομένα του αρχείου ή φακέλου που θα συμπιεστεί. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισόδου zip.
+Παράδειγμα καταχώρησης Zip.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidOperationException | Και τα δυο*source* και*fileInfo* είναι μηδενικά ή*source*είναι μηδενικό και*fileInfo* σημαίνει κατάλογος. |
+| InvalidOperationException | Τόσο *source* όσο και *fileInfo* είναι `null` ή *source* είναι `null` και *fileInfo* αντιπροσωπεύει φάκελο. |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*fileInfo* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά μέσα στην παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *fileInfo* δεν επηρεάζει το όνομα της καταχώρησης.
 
-*fileInfo* μπορεί να αναφέρεται σεDirectoryInfo εάν η καταχώρηση είναι κατάλογος.
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### Παραδείγματα
+## Παραδείγματα
 
-Σύνθεση αρχείου με κρυπτογραφημένη καταχώρηση.
+Δημιουργήστε αρχείο με κρυπτογραφημένη καταχώρηση.
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -221,7 +232,64 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* χώρος ονομάτων [Aspose.Zip](../../archive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Func&lt;Stream&gt;, ArchiveEntrySettings) {#createentry}
+
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
+
+```csharp
+public ArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    ArchiveEntrySettings newEntrySettings = null)
+```
+
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| name | String | Το όνομα της καταχώρησης. |
+| streamProvider | Func`1 | Η μέθοδος που παρέχει ροή εισόδου για την καταχώρηση. |
+| newEntrySettings | ArchiveEntrySettings | Ρυθμίσεις συμπίεσης και κρυπτογράφησης που χρησιμοποιούνται για το προστιθέμενο στοιχείο [`ArchiveEntry`](../../archiveentry/). |
+
+### Τιμή Επιστροφής
+
+Παράδειγμα καταχώρησης Zip.
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ObjectDisposedException | Εκτοπίζεται εάν το αρχείο έχει διαγραφεί. |
+| ArgumentException | Εκτοπίζεται όταν το *name* είναι `null` ή κενό, ή το *streamProvider* είναι `null`. |
+| InvalidOperationException | Εκτοπίζεται όταν το αρχείο δεν υποστηρίζει προσθήκη καταχώρησης. |
+
+## Παρατηρήσεις
+
+Αυτή η μέθοδος είναι για .NET Framework 4.0 και νεότερο, καθώς και για .NET Standard 2.0 και νεότερη έκδοση.
+
+## Παραδείγματα
+
+Δημιουργήστε αρχείο με κρυπτογραφημένη καταχώρηση.
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
+{
+    using (var archive = new Archive())
+    {
+        archive.CreateEntry("entry1.bin", provider, new ArchiveEntrySettings(new DeflateCompressionSettings(), new TraditionalEncryptionSettings("pass1")))); 
+        archive.Save(zipFile);
+    }
+}
+```
+
+### Δείτε επίσης
+
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

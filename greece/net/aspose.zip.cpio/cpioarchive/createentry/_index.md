@@ -1,14 +1,14 @@
 ---
-title: CpioArchive.CreateEntry
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: CpioArchive μέθοδος. Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+title: "CpioArchive.CreateEntry"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος CpioArchive. Δημιουργεί μία μοναδική καταχώρηση μέσα στο αρχείο."
 type: docs
 weight: 40
 url: /el/net/aspose.zip.cpio/cpioarchive/createentry/
 ---
 ## CreateEntry(string, FileInfo, bool) {#createentry}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
@@ -16,27 +16,28 @@ public CpioEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediatel
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
-| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου ή του φακέλου που πρόκειται να συμπιεστούν. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
+| name | String | Το όνομα της καταχώρησης. |
+| fileInfo | FileInfo | Τα μεταδεδομένα του αρχείου ή φακέλου που θα συμπιεστεί. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής Cpio.
+Παράδειγμα καταχώρησης Cpio.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *name* είναι μηδενικό. |
-| ArgumentException | *name* είναι άδειο. |
-| ArgumentNullException | *fileInfo* είναι μηδενικό. |
+| ArgumentNullException | *name* είναι null. |
+| ArgumentException | *name* είναι κενό. |
+| ArgumentNullException | *fileInfo* είναι null. |
+| ObjectDisposedException | Εκτοπίζεται όταν το αρχείο έχει διαγραφεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately*η παράμετρος αποκλείεται μέχρι να διατεθεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να απελευθερωθεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 FileInfo fileInfo = new FileInfo("data.bin");
@@ -51,14 +52,14 @@ using (var archive = new CpioArchive())
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, string, bool) {#createentry_2}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediately = false)
@@ -66,32 +67,33 @@ public CpioEntry CreateEntry(string name, string sourcePath, bool openImmediatel
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
+| name | String | Το όνομα της καταχώρησης. |
 | sourcePath | String | Διαδρομή προς το αρχείο που θα συμπιεστεί. |
-| openImmediately | Boolean | Σωστό εάν ανοίξετε το αρχείο αμέσως, διαφορετικά ανοίξτε το αρχείο κατά την αποθήκευση αρχειοθέτησης. |
+| openImmediately | Boolean | True, εάν το αρχείο ανοίξει αμέσως, διαφορετικά το αρχείο ανοίγει κατά την αποθήκευση του αρχείου. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής Cpio.
+Παράδειγμα καταχώρησης Cpio.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *sourcePath* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*sourcePath* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. - ή - Όνομα αρχείου, ως μέρος του*name*, υπερβαίνει τα 100 σύμβολα. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*sourcePath* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*sourcePath* , όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. - ή -*name* είναι πολύ μεγάλο για cpio. |
-| NotSupportedException | Αρχείο στο*sourcePath* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ArgumentNullException | *sourcePath* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Το *sourcePath* είναι κενό, περιέχει μόνο κενά διαστήματα ή περιέχει άκυρους χαρακτήρες. - ή - Το όνομα αρχείου, ως μέρος του *name*, υπερβαίνει τα 100 σύμβολα. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *sourcePath* απορρίπτεται. |
+| PathTooLongException | Το καθορισμένο *sourcePath*, όνομα αρχείου, ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες, και τα ονόματα αρχείων πρέπει να είναι μικρότερα από 260 χαρακτήρες. - ή - *name* είναι πολύ μεγάλο για cpio. |
+| NotSupportedException | Το αρχείο στο *sourcePath* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παρατηρήσεις
+## Παρατηρήσεις
 
-Το όνομα καταχώρισης ορίζεται αποκλειστικά μέσα*name* παράμετρος. Το όνομα αρχείου που παρέχεται*sourcePath* η παράμετρος δεν επηρεάζει το όνομα της καταχώρισης.
+Το όνομα της καταχώρησης ορίζεται αποκλειστικά από την παράμετρο *name*. Το όνομα αρχείου που παρέχεται στην παράμετρο *sourcePath* δεν επηρεάζει το όνομα της καταχώρησης.
 
-Εάν το αρχείο ανοίξει αμέσως με*openImmediately*η παράμετρος αποκλείεται μέχρι να διατεθεί το αρχείο.
+Εάν το αρχείο ανοίξει αμέσως με την παράμετρο *openImmediately*, θα παραμείνει κλειδωμένο μέχρι να απελευθερωθεί το αρχείο.
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -105,14 +107,14 @@ using (var archive = new CpioArchive())
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## CreateEntry(string, Stream) {#createentry_1}
 
-Δημιουργία μίας καταχώρησης μέσα στο αρχείο.
+Δημιουργεί μια μοναδική καταχώρηση μέσα στην αρχειοθήκη.
 
 ```csharp
 public CpioEntry CreateEntry(string name, Stream source)
@@ -120,22 +122,23 @@ public CpioEntry CreateEntry(string name, Stream source)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| name | String | Το όνομα της καταχώρισης. |
+| name | String | Το όνομα της καταχώρησης. |
 | source | Stream | Η ροή εισόδου για την καταχώρηση. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Περίπτωση εισαγωγής Cpio.
+Παράδειγμα καταχώρησης Cpio.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *name* είναι μηδενικό. |
-| ArgumentNullException | *source* είναι μηδενικό. |
-| ArgumentException | *name* είναι άδειο. |
+| ArgumentNullException | *name* είναι null. |
+| ArgumentNullException | *source* είναι null. |
+| ArgumentException | *name* είναι κενό. |
+| ObjectDisposedException | Το αρχείο έχει διαγραφεί και δεν μπορεί να χρησιμοποιηθεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
 ```csharp
 using (var archive = new CpioArchive())
@@ -149,7 +152,7 @@ using (var archive = new CpioArchive())
 
 * class [CpioEntry](../../cpioentry/)
 * class [CpioArchive](../)
-* χώρος ονομάτων [Aspose.Zip.Cpio](../../cpioarchive/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

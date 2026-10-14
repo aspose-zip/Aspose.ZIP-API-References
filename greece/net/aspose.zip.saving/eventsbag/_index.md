@@ -1,14 +1,14 @@
 ---
-title: Class EventsBag
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: Aspose.Zip.Saving.EventsBag τάξη. κοντέινερ συμβάντων που χρησιμοποιείται σεArchive εξοικονόμηση.
+title: "Κλάση EventsBag"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Κλάση Aspose.Zip.Saving.EventsBag. Κοντέινερ γεγονότων που χρησιμοποιείται κατά την αποθήκευση του Αρχείου."
 type: docs
-weight: 450
+weight: 940
 url: /el/net/aspose.zip.saving/eventsbag/
 ---
 ## EventsBag class
 
-κοντέινερ συμβάντων που χρησιμοποιείται σε[`Archive`](../../aspose.zip/archive/) εξοικονόμηση.
+Κοντέινερ γεγονότων που χρησιμοποιείται κατά την αποθήκευση του [`Archive`](../../aspose.zip/archive/).
 
 ```csharp
 public sealed class EventsBag
@@ -16,20 +16,21 @@ public sealed class EventsBag
 
 ## Κατασκευαστές
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [EventsBag](eventsbag/)() | Ο προεπιλεγμένος κατασκευαστής. |
 
-## Εκδηλώσεις
+## Συμβάντα
 
-| Ονομα | Περιγραφή |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | Αυξάνεται μετά τη συμπίεση μιας καταχώρησης αρχείου. |
+| event [EntryAccessed](../../aspose.zip.saving/eventsbag/entryaccessed/) | Ενεργοποιείται πριν μια καταχώρηση αρχείου συμπιεστεί. |
+| event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | Ενεργοποιείται μετά τη συμπίεση μιας καταχώρησης αρχείου. |
 
 ### Δείτε επίσης
 
 * class [ArchiveSaveOptions](../archivesaveoptions/)
-* χώρος ονομάτων [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* συνέλευση [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

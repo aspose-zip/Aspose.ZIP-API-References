@@ -1,17 +1,17 @@
 ---
-title: Aspose.Zip.Snappy
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ΤοSnappy Ο χώρος ονομάτων περιέχει κλάσεις για χειρισμό συμπιεσμένων δεδομένων Snappy.
+title: "Aspose.Zip.Snappy"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ο χώρος ονομάτων Snappy περιέχει κλάσεις για τη διαχείριση συμπιεσμένων δεδομένων Snappy."
 type: docs
-weight: 140
+weight: 230
 url: /el/net/aspose.zip.snappy/
 ---
-ΤοSnappy Ο χώρος ονομάτων περιέχει κλάσεις για χειρισμό συμπιεσμένων δεδομένων Snappy.
+Το χώρο ονομάτων Snappy περιέχει κλάσεις για τη διαχείριση συμπιεσμένων δεδομένων Snappy.
 
-## Τάξεις
+## Κλάσεις
 
-| Τάξη | Περιγραφή |
+| Κλάση | Περιγραφή |
 | --- | --- |
-| [SnappyArchive](./snappyarchive/) | Αυτή η κλάση αντιπροσωπεύει το snappy αρχείο αρχειοθέτησης. Χρησιμοποιήστε το για να συνθέσετε ή να εξαγάγετε snappy αρχεία. |
+| [SnappyArchive](./snappyarchive/) | Αυτή η κλάση αντιπροσωπεύει ένα αρχείο συμπιεσμένου snappy. Χρησιμοποιήστε την για τη δημιουργία ή την εξαγωγή αρχείων snappy. |
 
 

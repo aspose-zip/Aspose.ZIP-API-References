@@ -1,14 +1,14 @@
 ---
-title: RarArchiveEntry.Extract
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: RarArchiveEntry μέθοδος. Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+title: "RarArchiveEntry.Extract"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Μέθοδος RarArchiveEntry. Εξάγει την καταχώρηση στο σύστημα αρχείων με τη διαδρομή που παρέχεται"
 type: docs
 weight: 90
 url: /el/net/aspose.zip.rar/rararchiveentry/extract/
 ---
 ## Extract(string, string) {#extract}
 
-Εξάγει την καταχώρηση στο σύστημα αρχείων από τη διαδρομή που παρέχεται.
+Εξάγει την καταχώρηση στο σύστημα αρχείων με τη δοθείσα διαδρομή.
 
 ```csharp
 public FileInfo Extract(string path, string password = null)
@@ -16,28 +16,33 @@ public FileInfo Extract(string path, string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| path | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. |
+| διαδρομή | String | Η διαδρομή προς το αρχείο προορισμού. Εάν το αρχείο υπάρχει ήδη, θα αντικατασταθεί. |
+| password | String | Προαιρετικό password για αποκρυπτογράφηση. |
 
-### Επιστρεφόμενη Αξία
+### Τιμή Επιστροφής
 
-Οι πληροφορίες αρχείου του σύνθετου αρχείου.
+Οι πληροφορίες του συντιθέμενου αρχείου.
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| ArgumentNullException | *path* είναι μηδενικό. |
-| SecurityException | Ο καλών δεν έχει την απαιτούμενη άδεια πρόσβασης. |
-| ArgumentException | ο*path* είναι κενό, περιέχει μόνο λευκά κενά ή περιέχει μη έγκυρους χαρακτήρες. |
-| UnauthorizedAccessException | Πρόσβαση στο αρχείο*path* απορρίπτεται. |
-| PathTooLongException | Το καθορισμένο*path*, όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που καθορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες που βασίζονται σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων πρέπει να είναι λιγότερο από 260 χαρακτήρες. |
-| NotSupportedException | Αρχείο στο*path* περιέχει άνω και κάτω τελεία (:) στη μέση της συμβολοσειράς. |
-| InvalidDataException | Η επαλήθευση CRC ή MAC απέτυχε για την καταχώριση. |
+| ArgumentNullException | *path* είναι null. |
+| SecurityException | Το πρόγραμμα που καλεί δεν διαθέτει την απαιτούμενη άδεια πρόσβασης. |
+| ArgumentException | Η *path* είναι κενή, περιέχει μόνο κενά διαστήματα ή περιέχει μη έγκυρους χαρακτήρες. |
+| UnauthorizedAccessException | Η πρόσβαση στο αρχείο *path* απορρίπτεται. |
+| PathTooLongException | Η καθορισμένη *path*, το όνομα αρχείου ή και τα δύο υπερβαίνουν το μέγιστο μήκος που ορίζεται από το σύστημα. Για παράδειγμα, σε πλατφόρμες βασισμένες σε Windows, οι διαδρομές πρέπει να είναι μικρότερες από 248 χαρακτήρες και τα ονόματα αρχείων μικρότερα από 260 χαρακτήρες. |
+| NotSupportedException | Το αρχείο στο *path* περιέχει άνω τελεία (:) στη μέση της συμβολοσειράς. |
+| FileNotFoundException | Το αρχείο δεν βρέθηκε. |
+| DirectoryNotFoundException | Η καθορισμένη διαδρομή είναι μη έγκυρη, όπως όταν βρίσκεται σε μη αντιστοιχισμένο δίσκο. |
+| IOException | Το αρχείο είναι ήδη ανοιχτό. |
+| InvalidDataException | Τα δεδομένα είναι κατεστραμμένα. -ή- Η επαλήθευση CRC ή MAC απέτυχε για την καταχώρηση. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εξαγωγή δύο εγγραφών του αρχείου rar.
+Εξάγετε δύο καταχωρήσεις από το αρχείο rar.
 
 ```csharp
 using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
@@ -53,14 +58,14 @@ using (FileStream rarFile = File.Open("archive.rar", FileMode.Open))
 ### Δείτε επίσης
 
 * class [RarArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Extract(Stream, string) {#extract_1}
 
-Εξάγει την καταχώρηση στη ροή που παρέχεται.
+Εξάγει την καταχώρηση στη δοθείσα ροή.
 
 ```csharp
 public void Extract(Stream destination, string password = null)
@@ -68,19 +73,22 @@ public void Extract(Stream destination, string password = null)
 
 | Παράμετρος | Τύπος | Περιγραφή |
 | --- | --- | --- |
-| destination | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμο. |
-| password | String | Προαιρετικός κωδικός πρόσβασης για αποκρυπτογράφηση. |
+| προορισμός | Stream | Ροή προορισμού. Πρέπει να είναι εγγράψιμη. |
+| password | String | Προαιρετικό password για αποκρυπτογράφηση. |
 
 ### Εξαιρέσεις
 
-| εξαίρεση | κατάσταση |
+| εξαίρεση | συνθήκη |
 | --- | --- |
-| InvalidDataException | Η επαλήθευση CRC ή MAC απέτυχε για την καταχώριση. |
-| ArgumentException | *destination* δεν υποστηρίζει τη γραφή. |
+| InvalidDataException | Η επαλήθευση CRC ή MAC απέτυχε για την καταχώρηση. |
+| ArgumentException | *destination* δεν υποστηρίζει εγγραφή. |
+| InvalidDataException | Τα δεδομένα είναι κατεστραμμένα. -ή- Η επαλήθευση CRC ή MAC απέτυχε για την καταχώρηση. |
+| OperationCanceledException | Στο .NET Framework 4.0 και άνω: Εκτοπίζεται όταν η εξαγωγή ακυρώνεται μέσω του παρεχόμενου διακριτικού ακύρωσης. |
+| ObjectDisposedException | Εκτοπίζεται εάν η ροή πηγής έχει διαγραφεί. |
 
-### Παραδείγματα
+## Παραδείγματα
 
-Εξαγωγή μιας καταχώρησης αρχείου rar με κωδικό πρόσβασης.
+Εξάγετε μια καταχώρηση από το αρχείο rar με κωδικό πρόσβασης.
 
 ```csharp
 using (FileStream rarFile = File.Open("archive.zip", FileMode.Open))
@@ -95,7 +103,7 @@ using (FileStream rarFile = File.Open("archive.zip", FileMode.Open))
 ### Δείτε επίσης
 
 * class [RarArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip.Rar](../../rararchiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Rar](../../rararchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

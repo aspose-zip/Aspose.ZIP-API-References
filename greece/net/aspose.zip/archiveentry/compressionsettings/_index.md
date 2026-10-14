@@ -1,14 +1,14 @@
 ---
-title: ArchiveEntry.CompressionSettings
-second_title: Aspose.ZIP για Αναφορά API .NET
-description: ArchiveEntry ιδιοκτησία. Λαμβάνει ρυθμίσεις για συμπίεση ή αποσυμπίεση.
+title: "ArchiveEntry.CompressionSettings"
+second_title: "Aspose.ZIP για .NET API Αναφορά"
+description: "Ιδιότητα ArchiveEntry. Επιστρέφει τις ρυθμίσεις για συμπίεση ή αποσυμπίεση"
 type: docs
 weight: 30
 url: /el/net/aspose.zip/archiveentry/compressionsettings/
 ---
 ## ArchiveEntry.CompressionSettings property
 
-Λαμβάνει ρυθμίσεις για συμπίεση ή αποσυμπίεση.
+Επιστρέφει τις ρυθμίσεις για συμπίεση ή αποσυμπίεση.
 
 ```csharp
 public CompressionSettings CompressionSettings { get; }
@@ -18,7 +18,7 @@ public CompressionSettings CompressionSettings { get; }
 
 * class [CompressionSettings](../../../aspose.zip.saving/compressionsettings/)
 * class [ArchiveEntry](../)
-* χώρος ονομάτων [Aspose.Zip](../../archiveentry/)
-* συνέλευση [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 
