@@ -1,0 +1,104 @@
+---
+title: "MeteredLicense"
+second_title: "Referencia de API de Aspose.ZIP para Java"
+description: "Proporciona métodos para establecer la clave medida."
+type: docs
+weight: 92
+url: /es/java/com.aspose.zip/meteredlicense/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class MeteredLicense
+```
+
+Proporciona métodos para establecer la clave medida.
+
+
+En este ejemplo, se intentará establecer la clave pública y privada medida.
+
+```
+
+``````
+
+MeteredLicense metered = new MeteredLicense();
+metered.setMeteredKey("PublicKey", "PrivateKey");
+ 
+```
+
+Important: with metered license you cannot compose self-extracting zip archives.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [MeteredLicense()](#MeteredLicense--) |  |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getConsumptionCredit()](#getConsumptionCredit--) | Gets consumption credit. |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size. |
+| [isLicensed()](#isLicensed--) | Checks whether the product is successfully licensed using Metered license. |
+| [resetMeteredKey()](#resetMeteredKey--) | Removes previously setup license. |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Sets metered public and private keys. |
+### MeteredLicense() {#MeteredLicense--}
+```
+public MeteredLicense()
+```
+
+
+### getConsumptionCredit() {#getConsumptionCredit--}
+```
+public static BigDecimal getConsumptionCredit()
+```
+
+
+Gets consumption credit.
+
+**Returns:**
+java.math.BigDecimal - Returns the number of consumed credit points.
+### getConsumptionQuantity() {#getConsumptionQuantity--}
+```
+public static BigDecimal getConsumptionQuantity()
+```
+
+
+Gets consumption file size.
+
+**Returns:**
+java.math.BigDecimal - Returns the number of consumed bytes.
+### isLicensed() {#isLicensed--}
+```
+public final boolean isLicensed()
+```
+
+
+Checks whether the product is successfully licensed using Metered license.
+
+**Returns:**
+boolean - true or false
+### resetMeteredKey() {#resetMeteredKey--}
+```
+public final void resetMeteredKey()
+```
+
+
+Removes previously setup license.
+
+### setMeteredKey(String publicKey, String privateKey) {#setMeteredKey-java.lang.String-java.lang.String-}
+```
+public final void setMeteredKey(String publicKey, String privateKey)
+```
+
+
+Sets metered public and private keys.
+
+If you purchase metered license, this API should be called on application startup, normally, this is enough. However, if metered fails to upload consumption data during 24 hours period, the license will be set to evaluation status. To avoid such case, you should regularly check the license status If it is evaluation status, call this API again.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| publicKey | java.lang.String | The public key. |
+| privateKey | java.lang.String | The private key. |
+
