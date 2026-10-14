@@ -1,14 +1,14 @@
 ---
-title: XzLZMA2FilterSettings.DictionarySize
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XzLZMA2FilterSettings 財産. 辞書のサイズは LZMA2 フィルターで使用されます
+title: "XzLZMA2FilterSettings.DictionarySize"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XzLZMA2FilterSettings プロパティ。LZMA2 フィルターで使用される辞書サイズです。"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.xz.settings/xzlzma2filtersettings/dictionarysize/
 ---
 ## XzLZMA2FilterSettings.DictionarySize property
 
-辞書のサイズは LZMA2 フィルターで使用されます。
+LZMA2 フィルタで使用される辞書サイズです。
 
 ```csharp
 public uint DictionarySize { get; }
@@ -17,7 +17,7 @@ public uint DictionarySize { get; }
 ### 関連項目
 
 * class [XzLZMA2FilterSettings](../)
-* 名前空間 [Aspose.Zip.Xz.Settings](../../xzlzma2filtersettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz.Settings](../../xzlzma2filtersettings/)
+* assembly [Aspose.Zip](../../../)
 
 

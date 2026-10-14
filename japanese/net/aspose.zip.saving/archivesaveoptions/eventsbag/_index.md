@@ -1,14 +1,14 @@
 ---
-title: ArchiveSaveOptions.EventsBag
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveSaveOptions 財産. アーカイブの保存時に発生するイベントのコンテナーを取得または設定します
+title: "ArchiveSaveOptions.EventsBag"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveSaveOptions プロパティ。アーカイブ保存時に発生するイベントのコンテナを取得または設定します。"
 type: docs
-weight: 40
+weight: 70
 url: /ja/net/aspose.zip.saving/archivesaveoptions/eventsbag/
 ---
 ## ArchiveSaveOptions.EventsBag property
 
-アーカイブの保存時に発生するイベントのコンテナーを取得または設定します。
+アーカイブ保存時に発生するイベントのコンテナを取得または設定します。
 
 ```csharp
 public EventsBag EventsBag { get; set; }
@@ -18,7 +18,7 @@ public EventsBag EventsBag { get; set; }
 
 * class [EventsBag](../../eventsbag/)
 * class [ArchiveSaveOptions](../)
-* 名前空間 [Aspose.Zip.Saving](../../archivesaveoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

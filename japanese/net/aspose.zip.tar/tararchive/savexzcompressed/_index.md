@@ -1,9 +1,9 @@
 ---
-title: TarArchive.SaveXzCompressed
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarArchive 方法. xz 圧縮でアーカイブをストリームに保存します
+title: "TarArchive.SaveXzCompressed"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarArchive メソッド。xz 圧縮でアーカイブをストリームに保存します"
 type: docs
-weight: 150
+weight: 200
 url: /ja/net/aspose.zip.tar/tararchive/savexzcompressed/
 ---
 ## SaveXzCompressed(Stream, TarFormat?, XzArchiveSettings) {#savexzcompressed}
@@ -15,24 +15,26 @@ public void SaveXzCompressed(Stream output, TarFormat? format = default,
     XzArchiveSettings settings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| output | Stream | 宛先ストリーム。 |
-| format | Nullable`1 | tar ヘッダー形式を定義します。可能な場合、NULL 値は UStar として扱われます。 |
-| settings | XzArchiveSettings | 特定の xz アーカイブの設定のセット: 辞書サイズ、ブロック サイズ、チェック タイプ。 |
+| output | Stream | 出力ストリーム。 |
+| フォーマット | Nullable`1 | tar ヘッダー形式を定義します。null 値は可能な場合、USTar として扱われます。 |
+| 設定 | XzArchiveSettings | 特定の xz アーカイブの設定セット：辞書サイズ、ブロックサイズ、チェックタイプ。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *output*無効である。 |
-| ArgumentException | *output*書き込み不可です。 |
+| ArgumentNullException | *output* は null です。 |
+| ArgumentException | *output* は書き込み可能ではありません。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません |
+| IOException | I/O エラーが発生しました。 |
 
-### 備考
+## 備考
 
-*output*ストリームは書き込み可能である必要があります。
+*output*The stream must be writable.
 
-### 例
+## 例
 
 ```csharp
 using (FileStream result = File.OpenWrite("result.tar.xz"))
@@ -53,27 +55,40 @@ using (FileStream result = File.OpenWrite("result.tar.xz"))
 * enum [TarFormat](../../tarformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SaveXzCompressed(string, TarFormat?, XzArchiveSettings) {#savexzcompressed_1}
 
-xz 圧縮でパスごとにアーカイブをパスに保存します。
+xz 圧縮でパスで指定されたパスにアーカイブを保存します。
 
 ```csharp
 public void SaveXzCompressed(string path, TarFormat? format = default, 
     XzArchiveSettings settings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | 作成するアーカイブのパス。指定したファイル名が既存のファイルを指している場合、上書きされます。 |
-| format | Nullable`1 | tar ヘッダー形式を定義します。可能な場合、NULL 値は UStar として扱われます。 |
-| settings | XzArchiveSettings | 特定の xz アーカイブの設定のセット: 辞書サイズ、ブロック サイズ、チェック タイプ。 |
+| path | String | 作成するアーカイブのパス。指定されたファイル名が既存のファイルを指す場合、上書きされます。 |
+| フォーマット | Nullable`1 | tar ヘッダー形式を定義します。null 値は可能な場合、USTar として扱われます。 |
+| 設定 | XzArchiveSettings | 特定の xz アーカイブの設定セット：辞書サイズ、ブロックサイズ、チェックタイプ。 |
 
-### 例
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| UnauthorizedAccessException | 呼び出し元に必要な権限がありません。-または- *path* が読み取り専用のファイルまたはディレクトリを指定しました。 |
+| ArgumentException | *path* は長さゼロの文字列であるか、空白文字のみを含むか、InvalidPathChars で定義された 1 つ以上の無効な文字を含んでいます。 |
+| ArgumentNullException | *path* が null です。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| DirectoryNotFoundException | 指定された *path* は無効です（例: マッピングされていないドライブ上にある場合）。 |
+| NotSupportedException | *path* の形式が無効です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません |
+| IOException | I/O エラーが発生しました。 |
+
+## 例
 
 ```csharp
 using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read))
@@ -91,7 +106,7 @@ using (FileStream source = File.Open("data.bin", FileMode.Open, FileAccess.Read)
 * enum [TarFormat](../../tarformat/)
 * class [XzArchiveSettings](../../../aspose.zip.xz.settings/xzarchivesettings/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

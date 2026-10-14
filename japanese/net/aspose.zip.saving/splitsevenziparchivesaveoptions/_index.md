@@ -1,14 +1,14 @@
 ---
-title: Class SplitSevenZipArchiveSaveOptions
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.SplitSevenZipArchiveSaveOptions クラス. マルチボリュームの 7zip アーカイブを保存するためのオプション
+title: "クラス SplitSevenZipArchiveSaveOptions"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.SplitSevenZipArchiveSaveOptions クラス。マルチボリューム 7zip アーカイブの保存オプション"
 type: docs
-weight: 620
+weight: 1130
 url: /ja/net/aspose.zip.saving/splitsevenziparchivesaveoptions/
 ---
 ## SplitSevenZipArchiveSaveOptions class
 
-マルチボリュームの 7-zip アーカイブを保存するためのオプション。
+マルチボリューム 7-zip アーカイブを保存するためのオプション。
 
 ```csharp
 public class SplitSevenZipArchiveSaveOptions
@@ -18,7 +18,7 @@ public class SplitSevenZipArchiveSaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [SplitSevenZipArchiveSaveOptions](splitsevenziparchivesaveoptions/)(string, uint) | マルチボリューム 7z アーカイブを保存するための設定をインスタンス化します。 |
+| [SplitSevenZipArchiveSaveOptions](splitsevenziparchivesaveoptions/)(string, uint) | マルチボリューム 7z アーカイブの保存設定をインスタンス化します。 |
 
 ## プロパティ
 
@@ -29,7 +29,7 @@ public class SplitSevenZipArchiveSaveOptions
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

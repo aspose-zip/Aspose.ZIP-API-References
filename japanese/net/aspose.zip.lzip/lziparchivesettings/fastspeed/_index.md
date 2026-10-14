@@ -1,14 +1,14 @@
 ---
-title: LzipArchiveSettings.FastSpeed
-second_title: Aspose.ZIP for .NET API リファレンス
-description: LzipArchiveSettings 財産. のインスタンスを取得しますLzipArchiveSettings LZMA フィルターで辞書サイズが 1 メガバイトに等しい class .
+title: "LzipArchiveSettings.FastSpeed"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "LzipArchiveSettings プロパティ。LZMA フィルタで辞書サイズが 1 メガバイトの LzipArchiveSettings クラスのインスタンスを取得します。"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.lzip/lziparchivesettings/fastspeed/
 ---
 ## LzipArchiveSettings.FastSpeed property
 
-のインスタンスを取得します[`LzipArchiveSettings`](../) LZMA フィルターで辞書サイズが 1 メガバイトに等しい class .
+[`LzipArchiveSettings`](../) クラスのインスタンスを取得します（辞書サイズは LZMA フィルタで 1 メガバイトです）。
 
 ```csharp
 public static LzipArchiveSettings FastSpeed { get; }
@@ -17,7 +17,7 @@ public static LzipArchiveSettings FastSpeed { get; }
 ### 関連項目
 
 * class [LzipArchiveSettings](../)
-* 名前空間 [Aspose.Zip.Lzip](../../lziparchivesettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

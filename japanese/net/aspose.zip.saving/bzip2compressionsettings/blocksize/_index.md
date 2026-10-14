@@ -1,14 +1,14 @@
 ---
-title: Bzip2CompressionSettings.BlockSize
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Bzip2CompressionSettings 財産. 数百キロバイト単位のブロック サイズ
+title: "Bzip2CompressionSettings.BlockSize"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Bzip2CompressionSettings プロパティ。ブロックサイズ（百キロバイト単位）"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.saving/bzip2compressionsettings/blocksize/
 ---
 ## Bzip2CompressionSettings.BlockSize property
 
-数百キロバイト単位のブロック サイズ。
+ブロックサイズ（百キロバイト単位）。
 
 ```csharp
 public int BlockSize { get; }
@@ -17,7 +17,7 @@ public int BlockSize { get; }
 ### 関連項目
 
 * class [Bzip2CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

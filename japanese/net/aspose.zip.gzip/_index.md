@@ -1,17 +1,18 @@
 ---
-title: Aspose.Zip.Gzip
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Gzip名前空間にはgzip アーカイブを表すクラスが含まれています
+title: "Aspose.Zip.Gzip"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Gzip 名前空間には、gzip アーカイブを表すクラスが含まれています"
 type: docs
-weight: 70
+weight: 120
 url: /ja/net/aspose.zip.gzip/
 ---
-Gzip名前空間には、gzip アーカイブを表すクラスが含まれています。
+Gzip 名前空間には、gzip アーカイブを表すクラスが含まれています。
 
 ## クラス
 
 | クラス | 説明 |
 | --- | --- |
-| [GzipArchive](./gziparchive/) | このクラスは gzip アーカイブ ファイルを表します。これを使用して、gzip アーカイブを作成または抽出します。 |
+| [GzipArchive](./gziparchive/) | このクラスは gzip アーカイブファイルを表します。gzip アーカイブの作成または抽出に使用します。 |
+| [GzipLoadOptions](./gziploadoptions/) | [`GzipArchive`](../aspose.zip.gzip/gziparchive/) を読み込むためのオプションです。 |
 
 

@@ -1,14 +1,14 @@
 ---
-title: ArchiveEntry.Name
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveEntry 財産. アーカイブ内のエントリの名前を取得します
+title: "ArchiveEntry.Name"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveEntry プロパティ。アーカイブ内のエントリの名前を取得します"
 type: docs
-weight: 60
+weight: 70
 url: /ja/net/aspose.zip/archiveentry/name/
 ---
 ## ArchiveEntry.Name property
 
-アーカイブ内のエントリの名前を取得します。
+アーカイブ内エントリの名前を取得します。
 
 ```csharp
 public string Name { get; }
@@ -17,7 +17,7 @@ public string Name { get; }
 ### 関連項目
 
 * class [ArchiveEntry](../)
-* 名前空間 [Aspose.Zip](../../archiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

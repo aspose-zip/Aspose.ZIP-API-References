@@ -1,14 +1,14 @@
 ---
-title: Class EventsBag
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.EventsBag クラス. で使用されるイベント コンテナArchive保存中.
+title: "クラス EventsBag"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.EventsBag クラス。アーカイブ保存時に使用されるイベントコンテナ"
 type: docs
-weight: 450
+weight: 940
 url: /ja/net/aspose.zip.saving/eventsbag/
 ---
 ## EventsBag class
 
-で使用されるイベント コンテナ[`Archive`](../../aspose.zip/archive/)保存中.
+[`Archive`](../../aspose.zip/archive/) の保存時に使用されるイベントコンテナです。
 
 ```csharp
 public sealed class EventsBag
@@ -18,18 +18,19 @@ public sealed class EventsBag
 
 | 名前 | 説明 |
 | --- | --- |
-| [EventsBag](eventsbag/)() | デフォルトのコンストラクター。 |
+| [EventsBag](eventsbag/)() | デフォルト コンストラクタです。 |
 
 ## イベント
 
 | 名前 | 説明 |
 | --- | --- |
+| event [EntryAccessed](../../aspose.zip.saving/eventsbag/entryaccessed/) | アーカイブ エントリが圧縮される前に発生します。 |
 | event [EntryCompressed](../../aspose.zip.saving/eventsbag/entrycompressed/) | アーカイブ エントリが圧縮された後に発生します。 |
 
 ### 関連項目
 
 * class [ArchiveSaveOptions](../archivesaveoptions/)
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

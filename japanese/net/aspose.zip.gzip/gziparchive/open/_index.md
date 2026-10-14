@@ -1,14 +1,14 @@
 ---
-title: GzipArchive.Open
-second_title: Aspose.ZIP for .NET API リファレンス
-description: GzipArchive 方法. 抽出のためにアーカイブを開きアーカイブ コンテンツを含むストリームを提供します
+title: "GzipArchive.Open"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "GzipArchive メソッド。アーカイブを抽出用に開き、アーカイブ内容を含むストリームを提供します"
 type: docs
-weight: 50
+weight: 70
 url: /ja/net/aspose.zip.gzip/gziparchive/open/
 ---
 ## GzipArchive.Open method
 
-抽出のためにアーカイブを開き、アーカイブ コンテンツを含むストリームを提供します。
+抽出用にアーカイブを開き、アーカイブ内容のストリームを提供します。
 
 ```csharp
 public Stream Open()
@@ -16,40 +16,48 @@ public Stream Open()
 
 ### 戻り値
 
-アーカイブの内容を表すストリーム。
+アーカイブの内容を表すストリームです。
 
-### 備考
+### 例外
 
-ストリームから読み取り、ファイルの元のコンテンツを取得します。例のセクションを参照してください。
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
+## 備考
 
-アーカイブを抽出し、抽出されたコンテンツをファイル ストリームにコピーします。
+ストリームから読み取り、ファイルの元の内容を取得します。例のセクションをご覧ください。
 
-.NET 4.0 以降では Stream.CopyTo メソッドを使用できます:
+## 例
 
-```csharp
-unpacked.CopyTo(extracted);
-```
+アーカイブを抽出し、抽出された内容をファイルストリームにコピーします。
 
 ```csharp
 using (var archive = new GzipArchive("archive.gz"))
 {
     using (var extracted = File.Create("data.bin"))
     {
-        var unpacked = archive.Open();
-        byte[] b = new byte[8192];
-        int bytesRead;
-        while (0 < (bytesRead = unpacked.Read(b, 0, b.Length)))
-            extracted.Write(b, 0, bytesRead);
+        using(var unpacked = archive.Open())
+        {
+            byte[] b = new byte[8192];
+            int bytesRead;
+            while (0 < (bytesRead = unpacked.Read(b, 0, b.Length)))
+                extracted.Write(b, 0, bytesRead);
+        }
     }            
 }
+```
+
+.NET 4.0 以降では Stream.CopyTo メソッドを使用できます：
+
+```csharp
+unpacked.CopyTo(extracted);
 ```
 
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

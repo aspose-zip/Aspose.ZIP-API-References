@@ -1,14 +1,14 @@
 ---
-title: Class ProgressEventArgs
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.ProgressEventArgs クラス. 進行したバイト数を含むイベントデータのクラス.
+title: "クラス ProgressEventArgs"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.ProgressEventArgs クラス。処理されたバイト数を含むイベントデータ用のクラス"
 type: docs
-weight: 300
+weight: 780
 url: /ja/net/aspose.zip/progresseventargs/
 ---
 ## ProgressEventArgs class
 
-進行したバイト数を含むイベントデータのクラス.
+処理されたバイト数を含むイベントデータ用クラスです。
 
 ```csharp
 public class ProgressEventArgs : EventArgs
@@ -18,17 +18,17 @@ public class ProgressEventArgs : EventArgs
 
 | 名前 | 説明 |
 | --- | --- |
-| [ProgressEventArgs](progresseventargs/)(ulong) | の新しいインスタンスを初期化します`ProgressEventArgs`class. |
+| [ProgressEventArgs](progresseventargs/)(ulong) | `ProgressEventArgs` クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [ProceededBytes](../../aspose.zip/progresseventargs/proceededbytes/) { get; } | 進行したバイト数を取得します。 |
+| [ProceededBytes](../../aspose.zip/progresseventargs/proceededbytes/) { get; } | 処理されたバイト数を取得します。 |
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip](../../aspose.zip/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

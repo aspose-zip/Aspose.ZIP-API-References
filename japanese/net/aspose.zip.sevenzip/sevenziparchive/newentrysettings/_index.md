@@ -1,14 +1,14 @@
 ---
-title: SevenZipArchive.NewEntrySettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SevenZipArchive 財産. 新たに追加された圧縮と暗号化の設定SevenZipArchiveEntryitems.
+title: "SevenZipArchive.NewEntrySettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SevenZipArchive プロパティ。新しく追加された SevenZipArchiveEntry アイテムに使用される圧縮および暗号化設定"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.sevenzip/sevenziparchive/newentrysettings/
 ---
 ## SevenZipArchive.NewEntrySettings property
 
-新たに追加された圧縮と暗号化の設定[`SevenZipArchiveEntry`](../../sevenziparchiveentry/)items.
+新しく追加された [`SevenZipArchiveEntry`](../../sevenziparchiveentry/) アイテムに使用される圧縮および暗号化設定。
 
 ```csharp
 public SevenZipEntrySettings NewEntrySettings { get; }
@@ -18,7 +18,7 @@ public SevenZipEntrySettings NewEntrySettings { get; }
 
 * class [SevenZipEntrySettings](../../../aspose.zip.saving/sevenzipentrysettings/)
 * class [SevenZipArchive](../)
-* 名前空間 [Aspose.Zip.SevenZip](../../sevenziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

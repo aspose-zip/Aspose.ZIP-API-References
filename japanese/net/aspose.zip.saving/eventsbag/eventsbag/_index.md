@@ -1,14 +1,14 @@
 ---
-title: EventsBag.EventsBag
-second_title: Aspose.ZIP for .NET API リファレンス
-description: EventsBag コンストラクタ. デフォルトのコンストラクター
+title: "EventsBag.EventsBag"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "EventsBag コンストラクタ。デフォルトコンストラクタです"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/eventsbag/eventsbag/
 ---
 ## EventsBag constructor
 
-デフォルトのコンストラクター。
+デフォルト コンストラクタです。
 
 ```csharp
 public EventsBag()
@@ -17,7 +17,7 @@ public EventsBag()
 ### 関連項目
 
 * class [EventsBag](../)
-* 名前空間 [Aspose.Zip.Saving](../../eventsbag/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../eventsbag/)
+* assembly [Aspose.Zip](../../../)
 
 

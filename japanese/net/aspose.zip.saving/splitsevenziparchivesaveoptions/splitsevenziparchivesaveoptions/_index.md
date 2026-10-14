@@ -1,40 +1,40 @@
 ---
-title: SplitSevenZipArchiveSaveOptions.SplitSevenZipArchiveSaveOptions
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SplitSevenZipArchiveSaveOptions コンストラクタ. マルチボリューム 7z アーカイブを保存するための設定をインスタンス化します
+title: "SplitSevenZipArchiveSaveOptions.SplitSevenZipArchiveSaveOptions"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SplitSevenZipArchiveSaveOptions コンストラクタ。マルチボリューム 7z アーカイブの保存設定をインスタンス化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/splitsevenziparchivesaveoptions/splitsevenziparchivesaveoptions/
 ---
 ## SplitSevenZipArchiveSaveOptions constructor
 
-マルチボリューム 7z アーカイブを保存するための設定をインスタンス化します。
+マルチボリューム 7z アーカイブの保存設定をインスタンス化します。
 
 ```csharp
 public SplitSevenZipArchiveSaveOptions(string fileName, uint segmentSize)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fileName | String | ボリュームの名前。 .7z 拡張子を付けても付けなくてもかまいません。 |
+| fileName | String | ボリュームの名前。.7z 拡張子の有無にかかわらず使用できます。 |
 | segmentSize | UInt32 | ボリュームのサイズ。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | *segmentSize*は 100 未満です。 |
+| ArgumentOutOfRangeException | *segmentSize* が 100 未満です。 |
 
-### 備考
+## 備考
 
-一部のボリュームはより少ない場合があります*segmentSize*.ほとんどの場合、最後のセグメントは少なくなりますが、まれに通常のセグメントも少なくなる場合があります。
+一部のボリュームは *segmentSize* 未満になることがあります。ほとんどの場合、最後のセグメントは小さくなりますが、まれに通常のセグメントがそれ以上になることがあります。
 
-ファイルの名前は次のようになります。*fileName* .7z.001、*fileName* .7z.002, ...,*fileName*.7z.(n).
+ファイル名は次のようになります: *fileName*.7z.001, *fileName*.7z.002, ..., *fileName*.7z.(n).
 
 ### 関連項目
 
 * class [SplitSevenZipArchiveSaveOptions](../)
-* 名前空間 [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../splitsevenziparchivesaveoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

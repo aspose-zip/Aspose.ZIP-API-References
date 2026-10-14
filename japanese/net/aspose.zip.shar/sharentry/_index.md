@@ -1,9 +1,9 @@
 ---
-title: Class SharEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Shar.SharEntry クラス. shar アーカイブ内の単一ファイルを表します
+title: "クラス SharEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Shar.SharEntry クラス。shar アーカイブ内の単一ファイルを表します。"
 type: docs
-weight: 710
+weight: 1250
 url: /ja/net/aspose.zip.shar/sharentry/
 ---
 ## SharEntry class
@@ -22,7 +22,7 @@ public class SharEntry
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Shar](../../aspose.zip.shar/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Shar](../../aspose.zip.shar/)
+* assembly [Aspose.Zip](../../)
 
 

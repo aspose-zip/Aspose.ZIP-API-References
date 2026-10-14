@@ -1,14 +1,14 @@
 ---
-title: XarDirectoryEntry.AllEntries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XarDirectoryEntry 財産. のすべてのエントリを取得しますXarEntryディレクトリを再帰的に構成する型.
+title: "XarDirectoryEntry.AllEntries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XarDirectoryEntry プロパティ。ディレクトリを再帰的に構成する XarEntry 型のすべてのエントリを取得します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.xar/xardirectoryentry/allentries/
 ---
 ## XarDirectoryEntry.AllEntries property
 
-のすべてのエントリを取得します[`XarEntry`](../../xarentry/)ディレクトリを再帰的に構成する型.
+ディレクトリを再帰的に構成する [`XarEntry`](../../xarentry/) 型のすべてのエントリを取得します。
 
 ```csharp
 public IEnumerable<XarEntry> AllEntries { get; }
@@ -18,7 +18,7 @@ public IEnumerable<XarEntry> AllEntries { get; }
 
 * class [XarEntry](../../xarentry/)
 * class [XarDirectoryEntry](../)
-* 名前空間 [Aspose.Zip.Xar](../../xardirectoryentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xardirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,24 +1,30 @@
 ---
-title: ZArchive.SetSource
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ZArchive 方法. アーカイブ内で圧縮するコンテンツを設定します
+title: "ZArchive.SetSource"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ZArchive メソッド。アーカイブ内で圧縮されるコンテンツを設定します"
 type: docs
-weight: 50
+weight: 60
 url: /ja/net/aspose.zip.z/zarchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_1}
 
-アーカイブ内で圧縮するコンテンツを設定します。
+アーカイブ内で圧縮される内容を設定します。
 
 ```csharp
 public void SetSource(Stream source)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| source | Stream | アーカイブの入力ストリーム。 |
+| source | Stream | アーカイブ用の入力ストリームです。 |
 
-### 例
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+
+## 例
 
 ```csharp
 using (var archive = new ZArchive())
@@ -31,36 +37,37 @@ using (var archive = new ZArchive())
 ### 関連項目
 
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource}
 
-アーカイブ内で圧縮するコンテンツを設定します。
+アーカイブ内で圧縮される内容を設定します。
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | fileInfo | FileInfo | 入力ストリームとして開かれる FileInfo。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| SecurityException | 呼び出し元には、ファイルを開くために必要な権限がありません*fileInfo*. |
-| ArgumentException | ファイル パスが空であるか、空白のみが含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| SecurityException | 呼び出し元には *fileInfo* を開くために必要な権限がありません。 |
+| ArgumentException | ファイルパスが空、または空白文字のみが含まれています。 |
 | FileNotFoundException | ファイルが見つかりません。 |
-| UnauthorizedAccessException | ファイルへのパスが読み取り専用であるか、ディレクトリです。 |
-| ArgumentNullException | *fileInfo*無効である。 |
-| DirectoryNotFoundException | 指定されたパスは、マップされていないドライブ上にあるなど、無効です。 |
-| IOException | ファイルは既に開いています。 |
+| UnauthorizedAccessException | ファイルへのパスが読み取り専用、またはディレクトリです。 |
+| ArgumentNullException | *fileInfo* が null です。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -73,35 +80,39 @@ using (var archive = new ZArchive())
 ### 関連項目
 
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_2}
 
-アーカイブ内で圧縮するコンテンツを設定します。
+アーカイブ内で圧縮される内容を設定します。
 
 ```csharp
 public void SetSource(string sourcePath)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourcePath | String | 入力ストリームとして開かれるファイルへのパス。 |
+| sourcePath | String | 入力ストリームとして開かれるファイルへのパスです。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *sourcePath* null または空の文字列です。 |
-| SecurityException | 呼び出し元には、リソースにアクセスするために必要なアクセス許可がありません。 |
-| ArgumentException | の*sourcePath*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*sourcePath*否定された。 |
-| PathTooLongException | 指定された*sourcePath*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*sourcePath*文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| ArgumentNullException | *sourcePath* が null または空文字列です。 |
+| SecurityException | 呼び出し元はリソースにアクセスするために必要な権限を持っていません。 |
+| ArgumentException | *sourcePath* が空であるか、空白文字のみで構成されているか、無効な文字が含まれています。 |
+| UnauthorizedAccessException | *sourcePath* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *sourcePath*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *sourcePath* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| IOException | ファイルは既に開かれています。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -114,7 +125,7 @@ using (var archive = new ZArchive())
 ### 関連項目
 
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

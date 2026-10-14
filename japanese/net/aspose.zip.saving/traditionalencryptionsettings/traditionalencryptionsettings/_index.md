@@ -1,24 +1,24 @@
 ---
-title: TraditionalEncryptionSettings.TraditionalEncryptionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TraditionalEncryptionSettings コンストラクタ. の新しいインスタンスを初期化しますTraditionalEncryptionSettingsclass.
+title: "TraditionalEncryptionSettings.TraditionalEncryptionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TraditionalEncryptionSettings コンストラクタ。TraditionalEncryptionSettings クラスの新しいインスタンスを初期化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/traditionalencryptionsettings/traditionalencryptionsettings/
 ---
 ## TraditionalEncryptionSettings(string) {#constructor_1}
 
-の新しいインスタンスを初期化します[`TraditionalEncryptionSettings`](../)class.
+[`TraditionalEncryptionSettings`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public TraditionalEncryptionSettings(string password)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| password | String | 暗号化用のパスワード。 |
+| password | String | 暗号化用パスワード。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p@s$"))))
@@ -31,29 +31,29 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 ### 関連項目
 
 * class [TraditionalEncryptionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings(string, Encoding) {#constructor_2}
 
-の新しいインスタンスを初期化します[`TraditionalEncryptionSettings`](../)ユーザー定義のエンコーディングを持つクラス.
+ユーザー定義のエンコーディングを使用して、[`TraditionalEncryptionSettings`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public TraditionalEncryptionSettings(string password, Encoding encoding)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| password | String | 暗号化用のパスワード。 |
-| encoding | Encoding | パスワード文字のエンコード。 |
+| password | String | 暗号化用パスワード。 |
+| encoding | エンコーディング | パスワード文字のエンコーディング。 |
 
-### 備考
+## 備考
 
-このコンストラクターの使用は推奨されません。エンコーディングを設定すると、標準と矛盾し、互換性のないアーカイブが生成される場合があります。
+このコンストラクタの使用は推奨されません。エンコーディングを設定すると標準に矛盾し、互換性のないアーカイブが生成される可能性があります。
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalEncryptionSettings("p£s$", System.Text.Encoding.ASCII))))
@@ -66,14 +66,14 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new TraditionalE
 ### 関連項目
 
 * class [TraditionalEncryptionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## TraditionalEncryptionSettings() {#constructor}
 
-の新しいインスタンスを初期化します[`TraditionalEncryptionSettings`](../)パスワードなしのクラス.
+パスワードなしで[`TraditionalEncryptionSettings`](../)クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public TraditionalEncryptionSettings()
@@ -82,7 +82,7 @@ public TraditionalEncryptionSettings()
 ### 関連項目
 
 * class [TraditionalEncryptionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../traditionalencryptionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,23 +1,23 @@
 ---
-title: XarFileEntry.Length
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XarFileEntry 財産. エントリの長さをバイト単位で取得します
+title: "XarFileEntry.Length"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XarFileEntry プロパティ。エントリの長さをバイト単位で取得します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.xar/xarfileentry/length/
 ---
 ## XarFileEntry.Length property
 
-エントリの長さをバイト単位で取得します。
+エントリの長さ（バイト単位）を取得します。
 
 ```csharp
-public abstract long Length { get; }
+public long Length { get; }
 ```
 
 ### 関連項目
 
 * class [XarFileEntry](../)
-* 名前空間 [Aspose.Zip.Xar](../../xarfileentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xarfileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

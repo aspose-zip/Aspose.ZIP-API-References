@@ -1,9 +1,9 @@
 ---
-title: CabEntry.ToString
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CabEntry 方法. 
+title: "CabEntry.ToString"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CabEntry メソッド。"
 type: docs
-weight: 50
+weight: 60
 url: /ja/net/aspose.zip.cab/cabentry/tostring/
 ---
 ## CabEntry.ToString method
@@ -15,7 +15,7 @@ public override string ToString()
 ### 関連項目
 
 * class [CabEntry](../)
-* 名前空間 [Aspose.Zip.Cab](../../cabentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cab](../../cabentry/)
+* assembly [Aspose.Zip](../../../)
 
 

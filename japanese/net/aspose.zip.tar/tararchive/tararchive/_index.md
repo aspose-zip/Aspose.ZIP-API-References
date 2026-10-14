@@ -1,22 +1,22 @@
 ---
-title: TarArchive.TarArchive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarArchive コンストラクタ. の新しいインスタンスを初期化しますTarArchiveclass.
+title: "TarArchive.TarArchive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarArchive コンストラクタ。TarArchive クラスの新しいインスタンスを初期化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.tar/tararchive/tararchive/
 ---
 ## TarArchive() {#constructor}
 
-の新しいインスタンスを初期化します[`TarArchive`](../)class.
+[`TarArchive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public TarArchive()
 ```
 
-### 例
+## 例
 
-次の例は、ファイルを圧縮する方法を示しています。
+以下の例はファイルを圧縮する方法を示しています。
 
 ```csharp
 using (var archive = new TarArchive())
@@ -29,34 +29,37 @@ using (var archive = new TarArchive())
 ### 関連項目
 
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(Stream) {#constructor_1}
+## TarArchive(Stream, TarLoadOptions) {#constructor_1}
 
-の新しいインスタンスを初期化します[`Archive`](../../../aspose.zip/archive/)クラスと構成エントリのリストは、アーカイブから抽出できます。
+[`TarArchive`](../) クラスの新しいインスタンスを初期化し、アーカイブから抽出可能なエントリリストを構成します。
 
 ```csharp
-public TarArchive(Stream sourceStream)
+public TarArchive(Stream sourceStream, TarLoadOptions loadOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
-| --- | --- | --- |
-| sourceStream | Stream | アーカイブのソース。シーク可能である必要があります。 |
+| パラメーター | 説明 |
+| --- | --- |
+| sourceStream | アーカイブのソースです。シーク可能である必要があります。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| InvalidDataException | *sourceStream*はシークできません。 |
+| ArgumentException | *sourceStream* はシーク可能ではありません。 |
+| ArgumentNullException | *sourceStream* が null です。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
+| ObjectDisposedException | ソースストリームが破棄された場合にスローされます。 |
 
-### 備考
+## 備考
 
-このコンストラクターはエントリをアンパックしません。見る[`Open`](../../tarentry/open/)解凍方法.
+このコンストラクタはエントリを展開しません。展開については [`Open`](../../tarentry/open/) メソッドをご覧ください。
 
-### 例
+## 例
 
 次の例は、すべてのエントリをディレクトリに抽出する方法を示しています。
 
@@ -69,45 +72,50 @@ using (var archive = new TarArchive(File.OpenRead("archive.tar")))
 
 ### 関連項目
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## TarArchive(string) {#constructor_2}
+## TarArchive(string, TarLoadOptions) {#constructor_2}
 
-の新しいインスタンスを初期化します[`TarArchive`](../)クラスと構成エントリのリストは、アーカイブから抽出できます。
+[`TarArchive`](../) クラスの新しいインスタンスを初期化し、アーカイブから抽出可能なエントリリストを構成します。
 
 ```csharp
-public TarArchive(string path)
+public TarArchive(string path, TarLoadOptions loadOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
-| --- | --- | --- |
-| path | String | アーカイブ ファイルへのパス。 |
+| パラメーター | 説明 |
+| --- | --- |
+| path | アーカイブ ファイルへのパス。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
 
-### 備考
+## 備考
 
-このコンストラクターはエントリをアンパックしません。見る[`Open`](../../tarentry/open/)解凍方法.
+このコンストラクタはエントリを展開しません。展開については [`Open`](../../tarentry/open/) メソッドをご覧ください。
 
-### 例
+## 例
 
 次の例は、すべてのエントリをディレクトリに抽出する方法を示しています。
 
 ```csharp
-using (var archive = new TarArchive("archive.tar")) 
+using (var archive = new TarArchive("archive.tar", new TarLoadOptions() { CancellationToken = cancellationToken }))
 { 
    archive.ExtractToDirectory("C:\extracted");
 }
@@ -115,8 +123,9 @@ using (var archive = new TarArchive("archive.tar"))
 
 ### 関連項目
 
+* class [TarLoadOptions](../../tarloadoptions/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

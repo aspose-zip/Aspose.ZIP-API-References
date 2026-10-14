@@ -1,14 +1,14 @@
 ---
-title: XzArchive.Dispose
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XzArchive 方法. アンマネージ リソースの解放解放またはリセットに関連するアプリケーション定義のタスクを実行します
+title: "XzArchive.Dispose"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XzArchive メソッド。アンマネージドリソースの解放、リリース、またはリセットに関連するアプリケーション定義のタスクを実行します"
 type: docs
-weight: 20
+weight: 30
 url: /ja/net/aspose.zip.xz/xzarchive/dispose/
 ---
 ## XzArchive.Dispose method
 
-アンマネージ リソースの解放、解放、またはリセットに関連するアプリケーション定義のタスクを実行します。
+アンマネージド リソースの解放、リリース、またはリセットに関連するアプリケーション定義のタスクを実行します。
 
 ```csharp
 public void Dispose()
@@ -17,7 +17,7 @@ public void Dispose()
 ### 関連項目
 
 * class [XzArchive](../)
-* 名前空間 [Aspose.Zip.Xz](../../xzarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xz](../../xzarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

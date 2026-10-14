@@ -1,14 +1,14 @@
 ---
-title: Enum ParallelCompressionMode
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.ParallelCompressionMode 列挙. 並列圧縮機能の利用オプション.
+title: "列挙型 ParallelCompressionMode"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.ParallelCompressionMode 列挙型。並列圧縮機能の使用オプション"
 type: docs
-weight: 480
+weight: 980
 url: /ja/net/aspose.zip.saving/parallelcompressionmode/
 ---
 ## ParallelCompressionMode enumeration
 
-並列圧縮機能の利用オプション.
+並列圧縮機能の使用オプション。
 
 ```csharp
 public enum ParallelCompressionMode
@@ -16,15 +16,15 @@ public enum ParallelCompressionMode
 
 ### 値
 
-| 名前 | 価値 | 説明 |
+| 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Never | `0` | 並列圧縮しません。 |
-| Always | `1` | 並列で圧縮します。メモリ不足に注意. |
-| Auto | `2` | エントリに対して並列圧縮を使用するかどうかを決定します. このオプションは、一部のエントリのみを並列圧縮する場合があります. |
+| Never | `0` | 並列で圧縮しません。 |
+| Always | `1` | 並列で圧縮します。メモリ使用量が増えることに注意してください。 |
+| Auto | `2` | エントリに基づいて並列圧縮を使用するかどうかを決定します。このオプションは、一部のエントリのみを並列で圧縮する場合があります。 |
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

@@ -1,14 +1,14 @@
 ---
-title: SelfExtractorOptions.SelfExtractorOptions
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SelfExtractorOptions コンストラクタ. デフォルトのコンストラクター
+title: "SelfExtractorOptions.SelfExtractorOptions"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SelfExtractorOptions コンストラクタ。デフォルトコンストラクタです。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/selfextractoroptions/selfextractoroptions/
 ---
 ## SelfExtractorOptions constructor
 
-デフォルトのコンストラクター。
+デフォルト コンストラクタです。
 
 ```csharp
 public SelfExtractorOptions()
@@ -17,7 +17,7 @@ public SelfExtractorOptions()
 ### 関連項目
 
 * class [SelfExtractorOptions](../)
-* 名前空間 [Aspose.Zip.Saving](../../selfextractoroptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../selfextractoroptions/)
+* assembly [Aspose.Zip](../../../)
 
 

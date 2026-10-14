@@ -1,7 +1,7 @@
 ---
-title: TarEntry.IsDirectory
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarEntry 財産. エントリがディレクトリを表すかどうかを示す値を取得します
+title: "TarEntry.IsDirectory"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarEntry プロパティ。エントリがディレクトリかどうかを示す値を取得します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.tar/tarentry/isdirectory/
@@ -17,7 +17,7 @@ public bool IsDirectory { get; }
 ### 関連項目
 
 * class [TarEntry](../)
-* 名前空間 [Aspose.Zip.Tar](../../tarentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,9 +1,9 @@
 ---
-title: ArchiveEntrySettings.CompressionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveEntrySettings 財産. 圧縮または解凍ルーチンの設定を取得します
+title: "ArchiveEntrySettings.CompressionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveEntrySettings プロパティ。圧縮または伸長ルーチンの設定を取得します。"
 type: docs
-weight: 20
+weight: 30
 url: /ja/net/aspose.zip.saving/archiveentrysettings/compressionsettings/
 ---
 ## ArchiveEntrySettings.CompressionSettings property
@@ -14,21 +14,24 @@ url: /ja/net/aspose.zip.saving/archiveentrysettings/compressionsettings/
 public CompressionSettings CompressionSettings { get; }
 ```
 
-### 備考
+## 備考
 
-次のいずれかになります:
+次のいずれかです：
 
 * **[`DeflateCompressionSettings`](../../deflatecompressionsettings/)**
 * **[`StoreCompressionSettings`](../../storecompressionsettings/)**
 * **[`Bzip2CompressionSettings`](../../bzip2compressionsettings/)**
 * **[`LzmaCompressionSettings`](../../lzmacompressionsettings/)**
 * **[`PPMdCompressionSettings`](../../ppmdcompressionsettings/)**
+* **[`EnhancedDeflateCompressionSettings`](../../enhanceddeflatecompressionsettings/)**
+* **[`XzCompressionSettings`](../../xzcompressionsettings/)**
+* **[`ZstandardCompressionSettings`](../../zstandardcompressionsettings/)**
 
 ### 関連項目
 
 * class [CompressionSettings](../../compressionsettings/)
 * class [ArchiveEntrySettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../archiveentrysettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../archiveentrysettings/)
+* assembly [Aspose.Zip](../../../)
 
 

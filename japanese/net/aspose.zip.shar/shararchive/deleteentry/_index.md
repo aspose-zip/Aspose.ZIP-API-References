@@ -1,7 +1,7 @@
 ---
-title: SharArchive.DeleteEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SharArchive 方法. エントリ リストから特定のエントリの最初の出現を削除します
+title: "SharArchive.DeleteEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SharArchive メソッド。エントリリストから特定のエントリの最初の出現を削除します。"
 type: docs
 weight: 50
 url: /ja/net/aspose.zip.shar/shararchive/deleteentry/
@@ -14,23 +14,25 @@ url: /ja/net/aspose.zip.shar/shararchive/deleteentry/
 public SharArchive DeleteEntry(SharEntry entry)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entry | SharEntry | エントリ リストから削除するエントリ。 |
+| エントリ | SharEntry | エントリリストから削除するエントリです。 |
 
 ### 戻り値
 
-Shar エントリ インスタンス。
+Shar エントリのインスタンスです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *entry*無効である。 |
+| ArgumentNullException | *entry* は null です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| InvalidOperationException | このアーカイブは抽出用に開かれています。 |
 
-### 例
+## 例
 
-最後のエントリを除くすべてのエントリを削除する方法は次のとおりです。
+最後のエントリを除くすべてのエントリを削除する方法は次のとおりです:
 
 ```csharp
 using (var archive = new SharArchive("archive.shar"))
@@ -45,34 +47,36 @@ using (var archive = new SharArchive("archive.shar"))
 
 * class [SharEntry](../../sharentry/)
 * class [SharArchive](../)
-* 名前空間 [Aspose.Zip.Shar](../../shararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## DeleteEntry(int) {#deleteentry_1}
 
-インデックスによってエントリ リストからエントリを削除します。
+インデックスでエントリリストからエントリを削除します。
 
 ```csharp
 public SharArchive DeleteEntry(int entryIndex)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| entryIndex | Int32 | 削除するエントリのゼロから始まるインデックス。 |
+| entryIndex | Int32 | 削除するエントリのゼロベースインデックスです。 |
 
 ### 戻り値
 
-エントリが削除されたアーカイブ。
+エントリが削除されたアーカイブです。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | *entryIndex*は 0 未満です。-または-*entryIndex*等しいかより大きい`エントリー`カウント。 |
+| ArgumentOutOfRangeException | *entryIndex* が 0 未満です。-または- *entryIndex* が `Entries` の数以上です。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| InvalidOperationException | このアーカイブは抽出用に開かれています。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new SharArchive("two_files.shar"))
@@ -85,7 +89,7 @@ using (var archive = new SharArchive("two_files.shar"))
 ### 関連項目
 
 * class [SharArchive](../)
-* 名前空間 [Aspose.Zip.Shar](../../shararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Shar](../../shararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

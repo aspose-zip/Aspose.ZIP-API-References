@@ -1,7 +1,7 @@
 ---
-title: SevenZipArchiveEntry.IsDirectory
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SevenZipArchiveEntry 財産. エントリがディレクトリを表すかどうかを示す値を取得します
+title: "SevenZipArchiveEntry.IsDirectory"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SevenZipArchiveEntry プロパティ。エントリがディレクトリを表すかどうかを示す値を取得します"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.sevenzip/sevenziparchiveentry/isdirectory/
@@ -17,7 +17,7 @@ public bool IsDirectory { get; }
 ### 関連項目
 
 * class [SevenZipArchiveEntry](../)
-* 名前空間 [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.SevenZip](../../sevenziparchiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

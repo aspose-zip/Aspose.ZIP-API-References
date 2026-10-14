@@ -1,14 +1,14 @@
 ---
-title: CompressionSettings.PPMd
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CompressionSettings 財産. のインスタンスPPMdCompressionSettingsデフォルトパラメータ付き.
+title: "CompressionSettings.PPMd"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CompressionSettings プロパティ。デフォルトパラメータを持つ PPMdCompressionSettings のインスタンスです。"
 type: docs
-weight: 40
+weight: 50
 url: /ja/net/aspose.zip.saving/compressionsettings/ppmd/
 ---
 ## CompressionSettings.PPMd property
 
-のインスタンス`PPMdCompressionSettings`デフォルトパラメータ付き.
+`PPMdCompressionSettings` のインスタンス（デフォルト パラメーター）。
 
 ```csharp
 public static PPMdCompressionSettings PPMd { get; }
@@ -18,7 +18,7 @@ public static PPMdCompressionSettings PPMd { get; }
 
 * class [PPMdCompressionSettings](../../ppmdcompressionsettings/)
 * class [CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

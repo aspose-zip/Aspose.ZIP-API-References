@@ -1,14 +1,14 @@
 ---
-title: Class EntryEventArgs
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.EntryEventArgs クラス. エントリ関連イベントのイベント引数
+title: "クラス EntryEventArgs"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.EntryEventArgs クラス。エントリ関連イベントのイベント引数です。"
 type: docs
-weight: 200
+weight: 490
 url: /ja/net/aspose.zip/entryeventargs/
 ---
 ## EntryEventArgs class
 
-エントリ関連イベントのイベント引数。
+エントリ関連イベントのイベント引数です。
 
 ```csharp
 public class EntryEventArgs : EventArgs
@@ -18,18 +18,18 @@ public class EntryEventArgs : EventArgs
 
 | 名前 | 説明 |
 | --- | --- |
-| [EntryEventArgs](entryeventargs/)(ArchiveEntry) | の新しいインスタンスを初期化します`EntryEventArgs`class. |
+| [EntryEventArgs](entryeventargs/)(ArchiveEntry) | `EntryEventArgs` クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | イベントが発生したアーカイブ エントリを取得します。 |
+| [Entry](../../aspose.zip/entryeventargs/entry/) { get; } | イベントが発生した対象のアーカイブ エントリを取得します。 |
 
 ### 関連項目
 
 * property [EntryListed](../archiveloadoptions/entrylisted/)
-* 名前空間 [Aspose.Zip](../../aspose.zip/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 

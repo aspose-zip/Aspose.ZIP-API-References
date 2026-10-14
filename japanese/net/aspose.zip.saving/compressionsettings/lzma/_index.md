@@ -1,14 +1,14 @@
 ---
-title: CompressionSettings.Lzma
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CompressionSettings 財産. のインスタンスLzma圧縮設定デフォルトパラメータ付き.
+title: "CompressionSettings.Lzma"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CompressionSettings プロパティ。デフォルトパラメータを持つ LzmaCompressionSettings のインスタンスです。"
 type: docs
-weight: 30
+weight: 40
 url: /ja/net/aspose.zip.saving/compressionsettings/lzma/
 ---
 ## CompressionSettings.Lzma property
 
-のインスタンス`Lzma圧縮設定`デフォルトパラメータ付き.
+`LzmaCompressionSettings` のインスタンス（デフォルト パラメーター）。
 
 ```csharp
 public static LzmaCompressionSettings Lzma { get; }
@@ -18,7 +18,7 @@ public static LzmaCompressionSettings Lzma { get; }
 
 * class [LzmaCompressionSettings](../../lzmacompressionsettings/)
 * class [CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

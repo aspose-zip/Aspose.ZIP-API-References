@@ -1,7 +1,7 @@
 ---
-title: CpioEntry.Parent
-second_title: Aspose.ZIP for .NET API リファレンス
-description: CpioEntry 財産. エントリが属するアーカイブを取得します
+title: "CpioEntry.Parent"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "CpioEntry プロパティ。エントリが属するアーカイブを取得します"
 type: docs
 weight: 50
 url: /ja/net/aspose.zip.cpio/cpioentry/parent/
@@ -18,7 +18,7 @@ public CpioArchive Parent { get; }
 
 * class [CpioArchive](../../cpioarchive/)
 * class [CpioEntry](../)
-* 名前空間 [Aspose.Zip.Cpio](../../cpioentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Cpio](../../cpioentry/)
+* assembly [Aspose.Zip](../../../)
 
 

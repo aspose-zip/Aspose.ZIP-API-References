@@ -1,14 +1,14 @@
 ---
-title: WimImage.AllEntries
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimImage 財産. のエントリを取得しますWimEntry画像を再帰的に構成する型.
+title: "WimImage.AllEntries"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimImage プロパティ。イメージを再帰的に構成する WimEntry 型のエントリを取得します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.wim/wimimage/allentries/
 ---
 ## WimImage.AllEntries property
 
-のエントリを取得します[`WimEntry`](../../wimentry/)画像を再帰的に構成する型.
+イメージを再帰的に構成する [`WimEntry`](../../wimentry/) 型のエントリを取得します。
 
 ```csharp
 public IEnumerable<WimEntry> AllEntries { get; }
@@ -18,7 +18,7 @@ public IEnumerable<WimEntry> AllEntries { get; }
 
 * class [WimEntry](../../wimentry/)
 * class [WimImage](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimimage/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimimage/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,17 +1,17 @@
 ---
-title: Aspose.Zip.Snappy
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Snappy名前空間にはSnappy 圧縮データ操作用のクラスが含まれています.
+title: "Aspose.Zip.Snappy"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Snappy 名前空間には、Snappy 圧縮データの操作用クラスが含まれています。"
 type: docs
-weight: 140
+weight: 230
 url: /ja/net/aspose.zip.snappy/
 ---
-Snappy名前空間には、Snappy 圧縮データ操作用のクラスが含まれています.
+Snappy 名前空間には、Snappy 圧縮データの操作用クラスが含まれています。
 
 ## クラス
 
 | クラス | 説明 |
 | --- | --- |
-| [SnappyArchive](./snappyarchive/) | このクラスは、snappy アーカイブ ファイルを表します。スナップ アーカイブを作成または抽出するために使用します。 |
+| [SnappyArchive](./snappyarchive/) | このクラスは snappy アーカイブファイルを表します。snappy アーカイブの作成または抽出に使用します。 |
 
 

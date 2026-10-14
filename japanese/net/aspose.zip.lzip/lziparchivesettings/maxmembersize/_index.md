@@ -1,14 +1,14 @@
 ---
-title: LzipArchiveSettings.MaxMemberSize
-second_title: Aspose.ZIP for .NET API リファレンス
-description: LzipArchiveSettings 財産. lzip アーカイブ内の 1 つのメンバーの最大サイズをバイト単位で取得します
+title: "LzipArchiveSettings.MaxMemberSize"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "LzipArchiveSettings プロパティ。lzip アーカイブ内の 1 メンバーの最大サイズ（バイト単位）を取得します。"
 type: docs
-weight: 80
+weight: 90
 url: /ja/net/aspose.zip.lzip/lziparchivesettings/maxmembersize/
 ---
 ## LzipArchiveSettings.MaxMemberSize property
 
-lzip アーカイブ内の 1 つのメンバーの最大サイズをバイト単位で取得します。
+lzip アーカイブ内の 1 メンバーの最大サイズ（バイト単位）を取得します。
 
 ```csharp
 public long MaxMemberSize { get; }
@@ -17,7 +17,7 @@ public long MaxMemberSize { get; }
 ### 関連項目
 
 * class [LzipArchiveSettings](../)
-* 名前空間 [Aspose.Zip.Lzip](../../lziparchivesettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Lzip](../../lziparchivesettings/)
+* assembly [Aspose.Zip](../../../)
 
 

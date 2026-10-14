@@ -1,14 +1,14 @@
 ---
-title: Class XzFilterSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Xz.Settings.XzFilterSettings クラス. 特定の xz 形式フィルターの設定のセットの基本クラス
+title: "クラス XzFilterSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Xz.Settings.XzFilterSettings クラス。 特定の xz フォーマットフィルタの設定セットの基底クラス。"
 type: docs
-weight: 880
+weight: 1550
 url: /ja/net/aspose.zip.xz.settings/xzfiltersettings/
 ---
 ## XzFilterSettings class
 
-特定の xz 形式フィルターの設定のセットの基本クラス。
+特定の xz フォーマットフィルタの設定セットの基底クラス。
 
 ```csharp
 public abstract class XzFilterSettings
@@ -16,7 +16,7 @@ public abstract class XzFilterSettings
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Xz.Settings](../../aspose.zip.xz.settings/)
+* assembly [Aspose.Zip](../../)
 
 

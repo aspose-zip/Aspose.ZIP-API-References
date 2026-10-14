@@ -1,35 +1,37 @@
 ---
-title: Archive.Save
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Archive 方法. 提供されたストリームにアーカイブを保存します
+title: "Archive.Save"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Archive メソッド。提供されたストリームにアーカイブを保存します。"
 type: docs
-weight: 90
+weight: 100
 url: /ja/net/aspose.zip/archive/save/
 ---
 ## Save(Stream, ArchiveSaveOptions) {#save}
 
-提供されたストリームにアーカイブを保存します。
+アーカイブを指定されたストリームに保存します。
 
 ```csharp
 public void Save(Stream outputStream, ArchiveSaveOptions saveOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| outputStream | Stream | 宛先ストリーム。 |
+| outputStream | Stream | 出力ストリーム。 |
 | saveOptions | ArchiveSaveOptions | アーカイブ保存のオプション。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentException | *outputStream*書き込み不可です。 |
+| ArgumentException | *outputStream* は書き込み可能ではありません。 |
+| ObjectDisposedException | アーカイブは破棄されました。 |
+| InvalidOperationException | 既に暗号化されたエントリに暗号化を適用したときにスローされます。 |
 
-### 備考
+## 備考
 
-*outputStream*書き込み可能でなければなりません。
+*outputStream* must be writable.
 
-### 例
+## 例
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -46,40 +48,45 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 * class [ArchiveSaveOptions](../../../aspose.zip.saving/archivesaveoptions/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string, ArchiveSaveOptions) {#save_1}
 
-指定された宛先ファイルにアーカイブを保存します。
+アーカイブを指定された宛先ファイルに保存します。
 
 ```csharp
 public void Save(string destinationFileName, ArchiveSaveOptions saveOptions = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destinationFileName | String | 作成するアーカイブのパス。指定したファイル名が既存のファイルを指している場合、上書きされます。 |
+| destinationFileName | String | 作成するアーカイブのパス。指定されたファイル名が既存のファイルを指す場合、上書きされます。 |
 | saveOptions | ArchiveSaveOptions | アーカイブ保存のオプション。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*destinationFileName*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*destinationFileName*否定された。 |
-| PathTooLongException | 指定された*destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。 たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*destinationFileName*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *destinationFileName* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *destinationFileName* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *destinationFileName* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *destinationFileName* のファイルに文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
+| InvalidOperationException | 既に暗号化されたエントリに暗号化を適用したときにスローされます。 |
 
-### 備考
+## 備考
 
-アーカイブをロード元と同じパスに保存することもできます。 ただし、この方法では一時ファイルへのコピーが使用されるため、これはお勧めできません。
+アーカイブを読み込んだのと同じパスに保存することは可能です。ただし、この方法は一時ファイルへのコピーを使用するため推奨されません。
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new Archive())
@@ -93,7 +100,7 @@ using (var archive = new Archive())
 
 * class [ArchiveSaveOptions](../../../aspose.zip.saving/archivesaveoptions/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

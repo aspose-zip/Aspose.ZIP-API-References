@@ -1,9 +1,9 @@
 ---
-title: MeteredLicense.GetConsumptionCredit
-second_title: Aspose.ZIP for .NET API リファレンス
-description: MeteredLicense 方法. 消費クレジットを取得します
+title: "MeteredLicense.GetConsumptionCredit"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "MeteredLicense メソッド。消費クレジットを取得します。"
 type: docs
-weight: 30
+weight: 40
 url: /ja/net/aspose.zip/meteredlicense/getconsumptioncredit/
 ---
 ## MeteredLicense.GetConsumptionCredit method
@@ -16,12 +16,12 @@ public static decimal GetConsumptionCredit()
 
 ### 戻り値
 
-消費量
+消費されたクレジットポイント数を返します。
 
 ### 関連項目
 
 * class [MeteredLicense](../)
-* 名前空間 [Aspose.Zip](../../meteredlicense/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../meteredlicense/)
+* assembly [Aspose.Zip](../../../)
 
 

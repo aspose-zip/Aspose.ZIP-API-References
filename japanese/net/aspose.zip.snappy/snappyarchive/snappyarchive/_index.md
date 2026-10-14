@@ -1,98 +1,101 @@
 ---
-title: SnappyArchive.SnappyArchive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SnappyArchive コンストラクタ. の新しいインスタンスを初期化しますSnappyArchive圧縮用に準備されたクラス.
+title: "SnappyArchive.SnappyArchive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SnappyArchive コンストラクタ。圧縮用に準備された SnappyArchive クラスの新しいインスタンスを初期化します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.snappy/snappyarchive/snappyarchive/
 ---
 ## SnappyArchive() {#constructor}
 
-の新しいインスタンスを初期化します[`SnappyArchive`](../)圧縮用に準備されたクラス.
+圧縮用に準備された [`SnappyArchive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public SnappyArchive()
 ```
 
-### 例
+## 例
 
-次の例は、ファイルを圧縮する方法を示しています。
+以下の例はファイルを圧縮する方法を示しています。
 
 ```csharp
 using (SnappyArchive archive = new SnappyArchive()) 
 {
     archive.SetSource("data.bin");
-    archive.Save("archive.snapy");
+    archive.Save("archive.snappy");
 }
 ```
 
 ### 関連項目
 
 * class [SnappyArchive](../)
-* 名前空間 [Aspose.Zip.Snappy](../../snappyarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SnappyArchive(Stream) {#constructor_1}
 
-の新しいインスタンスを初期化します[`SnappyArchive`](../)解凍用に準備されたクラス.
+解凍用に準備された [`SnappyArchive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public SnappyArchive(Stream source)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| source | Stream | アーカイブのソース。 |
+| source | Stream | アーカイブのソースです。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentException | *source*はシークできません。 |
-| ArgumentNullException | *source*無効である。 |
+| ArgumentException | *source* はシーク可能ではありません。 |
+| ArgumentNullException | *source* が null です。 |
 
-### 備考
+## 備考
 
-このコンストラクターは解凍しません。見る[`Extract`](../extract/)解凍方法.
+このコンストラクタは解凍しません。解凍については [`Extract`](../extract/) メソッドをご参照ください。
 
 ### 関連項目
 
 * class [SnappyArchive](../)
-* 名前空間 [Aspose.Zip.Snappy](../../snappyarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SnappyArchive(string) {#constructor_2}
 
-の新しいインスタンスを初期化します[`SnappyArchive`](../)解凍用に準備されたクラス.
+解凍用に準備された [`SnappyArchive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public SnappyArchive(string path)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | アーカイブのソースへのパス。 |
+| path | String | アーカイブのソースへのパスです。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
 
-### 備考
+## 備考
 
-このコンストラクターは解凍しません。見る[`Extract`](../extract/)解凍方法.
+このコンストラクタは解凍しません。解凍については [`Extract`](../extract/) メソッドをご参照ください。
 
-### 例
+## 例
 
 ```csharp
 using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
@@ -107,7 +110,7 @@ using (FileStream extractedFile = File.Open(extractedFileName, FileMode.Create))
 ### 関連項目
 
 * class [SnappyArchive](../)
-* 名前空間 [Aspose.Zip.Snappy](../../snappyarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Snappy](../../snappyarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

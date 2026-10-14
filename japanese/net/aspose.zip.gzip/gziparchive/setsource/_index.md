@@ -1,24 +1,30 @@
 ---
-title: GzipArchive.SetSource
-second_title: Aspose.ZIP for .NET API リファレンス
-description: GzipArchive 方法. アーカイブ内で圧縮するコンテンツを設定します
+title: "GzipArchive.SetSource"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "GzipArchive メソッド。アーカイブ内で圧縮されるコンテンツを設定します"
 type: docs
-weight: 70
+weight: 90
 url: /ja/net/aspose.zip.gzip/gziparchive/setsource/
 ---
 ## SetSource(Stream) {#setsource_2}
 
-アーカイブ内で圧縮するコンテンツを設定します。
+アーカイブ内で圧縮される内容を設定します。
 
 ```csharp
 public void SetSource(Stream source)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| source | Stream | アーカイブの入力ストリーム。 |
+| source | Stream | アーカイブ用の入力ストリームです。 |
 
-### 例
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+
+## 例
 
 ```csharp
 using (var archive = new GzipArchive())
@@ -31,26 +37,30 @@ using (var archive = new GzipArchive())
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(FileInfo) {#setsource_1}
 
-アーカイブ内で圧縮するコンテンツを設定します。
+アーカイブ内で圧縮される内容を設定します。
 
 ```csharp
 public void SetSource(FileInfo fileInfo)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| fileInfo | FileInfo | 圧縮するファイルへの参照。 |
+| fileInfo | FileInfo | 圧縮対象のファイルへの参照です。 |
 
-### 例
+### 例外
 
-ストリームからアーカイブを開き、`メモリーストリーム`
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+
+## 例
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -63,37 +73,36 @@ using (var archive = new GzipArchive())
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(string) {#setsource_3}
 
-アーカイブ内で圧縮するコンテンツを設定します。
+アーカイブ内で圧縮される内容を設定します。
 
 ```csharp
 public void SetSource(string path)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | 圧縮するファイルへのパス。 |
+| path | String | 圧縮対象ファイルへのパス。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
-
-パスでファイルからアーカイブを開き、それを`メモリーストリーム`
+## 例
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -106,28 +115,34 @@ using (var archive = new GzipArchive())
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## SetSource(TarArchive) {#setsource}
 
-アーカイブ内で圧縮するコンテンツを設定します。
+アーカイブ内で圧縮される内容を設定します。
 
 ```csharp
 public void SetSource(TarArchive tarArchive)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| tarArchive | TarArchive | 圧縮する tar アーカイブ。 |
+| tarArchive | TarArchive | 圧縮対象の Tar アーカイブ。 |
 
-### 備考
+### 例外
 
-この方法を使用して、共同 tar.gz アーカイブを構成します。
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
+## 備考
+
+このメソッドを使用して結合された tar.gz アーカイブを作成します。
+
+## 例
 
 ```csharp
 using (var tarArchive = new TarArchive())
@@ -146,7 +161,7 @@ using (var tarArchive = new TarArchive())
 
 * class [TarArchive](../../../aspose.zip.tar/tararchive/)
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

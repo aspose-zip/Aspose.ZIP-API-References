@@ -1,14 +1,14 @@
 ---
-title: TarEntry.Open
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarEntry 方法. エントリを抽出用に開きストリームにエントリ コンテンツを提供します
+title: "TarEntry.Open"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarEntry メソッド。エントリを抽出用に開き、エントリの内容を含むストリームを提供します"
 type: docs
-weight: 50
+weight: 70
 url: /ja/net/aspose.zip.tar/tarentry/open/
 ---
 ## TarEntry.Open method
 
-エントリを抽出用に開き、ストリームにエントリ コンテンツを提供します。
+エントリを抽出用に開き、エントリの内容を含むストリームを提供します。
 
 ```csharp
 public Stream Open()
@@ -16,23 +16,34 @@ public Stream Open()
 
 ### 戻り値
 
-エントリの内容を表すストリーム。
+エントリの内容を表すストリームです。
 
-### 備考
+### 例外
 
-ストリームから読み取り、ファイルの元のコンテンツを取得します。例のセクションを参照してください。
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | ソースストリームが破棄された場合にスローされます。 |
+| IOException | I/O エラーが発生しました。 |
 
-### 例
+## 備考
 
-使用法:
+ストリームから読み取り、ファイルの元の内容を取得します。例のセクションをご覧ください。
 
-.NET 4.0 以降 - Stream.CopyTo メソッドを使用:
+## 例
+
+使用方法:
+
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 以降 - Stream.CopyTo メソッドを使用します:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 以前 - バイトを手動でコピー:
+.NET 3.5 以前 - バイトを手動でコピーします:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +52,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
 ### 関連項目
 
 * class [TarEntry](../)
-* 名前空間 [Aspose.Zip.Tar](../../tarentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tarentry/)
+* assembly [Aspose.Zip](../../../)
 
 

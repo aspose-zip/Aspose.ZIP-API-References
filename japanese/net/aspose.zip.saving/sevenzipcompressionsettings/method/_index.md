@@ -1,14 +1,14 @@
 ---
-title: SevenZipCompressionSettings.Method
-second_title: Aspose.ZIP for .NET API リファレンス
-description: SevenZipCompressionSettings 財産. 圧縮または解凍方法を取得します
+title: "SevenZipCompressionSettings.Method"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "SevenZipCompressionSettings プロパティ。圧縮または解凍のメソッドを取得します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/sevenzipcompressionsettings/method/
 ---
 ## SevenZipCompressionSettings.Method property
 
-圧縮または解凍方法を取得します。
+圧縮または解凍の方法を取得します。
 
 ```csharp
 public abstract SevenZipCompressionMethod Method { get; }
@@ -18,7 +18,7 @@ public abstract SevenZipCompressionMethod Method { get; }
 
 * enum [SevenZipCompressionMethod](../../sevenzipcompressionmethod/)
 * class [SevenZipCompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../sevenzipcompressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../sevenzipcompressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

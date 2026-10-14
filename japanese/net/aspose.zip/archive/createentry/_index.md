@@ -1,12 +1,12 @@
 ---
-title: Archive.CreateEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Archive 方法. アーカイブ内に単一のエントリを作成します
+title: "Archive.CreateEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Archive メソッド。アーカイブ内に単一のエントリを作成します"
 type: docs
-weight: 50
+weight: 60
 url: /ja/net/aspose.zip/archive/createentry/
 ---
-## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_3}
+## CreateEntry(string, string, bool, ArchiveEntrySettings) {#createentry_4}
 
 アーカイブ内に単一のエントリを作成します。
 
@@ -15,35 +15,36 @@ public ArchiveEntry CreateEntry(string name, string path, bool openImmediately =
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
-| path | String | 新しいファイルの完全修飾名、または圧縮する相対ファイル名。 |
-| openImmediately | Boolean | ファイルをすぐに開く場合は true、それ以外の場合はアーカイブ保存時にファイルを開きます。 |
-| newEntrySettings | ArchiveEntrySettings | 追加に使用される圧縮と暗号化の設定[`ArchiveEntry`](../../archiveentry/)アイテム。 |
+| path | String | 新しいファイルの完全修飾名、または圧縮対象の相対ファイル名。 |
+| openImmediately | Boolean | ファイルをすぐに開く場合は True、そうでなければアーカイブ保存時にファイルを開きます。 |
+| newEntrySettings | ArchiveEntrySettings | 追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定。 |
 
 ### 戻り値
 
-zip エントリのインスタンス。
+Zip エントリ インスタンス。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
 
-### 備考
+## 備考
 
-エントリ名は、*name*パラメータ。で提供されているファイル名*path*パラメータは、エントリ名には影響しません。
+エントリ名は *name* パラメータ内でのみ設定されます。*path* パラメータで指定されたファイル名はエントリ名に影響しません。
 
-ファイルがすぐに開かれた場合*openImmediately*パラメータは、アーカイブが保存されるまでブロックされます。
+*openImmediately* パラメータでファイルをすぐに開くと、アーカイブが保存されるまでブロックされます。
 
-### 例
+## 例
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -61,12 +62,12 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_1}
+## CreateEntry(string, Stream, ArchiveEntrySettings) {#createentry_2}
 
 アーカイブ内に単一のエントリを作成します。
 
@@ -75,17 +76,24 @@ public ArchiveEntry CreateEntry(string name, Stream source,
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
 | source | Stream | エントリの入力ストリーム。 |
-| newEntrySettings | ArchiveEntrySettings | 追加に使用される圧縮と暗号化の設定[`ArchiveEntry`](../../archiveentry/)アイテム。 |
+| newEntrySettings | ArchiveEntrySettings | 追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定。 |
 
 ### 戻り値
 
-zip エントリのインスタンス。
+Zip エントリ インスタンス。
 
-### 例
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
+| InvalidOperationException | アーカイブの現在の状態によりエントリの追加が無効な場合にスローされます。 |
+
+## 例
 
 ```csharp
 using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryptionSettings("p@s$", EncryptionMethod.AES256))))
@@ -100,12 +108,12 @@ using (var archive = new Archive(new ArchiveEntrySettings(null, new AesEcryption
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry}
+## CreateEntry(string, FileInfo, bool, ArchiveEntrySettings) {#createentry_1}
 
 アーカイブ内に単一のエントリを作成します。
 
@@ -114,34 +122,36 @@ public ArchiveEntry CreateEntry(string name, FileInfo fileInfo, bool openImmedia
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
 | fileInfo | FileInfo | 圧縮するファイルのメタデータ。 |
-| openImmediately | Boolean | ファイルをすぐに開く場合は true、それ以外の場合はアーカイブ保存時にファイルを開きます。 |
-| newEntrySettings | ArchiveEntrySettings | 追加に使用される圧縮と暗号化の設定[`ArchiveEntry`](../../archiveentry/)アイテム。 |
+| openImmediately | Boolean | ファイルをすぐに開く場合は True、そうでなければアーカイブ保存時にファイルを開きます。 |
+| newEntrySettings | ArchiveEntrySettings | 追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定。 |
 
 ### 戻り値
 
-zip エントリのインスタンス。
+Zip エントリ インスタンス。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| UnauthorizedAccessException | *fileInfo*読み取り専用またはディレクトリです。 |
-| DirectoryNotFoundException | 指定されたパスは、マップされていないドライブ上にあるなど、無効です。 |
-| IOException | ファイルは既に開いています。 |
+| UnauthorizedAccessException | *fileInfo* は読み取り専用か、ディレクトリです。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
+| InvalidOperationException | アーカイブの現在の状態によりエントリの追加が無効な場合にスローされます。 |
 
-### 備考
+## 備考
 
-エントリ名は、*name*パラメータ。で提供されているファイル名*fileInfo*パラメータは、エントリ名には影響しません。
+エントリ名は *name* パラメータ内でのみ設定されます。*fileInfo* パラメータで指定されたファイル名はエントリ名に影響しません。
 
-ファイルがすぐに開かれた場合*openImmediately*パラメータは、アーカイブが保存されるまでブロックされます。
+*openImmediately* パラメータでファイルをすぐに開くと、アーカイブが保存されるまでブロックされます。
 
-### 例
+## 例
 
-それぞれ異なる暗号化方法とパスワードで暗号化されたエントリでアーカイブを作成します。
+各エントリを異なる暗号化方式とパスワードで暗号化したアーカイブを作成します。
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -164,12 +174,12 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_2}
+## CreateEntry(string, Stream, ArchiveEntrySettings, FileSystemInfo) {#createentry_3}
 
 アーカイブ内に単一のエントリを作成します。
 
@@ -178,32 +188,33 @@ public ArchiveEntry CreateEntry(string name, Stream source, ArchiveEntrySettings
     FileSystemInfo fileInfo)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
 | source | Stream | エントリの入力ストリーム。 |
-| newEntrySettings | ArchiveEntrySettings | 追加に使用される圧縮と暗号化の設定[`ArchiveEntry`](../../archiveentry/)アイテム。 |
+| newEntrySettings | ArchiveEntrySettings | 追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定。 |
 | fileInfo | FileSystemInfo | 圧縮するファイルまたはフォルダーのメタデータ。 |
 
 ### 戻り値
 
-zip エントリのインスタンス。
+Zip エントリ インスタンス。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| InvalidOperationException | 両方*source*と*fileInfo*null または*source*はヌルであり、*fileInfo*ディレクトリの略です。 |
+| InvalidOperationException | *source* と *fileInfo* の両方が null であるか、*source* が null で *fileInfo* がディレクトリを表す場合です。 |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
 
-### 備考
+## 備考
 
-エントリ名は、*name*パラメータ。で提供されているファイル名*fileInfo*パラメータは、エントリ名には影響しません。
+エントリ名は *name* パラメータ内でのみ設定されます。*fileInfo* パラメータで指定されたファイル名はエントリ名に影響しません。
 
-*fileInfo*参照できますDirectoryInfoエントリがディレクトリの場合。
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### 例
+## 例
 
-暗号化されたエントリでアーカイブを作成します。
+暗号化されたエントリを含むアーカイブを作成します。
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -221,7 +232,64 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 * class [ArchiveEntry](../../archiveentry/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## CreateEntry(string, Func&lt;Stream&gt;, ArchiveEntrySettings) {#createentry}
+
+アーカイブ内に単一のエントリを作成します。
+
+```csharp
+public ArchiveEntry CreateEntry(string name, Func<Stream> streamProvider, 
+    ArchiveEntrySettings newEntrySettings = null)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| name | String | エントリの名前。 |
+| streamProvider | Func`1 | エントリ用の入力ストリームを提供するメソッドです。 |
+| newEntrySettings | ArchiveEntrySettings | 追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定。 |
+
+### 戻り値
+
+Zip エントリ インスタンス。
+
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
+| ArgumentException | *name* が null または空、あるいは *streamProvider* が null の場合にスローされます。 |
+| InvalidOperationException | アーカイブがエントリの追加をサポートしていない場合にスローされます。 |
+
+## 備考
+
+このメソッドは .NET Framework 4.0 以降および .NET Standard 2.0 以降のバージョン向けです。
+
+## 例
+
+暗号化されたエントリを含むアーカイブを作成します。
+
+```csharp
+System.Func<Stream> provider = delegate(){ return new MemoryStream(new byte[]{0xFF, 0x00}); };
+using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
+{
+    using (var archive = new Archive())
+    {
+        archive.CreateEntry("entry1.bin", provider, new ArchiveEntrySettings(new DeflateCompressionSettings(), new TraditionalEncryptionSettings("pass1")))); 
+        archive.Save(zipFile);
+    }
+}
+```
+
+### 関連項目
+
+* class [ArchiveEntry](../../archiveentry/)
+* class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

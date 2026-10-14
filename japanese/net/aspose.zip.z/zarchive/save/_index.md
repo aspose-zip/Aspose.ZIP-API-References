@@ -1,35 +1,37 @@
 ---
-title: ZArchive.Save
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ZArchive 方法. xz アーカイブを提供されたストリームに保存します
+title: "ZArchive.Save"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ZArchive メソッド。提供されたストリームに xz アーカイブを保存します"
 type: docs
-weight: 40
+weight: 50
 url: /ja/net/aspose.zip.z/zarchive/save/
 ---
-## Save(Stream) {#save}
+## Save(Stream, ZArchiveSaveOptions) {#save}
 
-xz アーカイブを提供されたストリームに保存します。
+提供されたストリームに xz アーカイブを保存します。
 
 ```csharp
-public void Save(Stream output)
+public void Save(Stream output, ZArchiveSaveOptions settings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| output | Stream | 宛先ストリーム。 |
+| output | Stream | 出力ストリーム。 |
+| 設定 | ZArchiveSaveOptions | アーカイブ構成のオプション設定。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentException | *output*シークをサポートしていません。 |
-| ArgumentNullException | *output*無効である。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| ArgumentException | *output* はシークをサポートしていません。 |
+| ArgumentNullException | *output* は null です。 |
 
-### 備考
+## 備考
 
-*output*シーク可能である必要があります。
+*output* must be seekable.
 
-### 例
+## 例
 
 ```csharp
 using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
@@ -44,36 +46,40 @@ using (FileStream zFile = File.Open("data.bin.z", FileMode.Create))
 
 ### 関連項目
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(string, ZArchiveSaveOptions) {#save_1}
 
-指定された宛先ファイルに Z アーカイブを保存します。
+提供された宛先ファイルに Z アーカイブを保存します。
 
 ```csharp
-public void Save(string destinationFileName)
+public void Save(string destinationFileName, ZArchiveSaveOptions settings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destinationFileName | String | +作成するアーカイブのパス。指定したファイル名が既存のファイルを指している場合、上書きされます。 |
+| destinationFileName | String | +作成するアーカイブのパス。指定されたファイル名が既存のファイルを指す場合、上書きされます。 |
+| 設定 | ZArchiveSaveOptions | アーカイブ構成のオプション設定。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*destinationFileName*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*destinationFileName*否定された。 |
-| PathTooLongException | 指定された*destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*destinationFileName*文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+| ArgumentNullException | *destinationFileName* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *destinationFileName* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *destinationFileName* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *destinationFileName* のファイルに文字列の途中にコロン (:) が含まれています。 |
+| IOException | ファイルを開く際に I/O エラーが発生しました。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new ZArchive()) 
@@ -85,8 +91,9 @@ using (var archive = new ZArchive())
 
 ### 関連項目
 
+* class [ZArchiveSaveOptions](../../zarchivesaveoptions/)
 * class [ZArchive](../)
-* 名前空間 [Aspose.Zip.Z](../../zarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Z](../../zarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

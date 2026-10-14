@@ -1,37 +1,38 @@
 ---
-title: GzipArchive.Save
-second_title: Aspose.ZIP for .NET API リファレンス
-description: GzipArchive 方法. 提供されたストリームにアーカイブを保存します
+title: "GzipArchive.Save"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "GzipArchive メソッド。提供されたストリームにアーカイブを保存します"
 type: docs
-weight: 60
+weight: 80
 url: /ja/net/aspose.zip.gzip/gziparchive/save/
 ---
 ## Save(Stream) {#save}
 
-提供されたストリームにアーカイブを保存します。
+アーカイブを指定されたストリームに保存します。
 
 ```csharp
 public void Save(Stream outputStream)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| outputStream | Stream | 宛先ストリーム。 |
+| outputStream | Stream | 出力ストリーム。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentException | *outputStream*書き込み不可です。 |
-| InvalidOperationException | ソースが提供されていません。 |
+| ArgumentException | *outputStream* は書き込み可能ではありません。 |
+| InvalidOperationException | ソースが指定されていません。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 備考
+## 備考
 
-*outputStream*書き込み可能でなければなりません。
+*outputStream* must be writable.
 
-### 例
+## 例
 
-圧縮データを http 応答ストリームに書き込みます。
+圧縮データを HTTP 応答ストリームに書き込みます。
 
 ```csharp
 using (var archive = new GzipArchive()) 
@@ -44,35 +45,36 @@ using (var archive = new GzipArchive())
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Save(string) {#save_1}
 
-指定された宛先ファイルにアーカイブを保存します。
+アーカイブを指定された宛先ファイルに保存します。
 
 ```csharp
 public void Save(string destinationFileName)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| destinationFileName | String | 作成するアーカイブのパス。指定したファイル名が既存のファイルを指している場合、上書きされます。 |
+| destinationFileName | String | 作成するアーカイブのパス。指定されたファイル名が既存のファイルを指す場合、上書きされます。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *destinationFileName*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*destinationFileName*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*destinationFileName*否定された。 |
-| PathTooLongException | 指定された*destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*destinationFileName*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *destinationFileName* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *destinationFileName* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *destinationFileName* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *destinationFileName*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *destinationFileName* のファイルに文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new GzipArchive())
@@ -85,7 +87,7 @@ using (var archive = new GzipArchive())
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

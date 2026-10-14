@@ -1,14 +1,14 @@
 ---
-title: Class RarArchiveEntryEncrypted
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Rar.RarArchiveEntryEncrypted クラス. 復号化で解凍する必要がある zip エントリ.
+title: "クラス RarArchiveEntryEncrypted"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Rar.RarArchiveEntryEncrypted クラス。復号しながら解凍する必要がある Zip エントリです"
 type: docs
-weight: 330
+weight: 810
 url: /ja/net/aspose.zip.rar/rararchiveentryencrypted/
 ---
 ## RarArchiveEntryEncrypted class
 
-復号化で解凍する必要がある zip エントリ.
+復号付きで解凍する必要がある Zip エントリです。
 
 ```csharp
 public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
@@ -23,27 +23,27 @@ public sealed class RarArchiveEntryEncrypted : RarArchiveEntry
 | [IsDirectory](../../aspose.zip.rar/rararchiveentry/isdirectory/) { get; } | エントリがディレクトリを表すかどうかを示す値を取得します。 |
 | [LastAccessTime](../../aspose.zip.rar/rararchiveentry/lastaccesstime/) { get; } | 最終アクセス日時を取得します。 |
 | [ModificationTime](../../aspose.zip.rar/rararchiveentry/modificationtime/) { get; } | 最終更新日時を取得します。 |
-| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | アーカイブ内のエントリの名前を取得します。 |
+| [Name](../../aspose.zip.rar/rararchiveentry/name/) { get; } | アーカイブ内エントリの名前を取得します。 |
 | [UncompressedSize](../../aspose.zip.rar/rararchiveentry/uncompressedsize/) { get; } | 元のファイルのサイズを取得します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(Stream, string) | 提供されたストリームにエントリを抽出します。 |
-| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(string, string) | 提供されたパスによってファイルシステムへのエントリを抽出します. |
-| [Open](../../aspose.zip.rar/rararchiveentry/open/)(string) | エントリを抽出用に開き、圧縮解除されたエントリ コンテンツを含むストリームを提供します。 |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(Stream, string) | エントリを提供されたストリームに抽出します。 |
+| [Extract](../../aspose.zip.rar/rararchiveentry/extract/)(string, string) | エントリを提供されたパスでファイルシステムに抽出します。 |
+| [Open](../../aspose.zip.rar/rararchiveentry/open/)(string) | エントリを抽出用に開き、解凍されたエントリ内容を含むストリームを提供します。 |
 
 ## イベント
 
 | 名前 | 説明 |
 | --- | --- |
-| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | raw ストリームの一部が抽出されたときに発生します。 |
+| event [ExtractionProgressed](../../aspose.zip.rar/rararchiveentry/extractionprogressed/) | 生ストリームの一部が抽出されたときに発生します。 |
 
 ### 関連項目
 
 * class [RarArchiveEntry](../rararchiveentry/)
-* 名前空間 [Aspose.Zip.Rar](../../aspose.zip.rar/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Rar](../../aspose.zip.rar/)
+* assembly [Aspose.Zip](../../)
 
 

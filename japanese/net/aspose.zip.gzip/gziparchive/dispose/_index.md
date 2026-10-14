@@ -1,14 +1,14 @@
 ---
-title: GzipArchive.Dispose
-second_title: Aspose.ZIP for .NET API リファレンス
-description: GzipArchive 方法. アンマネージ リソースの解放解放またはリセットに関連するアプリケーション定義のタスクを実行します
+title: "GzipArchive.Dispose"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "GzipArchive メソッド。アンマネージドリソースの解放、リリース、またはリセットに関連するアプリケーション定義のタスクを実行します"
 type: docs
-weight: 30
+weight: 40
 url: /ja/net/aspose.zip.gzip/gziparchive/dispose/
 ---
 ## GzipArchive.Dispose method
 
-アンマネージ リソースの解放、解放、またはリセットに関連するアプリケーション定義のタスクを実行します。
+アンマネージド リソースの解放、リリース、またはリセットに関連するアプリケーション定義のタスクを実行します。
 
 ```csharp
 public void Dispose()
@@ -17,7 +17,7 @@ public void Dispose()
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

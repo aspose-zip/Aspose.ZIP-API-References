@@ -1,26 +1,26 @@
 ---
-title: Archive.Archive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Archive コンストラクタ. の新しいインスタンスを初期化しますArchiveエントリのオプション設定を持つクラス.
+title: "Archive.Archive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Archive コンストラクタ。エントリのオプション設定を使用して Archive クラスの新しいインスタンスを初期化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip/archive/archive/
 ---
 ## Archive(ArchiveEntrySettings) {#constructor}
 
-の新しいインスタンスを初期化します[`Archive`](../)エントリのオプション設定を持つクラス.
+エントリのオプション設定を使用して、[`Archive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public Archive(ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| newEntrySettings | ArchiveEntrySettings | 新たに追加された圧縮と暗号化の設定[`ArchiveEntry`](../../archiveentry/) items. 指定しない場合、最も一般的な暗号化なしの Deflate 圧縮が使用されます。 |
+| newEntrySettings | ArchiveEntrySettings | 新しく追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定です。指定しない場合、暗号化なしの最も一般的な Deflate 圧縮が使用されます。 |
 
-### 例
+## 例
 
-次の例は、既定の設定で 1 つのファイルを圧縮する方法を示しています。
+以下の例は、デフォルト設定で単一ファイルを圧縮する方法を示しています。
 
 ```csharp
 using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
@@ -37,40 +37,42 @@ using (FileStream zipFile = File.Open("archive.zip", FileMode.Create))
 
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(Stream, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_1}
 
-の新しいインスタンスを初期化します[`Archive`](../)クラスと構成エントリのリストは、アーカイブから抽出できます。
+[`Archive`](../) クラスの新しいインスタンスを初期化し、アーカイブから抽出できるエントリリストを構成します。
 
 ```csharp
 public Archive(Stream sourceStream, ArchiveLoadOptions loadOptions = null, 
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourceStream | Stream | アーカイブのソース。 |
-| loadOptions | ArchiveLoadOptions | 既存のアーカイブをロードするオプション。 |
-| newEntrySettings | ArchiveEntrySettings | 新たに追加された圧縮と暗号化の設定[`ArchiveEntry`](../../archiveentry/) items. 指定しない場合、最も一般的な暗号化なしの Deflate 圧縮が使用されます。 |
+| sourceStream | Stream | アーカイブのソースです。 |
+| loadOptions | ArchiveLoadOptions | 既存のアーカイブを読み込むためのオプションです。 |
+| newEntrySettings | ArchiveEntrySettings | 新しく追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定です。指定しない場合、暗号化なしの最も一般的な Deflate 圧縮が使用されます。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentException | *sourceStream*はシークできません。 |
-| InvalidDataException | AES の暗号化ヘッダーが WinZip 圧縮方式と矛盾しています。 |
+| ArgumentException | *sourceStream* はシークできません。[`ForwardOnly`](../../archiveloadoptions/forwardonly/) が設定されていない状態でロードされた場合です。 |
+| InvalidDataException | AES の暗号化ヘッダーが WinZip の圧縮方式と矛盾しています。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
+| NotSupportedException | 評価モードで読み取り専用ストリームからアーカイブがロードされたときにスローされます。 |
 
-### 備考
+## 備考
 
-このコンストラクタは、エントリを解凍しません。見る[`Open`](../../archiveentry/open/)解凍方法.
+このコンストラクタはエントリを展開しません。展開するには [`Open`](../../archiveentry/open/) メソッドをご覧ください。
 
-### 例
+## 例
 
-次の例では、暗号化されたアーカイブを抽出し、最初のエントリを解凍します。`メモリーストリーム`.
+以下の例は暗号化されたアーカイブを抽出し、最初のエントリを `MemoryStream` に展開します。
 
 ```csharp
 var fs = File.OpenRead("encrypted.zip");
@@ -92,44 +94,49 @@ using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPa
 * class [ArchiveLoadOptions](../../archiveloadoptions/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Archive(string, ArchiveLoadOptions, ArchiveEntrySettings) {#constructor_2}
 
-の新しいインスタンスを初期化します[`Archive`](../)クラスと構成エントリのリストは、アーカイブから抽出できます。
+[`Archive`](../) クラスの新しいインスタンスを初期化し、アーカイブから抽出できるエントリリストを構成します。
 
 ```csharp
 public Archive(string path, ArchiveLoadOptions loadOptions = null, 
     ArchiveEntrySettings newEntrySettings = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| path | String | アーカイブ ファイルへの完全修飾パスまたは相対パス。 |
-| loadOptions | ArchiveLoadOptions | 既存のアーカイブをロードするオプション。 |
-| newEntrySettings | ArchiveEntrySettings | 新たに追加された圧縮と暗号化の設定[`ArchiveEntry`](../../archiveentry/) items. 指定しない場合、最も一般的な暗号化なしの Deflate 圧縮が使用されます。 |
+| path | String | アーカイブファイルへの完全修飾パスまたは相対パスです。 |
+| loadOptions | ArchiveLoadOptions | 既存のアーカイブを読み込むためのオプションです。 |
+| newEntrySettings | ArchiveEntrySettings | 新しく追加された [`ArchiveEntry`](../../archiveentry/) アイテムに使用される圧縮および暗号化設定です。指定しない場合、暗号化なしの最も一般的な Deflate 圧縮が使用されます。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| FileNotFoundException | ファイルが見つかりません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| IOException | ファイルは既に開かれています。 |
+| InvalidDataException | ファイルが破損しています。 |
+| EndOfStreamException | 期待されたバイト数が読み取られる前にストリームの終端に達したときにスローされます。 |
 
-### 備考
+## 備考
 
-このコンストラクタは、エントリを解凍しません。見る[`Open`](../../archiveentry/open/)解凍方法.
+このコンストラクタはエントリを展開しません。展開するには [`Open`](../../archiveentry/open/) メソッドをご覧ください。
 
-### 例
+## 例
 
-次の例では、暗号化されたアーカイブを抽出し、最初のエントリを解凍します。`メモリーストリーム`.
+以下の例は暗号化されたアーカイブを抽出し、最初のエントリを `MemoryStream` に展開します。
 
 ```csharp
 var extracted = new MemoryStream();
@@ -150,7 +157,52 @@ using (Archive archive = new Archive("encrypted.zip", new ArchiveLoadOptions() {
 * class [ArchiveLoadOptions](../../archiveloadoptions/)
 * class [ArchiveEntrySettings](../../../aspose.zip.saving/archiveentrysettings/)
 * class [Archive](../)
-* 名前空間 [Aspose.Zip](../../archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## Archive(string, string[], ArchiveLoadOptions) {#constructor_3}
+
+マルチボリューム ZIP アーカイブから [`Archive`](../) クラスの新しいインスタンスを初期化し、アーカイブから抽出できるエントリリストを構成します。
+
+```csharp
+public Archive(string mainSegment, string[] segmentsInOrder, ArchiveLoadOptions loadOptions = null)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| mainSegment | String | 中央ディレクトリを含むマルチボリュームアーカイブの最後のセグメントへのパスです。 |
+| segmentsInOrder | String[] | 順序を考慮したマルチボリューム zip アーカイブの最後以外の各セグメントへのパスです。 |
+| loadOptions | ArchiveLoadOptions | 既存のアーカイブを読み込むためのオプションです。 |
+
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| EndOfStreamException | 提供されたファイルが破損しているため、ZIP ヘッダーを読み込めません。 |
+| DirectoryNotFoundException | 指定されたパスが無効です（例: マッピングされていないドライブ上にある場合）。 |
+| FileNotFoundException | パスで指定されたファイルが見つかりませんでした。 |
+| IOException | ファイルを開く際に I/O エラーが発生しました。 |
+| PathTooLongException | 指定されたパス、ファイル名、またはその両方がシステムで定義された最大長を超えています。 |
+| UnauthorizedAccessException | パスがディレクトリを指しています。 -or- 呼び出し元に必要な権限がありません。 |
+
+## 例
+
+このサンプルは、3 つのセグメントからなるアーカイブをディレクトリに抽出します。
+
+```csharp
+using (Archive a = new Archive("archive.zip", new string[] { "archive.z01", "archive.z02" }))
+{
+    a.ExtractToDirectory("destination");
+}
+```
+
+### 関連項目
+
+* class [ArchiveLoadOptions](../../archiveloadoptions/)
+* class [Archive](../)
+* namespace [Aspose.Zip](../../archive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,7 +1,7 @@
 ---
-title: IArchiveFileEntry.Name
-second_title: Aspose.ZIP for .NET API リファレンス
-description: IArchiveFileEntry 財産. エントリの名前を取得します
+title: "IArchiveFileEntry.Name"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "IArchiveFileEntry プロパティ。エントリの名前を取得します"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip/iarchivefileentry/name/
@@ -14,14 +14,14 @@ url: /ja/net/aspose.zip/iarchivefileentry/name/
 public string Name { get; }
 ```
 
-### 備考
+## 備考
 
-gzip、bzip2、lzip、lzma、xz、z などの圧縮のみのアーカイブには、ヘッダーに別の名前が見つからない限り、「File.bin」という名前が付けられます。
+gzip、bzip2、lzip、lzma、xz、z など、圧縮専用のアーカイブは、ヘッダーで別の名前が見つからない限り、名前が "File.bin" になります。
 
 ### 関連項目
 
 * interface [IArchiveFileEntry](../)
-* 名前空間 [Aspose.Zip](../../iarchivefileentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../iarchivefileentry/)
+* assembly [Aspose.Zip](../../../)
 
 

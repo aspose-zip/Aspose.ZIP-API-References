@@ -1,14 +1,14 @@
 ---
-title: EntryEventArgs.Entry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: EntryEventArgs 財産. イベントが発生したアーカイブ エントリを取得します
+title: "EntryEventArgs.Entry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "EntryEventArgs プロパティ。イベントが発生するアーカイブエントリを取得します"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip/entryeventargs/entry/
 ---
 ## EntryEventArgs.Entry property
 
-イベントが発生したアーカイブ エントリを取得します。
+イベントが発生した対象のアーカイブ エントリを取得します。
 
 ```csharp
 public ArchiveEntry Entry { get; }
@@ -18,7 +18,7 @@ public ArchiveEntry Entry { get; }
 
 * class [ArchiveEntry](../../archiveentry/)
 * class [EntryEventArgs](../)
-* 名前空間 [Aspose.Zip](../../entryeventargs/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../entryeventargs/)
+* assembly [Aspose.Zip](../../../)
 
 

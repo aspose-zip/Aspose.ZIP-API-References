@@ -1,14 +1,14 @@
 ---
-title: Bzip2Archive.Open
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Bzip2Archive 方法. 抽出のためにアーカイブを開きアーカイブ コンテンツを含むストリームを提供します
+title: "Bzip2Archive.Open"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Bzip2Archive メソッド。アーカイブを抽出用に開き、アーカイブ内容を含むストリームを提供します。"
 type: docs
-weight: 40
+weight: 50
 url: /ja/net/aspose.zip.bzip2/bzip2archive/open/
 ---
 ## Bzip2Archive.Open method
 
-抽出のためにアーカイブを開き、アーカイブ コンテンツを含むストリームを提供します。
+抽出用にアーカイブを開き、アーカイブ内容のストリームを提供します。
 
 ```csharp
 public Stream Open()
@@ -16,23 +16,33 @@ public Stream Open()
 
 ### 戻り値
 
-アーカイブの内容を表すストリーム。
+アーカイブの内容を表すストリームです。
 
-### 備考
+### 例外
 
-ストリームから読み取り、ファイルの元のコンテンツを取得します。例のセクションを参照してください。
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
 
-### 例
+## 備考
 
-使用法:
+ストリームから読み取り、ファイルの元の内容を取得します。例のセクションをご覧ください。
 
-.NET 4.0 以降 - Stream.CopyTo メソッドを使用:
+## 例
+
+使用方法:
+
+```csharp
+Stream decompressed = archive.Open();
+```
+
+.NET 4.0 以降 - Stream.CopyTo メソッドを使用します:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 以前 - バイトを手動でコピー:
+.NET 3.5 以前 - バイトを手動でコピーします:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -41,14 +51,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = archive.Open();
-```
-
 ### 関連項目
 
 * class [Bzip2Archive](../)
-* 名前空間 [Aspose.Zip.Bzip2](../../bzip2archive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Bzip2](../../bzip2archive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,42 +1,53 @@
 ---
-title: ArchiveEntry.Open
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveEntry 方法. エントリを抽出用に開き圧縮解除されたエントリ コンテンツを含むストリームを提供します
+title: "ArchiveEntry.Open"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveEntry メソッド。エントリを抽出用に開き、解凍されたエントリ内容を含むストリームを提供します。"
 type: docs
-weight: 110
+weight: 120
 url: /ja/net/aspose.zip/archiveentry/open/
 ---
 ## ArchiveEntry.Open method
 
-エントリを抽出用に開き、圧縮解除されたエントリ コンテンツを含むストリームを提供します。
+エントリを抽出用に開き、解凍されたエントリ内容を含むストリームを提供します。
 
 ```csharp
 public Stream Open(string password = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| password | String | 復号化のためのオプションのパスワード。 |
+| password | String | 復号化用のオプションのパスワードです。 |
 
 ### 戻り値
 
-エントリの内容を表すストリーム。
+エントリの内容を表すストリームです。
 
-### 備考
+### 例外
 
-ストリームから読み取り、ファイルの元のコンテンツを取得します。例のセクションを参照してください。
+| 例外 | 条件 |
+| --- | --- |
+| InvalidOperationException | アーカイブの状態が正しくありません。 |
+| ObjectDisposedException | アーカイブが破棄された場合にスローされます。 |
 
-### 例
+## 備考
 
-使用法:
+ストリームから読み取り、ファイルの元の内容を取得します。例のセクションをご覧ください。
 
-.NET 4.0 以降 - Stream.CopyTo メソッドを使用:
+## 例
+
+使用方法:
+
+```csharp
+Stream decompressed = entry.Open();
+```
+
+.NET 4.0 以降 - Stream.CopyTo メソッドを使用します:
 
 ```csharp
 decompressed.CopyTo(httpResponse.OutputStream)
 ```
 
-.NET 3.5 以前 - バイトを手動でコピー:
+.NET 3.5 以前 - バイトを手動でコピーします:
 
 ```csharp
 byte[] buffer = new byte[8192];
@@ -45,14 +56,10 @@ while (0 < (bytesRead = decompressed.Read(buffer, 0, buffer.Length)))
  fileStream.Write(buffer, 0, bytesRead);
 ```
 
-```csharp
-Stream decompressed = entry.Open();
-```
-
 ### 関連項目
 
 * class [ArchiveEntry](../)
-* 名前空間 [Aspose.Zip](../../archiveentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveentry/)
+* assembly [Aspose.Zip](../../../)
 
 

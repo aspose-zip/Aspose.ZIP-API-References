@@ -1,9 +1,9 @@
 ---
-title: ArchiveLoadOptions.DecryptionPassword
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveLoadOptions 財産. エントリを復号化するためのパスワードを取得または設定します
+title: "ArchiveLoadOptions.DecryptionPassword"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveLoadOptions プロパティ。エントリを復号化するパスワードを取得または設定します"
 type: docs
-weight: 20
+weight: 30
 url: /ja/net/aspose.zip/archiveloadoptions/decryptionpassword/
 ---
 ## ArchiveLoadOptions.DecryptionPassword property
@@ -14,16 +14,16 @@ url: /ja/net/aspose.zip/archiveloadoptions/decryptionpassword/
 public string DecryptionPassword { get; set; }
 ```
 
-### 例
+## 例
 
-アーカイブの抽出時に一度だけ復号化パスワードを提供できます。
+アーカイブ抽出時に復号化パスワードを一度だけ提供できます。
 
 ```csharp
 using (FileStream fs = File.OpenRead("encrypted_archive.zip"))
 {
     using (var extracted = File.Create("extracted.bin"))
     {
-        using (Archive archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
+        using (var archive = new Archive(fs, new ArchiveLoadOptions() { DecryptionPassword = "p@s$" }))
         {
             using (var decompressed = archive.Entries[0].Open())
             {
@@ -42,7 +42,7 @@ using (FileStream fs = File.OpenRead("encrypted_archive.zip"))
 
 * method [Open](../../archiveentry/open/)
 * class [ArchiveLoadOptions](../)
-* 名前空間 [Aspose.Zip](../../archiveloadoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

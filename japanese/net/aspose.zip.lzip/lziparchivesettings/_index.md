@@ -1,14 +1,14 @@
 ---
-title: Class LzipArchiveSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Lzip.LzipArchiveSettings クラス. クラスには特定の lzip アーカイブの設定が含まれています
+title: "クラス LzipArchiveSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Lzip.LzipArchiveSettings クラス。 このクラスは特定の lzip アーカイブの設定を含みます。"
 type: docs
-weight: 280
+weight: 710
 url: /ja/net/aspose.zip.lzip/lziparchivesettings/
 ---
 ## LzipArchiveSettings class
 
-クラスには、特定の lzip アーカイブの設定が含まれています。
+このクラスは特定の lzip アーカイブの設定を含みます。
 
 ```csharp
 public class LzipArchiveSettings
@@ -18,23 +18,24 @@ public class LzipArchiveSettings
 
 | 名前 | 説明 |
 | --- | --- |
-| [LzipArchiveSettings](lziparchivesettings/)(int, int) | の新しいインスタンスを初期化します`LzipArchiveSettings`特定の辞書サイズ. |
+| [LzipArchiveSettings](lziparchivesettings/)(int, int) | `LzipArchiveSettings` の新しいインスタンスを特定の辞書サイズで初期化します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed/) { get; } | のインスタンスを取得します`LzipArchiveSettings` LZMA filter. で辞書サイズが 65536 バイトに等しい class |
-| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed/) { get; } | のインスタンスを取得します`LzipArchiveSettings` LZMA フィルターで辞書サイズが 1 メガバイトに等しい class . |
-| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression/) { get; } | のインスタンスを取得します`LzipArchiveSettings` LZMA filter. で辞書サイズが 32 メガバイトに等しい class |
-| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression/) { get; } | のインスタンスを取得します`LzipArchiveSettings` LZMA フィルターで辞書サイズが 64 メガバイトに等しい class . |
-| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal/) { get; } | のインスタンスを取得します`LzipArchiveSettings` LZMA filter. で辞書サイズが 16 メガバイトに等しい class |
+| static [FastestSpeed](../../aspose.zip.lzip/lziparchivesettings/fastestspeed/) { get; } | LZMA フィルタで辞書サイズが 65536 バイトの `LzipArchiveSettings` クラスのインスタンスを取得します。 |
+| static [FastSpeed](../../aspose.zip.lzip/lziparchivesettings/fastspeed/) { get; } | LZMA フィルタで辞書サイズが 1 メガバイトの `LzipArchiveSettings` クラスのインスタンスを取得します。 |
+| static [HighCompression](../../aspose.zip.lzip/lziparchivesettings/highcompression/) { get; } | LZMA フィルタで辞書サイズが 32 メガバイトの `LzipArchiveSettings` クラスのインスタンスを取得します。 |
+| static [MaximumCompression](../../aspose.zip.lzip/lziparchivesettings/maximumcompression/) { get; } | LZMA フィルタで辞書サイズが 64 メガバイトの `LzipArchiveSettings` クラスのインスタンスを取得します。 |
+| static [Normal](../../aspose.zip.lzip/lziparchivesettings/normal/) { get; } | LZMA フィルタで辞書サイズが 16 メガバイトの `LzipArchiveSettings` クラスのインスタンスを取得します。 |
+| [CompressionThreads](../../aspose.zip.lzip/lziparchivesettings/compressionthreads/) { get; set; } | 圧縮スレッド数を取得または設定します。値が 1 より大きい場合、マルチスレッド圧縮が使用されます。 |
 | [DictionarySize](../../aspose.zip.lzip/lziparchivesettings/dictionarysize/) { get; } | LZMA 圧縮で使用される辞書のサイズを取得します。 |
-| [MaxMemberSize](../../aspose.zip.lzip/lziparchivesettings/maxmembersize/) { get; } | lzip アーカイブ内の 1 つのメンバーの最大サイズをバイト単位で取得します。 |
+| [MaxMemberSize](../../aspose.zip.lzip/lziparchivesettings/maxmembersize/) { get; } | lzip アーカイブ内の 1 メンバーの最大サイズ（バイト単位）を取得します。 |
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Lzip](../../aspose.zip.lzip/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Lzip](../../aspose.zip.lzip/)
+* assembly [Aspose.Zip](../../)
 
 

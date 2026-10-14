@@ -1,30 +1,30 @@
 ---
-title: Bzip2CompressionSettings.Bzip2CompressionSettings
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Bzip2CompressionSettings コンストラクタ. の新しいインスタンスを初期化しますBzip2CompressionSettingsclass.
+title: "Bzip2CompressionSettings.Bzip2CompressionSettings"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Bzip2CompressionSettings コンストラクタ。Bzip2CompressionSettings クラスの新しいインスタンスを初期化します。"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.saving/bzip2compressionsettings/bzip2compressionsettings/
 ---
 ## Bzip2CompressionSettings(int) {#constructor_1}
 
-の新しいインスタンスを初期化します[`Bzip2CompressionSettings`](../)class.
+`[`Bzip2CompressionSettings`](../)` クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public Bzip2CompressionSettings(int blockSize)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| blockSize | Int32 | 数百キロバイト単位のブロック サイズ。 |
+| blockSize | Int32 | ブロックサイズ（百キロバイト単位）。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | ブロック サイズが 1 から 9 の間ではありません。 |
+| ArgumentOutOfRangeException | ブロックサイズが1から9の範囲にありません。 |
 
-### 例
+## 例
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings(1))))
@@ -37,20 +37,20 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 ### 関連項目
 
 * class [Bzip2CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
 ## Bzip2CompressionSettings() {#constructor}
 
-の新しいインスタンスを初期化します[`Bzip2CompressionSettings`](../)デフォルトのブロック サイズを持つクラスで、900 キロバイトに相当します。
+デフォルトのブロックサイズ（9百キロバイト）で、[`Bzip2CompressionSettings`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public Bzip2CompressionSettings()
 ```
 
-### 例
+## 例
 
 ```csharp
 using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2CompressionSettings())))
@@ -63,7 +63,7 @@ using (Archive archive = new Archive(new ArchiveEntrySettings(new Bzip2Compressi
 ### 関連項目
 
 * class [Bzip2CompressionSettings](../)
-* 名前空間 [Aspose.Zip.Saving](../../bzip2compressionsettings/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../bzip2compressionsettings/)
+* assembly [Aspose.Zip](../../../)
 
 

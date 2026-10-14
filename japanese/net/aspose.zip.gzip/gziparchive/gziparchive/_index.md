@@ -1,22 +1,22 @@
 ---
-title: GzipArchive.GzipArchive
-second_title: Aspose.ZIP for .NET API リファレンス
-description: GzipArchive コンストラクタ. の新しいインスタンスを初期化しますGzipArchive圧縮用に準備されたクラス.
+title: "GzipArchive.GzipArchive"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "GzipArchive コンストラクタ。圧縮用に準備された GzipArchive クラスの新しいインスタンスを初期化します"
 type: docs
 weight: 10
 url: /ja/net/aspose.zip.gzip/gziparchive/gziparchive/
 ---
 ## GzipArchive() {#constructor}
 
-の新しいインスタンスを初期化します[`GzipArchive`](../)圧縮用に準備されたクラス.
+圧縮用に準備された [`GzipArchive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public GzipArchive()
 ```
 
-### 例
+## 例
 
-次の例は、ファイルを圧縮する方法を示しています。
+以下の例はファイルを圧縮する方法を示しています。
 
 ```csharp
 using (GzipArchive archive = new GzipArchive()) 
@@ -29,31 +29,39 @@ using (GzipArchive archive = new GzipArchive())
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## GzipArchive(Stream, bool) {#constructor_1}
+## GzipArchive(Stream, bool) {#constructor_2}
 
-の新しいインスタンスを初期化します[`GzipArchive`](../)解凍用に準備されたクラス.
+解凍用に準備された [`GzipArchive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public GzipArchive(Stream sourceStream, bool parseHeader = false)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sourceStream | Stream | アーカイブのソース。 |
-| parseHeader | Boolean | 名前を含むプロパティを把握するためにストリーム ヘッダーを解析するかどうか。シーク可能なストリームのみに意味があります。 |
+| sourceStream | Stream | アーカイブのソースです。 |
+| parseHeader | Boolean | 名前を含むプロパティを取得するためにストリームヘッダーを解析するかどうか。シーク可能なストリームに対してのみ意味があります。 |
 
-### 備考
+### 例外
 
-このコンストラクターは解凍しません。見る[`Open`](../open/)解凍方法.
+| 例外 | 条件 |
+| --- | --- |
+| ArgumentNullException | *sourceStream* が null です。 |
+| EndOfStreamException | *sourceStream* が短すぎます。 |
+| InvalidDataException | *sourceStream* のシグネチャが正しくありません。 |
 
-### 例
+## 備考
 
-ストリームからアーカイブを開き、`メモリーストリーム`
+このコンストラクタは解凍しません。解凍するには[`Open`](../open/)メソッドをご覧ください。
+
+## 例
+
+ストリームからアーカイブを開き、`MemoryStream` に抽出します
 
 ```csharp
 var ms = new MemoryStream();
@@ -64,42 +72,139 @@ using (GzipArchive archive = new GzipArchive(File.OpenRead("archive.gz")))
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
-## GzipArchive(string, bool) {#constructor_2}
+## GzipArchive(Stream, GzipLoadOptions) {#constructor_1}
 
-の新しいインスタンスを初期化します[`GzipArchive`](../)class.
+解凍用に準備された [`GzipArchive`](../) クラスの新しいインスタンスを初期化します。
+
+```csharp
+public GzipArchive(Stream sourceStream, GzipLoadOptions options)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| sourceStream | Stream | アーカイブのソースです。 |
+| オプション | GzipLoadOptions | アーカイブを読み込む際のオプション。 |
+
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ArgumentNullException | *sourceStream* が null です。 |
+| EndOfStreamException | *sourceStream* が短すぎます。 |
+| InvalidDataException | *sourceStream* のシグネチャが正しくありません。 |
+
+## 備考
+
+このコンストラクタは解凍しません。解凍するには[`Open`](../open/)メソッドをご覧ください。
+
+## 例
+
+ストリームからアーカイブを開き、`MemoryStream` に抽出します
+
+```csharp
+var ms = new MemoryStream();
+GzipLoadOptions options = new GzipLoadOptions();
+using (GzipArchive archive = new GzipArchive(File.OpenRead("archive.gz"), options))
+  archive.Extract(ms);
+```
+
+### 関連項目
+
+* class [GzipLoadOptions](../../gziploadoptions/)
+* class [GzipArchive](../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GzipArchive(string, GzipLoadOptions) {#constructor_3}
+
+解凍用に準備された [`GzipArchive`](../) クラスの新しいインスタンスを初期化します。
+
+```csharp
+public GzipArchive(string path, GzipLoadOptions options)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| path | String | アーカイブ ファイルへのパス。 |
+| オプション | GzipLoadOptions | アーカイブを読み込む際のオプション。 |
+
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にアクセスに必要な権限がありません |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| EndOfStreamException | ファイルが短すぎます。 |
+| InvalidDataException | ファイル内のデータのシグネチャが正しくありません。 |
+
+## 備考
+
+このコンストラクタは解凍しません。解凍するには[`Open`](../open/)メソッドをご覧ください。
+
+## 例
+
+パスで指定したファイルからアーカイブを開き、`MemoryStream` に抽出します。
+
+```csharp
+var ms = new MemoryStream();
+GzipLoadOptions options = new GzipLoadOptions();
+using (GzipArchive archive = new GzipArchive("archive.gz", options))
+  archive.Extract(ms);
+```
+
+### 関連項目
+
+* class [GzipLoadOptions](../../gziploadoptions/)
+* class [GzipArchive](../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
+
+---
+
+## GzipArchive(string, bool) {#constructor_4}
+
+解凍用に準備された [`GzipArchive`](../) クラスの新しいインスタンスを初期化します。
 
 ```csharp
 public GzipArchive(string path, bool parseHeader = false)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | path | String | アーカイブ ファイルへのパス。 |
-| parseHeader | Boolean | 名前を含むプロパティを把握するためにストリーム ヘッダーを解析するかどうか。シーク可能なストリームのみに意味があります。 |
+| parseHeader | Boolean | 名前を含むプロパティを取得するためにストリームヘッダーを解析するかどうか。シーク可能なストリームに対してのみ意味があります。 |
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみ、または無効な文字が含まれています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| EndOfStreamException | ファイルが短すぎます。 |
+| InvalidDataException | ファイル内のデータのシグネチャが正しくありません。 |
 
-### 備考
+## 備考
 
-このコンストラクターは解凍しません。見る[`Open`](../open/)解凍方法.
+このコンストラクタは解凍しません。解凍するには[`Open`](../open/)メソッドをご覧ください。
 
-### 例
+## 例
 
-パスでファイルからアーカイブを開き、それを`メモリーストリーム`
+パスで指定したファイルからアーカイブを開き、`MemoryStream` に抽出します。
 
 ```csharp
 var ms = new MemoryStream();
@@ -110,7 +215,7 @@ using (GzipArchive archive = new GzipArchive("archive.gz"))
 ### 関連項目
 
 * class [GzipArchive](../)
-* 名前空間 [Aspose.Zip.Gzip](../../gziparchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Gzip](../../gziparchive/)
+* assembly [Aspose.Zip](../../../)
 
 

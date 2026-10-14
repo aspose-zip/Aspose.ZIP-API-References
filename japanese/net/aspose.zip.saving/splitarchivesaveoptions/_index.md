@@ -1,14 +1,14 @@
 ---
-title: Class SplitArchiveSaveOptions
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.Saving.SplitArchiveSaveOptions クラス. マルチボリュームの zip アーカイブを保存するためのオプション
+title: "SplitArchiveSaveOptions クラス"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.Saving.SplitArchiveSaveOptions クラス。マルチボリューム ZIP アーカイブを保存するためのオプション"
 type: docs
-weight: 610
+weight: 1120
 url: /ja/net/aspose.zip.saving/splitarchivesaveoptions/
 ---
 ## SplitArchiveSaveOptions class
 
-マルチボリュームの zip アーカイブを保存するためのオプション。
+マルチボリューム ZIP アーカイブを保存するためのオプション。
 
 ```csharp
 public class SplitArchiveSaveOptions
@@ -18,19 +18,23 @@ public class SplitArchiveSaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [SplitArchiveSaveOptions](splitarchivesaveoptions/)(string, uint) | マルチボリューム zip アーカイブを保存するための設定をインスタンス化します。 |
+| [SplitArchiveSaveOptions](splitarchivesaveoptions/#constructor_1)(uint) | マルチボリューム ZIP アーカイブを保存するための設定をインスタンス化します。 |
+| [SplitArchiveSaveOptions](splitarchivesaveoptions/#constructor)(string, uint) | マルチボリューム ZIP アーカイブを保存するための設定をインスタンス化します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Encoding](../../aspose.zip.saving/splitarchivesaveoptions/encoding/) { get; set; } | ファイル名やその他の文字列をバイトに変換するためのエンコーディングを取得または設定します。 |
+| [ArchiveComment](../../aspose.zip.saving/splitarchivesaveoptions/archivecomment/) { get; set; } | Zip ファイルの任意のコメントを取得または設定します。 |
+| [CloseEntrySource](../../aspose.zip.saving/splitarchivesaveoptions/closeentrysource/) { get; set; } | エントリが圧縮された直後にエントリのソースを閉じるかどうかを示す値を取得または設定します。 |
+| [Encoding](../../aspose.zip.saving/splitarchivesaveoptions/encoding/) { get; set; } | ファイル名やその他の文字列をバイトに変換するエンコーディングを取得または設定します。 |
+| [EventsBag](../../aspose.zip.saving/splitarchivesaveoptions/eventsbag/) { get; set; } | アーカイブ保存時に発生するイベントのコンテナを取得または設定します。 |
 | [FileName](../../aspose.zip.saving/splitarchivesaveoptions/filename/) { get; } | 拡張子なしのセグメント名を取得します。 |
 | [SegmentSize](../../aspose.zip.saving/splitarchivesaveoptions/segmentsize/) { get; } | セグメントのサイズを取得します。 |
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip.Saving](../../aspose.zip.saving/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip.Saving](../../aspose.zip.saving/)
+* assembly [Aspose.Zip](../../)
 
 

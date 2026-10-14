@@ -1,7 +1,7 @@
 ---
-title: ParallelOptions.ParallelCompressInMemory
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ParallelOptions 財産. 並列アプローチの使用方法を示す値を取得または設定します
+title: "ParallelOptions.ParallelCompressInMemory"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ParallelOptions プロパティ。並列アプローチの使用方法を示す値を取得または設定します"
 type: docs
 weight: 30
 url: /ja/net/aspose.zip.saving/paralleloptions/parallelcompressinmemory/
@@ -18,7 +18,7 @@ public ParallelCompressionMode ParallelCompressInMemory { get; set; }
 
 * enum [ParallelCompressionMode](../../parallelcompressionmode/)
 * class [ParallelOptions](../)
-* 名前空間 [Aspose.Zip.Saving](../../paralleloptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Saving](../../paralleloptions/)
+* assembly [Aspose.Zip](../../../)
 
 

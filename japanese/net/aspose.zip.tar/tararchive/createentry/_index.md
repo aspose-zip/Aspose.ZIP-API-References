@@ -1,9 +1,9 @@
 ---
-title: TarArchive.CreateEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: TarArchive 方法. アーカイブ内に単一のエントリを作成します
+title: "TarArchive.CreateEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "TarArchive メソッド。アーカイブ内に単一のエントリを作成します"
 type: docs
-weight: 80
+weight: 110
 url: /ja/net/aspose.zip.tar/tararchive/createentry/
 ---
 ## CreateEntry(string, Stream, FileSystemInfo) {#createentry_1}
@@ -14,7 +14,7 @@ url: /ja/net/aspose.zip.tar/tararchive/createentry/
 public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo = null)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
 | source | Stream | エントリの入力ストリーム。 |
@@ -22,22 +22,23 @@ public TarEntry CreateEntry(string name, Stream source, FileSystemInfo fileInfo 
 
 ### 戻り値
 
-tar エントリ インスタンス。
+Tar エントリ インスタンス。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| PathTooLongException | *name* IEEE 1003.1-1998 標準の tar には長すぎます。 |
-| ArgumentException | 一部としてのファイル名*name*、100 シンボルを超えています。 |
+| PathTooLongException | *name* は IEEE 1003.1-1998 標準に基づく tar の制限を超えて長すぎます。 |
+| ArgumentException | *name* の一部であるファイル名が 100 文字を超えています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません |
 
-### 備考
+## 備考
 
-エントリ名は、*name*パラメータ。で提供されているファイル名*fileInfo*パラメータは、エントリ名には影響しません。
+エントリ名は *name* パラメータ内でのみ設定されます。*fileInfo* パラメータで指定されたファイル名はエントリ名に影響しません。
 
-*fileInfo*参照できますDirectoryInfoエントリがディレクトリの場合。
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new TarArchive())
@@ -51,8 +52,8 @@ using (var archive = new TarArchive())
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -64,32 +65,33 @@ using (var archive = new TarArchive())
 public TarEntry CreateEntry(string name, FileInfo fileInfo, bool openImmediately = false)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
 | fileInfo | FileInfo | 圧縮するファイルまたはフォルダーのメタデータ。 |
-| openImmediately | Boolean | ファイルをすぐに開く場合は true、それ以外の場合はアーカイブ保存時にファイルを開きます。 |
+| openImmediately | Boolean | ファイルをすぐに開く場合は True、そうでなければアーカイブ保存時にファイルを開きます。 |
 
 ### 戻り値
 
-tar エントリ インスタンス。
+Tar エントリ インスタンス。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| PathTooLongException | *name* IEEE 1003.1-1998 標準の tar には長すぎます。 |
-| ArgumentException | 一部としてのファイル名*name*、100 シンボルを超えています。 |
+| PathTooLongException | *name* は IEEE 1003.1-1998 標準に基づく tar の制限を超えて長すぎます。 |
+| ArgumentException | *name* の一部であるファイル名が 100 文字を超えています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません |
 
-### 備考
+## 備考
 
-エントリ名は、*name*パラメータ。で提供されているファイル名*fileInfo*パラメータは、エントリ名には影響しません。
+エントリ名は *name* パラメータ内でのみ設定されます。*fileInfo* パラメータで指定されたファイル名はエントリ名に影響しません。
 
-*fileInfo*参照できますDirectoryInfoエントリがディレクトリの場合。
+*fileInfo* can refer to DirectoryInfo if the entry is directory.
 
-ファイルがすぐに開かれた場合*openImmediately*パラメータは、アーカイブが破棄されるまでブロックされます。
+*openImmediately* パラメータでファイルをすぐに開くと、アーカイブが破棄されるまでブロックされます。
 
-### 例
+## 例
 
 ```csharp
 FileInfo fi = new FileInfo("data.bin");
@@ -104,8 +106,8 @@ using (var archive = new TarArchive())
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 ---
 
@@ -117,34 +119,35 @@ using (var archive = new TarArchive())
 public TarEntry CreateEntry(string name, string path, bool openImmediately = false)
 ```
 
-| パラメータ | タイプ | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
 | name | String | エントリの名前。 |
-| path | String | 圧縮するファイルへのパス。 |
-| openImmediately | Boolean | ファイルをすぐに開く場合は true、それ以外の場合はアーカイブ保存時にファイルを開きます。 |
+| path | String | 圧縮対象ファイルへのパス。 |
+| openImmediately | Boolean | ファイルをすぐに開く場合は True、そうでなければアーカイブ保存時にファイルを開きます。 |
 
 ### 戻り値
 
-tar エントリ インスタンス。
+Tar エントリ インスタンス。
 
 ### 例外
 
-| 例外 | 調子 |
+| 例外 | 条件 |
 | --- | --- |
-| ArgumentNullException | *path*無効である。 |
-| SecurityException | 呼び出し元には、アクセスに必要なアクセス許可がありません。 |
-| ArgumentException | の*path*が空であるか、空白のみが含まれているか、無効な文字が含まれています。 - または - の一部としてのファイル名*name*、100 シンボルを超えています。 |
-| UnauthorizedAccessException | ファイルへのアクセス*path*否定された。 |
-| PathTooLongException | 指定された*path*、ファイル名、またはその両方がシステム定義の最大長を超えています。たとえば、Windows ベースのプラットフォームでは、パスは 248 文字未満、ファイル名は 260 文字未満である必要があります。 - また -*name* IEEE 1003.1-1998 標準の tar には長すぎます。 |
-| NotSupportedException | ファイル*path*文字列の途中にコロン (:) が含まれています。 |
+| ArgumentNullException | *path* が null です。 |
+| SecurityException | 呼び出し元にはアクセスに必要な権限がありません。 |
+| ArgumentException | *path* が空であるか、空白文字のみを含むか、無効な文字を含んでいます。-または- *name* の一部であるファイル名が 100 文字を超えています。 |
+| UnauthorizedAccessException | ファイル *path* へのアクセスが拒否されました。 |
+| PathTooLongException | 指定された *path*、ファイル名、またはその両方がシステム定義の最大長を超えています。例として、Windows プラットフォームではパスは 248 文字未満、ファイル名は 260 文字未満である必要があります。-または- *name* は IEEE 1003.1-1998 標準に基づく tar の制限を超えて長すぎます。 |
+| NotSupportedException | *path* のファイル名に文字列の途中にコロン (:) が含まれています。 |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません |
 
-### 備考
+## 備考
 
-エントリ名は、*name*パラメータ。で提供されているファイル名*path*パラメータは、エントリ名には影響しません。
+エントリ名は *name* パラメータ内でのみ設定されます。*path* パラメータで指定されたファイル名はエントリ名に影響しません。
 
-ファイルがすぐに開かれた場合*openImmediately*パラメータは、アーカイブが破棄されるまでブロックされます。
+*openImmediately* パラメータでファイルをすぐに開くと、アーカイブが破棄されるまでブロックされます。
 
-### 例
+## 例
 
 ```csharp
 using (var archive = new TarArchive())
@@ -158,7 +161,7 @@ using (var archive = new TarArchive())
 
 * class [TarEntry](../../tarentry/)
 * class [TarArchive](../)
-* 名前空間 [Aspose.Zip.Tar](../../tararchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Tar](../../tararchive/)
+* assembly [Aspose.Zip](../../../)
 
 

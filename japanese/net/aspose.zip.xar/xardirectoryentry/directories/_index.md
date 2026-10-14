@@ -1,14 +1,14 @@
 ---
-title: XarDirectoryEntry.Directories
-second_title: Aspose.ZIP for .NET API リファレンス
-description: XarDirectoryEntry 財産. のエントリを取得しますXarDirectoryEntryディレクトリを構成する型.
+title: "XarDirectoryEntry.Directories"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "XarDirectoryEntry プロパティ。ディレクトリを構成する XarDirectoryEntry 型のエントリを取得します"
 type: docs
 weight: 20
 url: /ja/net/aspose.zip.xar/xardirectoryentry/directories/
 ---
 ## XarDirectoryEntry.Directories property
 
-のエントリを取得します[`XarDirectoryEntry`](../)ディレクトリを構成する型.
+ディレクトリを構成する [`XarDirectoryEntry`](../) 型のエントリを取得します。
 
 ```csharp
 public IEnumerable<XarDirectoryEntry> Directories { get; }
@@ -17,7 +17,7 @@ public IEnumerable<XarDirectoryEntry> Directories { get; }
 ### 関連項目
 
 * class [XarDirectoryEntry](../)
-* 名前空間 [Aspose.Zip.Xar](../../xardirectoryentry/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Xar](../../xardirectoryentry/)
+* assembly [Aspose.Zip](../../../)
 
 

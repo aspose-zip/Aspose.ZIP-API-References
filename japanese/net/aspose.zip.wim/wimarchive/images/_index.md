@@ -1,24 +1,30 @@
 ---
-title: WimArchive.Images
-second_title: Aspose.ZIP for .NET API リファレンス
-description: WimArchive 財産. のエントリを取得しますWimImageアーカイブを構成するタイプ.
+title: "WimArchive.Images"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "WimArchive プロパティ。アーカイブを構成する WimImage 型のエントリを取得します。"
 type: docs
-weight: 50
+weight: 60
 url: /ja/net/aspose.zip.wim/wimarchive/images/
 ---
 ## WimArchive.Images property
 
-のエントリを取得します[`WimImage`](../../wimimage/)アーカイブを構成するタイプ.
+アーカイブを構成する [`WimImage`](../../wimimage/) 型のエントリを取得します。
 
 ```csharp
 public ReadOnlyCollection<WimImage> Images { get; }
 ```
 
+### 例外
+
+| 例外 | 条件 |
+| --- | --- |
+| ObjectDisposedException | アーカイブは破棄されており、使用できません。 |
+
 ### 関連項目
 
 * class [WimImage](../../wimimage/)
 * class [WimArchive](../)
-* 名前空間 [Aspose.Zip.Wim](../../wimarchive/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip.Wim](../../wimarchive/)
+* assembly [Aspose.Zip](../../../)
 
 

@@ -1,35 +1,48 @@
 ---
-title: ArchiveLoadOptions.EntryExtractionProgressed
-second_title: Aspose.ZIP for .NET API リファレンス
-description: ArchiveLoadOptions 財産. 一部のバイトが抽出されたときに呼び出されるデリゲートを取得または設定します
+title: "ArchiveLoadOptions.EntryExtractionProgressed"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "ArchiveLoadOptions プロパティ。いくつかのバイトが抽出されたときに呼び出されるデリゲートを取得または設定します"
 type: docs
-weight: 40
+weight: 50
 url: /ja/net/aspose.zip/archiveloadoptions/entryextractionprogressed/
 ---
 ## ArchiveLoadOptions.EntryExtractionProgressed property
 
-一部のバイトが抽出されたときに呼び出されるデリゲートを取得または設定します。
+バイトが抽出されたときに呼び出されるデリゲートを取得または設定します。
 
 ```csharp
-public EventHandler<ProgressEventArgs> EntryExtractionProgressed { get; set; }
+public EventHandler<ProgressCancelEventArgs> EntryExtractionProgressed { get; set; }
 ```
 
-### 備考
+## 備考
 
-イベント送信者は[`ArchiveEntry`](../../archiveentry/)抽出が進行するインスタンス。
+イベント送信者は抽出が進行中の [`ArchiveEntry`](../../archiveentry/) インスタンスです。
 
-### 例
+## 例
+
+エントリ抽出の進行状況を追跡します。
 
 ```csharp
-Archive archive = new Archive("archive.zip", 
+var archive = new Archive("archive.zip", 
 new ArchiveLoadOptions() { EntryExtractionProgressed = (s, e) => { int percent = (int)((100 * e.ProceededBytes) / ((ArchiveEntry)s).UncompressedSize); } })                 
+```
+
+一定時間後にエントリ抽出をキャンセルします。
+
+```csharp
+Stopwatch watch = Stopwatch.StartNew();
+using (Archive a = new Archive("big.zip", new ArchiveLoadOptions() {
+    EntryExtractionProgressed = (s, e) => { if (watch.ElapsedMilliseconds > 1000) e.Cancel = true; } }))
+{
+    a.Entries[0].Extract("first.bin");
+}
 ```
 
 ### 関連項目
 
-* class [ProgressEventArgs](../../progresseventargs/)
+* class [ProgressCancelEventArgs](../../progresscanceleventargs/)
 * class [ArchiveLoadOptions](../)
-* 名前空間 [Aspose.Zip](../../archiveloadoptions/)
-* 組み立て [Aspose.Zip](../../../)
+* namespace [Aspose.Zip](../../archiveloadoptions/)
+* assembly [Aspose.Zip](../../../)
 
 

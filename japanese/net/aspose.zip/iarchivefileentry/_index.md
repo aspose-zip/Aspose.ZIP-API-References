@@ -1,14 +1,14 @@
 ---
-title: Interface IArchiveFileEntry
-second_title: Aspose.ZIP for .NET API リファレンス
-description: Aspose.Zip.IArchiveFileEntry インターフェース. このインターフェイスはアーカイブ ファイル エントリを表します
+title: "インターフェイス IArchiveFileEntry"
+second_title: "Aspose.ZIP .NET 用 API リファレンス"
+description: "Aspose.Zip.IArchiveFileEntry インターフェイス。このインターフェイスはアーカイブファイルエントリを表します。"
 type: docs
-weight: 230
+weight: 540
 url: /ja/net/aspose.zip/iarchivefileentry/
 ---
 ## IArchiveFileEntry interface
 
-このインターフェイスは、アーカイブ ファイル エントリを表します。
+このインターフェイスはアーカイブファイルエントリを表します。
 
 ```csharp
 public interface IArchiveFileEntry
@@ -18,19 +18,19 @@ public interface IArchiveFileEntry
 
 | 名前 | 説明 |
 | --- | --- |
-| [Length](../../aspose.zip/iarchivefileentry/length/) { get; } | エントリの長さをバイト単位で取得します。 |
+| [Length](../../aspose.zip/iarchivefileentry/length/) { get; } | エントリの長さ（バイト単位）を取得します。 |
 | [Name](../../aspose.zip/iarchivefileentry/name/) { get; } | エントリの名前を取得します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Extract](../../aspose.zip/iarchivefileentry/extract/#extract_1)(Stream) | 提供されたストリームにエントリを抽出します。 |
-| [Extract](../../aspose.zip/iarchivefileentry/extract/#extract)(string) | 提供されたパスによってファイルシステムへのエントリを抽出します. |
+| [Extract](../../aspose.zip/iarchivefileentry/extract/#extract_1)(Stream) | エントリを提供されたストリームに抽出します。 |
+| [Extract](../../aspose.zip/iarchivefileentry/extract/#extract)(string) | エントリを提供されたパスでファイルシステムに抽出します。 |
 
 ### 関連項目
 
-* 名前空間 [Aspose.Zip](../../aspose.zip/)
-* 組み立て [Aspose.Zip](../../)
+* namespace [Aspose.Zip](../../aspose.zip/)
+* assembly [Aspose.Zip](../../)
 
 
