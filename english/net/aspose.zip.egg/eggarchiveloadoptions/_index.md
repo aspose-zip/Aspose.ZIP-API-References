@@ -25,6 +25,7 @@ public class EggArchiveLoadOptions
 | Name | Description |
 | --- | --- |
 | [CancellationToken](../../aspose.zip.egg/eggarchiveloadoptions/cancellationtoken/) { get; set; } | Gets or sets a cancellation token used to cancel the extraction operation. |
+| [DecryptionPassword](../../aspose.zip.egg/eggarchiveloadoptions/decryptionpassword/) { get; set; } | Gets or sets the password used to decrypt encrypted entry contents. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Enum SevenZipCompressionMethod
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.SevenZipCompressionMethod enum. Methods of compression that 7Z format support
 type: docs
-weight: 1040
+weight: 1050
 url: /net/aspose.zip.saving/sevenzipcompressionmethod/
 ---
 ## SevenZipCompressionMethod enumeration

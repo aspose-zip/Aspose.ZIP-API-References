@@ -3,7 +3,7 @@ title: Class TarLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Tar.TarLoadOptions class. Options with which TarArchive is loaded from a compressed file
 type: docs
-weight: 1300
+weight: 1310
 url: /net/aspose.zip.tar/tarloadoptions/
 ---
 ## TarLoadOptions class

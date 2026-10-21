@@ -18,6 +18,10 @@ public FileInfo Extract(string path)
 | --- | --- | --- |
 | path | String | The path to destination file. If the file already exists, it will be overwritten. |
 
+### Return Value
+
+The file info of a composed file.
+
 ### Exceptions
 
 | exception | condition |
