@@ -3,7 +3,7 @@ title: Enum RarDictionaryStorageMode
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Rar.RarDictionaryStorageMode enum. Specifies how the RAR decompression dictionary is stored
 type: docs
-weight: 840
+weight: 850
 url: /net/aspose.zip.rar/rardictionarystoragemode/
 ---
 ## RarDictionaryStorageMode enumeration
