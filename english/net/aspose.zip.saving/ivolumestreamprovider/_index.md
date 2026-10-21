@@ -3,7 +3,7 @@ title: Interface IVolumeStreamProvider
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Saving.IVolumeStreamProvider interface. Provider of streams for multivolume archive composition
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.zip.saving/ivolumestreamprovider/
 ---
 ## IVolumeStreamProvider interface

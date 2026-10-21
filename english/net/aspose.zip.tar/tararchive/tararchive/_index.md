@@ -42,9 +42,10 @@ Initializes a new instance of the [`TarArchive`](../) class and composes an entr
 public TarArchive(Stream sourceStream, TarLoadOptions loadOptions = null)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| sourceStream | The source of the archive. It must be seekable. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | Stream | The source of the archive. It must be seekable. |
+| loadOptions | TarLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 
@@ -87,9 +88,10 @@ Initializes a new instance of the [`TarArchive`](../) class and composes an entr
 public TarArchive(string path, TarLoadOptions loadOptions = null)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| path | The path to the archive file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | The path to the archive file. |
+| loadOptions | TarLoadOptions | Options to load existing archive with. |
 
 ### Exceptions
 

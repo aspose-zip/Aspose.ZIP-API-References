@@ -15,6 +15,7 @@ The Egg namespace contains classes which represent EGG related entities.
 | [EggArchive](./eggarchive/) | This class represents an EGG archive file. Use it to extract EGG archives. |
 | [EggArchiveLoadOptions](./eggarchiveloadoptions/) | Options with which an EGG archive is loaded from a compressed file. |
 | [EggEntry](./eggentry/) | Represents a file entry in an EGG archive with all its metadata. |
+| [EggEntryEncrypted](./eggentryencrypted/) | Represents an encrypted EGG entry. |
 | [EggEntryPlain](./eggentryplain/) | EGG entry that can be decompressed without decryption. |
 
 
