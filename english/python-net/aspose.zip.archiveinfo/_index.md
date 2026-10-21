@@ -13,7 +13,6 @@ Contains classes which represent archive info related entities.
 ## Classes
 | Class | Description |
 | :- | :- |
-|[ArchiveFormatDetector](/zip/python-net/aspose.zip.archiveinfo/archiveformatdetector/)|Detects an archive format and provides other related information.|
 |[ArchiveFormatInfo](/zip/python-net/aspose.zip.archiveinfo/archiveformatinfo/)|Represents information about the archive format.|
 |[ArchiveInstanceInfo](/zip/python-net/aspose.zip.archiveinfo/archiveinstanceinfo/)|Represents information about the archive instance.|
 ## Enumerations

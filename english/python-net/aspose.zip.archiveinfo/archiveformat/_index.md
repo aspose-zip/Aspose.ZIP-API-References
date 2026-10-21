@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.Zip for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /python-net/aspose.zip.archiveinfo/archiveformat/
 ---
 
@@ -39,7 +39,8 @@ Supported archive formats.
 |UUE|Uue encoded file ([UueArchive](/zip/python-net/aspose.zip.uue/uuearchive/))|
 |LZX|Lzx archive ([LzxArchive](/zip/python-net/aspose.zip.lzx/lzxarchive/))|
 |APPLE|Apple archive ([AppleArchive](/zip/python-net/aspose.zip.apple/applearchive/)).|
-|ALZ|Apple archive ([AlzArchive](/zip/python-net/aspose.zip.alz/alzarchive/)).|
+|ALZ|Alz archive ([AlzArchive](/zip/python-net/aspose.zip.alz/alzarchive/)).|
+|EGG|Egg archive ([EggArchive](/zip/python-net/aspose.zip.egg/eggarchive/)).|
 
 ### See Also
 
