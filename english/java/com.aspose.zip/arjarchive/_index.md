@@ -3,7 +3,7 @@ title: ArjArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents an ARJ archive file.
 type: docs
-weight: 37
+weight: 36
 url: /java/com.aspose.zip/arjarchive/
 ---
 
