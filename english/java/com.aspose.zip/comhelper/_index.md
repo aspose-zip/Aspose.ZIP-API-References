@@ -3,7 +3,7 @@ title: ComHelper
 second_title: Aspose.ZIP for Java API Reference
 description: Provides methods for COM clients to load archives into Aspose.Zip.
 type: docs
-weight: 55
+weight: 54
 url: /java/com.aspose.zip/comhelper/
 ---
 

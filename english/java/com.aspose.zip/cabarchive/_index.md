@@ -3,7 +3,7 @@ title: CabArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a CAB archive file.
 type: docs
-weight: 44
+weight: 43
 url: /java/com.aspose.zip/cabarchive/
 ---
 

@@ -3,7 +3,7 @@ title: TarArchive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents a tar archive file.
 type: docs
-weight: 125
+weight: 129
 url: /java/com.aspose.zip/tararchive/
 ---
 
@@ -23,7 +23,9 @@ This class represents a tar archive file. Use it to compose, extract, or update 
 | --- | --- |
 | [TarArchive()](#TarArchive--) | Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) class. |
 | [TarArchive(InputStream sourceStream)](#TarArchive-java.io.InputStream-) | Initializes a new instance of the [Archive](../../com.aspose.zip/archive) class and composes an entry list can be extracted from the archive. |
+| [TarArchive(InputStream sourceStream, TarLoadOptions loadOptions)](#TarArchive-java.io.InputStream-com.aspose.zip.TarLoadOptions-) | Initializes an archive from a stream using the specified load options. |
 | [TarArchive(String path)](#TarArchive-java.lang.String-) | Initializes a new instance of the [TarArchive](../../com.aspose.zip/tararchive) class and composes an entry list can be extracted from the archive. |
+| [TarArchive(String path, TarLoadOptions loadOptions)](#TarArchive-java.lang.String-com.aspose.zip.TarLoadOptions-) | Initializes an archive from a file using the specified load options. |
 ## Methods
 
 | Method | Description |
@@ -145,6 +147,20 @@ This constructor does not unpack any entry. See [TarEntry.open()](../../com.aspo
 | --- | --- | --- |
 | sourceStream | java.io.InputStream | the source of the archive |
 
+### TarArchive(InputStream sourceStream, TarLoadOptions loadOptions) {#TarArchive-java.io.InputStream-com.aspose.zip.TarLoadOptions-}
+```
+public TarArchive(InputStream sourceStream, TarLoadOptions loadOptions)
+```
+
+
+Initializes an archive from a stream using the specified load options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceStream | java.io.InputStream | source of the archive. |
+| loadOptions | [TarLoadOptions](../../com.aspose.zip/tarloadoptions) | options used to load and extract the archive; may be `null`. |
+
 ### TarArchive(String path) {#TarArchive-java.lang.String-}
 ```
 public TarArchive(String path)
@@ -171,6 +187,20 @@ This constructor does not unpack any entry. See [TarEntry.open()](../../com.aspo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | path | java.lang.String | the path to the archive file |
+
+### TarArchive(String path, TarLoadOptions loadOptions) {#TarArchive-java.lang.String-com.aspose.zip.TarLoadOptions-}
+```
+public TarArchive(String path, TarLoadOptions loadOptions)
+```
+
+
+Initializes an archive from a file using the specified load options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | path to the archive file. |
+| loadOptions | [TarLoadOptions](../../com.aspose.zip/tarloadoptions) | options used to load and extract the archive; may be `null`. |
 
 ### close() {#close--}
 ```

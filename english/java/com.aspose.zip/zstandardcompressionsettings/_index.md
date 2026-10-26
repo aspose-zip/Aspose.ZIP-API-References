@@ -3,7 +3,7 @@ title: ZstandardCompressionSettings
 second_title: Aspose.ZIP for Java API Reference
 description: Settings for Zstandard compression within a ZIP archive.
 type: docs
-weight: 157
+weight: 162
 url: /java/com.aspose.zip/zstandardcompressionsettings/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AppleArchiveEntry
 second_title: Aspose.ZIP for Java API Reference
-description: Represents a file or directory entry within an .
+description: Represents a filesystem entry within an .
 type: docs
 weight: 17
 url: /java/com.aspose.zip/applearchiveentry/
@@ -16,7 +16,7 @@ java.lang.Object
 public final class AppleArchiveEntry implements IArchiveFileEntry
 ```
 
-Represents a file or directory entry within an [AppleArchive](../../com.aspose.zip/applearchive).
+Represents a filesystem entry within an [AppleArchive](../../com.aspose.zip/applearchive).
 
 An instance of this class can represent either an entry parsed from an existing Apple Archive or an entry added to an archive being composed.
 ## Methods
@@ -28,6 +28,7 @@ An instance of this class can represent either an entry parsed from an existing 
 | [getLength()](#getLength--) | Gets the uncompressed length of the entry in bytes. |
 | [getName()](#getName--) | Gets the path of the entry inside the archive. |
 | [isDirectory()](#isDirectory--) | Gets a value indicating whether the entry represents a directory. |
+| [isSymbolicLink()](#isSymbolicLink--) | Gets a value indicating whether the entry represents a symbolic link. |
 | [open()](#open--) | Opens the entry for extraction and provides a stream with the entry content. |
 ### extract(OutputStream destination) {#extract-java.io.OutputStream-}
 ```
@@ -106,6 +107,16 @@ Gets a value indicating whether the entry represents a directory.
 
 **Returns:**
 boolean - a value indicating whether the entry represents a directory.
+### isSymbolicLink() {#isSymbolicLink--}
+```
+public final boolean isSymbolicLink()
+```
+
+
+Gets a value indicating whether the entry represents a symbolic link.
+
+**Returns:**
+boolean - `true` for a symbolic-link entry.
 ### open() {#open--}
 ```
 public final InputStream open()

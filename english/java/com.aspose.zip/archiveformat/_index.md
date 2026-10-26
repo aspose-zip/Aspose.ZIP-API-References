@@ -3,7 +3,7 @@ title: ArchiveFormat
 second_title: Aspose.ZIP for Java API Reference
 description: Supported archive formats.
 type: docs
-weight: 163
+weight: 169
 url: /java/com.aspose.zip/archiveformat/
 ---
 
@@ -24,6 +24,7 @@ Supported archive formats.
 | [Bzip2](#Bzip2) | Bzip2 archive ([Bzip2Archive](../../com.aspose.zip/bzip2archive)). |
 | [Cab](#Cab) | Cab archive ([CabArchive](../../com.aspose.zip/cabarchive)). |
 | [Cpio](#Cpio) | Cpio archive ([CpioArchive](../../com.aspose.zip/cpioarchive)). |
+| [Egg](#Egg) | Egg archive ([EggArchive](../../com.aspose.zip/eggarchive)). |
 | [Gzip](#Gzip) | Gzip archive ([GzipArchive](../../com.aspose.zip/gziparchive)). |
 | [Iso](#Iso) | Iso archive ([IsoArchive](../../com.aspose.zip/isoarchive)). |
 | [Lha](#Lha) | Lha archive ([LhaArchive](../../com.aspose.zip/lhaarchive)). |
@@ -97,6 +98,14 @@ public static final ArchiveFormat Cpio
 
 
 Cpio archive ([CpioArchive](../../com.aspose.zip/cpioarchive)).
+
+### Egg {#Egg}
+```
+public static final ArchiveFormat Egg
+```
+
+
+Egg archive ([EggArchive](../../com.aspose.zip/eggarchive)).
 
 ### Gzip {#Gzip}
 ```

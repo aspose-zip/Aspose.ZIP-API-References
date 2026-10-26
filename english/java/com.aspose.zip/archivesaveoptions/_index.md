@@ -3,7 +3,7 @@ title: ArchiveSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving a ZIP archive.
 type: docs
-weight: 36
+weight: 35
 url: /java/com.aspose.zip/archivesaveoptions/
 ---
 
