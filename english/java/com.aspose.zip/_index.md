@@ -19,7 +19,7 @@ url: /java/com.aspose.zip/
 | [AlzEntryEncrypted](../com.aspose.zip/alzentryencrypted) | Represents an ALZ entry that is decrypted before decompression. |
 | [AlzEntryPlain](../com.aspose.zip/alzentryplain) | Represents an unencrypted ALZ entry. |
 | [AppleArchive](../com.aspose.zip/applearchive) | This class represents an Apple Archive (.aar) file. |
-| [AppleArchiveEntry](../com.aspose.zip/applearchiveentry) | Represents a file or directory entry within an [AppleArchive](../com.aspose.zip/applearchive). |
+| [AppleArchiveEntry](../com.aspose.zip/applearchiveentry) | Represents a filesystem entry within an [AppleArchive](../com.aspose.zip/applearchive). |
 | [AppleArchiveEntrySettings](../com.aspose.zip/applearchiveentrysettings) | Settings used to compose entries inside [AppleArchive](../com.aspose.zip/applearchive). |
 | [AppleArchiveLoadOptions](../com.aspose.zip/applearchiveloadoptions) | Options with which [AppleArchive](../com.aspose.zip/applearchive) is loaded from a compressed file. |
 | [AppleCompressionSettings](../com.aspose.zip/applecompressionsettings) | Settings needed for Apple Archive entry compression. |
@@ -34,7 +34,6 @@ url: /java/com.aspose.zip/
 | [ArchiveEntryPlain](../com.aspose.zip/archiveentryplain) | Zip entry that needs to be compressed without encryption or decompressed without decryption. |
 | [ArchiveEntrySettings](../com.aspose.zip/archiveentrysettings) | Settings used to compress or decompress entries. |
 | [ArchiveFactory](../com.aspose.zip/archivefactory) | Detects the archive format and creates the appropriate [IArchive](../com.aspose.zip/iarchive) object according to the type of archive. |
-| [ArchiveFormatDetector](../com.aspose.zip/archiveformatdetector) | Detects an archive format and provides other related information. |
 | [ArchiveFormatInfo](../com.aspose.zip/archiveformatinfo) | Represents information about the archive format. |
 | [ArchiveInstanceInfo](../com.aspose.zip/archiveinstanceinfo) | Represents information about the archive instance. |
 | [ArchiveLoadOptions](../com.aspose.zip/archiveloadoptions) | Options with which ZIP archive is loaded from a compressed file. |
@@ -62,6 +61,11 @@ url: /java/com.aspose.zip/
 | [CpioArchive](../com.aspose.zip/cpioarchive) | This class represents cpio archive file. |
 | [CpioEntry](../com.aspose.zip/cpioentry) | Represents single file within cpio archive. |
 | [DeflateCompressionSettings](../com.aspose.zip/deflatecompressionsettings) | Settings for Deflate compression within a ZIP archive. |
+| [EggArchive](../com.aspose.zip/eggarchive) | This class represents an EGG archive file. |
+| [EggArchiveLoadOptions](../com.aspose.zip/eggarchiveloadoptions) | Options with which an EGG archive is loaded from a compressed file. |
+| [EggEntry](../com.aspose.zip/eggentry) | Represents a file entry in an EGG archive with all its metadata. |
+| [EggEntryEncrypted](../com.aspose.zip/eggentryencrypted) | Represents an encrypted EGG entry. |
+| [EggEntryPlain](../com.aspose.zip/eggentryplain) | EGG entry that can be decompressed without decryption. |
 | [EncryptionSettings](../com.aspose.zip/encryptionsettings) | Base class for settings for several ZIP encryption methods. |
 | [EnhancedDeflateCompressionSettings](../com.aspose.zip/enhanceddeflatecompressionsettings) | Settings for Enhanced Deflate compression within a ZIP archive. |
 | [EntryEventArgs](../com.aspose.zip/entryeventargs) | Event arguments for entry related events. |
@@ -129,6 +133,7 @@ url: /java/com.aspose.zip/
 | [StoreCompressionSettings](../com.aspose.zip/storecompressionsettings) | Settings for Store compression within a ZIP archive. |
 | [TarArchive](../com.aspose.zip/tararchive) | This class represents a tar archive file. |
 | [TarEntry](../com.aspose.zip/tarentry) | Represents single file within tar archive. |
+| [TarLoadOptions](../com.aspose.zip/tarloadoptions) | Options with which [TarArchive](../com.aspose.zip/tararchive) is loaded from a compressed file. |
 | [TraditionalEncryptionSettings](../com.aspose.zip/traditionalencryptionsettings) | Settings for traditional ZipCrypto algorithm within a ZIP archive. |
 | [UueArchive](../com.aspose.zip/uuearchive) | This class represents uuencoded file. |
 | [UueSaveOptions](../com.aspose.zip/uuesaveoptions) | Options for saving an uuencoded file. |
@@ -170,6 +175,7 @@ url: /java/com.aspose.zip/
 | [Event&lt;TArgs&gt;](../com.aspose.zip/event) | An event. |
 | [IArchive](../com.aspose.zip/iarchive) | This interface represents an archive. |
 | [IArchiveFileEntry](../com.aspose.zip/iarchivefileentry) | This interface represents an archive file entry. |
+| [IVolumeStreamProvider](../com.aspose.zip/ivolumestreamprovider) | Provider of streams for multi-volume archive composition. |
 
 ## Enumerations
 
