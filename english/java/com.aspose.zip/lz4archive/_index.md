@@ -3,7 +3,7 @@ title: Lz4Archive
 second_title: Aspose.ZIP for Java API Reference
 description: This class represents LZ4 archive file.
 type: docs
-weight: 80
+weight: 84
 url: /java/com.aspose.zip/lz4archive/
 ---
 

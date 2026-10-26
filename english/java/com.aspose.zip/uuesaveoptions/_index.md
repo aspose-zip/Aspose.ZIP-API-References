@@ -3,7 +3,7 @@ title: UueSaveOptions
 second_title: Aspose.ZIP for Java API Reference
 description: Options for saving an uuencoded file.
 type: docs
-weight: 129
+weight: 134
 url: /java/com.aspose.zip/uuesaveoptions/
 ---
 

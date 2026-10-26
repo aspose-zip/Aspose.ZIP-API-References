@@ -63,6 +63,7 @@ This class represents a zip archive file. Use it to compose, extract, or update 
 | [save(OutputStream outputStream, ArchiveSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.ArchiveSaveOptions-) | Saves archive to the stream provided. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
 | [save(String destinationFileName, ArchiveSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.ArchiveSaveOptions-) | Saves archive to the destination file provided. |
+| [saveSplit(IVolumeStreamProvider streamProvider, SplitArchiveSaveOptions options)](#saveSplit-com.aspose.zip.IVolumeStreamProvider-com.aspose.zip.SplitArchiveSaveOptions-) | Saves a multi-volume archive to streams supplied by a provider. |
 | [saveSplit(String destinationDirectory, SplitArchiveSaveOptions options)](#saveSplit-java.lang.String-com.aspose.zip.SplitArchiveSaveOptions-) | Saves multi-volume archive to the destination directory provided. |
 ### Archive() {#Archive--}
 ```
@@ -1201,6 +1202,22 @@ It is possible to save an archive to the same path as it was loaded from. Howeve
 | --- | --- | --- |
 | destinationFileName | java.lang.String | The path of the archive to be created. If the specified file name points to an existing file, it will be overwritten. |
 | saveOptions | [ArchiveSaveOptions](../../com.aspose.zip/archivesaveoptions) | Options for archive saving. |
+
+### saveSplit(IVolumeStreamProvider streamProvider, SplitArchiveSaveOptions options) {#saveSplit-com.aspose.zip.IVolumeStreamProvider-com.aspose.zip.SplitArchiveSaveOptions-}
+```
+public final void saveSplit(IVolumeStreamProvider streamProvider, SplitArchiveSaveOptions options)
+```
+
+
+Saves a multi-volume archive to streams supplied by a provider.
+
+The provider is notified after every volume has been written. Streams are closed by this method after the notification.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| streamProvider | [IVolumeStreamProvider](../../com.aspose.zip/ivolumestreamprovider) | provider of output streams for archive volumes. |
+| options | [SplitArchiveSaveOptions](../../com.aspose.zip/splitarchivesaveoptions) | split archive saving options. |
 
 ### saveSplit(String destinationDirectory, SplitArchiveSaveOptions options) {#saveSplit-java.lang.String-com.aspose.zip.SplitArchiveSaveOptions-}
 ```
