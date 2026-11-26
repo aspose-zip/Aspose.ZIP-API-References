@@ -3,7 +3,7 @@ title: IVolumeStreamProvider
 second_title: Aspose.ZIP for Java API Reference
 description: Provider of streams for multi-volume archive composition.
 type: docs
-weight: 168
+weight: 169
 url: /java/com.aspose.zip/ivolumestreamprovider/
 ---
 ```

@@ -3,7 +3,7 @@ title: RarDictionaryStorageMode
 second_title: Aspose.ZIP for Java API Reference
 description: Specifies how the RAR decompression dictionary is stored.
 type: docs
-weight: 173
+weight: 174
 url: /java/com.aspose.zip/rardictionarystoragemode/
 ---
 

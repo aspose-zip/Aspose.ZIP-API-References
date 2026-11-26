@@ -129,6 +129,7 @@ url: /java/com.aspose.zip/
 | [SharEntry](../com.aspose.zip/sharentry) | Represents a single file within shar archive. |
 | [SnappyArchive](../com.aspose.zip/snappyarchive) | This class represents a snappy archive file. |
 | [SplitArchiveSaveOptions](../com.aspose.zip/splitarchivesaveoptions) | Options for saving a multi-volume ZIP archive. |
+| [SplitCabSaveOptions](../com.aspose.zip/splitcabsaveoptions) | Options for saving a multi-volume CAB archive. |
 | [SplitSevenZipArchiveSaveOptions](../com.aspose.zip/splitsevenziparchivesaveoptions) | Options for saving a multi-volume 7-zip archive. |
 | [StoreCompressionSettings](../com.aspose.zip/storecompressionsettings) | Settings for Store compression within a ZIP archive. |
 | [TarArchive](../com.aspose.zip/tararchive) | This class represents a tar archive file. |
