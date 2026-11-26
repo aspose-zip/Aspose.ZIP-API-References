@@ -21,6 +21,7 @@ This class represents a CAB archive file.
 
 | Constructor | Description |
 | --- | --- |
+| [CabArchive()](#CabArchive--) | Creates an empty CAB archive for compression with the default entry settings. |
 | [CabArchive(CabEntrySettings settings)](#CabArchive-com.aspose.zip.CabEntrySettings-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class prepared for compressing. |
 | [CabArchive(InputStream sourceStream)](#CabArchive-java.io.InputStream-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
 | [CabArchive(InputStream sourceStream, CabLoadOptions loadOptions)](#CabArchive-java.io.InputStream-com.aspose.zip.CabLoadOptions-) | Initializes a new instance of the [CabArchive](../../com.aspose.zip/cabarchive) class and composes an entry list can be extracted from the archive. |
@@ -51,6 +52,28 @@ This class represents a CAB archive file.
 | [save(OutputStream outputStream, CabSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.zip.CabSaveOptions-) | Saves archive to the stream provided with specific options. |
 | [save(String destinationFileName)](#save-java.lang.String-) | Saves archive to the destination file provided. |
 | [save(String destinationFileName, CabSaveOptions saveOptions)](#save-java.lang.String-com.aspose.zip.CabSaveOptions-) | Saves archive to the destination file provided. |
+| [saveSplit(String destinationDirectory, SplitCabSaveOptions saveOptions)](#saveSplit-java.lang.String-com.aspose.zip.SplitCabSaveOptions-) | Saves the archive as a linked set of CAB volumes in an existing directory. |
+### CabArchive() {#CabArchive--}
+```
+public CabArchive()
+```
+
+
+Creates an empty CAB archive for compression with the default entry settings.
+
+```
+
+``````
+
+ try (CabArchive archive = new CabArchive()) {
+     archive.createEntry("first.bin", "data.bin");
+     archive.save("archive.cab");
+ }
+ 
+```
+
+
+
 ### CabArchive(CabEntrySettings settings) {#CabArchive-com.aspose.zip.CabEntrySettings-}
 ```
 public CabArchive(CabEntrySettings settings)
@@ -777,4 +800,18 @@ Saves archive to the destination file provided.
 | saveOptions | [CabSaveOptions](../../com.aspose.zip/cabsaveoptions) | Options for archive saving.
 
 It is possible to save an archive to the same path as it was loaded from. However, this is not recommended because this approach uses copying to a temporary file. |
+
+### saveSplit(String destinationDirectory, SplitCabSaveOptions saveOptions) {#saveSplit-java.lang.String-com.aspose.zip.SplitCabSaveOptions-}
+```
+public final void saveSplit(String destinationDirectory, SplitCabSaveOptions saveOptions)
+```
+
+
+Saves the archive as a linked set of CAB volumes in an existing directory. A base name of `volume` produces `volume1.cab`, `volume2.cab`, and so on. An empty archive produces a single volume. Volumes are written directly to their destination files without overwriting existing files. If saving fails, the volumes created by this call are removed where possible.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destinationDirectory | java.lang.String | existing directory for the volumes |
+| saveOptions | [SplitCabSaveOptions](../../com.aspose.zip/splitcabsaveoptions) | options for volume names, size, checksums and entry sources |
 
