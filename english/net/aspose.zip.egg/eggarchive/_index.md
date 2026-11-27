@@ -3,7 +3,7 @@ title: Class EggArchive
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Egg.EggArchive class. This class represents an EGG archive file. Use it to extract EGG archives
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.zip.egg/eggarchive/
 ---
 ## EggArchive class
