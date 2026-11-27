@@ -42,6 +42,7 @@ public class CabArchive : IArchive
 | [ExtractToDirectory](../../aspose.zip.cab/cabarchive/extracttodirectory/)(string) | Extracts all the files in the archive to the directory provided. |
 | [Save](../../aspose.zip.cab/cabarchive/save/#save)(Stream, CabSaveOptions) | Saves archive to the stream provided. |
 | [Save](../../aspose.zip.cab/cabarchive/save/#save_1)(string, CabSaveOptions) | Saves archive to the destination file provided. |
+| [SaveSplit](../../aspose.zip.cab/cabarchive/savesplit/)(string, SplitCabSaveOptions) | Saves the archive as a linked set of CAB volumes in the destination directory. |
 
 ### See Also
 

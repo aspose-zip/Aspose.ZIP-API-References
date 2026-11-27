@@ -3,7 +3,7 @@ title: Class EggEntryPlain
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Egg.EggEntryPlain class. EGG entry that can be decompressed without decryption
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.zip.egg/eggentryplain/
 ---
 ## EggEntryPlain class
