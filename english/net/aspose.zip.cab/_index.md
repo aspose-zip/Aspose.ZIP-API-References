@@ -20,5 +20,6 @@ The Cab namespace contains classes which represent Cab archive related entities.
 | [CabMsZipCompressionSettings](./cabmszipcompressionsettings/) | Compression settings that encode CAB data blocks using MSZip (deflate) compression. |
 | [CabSaveOptions](./cabsaveoptions/) | Options for saving a CAB archive. |
 | [CabStoreCompressionSettings](./cabstorecompressionsettings/) | Compression settings that keep CAB data blocks uncompressed. |
+| [SplitCabSaveOptions](./splitcabsaveoptions/) | Options for saving a multi-volume CAB archive. |
 
 

@@ -3,7 +3,7 @@ title: Class EggArchiveLoadOptions
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Egg.EggArchiveLoadOptions class. Options with which an EGG archive is loaded from a compressed file
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.zip.egg/eggarchiveloadoptions/
 ---
 ## EggArchiveLoadOptions class

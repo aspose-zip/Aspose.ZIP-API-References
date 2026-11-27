@@ -3,7 +3,7 @@ title: Class EggEntry
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Egg.EggEntry class. Represents a file entry in an EGG archive with all its metadata
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.zip.egg/eggentry/
 ---
 ## EggEntry class

@@ -3,7 +3,7 @@ title: Enum XzCheckType
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Xz.Settings.XzCheckType enum. The enumeration defines checksum calculation approach for xz archive
 type: docs
-weight: 1550
+weight: 1560
 url: /net/aspose.zip.xz.settings/xzchecktype/
 ---
 ## XzCheckType enumeration

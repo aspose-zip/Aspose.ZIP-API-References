@@ -3,7 +3,7 @@ title: Class EggEntryEncrypted
 second_title: Aspose.ZIP for .NET API Reference
 description: Aspose.Zip.Egg.EggEntryEncrypted class. Represents an encrypted EGG entry
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.zip.egg/eggentryencrypted/
 ---
 ## EggEntryEncrypted class
